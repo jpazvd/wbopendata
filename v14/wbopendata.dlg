@@ -1,0 +1,150 @@
+*! v 10  22jan2012               by Joao Pedro Azevedo                       *
+
+VERSION 9.0               /*  22jan2012  */
+SYNCHRONOUS_ONLY
+POSITION . . 550 400
+
+OK      ok1,    label("OK")
+CANCEL  can1,   label("Cancel")
+SUBMIT  sub1
+COPY    copy1
+HELP    hlp1,   view("help wbopendata")
+RESET   res1,   label("Reset")
+
+PROGRAM PREINIT_PROGRAM
+BEGIN
+	call create STRING str_country
+	call create ARRAY countrylist
+	call create ARRAY countryvalues
+	put "wbopendata_populate_list countrylist country.txt"
+	stata hidden 
+ 
+	call create ARRAY indicatorlist
+	put "wbopendata_populate_list indicatorlist indicators.txt"
+	stata hidden
+END
+
+DIALOG main, label("World Bank Open Databases") tabtitle("Options")
+BEGIN
+ GROUPBOX lang1			10  10  520  60,			///
+	label("Select the language")
+ TEXT lab1			20  35  180  10,			///
+	label(Language)
+ COMBOBOX language		200 @   150  20,			/// 
+	dropdownlist							///
+	contents(languagelist)						///
+	default(en - English)						///
+	nomemory 							///
+	label(Language)
+
+ GROUPBOX options1		10  90  520  200,			///
+	label("Options for download")
+ TEXT lab2			20  120 180  10,			///
+	label(Country - WDI or All series)
+ COMBOBOX country		200 @   150  20,			/// 
+	dropdown							/// 
+	contents(countrylist)						///
+	values(countryvalues)						///
+	onselchange("program main_country_onselchange")			///
+	nomemory							///
+	label(Country - WDI or All series)
+ EDIT ed_country	 	360 @	100  20,			///
+	label("junk")
+
+ TEXT lab2a			150  +20  180  10,			///
+	label(and/or)
+
+ TEXT lab3			20  +35  180  10,			///
+	label(Indicators - All series)
+ COMBOBOX indicator		200 @    260  20, 			///
+	dropdown							///
+	contents(indicatorlist)						///
+	nomemory 							///
+	label(Indicators - All series)
+
+ TEXT lab3a			150  +20  180  10,			///
+	label(or)
+
+ TEXT lab4			20  +35  180  10,			   ///
+	label(Topics - WDI series)
+ COMBOBOX topic			200 @    260  20,			///
+	dropdown 							///
+	contents(topiclist)						///
+	nomemory 							///
+	label(Topics - WDI series)
+
+ GROUPBOX options2		10  310  520  50,			///
+	label("Format Option")
+ CHECKBOX ck_long		60  +20  180  .,			///
+	option(long)							///
+	nomemory 							///
+	label(Import the data in the long format)
+ CHECKBOX ck_clear		300  @  180  .,				///
+	option(clear)							///
+	nomemory							///
+	label(Replace data in memory)
+END
+
+LIST languagelist
+BEGIN
+	en - English
+	es - Spanish
+	fr - French
+END
+
+LIST topiclist
+BEGIN
+    1 - Agriculture & Rural Development
+    2 - Aid Effectiveness
+    3 - Economy & Growth
+    4 - Education
+    5 - Energy & Mining
+    6 - Environment
+    7 - Financial Sector
+    8 - Health
+    9 - Infrastructure
+    10 - Social Protection & Labor
+    11 - Poverty
+    12 - Private Sector
+    13 - Public Sector
+    14 - Science & Technology
+    15 - Social Development
+    16 - Urban Development
+    17 - Gender
+    18 - Millenium development goals
+    19 - Climate Change
+    20 - External Debt
+    21 - Trade  
+END
+
+PROGRAM main_country_onselchange
+BEGIN
+	if main.country.isneq("") {
+		call str_country.setvalue class main.country.value
+		call str_country.withvalue main.ed_country.append "@"
+	}
+	
+END
+
+PROGRAM command
+BEGIN
+    put "wbopendata "
+    beginoptions
+        put " language(" main.language
+        put ") "
+        put " country(" main.ed_country
+        put ") "
+        put " topics(" main.topic
+        put ") "
+        put " indicator(" main.indicator
+        put ") "
+        option main.ck_clear
+                option main.ck_long
+    endoptions
+END
+
+**********************************************************
+
+
+
+
