@@ -6,13 +6,13 @@ wbopendata draws from the main World Bank collections of development indicators,
 
 ## Blog Posts
 
-[Wbopendata Stata Module Upgrade (Posted by João Pedro Azevedo on 07/08/2014)](https://blogs.worldbank.org/category/tags/wbopendata)
+[Wbopendata Stata Module Upgrade (posted on 8 July 2014 by João Pedro Azevedo)](https://blogs.worldbank.org/category/tags/wbopendata)
 
-[World Bank’s open data policy and -wbopendata- (Posted on 10 February 2011 by Mitch Abdon)](http://statadaily.com/tag/wbopendata/)
+[New Stata module released (Posted on 6 February 2013 by João Pedro Azevedo)](http://blogs.worldbank.org/opendata/node/562)
 
-[World Bank Development Data in Stata (Thursday, 17 February 2011)](http://rlab-data.blogspot.com/2011/02/world-bank-development-data-in-stata.html)
+[World Bank Development Data in Stata (posted on Thursday, 17 February 2011)](http://rlab-data.blogspot.com/2011/02/world-bank-development-data-in-stata.html)
 
-[New Stata module released (Posted by João Pedro Azevedo on 02/06/2013)](http://blogs.worldbank.org/opendata/node/562)
+[World Bank’s open data policy and -wbopendata- (posted on 10 February 2011 by Mitch Abdon)](http://statadaily.com/tag/wbopendata/)
 
 ## Suggested Citation
 
