@@ -17,7 +17,6 @@ wbopendata draws from the main World Bank collections of development indicators,
 ## Suggested Citation
 
 [Joao Pedro Azevedo, 2011. "WBOPENDATA: Stata module to access World Bank databases," Statistical Software Components S457234, Boston College Department of Economics, revised 10 Feb 2016.](https://ideas.repec.org/c/boc/bocode/s457234.html)
-
 #### Handle: RePEc:boc:bocode:s457234 
 
 ## Note: 
