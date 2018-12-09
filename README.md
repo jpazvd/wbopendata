@@ -2,17 +2,47 @@
 
 ## Description
 
-wbopendata draws from the main World Bank collections of development indicators, compiled from officially-recognized international sources, and made available through the World Bank Open Data Initiative, and presents the most current and accurate global development data available, and includes national, regional and global estimates. Users can chose from one of three of the languages supported by the database, namely, English, Spanish, or French. Three possible downloads options are currently supported: country - all indicators for all years for a single country. topic - all indicators within a specific topic, for all years and all countries. indicator - all years for all countries for a single indicator. Users can also choose to have the data displayed in either the wide or long format (wide is the default option).
+    wbopendata allows Stata users to download over 9,900 indicators from the World Bank databases, including: Development
+    Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance;
+    Gender Statistics; Health Nutrition and Population Statistics; International Development Association - Results Measurement
+    System; Millennium Development Goals; World Development Indicators; Worldwide Governance Indicators; and LAC Equity Lab.
+    These indicators include information from over 256 countries and regions, since 1960.
+
+    Users can chose from one of three of the languages supported by the database (and Stata), namely, English, Spanish, or
+    French.
+
+    Five possible downloads options are currently supported:
+
+      country                     over 1,000 indicators for all selected years for a single country (WDI Catalogue).
+      topics                      WDI indicators within a specific topic, for all selected years and all countries (WDI
+                                   Catalogue).
+      indicator                   all selected years for all countries for a single indicator (from any of the catalogues:
+                                   9,000+ series).
+      indicator and country       all selected years for selected countries for a single indicator (from any of the
+                                   catalogues: 9,000+ series).
+      multiple indicator          all selected years for selected indicators separated by ; (from any of the catalogues:
+                                   9,000+ series).
+
+    Users can also choose to have the data displayed in either the wide or long format (wide is the default option).  Note
+    that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.
+
+    wbopendata draws from the main World Bank collections of development indicators, compiled from officially-recognized
+    international sources. It presents the most current and accurate global development data available, and includes national,
+    regional and global estimates.
+
+    The access to this databases is made possible by the World Bank's Open Data Initiative which provide open full access to 
+    World Bank databases.
+
 
 ## Blog Posts
 
-[Wbopendata Stata Module Upgrade (posted on 8 July 2014 by Jo„o Pedro Azevedo)](https://blogs.worldbank.org/category/tags/wbopendata)
+[Wbopendata Stata Module Upgrade (posted on 8 July 2014 by Jo√£o Pedro Azevedo)](https://blogs.worldbank.org/category/tags/wbopendata)
 
-[New Stata module released (Posted on 6 February 2013 by Jo„o Pedro Azevedo)](http://blogs.worldbank.org/opendata/node/562)
+[New Stata module released (Posted on 6 February 2013 by Jo√£o Pedro Azevedo)](http://blogs.worldbank.org/opendata/node/562)
 
 [World Bank Development Data in Stata (posted on Thursday, 17 February 2011)](http://rlab-data.blogspot.com/2011/02/world-bank-development-data-in-stata.html)
 
-[World Bankís open data policy and -wbopendata- (posted on 10 February 2011 by Mitch Abdon)](http://statadaily.com/tag/wbopendata/)
+[World Bank‚Äôs open data policy and -wbopendata- (posted on 10 February 2011 by Mitch Abdon)](http://statadaily.com/tag/wbopendata/)
 
 ## Suggested Citation
 
