@@ -50,8 +50,6 @@ The use of World Bank datasets listed in the Data Catalog is governed by a speci
 The terms of use of the APIs is governed by the [World Bank Terms and Conditions](http://go.worldbank.org/C09SUA7BK0/).
 
 
-
-
 ## Blog Posts
 
 [Wbopendata Stata Module Upgrade (posted on 8 July 2014 by João Pedro Azevedo)](https://blogs.worldbank.org/category/tags/wbopendata)
