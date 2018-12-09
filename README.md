@@ -21,7 +21,7 @@ Users can also choose to have the data displayed in either the wide or long form
 
 wbopendata draws from the main World Bank collections of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.
 
-The access to this databases is made possible by the World Bank's Open Data Initiative which provide open full access to World Bank databases.
+The access to this databases is made possible by the World Bank's Open Data Initiative which provide open full access to [World Bank databases](http://data.worldbank.org/).
 
 ### Parameters
 
@@ -32,6 +32,23 @@ The access to this databases is made possible by the World Bank's Open Data Init
 
 
 - indicator(string): Indicators List list of indicator codes (All series). When selecting multiple indicators please use semicolon (;), to separate differenet indicatos.
+
+## Disclaimer
+
+   Users should not use wbopendata without checking first for more detailed information on the definitions of each [indicator](http://data.worldbank.org/indicator/)
+    and [data-catalogues](http://data.worldbank.org/data-catalog/). The indicators names and codes used by wbopendata are precisely the same used in the World Bank data
+    catalogue in order to facilitate such cross reference.
+
+   When downloading specific series, through the indicator options, wbopendata will by default display in the Stata results
+    window the metadata available for this particular series, including information on the name of the series, the source, a
+    detailed description of the indicator, and the organization responsible for compiling this indicator.
+
+## Terms of use World Bank Data
+   
+The use of World Bank datasets listed in the Data Catalog is governed by a specific [Terms of Use for World Bank Data](http://data.worldbank.org/summary-terms-of-use/).
+            
+The terms of use of the APIs is governed by the [World Bank Terms and Conditions](http://go.worldbank.org/C09SUA7BK0/).
+
 
 
 
