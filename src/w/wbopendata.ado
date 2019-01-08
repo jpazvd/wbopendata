@@ -170,14 +170,15 @@ quietly {
 end
 
 **********************************************************************************
+*  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
 *       long reshape
 *  v 13.3  30june2014               by Joao Pedro Azevedo                        *
 *       new error control (clear option)
 *  v 13.2  24june2014               by Joao Pedro Azevedo                        *
 *       new error control
-* v 13.1  23june2014               by Joao Pedro Azevedo                        *
+*  v 13.1  23june2014               by Joao Pedro Azevedo                        *
 *       regional code, name and iso2code
-* v 13  20june2014               by Joao Pedro Azevedo                        *
+*  v 13  20june2014               by Joao Pedro Azevedo                        *
 * 		fix the dups problem                                                    *
 *       improve the error messages                                              *
 *       update the list of indicators to 9960                                 *
