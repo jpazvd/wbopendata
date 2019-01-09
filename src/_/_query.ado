@@ -13,7 +13,7 @@ version 9.0
                          COUNTRY(string)            ///
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
-                         YEAR(string)               ///
+                         DATE(string)               ///
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
