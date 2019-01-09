@@ -1,4 +1,9 @@
-cd "C:\Users\wb255520\OneDrive - WBG\000.general\02.ado_files_\14.wbopendata\versions\v14"
+*cd "C:\Users\wb255520\OneDrive - WBG\000.general\02.ado_files_\14.wbopendata\versions\v14"
+
+cd "C:\Users\wb255520\data"
+
+cd "C:\Users\wb255520\Documents\myados\wbopendata\src" 
+
 set checksum off, perm
 
 *** wbopendata, country(chn - China) clear
