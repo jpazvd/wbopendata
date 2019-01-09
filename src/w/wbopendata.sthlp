@@ -2,7 +2,7 @@
 {hline}
 {* 20JUne2014 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
-{right: {bf:version 13.3}}
+{right: {bf:version 14.0}}
 {hline}
 
 {title:Title}
@@ -31,7 +31,7 @@
 {synopt :{opt clear}} replace data in memory.{p_end}
 {synopt :{opt latest}} keep only the latest available value of a single indicator.{p_end}
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
-{synopt :{opt year}{cmd:(}{it:year1}{cmd::}{it:year2}{cmd:)}} time interval.{p_end}
+{synopt :{opt date}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
 {synoptline}
 {p 4 6 2}
@@ -60,7 +60,7 @@ Sections are presented under the following headings:
 {title:Description}
 {pstd}
 
-{p 4 4 2}{cmd:wbopendata} allows Stata users to download over 9,900 indicators from the World Bank databases, including: Development 
+{p 4 4 2}{cmd:wbopendata} allows Stata users to download over 16,000 indicators from the World Bank databases, including: Development 
 Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance; 
 Gender Statistics; Health Nutrition and Population Statistics; International Development Association - Results Measurement System; 
 Millennium Development Goals; World Development Indicators; Worldwide Governance Indicators; and LAC Equity Lab. These indicators include information 
@@ -126,7 +126,9 @@ RAM to complete this operation.{p_end}
 specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
 
-{synopt:{opt year:(year1:year2)}} allow users to select a specific time interval. Year1=Initial year; Year2=Final year.{p_end}
+{synopt:{opt date:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date 
+should be expressed in yearly format, however for specific series quartely and montly series will be supported. Please check data documentation 
+at the World Bank Data website to identify which format is supported.{p_end}
            
 {synopt:{opt language(option)}}three languages are supported: The default language is English.{p_end}
 

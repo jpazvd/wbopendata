@@ -1,9 +1,9 @@
 *******************************************************************************
 * _query                                                                      *
-*! v 14  	09/16/2018               by Joao Pedro Azevedo
+*! v 14.0  	09Jan2019               by Joao Pedro Azevedo                     *
 *******************************************************************************
 
-program def _query_v2, rclass
+program def _query, rclass
 
 version 9.0
 
@@ -13,7 +13,7 @@ version 9.0
                          COUNTRY(string)            ///
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
-                         DATE(string)               ///
+                         YEAR(string)               ///
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
@@ -63,7 +63,8 @@ quietly {
         if ("`indicator2'" == "") {
             local indicator2 "`indicator1'"
         }
-        local parameter "Indicators/`indicator1'"
+        local year1     "date=`year'&"
+        local parameter "Indicators/`indicator1'?`year1'"
         local id " countryname countrycode "
     }
 
@@ -80,8 +81,8 @@ quietly {
         di  as err "Users can not select an indicator and a topic at the same time. Please try again."
         exit 198
     }
-    if  ("`indicator'" == "") & ("`date'" != "") {
-        di  as err "date option can only be used for the selection of specific indicators. Please try again."
+    if  ("`indicator'" == "") & ("`year'" != "") {
+        di  as err "year option can only be used for the selection of specific indicators. Please try again."
         exit 198
     }
     if  ("`indicator'" == "") & ("`latest'" != "") {
@@ -99,34 +100,12 @@ quietly {
     if ("`country'" != "") & ("`indicator'" != "") {
         local country2 "`country1'"
     }
-    if  ("`indicator'" != "") & ("`date'" != "") {
-		local datecheck = strmatch("`date'","*:*")
-		if (`datecheck'==1) {
-			local date "date=`date'&"
-		}
-		if (`datecheck'==0) {
-			di  as err "Invalid date-range. A range is indicated using the colon separator. Please try again."
-			exit 198
-		}
-		
-    }
-	
 
     tempfile temp
 
-*	http://w2msddpqan51.worldbank.org/v2/ 
-*			country/jpn/indicator/sp.pop.totl?downloadformat=csv&HREQ=Y&filetype=data
 
-*	http://w2msddpqan51.worldbank.org/v2/
-*			country/aus/?downloadformat=CSV&HREQ=N&filetype=data
+	loc servername "http://api.worldbank.org/v2/"  /* Query server v2 */
 
-*	http://w2msddpqan51.worldbank.org/v2/
-*		indicators/sp.pop.totl?downloadformat=csv&HREQ=Y&filetype=data
-
-
-*    loc servername "http://api.worldbank.org"     /* Query server */
-	loc servername "http://w2msddpqan51.worldbank.org/v2"  /* Query v2 */
-	
 
 /* country selection */
     if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") {
@@ -148,7 +127,7 @@ quietly {
         }
     }
     if  ("`indicator'" != "") {
-        capture : copy "`servername'/`language'/countries/`country2'/`parameter'?`date'downloadformat=CSV&HREQ=N&filetype=data" `temp'
+        capture : copy "`servername'/`language'/countries/`country2'/`parameter'?downloadformat=CSV&HREQ=N&filetype=data" `temp'
         local rc2 = _rc
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
@@ -186,10 +165,10 @@ quietly {
         if (real("`varname'") != .) {
             rename `var' yr`varname'
             local l1    "yr"
-            local l2    "date"
+            local l2    "year"
             local l3    ""
-            local l4    "lab var date Date"
-            local t1  "date"
+            local l4    "lab var year Year"
+            local t1  "year"
         }
         else {
             if match("`varname'","*Q*") == 1 {
@@ -234,8 +213,8 @@ quietly {
     if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "") {
         local w1 = word("`country'",1)
         local w2 = trim(subinstr("`country'","`w1' - ","",.))
-*        gen str5 countrycode  = upper("`w1'")
-*        gen str80 countryname = "`w2'"
+        gen str5 countrycode  = upper("`w1'")
+        gen str80 countryname = "`w2'"
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
@@ -244,8 +223,8 @@ quietly {
     if ("`long'" == "") & ("`indicator'" != "") {
         local w1 = word("`indicator'",1)
         local w2 = trim(subinstr("`indicator' ","`w1' - ","",.))
-*        gen indicatorcode = "`w1'"
-*        gen indicatorname = "`w2'"
+        gen indicatorcode = "`w1'"
+        gen indicatorname = "`w2'"
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -272,8 +251,8 @@ quietly {
 
         local w1 = word("`country'",1)
         local w2 = trim(subinstr("`country'","`w1' - ","",.))
-*        gen str5 countrycode  = upper("`w1'")
-*        gen str80 countryname = "`w2'"
+        gen str5 countrycode  = upper("`w1'")
+        gen str80 countryname = "`w2'"
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
@@ -305,8 +284,8 @@ quietly {
     if ("`long'" != "") & ("`indicator'" != "") {
         local w1 = word("`indicator'",1)
         local w2 = trim(subinstr("`indicator' ","`w1' - ","",.))
-*        gen indicatorcode = "`w1'"
-*        gen indicatorname = "`w2'"
+        gen indicatorcode = "`w1'"
+        gen indicatorname = "`w2'"
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
