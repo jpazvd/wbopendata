@@ -23,6 +23,8 @@ version 9.0
 
 quietly {
 
+	local year = `date'
+
     if ("`language'" == "") {
         local language "en"
     }
