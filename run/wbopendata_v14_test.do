@@ -20,7 +20,7 @@ wbopendata2, country(chn - China) clear testserver
 des
 
 set trace on
-set tracedepth 3
+set tracedepth 6
 
 
 set trace off
@@ -51,7 +51,7 @@ set trace off
 wbopendata2, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear nometadata
 codebook indicatorcode
 
-wbopendata2, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear testserver nometadata
+wbopendata2, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear nometadata testserver 
 codebook indicatorcode
 
 *** wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear
@@ -112,3 +112,16 @@ keep if year == 2015
 sum if year == 2015
 browse if year == 2015
 gen sp_pop_0717_to_un  = sp_pop_0713_to_un+ sp_pop_1317_to_un
+
+
+
+
+wbopendata2, country(ago;bdi;chi;dnk;esp) indicator(SP.POP.TOTL) year(2000:2010) clear 
+tab countrycode
+
+wbopendata2, country(ago;bdi;chi;dnk;esp) indicator(SP.POP.TOTL) year(2000:2010) clear testserver 
+tab countrycode
+
+
+
+wbopendata2, country(ago;bdi;chi;dnk;esp) indicator(LO.PISA.SCI.6.MA) year(2000:2010) clear testserver 
