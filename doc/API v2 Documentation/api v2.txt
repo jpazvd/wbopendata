@@ -1,14 +1,15 @@
+**** Indicator API - By country 
+*** QA - Indicator By Country 
+
 http://w2msddpqan51.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=csv&HREQ=N&filetype=data
 
 http://w2msddpqan51.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=csv&HREQ=Y&filetype=data
-
-
  
 http://w2msddpqan51.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=EXCEL&HREQ=Y&filetype=data
 
 http://w2msddpqan51.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=EXCEL&HREQ=N&filetype=data
 
-
+http://api.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=EXCEL&HREQ=Y&filetype=data
  
 http://w2msddpqan51.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=Y
 
@@ -18,28 +19,66 @@ http://w2msddpqan51.worldbank.org/v2/country/aus/?downloadformat=EXCEL
 
 http://w2msddpqan51.worldbank.org/v2/country/aus/?downloadformat=CSV&HREQ=N&filetype=data
 
-
-
 http://w2msddpqan51.worldbank.org/v2/country/aus/?downloadformat=CSV&HREQ=Y&filetype=data
 
 http://w2msddpqan51.worldbank.org/v2/country/aus/?downloadformat=CSV&HREQ=Y&filetype=metadata
 
+*** Production - Indicator By Country 
 
-http://w2msddpqan51.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=EXCEL&HREQ=Y&filetype=data
+http://api.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=csv&HREQ=N&filetype=data
+
+http://api.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=csv&HREQ=Y&filetype=data
+ 
+http://api.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=EXCEL&HREQ=Y&filetype=data
+
+http://api.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=EXCEL&HREQ=N&filetype=data
+
+http://api.worldbank.org/v2/country/jpn/indicator/sp.pop.totl?downloadformat=EXCEL&HREQ=Y&filetype=data
+ 
+http://api.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=Y
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=N /* OK
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=N&filetype=data /* OK
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=EXCEL&filetype=data /* OK excel only data
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=EXCEL&filetype=metadata /* Fail 
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=CSV&HREQ=N&filetype=data /* OK - in principal no header, however header is comming
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=CSV&HREQ=Y&filetype=data /* OK - with header
+
+http://api.worldbank.org/v2/country/aus/?downloadformat=CSV&HREQ=Y&filetype=metadata /* Fail
 
 
+*****************************************************
+*** QA - Indicators by All countries
 
-http://w2msddpqan51.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=csv&HREQ=Y&filetype=data
+http://w2msddpqan51.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=EXCEL&HREQ=Y&filetype=data /* OK
+
+http://w2msddpqan51.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=csv&HREQ=Y&filetype=data /* OK
+
+http://w2msddpqan51.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=csv&HREQ=N&filetype=data /* OK CSV Data Only no Header
+
+http://w2msddpqan51.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=csv&HREQ=N&filetype=metadata /* Fail
+
+*** Production - Indicators by All countries
+
+http://api.worldbank.org/v2/indicators/sp.pop.totl?downloadformat=csv&HREQ=N&filetype=data /* OK CSV Data Only no Header
 
 http://api.worldbank.org/v2/countries/all/indicators/NY.GDP.MKTP.CD?downloadformat=csv&HREQ=N&filetype=data
 
 http://api.worldbank.org/v2/countries/all/indicators/NY.GDP.MKTP.CD?downloadformat=csv&HREQ=N&filetype=data
 
+*****************************************************
+***	Indicator list
 
-http://api.worldbank.org/v2/indicators?per_page=15000
+http://api.worldbank.org/v2/indicators?per_page=15000&page=1
 
 http://api.worldbank.org/v2/indicators?per_page=15000&page=2
 
+*****************************************************
 
 http://api.worldbank.org/v2/indicators?downloadformat=CSV&HREQ=N
 
