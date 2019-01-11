@@ -131,6 +131,7 @@ https://api.worldbank.org/v2/topic/2?downloadformat=csv&filetype=data
 
 https://api.worldbank.org/v2/topic/2downloadformat=csv&filetype=data&HREQ=N
 
+http://api.worldbank.org/v2/en/Topics/2/?downloadformat=CSV&HREQ=N&filetype=data
 
 ***************************************************
 
@@ -174,4 +175,5 @@ http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=Y
 http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=N
 http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL
 
- 
+
+
