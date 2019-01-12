@@ -13,7 +13,7 @@ version 9.0
                          COUNTRY(string)            ///
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
-                         DATE(string)               ///
+                         YEAR(string)               ///
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
@@ -35,11 +35,11 @@ version 9.0
 
 				   tempfile file`f'
 
-				   noi _query_v2 ,       language("`language'")       ///
+				   noi _query ,       language("`language'")       ///
 										 country("`country'")         ///
 										 topics("`topics'")           ///
 										 indicator("``i''")             ///
-										 date("`date'")               ///
+										 year("`year'")               ///
 										 `long'                       ///
 										 `clear'                      ///
 										 `nometadata'
@@ -66,7 +66,7 @@ version 9.0
 					}
 					return local indicator`f'  "`w1'"
 					return local topics`f'     "`topics'"
-					return local date`f'       "`date'"
+					return local year`f'       "`year'"
 					return local source`f'     "`r(source)'"
 					return local varlabel`f'   "`r(varlabel)'"
 					return local time`f'       "`time'"
@@ -95,7 +95,7 @@ version 9.0
 							  country("`country'")         ///
 							  topics("`topics'")           ///
 							  indicator("``i''")             ///
-							  date("`date'")               ///
+							  year("`year'")               ///
 							  `long'                       ///
 							  `clear'                      ///
 							  `latest'                     ///
@@ -124,7 +124,7 @@ version 9.0
 			return local indicator1  "`w1'"
 			return local country1    "`country'"
 			return local topics1     "`topics'"
-			return local date1       "`date'"
+			return local year1       "`year'"
 			return local source1     "`r(source)'"
 			return local varlabel1   "`r(varlabel)'"
 			return local time1       "`time'"
@@ -141,7 +141,7 @@ version 9.0
 			if ("`long'" != "") {
 				use `file1'
 				forvalues i = 2(1)`f'  {
-					merge countrycode date using `file`i''
+					merge countrycode year using `file`i''
 					drop _merge
 					sort countrycode `time'
 				}

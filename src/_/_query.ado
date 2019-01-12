@@ -13,7 +13,7 @@ version 9.0
                          COUNTRY(string)            ///
                          TOPICS(string)             ///
                          INDICATOR(string)          ///
-                         DATE(string)               ///
+                         YEAR(string)               ///
                          LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
@@ -23,7 +23,9 @@ version 9.0
 
 quietly {
 
-	local year = `date'
+	if ("`year'" == "") {
+		local year `date'
+	}
 
     if ("`language'" == "") {
         local language "en"
@@ -106,15 +108,15 @@ quietly {
     tempfile temp
 
 
-	loc servername "http://api.worldbank.org/v2/"  /* Query server v2 */
+	loc servername "http://api.worldbank.org/v2"  /* Query server v2 */
 
 
 /* country selection */
     if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") {
-        capture : copy "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data" `temp'
-        local rc1 = _rc
-        local queryspec "`servername'/`language'/`parameter'"
+        local queryspec "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data"
         local queryspec2 "topic `topics1'"
+        capture : copy "`queryspec'" `temp' , public
+        local rc1 = _rc
         if (`rc1' != 0) {
             noi di ""
             noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
@@ -129,10 +131,10 @@ quietly {
         }
     }
     if  ("`indicator'" != "") {
-        capture : copy "`servername'/`language'/countries/`country2'/`parameter'?downloadformat=CSV&HREQ=N&filetype=data" `temp'
-        local rc2 = _rc
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
+        capture : copy "`queryspec'" `temp' , public
+        local rc2 = _rc
         if (`rc2' != 0) {
             noi di ""
             noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
