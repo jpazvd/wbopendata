@@ -176,7 +176,20 @@ http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=N
 http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL
 
 
+http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL&HREQ=N&filetype=data
 
+http://databankapiqa.worldbank.org/v2/countries/aus/?downloadformat=EXCEL&HREQ=N&filetype=data
+
+http://api.worldbank.org/v2/countries/aus/?downloadformat=EXCEL&HREQ=N&filetype=data
+
+
+https://api.worldbank.org/v2/en/countries/aus/?downloadformat=csv&HREQ=N&filetype=data
+
+https://api.worldbank.org/v2/en/Countries/aus/?downloadformat=csv&HREQ=N&filetype=data
+
+http://api.worldbank.org/v2/en/Countries/chn/?downloadformat=CSV&HREQ=N&filetype=data
+
+http://api.worldbank.org/v2/en/Countries/chn/?downloadformat=CSV&HREQ=N&filetype=data
 
 Good to talk today. The QA server endpoints are:
 http://databankapiqa.worldbank.org/v2/indicator/sp.pop.totl/?downloadformat=csv&filetype=data
@@ -196,3 +209,11 @@ If there are any issues with your tests this afternoon, please let me know immed
 
 
 http://databankapiqa.worldbank.org/v2/en/countries/all/Indicators/ag.agr.trac.no?downloadformat=csv&HREQ=N&filetype=data
+
+
+
+http://api.worldbank.org/en/Countries/chn?format=csv
+
+
+
+http://api.worldbank.org/en/Countries/chn?downloadformat=csv&HREQ=N&filetype=data
