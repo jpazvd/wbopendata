@@ -177,3 +177,22 @@ http://databankapiqa.worldbank.org/v2/country/aus/?downloadformat=EXCEL
 
 
 
+
+Good to talk today. The QA server endpoints are:
+http://databankapiqa.worldbank.org/v2/indicator/sp.pop.totl/?downloadformat=csv&filetype=data
+http://databankapiqa.worldbank.org/v2/countries/all/indicators/NY.GDP.MKTP.CD?downloadformat=csv&filetype=data&dataformat=list
+http://databankapiqa.worldbank.org/v2/lendingtypes?downloadformat=excel
+http://databankapiqa.worldbank.org/v2/incomelevels?downloadformat=excel
+
+To retrieve metadata:
+http://databankapiqa.worldbank.org/v2/sources/2/country/usa;jpn/series/SP.POP.TOTL/metadata?downloadformat=csv
+http://databankapiqa.worldbank.org/v2/sources/2/concepts/metadata
+http://databankapiqa.worldbank.org/v2/sources/2/metatypes
+(the last two do not allow download as an option)
+
+If there are any issues with your tests this afternoon, please let me know immediately. Other issues I will raise as new bugs/feature requests to be fixed on a continuous basis.
+
+
+
+
+http://databankapiqa.worldbank.org/v2/en/countries/all/Indicators/ag.agr.trac.no?downloadformat=csv&HREQ=N&filetype=data
