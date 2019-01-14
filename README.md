@@ -13,9 +13,9 @@ Five possible downloads options are currently supported:
 
 - country: over 2,500 indicators for all selected years for a single country (WDI Catalogue).
 - topics: WDI indicators within a specific topic, for all selected years and all countries (WDI Catalogue).
-- indicator: all selected years for all countries for a single indicator (from any of the catalogues: 18,000+ series).
-- indicator and country: all selected years for selected countries for a single indicator (from any of the catalogues: 18,000+ series).
-- multiple indicator: all selected years for selected indicators separated by ; (from any of the catalogues: 18,000+ series).
+- indicator: all selected years for all countries for a single indicator (from any of the catalogues: 16,000+ series).
+- indicator and country: all selected years for selected countries for a single indicator (from any of the catalogues: 16,000+ series).
+- multiple indicator: all selected years for selected indicators separated by ; (from any of the catalogues: 16,000+ series).
 
 Users can also choose to have the data displayed in either the wide or long format (wide is the default option).  Note that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.
 
