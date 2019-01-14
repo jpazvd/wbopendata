@@ -1,6 +1,6 @@
 *******************************************************************************
 * _query                                                                      *
-*! v 13.4  01jul2014               by Joao Pedro Azevedo                        *
+*! v 14.0  	14Jan2019               by Joao Pedro Azevedo                     *
 *******************************************************************************
 
 program def _query, rclass
@@ -22,6 +22,10 @@ version 9.0
 
 
 quietly {
+
+	if ("`year'" == "") {
+		local year `date'
+	}
 
     if ("`language'" == "") {
         local language "en"
@@ -63,8 +67,13 @@ quietly {
         if ("`indicator2'" == "") {
             local indicator2 "`indicator1'"
         }
-        local year1     "date=`year'&"
-        local parameter "Indicators/`indicator1'?`year1'"
+        if ("`year'" != "") {
+			local year1	"&date=`year'"
+		}
+		else {
+			local year1 	""
+		}
+        local parameter "Indicators/`indicator1'?downloadformat=CSV&HREQ=N&filetype=data`year1'"
         local id " countryname countrycode "
     }
 
@@ -103,13 +112,16 @@ quietly {
 
     tempfile temp
 
-    loc servername "http://api.worldbank.org"     /* Query server */
 
+	loc servername "http://api.worldbank.org/v2"  /* Query server v2 */
+
+
+/* country selection */
     if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") {
-        capture : copy "`servername'/`language'/`parameter'?format=csv" `temp'
-        local rc1 = _rc
-        local queryspec "`servername'/`language'/`parameter'"
+        local queryspec "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data"
         local queryspec2 "topic `topics1'"
+        capture : copy "`queryspec'" `temp' , public
+        local rc1 = _rc
         if (`rc1' != 0) {
             noi di ""
             noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
@@ -124,10 +136,10 @@ quietly {
         }
     }
     if  ("`indicator'" != "") {
-        capture : copy "`servername'/`language'/countries/`country2'/`parameter'format=csv" `temp'
-        local rc2 = _rc
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
+        capture : copy "`queryspec'" `temp' , public
+        local rc2 = _rc
         if (`rc2' != 0) {
             noi di ""
             noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
@@ -208,20 +220,12 @@ quietly {
 ***************************************************
 
     if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "") {
-        local w1 = word("`country'",1)
-        local w2 = trim(subinstr("`country'","`w1' - ","",.))
-        gen str5 countrycode  = upper("`w1'")
-        gen str80 countryname = "`w2'"
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
     }
 
     if ("`long'" == "") & ("`indicator'" != "") {
-        local w1 = word("`indicator'",1)
-        local w2 = trim(subinstr("`indicator' ","`w1' - ","",.))
-        gen indicatorcode = "`w1'"
-        gen indicatorname = "`w2'"
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -244,12 +248,6 @@ quietly {
             drop `dups'
         }
 
-
-
-        local w1 = word("`country'",1)
-        local w2 = trim(subinstr("`country'","`w1' - ","",.))
-        gen str5 countrycode  = upper("`w1'")
-        gen str80 countryname = "`w2'"
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
@@ -279,10 +277,6 @@ quietly {
     }
 
     if ("`long'" != "") & ("`indicator'" != "") {
-        local w1 = word("`indicator'",1)
-        local w2 = trim(subinstr("`indicator' ","`w1' - ","",.))
-        gen indicatorcode = "`w1'"
-        gen indicatorname = "`w2'"
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -1166,6 +1160,8 @@ end
 
 *******************************************************************************
 * _query                                                                      *
+*  v 14  	07/01/2014               by Joao Pedro Azevedo                        *
+*		API update version 2
 *  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
 *       long reshape
 *  v 13.3  30june2014               by Joao Pedro Azevedo                        *
