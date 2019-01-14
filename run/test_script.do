@@ -78,7 +78,7 @@ wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long
 *********************************************************************
 
 cd "C:\Users\wb255520\Documents\myados\wbopendata\src"
-shell git checkout dev
+shell git checkout qa
 discard
 
 which wbopendata
@@ -92,7 +92,17 @@ wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machi
 wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear
 wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) year(2000:2010) clear 
 wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long
+
+*** Other languages
+wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long language(ar)
+wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long language(zh)
+
+*** Date Range (SP.POP.TOTL?date=2000:2001)
+wbopendata, country(ago;bdi;chi;dnk;esp) indicator(ag.agr.trac.no) year(2000:2010) clear 
+wbopendata, country(ago;bdi;chi;dnk;esp) indicator(SP.POP.TOTL) year(2000:2010) clear 
+wbopendata, indicator(SP.POP.TOTL) year(2000:2010) clear 
 wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) year(2000:2010) clear long
+wbopendata, country(ago;bdi;chi;dnk;esp) indicator(LO.PISA.SCI.6.MA) year(2000:2010) clear
 
 *********************************************************************
 
