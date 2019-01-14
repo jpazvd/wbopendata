@@ -2,7 +2,7 @@
 
 ## Description
 
-wbopendata allows Stata users to download over 9,900 indicators from the World Bank databases, including: Development Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance;
+wbopendata allows Stata users to download over 16,000 indicators from the World Bank databases, including: Development Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance;
     Gender Statistics; Health Nutrition and Population Statistics; International Development Association - Results Measurement
     System; Millennium Development Goals; World Development Indicators; Worldwide Governance Indicators; and LAC Equity Lab.
     These indicators include information from over 256 countries and regions, since 1960.
