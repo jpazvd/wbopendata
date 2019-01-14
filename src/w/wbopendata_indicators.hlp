@@ -15654,4 +15654,3 @@
 {synopt:{opt per_sionl.overlap_q1_urb}} Population in the poorest quintile only receiving All Social Insurance (%) -urban{p_end}
 {synopt:{opt s_policyholders_B2_life}} Insurance policy holders per 1,000 adults (life){p_end}
 {synopt:{opt s_policyholders_B2_nonlife}} Insurance policy holders per 1,000 adults (non-life){p_end}
-$. {p_end}
