@@ -21,7 +21,7 @@ copy "`query2'" "`indicator2'", text replace
 
 *========================begin conversion ===========================================*/
 
-cd "C:\Users\wb255520\Documents\myados\wbopendata\run"
+* cd "C:\Users\wb255520\Documents\myados\wbopendata\run"
 
 *	local indicator1 "indicator_1_2.txt"
 *	local indicator2 "indicator_2_2.txt"
