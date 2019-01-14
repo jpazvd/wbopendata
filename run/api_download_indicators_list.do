@@ -3,7 +3,7 @@
 version 9
 
 cd "C:\Users\wb255520\Documents\myados\wbopendata\src"
-shell git checkout dev
+shell git checkout qa
 discard
 
 tempfile indicator1 indicator2
@@ -11,19 +11,20 @@ tempfile indicator1 indicator2
 local query1 "http://api.worldbank.org/v2/indicators?per_page=15000&page=1"
 local query2 "http://api.worldbank.org/v2/indicators?per_page=15000&page=2"
 
-copy "`query1'" indicator_12.txt, public replace
-copy "`query2'" indicator_22.txt, public replace
+*copy "`query1'" indicator_12.txt, public replace
+*copy "`query2'" indicator_22.txt, public replace
 
 copy "`query1'" "`indicator1'", text replace
 copy "`query2'" "`indicator2'", text replace
 
 *local path "path(BASE;SITE; PERSONAL;PLUS)"
 
-========================begin conversion ===========================================*/
+*========================begin conversion ===========================================*/
+
 cd "C:\Users\wb255520\Documents\myados\wbopendata\run"
 
-	local indicator1 "indicator_1_2.txt"
-	local indicator2 "indicator_2_2.txt"
+*	local indicator1 "indicator_1_2.txt"
+*	local indicator2 "indicator_2_2.txt"
 
 	tempfile in out source out3 source3 hlp1 hlp2 indicator help
  	tempname in2 in3 out2 in_tmp saving source1 source2 hlp hlp01 hlp02
