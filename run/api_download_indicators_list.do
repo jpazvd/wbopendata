@@ -34,7 +34,7 @@ copy "`query2'" "`indicator2'", text replace
    
     file open `in2'     using 	`indicator1'		, read
 	file open `in3'     using 	`indicator2'   		, read 
-    file open `out2'    using 	out.txt     		, write text replace
+    file open `out2'    using 	`out'     		, write text replace
     file open `source2' using 	`indicator'  		, write text replace
 	file open `hlp01'	using 	`hlp1', write text replace
 	
