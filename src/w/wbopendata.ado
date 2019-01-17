@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*! v14.0  	14Jan2019               by Joao Pedro Azevedo 
+*! v14.1 	14Jan2019               by Joao Pedro Azevedo 
+*		indicator update function
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -18,10 +19,19 @@ version 9.0
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
+						 UPDATE						///
                  ]
 
 
 	quietly {
+	
+		if ("`update'" != "") {
+		
+			_wbopendata_update, update
+			noi di in y "Update completed"
+			noi di ""
+			break
+		}
 
 		local f = 1
 
@@ -169,6 +179,9 @@ version 9.0
 end
 
 **********************************************************************************
+*  v 14.0  14Jan2019               by Joao Pedro Azevedo 
+*		revised indicator list
+*		change to new API server 
 *  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
 *       long reshape
 *  v 13.3  30june2014               by Joao Pedro Azevedo                        *
