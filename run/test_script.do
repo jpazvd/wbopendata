@@ -85,6 +85,9 @@ which wbopendata
 which _query
 which wbopendata.sthlp
 
+wbopendata, update
+
+
 wbopendata, country(chn - China) clear
 wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
 wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear

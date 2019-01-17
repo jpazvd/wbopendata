@@ -78,35 +78,35 @@ quietly {
     }
 
 
-    if  ("`country'" == "") & ("`topics'" == "") & ("`indicator'" == "") {
+    if  ("`country'" == "") & ("`topics'" == "") & ("`indicator'" == "") & ("`update'" != "") {
         di  as err "Users need to select either a country, a topic, or an indicator. Please try again."
         exit 198
     }
-    if  ("`country'" != "") & ("`topics'" != "") & ("`indicator'" == "") {
+    if  ("`country'" != "") & ("`topics'" != "") & ("`indicator'" == "") & ("`update'" != "") {
         di  as err "Users can not select a country and a topic at the same time. Please try again."
         exit 198
     }
-    if  ("`country'" == "") & ("`topics'" != "") & ("`indicator'" != "") {
+    if  ("`country'" == "") & ("`topics'" != "") & ("`indicator'" != "") & ("`update'" != "") {
         di  as err "Users can not select an indicator and a topic at the same time. Please try again."
         exit 198
     }
-    if  ("`indicator'" == "") & ("`year'" != "") {
+    if  ("`indicator'" == "") & ("`year'" != "") & ("`update'" != "") {
         di  as err "year option can only be used for the selection of specific indicators. Please try again."
         exit 198
     }
-    if  ("`indicator'" == "") & ("`latest'" != "") {
+    if  ("`indicator'" == "") & ("`latest'" != "") & ("`update'" != "") {
         di  as err "latest option can only be used for the selection of specific indicators in the long format. Please try again."
         exit 198
     }
-    if  ("`indicator'" != "") & ("`latest'" != "") & ("`long'" == "") {
+    if  ("`indicator'" != "") & ("`latest'" != "") & ("`long'" == "") & ("`update'" != "") {
         di  as err "latest option can only be used for the selection of specific indicators in the long format. Please try again."
         exit 198
     }
 
-    if ("`country'" == "") & ("`indicator'" != "") {
+    if ("`country'" == "") & ("`indicator'" != "") & ("`update'" != "") {
         local country2 "all"
     }
-    if ("`country'" != "") & ("`indicator'" != "") {
+    if ("`country'" != "") & ("`indicator'" != "") & ("`update'" != "") {
         local country2 "`country1'"
     }
 
