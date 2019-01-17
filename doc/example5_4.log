@@ -1,0 +1,3 @@
+<span class="stinp">. display as txt "sqrt(2) = "
+  as res sqrt(2)</span>
+sqrt(2) = <span class="stres">1.4142136</span>
