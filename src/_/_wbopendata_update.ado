@@ -24,9 +24,9 @@ program define _wbopendata_update, rclass
 		local query2 "http://api.worldbank.org/v2/indicators?per_page=10000&page=2"
 
 
-		copy "`query1'" "`indicator1'", text replace
+		cap: copy "`query1'" "`indicator1'", text replace
 		
-		copy "`query2'" "`indicator2'", text replace
+		cap: copy "`query2'" "`indicator2'", text replace
 
 	*========================begin conversion ===========================================*/
 
@@ -65,6 +65,7 @@ program define _wbopendata_update, rclass
 								local labvar = "`line'"
 								local labvar = trim(subinstr("`labvar'","<wb:name>","",.))
 								local labvar = subinstr("`labvar'","</wb:name>","",.)
+								local labvar = trim(substr("`labvar'",1,230))
 								file write `source2' "`labvar'" _n
 								file write `hlp01' "{synopt:{opt `namevar2'}} `labvar'{p_end}" 	_n
 							}
@@ -160,11 +161,13 @@ program define _wbopendata_update, rclass
 
 	findfile indicators.txt, `path'
 	copy `indicator'  `r(fn)' , replace
-	noi di "New indicator list created"
+	noi di in y "New indicator list created"
+	noi di ""
 
 	findfile wbopendata_indicators.hlp , `path'
 	copy `help'  `r(fn)' , replace
-	noi di "New indicator documentation created. See {help wbopendata_indicators}"
+	noi di in y "New indicator documentation created. See {help wbopendata_indicators}"
+	noi di ""
 
 	*====================================================================================
 

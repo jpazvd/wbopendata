@@ -35,7 +35,7 @@ version 9.0
 
 		local f = 1
 
-		if ("`indicator'" != "") {
+		if ("`indicator'" != "") & ("`update'" == ""){
 
 			_tknz "`indicator'" , parse(;)
 
@@ -57,7 +57,7 @@ version 9.0
 					local name "`r(name)'"
 
 
-					if ("`nometadata'" == "") & ("`indicator'" != ""){
+					if ("`nometadata'" == "") & ("`indicator'" != "") & ("`update'" == "") {
 						cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
