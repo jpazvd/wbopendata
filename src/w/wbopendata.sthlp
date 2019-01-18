@@ -1,7 +1,8 @@
 {smcl}
 {hline}
-{* 20JUne2014 }{...}
+{* 18Jan2019 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
+{right:Indicator List:  {bf:{help wbopendata_indicators##indicators:Indicators List}}}
 {right: {bf:version 14.0}}
 {hline}
 
@@ -72,9 +73,9 @@ from over 256 countries and regions, since 1960.{p_end}
 
 {synopt:{opt country}} over 1,000 indicators for all selected years for a single country (WDI Catalogue).{p_end}
 {synopt:{opt topics}} WDI indicators within a specific topic, for all selected years and all countries (WDI Catalogue).{p_end}
-{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 9,000+ series).{p_end}
-{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 9,000+ series).{p_end}
-{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 9,000+ series).{p_end}
+{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 16,000+ series).{p_end}
+{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 16,000+ series).{p_end}
+{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 16,000+ series).{p_end}
 
 {p 4 4 2}Users can also choose to have the data displayed in either the {cmd:wide} or {cmd:long} format (wide is the default option).
 Note that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.{p_end}
@@ -493,10 +494,10 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {txt}      ({stata "wbopendata_examples example01":click to run})
 
 {cmd}
-        . wbopendata, indicator(si.pov.2day ) clear long
-        . drop if  si_pov_2day == .
+        . wbopendata, indicator(si.pov.dday ) clear long
+        . drop if  si_pov_dday == .
         . sort  countryname year
-        . bysort  countryname : gen diff_pov = (si_pov_2day-si_pov_2day[_n-1])/(year-year[_n-1])
+        . bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
         . encode regioncode, gen(reg)
         . encode countryname, gen(reg2)
         . keep if region == "Aggregates"
@@ -509,16 +510,16 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {txt}      ({stata "wbopendata_examples example02":click to run})
 
 {cmd}
-        . wbopendata, indicator(si.pov.2day ) clear long
-        . drop if  si_pov_2day == .
+        . wbopendata, indicator(si.pov.dday ) clear long
+        . drop if  si_pov_dday == .
         . sort  countryname year
         . keep if region == "Aggregates"
-        . bysort  countryname : gen diff_pov = (si_pov_2day-si_pov_2day[_n-1])/(year-year[_n-1])
-        . gen baseline = si_pov_2day if year == 1990
+        . bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
+        . gen baseline = si_pov_dday if year == 1990
         . sort countryname baseline
         . bysort countryname : replace baseline = baseline[1] if baseline == .
         . gen mdg1 = baseline/2
-        . gen present = si_pov_2day if year == 2008
+        . gen present = si_pov_dday if year == 2008
         . sort countryname present
         . bysort countryname : replace present = present[1] if present == .
         . gen target = ((baseline-mdg1)/(2008-1990))*(2015-1990)
@@ -533,7 +534,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
                (scatter present  target  if year == 2008, mlabel( countrycode))    ///
                (line  angle45y angel45x ),                                         ///
                    legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
-                   title("MDG 1b - 2 USD")                                         ///
+                   title("MDG 1 - 1.9 USD")                                         ///
                    note("Source: World Development Indicators (latest available year: 2008) ///
                    using Azevedo, J.P. (2011) wbopendata: Stata module to " "access ///
                    World Bank databases, Statistical Software Components S457234 Boston ///
@@ -549,8 +550,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
            (scatter si_pov_dday ny_gdp_pcap_pp_kd if region == "Aggregates", msize(*.8) ///
            mlabel(countryname)  mlabsize(*.8)  mlabangle(25)) ///
            (lowess si_pov_dday ny_gdp_pcap_pp_kd) , ///
-               xtitle("GDP per capita, PPP (constant 2005 international $)") ///
-               ytitle("Poverty headcount ratio at 1.25 dollar-a-day") ///
+               xtitle("GDP per capita, PPP (constant 2011 international $)") ///
+               ytitle("Poverty headcount ratio at the International Poverty Line") ///
                legend(off) ///
                note("Source: World Development Indicators (latest available year as off 2012-08-08) ///
                 using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///

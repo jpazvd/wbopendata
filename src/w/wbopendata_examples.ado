@@ -45,10 +45,10 @@ end
 
 capture program drop example02
 program example02
-    wbopendata, indicator(si.pov.2day ) clear long
-    drop if  si_pov_2day == .
+    wbopendata, indicator(si.pov.dday ) clear long
+    drop if  si_pov_dday == .
     sort  countryname year
-    bysort  countryname : gen diff_pov = (si_pov_2day-si_pov_2day[_n-1])/(year-year[_n-1])
+    bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
     encode regioncode, gen(reg)
     encode countryname, gen(reg2)
     keep if region == "Aggregates"
@@ -64,16 +64,16 @@ end
 
 capture program drop example03
 program example03
-    wbopendata, indicator(si.pov.2day ) clear long
-    drop if  si_pov_2day == .
+    wbopendata, indicator(si.pov.dday ) clear long
+    drop if  si_pov_dday == .
     sort  countryname year
     keep if region == "Aggregates"
-    bysort  countryname : gen diff_pov = (si_pov_2day-si_pov_2day[_n-1])/(year-year[_n-1])
-    gen baseline = si_pov_2day if year == 1990
+    bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
+    gen baseline = si_pov_dday if year == 1990
     sort countryname baseline
     bysort countryname : replace baseline = baseline[1] if baseline == .
     gen mdg1 = baseline/2
-    gen present = si_pov_2day if year == 2008
+    gen present = si_pov_dday if year == 2008
     sort countryname present
     bysort countryname : replace present = present[1] if present == .
     gen target = ((baseline-mdg1)/(2008-1990))*(2015-1990)
@@ -88,7 +88,7 @@ program example03
         (scatter present  target  if year == 2008, mlabel( countrycode))    ///
         (line  angle45y angel45x ),                                         ///
             legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
-            title("MDG 1b - 2 USD")                                         ///
+            title("MDG 1b - 1.9 USD")                                         ///
             note("Source: World Development Indicators (latest available year: 2008) using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7))
 end
 
