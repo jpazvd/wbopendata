@@ -1,8 +1,11 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*! v14.1 	14Jan2019               by Joao Pedro Azevedo 
+*! v14.1 	19Jan2019               by Joao Pedro Azevedo 
 *		indicator update function
 * 		fix bug at the latest option
+*		fix bug at _query_metadata.ado (source id return list)
+*		fix examples
+*		update help file
 *******************************************************************************
 
 program def wbopendata, rclass
