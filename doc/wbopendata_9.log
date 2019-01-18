@@ -1,0 +1,93 @@
+. wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long latest
+
+
+
+Metadata: si.pov.dday
+
+----------------------------------------------------------------------------------------------------------------------
+    
+    Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
+ 
+  --------------------------------------------------------------------------------------------------------------------
+    
+    Source: World Development Indicators
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than
+    $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for
+    individual countries cannot be compared with poverty rates reported in earlier editions.
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data
+    obtained from government statistical agencies and World Bank country departments. Data for high-income economies
+    are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet
+    (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+      
+    Topics: Poverty
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+      
+    Topics: Aid Effectiveness
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+      
+    Topics: Climate Change
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Metadata: ny.gdp.pcap.pp.kd
+
+----------------------------------------------------------------------------------------------------------------------
+    
+    Name: GDP per capita, PPP (constant 2011 international $)
+ 
+  --------------------------------------------------------------------------------------------------------------------
+    
+    Source: World Development Indicators
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+    Source Note: GDP per capita based on purchasing power parity (PPP"}). PPP GDP is gross domestic product
+    converted to international dollars using purchasing power parity rates. An international dollar has the same
+    purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of
+    gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not
+    included in the value of the products. It is calculated without making deductions for depreciation of fabricated
+    assets or for depletion and degradation of natural resources. Data are in constant 2011 international dollars.
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+    Source Organization: World Bank, International Comparison Program database.
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+      
+    Topics: Economy &amp; Growth
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+
+
+
+. 
+. linewrap , longstring("`r(varlabel1)'") maxlength(52) name(ylabel)
+
+. linewrap , longstring("`r(varlabel2)'") maxlength(52) name(xlabel)
+
+. 
+. twoway ///
+&gt;         (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(*.2)) ///
+&gt;         (scatter si_pov_dday ny_gdp_pcap_pp_kd if string(si_pov_dday) == "35.8", msize(*.8) mlabel(countryname)) ///
+&gt;         (lowess si_pov_dday ny_gdp_pcap_pp_kd) ///
+&gt;                 if regioncode != "NA" ///
+&gt;                 , legend(off) ///
+&gt;                 xtitle("`r(xlabel1)'" "`r(xlabel2)'" "`r(xlabel3)'") ///
+&gt;                 ytitle("`r(ylabel1)'" "`r(ylabel2)'" "`r(ylabel3)'") ///
+&gt;                 note("Source: `r(source1)' using WBOPENDATA")
