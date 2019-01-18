@@ -1,0 +1,105 @@
+. wbopendata, indicator(si.pov.dday ) clear long
+
+
+
+Metadata: si.pov.dday
+
+----------------------------------------------------------------------------------------------------------------------
+    
+    Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
+ 
+  --------------------------------------------------------------------------------------------------------------------
+    
+    Source: World Development Indicators
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than
+    $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for
+    individual countries cannot be compared with poverty rates reported in earlier editions.
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data
+    obtained from government statistical agencies and World Bank country departments. Data for high-income economies
+    are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet
+    (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+    
+      
+    Topics: Poverty
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+      
+    Topics: Aid Effectiveness
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+      
+    Topics: Climate Change
+ 
+ ---------------------------------------------------------------------------------------------------------------------
+
+
+
+.    drop if  si_pov_dday == .
+(13,710 observations deleted)
+
+.    sort  countryname year
+
+.    keep if region == "Aggregates"
+(1,432 observations deleted)
+
+.    bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
+(12 missing values generated)
+
+.    gen baseline = si_pov_dday if year == 1990
+(159 missing values generated)
+
+.    sort countryname baseline
+
+.    bysort countryname : replace baseline = baseline[1] if baseline == .
+(148 real changes made)
+
+.    gen mdg1 = baseline/2
+(11 missing values generated)
+
+.    gen present = si_pov_dday if year == 2008
+(158 missing values generated)
+
+.    sort countryname present
+
+.    bysort countryname : replace present = present[1] if present == .
+(158 real changes made)
+
+.    gen target = ((baseline-mdg1)/(2008-1990))*(2015-1990)
+(11 missing values generated)
+
+.    sort countryname year
+
+.    gen angel45x = .
+(170 missing values generated)
+
+.    gen angle45y = .
+(170 missing values generated)
+
+.    replace angel45x = 0 in 1
+(1 real change made)
+
+.    replace angle45y = 0 in 1
+(1 real change made)
+
+.    replace angel45x = 80 in 2
+(1 real change made)
+
+.    replace angle45y = 80 in 2
+(1 real change made)
+
+.    graph twoway ///
+&gt;        (scatter present  target  if year == 2008, mlabel( countrycode))    ///
+&gt;        (line  angle45y angel45x ),                                         ///
+&gt;            legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
+&gt;            title("MDG 1b - 1.9 USD")                                         ///
+&gt;            note("Source: World Development Indicators (latest available year: 2008) using Azevedo, J.P. (2011) wbope
+&gt; ndata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston College Depart
+&gt; ment of Economics.", size(*.7))

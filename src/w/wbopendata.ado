@@ -6,6 +6,7 @@
 *		fix bug at _query_metadata.ado (source id return list)
 *		fix examples
 *		update help file
+*		preserve return values (no preserve default value)
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -24,6 +25,7 @@ version 9.0
                          LATEST                     ///
                          NOMETADATA                 ///
 						 UPDATE						///
+						 NOPRESERVE					///
                  ]
 
 
@@ -64,7 +66,7 @@ version 9.0
 					local namek "`r(name)'"
 
 
-					if ("`nometadata'" == "") & ("`indicator'" != "") & ("`update'" == "") {
+					if ("`nometadata'" == "") & ("`indicator'" != "") {
 						cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
@@ -123,7 +125,7 @@ version 9.0
 				local name "`r(name)'"
 
 
-				if ("`nometadata'" == "") & ("`indicator'" != "") & ("`update'" == "") {
+				if ("`nometadata'" == "") & ("`indicator'" != "") {
 					cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
@@ -185,8 +187,11 @@ version 9.0
 		}
 
 	}
-
-			
+	
+	if ("`nopreserve'" == "") {
+		return add
+	}
+	
 end
 
 

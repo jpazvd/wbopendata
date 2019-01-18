@@ -78,35 +78,35 @@ quietly {
     }
 
 
-    if  ("`country'" == "") & ("`topics'" == "") & ("`indicator'" == "") & ("`update'" != "") {
+    if  ("`country'" == "") & ("`topics'" == "") & ("`indicator'" == "") {
         di  as err "Users need to select either a country, a topic, or an indicator. Please try again."
         exit 198
     }
-    if  ("`country'" != "") & ("`topics'" != "") & ("`indicator'" == "") & ("`update'" != "") {
+    if  ("`country'" != "") & ("`topics'" != "") & ("`indicator'" == "") {
         di  as err "Users can not select a country and a topic at the same time. Please try again."
         exit 198
     }
-    if  ("`country'" == "") & ("`topics'" != "") & ("`indicator'" != "") & ("`update'" != "") {
+    if  ("`country'" == "") & ("`topics'" != "") & ("`indicator'" != "") {
         di  as err "Users can not select an indicator and a topic at the same time. Please try again."
         exit 198
     }
-    if  ("`indicator'" == "") & ("`year'" != "") & ("`update'" != "") {
+    if  ("`indicator'" == "") & ("`year'" != "") {
         di  as err "year option can only be used for the selection of specific indicators. Please try again."
         exit 198
     }
-    if  ("`indicator'" == "") & ("`latest'" != "") & ("`update'" != "") {
+    if  ("`indicator'" == "") & ("`latest'" != "") {
         di  as err "latest option can only be used for the selection of specific indicators in the long format. Please try again."
         exit 198
     }
-    if  ("`indicator'" != "") & ("`latest'" != "") & ("`long'" == "") & ("`update'" != "") {
+    if  ("`indicator'" != "") & ("`latest'" != "") & ("`long'" == "") {
         di  as err "latest option can only be used for the selection of specific indicators in the long format. Please try again."
         exit 198
     }
 
-    if ("`country'" == "") & ("`indicator'" != "") & ("`update'" != "") {
+    if ("`country'" == "") & ("`indicator'" != "") {
         local country2 "all"
     }
-    if ("`country'" != "") & ("`indicator'" != "") & ("`update'" != "") {
+    if ("`country'" != "") & ("`indicator'" != "") {
         local country2 "`country1'"
     }
 
@@ -117,7 +117,7 @@ quietly {
 
 
 /* country selection */
-    if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") & ("`update'" != "") {
+    if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") {
         local queryspec "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data"
         local queryspec2 "topic `topics1'"
         capture : copy "`queryspec'" `temp' , public
@@ -136,7 +136,8 @@ quietly {
             break
         }
     }
-    if  ("`indicator'" != "")  & ("`update'" != "") {
+/* Indicator selection */	
+    if  ("`indicator'" != "") {
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
         capture : copy "`queryspec'" `temp' , public
@@ -158,7 +159,7 @@ quietly {
 
     cap : insheet using `temp', `clear' name
     local rc3 = _rc
-    if (`rc3' != 0)  & ("`update'" != "") {
+    if (`rc3' != 0) {
         noi di ""
         di  as err "you must start with an empty dataset; or enable the clear option."
         noi di ""
@@ -197,7 +198,7 @@ quietly {
 
     return local period = "`l2'"
 
-    if ("`l2'" == "") & ("`update'" != "") {
+    if ("`l2'" == "") {
         noi di ""
         noi di as err "{p 4 4 2} Sorry... No data was downloaded for " as result "`queryspec2'. {p_end}"
         noi di ""
@@ -221,13 +222,13 @@ quietly {
 
 ***************************************************
 
-    if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "")  & ("`update'" != "") {
+    if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "") {
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
     }
 
-    if ("`long'" == "") & ("`indicator'" != "")  & ("`update'" != "") {
+    if ("`long'" == "") & ("`indicator'" != "") {
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -235,7 +236,7 @@ quietly {
 
 ***************************************************
 
-    if (("`long'" != "") & ("`country'" != "")) &  ("`indicator'" == "")  & ("`update'" != "")  {
+    if (("`long'" != "") & ("`country'" != "")) &  ("`indicator'" == "") {
 
         tempvar dups
         bysort  `id'  indicatorname indicatorcode : gen `dups' = _n
@@ -278,7 +279,7 @@ quietly {
         `l4'
     }
 
-    if ("`long'" != "") & ("`indicator'" != "")  & ("`update'" != "") {
+    if ("`long'" != "") & ("`indicator'" != "") {
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -312,7 +313,7 @@ quietly {
         drop  indicatorname indicatorcode
     }
 
-    if ("`long'" != "") & ("`topics'" != "")  & ("`update'" != "") {
+    if ("`long'" != "") & ("`topics'" != "") {
 
         tempvar dups
         bysort  `id'  indicatorname indicatorcode : gen `dups' = _n
@@ -355,7 +356,7 @@ quietly {
 
 
 
-if ("`update'" != "") {
+if ("`update'" == "") {
 
 quietly {
 
