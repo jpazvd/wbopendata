@@ -117,7 +117,7 @@ quietly {
 
 
 /* country selection */
-    if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") {
+    if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") & ("`update'" != "") {
         local queryspec "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data"
         local queryspec2 "topic `topics1'"
         capture : copy "`queryspec'" `temp' , public
@@ -136,7 +136,7 @@ quietly {
             break
         }
     }
-    if  ("`indicator'" != "") {
+    if  ("`indicator'" != "")  & ("`update'" != "") {
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
         capture : copy "`queryspec'" `temp' , public
@@ -158,7 +158,7 @@ quietly {
 
     cap : insheet using `temp', `clear' name
     local rc3 = _rc
-    if (`rc3' != 0) {
+    if (`rc3' != 0)  & ("`update'" != "") {
         noi di ""
         di  as err "you must start with an empty dataset; or enable the clear option."
         noi di ""
@@ -197,7 +197,7 @@ quietly {
 
     return local period = "`l2'"
 
-    if ("`l2'" == "") {
+    if ("`l2'" == "") & ("`update'" != "") {
         noi di ""
         noi di as err "{p 4 4 2} Sorry... No data was downloaded for " as result "`queryspec2'. {p_end}"
         noi di ""
@@ -221,13 +221,13 @@ quietly {
 
 ***************************************************
 
-    if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "") {
+    if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "")  & ("`update'" != "") {
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
     }
 
-    if ("`long'" == "") & ("`indicator'" != "") {
+    if ("`long'" == "") & ("`indicator'" != "")  & ("`update'" != "") {
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -235,7 +235,7 @@ quietly {
 
 ***************************************************
 
-    if (("`long'" != "") & ("`country'" != "")) &  ("`indicator'" == "") {
+    if (("`long'" != "") & ("`country'" != "")) &  ("`indicator'" == "")  & ("`update'" != "")  {
 
         tempvar dups
         bysort  `id'  indicatorname indicatorcode : gen `dups' = _n
@@ -278,7 +278,7 @@ quietly {
         `l4'
     }
 
-    if ("`long'" != "") & ("`indicator'" != "") {
+    if ("`long'" != "") & ("`indicator'" != "")  & ("`update'" != "") {
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -312,7 +312,7 @@ quietly {
         drop  indicatorname indicatorcode
     }
 
-    if ("`long'" != "") & ("`topics'" != "") {
+    if ("`long'" != "") & ("`topics'" != "")  & ("`update'" != "") {
 
         tempvar dups
         bysort  `id'  indicatorname indicatorcode : gen `dups' = _n
@@ -353,9 +353,13 @@ quietly {
 
 }
 
-quietly tostring  countryname countrycode, replace
+
+
+if ("`update'" != "") {
 
 quietly {
+
+	tostring  countryname countrycode, replace
 
     gen region = ""
     replace region =  "Latin America & Caribbean (all income levels)" if countrycode == "ABW" & region == ""
@@ -1152,6 +1156,8 @@ quietly {
     lab var region      "Region"
     lab var regioncode  "Region Code"
     lab var iso2code    "Country Code (ISO 2 digits)"
+
+}
 
 }
 
