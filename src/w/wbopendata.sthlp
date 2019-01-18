@@ -3,7 +3,7 @@
 {* 18Jan2019 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_indicators##indicators:Indicators List}}}
-{right: {bf:version 14.0}}
+{right: {bf:version 14.1}}
 {hline}
 
 {title:Title}
