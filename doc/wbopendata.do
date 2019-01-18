@@ -20,38 +20,43 @@ discard
         ***/
 		
 		wbopendata, country(chn - China) clear
+		sum
 		
         /***
-        # Example 1
+        # Example 2
 
-        Download all WDI indiators for a single country (i.e. China)
-
+       Download all WDI indicators of particular topic
+		
         ***/
 		
 		wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
+		sum
 		
 		/***
-        # Example 1
+        # Example 3
 
-        Download all WDI indiators for a single country (i.e. China)
+        Download specific indicator [ag.agr.trac.no]
 
         ***/
 		
 		wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear
+		sum
 		
 		/***
-        # Example 1
+        # Example 4
 
-        Download all WDI indiators for a single country (i.e. China)
+        Download specific indicator and report in long format [ag.agr.trac.no]
 
         ***/
 		
 		wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear
+		sum
 		
 		/***
-        # Example 1
+        # Example 5
 
-        Download all WDI indiators for a single country (i.e. China)
+        Download specific indicator for specific countries, and report in long 
+		format [ag.agr.trac.no]
 
         ***/
 		
@@ -59,20 +64,22 @@ discard
 		tab countryname 
 		
 		/***
-        # Example 1
+        # Example 6
 
-        Download all WDI indiators for a single country (i.e. China)
+        Download specific indicator, for specific countries and year, and report 
+		in long format [ag.agr.trac.no]
 
         ***/
 		
-		wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) year(2000:2010) clear  long
+		wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) ///
+					year(2000:2010) clear  long
 		tab  year countryname 
 		tab  year countryname if sp_pop_0610_fe_un != .
 		
 		/***
-        # Example 1
+        # Example 7
 
-        Download all WDI indiators for a single country (i.e. China)
+        Map latest values of global mobile phone coverage
 
         ***/
 		
@@ -94,20 +101,20 @@ discard
 
 		
 		/***
-        # Example 1
+        # Example 8
 
-        Download all WDI indiators for a single country (i.e. China)
+        Bencharmk latest poverty levels by percapital income, highlighting single 
+		country
 
         ***/
 		
 		wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long latest
-
 		linewrap , longstring("`r(varlabel1)'") maxlength(52) name(ylabel)
 		linewrap , longstring("`r(varlabel2)'") maxlength(52) name(xlabel)
-		
 		twoway ///
 			(scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(*.2)) ///
-			(scatter si_pov_dday ny_gdp_pcap_pp_kd if string(si_pov_dday) == "35.8", msize(*.8) mlabel(countryname)) ///
+			(scatter si_pov_dday ny_gdp_pcap_pp_kd if string(si_pov_dday) == "35.8", ///
+				msize(*.8) mlabel(countryname)) ///
 			(lowess si_pov_dday ny_gdp_pcap_pp_kd) ///
 				if regioncode != "NA" ///
 				, legend(off) ///
@@ -118,9 +125,9 @@ discard
         
 		/***
 
-        # Exercise 2
+        # Exercise 9
 
-        Run a regression of price on milage and display the relation in a scatter plot.
+        Benchmark epsiodes of poveryt reduction by Region
 
         ***/
 
@@ -131,17 +138,17 @@ discard
     encode regioncode, gen(reg)
     encode countryname, gen(reg2)
     keep if region == "Aggregates"
-    alorenz diff_pov, gp points(20) fullview  xdecrease markvar(reg2)                                           ///
+    alorenz diff_pov, gp points(20) xdecrease markvar(reg2)                    ///
         ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional episodes of poverty reduction (%)")   ///
-        legend(off) title("Poverty Reduction")                                                                  ///
+        legend(off) title("Poverty Reduction")                                            ///
         legend(off) note("Source: World Development Indicators using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7))
     webdoc graph
 
 		/***
 
-        # Exercise 2
+        # Exercise 10
 
-        Run a regression of price on milage and display the relation in a scatter plot.
+        Benchmark MDG progress using 2008 as cutoff value
 
         ***/
 	
@@ -170,16 +177,17 @@ discard
         (scatter present  target  if year == 2008, mlabel( countrycode))    ///
         (line  angle45y angel45x ),                                         ///
             legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
-            title("MDG 1b - 1.9 USD")                                         ///
+            title("MDG 1 - 1.9 USD")                                         ///
             note("Source: World Development Indicators (latest available year: 2008) using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7))
 	webdoc graph
 
 	
 		/***
 
-        # Exercise 2
+        # Exercise 11
 
-        Run a regression of price on milage and display the relation in a scatter plot.
+        Bencharmk latest poverty levels by percapital income, highlighting regional 
+		averages
 
         ***/
 	
@@ -188,12 +196,15 @@ discard
 
 	local time "$S_FNDATE"
 
+	linewrap , longstring("`r(varlabel1)'") maxlength(52) name(ylabel)
+	linewrap , longstring("`r(varlabel2)'") maxlength(52) name(xlabel)
+	
 	graph twoway ///
-		(scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(*.6)) ///
+		(scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(*.3)) ///
 		(scatter si_pov_dday ny_gdp_pcap_pp_kd if region == "Aggregates", msize(*.8) mlabel(countryname)  mlabsize(*.8)  mlabangle(25)) ///
 		(lowess si_pov_dday ny_gdp_pcap_pp_kd) , ///
-			xtitle("`r(varlabel2)'") ///
-			ytitle("`r(varlabel1)'") ///
 			legend(off) ///
-			note("Source: World Development Indicators (latest available year as off `time') using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7))
+			xtitle("`r(xlabel1)'" "`r(xlabel2)'" "`r(xlabel3)'") ///
+			ytitle("`r(ylabel1)'" "`r(ylabel2)'" "`r(ylabel3)'") ///		
+			note("Source: World Development Indicators (latest available year as off `time') using Azevedo, J.P. (2011) wbopendata: Stata" "module to access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7))
 	webdoc graph
