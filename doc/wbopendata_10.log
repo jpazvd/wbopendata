@@ -4,43 +4,41 @@
 
 Metadata: si.pov.dday
 
--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
     
     Name: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
  
-  -----------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------
     
     Source: World Development Indicators
  
- ------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
     
-    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the
-    population living on less than $1.90 a day at 2011 international prices. As a
-    result of revisions in PPP exchange rates, poverty rates for individual
-    countries cannot be compared with poverty rates reported in earlier editions.
+    Source Note: Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than
+    $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for
+    individual countries cannot be compared with poverty rates reported in earlier editions.
  
- ------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
     
-    Source Organization: World Bank, Development Research Group. Data are based on
-    primary household survey data obtained from government statistical agencies and
-    World Bank country departments. Data for high-income economies are from the
-    Luxembourg Income Study database. For more information and methodology, please
-    see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
+    Source Organization: World Bank, Development Research Group. Data are based on primary household survey data
+    obtained from government statistical agencies and World Bank country departments. Data for high-income
+    economies are from the Luxembourg Income Study database. For more information and methodology, please see
+    PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm"}"}).
  
- ------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
     
       
     Topics: Poverty
  
- ------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
       
     Topics: Aid Effectiveness
  
- ------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
       
     Topics: Climate Change
  
- ------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -49,8 +47,7 @@ Metadata: si.pov.dday
 
 .    sort  countryname year
 
-.    bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[
-&gt; _n-1])
+.    bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
 (175 missing values generated)
 
 .    encode regioncode, gen(reg)
@@ -61,10 +58,8 @@ Metadata: si.pov.dday
 (1,432 observations deleted)
 
 .    alorenz diff_pov, gp points(20) xdecrease markvar(reg2)                    ///
-&gt;        ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional episodes o
-&gt; f poverty reduction (%)")   ///
-&gt;        legend(off) title("Poverty Reduction")                                      
-&gt;       ///
-&gt;        legend(off) note("Source: World Development Indicators using Azevedo, J.P. (
-&gt; 2011) wbopendata: Stata module to " "access World Bank databases, Statistical Softw
-&gt; are Components S457234 Boston College Department of Economics.", size(*.7))
+&gt;        ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional episodes of poverty reduction (%)")   ///
+&gt;        legend(off) title("Poverty Reduction")                                            ///
+&gt;        legend(off) note("Source: World Development Indicators using Azevedo, J.P. (2011) wbopendata: Stata module 
+&gt; to " "access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.
+&gt; ", size(*.7))
