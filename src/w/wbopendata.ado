@@ -32,7 +32,10 @@ version 9.0
 		if ("`update'" != "") {
 		
 			_wbopendata_update, update
+			noi di ""
 			noi di in y "Update completed"
+			noi di in y "New indicator list created"
+			noi di in y "New indicator documentation created. See {bf:{help wbopendata_indicators##indicators:Indicators List}}"
 			noi di ""
 			break
 		}
@@ -105,29 +108,33 @@ version 9.0
 
 		 else {
 
-			noi _query , language("`language'")       ///
-							  country("`country'")         ///
-							  topics("`topics'")           ///
-							  indicator("``i''")             ///
-							  year("`year'")               ///
-							  `long'                       ///
-							  `clear'                      ///
-							  `latest'                     ///
-							  `nometadata'
-			local time  "`r(time)'"
-			local name "`r(name)'"
+			if ("`update'" == "") {
+			 
+				noi _query , language("`language'")       ///
+								  country("`country'")         ///
+								  topics("`topics'")           ///
+								  indicator("``i''")             ///
+								  year("`year'")               ///
+								  `long'                       ///
+								  `clear'                      ///
+								  `latest'                     ///
+								  `nometadata'
+				local time  "`r(time)'"
+				local name "`r(name)'"
 
 
-			if ("`nometadata'" == "") & ("`indicator'" != ""){
-				cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
-				local qm2rc = _rc
-				if ("`qm2rc'" == "") {
-					noi di ""
-					noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for ". {p_end}"
-					noi di ""
-					break
-					exit 22
+				if ("`nometadata'" == "") & ("`indicator'" != "") & ("`update'" == "") {
+					cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+					local qm2rc = _rc
+					if ("`qm2rc'" == "") {
+						noi di ""
+						noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for ". {p_end}"
+						noi di ""
+						break
+						exit 22
+					}
 				}
+				
 			}
 
 			local w1 = word("`indicator'",1)
