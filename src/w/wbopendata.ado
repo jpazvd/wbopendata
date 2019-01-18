@@ -2,6 +2,7 @@
 * wbopendata                                                                  *
 *! v14.1 	14Jan2019               by Joao Pedro Azevedo 
 *		indicator update function
+* 		fix bug at the latest option
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -54,7 +55,7 @@ version 9.0
 										 `clear'                      ///
 										 `nometadata'
 					local time  "`r(time)'"
-					local name "`r(name)'"
+					local namek "`r(name)'"
 
 
 					if ("`nometadata'" == "") & ("`indicator'" != "") & ("`update'" == "") {
@@ -177,6 +178,7 @@ version 9.0
 
 			
 end
+
 
 **********************************************************************************
 *  v 14.0  14Jan2019               by Joao Pedro Azevedo 
