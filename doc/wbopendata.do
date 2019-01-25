@@ -20,7 +20,7 @@ discard
         ***/
 		
 		wbopendata, country(chn - China) clear
-		sum
+		tab indicatorcode in 1/10
 		
         /***
         # Example 2
@@ -30,7 +30,7 @@ discard
         ***/
 		
 		wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear
-		sum
+		tab indicatorcode in 1/10
 		
 		/***
         # Example 3
@@ -40,7 +40,7 @@ discard
         ***/
 		
 		wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear
-		sum
+		tab countryname in 1/10
 		
 		/***
         # Example 4
@@ -50,7 +50,7 @@ discard
         ***/
 		
 		wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear
-		sum
+		tab year in 1/10
 		
 		/***
         # Example 5

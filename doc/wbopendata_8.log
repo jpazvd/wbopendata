@@ -43,8 +43,8 @@ Metadata: it.cel.sets.p2
 . sort countrycode
 
 . save `tmp', replace
-(note: file C:\Users\wb255520\AppData\Local\Temp\ST_ea20_000003.tmp not found)
-file C:\Users\wb255520\AppData\Local\Temp\ST_ea20_000003.tmp saved
+(note: file C:\Users\wb255520\AppData\Local\Temp\ST_7b3c_000003.tmp not found)
+file C:\Users\wb255520\AppData\Local\Temp\ST_7b3c_000003.tmp saved
 
 . qui sysuse world-d, clear
 
