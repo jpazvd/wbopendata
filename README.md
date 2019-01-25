@@ -1,4 +1,4 @@
-# WBOPENDATA: Stata module to access World Bank databases
+﻿# WBOPENDATA: Stata module to access World Bank databases
 
 ## Description
 

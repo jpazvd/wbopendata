@@ -1,0 +1,2 @@
+<span class="stinp">. display as txt "sqrt(2) = " <span class="stcmt">/// this is a comment</span>
+&gt; as res sqrt(2)</span>

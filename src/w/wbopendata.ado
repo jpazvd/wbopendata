@@ -1,6 +1,16 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*! v14.0  	14Jan2019               by Joao Pedro Azevedo 
+*! v14.1 	19Jan2019               by Joao Pedro Azevedo 
+* New options: 
+     * indicator update function
+     * nopreserve option (return list is can be preserved)
+* Bugs fixed
+    * latest option
+    * _query_metadata.ado (source id return list) fixed
+* Revisions
+     * examples
+     * update help file
+     * list of indicators
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -18,14 +28,27 @@ version 9.0
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
+						 UPDATE						///
+						 NOPRESERVE					///
                  ]
 
 
 	quietly {
+	
+		if ("`update'" != "") {
+		
+			_wbopendata_update, update
+			noi di ""
+			noi di in y "Update completed"
+			noi di in y "New indicator list created"
+			noi di in y "New indicator documentation created. See {bf:{help wbopendata_indicators##indicators:Indicators List}}"
+			noi di ""
+			break
+		}
 
 		local f = 1
 
-		if ("`indicator'" != "") {
+		if ("`indicator'" != "") & ("`update'" == ""){
 
 			_tknz "`indicator'" , parse(;)
 
@@ -44,10 +67,10 @@ version 9.0
 										 `clear'                      ///
 										 `nometadata'
 					local time  "`r(time)'"
-					local name "`r(name)'"
+					local namek "`r(name)'"
 
 
-					if ("`nometadata'" == "") & ("`indicator'" != ""){
+					if ("`nometadata'" == "") & ("`indicator'" != "") {
 						cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
@@ -91,29 +114,33 @@ version 9.0
 
 		 else {
 
-			noi _query , language("`language'")       ///
-							  country("`country'")         ///
-							  topics("`topics'")           ///
-							  indicator("``i''")             ///
-							  year("`year'")               ///
-							  `long'                       ///
-							  `clear'                      ///
-							  `latest'                     ///
-							  `nometadata'
-			local time  "`r(time)'"
-			local name "`r(name)'"
+			if ("`update'" == "") {
+			 
+				noi _query , language("`language'")       ///
+								  country("`country'")         ///
+								  topics("`topics'")           ///
+								  indicator("``i''")             ///
+								  year("`year'")               ///
+								  `long'                       ///
+								  `clear'                      ///
+								  `latest'                     ///
+								  `nometadata'
+				local time  "`r(time)'"
+				local name "`r(name)'"
 
 
-			if ("`nometadata'" == "") & ("`indicator'" != ""){
-				cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
-				local qm2rc = _rc
-				if ("`qm2rc'" == "") {
-					noi di ""
-					noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for ". {p_end}"
-					noi di ""
-					break
-					exit 22
+				if ("`nometadata'" == "") & ("`indicator'" != "") {
+					cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+					local qm2rc = _rc
+					if ("`qm2rc'" == "") {
+						noi di ""
+						noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for ". {p_end}"
+						noi di ""
+						break
+						exit 22
+					}
 				}
+				
 			}
 
 			local w1 = word("`indicator'",1)
@@ -164,11 +191,18 @@ version 9.0
 		}
 
 	}
-
-			
+	
+	if ("`nopreserve'" == "") {
+		return add
+	}
+	
 end
 
+
 **********************************************************************************
+*  v 14.0  14Jan2019               by Joao Pedro Azevedo 
+*		revised indicator list
+*		change to new API server 
 *  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
 *       long reshape
 *  v 13.3  30june2014               by Joao Pedro Azevedo                        *
