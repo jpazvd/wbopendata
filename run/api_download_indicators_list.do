@@ -8,11 +8,13 @@ discard
 
 tempfile indicator1 indicator2
 
-local query1 "http://api.worldbank.org/v2/indicators?per_page=15000&page=1"
-local query2 "http://api.worldbank.org/v2/indicators?per_page=15000&page=2"
+local query1 "http://api.worldbank.org/v2/indicators?per_page=10000&page=1"
+local query2 "http://api.worldbank.org/v2/indicators?per_page=10000&page=2"
 
-*copy "`query1'" indicator_12.txt, public replace
-*copy "`query2'" indicator_22.txt, public replace
+copy "`query1'" indicator_12.txt, text replace
+copy "`query2'" indicator_22.txt, text replace
+
+
 
 copy "`query1'" "`indicator1'", text replace
 copy "`query2'" "`indicator2'", text replace

@@ -7280,13 +7280,13 @@ LO.PISA.MAT.6.FE - PISA: Female 15-year-olds by mathematics proficiency level (%
 LO.PISA.MAT.6.MA - PISA: Male 15-year-olds by mathematics proficiency level (%). Level 6
 LO.PISA.MAT.FE - PISA: Mean performance on the mathematics scale. Female
 LO.PISA.MAT.MA - PISA: Mean performance on the mathematics scale. Male
-LO.PISA.MAT.P05 - The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the P
-LO.PISA.MAT.P10 - The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.MAT.P25 - The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
+LO.PISA.MAT.P05 - PISA: Distribution of Mathematics Scores: 5th Percentile Score
+LO.PISA.MAT.P10 - PISA: Distribution of Mathematics Scores: 10th Percentile Score
+LO.PISA.MAT.P25 - The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
 LO.PISA.MAT.P50 - PISA: Distribution of Mathematics Scores: 50th Percentile Score
-LO.PISA.MAT.P75 - The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.MAT.P90 - The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.MAT.P95 - The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
+LO.PISA.MAT.P75 - The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.MAT.P90 - The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.MAT.P95 - The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
 LO.PISA.REA - PISA: Mean performance on the reading scale
 LO.PISA.REA.0 - PISA: 15-year-olds by reading proficiency level (%). Below Level 1B
 LO.PISA.REA.0.FE - PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1B
@@ -7314,13 +7314,13 @@ LO.PISA.REA.6.FE - PISA: Female 15-year-olds by reading proficiency level (%). L
 LO.PISA.REA.6.MA - PISA: Male 15-year-olds by reading proficiency level (%). Level 6
 LO.PISA.REA.FE - PISA: Mean performance on the reading scale. Female
 LO.PISA.REA.MA - PISA: Mean performance on the reading scale. Male
-LO.PISA.REA.P05 - The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the P
-LO.PISA.REA.P10 - The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.REA.P25 - The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
+LO.PISA.REA.P05 - The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years o
+LO.PISA.REA.P10 - The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.REA.P25 - The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
 LO.PISA.REA.P50 - PISA: Distribution of Reading Scores: 50th Percentile Score
-LO.PISA.REA.P75 - The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.REA.P90 - The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.REA.P95 - The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
+LO.PISA.REA.P75 - The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.REA.P90 - The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.REA.P95 - The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
 LO.PISA.SCI - PISA: Mean performance on the science scale
 LO.PISA.SCI.0 - PISA: 15-year-olds by science proficiency level (%). Below Level 1B
 LO.PISA.SCI.0.FE - PISA: Female 15-year-olds by science proficiency level (%). Below Level 1B
@@ -7348,13 +7348,13 @@ LO.PISA.SCI.6.FE - PISA: Female 15-year-olds by science proficiency level (%). L
 LO.PISA.SCI.6.MA - PISA: Male 15-year-olds by science proficiency level (%). Level 6
 LO.PISA.SCI.FE - PISA: Mean performance on the science scale. Female
 LO.PISA.SCI.MA - PISA: Mean performance on the science scale. Male
-LO.PISA.SCI.P05 - The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the P
-LO.PISA.SCI.P10 - The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.SCI.P25 - The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
+LO.PISA.SCI.P05 - The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years o
+LO.PISA.SCI.P10 - The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.SCI.P25 - The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
 LO.PISA.SCI.P50 - PISA: Distribution of Science Scores: 50th Percentile Score
-LO.PISA.SCI.P75 - The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.SCI.P90 - The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
-LO.PISA.SCI.P95 - The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the
+LO.PISA.SCI.P75 - The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.SCI.P90 - The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
+LO.PISA.SCI.P95 - The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years
 LO.SACMEQ.MAT - SACMEQ: Mean performance on the mathematics scale
 LO.SACMEQ.MAT.FE - SACMEQ: Mean performance on the mathematics scale, female
 LO.SACMEQ.MAT.L1 - SACMEQ: 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy

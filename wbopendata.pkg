@@ -1,7 +1,7 @@
-v 14.0
+v 14.1
 d 'WBOPENDATA': WBOPENDATA: Stata module to access World Bank databases
 d 
-d Distribution-Date:   20190114
+d Distribution-Date:   20190119
 d License: MIT
 d 
 F src/w/wbopendata.ado

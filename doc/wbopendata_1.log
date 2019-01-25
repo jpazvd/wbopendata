@@ -1,0 +1,10 @@
+. which wbopendata
+.\w\wbopendata.ado
+*! v14.1        19Jan2019               by Joao Pedro Azevedo 
+
+. which _query
+.\_\_query.ado
+*! v 14.1       18Jan2019               by Joao Pedro Azevedo                     
+
+. which wbopendata.sthlp
+.\w\wbopendata.sthlp
