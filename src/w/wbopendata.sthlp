@@ -34,6 +34,7 @@
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
+{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -136,6 +137,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {center: English:  {cmd:en}          }
 {center: Spanish:  {cmd:es}          }
 {center: French:   {cmd:fr}          }
+
+{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
 
 {marker countries}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -463,6 +466,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {pstd}
 
+{p 8 12}{stata "wbopendata, update" :. wbopendata, update}{p_end}
+
 {p 8 12}{stata "wbopendata, country(chn - China) clear" :. wbopendata, country(chn - China) clear}{p_end}
 
 {p 8 12}{stata "wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear" :. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear}{p_end}
@@ -617,8 +622,12 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 
     {p 4 4 2}Joao Pedro Azevedo (jazevedo@worldbank.org){p_end}
 
+{title:GitHub Respository}
+
+{p 4 4 2}For previous releases and additional examples please visit wbopendata {browse "https://github.com/jpazvd/wbopendata" :GitHub Repo}{p_end}
+
 {title:Also see}
 
 {psee}
-Online:  {helpb spmap} {helpb tknz} (if installed)
+Online: {helpb linewrap} {helpb alorenz} {helpb spmap} {helpb tknz} (if installed)
 {p_end}
