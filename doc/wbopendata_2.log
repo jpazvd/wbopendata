@@ -1,0 +1,18 @@
+. wbopendata, country(chn - China) clear
+
+. tab indicatorcode in 1/10
+
+           Indicator Code |      Freq.     Percent        Cum.
+--------------------------+-----------------------------------
+        TM.VAL.MRCH.AL.ZS |          1       10.00       10.00
+        TM.VAL.MRCH.CD.WT |          1       10.00       20.00
+        TM.VAL.MRCH.HI.ZS |          1       10.00       30.00
+        TM.VAL.MRCH.OR.ZS |          1       10.00       40.00
+        TM.VAL.MRCH.R1.ZS |          1       10.00       50.00
+        TM.VAL.MRCH.R2.ZS |          1       10.00       60.00
+        TM.VAL.MRCH.R3.ZS |          1       10.00       70.00
+        TM.VAL.MRCH.R4.ZS |          1       10.00       80.00
+        TM.VAL.MRCH.R5.ZS |          1       10.00       90.00
+        TM.VAL.MRCH.R6.ZS |          1       10.00      100.00
+--------------------------+-----------------------------------
+                    Total |         10      100.00

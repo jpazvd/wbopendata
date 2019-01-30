@@ -1,8 +1,9 @@
 {smcl}
 {hline}
-{* 20JUne2014 }{...}
+{* 18Jan2019 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
-{right: {bf:version 14.0}}
+{right:Indicator List:  {bf:{help wbopendata_indicators##indicators:Indicators List}}}
+{right: {bf:version 14.1}}
 {hline}
 
 {title:Title}
@@ -31,8 +32,9 @@
 {synopt :{opt clear}} replace data in memory.{p_end}
 {synopt :{opt latest}} keep only the latest available value of a single indicator.{p_end}
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
-{synopt :{opt date}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
+{synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
+{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -72,9 +74,9 @@ from over 256 countries and regions, since 1960.{p_end}
 
 {synopt:{opt country}} over 1,000 indicators for all selected years for a single country (WDI Catalogue).{p_end}
 {synopt:{opt topics}} WDI indicators within a specific topic, for all selected years and all countries (WDI Catalogue).{p_end}
-{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 9,000+ series).{p_end}
-{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 9,000+ series).{p_end}
-{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 9,000+ series).{p_end}
+{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 16,000+ series).{p_end}
+{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 16,000+ series).{p_end}
+{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 16,000+ series).{p_end}
 
 {p 4 4 2}Users can also choose to have the data displayed in either the {cmd:wide} or {cmd:long} format (wide is the default option).
 Note that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.{p_end}
@@ -126,7 +128,7 @@ RAM to complete this operation.{p_end}
 specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
 
-{synopt:{opt date:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date 
+{synopt:{opt year:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date 
 should be expressed in yearly format, however for specific series quartely and montly series will be supported. Please check data documentation 
 at the World Bank Data website to identify which format is supported.{p_end}
            
@@ -135,6 +137,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {center: English:  {cmd:en}          }
 {center: Spanish:  {cmd:es}          }
 {center: French:   {cmd:fr}          }
+
+{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
 
 {marker countries}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -425,7 +429,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt:{opt   5 - Energy & Mining}} The world economy needs ever-increasing amounts of energy to sustain economic growth, raise living standards, and reduce poverty. But today's trends in energy use are not sustainable. As the world's population grows and economies become more industrialized, nonrenewable energy sources will become scarcer and more costly. Data here on energy production, use, dependency, and efficiency are compiled by the World Bank from the International Energy Agency and the Carbon Dioxide Information Analysis Center. {p_end}
 
-{synopt:{opt   6 - Environment}} Natural and man-made environmental resources – fresh water, clean air, forests, grasslands, marine resources, and agro-ecosystems – provide sustenance and a foundation for social and economic development.  The need to safeguard these resources crosses all borders.  Today, the World Bank is one of the key promoters and financiers of environmental upgrading in the developing world. Data here cover forests, biodiversity, emissions, and pollution. Other indicators relevant to the environment are found under data pages for Agriculture & Rural Development, Energy & Mining, Infrastructure, and Urban Development. {p_end}
+{synopt:{opt   6 - Environment}} Natural and man-made environmental resources ï¿½ fresh water, clean air, forests, grasslands, marine resources, and agro-ecosystems ï¿½ provide sustenance and a foundation for social and economic development.  The need to safeguard these resources crosses all borders.  Today, the World Bank is one of the key promoters and financiers of environmental upgrading in the developing world. Data here cover forests, biodiversity, emissions, and pollution. Other indicators relevant to the environment are found under data pages for Agriculture & Rural Development, Energy & Mining, Infrastructure, and Urban Development. {p_end}
 
 {synopt:{opt   7 - Financial Sector}} An economy's financial markets are critical to its overall development. Banking systems and stock markets enhance growth, the main factor in poverty reduction. Strong financial systems provide reliable and accessible information that lowers transaction costs, which in turn bolsters resource allocation and economic growth. Indicators here include the size and liquidity of stock markets; the accessibility, stability, and efficiency of financial systems; and international migration and workers\ remittances, which affect growth and social welfare in both sending and receiving countries. {p_end}
 
@@ -435,11 +439,11 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt:{opt   10 - Social Protection & Labor}} The supply of labor available in an economy includes people who are employed, those who are unemployed but seeking work, and first-time job-seekers. Not everyone who works is included: unpaid workers, family workers, and students are often omitted, while some countries do not count members of the armed forces. Data on labor and employment are compiled by the International Labour Organization (ILO) from labor force surveys, censuses, establishment censuses and surveys, and administrative records such as employment exchange registers and unemployment insurance schemes. {p_end}
 
-{synopt:{opt   11 - Poverty}} For countries with an active poverty monitoring program, the World Bank—in collaboration with national institutions, other development agencies, and civil society—regularly conducts analytical work to assess the extent and causes of poverty and inequality, examine the impact of growth and public policy, and review household survey data and measurement methods.  Data here includes poverty and inequality measures generated from analytical reports, from national poverty monitoring programs, and from the World Bank’s Development Research Group which has been producing internationally comparable and global poverty estimates and lines since 1990. {p_end}
+{synopt:{opt   11 - Poverty}} For countries with an active poverty monitoring program, the World Bankï¿½in collaboration with national institutions, other development agencies, and civil societyï¿½regularly conducts analytical work to assess the extent and causes of poverty and inequality, examine the impact of growth and public policy, and review household survey data and measurement methods.  Data here includes poverty and inequality measures generated from analytical reports, from national poverty monitoring programs, and from the World Bankï¿½s Development Research Group which has been producing internationally comparable and global poverty estimates and lines since 1990. {p_end}
 
 {synopt:{opt   12 - Private Sector}} Private markets drive economic growth, tapping initiative and investment to create productive jobs and raise incomes. Trade is also a driver of economic growth as it integrates developing countries into the world economy and generates benefits for their people.  Data on the private sector and trade are from the World Bank Group's Private Participation in Infrastructure Project Database, Enterprise Surveys, and Doing Business Indicators, as well as from the International Monetary Fund's Balance of Payments database and International Financial Statistics, the UN Commission on Trade and Development, the World Trade Organization, and various other sources. {p_end}
 
-{synopt:{opt   13 - Public Sector}} Effective governments improve people's standard of living by ensuring access to essential services –  health, education, water and sanitation, electricity, transport – and the opportunity to live and work in peace and security. Data here includes World Bank staff assessments of country performance in economic management, structural policies, policies for social inclusion and equity, and public sector management and institutions for the poorest countries. Also included are indicators on revenues and expenses from the International Monetary Fund's Government Finance Statistics, and on tax policies from various sources. {p_end}
+{synopt:{opt   13 - Public Sector}} Effective governments improve people's standard of living by ensuring access to essential services ï¿½  health, education, water and sanitation, electricity, transport ï¿½ and the opportunity to live and work in peace and security. Data here includes World Bank staff assessments of country performance in economic management, structural policies, policies for social inclusion and equity, and public sector management and institutions for the poorest countries. Also included are indicators on revenues and expenses from the International Monetary Fund's Government Finance Statistics, and on tax policies from various sources. {p_end}
 
 {synopt:{opt   14 - Science & Technology}} Technological innovation, often fueled by governments, drives industrial growth and helps raise living standards. Data here aims to shed light on countries technology base: research and development, scientific and technical journal articles, high-technology exports, royalty and license fees, and patents and trademarks. Sources include the UNESCO Institute for Statistics, the U.S. National Science Board, the UN Statistics Division, the International Monetary Fund, and the World Intellectual Property Organization. {p_end}
 
@@ -447,11 +451,11 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt:{opt   16 - Urban Development}} Cities can be tremendously efficient. It is easier to provide water and sanitation to people living closer together, while access to health, education, and other social and cultural services is also much more readily available. However, as cities grow, the cost of meeting basic needs increases, as does the strain on the environment and natural resources. Data on urbanization, traffic and congestion, and air pollution are from the United Nations Population Division, World Health Organization, International Road Federation, World Resources Institute, and other sources. {p_end}
 
-{synopt:{opt   17 - Gender}} Women's empowerment and the promotion of gender equality are key to achieving sustainable development. Greater gender equality can enhance economic efficiency and improve other development outcomes by removing barriers that prevent women from having the same access as men to human resource endowments, rights, and economic opportunities.  Giving women access to equal opportunities allows them to emerge as social and economic actors, influencing and shaping more inclusive policies.  Improving women’s status also leads to more investment in their children’s education, health, and overall wellbeing.  Data here covers demography, education, health, labor force and employment, and political participation. {p_end}
+{synopt:{opt   17 - Gender}} Women's empowerment and the promotion of gender equality are key to achieving sustainable development. Greater gender equality can enhance economic efficiency and improve other development outcomes by removing barriers that prevent women from having the same access as men to human resource endowments, rights, and economic opportunities.  Giving women access to equal opportunities allows them to emerge as social and economic actors, influencing and shaping more inclusive policies.  Improving womenï¿½s status also leads to more investment in their childrenï¿½s education, health, and overall wellbeing.  Data here covers demography, education, health, labor force and employment, and political participation. {p_end}
 
 {synopt:{opt   18 - Millenium development goals}}  {p_end}
 
-{synopt:{opt   19 - Climate Change}} Climate change is expected to hit developing countries the hardest. Its effects—higher temperatures, changes in precipitation patterns, rising sea levels, and more frequent weather-related disasters—pose risks for agriculture, food, and water supplies. At stake are recent gains in the fight against poverty, hunger and disease, and the lives and livelihoods of billions of people in developing countries. Addressing climate change requires unprecedented global cooperation across borders. The World Bank Group is helping support developing countries and contributing to a global solution, while tailoring our approach to the differing needs of developing country partners.  Data here cover climate systems, exposure to climate impacts, resilience, greenhouse gas emissions, and energy use.  Other indicators relevant to climate change are found under other data pages, particularly Environment, Agriculture & Rural Development, Energy & Mining, Health, Infrastructure, Poverty, and Urban Development. {p_end}
+{synopt:{opt   19 - Climate Change}} Climate change is expected to hit developing countries the hardest. Its effectsï¿½higher temperatures, changes in precipitation patterns, rising sea levels, and more frequent weather-related disastersï¿½pose risks for agriculture, food, and water supplies. At stake are recent gains in the fight against poverty, hunger and disease, and the lives and livelihoods of billions of people in developing countries. Addressing climate change requires unprecedented global cooperation across borders. The World Bank Group is helping support developing countries and contributing to a global solution, while tailoring our approach to the differing needs of developing country partners.  Data here cover climate systems, exposure to climate impacts, resilience, greenhouse gas emissions, and energy use.  Other indicators relevant to climate change are found under other data pages, particularly Environment, Agriculture & Rural Development, Energy & Mining, Health, Infrastructure, Poverty, and Urban Development. {p_end}
 
 {synopt:{opt   20 - External Debt}} Debt statistics provide a detailed picture of debt stocks and flows of developing countries. Data presented as part of the Quarterly External Debt Statistics takes a closer look at the external debt of high-income countries and emerging markets to enable a more complete understanding of global financial flows. The Quarterly Public Sector Debt database provides further data on public sector valuation methods, debt instruments, and clearly defined tiers of debt for central, state and local government, as well as extra-budgetary agencies and funds. Data are gathered from national statistical organizations and central banks as well as by various major multilateral institutions and World Bank staff. {p_end}
 
@@ -461,6 +465,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {pstd}
+
+{p 8 12}{stata "wbopendata, update" :. wbopendata, update}{p_end}
 
 {p 8 12}{stata "wbopendata, country(chn - China) clear" :. wbopendata, country(chn - China) clear}{p_end}
 
@@ -493,10 +499,10 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {txt}      ({stata "wbopendata_examples example01":click to run})
 
 {cmd}
-        . wbopendata, indicator(si.pov.2day ) clear long
-        . drop if  si_pov_2day == .
+        . wbopendata, indicator(si.pov.dday ) clear long
+        . drop if  si_pov_dday == .
         . sort  countryname year
-        . bysort  countryname : gen diff_pov = (si_pov_2day-si_pov_2day[_n-1])/(year-year[_n-1])
+        . bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
         . encode regioncode, gen(reg)
         . encode countryname, gen(reg2)
         . keep if region == "Aggregates"
@@ -509,16 +515,16 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {txt}      ({stata "wbopendata_examples example02":click to run})
 
 {cmd}
-        . wbopendata, indicator(si.pov.2day ) clear long
-        . drop if  si_pov_2day == .
+        . wbopendata, indicator(si.pov.dday ) clear long
+        . drop if  si_pov_dday == .
         . sort  countryname year
         . keep if region == "Aggregates"
-        . bysort  countryname : gen diff_pov = (si_pov_2day-si_pov_2day[_n-1])/(year-year[_n-1])
-        . gen baseline = si_pov_2day if year == 1990
+        . bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
+        . gen baseline = si_pov_dday if year == 1990
         . sort countryname baseline
         . bysort countryname : replace baseline = baseline[1] if baseline == .
         . gen mdg1 = baseline/2
-        . gen present = si_pov_2day if year == 2008
+        . gen present = si_pov_dday if year == 2008
         . sort countryname present
         . bysort countryname : replace present = present[1] if present == .
         . gen target = ((baseline-mdg1)/(2008-1990))*(2015-1990)
@@ -533,7 +539,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
                (scatter present  target  if year == 2008, mlabel( countrycode))    ///
                (line  angle45y angel45x ),                                         ///
                    legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
-                   title("MDG 1b - 2 USD")                                         ///
+                   title("MDG 1 - 1.9 USD")                                         ///
                    note("Source: World Development Indicators (latest available year: 2008) ///
                    using Azevedo, J.P. (2011) wbopendata: Stata module to " "access ///
                    World Bank databases, Statistical Software Components S457234 Boston ///
@@ -549,8 +555,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
            (scatter si_pov_dday ny_gdp_pcap_pp_kd if region == "Aggregates", msize(*.8) ///
            mlabel(countryname)  mlabsize(*.8)  mlabangle(25)) ///
            (lowess si_pov_dday ny_gdp_pcap_pp_kd) , ///
-               xtitle("GDP per capita, PPP (constant 2005 international $)") ///
-               ytitle("Poverty headcount ratio at 1.25 dollar-a-day") ///
+               xtitle("GDP per capita, PPP (constant 2011 international $)") ///
+               ytitle("Poverty headcount ratio at the International Poverty Line") ///
                legend(off) ///
                note("Source: World Development Indicators (latest available year as off 2012-08-08) ///
                 using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
@@ -616,8 +622,12 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 
     {p 4 4 2}Joao Pedro Azevedo (jazevedo@worldbank.org){p_end}
 
+{title:GitHub Respository}
+
+{p 4 4 2}For previous releases and additional examples please visit wbopendata {browse "https://github.com/jpazvd/wbopendata" :GitHub Repo}{p_end}
+
 {title:Also see}
 
 {psee}
-Online:  {helpb spmap} {helpb tknz} (if installed)
+Online: {helpb linewrap} {helpb alorenz} {helpb spmap} {helpb tknz} (if installed)
 {p_end}

@@ -1,6 +1,6 @@
 *******************************************************************************
-* _query                                                                      *
-*! v 14.0  	09Jan2019               by Joao Pedro Azevedo                     *
+* _query                                                                      
+*! v 14.1  	18Jan2019               by Joao Pedro Azevedo                     
 *******************************************************************************
 
 program def _query, rclass
@@ -22,6 +22,10 @@ version 9.0
 
 
 quietly {
+
+	if ("`year'" == "") {
+		local year `date'
+	}
 
     if ("`language'" == "") {
         local language "en"
@@ -63,8 +67,13 @@ quietly {
         if ("`indicator2'" == "") {
             local indicator2 "`indicator1'"
         }
-        local year1     "date=`year'&"
-        local parameter "Indicators/`indicator1'?`year1'"
+        if ("`year'" != "") {
+			local year1	"&date=`year'"
+		}
+		else {
+			local year1 	""
+		}
+        local parameter "Indicators/`indicator1'?downloadformat=CSV&HREQ=N&filetype=data`year1'"
         local id " countryname countrycode "
     }
 
@@ -104,21 +113,22 @@ quietly {
     tempfile temp
 
 
-	loc servername "http://api.worldbank.org/v2/"  /* Query server v2 */
+	loc servername "http://api.worldbank.org/v2"  /* Query server v2 */
 
 
 /* country selection */
     if  (("`country'" != "") | ("`topics'" != "")) &  ("`indicator'" == "") {
-        capture : copy "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data" `temp'
-        local rc1 = _rc
-        local queryspec "`servername'/`language'/`parameter'"
+        local queryspec "`servername'/`language'/`parameter'/?downloadformat=CSV&HREQ=N&filetype=data"
         local queryspec2 "topic `topics1'"
+        capture : copy "`queryspec'" `temp' , public
+        local rc1 = _rc
         if (`rc1' != 0) {
             noi di ""
             noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
             noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "http://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support.  {p_end}"'
             noi dis as text `"{p 4 4 2} (3) Please consider ajusting your Stata timeout parameters. For more details see {help netio}. {p_end}
-            noi dis as text `"{p 4 4 2} (4) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
+            noi dis as text `"{p 4 4 2} (4) Please consider setting Stata checksum off. {help set checksum}{p_end}"'
+            noi dis as text `"{p 4 4 2} (5) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
             noi dis as result "{p 12 4 2} email: " as input "data@worldbank.org  {p_end}"
             noi dis as result "{p 12 4 2} subject: " as input `"wbopendata query error at `c(current_date)' `c(current_time)': `queryspec'  {p_end}"'
             noi di ""
@@ -126,17 +136,19 @@ quietly {
             break
         }
     }
+/* Indicator selection */	
     if  ("`indicator'" != "") {
-        capture : copy "`servername'/`language'/countries/`country2'/`parameter'?downloadformat=CSV&HREQ=N&filetype=data" `temp'
-        local rc2 = _rc
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
+        capture : copy "`queryspec'" `temp' , public
+        local rc2 = _rc
         if (`rc2' != 0) {
             noi di ""
             noi dis as text `"{p 4 4 2} (1) Please check your internet connection by {browse "http://data.worldbank.org/" :clicking here}, if does not work please check with your internet provider or IT support, otherwise... {p_end}"'
             noi dis as text `"{p 4 4 2} (2) Please check your access to the World Bank API by {browse "http://api.worldbank.org/indicator" :clicking here}, if does not work please check with your firewall settings or internet provider or IT support.  {p_end}"'
             noi dis as text `"{p 4 4 2} (3) Please consider ajusting your Stata timeout parameters. For more details see {help netio}. {p_end}
-            noi dis as text `"{p 4 4 2} (4) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
+            noi dis as text `"{p 4 4 2} (4) Please consider setting Stata checksum off. {help set checksum}{p_end}"'
+            noi dis as text `"{p 4 4 2} (5) Please send us an email to report this error by {browse "mailto:data@worldbank.org, ?subject= wbopendata query error at `c(current_date)' `c(current_time)': `queryspec' "  :clicking here} or writing to:  {p_end}"'
             noi dis as result "{p 12 4 2} email: " as input "data@worldbank.org  {p_end}"
             noi dis as result "{p 12 4 2} subject: " as input `"wbopendata query error at `c(current_date)' `c(current_time)': `queryspec'  {p_end}"'
             noi di ""
@@ -211,20 +223,12 @@ quietly {
 ***************************************************
 
     if (("`long'" == "") & ("`country'" != "")) &  ("`indicator'" == "") {
-        local w1 = word("`country'",1)
-        local w2 = trim(subinstr("`country'","`w1' - ","",.))
-        gen str5 countrycode  = upper("`w1'")
-        gen str80 countryname = "`w2'"
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
     }
 
     if ("`long'" == "") & ("`indicator'" != "") {
-        local w1 = word("`indicator'",1)
-        local w2 = trim(subinstr("`indicator' ","`w1' - ","",.))
-        gen indicatorcode = "`w1'"
-        gen indicatorname = "`w2'"
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -247,12 +251,6 @@ quietly {
             drop `dups'
         }
 
-
-
-        local w1 = word("`country'",1)
-        local w2 = trim(subinstr("`country'","`w1' - ","",.))
-        gen str5 countrycode  = upper("`w1'")
-        gen str80 countryname = "`w2'"
         order countryname countrycode
         lab var countryname "Country Name"
         lab var countrycode "Country Code"
@@ -282,10 +280,6 @@ quietly {
     }
 
     if ("`long'" != "") & ("`indicator'" != "") {
-        local w1 = word("`indicator'",1)
-        local w2 = trim(subinstr("`indicator' ","`w1' - ","",.))
-        gen indicatorcode = "`w1'"
-        gen indicatorname = "`w2'"
         order countryname countrycode indicatorname indicatorcode
         lab var indicatorname "Indicator Name"
         lab var indicatorcode "Indicator Code"
@@ -360,9 +354,13 @@ quietly {
 
 }
 
-quietly tostring  countryname countrycode, replace
+
+
+if ("`update'" == "") {
 
 quietly {
+
+	tostring  countryname countrycode, replace
 
     gen region = ""
     replace region =  "Latin America & Caribbean (all income levels)" if countrycode == "ABW" & region == ""
@@ -1159,6 +1157,8 @@ quietly {
     lab var region      "Region"
     lab var regioncode  "Region Code"
     lab var iso2code    "Country Code (ISO 2 digits)"
+
+}
 
 }
 
