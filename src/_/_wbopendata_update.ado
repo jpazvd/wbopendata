@@ -1,6 +1,6 @@
 *******************************************************************************
-* _query                                                                      *
-*! v 14.0  	14Jan2019               by Joao Pedro Azevedo                     *
+* _wbopendata_update                                                                     *
+*! v 14.1  	30Jan2019               by Joao Pedro Azevedo                     *
 *******************************************************************************
 
 
@@ -162,7 +162,7 @@ program define _wbopendata_update, rclass
 	findfile indicators.txt, `path'
 	copy `indicator'  `r(fn)' , replace
 
-	findfile wbopendata_indicators.hlp , `path'
+	findfile wbopendata_indicators.sthlp , `path'
 	copy `help'  `r(fn)' , replace
 
 	break
