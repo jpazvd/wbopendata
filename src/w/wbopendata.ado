@@ -3,6 +3,7 @@
 *! v14.2 	31Jan2019               by Joao Pedro Azevedo 
 * Bug Fixed
 	* update _wbopendata_update.ado
+	* set checksum off
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -26,6 +27,8 @@ version 9.0
 
 
 	quietly {
+	
+		set checksum off
 	
 		if ("`update'" != "") {
 		
