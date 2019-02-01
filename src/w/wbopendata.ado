@@ -1,16 +1,9 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*! v14.1 	19Jan2019               by Joao Pedro Azevedo 
-* New options: 
-     * indicator update function
-     * nopreserve option (return list is can be preserved)
-* Bugs fixed
-    * latest option
-    * _query_metadata.ado (source id return list) fixed
-* Revisions
-     * examples
-     * update help file
-     * list of indicators
+*! v14.2 	31Jan2019               by Joao Pedro Azevedo 
+* Bug Fixed
+	* update _wbopendata_update.ado
+	* set checksum off
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -34,6 +27,8 @@ version 9.0
 
 
 	quietly {
+	
+		set checksum off
 	
 		if ("`update'" != "") {
 		
@@ -200,6 +195,17 @@ end
 
 
 **********************************************************************************
+*  v 14.1 	19Jan2019               by Joao Pedro Azevedo 
+* 	New options: 
+     * indicator update function
+     * nopreserve option (return list is can be preserved)
+* 	Bugs fixed
+    * latest option
+    * _query_metadata.ado (source id return list) fixed
+* 	Revisions
+     * examples
+     * update help file
+     * list of indicators
 *  v 14.0  14Jan2019               by Joao Pedro Azevedo 
 *		revised indicator list
 *		change to new API server 
