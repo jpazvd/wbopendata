@@ -1,6 +1,11 @@
+global root "C:\GitHub_myados"
+*global root "C:\Users\wb255520\Documents\myados"
+
 *********************************************************************
 
-cd "C:\Users\wb255520\Documents\myados\wbopendata\src"
+set more off
+
+cd "$root\wbopendata\src"
 shell git checkout qa
 discard
 
@@ -69,7 +74,9 @@ di "`l'"
 		
 local l = `l'-1
 		
-forvalues i = 1(1000)`l' {
+forvalues i = 1(10)`l' {
+
+	noi di "`i'"
 
 	cap: wbopendata, indicator(`indicator`i'') clear
 			
