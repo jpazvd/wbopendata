@@ -22,7 +22,6 @@ local out "test_protocol_v14.txt"
 
 *********************************************************************
 
-
 *********************************************************************
 
 
@@ -34,7 +33,7 @@ file open `in2'     using 	`indicator1'		, read
 file open `out2'    using 	`out'     		, write text append
 
 
-/*
+
 cap: wbopendata, country(chn - China) clear
 file write `out2' "1, -9 , chn, all , all, `_rc'" _n
 
@@ -44,7 +43,7 @@ forvalues t = 1(1)12 {
 	file write `out2' "2, -9 , all, all , `t', `_rc' " _n
 }
 	
-*/
+
 
 file read `in2' line
 
@@ -90,7 +89,16 @@ forvalues i = 1(10)`l' {
 
 }
 	
-	             
+
+
+cap: wbopendata, update
+local rc = _rc
+local date = c(current_date)
+local time = c(current_time)
+file write `out2' "4, -9 , -9, update , all, `rc' , `date', `time'" _n
+
+	
+	
 file close `out2'
 
 
