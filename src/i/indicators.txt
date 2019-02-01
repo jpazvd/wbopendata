@@ -963,15 +963,6 @@ A9ii - 22.Export Value per Survivor: Median
 A9iii - 23.Export Value per Survivor: StDev
 A9iv - 24.Export Value per Survivor: First Quartile
 A9v - 25.Export Value per Survivor: Third Quartile
-AED.PRIM.MATH - Adjusted Primary Math Score
-AED.PRIM.MEAN - Average Adjusted Primary Test Score.
-AED.PRIM.READ - Adjusted Primary Reading Score
-AED.PRIM.SCNC - Adjusted Primary Science Score
-AED.PRSC.MEAN - Average Adjusted Test Score
-AED.SECO.MATH - Adjusted Secondary Math Score
-AED.SECO.MEAN - Average Adjusted Secondary Test Score
-AED.SECO.READ - Adjusted Secondary Reading Score
-AED.SECO.SCNC - Adjusted Secondary Science Score
 AG.AGR.TRAC.NO - Agricultural machinery, tractors
 AG.AID.CREL.MT - Cereal food aid deliveries (FAO, tonnes)
 AG.AID.FOOD.MT - Total food (cereals and non-cereal) food aid deliveries (FAO, tonnes)
@@ -3870,10 +3861,10 @@ DT.GPA.PRVT - Average grace period on new external debt commitments, private (ye
 DT.GRE.DPPG - Average grant element on new external debt commitments (%)
 DT.GRE.OFFT - Average grant element on new external debt commitments, official (%)
 DT.GRE.PRVT - Average grant element on new external debt commitments, private (%)
-DT.HPC.COMR.PV - Debt relief committed under HIPC initiative, cumulative US$ in end-2013 NPV terms
-DT.HPC.MDRI.PV - Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2013 NPV terms
+DT.HPC.COMR.PV - Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms
+DT.HPC.MDRI.PV - Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms
 DT.HPC.STTS - Status under enhanced HIPC initiative
-DT.HPC.TOTL.PV - Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2013 NPV terms
+DT.HPC.TOTL.PV - Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV terms
 DT.INA.DECT.CD - Adjustments to scheduled interest (current US$)
 DT.IND.DEXF.CD - Interest due, total long-term and short term, including IMF per BOP (current US$)
 DT.INP.DECT.00.03.MO.SA.US - Ext. Debt Service Pmt, Interest payments on SDR allocations, 0 to 3 mo., All instruments, USD
@@ -4858,7 +4849,7 @@ EA.NUS.ATLS - Additional Conv. Factor (Annual avg. Local/US$)
 EA.NUS.FCRF - Conversion Factor (Annual average, local per US$)
 EA.PRD.AGRI.KD - Agriculture value added per worker (constant 2010 US$)
 EA.PRD.LAND.KD - Agriculture value added per hectare of agricultural land (constant 1995 US$)
-EC.XPD. CAP.CR - Capital expenditure (in IDR)
+EC.XPD.CAP.CR - Capital expenditure (in IDR)
 EC.XPD.GSR.CR - Goods and services expenditure (in IDR)
 EC.XPD.OTHR.CR - Others expenditure (in IDR)
 EC.XPD.STAF.CR - Personnel expenditure (in IDR)
@@ -4875,7 +4866,7 @@ EE.BOD.WOOD.ZS - Water pollution, wood industry (% of total BOD emissions)
 EE.BOD.WRKR.KG - Organic water pollutant (BOD) emissions (kg per day per worker)
 EF.EFM.OVRL.XD - Economic Fitness Metric
 EF.EFM.RANK.XD - Economic Fitness Ranking (1 = high, 149 = low)
-EG.CFT.ACCS.ZS - Access to clean fuels and technologies for cooking  (% of population)
+EG.CFT.ACCS.ZS - Access to clean fuels and technologies for cooking (% of population)
 EG.EGY.PRIM.PP.KD - Energy intensity level of primary energy (MJ/$2011 PPP GDP)
 EG.EGY.PROD.KT.OE - Energy production (kt of oil equivalent)
 EG.ELC.ACCS.RU.ZS - Access to electricity, rural (% of rural population)
@@ -5448,7 +5439,7 @@ GE.PER.RNK - Government Effectiveness: Percentile Rank
 GE.PER.RNK.LOWER - Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval
 GE.PER.RNK.UPPER - Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval
 GE.STD.ERR - Government Effectiveness: Standard Error
-GFDD.AI.01 - Bank accounts per 1000 adults
+GFDD.AI.01 - Bank accounts per 1,000 adults
 GFDD.AI.02 - Bank branches per 100,000 adults
 GFDD.AI.03 - Firms with a bank loan or line of credit (%)
 GFDD.AI.04 - Small firms with a bank loan or line of credit (%)
@@ -5489,7 +5480,7 @@ GFDD.AM.02 - Market capitalization excluding top 10 companies to total market ca
 GFDD.AM.03 - Nonfinancial corporate bonds to total bonds and notes outstanding (%)
 GFDD.AM.04 - Investments financed by equity or stock sales (%)
 GFDD.DI.01 - Private credit by deposit money banks to GDP (%)
-GFDD.DI.02 - Deposit money banks' assets to GDP (%)
+GFDD.DI.02 - Deposit money banks'' assets to GDP (%)
 GFDD.DI.03 - Nonbank financial institutions’ assets to GDP (%)
 GFDD.DI.04 - Deposit money bank assets to deposit money bank assets and central bank assets (%)
 GFDD.DI.05 - Liquid liabilities to GDP (%)
@@ -5497,7 +5488,7 @@ GFDD.DI.06 - Central bank assets to GDP (%)
 GFDD.DI.07 - Mutual fund assets to GDP (%)
 GFDD.DI.08 - Financial system deposits to GDP (%)
 GFDD.DI.09 - Life insurance premium volume to GDP (%)
-GFDD.DI.10 - Nonlife insurance premium volume to GDP (%)
+GFDD.DI.10 - Non-life insurance premium volume to GDP (%)
 GFDD.DI.11 - Insurance company assets to GDP (%)
 GFDD.DI.12 - Private credit by deposit money banks and other financial institutions to GDP (%)
 GFDD.DI.13 - Pension fund assets to GDP (%)
@@ -5512,6 +5503,11 @@ GFDD.DM.07 - International debt issues to GDP (%)
 GFDD.DM.08 - Gross portfolio equity liabilities to GDP (%)
 GFDD.DM.09 - Gross portfolio equity assets to GDP (%)
 GFDD.DM.10 - Gross portfolio debt liabilities to GDP (%)
+GFDD.DM.11 - Gross portfolio debt assets to GDP (%)
+GFDD.DM.12 - Syndicated loan issuance volume to GDP (%)
+GFDD.DM.13 - Corporate bond issuance volume to GDP (%)
+GFDD.DM.14 - Syndicated loan average maturity (years)
+GFDD.DM.15 - Corporate bond average maturity (years)
 GFDD.EI.01 - Bank net interest margin (%)
 GFDD.EI.02 - Bank lending-deposit spread
 GFDD.EI.03 - Bank noninterest income to total income (%)
@@ -5519,12 +5515,12 @@ GFDD.EI.04 - Bank overhead costs to total assets (%)
 GFDD.EI.05 - Bank return on assets (%, after tax)
 GFDD.EI.06 - Bank return on equity (%, after tax)
 GFDD.EI.07 - Bank cost to income ratio (%)
-GFDD.EI.08 - Credit to government and state owned enterprises to GDP (%)
+GFDD.EI.08 - Credit to government and state-owned enterprises to GDP (%)
 GFDD.EI.09 - Bank return on assets (%, before tax)
 GFDD.EI.10 - Bank return on equity (%, before tax)
 GFDD.EM.01 - Stock market turnover ratio (%)
 GFDD.OE.01 - Consumer price index (2010=100, December)
-GFDD.OE.02 - Average Consumer Price Index (2010=100)
+GFDD.OE.02 - Consumer price index (2010=100, average)
 GFDD.OI.01 - Bank concentration (%)
 GFDD.OI.02 - Bank deposits to GDP (%)
 GFDD.OI.03 - H-statistic
@@ -5547,7 +5543,7 @@ GFDD.OI.19 - Banking crisis dummy (1=banking crisis, 0=none)
 GFDD.OM.01 - Number of listed companies per 1,000,000 people
 GFDD.OM.02 - Stock market return (%, year-on-year)
 GFDD.SI.01 - Bank Z-score
-GFDD.SI.02 - Bank nonperforming loans to gross loans (%)
+GFDD.SI.02 - Bank non-performing loans to gross loans (%)
 GFDD.SI.03 - Bank capital to total assets (%)
 GFDD.SI.04 - Bank credit to bank deposits (%)
 GFDD.SI.05 - Bank regulatory capital to risk-weighted assets (%)
@@ -5684,54 +5680,54 @@ HF.STA.BLSG.ZS.Q2 - Blood sugar measured in last 5 years (% of population at ris
 HF.STA.BLSG.ZS.Q3 - Blood sugar measured in last 5 years (% of population at risk of diabetes): Q3
 HF.STA.BLSG.ZS.Q4 - Blood sugar measured in last 5 years (% of population at risk of diabetes): Q4
 HF.STA.BLSG.ZS.Q5 - Blood sugar measured in last 5 years (% of population at risk of diabetes): Q5 (highest)
-HF.STA.BM15.FE.SM - Mean BMI, female (ages 15-49)
-HF.STA.BM15.FE.SM.Q1 - Mean BMI, female (ages 15-49): Q1 (lowest)
-HF.STA.BM15.FE.SM.Q2 - Mean BMI, female (ages 15-49): Q2
-HF.STA.BM15.FE.SM.Q3 - Mean BMI, female (ages 15-49): Q3
-HF.STA.BM15.FE.SM.Q4 - Mean BMI, female (ages 15-49): Q4
-HF.STA.BM15.FE.SM.Q5 - Mean BMI, female (ages 15-49): Q5 (highest)
-HF.STA.BM18.FE.SM - Mean BMI, female (age 18+)
-HF.STA.BM18.FE.SM.Q1 - Mean BMI, female (age 18+): Q1 (lowest)
-HF.STA.BM18.FE.SM.Q2 - Mean BMI, female (age 18+): Q2
-HF.STA.BM18.FE.SM.Q3 - Mean BMI, female (age 18+): Q3
-HF.STA.BM18.FE.SM.Q4 - Mean BMI, female (age 18+): Q4
-HF.STA.BM18.FE.SM.Q5 - Mean BMI, female (age 18+): Q5 (highest)
-HF.STA.BM18.SM - Mean BMI, adults (age 18+)
-HF.STA.BM18.SM.Q1 - Mean BMI, adults (age 18+): Q1 (lowest)
-HF.STA.BM18.SM.Q2 - Mean BMI, adults (age 18+): Q2
-HF.STA.BM18.SM.Q3 - Mean BMI, adults (age 18+): Q3
-HF.STA.BM18.SM.Q4 - Mean BMI, adults (age 18+): Q4
-HF.STA.BM18.SM.Q5 - Mean BMI, adults (age 18+): Q5 (highest)
-HF.STA.BMIN.MA.SM - Mean BMI, male (age 18+)
-HF.STA.BMIN.MA.SM.Q1 - Mean BMI, male (age 18+): Q1 (lowest)
-HF.STA.BMIN.MA.SM.Q2 - Mean BMI, male (age 18+): Q2
-HF.STA.BMIN.MA.SM.Q3 - Mean BMI, male (age 18+): Q3
-HF.STA.BMIN.MA.SM.Q4 - Mean BMI, male (age 18+): Q4
-HF.STA.BMIN.MA.SM.Q5 - Mean BMI, male (age 18+): Q5 (highest)
+HF.STA.BM15.FE - Mean BMI, female (ages 15-49)
+HF.STA.BM15.FE.Q1 - Mean BMI, female (ages 15-49): Q1 (lowest)
+HF.STA.BM15.FE.Q2 - Mean BMI, female (ages 15-49): Q2
+HF.STA.BM15.FE.Q3 - Mean BMI, female (ages 15-49): Q3
+HF.STA.BM15.FE.Q4 - Mean BMI, female (ages 15-49): Q4
+HF.STA.BM15.FE.Q5 - Mean BMI, female (ages 15-49): Q5 (highest)
+HF.STA.BM18 - Mean BMI, adults (age 18+)
+HF.STA.BM18.FE - Mean BMI, female (age 18+)
+HF.STA.BM18.FE.Q1 - Mean BMI, female (age 18+): Q1 (lowest)
+HF.STA.BM18.FE.Q2 - Mean BMI, female (age 18+): Q2
+HF.STA.BM18.FE.Q3 - Mean BMI, female (age 18+): Q3
+HF.STA.BM18.FE.Q4 - Mean BMI, female (age 18+): Q4
+HF.STA.BM18.FE.Q5 - Mean BMI, female (age 18+): Q5 (highest)
+HF.STA.BM18.Q1 - Mean BMI, adults (age 18+): Q1 (lowest)
+HF.STA.BM18.Q2 - Mean BMI, adults (age 18+): Q2
+HF.STA.BM18.Q3 - Mean BMI, adults (age 18+): Q3
+HF.STA.BM18.Q4 - Mean BMI, adults (age 18+): Q4
+HF.STA.BM18.Q5 - Mean BMI, adults (age 18+): Q5 (highest)
+HF.STA.BMIN.MA - Mean BMI, male (age 18+)
+HF.STA.BMIN.MA.Q1 - Mean BMI, male (age 18+): Q1 (lowest)
+HF.STA.BMIN.MA.Q2 - Mean BMI, male (age 18+): Q2
+HF.STA.BMIN.MA.Q3 - Mean BMI, male (age 18+): Q3
+HF.STA.BMIN.MA.Q4 - Mean BMI, male (age 18+): Q4
+HF.STA.BMIN.MA.Q5 - Mean BMI, male (age 18+): Q5 (highest)
 HF.STA.BP18.ZS - Blood pressure measured in last 12 months (% of population age 18+)
 HF.STA.BP18.ZS.Q1 - Blood pressure measured in last 12 months (% of population age 18+): Q1 (lowest)
 HF.STA.BP18.ZS.Q2 - Blood pressure measured in last 12 months (% of population age 18+): Q2
 HF.STA.BP18.ZS.Q3 - Blood pressure measured in last 12 months (% of population age 18+): Q3
 HF.STA.BP18.ZS.Q4 - Blood pressure measured in last 12 months (% of population age 18+): Q4
 HF.STA.BP18.ZS.Q5 - Blood pressure measured in last 12 months (% of population age 18+): Q5 (highest)
-HF.STA.BPDI.SM - Mean diastolic blood pressure, adult population (mmHg)
-HF.STA.BPDI.SM.Q1 - Mean diastolic blood pressure, adult population (mmHg): Q1 (lowest)
-HF.STA.BPDI.SM.Q2 - Mean diastolic blood pressure, adult population (mmHg): Q2
-HF.STA.BPDI.SM.Q3 - Mean diastolic blood pressure, adult population (mmHg): Q3
-HF.STA.BPDI.SM.Q4 - Mean diastolic blood pressure, adult population (mmHg): Q4
-HF.STA.BPDI.SM.Q5 - Mean diastolic blood pressure, adult population (mmHg): Q5 (highest)
+HF.STA.BPDI - Mean diastolic blood pressure, adult population (mmHg)
+HF.STA.BPDI.Q1 - Mean diastolic blood pressure, adult population (mmHg): Q1 (lowest)
+HF.STA.BPDI.Q2 - Mean diastolic blood pressure, adult population (mmHg): Q2
+HF.STA.BPDI.Q3 - Mean diastolic blood pressure, adult population (mmHg): Q3
+HF.STA.BPDI.Q4 - Mean diastolic blood pressure, adult population (mmHg): Q4
+HF.STA.BPDI.Q5 - Mean diastolic blood pressure, adult population (mmHg): Q5 (highest)
 HF.STA.BPHT.ZS - High blood pressure or being treated for high blood pressure (% of adult population)
 HF.STA.BPHT.ZS.Q1 - High blood pressure or being treated for high blood pressure (% of adult population): Q1 (lowest)
 HF.STA.BPHT.ZS.Q2 - High blood pressure or being treated for high blood pressure (% of adult population): Q2
 HF.STA.BPHT.ZS.Q3 - High blood pressure or being treated for high blood pressure (% of adult population): Q3
 HF.STA.BPHT.ZS.Q4 - High blood pressure or being treated for high blood pressure (% of adult population): Q4
 HF.STA.BPHT.ZS.Q5 - High blood pressure or being treated for high blood pressure (% of adult population): Q5 (highest)
-HF.STA.BPSY.SM - Mean systolic blood pressure, adult population (mmHg)
-HF.STA.BPSY.SM.Q1 - Mean systolic blood pressure, adult population (mmHg): Q1 (lowest)
-HF.STA.BPSY.SM.Q2 - Mean systolic blood pressure, adult population (mmHg): Q2
-HF.STA.BPSY.SM.Q3 - Mean systolic blood pressure, adult population (mmHg): Q3
-HF.STA.BPSY.SM.Q4 - Mean systolic blood pressure, adult population (mmHg): Q4
-HF.STA.BPSY.SM.Q5 - Mean systolic blood pressure, adult population (mmHg): Q5 (highest)
+HF.STA.BPSY - Mean systolic blood pressure, adult population (mmHg)
+HF.STA.BPSY.Q1 - Mean systolic blood pressure, adult population (mmHg): Q1 (lowest)
+HF.STA.BPSY.Q2 - Mean systolic blood pressure, adult population (mmHg): Q2
+HF.STA.BPSY.Q3 - Mean systolic blood pressure, adult population (mmHg): Q3
+HF.STA.BPSY.Q4 - Mean systolic blood pressure, adult population (mmHg): Q4
+HF.STA.BPSY.Q5 - Mean systolic blood pressure, adult population (mmHg): Q5 (highest)
 HF.STA.BPTR.ZS - Treated for high blood pressure (% of adult population)
 HF.STA.BPTR.ZS.Q1 - Treated for high blood pressure (% of adult population): Q1 (lowest)
 HF.STA.BPTR.ZS.Q2 - Treated for high blood pressure (% of adult population): Q2
@@ -5744,7 +5740,7 @@ HF.STA.BRTC.ZS.Q2 - Births attended by skilled health staff (% of total): Q2
 HF.STA.BRTC.ZS.Q3 - Births attended by skilled health staff (% of total): Q3
 HF.STA.BRTC.ZS.Q4 - Births attended by skilled health staff (% of total): Q4
 HF.STA.BRTC.ZS.Q5 - Births attended by skilled health staff (% of total): Q5 (highest)
-HF.STA.CHOL.SM - Mean cholesterol, adult population (mmol/L)
+HF.STA.CHOL - Mean cholesterol, adult population (mmol/L)
 HF.STA.CHOL.ZS - High cholesterol or on treatment for high cholesterol (% of adult population)
 HF.STA.CHOM.ZS - Cholesterol measured in last five years (% of population at risk of high cholesterol)
 HF.STA.CHOM.ZS.Q1 - Cholesterol measured in last five years (% of population at risk of high cholesterol): Q1 (lowest)
@@ -5758,32 +5754,32 @@ HF.STA.DIAB.ZS.Q2 - Treated for raised blood glucose or diabetes (% of adult pop
 HF.STA.DIAB.ZS.Q3 - Treated for raised blood glucose or diabetes (% of adult population): Q3
 HF.STA.DIAB.ZS.Q4 - Treated for raised blood glucose or diabetes (% of adult population): Q4
 HF.STA.DIAB.ZS.Q5 - Treated for raised blood glucose or diabetes (% of adult population): Q5 (highest)
-HF.STA.GLUC.SM - Mean fasting blood glucose, adult population (mmol/L)
+HF.STA.GLUC - Mean fasting blood glucose, adult population (mmol/L)
 HF.STA.GLYC.ZS - Impaired fasting glycaemia (% of adult population)
-HF.STA.HE15.FE.SM - Mean height in meters, female, (age 15-49)
-HF.STA.HE15.FE.SM.Q1 - Mean height in meters, female, (age 15-49): Q1 (lowest)
-HF.STA.HE15.FE.SM.Q2 - Mean height in meters, female, (age 15-49): Q2
-HF.STA.HE15.FE.SM.Q3 - Mean height in meters, female, (age 15-49): Q3
-HF.STA.HE15.FE.SM.Q4 - Mean height in meters, female, (age 15-49): Q4
-HF.STA.HE15.FE.SM.Q5 - Mean height in meters, female, (age 15-49): Q5 (highest)
-HF.STA.HE18.FE.SM - Mean height in meters, female (age 18+)
-HF.STA.HE18.FE.SM.Q1 - Mean height in meters, female (age 18+): Q1 (lowest)
-HF.STA.HE18.FE.SM.Q2 - Mean height in meters, female (age 18+): Q2
-HF.STA.HE18.FE.SM.Q3 - Mean height in meters, female (age 18+): Q3
-HF.STA.HE18.FE.SM.Q4 - Mean height in meters, female (age 18+): Q4
-HF.STA.HE18.FE.SM.Q5 - Mean height in meters, female (age 18+): Q5 (highest)
-HF.STA.HE18.MA.SM - Mean height in meters, male (age 18+)
-HF.STA.HE18.MA.SM.Q1 - Mean height in meters, male (age 18+): Q1 (lowest)
-HF.STA.HE18.MA.SM.Q2 - Mean height in meters, male (age 18+): Q2
-HF.STA.HE18.MA.SM.Q3 - Mean height in meters, male (age 18+): Q3
-HF.STA.HE18.MA.SM.Q4 - Mean height in meters, male (age 18+): Q4
-HF.STA.HE18.MA.SM.Q5 - Mean height in meters, male (age 18+): Q5 (highest)
-HF.STA.HE18.SM - Mean height in meters, adults (age 18+)
-HF.STA.HE18.SM.Q1 - Mean height in meters, adults (age 18+): Q1 (lowest)
-HF.STA.HE18.SM.Q2 - Mean height in meters, adults (age 18+): Q2
-HF.STA.HE18.SM.Q3 - Mean height in meters, adults (age 18+): Q3
-HF.STA.HE18.SM.Q4 - Mean height in meters, adults (age 18+): Q4
-HF.STA.HE18.SM.Q5 - Mean height in meters, adults (age 18+): Q5 (highest)
+HF.STA.HE15.FE - Mean height in meters, female, (age 15-49)
+HF.STA.HE15.FE.Q1 - Mean height in meters, female, (age 15-49): Q1 (lowest)
+HF.STA.HE15.FE.Q2 - Mean height in meters, female, (age 15-49): Q2
+HF.STA.HE15.FE.Q3 - Mean height in meters, female, (age 15-49): Q3
+HF.STA.HE15.FE.Q4 - Mean height in meters, female, (age 15-49): Q4
+HF.STA.HE15.FE.Q5 - Mean height in meters, female, (age 15-49): Q5 (highest)
+HF.STA.HE18 - Mean height in meters, adults (age 18+)
+HF.STA.HE18.FE - Mean height in meters, female (age 18+)
+HF.STA.HE18.FE.Q1 - Mean height in meters, female (age 18+): Q1 (lowest)
+HF.STA.HE18.FE.Q2 - Mean height in meters, female (age 18+): Q2
+HF.STA.HE18.FE.Q3 - Mean height in meters, female (age 18+): Q3
+HF.STA.HE18.FE.Q4 - Mean height in meters, female (age 18+): Q4
+HF.STA.HE18.FE.Q5 - Mean height in meters, female (age 18+): Q5 (highest)
+HF.STA.HE18.MA - Mean height in meters, male (age 18+)
+HF.STA.HE18.MA.Q1 - Mean height in meters, male (age 18+): Q1 (lowest)
+HF.STA.HE18.MA.Q2 - Mean height in meters, male (age 18+): Q2
+HF.STA.HE18.MA.Q3 - Mean height in meters, male (age 18+): Q3
+HF.STA.HE18.MA.Q4 - Mean height in meters, male (age 18+): Q4
+HF.STA.HE18.MA.Q5 - Mean height in meters, male (age 18+): Q5 (highest)
+HF.STA.HE18.Q1 - Mean height in meters, adults (age 18+): Q1 (lowest)
+HF.STA.HE18.Q2 - Mean height in meters, adults (age 18+): Q2
+HF.STA.HE18.Q3 - Mean height in meters, adults (age 18+): Q3
+HF.STA.HE18.Q4 - Mean height in meters, adults (age 18+): Q4
+HF.STA.HE18.Q5 - Mean height in meters, adults (age 18+): Q5 (highest)
 HF.STA.INPT.ZS - Inpatient care use in last 12 months (% of population 18+)
 HF.STA.INPT.ZS.Q1 - Inpatient care use in last 12 months (% of population 18+): Q1 (lowest)
 HF.STA.INPT.ZS.Q2 - Inpatient care use in last 12 months (% of population 18+): Q2
@@ -6547,7 +6543,12 @@ IN.EC.GSDP.PERCAP.REAL.INR.GRWTHRAT - Real GSDP Per Capita (INR) Growth Rate
 IN.EC.GSDP.PERCAP.REAL.USD - Real GSDP Per Capita (USD)
 IN.EC.GSDP.PERCAP.REAL.USD.GRWTHRAT - Real GSDP Per Capita (USD) Growth Rate
 IN.EC.POP.GRWTHRAT. - Decadal Growth of Population (%)
+IN.EC.POP.GRWTHRAT.RURL - Decadal Growth of Population, Rural (%)
+IN.EC.POP.GRWTHRAT.URBN - Decadal Growth of Population, Urban (%)
+IN.EC.POP.RURL - Population, Rural (Thousands)
+IN.EC.POP.RURL.PCT - Population, Rural (%)
 IN.EC.POP.TOTL - Population (Thousands)
+IN.EC.POP.URBN.PCT - Population, Urban (%)
 IN.EDU.ENROL.GEN - Enrolment by Caste-General (%)
 IN.EDU.ENROL.MSLM - Enrolment by Caste-Muslim (%)
 IN.EDU.ENROL.OBC - Enrolment by Caste-OBC (%)
@@ -6570,6 +6571,36 @@ IN.ENRGY.TOWNS.TOTL - Number of Towns Total (Per 2001 Census)
 IN.ENRGY.VILLAG.ELECTRFIED - Number of Villages Electrified
 IN.ENRGY.VILLAG.ELECTRFIED.PERCENT - Number of Villages Electrified (Percentage)
 IN.ENRGY.VILLAG.TOTL - Number of Villages Total (Per 2001 Census)
+IN.ENV.CO2.CONC - CO2 Emission (in thousand metric tons of Carbon)
+IN.ENV.CO2.PERCAP.CONC - Per Capita Emission ( metric tons of Carbon)
+IN.ENV.COASTALZONE.AGRILAND.AREA - Agricultural land (SQ KMs)
+IN.ENV.COASTALZONE.AGRILAND.PCT - Ratio: Agricultural land to total coastal area of state (%)
+IN.ENV.COASTALZONE.BUILT.AREA - Built-up land (SQ KMs)
+IN.ENV.COASTALZONE.BUILT.PCT - Ratio: Built-up land to total coastal area of state (%)
+IN.ENV.COASTALZONE.FOREST.AREA - Forest (Non- tidal)/ Plantation (SQ KMs)
+IN.ENV.COASTALZONE.FOREST.PCT - Ratio: Forest (Non- tidal)/ Plantation to total coastal area of state (%)
+IN.ENV.COASTALZONE.OTHFEATURES.AREA - Other features (SQ KMs)
+IN.ENV.COASTALZONE.OTHFEATURES.PCT - Ratio: Other features to total coastal area of state (%)
+IN.ENV.COASTALZONE.SHORELAND.AREA - Shore land (SQ KMs)
+IN.ENV.COASTALZONE.SHORELAND.PCT - Ratio: Shore land to total coastal area of state (%)
+IN.ENV.COASTALZONE.WASTELAND.AREA - Barren wasteland (SQ KMs)
+IN.ENV.COASTALZONE.WASTELAND.PCT - Ratio: Barren/ wasteland to total coastal area of state (%)
+IN.ENV.COASTALZONE.WATERBODIES.AREA - Water bodies (SQ KMs)
+IN.ENV.COASTALZONE.WATERBODIES.PCT - Ratio: Water bodies to total coastal area of state (%)
+IN.ENV.COASTALZONE.WETLAND.AREA - Wetlands (SQ KMs)
+IN.ENV.COASTALZONE.WETLAND.PCT - Ratio: Wetland to total coastal area of state (%)
+IN.ENV.CROPINTENSIT.PCT - Cropping Intensity (%)
+IN.ENV.FOREST.AREA - Forest Cover  ('000 hectares)
+IN.ENV.FOREST.PCT - Forest Cover (Percent of Geographical Area)
+IN.ENV.GEO.AREA - Geographical Area ('000 hectares)
+IN.ENV.GROSS.IRRIG.AREA - Gross Irrigated Area ('000 hectares)
+IN.ENV.IRRIGTOCROPPED.PCT - Ratio: Gross Irrigated to Total Cropped Area (%)
+IN.ENV.NET.IRRIG.AREA - Net Irrigated Area ('000 hectares)
+IN.ENV.NO2.CONC - AIr Quality: Nitrogen Oxide (Micrograms/Cubic Meter)
+IN.ENV.NOCULTIVATION.AREA - Area not available for cultivation ('000 hectares)
+IN.ENV.OTHR.UNCULTIVABL.AREA - Other uncultivated (excl. fallow land) ('000 hectares)
+IN.ENV.PM.CONC - AIr Quality: Particulate Matter (Micrograms/Cubic Meter)
+IN.ENV.SO2.CONC - AIr Quality: Sulfur Dioxide (Micrograms/Cubic Meter)
 IN.FIN.COMMBANK.NUM - Commercial Bank Offices (Total)
 IN.FIN.FININCL.INDX - Financial Inclusion Index (CRISIL Method)
 IN.FIN.HH.BNKG.SRVC.RURL - Total number of households availing banking services - Rural
@@ -6593,6 +6624,26 @@ IN.HLTH.HLTHSTAFF.NUM - Health visitors &amp; Health supervisors
 IN.HLTH.MALARIA.CASES - Malaria - Cases
 IN.HLTH.MALARIA.DEATH - Malaria - Deaths
 IN.HLTH.SUBCTR.NUM - Number of Sub-Centers (SCs)
+IN.IS.RRS.ELEC.KM - Electrified Route Kilometres
+IN.IS.RRS.FRGT.LEAD - Freight Traffic (revenue earning) - Lead (Average no. of KMs per tonne)
+IN.IS.RRS.FRGT.RATE - Average Freight Rate per Tonne-KM (in Paise, for all commodities)
+IN.IS.RRS.FRGT.RVENU.NET.TON.KM - Freight Traffic (revenue earning) -Net Tonne Kilometers (millions)
+IN.IS.RRS.FRGT.SPEED - Speed of Freight Trains (KMs/hour)
+IN.IS.RRS.FRGT.TONS.ORIG - Freight Traffic - Tonnes originating (Millions)
+IN.IS.RRS.LOCO.NO. - Locomotives - Number in service
+IN.IS.RRS.LOCO.TRACT.KG3 - Locomotives -Total tractive effort ('000  Kgs)
+IN.IS.RRS.PASG.KM.NONSUB - Passenger-Kilometers Traffic (Non-Suburban), in millions
+IN.IS.RRS.PASG.KM.SUB - Passenger-Kilometers Traffic (Suburban), in millions
+IN.IS.RRS.PASG.KM.TOTL - Total Passenger-Kilometers Traffic, in millions
+IN.IS.RRS.RUN.KM - Running Track Kilometres
+IN.IS.RRS.TOTL.KM - Total Route Kilometers
+IN.IS.RRS.TRKDENSITY.NTKM - Net tonnes Kms. per Route Km. per Annum (' 000s)
+IN.IS.RRS.TRKDENSITY.TRAIN - Train Kms. per Running Track Km. per Day
+IN.IS.RRS.WAGN.LEAD - Wagon Usage: Avergae Wagon Lead during run (in Tonnes)
+IN.IS.RRS.WAGN.NTKM.PER.WAGNDAY - Wagon Usage: Net Tonne-KMs/Weagon Day
+IN.IS.RRS.WAGN.USAGE - Wagon Usage (KMs/Wagon Day)
+IN.IS.RRS.WAGON.NO - Number of wagons in service (All Gauges)
+IN.IS.RRSTRKDENSITY.PASG - Passenger Kms. per Route Km. per Annum 000s
 IN.LABR.LABR.MYS - Labor Force ages 15+ Rural &amp; Urban: Mean Years of Schooling
 IN.LABR.LFPR.TOTL - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level All Levels
 IN.LABR.LFPR.TOTL.DIPL - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Diploma/Cert
@@ -6602,27 +6653,65 @@ IN.LABR.LFPR.TOTL.NOTLITRT - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level
 IN.LABR.LFPR.TOTL.PG - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Degree + Post Graduate
 IN.LABR.LFPR.TOTL.PRIMRY - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Literacy upto Primary
 IN.LABR.LFPR.TOTL.SCNDRY - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Secondary
+IN.POV.ASSETS.LANDMOBILE.PCT - Households with telephones (Landline &amp; Mobile, %)
 IN.POV.HCR.EST.RURL - Poverty HCR Estimates (%) - Rural
 IN.POV.HCR.EST.TOTL - Poverty HCR Estimates (%) - Total
 IN.POV.HCR.EST.URBN - Poverty HCR Estimates (%) - Urban
+IN.POV.HH.ASSETS.COMP.INTERNET.PCT - Households having computer laptops (w/Internet, %)
+IN.POV.HH.ASSETS.COMP.NOINTERNET.PCT - Households having computer laptops (w/o Internet, %)
+IN.POV.HH.ASSETS.COMPUTERS.PCT - Households having computer laptops (%)
+IN.POV.HH.ASSETS.LANDLINEPHONE.PCT - Households with telephones (Landline, %)
+IN.POV.HH.ASSETS.MOBILEPHONE.PCT - Households with telephones (Mobile, %)
+IN.POV.HH.ASSETS.NUM - Households with assets (Number)
+IN.POV.HH.ASSETS.PHONE.PCT - Households with telephones (%)
 IN.POV.HH.DRKNGWATER - Total households with drinking water facility
 IN.POV.HH.DRKNGWATER.AWAY - Availability of drinking water from a source away
 IN.POV.HH.DRKNGWATER.NEAR - Availability of drinking water source near the premises
 IN.POV.HH.DRKNGWATER.WITHIN - Availability of drinking water source within the premises
+IN.POV.HH.DRNKNGWATER.RURL.PCT - Households Access to Safe Drinking Water - Rural (%)
+IN.POV.HH.DRNKNGWATER.TOTL.PCT - Households Access to Safe Drinking Water - Total (%)
+IN.POV.HH.DRNKNGWATER.URBN.PCT - Households Access to Safe Drinking Water - Urban (%)
+IN.POV.HH.SLUMS.NUM - Households in Slums (Number)
+IN.POV.HOUSNG.URBN.NUM - Urban housing - approved (number, cumulative total)
 IN.POV.INF.MORTRATE - Infant Mortality Rate (per 1,000)
 IN.POV.INF.MORTRATE.UNDR5 - Under 5 Mortality Rate (Per 1,000)
 IN.POV.LIT.RAT.FEMALE - Literacy Rate Female (%)
 IN.POV.LIT.RAT.MALE - Literacy Rate Male (%)
+IN.POV.LIT.RAT.RURL - Literacy rate, Rural (%)
+IN.POV.LIT.RAT.SLUMS.FEMALE.PCT - Literacy Rate in Slums-Female (%)
+IN.POV.LIT.RAT.SLUMS.MALE.PCT - Literacy Rate in Slums - Male (%)
+IN.POV.LIT.RAT.SLUMS.TOTL.PCT - Literacy Rate in Slums  - Total (%)
 IN.POV.LIT.RAT.TOTL - Literacy Rate (%)
+IN.POV.LIT.RAT.URBN - Literacy rate, Urban (%)
 IN.POV.LTRIN.POV.AWAY - Latrine not available within premises
 IN.POV.LTRIN.POV.WITHIN - Latrine facility available within premises
+IN.POV.MIGRNTS.5TO9YEARS.NUM - Migrants, Total: 5 to 9 years  residence (Number)
+IN.POV.MIGRNTS.FEMALE.1TO4YEARS.NUM - Migrants, Female 1 to 4 years  residence (Number)
+IN.POV.MIGRNTS.FEMALE.5TO9YEARS.NUM - Migrants, Female: 5 to 9 years  residence (Number)
+IN.POV.MIGRNTS.FEMALE.NUM - Migrants - Female (Number)
+IN.POV.MIGRNTS.FEMALE.UNDER1YEAR.NUM - Migrants, Female: less than 1 Year  residence (Number)
+IN.POV.MIGRNTS.MALE.1TO4YEARS.NUM - Migrants, Male: 1 to 4 years  residence (Number)
+IN.POV.MIGRNTS.MALE.5TO9YEARS.NUM - Migrants, Male: 5 to 9 years  residence (Number)
+IN.POV.MIGRNTS.MALE.NUM - Migrants - Male (Number)
+IN.POV.MIGRNTS.MALE.UNDER1YEAR.NUM - Migrants, Male: less than 1 Year  residence (Number)
+IN.POV.MIGRNTS.TOTL.1TO4YEARS.NUM - Migrants, Total: 1 to 4 years  residence (Number)
+IN.POV.MIGRNTS.TOTL.NUM - Migrants, Total (Number)
+IN.POV.MIGRNTS.TOTL.UNDER1YEAR.NUM - Migrants, Total: less than 1 Year  residence (Number)
+IN.POV.SLUM.POP.FEMALE.NUM - Total Slum Population - Female (Number)
+IN.POV.SLUM.POP.MALE.NUM - Total Slum Population - Male (Number)
+IN.POV.SLUM.POP.TOTL.NUM - Total Slum Population (Number)
+IN.POV.WORKERS.SLUMS.FEMALE.NUM - Total Workers in Slums - Female (Number)
+IN.POV.WORKERS.SLUMS.MALE.NUM - Total Workers in Slums - Male (Number)
+IN.POV.WORKERS.SLUMS.TOTL.NUM - Total Workers in Slums (Number)
 IN.TRANSPORT.NATLHWY.BELOWSTD - National Highways (surfaced length) - Below standard single lane (KMs)
 IN.TRANSPORT.NATLHWY.DBLLANE - National Highways (surfaced length) - Standard double lane (KMs)
 IN.TRANSPORT.NATLHWY.MULTLANE - National Highways (surfaced length) - Standard multi lane (KMs)
 IN.TRANSPORT.NATLHWY.ONELANESTD - National Highways (surfaced length) - Standard single lane (KMs)
 IN.TRANSPORT.NATLHWY.TOTL - National Highways (surfaced length) - Total (KMs)
 IN.TRANSPORT.RD.URBN - Urban Roads (KMs)
+IN.TRANSPORT.RD.URBN.BTCC.SURFACE - Urban Roads,  B.T/C.C surface (KMs)
 IN.TRANSPORT.RD.URBN.SURFACED - Urban Roads Surfaced (KMs)
+IN.TRANSPORT.RD.URBN.WBM.SURFACE - Urban Roads, W.B.M. surface (KMs)
 IN.TRANSPORT.RDCRASH.INJURD.NUM - Number of seriously injured in road traffic crashes
 IN.TRANSPORT.RDCRASH.NUM - Number of road crashes
 IN.TRANSPORT.RURLRD.DENSIT - Rural Road Density (KMs/1000 Population)
@@ -7499,6 +7588,7 @@ LO.PIAAC.LIT.FE.1 - PIAAC: Female adults by literacy proficiency level (%). Leve
 LO.PIAAC.LIT.FE.2 - PIAAC: Female adults by literacy proficiency level (%). Level 2
 LO.PIAAC.LIT.FE.3 - PIAAC: Female adults by literacy proficiency level (%). Level 3
 LO.PIAAC.LIT.FE.4 - PIAAC: Female adults by literacy proficiency level (%). Level 4
+LO.PIAAC.LIT.FE.45 - PIAAC: Female adults by literacy proficiency level (%). Level 4 &amp; 5
 LO.PIAAC.LIT.FE.5 - PIAAC: Female adults by literacy proficiency level (%). Level 5
 LO.PIAAC.LIT.FE.BE - PIAAC: Female adults by literacy proficiency level (%). Below Level 1
 LO.PIAAC.LIT.MA - PIAAC: Mean Adult Literacy Proficiency. Male
@@ -7506,6 +7596,7 @@ LO.PIAAC.LIT.MA.1 - PIAAC: Male adults by literacy proficiency level (%). Level 
 LO.PIAAC.LIT.MA.2 - PIAAC: Male adults by literacy proficiency level (%). Level 2
 LO.PIAAC.LIT.MA.3 - PIAAC: Male adults by literacy proficiency level (%). Level 3
 LO.PIAAC.LIT.MA.4 - PIAAC: Male adults by literacy proficiency level (%). Level 4
+LO.PIAAC.LIT.MA.45 - PIAAC: Male adults by literacy proficiency level (%). Level 4 &amp; 5
 LO.PIAAC.LIT.MA.5 - PIAAC: Male adults by literacy proficiency level (%). Level 5
 LO.PIAAC.LIT.MA.BE - PIAAC: Male adults by literacy proficiency level (%). Below Level 1
 LO.PIAAC.LIT.P05 - PIAAC: Distribution of Adult Literacy Scores: 5th Percentile Score
@@ -7520,6 +7611,7 @@ LO.PIAAC.LIT.YOU.1 - PIAAC: Young adults by literacy proficiency level (%). Leve
 LO.PIAAC.LIT.YOU.2 - PIAAC: Young adults by literacy proficiency level (%). Level 2
 LO.PIAAC.LIT.YOU.3 - PIAAC: Young adults by literacy proficiency level (%). Level 3
 LO.PIAAC.LIT.YOU.4 - PIAAC: Young adults by literacy proficiency level (%). Level 4
+LO.PIAAC.LIT.YOU.45 - PIAAC: Young adults by literacy proficiency level (%). Level 4 &amp; 5
 LO.PIAAC.LIT.YOU.5 - PIAAC: Young adults by literacy proficiency level (%). Level 5
 LO.PIAAC.LIT.YOU.BE - PIAAC: Young adults by literacy proficiency level (%). Below Level 1
 LO.PIAAC.LIT.YOU.FE - PIAAC: Mean Young Adult Literacy Proficiency. Female
@@ -7536,6 +7628,7 @@ LO.PIAAC.NUM.FE.1 - PIAAC: Female adults by numeracy proficiency level (%). Leve
 LO.PIAAC.NUM.FE.2 - PIAAC: Female adults by numeracy proficiency level (%). Level 2
 LO.PIAAC.NUM.FE.3 - PIAAC: Female adults by numeracy proficiency level (%). Level 3
 LO.PIAAC.NUM.FE.4 - PIAAC: Female adults by numeracy proficiency level (%). Level 4
+LO.PIAAC.NUM.FE.45 - PIAAC: Female adults by numeracy proficiency level (%). Level 4 &amp; 5
 LO.PIAAC.NUM.FE.5 - PIAAC: Female adults by numeracy proficiency level (%). Level 5
 LO.PIAAC.NUM.FE.BE - PIAAC: Female adults by numeracy proficiency level (%). Below Level 1
 LO.PIAAC.NUM.MA - PIAAC: Mean Adult Numeracy Proficiency. Male
@@ -7543,6 +7636,7 @@ LO.PIAAC.NUM.MA.1 - PIAAC: Male adults by numeracy proficiency level (%). Level 
 LO.PIAAC.NUM.MA.2 - PIAAC: Male adults by numeracy proficiency level (%). Level 2
 LO.PIAAC.NUM.MA.3 - PIAAC: Male adults by numeracy proficiency level (%). Level 3
 LO.PIAAC.NUM.MA.4 - PIAAC: Male adults by numeracy proficiency level (%). Level 4
+LO.PIAAC.NUM.MA.45 - PIAAC: Male adults by numeracy proficiency level (%). Level 4 &amp; 5
 LO.PIAAC.NUM.MA.5 - PIAAC: Male adults by numeracy proficiency level (%). Level 5
 LO.PIAAC.NUM.MA.BE - PIAAC: Male adults by numeracy proficiency level (%). Below Level 1
 LO.PIAAC.NUM.P05 - PIAAC: Distribution of Adult Numeracy Scores: 5th Percentile Score
@@ -7557,6 +7651,7 @@ LO.PIAAC.NUM.YOU.1 - PIAAC: Young adults by numeracy proficiency level (%). Leve
 LO.PIAAC.NUM.YOU.2 - PIAAC: Young adults by numeracy proficiency level (%). Level 2
 LO.PIAAC.NUM.YOU.3 - PIAAC: Young adults by numeracy proficiency level (%). Level 3
 LO.PIAAC.NUM.YOU.4 - PIAAC: Young adults by numeracy proficiency level (%). Level 4
+LO.PIAAC.NUM.YOU.45 - PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5
 LO.PIAAC.NUM.YOU.5 - PIAAC: Young adults by numeracy proficiency level (%). Level 5
 LO.PIAAC.NUM.YOU.BE - PIAAC: Young adults by numeracy proficiency level (%). Below Level 1
 LO.PIAAC.NUM.YOU.FE - PIAAC: Mean Young Adult Numeracy Proficiency. Female
@@ -7571,6 +7666,7 @@ LO.PIAAC.TEC.FE.2 - PIAAC: Female adults by proficiency level in problem solving
 LO.PIAAC.TEC.FE.3 - PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Level 3
 LO.PIAAC.TEC.FE.BE - PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1
 LO.PIAAC.TEC.FE.FAIL - PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Failed ICT Core Test
+LO.PIAAC.TEC.FE.FAILNO - PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). No computer experience or failed the ICT core test
 LO.PIAAC.TEC.FE.NO - PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). No computer experience
 LO.PIAAC.TEC.FE.OPT - PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Opted out of computer-based assessment
 LO.PIAAC.TEC.MA.1 - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Level 1
@@ -7578,6 +7674,7 @@ LO.PIAAC.TEC.MA.2 - PIAAC: Male adults by proficiency level in problem solving i
 LO.PIAAC.TEC.MA.3 - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Level 3
 LO.PIAAC.TEC.MA.BE - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1
 LO.PIAAC.TEC.MA.FAIL - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Failed ICT Core Test
+LO.PIAAC.TEC.MA.FAILNO - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). No computer experience or failed the ICT core test
 LO.PIAAC.TEC.MA.NO - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). No computer experience
 LO.PIAAC.TEC.MA.OPT - PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Opted out of computer-based assessment
 LO.PIAAC.TEC.NO - PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). No computer experience
@@ -7594,6 +7691,7 @@ LO.PIAAC.TEC.YOU.2 - PIAAC: Young adults by proficiency level in problem solving
 LO.PIAAC.TEC.YOU.3 - PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Level 3
 LO.PIAAC.TEC.YOU.BE - PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1
 LO.PIAAC.TEC.YOU.FAIL - PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Failed ICT Core Test
+LO.PIAAC.TEC.YOU.FAILNO - PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). No computer experience or failed the ICT core test
 LO.PIAAC.TEC.YOU.NO - PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). No computer experience
 LO.PIAAC.TEC.YOU.OPT - PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Opted out of computer-based assessment
 LO.PIRLS.REA - PIRLS: Mean performance on the reading scale, total
@@ -7908,7 +8006,7 @@ MS.MIL.XPND.CD - Military expenditure (current USD)
 MS.MIL.XPND.CN - Military expenditure (current LCU)
 MS.MIL.XPND.GD.ZS - Military expenditure (% of GDP)
 MS.MIL.XPND.GN.ZS - Military expenditure (% of GNI)
-MS.MIL.XPND.ZS - Military expenditure (% of central government expenditure)
+MS.MIL.XPND.ZS - Military expenditure (% of general government expenditure)
 MS.MIL.XPRT.KD - Arms exports (SIPRI trend indicator values)
 MS.MIL.XPRT.ZS - Arms exports (% of total exports)
 NA.GDP.AGR.CR - GDP on Agriculture Sector (in IDR Million), Current Price
@@ -8925,6 +9023,7 @@ REV.DAU.CR - Total General Allocation Grant/DAU (in IDR)
 REV.NRRV.SHR.CR - Total Natural Resource Revenue Sharing/DBH SDA (in IDR)
 REV.OSRV.CR - Total Own Source Revenue/PAD (in IDR)
 REV.OTHR.CR - Total Other Revenue (in IDR)
+REV.RV.SHR.CR - Total Revenue Sharing
 REV.TOTL.CR - Total Revenue (in IDR)
 REV.TXRV.SHR.CR - Total Tax Revenue Sharing/DBH Pajak (in IDR)
 RISE.EA.PE - RISE Energy Access - Procedural Efficiency
@@ -9185,6 +9284,7 @@ SABER.TER.GOAL4.LVL2 - SABER: (Tertiary Education) Policy Goal 4 Lever 2: Resour
 SABER.TER.GOAL4.LVL3 - SABER: (Tertiary Education) Policy Goal 4 Lever 3: Resource utilization (Equity)
 SABER.TER.GOAL5 - SABER: (Tertiary Education) Policy Goal 5: Quality Assurance
 SABER.TER.GOAL5.LVL1 - SABER: (Tertiary Education) Policy Goal 5 Lever 1: Accreditation and Institutional Quality Standards
+SABER.TER.GOAL5.LVL2 - SABER: (Tertiary Education) Policy Goal 5 Lever 2: Tertiary Education Management Information
 SABER.TER.GOAL6 - SABER: (Tertiary Education) Policy Goal 6: The Relevance of Tertiary Education for Economic and Social Needs
 SABER.TER.GOAL6.LVL1 - SABER: (Tertiary Education) Policy Goal 6 Lever 1: Economic Development
 SABER.TER.GOAL6.LVL2 - SABER: (Tertiary Education) Policy Goal 6 Lever 2: Fostering RDI and Innovation
@@ -9937,7 +10037,7 @@ SH.HIV.INCD - Adults (ages 15+) newly infected with HIV
 SH.HIV.INCD.14 - Children (ages 0-14) newly infected with HIV
 SH.HIV.INCD.TL - Adults (ages 15+) and children (ages 0-14) newly infected with HIV
 SH.HIV.INCD.ZS - Incidence of HIV (% of uninfected population ages 15-49)
-SH.HIV.KNOW.FE.ZS - Comprehensive correct knowledge of HIV/AIDS, ages 15-49, female (2 prevent ways and reject 3 misconceptions)
+SH.HIV.KNOW.FE.ZS - % of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)
 SH.HIV.KNOW.MA.ZS - Comprehensive correct knowledge of HIV/AIDS, ages 15-49, male (2 prevent ways and reject 3 misconceptions)
 SH.HIV.NEW.0014.HG.NUM - New HIV infections (0-14 years), high estimate
 SH.HIV.NEW.0014.LW.NUM - New HIV infections (0-14 years), low estimate
@@ -10057,7 +10157,7 @@ SH.MORB.ZS - Morbidity Rate (in %)
 SH.POLINDES.TOTL - Number of Polindes (Poliklinik Desa/Village Polyclinic)
 SH.PRG.ANEM - Prevalence of anemia among pregnant women (%)
 SH.PRG.SYPH.ZS - Prevalence of syphilis (% of women attending antenatal care)
-SH.PRV.SMOK - Smoking prevalence, total, ages 15+
+SH.PRV.SMOK - Smoking prevalence, total (ages 15+)
 SH.PRV.SMOK.FE - Smoking prevalence, females (% of adults)
 SH.PRV.SMOK.FE.Q1.ZS - Smoking (% of women): Q1 (lowest)
 SH.PRV.SMOK.FE.Q2.ZS - Smoking (% of women): Q2
@@ -10121,7 +10221,7 @@ SH.STA.BASS.UR.Q2.ZS - People using at least basic sanitation services, urban  
 SH.STA.BASS.UR.Q3.ZS - People using at least basic sanitation services, urban  (% of urban population): Q3
 SH.STA.BASS.UR.Q4.ZS - People using at least basic sanitation services, urban  (% of urban population): Q4
 SH.STA.BASS.UR.Q5.ZS - People using at least basic sanitation services, urban  (% of urban population): Q5 (highest)
-SH.STA.BASS.UR.ZS - People using at least basic sanitation services, urban  (% of urban population)
+SH.STA.BASS.UR.ZS - People using at least basic sanitation services, urban (% of urban population)
 SH.STA.BASS.ZS - People using at least basic sanitation services (% of population)
 SH.STA.BFED.Q1.ZS - Breastfeeding (% of children under 6 months): Q1 (lowest)
 SH.STA.BFED.Q2.ZS - Breastfeeding (% of children under 6 months): Q2
@@ -10252,7 +10352,7 @@ SH.STA.POIS.P5 - Mortality rate attributed to unintentional poisoning (per 100,0
 SH.STA.POIS.P5.FE - Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)
 SH.STA.POIS.P5.MA - Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)
 SH.STA.SMSS.RU.ZS - People using safely managed sanitation services, rural (% of rural population)
-SH.STA.SMSS.UR.ZS - People using safely managed sanitation services, urban  (% of urban population)
+SH.STA.SMSS.UR.ZS - People using safely managed sanitation services, urban (% of urban population)
 SH.STA.SMSS.ZS - People using safely managed sanitation services (% of population)
 SH.STA.STN3.Q1.ZS - Malnourished children (stunting, -3SD) (% of children under 5): Q1 (lowest)
 SH.STA.STN3.Q2.ZS - Malnourished children (stunting, -3SD) (% of children under 5): Q2
@@ -10354,7 +10454,7 @@ SH.XPD.PUBL.GX.ZS - Health expenditure, public (% of government expenditure)
 SH.XPD.PUBL.ZS - Health expenditure, public (% of GDP)
 SH.XPD.PVTD.CH.ZS - Domestic private health expenditure (% of current health expenditure)
 SH.XPD.PVTD.PC.CD - Domestic private health expenditure per capita (current US$)
-SH.XPD.PVTD.PP.CD - Domestic private health expenditure per capita, PPP  (current international $)
+SH.XPD.PVTD.PP.CD - Domestic private health expenditure per capita, PPP (current international $)
 SH.XPD.SOSE.GX.ZS - Social Security expenditure on health (% government expenditure on health)
 SH.XPD.TOTL.CD - Health expenditure (current US$)
 SH.XPD.TOTL.ZS - Health expenditure, total (% of GDP)
@@ -10365,36 +10465,40 @@ SI.DST.05TH.20 - Income share held by highest 20%
 SI.DST.10TH.10 - Income share held by highest 10%
 SI.DST.FRST.10 - Income share held by lowest 10%
 SI.DST.FRST.20 - Income share held by lowest 20%
-SI.POV.25DAY - Poverty headcount ratio at $2.5 a day (PPP) (% of population)
 SI.POV.2DAY - Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population)
-SI.POV.4DAY - Poverty headcount ratio at $4 a day (PPP) (% of population)
-SI.POV.5DAY - Poverty headcount ratio at $5 a day (PPP) (% of population)
 SI.POV.BPL - Number of people live below the poverty line (in number of people)
 SI.POV.DDAY - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
+SI.POV.DDAY.GR - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)
+SI.POV.DDAY.RE - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)
 SI.POV.GAP2 - Poverty gap at $3.10 a day (2011 PPP) (%)
-SI.POV.GAP25 - Poverty gap at $2.5 a day (PPP) (%)
-SI.POV.GAP4 - Poverty gap at $4 a day (PPP) (%)
-SI.POV.GAP5 - Poverty gap at $5 a day (PPP) (%)
 SI.POV.GAPS - Poverty gap at $1.90 a day (2011 PPP) (%)
 SI.POV.GINI - GINI index (World Bank estimate)
 SI.POV.LMIC - Poverty headcount ratio at $3.20 a day (2011 PPP) (% of population)
-SI.POV.LMIC.GP - Poverty gap at $3.20 a day (2011 PPP) (% of population)
+SI.POV.LMIC.GP - Poverty gap at $3.20 a day (2011 PPP) (%)
+SI.POV.LMIC.GR - Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change)
+SI.POV.LMIC.NO - Number of poor at $3.20 a day (2011 PPP) (millions)
+SI.POV.LMIC.RE - Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)
 SI.POV.NAGP - Poverty gap at national poverty lines (%)
+SI.POV.NAGP.NC - Poverty gap at national poverty lines (%), including noncomparable values
 SI.POV.NAHC - Poverty headcount ratio at national poverty lines (% of population)
+SI.POV.NAHC.NC - Poverty headcount ratio at national poverty lines (% of population), including noncomparable values
 SI.POV.NAPL - Poverty Line (in IDR)
 SI.POV.NAPR.ZS - Poverty Rate (in % of population)
 SI.POV.NGAP - Poverty Gap (index)
 SI.POV.NOP1 - Number of poor at $1.90 a day (2011 PPP) (millions)
-SI.POV.NOP2 - Number of poor at $3.10 a day (2011 PPP) (millions)
-SI.POV.NOP25 - Number of poor at $2.5 a day (PPP) (millions)
-SI.POV.NOP4 - Number of poor at $4 a day (PPP) (millions)
-SI.POV.NOP5 - Number of poor at $5 a day (PPP) (millions)
 SI.POV.RUGP - Rural poverty gap at national poverty lines (%)
+SI.POV.RUGP.NC - Rural poverty gap at national poverty lines (%), including noncomparable values
 SI.POV.RUHC - Rural poverty headcount ratio at national poverty lines (% of rural population)
+SI.POV.RUHC.NC - Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values
 SI.POV.UMIC - Poverty headcount ratio at $5.50 a day (2011 PPP) (% of population)
-SI.POV.UMIC.GP - Poverty gap at $5.50 a day (2011 PPP) (% of population)
+SI.POV.UMIC.GP - Poverty gap at $5.50 a day (2011 PPP) (%)
+SI.POV.UMIC.GR - Growth component of change in poverty at $5.50 a day (2011 PPP) (% of change)
+SI.POV.UMIC.NO - Number of poor at $5.50 a day (2011 PPP) (millions)
+SI.POV.UMIC.RE - Redistribution component of change in poverty at $5.50 a day (2011 PPP) (% of change)
 SI.POV.URGP - Urban poverty gap at national poverty lines (%)
+SI.POV.URGP.NC - Urban poverty gap at national poverty lines (%), including noncomparable values
 SI.POV.URHC - Urban poverty headcount ratio at national poverty lines (% of urban population)
+SI.POV.URHC.NC - Urban poverty headcount ratio at national poverty lines (% of urban population), including noncomparable values
 SI.RMT.COST.IB.ZS - Average transaction cost of sending remittances to a specific country (%)
 SI.RMT.COST.OB.ZS - Average transaction cost of sending remittances from a specific country (%)
 SI.RMT.COST.ZS - Average transaction cost of remittances (%)
@@ -10404,6 +10508,10 @@ SI.SPR.PC40.ZG - Annualized average growth rate in per capita real survey mean c
 SI.SPR.PCAP - Survey mean consumption or income per capita, total population (2011 PPP $ per day)
 SI.SPR.PCAP.05 - Survey mean consumption or income per capita, total population (2005 PPP $ per day)
 SI.SPR.PCAP.ZG - Annualized average growth rate in per capita real survey mean consumption or income, total population (%)
+SI.SPR.PT10 - Survey mean consumption or income per capita, top 10% (2011 PPP $ per day)
+SI.SPR.PT10.ZG - Annualized growth in per capita real survey mean consumption or income, top 10% (%)
+SI.SPR.PT60 - Survey mean consumption or income per capita, top 60% (2011 PPP $ per day)
+SI.SPR.PT60.ZG - Annualized growth in per capita real survey mean consumption or income, top 60% (%)
 SL.AGR.0714.FE.ZS - Child employment in agriculture, female (% of female economically active children ages 7-14)
 SL.AGR.0714.MA.ZS - Child employment in agriculture, male (% of male economically active children ages 7-14)
 SL.AGR.0714.ZS - Child employment in agriculture (% of economically active children ages 7-14)
@@ -11111,7 +11219,7 @@ SP.URB.TOTL - Urban population
 SP.URB.TOTL.FE.ZS - Urban population, female (% of total)
 SP.URB.TOTL.IN.ZS - Urban population (% of total)
 SP.URB.TOTL.MA.ZS - Urban population, male (% of total)
-SP.URB.TOTL.ZS - Percentage of Population in Urban Areas (in % of Total Population)
+SP.URB.TOTL.ZS - Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population)
 SP.UWT.LMTG.Q1.ZS - Unmet need for family planning (for limiting) (% of married women): Q1 (lowest)
 SP.UWT.LMTG.Q2.ZS - Unmet need for family planning (for limiting) (% of married women): Q2
 SP.UWT.LMTG.Q3.ZS - Unmet need for family planning (for limiting) (% of married women): Q3
@@ -11472,26 +11580,8 @@ UIS.AFR.PBR.1.PU.MATH - Africa Dataset: Average number of pupils per mathematics
 UIS.AFR.PBR.1.PU.READ - Africa Dataset: Average number of pupils per reading textbook in primary education (number)
 UIS.AFR.SCHBSP.1.PU.MIXTOIL - Africa Dataset: Percentage of primary schools with mixed-sex toilets (%)
 UIS.AFR.SCHBSP.1.PU.WELEC - Africa Dataset: Percentage of primary schools with access to electricity (%)
-UIS.AFR.SCHBSP.1.PU.WNIELEC - Africa Dataset: Percentage of primary schools with no information on electricity (%)
-UIS.AFR.SCHBSP.1.PU.WNIPOWAT - Africa Dataset: Percentage of primary schools with no information on potable water (%)
-UIS.AFR.SCHBSP.1.PU.WNITOIL - Africa Dataset: Percentage of primary schools with no information on toilets (%)
-UIS.AFR.SCHBSP.1.PU.WOELEC - Africa Dataset: Percentage of primary schools without access to electricity (%)
-UIS.AFR.SCHBSP.1.PU.WOPOWAT - Africa Dataset: Percentage of primary schools without access to potable water (%)
-UIS.AFR.SCHBSP.1.PU.WOTOIL - Africa Dataset: Percentage of primary schools without toilets (%)
-UIS.AFR.SCHBSP.1.PU.WPOWAT - Africa Dataset: Percentage of primary schools with access to potable water (%)
-UIS.AFR.SCHBSP.1.PU.WSTOIL - Africa Dataset: Percentage of primary schools with single-sex toilets (%)
-UIS.AFR.SCHBSP.1.PU.WTOIL - Africa Dataset: Percentage of primary schools with toilets (%)
 UIS.AFR.SCHBSP.2.PU.MIXTOIL - Africa Dataset: Percentage of lower secondary schools with mixed-sex toilets (%)
 UIS.AFR.SCHBSP.2.PU.WELEC - Africa Dataset: Percentage of lower secondary schools with access to electricity (%)
-UIS.AFR.SCHBSP.2.PU.WNIELEC - Africa Dataset: Percentage of lower secondary schools with no information on electricity (%)
-UIS.AFR.SCHBSP.2.PU.WNIPOWAT - Africa Dataset: Percentage of lower secondary schools with no information on potable water (%)
-UIS.AFR.SCHBSP.2.PU.WNITOIL - Africa Dataset: Percentage of lower secondary schools with no information on toilets (%)
-UIS.AFR.SCHBSP.2.PU.WOELEC - Africa Dataset: Percentage of lower secondary schools without access to electricity (%)
-UIS.AFR.SCHBSP.2.PU.WOPOWAT - Africa Dataset: Percentage of lower secondary schools without access to potable water (%)
-UIS.AFR.SCHBSP.2.PU.WOTOIL - Africa Dataset: Percentage of lower secondary schools without toilets (%)
-UIS.AFR.SCHBSP.2.PU.WPOWAT - Africa Dataset: Percentage of lower secondary schools with access to potable water (%)
-UIS.AFR.SCHBSP.2.PU.WSTOIL - Africa Dataset: Percentage of lower secondary schools with single-sex toilets (%)
-UIS.AFR.SCHBSP.2.PU.WTOIL - Africa Dataset: Percentage of lower secondary schools with toilets (%)
 UIS.AFR.SCHCENRESPR.1.PU - Africa Dataset: School census return rate from primary schools
 UIS.AFR.SCHCENRESPR.23.PU - Africa Dataset: School census return rate from secondary schools
 UIS.AFR.TATTRR.1.PU.F - Africa Dataset: Teacher attrition rate from public primary education, female (%)
@@ -11556,10 +11646,22 @@ UIS.DR.2.GPV.G5.M - Drop-out rate from Grade 5 of lower secondary general educat
 UIS.DR.2.GPV.G5.T - Drop-out rate from Grade 5 of lower secondary general education, both sexes (%)
 UIS.DR.2.GPV.M - Cumulative drop-out rate to the last grade of lower secondary general education, male (%)
 UIS.DR.2.GPV.T - Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)
-UIS.E.0.PR - Enrolment in pre-primary education, private institutions, both sexes (number)
+UIS.E.0.F - Enrolment in early childhood education, female (number)
 UIS.E.0.PR.F - Enrolment in pre-primary education, private institutions, female (number)
-UIS.E.0.Pu - Enrolment in pre-primary education, public institutions, both sexes (number)
+UIS.E.0.PR.T - Enrolment in early childhood education, private institutions, both sexes (number)
+UIS.E.0.PU.T - Enrolment in early childhood education, public institutions, both sexes (number)
 UIS.E.0.Pu.F - Enrolment in pre-primary education, public institutions, female (number)
+UIS.E.0.T - Enrolment in early childhood education, both sexes (number)
+UIS.E.01.F - Enrolment in early childhood educational development programmes, female (number)
+UIS.E.01.PR.F - Enrolment in early childhood educational development programmes, private institutions, female (number)
+UIS.E.01.PR.T - Enrolment in early childhood educational development programmes, private institutions, both sexes (number)
+UIS.E.01.PU.F - Enrolment in early childhood educational development programmes, public institutions, female (number)
+UIS.E.01.PU.T - Enrolment in early childhood educational development programmes, public institutions, both sexes (number)
+UIS.E.01.T - Enrolment in early childhood educational development programmes, both sexes (number)
+UIS.E.02.PR - Enrolment in pre-primary education, private institutions, both sexes (number)
+UIS.E.02.PR.F - Enrolment in pre-primary education, private institutions, female (number)
+UIS.E.02.PU - Enrolment in pre-primary education, public institutions, both sexes (number)
+UIS.E.02.PU.F - Enrolment in pre-primary education, public institutions, female (number)
 UIS.E.1.G1 - Enrolment in Grade 1 of primary education, both sexes (number)
 UIS.E.1.G1.F - Enrolment in Grade 1 of primary education, female (number)
 UIS.E.1.G2 - Enrolment in Grade 2 of primary education, both sexes (number)
@@ -11594,6 +11696,8 @@ UIS.E.2.GPV.G4.F - Enrolment in Grade 4 of lower secondary general education, fe
 UIS.E.2.GPV.G4.T - Enrolment in Grade 4 of lower secondary general education, both sexes (number)
 UIS.E.2.GPV.G5.F - Enrolment in Grade 5 of lower secondary general education, female (number)
 UIS.E.2.GPV.G5.T - Enrolment in Grade 5 of lower secondary general education, both sexes (number)
+UIS.E.2.GPV.G6.F - Enrolment in Grade 6 of lower secondary general education, female (number)
+UIS.E.2.GPV.G6.T - Enrolment in Grade 6 of lower secondary general education, both sexes (number)
 UIS.E.2.GPV.GUK.F - Enrolment in lower secondary general education, Grade unspecified, female (number)
 UIS.E.2.GPV.GUK.T - Enrolment in lower secondary general education, Grade unspecified, both sexes (number)
 UIS.E.2.PR - Enrolment in lower secondary education, private institutions, both sexes (number)
@@ -11702,6 +11806,8 @@ UIS.ECDP.1.M - Percentage of new entrants to Grade 1 of primary education with e
 UIS.ESL.1.F - Early school leavers from primary education, female (number)
 UIS.ESL.1.M - Early school leavers from primary education, male (number)
 UIS.ESL.1.T - Early school leavers from primary education, both sexes (number)
+UIS.FEP.0 - Percentage of students in early childhood education who are female (%)
+UIS.FEP.01 - Percentage of students in early childhood educational development programmes who are female (%)
 UIS.FEP.2 - Percentage of students in lower secondary education who are female (%)
 UIS.FEP.2.GPV - Percentage of students in lower secondary general education who are female (%)
 UIS.FEP.2.V - Percentage of students in lower secondary vocational education who are female (%)
@@ -11712,6 +11818,7 @@ UIS.FEP.4 - Percentage of students in post-secondary non-tertiary education who 
 UIS.FEP.4.GPV - Percentage of students in post-secondary non-tertiary general education who are female (%)
 UIS.FEP.4.V - Percentage of students in post-secondary non-tertiary vocational education who are female (%)
 UIS.FEP.5.B - Percentage of students in tertiary ISCED 5 programmes who are female (%)
+UIS.FEP.56.F1000 - Percentage of students enrolled in Services programmes in tertiary education who are female (%)
 UIS.FEP.56.F140 - Percentage of students enrolled in Education programmes in tertiary education who are female (%)
 UIS.FEP.56.F200 - Percentage of students enrolled in Humanities and Arts programmes in tertiary education who are female (%)
 UIS.FEP.56.F300 - Percentage of students enrolled in Social Sciences, Business and Law programmes in tertiary education who are female (%)
@@ -11720,19 +11827,27 @@ UIS.FEP.56.F500 - Percentage of students enrolled in Engineering, Manufacturing 
 UIS.FEP.56.F600 - Percentage of students enrolled in Agriculture programmes in tertiary education who are female (%)
 UIS.FEP.56.F700 - Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%)
 UIS.FEP.56.F800 - Percentage of students enrolled in Services programmes in tertiary education who are female (%)
+UIS.FEP.56.F900 - Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%)
 UIS.FEP.56.FOREIGN - Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%)
 UIS.FEP.56.FUK - Percentage of students enrolled in programmes in unspecified fields in tertiary education who are female (%)
 UIS.FEP.6 - Percentage of students in tertiary ISCED 6 programmes who are female (%)
 UIS.FEP.7 - Percentage of students in tertiary ISCED 7 programmes who are female (%)
 UIS.FEP.8 - Percentage of students in tertiary ISCED 8 programmes who are female (%)
 UIS.FGP.5.B - Percentage of graduates from tertiary ISCED 5 programmes who are female (%)
-UIS.FGP.56.F400500 - Percentage of graduates from Science and Technology programmes in tertiary education who are female (%)
+UIS.FGP.5T8.F400 - Percentage of graduates from Business, Administration and Law programmes in tertiary education who are female (%)
+UIS.FGP.5T8.F500600700 - Percentage of graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%)
+UIS.FGP.5T8.F600 - Percentage of graduates from Information and Communication Technologies programmes in tertiary education who are female (%)
+UIS.FGP.5T8.FNON500600700 - Percentage of graduates from other fields than Science, Technology, Engineering and Mathematics programmes in tertiary education who are female (%)
 UIS.FGP.6 - Percentage of graduates from tertiary ISCED 6 programmes who are female (%)
 UIS.FGP.7 - Percentage of graduates from tertiary ISCED 7 programmes who are female (%)
 UIS.FGP.8 - Percentage of graduates from tertiary ISCED 8 programmes who are female (%)
 UIS.FNP.1 - New entrants to Grade 1 of primary education, percentage female (%)
 UIS.FOFSTP.1 - Out-of-school children of primary school age, percentage female (%)
 UIS.FOFSTP.2 - Out-of-school adolescents of lower secondary school age, percentage female (%)
+UIS.FOFSTP.3 - Out-of-school youth of upper secondary school age, percentage female (%)
+UIS.FOSEP.56.F1000 - Percentage of students in tertiary education enrolled in Services programmes, both sexes (%)
+UIS.FOSEP.56.F1000.F - Percentage of students in tertiary education enrolled in Services programmes, female (%)
+UIS.FOSEP.56.F1000.M - Percentage of students in tertiary education enrolled in Services programmes, male (%)
 UIS.FOSEP.56.F140 - Percentage of students in tertiary education enrolled in Education programmes, both sexes (%)
 UIS.FOSEP.56.F140.F - Percentage of female students in tertiary education enrolled in Education programmes, female (%)
 UIS.FOSEP.56.F140.M - Percentage of male students in tertiary education enrolled in Education programmes, male (%)
@@ -11757,6 +11872,9 @@ UIS.FOSEP.56.F700.M - Percentage of male students in tertiary education enrolled
 UIS.FOSEP.56.F800 - Percentage of students in tertiary education enrolled in Services programmes, both sexes (%)
 UIS.FOSEP.56.F800.F - Percentage of female students in tertiary education enrolled in Services programmes, female (%)
 UIS.FOSEP.56.F800.M - Percentage of male students in tertiary education enrolled in Services programmes, male (%)
+UIS.FOSEP.56.F900 - Percentage of students in tertiary education enrolled in Health and Welfare programmes, both sexes (%)
+UIS.FOSEP.56.F900.F - Percentage of students in tertiary education enrolled in Health and Welfare programmes, female (%)
+UIS.FOSEP.56.F900.M - Percentage of students in tertiary education enrolled in Health and Welfare programmes, male (%)
 UIS.FOSEP.56.FUK - Percentage of students in tertiary education enrolled in programmes in unspecified fields, both sexes (%)
 UIS.FOSEP.56.FUK.F - Percentage of female students in tertiary education enrolled in programmes in unspecified fields, female (%)
 UIS.FOSEP.56.FUK.M - Percentage of male students in tertiary education enrolled in programmes in unspecified fields, male (%)
@@ -11769,6 +11887,12 @@ UIS.FOSGP.56.F600.M - Percentage of male graduates from tertiary education gradu
 UIS.FOSGP.56.F700.M - Percentage of male graduates from tertiary education graduating from Health and Welfare programmes, male (%)
 UIS.FOSGP.56.F800.M - Percentage of male graduates from tertiary education graduating from Services programmes, male (%)
 UIS.FOSGP.56.FUK.M - Percentage of male graduates from tertiary education graduating from programmes in unspecified fields, male (%)
+UIS.FOSGP.5T8.F1000.M - Percentage of male graduates from tertiary education graduating from Services programmes, male (%)
+UIS.FOSGP.5T8.F400 - Percentage of graduates from tertiary education graduating from Business, Administration and Law  programmes, both sexes (%)
+UIS.FOSGP.5T8.F400.F - Percentage of female graduates from tertiary education graduating from Business, Administration and Law programmes, female (%)
+UIS.FOSGP.5T8.F600 - Percentage of graduates from tertiary education graduating from Information and Communication Technologies programmes, both sexes (%)
+UIS.FOSGP.5T8.F600.F - Percentage of female graduates from tertiary education graduating from Information and Communication Technologies programmes, female (%)
+UIS.FOSGP.5T8.F900.M - Percentage of male graduates from tertiary education graduating from Health and Welfare programmes, male (%)
 UIS.FTP.2 - Percentage of teachers in lower secondary education who are female (%)
 UIS.FTP.3 - Percentage of teachers in upper secondary education who are female (%)
 UIS.FTP.4 - Percentage of teachers in post-secondary non-tertiary education who are female (%)
@@ -11825,6 +11949,10 @@ UIS.GTVP.4.GPV.M - Percentage of male students in post-secondary non-tertiary ed
 UIS.GTVP.4.V - Percentage of students in post-secondary non-tertiary education enrolled in vocational programmes, both sexes (%)
 UIS.GTVP.4.V.F - Percentage of female students in post-secondary non-tertiary education enrolled in vocational programmes, female (%)
 UIS.GTVP.4.V.M - Percentage of male students in post-secondary non-tertiary education enrolled in vocational programmes, male (%)
+UIS.ILLPOP.AG25T64 - Illiterate population, 25-64 years, both sexes (number)
+UIS.ILLPOP.AG25T64.F - Illiterate population, 25-64 years, female (number)
+UIS.ILLPOP.AG25T64.M - Illiterate population, 25-64 years, male (number)
+UIS.ILLPOPF.AG25T64 - Illiterate population, 25-64 years, % female
 UIS.LP.AG15T24 - Youth illiterate population, 15-24 years, both sexes (number)
 UIS.LP.AG15T24.F - Youth illiterate population, 15-24 years, female (number)
 UIS.LP.AG15T24.M - Youth illiterate population, 15-24 years, male (number)
@@ -11838,6 +11966,10 @@ UIS.LPP.AG15T24 - Youth illiterate population, 15-24 years, % female
 UIS.LPP.AG15T99 - Adult illiterate population, 15+ years, % female
 UIS.LPP.AG65 - Elderly illiterate population, 65+ years, % female
 UIS.LR.AG15T99.GPI - Adult literacy rate, population 15+ years, gender parity index (GPI)
+UIS.LR.AG25T64 - Literacy rate, population 25-64 years, both sexes (%)
+UIS.LR.AG25T64.F - Literacy rate, population 25-64 years, female (%)
+UIS.LR.AG25T64.GPI - Literacy rate, population 25-64 years, gender parity index (GPI)
+UIS.LR.AG25T64.M - Literacy rate, population 25-64 years, male (%)
 UIS.LR.AG65 - Elderly literacy rate, population 65+ years, both sexes (%)
 UIS.LR.AG65.F - Elderly literacy rate, population 65+ years, female (%)
 UIS.LR.AG65.GPI - Elderly literacy rate, population 65+ years, gender parity index (GPI)
@@ -11995,10 +12127,6 @@ UIS.NERA.2 - Adjusted net enrolment rate, lower secondary, both sexes (%)
 UIS.NERA.2.F - Adjusted net enrolment rate, lower secondary, female (%)
 UIS.NERA.2.GPI - Adjusted net enrolment rate, lower secondary, gender parity index (GPI)
 UIS.NERA.2.M - Adjusted net enrolment rate, lower secondary, male (%)
-UIS.NERA.3 - Adjusted net enrolment rate, upper secondary, both sexes (%)
-UIS.NERA.3.F - Adjusted net enrolment rate, upper secondary, female (%)
-UIS.NERA.3.GPI - Adjusted net enrolment rate, upper secondary, gender parity index (GPI)
-UIS.NERA.3.M - Adjusted net enrolment rate, upper secondary, male (%)
 UIS.NERT.1 - Total net enrolment rate, primary, both sexes (%)
 UIS.NERT.1.F - Total net enrolment rate, primary, female (%)
 UIS.NERT.1.GPI - Total net enrolment rate, primary, gender parity index (GPI)
@@ -12033,13 +12161,33 @@ UIS.OFSPPT.1.M - Out-of-school children of primary school age in pre-primary edu
 UIS.OFST.2 - Out-of-school adolescents of lower secondary school age, both sexes (number)
 UIS.OFST.2.F - Out-of-school adolescents of lower secondary school age, female (number)
 UIS.OFST.2.M - Out-of-school adolescents of lower secondary school age, male (number)
+UIS.OFST.3.CP - Out-of-school youth of upper secondary school age, both sexes (number)
+UIS.OFST.3.F.CP - Out-of-school youth of upper secondary school age, female (number)
+UIS.OFST.3.M.CP - Out-of-school youth of upper secondary school age, male (number)
 UIS.OMR.56 - Outbound mobility ratio, all regions, both sexes (%)
+UIS.PRP.0 - Percentage of enrolment in early childhood education programmes in private institutions (%)
+UIS.PRP.01 - Percentage of enrolment in early childhood educational development programmes in private institutions (%)
 UIS.PRP.2 - Percentage of enrolment in lower secondary education in private institutions (%)
 UIS.PRP.3 - Percentage of enrolment in upper secondary education in private institutions (%)
 UIS.PRP.4 - Percentage of enrolment in post-secondary non-tertiary education in private institutions (%)
+UIS.PTRHC.02.QUALIFIED - Pupil/qualified teacher ratio in pre-primary education (headcount basis)
+UIS.PTRHC.02.TRAINED - Pupil/trained teacher ratio in pre-primary education (headcount basis)
+UIS.PTRHC.1.QUALIFIED - Pupil/qualified teacher ratio in primary education (headcount basis)
+UIS.PTRHC.1.TRAINED - Pupil/trained teacher ratio in primary education (headcount basis)
 UIS.PTRHC.2 - Pupil-teacher ratio in lower secondary education (headcount basis)
+UIS.PTRHC.2.QUALIFIED - Pupil/qualified teacher ratio in lower secondary (headcount basis)
+UIS.PTRHC.2.TRAINED - Pupil/trained teacher ratio in lower secondary education (headcount basis)
+UIS.PTRHC.2T3.QUALIFIED - Pupil/qualified teacher ratio in secondary (headcount basis)
+UIS.PTRHC.2T3.TRAINED - Pupil/trained teacher ratio in secondary education (headcount basis)
 UIS.PTRHC.3 - Pupil-teacher ratio in upper secondary education (headcount basis)
+UIS.PTRHC.3.QUALIFIED - Pupil/qualified teacher ratio in upper secondary (headcount basis)
+UIS.PTRHC.3.TRAINED - Pupil/trained teacher ratio in upper secondary education (headcount basis)
 UIS.PTRHC.56 - Pupil-teacher ratio in tertiary education (headcount basis)
+UIS.QUTP.02 - Percentage of teachers in pre-primary education who are qualified, both sexes (%)
+UIS.QUTP.1 - Percentage of teachers in primary education who are qualified, both sexes (%)
+UIS.QUTP.2 - Percentage of teachers in lower secondary education who are qualified, both sexes (%)
+UIS.QUTP.2T3 - Percentage of teachers in secondary education who are qualified, both sexes (%)
+UIS.QUTP.3 - Percentage of teachers in upper secondary education who are qualified, both sexes (%)
 UIS.R.1 - Repeaters in primary education, all grades, both sexes (number)
 UIS.R.1.F - Repeaters in primary education, all grades, female (number)
 UIS.R.1.G1 - Repeaters in Grade 1 of primary education, both sexes (number)
@@ -12112,6 +12260,7 @@ UIS.REPP.2.GPV.G5.M - Percentage of repeaters in Grade 5 of lower secondary gene
 UIS.REPP.2.GPV.G6 - Percentage of repeaters in Grade 6 of lower secondary general education, both sexes (%)
 UIS.REPP.2.GPV.G6.F - Percentage of repeaters in Grade 6 of lower secondary general education, female (%)
 UIS.REPP.2.GPV.G6.M - Percentage of repeaters in Grade 6 of lower secondary general education, male (%)
+UIS.REPP.2.GPV.GPI - Percentage of repeaters in lower secondary education, all grades, gender parity index (GPI)
 UIS.REPP.2.GPV.M - Percentage of repeaters in lower secondary general education, all grades, male (%)
 UIS.REPR.1 - Repetition rate in primary education (all grades), both sexes (%)
 UIS.REPR.1.F - Repetition rate in primary education (all grades), female (%)
@@ -12164,6 +12313,9 @@ UIS.ROFST.1.M - Rate of out-of-school children of primary school age, male (%)
 UIS.ROFST.2 - Rate of out-of-school adolescents of lower secondary school age, both sexes (%)
 UIS.ROFST.2.F - Rate of out-of-school adolescents of lower secondary school age, female (%)
 UIS.ROFST.2.M - Rate of out-of-school adolescents of lower secondary school age, male (%)
+UIS.ROFST.3.CP - Rate of out-of-school youth of upper secondary school age, both sexes (%)
+UIS.ROFST.3.F.CP - Rate of out-of-school youth of upper secondary school age, female (%)
+UIS.ROFST.3.M.CP - Rate of out-of-school youth of upper secondary school age, male (%)
 UIS.ROFST.H.1 - UIS: Rate of out-of-school children of primary school age, both sexes (household survey data) (%)
 UIS.ROFST.H.1.F - UIS: Rate of out-of-school children of primary school age, female (household survey data) (%)
 UIS.ROFST.H.1.M - UIS: Rate of out-of-school children of primary school age, male (household survey data) (%)
@@ -12290,14 +12442,11 @@ UIS.TEP.7.M - Percentage of male students in tertiary education enrolled in ISCE
 UIS.TEP.8 - Percentage of all students in tertiary education enrolled in ISCED 8, both sexes (%)
 UIS.TEP.8.F - Percentage of female students in tertiary education enrolled in ISCED 8
 UIS.TEP.8.M - Percentage of male students in tertiary education enrolled in ISCED 8
-UIS.TE_100000.56 - Enrolment in tertiary education per 100,000 inhabitants, both sexes
-UIS.TE_100000.56.F - Enrolment in tertiary education per 100,000 inhabitants, female
-UIS.TE_100000.56.M - Enrolment in tertiary education per 100,000 inhabitants, male
 UIS.TRANRA.23.GPV.GPI - Effective transition rate from primary to lower secondary general education, gender parity index (GPI)
-UIS.TRTP.0 - Percentage of teachers in pre-primary education who are trained, both sexes (%)
-UIS.TRTP.0.F - Percentage of female teachers in pre-primary education who are trained, female (%)
-UIS.TRTP.0.GPI - Percentage of teachers in pre-primary education who are trained, gender parity index (GPI)
-UIS.TRTP.0.M - Percentage of male teachers in pre-primary education who are trained, male (%)
+UIS.TRTP.02 - Percentage of teachers in pre-primary education who are trained, both sexes (%)
+UIS.TRTP.02.F - Percentage of female teachers in pre-primary education who are trained, female (%)
+UIS.TRTP.02.GPI - Percentage of teachers in pre-primary education who are trained, gender parity index (GPI)
+UIS.TRTP.02.M - Percentage of male teachers in pre-primary education who are trained, male (%)
 UIS.TRTP.1.GPI - Percentage of teachers in primary education who are trained, gender parity index (GPI)
 UIS.TRTP.2 - Percentage of teachers in lower secondary education who are trained, both sexes (%)
 UIS.TRTP.2.F - Percentage of female teachers in lower secondary education who are trained, female (%)
@@ -12321,24 +12470,76 @@ UIS.UAPP.1.M - Under-age enrolment ratio in primary education, male (%)
 UIS.UAPP.23 - Under-age enrolment ratio in secondary education, both sexes (%)
 UIS.UAPP.23.F - Under-age enrolment ratio in secondary education, female (%)
 UIS.UAPP.23.M - Under-age enrolment ratio in secondary education, male (%)
+UIS.X.PPP.02.FSGOV - Government expenditure on pre-primary education, PPP$ (millions)
+UIS.X.PPP.1.FSGOV - Government expenditure on primary education, PPP$ (millions)
+UIS.X.PPP.2.FSGOV - Government expenditure on lower secondary education, PPP$ (millions)
+UIS.X.PPP.2T3.FSGOV - Government expenditure on secondary education, PPP$ (millions)
+UIS.X.PPP.2T4.V.FSGOV - Government expenditure on secondary and post-secondary non-tertiary vocational education only, PPP$ (millions)
+UIS.X.PPP.3.FSGOV - Government expenditure on upper secondary education, PPP$ (millions)
+UIS.X.PPP.4.FSGOV - Government expenditure on post-secondary non-tertiary education, PPP$ (millions)
+UIS.X.PPP.5T8.FSGOV - Government expenditure on tertiary education, PPP$ (millions)
+UIS.X.PPP.FSGOV - Government expenditure on education, PPP$ (millions)
+UIS.X.PPP.UK.FSGOV - Government expenditure on education not specified by level, PPP$ (millions)
+UIS.X.PPPCONST.02.FSGOV - Government expenditure on pre-primary education, constant PPP$ (millions)
+UIS.X.PPPCONST.1.FSGOV - Government expenditure on primary education, constant PPP$ (millions)
+UIS.X.PPPCONST.2.FSGOV - Government expenditure on lower secondary education, constant PPP$ (millions)
+UIS.X.PPPCONST.2T3.FSGOV - Government expenditure on secondary education, constant PPP$ (millions)
+UIS.X.PPPCONST.2T4.V.FSGOV - Government expenditure on secondary and post-secondary non-tertiary vocational education only, constant PPP$ (millions)
+UIS.X.PPPCONST.3.FSGOV - Government expenditure on upper secondary education, constant PPP$ (millions)
+UIS.X.PPPCONST.4.FSGOV - Government expenditure on post-secondary non-tertiary education, constant PPP$ (millions)
+UIS.X.PPPCONST.5T8.FSGOV - Government expenditure on tertiary education, constant PPP$ (millions)
+UIS.X.PPPCONST.FSGOV - Government expenditure on education, constant PPP$ (millions)
+UIS.X.PPPCONST.UK.FSGOV - Government expenditure on education not specified by level, constant PPP$ (millions)
+UIS.X.US.02.FSGOV - Government expenditure on pre-primary education, US$ (millions)
+UIS.X.US.1.FSGOV - Government expenditure on primary education, US$ (millions)
+UIS.X.US.2.FSGOV - Government expenditure on lower secondary education, US$ (millions)
+UIS.X.US.2T3.FSGOV - Government expenditure on secondary education, US$ (millions)
+UIS.X.US.2T4.V.FSGOV - Government expenditure on secondary and post-secondary non-tertiary vocational education only, US$ (millions)
+UIS.X.US.3.FSGOV - Government expenditure on upper secondary education, US$ (millions)
+UIS.X.US.4.FSGOV - Government expenditure on post-secondary non-tertiary education, US$ (millions)
+UIS.X.US.5T8.FSGOV - Government expenditure on tertiary education, US$ (millions)
+UIS.X.US.FSGOV - Government expenditure on education, US$ (millions)
+UIS.X.US.UK.FSGOV - Government expenditure on education not specified by level, US$ (millions)
+UIS.X.USCONST.02.FSGOV - Government expenditure on pre-primary education, constant US$ (millions)
+UIS.X.USCONST.1.FSGOV - Government expenditure on primary education, constant US$ (millions)
+UIS.X.USCONST.2.FSGOV - Government expenditure on lower secondary education, constant US$ (millions)
+UIS.X.USCONST.2T3.FSGOV - Government expenditure on secondary education, constant US$ (millions)
+UIS.X.USCONST.2T4.V.FSGOV - Government expenditure on secondary and post-secondary non-tertiary vocational education only, constant US$ (millions)
+UIS.X.USCONST.3.FSGOV - Government expenditure on upper secondary education, constant US$ (millions)
+UIS.X.USCONST.4.FSGOV - Government expenditure on post-secondary non-tertiary education, constant US$ (millions)
+UIS.X.USCONST.5T8.FSGOV - Government expenditure on tertiary education, constant US$ (millions)
+UIS.X.USCONST.FSGOV - Government expenditure on education, constant US$ (millions)
+UIS.X.USCONST.UK.FSGOV - Government expenditure on education not specified by level, constant US$ (millions)
 UIS.XGDP.0.FSGOV - Government expenditure on pre-primary education as % of GDP (%)
-UIS.XGDP.0.FSGOV.FDINSTADM.FFD - Government expenditure in pre-primary institutions as % of GDP (%)
+UIS.XGDP.02.FSGOV.FFNTR - Initial government funding of pre-primary education as a percentage of GDP (%)
 UIS.XGDP.1.FSGOV - Government expenditure on primary education as % of GDP (%)
-UIS.XGDP.1.FSGOV.FDINSTADM.FFD - Government expenditure in primary institutions as % of GDP (%)
+UIS.XGDP.1.FSGOV.FFNTR - Initial government funding of primary education as a percentage of GDP (%)
+UIS.XGDP.1.FSHH.FFNTR - Initial household funding of primary education as a percentage of GDP
+UIS.XGDP.2.FSGOV - Government expenditure on lower secondary education as a percentage of GDP (%)
+UIS.XGDP.2.FSGOV.FFNTR - Initial government funding of lower secondary education as a percentage of GDP (%)
 UIS.XGDP.23.FSGOV - Government expenditure on secondary education as % of GDP (%)
+UIS.XGDP.23.FSHH.FFNTR - Initial household funding of secondary education as a percentage of GDP
+UIS.XGDP.2T3.FSGOV.FFNTR - Initial government funding of secondary education as a percentage of GDP (%)
+UIS.XGDP.2T4.V.FSGOV - Government expenditure on secondary and post-secondary non-tertiary vocational education as % of GDP (%)
+UIS.XGDP.3.FSGOV - Government expenditure on upper secondary education as a percentage of GDP (%)
+UIS.XGDP.3.FSGOV.FFNTR - Initial government funding of upper secondary education as a percentage of GDP (%)
 UIS.XGDP.4.FSGOV - Government expenditure on post-secondary non-tertiary education as % of GDP (%)
-UIS.XGDP.4.FSGOV.FDINSTADM.FFD - Government expenditure in post-secondary non-tertiary institutions as % of GDP (%)
 UIS.XGDP.56.FSGOV - Government expenditure on tertiary education as % of GDP (%)
-UIS.XGDP.FSGOV.FDINSTADM.FFD - Government expenditure in educational institutions as % of GDP (%)
+UIS.XGDP.5T8.FSGOV.FFNTR - Initial government funding of tertiary education as a percentage of GDP (%)
+UIS.XGDP.5T8.FSHH.FFNTR - Initial household funding of tertiary education as a percentage of GDP
+UIS.XGDP.FSGOV.FFNTR - Initial government funding of education as a percentage of GDP (%)
+UIS.XGDP.FSHH.FFNTR - Initial household funding of education as a percentage of GDP
 UIS.XGOVEXP.IMF.0 - Expenditure on pre-primary as % of total government expenditure (%)
 UIS.XGOVEXP.IMF.1 - Expenditure on primary as % of total government expenditure (%)
 UIS.XGOVEXP.IMF.2 - Expenditure on lower secondary as % of total government expenditure (%)
 UIS.XGOVEXP.IMF.23 - Expenditure on secondary as % of total government expenditure (%)
+UIS.XGOVEXP.IMF.2T4.V - Expenditure on secondary and post-secondary non-tertiary vocational education as % of total government expenditure (%)
 UIS.XGOVEXP.IMF.3 - Expenditure on upper secondary as % of total government expenditure (%)
 UIS.XGOVEXP.IMF.4 - Expenditure on post-secondary non-tertiary as % of total government expenditure (%)
 UIS.XGOVEXP.IMF.56 - Expenditure on tertiary as % of total government expenditure (%)
 UIS.XPUBP.0 - Expenditure on pre-primary as % of government expenditure on education (%)
 UIS.XPUBP.2 - Expenditure on lower secondary as % of government expenditure on education (%)
+UIS.XPUBP.2T4.V - Expenditure on secondary and post-secondary non-tertiary vocational as % of government expenditure on education (%)
 UIS.XPUBP.3 - Expenditure on upper secondary as % of government expenditure on education (%)
 UIS.XPUBP.4 - Expenditure on post-secondary non-tertiary as % of government expenditure on education (%)
 UIS.XPUBP.UK - Expenditure on education not allocated by level as % of government expenditure on education (%)
@@ -12346,60 +12547,96 @@ UIS.XSPENDP.0.FDPUB.FNCAP - Capital expenditure as % of total expenditure in pre
 UIS.XSPENDP.0.FDPUB.FNCUR - Current expenditure as % of total expenditure in pre-primary public institutions (%)
 UIS.XSPENDP.0.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in pre-primary public institutions (%)
 UIS.XSPENDP.0.FDPUB.FNS - All staff compensation as % of total expenditure in pre-primary public institutions (%)
+UIS.XSPENDP.02.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in pre-primary public institutions (%)
+UIS.XSPENDP.02.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in pre-primary public institutions (%)
+UIS.XSPENDP.1.FDPUB.FNBOOKS - Expenditure on school books and teaching material as % of total expenditure in primary public institutions (%)
 UIS.XSPENDP.1.FDPUB.FNCAP - Capital expenditure as % of total expenditure in primary public institutions (%)
 UIS.XSPENDP.1.FDPUB.FNCUR - Current expenditure as % of total expenditure in primary public institutions (%)
 UIS.XSPENDP.1.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in primary public institutions (%)
+UIS.XSPENDP.1.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in primary public institutions (%)
 UIS.XSPENDP.1.FDPUB.FNS - All staff compensation as % of total expenditure in primary public institutions (%)
+UIS.XSPENDP.1.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in primary public institutions (%)
 UIS.XSPENDP.2.FDPUB.FNCAP - Capital expenditure as % of total expenditure in lower secondary public institutions (%)
 UIS.XSPENDP.2.FDPUB.FNCUR - Current expenditure as % of total expenditure in lower secondary public institutions (%)
 UIS.XSPENDP.2.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in lower secondary public institutions (%)
+UIS.XSPENDP.2.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in lower secondary public institutions (%)
 UIS.XSPENDP.2.FDPUB.FNS - All staff compensation as % of total expenditure in lower secondary public institutions (%)
+UIS.XSPENDP.2.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in lower secondary public institutions (%)
+UIS.XSPENDP.23.FDPUB.FNBOOKS - Expenditure on school books and teaching material as % of total expenditure in secondary public institutions (%)
 UIS.XSPENDP.23.FDPUB.FNCAP - Capital expenditure as % of total expenditure in secondary public institutions (%)
 UIS.XSPENDP.23.FDPUB.FNCUR - Current expenditure as % of total expenditure in secondary public institutions (%)
 UIS.XSPENDP.23.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in secondary public institutions (%)
+UIS.XSPENDP.23.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in secondary public institutions (%)
 UIS.XSPENDP.23.FDPUB.FNS - All staff compensation as % of total expenditure in secondary public institutions (%)
+UIS.XSPENDP.23.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in secondary public institutions (%)
 UIS.XSPENDP.3.FDPUB.FNCAP - Capital expenditure as % of total expenditure in upper-secondary public institutions (%)
 UIS.XSPENDP.3.FDPUB.FNCUR - Current expenditure as % of total expenditure in upper-secondary public institutions (%)
 UIS.XSPENDP.3.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in upper secondary public institutions (%)
+UIS.XSPENDP.3.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in upper secondary public institutions (%)
 UIS.XSPENDP.3.FDPUB.FNS - All staff compensation as % of total expenditure in upper secondary public institutions (%)
+UIS.XSPENDP.3.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in upper secondary public institutions (%)
 UIS.XSPENDP.4.FDPUB.FNCAP - Capital expenditure as % of total expenditure in post-secondary non-tertiary public institutions (%)
 UIS.XSPENDP.4.FDPUB.FNCUR - Current expenditure as % of total expenditure in post-secondary non-tertiary public institutions (%)
 UIS.XSPENDP.4.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in post-secondary non-tertiary public institutions (%)
+UIS.XSPENDP.4.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in post-secondary non-tertiary public institutions (%)
 UIS.XSPENDP.4.FDPUB.FNS - All staff compensation as % of total expenditure in post-secondary non-tertiary public institutions (%)
+UIS.XSPENDP.4.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in post-secondary non-tertiary public institutions (%)
 UIS.XSPENDP.56.FDPUB.FNCAP - Capital expenditure as % of total expenditure in tertiary public institutions (%)
 UIS.XSPENDP.56.FDPUB.FNCUR - Current expenditure as % of total expenditure in tertiary public institutions (%)
 UIS.XSPENDP.56.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in tertiary public institutions (%)
+UIS.XSPENDP.56.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in tertiary public institutions (%)
 UIS.XSPENDP.56.FDPUB.FNS - All staff compensation as % of total expenditure in tertiary public institutions (%)
+UIS.XSPENDP.56.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in tertiary public institutions (%)
 UIS.XSPENDP.FDPUB.FNCAP - Capital expenditure as % of total expenditure in public institutions (%)
 UIS.XSPENDP.FDPUB.FNNONS - Current expenditure other than staff compensation as % of total expenditure in public institutions (%)
+UIS.XSPENDP.FDPUB.FNNTS - Non-teaching staff compensation as a percentage of total expenditure in public institutions (%)
 UIS.XSPENDP.FDPUB.FNS - All staff compensation as % of total expenditure in public institutions (%)
+UIS.XSPENDP.FDPUB.FNTS - Teaching staff compensation as a percentage of total expenditure in public institutions (%)
+UIS.XUNIT.GDPCAP.02.FSGOV - Initial government funding per pre-primary student as a percentage of GDP per capita
+UIS.XUNIT.GDPCAP.1.FSGOV - Initial government funding per primary student as a percentage of GDP per capita
+UIS.XUNIT.GDPCAP.1.FSHH - Initial household funding per primary student as a percentage of GDP per capita
 UIS.XUNIT.GDPCAP.2.FSGOV - Government expenditure per lower secondary student as % of GDP per capita (%)
+UIS.XUNIT.GDPCAP.23.FSGOV - Initial government funding per secondary student as a percentage of GDP per capita
+UIS.XUNIT.GDPCAP.23.FSHH - Initial household funding per secondary student as a percentage of GDP per capita
 UIS.XUNIT.GDPCAP.3.FSGOV - Government expenditure per upper secondary student as % of GDP per capita (%)
-UIS.XUNIT.GDPCAP.4.FSGOV - Government expenditure per post-secondary non-tertiary student as % of GDP per capita (%)
-UIS.XUNIT.PPP.1.FSGOV - Government expenditure per primary student (PPP$)
-UIS.XUNIT.PPP.2.FSGOV - Government expenditure per lower secondary student (PPP$)
-UIS.XUNIT.PPP.23.FSGOV - Government expenditure per secondary student (PPP$)
-UIS.XUNIT.PPP.3.FSGOV - Government expenditure per upper secondary student (PPP$)
-UIS.XUNIT.PPP.4.FSGOV - Government expenditure per post-secondary non-tertiary student (PPP$)
-UIS.XUNIT.PPP.56.FSGOV - Government expenditure per tertiary student (PPP$)
+UIS.XUNIT.GDPCAP.5T8.FSGOV - Initial government funding per tertiary student as a percentage of GDP per capita
+UIS.XUNIT.GDPCAP.5T8.FSHH - Initial household funding per tertiary student as a percentage of GDP per capita
+UIS.XUNIT.PPP.02.FSGOV.FFNTR - Initial government funding per pre-primary student, PPP$
+UIS.XUNIT.PPP.1.FSGOV.FFNTR - Initial government funding per primary student, PPP$
+UIS.XUNIT.PPP.1.FSHH.FFNTR - Initial household funding per primary student, PPP$
+UIS.XUNIT.PPP.2.FSGOV.FFNTR - Initial government funding per lower secondary student, PPP$
+UIS.XUNIT.PPP.23.FSHH.FFNTR - Initial household funding per secondary student, PPP$
+UIS.XUNIT.PPP.2T3.FSGOV.FFNTR - Initial government funding per secondary student, PPP$
+UIS.XUNIT.PPP.3.FSGOV.FFNTR - Initial government funding per upper secondary student, PPP$
+UIS.XUNIT.PPP.5T8.FSGOV.FFNTR - Initial government funding per tertiary student, PPP$
+UIS.XUNIT.PPP.5T8.FSHH.FFNTR - Initial household funding per tertiary student, PPP$
+UIS.XUNIT.PPPCONST.02.FSGOV - Initial government funding per pre-primary student, constant PPP$
 UIS.XUNIT.PPPCONST.1.FSGOV - Government expenditure per primary student (constant PPP$)
+UIS.XUNIT.PPPCONST.1.FSHH - Initial household funding per primary student, constant PPP$
 UIS.XUNIT.PPPCONST.2.FSGOV - Government expenditure per lower secondary student (constant PPP$)
 UIS.XUNIT.PPPCONST.23.FSGOV - Government expenditure per secondary student (constant PPP$)
+UIS.XUNIT.PPPCONST.23.FSHH - Initial household funding per secondary student, constant PPP$
 UIS.XUNIT.PPPCONST.3.FSGOV - Government expenditure per upper secondary student (constant PPP$)
-UIS.XUNIT.PPPCONST.4.FSGOV - Government expenditure per post-secondary non-tertiary student (constant PPP$)
-UIS.XUNIT.PPPCONST.56.FSGOV - Government expenditure per tertiary student (constant PPP$)
-UIS.XUNIT.US.1.FSGOV - Government expenditure per primary student (US$)
-UIS.XUNIT.US.2.FSGOV - Government expenditure per lower secondary student (US$)
-UIS.XUNIT.US.23.FSGOV - Government expenditure per secondary student (US$)
-UIS.XUNIT.US.3.FSGOV - Government expenditure per upper secondary student (US$)
-UIS.XUNIT.US.4.FSGOV - Government expenditure per post-secondary non-tertiary student (US$)
-UIS.XUNIT.US.56.FSGOV - Government expenditure per tertiary student (US$)
+UIS.XUNIT.PPPCONST.5T8.FSGOV - Initial government funding per tertiary student, constant PPP$
+UIS.XUNIT.PPPCONST.5T8.FSHH - Initial household funding per tertiary student, constant PPP$
+UIS.XUNIT.US.02.FSGOV.FFNTR - Initial government funding per pre-primary student, US$
+UIS.XUNIT.US.1.FSGOV.FFNTR - Initial government funding per primary student, US$
+UIS.XUNIT.US.1.FSHH.FFNTR - Initial household funding per primary student, US$
+UIS.XUNIT.US.2.FSGOV.FFNTR - Initial government funding per lower secondary student, US$
+UIS.XUNIT.US.23.FSGOV.FFNTR - Initial government funding per secondary student, US$
+UIS.XUNIT.US.23.FSHH.FFNTR - Initial household funding per secondary student, US$
+UIS.XUNIT.US.3.FSGOV.FFNTR - Initial government funding per upper secondary student, US$
+UIS.XUNIT.US.5T8.FSGOV.FFNTR - Initial government funding per tertiary student, US$
+UIS.XUNIT.US.5T8.FSHH.FFNTR - Initial household funding per tertiary student, US$
+UIS.XUNIT.USCONST.02.FSGOV - Initial government funding per pre-primary student, constant US$
 UIS.XUNIT.USCONST.1.FSGOV - Government expenditure per primary student (constant US$)
+UIS.XUNIT.USCONST.1.FSHH - Initial household funding per primary student, constant US$
 UIS.XUNIT.USCONST.2.FSGOV - Government expenditure per lower secondary student (constant US$)
 UIS.XUNIT.USCONST.23.FSGOV - Government expenditure per secondary student (constant US$)
+UIS.XUNIT.USCONST.23.FSHH - Initial household funding per secondary student, constant US$
 UIS.XUNIT.USCONST.3.FSGOV - Government expenditure per upper secondary student (constant US$)
-UIS.XUNIT.USCONST.4.FSGOV - Government expenditure per post-secondary non-tertiary student (constant US$)
-UIS.XUNIT.USCONST.56.FSGOV - Government expenditure per tertiary student (constant US$)
+UIS.XUNIT.USCONST.5T8.FSGOV - Initial government funding per tertiary student, constant US$
+UIS.XUNIT.USCONST.5T8.FSHH - Initial household funding per tertiary student, constant US$
 UIS.thAge.0 - Official entrance age to pre-primary education (years)
 UIS.thAge.3.A.GPV - Official entrance age to upper secondary education (years)
 UIS.thAge.4.A.GPV - Official entrance age to post-secondary non-tertiary education (years)
@@ -12461,8 +12698,6 @@ WP_time_10.6 - Account, primary education or less (% ages 15+)
 WP_time_10.7 - Account, secondary education or more (% ages 15+)
 WP_time_10.8 - Account, income, poorest 40% (% ages 15+)
 WP_time_10.9 - Account, income, richest 60% (% ages 15+)
-XGDP.23.FSGOV.FDINSTADM.FFD - Government expenditure in secondary institutions education as % of GDP (%)
-XGDP.56.FSGOV.FDINSTADM.FFD - Government expenditure in tertiary institutions as % of GDP (%)
 account.t.d - Account (% age 15+)
 account.t.d.1 - Account, male (% age 15+)
 account.t.d.10 - Account, in labor force (% age 15+)
@@ -13351,6 +13586,17 @@ fin9.t.a.s - Deposit in the past year (% with a financial institution account, a
 fin9.t.d - No deposit and no withdrawal from a financial institution account in the past year (% age 15+)
 fin9.t.d.s - No deposit and no withdrawal in the past year (% with a financial institution account, age 15+)
 fin9.t.d1 - No deposit and no withdrawal from an account in the past year (% age 15+)
+fin9.t.d1.1 - No deposit and no withdrawal from an account in the past year, male  (% age 15+)
+fin9.t.d1.10 - No deposit and no withdrawal from an account in the past year, in labor force (% age 15+)
+fin9.t.d1.11 - No deposit and no withdrawal from an account in the past year, out of labor force (% age 15+)
+fin9.t.d1.2 - No deposit and no withdrawal from an account in the past year, female (% age 15+)
+fin9.t.d1.3 - No deposit and no withdrawal from an account in the past year, young adults  (% age 15-24)
+fin9.t.d1.4 - No deposit and no withdrawal from an account in the past year, older adults (% age 25+)
+fin9.t.d1.5 - No deposit and no withdrawal from an account in the past year, primary education or less (% age 15+)
+fin9.t.d1.6 - No deposit and no withdrawal from an account in the past year, secondary education or less (% age 15+)
+fin9.t.d1.7 - No deposit and no withdrawal from an account in the past year, income, poorest 40% (% age 15+)
+fin9.t.d1.8 - No deposit and no withdrawal from an account in the past year, income, richest 60%  (% age 15+)
+fin9.t.d1.9 - No deposit and no withdrawal from an account in the past year, rural  (% age 15+)
 fin9.t.d1.s - No deposit and no withdrawal in the past year (% with an account, age 15+)
 fing2p.39a.t.d - Received government payments: into a financial institution account (% age 15+)
 fing2p.39a.t.d.s - Received government payments: into a financial institution account (% payment recipients, age 15+)
