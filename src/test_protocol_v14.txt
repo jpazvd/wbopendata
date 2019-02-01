@@ -1,3 +1,4 @@
+type, seq , ctry, indicator, topic, rc, date, time
 3, 1 , all, i/indicators.txt , all, 601 , 30 Jan 2019, 09:09:07
 3, 1001 , all, AG.LND.ARBL.ZS , all, 0 , 30 Jan 2019, 09:09:21
 3, 2001 , all, DP.DOD.DLIN.CR.M1.GG.CD , all, 0 , 30 Jan 2019, 09:09:28

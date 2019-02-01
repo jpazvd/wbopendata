@@ -33,14 +33,22 @@ file open `in2'     using 	`indicator1'		, read
 file open `out2'    using 	`out'     		, write text append
 
 
+file write `out2' "type, seq , ctry, indicator, topic, rc, date, time" _n
+
 
 cap: wbopendata, country(chn - China) clear
-file write `out2' "1, -9 , chn, all , all, `_rc'" _n
+local rc = _rc
+local date = c(current_date)
+local time = c(current_time)
+file write `out2' "1, -9 , chn, wdi , all, `_rc', `date', `time'" _n
 
 
 forvalues t = 1(1)12 {
 	cap: wbopendata, language(en - English) topics(`t') clear
-	file write `out2' "2, -9 , all, all , `t', `_rc' " _n
+	local rc = _rc
+	local date = c(current_date)
+	local time = c(current_time)
+	file write `out2' "2, -9 , all , all , `t', `_rc', `date', `time' " _n
 }
 	
 
