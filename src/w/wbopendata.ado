@@ -1,9 +1,8 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*! v14.2 	31Jan2019               by Joao Pedro Azevedo 
-* Bug Fixed
-	* update _wbopendata_update.ado
-	* set checksum off
+*!  v 14.3 	2Feb2019               by Joao Pedro Azevedo 
+* 	Bug Fixed
+*		_wbopendata_update.ado revised; out.txt file no longer created
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -23,6 +22,7 @@ version 9.0
                          NOMETADATA                 ///
 						 UPDATE						///
 						 NOPRESERVE					///
+						 PRESERVEOUT				///
                  ]
 
 
@@ -32,7 +32,7 @@ version 9.0
 	
 		if ("`update'" != "") {
 		
-			_wbopendata_update, update
+			_wbopendata_update, update `preserveout'
 			noi di ""
 			noi di in y "Update completed"
 			noi di in y "New indicator list created"
@@ -195,6 +195,10 @@ end
 
 
 **********************************************************************************
+*  v 14.2 	31Jan2019               by Joao Pedro Azevedo 
+* Bug Fixed
+	* update _wbopendata_update.ado
+	* set checksum off
 *  v 14.1 	19Jan2019               by Joao Pedro Azevedo 
 * 	New options: 
      * indicator update function
