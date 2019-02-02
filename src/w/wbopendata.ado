@@ -1,9 +1,8 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*! v14.2 	31Jan2019               by Joao Pedro Azevedo 
-* Bug Fixed
-	* update _wbopendata_update.ado
-	* set checksum off
+*!  v 14.3 	2Feb2019               by Joao Pedro Azevedo 
+* 	Bug Fixed
+*		_wbopendata_update.ado revised; out.txt file no longer created
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -195,6 +194,10 @@ end
 
 
 **********************************************************************************
+*  v 14.2 	31Jan2019               by Joao Pedro Azevedo 
+* Bug Fixed
+	* update _wbopendata_update.ado
+	* set checksum off
 *  v 14.1 	19Jan2019               by Joao Pedro Azevedo 
 * 	New options: 
      * indicator update function
