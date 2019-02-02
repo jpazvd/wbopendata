@@ -22,6 +22,7 @@ version 9.0
                          NOMETADATA                 ///
 						 UPDATE						///
 						 NOPRESERVE					///
+						 PRESERVEOUT				///
                  ]
 
 
@@ -31,7 +32,7 @@ version 9.0
 	
 		if ("`update'" != "") {
 		
-			_wbopendata_update, update
+			_wbopendata_update, update `preserveout'
 			noi di ""
 			noi di in y "Update completed"
 			noi di in y "New indicator list created"
