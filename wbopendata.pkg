@@ -12,6 +12,7 @@ F src/w/wbopendata_indicators.sthlp
 F src/w/wbopendata.dlg
 F src/i/indicators.txt
 F src/c/country.txt
+F src/_/_wbopendata_update.ado
 F src/_/_pecats2.ado
 F src/_/_query.ado
 F src/_/_query_metadata.ado

@@ -13,7 +13,7 @@ program define _wbopendata_update, rclass
     syntax                                          ///
                  ,                                 ///
                          UPDATE		               ///
-						 PRESERVEOUT			   ///
+						 [ PRESERVEOUT ]			   
                  
 
 	
