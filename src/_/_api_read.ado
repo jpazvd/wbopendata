@@ -1,0 +1,90 @@
+*******************************************************************************
+* _api_read                                                                     *
+*! v 14.4  	5Feb2019               by Joao Pedro Azevedo                     *
+*******************************************************************************
+
+
+program define _api_read, rclass
+
+	*====================================================================================
+
+	version 9
+	
+    syntax                                 	///
+                 ,                         	///
+							[				///
+                        per_page(int 1)		///
+						page(int 1) 		///
+						qline(int 1) 		///
+						skinumber(int 1) 	///
+						trimnumber(int 1)	///
+						single				///
+						list				///
+							]
+
+							
+		quietly {
+	*======================== 		set up     	===========================================*/
+							
+		tempfile indicator1 
+
+		tempfile in out source out3 source3 hlp1 hlp2 indicator help
+		tempname in2 in3 out2 in_tmp saving source1 source2 hlp hlp01 hlp02
+			   
+		if ("`single'"  == "") {
+			local single "single"
+		}
+		
+	*========================		api			 ===========================================*/
+
+		local query1 "http://api.worldbank.org/v2/indicators?per_page=`per_page'&page=`page'"
+
+		cap: copy "`query1'" "`indicator1'", text replace		
+
+	*========================begin conversion ===========================================*/
+	
+	   
+		file open `in2'     using 	`indicator1'		, read
+
+		if ("`preserveout'" == "") {
+			file open `out2'    using 	`out'     		, write text replace
+		}
+		else {
+			file open `out2'    using 	out.txt    		, write text replace
+		}
+		file open `source2' using 	`indicator'  		, write text replace
+		file open `hlp01'	using 	`hlp1', write text replace
+		
+		
+			file read `in2' line
+			
+			local l = 0
+				 
+				while !r(eof) {
+					
+				   local ++l
+				   file read `in2' line
+					
+				   if ("`single'" != "") {
+					  if(`l' == `qline') {
+							local line = subinstr(`"`line'"', `"""', "", .)
+							return local line`l' "`line'"
+					  }
+				   }
+					
+					
+				   if ("`list'" != "") {
+					  if((`l'>`qline')) {
+							local line = subinstr(`"`line'"', `"""', "", .)
+							return local line`l'  "`line'"
+					  }
+				   }
+					
+				}
+				
+
+		file close `in2'
+
+	}
+	
+	end
