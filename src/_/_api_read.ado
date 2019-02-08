@@ -20,6 +20,7 @@ program define _api_read, rclass
 						trimnumber(int 1)	///
 						single				///
 						list				///
+						parameter(string)	///
 							]
 
 							
@@ -66,24 +67,60 @@ program define _api_read, rclass
 				   file read `in2' line
 					
 				   if ("`single'" != "") {
-					  if(`l' == `qline') {
-							local line = subinstr(`"`line'"', `"""', "", .)
-							return local line`l' "`line'"
-					  }
-				   }
+				   
+						if(`l' == `qline') {
+							local line`l'' = subinstr(`"`line'"', `"""', "", .)
+							return local line`l' "`line`l''"
+						}
+					
+						if ("`parameter'" != "") {
+						
+							foreach name in `parameter' {
+						
+								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),50),1)
+
+								noi di subinstr(`"`tmp'"',`"`name'="',"",.)
+
+								local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
+								
+								return local `name'`l' `tmp'
+
+							}
+						}
+					}
 					
 					
 				   if ("`list'" != "") {
-					  if((`l'>`qline')) {
-							local line = subinstr(`"`line'"', `"""', "", .)
-							return local line`l'  "`line'"
-					  }
-				   }
+						
+						if((`l'>`qline')) {
+							local line`l' = subinstr(`"`line'"', `"""', "", .)
+							return local line`l'  "`line`l''"
+						}
+				   		
+						if ("`parameter'" != "") {
+						
+							foreach name in `parameter' {
+						
+								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),50),1)
+
+								noi di subinstr(`"`tmp'"',`"`name'="',"",.)
+
+								local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
+								
+								return local `name'`l' `tmp'
+
+							}
+						}
+					}
 					
 				}
 				
 
 		file close `in2'
+		
+
+		return local date = c(current_date)
+		return local time = c(current_time)
 
 	}
 	
