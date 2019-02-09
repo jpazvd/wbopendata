@@ -1636,6 +1636,7 @@
 {synopt:{opt BN.TRF.OFFN.CD}} Official Transfers (net) (US$, BoP){p_end}
 {synopt:{opt BN.TRF.OFFT.CD}} Official Transfers, net (US$, BoP){p_end}
 {synopt:{opt BN.TRF.PRVT.CD}} Private current transfers, net (BoP, current US$){p_end}
+{synopt:{opt BN.TRF.PWKR.CD.DT}} Personal remittances, net (current US$){p_end}
 {synopt:{opt BN.TRF.PWKR.CD}} Workers' remittances, net (BoP, current US$){p_end}
 {synopt:{opt BN.TRF.XOKA.CD}} Private current transfers, net (BoP, US$){p_end}
 {synopt:{opt BN.TRN.KOGT.CD}} Grants (disbursements) from new commitments (BoP, current US$){p_end}
@@ -1648,9 +1649,9 @@
 {synopt:{opt BX.AG.HZ.PEST.CD}} Hazardous pesticides exports (FAO, current US$){p_end}
 {synopt:{opt BX.AG.PEST.CD}} Pesticides exports (FAO, current US$){p_end}
 {synopt:{opt BX.FOD.AGRI.CD}} Food exports excluding fish (FAO, current US$){p_end}
-{synopt:{opt BX.GRT.EXTA.CD.DT}} Grants, excluding technical cooperation (DRS, current US$){p_end}
+{synopt:{opt BX.GRT.EXTA.CD.DT}} Grants, excluding technical cooperation (current US$){p_end}
 {synopt:{opt BX.GRT.EXTA.CD.WD}} Grants, excluding technical cooperation (BoP, current US$){p_end}
-{synopt:{opt BX.GRT.TECH.CD.DT}} Technical cooperation grants (DRS, current US$){p_end}
+{synopt:{opt BX.GRT.TECH.CD.DT}} Technical cooperation grants (current US$){p_end}
 {synopt:{opt BX.GRT.TECH.CD.WD}} Technical cooperation grants (BoP, current US$){p_end}
 {synopt:{opt BX.GSR.AGRI.CD}} Total agricultural exports (FAO, current US$){p_end}
 {synopt:{opt BX.GSR.CCIS.CD}} ICT service exports (BoP, current US$){p_end}
@@ -1673,7 +1674,7 @@
 {synopt:{opt BX.GSR.TRAN.ZS}} Transport services (% of service exports, BoP){p_end}
 {synopt:{opt BX.GSR.TRVL.CD}} Travel services, exports (BoP, current US$){p_end}
 {synopt:{opt BX.GSR.TRVL.ZS}} Travel services (% of service exports, BoP){p_end}
-{synopt:{opt BX.KLT.DINV.CD.DT}} Foreign direct investment, net equity inflows in reporting economy (DRS, current US$){p_end}
+{synopt:{opt BX.KLT.DINV.CD.DT}} Foreign direct investment, net inflows in reporting economy (DRS, current US$){p_end}
 {synopt:{opt BX.KLT.DINV.CD.WD}} Foreign direct investment, net inflows (BoP, current US$){p_end}
 {synopt:{opt BX.KLT.DINV.CD}} Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$){p_end}
 {synopt:{opt BX.KLT.DINV.DT.GD.ZS}} Foreign direct investment, net inflows (% of GDP){p_end}
@@ -9033,21 +9034,6 @@
 {synopt:{opt REV.RV.SHR.CR}} Total Revenue Sharing {p_end}
 {synopt:{opt REV.TOTL.CR}} Total Revenue (in IDR) {p_end}
 {synopt:{opt REV.TXRV.SHR.CR}} Total Tax Revenue Sharing/DBH Pajak (in IDR) {p_end}
-{synopt:{opt RISE.EA.PE}} RISE Energy Access - Procedural Efficiency {p_end}
-{synopt:{opt RISE.EA.PL}} RISE Energy Access - Planning {p_end}
-{synopt:{opt RISE.EA.PR}} RISE Energy Access - Policies and Regulations {p_end}
-{synopt:{opt RISE.EA.PS}} RISE Energy Access - Pricing and Subsidies {p_end}
-{synopt:{opt RISE.EA.TO}} RISE Energy Access - Overall country score {p_end}
-{synopt:{opt RISE.EE.PE}} RISE Energy Efficiency - Procedural Efficiency {p_end}
-{synopt:{opt RISE.EE.PL}} RISE Energy Efficiency - Planning {p_end}
-{synopt:{opt RISE.EE.PR}} RISE Energy Efficiency - Policies and Regulations {p_end}
-{synopt:{opt RISE.EE.PS}} RISE Energy Efficiency - Pricing and Subsidies {p_end}
-{synopt:{opt RISE.EE.TO}} RISE Energy Efficiency - Overall country score {p_end}
-{synopt:{opt RISE.RE.PE}} RISE Renewable Energy - Procedural Efficiency {p_end}
-{synopt:{opt RISE.RE.PL}} RISE Renewable Energy - Planning {p_end}
-{synopt:{opt RISE.RE.PR}} RISE Renewable Energy - Policies and Regulations {p_end}
-{synopt:{opt RISE.RE.PS}} RISE Renewable Energy - Pricing and Subsidies {p_end}
-{synopt:{opt RISE.RE.TO}} RISE Renewable Energy - Overall country score {p_end}
 {synopt:{opt RL.EST}} Rule of Law: Estimate {p_end}
 {synopt:{opt RL.NO.SRC}} Rule of Law: Number of Sources {p_end}
 {synopt:{opt RL.PER.RNK.LOWER}} Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval {p_end}
@@ -9092,6 +9078,18 @@
 {synopt:{opt RQ.PER.RNK.UPPER}} Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval {p_end}
 {synopt:{opt RQ.PER.RNK}} Regulatory Quality: Percentile Rank {p_end}
 {synopt:{opt RQ.STD.ERR}} Regulatory Quality: Standard Error {p_end}
+{synopt:{opt S01}} EXPENDITURES (National currency units, billions) {p_end}
+{synopt:{opt S02}} EXPENDITURE SHARES (GDP=100) {p_end}
+{synopt:{opt S03}} PPPs (US$=1) {p_end}
+{synopt:{opt S04}} REAL EXPENDITURES (US$, billions) {p_end}
+{synopt:{opt S05}} REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100) {p_end}
+{synopt:{opt S06}} REAL EXPENDITURES PER CAPITA (US$) {p_end}
+{synopt:{opt S07}} INDEX OF REAL EXPENDITURES PER CAPITA (World=100) {p_end}
+{synopt:{opt S08}} PRICE LEVEL INDEX (World = 100) {p_end}
+{synopt:{opt S09}} NOMINAL EXPENDITURES (US$, billions) {p_end}
+{synopt:{opt S10}} NOMINAL EXPENDITURES PER CAPITA (US$) {p_end}
+{synopt:{opt S11}} EXCHANGE RATE (US$ = 1.000) {p_end}
+{synopt:{opt S12}} POPULATION (millions) {p_end}
 {synopt:{opt SABER.EMIS.GOAL1.LVL1}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 1: Legal Framework {p_end}
 {synopt:{opt SABER.EMIS.GOAL1.LVL2}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 2: Organizational Structure {p_end}
 {synopt:{opt SABER.EMIS.GOAL1.LVL3}} SABER: (Education Management Information Systems) Policy Goal 1 Lever 3: Human Resources {p_end}
@@ -10474,8 +10472,10 @@
 {synopt:{opt SI.DST.FRST.20}} Income share held by lowest 20% {p_end}
 {synopt:{opt SI.POV.2DAY}} Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population) {p_end}
 {synopt:{opt SI.POV.BPL}} Number of people live below the poverty line (in number of people) {p_end}
+{synopt:{opt SI.POV.DDAY.CV}} Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP) {p_end}
 {synopt:{opt SI.POV.DDAY.GR}} Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change) {p_end}
 {synopt:{opt SI.POV.DDAY.RE}} Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change) {p_end}
+{synopt:{opt SI.POV.DDAY.SH}} Share of total poor population (at $1.90 a day, 2011 PPP) {p_end}
 {synopt:{opt SI.POV.DDAY}} Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population) {p_end}
 {synopt:{opt SI.POV.GAP2}} Poverty gap at $3.10 a day (2011 PPP) (%) {p_end}
 {synopt:{opt SI.POV.GAPS}} Poverty gap at $1.90 a day (2011 PPP) (%) {p_end}
@@ -14081,12 +14081,9 @@
 {synopt:{opt per_lm_alllm.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market{p_end}
 {synopt:{opt per_lm_alllm.avt_pop_preT_tot}} Average per capita transfer - All Labor Market (preT){p_end}
 {synopt:{opt per_lm_alllm.avt_pop_rur}} Average per capita transfer - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.avt_pop_tot}} Average per capita transfer - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.avt_pop_tot}} Average per capita transfer - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.avt_pop_urb}} Average per capita transfer - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.avt_pop_urb}} Average per capita transfer - All Labor Market -urban{p_end}
 {synopt:{opt per_lm_alllm.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Labor Market (preT){p_end}
 {synopt:{opt per_lm_alllm.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Labor Market -urban {p_end}
