@@ -18,7 +18,8 @@ which wbopendata.sthlp
 local skipnumber = 1
 local trimnumber = 1
 local indicator1 "i/indicators.txt"
-local out "test_protocol_v15.txt"
+local out "$root\wbopendata\doc\test_protocol_v15.txt"
+local outcopy "$root\wbopendata\run\test_protocol.txt"
 
 *********************************************************************
 
@@ -109,6 +110,8 @@ forvalues i = 1(1)`l' {
 	
 file close `out2'
 
+copy `out' `outcopy'
+ 
 
 /*	
 						
