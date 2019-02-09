@@ -71,8 +71,10 @@ local dt_update = r(dt_update)
 		noi di in smcl ""
 		noi di in w in smcl in y "{bf:...UPDATE COMPLETED}"
 		noi di in smcl ""
-		noi di in smcl in y "New indicator list created"
-		noi di in smcl in y "New indicator documentation created."
+		noi di in smcl in y "{bf:New indicator list created}"
+		noi di in smcl ""
+		noi di in smcl in y "{bf:New indicator documentation created.}"
+		noi di in smcl ""
 		noi di in smcl in y "See {bf:{help wbopendata_indicators##indicators:{bf:Indicators List}}}"
 		noi di in smcl in g "{hline}"
 
