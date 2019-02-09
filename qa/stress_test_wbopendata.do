@@ -1,5 +1,5 @@
-global root "C:\GitHub_myados"
-*global root "C:\Users\wb255520\Documents\myados"
+*global root "C:\GitHub_myados"
+global root "C:\Users\wb255520\Documents\myados"
 
 *********************************************************************
 
@@ -18,7 +18,7 @@ which wbopendata.sthlp
 local skipnumber = 1
 local trimnumber = 1
 local indicator1 "i/indicators.txt"
-local out "test_protocol_v14.txt"
+local out "test_protocol_v15.txt"
 
 *********************************************************************
 
@@ -34,6 +34,15 @@ file open `out2'    using 	`out'     		, write text append
 
 
 file write `out2' "type, seq , ctry, indicator, topic, rc, date, time" _n
+
+
+cap: wbopendata, update
+local rc = _rc
+local date = c(current_date)
+local time = c(current_time)
+file write `out2' "4, -9 , -9, update , all, `rc' , `date', `time'" _n
+
+	
 
 
 cap: wbopendata, country(chn - China) clear
@@ -81,7 +90,7 @@ di "`l'"
 		
 local l = `l'-1
 		
-forvalues i = 1(10)`l' {
+forvalues i = 1(1)`l' {
 
 	noi di "`i'"
 
@@ -96,16 +105,7 @@ forvalues i = 1(10)`l' {
 	file write `out2' "3, `i' , all, `indicator`i'' , all, `rc' , `date', `time'" _n
 
 }
-	
 
-
-cap: wbopendata, update
-local rc = _rc
-local date = c(current_date)
-local time = c(current_time)
-file write `out2' "4, -9 , -9, update , all, `rc' , `date', `time'" _n
-
-	
 	
 file close `out2'
 
