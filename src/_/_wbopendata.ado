@@ -75,7 +75,7 @@ local dt_update = r(dt_update)
 		noi di in smcl ""
 		noi di in smcl in y "{bf:New indicator documentation created.}"
 		noi di in smcl ""
-		noi di in smcl in y "See {bf:{help wbopendata_indicators##indicators:{bf:Indicators List}}}"
+		noi di in smcl in y "{bf:See } {bf:{help wbopendata_indicators##indicators:{bf:Indicators List}}}"
 		noi di in smcl in g "{hline}"
 
 		break
@@ -92,8 +92,7 @@ local dt_update = r(dt_update)
 			noi di in g in smcl "Number of Indicators: " in y "{bf: `r(number_indicators)'}"
 			noi di in g in smcl "Last update: " in y "{bf: `r(dt_update)'}"
 			noi di in g in smcl "Latest check: " in y "{bf: `r(dt_lastcheck)'}"
-			noi di in smcl ""
-			noi di in w in smcl "See {bf:{help wbopendata_indicators##indicators:Indicators List}}"
+			noi di in g in smcl "See {bf:{help wbopendata_indicators##indicators:Indicators List}}"
 			noi di in g in smcl "{hline}"
 			noi di in smcl ""
 

@@ -33,7 +33,7 @@ version 9.0
 	
 		if ("`update'" != "") {
 		
-			_wbopendata
+			noi _wbopendata
 			
 		}
 
