@@ -1,9 +1,10 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.0 	8Feb2019               by Joao Pedro Azevedo 
+*!  v 15.0.1 	11Feb2019               by Joao Pedro Azevedo 
 * 	New feature
 *		update check 
 *		auto refresh indicators
+*		revised _wbopendata.ado 		
 *******************************************************************************
 
 program def wbopendata, rclass
