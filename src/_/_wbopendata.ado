@@ -1,4 +1,7 @@
-*! version 15.0 		<8Feb2019>		JPAzevedo
+*! version 15.0.1 		<11Feb2019>		JPAzevedo
+*	add latest check value to default report
+* version 15.0 			<8Feb2019>		JPAzevedo
+*	Original
 
 program define _wbopendata, rclass
 
@@ -92,6 +95,7 @@ local dt_update = r(dt_update)
 			noi di in g in smcl "Number of Indicators: " in y "{bf: `r(number_indicators)'}"
 			noi di in g in smcl "Last update: " in y "{bf: `r(dt_update)'}"
 			noi di in g in smcl "Latest check: " in y "{bf: `r(dt_lastcheck)'}"
+			noi di in g in smcl "Current check: " in y "{bf: `check'}"
 			noi di in g in smcl "See {bf:{help wbopendata_indicators##indicators:Indicators List}}"
 			noi di in g in smcl "{hline}"
 			noi di in smcl ""
