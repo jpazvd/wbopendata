@@ -1630,6 +1630,7 @@ BN.TRF.OFFN.CD - Official Transfers (net) (US$, BoP)
 BN.TRF.OFFT.CD - Official Transfers, net (US$, BoP)
 BN.TRF.PRVT.CD - Private current transfers, net (BoP, current US$)
 BN.TRF.PWKR.CD - Workers' remittances, net (BoP, current US$)
+BN.TRF.PWKR.CD.DT - Personal remittances, net (current US$)
 BN.TRF.XOKA.CD - Private current transfers, net (BoP, US$)
 BN.TRN.KOGT.CD - Grants (disbursements) from new commitments (BoP, current US$)
 BPK.AUD.SUBN - BPK Audit Report on Sub-National Budget
@@ -1641,9 +1642,9 @@ BX.AG.FRST.CD - Forest products exports (FAO, current US$)
 BX.AG.HZ.PEST.CD - Hazardous pesticides exports (FAO, current US$)
 BX.AG.PEST.CD - Pesticides exports (FAO, current US$)
 BX.FOD.AGRI.CD - Food exports excluding fish (FAO, current US$)
-BX.GRT.EXTA.CD.DT - Grants, excluding technical cooperation (DRS, current US$)
+BX.GRT.EXTA.CD.DT - Grants, excluding technical cooperation (current US$)
 BX.GRT.EXTA.CD.WD - Grants, excluding technical cooperation (BoP, current US$)
-BX.GRT.TECH.CD.DT - Technical cooperation grants (DRS, current US$)
+BX.GRT.TECH.CD.DT - Technical cooperation grants (current US$)
 BX.GRT.TECH.CD.WD - Technical cooperation grants (BoP, current US$)
 BX.GSR.AGRI.CD - Total agricultural exports (FAO, current US$)
 BX.GSR.CCIS.CD - ICT service exports (BoP, current US$)
@@ -1667,7 +1668,7 @@ BX.GSR.TRAN.ZS - Transport services (% of service exports, BoP)
 BX.GSR.TRVL.CD - Travel services, exports (BoP, current US$)
 BX.GSR.TRVL.ZS - Travel services (% of service exports, BoP)
 BX.KLT.DINV.CD - Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)
-BX.KLT.DINV.CD.DT - Foreign direct investment, net equity inflows in reporting economy (DRS, current US$)
+BX.KLT.DINV.CD.DT - Foreign direct investment, net inflows in reporting economy (DRS, current US$)
 BX.KLT.DINV.CD.WD - Foreign direct investment, net inflows (BoP, current US$)
 BX.KLT.DINV.DT.GD.ZS - Foreign direct investment, net inflows (% of GDP)
 BX.KLT.DINV.DT.GI.ZS - Foreign direct investment, net inflows (% of gross capital formation)
@@ -9026,21 +9027,6 @@ REV.OTHR.CR - Total Other Revenue (in IDR)
 REV.RV.SHR.CR - Total Revenue Sharing
 REV.TOTL.CR - Total Revenue (in IDR)
 REV.TXRV.SHR.CR - Total Tax Revenue Sharing/DBH Pajak (in IDR)
-RISE.EA.PE - RISE Energy Access - Procedural Efficiency
-RISE.EA.PL - RISE Energy Access - Planning
-RISE.EA.PR - RISE Energy Access - Policies and Regulations
-RISE.EA.PS - RISE Energy Access - Pricing and Subsidies
-RISE.EA.TO - RISE Energy Access - Overall country score
-RISE.EE.PE - RISE Energy Efficiency - Procedural Efficiency
-RISE.EE.PL - RISE Energy Efficiency - Planning
-RISE.EE.PR - RISE Energy Efficiency - Policies and Regulations
-RISE.EE.PS - RISE Energy Efficiency - Pricing and Subsidies
-RISE.EE.TO - RISE Energy Efficiency - Overall country score
-RISE.RE.PE - RISE Renewable Energy - Procedural Efficiency
-RISE.RE.PL - RISE Renewable Energy - Planning
-RISE.RE.PR - RISE Renewable Energy - Policies and Regulations
-RISE.RE.PS - RISE Renewable Energy - Pricing and Subsidies
-RISE.RE.TO - RISE Renewable Energy - Overall country score
 RL.EST - Rule of Law: Estimate
 RL.NO.SRC - Rule of Law: Number of Sources
 RL.PER.RNK - Rule of Law: Percentile Rank
@@ -9085,6 +9071,18 @@ RQ.PER.RNK - Regulatory Quality: Percentile Rank
 RQ.PER.RNK.LOWER - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval
 RQ.PER.RNK.UPPER - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval
 RQ.STD.ERR - Regulatory Quality: Standard Error
+S01 - EXPENDITURES (National currency units, billions)
+S02 - EXPENDITURE SHARES (GDP=100)
+S03 - PPPs (US$=1)
+S04 - REAL EXPENDITURES (US$, billions)
+S05 - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)
+S06 - REAL EXPENDITURES PER CAPITA (US$)
+S07 - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)
+S08 - PRICE LEVEL INDEX (World = 100)
+S09 - NOMINAL EXPENDITURES (US$, billions)
+S10 - NOMINAL EXPENDITURES PER CAPITA (US$)
+S11 - EXCHANGE RATE (US$ = 1.000)
+S12 - POPULATION (millions)
 SABER.EMIS.GOAL1 - SABER: (Education Management Information Systems) Policy Goal 1: Enabling Environment
 SABER.EMIS.GOAL1.LVL1 - SABER: (Education Management Information Systems) Policy Goal 1 Lever 1: Legal Framework
 SABER.EMIS.GOAL1.LVL2 - SABER: (Education Management Information Systems) Policy Goal 1 Lever 2: Organizational Structure
@@ -10468,8 +10466,10 @@ SI.DST.FRST.20 - Income share held by lowest 20%
 SI.POV.2DAY - Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population)
 SI.POV.BPL - Number of people live below the poverty line (in number of people)
 SI.POV.DDAY - Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
+SI.POV.DDAY.CV - Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP)
 SI.POV.DDAY.GR - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)
 SI.POV.DDAY.RE - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)
+SI.POV.DDAY.SH - Share of total poor population (at $1.90 a day, 2011 PPP)
 SI.POV.GAP2 - Poverty gap at $3.10 a day (2011 PPP) (%)
 SI.POV.GAPS - Poverty gap at $1.90 a day (2011 PPP) (%)
 SI.POV.GINI - GINI index (World Bank estimate)

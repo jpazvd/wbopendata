@@ -1,6 +1,6 @@
 *******************************************************************************
 * _api_read                                                                     *
-*! v 14.4  	5Feb2019               by Joao Pedro Azevedo                     *
+*! v 15.0  	8Feb2019               by Joao Pedro Azevedo                     *
 *******************************************************************************
 
 
@@ -20,15 +20,18 @@ program define _api_read, rclass
 						trimnumber(int 1)	///
 						single				///
 						list				///
+						parameter(string)	///
 							]
 
 							
 		quietly {
 	*======================== 		set up     	===========================================*/
-							
-		tempfile indicator1 
-
-		tempfile in out source out3 source3 hlp1 hlp2 indicator help
+			
+		set checksum off
+		
+		return add
+		
+		tempfile in out source out3 source3 hlp1 hlp2 indicator help indicator1 
 		tempname in2 in3 out2 in_tmp saving source1 source2 hlp hlp01 hlp02
 			   
 		if ("`single'"  == "") {
@@ -60,30 +63,61 @@ program define _api_read, rclass
 			
 			local l = 0
 				 
-				while !r(eof) {
+				qui while !r(eof) {
 					
 				   local ++l
 				   file read `in2' line
 					
 				   if ("`single'" != "") {
-					  if(`l' == `qline') {
-							local line = subinstr(`"`line'"', `"""', "", .)
-							return local line`l' "`line'"
-					  }
-				   }
+				   
+						if(`l' == `qline') {
+							local line`l'' = subinstr(`"`line'"', `"""', "", .)
+							return local line`l' "`line`l''"
+						}
+					
+						if ("`parameter'" != "") {
+						
+							foreach name in `parameter' {
+						
+								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),50),1)
+
+								local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
+								
+								return local `name'`l' `tmp'
+
+							}
+						}
+					}
 					
 					
 				   if ("`list'" != "") {
-					  if((`l'>`qline')) {
-							local line = subinstr(`"`line'"', `"""', "", .)
-							return local line`l'  "`line'"
-					  }
-				   }
+						
+						if((`l'>`qline')) {
+							local line`l' = subinstr(`"`line'"', `"""', "", .)
+							return local line`l'  "`line`l''"
+						}
+				   		
+						if ("`parameter'" != "") {
+						
+							foreach name in `parameter' {
+						
+								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),50),1)
+
+								local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
+								
+								return local `name'`l' `tmp'
+
+							}
+						}
+					}
 					
 				}
 				
 
 		file close `in2'
+		
+		return local date = c(current_date)
+		return local time = c(current_time)
 
 	}
 	

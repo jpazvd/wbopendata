@@ -10,7 +10,7 @@ program define _wbopendata_update, rclass
 
 	version 9
 	
-    syntax                                          ///
+    syntax                                         ///
                  ,                                 ///
                          UPDATE		               ///
 						 [ PRESERVEOUT ]			   
