@@ -35,6 +35,8 @@
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
 {synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
+{synopt :{opt update query}} query the current vintage of indicators available. {p_end}
+{synopt :{opt update check}} checks the availability of new indicators available for download. {p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -139,6 +141,13 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {center: French:   {cmd:fr}          }
 
 {synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
+
+{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
+
+{synopt :{opt update query}} query the current vintage of indicators available. {p_end}
+
+{synopt :{opt update check}} checks the availability of new indicators available for download. {p_end}
+
 
 {marker countries}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -465,6 +474,10 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {pstd}
+
+{p 8 12}{stata "wbopendata, update query" :. wbopendata, update query}{p_end}
+
+{p 8 12}{stata "wbopendata, update check" :. wbopendata, update check}{p_end}
 
 {p 8 12}{stata "wbopendata, update" :. wbopendata, update}{p_end}
 
