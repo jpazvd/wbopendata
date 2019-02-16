@@ -49,7 +49,7 @@ syntax , 								///
 			noi di in smcl ""
 			noi di in g in smcl "Possible actions"
 			noi di in smcl ""
-			noi di in g in smcl 	`" {stata _wbopendata, update check : Check for available updates} "'         "  (or type -_wbopendata, update check-)"
+			noi di in g in smcl 	`" {stata wbopendata, update check : Check for available updates} "'         "  (or type -wbopendata, update check-)"
 			noi di in g in smcl "	See current {bf:{help wbopendata_indicators##indicators:indicators list}}"
 			noi di in smcl ""
 			noi di in g in smcl "{hline}"
@@ -84,7 +84,7 @@ syntax , 								///
 				noi di in g in smcl "	See current {bf:{help wbopendata_indicators##indicators:indicators list}} " 
 			}
 			if (`number_indicators' != `newnumber') {
-				noi di in g in smcl 	`" {stata _wbopendata, update : Download available updates} "'         "  (or type -_wbopendata, update-)"
+				noi di in g in smcl 	`" {stata wbopendata, update : Download available updates} "'         "  (or type -wbopendata, update-)"
 				noi di in g in smcl "	See current {bf:{help wbopendata_indicators##indicators:indicators list}} " in r "(this list is no longer uptodate)"
 			}
 			noi di in smcl ""
