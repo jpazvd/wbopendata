@@ -1,10 +1,11 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.0.1 	11Feb2019               by Joao Pedro Azevedo 
+*!  v 15.0.2 	16Feb2019               by Joao Pedro Azevedo 
 * 	New feature
 *		update check 
 *		auto refresh indicators
 *		revised _wbopendata.ado 		
+*		update query; update check; and update options are included
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -23,6 +24,8 @@ version 9.0
                          LATEST                     ///
                          NOMETADATA                 ///
 						 UPDATE						///
+						 QUERY						///
+						 CHECK						///
 						 NOPRESERVE					///
 						 PRESERVEOUT				///
                  ]
@@ -34,7 +37,7 @@ version 9.0
 	
 		if ("`update'" != "") {
 		
-			noi _wbopendata
+			noi _wbopendata, update `query' `check'
 			
 		}
 
