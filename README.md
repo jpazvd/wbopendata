@@ -71,3 +71,11 @@ This module should be installed from within Stata by typing "ssc install wbopend
 
 #### Keywords:
 Indicators; WDI; API; Open Data
+
+## Author: 
+
+  **João Pedro Azevedo**  
+  [jazevedo@worldbank.org](mailto:jazevedo@worldbank.org)  
+  World Bank  
+  [personal page](http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo)  
+
