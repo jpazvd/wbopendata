@@ -49,7 +49,7 @@ syntax , 								///
 			noi di in smcl ""
 			noi di in g in smcl "Possible actions"
 			noi di in smcl ""
-			noi di in g in smcl 	`" {stata wbopendata, update check : Check for available updates} "'         "  (or type -wbopendata, update check-)"
+			noi di in g in smcl 	`" {stata wbopendata, update check : {bf:Check for available updates}} "'         "  (or type -wbopendata, update check-)"
 			noi di in g in smcl "	See current {bf:{help wbopendata_indicators##indicators:indicators list}}"
 			noi di in smcl ""
 			noi di in g in smcl "{hline}"
