@@ -2,7 +2,7 @@
 * wbopendata                                                                  *
 *!  v 15.0.2 	16Feb2019               by Joao Pedro Azevedo 
 * 	New feature
-*		update check 
+*		update check, update query, and update
 *		auto refresh indicators
 *		revised _wbopendata.ado 		
 *		update query; update check; and update options are included
@@ -32,6 +32,12 @@ version 9.0
 
 
 	quietly {
+	
+	
+		if ("`query'" != "") & ("`check'" != "") {
+			noi di  as err "update query and update check options cannot be selected at the same time."
+			exit 198
+		}
 	
 		set checksum off
 	
