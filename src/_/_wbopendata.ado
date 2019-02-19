@@ -19,10 +19,10 @@ syntax , 								///
 
 	return add
 
-    if  wordcount("`query'   `update'    `check'")>2 {
-		noi di  as err "Invalid option: two many parameters."
-		exit 198
-    }
+*    if  wordcount("`query'   `update'    `check'")>2 {
+*		noi di  as err "Invalid option: two many parameters."
+*		exit 198
+*    }
 
 	_parameters
 
