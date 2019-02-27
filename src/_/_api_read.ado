@@ -1,6 +1,7 @@
 *******************************************************************************
-* _api_read                                                                     *
-*! v 15.0  	8Feb2019               by Joao Pedro Azevedo                     *
+* _api_read                                                                   
+*! v 15.1  	25Feb2019               by Joao Pedro Azevedo
+*	flexible API address
 *******************************************************************************
 
 
@@ -21,6 +22,8 @@ program define _api_read, rclass
 						single				///
 						list				///
 						parameter(string)	///
+						query(string)		///
+						nopreserve			///
 							]
 
 							
@@ -29,7 +32,9 @@ program define _api_read, rclass
 			
 		set checksum off
 		
-		return add
+		if ("`nopreserve'" == "") {
+			return add
+		}
 		
 		tempfile in out source out3 source3 hlp1 hlp2 indicator help indicator1 
 		tempname in2 in3 out2 in_tmp saving source1 source2 hlp hlp01 hlp02
@@ -39,9 +44,14 @@ program define _api_read, rclass
 		}
 		
 	*========================		api			 ===========================================*/
-
-		local query1 "http://api.worldbank.org/v2/indicators?per_page=`per_page'&page=`page'"
-
+	
+		if ("`query'" == "") {
+			local query1 "http://api.worldbank.org/v2/indicators"
+		}
+		else {
+			local query1 "`query'?per_page=`per_page'&page=`page'"
+		}
+		
 		cap: copy "`query1'" "`indicator1'", text replace		
 
 	*========================begin conversion ===========================================*/
@@ -94,19 +104,63 @@ program define _api_read, rclass
 						
 						if((`l'>`qline')) {
 							local line`l' = subinstr(`"`line'"', `"""', "", .)
+							noi di "`line`l''"
 							return local line`l'  "`line`l''"
 						}
 				   		
 						if ("`parameter'" != "") {
 						
+					
 							foreach name in `parameter' {
+
+								if (strmatch("`name'","*?*") == 1) {
+									local parorg = subinstr("`name'","?"," ",.)
+									local stub = word("`parorg'",1)
+									local name = subinstr("`name'","?","_",.)
+									local line`l' = subinstr(`"`line`l''"',"`parorg'","`name'",.)
+
+								}
+
+								if (strmatch(`"`line`l''"',"*`name'*") == 1) {
 						
-								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),50),1)
+									if (strmatch(`"`line`l''"',"*=*") == 1) {
+									
+										local line`l' = subinstr(`"`line`l''"',"</wb:`name'>","",.)
+										
+										local line`l' = subinstr(`"`line`l''"',"<wb:","",.)
+									
+										local str =strpos(`"`line`l''"',`"`name'="')
+										
+										local end =strpos(`"`line`l''"',"</wb:")
+										
+										if (`end' == 0) {
+											local end = 50
+										}
+										
+										local len = `end'-`str'
+									
+										noi di "`name' : `stub' : local len = `end'-`str'"
 
-								local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
+										local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),`len'),1)
+
+										local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
+									
+									}
+									
+									if (strmatch(`"`line`l''"',"*=*") != 1) {
+									
+											local tmp = subinstr(`"`line`l''"',"<wb:`name'>","",.)
+											local tmp = subinstr(`"`tmp'"',"</wb:`name'>","",.)
+									
+									}
+									
+									local tmp = subinstr("`tmp'",">"," ",.)
+									local tmp = trim("`tmp'")
+									
+									return local `name'`l' `tmp'
+
+								}
 								
-								return local `name'`l' `tmp'
-
 							}
 						}
 					}
