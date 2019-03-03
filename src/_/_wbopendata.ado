@@ -10,9 +10,9 @@ program define _wbopendata, rclass
 version 9
 
 syntax , 								///
-			UPDATE 						///
 			[ 							///
 				NODISPLAY 				///
+				UPDATE					///
 				QUERY		            ///
 				CHECK		            ///
 		  ]
@@ -84,7 +84,7 @@ syntax , 								///
 				noi di in g in smcl "	See current {bf:{help wbopendata_indicators##indicators:indicators list}} " 
 			}
 			if (`number_indicators' != `newnumber') {
-				noi di in g in smcl 	`" {stata wbopendata, update : Download available updates} "'         "  (or type -wbopendata, update-)"
+				noi di in g in smcl 	`" {stata wbopendata, update : {bf:Download available updates}} "'         "  (or type -wbopendata, update-)"
 				noi di in g in smcl "	See current {bf:{help wbopendata_indicators##indicators:indicators list}} " in r "(this list is no longer uptodate)"
 			}
 			noi di in smcl ""

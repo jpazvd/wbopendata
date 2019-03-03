@@ -1,5 +1,8 @@
 *******************************************************************************
 * wbopendata                                                                  *
+*!  v 15.1	    02Mar2019               by Joao Pedro Azevedo 
+*	New Features
+*		country attribute table fully revised and linked to api
 *!  v 15.0.2 	16Feb2019               by Joao Pedro Azevedo 
 * 	New feature
 *		update check, update query, and update
@@ -41,10 +44,18 @@ version 9.0
 	
 		set checksum off
 	
-		if ("`update'" != "") {
+		if ("`update'" != "") & wordcount("`query' `check'")==0 {
 		
-			noi _wbopendata, update `query' `check'
+			noi wbopendata, update query
+			break
+		}
+		
 			
+		if ("`update'" != "") & wordcount("`query' `check'")== 1 {
+
+			noi _wbopendata, update `query' `check'	
+			break
+					
 		}
 
 		local f = 1
@@ -192,6 +203,21 @@ version 9.0
 		}
 
 	}
+	
+	
+**********************************************************************************
+	
+
+	qui if ("`update'" == "") {
+
+		tostring  countryname countrycode, replace
+
+		_countrymetadata
+
+	}
+	
+**********************************************************************************
+	
 	
 	if ("`nopreserve'" == "") {
 		return add
