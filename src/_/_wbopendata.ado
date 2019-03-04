@@ -1,3 +1,4 @@
+**********************************************************
 *! version 15.1 			<3Mar2019>		JPAzevedo
 *	include countrymetadata option
 *	include force option
@@ -5,8 +6,9 @@
 *	add update query, update check and update options
 * version 15.0.1	 		<11Feb2019>		JPAzevedo
 *	add latest check value to default report
-* version 15.0.0 			<8Feb2019>		JPAzevedo
-*	Original
+* version 15.0   			<8Feb2019>		JPAzevedo
+*	original commit
+**********************************************************
 
 program define _wbopendata, rclass
 

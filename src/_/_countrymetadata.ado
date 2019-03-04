@@ -1,5 +1,6 @@
 *******************************************************************************
-*! v 15.2  	3Mar2019               by Joao Pedro Azevedo   
+*  _countrymetadata
+*! v 15.1  	3Mar2019               by Joao Pedro Azevedo   
 *	self-standing code to create country attribute table
 *******************************************************************************
 
@@ -20,8 +21,8 @@ program define _countrymetadata , rclass
 				CAPITAL				///
 				FULL				///
 				countrycode_iso2 	///
-				region 			///
-				region_iso2 	///
+				region 				///
+				region_iso2 		///
 				regionname 			///
 				adminregion 		///
 				adminregion_iso2 	///
@@ -83,15 +84,25 @@ program define _countrymetadata , rclass
 
 	foreach varname in `countryname' `basic' {
 		
-		qui _`varname', match(`match')
+		cap: _`varname', match(`match')
 		
-		local order "`order' `varname' "
+		if (_rc == 0) {
+			local order "`order' `varname' "
+		}
+		if (_rc != 0) {
+			noi di in r "variable `varname' already defined"
+		}
 	
 	}
 	
 	******************************************************
 
-	order countrycode `order'
+	cap: order countrycode countryname `order'
+	if (_rc != 0) {
+		noi di in g "variable " in y "countryname" in g " not found."
+		qui _countryname, match(`match')
+		order countrycode countryname `order'
+	}
 
 end
 
