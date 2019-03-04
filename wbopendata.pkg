@@ -1,25 +1,49 @@
-v 15.0
-d 'WBOPENDATA': WBOPENDATA: Stata module to access World Bank databases
+v 15.1
+d 'WBOPENDATA'
 d 
-d Distribution-Date:   20190208
+d Distribution-Date: 04Mar2019
 d License: MIT
 d 
+F src/w/wbopendata
 F src/w/wbopendata.ado
-F src/w/wbopendata_populate_list.ado
-F src/w/wbopendata_examples.ado
-F src/w/wbopendata.sthlp
-F src/w/wbopendata_indicators.sthlp
 F src/w/wbopendata.dlg
-F src/i/indicators.txt
-F src/c/country.txt
+F src/w/wbopendata.sthlp
+F src/w/wbopendata_adminregion.sthlp
+F src/w/wbopendata_examples.ado
+F src/w/wbopendata_incomelevel.sthlp
+F src/w/wbopendata_indicators.sthlp
+F src/w/wbopendata_lendingtype.sthlp
+F src/w/wbopendata_populate_list.ado
+F src/w/wbopendata_region.sthlp
+F src/w/world-c.dta
+F src/w/world-d.dta
+F src/_/_adminregion.ado
+F src/_/_adminregionname.ado
+F src/_/_adminregion_iso2.ado
 F src/_/_api_read.ado
+F src/_/_capital.ado
+F src/_/_countrycode_iso2.ado
+F src/_/_countrymetadata.ado
+F src/_/_countryname.ado
+F src/_/_incomelevel.ado
+F src/_/_incomelevelname.ado
+F src/_/_incomelevel_iso2.ado
+F src/_/_latitude.ado
+F src/_/_lendingtype.ado
+F src/_/_lendingtypename.ado
+F src/_/_lendingtype_iso2.ado
+F src/_/_longitude.ado
 F src/_/_parameters.ado
-F src/_/_wbopendata.ado
-F src/_/_wbopendata_update.ado
 F src/_/_pecats2.ado
 F src/_/_query.ado
+F src/_/_query_countrymetadata.ado
 F src/_/_query_metadata.ado
+F src/_/_region.ado
+F src/_/_regionname.ado
+F src/_/_region_iso2.ado
 F src/_/_tknz.ado
-f src/w/world-c.dta
-f src/w/world-d.dta
-
+F src/_/_update_countrymetadata.ado
+F src/_/_update_indicators.ado
+F src/_/_wbopendata.ado
+F src/c/country.txt
+F src/i/indicators.txt
