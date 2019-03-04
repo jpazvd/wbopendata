@@ -1,6 +1,6 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.1	    02Mar2019               by Joao Pedro Azevedo 
+*!  v 15.1	    03Mar2019               by Joao Pedro Azevedo 
 *	New Features
 *		country attribute table fully revised and linked to api
 *		update check, update query, and update
