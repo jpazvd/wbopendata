@@ -77,5 +77,6 @@ Indicators; WDI; API; Open Data
   **João Pedro Azevedo**  
   [jazevedo@worldbank.org](mailto:jazevedo@worldbank.org)  
   World Bank  
-  [personal page](http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo)  
+  [World Bank Staff page](http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo)  
+  [Twitter](https://twitter.com/jpazvd)  
 
