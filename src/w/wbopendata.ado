@@ -1,10 +1,20 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.0.1 	11Feb2019               by Joao Pedro Azevedo 
-* 	New feature
-*		update check 
+*!  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
+*	New Features
+*		new error categories to faciliate debuging
+*		error 23: series no longer supported moved to archive
+*		country attribute table fully revised and linked to api
+*		update check, update query, and update
 *		auto refresh indicators
 *		revised _wbopendata.ado 		
+*		update query; update check; and update options are included
+* 		country attributes revised
+*		update countrymetadata option created
+*		country metadata documentation in help file revised
+*		break code when no metadata is available is now an option
+*   Revisions
+*       over 16,000 indicators
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -23,19 +33,40 @@ version 9.0
                          LATEST                     ///
                          NOMETADATA                 ///
 						 UPDATE						///
+						 QUERY						///
+						 CHECK						///
 						 NOPRESERVE					///
 						 PRESERVEOUT				///
+						 FULL						///
+						 ISO						///
+						 COUNTRYMETADATA			///
+						 ALL						///
+						 BREAKNOMETADATA						///
                  ]
 
 
 	quietly {
 	
+	
+		if ("`query'" != "") & ("`check'" != "") {
+			noi di  as err "update query and update check options cannot be selected at the same time."
+			exit 198
+		}
+	
 		set checksum off
 	
-		if ("`update'" != "") {
+		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")==0 {
 		
-			noi _wbopendata
+			noi wbopendata, update query
+			break
+		}
+		
 			
+		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
+
+			noi _wbopendata, update `query' `check'	`countrymetadata' `all'
+			break
+					
 		}
 
 		local f = 1
@@ -67,10 +98,12 @@ version 9.0
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
 							noi di ""
-							noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for " as result "`indicator'. {p_end}"
+							noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
 							noi di ""
-							break
-							exit 21
+							if ("`breaknometadata'" != "") {
+								break
+								exit 21
+							}
 						}
 					}
 
@@ -126,10 +159,12 @@ version 9.0
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
 						noi di ""
-						noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for ". {p_end}"
+						noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
 						noi di ""
-						break
-						exit 22
+						if ("`breaknometadata'" != "") {
+							break
+							exit 22
+						}
 					}
 				}
 				
@@ -183,6 +218,21 @@ version 9.0
 		}
 
 	}
+	
+	
+**********************************************************************************
+	
+
+	qui if ("`update'" == "") {
+
+		tostring  countryname countrycode, replace
+
+		_countrymetadata, match(countrycode) `full' `iso'
+
+	}
+	
+**********************************************************************************
+	
 	
 	if ("`nopreserve'" == "") {
 		return add

@@ -104,5 +104,8 @@ http://api.worldbank.org/v2/countries/all/indicator/NY.GDP.MKTP.CD;sp.pop.totl
 https://api.worldbank.org/v2/country/<country code>/indicator/<Indicator1>;<Indicator2>?source=<source ID>
 
 
+*************************************************
+* Country Information
+*************************************************
 
-
+http://api.worldbank.org/v2/countries/
