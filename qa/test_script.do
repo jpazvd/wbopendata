@@ -1,5 +1,5 @@
-*global gitroot "C:\Users\wb255520\Documents\myados"
-global gitroot "C:\GitHub_myados"
+global gitroot "C:\Users\wb255520\Documents\myados"
+*global gitroot "C:\GitHub_myados"
 
 *********************************************************************
 /*
