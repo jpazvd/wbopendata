@@ -34,9 +34,11 @@
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
-{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
-{synopt :{opt update query}} query the current vintage of indicators available. {p_end}
-{synopt :{opt update check}} checks the availability of new indicators available for download. {p_end}
+{synopt :{opt full}} adds full list of country attributes.{p_end}
+{synopt :{opt iso}} adds 2 digits ISO codes to country attributes.{p_end}
+{synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
+{synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
+{synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -51,6 +53,8 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##attributes:List of supported country attributes}}
+		{it:{help wbopendata##countries:Country code and names by selected attributes}}
 		{it:{help wbopendata##Examples:Examples}}
 		{it:{help wbopendata##disclaimer:Disclaimer}}
 		{it:{help wbopendata##termsofuse:Terms of use}}
@@ -140,14 +144,41 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {center: Spanish:  {cmd:es}          }
 {center: French:   {cmd:fr}          }
 
-{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
+{synopt :{opt full}} adds full list of country attributes.{p_end}
 
-{synopt :{opt update}} refreshes the list of indicators available for download. {p_end}
+{synopt :{opt iso}} adds only 2 digits ISO codes to country attributes.{p_end}
 
-{synopt :{opt update query}} query the current vintage of indicators available. {p_end}
+{synopt :{opt update query}} query the current vintage of indicators available and country metadata.{p_end}
 
-{synopt :{opt update check}} checks the availability of new indicators available for download. {p_end}
+{synopt :{opt update check}} checks the availability of new indicators  and country metadata available for download.{p_end}
 
+{synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
+
+
+{marker attributes}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:List Country attributes currently supported}
+
+{synoptset 33 tabbed}{...}
+{synopthdr: Country attributes}
+{synoptline}
+{synopt:{opt countrycode}}Country Code{p_end}
+{synopt:{opt countryname}}Country Name{p_end}
+{synopt:{opt region_iso2}}Region Code (ISO 2 digits){p_end}
+{synopt:{opt regionname}}Region Name{p_end}
+{synopt:{opt adminregion}}Administrative Region Code{p_end}
+{synopt:{opt adminregion_iso2}}Administrative Region Code (ISO 2 digits){p_end}
+{synopt:{opt adminregionname}}Administrative Region Name{p_end}
+{synopt:{opt incomelevel}}Income Level Code{p_end}
+{synopt:{opt incomelevel_iso2}}Income Level Code (ISO 2 digits){p_end}
+{synopt:{opt incomelevelname}}Income Level Name{p_end}
+{synopt:{opt lendingtype}}Lending Type Code{p_end}
+{synopt:{opt region}}Region Code{p_end}
+{synopt:{opt lendingtype_iso2}}Lending Type Code (ISO 2 digits){p_end}
+{synopt:{opt lendingtypename}}Lending Type Name{p_end}
+{synopt:{opt capital}}Capital Name{p_end}
+{synopt:{opt latitude}}Capital Latitude{p_end}
+{synopt:{opt longitude}}Capital Longitude{p_end}
 
 {marker countries}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -259,7 +290,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {p 8 12}{stata "wbopendata, update check" :. wbopendata, update check}{p_end}
 
-{p 8 12}{stata "wbopendata, update" :. wbopendata, update}{p_end}
+{p 8 12}{stata "wbopendata, update all" :. wbopendata, update all}{p_end}
 
 {p 8 12}{stata "wbopendata, country(chn - China) clear" :. wbopendata, country(chn - China) clear}{p_end}
 
@@ -419,6 +450,8 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 {title:GitHub Respository}
 
 {p 4 4 2}For previous releases and additional examples please visit wbopendata {browse "https://github.com/jpazvd/wbopendata" :GitHub Repo}{p_end}
+
+{p 4 4 2}Please make any enhancement suggestions and/or report any problems with wbopendata at {browse "https://github.com/jpazvd/wbopendata/issues" :Issues and Suggestions page}{p_end}
 
 {title:Also see}
 

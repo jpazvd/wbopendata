@@ -1,7 +1,9 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.1	    03Mar2019               by Joao Pedro Azevedo 
+*!  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
 *	New Features
+*		new error categories to faciliate debuging
+*		error 23: series no longer supported moved to archive
 *		country attribute table fully revised and linked to api
 *		update check, update query, and update
 *		auto refresh indicators
@@ -10,6 +12,7 @@
 * 		country attributes revised
 *		update countrymetadata option created
 *		country metadata documentation in help file revised
+*		break code when no metadata is available is now an option
 *   Revisions
 *       over 16,000 indicators
 *******************************************************************************
@@ -38,6 +41,7 @@ version 9.0
 						 ISO						///
 						 COUNTRYMETADATA			///
 						 ALL						///
+						 BREAKNOMETADATA						///
                  ]
 
 
@@ -94,10 +98,12 @@ version 9.0
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
 							noi di ""
-							noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for " as result "`indicator'. {p_end}"
+							noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
 							noi di ""
-							break
-							exit 21
+							if ("`breaknometadata'" != "") {
+								break
+								exit 21
+							}
 						}
 					}
 
@@ -153,10 +159,12 @@ version 9.0
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
 						noi di ""
-						noi di as err "{p 4 4 2} Sorry... No metadata was downloaded for ". {p_end}"
+						noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
 						noi di ""
-						break
-						exit 22
+						if ("`breaknometadata'" != "") {
+							break
+							exit 22
+						}
 					}
 				}
 				
