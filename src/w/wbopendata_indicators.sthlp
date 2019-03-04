@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Indicators List}
+{title:Indicators List (as of 03mar2019)}
 
 {synoptset 33 tabbed}{...}
 {synopthdr: Indicators List}
@@ -930,46 +930,46 @@
 {synopt:{opt 9.4_PROCUREMENT.COUNTRY.SYSTEMS}} Use of procurement country systems (% of total international aid to education){p_end}
 {synopt:{opt 9.5_PIU}} Number of parallel implementation units, education sector{p_end}
 {synopt:{opt 9.6_PBA}} Aid provided through program based approaches (% of international aid to education){p_end}
-{synopt:{opt A10iii}} 28.Export Value per Incumbent: StDev{p_end}
-{synopt:{opt A10ii}} 27.Export Value per Incumbent: Median{p_end}
-{synopt:{opt A10iv}} 29.Export Value per Incumbent: First Quartile{p_end}
-{synopt:{opt A10i}} 26.Export Value per Incumbent: Mean{p_end}
-{synopt:{opt A10v}} 30.Export Value per Incumbent: Third Quartile{p_end}
-{synopt:{opt A11iii}} 33.Growth of Incumbents: StDev{p_end}
-{synopt:{opt A11ii}} 32.Growth of Incumbents: Median{p_end}
-{synopt:{opt A11iv}} 34.Growth of Incumbents: First Quartile{p_end}
-{synopt:{opt A11i}} 31.Growth of Incumbents: Mean{p_end}
-{synopt:{opt A11v}} 35.Growth of Incumbents: Third Quartile{p_end}
-{synopt:{opt A12iii}} 38.Growth of Survivors: StDev{p_end}
-{synopt:{opt A12ii}} 37.Growth of Survivors: Median{p_end}
-{synopt:{opt A12iv}} 39.Growth of Survivors: First Quartile{p_end}
-{synopt:{opt A12i}} 36.Growth of Survivors: Mean{p_end}
-{synopt:{opt A12v}} 40.Growth of Survivors: Third Quartile{p_end}
-{synopt:{opt A1}} 01.Number of Exporters{p_end}
-{synopt:{opt A2}} 02.Number of Entrants{p_end}
-{synopt:{opt A3}} 03.Number of Exiters{p_end}
-{synopt:{opt A4}} 04.Number of Survivors{p_end}
-{synopt:{opt A5}} 05.Number of Incumbents{p_end}
-{synopt:{opt A6iii}} 08.Export Value per Exporter: StDev{p_end}
-{synopt:{opt A6ii}} 07.Export Value per Exporter: Median{p_end}
-{synopt:{opt A6iv}} 09.Export Value per Exporter: First Quartile{p_end}
-{synopt:{opt A6i}} 06.Export Value per Exporter: Mean{p_end}
-{synopt:{opt A6v}} 10.Export Value per Exporter: Third Quartile{p_end}
-{synopt:{opt A7iii}} 13.Export Value per Entrant: StDev{p_end}
-{synopt:{opt A7ii}} 12.Export Value per Entrant: Median{p_end}
-{synopt:{opt A7iv}} 14.Export Value per Entrant: First Quartile{p_end}
-{synopt:{opt A7i}} 11.Export Value per Entrant: Mean{p_end}
-{synopt:{opt A7v}} 15.Export Value per Entrant: Third Quartile{p_end}
-{synopt:{opt A8iii}} 18.Export Value per Exiter: StDev{p_end}
-{synopt:{opt A8ii}} 17.Export Value per Exiter: Median{p_end}
-{synopt:{opt A8iv}} 19.Export Value per Exiter: First Quartile{p_end}
-{synopt:{opt A8i}} 16.Export Value per Exiter: Mean{p_end}
-{synopt:{opt A8v}} 20.Export Value per Exiter: Third Quartile{p_end}
-{synopt:{opt A9iii}} 23.Export Value per Survivor: StDev{p_end}
-{synopt:{opt A9ii}} 22.Export Value per Survivor: Median{p_end}
-{synopt:{opt A9iv}} 24.Export Value per Survivor: First Quartile{p_end}
-{synopt:{opt A9i}} 21.Export Value per Survivor: Mean{p_end}
-{synopt:{opt A9v}} 25.Export Value per Survivor: Third Quartile{p_end}
+{synopt:{opt A10iii}} 028.Export Value per Incumbent: StDev.{p_end}
+{synopt:{opt A10ii}} 027.Export Value per Incumbent: Median{p_end}
+{synopt:{opt A10iv}} 029.Export Value per Incumbent: First Quartile{p_end}
+{synopt:{opt A10i}} 026.Export Value per Incumbent: Mean{p_end}
+{synopt:{opt A10v}} 030.Export Value per Incumbent: Third Quartile{p_end}
+{synopt:{opt A11iii}} 033.Growth of Incumbents: StDev.{p_end}
+{synopt:{opt A11ii}} 032.Growth of Incumbents: Median{p_end}
+{synopt:{opt A11iv}} 034.Growth of Incumbents: First Quartile{p_end}
+{synopt:{opt A11i}} 031.Growth of Incumbents: Mean{p_end}
+{synopt:{opt A11v}} 035.Growth of Incumbents: Third Quartile{p_end}
+{synopt:{opt A12iii}} 038.Growth of Surviving Entrants: StDev.{p_end}
+{synopt:{opt A12ii}} 037.Growth of Surviving Entrants: Median{p_end}
+{synopt:{opt A12iv}} 039.Growth of Surviving Entrants: First Quartile{p_end}
+{synopt:{opt A12i}} 036.Growth of Surviving Entrants: Mean{p_end}
+{synopt:{opt A12v}} 040.Growth of Surviving Entrants: Third Quartile{p_end}
+{synopt:{opt A1}} 001.Number of Exporters{p_end}
+{synopt:{opt A2}} 002.Number of Entrants{p_end}
+{synopt:{opt A3}} 003.Number of Exiters{p_end}
+{synopt:{opt A4}} 004.Number of Surviving Entrants{p_end}
+{synopt:{opt A5}} 005.Number of Incumbents{p_end}
+{synopt:{opt A6iii}} 008.Export Value per Exporter: StDev.{p_end}
+{synopt:{opt A6ii}} 007.Export Value per Exporter: Median{p_end}
+{synopt:{opt A6iv}} 009.Export Value per Exporter: First Quartile{p_end}
+{synopt:{opt A6i}} 006.Export Value per Exporter: Mean{p_end}
+{synopt:{opt A6v}} 010.Export Value per Exporter: Third Quartile{p_end}
+{synopt:{opt A7iii}} 013.Export Value per Entrant: StDev.{p_end}
+{synopt:{opt A7ii}} 012.Export Value per Entrant: Median{p_end}
+{synopt:{opt A7iv}} 014.Export Value per Entrant: First Quartile{p_end}
+{synopt:{opt A7i}} 011.Export Value per Entrant: Mean{p_end}
+{synopt:{opt A7v}} 015.Export Value per Entrant: Third Quartile{p_end}
+{synopt:{opt A8iii}} 018.Export Value per Exiter: StDev.{p_end}
+{synopt:{opt A8ii}} 017.Export Value per Exiter: Median{p_end}
+{synopt:{opt A8iv}} 019.Export Value per Exiter: First Quartile{p_end}
+{synopt:{opt A8i}} 016.Export Value per Exiter: Mean{p_end}
+{synopt:{opt A8v}} 020.Export Value per Exiter: Third Quartile{p_end}
+{synopt:{opt A9iii}} 023.Export Value per Surviving Entrant: StDev.{p_end}
+{synopt:{opt A9ii}} 022.Export Value per Surviving Entrant: Median{p_end}
+{synopt:{opt A9iv}} 024.Export Value per Surviving Entrant: First Quartile{p_end}
+{synopt:{opt A9i}} 021.Export Value per Surviving Entrant: Mean{p_end}
+{synopt:{opt A9v}} 025.Export Value per Surviving Entrant: Third Quartile{p_end}
 {synopt:{opt AG.AGR.TRAC.NO}} Agricultural machinery, tractors{p_end}
 {synopt:{opt AG.AID.CREL.MT}} Cereal food aid deliveries (FAO, tonnes){p_end}
 {synopt:{opt AG.AID.FOOD.MT}} Total food (cereals and non-cereal) food aid deliveries (FAO, tonnes){p_end}
@@ -1076,22 +1076,22 @@
 {synopt:{opt AG.YLD.RICE.KG}} Rice yield (kg per hectare){p_end}
 {synopt:{opt AG.YLD.SGM.KG}} Sorghum yield (kg per hectare){p_end}
 {synopt:{opt AG.YLD.WHT.KG}} Wheat yield (kg per hectare){p_end}
-{synopt:{opt B1}} 41.Herfindahl-Hirschman Index{p_end}
-{synopt:{opt B2iii}} 44.Share of top 25% Exporters in TEV (Total Export Value){p_end}
-{synopt:{opt B2ii}} 43.Share of top 5% Exporters in TEV (Total Export Value){p_end}
-{synopt:{opt B2i}} 42.Share of top 1% Exporters in TEV (Total Export Value){p_end}
-{synopt:{opt B3iii}} 47.Number of HS6 Products per Exporter: StDev{p_end}
-{synopt:{opt B3ii}} 46.Number of HS6 Products per Exporter: Median{p_end}
-{synopt:{opt B3i}} 45.Number of HS6 Products per Exporter: Mean{p_end}
-{synopt:{opt B4iii}} 50.Number of Destinations per Exporter: StDev{p_end}
-{synopt:{opt B4ii}} 49.Number of Destinations per Exporter: Median{p_end}
-{synopt:{opt B4i}} 48.Number of Destinations per Exporter: Mean{p_end}
-{synopt:{opt B5iii}} 53.Number of Exporters per HS6 Product: StDev{p_end}
-{synopt:{opt B5ii}} 52.Number of Exporters per HS6 Product: Median{p_end}
-{synopt:{opt B5i}} 51.Number of Exporters per HS6 Product: Mean{p_end}
-{synopt:{opt B6iii}} 56.Number of Exporters per Destination: StDev{p_end}
-{synopt:{opt B6ii}} 55.Number of Exporters per Destination: Median{p_end}
-{synopt:{opt B6i}} 54.Number of Exporters per Destination: Mean{p_end}
+{synopt:{opt B1}} 041.Herfindahl-Hirschman Index{p_end}
+{synopt:{opt B2iii}} 044.Share of top 25% Exporters in TEV (Total Export Value){p_end}
+{synopt:{opt B2ii}} 043.Share of top 5% Exporters in TEV (Total Export Value){p_end}
+{synopt:{opt B2i}} 042.Share of top 1% Exporters in TEV (Total Export Value){p_end}
+{synopt:{opt B3iii}} 047.Number of HS6 Products per Exporter: StDev.{p_end}
+{synopt:{opt B3ii}} 046.Number of HS6 Products per Exporter: Median{p_end}
+{synopt:{opt B3i}} 045.Number of HS6 Products per Exporter: Mean{p_end}
+{synopt:{opt B4iii}} 050.Number of Destinations per Exporter: StDev.{p_end}
+{synopt:{opt B4ii}} 049.Number of Destinations per Exporter: Median{p_end}
+{synopt:{opt B4i}} 048.Number of Destinations per Exporter: Mean{p_end}
+{synopt:{opt B5iii}} 053.Number of Exporters per HS6 Product: StDev.{p_end}
+{synopt:{opt B5ii}} 052.Number of Exporters per HS6 Product: Median{p_end}
+{synopt:{opt B5i}} 051.Number of Exporters per HS6 Product: Mean{p_end}
+{synopt:{opt B6iii}} 056.Number of Exporters per Destination: StDev.{p_end}
+{synopt:{opt B6ii}} 055.Number of Exporters per Destination: Median{p_end}
+{synopt:{opt B6i}} 054.Number of Exporters per Destination: Mean{p_end}
 {synopt:{opt BAR.NOED.1519.FE.ZS}} Barro-Lee: Percentage of female population age 15-19 with no education{p_end}
 {synopt:{opt BAR.NOED.1519.ZS}} Barro-Lee: Percentage of population age 15-19 with no education{p_end}
 {synopt:{opt BAR.NOED.15UP.FE.ZS}} Barro-Lee: Percentage of female population age 15+ with no education{p_end}
@@ -1697,12 +1697,12 @@
 {synopt:{opt BX.TRF.PWKR.DT.GD.ZS}} Personal remittances, received (% of GDP){p_end}
 {synopt:{opt BX.TRF.PWKR.GD.ZS}} Workers' remittances, receipts (% of GDP){p_end}
 {synopt:{opt BX.TRF.XOKA.CD}} Private current transfers, receipts (BoP, US$){p_end}
-{synopt:{opt C1}} 57.Firm Entry Rate{p_end}
-{synopt:{opt C2}} 58.Firm Exit Rate{p_end}
-{synopt:{opt C3}} 59.Firm Survival Rate{p_end}
-{synopt:{opt C4}} 60.Share of Entrants in TEV (Total Export Value){p_end}
-{synopt:{opt C5}} 61.2-year Firm Survival Rate{p_end}
-{synopt:{opt C6}} 62.3-year Firm Survival Rate{p_end}
+{synopt:{opt C1}} 057.Firm Entry Rate{p_end}
+{synopt:{opt C2}} 058.Firm Exit Rate{p_end}
+{synopt:{opt C3}} 059.Entrant 1st Year Survival Rate{p_end}
+{synopt:{opt C4}} 060.Share of Entrants in TEV (Total Export Value){p_end}
+{synopt:{opt C5}} 061.Entrant 2nd Year Survival Rate{p_end}
+{synopt:{opt C6}} 062.Entrant 3rd Year Survival Rate{p_end}
 {synopt:{opt CC.EST}} Control of Corruption: Estimate{p_end}
 {synopt:{opt CC.NO.SRC}} Control of Corruption: Number of Sources{p_end}
 {synopt:{opt CC.PER.RNK.LOWER}} Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
@@ -1723,24 +1723,24 @@
 {synopt:{opt CPTOTSAXMZGY}} CPI Price, % y-o-y, median weighted, seas. adj.{p_end}
 {synopt:{opt CPTOTSAXNZGY}} CPI Price, % y-o-y, nominal, seas. adj.{p_end}
 {synopt:{opt CPTOTSAXN}} CPI Price, nominal, seas. adj.{p_end}
-{synopt:{opt D1iii}} 65.Product Entry Rate of Incumbents: StDev{p_end}
-{synopt:{opt D1ii}} 64.Product Entry Rate of Incumbents: Median{p_end}
-{synopt:{opt D1i}} 63.Product Entry Rate of Incumbents: Mean{p_end}
-{synopt:{opt D2iii}} 68.Product Entry Rate of Survivors: StDev{p_end}
-{synopt:{opt D2ii}} 67.Product Entry Rate of Survivors: Median{p_end}
-{synopt:{opt D2i}} 66.Product Entry Rate of Survivors: Mean{p_end}
-{synopt:{opt D3iii}} 71.Share of New Products in TEV of Incumbents: StDev{p_end}
-{synopt:{opt D3ii}} 70.Share of New Products in TEV of Incumbents: Median{p_end}
-{synopt:{opt D3i}} 69.Share of New Products in TEV of Incumbents: Mean{p_end}
-{synopt:{opt D4iii}} 74.Share of New Products in TEV of Survivors: StDev{p_end}
-{synopt:{opt D4ii}} 73.Share of New Products in TEV of Survivors: Median{p_end}
-{synopt:{opt D4i}} 72.Share of New Products in TEV of Survivors: Mean{p_end}
-{synopt:{opt D5iii}} 77.Product Exit Rate of Incumbents: StDev{p_end}
-{synopt:{opt D5ii}} 76.Product Exit Rate of Incumbents: Median{p_end}
-{synopt:{opt D5i}} 75.Product Exit Rate of Incumbents: Mean{p_end}
-{synopt:{opt D6iii}} 80.Product Survival Rate of 2-year Incumbents: StDev{p_end}
-{synopt:{opt D6ii}} 79.Product Survival Rate of 2-year Incumbents: Median{p_end}
-{synopt:{opt D6i}} 78.Product Survival Rate of 2-year Incumbents: Mean{p_end}
+{synopt:{opt D1iii}} 065.Product Entry Rate of Incumbents: StDev.{p_end}
+{synopt:{opt D1ii}} 064.Product Entry Rate of Incumbents: Median{p_end}
+{synopt:{opt D1i}} 063.Product Entry Rate of Incumbents: Mean{p_end}
+{synopt:{opt D2iii}} 068.Product Entry Rate of Surviving Entrants: StDev.{p_end}
+{synopt:{opt D2ii}} 067.Product Entry Rate of Surviving Entrants: Median{p_end}
+{synopt:{opt D2i}} 066.Product Entry Rate of Surviving Entrants: Mean{p_end}
+{synopt:{opt D3iii}} 071.Share of New Products in TEV of Incumbents: StDev.{p_end}
+{synopt:{opt D3ii}} 070.Share of New Products in TEV of Incumbents: Median{p_end}
+{synopt:{opt D3i}} 069.Share of New Products in TEV of Incumbents: Mean{p_end}
+{synopt:{opt D4iii}} 074.Share of New Products in TEV of Surviving Entrants: StDev.{p_end}
+{synopt:{opt D4ii}} 073.Share of New Products in TEV of Surviving Entrants: Median{p_end}
+{synopt:{opt D4i}} 072.Share of New Products in TEV of Surviving Entrants: Mean{p_end}
+{synopt:{opt D5iii}} 077.Product Exit Rate of Incumbents: StDev.{p_end}
+{synopt:{opt D5ii}} 076.Product Exit Rate of Incumbents: Median{p_end}
+{synopt:{opt D5i}} 075.Product Exit Rate of Incumbents: Mean{p_end}
+{synopt:{opt D6iii}} 080.Product Survival Rate of 2-year Incumbents: StDev.{p_end}
+{synopt:{opt D6ii}} 079.Product Survival Rate of 2-year Incumbents: Median{p_end}
+{synopt:{opt D6i}} 078.Product Survival Rate of 2-year Incumbents: Mean{p_end}
 {synopt:{opt DAK.AGR.CR}} Total Specific Allocation Grant for Agriculture (in IDR Billion){p_end}
 {synopt:{opt DAK.EDU.CR}} Total Specific Allocation Grant for Education (in IDR Billion){p_end}
 {synopt:{opt DAK.ENVR.CR}} Total Specific Allocation Grant for Environment (in IDR Billion){p_end}
@@ -4834,24 +4834,24 @@
 {synopt:{opt DXGSRMRCHSACD}} Exports Merchandise, Customs, current US$, millions, seas. adj.{p_end}
 {synopt:{opt DXGSRMRCHSAKD}} Exports Merchandise, Customs, constant US$, millions, seas. adj.{p_end}
 {synopt:{opt DXGSRMRCHSAXD}} Exports Merchandise, Customs, Price, US$, seas. adj.{p_end}
-{synopt:{opt E1iii}} 83.Destination Entry Rate of Incumbents: StDev{p_end}
-{synopt:{opt E1ii}} 82.Destination Entry Rate of Incumbents: Median{p_end}
-{synopt:{opt E1i}} 81.Destination Entry Rate of Incumbents: Mean{p_end}
-{synopt:{opt E2iii}} 86.Destination Entry Rate of Survivors: StDev{p_end}
-{synopt:{opt E2ii}} 85.Destination Entry Rate of Survivors: Median{p_end}
-{synopt:{opt E2i}} 84.Destination Entry Rate of Survivors: Mean{p_end}
-{synopt:{opt E3iii}} 89.Share of New Destinations in TEV of Incumbents: StDev{p_end}
-{synopt:{opt E3ii}} 88.Share of New Destinations in TEV of Incumbents: Median{p_end}
-{synopt:{opt E3i}} 87.Share of New Destinations in TEV of Incumbents: Mean{p_end}
-{synopt:{opt E4iii}} 92.Share of New Destinations in TEV of Survivors: StDev{p_end}
-{synopt:{opt E4ii}} 91.Share of New Destinations in TEV of Survivors: Median{p_end}
-{synopt:{opt E4i}} 90.Share of New Destinations in TEV of Survivors: Mean{p_end}
-{synopt:{opt E5iii}} 95.Destination Exit Rate of Incumbents: StDev{p_end}
-{synopt:{opt E5ii}} 94.Destination Exit Rate of Incumbents: Median{p_end}
-{synopt:{opt E5i}} 93.Destination Exit Rate of Incumbents: Mean{p_end}
-{synopt:{opt E6iii}} 98.Destination Survival Rate of 2-year Incumbents: StDev{p_end}
-{synopt:{opt E6ii}} 97.Destination Survival Rate of 2-year Incumbents: Median{p_end}
-{synopt:{opt E6i}} 96.Destination Survival Rate of 2-year Incumbents: Mean{p_end}
+{synopt:{opt E1iii}} 083.Destination Entry Rate of Incumbents: StDev.{p_end}
+{synopt:{opt E1ii}} 082.Destination Entry Rate of Incumbents: Median{p_end}
+{synopt:{opt E1i}} 081.Destination Entry Rate of Incumbents: Mean{p_end}
+{synopt:{opt E2iii}} 086.Destination Entry Rate of Surviving Entrants: StDev.{p_end}
+{synopt:{opt E2ii}} 085.Destination Entry Rate of Surviving Entrants: Median{p_end}
+{synopt:{opt E2i}} 084.Destination Entry Rate of Surviving Entrants: Mean{p_end}
+{synopt:{opt E3iii}} 089.Share of New Destinations in TEV of Incumbents: StDev.{p_end}
+{synopt:{opt E3ii}} 088.Share of New Destinations in TEV of Incumbents: Median{p_end}
+{synopt:{opt E3i}} 087.Share of New Destinations in TEV of Incumbents: Mean{p_end}
+{synopt:{opt E4iii}} 092.Share of New Destinations in TEV of Surviving Entrants: StDev.{p_end}
+{synopt:{opt E4ii}} 091.Share of New Destinations in TEV of Surviving Entrants: Median{p_end}
+{synopt:{opt E4i}} 090.Share of New Destinations in TEV of Surviving Entrants: Mean{p_end}
+{synopt:{opt E5iii}} 095.Destination Exit Rate of Incumbents: StDev.{p_end}
+{synopt:{opt E5ii}} 094.Destination Exit Rate of Incumbents: Median{p_end}
+{synopt:{opt E5i}} 093.Destination Exit Rate of Incumbents: Mean{p_end}
+{synopt:{opt E6iii}} 098.Destination Survival Rate of 2-year Incumbents: StDev.{p_end}
+{synopt:{opt E6ii}} 097.Destination Survival Rate of 2-year Incumbents: Median{p_end}
+{synopt:{opt E6i}} 096.Destination Survival Rate of 2-year Incumbents: Mean{p_end}
 {synopt:{opt EA.AGR.TOTL.IN.ZS}} Agricultural land per worker (hectares){p_end}
 {synopt:{opt EA.NUS.ATLS}} Additional Conv. Factor (Annual avg. Local/US$){p_end}
 {synopt:{opt EA.NUS.FCRF}} Conversion Factor (Annual average, local per US$){p_end}
@@ -5243,10 +5243,6 @@
 {synopt:{opt FX.OWN.TOTL.SO.ZS}} Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+){p_end}
 {synopt:{opt FX.OWN.TOTL.YG.ZS}} Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24){p_end}
 {synopt:{opt FX.OWN.TOTL.ZS}} Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+){p_end}
-{synopt:{opt Finx1.1}} SMEs with at least one female owner  that send or receive digital payments from an account (%){p_end}
-{synopt:{opt Finx1.2}} SMEs that send or receive digital payments from an account (%){p_end}
-{synopt:{opt Finx2.1}} SMEs with at least one female owner that have a POS terminal (%){p_end}
-{synopt:{opt Finx2.2}} SMEs that have a POS terminal (%){p_end}
 {synopt:{opt GB.AMA.ABRD.CN}} Adjustments to foreign scheduled principal repayments (current LCU){p_end}
 {synopt:{opt GB.BAL.CIGR.CN}} Current budget balance, including grants (current LCU){p_end}
 {synopt:{opt GB.BAL.OVRL.CN}} Overall budget balance, including grants (current LCU){p_end}
@@ -5558,16 +5554,16 @@
 {synopt:{opt GFDD.SI.06}} Liquid assets to deposits and short term funding (%){p_end}
 {synopt:{opt GFDD.SI.07}} Provisions to nonperforming loans (%){p_end}
 {synopt:{opt GFDD.SM.01}} Stock price volatility{p_end}
-{synopt:{opt GPFI1.TOTL}} Financial knowledge score (0-3){p_end}
-{synopt:{opt GPFI2}} Disclosure index combining existence of a variety of disclosure requirements.{p_end}
-{synopt:{opt GPFI3}} Index reflecting the existence of formal internal and external dispute resolution mechanisms.{p_end}
-{synopt:{opt GPFI4}} Getting credit: Distance to frontier{p_end}
-{synopt:{opt GPSS.1}} E-money accounts per 1,000 adults{p_end}
-{synopt:{opt GPSS.2}} Retail cashless transactions per 1,000 adults{p_end}
-{synopt:{opt GPSS.3}} Agents of payment service providers per 100,000 adults{p_end}
-{synopt:{opt GPSS.4}} POS terminals per 100,000 adults{p_end}
-{synopt:{opt GPSS.5}} Debit cards per 1,000 adults{p_end}
-{synopt:{opt GPSS.6}} Interoperability of ATM networks and interoperability of POS terminals (0-1){p_end}
+{synopt:{opt GPFI1_TOTL}} Financial knowledge score (0-3){p_end}
+{synopt:{opt GPFI2}} Disclosure index (0-5){p_end}
+{synopt:{opt GPFI3}} Dispute resolution index (0-1){p_end}
+{synopt:{opt GPFI4}} Getting credit: Distance to frontier (0-100){p_end}
+{synopt:{opt GPSS_1}} E-money accounts per 1,000 adults{p_end}
+{synopt:{opt GPSS_2}} Retail cashless transactions per 1,000 adults{p_end}
+{synopt:{opt GPSS_3}} Agents of payment service providers per 100,000 adults{p_end}
+{synopt:{opt GPSS_4}} POS terminals per 100,000 adults{p_end}
+{synopt:{opt GPSS_5}} Debit cards per 1,000 adults{p_end}
+{synopt:{opt GPSS}} Interoperability of ATM networks and interoperability of POS terminals (0-1){p_end}
 {synopt:{opt GV.BAL.OVRL.CN}} Government Deficit (-) or Surplus (local){p_end}
 {synopt:{opt GV.CONT.CO.ES}} Control of Corruption (estimate){p_end}
 {synopt:{opt GV.CONT.CO.NO}} Control of Corruption (number of surveys/polls){p_end}
@@ -7451,15 +7447,15 @@
 {synopt:{opt LO.PASEC.FRE.P75}} PASEC: Distribution of 5th Grade French Scores: 75th Percentile Score{p_end}
 {synopt:{opt LO.PASEC.FRE.P90}} PASEC: Distribution of 5th Grade French Scores: 90th Percentile Score{p_end}
 {synopt:{opt LO.PASEC.FRE.P95}} PASEC: Distribution of 5th Grade French Scores: 95th Percentile Score{p_end}
-{synopt:{opt LO.PASEC.FRE5.FE}} PASEC: Mean performance on the French language scale (100 points) for 5th grade students, female{p_end}
-{synopt:{opt LO.PASEC.FRE5.HIG.FE}} PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), female{p_end}
-{synopt:{opt LO.PASEC.FRE5.HIG.MA}} PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), male{p_end}
-{synopt:{opt LO.PASEC.FRE5.HIG}} PASEC: 5th grade students above the Knowledge Base Rate on the French language scale (above 40% of answers correct) (%), total{p_end}
-{synopt:{opt LO.PASEC.FRE5.LO.FE}} PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), female{p_end}
-{synopt:{opt LO.PASEC.FRE5.LO.MA}} PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), male{p_end}
-{synopt:{opt LO.PASEC.FRE5.LO}} PASEC: 5th grade students at the lowest level of proficiency on the French language scale (less than 25% of answers correct) (%), total{p_end}
-{synopt:{opt LO.PASEC.FRE5.MA}} PASEC: Mean performance on the French language scale (100 points) for 5th grade students, male{p_end}
-{synopt:{opt LO.PASEC.FRE5}} PASEC: Mean performance on the French language scale (100 points) for 5th grade students, total{p_end}
+{synopt:{opt LO.PASEC.FRE5.FE}} PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Female{p_end}
+{synopt:{opt LO.PASEC.FRE5.HIG.FE}} PASEC: Female 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{opt LO.PASEC.FRE5.HIG.MA}} PASEC: Male 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{opt LO.PASEC.FRE5.HIG}} PASEC: 5th grade students reaching the Knowledge Base Rate on the French language scale (%){p_end}
+{synopt:{opt LO.PASEC.FRE5.LO.FE}} PASEC: Female 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{opt LO.PASEC.FRE5.LO.MA}} PASEC: Male 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{opt LO.PASEC.FRE5.LO}} PASEC: 5th grade students below the Failure Rate on the French language scale (%){p_end}
+{synopt:{opt LO.PASEC.FRE5.MA}} PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Male{p_end}
+{synopt:{opt LO.PASEC.FRE5}} PASEC: Mean performance on the French language scale (100 points) for 5th grade students. Total{p_end}
 {synopt:{opt LO.PASEC.MAT.2.ADD1}} PASEC: Percentage of 2nd grade students correcting answering the addition problem: 8+5{p_end}
 {synopt:{opt LO.PASEC.MAT.2.ADD2}} PASEC: Percentage of 2nd grade students correcting answering the addition problem: 14+23{p_end}
 {synopt:{opt LO.PASEC.MAT.2.ADD3}} PASEC: Percentage of 2nd grade students correcting answering the addition problem: 39+26{p_end}
@@ -7520,15 +7516,15 @@
 {synopt:{opt LO.PASEC.MAT.P75}} PASEC: Distribution of 5th Grade Mathematics Scores: 75th Percentile Score{p_end}
 {synopt:{opt LO.PASEC.MAT.P90}} PASEC: Distribution of 5th Grade Mathematics Scores: 90th Percentile Score{p_end}
 {synopt:{opt LO.PASEC.MAT.P95}} PASEC: Distribution of 5th Grade Mathematics Scores: 95th Percentile Score{p_end}
-{synopt:{opt LO.PASEC.MAT5.FE}} PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students, female{p_end}
-{synopt:{opt LO.PASEC.MAT5.HIG.FE}} PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), female{p_end}
-{synopt:{opt LO.PASEC.MAT5.HIG.MA}} PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), male{p_end}
-{synopt:{opt LO.PASEC.MAT5.HIG}} PASEC: 5th grade students above the Knowledge Base Rate on the mathematics scale (above 40% of answers correct) (%), total{p_end}
-{synopt:{opt LO.PASEC.MAT5.LO.FE}} PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), female{p_end}
-{synopt:{opt LO.PASEC.MAT5.LO.MA}} PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), male{p_end}
-{synopt:{opt LO.PASEC.MAT5.LO}} PASEC: 5th grade students at the lowest level of proficiency on the mathematics scale (less than 25% of answers correct) (%), total{p_end}
-{synopt:{opt LO.PASEC.MAT5.MA}} PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students, male{p_end}
-{synopt:{opt LO.PASEC.MAT5}} PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students, total{p_end}
+{synopt:{opt LO.PASEC.MAT5.FE}} PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Female{p_end}
+{synopt:{opt LO.PASEC.MAT5.HIG.FE}} PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{opt LO.PASEC.MAT5.HIG.MA}} PASEC: Male 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{opt LO.PASEC.MAT5.HIG}} PASEC: 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%){p_end}
+{synopt:{opt LO.PASEC.MAT5.LO.FE}} PASEC: Female 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{opt LO.PASEC.MAT5.LO.MA}} PASEC: Male 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{opt LO.PASEC.MAT5.LO}} PASEC: 5th grade students below the Failure Rate on the mathematics scale (%){p_end}
+{synopt:{opt LO.PASEC.MAT5.MA}} PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Male{p_end}
+{synopt:{opt LO.PASEC.MAT5}} PASEC: Mean performance on the mathematics scale (100 points) for 5th grade students. Total{p_end}
 {synopt:{opt LO.PASEC.REA.2.FE}} PASEC: Mean performance on the language scale for 2nd grade students. Female{p_end}
 {synopt:{opt LO.PASEC.REA.2.L0}} PASEC: 2nd grade students by language proficiency level (%). Below Level 1{p_end}
 {synopt:{opt LO.PASEC.REA.2.L1}} PASEC: 2nd grade students by language proficiency level (%). Level 1{p_end}
@@ -7752,11 +7748,11 @@
 {synopt:{opt LO.PISA.MAT.MA}} PISA: Mean performance on the mathematics scale. Male{p_end}
 {synopt:{opt LO.PISA.MAT.P05}} PISA: Distribution of Mathematics Scores: 5th Percentile Score{p_end}
 {synopt:{opt LO.PISA.MAT.P10}} PISA: Distribution of Mathematics Scores: 10th Percentile Score{p_end}
-{synopt:{opt LO.PISA.MAT.P25}} The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
+{synopt:{opt LO.PISA.MAT.P25}} PISA: Distribution of Mathematics Scores: 25th Percentile Score{p_end}
 {synopt:{opt LO.PISA.MAT.P50}} PISA: Distribution of Mathematics Scores: 50th Percentile Score{p_end}
-{synopt:{opt LO.PISA.MAT.P75}} The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.MAT.P90}} The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.MAT.P95}} The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
+{synopt:{opt LO.PISA.MAT.P75}} PISA: Distribution of Mathematics Scores: 75th Percentile Score{p_end}
+{synopt:{opt LO.PISA.MAT.P90}} PISA: Distribution of Mathematics Scores: 90th Percentile Score{p_end}
+{synopt:{opt LO.PISA.MAT.P95}} PISA: Distribution of Mathematics Scores: 95th Percentile Score{p_end}
 {synopt:{opt LO.PISA.MAT}} PISA: Mean performance on the mathematics scale{p_end}
 {synopt:{opt LO.PISA.REA.0.FE}} PISA: Female 15-year-olds by reading proficiency level (%). Below Level 1B{p_end}
 {synopt:{opt LO.PISA.REA.0.MA}} PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1B{p_end}
@@ -7784,13 +7780,13 @@
 {synopt:{opt LO.PISA.REA.6}} PISA: 15-year-olds by reading proficiency level (%). Level 6{p_end}
 {synopt:{opt LO.PISA.REA.FE}} PISA: Mean performance on the reading scale. Female{p_end}
 {synopt:{opt LO.PISA.REA.MA}} PISA: Mean performance on the reading scale. Male{p_end}
-{synopt:{opt LO.PISA.REA.P05}} The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years o{p_end}
-{synopt:{opt LO.PISA.REA.P10}} The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.REA.P25}} The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
+{synopt:{opt LO.PISA.REA.P05}} PISA: Distribution of Reading Scores: 5th Percentile Score{p_end}
+{synopt:{opt LO.PISA.REA.P10}} PISA: Distribution of Reading Scores: 10th Percentile Score{p_end}
+{synopt:{opt LO.PISA.REA.P25}} PISA: Distribution of Reading Scores: 25th Percentile Score{p_end}
 {synopt:{opt LO.PISA.REA.P50}} PISA: Distribution of Reading Scores: 50th Percentile Score{p_end}
-{synopt:{opt LO.PISA.REA.P75}} The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.REA.P90}} The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.REA.P95}} The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
+{synopt:{opt LO.PISA.REA.P75}} PISA: Distribution of Reading Scores: 75th Percentile Score{p_end}
+{synopt:{opt LO.PISA.REA.P90}} PISA: Distribution of Reading Scores: 90th Percentile Score{p_end}
+{synopt:{opt LO.PISA.REA.P95}} PISA: Distribution of Reading Scores: 95th Percentile Score{p_end}
 {synopt:{opt LO.PISA.REA}} PISA: Mean performance on the reading scale{p_end}
 {synopt:{opt LO.PISA.SCI.0.FE}} PISA: Female 15-year-olds by science proficiency level (%). Below Level 1B{p_end}
 {synopt:{opt LO.PISA.SCI.0.MA}} PISA: Male 15-year-olds by science proficiency level (%). Below Level 1B{p_end}
@@ -7818,13 +7814,13 @@
 {synopt:{opt LO.PISA.SCI.6}} PISA: 15-year-olds by science proficiency level (%). Level 6{p_end}
 {synopt:{opt LO.PISA.SCI.FE}} PISA: Mean performance on the science scale. Female{p_end}
 {synopt:{opt LO.PISA.SCI.MA}} PISA: Mean performance on the science scale. Male{p_end}
-{synopt:{opt LO.PISA.SCI.P05}} The 5th percentile score is the score below which 5 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years o{p_end}
-{synopt:{opt LO.PISA.SCI.P10}} The 10th percentile score is the score below which 10 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.SCI.P25}} The 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
+{synopt:{opt LO.PISA.SCI.P05}} PISA: Distribution of Science Scores: 5th Percentile Score{p_end}
+{synopt:{opt LO.PISA.SCI.P10}} PISA: Distribution of Science Scores: 10th Percentile Score{p_end}
+{synopt:{opt LO.PISA.SCI.P25}} PISA: Distribution of Science Scores: 25th Percentile Score{p_end}
 {synopt:{opt LO.PISA.SCI.P50}} PISA: Distribution of Science Scores: 50th Percentile Score{p_end}
-{synopt:{opt LO.PISA.SCI.P75}} The 75th percentile score is the score below which 75 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.SCI.P90}} The 90th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
-{synopt:{opt LO.PISA.SCI.P95}} The 95th percentile score is the score below which 90 percent of students scored. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years{p_end}
+{synopt:{opt LO.PISA.SCI.P75}} PISA: Distribution of Science Scores: 75th Percentile Score{p_end}
+{synopt:{opt LO.PISA.SCI.P90}} PISA: Distribution of Science Scores: 90th Percentile Score{p_end}
+{synopt:{opt LO.PISA.SCI.P95}} PISA: Distribution of Science Scores: 95th Percentile Score{p_end}
 {synopt:{opt LO.PISA.SCI}} PISA: Mean performance on the science scale{p_end}
 {synopt:{opt LO.SACMEQ.MAT.FE}} SACMEQ: Mean performance on the mathematics scale, female{p_end}
 {synopt:{opt LO.SACMEQ.MAT.L1.FE}} SACMEQ: Female 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy{p_end}
@@ -8627,314 +8623,314 @@
 {synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology){p_end}
 {synopt:{opt PE.NUS.FCAE}} Official exchange rate (LCU per US$, end period){p_end}
 {synopt:{opt PE.USG.LNDN}} London gold price (US$ per ounce){p_end}
-{synopt:{opt PRJ.ATT.1519.1.FE}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.1519.1.MA}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.1519.1.MF}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.1519.2.FE}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.1519.2.MA}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.1519.2.MF}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.1519.3.FE}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.1519.3.MA}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.1519.3.MF}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.1519.4.FE}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.1519.4.MA}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.1519.4.MF}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.1519.NED.FE}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.1519.NED.MA}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.1519.NED.MF}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.1519.S1.FE}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.1519.S1.MA}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.1519.S1.MF}} Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.15UP.1.FE}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.15UP.1.MA}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.15UP.1.MF}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.15UP.2.FE}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.15UP.2.MA}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.15UP.2.MF}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.15UP.3.FE}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.15UP.3.MA}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.15UP.3.MF}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.15UP.4.FE}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.15UP.4.MA}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.15UP.4.MF}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.15UP.NED.FE}} Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.15UP.NED.MA}} Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.15UP.NED.MF}} Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.15UP.S1.FE}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.15UP.S1.MA}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.15UP.S1.MF}} Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2024.1.FE}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2024.1.MA}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2024.1.MF}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2024.2.FE}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2024.2.MA}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2024.2.MF}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2024.3.FE}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2024.3.MA}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2024.3.MF}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2024.4.FE}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2024.4.MA}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2024.4.MF}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2024.NED.FE}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.2024.NED.MA}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.2024.NED.MF}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.2024.S1.FE}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2024.S1.MA}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2024.S1.MF}} Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2039.1.FE}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2039.1.MA}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2039.1.MF}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2039.2.FE}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2039.2.MA}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2039.2.MF}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2039.3.FE}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2039.3.MA}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2039.3.MF}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2039.4.FE}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2039.4.MA}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2039.4.MF}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2039.NED.FE}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.2039.NED.MA}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.2039.NED.MF}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.2039.S1.FE}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2039.S1.MA}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2039.S1.MF}} Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2064.1.FE}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2064.1.MA}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2064.1.MF}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2064.2.FE}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2064.2.MA}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2064.2.MF}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2064.3.FE}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2064.3.MA}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2064.3.MF}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2064.4.FE}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2064.4.MA}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2064.4.MF}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2064.NED.FE}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.2064.NED.MA}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.2064.NED.MF}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.2064.S1.FE}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2064.S1.MA}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2064.S1.MF}} Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2529.1.FE}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2529.1.MA}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2529.1.MF}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.2529.2.FE}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2529.2.MA}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2529.2.MF}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2529.3.FE}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2529.3.MA}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2529.3.MF}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2529.4.FE}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.2529.4.MA}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.2529.4.MF}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.2529.NED.FE}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.2529.NED.MA}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.2529.NED.MF}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.2529.S1.FE}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.2529.S1.MA}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.2529.S1.MF}} Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.25UP.1.FE}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.25UP.1.MA}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.25UP.1.MF}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.25UP.2.FE}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.25UP.2.MA}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.25UP.2.MF}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.25UP.3.FE}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.25UP.3.MA}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.25UP.3.MF}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.25UP.4.FE}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.25UP.4.MA}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.25UP.4.MF}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.25UP.NED.FE}} Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.25UP.NED.MA}} Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.25UP.NED.MF}} Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.25UP.S1.FE}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.25UP.S1.MA}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.25UP.S1.MF}} Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.4064.1.FE}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.4064.1.MA}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.4064.1.MF}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.4064.2.FE}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.4064.2.MA}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.4064.2.MF}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.4064.3.FE}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.4064.3.MA}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.4064.3.MF}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.4064.4.FE}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.4064.4.MA}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.4064.4.MF}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.4064.NED.FE}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.4064.NED.MA}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.4064.NED.MF}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.4064.S1.FE}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.4064.S1.MA}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.4064.S1.MF}} Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.60UP.1.FE}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.60UP.1.MA}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.60UP.1.MF}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.60UP.2.FE}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.60UP.2.MA}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.60UP.2.MF}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.60UP.3.FE}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.60UP.3.MA}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.60UP.3.MF}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.60UP.4.FE}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.60UP.4.MA}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.60UP.4.MF}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.60UP.NED.FE}} Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.60UP.NED.MA}} Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.60UP.NED.MF}} Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.60UP.S1.FE}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.60UP.S1.MA}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.60UP.S1.MF}} Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.80UP.1.FE}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.80UP.1.MA}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.80UP.1.MF}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.80UP.2.FE}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.80UP.2.MA}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.80UP.2.MF}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.80UP.3.FE}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.80UP.3.MA}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.80UP.3.MF}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.80UP.4.FE}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.80UP.4.MA}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.80UP.4.MF}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.80UP.NED.FE}} Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.80UP.NED.MA}} Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.80UP.NED.MF}} Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.80UP.S1.FE}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.80UP.S1.MA}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.80UP.S1.MF}} Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.ALL.1.FE}} Projection: Percentage of the total population by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.ALL.1.MA}} Projection: Percentage of the total population by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.ALL.1.MF}} Projection: Percentage of the total population by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.ATT.ALL.2.FE}} Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.ALL.2.MA}} Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.ALL.2.MF}} Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.ALL.3.FE}} Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.ALL.3.MA}} Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.ALL.3.MF}} Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.ALL.4.FE}} Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.ATT.ALL.4.MA}} Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.ATT.ALL.4.MF}} Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.ATT.ALL.NED.FE}} Projection: Percentage of the total population by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.ATT.ALL.NED.MA}} Projection: Percentage of the total population by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.ATT.ALL.NED.MF}} Projection: Percentage of the total population by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.ATT.ALL.S1.FE}} Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.ATT.ALL.S1.MA}} Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.ATT.ALL.S1.MF}} Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.MYS.0T19.FE}} Projection: Mean years of schooling. Age 0-19. Female {p_end}
-{synopt:{opt PRJ.MYS.0T19.MA}} Projection: Mean years of schooling. Age 0-19. Male {p_end}
-{synopt:{opt PRJ.MYS.0T19.MF}} Projection: Mean years of schooling. Age 0-19. Total {p_end}
-{synopt:{opt PRJ.MYS.1519.FE}} Projection: Mean years of schooling. Age 15-19. Female {p_end}
-{synopt:{opt PRJ.MYS.1519.MA}} Projection: Mean years of schooling. Age 15-19. Male {p_end}
-{synopt:{opt PRJ.MYS.1519.MF}} Projection: Mean years of schooling. Age 15-19. Total {p_end}
-{synopt:{opt PRJ.MYS.15UP.FE}} Projection: Mean years of schooling. Age 15+. Female {p_end}
-{synopt:{opt PRJ.MYS.15UP.GPI}} Projection: Mean Years of Schooling. Age 15+. Gender Gap {p_end}
-{synopt:{opt PRJ.MYS.15UP.MA}} Projection: Mean years of schooling. Age 15+. Male {p_end}
-{synopt:{opt PRJ.MYS.15UP.MF}} Projection: Mean years of schooling. Age 15+. Total {p_end}
-{synopt:{opt PRJ.MYS.2024.FE}} Projection: Mean years of schooling. Age 20-24. Female {p_end}
-{synopt:{opt PRJ.MYS.2024.MA}} Projection: Mean years of schooling. Age 20-24. Male {p_end}
-{synopt:{opt PRJ.MYS.2024.MF}} Projection: Mean years of schooling. Age 20-24. Total {p_end}
-{synopt:{opt PRJ.MYS.2039.FE}} Projection: Mean years of schooling. Age 20-39. Female {p_end}
-{synopt:{opt PRJ.MYS.2039.MA}} Projection: Mean years of schooling. Age 20-39. Male {p_end}
-{synopt:{opt PRJ.MYS.2039.MF}} Projection: Mean years of schooling. Age 20-39. Total {p_end}
-{synopt:{opt PRJ.MYS.2064.FE}} Projection: Mean years of schooling. Age 20-64. Female {p_end}
-{synopt:{opt PRJ.MYS.2064.MA}} Projection: Mean years of schooling. Age 20-64. Male {p_end}
-{synopt:{opt PRJ.MYS.2064.MF}} Projection: Mean years of schooling. Age 20-64. Total {p_end}
-{synopt:{opt PRJ.MYS.2529.FE}} Projection: Mean years of schooling. Age 25-29. Female {p_end}
-{synopt:{opt PRJ.MYS.2529.MA}} Projection: Mean years of schooling. Age 25-29. Male {p_end}
-{synopt:{opt PRJ.MYS.2529.MF}} Projection: Mean years of schooling. Age 25-29. Total {p_end}
-{synopt:{opt PRJ.MYS.25UP.FE}} Projection: Mean years of schooling. Age 25+. Female {p_end}
-{synopt:{opt PRJ.MYS.25UP.GPI}} Projection: Mean Years of Schooling. Age 25+. Gender Gap {p_end}
-{synopt:{opt PRJ.MYS.25UP.MA}} Projection: Mean years of schooling. Age 25+. Male {p_end}
-{synopt:{opt PRJ.MYS.25UP.MF}} Projection: Mean years of schooling. Age 25+. Total {p_end}
-{synopt:{opt PRJ.MYS.4064.FE}} Projection: Mean years of schooling. Age 40-64. Female {p_end}
-{synopt:{opt PRJ.MYS.4064.MA}} Projection: Mean years of schooling. Age 40-64. Male {p_end}
-{synopt:{opt PRJ.MYS.4064.MF}} Projection: Mean years of schooling. Age 40-64. Total {p_end}
-{synopt:{opt PRJ.MYS.60UP.FE}} Projection: Mean years of schooling. Age 60+. Female {p_end}
-{synopt:{opt PRJ.MYS.60UP.MA}} Projection: Mean years of schooling. Age 60+. Male {p_end}
-{synopt:{opt PRJ.MYS.60UP.MF}} Projection: Mean years of schooling. Age 60+. Total {p_end}
-{synopt:{opt PRJ.MYS.65UP.FE}} Projection: Mean years of schooling. Age 65+. Female {p_end}
-{synopt:{opt PRJ.MYS.65UP.MA}} Projection: Mean years of schooling. Age 65+. Male {p_end}
-{synopt:{opt PRJ.MYS.65UP.MF}} Projection: Mean years of schooling. Age 65+. Total {p_end}
-{synopt:{opt PRJ.MYS.80UP.FE}} Projection: Mean years of schooling. Age 80+. Female {p_end}
-{synopt:{opt PRJ.MYS.80UP.MA}} Projection: Mean years of schooling. Age 80+. Male {p_end}
-{synopt:{opt PRJ.MYS.80UP.MF}} Projection: Mean years of schooling. Age 80+. Total {p_end}
-{synopt:{opt PRJ.POP.1519.1.FE}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.POP.1519.1.MA}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.POP.1519.1.MF}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.POP.1519.2.FE}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.1519.2.MA}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.1519.2.MF}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.1519.3.FE}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.1519.3.MA}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.1519.3.MF}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.1519.4.FE}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.1519.4.MA}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.1519.4.MF}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.1519.NED.FE}} Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.POP.1519.NED.MA}} Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.POP.1519.NED.MF}} Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.POP.1519.S1.FE}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.POP.1519.S1.MA}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.POP.1519.S1.MF}} Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.POP.2024.1.FE}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.POP.2024.1.MA}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.POP.2024.1.MF}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.POP.2024.2.FE}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.2024.2.MA}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.2024.2.MF}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.2024.3.FE}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.2024.3.MA}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.2024.3.MF}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.2024.4.FE}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.2024.4.MA}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.2024.4.MF}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.2024.NED.FE}} Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.POP.2024.NED.MA}} Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.POP.2024.NED.MF}} Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.POP.2024.S1.FE}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.POP.2024.S1.MA}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.POP.2024.S1.MF}} Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.POP.2529.1.FE}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.POP.2529.1.MA}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.POP.2529.1.MF}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.POP.2529.2.FE}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.2529.2.MA}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.2529.2.MF}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.2529.3.FE}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.2529.3.MA}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.2529.3.MF}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.2529.4.FE}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.2529.4.MA}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.2529.4.MF}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.2529.NED.FE}} Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.POP.2529.NED.MA}} Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.POP.2529.NED.MF}} Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.POP.2529.S1.FE}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.POP.2529.S1.MA}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.POP.2529.S1.MF}} Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
-{synopt:{opt PRJ.POP.ALL.1.FE}} Projection: Population in thousands by highest level of educational attainment. Primary. Female {p_end}
-{synopt:{opt PRJ.POP.ALL.1.MA}} Projection: Population in thousands by highest level of educational attainment. Primary. Male {p_end}
-{synopt:{opt PRJ.POP.ALL.1.MF}} Projection: Population in thousands by highest level of educational attainment. Primary. Total {p_end}
-{synopt:{opt PRJ.POP.ALL.2.FE}} Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.ALL.2.MA}} Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.ALL.2.MF}} Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.ALL.3.FE}} Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.ALL.3.MA}} Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.ALL.3.MF}} Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.ALL.4.FE}} Projection: Population in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
-{synopt:{opt PRJ.POP.ALL.4.MA}} Projection: Population in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
-{synopt:{opt PRJ.POP.ALL.4.MF}} Projection: Population in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
-{synopt:{opt PRJ.POP.ALL.NED.FE}} Projection: Population in thousands by highest level of educational attainment. No Education. Female {p_end}
-{synopt:{opt PRJ.POP.ALL.NED.MA}} Projection: Population in thousands by highest level of educational attainment. No Education. Male {p_end}
-{synopt:{opt PRJ.POP.ALL.NED.MF}} Projection: Population in thousands by highest level of educational attainment. No Education. Total {p_end}
-{synopt:{opt PRJ.POP.ALL.S1.FE}} Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
-{synopt:{opt PRJ.POP.ALL.S1.MA}} Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
-{synopt:{opt PRJ.POP.ALL.S1.MF}} Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.1519.1.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.1519.1.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.1519.1.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.1519.2.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.1519.2.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.1519.2.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.1519.3.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.1519.3.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.1519.3.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.1519.4.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.1519.4.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.1519.4.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.1519.NED.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.1519.NED.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.1519.NED.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.1519.S1.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.1519.S1.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.1519.S1.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.15UP.1.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.15UP.1.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.15UP.1.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.15UP.2.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.15UP.2.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.15UP.2.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.15UP.3.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.15UP.3.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.15UP.3.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.15UP.4.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.15UP.4.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.15UP.4.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.15UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.15UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.15UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.15UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.15UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.15UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2024.1.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2024.1.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2024.1.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2024.2.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2024.2.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2024.2.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2024.3.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2024.3.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2024.3.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2024.4.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2024.4.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2024.4.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2024.NED.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.2024.NED.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.2024.NED.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.2024.S1.FE}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2024.S1.MA}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2024.S1.MF}} Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2039.1.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2039.1.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2039.1.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2039.2.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2039.2.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2039.2.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2039.3.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2039.3.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2039.3.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2039.4.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2039.4.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2039.4.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2039.NED.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.2039.NED.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.2039.NED.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.2039.S1.FE}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2039.S1.MA}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2039.S1.MF}} Wittgenstein Projection: Percentage of the population age 20-39 by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2064.1.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2064.1.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2064.1.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2064.2.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2064.2.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2064.2.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2064.3.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2064.3.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2064.3.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2064.4.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2064.4.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2064.4.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2064.NED.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.2064.NED.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.2064.NED.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.2064.S1.FE}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2064.S1.MA}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2064.S1.MF}} Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2529.1.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2529.1.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2529.1.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.2529.2.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2529.2.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2529.2.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2529.3.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2529.3.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2529.3.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2529.4.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.2529.4.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.2529.4.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.2529.NED.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.2529.NED.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.2529.NED.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.2529.S1.FE}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.2529.S1.MA}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.2529.S1.MF}} Wittgenstein Projection: Percentage of the population age 25-29 by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.25UP.1.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.25UP.1.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.25UP.1.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.25UP.2.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.25UP.2.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.25UP.2.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.25UP.3.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.25UP.3.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.25UP.3.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.25UP.4.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.25UP.4.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.25UP.4.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.25UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.25UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.25UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.25UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.25UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.25UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.4064.1.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.4064.1.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.4064.1.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.4064.2.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.4064.2.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.4064.2.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.4064.3.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.4064.3.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.4064.3.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.4064.4.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.4064.4.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.4064.4.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.4064.NED.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.4064.NED.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.4064.NED.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.4064.S1.FE}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.4064.S1.MA}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.4064.S1.MF}} Wittgenstein Projection: Percentage of the population age 40-64 by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.60UP.1.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.60UP.1.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.60UP.1.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.60UP.2.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.60UP.2.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.60UP.2.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.60UP.3.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.60UP.3.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.60UP.3.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.60UP.4.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.60UP.4.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.60UP.4.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.60UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.60UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.60UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.60UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.60UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.60UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.80UP.1.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.80UP.1.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.80UP.1.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.80UP.2.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.80UP.2.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.80UP.2.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.80UP.3.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.80UP.3.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.80UP.3.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.80UP.4.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.80UP.4.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.80UP.4.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.80UP.NED.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.80UP.NED.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.80UP.NED.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.80UP.S1.FE}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.80UP.S1.MA}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.80UP.S1.MF}} Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.ALL.1.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.ALL.1.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.ALL.1.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.ATT.ALL.2.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.ALL.2.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.ALL.2.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.ALL.3.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.ALL.3.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.ALL.3.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.ALL.4.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.ATT.ALL.4.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.ATT.ALL.4.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.ATT.ALL.NED.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.ATT.ALL.NED.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.ATT.ALL.NED.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.ATT.ALL.S1.FE}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.ATT.ALL.S1.MA}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.ATT.ALL.S1.MF}} Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.MYS.0T19.FE}} Wittgenstein Projection: Mean years of schooling. Age 0-19. Female {p_end}
+{synopt:{opt PRJ.MYS.0T19.MA}} Wittgenstein Projection: Mean years of schooling. Age 0-19. Male {p_end}
+{synopt:{opt PRJ.MYS.0T19.MF}} Wittgenstein Projection: Mean years of schooling. Age 0-19. Total {p_end}
+{synopt:{opt PRJ.MYS.1519.FE}} Wittgenstein Projection: Mean years of schooling. Age 15-19. Female {p_end}
+{synopt:{opt PRJ.MYS.1519.MA}} Wittgenstein Projection: Mean years of schooling. Age 15-19. Male {p_end}
+{synopt:{opt PRJ.MYS.1519.MF}} Wittgenstein Projection: Mean years of schooling. Age 15-19. Total {p_end}
+{synopt:{opt PRJ.MYS.15UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 15+. Female {p_end}
+{synopt:{opt PRJ.MYS.15UP.GPI}} Wittgenstein Projection: Mean Years of Schooling. Age 15+. Gender Gap {p_end}
+{synopt:{opt PRJ.MYS.15UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 15+. Male {p_end}
+{synopt:{opt PRJ.MYS.15UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 15+. Total {p_end}
+{synopt:{opt PRJ.MYS.2024.FE}} Wittgenstein Projection: Mean years of schooling. Age 20-24. Female {p_end}
+{synopt:{opt PRJ.MYS.2024.MA}} Wittgenstein Projection: Mean years of schooling. Age 20-24. Male {p_end}
+{synopt:{opt PRJ.MYS.2024.MF}} Wittgenstein Projection: Mean years of schooling. Age 20-24. Total {p_end}
+{synopt:{opt PRJ.MYS.2039.FE}} Wittgenstein Projection: Mean years of schooling. Age 20-39. Female {p_end}
+{synopt:{opt PRJ.MYS.2039.MA}} Wittgenstein Projection: Mean years of schooling. Age 20-39. Male {p_end}
+{synopt:{opt PRJ.MYS.2039.MF}} Wittgenstein Projection: Mean years of schooling. Age 20-39. Total {p_end}
+{synopt:{opt PRJ.MYS.2064.FE}} Wittgenstein Projection: Mean years of schooling. Age 20-64. Female {p_end}
+{synopt:{opt PRJ.MYS.2064.MA}} Wittgenstein Projection: Mean years of schooling. Age 20-64. Male {p_end}
+{synopt:{opt PRJ.MYS.2064.MF}} Wittgenstein Projection: Mean years of schooling. Age 20-64. Total {p_end}
+{synopt:{opt PRJ.MYS.2529.FE}} Wittgenstein Projection: Mean years of schooling. Age 25-29. Female {p_end}
+{synopt:{opt PRJ.MYS.2529.MA}} Wittgenstein Projection: Mean years of schooling. Age 25-29. Male {p_end}
+{synopt:{opt PRJ.MYS.2529.MF}} Wittgenstein Projection: Mean years of schooling. Age 25-29. Total {p_end}
+{synopt:{opt PRJ.MYS.25UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 25+. Female {p_end}
+{synopt:{opt PRJ.MYS.25UP.GPI}} Wittgenstein Projection: Mean Years of Schooling. Age 25+. Gender Gap {p_end}
+{synopt:{opt PRJ.MYS.25UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 25+. Male {p_end}
+{synopt:{opt PRJ.MYS.25UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 25+. Total {p_end}
+{synopt:{opt PRJ.MYS.4064.FE}} Wittgenstein Projection: Mean years of schooling. Age 40-64. Female {p_end}
+{synopt:{opt PRJ.MYS.4064.MA}} Wittgenstein Projection: Mean years of schooling. Age 40-64. Male {p_end}
+{synopt:{opt PRJ.MYS.4064.MF}} Wittgenstein Projection: Mean years of schooling. Age 40-64. Total {p_end}
+{synopt:{opt PRJ.MYS.60UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 60+. Female {p_end}
+{synopt:{opt PRJ.MYS.60UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 60+. Male {p_end}
+{synopt:{opt PRJ.MYS.60UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 60+. Total {p_end}
+{synopt:{opt PRJ.MYS.65UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 65+. Female {p_end}
+{synopt:{opt PRJ.MYS.65UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 65+. Male {p_end}
+{synopt:{opt PRJ.MYS.65UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 65+. Total {p_end}
+{synopt:{opt PRJ.MYS.80UP.FE}} Wittgenstein Projection: Mean years of schooling. Age 80+. Female {p_end}
+{synopt:{opt PRJ.MYS.80UP.MA}} Wittgenstein Projection: Mean years of schooling. Age 80+. Male {p_end}
+{synopt:{opt PRJ.MYS.80UP.MF}} Wittgenstein Projection: Mean years of schooling. Age 80+. Total {p_end}
+{synopt:{opt PRJ.POP.1519.1.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.POP.1519.1.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.POP.1519.1.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.POP.1519.2.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.1519.2.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.1519.2.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.1519.3.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.1519.3.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.1519.3.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.1519.4.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.1519.4.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.1519.4.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.1519.NED.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.POP.1519.NED.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.POP.1519.NED.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.POP.1519.S1.FE}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.POP.1519.S1.MA}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.POP.1519.S1.MF}} Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.POP.2024.1.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.POP.2024.1.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.POP.2024.1.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.POP.2024.2.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.2024.2.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.2024.2.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.2024.3.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.2024.3.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.2024.3.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.2024.4.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.2024.4.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.2024.4.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.2024.NED.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.POP.2024.NED.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.POP.2024.NED.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.POP.2024.S1.FE}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.POP.2024.S1.MA}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.POP.2024.S1.MF}} Wittgenstein Projection: Population age 20-24 in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.POP.2529.1.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.POP.2529.1.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.POP.2529.1.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.POP.2529.2.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.2529.2.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.2529.2.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.2529.3.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.2529.3.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.2529.3.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.2529.4.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.2529.4.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.2529.4.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.2529.NED.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.POP.2529.NED.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.POP.2529.NED.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.POP.2529.S1.FE}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.POP.2529.S1.MA}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.POP.2529.S1.MF}} Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
+{synopt:{opt PRJ.POP.ALL.1.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Primary. Female {p_end}
+{synopt:{opt PRJ.POP.ALL.1.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Primary. Male {p_end}
+{synopt:{opt PRJ.POP.ALL.1.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Primary. Total {p_end}
+{synopt:{opt PRJ.POP.ALL.2.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.ALL.2.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.ALL.2.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Lower Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.ALL.3.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.ALL.3.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.ALL.3.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Upper Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.ALL.4.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Post Secondary. Female {p_end}
+{synopt:{opt PRJ.POP.ALL.4.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Post Secondary. Male {p_end}
+{synopt:{opt PRJ.POP.ALL.4.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Post Secondary. Total {p_end}
+{synopt:{opt PRJ.POP.ALL.NED.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. No Education. Female {p_end}
+{synopt:{opt PRJ.POP.ALL.NED.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. No Education. Male {p_end}
+{synopt:{opt PRJ.POP.ALL.NED.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. No Education. Total {p_end}
+{synopt:{opt PRJ.POP.ALL.S1.FE}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Female {p_end}
+{synopt:{opt PRJ.POP.ALL.S1.MA}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Male {p_end}
+{synopt:{opt PRJ.POP.ALL.S1.MF}} Wittgenstein Projection: Population in thousands by highest level of educational attainment. Incomplete Primary. Total {p_end}
 {synopt:{opt PROT.MINOR.INV.DFRN.DB0614}} Protecting minority investors (DB06-14 methodology) - Score {p_end}
 {synopt:{opt PROT.MINOR.INV.DFRN.DB1519}} Protecting minority investors (DB15-19 methodology) - Score {p_end}
 {synopt:{opt PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614}} Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology) {p_end}
@@ -9115,12 +9111,12 @@
 {synopt:{opt SABER.EMIS.GOAL4}} SABER: (Education Management Information Systems) Policy Goal 4: Utilization in decision making {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL1.LVL1}} SABER: (Early Childhood Development) Policy Goal 1 Lever 1: Legal Framework {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL1.LVL2}} SABER: (Early Childhood Development) Policy Goal 1 Lever 2: Inter-sectoral Coordination {p_end}
-{synopt:{opt SABER.ERL.CHLD.GOAL1.LVL3}} SABER: (Early Childhood Development) Policy Goal 1 Lever 3: School Finance {p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL1.LVL3}} SABER: (Early Childhood Development) Policy Goal 1 Lever 3: Finance {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL1}} SABER: (Early Childhood Development) Policy Goal 1: Establishing an Enabling Environment {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL2.LVL1}} SABER: (Early Childhood Development) Policy Goal 2 Lever 1: Scope of Programs {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL2.LVL2}} SABER: (Early Childhood Development) Policy Goal 2 Lever 2: Coverage {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL2.LVL3}} SABER: (Early Childhood Development) Policy Goal 2 Lever 3: Equity {p_end}
-{synopt:{opt SABER.ERL.CHLD.GOAL2}} SABER: (Early Childhood Development) Policy Goal 2: Scope of Programs {p_end}
+{synopt:{opt SABER.ERL.CHLD.GOAL2}} SABER: (Early Childhood Development) Policy Goal 2: Implementing Widely {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL3.LVL1}} SABER: (Early Childhood Development) Policy Goal 3 Lever 1: Data Availability {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL3.LVL2}} SABER: (Early Childhood Development) Policy Goal 3 Lever 2: Quality Standards {p_end}
 {synopt:{opt SABER.ERL.CHLD.GOAL3.LVL3}} SABER: (Early Childhood Development) Policy Goal 3 Lever 3: Compliance with Standards {p_end}
@@ -9153,15 +9149,15 @@
 {synopt:{opt SABER.GRVT.GOAL8.LVL6}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 6: Incentives {p_end}
 {synopt:{opt SABER.GRVT.GOAL8.LVL7}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 7: Planning {p_end}
 {synopt:{opt SABER.GRVT.GOAL8}} SABER: (Engaging the Private Sector, Government funded) Policy Goal 8: Promoting diversity of supply {p_end}
-{synopt:{opt SABER.HLTH.GOAL1}} SABER: (School Health and School Feeding) Policy Goal 1: Policy Frameworks {p_end}
-{synopt:{opt SABER.HLTH.GOAL2}} SABER: (School Health and School Feeding) Policy Goal 2: Financial Capacity {p_end}
-{synopt:{opt SABER.HLTH.GOAL3}} SABER: (School Health and School Feeding) Policy Goal 3: Institutional Capacity and Coordination {p_end}
-{synopt:{opt SABER.HLTH.GOAL4}} SABER: (School Health and School Feeding) Policy Goal 4: Design and Implementation {p_end}
-{synopt:{opt SABER.HLTH.GOAL5}} SABER: (School Health and School Feeding) Policy Goal 5: Community Roles–Reaching Beyond Schools {p_end}
-{synopt:{opt SABER.HLTH.GOAL6}} SABER: (School Health and School Feeding) Policy Goal 6: Health-related school policies {p_end}
-{synopt:{opt SABER.HLTH.GOAL7}} SABER: (School Health and School Feeding) Policy Goal 7: Safe, Supportive School Environments {p_end}
-{synopt:{opt SABER.HLTH.GOAL8}} SABER: (School Health and School Feeding) Policy Goal 8: School-Based Health and Nutrition Services {p_end}
-{synopt:{opt SABER.HLTH.GOAL9}} SABER: (School Health and School Feeding) Policy Goal 9: Skills-Based Health Education {p_end}
+{synopt:{opt SABER.HLTH.GOAL1}} SABER: (School Health and School Feeding) Feeding Policy Goal 1: Policy Frameworks {p_end}
+{synopt:{opt SABER.HLTH.GOAL2}} SABER: (School Health and School Feeding) Feeding Policy Goal 2: Financial Capacity {p_end}
+{synopt:{opt SABER.HLTH.GOAL3}} SABER: (School Health and School Feeding) Feeding Policy Goal 3: Institutional Capacity and Coordination {p_end}
+{synopt:{opt SABER.HLTH.GOAL4}} SABER: (School Health and School Feeding) Feeding Policy Goal 4: Design and Implementation {p_end}
+{synopt:{opt SABER.HLTH.GOAL5}} SABER: (School Health and School Feeding) Feeding Policy Goal 5: Community Roles–Reaching Beyond Schools {p_end}
+{synopt:{opt SABER.HLTH.GOAL6}} SABER: (School Health and School Feeding) Health Policy Goal 1: Health-related school policies {p_end}
+{synopt:{opt SABER.HLTH.GOAL7}} SABER: (School Health and School Feeding) Health Policy Goal 2: Safe, Supportive School Environments {p_end}
+{synopt:{opt SABER.HLTH.GOAL8}} SABER: (School Health and School Feeding) Health Policy Goal 3: School-Based Health and Nutrition Services {p_end}
+{synopt:{opt SABER.HLTH.GOAL9}} SABER: (School Health and School Feeding) Health Policy Goal 4: Skills-Based Health Education {p_end}
 {synopt:{opt SABER.PRVT.GOAL1.LVL1}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 1: Teacher standards {p_end}
 {synopt:{opt SABER.PRVT.GOAL1.LVL2}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 2: Teacher appointment and deployment {p_end}
 {synopt:{opt SABER.PRVT.GOAL1.LVL3}} SABER: (Engaging the Private Sector) Policy Goal 1 Lever 3: Teacher salaries {p_end}
@@ -9185,38 +9181,38 @@
 {synopt:{opt SABER.PRVT.GOAL4.LVL4}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 4: Market entry {p_end}
 {synopt:{opt SABER.PRVT.GOAL4.LVL5}} SABER: (Engaging the Private Sector) Policy Goal 4 Lever 5: Regulatory fees {p_end}
 {synopt:{opt SABER.PRVT.GOAL4}} SABER: (Engaging the Private Sector) Policy Goal 4: Promoting diversity of supply {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL1}} SABER: (School Autonomy and Accountability) Policy Goal 1 Lever 1: Legal authority over the management of the operational budget {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL2}} SABER: (School Autonomy and Accountability) Policy Goal 1 Lever 2: Legal authority over the management of the non-teaching staff salaries {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL3}} SABER: (School Autonomy and Accountability) Policy Goal 1 Lever 3: Legal authority over the management of teacher salaries {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL4}} SABER: (School Autonomy and Accountability) Policy Goal 1 Lever 4: Legal authority to raise additional funds for the school {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL5}} SABER: (School Autonomy and Accountability) Policy Goal 1 Lever 5: Collaborative budget planning {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL1}} SABER: (School Autonomy and Accountability) Policy Goal 1: Lever of autonomy in the planning and management of school budget {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL1}} SABER: (School Autonomy and Accountability) Policy Goal 2 Lever 1: Autonomy in teacher appointment and deployment decisions {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL2}} SABER: (School Autonomy and Accountability) Policy Goal 2 Lever 2: Autonomy in non-teaching staff appointment and deployment decisions {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL3}} SABER: (School Autonomy and Accountability) Policy Goal 2 Lever 3: Autonomy in school principal appointment and deployment decisions {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL2}} SABER: (School Autonomy and Accountability) Policy Goal 2: Lever of autonomy in personnel management {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL1}} SABER: (School Autonomy and Accountability) Policy Goal 3 Lever 1: Participation of the school councils in budget preparation {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL2}} SABER: (School Autonomy and Accountability) Policy Goal 3 Lever 2: Participation of the school councils in financial oversight {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL3}} SABER: (School Autonomy and Accountability) Policy Goal 3 Lever 3: Participation of the school councils in personnel management {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL4}} SABER: (School Autonomy and Accountability) Policy Goal 3 Lever 4: Participation of the school councils in school activities {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL5}} SABER: (School Autonomy and Accountability) Policy Goal 3 Lever 5: Participation of the school councils in learning inputs {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL6}} SABER: (School Autonomy and Accountability) Policy Goal 3 Lever 6: Transparency in community participation {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL3}} SABER: (School Autonomy and Accountability) Policy Goal 3: Role of the school council on school governance {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL1}} SABER: (School Autonomy and Accountability) Policy Goal 4 Lever 1: Existence and Frequency of school assessments {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL2}} SABER: (School Autonomy and Accountability) Policy Goal 4 Lever 2: Use of school assessments for making school adjustments {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL3}} SABER: (School Autonomy and Accountability) Policy Goal 4 Lever 3: Existence and Frequency of standardized student assessments {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL4}} SABER: (School Autonomy and Accountability) Policy Goal 4 Lever 4: Use of standardized student assessments for pedagogical, operational, and personnel adjustments {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL5}} SABER: (School Autonomy and Accountability) Policy Goal 4 Lever 5: Publication of student assessments {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL4}} SABER: (School Autonomy and Accountability) Policy Goal 4: School and student assessment {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL1}} SABER: (School Autonomy and Accountability) Policy Goal 5 Lever 1: Guidelines for the use of results of student assessments {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL2}} SABER: (School Autonomy and Accountability) Policy Goal 5 Lever 2: Analysis of school and student performance {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL3}} SABER: (School Autonomy and Accountability) Policy Goal 5 Lever 3: Degree of financial accountability at the central, regional, municipal, local, and school level {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL4}} SABER: (School Autonomy and Accountability) Policy Goal 5 Lever 4: Degree of accountability in school operations {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL5}} SABER: (School Autonomy and Accountability) Policy Goal 5 Lever 5: Degree of learning accountability {p_end}
-{synopt:{opt SABER.SCH.ATNM.GOAL5}} SABER: (School Autonomy and Accountability) Policy Goal 5: School Accountability {p_end}
-{synopt:{opt SABER.SCH.FNNC.GOAL1.LVL1}} SABER: (School Finance) Policy Goal 1 Lever 1: Are there policies and systems set up to provide basic educational inputs to all? {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 1: Legal authority over the management of the operational budget {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 2: Legal authority over the management of the non-teaching staff salaries {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 3: Legal authority over the management of teacher salaries {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 4: Legal authority to raise additional funds for the school {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 1 Lever 5: Collaborative budget planning {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL1}} SABER: (School Autonomy Accountability) Policy Goal 1: Level of autonomy in the planning and management of school budget {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 2 Lever 1: Autonomy in teacher appointment and deployment decisions {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 2 Lever 2: Autonomy in non-teaching staff appointment and deployment decisions {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 2 Lever 3: Autonomy in school principal appointment and deployment decisions {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL2}} SABER: (School Autonomy Accountability) Policy Goal 2: Level of autonomy in personnel management {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 1: Participation of the school councils in budget preparation {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 2: Participation of the school councils in financial oversight {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 3: Participation of the school councils in personnel management {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 4: Participation of the school councils in school activities {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 5: Participation of the school councils in learning inputs {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3.LVL6}} SABER: (School Autonomy Accountability) Policy Goal 3 Lever 6: Transparency in community participation {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL3}} SABER: (School Autonomy Accountability) Policy Goal 3: Role of the school council on school governance {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 1: Existence and Frequency of school assessments {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 2: Use of school assessments for making school adjustments {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 3: Existence and Frequency of standardized student assessments {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 4: Use of standardized student assessments for pedagogical, operational, and personnel adjustments {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 4 Lever 5: Publication of student assessments {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL4}} SABER: (School Autonomy Accountability) Policy Goal 4: School and student assessment {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL1}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 1:  Guidelines for the use of results of student assessments {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL2}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 2:  Analysis of school and student performan {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL3}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 3:  Degree of Financial accountability at the central level, regional, municipal, local and school level {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL4}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 4: Degree of Accountability in school operations {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5.LVL5}} SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5): Degree of learning accountability {p_end}
+{synopt:{opt SABER.SCH.ATNM.GOAL5}} SABER: (School Autonomy Accountability) Policy Goal 5: School Accountability {p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL1.LVL1}} SABER: (School Finance) Policy Goal 1 Lever 1:  Are ther policies and systems set up to provide basic educational inputs to all? {p_end}
 {synopt:{opt SABER.SCH.FNNC.GOAL1.LVL2}} SABER: (School Finance) Policy Goal 1 Lever 2: Are there basic educational inputs for all primary school students? {p_end}
-{synopt:{opt SABER.SCH.FNNC.GOAL1}} SABER: (School Finance) Policy Goal 1: Ensuring basic conditions for learning {p_end}
+{synopt:{opt SABER.SCH.FNNC.GOAL1}} SABER: (School Finance) Policy Goal 1: Ensuring adequacy {p_end}
 {synopt:{opt SABER.SCH.FNNC.GOAL2.LVL1}} SABER: (School Finance) Policy Goal 2 Lever 1: Does the government provide more resources to students from disadvantaged backgrounds? {p_end}
 {synopt:{opt SABER.SCH.FNNC.GOAL2.LVL2}} SABER: (School Finance) Policy Goal 2 Lever 2: Do payments for schooling represent a high share of income for low income households? {p_end}
 {synopt:{opt SABER.SCH.FNNC.GOAL2}} SABER: (School Finance) Policy Goal 2: Monitoring learning conditions and outcomes {p_end}
@@ -9352,9 +9348,9 @@
 {synopt:{opt SE.PRE.TCHR}} Teachers in pre-primary education, both sexes (number) {p_end}
 {synopt:{opt SE.PRM.AGEE.ZS}} Age efficiency, primary (net enrollment as % of gross) {p_end}
 {synopt:{opt SE.PRM.AGES}} Primary school starting age (years) {p_end}
-{synopt:{opt SE.PRM.CMPL.FE.ZS}} Primary completion rate, female, based on completers {p_end}
-{synopt:{opt SE.PRM.CMPL.MA.ZS}} Primary completion rate, male, based on completers {p_end}
-{synopt:{opt SE.PRM.CMPL.ZS}} Primary completion rate, total, based on completers {p_end}
+{synopt:{opt SE.PRM.CMPL.FE.ZS}} Gross graduation ratio from primary education, female (%) {p_end}
+{synopt:{opt SE.PRM.CMPL.MA.ZS}} Gross graduation ratio from primary education, male (%) {p_end}
+{synopt:{opt SE.PRM.CMPL.ZS}} Gross graduation ratio from primary education, both sexes (%) {p_end}
 {synopt:{opt SE.PRM.CMPT.FE.ZS}} Primary completion rate, female (% of relevant age group) {p_end}
 {synopt:{opt SE.PRM.CMPT.MA.ZS}} Primary completion rate, male (% of relevant age group) {p_end}
 {synopt:{opt SE.PRM.CMPT.ZS}} Primary completion rate, total (% of relevant age group) {p_end}
@@ -9417,8 +9413,8 @@
 {synopt:{opt SE.PRM.UNER.ZS}} Children out of school (% of primary school age) {p_end}
 {synopt:{opt SE.PRM.UNER}} Children out of school, primary {p_end}
 {synopt:{opt SE.SCH.EFIC.ZS}} Education coefficient of efficiency (ideal years to graduate as % of actual) {p_end}
-{synopt:{opt SE.SCH.LIFE.FE}} Expected years of schooling, female {p_end}
-{synopt:{opt SE.SCH.LIFE.MA}} Expected years of schooling, male {p_end}
+{synopt:{opt SE.SCH.LIFE.FE}} School life expectancy, primary to tertiary, female (years) {p_end}
+{synopt:{opt SE.SCH.LIFE.MA}} School life expectancy, primary to tertiary, male (years) {p_end}
 {synopt:{opt SE.SCH.LIFE}} School life expectancy, primary to tertiary, both sexes (years) {p_end}
 {synopt:{opt SE.SCHL.JRSEC}} Number of schools at Junior Secondary Level {p_end}
 {synopt:{opt SE.SCHL.PRM}} Number of schools at Primary Level {p_end}
@@ -9440,19 +9436,19 @@
 {synopt:{opt SE.SEC.DURS.LO}} Theoretical duration of lower secondary education (years) {p_end}
 {synopt:{opt SE.SEC.DURS.UP}} Theoretical duration of upper secondary education (years) {p_end}
 {synopt:{opt SE.SEC.DURS}} Secondary education, duration (years) {p_end}
-{synopt:{opt SE.SEC.ENRL.FE.VO.ZS}} Percentage of female students in secondary education enrolled in vocational programmes, female (%) {p_end}
+{synopt:{opt SE.SEC.ENRL.FE.VO.ZS}} Share of female students in secondary education enrolled in vocational programmes (%) {p_end}
 {synopt:{opt SE.SEC.ENRL.FE.ZS}} Secondary education, pupils (% female) {p_end}
 {synopt:{opt SE.SEC.ENRL.FE}} Enrolment in secondary education, female (number) {p_end}
 {synopt:{opt SE.SEC.ENRL.GC.FE.ZS}} Secondary education, general pupils (% female) {p_end}
 {synopt:{opt SE.SEC.ENRL.GC.FE}} Enrolment in secondary general, female (number) {p_end}
 {synopt:{opt SE.SEC.ENRL.GC}} Secondary education, general pupils {p_end}
 {synopt:{opt SE.SEC.ENRL.LO.TC.ZS}} Pupil-teacher ratio, lower secondary {p_end}
-{synopt:{opt SE.SEC.ENRL.MA.VO.ZS}} Percentage of male students in secondary education enrolled in vocational programmes, male (%) {p_end}
+{synopt:{opt SE.SEC.ENRL.MA.VO.ZS}} Share of male students in secondary education enrolled in vocational programmes (%) {p_end}
 {synopt:{opt SE.SEC.ENRL.TC.ZS}} Pupil-teacher ratio, secondary {p_end}
 {synopt:{opt SE.SEC.ENRL.UP.TC.ZS}} Pupil-teacher ratio, upper secondary {p_end}
 {synopt:{opt SE.SEC.ENRL.VO.FE.ZS}} Secondary education, vocational pupils (% female) {p_end}
 {synopt:{opt SE.SEC.ENRL.VO.FE}} Enrolment in secondary vocational, female (number) {p_end}
-{synopt:{opt SE.SEC.ENRL.VO.ZS}} Percentage of students in secondary education enrolled in vocational programmes, both sexes (%) {p_end}
+{synopt:{opt SE.SEC.ENRL.VO.ZS}} Share of all students in secondary education enrolled in vocational programmes (%) {p_end}
 {synopt:{opt SE.SEC.ENRL.VO}} Secondary education, vocational pupils {p_end}
 {synopt:{opt SE.SEC.ENRL}} Secondary education, pupils {p_end}
 {synopt:{opt SE.SEC.ENRR.FE}} School enrollment, secondary, female (% gross) {p_end}
@@ -9507,8 +9503,8 @@
 {synopt:{opt SE.TCHR.JRSEC}} Number of Teacher: Junior Secondary Level (in number of people, 2009 data only) {p_end}
 {synopt:{opt SE.TCHR.PRM}} Number of Teacher: Primary Level (in number of people, 2009 data only) {p_end}
 {synopt:{opt SE.TCHR.SRSEC}} Number of Teacher: Senior Secondary Level (in number of people, 2009 data only) {p_end}
-{synopt:{opt SE.TER.CMPL.FE.ZS}} Gross graduation ratio, tertiary, first degree programmes (ISCED 6 and 7), female (%) {p_end}
-{synopt:{opt SE.TER.CMPL.MA.ZS}} Gross graduation ratio, tertiary, first degree programmes (ISCED 6 and 7), male (%) {p_end}
+{synopt:{opt SE.TER.CMPL.FE.ZS}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, female (%) {p_end}
+{synopt:{opt SE.TER.CMPL.MA.ZS}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, male (%) {p_end}
 {synopt:{opt SE.TER.CMPL.ZS}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, both sexes (%) {p_end}
 {synopt:{opt SE.TER.CUAT.BA.FE.ZS}} Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative) {p_end}
 {synopt:{opt SE.TER.CUAT.BA.MA.ZS}} Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative) {p_end}
@@ -9529,33 +9525,33 @@
 {synopt:{opt SE.TER.ENRR.FE}} School enrollment, tertiary, female (% gross) {p_end}
 {synopt:{opt SE.TER.ENRR.MA}} School enrollment, tertiary, male (% gross) {p_end}
 {synopt:{opt SE.TER.ENRR}} School enrollment, tertiary (% gross) {p_end}
-{synopt:{opt SE.TER.GRAD.AG.FE.ZS}} Percentage of female graduates from tertiary education graduating from Agriculture programmes, female (%) {p_end}
-{synopt:{opt SE.TER.GRAD.AG.ZS}} Percentage of graduates from tertiary education graduating from Agriculture programmes, both sexes (%) {p_end}
+{synopt:{opt SE.TER.GRAD.AG.FE.ZS}} Percentage of female graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.AG.ZS}} Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%) {p_end}
 {synopt:{opt SE.TER.GRAD.ED.FE.ZS}} Percentage of female graduates from tertiary education graduating from Education programmes, female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.ED.ZS}} Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%) {p_end}
 {synopt:{opt SE.TER.GRAD.EN.FE.ZS}} Percentage of female graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.EN.ZS}} Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.AG.ZS}} Female share of graduates in agriculture (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.ED.ZS}} Female share of graduates in education (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.EN.ZS}} Female share of graduates in engineering, manufacturing and construction (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.HL.ZS}} Female share of graduates in health and welfare (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.HU.ZS}} Female share of graduates in humanities and arts (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.OT.ZS}} Female share of graduates in unknown or unspecified fields (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.SC.ZS}} Female share of graduates in science (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.SS.ZS}} Female share of graduates in social science, business and law (%, tertiary) {p_end}
-{synopt:{opt SE.TER.GRAD.FE.SV.ZS}} Female share of graduates in services (%, tertiary) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.AG.ZS}} Percentage of graduates from Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.ED.ZS}} Percentage of graduates from Education programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.EN.ZS}} Percentage of graduates from Engineering, Manufacturing and Construction programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.HL.ZS}} Percentage of graduates from Health and Welfare programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.HU.ZS}} Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.OT.ZS}} Percentage of graduates from programmes in unspecified fields in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.SC.ZS}} Percentage of graduates from Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.SS.ZS}} Percentage of graduates from Social Sciences, Journalism and Information programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.SV.ZS}} Percentage of graduates from Services programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE.ZS}} Percentage of graduates from tertiary education who are female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE}} Graduates from tertiary education, female (number) {p_end}
 {synopt:{opt SE.TER.GRAD.HL.FE.ZS}} Percentage of female graduates from tertiary education graduating from Health and Welfare programmes, female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.HL.ZS}} Percentage of graduates from tertiary education graduating from Health and Welfare programmes, both sexes (%) {p_end}
-{synopt:{opt SE.TER.GRAD.HU.FE.ZS}} Percentage of female graduates from tertiary education graduating from Humanities and Arts programmes, female (%) {p_end}
-{synopt:{opt SE.TER.GRAD.HU.ZS}} Percentage of graduates from tertiary education graduating from Humanities and Arts programmes, both sexes (%) {p_end}
+{synopt:{opt SE.TER.GRAD.HU.FE.ZS}} Percentage of female graduates from tertiary education graduating from Arts and Humanities programmes, female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.HU.ZS}} Percentage of graduates from tertiary education graduating from Arts and Humanities programmes, both sexes (%) {p_end}
 {synopt:{opt SE.TER.GRAD.OT.FE.ZS}} Percentage of female graduates from tertiary education graduating from programmes in unspecified fields, female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.OT.ZS}} Percentage of graduates from tertiary education graduating from programmes in unspecified fields, both sexes (%) {p_end}
-{synopt:{opt SE.TER.GRAD.SC.FE.ZS}} Percentage of female graduates from tertiary education graduating from Science programmes, female (%) {p_end}
-{synopt:{opt SE.TER.GRAD.SC.ZS}} Percentage of graduates from tertiary education graduating from Science programmes, both sexes (%) {p_end}
-{synopt:{opt SE.TER.GRAD.SS.FE.ZS}} Percentage of female graduates from tertiary education graduating from Social Sciences, Business and Law programmes, female (%) {p_end}
-{synopt:{opt SE.TER.GRAD.SS.ZS}} Percentage of graduates from tertiary education graduating from Social Sciences, Business and Law programmes, both sexes (%) {p_end}
+{synopt:{opt SE.TER.GRAD.SC.FE.ZS}} Percentage of female graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.SC.ZS}} Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%) {p_end}
+{synopt:{opt SE.TER.GRAD.SS.FE.ZS}} Percentage of female graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.SS.ZS}} Percentage of graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, both sexes (%) {p_end}
 {synopt:{opt SE.TER.GRAD.SV.FE.ZS}} Percentage of female graduates from tertiary education graduating from Services programmes, female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.SV.ZS}} Percentage of graduates from tertiary education graduating from Services programmes, both sexes (%) {p_end}
 {synopt:{opt SE.TER.GRAD}} Graduates from tertiary education, both sexes (number) {p_end}
@@ -9563,7 +9559,7 @@
 {synopt:{opt SE.TER.SCIE.ZS}} Science and engineering students (% of total tertiary students) {p_end}
 {synopt:{opt SE.TER.TCHR.FE.ZS}} Tertiary education, academic staff (% female) {p_end}
 {synopt:{opt SE.TER.TCHR.FE}} Teachers in tertiary education programmes, female (number) {p_end}
-{synopt:{opt SE.TER.TCHR}} Teachers in tertiary education, both sexes (number) {p_end}
+{synopt:{opt SE.TER.TCHR}} Teachers in tertiary education programmes, both sexes (number) {p_end}
 {synopt:{opt SE.TOT.ENRR}} Gross enrolment ratio, primary to tertiary, both sexes (%) {p_end}
 {synopt:{opt SE.XPD.CPRM.ZS}} Current education expenditure, primary (% of total expenditure in primary public institutions) {p_end}
 {synopt:{opt SE.XPD.CSEC.ZS}} Current education expenditure, secondary (% of total expenditure in secondary public institutions) {p_end}
@@ -9626,7 +9622,7 @@
 {synopt:{opt SG.DMK.HLTH.HB.ZS}} Decision maker about a woman's own health care: mainly husband (% of women age 15-49) {p_end}
 {synopt:{opt SG.DMK.HLTH.OT.ZS}} Decision maker about a woman's own health care: other (% of women age 15-49) {p_end}
 {synopt:{opt SG.DMK.HLTH.SE.ZS}} Decision maker about a woman's own health care: someone else (% of women age 15-49) {p_end}
-{synopt:{opt SG.DMK.HLTH.WF.ZS}} Decision maker about a woman's own health care: mainly wife  (% of women age 15-49) {p_end}
+{synopt:{opt SG.DMK.HLTH.WF.ZS}} Decision maker about a woman's own health care: mainly wife (% of women age 15-49) {p_end}
 {synopt:{opt SG.DMK.HLTH.WH.ZS}} Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49) {p_end}
 {synopt:{opt SG.DMK.NONE.FN.ZS}} Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49) {p_end}
 {synopt:{opt SG.DMK.PRCH.FN.ZS}} Women participating in making major household purchase decisions (% of women age 15-49) {p_end}
@@ -9661,54 +9657,54 @@
 {synopt:{opt SG.MMR.LEVE.EP}} Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no) {p_end}
 {synopt:{opt SG.NOD.CONS}} Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no) {p_end}
 {synopt:{opt SG.OBT.IDCD.MR}} Married women can obtain a national ID card in the same way as married men (1=yes; 0=no) {p_end}
-{synopt:{opt SG.OWN.HSAJ.FE.Q1.ZS}} Women who own house both alone and jointly (% of women age 15-49): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSAJ.FE.Q2.ZS}} Women who own house both alone and jointly (% of women age 15-49): Q2 {p_end}
-{synopt:{opt SG.OWN.HSAJ.FE.Q3.ZS}} Women who own house both alone and jointly (% of women age 15-49): Q3 {p_end}
-{synopt:{opt SG.OWN.HSAJ.FE.Q4.ZS}} Women who own house both alone and jointly (% of women age 15-49): Q4 {p_end}
-{synopt:{opt SG.OWN.HSAJ.FE.Q5.ZS}} Women who own house both alone and jointly (% of women age 15-49): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSAJ.FE.ZS}} Women who own house both alone and jointly (% of women age 15-49) {p_end}
-{synopt:{opt SG.OWN.HSAJ.MA.Q1.ZS}} Men who own house both alone and jointly (% of men): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSAJ.MA.Q2.ZS}} Men who own house both alone and jointly (% of men): Q2 {p_end}
-{synopt:{opt SG.OWN.HSAJ.MA.Q3.ZS}} Men who own house both alone and jointly (% of men): Q3 {p_end}
-{synopt:{opt SG.OWN.HSAJ.MA.Q4.ZS}} Men who own house both alone and jointly (% of men): Q4 {p_end}
-{synopt:{opt SG.OWN.HSAJ.MA.Q5.ZS}} Men who own house both alone and jointly (% of men): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSAJ.MA.ZS}} Men who own house both alone and jointly (% of men) {p_end}
-{synopt:{opt SG.OWN.HSAL.FE.Q1.ZS}} Women who own house alone (% of women age 15-49): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSAL.FE.Q2.ZS}} Women who own house alone (% of women age 15-49): Q2 {p_end}
-{synopt:{opt SG.OWN.HSAL.FE.Q3.ZS}} Women who own house alone (% of women age 15-49): Q3 {p_end}
-{synopt:{opt SG.OWN.HSAL.FE.Q4.ZS}} Women who own house alone (% of women age 15-49): Q4 {p_end}
-{synopt:{opt SG.OWN.HSAL.FE.Q5.ZS}} Women who own house alone (% of women age 15-49): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSAL.FE.ZS}} Women who own house alone (% of women age 15-49) {p_end}
-{synopt:{opt SG.OWN.HSAL.MA.Q1.ZS}} Men who own house alone (% of men): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSAL.MA.Q2.ZS}} Men who own house alone (% of men): Q2 {p_end}
-{synopt:{opt SG.OWN.HSAL.MA.Q3.ZS}} Men who own house alone (% of men): Q3 {p_end}
-{synopt:{opt SG.OWN.HSAL.MA.Q4.ZS}} Men who own house alone (% of men): Q4 {p_end}
-{synopt:{opt SG.OWN.HSAL.MA.Q5.ZS}} Men who own house alone (% of men): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSAL.MA.ZS}} Men who own house alone (% of men) {p_end}
-{synopt:{opt SG.OWN.HSJT.FE.Q1.ZS}} Women who own house jointly (% of women age 15-49): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSJT.FE.Q2.ZS}} Women who own house jointly (% of women age 15-49): Q2 {p_end}
-{synopt:{opt SG.OWN.HSJT.FE.Q3.ZS}} Women who own house jointly (% of women age 15-49): Q3 {p_end}
-{synopt:{opt SG.OWN.HSJT.FE.Q4.ZS}} Women who own house jointly (% of women age 15-49): Q4 {p_end}
-{synopt:{opt SG.OWN.HSJT.FE.Q5.ZS}} Women who own house jointly (% of women age 15-49): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSJT.FE.ZS}} Women who own house jointly (% of women age 15-49) {p_end}
-{synopt:{opt SG.OWN.HSJT.MA.Q1.ZS}} Men who own house jointly (% of men): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSJT.MA.Q2.ZS}} Men who own house jointly (% of men): Q2 {p_end}
-{synopt:{opt SG.OWN.HSJT.MA.Q3.ZS}} Men who own house jointly (% of men): Q3 {p_end}
-{synopt:{opt SG.OWN.HSJT.MA.Q4.ZS}} Men who own house jointly (% of men): Q4 {p_end}
-{synopt:{opt SG.OWN.HSJT.MA.Q5.ZS}} Men who own house jointly (% of men): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSJT.MA.ZS}} Men who own house jointly (% of men) {p_end}
-{synopt:{opt SG.OWN.HSNO.FE.Q1.ZS}} Women who do not own house (% of women age 15-49): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSNO.FE.Q2.ZS}} Women who do not own house (% of women age 15-49): Q2 {p_end}
-{synopt:{opt SG.OWN.HSNO.FE.Q3.ZS}} Women who do not own house (% of women age 15-49): Q3 {p_end}
-{synopt:{opt SG.OWN.HSNO.FE.Q4.ZS}} Women who do not own house (% of women age 15-49): Q4 {p_end}
-{synopt:{opt SG.OWN.HSNO.FE.Q5.ZS}} Women who do not own house (% of women age 15-49): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSNO.FE.ZS}} Women who do not own house (% of women age 15-49) {p_end}
-{synopt:{opt SG.OWN.HSNO.MA.Q1.ZS}} Men who do not own house (% of men): Q1 (lowest) {p_end}
-{synopt:{opt SG.OWN.HSNO.MA.Q2.ZS}} Men who do not own house (% of men): Q2 {p_end}
-{synopt:{opt SG.OWN.HSNO.MA.Q3.ZS}} Men who do not own house (% of men): Q3 {p_end}
-{synopt:{opt SG.OWN.HSNO.MA.Q4.ZS}} Men who do not own house (% of men): Q4 {p_end}
-{synopt:{opt SG.OWN.HSNO.MA.Q5.ZS}} Men who do not own house (% of men): Q5 (highest) {p_end}
-{synopt:{opt SG.OWN.HSNO.MA.ZS}} Men who do not own house (% of men) {p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q1.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q2.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q2 {p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q3.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q3 {p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q4.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q4 {p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.Q5.ZS}} Women who own a house both alone and jointly (% of women age 15-49): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSAJ.FE.ZS}} Women who own a house both alone and jointly (% of women age 15-49) {p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q1.ZS}} Men who own a house both alone and jointly (% of men): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q2.ZS}} Men who own a house both alone and jointly (% of men): Q2 {p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q3.ZS}} Men who own a house both alone and jointly (% of men): Q3 {p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q4.ZS}} Men who own a house both alone and jointly (% of men): Q4 {p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.Q5.ZS}} Men who own a house both alone and jointly (% of men): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSAJ.MA.ZS}} Men who own a house both alone and jointly (% of men) {p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q1.ZS}} Women who own a house alone (% of women age 15-49): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q2.ZS}} Women who own a house alone (% of women age 15-49): Q2 {p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q3.ZS}} Women who own a house alone (% of women age 15-49): Q3 {p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q4.ZS}} Women who own a house alone (% of women age 15-49): Q4 {p_end}
+{synopt:{opt SG.OWN.HSAL.FE.Q5.ZS}} Women who own a house alone (% of women age 15-49): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSAL.FE.ZS}} Women who own a house alone (% of women age 15-49) {p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q1.ZS}} Men who own a house alone (% of men): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q2.ZS}} Men who own a house alone (% of men): Q2 {p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q3.ZS}} Men who own a house alone (% of men): Q3 {p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q4.ZS}} Men who own a house alone (% of men): Q4 {p_end}
+{synopt:{opt SG.OWN.HSAL.MA.Q5.ZS}} Men who own a house alone (% of men): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSAL.MA.ZS}} Men who own a house alone (% of men) {p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q1.ZS}} Women who own a house jointly (% of women age 15-49): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q2.ZS}} Women who own a house jointly (% of women age 15-49): Q2 {p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q3.ZS}} Women who own a house jointly (% of women age 15-49): Q3 {p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q4.ZS}} Women who own a house jointly (% of women age 15-49): Q4 {p_end}
+{synopt:{opt SG.OWN.HSJT.FE.Q5.ZS}} Women who own a house jointly (% of women age 15-49): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSJT.FE.ZS}} Women who own a house jointly (% of women age 15-49) {p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q1.ZS}} Men who own a house jointly (% of men): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q2.ZS}} Men who own a house jointly (% of men): Q2 {p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q3.ZS}} Men who own a house jointly (% of men): Q3 {p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q4.ZS}} Men who own a house jointly (% of men): Q4 {p_end}
+{synopt:{opt SG.OWN.HSJT.MA.Q5.ZS}} Men who own a house jointly (% of men): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSJT.MA.ZS}} Men who own a house jointly (% of men) {p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q1.ZS}} Women who do not own a house (% of women age 15-49): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q2.ZS}} Women who do not own a house (% of women age 15-49): Q2 {p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q3.ZS}} Women who do not own a house (% of women age 15-49): Q3 {p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q4.ZS}} Women who do not own a house (% of women age 15-49): Q4 {p_end}
+{synopt:{opt SG.OWN.HSNO.FE.Q5.ZS}} Women who do not own a house (% of women age 15-49): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSNO.FE.ZS}} Women who do not own a house (% of women age 15-49) {p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q1.ZS}} Men who do not own a house (% of men): Q1 (lowest) {p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q2.ZS}} Men who do not own a house (% of men): Q2 {p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q3.ZS}} Men who do not own a house (% of men): Q3 {p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q4.ZS}} Men who do not own a house (% of men): Q4 {p_end}
+{synopt:{opt SG.OWN.HSNO.MA.Q5.ZS}} Men who do not own a house (% of men): Q5 (highest) {p_end}
+{synopt:{opt SG.OWN.HSNO.MA.ZS}} Men who do not own a house (% of men) {p_end}
 {synopt:{opt SG.OWN.LDAJ.FE.Q1.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q1 (lowest) {p_end}
 {synopt:{opt SG.OWN.LDAJ.FE.Q2.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q2 {p_end}
 {synopt:{opt SG.OWN.LDAJ.FE.Q3.ZS}} Women who own land both alone and jointly (% of women age 15-49): Q3 {p_end}
@@ -9884,26 +9880,26 @@
 {synopt:{opt SH.ANM.NPRG.ZS}} Prevalence of anemia among non-pregnant women (% of women ages 15-49) {p_end}
 {synopt:{opt SH.CON.1524.FE.ZS}} Condom use, population ages 15-24, female (% of females ages 15-24) {p_end}
 {synopt:{opt SH.CON.1524.MA.ZS}} Condom use, population ages 15-24, male (% of males ages 15-24) {p_end}
-{synopt:{opt SH.CON.AIDS.FE.ZS}} Condom use at last high-risk sex, adult female (% ages 15-49) {p_end}
-{synopt:{opt SH.CON.AIDS.MA.ZS}} Condom use at last high-risk sex, adult male (% ages 15-49) {p_end}
+{synopt:{opt SH.CON.AIDS.FE.ZS}} Condom use with non regular partner, % adults(15-49), female {p_end}
+{synopt:{opt SH.CON.AIDS.MA.ZS}} Condom use with non regular partner, % adults(15-49), male {p_end}
 {synopt:{opt SH.DR.TOTL}} Number of Doctors {p_end}
 {synopt:{opt SH.DTH.0514}} Number of deaths ages 5-14 years {p_end}
-{synopt:{opt SH.DTH.COMM.1534.FE.ZS}} Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 15-34, female (% relevant age) {p_end}
-{synopt:{opt SH.DTH.COMM.1534.MA.ZS}} Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 15-34, male (% relevant age) {p_end}
-{synopt:{opt SH.DTH.COMM.3559.FE.ZS}} Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 35-59, female (% relevant age) {p_end}
-{synopt:{opt SH.DTH.COMM.3559.MA.ZS}} Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 35-59, male (% relevant age) {p_end}
+{synopt:{opt SH.DTH.COMM.1534.FE.ZS}} Cause of death, by communicable diseases, ages 15-34, female (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.COMM.1534.MA.ZS}} Cause of death, by communicable diseases, ages 15-34, male (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.COMM.3559.FE.ZS}} Cause of death, by communicable diseases, ages 35-59, female (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.COMM.3559.MA.ZS}} Cause of death, by communicable diseases, ages 35-59, male (% of relevant age group) {p_end}
 {synopt:{opt SH.DTH.COMM.ZS}} Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total) {p_end}
 {synopt:{opt SH.DTH.IMRT}} Number of infant deaths {p_end}
-{synopt:{opt SH.DTH.INJR.1534.FE.ZS}} Cause of death, by injury, ages 15-34, female (% relevant age) {p_end}
-{synopt:{opt SH.DTH.INJR.1534.MA.ZS}} Cause of death, by injury, ages 15-34, male (% relevant age) {p_end}
-{synopt:{opt SH.DTH.INJR.3559.FE.ZS}} Cause of death, by injury, ages 35-59, female (% relevant age) {p_end}
-{synopt:{opt SH.DTH.INJR.3559.MA.ZS}} Cause of death, by injury, ages 35-59, male (% relevant age) {p_end}
+{synopt:{opt SH.DTH.INJR.1534.FE.ZS}} Cause of death, by injury, ages 15-34, female  (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.INJR.1534.MA.ZS}} Cause of death, by injury, ages 15-34, male (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.INJR.3559.FE.ZS}} Cause of death, by injury, ages 35-59, female (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.INJR.3559.MA.ZS}} Cause of death, by injury, ages 35-59, male (% of relevant age group) {p_end}
 {synopt:{opt SH.DTH.INJR.ZS}} Cause of death, by injury (% of total) {p_end}
 {synopt:{opt SH.DTH.MORT}} Number of under-five deaths {p_end}
-{synopt:{opt SH.DTH.NCOM.1534.FE.ZS}} Cause of death, by non-communicable diseases, ages 15-34, female (% relevant age) {p_end}
-{synopt:{opt SH.DTH.NCOM.1534.MA.ZS}} Cause of death, by non-communicable diseases, ages 15-34, male (% relevant age) {p_end}
-{synopt:{opt SH.DTH.NCOM.3559.FE.ZS}} Cause of death, by non-communicable diseases, ages 35-59, female (% relevant age) {p_end}
-{synopt:{opt SH.DTH.NCOM.3559.MA.ZS}} Cause of death, by non-communicable diseases, ages 35-59, male (% relevant age) {p_end}
+{synopt:{opt SH.DTH.NCOM.1534.FE.ZS}} Cause of death, by non-communicable diseases, ages 15-34, female (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.NCOM.1534.MA.ZS}} Cause of death, by non-communicable diseases, ages 15-34, male (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.NCOM.3559.FE.ZS}} Cause of death, by non-communicable diseases, ages 35-59, female (% of relevant age group) {p_end}
+{synopt:{opt SH.DTH.NCOM.3559.MA.ZS}} Cause of death, by non-communicable diseases, ages 35-59, male (% of relevant age group) {p_end}
 {synopt:{opt SH.DTH.NCOM.ZS}} Cause of death, by non-communicable diseases (% of total) {p_end}
 {synopt:{opt SH.DTH.NMRT}} Number of neonatal deaths {p_end}
 {synopt:{opt SH.DYN.0514}} Probability of dying at age 5-14 years (per 1,000 children age 5) {p_end}
@@ -10032,8 +10028,8 @@
 {synopt:{opt SH.HIV.1524.MA.HG.ZS}} Prevalence of HIV, young men 15-24 years (%; high estimate) {p_end}
 {synopt:{opt SH.HIV.1524.MA.LW.ZS}} Prevalence of HIV, young men 15-24 years (%; low estimate) {p_end}
 {synopt:{opt SH.HIV.1524.MA.ZS}} Prevalence of HIV, male (% ages 15-24) {p_end}
-{synopt:{opt SH.HIV.ARTC.FE.ZS}} Antiretroviral therapy coverage (% of adult females living with HIV) {p_end}
-{synopt:{opt SH.HIV.ARTC.MA.ZS}} Antiretroviral therapy coverage (% of adult males living with HIV) {p_end}
+{synopt:{opt SH.HIV.ARTC.FE.ZS}} Access to anti-retroviral drugs, female (%) {p_end}
+{synopt:{opt SH.HIV.ARTC.MA.ZS}} Access to anti-retroviral drugs, male (%) {p_end}
 {synopt:{opt SH.HIV.ARTC.ZS}} Antiretroviral therapy coverage (% of people living with HIV) {p_end}
 {synopt:{opt SH.HIV.DTS.HG.NUM}} AIDS deaths in adults and children (high estimate) {p_end}
 {synopt:{opt SH.HIV.DTS.LW.NUM}} AIDS deaths in adults and children (low estimate) {p_end}
@@ -10157,7 +10153,7 @@
 {synopt:{opt SH.MMR.LEVE}} Maternity leave (days paid) {p_end}
 {synopt:{opt SH.MMR.RISK.ZS}} Lifetime risk of maternal death (%) {p_end}
 {synopt:{opt SH.MMR.RISK}} Lifetime risk of maternal death (1 in: rate varies by country) {p_end}
-{synopt:{opt SH.MMR.WAGE.ZS}} Maternal leave benefits (% of wages paid) {p_end}
+{synopt:{opt SH.MMR.WAGE.ZS}} Maternity leave benefits (% of wages paid) {p_end}
 {synopt:{opt SH.MORB.ZS}} Morbidity Rate (in %) {p_end}
 {synopt:{opt SH.POLINDES.TOTL}} Number of Polindes (Poliklinik Desa/Village Polyclinic) {p_end}
 {synopt:{opt SH.PRG.ANEM}} Prevalence of anemia among pregnant women (%) {p_end}
@@ -10545,8 +10541,8 @@
 {synopt:{opt SL.EMP.MPYR.FE.ZS}} Employers, female (% of female employment) (modeled ILO estimate) {p_end}
 {synopt:{opt SL.EMP.MPYR.MA.ZS}} Employers, male (% of male employment) (modeled ILO estimate) {p_end}
 {synopt:{opt SL.EMP.MPYR.ZS}} Employers, total (% of total employment) (modeled ILO estimate) {p_end}
-{synopt:{opt SL.EMP.OWAC.FE.ZS}} Own-account workers, female (% of female employment) {p_end}
-{synopt:{opt SL.EMP.OWAC.MA.ZS}} Own-account workers, male (% of male employment) {p_end}
+{synopt:{opt SL.EMP.OWAC.FE.ZS}} Own-account workers, female (% of female employment) (modeled ILO estimate) {p_end}
+{synopt:{opt SL.EMP.OWAC.MA.ZS}} Own-account workers, male (% of male employment) (modeled ILO estimate) {p_end}
 {synopt:{opt SL.EMP.OWAC.ZS}} Own-account workers, total (% of total employment) {p_end}
 {synopt:{opt SL.EMP.SELF.FE.ZS}} Self-employed, female (% of female employment) (modeled ILO estimate) {p_end}
 {synopt:{opt SL.EMP.SELF.MA.ZS}} Self-employed, male (% of male employment) (modeled ILO estimate) {p_end}
@@ -10692,7 +10688,7 @@
 {synopt:{opt SL.TLF}} Number of people in labor force {p_end}
 {synopt:{opt SL.UEM.1524.FE.NE.ZS}} Unemployment, youth female (% of female labor force ages 15-24) (national estimate) {p_end}
 {synopt:{opt SL.UEM.1524.FE.ZS}} Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate) {p_end}
-{synopt:{opt SL.UEM.1524.FM.NE.ZS}} Ratio of female to male youth unemployment rate (% ages 15-24) (national estimate) {p_end}
+{synopt:{opt SL.UEM.1524.FM.NE.ZS}} Ratio of female to male youth unemployment rate (%) (national estimate) {p_end}
 {synopt:{opt SL.UEM.1524.FM.ZS}} Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate) {p_end}
 {synopt:{opt SL.UEM.1524.MA.NE.ZS}} Unemployment, youth male (% of male labor force ages 15-24) (national estimate) {p_end}
 {synopt:{opt SL.UEM.1524.MA.ZS}} Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate) {p_end}
@@ -10812,10 +10808,10 @@
 {synopt:{opt SP.DYN.LE00.FE.IN}} Life expectancy at birth, female (years) {p_end}
 {synopt:{opt SP.DYN.LE00.IN}} Life expectancy at birth, total (years) {p_end}
 {synopt:{opt SP.DYN.LE00.MA.IN}} Life expectancy at birth, male (years) {p_end}
-{synopt:{opt SP.DYN.LE60.FE.IN}} Life expectancy at age 60, female {p_end}
-{synopt:{opt SP.DYN.LE60.MA.IN}} Life expectancy at age 60, male {p_end}
-{synopt:{opt SP.DYN.SMAM.FE}} Mean age at first marriage, female {p_end}
-{synopt:{opt SP.DYN.SMAM.MA}} Mean age at first marriage, male {p_end}
+{synopt:{opt SP.DYN.LE60.FE.IN}} Life expectancy at age 60, female (years) {p_end}
+{synopt:{opt SP.DYN.LE60.MA.IN}} Life expectancy at age 60, male (years) {p_end}
+{synopt:{opt SP.DYN.SMAM.FE}} Age at first marriage, female {p_end}
+{synopt:{opt SP.DYN.SMAM.MA}} Age at first marriage, male {p_end}
 {synopt:{opt SP.DYN.TFRT.IN}} Fertility rate, total (births per woman) {p_end}
 {synopt:{opt SP.DYN.TFRT.Q1}} Total fertility rate (TFR) (births per woman): Q1 (lowest) {p_end}
 {synopt:{opt SP.DYN.TFRT.Q2}} Total fertility rate (TFR) (births per woman): Q2 {p_end}
@@ -11031,7 +11027,7 @@
 {synopt:{opt SP.POP.7579.MA.5Y}} Population ages 75-79, male (% of male population) {p_end}
 {synopt:{opt SP.POP.7579.MA}} Male population 75-79 {p_end}
 {synopt:{opt SP.POP.80UP.FE.5Y}} Population ages 80 and above, female (% of female population) {p_end}
-{synopt:{opt SP.POP.80UP.FE}} Population ages 80 and above, female {p_end}
+{synopt:{opt SP.POP.80UP.FE}} Female population 80+ {p_end}
 {synopt:{opt SP.POP.80UP.MA.5Y}} Population ages 80 and above, male (% of male population) {p_end}
 {synopt:{opt SP.POP.80UP.MA}} Male population 80+ {p_end}
 {synopt:{opt SP.POP.AG00.FE.IN}} Age population, age 0, female, interpolated {p_end}
@@ -11086,27 +11082,27 @@
 {synopt:{opt SP.POP.AG09.TO.UN}} Population, age 9, total {p_end}
 {synopt:{opt SP.POP.AG10.FE.IN}} Age population, age 10, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG10.FE.UN}} Population, age 10, female {p_end}
-{synopt:{opt SP.POP.AG10.MA.IN}} Age population, age 10, male {p_end}
+{synopt:{opt SP.POP.AG10.MA.IN}} Age population, age 10, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG10.MA.UN}} Population, age 10, male {p_end}
 {synopt:{opt SP.POP.AG10.TO.UN}} Population, age 10, total {p_end}
 {synopt:{opt SP.POP.AG11.FE.IN}} Age population, age 11, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG11.FE.UN}} Population, age 11, female {p_end}
-{synopt:{opt SP.POP.AG11.MA.IN}} Age population, age 11, male {p_end}
+{synopt:{opt SP.POP.AG11.MA.IN}} Age population, age 11, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG11.MA.UN}} Population, age 11, male {p_end}
 {synopt:{opt SP.POP.AG11.TO.UN}} Population, age 11, total {p_end}
 {synopt:{opt SP.POP.AG12.FE.IN}} Age population, age 12, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG12.FE.UN}} Population, age 12, female {p_end}
-{synopt:{opt SP.POP.AG12.MA.IN}} Age population, age 12, male {p_end}
+{synopt:{opt SP.POP.AG12.MA.IN}} Age population, age 12, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG12.MA.UN}} Population, age 12, male {p_end}
 {synopt:{opt SP.POP.AG12.TO.UN}} Population, age 12, total {p_end}
 {synopt:{opt SP.POP.AG13.FE.IN}} Age population, age 13, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG13.FE.UN}} Population, age 13, female {p_end}
-{synopt:{opt SP.POP.AG13.MA.IN}} Age population, age 13, male {p_end}
+{synopt:{opt SP.POP.AG13.MA.IN}} Age population, age 13, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG13.MA.UN}} Population, age 13, male {p_end}
 {synopt:{opt SP.POP.AG13.TO.UN}} Population, age 13, total {p_end}
 {synopt:{opt SP.POP.AG14.FE.IN}} Age population, age 14, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG14.FE.UN}} Population, age 14, female {p_end}
-{synopt:{opt SP.POP.AG14.MA.IN}} Age population, age 14, male {p_end}
+{synopt:{opt SP.POP.AG14.MA.IN}} Age population, age 14, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG14.MA.UN}} Population, age 14, male {p_end}
 {synopt:{opt SP.POP.AG14.TO.UN}} Population, age 14, total {p_end}
 {synopt:{opt SP.POP.AG15.FE.IN}} Age population, age 15, female, interpolated {p_end}
@@ -11158,7 +11154,7 @@
 {synopt:{opt SP.POP.AG24.FE.UN}} Population, age 24, female {p_end}
 {synopt:{opt SP.POP.AG24.MA.IN}} Age population, age 24, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG24.MA.UN}} Population, age 24, male {p_end}
-{synopt:{opt SP.POP.AG24.TO.UN}} Population, age 24, total {p_end}
+{synopt:{opt SP.POP.AG24.TO.UN}} Population, age 24, tota {p_end}
 {synopt:{opt SP.POP.AG25.FE.IN}} Age population, age 25, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG25.FE.UN}} Population, age 25, female {p_end}
 {synopt:{opt SP.POP.AG25.MA.IN}} Age population, age 25, male, interpolated {p_end}
@@ -11180,15 +11176,15 @@
 {synopt:{opt SP.POP.TOTL.MA.ZS}} Population, male (% of total) {p_end}
 {synopt:{opt SP.POP.TOTL.ZS}} Population (% of total) {p_end}
 {synopt:{opt SP.POP.TOTL}} Population, total {p_end}
-{synopt:{opt SP.PRE.TOTL.FE.IN}} Population of the official age for pre-primary education, female (number) {p_end}
-{synopt:{opt SP.PRE.TOTL.IN}} Population of the official age for pre-primary education, both sexes (number) {p_end}
-{synopt:{opt SP.PRE.TOTL.MA.IN}} Population of the official age for pre-primary education, male (number) {p_end}
-{synopt:{opt SP.PRM.GRAD.FE}} Population of the official age for the last grade of primary education, female (number) {p_end}
-{synopt:{opt SP.PRM.GRAD.MA}} Population of the official age for the last grade of primary education, male (number) {p_end}
-{synopt:{opt SP.PRM.GRAD.TO}} Population of the official age for the last grade of primary education, both sexes (number) {p_end}
-{synopt:{opt SP.PRM.TOTL.FE.IN}} Population of the official age for primary education, female (number) {p_end}
-{synopt:{opt SP.PRM.TOTL.IN}} Population of the official age for primary education, both sexes (number) {p_end}
-{synopt:{opt SP.PRM.TOTL.MA.IN}} Population of the official age for primary education, male (number) {p_end}
+{synopt:{opt SP.PRE.TOTL.FE.IN}} School age population, pre-primary education, female (number) {p_end}
+{synopt:{opt SP.PRE.TOTL.IN}} School age population, pre-primary education, both sexes (number) {p_end}
+{synopt:{opt SP.PRE.TOTL.MA.IN}} School age population, pre-primary education, male (number) {p_end}
+{synopt:{opt SP.PRM.GRAD.FE}} School age population, last grade of primary education, female (number) {p_end}
+{synopt:{opt SP.PRM.GRAD.MA}} School age population, last grade of primary education, male (number) {p_end}
+{synopt:{opt SP.PRM.GRAD.TO}} School age population, last grade of primary education, both sexes (number) {p_end}
+{synopt:{opt SP.PRM.TOTL.FE.IN}} School age population, primary education, female (number) {p_end}
+{synopt:{opt SP.PRM.TOTL.IN}} School age population, primary education, both sexes (number) {p_end}
+{synopt:{opt SP.PRM.TOTL.MA.IN}} School age population, primary education, male (number) {p_end}
 {synopt:{opt SP.REG.BRTH.FE.ZS}} Completeness of birth registration, female (%) {p_end}
 {synopt:{opt SP.REG.BRTH.MA.ZS}} Completeness of birth registration, male (%) {p_end}
 {synopt:{opt SP.REG.BRTH.Q1.ZS}} Completeness of birth registration (%): Q1 (lowest) {p_end}
@@ -11205,18 +11201,18 @@
 {synopt:{opt SP.RUR.TOTL.ZG}} Rural population growth (annual %) {p_end}
 {synopt:{opt SP.RUR.TOTL.ZS}} Rural population (% of total population) {p_end}
 {synopt:{opt SP.RUR.TOTL}} Rural population {p_end}
-{synopt:{opt SP.SEC.LTOT.FE.IN}} Population of the official age for lower secondary education, female (number) {p_end}
-{synopt:{opt SP.SEC.LTOT.IN}} Population of the official age for lower secondary education, both sexes (number) {p_end}
-{synopt:{opt SP.SEC.LTOT.MA.IN}} Population of the official age for lower secondary education, male (number) {p_end}
-{synopt:{opt SP.SEC.TOTL.FE.IN}} Population of the official age for secondary education, female (number) {p_end}
-{synopt:{opt SP.SEC.TOTL.IN}} Population of the official age for secondary education, both sexes (number) {p_end}
-{synopt:{opt SP.SEC.TOTL.MA.IN}} Population of the official age for secondary education, male (number) {p_end}
-{synopt:{opt SP.SEC.UTOT.FE.IN}} Population of the official age for upper secondary education, female (number) {p_end}
-{synopt:{opt SP.SEC.UTOT.IN}} Population of the official age for upper secondary education, both sexes (number) {p_end}
-{synopt:{opt SP.SEC.UTOT.MA.IN}} Population of the official age for upper secondary education, male (number) {p_end}
-{synopt:{opt SP.TER.TOTL.FE.IN}} Population of the official age for tertiary education, female (number) {p_end}
-{synopt:{opt SP.TER.TOTL.IN}} Population of the official age for tertiary education, both sexes (number) {p_end}
-{synopt:{opt SP.TER.TOTL.MA.IN}} Population of the official age for tertiary education, male (number) {p_end}
+{synopt:{opt SP.SEC.LTOT.FE.IN}} School age population, lower secondary education, female (number) {p_end}
+{synopt:{opt SP.SEC.LTOT.IN}} School age population, lower secondary education, both sexes (number) {p_end}
+{synopt:{opt SP.SEC.LTOT.MA.IN}} School age population, lower secondary education, male (number) {p_end}
+{synopt:{opt SP.SEC.TOTL.FE.IN}} School age population, secondary education, female (number) {p_end}
+{synopt:{opt SP.SEC.TOTL.IN}} School age population, secondary education, both sexes (number) {p_end}
+{synopt:{opt SP.SEC.TOTL.MA.IN}} School age population, secondary education, male (number) {p_end}
+{synopt:{opt SP.SEC.UTOT.FE.IN}} School age population, upper secondary education, female (number) {p_end}
+{synopt:{opt SP.SEC.UTOT.IN}} School age population, upper secondary education, both sexes (number) {p_end}
+{synopt:{opt SP.SEC.UTOT.MA.IN}} School age population, upper secondary education, male (number) {p_end}
+{synopt:{opt SP.TER.TOTL.FE.IN}} School age population, tertiary education, female (number) {p_end}
+{synopt:{opt SP.TER.TOTL.IN}} School age population, tertiary education, both sexes (number) {p_end}
+{synopt:{opt SP.TER.TOTL.MA.IN}} School age population, tertiary education, male (number) {p_end}
 {synopt:{opt SP.URB.GROW}} Urban population growth (annual %) {p_end}
 {synopt:{opt SP.URB.LCTY.UR.ZS}} Population in the largest city (% of urban population) {p_end}
 {synopt:{opt SP.URB.LCTY}} Population in largest city {p_end}
@@ -11586,20 +11582,11 @@
 {synopt:{opt UIS.AFR.PBR.1.PU.MATH}} Africa Dataset: Average number of pupils per mathematics textbook in primary education (number) {p_end}
 {synopt:{opt UIS.AFR.PBR.1.PU.READ}} Africa Dataset: Average number of pupils per reading textbook in primary education (number) {p_end}
 {synopt:{opt UIS.AFR.SCHBSP.1.PU.MIXTOIL}} Africa Dataset: Percentage of primary schools with mixed-sex toilets (%) {p_end}
-{synopt:{opt UIS.AFR.SCHBSP.1.PU.WELEC}} Africa Dataset: Percentage of primary schools with access to electricity (%) {p_end}
+{synopt:{opt UIS.AFR.SCHBSP.1.PU.WELEC}} Africa Dataset: Proportion of public primary schools with access to electricity (%) {p_end}
 {synopt:{opt UIS.AFR.SCHBSP.2.PU.MIXTOIL}} Africa Dataset: Percentage of lower secondary schools with mixed-sex toilets (%) {p_end}
-{synopt:{opt UIS.AFR.SCHBSP.2.PU.WELEC}} Africa Dataset: Percentage of lower secondary schools with access to electricity (%) {p_end}
+{synopt:{opt UIS.AFR.SCHBSP.2.PU.WELEC}} Africa Dataset: Proportion of public lower secondary schools with access to electricity (%) {p_end}
 {synopt:{opt UIS.AFR.SCHCENRESPR.1.PU}} Africa Dataset: School census return rate from primary schools {p_end}
 {synopt:{opt UIS.AFR.SCHCENRESPR.23.PU}} Africa Dataset: School census return rate from secondary schools {p_end}
-{synopt:{opt UIS.AFR.TATTRR.1.PU.F}} Africa Dataset: Teacher attrition rate from public primary education, female (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.1.PU.M}} Africa Dataset: Teacher attrition rate from public primary education, male (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.1.PU.T}} Africa Dataset: Teacher attrition rate from public primary education, both sexes (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.2.PU.T}} Africa Dataset: Teacher attrition rate from public lower secondary education, both sexes (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.2.Pu.F}} Africa Dataset: Teacher attrition rate from public lower secondary education, female (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.2.Pu.M}} Africa Dataset: Teacher attrition rate from public lower secondary education, male (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.3.Pu.F}} Africa Dataset: Teacher attrition rate from public upper secondary education, female (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.3.Pu.M}} Africa Dataset: Teacher attrition rate from public upper secondary education, male (%) {p_end}
-{synopt:{opt UIS.AFR.TATTRR.3.Pu.T}} Africa Dataset: Teacher attrition rate from public upper secondary education, both sexes (%) {p_end}
 {synopt:{opt UIS.AFR.TRNTP.1.PU.F}} Africa Dataset: Percentage of female newly recruited teachers in primary education who are trained, female (%) {p_end}
 {synopt:{opt UIS.AFR.TRNTP.1.PU.M}} Africa Dataset: Percentage of male newly recruited teachers in primary education who are trained, male (%) {p_end}
 {synopt:{opt UIS.AFR.TRNTP.1.PU.T}} Africa Dataset: Percentage of newly recruited teachers in primary education who are trained, both sexes (%) {p_end}
@@ -11654,10 +11641,10 @@
 {synopt:{opt UIS.DR.2.GPV.M}} Cumulative drop-out rate to the last grade of lower secondary general education, male (%) {p_end}
 {synopt:{opt UIS.DR.2.GPV.T}} Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%) {p_end}
 {synopt:{opt UIS.E.0.F}} Enrolment in early childhood education, female (number) {p_end}
-{synopt:{opt UIS.E.0.PR.F}} Enrolment in pre-primary education, private institutions, female (number) {p_end}
+{synopt:{opt UIS.E.0.PR.F}} Enrolment in early childhood education, private institutions, female (number) {p_end}
 {synopt:{opt UIS.E.0.PR.T}} Enrolment in early childhood education, private institutions, both sexes (number) {p_end}
 {synopt:{opt UIS.E.0.PU.T}} Enrolment in early childhood education, public institutions, both sexes (number) {p_end}
-{synopt:{opt UIS.E.0.Pu.F}} Enrolment in pre-primary education, public institutions, female (number) {p_end}
+{synopt:{opt UIS.E.0.Pu.F}} Enrolment in early childhood education, public institutions, female (number) {p_end}
 {synopt:{opt UIS.E.0.T}} Enrolment in early childhood education, both sexes (number) {p_end}
 {synopt:{opt UIS.E.01.F}} Enrolment in early childhood educational development programmes, female (number) {p_end}
 {synopt:{opt UIS.E.01.PR.F}} Enrolment in early childhood educational development programmes, private institutions, female (number) {p_end}
@@ -11720,6 +11707,7 @@
 {synopt:{opt UIS.E.3.F}} Enrolment in upper secondary education, female (number) {p_end}
 {synopt:{opt UIS.E.3.GPV.F}} Enrolment in upper secondary general, female (number) {p_end}
 {synopt:{opt UIS.E.3.GPV}} Enrolment in upper secondary general, both sexes (number) {p_end}
+{synopt:{opt UIS.E.3.M}} Enrolment in upper secondary education, male (number) {p_end}
 {synopt:{opt UIS.E.3.PR.F}} Enrolment in upper secondary education, private institutions, female (number) {p_end}
 {synopt:{opt UIS.E.3.PR}} Enrolment in upper secondary education, private institutions, both sexes (number) {p_end}
 {synopt:{opt UIS.E.3.PU.F}} Enrolment in upper secondary education, public institutions, female (number) {p_end}
@@ -11794,9 +11782,9 @@
 {synopt:{opt UIS.EA.8.AG25T99.GPI}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Gender Parity Index {p_end}
 {synopt:{opt UIS.EA.8.AG25T99.M}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Male {p_end}
 {synopt:{opt UIS.EA.8.AG25T99}} UIS: Percentage of population age 25+ with a doctoral degree or equivalent (ISCED 8). Total {p_end}
-{synopt:{opt UIS.EA.MEAN.1T6.AG25T99.F}} UIS: Mean years of schooling of the population age 25+. Female {p_end}
-{synopt:{opt UIS.EA.MEAN.1T6.AG25T99.M}} UIS: Mean years of schooling of the population age 25+. Male {p_end}
-{synopt:{opt UIS.EA.MEAN.1T6.AG25T99}} UIS: Mean years of schooling of the population age 25+. Total {p_end}
+{synopt:{opt UIS.EA.MEAN.1T6.AG25T99.F}} UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Female {p_end}
+{synopt:{opt UIS.EA.MEAN.1T6.AG25T99.M}} UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Male {p_end}
+{synopt:{opt UIS.EA.MEAN.1T6.AG25T99}} UIS: Mean years of schooling (ISCED 1 or higher) of the population age 25+. Total {p_end}
 {synopt:{opt UIS.EA.NS.AG25T99.F}} UIS: Percentage of population age 25+ with no schooling. Female {p_end}
 {synopt:{opt UIS.EA.NS.AG25T99.M}} UIS: Percentage of population age 25+ with no schooling. Male {p_end}
 {synopt:{opt UIS.EA.NS.AG25T99}} UIS: Percentage of population age 25+ with no schooling. Total {p_end}
@@ -11806,10 +11794,10 @@
 {synopt:{opt UIS.EA.UK.AG25T99.F}} UIS: Percentage of population age 25+ with unknown educational attainment. Female {p_end}
 {synopt:{opt UIS.EA.UK.AG25T99.M}} UIS: Percentage of population age 25+ with unknown educational attainment. Male {p_end}
 {synopt:{opt UIS.EA.UK.AG25T99}} UIS: Percentage of population age 25+ with unknown educational attainment. Total {p_end}
-{synopt:{opt UIS.ECDP.1.F}} Percentage of new entrants to Grade 1 of primary education with early childhood educational experience, female (%) {p_end}
-{synopt:{opt UIS.ECDP.1.GPI}} Percentage of new entrants to Grade 1 of primary education with early childhood educational experience, gender parity index (GPI) {p_end}
-{synopt:{opt UIS.ECDP.1.M}} Percentage of new entrants to Grade 1 of primary education with early childhood educational experience, male (%) {p_end}
-{synopt:{opt UIS.ECDP.1}} Percentage of new entrants to Grade 1 of primary education with early childhood educational experience, both sexes (%) {p_end}
+{synopt:{opt UIS.ECDP.1.F}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, female (%) {p_end}
+{synopt:{opt UIS.ECDP.1.GPI}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.ECDP.1.M}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, male (%) {p_end}
+{synopt:{opt UIS.ECDP.1}} Percentage of new entrants to Grade 1 of primary education with early childhood education experience, both sexes (%) {p_end}
 {synopt:{opt UIS.ESL.1.F}} Early school leavers from primary education, female (number) {p_end}
 {synopt:{opt UIS.ESL.1.M}} Early school leavers from primary education, male (number) {p_end}
 {synopt:{opt UIS.ESL.1.T}} Early school leavers from primary education, both sexes (number) {p_end}
@@ -11827,13 +11815,13 @@
 {synopt:{opt UIS.FEP.5.B}} Percentage of students in tertiary ISCED 5 programmes who are female (%) {p_end}
 {synopt:{opt UIS.FEP.56.F1000}} Percentage of students enrolled in Services programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt UIS.FEP.56.F140}} Percentage of students enrolled in Education programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F200}} Percentage of students enrolled in Humanities and Arts programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F300}} Percentage of students enrolled in Social Sciences, Business and Law programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F400}} Percentage of students enrolled in Science programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F500}} Percentage of students enrolled in Engineering, Manufacturing and Construction programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F600}} Percentage of students enrolled in Agriculture programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F700}} Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%) {p_end}
-{synopt:{opt UIS.FEP.56.F800}} Percentage of students enrolled in Services programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F200}} Percentage of students enrolled in Arts and Humanities programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F300}} Percentage of students enrolled in Social Sciences, Journalism and Information programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F400}} Percentage of students enrolled in Business, Administration and Law programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F500}} Percentage of students enrolled in Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F600}} Percentage of students enrolled in Information and Communication Technologies programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F700}} Percentage of students enrolled in Engineering, Manufacturing and Construction programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt UIS.FEP.56.F800}} Percentage of students enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt UIS.FEP.56.F900}} Percentage of students enrolled in Health and Welfare programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt UIS.FEP.56.FOREIGN}} Percentage of all inbound internationally mobile students in tertiary education in the host country who are female, (%) {p_end}
 {synopt:{opt UIS.FEP.56.FUK}} Percentage of students enrolled in programmes in unspecified fields in tertiary education who are female (%) {p_end}
@@ -11855,51 +11843,57 @@
 {synopt:{opt UIS.FOSEP.56.F1000.F}} Percentage of students in tertiary education enrolled in Services programmes, female (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.F1000.M}} Percentage of students in tertiary education enrolled in Services programmes, male (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.F1000}} Percentage of students in tertiary education enrolled in Services programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F140.F}} Percentage of female students in tertiary education enrolled in Education programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F140.M}} Percentage of male students in tertiary education enrolled in Education programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F140.F}} Percentage of students in tertiary education enrolled in Education programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F140.M}} Percentage of students in tertiary education enrolled in Education programmes, male (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.F140}} Percentage of students in tertiary education enrolled in Education programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F200.F}} Percentage of female students in tertiary education enrolled in Humanities and Arts programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F200.M}} Percentage of male students in tertiary education enrolled in Humanities and Arts programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F200}} Percentage of students in tertiary education enrolled in Humanities and Arts programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F300.F}} Percentage of female students in tertiary education enrolled in Social Sciences, Business and Law programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F300.M}} Percentage of male students in tertiary education enrolled in Social Sciences, Business and Law programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F300}} Percentage of students in tertiary education enrolled in Social Sciences, Business and Law programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F400.F}} Percentage of female students in tertiary education enrolled in Science programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F400.M}} Percentage of male students in tertiary education enrolled in Science programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F400}} Percentage of students in tertiary education enrolled in Science programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F500.F}} Percentage of female students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F500.M}} Percentage of male students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F500}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F600.F}} Percentage of female students in tertiary education enrolled in Agriculture programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F600.M}} Percentage of male students in tertiary education enrolled in Agriculture programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F600}} Percentage of students in tertiary education enrolled in Agriculture programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F700.F}} Percentage of female students in tertiary education enrolled in Health and Welfare programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F700.M}} Percentage of male students in tertiary education enrolled in Health and Welfare programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F700}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F800.F}} Percentage of female students in tertiary education enrolled in Services programmes, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F800.M}} Percentage of male students in tertiary education enrolled in Services programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.F800}} Percentage of students in tertiary education enrolled in Services programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F200.F}} Percentage of students in tertiary education enrolled in Arts and Humanities programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F200.M}} Percentage of students in tertiary education enrolled in Arts and Humanities programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F200}} Percentage of students in tertiary education enrolled in Arts and Humanities programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F300.F}} Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F300.M}} Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F300}} Percentage of students in tertiary education enrolled in Social Sciences, Journalism and Information programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F400.F}} Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F400.M}} Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F400}} Percentage of students in tertiary education enrolled in Business, Administration and Law programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F500.F}} Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F500.M}} Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F500}} Percentage of students in tertiary education enrolled in Natural Sciences, Mathematics and Statistics programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F600.F}} Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F600.M}} Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F600}} Percentage of students in tertiary education enrolled in Information and Communication Technologies programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F700.F}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F700.M}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F700}} Percentage of students in tertiary education enrolled in Engineering, Manufacturing and Construction programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F800.F}} Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F800.M}} Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.F800}} Percentage of students in tertiary education enrolled in Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.F900.F}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, female (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.F900.M}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, male (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.F900}} Percentage of students in tertiary education enrolled in Health and Welfare programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.FUK.F}} Percentage of female students in tertiary education enrolled in programmes in unspecified fields, female (%) {p_end}
-{synopt:{opt UIS.FOSEP.56.FUK.M}} Percentage of male students in tertiary education enrolled in programmes in unspecified fields, male (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.FUK.F}} Percentage of students in tertiary education enrolled in unspecified fields, female (%) {p_end}
+{synopt:{opt UIS.FOSEP.56.FUK.M}} Percentage of students in tertiary education enrolled in unspecified fields, male (%) {p_end}
 {synopt:{opt UIS.FOSEP.56.FUK}} Percentage of students in tertiary education enrolled in programmes in unspecified fields, both sexes (%) {p_end}
 {synopt:{opt UIS.FOSGP.56.F140.M}} Percentage of male graduates from tertiary education graduating from Education programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F200.M}} Percentage of male graduates from tertiary education graduating from Humanities and Arts programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F300.M}} Percentage of male graduates from tertiary education graduating from Social Sciences, Business and Law programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F400.M}} Percentage of male graduates from tertiary education graduating from Science programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F500.M}} Percentage of male graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F600.M}} Percentage of male graduates from tertiary education graduating from Agriculture programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F700.M}} Percentage of male graduates from tertiary education graduating from Health and Welfare programmes, male (%) {p_end}
-{synopt:{opt UIS.FOSGP.56.F800.M}} Percentage of male graduates from tertiary education graduating from Services programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F200.M}} Percentage of male graduates from tertiary education graduating from Arts and Humanities programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F300.M}} Percentage of male graduates from tertiary education graduating from Social Sciences, Journalism and Information programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F400.M}} Percentage of male graduates from tertiary education graduating from Business, Administration and Law programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F500.M}} Percentage of male graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F600.M}} Percentage of male graduates from tertiary education graduating from Information and Communication Technologies programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F700.M}} Percentage of male graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.56.F800.M}} Percentage of male graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, male (%) {p_end}
 {synopt:{opt UIS.FOSGP.56.FUK.M}} Percentage of male graduates from tertiary education graduating from programmes in unspecified fields, male (%) {p_end}
 {synopt:{opt UIS.FOSGP.5T8.F1000.M}} Percentage of male graduates from tertiary education graduating from Services programmes, male (%) {p_end}
 {synopt:{opt UIS.FOSGP.5T8.F400.F}} Percentage of female graduates from tertiary education graduating from Business, Administration and Law programmes, female (%) {p_end}
 {synopt:{opt UIS.FOSGP.5T8.F400}} Percentage of graduates from tertiary education graduating from Business, Administration and Law  programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.FOSGP.5T8.F500600700.F}} Percentage of female graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education, female (%) {p_end}
+{synopt:{opt UIS.FOSGP.5T8.F500600700.M}} Percentage of male graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.5T8.F500600700}} Percentage of graduates from Science, Technology, Engineering and Mathematics programmes in tertiary education, both sexes (%) {p_end}
 {synopt:{opt UIS.FOSGP.5T8.F600.F}} Percentage of female graduates from tertiary education graduating from Information and Communication Technologies programmes, female (%) {p_end}
 {synopt:{opt UIS.FOSGP.5T8.F600}} Percentage of graduates from tertiary education graduating from Information and Communication Technologies programmes, both sexes (%) {p_end}
 {synopt:{opt UIS.FOSGP.5T8.F900.M}} Percentage of male graduates from tertiary education graduating from Health and Welfare programmes, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.5T8.FNON500600700.F}} Percentage of female graduates from programmes other than Science, Technology, Engineering and Mathematics in tertiary education, female (%) {p_end}
+{synopt:{opt UIS.FOSGP.5T8.FNON500600700.M}} Percentage of male graduates from programmes other than Science, Technology, Engineering and Mathematics in tertiary education, male (%) {p_end}
+{synopt:{opt UIS.FOSGP.5T8.FNON500600700}} Percentage of graduates from programmes other than Science, Technology, Engineering and Mathematics in tertiary education, both sexes (%) {p_end}
 {synopt:{opt UIS.FTP.2}} Percentage of teachers in lower secondary education who are female (%) {p_end}
 {synopt:{opt UIS.FTP.3}} Percentage of teachers in upper secondary education who are female (%) {p_end}
 {synopt:{opt UIS.FTP.4}} Percentage of teachers in post-secondary non-tertiary education who are female (%) {p_end}
@@ -11929,33 +11923,33 @@
 {synopt:{opt UIS.GER.4.M}} Gross enrolment ratio, post-secondary non-tertiary, male (%) {p_end}
 {synopt:{opt UIS.GER.4}} Gross enrolment ratio, post-secondary non-tertiary, both sexes (%) {p_end}
 {synopt:{opt UIS.GGR.1.GPI}} Gross graduation ratio from primary education, gender parity index (GPI) {p_end}
-{synopt:{opt UIS.GGR.2.F}} Gross lower secondary graduation ratio. All programmes. Female {p_end}
+{synopt:{opt UIS.GGR.2.F}} Gross graduation ratio from lower secondary education, female (%) {p_end}
 {synopt:{opt UIS.GGR.2.GPI}} Gross graduation ratio from lower secondary education, gender parity index (GPI) {p_end}
-{synopt:{opt UIS.GGR.2.M}} Gross lower secondary graduation ratio. All programmes. Male {p_end}
+{synopt:{opt UIS.GGR.2.M}} Gross graduation ratio from lower secondary education, male (%) {p_end}
 {synopt:{opt UIS.GGR.2}} Gross graduation ratio from lower secondary education, both sexes (%) {p_end}
 {synopt:{opt UIS.GGR.5.A.GPI}} Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, gender parity index (GPI) {p_end}
 {synopt:{opt UIS.GOER.56}} Gross outbound enrolment ratio, all regions, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.2.GPV.F}} Percentage of female students in lower secondary education enrolled in general programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.2.GPV.M}} Percentage of male students in lower secondary education enrolled in general programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.2.GPV}} Percentage of students in lower secondary education enrolled in general programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.2.V.F}} Percentage of female students in lower secondary education enrolled in vocational programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.2.V.M}} Percentage of male students in lower secondary education enrolled in vocational programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.2.V}} Percentage of students in lower secondary education enrolled in vocational programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.23.GPV.F}} Percentage of female students in secondary education enrolled in general programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.23.GPV.M}} Percentage of male students in secondary education enrolled in general programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.23.GPV}} Percentage of students in secondary education enrolled in general programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.3.GPV.F}} Percentage of female students in upper secondary education enrolled in general programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.3.GPV.M}} Percentage of male students in upper secondary education enrolled in general programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.3.GPV}} Percentage of students in upper secondary education enrolled in general programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.3.V.F}} Percentage of female students in upper secondary education enrolled in vocational programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.3.V.M}} Percentage of male students in upper secondary education enrolled in vocational programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.3.V}} Percentage of students in upper secondary education enrolled in vocational programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.4.GPV.F}} Percentage of female students in post-secondary non-tertiary education enrolled in general programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.4.GPV.M}} Percentage of male students in post-secondary non-tertiary education enrolled in general programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.4.GPV}} Percentage of students in post-secondary non-tertiary education enrolled in general programmes, both sexes (%) {p_end}
-{synopt:{opt UIS.GTVP.4.V.F}} Percentage of female students in post-secondary non-tertiary education enrolled in vocational programmes, female (%) {p_end}
-{synopt:{opt UIS.GTVP.4.V.M}} Percentage of male students in post-secondary non-tertiary education enrolled in vocational programmes, male (%) {p_end}
-{synopt:{opt UIS.GTVP.4.V}} Percentage of students in post-secondary non-tertiary education enrolled in vocational programmes, both sexes (%) {p_end}
+{synopt:{opt UIS.GTVP.2.GPV.F}} Share of female students in lower secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.2.GPV.M}} Share of male students in lower secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.2.GPV}} Share of all students in lower secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.2.V.F}} Share of female students in lower secondary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.2.V.M}} Share of male students in lower secondary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.2.V}} Share of all students in lower secondary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.23.GPV.F}} Share of female students in secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.23.GPV.M}} Share of male students in secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.23.GPV}} Share of all students in secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.3.GPV.F}} Share of female students in upper secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.3.GPV.M}} Share of male students in upper secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.3.GPV}} Share of all students in upper secondary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.3.V.F}} Share of female students in upper secondary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.3.V.M}} Share of male students in upper secondary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.3.V}} Share of all students in upper secondary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.4.GPV.F}} Share of female students in post-secondary non-tertiary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.4.GPV.M}} Share of male students in post-secondary non-tertiary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.4.GPV}} Share of all students in post-secondary non-tertiary education enrolled in general programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.4.V.F}} Share of female students in post-secondary non-tertiary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.4.V.M}} Share of male students in post-secondary non-tertiary education enrolled in vocational programmes (%) {p_end}
+{synopt:{opt UIS.GTVP.4.V}} Share of all students in post-secondary non-tertiary education enrolled in vocational programmes (%) {p_end}
 {synopt:{opt UIS.ILLPOP.AG25T64.F}} Illiterate population, 25-64 years, female (number) {p_end}
 {synopt:{opt UIS.ILLPOP.AG25T64.M}} Illiterate population, 25-64 years, male (number) {p_end}
 {synopt:{opt UIS.ILLPOP.AG25T64}} Illiterate population, 25-64 years, both sexes (number) {p_end}
@@ -11989,135 +11983,135 @@
 {synopt:{opt UIS.MSEP.56.M}} Inbound mobility rate, male (%) {p_end}
 {synopt:{opt UIS.MSEP.56}} Inbound mobility rate, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.F}} UIS: Net attendance rate, primary, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.GPI}} UIS: Net attendance rate, primary, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.GPIA}} UIS: Net attendance rate, primary, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.M}} UIS: Net attendance rate, primary, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q1.F}} UIS: Net attendance rate, primary, poorest quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.Q1.GPI}} UIS: Net attendance rate, primary, poorest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.Q1.GPIA}} UIS: Net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.Q1.M}} UIS: Net attendance rate, primary, poorest quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q1}} UIS: Net attendance rate, primary, poorest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q2.F}} UIS: Net attendance rate, primary, second quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.Q2.GPI}} UIS: Net attendance rate, primary, second quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.Q2.GPIA}} UIS: Net attendance rate, primary, second quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.Q2.M}} UIS: Net attendance rate, primary, second quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q2}} UIS: Net attendance rate, primary, second quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q3.F}} UIS: Net attendance rate, primary, middle quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.Q3.GPI}} UIS: Net attendance rate, primary, middle quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.Q3.GPIA}} UIS: Net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.Q3.M}} UIS: Net attendance rate, primary, middle quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q3}} UIS: Net attendance rate, primary, middle quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q4.F}} UIS: Net attendance rate, primary, fourth quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.Q4.GPI}} UIS: Net attendance rate, primary, fourth quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.Q4.GPIA}} UIS: Net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.Q4.M}} UIS: Net attendance rate, primary, fourth quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q4}} UIS: Net attendance rate, primary, fourth quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q5.F}} UIS: Net attendance rate, primary, richest quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.Q5.GPI}} UIS: Net attendance rate, primary, richest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.Q5.GPIA}} UIS: Net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.Q5.M}} UIS: Net attendance rate, primary, richest quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.Q5}} UIS: Net attendance rate, primary, richest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.RUR.F}} UIS: Net attendance rate, primary, rural, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.RUR.GPI}} UIS: Net attendance rate, primary, rural, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.RUR.GPIA}} UIS: Net attendance rate, primary, rural, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.RUR.M}} UIS: Net attendance rate, primary, rural, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.RUR}} UIS: Net attendance rate, primary, rural, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1.URB.F}} UIS: Net attendance rate, primary, urban, female (%) {p_end}
-{synopt:{opt UIS.NAR.1.URB.GPI}} UIS: Net attendance rate, primary, urban, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.1.URB.GPIA}} UIS: Net attendance rate, primary, urban, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.1.URB.M}} UIS: Net attendance rate, primary, urban, male (%) {p_end}
 {synopt:{opt UIS.NAR.1.URB}} UIS: Net attendance rate, primary, urban, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.1}} UIS: Net attendance rate, primary, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.F}} UIS: Net attendance rate, lower secondary, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.GPI}} UIS: Net attendance rate, lower secondary, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.GPIA}} UIS: Net attendance rate, lower secondary, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.M}} UIS: Net attendance rate, lower secondary, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q1.F}} UIS: Net attendance rate, lower secondary, poorest quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.Q1.GPI}} UIS: Net attendance rate, lower secondary, poorest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.Q1.GPIA}} UIS: Net attendance rate, lower secondary, poorest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.Q1.M}} UIS: Net attendance rate, lower secondary, poorest quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q1}} UIS: Net attendance rate, lower secondary, poorest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q2.F}} UIS: Net attendance rate, lower secondary, second quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.Q2.GPI}} UIS: Net attendance rate, lower secondary, second quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.Q2.GPIA}} UIS: Net attendance rate, lower secondary, second quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.Q2.M}} UIS: Net attendance rate, lower secondary, second quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q2}} UIS: Net attendance rate, lower secondary, second quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q3.F}} UIS: Net attendance rate, lower secondary, middle quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.Q3.GPI}} UIS: Net attendance rate, lower secondary, middle quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.Q3.GPIA}} UIS: Net attendance rate, lower secondary, middle quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.Q3.M}} UIS: Net attendance rate, lower secondary, middle quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q3}} UIS: Net attendance rate, lower secondary, middle quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q4.F}} UIS: Net attendance rate, lower secondary, fourth quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.Q4.GPI}} UIS: Net attendance rate, lower secondary, fourth quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.Q4.GPIA}} UIS: Net attendance rate, lower secondary, fourth quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.Q4.M}} UIS: Net attendance rate, lower secondary, fourth quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q4}} UIS: Net attendance rate, lower secondary, fourth quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q5.F}} UIS: Net attendance rate, lower secondary, richest quintile, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.Q5.GPI}} UIS: Net attendance rate, lower secondary, richest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.Q5.GPIA}} UIS: Net attendance rate, lower secondary, richest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.Q5.M}} UIS: Net attendance rate, lower secondary, richest quintile, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.Q5}} UIS: Net attendance rate, lower secondary, richest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.RUR.F}} UIS: Net attendance rate, lower secondary, rural, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.RUR.GPI}} UIS: Net attendance rate, lower secondary, rural, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.RUR.GPIA}} UIS: Net attendance rate, lower secondary, rural, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.RUR.M}} UIS: Net attendance rate, lower secondary, rural, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.RUR}} UIS: Net attendance rate, lower secondary, rural, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2.URB.F}} UIS: Net attendance rate, lower secondary, urban, female (%) {p_end}
-{synopt:{opt UIS.NAR.2.URB.GPI}} UIS: Net attendance rate, lower secondary, urban, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NAR.2.URB.GPIA}} UIS: Net attendance rate, lower secondary, urban, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NAR.2.URB.M}} UIS: Net attendance rate, lower secondary, urban, male (%) {p_end}
 {synopt:{opt UIS.NAR.2.URB}} UIS: Net attendance rate, lower secondary, urban, both sexes (%) {p_end}
 {synopt:{opt UIS.NAR.2}} UIS: Net attendance rate, lower secondary, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.F}} UIS: Adjusted net attendance rate, primary, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.GPI}} UIS: Adjusted net attendance rate, primary, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.GPIA}} UIS: Adjusted net attendance rate, primary, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.M}} UIS: Adjusted net attendance rate, primary, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q1.F}} UIS: Adjusted net attendance rate, primary, poorest quintile, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.Q1.GPI}} UIS: Adjusted net attendance rate, primary, poorest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.Q1.GPIA}} UIS: Adjusted net attendance rate, primary, poorest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.Q1.M}} UIS: Adjusted net attendance rate, primary, poorest quintile, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q1}} UIS: Adjusted net attendance rate, primary, poorest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q2.F}} UIS: Adjusted net attendance rate, primary, second quintile, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.Q2.GPI}} UIS: Adjusted net attendance rate, primary, second quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.Q2.GPIA}} UIS: Adjusted net attendance rate, primary, second quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.Q2.M}} UIS: Adjusted net attendance rate, primary, second quintile, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q2}} UIS: Adjusted net attendance rate, primary, second quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q3.F}} UIS: Adjusted net attendance rate, primary, middle quintile, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.Q3.GPI}} UIS: Adjusted net attendance rate, primary, middle quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.Q3.GPIA}} UIS: Adjusted net attendance rate, primary, middle quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.Q3.M}} UIS: Adjusted net attendance rate, primary, middle quintile, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q3}} UIS: Adjusted net attendance rate, primary, middle quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q4.F}} UIS: Adjusted net attendance rate, primary, fourth quintile, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.Q4.GPI}} UIS: Adjusted net attendance rate, primary, fourth quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.Q4.GPIA}} UIS: Adjusted net attendance rate, primary, fourth quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.Q4.M}} UIS: Adjusted net attendance rate, primary, fourth quintile, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q4}} UIS: Adjusted net attendance rate, primary, fourth quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q5.F}} UIS: Adjusted net attendance rate, primary, richest quintile, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.Q5.GPI}} UIS: Adjusted net attendance rate, primary, richest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.Q5.GPIA}} UIS: Adjusted net attendance rate, primary, richest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.Q5.M}} UIS: Adjusted net attendance rate, primary, richest quintile, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.Q5}} UIS: Adjusted net attendance rate, primary, richest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.RUR.F}} UIS: Adjusted net attendance rate, primary, rural, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.RUR.GPI}} UIS: Adjusted net attendance rate, primary, rural, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.RUR.GPIA}} UIS: Adjusted net attendance rate, primary, rural, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.RUR.M}} UIS: Adjusted net attendance rate, primary, rural, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.RUR}} UIS: Adjusted net attendance rate, primary, rural, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1.URB.F}} UIS: Adjusted net attendance rate, primary, urban, female (%) {p_end}
-{synopt:{opt UIS.NARA.1.URB.GPI}} UIS: Adjusted net attendance rate, primary, urban, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NARA.1.URB.GPIA}} UIS: Adjusted net attendance rate, primary, urban, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NARA.1.URB.M}} UIS: Adjusted net attendance rate, primary, urban, male (%) {p_end}
 {synopt:{opt UIS.NARA.1.URB}} UIS: Adjusted net attendance rate, primary, urban, both sexes (%) {p_end}
 {synopt:{opt UIS.NARA.1}} UIS: Adjusted net attendance rate, primary, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.F}} UIS: Total net attendance rate, lower secondary, female (%) {p_end}
-{synopt:{opt UIS.NART.2.GPI}} UIS: Total net attendance rate, lower secondary, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.GPIA}} UIS: Total net attendance rate, lower secondary, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.M}} UIS: Total net attendance rate, lower secondary, male (%) {p_end}
 {synopt:{opt UIS.NART.2.Q1.F}} UIS: Total net attendance rate, lower secondary, poorest quintile, female (%) {p_end}
-{synopt:{opt UIS.NART.2.Q1.GPI}} UIS: Total net attendance rate, lower secondary, poorest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.Q1.GPIA}} UIS: Total net attendance rate, lower secondary, poorest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.Q1.M}} UIS: Total net attendance rate, lower secondary, poorest quintile, male (%) {p_end}
 {synopt:{opt UIS.NART.2.Q1}} UIS: Total net attendance rate, lower secondary, poorest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.Q2.F}} UIS: Total net attendance rate, lower secondary, second quintile, female (%) {p_end}
-{synopt:{opt UIS.NART.2.Q2.GPI}} UIS: Total net attendance rate, lower secondary, second quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.Q2.GPIA}} UIS: Total net attendance rate, lower secondary, second quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.Q2.M}} UIS: Total net attendance rate, lower secondary, second quintile, male (%) {p_end}
 {synopt:{opt UIS.NART.2.Q2}} UIS: Total net attendance rate, lower secondary, second quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.Q3.F}} UIS: Total net attendance rate, lower secondary, middle quintile, female (%) {p_end}
-{synopt:{opt UIS.NART.2.Q3.GPI}} UIS: Total net attendance rate, lower secondary, middle quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.Q3.GPIA}} UIS: Total net attendance rate, lower secondary, middle quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.Q3.M}} UIS: Total net attendance rate, lower secondary, middle quintile, male (%) {p_end}
 {synopt:{opt UIS.NART.2.Q3}} UIS: Total net attendance rate, lower secondary, middle quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.Q4.F}} UIS: Total net attendance rate, lower secondary, fourth quintile, female (%) {p_end}
-{synopt:{opt UIS.NART.2.Q4.GPI}} UIS: Total net attendance rate, lower secondary, fourth quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.Q4.GPIA}} UIS: Total net attendance rate, lower secondary, fourth quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.Q4.M}} UIS: Total net attendance rate, lower secondary, fourth quintile, male (%) {p_end}
 {synopt:{opt UIS.NART.2.Q4}} UIS: Total net attendance rate, lower secondary, fourth quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.Q5.F}} UIS: Total net attendance rate, lower secondary, richest quintile, female (%) {p_end}
-{synopt:{opt UIS.NART.2.Q5.GPI}} UIS: Total net attendance rate, lower secondary, richest quintile, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.Q5.GPIA}} UIS: Total net attendance rate, lower secondary, richest quintile, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.Q5.M}} UIS: Total net attendance rate, lower secondary, richest quintile, male (%) {p_end}
 {synopt:{opt UIS.NART.2.Q5}} UIS: Total net attendance rate, lower secondary, richest quintile, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.RUR.F}} UIS: Total net attendance rate, lower secondary, rural, female (%) {p_end}
-{synopt:{opt UIS.NART.2.RUR.GPI}} UIS: Total net attendance rate, lower secondary, rural, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.RUR.GPIA}} UIS: Total net attendance rate, lower secondary, rural, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.RUR.M}} UIS: Total net attendance rate, lower secondary, rural, male (%) {p_end}
 {synopt:{opt UIS.NART.2.RUR}} UIS: Total net attendance rate, lower secondary, rural, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2.URB.F}} UIS: Total net attendance rate, lower secondary, urban, female (%) {p_end}
-{synopt:{opt UIS.NART.2.URB.GPI}} UIS: Total net attendance rate, lower secondary, urban, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NART.2.URB.GPIA}} UIS: Total net attendance rate, lower secondary, urban, adjusted gender parity index (GPIA) {p_end}
 {synopt:{opt UIS.NART.2.URB.M}} UIS: Total net attendance rate, lower secondary, urban, male (%) {p_end}
 {synopt:{opt UIS.NART.2.URB}} UIS: Total net attendance rate, lower secondary, urban, both sexes (%) {p_end}
 {synopt:{opt UIS.NART.2}} UIS: Total net attendance rate, lower secondary, both sexes (%) {p_end}
 {synopt:{opt UIS.NE.1.ECD.F}} New entrants to Grade 1 of primary education with early childhood education experience, female (number) {p_end}
-{synopt:{opt UIS.NE.1.ECD}} New entrants to Grade 1 of primary education with early childhood education experience , both sexes (number) {p_end}
+{synopt:{opt UIS.NE.1.ECD}} New entrants to Grade 1 of primary education with early childhood education experience, both sexes (number) {p_end}
 {synopt:{opt UIS.NE.1.G1.F}} New entrants to Grade 1 of primary education, female (number) {p_end}
 {synopt:{opt UIS.NE.1.G1}} New entrants to Grade 1 of primary education, both sexes (number) {p_end}
 {synopt:{opt UIS.NER.0.GPI}} Net enrolment rate, pre-primary, gender parity index (GPI) {p_end}
@@ -12134,6 +12128,13 @@
 {synopt:{opt UIS.NERA.2.GPI}} Adjusted net enrolment rate, lower secondary, gender parity index (GPI) {p_end}
 {synopt:{opt UIS.NERA.2.M}} Adjusted net enrolment rate, lower secondary, male (%) {p_end}
 {synopt:{opt UIS.NERA.2}} Adjusted net enrolment rate, lower secondary, both sexes (%) {p_end}
+{synopt:{opt UIS.NERA.3.F}} Adjusted net enrolment rate, upper secondary, female (%) {p_end}
+{synopt:{opt UIS.NERA.3.GPI}} Adjusted net enrolment rate, upper secondary, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NERA.3.M}} Adjusted net enrolment rate, upper secondary, male (%) {p_end}
+{synopt:{opt UIS.NERA.3}} Adjusted net enrolment rate, upper secondary, both sexes (%) {p_end}
+{synopt:{opt UIS.NERA.AGM1.F}} Adjusted net enrolment rate, one year before the official primary entry age, female (%) {p_end}
+{synopt:{opt UIS.NERA.AGM1.M}} Adjusted net enrolment rate, one year before the official primary entry age, male (%) {p_end}
+{synopt:{opt UIS.NERA.AGM1}} Adjusted net enrolment rate, one year before the official primary entry age, both sexes (%) {p_end}
 {synopt:{opt UIS.NERT.1.F}} Total net enrolment rate, primary, female (%) {p_end}
 {synopt:{opt UIS.NERT.1.GPI}} Total net enrolment rate, primary, gender parity index (GPI) {p_end}
 {synopt:{opt UIS.NERT.1.M}} Total net enrolment rate, primary, male (%) {p_end}
@@ -12142,6 +12143,10 @@
 {synopt:{opt UIS.NERT.2.GPI}} Total net enrolment rate, lower secondary, gender parity index (GPI) {p_end}
 {synopt:{opt UIS.NERT.2.M}} Total net enrolment rate, lower secondary, male (%) {p_end}
 {synopt:{opt UIS.NERT.2}} Total net enrolment rate, lower secondary, both sexes (%) {p_end}
+{synopt:{opt UIS.NERT.3.F}} Total net enrolment rate, upper secondary, female (%) {p_end}
+{synopt:{opt UIS.NERT.3.GPI}} Total net enrolment rate, upper secondary, gender parity index (GPI) {p_end}
+{synopt:{opt UIS.NERT.3.M}} Total net enrolment rate, upper secondary, male (%) {p_end}
+{synopt:{opt UIS.NERT.3}} Total net enrolment rate, upper secondary, both sexes (%) {p_end}
 {synopt:{opt UIS.NIR.1.AGM1.F}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), female (%) {p_end}
 {synopt:{opt UIS.NIR.1.AGM1.GPI}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), gender parity index (GPI) {p_end}
 {synopt:{opt UIS.NIR.1.AGM1.M}} Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), male (%) {p_end}
@@ -12377,9 +12382,9 @@
 {synopt:{opt UIS.SAP.23.GPV.G1.F}} Population of the official entrance age to secondary general education, female (number) {p_end}
 {synopt:{opt UIS.SAP.23.GPV.G1.M}} Population of the official entrance age to secondary general education, male (number) {p_end}
 {synopt:{opt UIS.SAP.23.GPV.G1}} Population of the official entrance age to secondary general education, both sexes (number) {p_end}
-{synopt:{opt UIS.SAP.4.F}} Population of the official age for post-secondary non-tertiary education, female (number) {p_end}
-{synopt:{opt UIS.SAP.4.M}} Population of the official age for post-secondary non-tertiary education, male (number) {p_end}
-{synopt:{opt UIS.SAP.4}} Population of the official age for post-secondary non-tertiary education, both sexes (number) {p_end}
+{synopt:{opt UIS.SAP.4.F}} School age population, post-secondary non-tertiary education, female (number) {p_end}
+{synopt:{opt UIS.SAP.4.M}} School age population, post-secondary non-tertiary education, male (number) {p_end}
+{synopt:{opt UIS.SAP.4}} School age population, post-secondary non-tertiary education, both sexes (number) {p_end}
 {synopt:{opt UIS.SAP.CE.F}} Population of compulsory school age, female (number) {p_end}
 {synopt:{opt UIS.SAP.CE.M}} Population of compulsory school age, male (number) {p_end}
 {synopt:{opt UIS.SAP.CE}} Population of compulsory school age, both sexes (number) {p_end}
@@ -12437,18 +12442,27 @@
 {synopt:{opt UIS.T.4}} Teachers in post-secondary non-tertiary education, both sexes (number) {p_end}
 {synopt:{opt UIS.T.5.B.F}} Teachers in tertiary education ISCED 5 programmes, female (number) {p_end}
 {synopt:{opt UIS.T.5.B}} Teachers in tertiary education ISCED 5 programmes, both sexes (number) {p_end}
-{synopt:{opt UIS.TEP.5.B.F}} Percentage of female students in tertiary education enrolled in ISCED 5 {p_end}
-{synopt:{opt UIS.TEP.5.B.M}} Percentage of male students in tertiary education enrolled in ISCED 5 {p_end}
-{synopt:{opt UIS.TEP.5.B}} Percentage of all students in tertiary education enrolled in ISCED 5, both sexes (%) {p_end}
-{synopt:{opt UIS.TEP.6.F}} Percentage of female students in tertiary education enrolled in ISCED 6 {p_end}
-{synopt:{opt UIS.TEP.6.M}} Percentage of male students in tertiary education enrolled in ISCED 6 {p_end}
-{synopt:{opt UIS.TEP.6}} Percentage of all students in tertiary education enrolled in ISCED 6, both sexes (%) {p_end}
-{synopt:{opt UIS.TEP.7.F}} Percentage of female students in tertiary education enrolled in ISCED 7 {p_end}
-{synopt:{opt UIS.TEP.7.M}} Percentage of male students in tertiary education enrolled in ISCED 7 {p_end}
-{synopt:{opt UIS.TEP.7}} Percentage of all students in tertiary education enrolled in ISCED 7, both sexes (%) {p_end}
-{synopt:{opt UIS.TEP.8.F}} Percentage of female students in tertiary education enrolled in ISCED 8 {p_end}
-{synopt:{opt UIS.TEP.8.M}} Percentage of male students in tertiary education enrolled in ISCED 8 {p_end}
-{synopt:{opt UIS.TEP.8}} Percentage of all students in tertiary education enrolled in ISCED 8, both sexes (%) {p_end}
+{synopt:{opt UIS.TATTRR.1.F}} Teacher attrition rate from primary education, female (%) {p_end}
+{synopt:{opt UIS.TATTRR.1.M}} Teacher attrition rate from primary education, male (%) {p_end}
+{synopt:{opt UIS.TATTRR.1.T}} Teacher attrition rate from primary education, both sexes (%) {p_end}
+{synopt:{opt UIS.TATTRR.2.F}} Teacher attrition rate from lower secondary education, female (%) {p_end}
+{synopt:{opt UIS.TATTRR.2.M}} Teacher attrition rate from lower secondary education, male (%) {p_end}
+{synopt:{opt UIS.TATTRR.2.T}} Teacher attrition rate from lower secondary education, both sexes (%) {p_end}
+{synopt:{opt UIS.TATTRR.3.F}} Teacher attrition rate from upper secondary education, female (%) {p_end}
+{synopt:{opt UIS.TATTRR.3.M}} Teacher attrition rate from upper secondary education, male (%) {p_end}
+{synopt:{opt UIS.TATTRR.3.T}} Teacher attrition rate from upper secondary education, both sexes (%) {p_end}
+{synopt:{opt UIS.TEP.5.B.F}} Share of female students in tertiary education enrolled in ISCED 5 (%) {p_end}
+{synopt:{opt UIS.TEP.5.B.M}} Share of male students in tertiary education enrolled in ISCED 5 (%) {p_end}
+{synopt:{opt UIS.TEP.5.B}} Share of all students in tertiary education enrolled in ISCED 5 (%) {p_end}
+{synopt:{opt UIS.TEP.6.F}} Share of female students in tertiary education enrolled in ISCED 6 (%) {p_end}
+{synopt:{opt UIS.TEP.6.M}} Share of male students in tertiary education enrolled in ISCED 6 (%) {p_end}
+{synopt:{opt UIS.TEP.6}} Share of all students in tertiary education enrolled in ISCED 6 (%) {p_end}
+{synopt:{opt UIS.TEP.7.F}} Share of female students in tertiary education enrolled in ISCED 7 (%) {p_end}
+{synopt:{opt UIS.TEP.7.M}} Share of male students in tertiary education enrolled in ISCED 7 (%) {p_end}
+{synopt:{opt UIS.TEP.7}} Share of all students in tertiary education enrolled in ISCED 7 (%) {p_end}
+{synopt:{opt UIS.TEP.8.F}} Share of female students in tertiary education enrolled in ISCED 8 (%) {p_end}
+{synopt:{opt UIS.TEP.8.M}} Share of male students in tertiary education enrolled in ISCED 8 (%) {p_end}
+{synopt:{opt UIS.TEP.8}} Share of all students in tertiary education enrolled in ISCED 8 (%) {p_end}
 {synopt:{opt UIS.TRANRA.23.GPV.GPI}} Effective transition rate from primary to lower secondary general education, gender parity index (GPI) {p_end}
 {synopt:{opt UIS.TRTP.02.F}} Percentage of female teachers in pre-primary education who are trained, female (%) {p_end}
 {synopt:{opt UIS.TRTP.02.GPI}} Percentage of teachers in pre-primary education who are trained, gender parity index (GPI) {p_end}
@@ -12549,7 +12563,7 @@
 {synopt:{opt UIS.XPUBP.2}} Expenditure on lower secondary as % of government expenditure on education (%) {p_end}
 {synopt:{opt UIS.XPUBP.3}} Expenditure on upper secondary as % of government expenditure on education (%) {p_end}
 {synopt:{opt UIS.XPUBP.4}} Expenditure on post-secondary non-tertiary as % of government expenditure on education (%) {p_end}
-{synopt:{opt UIS.XPUBP.UK}} Expenditure on education not allocated by level as % of government expenditure on education (%) {p_end}
+{synopt:{opt UIS.XPUBP.UK}} Expenditure on education not specified by level as % of government expenditure on education (%) {p_end}
 {synopt:{opt UIS.XSPENDP.0.FDPUB.FNCAP}} Capital expenditure as % of total expenditure in pre-primary public institutions (%) {p_end}
 {synopt:{opt UIS.XSPENDP.0.FDPUB.FNCUR}} Current expenditure as % of total expenditure in pre-primary public institutions (%) {p_end}
 {synopt:{opt UIS.XSPENDP.0.FDPUB.FNNONS}} Current expenditure other than staff compensation as % of total expenditure in pre-primary public institutions (%) {p_end}
@@ -12602,10 +12616,10 @@
 {synopt:{opt UIS.XUNIT.GDPCAP.02.FSGOV}} Initial government funding per pre-primary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.GDPCAP.1.FSGOV}} Initial government funding per primary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.GDPCAP.1.FSHH}} Initial household funding per primary student as a percentage of GDP per capita {p_end}
-{synopt:{opt UIS.XUNIT.GDPCAP.2.FSGOV}} Government expenditure per lower secondary student as % of GDP per capita (%) {p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.2.FSGOV}} Initial government funding per lower secondary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.GDPCAP.23.FSGOV}} Initial government funding per secondary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.GDPCAP.23.FSHH}} Initial household funding per secondary student as a percentage of GDP per capita {p_end}
-{synopt:{opt UIS.XUNIT.GDPCAP.3.FSGOV}} Government expenditure per upper secondary student as % of GDP per capita (%) {p_end}
+{synopt:{opt UIS.XUNIT.GDPCAP.3.FSGOV}} Initial government funding per upper secondary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.GDPCAP.5T8.FSGOV}} Initial government funding per tertiary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.GDPCAP.5T8.FSHH}} Initial household funding per tertiary student as a percentage of GDP per capita {p_end}
 {synopt:{opt UIS.XUNIT.PPP.02.FSGOV.FFNTR}} Initial government funding per pre-primary student, PPP$ {p_end}
@@ -12618,12 +12632,12 @@
 {synopt:{opt UIS.XUNIT.PPP.5T8.FSGOV.FFNTR}} Initial government funding per tertiary student, PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.PPP.5T8.FSHH.FFNTR}} Initial household funding per tertiary student, PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.PPPCONST.02.FSGOV}} Initial government funding per pre-primary student, constant PPP$ {p_end}
-{synopt:{opt UIS.XUNIT.PPPCONST.1.FSGOV}} Government expenditure per primary student (constant PPP$) {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.1.FSGOV}} Initial government funding per primary student, constant PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.PPPCONST.1.FSHH}} Initial household funding per primary student, constant PPP$ {p_end}
-{synopt:{opt UIS.XUNIT.PPPCONST.2.FSGOV}} Government expenditure per lower secondary student (constant PPP$) {p_end}
-{synopt:{opt UIS.XUNIT.PPPCONST.23.FSGOV}} Government expenditure per secondary student (constant PPP$) {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.2.FSGOV}} Initial government funding per lower secondary student, constant PPP$ {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.23.FSGOV}} Initial government funding per secondary student, constant PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.PPPCONST.23.FSHH}} Initial household funding per secondary student, constant PPP$ {p_end}
-{synopt:{opt UIS.XUNIT.PPPCONST.3.FSGOV}} Government expenditure per upper secondary student (constant PPP$) {p_end}
+{synopt:{opt UIS.XUNIT.PPPCONST.3.FSGOV}} Initial government funding per upper secondary student, constant PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.PPPCONST.5T8.FSGOV}} Initial government funding per tertiary student, constant PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.PPPCONST.5T8.FSHH}} Initial household funding per tertiary student, constant PPP$ {p_end}
 {synopt:{opt UIS.XUNIT.US.02.FSGOV.FFNTR}} Initial government funding per pre-primary student, US$ {p_end}
@@ -12636,12 +12650,12 @@
 {synopt:{opt UIS.XUNIT.US.5T8.FSGOV.FFNTR}} Initial government funding per tertiary student, US$ {p_end}
 {synopt:{opt UIS.XUNIT.US.5T8.FSHH.FFNTR}} Initial household funding per tertiary student, US$ {p_end}
 {synopt:{opt UIS.XUNIT.USCONST.02.FSGOV}} Initial government funding per pre-primary student, constant US$ {p_end}
-{synopt:{opt UIS.XUNIT.USCONST.1.FSGOV}} Government expenditure per primary student (constant US$) {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.1.FSGOV}} Initial government funding per primary student, constant US$ {p_end}
 {synopt:{opt UIS.XUNIT.USCONST.1.FSHH}} Initial household funding per primary student, constant US$ {p_end}
-{synopt:{opt UIS.XUNIT.USCONST.2.FSGOV}} Government expenditure per lower secondary student (constant US$) {p_end}
-{synopt:{opt UIS.XUNIT.USCONST.23.FSGOV}} Government expenditure per secondary student (constant US$) {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.2.FSGOV}} Initial government funding per lower secondary student, constant US$ {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.23.FSGOV}} Initial government funding per secondary student, constant US$ {p_end}
 {synopt:{opt UIS.XUNIT.USCONST.23.FSHH}} Initial household funding per secondary student, constant US$ {p_end}
-{synopt:{opt UIS.XUNIT.USCONST.3.FSGOV}} Government expenditure per upper secondary student (constant US$) {p_end}
+{synopt:{opt UIS.XUNIT.USCONST.3.FSGOV}} Initial government funding per upper secondary student, constant US$ {p_end}
 {synopt:{opt UIS.XUNIT.USCONST.5T8.FSGOV}} Initial government funding per tertiary student, constant US$ {p_end}
 {synopt:{opt UIS.XUNIT.USCONST.5T8.FSHH}} Initial household funding per tertiary student, constant US$ {p_end}
 {synopt:{opt UIS.thAge.0}} Official entrance age to pre-primary education (years) {p_end}
@@ -12717,6 +12731,14 @@
 {synopt:{opt account.t.d.8}} Account, income, richest 60% (% ages 15+){p_end}
 {synopt:{opt account.t.d.9}} Account, rural (% age 15+){p_end}
 {synopt:{opt account.t.d}} Account (% age 15+){p_end}
+{synopt:{opt account_t_d_1}} Account, female (% age 15+){p_end}
+{synopt:{opt account_t_d_2}} Account, male (% age 15+){p_end}
+{synopt:{opt account_t_d_3}} Account, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt account_t_d_4}} Account, income, richest 60% (% age 15+){p_end}
+{synopt:{opt account_t_d_5}} Account (% ages 15-34){p_end}
+{synopt:{opt account_t_d_6}} Account (% ages 35-59){p_end}
+{synopt:{opt account_t_d_7}} Account (% age 60+){p_end}
+{synopt:{opt account_t_d}} Account (% age 15+){p_end}
 {synopt:{opt allsa.bi_q1}} Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits){p_end}
 {synopt:{opt allsa.cov_pop}} Coverage of social safety net programs (% of population){p_end}
 {synopt:{opt allsa.gen_pop}} Generosity of social safety net programs (% of total welfare of beneficiary households){p_end}
@@ -12918,8 +12940,6 @@
 {synopt:{opt fin1.t.a.9}} Financial institution account, rural(% age 15+){p_end}
 {synopt:{opt fin1.t.a}} Financial institution account (% age 15+){p_end}
 {synopt:{opt fin10.t.a.s}} Withdrawal in the past year (% with a financial institution account, age 15+){p_end}
-{synopt:{opt fin11.1}} SMEs with at least one female owner with a proportion of loans requiring collateral (%){p_end}
-{synopt:{opt fin11.2}} SMEs with a proportion of loans requiring collateral (%){p_end}
 {synopt:{opt fin11a.a.s}} No account because financial institutions are too far away (% without a financial institution account, age 15+){p_end}
 {synopt:{opt fin11a.a}} No account because financial institutions are too far away (% age 15+){p_end}
 {synopt:{opt fin11b.a.s}} No account because financial services are too expensive (% without a financial institution account, age 15+){p_end}
@@ -12936,10 +12956,10 @@
 {synopt:{opt fin11g.a}} No account because someone in the family has an account (% age 15+){p_end}
 {synopt:{opt fin11h.a.s}} No account because of no need for financial services ONLY (% without a financial institution account, age 15+){p_end}
 {synopt:{opt fin11h.a}} No account because of no need for financial services ONLY (% age 15+){p_end}
+{synopt:{opt fin11q1}} SMEs with at least one female owner with a proportion of loans requiring collateral{p_end}
+{synopt:{opt fin11q2}} SMEs with a proportion of loans requiring collateral{p_end}
 {synopt:{opt fin13a.t.14.a.s}} Main mode of withdrawal: ATM (% with a financial institution account, age 15+){p_end}
 {synopt:{opt fin13b.t.14.a.s}} Main mode of withdrawal: bank teller (% with a financial institution account, age 15+){p_end}
-{synopt:{opt fin14.1}} SMEs with at least one female owner with an outstanding loan or line of credit (%){p_end}
-{synopt:{opt fin14.2}} SMEs with an outstanding loan or line of credit (%){p_end}
 {synopt:{opt fin14a.a.10}} Used the internet to pay bills in the past year, in labor force  (% age 15+){p_end}
 {synopt:{opt fin14a.a.11}} Used the internet to pay bills in the past year, out of labor force (% age 15+){p_end}
 {synopt:{opt fin14a.a.1}} Used the internet to pay bills in the past year, male (% age 15+){p_end}
@@ -12978,8 +12998,8 @@
 {synopt:{opt fin14b.a}} Used the internet to buy something online in the past year(% age 15+){p_end}
 {synopt:{opt fin14ca.a.s}} Paid online for internet purchase (% internet purchasers, age 15+){p_end}
 {synopt:{opt fin14cb.a.s}} Paid cash on delivery for internet purchase (% internet purchasers, age 15+){p_end}
-{synopt:{opt fin15.1}} SMEs with at least one female owner with an account at a formal financial institution (%){p_end}
-{synopt:{opt fin15.2}} SMEs with an account at a formal financial institution (%){p_end}
+{synopt:{opt fin14q1}} SMEs with at least one female owner with an outstanding loan or line of credit{p_end}
+{synopt:{opt fin14q2}} SMEs with an outstanding loan or line of credit{p_end}
 {synopt:{opt fin15.t.a.10}} Saved to start, operate, or expand a farm or business, in labor force (% age 15+){p_end}
 {synopt:{opt fin15.t.a.11}} Saved to start, operate, or expand a farm or business, out of labor force  (% age 15+){p_end}
 {synopt:{opt fin15.t.a.1}} Saved to start, operate, or expand a farm or business, male (% age 15+){p_end}
@@ -12992,6 +13012,8 @@
 {synopt:{opt fin15.t.a.8}} Saved to start, operate, or expand a farm or business, income, richest 60% (% age 15+){p_end}
 {synopt:{opt fin15.t.a.9}} Saved to start, operate, or expand a farm or business, rural (% age 15+){p_end}
 {synopt:{opt fin15.t.a}} Saved to start, operate, or expand a farm or business (% age 15+){p_end}
+{synopt:{opt fin15q1}} SMEs with at least one female owner with an account at a formal financial institution{p_end}
+{synopt:{opt fin15q2}} SMEs with an account at a formal financial institution{p_end}
 {synopt:{opt fin16.t.a.10}} Saved for old age, in labor force (% age 15+){p_end}
 {synopt:{opt fin16.t.a.11}} Saved for old age, out of labor force (% age 15+){p_end}
 {synopt:{opt fin16.t.a.1}} Saved for old age, male (% age 15+){p_end}
@@ -13004,6 +13026,14 @@
 {synopt:{opt fin16.t.a.8}} Saved for old age, income, richest 60% (% age 15+){p_end}
 {synopt:{opt fin16.t.a.9}} Saved for old age, rural (% age 15+){p_end}
 {synopt:{opt fin16.t.a}} Saved for old age (% age 15+){p_end}
+{synopt:{opt fin16_t_a_1}} Saved for old age, female (% age 15+){p_end}
+{synopt:{opt fin16_t_a_2}} Saved for old age, male (% age 15+){p_end}
+{synopt:{opt fin16_t_a_3}} Saved for old age, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin16_t_a_4}} Saved for old age, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin16_t_a_5}} Saved for old age (% ages 15-34){p_end}
+{synopt:{opt fin16_t_a_6}} Saved for old age (% ages 35-59){p_end}
+{synopt:{opt fin16_t_a_7}} Saved for old age (% age 60+){p_end}
+{synopt:{opt fin16_t_a}} Saved for old age (% age 15+){p_end}
 {synopt:{opt fin17a.t.a.10}} Saved at a financial institution, in labor force (% age 15+){p_end}
 {synopt:{opt fin17a.t.a.11}} Saved at a financial institution , out of labor force (% age 15+){p_end}
 {synopt:{opt fin17a.t.a.1}} Saved at a financial institution, male (% age 15+){p_end}
@@ -13016,6 +13046,14 @@
 {synopt:{opt fin17a.t.a.8}} Saved at a financial institution, income, richest 60%  (% age 15+){p_end}
 {synopt:{opt fin17a.t.a.9}} Saved at a financial institution, rural  (% age 15+){p_end}
 {synopt:{opt fin17a.t.a}} Saved at a financial institution (% age 15+){p_end}
+{synopt:{opt fin17a_t_a_1}} Saved at a financial institution, female  (% age 15+){p_end}
+{synopt:{opt fin17a_t_a_2}} Saved at a financial institution, male (% age 15+){p_end}
+{synopt:{opt fin17a_t_a_3}} Saved at a financial institution, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin17a_t_a_4}} Saved at a financial institution, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin17a_t_a_5}} Saved at a financial institution (% ages 15-34){p_end}
+{synopt:{opt fin17a_t_a_6}} Saved at a financial institution (% ages 35-59){p_end}
+{synopt:{opt fin17a_t_a_7}} Saved at a financial institution (% age 60+){p_end}
+{synopt:{opt fin17a_t_a}} Saved at a financial institution (% age 15+){p_end}
 {synopt:{opt fin17b.t.a.10}} Saved using a savings club or a person outside the family , in labor force(% age 15+){p_end}
 {synopt:{opt fin17b.t.a.11}} Saved using a savings club or a person outside the family, out of labor force (% age 15+){p_end}
 {synopt:{opt fin17b.t.a.1}} Saved using a savings club or a person outside the family, male (% age 15+){p_end}
@@ -13148,6 +13186,14 @@
 {synopt:{opt fin22a.t.d.8}} Borrowed from a financial institution or used a credit card, income, richest 60% (% age 15+){p_end}
 {synopt:{opt fin22a.t.d.9}} Borrowed from a financial institution or used a credit card, rural (% age 15+){p_end}
 {synopt:{opt fin22a.t.d}} Borrowed from a financial institution or used a credit card (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_1}} Borrowed from a financial institution in the past year, female (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_2}} Borrowed from a financial institution in the past year, male (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_3}} Borrowed from a financial institution in the past year, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_4}} Borrowed from a financial institution in the past year, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_5}} Borrowed from a financial institution in the past year (% ages 15-34){p_end}
+{synopt:{opt fin22a_t_d_6}} Borrowed from a financial institution or used a credit card (% ages 35-59){p_end}
+{synopt:{opt fin22a_t_d_7}} Borrowed from a financial institution or used a credit card (% age 60+){p_end}
+{synopt:{opt fin22a_t_d}} Borrowed from a financial institution in the past year (% age 15+){p_end}
 {synopt:{opt fin22b.t.a.10}} Borrowed from family or friends, in labor force  (% age 15+){p_end}
 {synopt:{opt fin22b.t.a.11}} Borrowed from family or friends, out of labor force (% age 15+){p_end}
 {synopt:{opt fin22b.t.a.1}} Borrowed from family or friends, male  (% age 15+){p_end}
@@ -13220,6 +13266,14 @@
 {synopt:{opt fin25a.t.a.s.8}} Main source of emergency funds: savings, income, richest 60% (% able to raise funds, age 15+){p_end}
 {synopt:{opt fin25a.t.a.s.9}} Main source of emergency funds: savings, rural (% able to raise funds, age 15+){p_end}
 {synopt:{opt fin25a.t.a.s}} Main source of emergency funds: savings (% able to raise funds, age 15+){p_end}
+{synopt:{opt fin25a_t_a_s_1}} Main source of emergency funds: savings, female  (% age 15+){p_end}
+{synopt:{opt fin25a_t_a_s_2}} Main source of emergency funds: savings, male (% age 15+){p_end}
+{synopt:{opt fin25a_t_a_s_3}} Main source of emergency funds: savings, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin25a_t_a_s_4}} Main source of emergency funds: savings, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin25a_t_a_s_5}} Main source of emergency funds: savings, (% ages 15-34){p_end}
+{synopt:{opt fin25a_t_a_s_6}} Main source of emergency funds: savings (% ages 35-59){p_end}
+{synopt:{opt fin25a_t_a_s_7}} Main source of emergency funds: savings (% age 60+){p_end}
+{synopt:{opt fin25a_t_a_s}} Main source of emergency funds: savings (% age 15+){p_end}
 {synopt:{opt fin25b.t.a.s.10}} Main source of emergency funds: family or friends, in labor force (% able to raise funds, age 15+){p_end}
 {synopt:{opt fin25b.t.a.s.11}} Main source of emergency funds: family or friends, out of labor force (% able to raise funds, age 15+){p_end}
 {synopt:{opt fin25b.t.a.s.1}} Main source of emergency funds: family or friends, male  (% able to raise funds, age 15+){p_end}
@@ -13547,6 +13601,15 @@
 {synopt:{opt fin47c2.a.s}} Received payments from self-employment: in cash only (% payment recipients, age 15+){p_end}
 {synopt:{opt fin47c2.a}} Received payments from self-employment: in cash only (% age 15+){p_end}
 {synopt:{opt fin48.a}} Has a national identity card (% age 15+){p_end}
+{synopt:{opt fin48_a_1}} Has a national identity card, female (% age 15+){p_end}
+{synopt:{opt fin48_a_2}} Has a national identity card, male (% age 15+){p_end}
+{synopt:{opt fin48_a_3}} Has a national identity card, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin48_a_4}} Has a national identity card, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin48_a_5}} Has a national identity card (% ages 15-34){p_end}
+{synopt:{opt fin48_a_6}} Has a national identity card (% ages 35-59){p_end}
+{synopt:{opt fin48_a_7}} Has a national identity card (% age 60+){p_end}
+{synopt:{opt fin48_a}} Has a national identity card (% age 15+){p_end}
+{synopt:{opt fin4_t_d}} Used a debit or credit card to make a purchase in the past year (% age 15+){p_end}
 {synopt:{opt fin5.a.s}} Used a mobile phone or the internet to access a financial institution account in the past year (% with a financial institution account, age 15+){p_end}
 {synopt:{opt fin5.a}} Used a mobile phone or the internet to access a financial institution account in the past year (% age 15+){p_end}
 {synopt:{opt fin5.d.10}} Used a mobile phone or the internet to access an account, in labor force  (% age 15+){p_end}
@@ -13576,6 +13639,14 @@
 {synopt:{opt fin65e.11.a.9}} Outstanding loan for a funeral or wedding, rural  (% age 15+){p_end}
 {synopt:{opt fin65e.11.a}} Outstanding loan for a funeral or wedding (% age 15+){p_end}
 {synopt:{opt fin68a.11.a}} Used checks to make payments in the past year (% age 15+){p_end}
+{synopt:{opt fin6_a_1}} Used a mobile phone or the internet to check account balance in the past year, female  (% age 15+){p_end}
+{synopt:{opt fin6_a_2}} Used a mobile phone or the internet to check account balance in the past year, male (% age 15+){p_end}
+{synopt:{opt fin6_a_3}} Used a mobile phone or the internet to check account balance in the past year, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin6_a_4}} Used a mobile phone or the internet to check account balance in the past year, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin6_a_5}} Used a mobile phone or the internet to check account balance in the past year (% ages 15-34){p_end}
+{synopt:{opt fin6_a_6}} Used a mobile phone or the internet to check account balance in the past year (% ages 35-59){p_end}
+{synopt:{opt fin6_a_7}} Used a mobile phone or the internet to check account balance in the past year (% age 60+){p_end}
+{synopt:{opt fin6_a}} Used a mobile phone or the internet to check account balance in the past year (% age 15+){p_end}
 {synopt:{opt fin7.t.a.10}} Credit card ownership, in labor force  (% age 15+){p_end}
 {synopt:{opt fin7.t.a.11}} Credit card ownership, out of labor force  (% age 15+){p_end}
 {synopt:{opt fin7.t.a.1}} Credit card ownership, male (% age 15+){p_end}
@@ -13663,91 +13734,61 @@
 {synopt:{opt g20.t.receive.9}} Received digital payments in the past year, rural (% age 15+){p_end}
 {synopt:{opt g20.t.receive}} Received digital payments in the past year (% age 15+){p_end}
 {synopt:{opt g20.t}} Made or received digital payments in the past year (% age 15+){p_end}
-{synopt:{opt gf1.1}} Account, female (% age 15+){p_end}
-{synopt:{opt gf1.2}} Account, male (% age 15+){p_end}
-{synopt:{opt gf1.3}} Account, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf1.4}} Account, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf1.5}} Account, young adults (% ages 15-34){p_end}
-{synopt:{opt gf1.6}} Account, older adults (% age 35+){p_end}
-{synopt:{opt gf10.1}} Received wages or government transfers into an account, female (% age 15+){p_end}
-{synopt:{opt gf10.2}} Received wages or government transfers into an account, male (% age 15+){p_end}
-{synopt:{opt gf10.3}} Received wages or government transfers into an account, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf10.4}} Received wages or government transfers into an account, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf10.5}} Received wages or government transfers into an account, young adults (% ages 15-34){p_end}
-{synopt:{opt gf10.6}} Received wages or government transfers into an account, older adults (% age 35+){p_end}
-{synopt:{opt gf10}} Received wages or government transfers into an account (% age 15+){p_end}
-{synopt:{opt gf1}} Account (% age 15+){p_end}
-{synopt:{opt gf2.1}} Borrowed from a financial institution in the past year, female (% age 15+){p_end}
-{synopt:{opt gf2.2}} Borrowed from a financial institution in the past year, male (% age 15+){p_end}
-{synopt:{opt gf2.3}} Borrowed from a financial institution in the past year, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf2.4}} Borrowed from a financial institution in the past year, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf2.5}} Borrowed from a financial institution in the past year, young adults (% ages 15-34){p_end}
-{synopt:{opt gf2.6}} Borrowed from a financial institution in the past year, older adults (% age 35+){p_end}
-{synopt:{opt gf2}} Borrowed from a financial institution in the past year (% age 15+){p_end}
-{synopt:{opt gf3.1}} Made or received digital payments, female (% age 15+){p_end}
-{synopt:{opt gf3.2}} Made or received digital payments, male (% age 15+){p_end}
-{synopt:{opt gf3.3}} Made or received digital payments, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf3.4}} Made or received digital payments, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf3.5}} Made or received digital payments, young adults (% ages 15-34){p_end}
-{synopt:{opt gf3.6}} Made or received digital payments, older adults (% age 35+){p_end}
-{synopt:{opt gf3}} Made or received digital payments (% age 15+){p_end}
-{synopt:{opt gf4.1}} Made payment using a mobile phone, female  (% age 15+){p_end}
-{synopt:{opt gf4.2}} Made payment using a mobile a phone, male (% age 15+){p_end}
-{synopt:{opt gf4.3}} Made payment using a mobile phone, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf4.4}} Made payment using a mobile phone, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf4.5}} Made payment using a mobile phone, young adults (% ages 15-34){p_end}
-{synopt:{opt gf4.6}} Made payment using a mobile phone, older adults (% age 35+){p_end}
-{synopt:{opt gf4}} Made payment using a mobile phone (% age 15+){p_end}
-{synopt:{opt gf5.1}} Made payment using the internet, female  (% age 15+){p_end}
-{synopt:{opt gf5.2}} Made payment using the internet, male (% age 15+){p_end}
-{synopt:{opt gf5.3}} Made payment using the internet, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf5.4}} Made payment using the internet, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf5.5}} Made payment using the internet, young adults (% ages 15-34){p_end}
-{synopt:{opt gf5.6}} Made payment using the internet, older adults (% age 35+){p_end}
-{synopt:{opt gf5}} Made payment using the internet (% age 15+){p_end}
-{synopt:{opt gf6.1}} Made payment using a debit card, female  (% age 15+){p_end}
-{synopt:{opt gf6.2}} Made payment using a debit card, male (% age 15+){p_end}
-{synopt:{opt gf6.3}} Made payment using a debit card, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf6.4}} Made payment using a debit card, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf6.5}} Made payment using a debit card, young adults (% ages 15-34){p_end}
-{synopt:{opt gf6.6}} Made payment using a debit card, older adults (% age 35+){p_end}
-{synopt:{opt gf6}} Made payment using a debit card (% age 15+){p_end}
-{synopt:{opt gf7.1}} High frequency of account use, female  (% age 15+){p_end}
-{synopt:{opt gf7.2}} High frequency of account use, male (% age 15+){p_end}
-{synopt:{opt gf7.3}} High frequency of account use, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf7.4}} High frequency of account use, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf7.5}} High frequency of account use, young adults (% ages 15-34){p_end}
-{synopt:{opt gf7.6}} High frequency of account use, older adults (% age 35+){p_end}
-{synopt:{opt gf7}} High frequency of account use (% age 15+){p_end}
-{synopt:{opt gf8.1}} Saved at a financial institution, female  (% age 15+){p_end}
-{synopt:{opt gf8.2}} Saved at a financial institution, male (% age 15+){p_end}
-{synopt:{opt gf8.3}} Saved at a financial institution, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf8.4}} Saved at a financial institution, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf8.5}} Saved at a financial institution, young adults (% ages 15-34){p_end}
-{synopt:{opt gf8.6}} Saved at a financial institution, older adults (% age 35+){p_end}
-{synopt:{opt gf8}} Saved at a financial institution (% age 15+){p_end}
-{synopt:{opt gf9.1}} Main source of emergency funds: savings, female  (% age 15+){p_end}
-{synopt:{opt gf9.2}} Main source of emergency funds: savings, male (% age 15+){p_end}
-{synopt:{opt gf9.3}} Main source of emergency funds: savings, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gf9.4}} Main source of emergency funds: savings, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gf9.5}} Main source of emergency funds: savings, young adults (% ages 15-34){p_end}
-{synopt:{opt gf9.6}} Main source of emergency funds: savings, older adults (% age 35+){p_end}
-{synopt:{opt gf9}} Main source of emergency funds: savings (% age 15+){p_end}
-{synopt:{opt gwp1.1}} Access to a mobile phone or internet at home, female (% age 15+){p_end}
-{synopt:{opt gwp1.2}} Access to a mobile phone or internet at home, male (% age 15+){p_end}
-{synopt:{opt gwp1.3}} Access to a mobile phone or internet at home, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt gwp1.4}} Access to a mobile phone or internet at home, income, richest 60% (% age 15+){p_end}
-{synopt:{opt gwp1.5}} Access to a mobile phone or internet at home, young adults (% ages 15-34){p_end}
-{synopt:{opt gwp1.6}} Access to a mobile phone or internet at home, older adults (% age 35+){p_end}
-{synopt:{opt gwp1}} Access to a mobile phone or internet at home (% age 15+){p_end}
+{synopt:{opt g20_t_1}} Made or received digital payments, female (% age 15+){p_end}
+{synopt:{opt g20_t_2}} Made or received digital payments, male (% age 15+){p_end}
+{synopt:{opt g20_t_3}} Made or received digital payments, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt g20_t_4}} Made or received digital payments, income, richest 60% (% age 15+){p_end}
+{synopt:{opt g20_t_5}} Made or received digital payments, (% ages 15-34){p_end}
+{synopt:{opt g20_t_6}} Made or received digital payments in the past year (% ages 35-59){p_end}
+{synopt:{opt g20_t_7}} Made or received digital payments in the past year (% age 60+){p_end}
+{synopt:{opt g20_t}} Made or received digital payments (% age 15+){p_end}
+{synopt:{opt gf10_n_1}} Received wages or government transfers into an account, female (% age 15+){p_end}
+{synopt:{opt gf10_n_2}} Received wages or government transfers into an account, male (% age 15+){p_end}
+{synopt:{opt gf10_n_3}} Received wages or government transfers into an account, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt gf10_n_4}} Received wages or government transfers into an account, income, richest 60% (% age 15+){p_end}
+{synopt:{opt gf10_n_5}} Received wages or government transfers into an account, (% ages 15-34){p_end}
+{synopt:{opt gf10_n_6}} Received wages or government transfers into an account (% ages 35-59){p_end}
+{synopt:{opt gf10_n_7}} Received wages or government transfers into an account (% age 60+){p_end}
+{synopt:{opt gf10_n}} Received wages or government transfers into an account (% age 15+){p_end}
+{synopt:{opt gf4_n_1}} Made payment using a mobile phone or the internet, female (% age 15+){p_end}
+{synopt:{opt gf4_n_2}} Made payment using a mobile phone or the internet, male (% age 15+){p_end}
+{synopt:{opt gf4_n_3}} Made payment using a mobile phone or the internet, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt gf4_n_4}} Made payment using a mobile phone or the internet, income, richest 60% (% age 15+){p_end}
+{synopt:{opt gf4_n_5}} Made payment using a mobile phone or the internet (% ages 15-34){p_end}
+{synopt:{opt gf4_n_6}} Made payment using a mobile phone or the internet (% ages 35-59){p_end}
+{synopt:{opt gf4_n_7}} Made payment using a mobile phone or the internet (% age 60+){p_end}
+{synopt:{opt gf4_n}} Made payment using a mobile phone or the internet (% age 15+){p_end}
+{synopt:{opt gf7_n_1}} Active account, female (% age 15+){p_end}
+{synopt:{opt gf7_n_2}} Active account, male (% age 15+){p_end}
+{synopt:{opt gf7_n_3}} Active account, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt gf7_n_4}} Active account, income, richest 60% (% age 15+){p_end}
+{synopt:{opt gf7_n_5}} Active account (% ages 15-34){p_end}
+{synopt:{opt gf7_n_6}} Active account (% ages 35-59){p_end}
+{synopt:{opt gf7_n_7}} Active account (% age 60+){p_end}
+{synopt:{opt gf7_n}} Active account (% age 15+){p_end}
+{synopt:{opt gwp1_n_1}} Access to a mobile phone, female (% age 15+){p_end}
+{synopt:{opt gwp1_n_2}} Access to a mobile phone, male (% age 15+){p_end}
+{synopt:{opt gwp1_n_3}} Access to a mobile phone, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt gwp1_n_4}} Access to a mobile phone, income, richest 60% (% age 15+){p_end}
+{synopt:{opt gwp1_n_5}} Access to a mobile phone (% ages 15-34){p_end}
+{synopt:{opt gwp1_n_6}} Access to a mobile phone (% ages 35-59){p_end}
+{synopt:{opt gwp1_n_7}} Access to a mobile phone (% age 60+){p_end}
+{synopt:{opt gwp1_n}} Access to a mobile phone (% age 15+){p_end}
+{synopt:{opt gwp2_n_1}} Access to internet, female (% age 15+){p_end}
+{synopt:{opt gwp2_n_2}} Access to internet, male (% age 15+){p_end}
+{synopt:{opt gwp2_n_3}} Access to internet, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt gwp2_n_4}} Access to internet, income, richest 60% (% age 15+){p_end}
+{synopt:{opt gwp2_n_5}} Access to internet (% ages 15-34){p_end}
+{synopt:{opt gwp2_n_6}} Access to internet (% ages 35-59){p_end}
+{synopt:{opt gwp2_n_7}} Access to internet (% age 60+){p_end}
+{synopt:{opt gwp2_n}} Access to internet (% age 15+){p_end}
 {synopt:{opt i_ATMs_pop}} ATMs per 100,000 adults{p_end}
-{synopt:{opt i_acc_deposit_A1_sme}} SME deposit accounts (as a % of non-financial corporation borrowers){p_end}
-{synopt:{opt i_acc_deposit_A1}} Deposit accounts per 1,000 adults{p_end}
-{synopt:{opt i_acc_loan_A1_sme}} SME loan accounts (as a % of non-financial corporation borrowers){p_end}
-{synopt:{opt i_acc_loan_A1}} Outstanding loans per 1,000 adults{p_end}
-{synopt:{opt i_branches_pop_A1}} Branches per 100,000 adults{p_end}
+{synopt:{opt i_branches_A1_pop}} Branches per 100,000 adults{p_end}
+{synopt:{opt i_deposit_acc_A1_pop}} Deposit accounts per 1,000 adults{p_end}
+{synopt:{opt i_deposit_acc_A1_sme_perNFC}} SME deposit accounts (as a % of non-financial corporation borrowers){p_end}
+{synopt:{opt i_loan_acc_A1_sme_perNFC}} SME loan accounts (as a % of non-financial corporation borrowers){p_end}
 {synopt:{opt i_mob_agent_pop_registered}} Mobile agent outlets per 100,000 adults{p_end}
-{synopt:{opt i_mob_transactions_number}} Mobile money transactions per 100,000 adults{p_end}
+{synopt:{opt i_mob_transactions_number_pop}} Mobile money transactions per 100,000 adults{p_end}
 {synopt:{opt lm_ub.bi_q1}} Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits){p_end}
 {synopt:{opt lm_ub.cov_pop}} Coverage of unemployment benefits and ALMP (% of population){p_end}
 {synopt:{opt lm_ub.gen_pop}} Generosity of unemployment benefits and ALMP (% of total welfare of beneficiary households){p_end}
@@ -14060,29 +14101,29 @@
 {synopt:{opt per_lm_alllm.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Labor Market (preT){p_end}
 {synopt:{opt per_lm_alllm.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Labor Market -rural{p_end}
 {synopt:{opt per_lm_alllm.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Labor Market -urban{p_end}
-{synopt:{opt per_lm_alllm.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -urban{p_end}
-{synopt:{opt per_lm_alllm.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - All Labor Market -urban{p_end}
-{synopt:{opt per_lm_alllm.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Labor Market -urban{p_end}
-{synopt:{opt per_lm_alllm.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Labor Market -urban{p_end}
-{synopt:{opt per_lm_alllm.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market  (preT){p_end}
-{synopt:{opt per_lm_alllm.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.avt_pop_preT_tot}} Average per capita transfer - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.avt_pop_rur}} Average per capita transfer - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.avt_pop_tot}} Average per capita transfer - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.avt_pop_urb}} Average per capita transfer - All Labor Market -urban{p_end}
+{synopt:{opt per_lm_alllm.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_alllm.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.avt_pop_preT_tot}} Average per capita transfer - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.avt_pop_rur}} Average per capita transfer - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.avt_pop_tot}} Average per capita transfer - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.avt_pop_urb}} Average per capita transfer - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Labor Market {p_end}
@@ -16599,6 +16640,6 @@
 {synopt:{opt per_sionl.overlap_q1_rur}} Population in the poorest quintile only receiving All Social Insurance (%) -rural {p_end}
 {synopt:{opt per_sionl.overlap_q1_tot}} Population in the poorest quintile only receiving All Social Insurance (%) {p_end}
 {synopt:{opt per_sionl.overlap_q1_urb}} Population in the poorest quintile only receiving All Social Insurance (%) -urban {p_end}
+{synopt:{opt s_loans_A1}} Outstanding loans per 1,000 adults {p_end}
 {synopt:{opt s_policyholders_B2_life}} Insurance policy holders per 1,000 adults (life) {p_end}
 {synopt:{opt s_policyholders_B2_nonlife}} Insurance policy holders per 1,000 adults (non-life) {p_end}
-$. {p_end}

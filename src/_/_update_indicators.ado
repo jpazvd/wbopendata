@@ -1,16 +1,17 @@
 *******************************************************************************
-* _wbopendata_update                                                                     *
-*! v 14.3  	2Feb2019               by Joao Pedro Azevedo                     *
+* _update_indicators                                                                     *
+*! v 15.1   3Mar2019				by João Pedro Azevedo
+*		rename ado : _wbopendata_update.ado  to _update_indicators.ado
 *******************************************************************************
 
 
-program define _wbopendata_update, rclass
+program define _update_indicators, rclass
 
 	*====================================================================================
 
 	version 9
 	
-    syntax                                          ///
+    syntax                                         ///
                  ,                                 ///
                          UPDATE		               ///
 						 [ PRESERVEOUT ]			   
@@ -18,18 +19,45 @@ program define _wbopendata_update, rclass
 
 	
 	quietly {
+
+		************************************
+		/* Overall Parameters			  */
+		************************************
+
+		local date: disp %td date("`c(current_date)'", "DMY")
 	
 		tempfile indicator1 indicator2
 
 		local query1 "http://api.worldbank.org/v2/indicators?per_page=10000&page=1"
 		local query2 "http://api.worldbank.org/v2/indicators?per_page=10000&page=2"
 
+		****************************************
+		/* Download Indicator list using API  */
+		****************************************
 
-		cap: copy "`query1'" "`indicator1'", text replace		
+		noi di in smcl in g ""
+		noi di in smcl in g "{bf: Downloading indicators list 1/2...}"
+
+		cap: copy "`query1'" "`indicator1'", text replace	
+		
+		noi di in smcl in g ""
+		noi di in smcl in g "{bf: Downloading indicators list 1/2...COMPLETED!}"
+		
+		noi di in smcl in g ""
+		noi di in smcl in g "{bf: Downloading indicators list 2/2...}"
+		
 		cap: copy "`query2'" "`indicator2'", text replace
 
-	*========================begin conversion ===========================================*/
+		noi di in smcl in g ""
+		noi di in smcl in g "{bf: Downloading indicators list 2/2...COMPLETED!}"
 
+		noi di in smcl in g ""
+		noi di in smcl in g "{bf: Executing update...}"
+
+		
+		************************************
+		/* Preapre Indicator list (TXT)	  */
+		************************************
 	
 		tempfile in out source out3 source3 hlp1 hlp2 indicator help
 		tempname in2 in3 out2 in_tmp saving source1 source2 hlp hlp01 hlp02
@@ -112,7 +140,10 @@ program define _wbopendata_update, rclass
 		file close `source2'
 		file close `hlp01'
 
-			
+		************************************
+		/* Finish Indicator list TXT file */
+		************************************
+		
 		insheet using `indicator'	, clear
 		sort v1
 		bysort v1 : gen dups = _n
@@ -120,6 +151,10 @@ program define _wbopendata_update, rclass
 		keep if dups == 1
 		drop dups
 		outsheet using `indicator', replace noquote nolabel nonames
+
+		************************************
+		/* Create Indicator list STHLP file */
+		************************************
 
 		insheet using `hlp1'	, clear
 		sort v1
@@ -129,7 +164,6 @@ program define _wbopendata_update, rclass
 		drop dups
 		outsheet using `hlp1', replace noquote nolabel nonames
 		
-			
 		file open `hlp02'	using 	`hlp1', read 
 		file open `hlp'		using 	`help', write text replace
 
@@ -138,7 +172,7 @@ program define _wbopendata_update, rclass
 		file write `hlp' "" 							_n
 		file write `hlp' "{marker indicators}{...}" 	_n
 		file write `hlp' "{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}" 	_n
-		file write `hlp' "{title:Indicators List}" 		_n
+		file write `hlp' "{title:Indicators List (as of `date')}" 		_n
 		file write `hlp' "" 							_n
 		file write `hlp' "{synoptset 33 tabbed}{...}" 	_n
 		file write `hlp' "{synopthdr: Indicators List}" _n
@@ -154,7 +188,7 @@ program define _wbopendata_update, rclass
 						if (strmatch("`line'", "*{p_end}*")==1) & length(trim("`line'"))>0 {
 							file write `hlp' `"`line'"' _n
 						}
-						else {
+						if (strmatch("`line'", "*{p_end}*")==0) & length(trim("`line'"))>0 {
 							file write `hlp' `"`line'"'
 							file write `hlp' "$. {p_end}" _n
 						}
@@ -163,7 +197,9 @@ program define _wbopendata_update, rclass
 
 		file close `hlp'
 		
-	*======================== end converstion ===========================================
+		************************************
+		/* COPY / REPLACE files			  */
+		************************************
 
 	findfile indicators.txt, `path'
 	copy `indicator'  `r(fn)' , replace
@@ -172,9 +208,18 @@ program define _wbopendata_update, rclass
 	copy `help'  `r(fn)' , replace
 
 	break
+
+	noi di in smcl in g ""
+	noi di in smcl in g "{bf: Update...COMPLETED!}"
+	noi di in smcl in g ""
+
 	
 	*====================================================================================
 
 	}
-	
+
 end
+
+
+*******************************************************************************
+* v 14.3  	2Feb2019               	by Joao Pedro Azevedo                     
