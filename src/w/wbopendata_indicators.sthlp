@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Indicators List}
+{title:Indicators List (as of 03mar2019)}
 
 {synoptset 33 tabbed}{...}
 {synopthdr: Indicators List}
@@ -16643,4 +16643,3 @@
 {synopt:{opt s_loans_A1}} Outstanding loans per 1,000 adults {p_end}
 {synopt:{opt s_policyholders_B2_life}} Insurance policy holders per 1,000 adults (life) {p_end}
 {synopt:{opt s_policyholders_B2_nonlife}} Insurance policy holders per 1,000 adults (non-life) {p_end}
-$. {p_end}

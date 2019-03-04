@@ -10,6 +10,7 @@ program define _countrymetadata , rclass
 	******************************************************
 
 	syntax ,						///
+			match(varname) 			///
 			[ 						///
 				ISO					///
 				REGION				///
@@ -18,62 +19,79 @@ program define _countrymetadata , rclass
 				LENDINGTYPE			///
 				CAPITAL				///
 				FULL				///
+				countrycode_iso2 	///
+				region 			///
+				region_iso2 	///
+				regionname 			///
+				adminregion 		///
+				adminregion_iso2 	///
+				adminregionname 	///
+				incomelevel 		///
+				incomelevel_iso2 	///
+				incomelevelname 	///
+				lendingtype 		///
+				lendingtype_iso2 	///
+				lendingtypename 	///
+				capital 			///
+				latitude 			///
+				longitude 			///
+				countryname			///
 		  ]
 	
+	******************************************************
+
+	local tmpisolist " countrycode_iso2 region_iso2 adminregion_iso2 incomelevel_iso2 lendingtype_iso2 "
+	local tmpregionlist " region region_iso2 regionname  "
+	local tmpadminlist " adminregion adminregion_iso2 adminregionname "
+	local tmpincomelist " incomelevel incomelevel_iso2 incomelevelname "
+	local tmplendinglist " lendingtype lendingtype_iso2 lendingtypename "
+	local tmpcapitalist " capital latitude longitude "
+
+			
+	if ("`iso'" == "iso") {
+		local isolist " `tmpisolist' "
+	}
+	if ("`region'" == "region") {
+		local regionlist " `tmpregionlist' "
+	}
+	if ("`adminregion'" == "adminregion") {
+		local adminlist " `tmpadminlist' "
+	}
+	if ("`incomelevel'" == "incomelevel") {
+		local incomelist " `tmpincomelist' "
+	}
+	if ("`incomelevel'" == "incomelevel") {
+		local lendinglist " `tmplendinglist' "
+	}
+	if ("`incomelevel'" == "incomelevel") {
+		local capitalist " `tmpcapitallist' "
+	}	
+	if ("`full'" == "full") {
+		local full	" `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
+	}
+
+	******************************************************
+	
+	if (wordcount(" `countryname' `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' ") == 0) {
+		local basic " region regionname  adminregion adminregionname incomelevel incomelevelname lendingtype lendingtypename "
+	}
+	else {
+		local basic " `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' "
+	}
 	
 	******************************************************
 
-*	qui _countryname
-	qui _countrycode_iso2
+	foreach varname in `countryname' `basic' {
+		
+		qui _`varname', match(`match')
+		
+		local order "`order' `varname' "
 	
-	qui _regioncode
-	qui _regioncode_iso2
-	qui _regionname
-
-	qui _adminregion
-	qui _adminregion_iso2
-	qui _adminregionname
+	}
 	
-	qui _incomelevel
-	qui _incomelevel_iso2
-	qui _incomelevelname
-	
-	qui _lendingtype
-	qui _lendingtype_iso2
-	qui _lendingtypename
-	
-	qui _capital
-	qui _latitude
-	qui _longitude
-
 	******************************************************
 
-*	lab var countryname			"Country Name"
-    lab var countrycode_iso2    "Country Code (ISO 2 digits)"
-
-    lab var regioncode  		"Region Code"
-	lab var regioncode_iso2		"Region Code (ISO 2 digits)"
-    lab var regionname      	"Region Name"
-
-    lab var adminregion  		"Administrative Region Code"
-	lab var adminregion_iso2	"Administrative Region Code (ISO 2 digits)"
-    lab var adminregionname	    "Administrative Region Name"
-
-    lab var incomelevel  		"Income Level Code"
-	lab var incomelevel_iso2	"Income Level Code (ISO 2 digits)"
-    lab var incomelevelname    	"Income Level Name"
-	
-	lab var lendingtype  		"Lending Type Code"
-	lab var lendingtype_iso2	"Lending Type Code (ISO 2 digits)"
-    lab var lendingtypename    	"Lending Type Name"
-	
-	lab var capital		  		"Capital Name"
-	lab var latitude			"Capital Latitude"
-    lab var longitude	      	"Capital Longitude"
-
-	******************************************************
-
-	order countrycode countryname countrycode_iso2 regioncode regioncode_iso2 regionname adminregion adminregion_iso2 adminregionname incomelevel incomelevel_iso2 incomelevelname lendingtype lendingtype_iso2 lendingtypename capital latitude longitude
+	order countrycode `order'
 
 end
 
