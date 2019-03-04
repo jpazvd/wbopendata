@@ -53,4 +53,14 @@ wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear
 wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long
 
 *********************************************************************
+/* 	Test update functions */
 
+wbopendata, update query
+
+wbopendata, update check
+
+wbopendata, update
+
+wbopendata, update all
+
+_wbopendata, update force
