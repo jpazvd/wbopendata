@@ -64,3 +64,18 @@ wbopendata, update
 wbopendata, update all
 
 _wbopendata, update force
+
+wbopendata, indicator( allsi.cov_pop ) clear
+
+wbopendata, indicator(  IT.MOB.REVN.CD ) clear
+
+wbopendata, indicator(  aslkjdflasdj ) clear
+
+wbopendata, indicator(  IT.MOB.REVN.CD ) clear
+
+wbopendata, indicator(  IT.MOB.REVN.CD ) clear long
+
+wbopendata, indicator(  IT.MOB.REVN.CD ; si.pov.dday; ny.gdp.pcap.pp.kd) clear
+tab indicatorcode
+
+wbopendata, indicator(  IT.MOB.REVN.CD ; si.pov.dday; ny.gdp.pcap.pp.kd) clear long

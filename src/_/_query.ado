@@ -210,7 +210,9 @@ quietly {
 			list ///
 			parameter(indicator?id name source?id)
 			
-		if (_rc == 0) {
+			
+			
+		if (strmatch("`r(line1)'","*error*") == 0) & (_rc == 0) {
 		
 			noi di ""
 			noi di in g "{p 4 4 2} Sorry... but indicator " as result "`r(indicator_id2)'" in g " has been moved to " as result "`r(source_id5)'. {p_end}"
@@ -225,7 +227,7 @@ quietly {
 		
 		}
 
-		if (_rc != 0) {
+		if strmatch("`r(line1)'","*error*") == 1 | (_rc != 0) {
 
 			noi di ""
 			noi di as err "{p 4 4 2} Sorry... No data was downloaded for " as result "`queryspec2'. {p_end}"
