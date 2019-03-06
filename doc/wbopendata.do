@@ -3,17 +3,24 @@ shell git checkout qa
 discard
 
 *	wbopendata example
+
 *   --- example1.do ---
         webdoc init wbopendata, md replace logall plain 
         
-
+		
+		 webdoc toc 
+		
+		/***
+        ### Version Control
+		***/
+        
 		which wbopendata
 		which _query
 		which wbopendata.sthlp
 
 		
 		/***
-        # Example 1
+        ### Example 1
 
         Download all WDI indiators for a single country (i.e. China)
 
@@ -23,7 +30,7 @@ discard
 		tab indicatorcode in 1/10
 		
         /***
-        # Example 2
+        ### Example 2
 
        Download all WDI indicators of particular topic
 		
@@ -33,7 +40,7 @@ discard
 		tab indicatorcode in 1/10
 		
 		/***
-        # Example 3
+        ### Example 3
 
         Download specific indicator [ag.agr.trac.no]
 
@@ -43,7 +50,7 @@ discard
 		tab countryname in 1/10
 		
 		/***
-        # Example 4
+        ### Example 4
 
         Download specific indicator and report in long format [ag.agr.trac.no]
 
@@ -53,7 +60,7 @@ discard
 		tab year in 1/10
 		
 		/***
-        # Example 5
+        ### Example 5
 
         Download specific indicator for specific countries, and report in long 
 		format [ag.agr.trac.no]
@@ -64,7 +71,7 @@ discard
 		tab countryname 
 		
 		/***
-        # Example 6
+        ### Example 6
 
         Download specific indicator, for specific countries and year, and report 
 		in long format [ag.agr.trac.no]
@@ -77,7 +84,7 @@ discard
 		tab  year countryname if sp_pop_0610_fe_un != .
 		
 		/***
-        # Example 7
+        ### Example 7
 
         Map latest values of global mobile phone coverage
 
@@ -101,7 +108,7 @@ discard
 
 		
 		/***
-        # Example 8
+        ### Example 8
 
         Bencharmk latest poverty levels by percapital income, highlighting single 
 		country
@@ -125,7 +132,7 @@ discard
         
 		/***
 
-        # Exercise 9
+        ### Example  9
 
         Benchmark epsiodes of poveryt reduction by Region
 
@@ -146,7 +153,7 @@ discard
 
 		/***
 
-        # Exercise 10
+        ### Example  10
 
         Benchmark MDG progress using 2008 as cutoff value
 
@@ -184,7 +191,7 @@ discard
 	
 		/***
 
-        # Exercise 11
+        ### Example  11
 
         Bencharmk latest poverty levels by percapital income, highlighting regional 
 		averages
@@ -208,3 +215,35 @@ discard
 			ytitle("`r(ylabel1)'" "`r(ylabel2)'" "`r(ylabel3)'") ///		
 			note("Source: World Development Indicators (latest available year as off `time') using Azevedo, J.P. (2011) wbopendata: Stata" "module to access World Bank databases, Statistical Software Components S457234 Boston College Department of Economics.", size(*.7))
 	webdoc graph
+	
+	
+		/***
+
+        ### Example  12
+
+        WBOPENDATA update query
+
+        ***/
+
+		wbopendata, update query
+		
+		/***
+
+        ### Example  12
+
+        WBOPENDATA update check
+
+        ***/
+
+		wbopendata, update check
+		
+		/***
+
+        ### Example  13
+
+        WBOPENDATA update check
+
+        ***/
+
+		wbopendata, update all
+		
