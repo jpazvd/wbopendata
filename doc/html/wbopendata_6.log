@@ -1,0 +1,43 @@
+. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear
+
+
+
+Metadata: sp.pop.0610.fe.un
+
+--------------------------------------------------------------------------------
+    
+    Name: Population, ages 6-10, female
+ 
+  ------------------------------------------------------------------------------
+    
+    Source: Education Statistics
+ 
+ -------------------------------------------------------------------------------
+    
+    Source Note: Population, ages 6-10, female is the total number of females
+    age 6-10.
+ 
+ -------------------------------------------------------------------------------
+    
+    Source Organization: UNESCO Institute for Statistics (Derived)
+ 
+ -------------------------------------------------------------------------------
+    
+      
+    Topics: Education
+ 
+ -------------------------------------------------------------------------------
+
+
+
+. tab countryname 
+
+   Country Name |      Freq.     Percent        Cum.
+----------------+-----------------------------------
+         Angola |          1       20.00       20.00
+        Burundi |          1       20.00       40.00
+Channel Islands |          1       20.00       60.00
+        Denmark |          1       20.00       80.00
+          Spain |          1       20.00      100.00
+----------------+-----------------------------------
+          Total |          5      100.00

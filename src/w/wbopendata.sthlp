@@ -327,14 +327,14 @@ at the World Bank Data website to identify which format is supported.{p_end}
         . drop if  si_pov_dday == .
         . sort  countryname year
         . bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
-        . encode regioncode, gen(reg)
+        . encode region, gen(reg)
         . encode countryname, gen(reg2)
-        . keep if region == "Aggregates"
-        . alorenz diff_pov, gp points(20) fullview  xdecrease markvar(reg2)  ///                                         
+        . alorenz diff_pov, gp points(100) fullview  xdecrease markvar(reg2)  ///                                         
             ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional ///
             episodes of poverty reduction (%)") legend(off) title("Poverty Reduction") ///
             legend(off) note("Source: World Development Indicators using Azevedo, J.P. ///
             (2011) wbopendata: Stata module to " "access World Bank databases, Statistical ///
+			mlabelangle(45)		///
             Software Components S457234 Boston College Department of Economics.", size(*.7)){p_end} 
 {txt}      ({stata "wbopendata_examples example02":click to run})
 
@@ -342,7 +342,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
         . wbopendata, indicator(si.pov.dday ) clear long
         . drop if  si_pov_dday == .
         . sort  countryname year
-        . keep if region == "Aggregates"
+        . keep if regionname == "Aggregates"
         . bysort  countryname : gen diff_pov = (si_pov_dday-si_pov_dday[_n-1])/(year-year[_n-1])
         . gen baseline = si_pov_dday if year == 1990
         . sort countryname baseline
