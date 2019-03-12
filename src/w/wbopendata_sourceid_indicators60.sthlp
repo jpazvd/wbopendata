@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -60,19 +61,6 @@
 {synoptline}
 
 {dlgtab: {help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness Metric}{marker sourceid_EF.EFM.OVRL.XD}
-
-
-{synopt:{opt Source}}60 Economic Fitness.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of products, ability to upgrade into ever-increasing complex goods, tend to have more predictable long-term growth, and to attain good competitive position relative to other countries.   Countries with low EF levels tend to suffer from poverty, low capabilities, less predictable growth, low value-addition, and trouble upgrading and diversifying faster than other countries.  The starting data is the COMTRADE list of products exported by each country. This data defines a bipartite network of countries and products, or goods and services. A suitably designed mathematical algorithm applied to this network leads to the Economic Fitness of all countries and the Complexity of all products. The comparison of the Fitness to the GDP reveals hidden information for the development and the growth of the countries..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - Economic Fitness Ranking (1 = high, 149 = low)}{marker sourceid_EF.EFM.RANK.XD}
 
 
 {synopt:{opt Source}}60 Economic Fitness.{p_end}

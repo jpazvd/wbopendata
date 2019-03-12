@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -72,7 +73,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##2.1_ACCESS.CFT.TOT:2.1_ACCESS.CFT.TOT} - Access to Clean Fuels and Technologies for cooking (% of total population)}{marker sourceid_2.1_ACCESS.CFT.TOT}
+{dlgtab: {help wbopendata_sourceid##2.1_ACCESS.CFT.TOT:2.1_ACCESS.CFT.TOT} - School enrolment, preprimary, national source (% gross)}{marker sourceid_2.1_ACCESS.CFT.TOT}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Pre-Primary Gross Enrolment Rate (GER): The number of pupils enrolled in pre-primary school, regardless of age, expressed as a percentage of the population in the theoretical age group in pre-primary school. The purpose of this indicator is to measure the general level of participation of children in Early Childhood Education (ECE) programs. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##2.1_PRE.PRIMARY.GER:2.1_PRE.PRIMARY.GER} - School enrolment, preprimary, national source (% gross)}{marker sourceid_2.1_PRE.PRIMARY.GER}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -98,14 +112,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##2.2_GIR:2.2_GIR} - Gender parity index for gross intake ratio in grade 1}{marker sourceid_2.2_GIR}
+{dlgtab: {help wbopendata_sourceid##2.2_GIR:2.2_GIR} - Gross intake ratio in grade 1, total, national source (% of relevant age group)}{marker sourceid_2.2_GIR}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Ratio of female to male values of gross intake ratio for primary first grade. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}Gross intake ratio (GIR): This indicator measures the total number of new entrants in the first grade of primary education, regardless of age, expressed as a percentage of the population at the official primary school-entrance age. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -118,7 +132,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Ratio of female to male values of gross intake ratio for primary first grade. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}Number of children of official primary school age who are not enrolled in primary or secondary school, expressed as a percentage of the population of official primary school age. This indicator is intended to measure the size of the population in the official primary school age range that should be targeted by policies and efforts to achieve universal primary education. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -137,7 +151,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##2.5_PCR:2.5_PCR} - Gender parity index for primary completion rate}{marker sourceid_2.5_PCR}
+{dlgtab: {help wbopendata_sourceid##2.5_PCR:2.5_PCR} - Primary completion rate, total, national source (% of relevant age group)}{marker sourceid_2.5_PCR}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -170,20 +184,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The lower secondary school completion rate is the percentage of children who are completing the last year of lower secondary education. It is computed by dividing the total number of students in the last grade of lower secondary education school minus repeaters in that grade divided by the total number of children of official completing age. Country-specific definition, method and targets are determined by countries themselves..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##2.8_LOW.SEC.COMPLETION.RATE:2.8_LOW.SEC.COMPLETION.RATE} - Lower secondary completion rate, total, national source (% of relevant age group)}{marker sourceid_2.8_LOW.SEC.COMPLETION.RATE}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The lower secondary school completion rate is the percentage of children who are completing the last year of lower secondary education. It is computed by dividing the total number of students in the last grade of lower secondary education school minus repeaters in that grade divided by the total number of children of official completing age. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}This indicator measures the number of new entrants to the first grade of secondary education (general programs only) in a given year, expressed as a percentage of the number of pupils enrolled in the final grade of primary education in the previous year. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -209,7 +210,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Number of books used by a single pupil used as a standard work for the study of the mathematics subject. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}Number of rooms or single accommodations, minimally equipped, built for the first time in which a class of pupils in lower secondary school is taught. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -235,7 +236,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Date (year) of the most recent study carried out by any national or international entity on the effectiveness of the instruction time devoted to learning activities..{p_end}
+{synopt:{opt Source Notes}}Number of books used by a single pupil used as a standard work for the study of the primary language of instruction. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -248,22 +249,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Persons employed for the first time in an official capacity to guide and direct the learning experience of pupils in lower secondary school, excluding educational personnel who have no active teaching duties. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}Pupils entering primary school for the first time, excluding repetears. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##3.1_PRI.NEW.ENTRANTS:3.1_PRI.NEW.ENTRANTS} - Primary education, new entrants, national source}{marker sourceid_3.1_PRI.NEW.ENTRANTS}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Renewable energy consumption (TJ): This indicator includes renewable energy consumption of all technologies: hydro, modern and traditional biomass, wind, solar, liquid biofuels, biogas, geothermal, marine and waste.{p_end}
-
-{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, http://www.iea.org/stats/index.asp)..{p_end}
 
 
 
@@ -313,13 +301,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Number of rooms or single accommodations, minimally equipped, in which a class of pupils in primary school is taught. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}Number of rooms or single accommodations, minimally equipped, built for the first time in which a class of pupils in primary school is taught. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##3.6_PRI.NEW.CLASSROOMS:3.6_PRI.NEW.CLASSROOMS} - Lower Secondary education, new entrants, national source}{marker sourceid_3.6_PRI.NEW.CLASSROOMS}
+{dlgtab: {help wbopendata_sourceid##3.6_PRI.NEW.CLASSROOMS:3.6_PRI.NEW.CLASSROOMS} - Primary education, new classrooms, national source}{marker sourceid_3.6_PRI.NEW.CLASSROOMS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -332,14 +320,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##3.7_LOW.SEC.NEW.ENTRANTS:3.7_LOW.SEC.NEW.ENTRANTS} - Lower Secondary education, new entrants, national source}{marker sourceid_3.7_LOW.SEC.NEW.ENTRANTS}
+{dlgtab: {help wbopendata_sourceid##3.7_LOW.SEC.NEW.ENTRANTS:3.7_LOW.SEC.NEW.ENTRANTS} - Lower secondary education, pupils, national source}{marker sourceid_3.7_LOW.SEC.NEW.ENTRANTS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Pupils entering lower secondary school for the first time, excluding repeaters. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+{synopt:{opt Source Notes}}Total population of pupils in lower secondary school, regardless of age. Country-specific definition, method and targets are determined by countries themselves..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -371,46 +359,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##4.1_SHARE.RE.IN.ELECTRICITY:4.1_SHARE.RE.IN.ELECTRICITY} - Renewable electricity (% in total electricity output)}{marker sourceid_4.1_SHARE.RE.IN.ELECTRICITY}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Public expenses devoted to the education sector, including recurrent and capital expenditures and teacher salaries, expressed as a percentage of the total general government expenses. Country-specific definition, method and targets are determined by countries themselves..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##4.1_TOTAL.EDU.SPENDING:4.1_TOTAL.EDU.SPENDING} - Public spending on total education (% of total public spending)}{marker sourceid_4.1_TOTAL.EDU.SPENDING}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
-
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##4.2_BASIC.EDU.SPENDING:4.2_BASIC.EDU.SPENDING} - Public spending on basic education (% of public spending on total education)}{marker sourceid_4.2_BASIC.EDU.SPENDING}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Public expenses devoted to the basic education sector, including recurrent and capital expenditures and teacher salaries, expressed as a percentage of the public spending on total education. Country-specific definition, method and targets are determined by countries themselves..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##4.3_TOTAL.EDU.RECURRENT:4.3_TOTAL.EDU.RECURRENT} - Public recurrent spending on total education (% of total public recurrent spending)}{marker sourceid_4.3_TOTAL.EDU.RECURRENT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -423,7 +372,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##4.4_BASIC.EDU.RECURRENT:4.4_BASIC.EDU.RECURRENT} - Public recurrent spending on basic education (% of public recurrent spending on total education)}{marker sourceid_4.4_BASIC.EDU.RECURRENT}
+{dlgtab: {help wbopendata_sourceid##4.3_TOTAL.EDU.RECURRENT:4.3_TOTAL.EDU.RECURRENT} - Public recurrent spending on total education (% of total public recurrent spending)}{marker sourceid_4.3_TOTAL.EDU.RECURRENT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -462,7 +411,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.10_KHM.TOTA.AID.WFP:5.1.10_KHM.TOTA.AID.WFP} - International aid disbursed to total education, WFP to Cambodia (USD million)}{marker sourceid_5.1.10_KHM.TOTA.AID.WFP}
+{dlgtab: {help wbopendata_sourceid##5.1.10_KHM.TOTA.AID.WFP:5.1.10_KHM.TOTA.AID.WFP} - International aid disbursed to total education, World Bank to Laos (USD million)}{marker sourceid_5.1.10_KHM.TOTA.AID.WFP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -501,7 +450,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.10_MOZ.TOTA.AID.JPN:5.1.10_MOZ.TOTA.AID.JPN} - International aid disbursed to total education, WFP to Malawi (USD million)}{marker sourceid_5.1.10_MOZ.TOTA.AID.JPN}
+{dlgtab: {help wbopendata_sourceid##5.1.10_MOZ.TOTA.AID.JPN:5.1.10_MOZ.TOTA.AID.JPN} - International aid disbursed to total education, Japan to Mozambique (USD million)}{marker sourceid_5.1.10_MOZ.TOTA.AID.JPN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -527,7 +476,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.10_NER.TOTA.AID.UNICEF:5.1.10_NER.TOTA.AID.UNICEF} - International aid disbursed to total  education, UNICEF to Niger (USD million)}{marker sourceid_5.1.10_NER.TOTA.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.1.10_NER.TOTA.AID.UNICEF:5.1.10_NER.TOTA.AID.UNICEF} - International aid disbursed to total education, World Bank to Tajikistan (USD million)}{marker sourceid_5.1.10_NER.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -540,7 +489,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.10_TJK.TOTA.AID.WB:5.1.10_TJK.TOTA.AID.WB} - International aid disbursed to total education, World Bank to Tajikistan (USD million)}{marker sourceid_5.1.10_TJK.TOTA.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.1.10_TJK.TOTA.AID.WB:5.1.10_TJK.TOTA.AID.WB} - International aid disbursed to total education, UNESCO to Afghanistan (USD million)}{marker sourceid_5.1.10_TJK.TOTA.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -566,7 +515,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.11_ETH.TOTA.AID.JICA:5.1.11_ETH.TOTA.AID.JICA} - International aid disbursed to total education, World Bank to Cambodia (USD million)}{marker sourceid_5.1.11_ETH.TOTA.AID.JICA}
+{dlgtab: {help wbopendata_sourceid##5.1.11_ETH.TOTA.AID.JICA:5.1.11_ETH.TOTA.AID.JICA} - International aid disbursed to total education, JICA to Ethiopia (USD million)}{marker sourceid_5.1.11_ETH.TOTA.AID.JICA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -618,7 +567,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.11_MWI.TOTA.AID.WB:5.1.11_MWI.TOTA.AID.WB} - International aid disbursed to total education, USAID to Afghanistan (USD million)}{marker sourceid_5.1.11_MWI.TOTA.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.1.11_MWI.TOTA.AID.WB:5.1.11_MWI.TOTA.AID.WB} - International aid disbursed to total education, World Bank to Malawi (USD million)}{marker sourceid_5.1.11_MWI.TOTA.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -696,7 +645,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.13_MOZ.TOTA.AID.ESP:5.1.13_MOZ.TOTA.AID.ESP} - International aid disbursed to total education, Spain to Mozambique (USD million)}{marker sourceid_5.1.13_MOZ.TOTA.AID.ESP}
+{dlgtab: {help wbopendata_sourceid##5.1.13_MOZ.TOTA.AID.ESP:5.1.13_MOZ.TOTA.AID.ESP} - International aid disbursed to total education, Sida to Ethiopia (USD million)}{marker sourceid_5.1.13_MOZ.TOTA.AID.ESP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -735,7 +684,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.15_ETH.TOTA.AID.UNICEF:5.1.15_ETH.TOTA.AID.UNICEF} - International aid disbursed to total education, USAID to Mozambique (USD million)}{marker sourceid_5.1.15_ETH.TOTA.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.1.15_ETH.TOTA.AID.UNICEF:5.1.15_ETH.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Ethiopia (USD million)}{marker sourceid_5.1.15_ETH.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -748,7 +697,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.15_MOZ.TOTA.AID.USAID:5.1.15_MOZ.TOTA.AID.USAID} - International aid disbursed to total education, USAID to Ethiopia (USD million)}{marker sourceid_5.1.15_MOZ.TOTA.AID.USAID}
+{dlgtab: {help wbopendata_sourceid##5.1.15_MOZ.TOTA.AID.USAID:5.1.15_MOZ.TOTA.AID.USAID} - International aid disbursed to total education, USAID to Mozambique (USD million)}{marker sourceid_5.1.15_MOZ.TOTA.AID.USAID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -787,7 +736,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.17_ETH.TOTA.AID.WFP:5.1.17_ETH.TOTA.AID.WFP} - International aid disbursed to total education, World Bank to Ethiopia (USD million)}{marker sourceid_5.1.17_ETH.TOTA.AID.WFP}
+{dlgtab: {help wbopendata_sourceid##5.1.17_ETH.TOTA.AID.WFP:5.1.17_ETH.TOTA.AID.WFP} - International aid disbursed to total education, WFP to Ethiopia (USD million)}{marker sourceid_5.1.17_ETH.TOTA.AID.WFP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -826,7 +775,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.1_ALB.TOTA.AID.WB:5.1.1_ALB.TOTA.AID.WB} - International aid disbursed to total education, World Bank to Albania (USD million)}{marker sourceid_5.1.1_ALB.TOTA.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.1.1_ALB.TOTA.AID.WB:5.1.1_ALB.TOTA.AID.WB} - International aid disbursed to total education, CIDA to Burkina Faso (USD million)}{marker sourceid_5.1.1_ALB.TOTA.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -917,7 +866,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.1_GEO.TOTA.AID.EC:5.1.1_GEO.TOTA.AID.EC} - International aid disbursed to total education, DFID to Djibouti (USD million)}{marker sourceid_5.1.1_GEO.TOTA.AID.EC}
+{dlgtab: {help wbopendata_sourceid##5.1.1_GEO.TOTA.AID.EC:5.1.1_GEO.TOTA.AID.EC} - International aid disbursed to total education, European Commission to Georgia (USD million)}{marker sourceid_5.1.1_GEO.TOTA.AID.EC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -956,7 +905,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.1_GNB.TOTA.AID.ADPP.EU:5.1.1_GNB.TOTA.AID.ADPP.EU} - International aid disbursed to total education, ADPP (European Union) to Guinea Bissau (USD million)}{marker sourceid_5.1.1_GNB.TOTA.AID.ADPP.EU}
+{dlgtab: {help wbopendata_sourceid##5.1.1_GNB.TOTA.AID.ADPP.EU:5.1.1_GNB.TOTA.AID.ADPP.EU} - International aid disbursed to total education, European Commission to Kyrgyzstan (USD million)}{marker sourceid_5.1.1_GNB.TOTA.AID.ADPP.EU}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1009,19 +958,6 @@
 
 
 {dlgtab: {help wbopendata_sourceid##5.1.1_LBR.TOTA.AID.UNICEF:5.1.1_LBR.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Liberia (USD million)}{marker sourceid_5.1.1_LBR.TOTA.AID.UNICEF}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
-
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Moldova (USD million)}{marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1112,7 +1048,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.1_SEN.TOTA.AID.CIDA:5.1.1_SEN.TOTA.AID.CIDA} - International aid disbursed to total education, CIDA to Senegal (USD million)}{marker sourceid_5.1.1_SEN.TOTA.AID.CIDA}
+{dlgtab: {help wbopendata_sourceid##5.1.1_SEN.TOTA.AID.CIDA:5.1.1_SEN.TOTA.AID.CIDA} - International aid disbursed to total education, DFID to Sierra Leone (USD million)}{marker sourceid_5.1.1_SEN.TOTA.AID.CIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1125,7 +1061,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.1_SLE.TOTA.AID.DFID:5.1.1_SLE.TOTA.AID.DFID} - International aid disbursed to total education, DFID to Sierra Leone (USD million)}{marker sourceid_5.1.1_SLE.TOTA.AID.DFID}
+{dlgtab: {help wbopendata_sourceid##5.1.1_SLE.TOTA.AID.DFID:5.1.1_SLE.TOTA.AID.DFID} - International aid disbursed to total education, Belgium to Vietnam (USD million)}{marker sourceid_5.1.1_SLE.TOTA.AID.DFID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1151,7 +1087,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.1_ZMB.TOTA.AID.DNK:5.1.1_ZMB.TOTA.AID.DNK} - International aid disbursed to total education, Denmark to Zambia (USD million)}{marker sourceid_5.1.1_ZMB.TOTA.AID.DNK}
+{dlgtab: {help wbopendata_sourceid##5.1.1_ZMB.TOTA.AID.DNK:5.1.1_ZMB.TOTA.AID.DNK} - International aid disbursed to total education, Sida to Afghanistan (USD million)}{marker sourceid_5.1.1_ZMB.TOTA.AID.DNK}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1177,7 +1113,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_ALB.TOTA.AID.BEI:5.1.2_ALB.TOTA.AID.BEI} - International aid disbursed to total education, AFD to Burkina Faso (USD million)}{marker sourceid_5.1.2_ALB.TOTA.AID.BEI}
+{dlgtab: {help wbopendata_sourceid##5.1.2_ALB.TOTA.AID.BEI:5.1.2_ALB.TOTA.AID.BEI} - International aid disbursed to total education, BEI to Albania (USD million)}{marker sourceid_5.1.2_ALB.TOTA.AID.BEI}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1216,7 +1152,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_CMR.TOTA.AID.WB:5.1.2_CMR.TOTA.AID.WB} - International aid disbursed to total education, World Bank to Cameroun (USD million)}{marker sourceid_5.1.2_CMR.TOTA.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.1.2_CMR.TOTA.AID.WB:5.1.2_CMR.TOTA.AID.WB} - International aid disbursed to total education, FSD to Djibouti (USD million)}{marker sourceid_5.1.2_CMR.TOTA.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1268,6 +1204,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##5.1.2_GHA.TOTA.AID.GPE:5.1.2_GHA.TOTA.AID.GPE} - International aid disbursed to total education, Global Partnership for Education to Djibouti (USD million)}{marker sourceid_5.1.2_GHA.TOTA.AID.GPE}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##5.1.2_GIN.TOTA.AID.ADPP.AFDB:5.1.2_GIN.TOTA.AID.ADPP.AFDB} - International aid disbursed to total education, AfDB to Guinea (USD million)}{marker sourceid_5.1.2_GIN.TOTA.AID.ADPP.AFDB}
 
 
@@ -1281,7 +1230,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_GNB.TOTA.AID.ADPP.HUM:5.1.2_GNB.TOTA.AID.ADPP.HUM} - International aid disbursed to total education, ADPP (Humana People to People) to Guinea Bissau (USD million)}{marker sourceid_5.1.2_GNB.TOTA.AID.ADPP.HUM}
+{dlgtab: {help wbopendata_sourceid##5.1.2_GNB.TOTA.AID.ADPP.HUM:5.1.2_GNB.TOTA.AID.ADPP.HUM} - International aid disbursed to total education, GIZ to Kyrgyzstan (USD million)}{marker sourceid_5.1.2_GNB.TOTA.AID.ADPP.HUM}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1294,7 +1243,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_KGZ.TOTA.AID.ADPP.GIZ:5.1.2_KGZ.TOTA.AID.ADPP.GIZ} - International aid disbursed to total education, Belgium to Cambodia (USD million)}{marker sourceid_5.1.2_KGZ.TOTA.AID.ADPP.GIZ}
+{dlgtab: {help wbopendata_sourceid##5.1.2_KGZ.TOTA.AID.ADPP.GIZ:5.1.2_KGZ.TOTA.AID.ADPP.GIZ} - International aid disbursed to total education, GIZ to Kyrgyzstan (USD million)}{marker sourceid_5.1.2_KGZ.TOTA.AID.ADPP.GIZ}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1307,7 +1256,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_KHM.TOTA.AID.BEL:5.1.2_KHM.TOTA.AID.BEL} - International aid disbursed to total education, AusAID to Laos (USD million)}{marker sourceid_5.1.2_KHM.TOTA.AID.BEL}
+{dlgtab: {help wbopendata_sourceid##5.1.2_KHM.TOTA.AID.BEL:5.1.2_KHM.TOTA.AID.BEL} - International aid disbursed to total education, Belgium to Cambodia (USD million)}{marker sourceid_5.1.2_KHM.TOTA.AID.BEL}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1320,7 +1269,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_LAO.TOTA.AID.AUS:5.1.2_LAO.TOTA.AID.AUS} - International aid disbursed to total education, AusAID to Laos (USD million)}{marker sourceid_5.1.2_LAO.TOTA.AID.AUS}
+{dlgtab: {help wbopendata_sourceid##5.1.2_LAO.TOTA.AID.AUS:5.1.2_LAO.TOTA.AID.AUS} - International aid disbursed to total education, USAID to Liberia (USD million)}{marker sourceid_5.1.2_LAO.TOTA.AID.AUS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1437,7 +1386,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_SEN.TOTA.AID.FR:5.1.2_SEN.TOTA.AID.FR} - International aid disbursed to total education, European Commission to Sierra Leone (USD million)}{marker sourceid_5.1.2_SEN.TOTA.AID.FR}
+{dlgtab: {help wbopendata_sourceid##5.1.2_SEN.TOTA.AID.FR:5.1.2_SEN.TOTA.AID.FR} - International aid disbursed to total education, AFD and French Embassy to Senegal (USD million)}{marker sourceid_5.1.2_SEN.TOTA.AID.FR}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1476,7 +1425,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.2_VNM.TOTA.AID.CIDA:5.1.2_VNM.TOTA.AID.CIDA} - International aid disbursed to total education, CIDA to Vietnam (USD million)}{marker sourceid_5.1.2_VNM.TOTA.AID.CIDA}
+{dlgtab: {help wbopendata_sourceid##5.1.2_VNM.TOTA.AID.CIDA:5.1.2_VNM.TOTA.AID.CIDA} - International aid disbursed to total education, Ireland to Zambia (USD million)}{marker sourceid_5.1.2_VNM.TOTA.AID.CIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1502,7 +1451,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_AFG.TOTA.AID.FRA:5.1.3_AFG.TOTA.AID.FRA} - International aid disbursed to total education, France to Afghanistan (USD million)}{marker sourceid_5.1.3_AFG.TOTA.AID.FRA}
+{dlgtab: {help wbopendata_sourceid##5.1.3_AFG.TOTA.AID.FRA:5.1.3_AFG.TOTA.AID.FRA} - International aid disbursed to total education, CEIB to Albania (USD million)}{marker sourceid_5.1.3_AFG.TOTA.AID.FRA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1541,7 +1490,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_CIV.TOTA.AID.WB:5.1.3_CIV.TOTA.AID.WB} - International aid disbursed to total education, World Bank to Côte d'Ivoire (USD million)}{marker sourceid_5.1.3_CIV.TOTA.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.1.3_CIV.TOTA.AID.WB:5.1.3_CIV.TOTA.AID.WB} - International aid disbursed to total education, AFD and French Embassy to Cameroun (USD million)}{marker sourceid_5.1.3_CIV.TOTA.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1574,7 +1523,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -1606,7 +1555,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_GHA.TOTA.AID.JICA:5.1.3_GHA.TOTA.AID.JICA} - International aid disbursed to total education, JICA to Djibouti (USD million)}{marker sourceid_5.1.3_GHA.TOTA.AID.JICA}
+{dlgtab: {help wbopendata_sourceid##5.1.3_GHA.TOTA.AID.JICA:5.1.3_GHA.TOTA.AID.JICA} - International aid disbursed to total education, World Bank to Guinea (USD million)}{marker sourceid_5.1.3_GHA.TOTA.AID.JICA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1619,7 +1568,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_GIN.TOTA.AID.ADPP.WB:5.1.3_GIN.TOTA.AID.ADPP.WB} - International aid disbursed to total education, World Bank to Guinea (USD million)}{marker sourceid_5.1.3_GIN.TOTA.AID.ADPP.WB}
+{dlgtab: {help wbopendata_sourceid##5.1.3_GIN.TOTA.AID.ADPP.WB:5.1.3_GIN.TOTA.AID.ADPP.WB} - International aid disbursed to total education, ADPP (other donors) to Guinea Bissau (USD million)}{marker sourceid_5.1.3_GIN.TOTA.AID.ADPP.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1671,7 +1620,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_LAO.TOTA.AID.EC:5.1.3_LAO.TOTA.AID.EC} - International aid disbursed to total education, World Bank to Liberia (USD million)}{marker sourceid_5.1.3_LAO.TOTA.AID.EC}
+{dlgtab: {help wbopendata_sourceid##5.1.3_LAO.TOTA.AID.EC:5.1.3_LAO.TOTA.AID.EC} - International aid disbursed to total education, European Commission to Laos (USD million)}{marker sourceid_5.1.3_LAO.TOTA.AID.EC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1749,7 +1698,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_NER.TOTA.AID.FR:5.1.3_NER.TOTA.AID.FR} - International aid disbursed to total education, UNICEF to Rwanda (USD million)}{marker sourceid_5.1.3_NER.TOTA.AID.FR}
+{dlgtab: {help wbopendata_sourceid##5.1.3_NER.TOTA.AID.FR:5.1.3_NER.TOTA.AID.FR} - International aid disbursed to total  education, French Embassy to Niger (USD million)}{marker sourceid_5.1.3_NER.TOTA.AID.FR}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1788,7 +1737,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_SLE.TOTA.AID.GIZ:5.1.3_SLE.TOTA.AID.GIZ} - International aid disbursed to total education, Open Society Foundations to Tajikistan (USD million)}{marker sourceid_5.1.3_SLE.TOTA.AID.GIZ}
+{dlgtab: {help wbopendata_sourceid##5.1.3_SLE.TOTA.AID.GIZ:5.1.3_SLE.TOTA.AID.GIZ} - International aid disbursed to total education, GIZ to Sierra Leone (USD million)}{marker sourceid_5.1.3_SLE.TOTA.AID.GIZ}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1801,7 +1750,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_TJK.TOTA.AID.OPENS:5.1.3_TJK.TOTA.AID.OPENS} - International aid disbursed to total education, Open Society Foundations to Tajikistan (USD million)}{marker sourceid_5.1.3_TJK.TOTA.AID.OPENS}
+{dlgtab: {help wbopendata_sourceid##5.1.3_TJK.TOTA.AID.OPENS:5.1.3_TJK.TOTA.AID.OPENS} - International aid disbursed to total education, DFID to Vietnam (USD million)}{marker sourceid_5.1.3_TJK.TOTA.AID.OPENS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1814,7 +1763,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_VNM.TOTA.AID.DFID:5.1.3_VNM.TOTA.AID.DFID} - International aid disbursed to total education, DFID to Vietnam (USD million)}{marker sourceid_5.1.3_VNM.TOTA.AID.DFID}
+{dlgtab: {help wbopendata_sourceid##5.1.3_VNM.TOTA.AID.DFID:5.1.3_VNM.TOTA.AID.DFID} - International aid disbursed to total education, ILO to Zambia (USD million)}{marker sourceid_5.1.3_VNM.TOTA.AID.DFID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1827,7 +1776,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.3_ZMB.TOTA.AID.ILO:5.1.3_ZMB.TOTA.AID.ILO} - International aid disbursed to total education, ILO to Zambia (USD million)}{marker sourceid_5.1.3_ZMB.TOTA.AID.ILO}
+{dlgtab: {help wbopendata_sourceid##5.1.3_ZMB.TOTA.AID.ILO:5.1.3_ZMB.TOTA.AID.ILO} - International aid disbursed to total education, Germany to Afghanistan (USD million)}{marker sourceid_5.1.3_ZMB.TOTA.AID.ILO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -1886,7 +1835,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -1931,7 +1880,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.4_GHA.TOTA.AID.UNICEF:5.1.4_GHA.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Djibouti (USD million)}{marker sourceid_5.1.4_GHA.TOTA.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.1.4_GHA.TOTA.AID.UNICEF:5.1.4_GHA.TOTA.AID.UNICEF} - International aid disbursed to total education, Global Partnership for Education to Guinea (USD million)}{marker sourceid_5.1.4_GHA.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2100,7 +2049,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.4_SLE.TOTA.AID.JICA:5.1.4_SLE.TOTA.AID.JICA} - International aid disbursed to total education, JICA to Sierra Leone (USD million)}{marker sourceid_5.1.4_SLE.TOTA.AID.JICA}
+{dlgtab: {help wbopendata_sourceid##5.1.4_SLE.TOTA.AID.JICA:5.1.4_SLE.TOTA.AID.JICA} - International aid disbursed to total education, European Commission to Tajikistan (USD million)}{marker sourceid_5.1.4_SLE.TOTA.AID.JICA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2165,7 +2114,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.5_BFA.TOTA.AID.JICA:5.1.5_BFA.TOTA.AID.JICA} - International aid disbursed to total education, JICA to Burkina Faso (USD million)}{marker sourceid_5.1.5_BFA.TOTA.AID.JICA}
+{dlgtab: {help wbopendata_sourceid##5.1.5_BFA.TOTA.AID.JICA:5.1.5_BFA.TOTA.AID.JICA} - International aid disbursed to total education, FSD to Côte d'Ivoire (USD million)}{marker sourceid_5.1.5_BFA.TOTA.AID.JICA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2373,7 +2322,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.5_SEN.TOTA.AID.UNICEF:5.1.5_SEN.TOTA.AID.UNICEF} - International aid disbursed to total education, Sida to Sierra Leone (USD million)}{marker sourceid_5.1.5_SEN.TOTA.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.1.5_SEN.TOTA.AID.UNICEF:5.1.5_SEN.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Senegal (USD million)}{marker sourceid_5.1.5_SEN.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2386,7 +2335,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.5_SLE.TOTA.AID.SIDA:5.1.5_SLE.TOTA.AID.SIDA} - International aid disbursed to total education, GIZ to Tajikistan (USD million)}{marker sourceid_5.1.5_SLE.TOTA.AID.SIDA}
+{dlgtab: {help wbopendata_sourceid##5.1.5_SLE.TOTA.AID.SIDA:5.1.5_SLE.TOTA.AID.SIDA} - International aid disbursed to total education, Sida to Sierra Leone (USD million)}{marker sourceid_5.1.5_SLE.TOTA.AID.SIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2490,7 +2439,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_DJI.TOTA.AID.IMOA:5.1.6_DJI.TOTA.AID.IMOA} - International aid disbursed to total education, IMOA to Djibouti (USD million)}{marker sourceid_5.1.6_DJI.TOTA.AID.IMOA}
+{dlgtab: {help wbopendata_sourceid##5.1.6_DJI.TOTA.AID.IMOA:5.1.6_DJI.TOTA.AID.IMOA} - International aid disbursed to total education, Finland to Ethiopia (USD million)}{marker sourceid_5.1.6_DJI.TOTA.AID.IMOA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2510,9 +2459,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean scores calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
 
 
@@ -2529,7 +2478,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_GIN.TOTA.AID.ADPP.KFW:5.1.6_GIN.TOTA.AID.ADPP.KFW} - International aid disbursed to total education, KfW to Guinea (USD million)}{marker sourceid_5.1.6_GIN.TOTA.AID.ADPP.KFW}
+{dlgtab: {help wbopendata_sourceid##5.1.6_GIN.TOTA.AID.ADPP.KFW:5.1.6_GIN.TOTA.AID.ADPP.KFW} - International aid disbursed to total education, Portuguese Cooperation to Guinea Bissau (USD million)}{marker sourceid_5.1.6_GIN.TOTA.AID.ADPP.KFW}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2581,7 +2530,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_MDG.TOTA.AID.WFP:5.1.6_MDG.TOTA.AID.WFP} - International aid disbursed to total education, Germany (GIZ and KfW) to Mozambique (USD million)}{marker sourceid_5.1.6_MDG.TOTA.AID.WFP}
+{dlgtab: {help wbopendata_sourceid##5.1.6_MDG.TOTA.AID.WFP:5.1.6_MDG.TOTA.AID.WFP} - International aid to total education executed by WFP in Madagascar (USD million)}{marker sourceid_5.1.6_MDG.TOTA.AID.WFP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2594,7 +2543,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_MOZ.TOTA.AID.DEU:5.1.6_MOZ.TOTA.AID.DEU} - International aid disbursed to total education, Germany (GIZ and KfW) to Mozambique (USD million)}{marker sourceid_5.1.6_MOZ.TOTA.AID.DEU}
+{dlgtab: {help wbopendata_sourceid##5.1.6_MOZ.TOTA.AID.DEU:5.1.6_MOZ.TOTA.AID.DEU} - International aid disbursed to total education, JICA to Malawi (USD million)}{marker sourceid_5.1.6_MOZ.TOTA.AID.DEU}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2620,7 +2569,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_NER.TOTA.AID.WFP:5.1.6_NER.TOTA.AID.WFP} - International aid disbursed to total  education, WFP to Niger (USD million)}{marker sourceid_5.1.6_NER.TOTA.AID.WFP}
+{dlgtab: {help wbopendata_sourceid##5.1.6_NER.TOTA.AID.WFP:5.1.6_NER.TOTA.AID.WFP} - International aid disbursed to total education, USAID to Senegal (USD million)}{marker sourceid_5.1.6_NER.TOTA.AID.WFP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2633,7 +2582,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_SEN.TOTA.AID.USAID:5.1.6_SEN.TOTA.AID.USAID} - International aid disbursed to total education, USAID to Senegal (USD million)}{marker sourceid_5.1.6_SEN.TOTA.AID.USAID}
+{dlgtab: {help wbopendata_sourceid##5.1.6_SEN.TOTA.AID.USAID:5.1.6_SEN.TOTA.AID.USAID} - International aid disbursed to total education, UNICEF to Sierra Leone (USD million)}{marker sourceid_5.1.6_SEN.TOTA.AID.USAID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2646,7 +2595,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.6_SLE.TOTA.AID.UNICEF:5.1.6_SLE.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Sierra Leone (USD million)}{marker sourceid_5.1.6_SLE.TOTA.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.1.6_SLE.TOTA.AID.UNICEF:5.1.6_SLE.TOTA.AID.UNICEF} - International aid disbursed to total education, Global Partnership for Education (CF and EPDF) to Tajikistan (USD million)}{marker sourceid_5.1.6_SLE.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2802,7 +2751,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.7_LAO.TOTA.AID.UNESCO:5.1.7_LAO.TOTA.AID.UNESCO} - International aid disbursed to total education, UNESCO to Laos (USD million)}{marker sourceid_5.1.7_LAO.TOTA.AID.UNESCO}
+{dlgtab: {help wbopendata_sourceid##5.1.7_LAO.TOTA.AID.UNESCO:5.1.7_LAO.TOTA.AID.UNESCO} - International aid to total education executed by UNESCO in Madagascar (USD million)}{marker sourceid_5.1.7_LAO.TOTA.AID.UNESCO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2822,7 +2771,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -2841,7 +2790,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.7_MWI.TOTA.AID.KFW:5.1.7_MWI.TOTA.AID.KFW} - International aid disbursed to total  education, DFID to Niger (USD million)}{marker sourceid_5.1.7_MWI.TOTA.AID.KFW}
+{dlgtab: {help wbopendata_sourceid##5.1.7_MWI.TOTA.AID.KFW:5.1.7_MWI.TOTA.AID.KFW} - International aid disbursed to total education,  KfW to Malawi (USD million)}{marker sourceid_5.1.7_MWI.TOTA.AID.KFW}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -2880,7 +2829,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.7_TJK.TOTA.AID.UNICEF:5.1.7_TJK.TOTA.AID.UNICEF} - International aid disbursed to total education, USAID to Vietnam (USD million)}{marker sourceid_5.1.7_TJK.TOTA.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.1.7_TJK.TOTA.AID.UNICEF:5.1.7_TJK.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Tajikistan (USD million)}{marker sourceid_5.1.7_TJK.TOTA.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3101,7 +3050,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.9_AFG.TOTA.AID.NZL:5.1.9_AFG.TOTA.AID.NZL} - International aid disbursed to total education, New Zealand to Afghanistan (USD million)}{marker sourceid_5.1.9_AFG.TOTA.AID.NZL}
+{dlgtab: {help wbopendata_sourceid##5.1.9_AFG.TOTA.AID.NZL:5.1.9_AFG.TOTA.AID.NZL} - International aid disbursed to total education, Italian Cooperation to Ethiopia (USD million)}{marker sourceid_5.1.9_AFG.TOTA.AID.NZL}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3205,16 +3154,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.1.9_TJK.TOTA.AID.WFP:5.1.9_TJK.TOTA.AID.WFP} - International aid disbursed to total education, WFP to Tajikistan (USD million)}{marker sourceid_5.1.9_TJK.TOTA.AID.WFP}
+{dlgtab: {help wbopendata_sourceid##5.14.01.01.povsurv:5.14.01.01.povsurv} - Poverty survey}{marker sourceid_5.14.01.01.povsurv}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators.{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##5.1_TOTAL.EDU.AID:5.1_TOTAL.EDU.AID} - International aid for total education, disbursed (up to present year) and scheduled (next years), aggregation of reporting donors (USD million)}{marker sourceid_5.1_TOTAL.EDU.AID}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}UNESCO Institute of Statistics compiles data on education based on official responses to surveys and from reports provided by education authorities in each country. As the recommended periodicity of these data is annual, annual reporting from countries is considered a good practice..{p_end}
+
+{synopt:{opt Source Organization}}World Bank EdStats. Original source: UNESCO Institute for Statistics (UIS).{p_end}
 
 
 
@@ -3296,14 +3258,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.10_NER.BAS.AID.UNICEF:5.2.10_NER.BAS.AID.UNICEF} - International aid disbursed to total education, private donors to Timor-Leste (USD million)}{marker sourceid_5.2.10_NER.BAS.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.10_NER.BAS.AID.UNICEF:5.2.10_NER.BAS.AID.UNICEF} - International aid disbursed to basic education, UNICEF to Niger (USD million)}{marker sourceid_5.2.10_NER.BAS.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -3316,7 +3278,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -3361,7 +3323,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.11_LAO.BAS.AID.INGOS:5.2.11_LAO.BAS.AID.INGOS} - International aid disbursed to basic education, World Bank to Malawi (USD million)}{marker sourceid_5.2.11_LAO.BAS.AID.INGOS}
+{dlgtab: {help wbopendata_sourceid##5.2.11_LAO.BAS.AID.INGOS:5.2.11_LAO.BAS.AID.INGOS} - International aid disbursed to basic education, International NGOs to Laos (USD million)}{marker sourceid_5.2.11_LAO.BAS.AID.INGOS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3420,7 +3382,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -3433,13 +3395,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.13_AFG.BAS.AID.WB:5.2.13_AFG.BAS.AID.WB} - International aid disbursed to basic education, World Bank to Afghanistan (USD million)}{marker sourceid_5.2.13_AFG.BAS.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.2.13_AFG.BAS.AID.WB:5.2.13_AFG.BAS.AID.WB} - International aid disbursed to basic education, Netherlands to Ethiopia (USD million)}{marker sourceid_5.2.13_AFG.BAS.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3491,7 +3453,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.16_ETH.BAS.AID.USAID:5.2.16_ETH.BAS.AID.USAID} - International aid disbursed to basic education, USAID to Ethiopia (USD million)}{marker sourceid_5.2.16_ETH.BAS.AID.USAID}
+{dlgtab: {help wbopendata_sourceid##5.2.16_ETH.BAS.AID.USAID:5.2.16_ETH.BAS.AID.USAID} - International aid disbursed to basic education, WFP to Ethiopia (USD million)}{marker sourceid_5.2.16_ETH.BAS.AID.USAID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3556,7 +3518,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.1_BFA.BAS.AID.CIDA:5.2.1_BFA.BAS.AID.CIDA} - International aid disbursed to basic education, CIDA to Burkina Faso (USD million)}{marker sourceid_5.2.1_BFA.BAS.AID.CIDA}
+{dlgtab: {help wbopendata_sourceid##5.2.1_BFA.BAS.AID.CIDA:5.2.1_BFA.BAS.AID.CIDA} - International aid disbursed to total education, Global Partnership for Education to Central African Republic (USD million)}{marker sourceid_5.2.1_BFA.BAS.AID.CIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3673,7 +3635,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.1_GNB.BAS.AID.ADPP.EU:5.2.1_GNB.BAS.AID.ADPP.EU} - International aid disbursed to basic education, ADPP (European Union) to Guinea Bissau (USD million)}{marker sourceid_5.2.1_GNB.BAS.AID.ADPP.EU}
+{dlgtab: {help wbopendata_sourceid##5.2.1_GNB.BAS.AID.ADPP.EU:5.2.1_GNB.BAS.AID.ADPP.EU} - International aid disbursed to basic education, European Commission to Kyrgyzstan (USD million)}{marker sourceid_5.2.1_GNB.BAS.AID.ADPP.EU}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3699,7 +3661,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.1_KHM.BAS.AID.BAD:5.2.1_KHM.BAS.AID.BAD} - International aid disbursed to basic education, AfDB to Cambodia (USD million)}{marker sourceid_5.2.1_KHM.BAS.AID.BAD}
+{dlgtab: {help wbopendata_sourceid##5.2.1_KHM.BAS.AID.BAD:5.2.1_KHM.BAS.AID.BAD} - International aid disbursed to basic education, WFP to Mauritania (USD million)}{marker sourceid_5.2.1_KHM.BAS.AID.BAD}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3708,7 +3670,7 @@
 
 {synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
 
 
@@ -3751,7 +3713,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.1_MDG.BAS.AID.WB:5.2.1_MDG.BAS.AID.WB} - International aid to basic education executed by World Bank (GPE funds) in Madagascar (USD million)}{marker sourceid_5.2.1_MDG.BAS.AID.WB}
+{dlgtab: {help wbopendata_sourceid##5.2.1_MDG.BAS.AID.WB:5.2.1_MDG.BAS.AID.WB} - International aid disbursed to total education, WFP to Mauritania (USD million)}{marker sourceid_5.2.1_MDG.BAS.AID.WB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -3868,7 +3830,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.1_VNM.BAS.AID.CIDA:5.2.1_VNM.BAS.AID.CIDA} - International aid disbursed to basic education, Denmark to Zambia (USD million)}{marker sourceid_5.2.1_VNM.BAS.AID.CIDA}
+{dlgtab: {help wbopendata_sourceid##5.2.1_VNM.BAS.AID.CIDA:5.2.1_VNM.BAS.AID.CIDA} - International aid disbursed to basic education, CIDA to Vietnam (USD million)}{marker sourceid_5.2.1_VNM.BAS.AID.CIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4102,7 +4064,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.2_MDG.BAS.AID.ILO:5.2.2_MDG.BAS.AID.ILO} - International aid to basic education executed by ILO in Madagascar (USD million)}{marker sourceid_5.2.2_MDG.BAS.AID.ILO}
+{dlgtab: {help wbopendata_sourceid##5.2.2_MDG.BAS.AID.ILO:5.2.2_MDG.BAS.AID.ILO} - International aid disbursed to basic education, AFD to Mauritania (USD million)}{marker sourceid_5.2.2_MDG.BAS.AID.ILO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4115,7 +4077,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.2_MRT.BAS.AID.AFD:5.2.2_MRT.BAS.AID.AFD} - International aid disbursed to basic education, CIDA to Malawi (USD million)}{marker sourceid_5.2.2_MRT.BAS.AID.AFD}
+{dlgtab: {help wbopendata_sourceid##5.2.2_MRT.BAS.AID.AFD:5.2.2_MRT.BAS.AID.AFD} - International aid disbursed to basic education, AFD to Mauritania (USD million)}{marker sourceid_5.2.2_MRT.BAS.AID.AFD}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4128,7 +4090,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.2_MWI.BAS.AID.CIDA:5.2.2_MWI.BAS.AID.CIDA} - International aid disbursed to basic education, CIDA to Malawi (USD million)}{marker sourceid_5.2.2_MWI.BAS.AID.CIDA}
+{dlgtab: {help wbopendata_sourceid##5.2.2_MWI.BAS.AID.CIDA:5.2.2_MWI.BAS.AID.CIDA} - International aid disbursed to basic education, Belgium to Niger (USD million)}{marker sourceid_5.2.2_MWI.BAS.AID.CIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4154,7 +4116,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.2_RWA.BAS.AID.GPE:5.2.2_RWA.BAS.AID.GPE} - International aid disbursed to basic education, AFD and French Embassy to Senegal (USD million)}{marker sourceid_5.2.2_RWA.BAS.AID.GPE}
+{dlgtab: {help wbopendata_sourceid##5.2.2_RWA.BAS.AID.GPE:5.2.2_RWA.BAS.AID.GPE} - International aid disbursed to basic education, Global Partnership for Education to Rwanda (USD million)}{marker sourceid_5.2.2_RWA.BAS.AID.GPE}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4180,7 +4142,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.2_SLE.BAS.AID.EC:5.2.2_SLE.BAS.AID.EC} - International aid disbursed to basic education, Open Society Foundations to Tajikistan (USD million)}{marker sourceid_5.2.2_SLE.BAS.AID.EC}
+{dlgtab: {help wbopendata_sourceid##5.2.2_SLE.BAS.AID.EC:5.2.2_SLE.BAS.AID.EC} - International aid disbursed to basic education, European Commission to Sierra Leone (USD million)}{marker sourceid_5.2.2_SLE.BAS.AID.EC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4213,7 +4175,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -4271,7 +4233,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.3_BFA.BAS.AID.CHE:5.2.3_BFA.BAS.AID.CHE} - International aid disbursed to basic education, Switzerland to Burkina Faso (USD million)}{marker sourceid_5.2.3_BFA.BAS.AID.CHE}
+{dlgtab: {help wbopendata_sourceid##5.2.3_BFA.BAS.AID.CHE:5.2.3_BFA.BAS.AID.CHE} - International aid disbursed to basic education, World Bank to Côte d'Ivoire (USD million)}{marker sourceid_5.2.3_BFA.BAS.AID.CHE}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4330,9 +4292,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Date of most recent Joint Sector Review (JSR) carried out by the Local Education Group (LEG). A JSR is a monitoring and review mechanism where LEG members get together to assess progress, challenges and funding of the education sector. They provide an opportunity to measure progress against Education Sector Plans (ESPs) as well as to influence allocations and work-plans. They take place annually or biannually (some countries have more than two JSRs per year). Periodicity, participants and working arrangements are determined by the LEG. An aide-memoire gathering conclusions reached by stakeholders is produced at the end of the JSR..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org. In Malawi SACMEQ I tested learners on English; SACMEQ II on English and Mathematics; and SACMEQ III on English, Mathematics, and HIV/AIDs..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The year of the date is indicated in the corresponding year column and the full date in a note for the specific indicator and country..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -4388,7 +4350,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.3_KGZ.BAS.AID.ADPP.UNICEF:5.2.3_KGZ.BAS.AID.ADPP.UNICEF} - International aid disbursed to basic education, UNICEF to Kyrgyzstan (USD million)}{marker sourceid_5.2.3_KGZ.BAS.AID.ADPP.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.3_KGZ.BAS.AID.ADPP.UNICEF:5.2.3_KGZ.BAS.AID.ADPP.UNICEF} - International aid disbursed to basic education, Global Partnership for Education to Cambodia (USD million)}{marker sourceid_5.2.3_KGZ.BAS.AID.ADPP.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4401,7 +4363,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.3_KHM.BAS.AID.GPE:5.2.3_KHM.BAS.AID.GPE} - International aid disbursed to basic education, Global Partnership for Education to Cambodia (USD million)}{marker sourceid_5.2.3_KHM.BAS.AID.GPE}
+{dlgtab: {help wbopendata_sourceid##5.2.3_KHM.BAS.AID.GPE:5.2.3_KHM.BAS.AID.GPE} - International aid disbursed to basic education, European Commission to Laos (USD million)}{marker sourceid_5.2.3_KHM.BAS.AID.GPE}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4414,7 +4376,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.3_LAO.BAS.AID.EC:5.2.3_LAO.BAS.AID.EC} - International aid disbursed to basic education, European Commission to Laos (USD million)}{marker sourceid_5.2.3_LAO.BAS.AID.EC}
+{dlgtab: {help wbopendata_sourceid##5.2.3_LAO.BAS.AID.EC:5.2.3_LAO.BAS.AID.EC} - International aid disbursed to basic education, World Bank to Liberia (USD million)}{marker sourceid_5.2.3_LAO.BAS.AID.EC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4622,7 +4584,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.4_CMR.BAS.AID.JICA:5.2.4_CMR.BAS.AID.JICA} - International aid disbursed to basic education, AfDB to Djibouti (USD million)}{marker sourceid_5.2.4_CMR.BAS.AID.JICA}
+{dlgtab: {help wbopendata_sourceid##5.2.4_CMR.BAS.AID.JICA:5.2.4_CMR.BAS.AID.JICA} - International aid disbursed to basic education, JICA to Cameroun (USD million)}{marker sourceid_5.2.4_CMR.BAS.AID.JICA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4642,9 +4604,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org. In Malawi SACMEQ I tested learners on English; SACMEQ II on English and Mathematics; and SACMEQ III on English, Mathematics, and HIV/AIDs..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
 
 
@@ -4739,7 +4701,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.4_LAO.BAS.AID.DEU:5.2.4_LAO.BAS.AID.DEU} - International aid to basic education executed by JICA in Madagascar (USD million)}{marker sourceid_5.2.4_LAO.BAS.AID.DEU}
+{dlgtab: {help wbopendata_sourceid##5.2.4_LAO.BAS.AID.DEU:5.2.4_LAO.BAS.AID.DEU} - International aid disbursed to basic education, Germany (GIZ and KfW) to Laos (USD million)}{marker sourceid_5.2.4_LAO.BAS.AID.DEU}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4778,7 +4740,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.4_MWI.BAS.AID.GIZ:5.2.4_MWI.BAS.AID.GIZ} - International aid disbursed to basic education, Japan to Niger (USD million)}{marker sourceid_5.2.4_MWI.BAS.AID.GIZ}
+{dlgtab: {help wbopendata_sourceid##5.2.4_MWI.BAS.AID.GIZ:5.2.4_MWI.BAS.AID.GIZ} - International aid disbursed to basic education, GIZ to Malawi (USD million)}{marker sourceid_5.2.4_MWI.BAS.AID.GIZ}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4817,7 +4779,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.4_SEN.BAS.AID.IT:5.2.4_SEN.BAS.AID.IT} - International aid disbursed to basic education, JICA to Sierra Leone (USD million)}{marker sourceid_5.2.4_SEN.BAS.AID.IT}
+{dlgtab: {help wbopendata_sourceid##5.2.4_SEN.BAS.AID.IT:5.2.4_SEN.BAS.AID.IT} - International aid disbursed to basic education, Italy to Senegal (USD million)}{marker sourceid_5.2.4_SEN.BAS.AID.IT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4850,7 +4812,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -4863,13 +4825,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.4_VNM.BAS.AID.UNESCO:5.2.4_VNM.BAS.AID.UNESCO} - International aid disbursed to basic education, UNESCO to Vietnam (USD million)}{marker sourceid_5.2.4_VNM.BAS.AID.UNESCO}
+{dlgtab: {help wbopendata_sourceid##5.2.4_VNM.BAS.AID.UNESCO:5.2.4_VNM.BAS.AID.UNESCO} - International aid disbursed to basic education, Japan to Zambia (USD million)}{marker sourceid_5.2.4_VNM.BAS.AID.UNESCO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -4947,7 +4909,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.5_DJI.BAS.AID.ISDB:5.2.5_DJI.BAS.AID.ISDB} - International aid disbursed to basic education, IsDB to Djibouti (USD million)}{marker sourceid_5.2.5_DJI.BAS.AID.ISDB}
+{dlgtab: {help wbopendata_sourceid##5.2.5_DJI.BAS.AID.ISDB:5.2.5_DJI.BAS.AID.ISDB} - PASEC in Mauritania, grade 5, Mathematics (mean score)}{marker sourceid_5.2.5_DJI.BAS.AID.ISDB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5064,7 +5026,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.5_MWI.BAS.AID.GPE:5.2.5_MWI.BAS.AID.GPE} - International aid disbursed to basic education, Global Partnership for Education to Malawi (USD million)}{marker sourceid_5.2.5_MWI.BAS.AID.GPE}
+{dlgtab: {help wbopendata_sourceid##5.2.5_MWI.BAS.AID.GPE:5.2.5_MWI.BAS.AID.GPE} - International aid disbursed to basic education, KfW to Niger (USD million)}{marker sourceid_5.2.5_MWI.BAS.AID.GPE}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5103,7 +5065,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.5_SEN.BAS.AID.UNICEF:5.2.5_SEN.BAS.AID.UNICEF} - International aid disbursed to basic education, Sida to Sierra Leone (USD million)}{marker sourceid_5.2.5_SEN.BAS.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.5_SEN.BAS.AID.UNICEF:5.2.5_SEN.BAS.AID.UNICEF} - International aid disbursed to basic education, UNICEF to Senegal (USD million)}{marker sourceid_5.2.5_SEN.BAS.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5116,7 +5078,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.5_SLE.BAS.AID.SIDA:5.2.5_SLE.BAS.AID.SIDA} - International aid disbursed to basic education, Global Partnership for Education (CF and EPDF) to Tajikistan (USD million)}{marker sourceid_5.2.5_SLE.BAS.AID.SIDA}
+{dlgtab: {help wbopendata_sourceid##5.2.5_SLE.BAS.AID.SIDA:5.2.5_SLE.BAS.AID.SIDA} - International aid disbursed to basic education, Sida to Sierra Leone (USD million)}{marker sourceid_5.2.5_SLE.BAS.AID.SIDA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5136,7 +5098,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -5149,7 +5111,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -5266,9 +5228,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -5402,14 +5364,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.6_TJK.BAS.AID.UNICEF:5.2.6_TJK.BAS.AID.UNICEF} - International aid disbursed to basic education, UNICEF to Tajikistan (USD million)}{marker sourceid_5.2.6_TJK.BAS.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.6_TJK.BAS.AID.UNICEF:5.2.6_TJK.BAS.AID.UNICEF} - International aid disbursed to total education, South Korea to Timor-Leste (USD million)}{marker sourceid_5.2.6_TJK.BAS.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -5422,7 +5384,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -5441,7 +5403,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.6_ZMB.BAS.AID.UNICEF:5.2.6_ZMB.BAS.AID.UNICEF} - International aid disbursed to basic education, UNICEF to Zambia (USD million)}{marker sourceid_5.2.6_ZMB.BAS.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.6_ZMB.BAS.AID.UNICEF:5.2.6_ZMB.BAS.AID.UNICEF} - International aid disbursed to basic education, JICA to Afghanistan (USD million)}{marker sourceid_5.2.6_ZMB.BAS.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5454,7 +5416,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.7_AFG.BAS.AID.JICA:5.2.7_AFG.BAS.AID.JICA} - International aid disbursed to basic education, JICA to Afghanistan (USD million)}{marker sourceid_5.2.7_AFG.BAS.AID.JICA}
+{dlgtab: {help wbopendata_sourceid##5.2.7_AFG.BAS.AID.JICA:5.2.7_AFG.BAS.AID.JICA} - International aid disbursed to basic education, UNICEF to Burkina Faso (USD million)}{marker sourceid_5.2.7_AFG.BAS.AID.JICA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5480,7 +5442,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.7_CIV.BAS.AID.UNICEF:5.2.7_CIV.BAS.AID.UNICEF} - International aid disbursed to basic education, UNICEF to Côte d'Ivoire (USD million)}{marker sourceid_5.2.7_CIV.BAS.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.7_CIV.BAS.AID.UNICEF:5.2.7_CIV.BAS.AID.UNICEF} - International aid disbursed to basic education, GIZ/BMZ to Ethiopia (USD million)}{marker sourceid_5.2.7_CIV.BAS.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5597,7 +5559,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.7_MWI.BAS.AID.KFW:5.2.7_MWI.BAS.AID.KFW} - International aid disbursed to basic education, KfW to Malawi (USD million)}{marker sourceid_5.2.7_MWI.BAS.AID.KFW}
+{dlgtab: {help wbopendata_sourceid##5.2.7_MWI.BAS.AID.KFW:5.2.7_MWI.BAS.AID.KFW} - International aid disbursed to basic education, DFID to Niger (USD million)}{marker sourceid_5.2.7_MWI.BAS.AID.KFW}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5636,20 +5598,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.7_TJK.BAS.AID.USAID:5.2.7_TJK.BAS.AID.USAID} - International aid disbursed to total education, New Zealand to Timor-Leste (USD million)}{marker sourceid_5.2.7_TJK.BAS.AID.USAID}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
-
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##5.2.7_TLS.TOT.AID.NZL:5.2.7_TLS.TOT.AID.NZL} - International aid disbursed to basic education, World Bank to Vietnam (USD million)}{marker sourceid_5.2.7_TLS.TOT.AID.NZL}
+{dlgtab: {help wbopendata_sourceid##5.2.7_TJK.BAS.AID.USAID:5.2.7_TJK.BAS.AID.USAID} - International aid disbursed to basic education, USAID to Tajikistan (USD million)}{marker sourceid_5.2.7_TJK.BAS.AID.USAID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5657,6 +5606,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##5.2.7_TLS.TOT.AID.NZL:5.2.7_TLS.TOT.AID.NZL} - International aid disbursed to total education, New Zealand to Timor-Leste (USD million)}{marker sourceid_5.2.7_TLS.TOT.AID.NZL}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 
@@ -5701,7 +5663,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.8_BFA.BAS.AID.EC:5.2.8_BFA.BAS.AID.EC} - International aid disbursed to basic education, European Commission to Burkina Faso (USD million)}{marker sourceid_5.2.8_BFA.BAS.AID.EC}
+{dlgtab: {help wbopendata_sourceid##5.2.8_BFA.BAS.AID.EC:5.2.8_BFA.BAS.AID.EC} - International aid disbursed to basic education, USAID to Côte d'Ivoire (USD million)}{marker sourceid_5.2.8_BFA.BAS.AID.EC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5714,7 +5676,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.8_CIV.BAS.AID.USAID:5.2.8_CIV.BAS.AID.USAID} - International aid disbursed to basic education, USAID to Côte d'Ivoire (USD million)}{marker sourceid_5.2.8_CIV.BAS.AID.USAID}
+{dlgtab: {help wbopendata_sourceid##5.2.8_CIV.BAS.AID.USAID:5.2.8_CIV.BAS.AID.USAID} - International aid disbursed to basic education, GPE Catalytic Fund to Ethiopia (USD million)}{marker sourceid_5.2.8_CIV.BAS.AID.USAID}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5792,7 +5754,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.8_MWI.BAS.AID.UNICEF:5.2.8_MWI.BAS.AID.UNICEF} - International aid disbursed to basic education, Switzerland to Niger (USD million)}{marker sourceid_5.2.8_MWI.BAS.AID.UNICEF}
+{dlgtab: {help wbopendata_sourceid##5.2.8_MWI.BAS.AID.UNICEF:5.2.8_MWI.BAS.AID.UNICEF} - International aid disbursed to basic education, UNICEF to Malawi (USD million)}{marker sourceid_5.2.8_MWI.BAS.AID.UNICEF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5844,7 +5806,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.8_TLS.TOT.AID.CFNZL:5.2.8_TLS.TOT.AID.CFNZL} - International aid disbursed to total education, ChildFund NZAID and UNICEF to Timor-Leste (USD million)}{marker sourceid_5.2.8_TLS.TOT.AID.CFNZL}
+{dlgtab: {help wbopendata_sourceid##5.2.8_TLS.TOT.AID.CFNZL:5.2.8_TLS.TOT.AID.CFNZL} - International aid disbursed to basic education, New Zealand to Afghanistan (USD million)}{marker sourceid_5.2.8_TLS.TOT.AID.CFNZL}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5857,7 +5819,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.9_AFG.BAS.AID.NZL:5.2.9_AFG.BAS.AID.NZL} - International aid disbursed to basic education, New Zealand to Afghanistan (USD million)}{marker sourceid_5.2.9_AFG.BAS.AID.NZL}
+{dlgtab: {help wbopendata_sourceid##5.2.9_AFG.BAS.AID.NZL:5.2.9_AFG.BAS.AID.NZL} - International aid disbursed to basic education, Italian Cooperation to Ethiopia (USD million)}{marker sourceid_5.2.9_AFG.BAS.AID.NZL}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5870,7 +5832,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2.9_ETH.BAS.AID.ITA:5.2.9_ETH.BAS.AID.ITA} - International aid disbursed to basic education, AUSAID to Cambodia (USD million)}{marker sourceid_5.2.9_ETH.BAS.AID.ITA}
+{dlgtab: {help wbopendata_sourceid##5.2.9_ETH.BAS.AID.ITA:5.2.9_ETH.BAS.AID.ITA} - International aid disbursed to basic education, Italian Cooperation to Ethiopia (USD million)}{marker sourceid_5.2.9_ETH.BAS.AID.ITA}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -5961,16 +5923,42 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##5.2_BASIC.EDU.AID:5.2_BASIC.EDU.AID} - International aid for basic education, disbursed (up to present year) and scheduled (next years), aggregation of reporting donors (USD million)}{marker sourceid_5.2_BASIC.EDU.AID}
+{dlgtab: {help wbopendata_sourceid##5.2.9_TLS.TOT.AID.PRT:5.2.9_TLS.TOT.AID.PRT} - International aid disbursed to total education, Portugal to Timor-Leste (USD million)}{marker sourceid_5.2.9_TLS.TOT.AID.PRT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Sum of international concessional aid disbursed by reporting development partners (donors) to the total education sector in a specific developing country. Targets indicate the sum of the scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by donors to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education (GPE) in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##6.1_LEG.CA:6.1_LEG.CA} - Coordinating agency of Local Education Group (1=text in notes)}{marker sourceid_6.1_LEG.CA}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Coordinating Agency (CA) or lead donor in the Local Education Group (LEG) coordinates and facilitates partners’ engagement with the Global Partnership for Education, thus serving as the communication link between the LEG and the Secretariat. The CA has a central role in facilitating the work of the LEG and is selected by this group. The LEG is the local structure of the Global Partnership for Education that bring together partners to develop high quality education strategies and programs. They are typically led by the Ministry of Education and include development partners and other education stakeholders such as national government and public entities, local and international civil society organizations (CSOs), CSO coalitions, teachers' and parents' organizations and private sector providers. The specific composition, title, and working arrangements of the LEG will vary from country to country. The LEG should be a collaborative forum for policy dialogue and for alignment and harmonization of technical and financial support to the education sector plan. It seeks to ensure that all parties are kept fully apprised of the progress and challenges in the sector, and it collates and disseminates information on domestic and external funding for the education sector..{p_end}
+
+{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, http://www.iea.org/stats/index.asp)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##6.1_PRIMARY.ENERGY.INTENSITY:6.1_PRIMARY.ENERGY.INTENSITY} - Donor members in Local Education Group (1=text in notes)}{marker sourceid_6.1_PRIMARY.ENERGY.INTENSITY}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Development partners other than the Coordinating Agency or lead donor in the Local Education Group (LEG), excluding civil society organizations (CSOs) and government and public entities. The LEG is the local structure of the Global Partnership for Education that bring together partners to develop high quality education strategies and programs. They are typically led by the Ministry of Education and include development partners and other education stakeholders such as national government and public entities, local and international civil society organizations (CSOs), CSO coalitions, teachers' and parents' organizations and private sector providers. The specific composition, title, and working arrangements of the LEG will vary from country to country. The LEG should be a collaborative forum for policy dialogue and for alignment and harmonization of technical and financial support to the education sector plan. It seeks to ensure that all parties are kept fully apprised of the progress and challenges in the sector, and it collates and disseminates information on domestic and external funding for the education sector..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The use of 1 as value indicates that the indicator contains text, expressed as a note for the specific country..{p_end}
 
 
 
@@ -5996,11 +5984,11 @@
 
 {synopt:{opt Source Notes}}Local and international civil society organizations (CSO) participating in the Local Education Group (LEG), excluding development partners and government and public entities. The LEG is the local structure of the Global Partnership for Education that brings together partners to develop high quality education strategies and programs. They are typically led by the Ministry of Education and include development partners and other education stakeholders such as national government and public entities, local and international civil society organizations (CSOs), CSO coalitions, teachers' and parents' organizations and private sector providers. The specific composition, title, and working arrangements of the LEG will vary from country to country. The LEG should be a collaborative forum for policy dialogue and for alignment and harmonization of technical and financial support to the education sector plan. It seeks to ensure that all parties are kept fully apprised of the progress and challenges in the sector, and it collates and disseminates information on domestic and external funding for the education sector..{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank)..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The use of 1 as value indicates that the indicator contains text, expressed as a note for the specific country..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##6.4_LAST.JSR:6.4_LAST.JSR} - Date of next Joint Education Sector Review (year=full date in notes)}{marker sourceid_6.4_LAST.JSR}
+{dlgtab: {help wbopendata_sourceid##6.4_LAST.JSR:6.4_LAST.JSR} - Date of last Joint Education Sector Review (year=full date in notes)}{marker sourceid_6.4_LAST.JSR}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6022,18 +6010,18 @@
 
 {synopt:{opt Source Notes}}Date of next Joint Sector Review (JSR) planned by the Local Education Group (LEG). A JSR is a monitoring and review mechanism where LEG members get together to assess progress, challenges and funding of the education sector. They provide an opportunity to measure progress against Education Sector Plans (ESPs) as well as to influence allocations and work-plans. They take place annually or biannually (some countries have more than two JSRs per year). Periodicity, participants and working arrangements are determined by the LEG. An aide-memoire gathering conclusions reached by stakeholders is produced at the end of the JSR..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The year in which the Education Sector Plan came into effect is indicated in the corresponding year column, and the full period in a note for the specific indicator and country..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The year of the date is indicated in the corresponding year column and the full date in a note for the specific indicator and country..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##7.1.1_ESP.PERIOD.START:7.1.1_ESP.PERIOD.START} - Ending year of current Education Sector Plan period (year=full period in notes)}{marker sourceid_7.1.1_ESP.PERIOD.START}
+{dlgtab: {help wbopendata_sourceid##7.1.1_ESP.PERIOD.START:7.1.1_ESP.PERIOD.START} - Starting year of current Education Sector Plan period (year=full period in notes)}{marker sourceid_7.1.1_ESP.PERIOD.START}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The ending year for the period in which the Education Sector Plan or Transitional Education Plan is in effect..{p_end}
+{synopt:{opt Source Notes}}The starting year for the period in which the Education Sector Plan or Transitional Education Plan is in effect..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The year in which the Education Sector Plan came into effect is indicated in the corresponding year column, and the full period in a note for the specific indicator and country..{p_end}
 
@@ -6046,9 +6034,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}When a Program Implementation Grant is requested from the Global Partnership, a supervising entity (SE) or managing entity (ME) must be designated by the Local Education Group (LEG). They are a bilateral or multilateral development agency. The key difference between these two roles is that a SE will transfer grant funds to the developing-country government, who will implement the program, whereas a ME will manage program activities directly..{p_end}
+{synopt:{opt Source Notes}}The ending year for the period in which the Education Sector Plan or Transitional Education Plan is in effect..{p_end}
 
-{synopt:{opt Source Organization}}This refers to Global Partnership for Education internal information that was shared with the Local Education Group for their review and validation. The use of 1 as value indicates that the indicator contains text, expressed as a note for the specific country..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The year in which the Education Sector Plan came into effect is indicated in the corresponding year column, and the full period in a note for the specific indicator and country..{p_end}
 
 
 
@@ -6065,7 +6053,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##7.12_CURR.ALLOCATION.2011.DISB:7.12_CURR.ALLOCATION.2011.DISB} - Current allocation - Total disbursements as of 12/2011 (USD millions)}{marker sourceid_7.12_CURR.ALLOCATION.2011.DISB}
+{dlgtab: {help wbopendata_sourceid##7.12_CURR.ALLOCATION.2011.DISB:7.12_CURR.ALLOCATION.2011.DISB} - Current allocation - Annual disbursements (USD million)}{marker sourceid_7.12_CURR.ALLOCATION.2011.DISB}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6104,7 +6092,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##7.2_ESP.ENDORSEMENT:7.2_ESP.ENDORSEMENT} - Previous allocation - Approval (year)}{marker sourceid_7.2_ESP.ENDORSEMENT}
+{dlgtab: {help wbopendata_sourceid##7.2_ESP.ENDORSEMENT:7.2_ESP.ENDORSEMENT} - Endorsement of Education Sector Plan (year)}{marker sourceid_7.2_ESP.ENDORSEMENT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6117,16 +6105,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##7.3_PREV.ALLOCATION.YEAR:7.3_PREV.ALLOCATION.YEAR} - Previous allocation - Approval (year)}{marker sourceid_7.3_PREV.ALLOCATION.YEAR}
+{dlgtab: {help wbopendata_sourceid##7.3_PREV.ALLOCATION.YEAR:7.3_PREV.ALLOCATION.YEAR} - Previous allocation - Amount disbursed (USD million)}{marker sourceid_7.3_PREV.ALLOCATION.YEAR}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Year(s) of approval of a Global Partnership funding operation that is now closed..{p_end}
+{synopt:{opt Source Notes}}Amount(s) allocated through a Global Partnership funding operation that is now closed..{p_end}
 
-{synopt:{opt Source Organization}}This refers to Global Partnership for Education (GPE) internal information that was shared with the Local Education Group for their review and validation. The year in which the GPE funding was approved is indicated in the corresponding year column..{p_end}
+{synopt:{opt Source Organization}}This refers to Global Partnership for Education (GPE) internal information that was shared with the Local Education Group for their review and validation. The amount of the GPE funding is indicated in the corresponding approval year column..{p_end}
 
 
 
@@ -6163,9 +6151,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The starting year for the disbursement period of the current Global Partnership funding..{p_end}
+{synopt:{opt Source Notes}}Amount allocated through a Global Partnership funding operation that is currently being disbursed..{p_end}
 
-{synopt:{opt Source Organization}}This refers to Global Partnership for Education (GPE) internal information that was shared with the Local Education Group for their review and validation. The year in which the the GPE funding was first disbursed, or is expected to be first disbursed, is indicated in the corresponding year column, and the full period in a note for the specific indicator and country..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education (GPE). It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG. The amount of the GPE funding is indicated in the corresponding approval year column..{p_end}
 
 
 
@@ -6176,7 +6164,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The ending year for the disbursement period of the current Global Partnership funding..{p_end}
+{synopt:{opt Source Notes}}The starting year for the disbursement period of the current Global Partnership funding..{p_end}
 
 {synopt:{opt Source Organization}}This refers to Global Partnership for Education (GPE) internal information that was shared with the Local Education Group for their review and validation. The year in which the the GPE funding was first disbursed, or is expected to be first disbursed, is indicated in the corresponding year column, and the full period in a note for the specific indicator and country..{p_end}
 
@@ -6191,24 +6179,11 @@
 
 {synopt:{opt Source Notes}}The ending year for the disbursement period of the current Global Partnership funding..{p_end}
 
-{synopt:{opt Source Organization}}This refers to Global Partnership for Education internal information that was shared with the Local Education Group for their review and validation. The year of the date is indicated in the corresponding year column and the full date in a note for the specific indicator and country..{p_end}
+{synopt:{opt Source Organization}}This refers to Global Partnership for Education (GPE) internal information that was shared with the Local Education Group for their review and validation. The year in which the the GPE funding was first disbursed, or is expected to be first disbursed, is indicated in the corresponding year column, and the full period in a note for the specific indicator and country..{p_end}
 
 
 
 {dlgtab: {help wbopendata_sourceid##7.8_CURR.ALLOCATION.SIGNATURE:7.8_CURR.ALLOCATION.SIGNATURE} - Current allocation - Signature date (year=full date in notes)}{marker sourceid_7.8_CURR.ALLOCATION.SIGNATURE}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Date of GPE grant agreement closure, when the supervising or managing entity informs the GPE that there will not be any other disbursements on the grant..{p_end}
-
-{synopt:{opt Source Organization}}This refers to Global Partnership for Education internal information that was shared with the Local Education Group for their review and validation. The use of 1 as value indicates that the indicator contains text, expressed as a note for the specific country..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##7.9_CURR.ALLOCATION.CLOSURE:7.9_CURR.ALLOCATION.CLOSURE} - Current allocation - Closing date (year=full date in notes)}{marker sourceid_7.9_CURR.ALLOCATION.CLOSURE}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6293,26 +6268,26 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated at the end of the year for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##8.3.10_NER.LEAR.TEST.CP.FR.UNDERMIN:8.3.10_NER.LEAR.TEST.CP.FR.UNDERMIN} - National assessment for learning outcomes in Niger, CP, French, under minimal competency (%)}{marker sourceid_8.3.10_NER.LEAR.TEST.CP.FR.UNDERMIN}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
 {synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.11_ETH.LEAR.TEST.12.PHY.OPT:8.3.11_ETH.LEAR.TEST.12.PHY.OPT} - National assessment for learning outcomes in Ethiopia, grade 12, Physics, optimal competency (%)}{marker sourceid_8.3.11_ETH.LEAR.TEST.12.PHY.OPT}
+{dlgtab: {help wbopendata_sourceid##8.3.10_NER.LEAR.TEST.CP.FR.UNDERMIN:8.3.10_NER.LEAR.TEST.CP.FR.UNDERMIN} - National assessment for learning outcomes in Ethiopia, grade 12, Physics, optimal competency (%)}{marker sourceid_8.3.10_NER.LEAR.TEST.CP.FR.UNDERMIN}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.11_ETH.LEAR.TEST.12.PHY.OPT:8.3.11_ETH.LEAR.TEST.12.PHY.OPT} - National assessment for learning outcomes in Georgia, grade 9, Mathematics, students in lowest level (%)}{marker sourceid_8.3.11_ETH.LEAR.TEST.12.PHY.OPT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6345,7 +6320,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with results above proficient competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. % of pupils achieving 55% of results or more in the test..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6358,13 +6333,26 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.11_NER.LEAR.TEST.CE2.FR.UNDERMIN:8.3.11_NER.LEAR.TEST.CE2.FR.UNDERMIN} - National assessment for learning outcomes in Ethiopia, grade 12, average of all subjects, optimal competency (%)}{marker sourceid_8.3.11_NER.LEAR.TEST.CE2.FR.UNDERMIN}
+{dlgtab: {help wbopendata_sourceid##8.3.11_NER.LEAR.TEST.CE2.FR.UNDERMIN:8.3.11_NER.LEAR.TEST.CE2.FR.UNDERMIN} - National assessment for learning outcomes in Niger, CE2, French, under minimal competency (%)}{marker sourceid_8.3.11_NER.LEAR.TEST.CE2.FR.UNDERMIN}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.12_ETH.LEAR.TEST.12.AVR.OPT:8.3.12_ETH.LEAR.TEST.12.AVR.OPT} - National assessment for learning outcomes in Ethiopia, grade 12, average of all subjects, optimal competency (%)}{marker sourceid_8.3.12_ETH.LEAR.TEST.12.AVR.OPT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6377,19 +6365,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.12_ETH.LEAR.TEST.12.AVR.OPT:8.3.12_ETH.LEAR.TEST.12.AVR.OPT} - National assessment for learning outcomes in Georgia, grade 1, English, students in medium level (%)}{marker sourceid_8.3.12_ETH.LEAR.TEST.12.AVR.OPT}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Students with medium competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##8.3.12_GEO.LEAR.TEST.1.ENG.MED:8.3.12_GEO.LEAR.TEST.1.ENG.MED} - National assessment for learning outcomes in Georgia, grade 1, English, students in medium level (%)}{marker sourceid_8.3.12_GEO.LEAR.TEST.1.ENG.MED}
 
 
@@ -6397,7 +6372,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with results above proficient competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. % of pupils achieving 55% of results or more in the test..{p_end}
+{synopt:{opt Source Notes}}Students with medium competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6423,7 +6398,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6481,14 +6456,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.13_NER.LEAR.TEST.CP.MATH.MEAN:8.3.13_NER.LEAR.TEST.CP.MATH.MEAN} - National assessment for learning outcomes in Georgia, grade 9, Mathematics, students in medium level (%)}{marker sourceid_8.3.13_NER.LEAR.TEST.CP.MATH.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.13_NER.LEAR.TEST.CP.MATH.MEAN:8.3.13_NER.LEAR.TEST.CP.MATH.MEAN} - National assessment for learning outcomes in Niger, CP, Mathematics (mean score)}{marker sourceid_8.3.13_NER.LEAR.TEST.CP.MATH.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with medium competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean scores calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6501,7 +6476,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
+{synopt:{opt Source Notes}}Students with medium competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6540,7 +6515,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with higher competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6581,7 +6556,7 @@
 
 {synopt:{opt Source Notes}}Minimum competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
 
 
 
@@ -6598,7 +6573,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.16_GEO.LEAR.TEST.9.LANG.HIGH:8.3.16_GEO.LEAR.TEST.9.LANG.HIGH} - National assessment for learning outcomes in Georgia, grade 9, Language, students in higher level (%)}{marker sourceid_8.3.16_GEO.LEAR.TEST.9.LANG.HIGH}
+{dlgtab: {help wbopendata_sourceid##8.3.16_GEO.LEAR.TEST.9.LANG.HIGH:8.3.16_GEO.LEAR.TEST.9.LANG.HIGH} - Making the Grade Scores in Ghana, P5, Literacy in English, Letters per minute (mean)}{marker sourceid_8.3.16_GEO.LEAR.TEST.9.LANG.HIGH}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6618,46 +6593,46 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean letters per minute read in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##8.3.16_GIN.LEAR.TEST.BAC.MIN:8.3.16_GIN.LEAR.TEST.BAC.MIN} - National assessment at the end of secondary (BAC) in Guinea, minimal competency}{marker sourceid_8.3.16_GIN.LEAR.TEST.BAC.MIN}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
 {synopt:{opt Source Notes}}Minimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.16_NER.LEAR.TEST.CP.MATH.OPTIM:8.3.16_NER.LEAR.TEST.CP.MATH.OPTIM} - National assessment for learning outcomes in Georgia, grade 9, Mathematics, students in higher level (%)}{marker sourceid_8.3.16_NER.LEAR.TEST.CP.MATH.OPTIM}
+{dlgtab: {help wbopendata_sourceid##8.3.16_GIN.LEAR.TEST.BAC.MIN:8.3.16_GIN.LEAR.TEST.BAC.MIN} - National assessment for learning outcomes in Niger, CP, Mathematics, optimal competency (%)}{marker sourceid_8.3.16_GIN.LEAR.TEST.BAC.MIN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with higher competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.17_GEO.LEAR.TEST.9.MAT.HIGH:8.3.17_GEO.LEAR.TEST.9.MAT.HIGH} - National assessment for learning outcomes in Georgia, grade 9, Mathematics, students in higher level (%)}{marker sourceid_8.3.17_GEO.LEAR.TEST.9.MAT.HIGH}
+{dlgtab: {help wbopendata_sourceid##8.3.16_NER.LEAR.TEST.CP.MATH.OPTIM:8.3.16_NER.LEAR.TEST.CP.MATH.OPTIM} - National assessment for learning outcomes in Niger, CP, Mathematics, optimal competency (%)}{marker sourceid_8.3.16_NER.LEAR.TEST.CP.MATH.OPTIM}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with higher competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.17_GEO.LEAR.TEST.9.MAT.HIGH:8.3.17_GEO.LEAR.TEST.9.MAT.HIGH} - Making the Grade Scores in Ghana, P3 Literacy in English, Words per minute (mean)}{marker sourceid_8.3.17_GEO.LEAR.TEST.9.MAT.HIGH}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6722,7 +6697,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean words per minute read in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6741,20 +6716,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.18_NER.LEAR.TEST.CM2.MATH.OPTIM:8.3.18_NER.LEAR.TEST.CM2.MATH.OPTIM} - National assessment for learning outcomes in Georgia, grade 9, Mathematics, students in highest level (%)}{marker sourceid_8.3.18_NER.LEAR.TEST.CM2.MATH.OPTIM}
+{dlgtab: {help wbopendata_sourceid##8.3.18_NER.LEAR.TEST.CM2.MATH.OPTIM:8.3.18_NER.LEAR.TEST.CM2.MATH.OPTIM} - National assessment for learning outcomes in Niger, CM2, Mathematics, optimal competency (%)}{marker sourceid_8.3.18_NER.LEAR.TEST.CM2.MATH.OPTIM}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with highest competency in the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.19_GEO.LEAR.TEST.9.MAT.HIGHEST:8.3.19_GEO.LEAR.TEST.9.MAT.HIGHEST} - Making the Grade Scores in Ghana, P3, Literacy in English, Zero score}{marker sourceid_8.3.19_GEO.LEAR.TEST.9.MAT.HIGHEST}
+{dlgtab: {help wbopendata_sourceid##8.3.19_GEO.LEAR.TEST.9.MAT.HIGHEST:8.3.19_GEO.LEAR.TEST.9.MAT.HIGHEST} - National assessment for learning outcomes in Georgia, grade 9, Mathematics, students in highest level (%)}{marker sourceid_8.3.19_GEO.LEAR.TEST.9.MAT.HIGHEST}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6800,7 +6775,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade. Country-specific definition and method are determined by country. Scale goes up to 50..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6813,26 +6788,26 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Scale goes up to 50..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##8.3.1_BFA.PASEC.CP2.FR:8.3.1_BFA.PASEC.CP2.FR} - PASEC in Burkina Faso, CP2, French (mean score)}{marker sourceid_8.3.1_BFA.PASEC.CP2.FR}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
 {synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_CAF.BREVET.SUCC:8.3.1_CAF.BREVET.SUCC} - Brevet des colleges in Central African Republic, success rate (%)}{marker sourceid_8.3.1_CAF.BREVET.SUCC}
+{dlgtab: {help wbopendata_sourceid##8.3.1_BFA.PASEC.CP2.FR:8.3.1_BFA.PASEC.CP2.FR} - Brevet des colleges in Central African Republic, success rate (%)}{marker sourceid_8.3.1_BFA.PASEC.CP2.FR}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Success rate in the Brevet des colleges, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.1_CAF.BREVET.SUCC:8.3.1_CAF.BREVET.SUCC} - National assessment for learning outcomes in Côte d'Ivoire, primary (CEPE), mean score of all subjects}{marker sourceid_8.3.1_CAF.BREVET.SUCC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6845,7 +6820,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_CIV.LEAR.TEST.PRIM.ALL.MEAN:8.3.1_CIV.LEAR.TEST.PRIM.ALL.MEAN} - PASEC in Cameroon, grades 2 and 5, French (mean score)}{marker sourceid_8.3.1_CIV.LEAR.TEST.PRIM.ALL.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.1_CIV.LEAR.TEST.PRIM.ALL.MEAN:8.3.1_CIV.LEAR.TEST.PRIM.ALL.MEAN} - National assessment for learning outcomes in Côte d'Ivoire, primary (CEPE), mean score of all subjects}{marker sourceid_8.3.1_CIV.LEAR.TEST.PRIM.ALL.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6865,7 +6840,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6878,7 +6853,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Progress in International Reading Literacy Study (PIRLS) on the reading achievement of fourth grade students, as reported by the Local Education Group (LEG). It was first conduced in 2001 and then every five years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: pirls.bc.edu..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6891,20 +6866,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Progress in International Reading Literacy Study (PIRLS) on the reading achievement of fourth grade students, as reported by the Local Education Group (LEG). It was first conduced in 2001 and then every five years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: pirls.bc.edu..{p_end}
+{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_GHA.LEAR.TEST.P3.ENG.ABOV.MEAN:8.3.1_GHA.LEAR.TEST.P3.ENG.ABOV.MEAN} - PASEC in Guinea, CP2, French (mean score)}{marker sourceid_8.3.1_GHA.LEAR.TEST.P3.ENG.ABOV.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.1_GHA.LEAR.TEST.P3.ENG.ABOV.MEAN:8.3.1_GHA.LEAR.TEST.P3.ENG.ABOV.MEAN} - National assessment for learning outcomes in Ghana, P3, English, students above mean (%)}{marker sourceid_8.3.1_GHA.LEAR.TEST.P3.ENG.ABOV.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6923,7 +6898,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_KGZ.PISA.89.READ1:8.3.1_KGZ.PISA.89.READ1} - National assessment for learning outcomes in Cambodia, grade 3, Language (mean score)}{marker sourceid_8.3.1_KGZ.PISA.89.READ1}
+{dlgtab: {help wbopendata_sourceid##8.3.1_KGZ.PISA.89.READ1:8.3.1_KGZ.PISA.89.READ1} - PISA in Kyrgyzstan, grades 8-9, Reading - overall (mean score)}{marker sourceid_8.3.1_KGZ.PISA.89.READ1}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -6969,7 +6944,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Students with mean competency in the results of the national assessment carried out in the specific grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -6982,13 +6957,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_MOZ.SACMEQ.TEST.6.READ:8.3.1_MOZ.SACMEQ.TEST.6.READ} - PASEC in Mauritania, grade 5, French (mean score)}{marker sourceid_8.3.1_MOZ.SACMEQ.TEST.6.READ}
+{dlgtab: {help wbopendata_sourceid##8.3.1_MOZ.SACMEQ.TEST.6.READ:8.3.1_MOZ.SACMEQ.TEST.6.READ} - SACMEQ in Mozambique, grade 5, Reading (mean score)}{marker sourceid_8.3.1_MOZ.SACMEQ.TEST.6.READ}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7008,9 +6983,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Producer prices are prices received by farmers for primary agricultural products as defined in the SNA 93.  The producer's price is the amount receivable by the producer from the purchaser for a unit of a good or service produced as output minus any VAT,.{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
 
 
 
@@ -7021,20 +6996,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org. In Malawi SACMEQ I tested learners on English; SACMEQ II on English and Mathematics; and SACMEQ III on English, Mathematics, and HIV/AIDs..{p_end}
+{synopt:{opt Source Notes}}Mean scores calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_NER.LEAR.TEST.CP.FR.MEAN:8.3.1_NER.LEAR.TEST.CP.FR.MEAN} - National assessment for learning outcomes (SNERS) in Senegal, CE2, Mathematics, minimal competency (%)}{marker sourceid_8.3.1_NER.LEAR.TEST.CP.FR.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.1_NER.LEAR.TEST.CP.FR.MEAN:8.3.1_NER.LEAR.TEST.CP.FR.MEAN} - National assessment for learning outcomes in Niger, CP, French (mean score)}{marker sourceid_8.3.1_NER.LEAR.TEST.CP.FR.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Minimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean scores calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7053,7 +7028,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.1_VNM.LEAR.TEST.5.MAT1:8.3.1_VNM.LEAR.TEST.5.MAT1} - National assessment for learning outcomes in Vietnam, grade 5, Reading - Level 1, scores in indicated level (%)}{marker sourceid_8.3.1_VNM.LEAR.TEST.5.MAT1}
+{dlgtab: {help wbopendata_sourceid##8.3.1_VNM.LEAR.TEST.5.MAT1:8.3.1_VNM.LEAR.TEST.5.MAT1} - National assessment for learning outcomes in Vietnam, grade 5, Mathematics - Level 1, scores in indicated level (%)}{marker sourceid_8.3.1_VNM.LEAR.TEST.5.MAT1}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7073,7 +7048,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Matches text at word or sentence level aided by pictures. Restricted to a limited range of vocabulary linked to pictures..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7099,20 +7074,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Maximum competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Zero score in results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.20_GIN.LEAR.TEST.CEPE.MAX:8.3.20_GIN.LEAR.TEST.CEPE.MAX} - National assessment for learning outcomes in Niger, CE2, Mathematics, minimal competency (%)}{marker sourceid_8.3.20_GIN.LEAR.TEST.CEPE.MAX}
+{dlgtab: {help wbopendata_sourceid##8.3.20_GIN.LEAR.TEST.CEPE.MAX:8.3.20_GIN.LEAR.TEST.CEPE.MAX} - National assessment at the end of primary (CEPE) in Guinea, CM2 (6 grade), maximal competency}{marker sourceid_8.3.20_GIN.LEAR.TEST.CEPE.MAX}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Maximum competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7131,20 +7106,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.21_GHA.NUMERACY.P3.ADDITIO:8.3.21_GHA.NUMERACY.P3.ADDITIO} - Making the Grade Scores in Ghana, P3, Numeracy, Correct Additions (%)}{marker sourceid_8.3.21_GHA.NUMERACY.P3.ADDITIO}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Students capable of perform correct additions in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##8.3.21_GIN.LEAR.TEST.BEPC.MAX:8.3.21_GIN.LEAR.TEST.BEPC.MAX} - National assessment at the end of lower secondary (BEPC) in Guinea, 10 grade, maximal competency}{marker sourceid_8.3.21_GIN.LEAR.TEST.BEPC.MAX}
+{dlgtab: {help wbopendata_sourceid##8.3.21_GHA.NUMERACY.P3.ADDITIO:8.3.21_GHA.NUMERACY.P3.ADDITIO} - National assessment at the end of lower secondary (BEPC) in Guinea, 10 grade, maximal competency}{marker sourceid_8.3.21_GHA.NUMERACY.P3.ADDITIO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7157,6 +7119,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##8.3.21_GIN.LEAR.TEST.BEPC.MAX:8.3.21_GIN.LEAR.TEST.BEPC.MAX} - National assessment at the end of lower secondary (BEPC) in Guinea, 10 grade, maximal competency}{marker sourceid_8.3.21_GIN.LEAR.TEST.BEPC.MAX}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##8.3.21_NER.LEAR.TEST.CM2.MATH.MIN:8.3.21_NER.LEAR.TEST.CM2.MATH.MIN} - National assessment for learning outcomes in Niger, CM2, Mathematics, minimal competency (%)}{marker sourceid_8.3.21_NER.LEAR.TEST.CM2.MATH.MIN}
 
 
@@ -7164,7 +7139,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students capable of perform correct additions in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7177,7 +7152,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students capable of perform correct additions in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Maximum competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7190,7 +7165,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Maximum competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7203,7 +7178,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students capable of performing correct multiplications in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7216,7 +7191,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Success rate calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students capable of performing correct multiplications in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7229,7 +7204,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Success rate calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7242,7 +7217,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students capable of perform correct multiplications in the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7268,7 +7243,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Success rate calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students under minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7287,7 +7262,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.25_GHA.NUMERACY.P3.ZERO:8.3.25_GHA.NUMERACY.P3.ZERO} - National assessment at the end of secondary (BAC) in Guinea, success rate (%)}{marker sourceid_8.3.25_GHA.NUMERACY.P3.ZERO}
+{dlgtab: {help wbopendata_sourceid##8.3.25_GHA.NUMERACY.P3.ZERO:8.3.25_GHA.NUMERACY.P3.ZERO} - Making the Grade Scores in Ghana, P3, Numeracy, Zero score}{marker sourceid_8.3.25_GHA.NUMERACY.P3.ZERO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7307,13 +7282,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Success rate in the end of 1st degree certificate, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Success rate calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.25_NER.LEAR.TEST.CERTIFICATE.SUCC:8.3.25_NER.LEAR.TEST.CERTIFICATE.SUCC} - Making the Grade Scores in Ghana, P5, Numeracy, Zero score}{marker sourceid_8.3.25_NER.LEAR.TEST.CERTIFICATE.SUCC}
+{dlgtab: {help wbopendata_sourceid##8.3.25_NER.LEAR.TEST.CERTIFICATE.SUCC:8.3.25_NER.LEAR.TEST.CERTIFICATE.SUCC} - National assessment for learning outcomes in Niger, end of 1st degree certificate, success rate (%)}{marker sourceid_8.3.25_NER.LEAR.TEST.CERTIFICATE.SUCC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7326,7 +7301,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.26_GHA.NUMERACY.P5.ZERO:8.3.26_GHA.NUMERACY.P5.ZERO} - PISA in Albania, grade 9 and 10, Reading (mean score)}{marker sourceid_8.3.26_GHA.NUMERACY.P5.ZERO}
+{dlgtab: {help wbopendata_sourceid##8.3.26_GHA.NUMERACY.P5.ZERO:8.3.26_GHA.NUMERACY.P5.ZERO} - Making the Grade Scores in Ghana, P5, Numeracy, Zero score}{marker sourceid_8.3.26_GHA.NUMERACY.P5.ZERO}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7359,7 +7334,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Success rate in the exam at the end of secondary education (Baccalaureate), as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7385,20 +7360,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific education level for French, Mathematics, Physics, English, SVT, L2, H-G and ECM, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.2_CMR.PASEC.25.MAT:8.3.2_CMR.PASEC.25.MAT} - National assessment for learning outcomes in Ethiopia, grade 10, Mathematics, optimal competency (%)}{marker sourceid_8.3.2_CMR.PASEC.25.MAT}
+{dlgtab: {help wbopendata_sourceid##8.3.2_CMR.PASEC.25.MAT:8.3.2_CMR.PASEC.25.MAT} - PASEC in Cameroon, grades 2 and 5, Mathematics (mean score)}{marker sourceid_8.3.2_CMR.PASEC.25.MAT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7417,20 +7392,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.2_GEO.TIMSS.4.MAT.MEAN:8.3.2_GEO.TIMSS.4.MAT.MEAN} - National assessment for learning outcomes in Ghana, P6, English, students above mean (%)}{marker sourceid_8.3.2_GEO.TIMSS.4.MAT.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.2_GEO.TIMSS.4.MAT.MEAN:8.3.2_GEO.TIMSS.4.MAT.MEAN} - TIMSS in Georgia, grade 4, Mathematics (mean score)}{marker sourceid_8.3.2_GEO.TIMSS.4.MAT.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.2_GHA.LEAR.TEST.P6.ENG.ABOV.MEAN:8.3.2_GHA.LEAR.TEST.P6.ENG.ABOV.MEAN} - National assessment for learning outcomes in Ghana, P6, English, students above mean (%)}{marker sourceid_8.3.2_GHA.LEAR.TEST.P6.ENG.ABOV.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.2_GHA.LEAR.TEST.P6.ENG.ABOV.MEAN:8.3.2_GHA.LEAR.TEST.P6.ENG.ABOV.MEAN} - PASEC in Guinea, CP2, Mathematics (mean score)}{marker sourceid_8.3.2_GHA.LEAR.TEST.P6.ENG.ABOV.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7463,7 +7438,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7515,7 +7490,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7528,7 +7503,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org. In Malawi SACMEQ I tested learners on English; SACMEQ II on English and Mathematics; and SACMEQ III on English, Mathematics, and HIV/AIDs..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7573,14 +7548,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.2_VNM.LEAR.TEST.5.MAT2:8.3.2_VNM.LEAR.TEST.5.MAT2} - National assessment for learning outcomes in Vietnam, grade 5, Reading - Level 2, scores in indicated level (%)}{marker sourceid_8.3.2_VNM.LEAR.TEST.5.MAT2}
+{dlgtab: {help wbopendata_sourceid##8.3.2_VNM.LEAR.TEST.5.MAT2:8.3.2_VNM.LEAR.TEST.5.MAT2} - National assessment for learning outcomes in Vietnam, grade 5, Mathematics - Level 1, scores in indicated level (%)}{marker sourceid_8.3.2_VNM.LEAR.TEST.5.MAT2}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Locates text expressed in short repetitive sentences and can deal with text unaided by pictures. Type of text is limited to short sentences and phrases with repetitive patterns..{p_end}
+{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Converts fractions with denominator of 10 to decimals. Calculates with whole numbers using one operation (x, -, + or ;) in a one step word problem; recognizes 2D and 3D shapes..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7593,7 +7568,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Locates text expressed in short repetitive sentences and can deal with text unaided by pictures. Type of text is limited to short sentences and phrases with repetitive patterns..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7619,7 +7594,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/.{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7677,7 +7652,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.3_GHA.LEAR.TEST.P3.MAT.ABOV.MEAN:8.3.3_GHA.LEAR.TEST.P3.MAT.ABOV.MEAN} - National assessment for learning outcomes in Ghana, P3, Mathematics, students above mean (%)}{marker sourceid_8.3.3_GHA.LEAR.TEST.P3.MAT.ABOV.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.3_GHA.LEAR.TEST.P3.MAT.ABOV.MEAN:8.3.3_GHA.LEAR.TEST.P3.MAT.ABOV.MEAN} - PASEC in Guinea, CP2, French and Mathematics (mean score)}{marker sourceid_8.3.3_GHA.LEAR.TEST.P3.MAT.ABOV.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7699,7 +7674,7 @@
 
 {synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/.{p_end}
 
 
 
@@ -7710,7 +7685,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7723,7 +7698,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7736,7 +7711,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7749,7 +7724,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7762,7 +7737,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7788,7 +7763,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Identifies place value; determines the value of a simple number sentence; understands equivalent fractions; adds and subtracts simple fractions; carries out multiple operations in correct order; converts and estimates common and familiar measurement units in solving problems..{p_end}
+{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Reads and understands longer passages. Can search backwards or forwards through text for information. Understands paraphrasing. Expanding vocabulary enables understanding of sentences with some complex structure..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7807,7 +7782,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.3_ZMB.SACMEQ.TEST.5.READ:8.3.3_ZMB.SACMEQ.TEST.5.READ} - PISA in Albania, grade 9 and 10, Mathematics (mean score)}{marker sourceid_8.3.3_ZMB.SACMEQ.TEST.5.READ}
+{dlgtab: {help wbopendata_sourceid##8.3.3_ZMB.SACMEQ.TEST.5.READ:8.3.3_ZMB.SACMEQ.TEST.5.READ} - SACMEQ in Zambia, grade 5, Reading (mean score)}{marker sourceid_8.3.3_ZMB.SACMEQ.TEST.5.READ}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7827,7 +7802,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/.{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7840,20 +7815,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific education level for French, Mathematics, Physics, English, SVT, L2, H-G and ECM, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Subjects include: French, Mathematics, Physics, English, SVT, L2, H-G and ECM..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.4_CIV.LEAR.TEST.SEC.ALL.MIN.COMP:8.3.4_CIV.LEAR.TEST.SEC.ALL.MIN.COMP} - National assessment for learning outcomes in Ethiopia, grade 10, Chemistry, optimal competency (%)}{marker sourceid_8.3.4_CIV.LEAR.TEST.SEC.ALL.MIN.COMP}
+{dlgtab: {help wbopendata_sourceid##8.3.4_CIV.LEAR.TEST.SEC.ALL.MIN.COMP:8.3.4_CIV.LEAR.TEST.SEC.ALL.MIN.COMP} - National assessment for learning outcomes in Côte d'Ivoire, lower secondary (BEPC), minimal competency (%)}{marker sourceid_8.3.4_CIV.LEAR.TEST.SEC.ALL.MIN.COMP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific education level for French, Mathematics, Physics, English, SVT, L2, H-G and ECM, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Subjects include: French, Mathematics, Physics, English, SVT, L2, H-G and ECM..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7866,7 +7841,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
+{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7879,13 +7854,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.4_GHA.LEAR.TEST.P6.MAT.ABOV.MEAN:8.3.4_GHA.LEAR.TEST.P6.MAT.ABOV.MEAN} - PASEC in Guinea, CM1, French (mean score)}{marker sourceid_8.3.4_GHA.LEAR.TEST.P6.MAT.ABOV.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.4_GHA.LEAR.TEST.P6.MAT.ABOV.MEAN:8.3.4_GHA.LEAR.TEST.P6.MAT.ABOV.MEAN} - National assessment for learning outcomes in Ghana, P6, Mathematics, students above mean (%)}{marker sourceid_8.3.4_GHA.LEAR.TEST.P6.MAT.ABOV.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -7905,7 +7880,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7950,14 +7925,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.4_MDA.LEAR.TEST.9.MIN:8.3.4_MDA.LEAR.TEST.9.MIN} - National assessment for learning outcomes in Moldova, grade 9, minimal competency (%)}{marker sourceid_8.3.4_MDA.LEAR.TEST.9.MIN}
+{dlgtab: {help wbopendata_sourceid##8.3.4_MDA.LEAR.TEST.9.MIN:8.3.4_MDA.LEAR.TEST.9.MIN} - National assessment for learning outcomes in Niger, CP, French, optimal competency (%)}{marker sourceid_8.3.4_MDA.LEAR.TEST.9.MIN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7970,7 +7945,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -7996,7 +7971,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Reads, writes and compares larger numbers; solves problems involving calendars and currency, area and volume; uses charts and tables for estimation; solves inequalities; transformations with 3D figures; knowledge of angles in regular figures; understands simple transformations with 2D and 3D shapes..{p_end}
+{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Links information from different parts of the text. Selects and connects text to derive and infer different possible meanings..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8022,7 +7997,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/.{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ has completed two major education policy research projects (SACMEQ I and SACMEQ II) between 1995 and 2005. The third project (SACMEQ III) commenced in 2007 and was completed in 2011. For further details please refer to the following web site: www.sacmeq.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8048,7 +8023,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific education level for French, Mathematics, Sciences and H-G, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8061,7 +8036,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
+{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8074,7 +8049,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with results above the minimal competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. % of pupils achieving 35% of results or more in the test..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8087,7 +8062,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8100,7 +8075,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8132,14 +8107,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.5_MDA.LEAR.TEST.4.PROF:8.3.5_MDA.LEAR.TEST.4.PROF} - National assessment for learning outcomes in Niger, CE2, French, optimal competency (%)}{marker sourceid_8.3.5_MDA.LEAR.TEST.4.PROF}
+{dlgtab: {help wbopendata_sourceid##8.3.5_MDA.LEAR.TEST.4.PROF:8.3.5_MDA.LEAR.TEST.4.PROF} - National assessment for learning outcomes in Moldova, grade 4, proficient competency (%)}{marker sourceid_8.3.5_MDA.LEAR.TEST.4.PROF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Students with proficient competency in the results of the national assessment carried out in the specific grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8243,20 +8218,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. % of pupils achieving 35% of results or more in the test..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.6_GIN.PASEC.CM1.FR.MAT.MEAN:8.3.6_GIN.PASEC.CM1.FR.MAT.MEAN} - PASEC in Guinea, CM1, French and Mathematics (mean score)}{marker sourceid_8.3.6_GIN.PASEC.CM1.FR.MAT.MEAN}
+{dlgtab: {help wbopendata_sourceid##8.3.6_GIN.PASEC.CM1.FR.MAT.MEAN:8.3.6_GIN.PASEC.CM1.FR.MAT.MEAN} - PISA in Kyrgyzstan, grades 8-9, Reading - non-continuous texts (mean score)}{marker sourceid_8.3.6_GIN.PASEC.CM1.FR.MAT.MEAN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8282,26 +8257,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.6_LAO.LEAR.TEST.5.MAT.PROF:8.3.6_LAO.LEAR.TEST.5.MAT.PROF} - National assessment for learning outcomes in Laos, grade 5, Mathematics (proficiency)}{marker sourceid_8.3.6_LAO.LEAR.TEST.5.MAT.PROF}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##8.3.6_MDA.LEAR.TEST.9.PROF:8.3.6_MDA.LEAR.TEST.9.PROF} - National assessment for learning outcomes in Moldova, grade 9, proficient competency (%)}{marker sourceid_8.3.6_MDA.LEAR.TEST.9.PROF}
+{dlgtab: {help wbopendata_sourceid##8.3.6_LAO.LEAR.TEST.5.MAT.PROF:8.3.6_LAO.LEAR.TEST.5.MAT.PROF} - National assessment for learning outcomes in Moldova, grade 9, proficient competency (%)}{marker sourceid_8.3.6_LAO.LEAR.TEST.5.MAT.PROF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -8314,7 +8276,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.6_NER.LEAR.TEST.CM2.FR.OPTIM:8.3.6_NER.LEAR.TEST.CM2.FR.OPTIM} - National assessment for learning outcomes in Niger, CM2, French, optimal competency (%)}{marker sourceid_8.3.6_NER.LEAR.TEST.CM2.FR.OPTIM}
+{dlgtab: {help wbopendata_sourceid##8.3.6_MDA.LEAR.TEST.9.PROF:8.3.6_MDA.LEAR.TEST.9.PROF} - National assessment for learning outcomes in Moldova, grade 9, proficient competency (%)}{marker sourceid_8.3.6_MDA.LEAR.TEST.9.PROF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -8322,6 +8284,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Students with optimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.6_NER.LEAR.TEST.CM2.FR.OPTIM:8.3.6_NER.LEAR.TEST.CM2.FR.OPTIM} - National assessment for learning outcomes in Niger, CM2, French, optimal competency (%)}{marker sourceid_8.3.6_NER.LEAR.TEST.CM2.FR.OPTIM}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8340,14 +8315,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.6_VNM.LEAR.TEST.5.MAT6:8.3.6_VNM.LEAR.TEST.5.MAT6} - National assessment for learning outcomes in Vietnam, grade 5, Reading - Level 6, scores in indicated level (%)}{marker sourceid_8.3.6_VNM.LEAR.TEST.5.MAT6}
+{dlgtab: {help wbopendata_sourceid##8.3.6_VNM.LEAR.TEST.5.MAT6:8.3.6_VNM.LEAR.TEST.5.MAT6} - National assessment for learning outcomes in Vietnam, grade 5, Mathematics - Level 1, scores in indicated level (%)}{marker sourceid_8.3.6_VNM.LEAR.TEST.5.MAT6}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Combines text with outside knowledge to infer various meanings, including hidden meanings. Identifies an author's purposes, attitudes, values, beliefs, motives, unstated assumptions and arguments..{p_end}
+{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Problem solving with periods of time, length, area and volume; embedded and dependent number patterns; develops formulas; recognizes 3D figures after rotation and reflection and embedded figures and right angles in irregular shapes; use data from graphs..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8360,7 +8335,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students in respective level in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Relative level means that student: Combines text with outside knowledge to infer various meanings, including hidden meanings. Identifies an author's purposes, attitudes, values, beliefs, motives, unstated assumptions and arguments..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8373,7 +8348,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8425,7 +8400,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated at the end of the year for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8451,7 +8426,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Progress in International Reading Literacy Study (PIRLS) on the reading achievement of fourth grade students, as reported by the Local Education Group (LEG). It was first conduced in 2001 and then every five years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: pirls.bc.edu..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.7_MDA.PIRLS.READ.4.MEAN:8.3.7_MDA.PIRLS.READ.4.MEAN} - PIRLS in Moldova, grade 4, Reading (mean score)}{marker sourceid_8.3.7_MDA.PIRLS.READ.4.MEAN}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Progress in International Reading Literacy Study (PIRLS) on the reading achievement of fourth grade students, as reported by the Local Education Group (LEG). It was first conduced in 2001 and then every five years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: pirls.bc.edu..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8477,20 +8465,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.8_ETH.LEAR.TEST.12.MAT.OPT:8.3.8_ETH.LEAR.TEST.12.MAT.OPT} - National assessment for learning outcomes in Ethiopia, grade 12, Mathematics, optimal competency (%)}{marker sourceid_8.3.8_ETH.LEAR.TEST.12.MAT.OPT}
+{dlgtab: {help wbopendata_sourceid##8.3.8_ETH.LEAR.TEST.12.MAT.OPT:8.3.8_ETH.LEAR.TEST.12.MAT.OPT} - PISA in Georgia, grade 9, Science (mean score)}{marker sourceid_8.3.8_ETH.LEAR.TEST.12.MAT.OPT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/.{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8516,7 +8504,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with results above the minimal competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. % of pupils achieving 35% of results or more in the test..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated at the end of the year for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8529,7 +8517,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme for International Student Assessment (PISA) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PISA is an international study that was launched by the OECD in 1997. It aims to evaluate education systems worldwide every three years by assessing 15-year-olds' competencies in the key subjects: reading, mathematics and science. For further details please refer to this web site: http://www.oecd.org/pisa/. Pupils who were 15 year old participated in this test, some of them were at grade 8 and some at grade 10..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated at the end of the year for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8568,20 +8556,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.8_NER.LEAR.TEST.CE2.FR.MIN:8.3.8_NER.LEAR.TEST.CE2.FR.MIN} - PASEC in Senegal, French (mean score)}{marker sourceid_8.3.8_NER.LEAR.TEST.CE2.FR.MIN}
+{dlgtab: {help wbopendata_sourceid##8.3.8_NER.LEAR.TEST.CE2.FR.MIN:8.3.8_NER.LEAR.TEST.CE2.FR.MIN} - National assessment for learning outcomes in Niger, CE2, French, minimal competency (%)}{marker sourceid_8.3.8_NER.LEAR.TEST.CE2.FR.MIN}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
+{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8594,26 +8582,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.9_ETH.LEAR.TEST.12.BIO.OPT:8.3.9_ETH.LEAR.TEST.12.BIO.OPT} - National assessment for learning outcomes in Ethiopia, grade 12, Biology, optimal competency (%)}{marker sourceid_8.3.9_ETH.LEAR.TEST.12.BIO.OPT}
-
-
-{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Optimal competency calculated for the results of the national assessment carried out in the specific subject and grade, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. Optimal competency are scores above 50%..{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##8.3.9_GEO.LEAR.TEST.1.ENG.LOWEST:8.3.9_GEO.LEAR.TEST.1.ENG.LOWEST} - National assessment for learning outcomes in Georgia, grade 1, English, students in lowest level (%)}{marker sourceid_8.3.9_GEO.LEAR.TEST.1.ENG.LOWEST}
+{dlgtab: {help wbopendata_sourceid##8.3.9_ETH.LEAR.TEST.12.BIO.OPT:8.3.9_ETH.LEAR.TEST.12.BIO.OPT} - National assessment for learning outcomes in Georgia, grade 1, English, students in lowest level (%)}{marker sourceid_8.3.9_ETH.LEAR.TEST.12.BIO.OPT}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -8626,7 +8601,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.9_GHA.LEAR.TEST.P3.ENG.ABOV.PROF:8.3.9_GHA.LEAR.TEST.P3.ENG.ABOV.PROF} - PASEC in Guinea, CP2, French and Mathematics, mean score at the end of year (%)}{marker sourceid_8.3.9_GHA.LEAR.TEST.P3.ENG.ABOV.PROF}
+{dlgtab: {help wbopendata_sourceid##8.3.9_GEO.LEAR.TEST.1.ENG.LOWEST:8.3.9_GEO.LEAR.TEST.1.ENG.LOWEST} - National assessment for learning outcomes in Georgia, grade 1, English, students in lowest level (%)}{marker sourceid_8.3.9_GEO.LEAR.TEST.1.ENG.LOWEST}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Students with results above the proficient competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country. % of pupils achieving 55% of results or more in the test..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##8.3.9_GHA.LEAR.TEST.P3.ENG.ABOV.PROF:8.3.9_GHA.LEAR.TEST.P3.ENG.ABOV.PROF} - National assessment for learning outcomes in Ghana, P3, English, students above proficient levels (%)}{marker sourceid_8.3.9_GHA.LEAR.TEST.P3.ENG.ABOV.PROF}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -8639,14 +8627,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3.9_GIN.PASEC.CP2.FR.MATH.MEAN.BEG:8.3.9_GIN.PASEC.CP2.FR.MATH.MEAN.BEG} - National assessment for learning outcomes in Laos, grade 5, world around us (proficiency)}{marker sourceid_8.3.9_GIN.PASEC.CP2.FR.MATH.MEAN.BEG}
+{dlgtab: {help wbopendata_sourceid##8.3.9_GIN.PASEC.CP2.FR.MATH.MEAN.BEG:8.3.9_GIN.PASEC.CP2.FR.MATH.MEAN.BEG} - PASEC in Guinea, CP2, French and Mathematics, mean score at the end of year (%)}{marker sourceid_8.3.9_GIN.PASEC.CP2.FR.MATH.MEAN.BEG}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}Mean score calculated at the end of the year for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study created in 1991 by the Conference of Ministers of Education of Francophone countries (CONFEMEN) to assess educational attainments in primary school. For further information please refer to this web site: www.confemen.org..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8672,7 +8660,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Trends in International Mathematics and Science Study (TIMSS) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. It was first conduced in 1995 and then every four years by the TIMS &amp; PIRLS International Study Center of Boston College's Lynch School of Education. For further details please refer to this web site: timss.bc.edu..{p_end}
+{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8685,20 +8673,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Students with minimal competency in the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
+{synopt:{opt Source Notes}}It indicates if national assessments for learning outcomes are administered for primary and lower secondary level and in which grade. Please refer to the subtopic Learning Outcomes and the specific country for details on the scores obtained in these assessments, as reported by the Local Education Group (LEG)..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##8.3_NATIONAL.ASSESSMENTS:8.3_NATIONAL.ASSESSMENTS} - Administration of oral reading fluency tests (yes=1, no=0, see notes if available)}{marker sourceid_8.3_NATIONAL.ASSESSMENTS}
+{dlgtab: {help wbopendata_sourceid##8.3_NATIONAL.ASSESSMENTS:8.3_NATIONAL.ASSESSMENTS} - Realization of national assessments (yes=1, no=0, see notes if available)}{marker sourceid_8.3_NATIONAL.ASSESSMENTS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}It indicates if oral reading fluency tests are administered for primary and lower secondary level and in which grade. Please refer to the subtopic Learning Outcomes and the specific country for details on the scores obtained in these assessments, as reported by the Local Education Group (LEG)..{p_end}
+{synopt:{opt Source Notes}}It indicates if national assessments for learning outcomes are administered for primary and lower secondary level and in which grade. Please refer to the subtopic Learning Outcomes and the specific country for details on the scores obtained in these assessments, as reported by the Local Education Group (LEG)..{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
@@ -8730,7 +8718,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##9.2_COORDINATED.TECH.COOP:9.2_COORDINATED.TECH.COOP} - Use of public financial management country systems (% of total international aid to education)}{marker sourceid_9.2_COORDINATED.TECH.COOP}
+{dlgtab: {help wbopendata_sourceid##9.2_COORDINATED.TECH.COOP:9.2_COORDINATED.TECH.COOP} - Coordinated technical cooperation (% of total cooperation to education)}{marker sourceid_9.2_COORDINATED.TECH.COOP}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -8756,14 +8744,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##9.4_PROCUREMENT.COUNTRY.SYSTEMS:9.4_PROCUREMENT.COUNTRY.SYSTEMS} - Use of procurement country systems (% of total international aid to education)}{marker sourceid_9.4_PROCUREMENT.COUNTRY.SYSTEMS}
+{dlgtab: {help wbopendata_sourceid##9.4_PROCUREMENT.COUNTRY.SYSTEMS:9.4_PROCUREMENT.COUNTRY.SYSTEMS} - Number of parallel implementation units, education sector}{marker sourceid_9.4_PROCUREMENT.COUNTRY.SYSTEMS}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International education aid using national procurement systems and procedures expressed as a percentage of the disbursed education aid for the government sector. Donors use national procurement systems when the funds they provide for the implementation of projects and programs are managed according to the national procurement procedures as they were established in the general legislation and implemented by government. Government sector aid includes aid disbursed in the context of an agreement with administrations (ministries, departments, agencies or municipalities) authorized to receive revenue or undertake expenditures on behalf of central government. This is part of the 2011 Monitoring Exercise on Development Effectiveness in the Education Sector, an unprecedented picture of aid effectiveness in the education sector that can be used as the basis for in-country dialogue and debate going forward. This information looks at how education aid is delivered and managed by development partners and governments..{p_end}
+{synopt:{opt Source Notes}}Number of parallel implementation units (PIUs) in the education sector, as reported by the development donors. A project implementation unit (PIU) is parallel when it is created and operates outside existing country institutional and administrative structures at the behest of a donor. This is part of the 2011 Monitoring Exercise on Development Effectiveness in the Education Sector, an unprecedented picture of aid effectiveness in the education sector that can be used as the basis for in-country dialogue and debate going forward. This information looks at how education aid is delivered and managed by development partners and governments..{p_end}
 
 {synopt:{opt Source Organization}}This indicator is part of the 2011 Monitoring Exercise on Development Effectiveness in the Education Sector. Data was collected in 2011 by the Global Partnership for Education (GPE) from Ministries of Education and development partners on selected Paris Declaration indicators, which were adapted for the education sector, and on other additional information. Three tools were used to collect this data: the Ministry of Education Questionnaire and the Donor questionnaire for quantitative data, and an Explanatory Note for qualitative data. The GPE Secretariat worked closely with Local Education Groups (LEGs ) to collect, process, produce, review and validate this information; and the Coordinating Agency or lead donor was tasked to coordinate the exercise with the LEG and to work with the Ministry of Education. Information refers to data from 2010. For further details in this exercise please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2..{p_end}
 
@@ -8782,7 +8770,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IN.HLTH.HIVINFECTION.EST:IN.HLTH.HIVINFECTION.EST} - International aid disbursed to total education, GPE to Mozambique (USD million)}{marker sourceid_IN.HLTH.HIVINFECTION.EST}
+{dlgtab: {help wbopendata_sourceid##LO.LLECE.REA3.P50:LO.LLECE.REA3.P50} - LLECE: Distribution of 3rd Grade Reading Scores: 50th Percentile Score}{marker sourceid_LO.LLECE.REA3.P50}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
@@ -8795,14 +8783,27 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##fin34a.14.a:fin34a.14.a} - International aid disbursed to basic education, World Bank to Cambodia (USD million)}{marker sourceid_fin34a.14.a}
+{dlgtab: {help wbopendata_sourceid##NW.NCA.MPHO.PC:NW.NCA.MPHO.PC} - Natural capital per capita, subsoil assets, minerals: phosphate (constant 2014 US$)}{marker sourceid_NW.NCA.MPHO.PC}
 
 
 {synopt:{opt Source}}34 Global Partnership for Education.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##fin34a.14.a:fin34a.14.a} - Paid school fees: using cash only (% age 15+)}{marker sourceid_fin34a.14.a}
+
+
+{synopt:{opt Source}}34 Global Partnership for Education.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education..{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/.{p_end}
 

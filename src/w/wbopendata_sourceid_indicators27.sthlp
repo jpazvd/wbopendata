@@ -53,36 +53,23 @@
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
 
 
-{marker sourceid_46}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators46##:TOC}}){p_end}
+{marker sourceid_27}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators27##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{synopthdr:46 Sustainable Development Goals}
+{synopthdr:27 Global Economic Prospects}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##DT.ODA.ODAT.CD1:DT.ODA.ODAT.CD1} - Net official development assistance received (current US$)}{marker sourceid_DT.ODA.ODAT.CD1}
+{dlgtab: {help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}{marker sourceid_NYGDPMKTPKDZ}
 
 
-{synopt:{opt Source}}46 Sustainable Development Goals.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. It includes loans with a grant element of at least 25 percent (calculated at a rate of discount of 10 percent). Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.GNP.MKTP.PC.CD:NY.GNP.MKTP.PC.CD} - GNI per capita (current US$)}{marker sourceid_NY.GNP.MKTP.PC.CD}
-
-
-{synopt:{opt Source}}46 Sustainable Development Goals.{p_end}
+{synopt:{opt Source}}27 Global Economic Prospects.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources..{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+{synopt:{opt Source Organization}}The World Bank.{p_end}
 
 
 

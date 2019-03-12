@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,19 +60,6 @@
 {synopthdr:66 Logistics Performance Index}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##LP.LPI.INFR.RK:LP.LPI.INFR.RK} - Quality- of trade and transport-related infrastructure, rank (1=highest performer)}{marker sourceid_LP.LPI.INFR.RK}
-
-
-{synopt:{opt Source}}66 Logistics Performance Index.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Quality of trade- and transport-related infrastructure includes results from the survey question Evaluate the quality of trade- and transport related infrastructure (e.g. ports, railroads, roads, information technology) in country [x]. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Respondents evaluate eight economies on six core dimensions on a scale from 1 (worst) to 5 (best). The economies are chosen based on the most important export and import markets of the respondents country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
-
-{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: http://www.worldbank.org/lpi.{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##LP.LPI.ITRN.RK:LP.LPI.ITRN.RK} - Ease of arranging competitively priced international shipments, rank (1=highest performer)}{marker sourceid_LP.LPI.ITRN.RK}
 
 
@@ -79,9 +67,22 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Ease of arranging competitively priced international shipments includes results from the survey question Assess the ease of arranging competitively priced shipments to country [x]. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Respondents evaluate eight economies on six core dimensions on a scale from 1 (worst) to 5 (best). The economies are chosen based on the most important export and import markets of the respondents country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents assessed the ease of arranging competitively priced shipments to markets, on a rating ranging from 1 (very difficult) to 5 (very easy). Scores are averaged across all respondents..{p_end}
 
-{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: http://www.worldbank.org/lpi.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##LP.LPI.LOGS.RK:LP.LPI.LOGS.RK} - Competence and quality of logistics services, rank (1=highest performer)}{marker sourceid_LP.LPI.LOGS.RK}
+
+
+{synopt:{opt Source}}66 Logistics Performance Index.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Competence and quality of logistics services includes results from the survey question Evaluate the overall level of competence and quality of logistics services (e.g. transport operators, customs brokers) in country [x]. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Respondents evaluate eight economies on six core dimensions on a scale from 1 (worst) to 5 (best). The economies are chosen based on the most important export and import markets of the respondents country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
+
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report..{p_end}
 
 
 
@@ -92,7 +93,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The Logistics Performance Index overall rank reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced international shipments, quality of logistics services, ability to track and trace consignments, and frequency with which shipments reach the consignee within the scheduled time. The ranks range from 1 to 160 (in the 2018, 2016, and 2014 edition; 155 in 2012 and 2010, and 150 in 2007), with a lower rank representing better performance. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
+{synopt:{opt Source Notes}}The Logistics Performance Index overall rank reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced international shipments, quality of logistics services, ability to track and trace consignments, and frequency with which shipments reach the consignee within the scheduled time. The ranks range from 1 to 160 (in the 2018, 2016, and 2014 edition; 155 in 2012 and 2010, and 150 in 2007), with a lower rank representing better performance. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. To account for the sampling error created by the LPI’s survey-based dataset, LPI ranks are presented with approximate 80 percent confidence intervals (see appendix 5 of the LPI report available at lpi.worldbank.org). These intervals yield upper and lower bounds for a country’s LPI rank. Upper bounds for LPI ranks are calculated by increasing a country’s LPI score to its upper bound while maintaining all other country scores constant and then recalculating LPI ranks. An analogous procedure is adopted for lower bounds..{p_end}
 
 {synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: http://www.worldbank.org/lpi.{p_end}
 
@@ -112,19 +113,6 @@
 
 
 {dlgtab: {help wbopendata_sourceid##LP.LPI.OVRL.RK.UB:LP.LPI.OVRL.RK.UB} - Logistics performance index: Overall rank (1=highest performance), upper bound}{marker sourceid_LP.LPI.OVRL.RK.UB}
-
-
-{synopt:{opt Source}}66 Logistics Performance Index.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced international shipments, quality of logistics services, ability to track and trace consignments, and frequency with which shipments reach the consignee within the scheduled time. The index ranges from 1 to 5, with a higher score representing better performance. Percent of highest performer refers to the percentage of the score of a country in comparison to the score of the highest performing country that year. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Respondents evaluate eight economies on six core dimensions on a scale from 1 (worst) to 5 (best). The economies are chosen based on the most important export and import markets of the respondents country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
-
-{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: http://www.worldbank.org/lpi.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##LP.LPI.OVRL.RK.ZS:LP.LPI.OVRL.RK.ZS} - Logistics performance index: Percent of highest performer)}{marker sourceid_LP.LPI.OVRL.RK.ZS}
 
 
 {synopt:{opt Source}}66 Logistics Performance Index.{p_end}
@@ -170,9 +158,22 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents assessed how often the shipments to assessed markets reach the consignee within the scheduled or expected delivery time, on a rating ranging from 1 (hardly ever) to 5 (nearly always). Scores are averaged across all respondents..{p_end}
+{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Frequency with which shipments reach consignee within scheduled or expected time includes results from the survey question When arranging shipments to the countries listed below, how often do they reach the consignee within the scheduled or expected delivery time? Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Respondents evaluate eight economies on six core dimensions on a scale from 1 (worst) to 5 (best). The economies are chosen based on the most important export and import markets of the respondents country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
 
 {synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##LP.LPI.TRAC.RK:LP.LPI.TRAC.RK} - Ability to track and trace consignments, rank (1=highest performer)}{marker sourceid_LP.LPI.TRAC.RK}
+
+
+{synopt:{opt Source}}66 Logistics Performance Index.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Ability to track and trace consignments includes results from the survey question Rate the ability to track and trace your consignments when shipping to country [x]. Data are from the Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. The 2018 round of surveys covered close to 6,000 country assessments by around 1,000 international freight forwarders. Respondents evaluate eight economies on six core dimensions on a scale from 1 (worst) to 5 (best). The economies are chosen based on the most important export and import markets of the respondents country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are available in Arvis, Ojala, Wiederer, Shepherd, Raj, Dairabayeva, Kiiski: Connecting to Compete 2018: The Logistics Performance Index and Its Indicators, see Appendix 5 for methodology..{p_end}
+
+{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: http://www.worldbank.org/lpi.{p_end}
 
 
 
