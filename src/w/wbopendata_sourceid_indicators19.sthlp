@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -215,19 +216,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TM.GATS.XD:TM.GATS.XD} - General Agreement on Trade in Services (GATS) Commitments Index, all service sectors (0 least liberal to 100 most liberal)}{marker sourceid_TM.GATS.XD}
-
-
-{synopt:{opt Source}}19 Millennium Development Goals.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council..{p_end}
-
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: www.mdg-trade.org..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)}{marker sourceid_TM.MRC.NOTX.DV.ZS}
 
 
@@ -249,6 +237,19 @@
 {synopt:{opt Topics}}18 Millenium development goals.{p_end}
 
 {synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council..{p_end}
+
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: www.mdg-trade.org..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TM.QTY.RAWT.XD.WB:TM.QTY.RAWT.XD.WB} - Import volume index, intermediate goods}{marker sourceid_TM.QTY.RAWT.XD.WB}
+
+
+{synopt:{opt Source}}19 Millennium Development Goals.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63..{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: www.mdg-trade.org..{p_end}
 

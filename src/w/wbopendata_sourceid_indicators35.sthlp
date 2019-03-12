@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,7 +60,7 @@
 {synopthdr:35 Sustainable Energy for All}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##1.1_ACCESS.ELECTRICITY.TOT:1.1_ACCESS.ELECTRICITY.TOT} - Total final energy consumption (TFEC)}{marker sourceid_1.1_ACCESS.ELECTRICITY.TOT}
+{dlgtab: {help wbopendata_sourceid##1.1_ACCESS.ELECTRICITY.TOT:1.1_ACCESS.ELECTRICITY.TOT} - Access to electricity (% of total population)}{marker sourceid_1.1_ACCESS.ELECTRICITY.TOT}
 
 
 {synopt:{opt Source}}35 Sustainable Energy for All.{p_end}
@@ -85,16 +86,42 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##2.1_PRE.PRIMARY.GER:2.1_PRE.PRIMARY.GER} - Renewable energy consumption(% in TFEC)}{marker sourceid_2.1_PRE.PRIMARY.GER}
+{dlgtab: {help wbopendata_sourceid##2.04.01.01.excncpt:2.04.01.01.excncpt} - Balance of payments manual in use}{marker sourceid_2.04.01.01.excncpt}
 
 
 {synopt:{opt Source}}35 Sustainable Energy for All.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Renewable energy consumption(% in TFEC): Share of renewables energy in total final energy consumption.{p_end}
+{synopt:{opt Source Notes}}Pre-Primary Gross Enrolment Rate (GER): The number of pupils enrolled in pre-primary school, regardless of age, expressed as a percentage of the population in the theoretical age group in pre-primary school. The purpose of this indicator is to measure the general level of participation of children in Early Childhood Education (ECE) programs. Country-specific definition, method and targets are determined by countries themselves..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##3.1_PRI.NEW.ENTRANTS:3.1_PRI.NEW.ENTRANTS} - Renewable energy consumption (TJ)}{marker sourceid_3.1_PRI.NEW.ENTRANTS}
+
+
+{synopt:{opt Source}}35 Sustainable Energy for All.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Renewable energy consumption (TJ): This indicator includes renewable energy consumption of all technologies: hydro, modern and traditional biomass, wind, solar, liquid biofuels, biogas, geothermal, marine and waste.{p_end}
 
 {synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, http://www.iea.org/stats/index.asp)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - Renewable energy consumption (TJ)}{marker sourceid_3.1_RE.CONSUMPTION}
+
+
+{synopt:{opt Source}}35 Sustainable Energy for All.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Renewable energy consumption (TJ): This indicator includes renewable energy consumption of all technologies: hydro, modern and traditional biomass, wind, solar, liquid biofuels, biogas, geothermal, marine and waste.{p_end}
+
+{synopt:{opt Source Organization}}World Bank Microdata library. Original source: United Nations Statistical Division (UNSD), 2010 World Population and Housing Censuses Programme.{p_end}
 
 
 
@@ -124,27 +151,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##6.1_LEG.CA:6.1_LEG.CA} - Coordinating agency of Local Education Group (1=text in notes)}{marker sourceid_6.1_LEG.CA}
+{dlgtab: {help wbopendata_sourceid##4.1_SHARE.RE.IN.ELECTRICITY:4.1_SHARE.RE.IN.ELECTRICITY} - Renewable electricity (% in total electricity output)}{marker sourceid_4.1_SHARE.RE.IN.ELECTRICITY}
 
 
 {synopt:{opt Source}}35 Sustainable Energy for All.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Energy intensity level of primary energy (MJ/$2005 PPP): A ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lower ratio indicates that less energy is used to produce one unit of output..{p_end}
-
-{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, http://www.iea.org/stats/index.asp)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##6.1_PRIMARY.ENERGY.INTENSITY:6.1_PRIMARY.ENERGY.INTENSITY} - Energy intensity level of primary energy (MJ/$2005 PPP)}{marker sourceid_6.1_PRIMARY.ENERGY.INTENSITY}
-
-
-{synopt:{opt Source}}35 Sustainable Energy for All.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Energy intensity level of primary energy (MJ/$2005 PPP): A ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lower ratio indicates that less energy is used to produce one unit of output..{p_end}
+{synopt:{opt Source Notes}}Renewable electricity (% in total electricity output): Share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
 {synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, http://www.iea.org/stats/index.asp)..{p_end}
 

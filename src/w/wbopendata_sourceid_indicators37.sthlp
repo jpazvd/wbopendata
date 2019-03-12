@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -1203,6 +1204,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##2.8_LOW.SEC.COMPLETION.RATE:2.8_LOW.SEC.COMPLETION.RATE} - Lower secondary completion rate, total, national source (% of relevant age group)}{marker sourceid_2.8_LOW.SEC.COMPLETION.RATE}
+
+
+{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive to transfers at the top. The limit case, ε→0, the index reflects the Function of Rawls which only takes account of transfers to the very lowest income group; at the other extreme, when ε=0, we obtain the linear utility function. This ranks distributions solely according to total income..{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank)..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##3.0.Atkin.0.5:3.0.Atkin.0.5} - Atkinson, A(.5)}{marker sourceid_3.0.Atkin.0.5}
 
 
@@ -1450,7 +1464,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##3.15_LEARN.TIME.TEACHER.STUDY:3.15_LEARN.TIME.TEACHER.STUDY} - Last study on effective learning time and teacher attendance (year)}{marker sourceid_3.15_LEARN.TIME.TEACHER.STUDY}
+{dlgtab: {help wbopendata_sourceid##3.15_LEARN.TIME.TEACHER.STUDY:3.15_LEARN.TIME.TEACHER.STUDY} - Gini, Urban}{marker sourceid_3.15_LEARN.TIME.TEACHER.STUDY}
 
 
 {synopt:{opt Source}}37 LAC Equity Lab.{p_end}
@@ -1970,6 +1984,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##4.4_BASIC.EDU.RECURRENT:4.4_BASIC.EDU.RECURRENT} - Annualized Mean Income Growth (2004-2014)}{marker sourceid_4.4_BASIC.EDU.RECURRENT}
+
+
+{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The official indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country..{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators.{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##5.0.AMeanIncGr.All:5.0.AMeanIncGr.All} - Annualized Mean Income Growth (2004-2014)}{marker sourceid_5.0.AMeanIncGr.All}
 
 
@@ -1996,6 +2023,32 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Moldova (USD million)}{marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
+
+
+{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation does not includes observations of 0 income..{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##5.1.9_TJK.TOTA.AID.WFP:5.1.9_TJK.TOTA.AID.WFP} - Annualized Mean Income Growth (2004-2009)}{marker sourceid_5.1.9_TJK.TOTA.AID.WFP}
+
+
+{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country..{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators.{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##5.1.AMeanIncGr.All:5.1.AMeanIncGr.All} - Annualized Mean Income Growth (2004-2009)}{marker sourceid_5.1.AMeanIncGr.All}
 
 
@@ -2015,19 +2068,6 @@
 {synopt:{opt Source}}37 LAC Equity Lab.{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth.{p_end}
-
-{synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country..{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##5.2.9_TLS.TOT.AID.PRT:5.2.9_TLS.TOT.AID.PRT} - International aid disbursed to total education, Portugal to Timor-Leste (USD million)}{marker sourceid_5.2.9_TLS.TOT.AID.PRT}
-
-
-{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country..{p_end}
 
@@ -2149,6 +2189,19 @@
 {synopt:{opt Source Notes}}GNI per capita is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. To smooth fluctuations in prices and exchange rates, a special Atlas method of conversion is used by the World Bank. This applies a conversion factor that averages the exchange rate for a given year and the two preceding years, adjusted for differences in rates of inflation between the country, and the Euro area, Japan, the United Kingdom, and the United States..{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab Tablulations of the World Development Indicators (World Bank)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##7.9_CURR.ALLOCATION.CLOSURE:7.9_CURR.ALLOCATION.CLOSURE} - Labor Income Poverty Index}{marker sourceid_7.9_CURR.ALLOCATION.CLOSURE}
+
+
+{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The Labor Income Poverty Index (LIPI)  measures changes in the share of households that have per capita labor income below the regional poverty line of $4 per day, relative to a selected reference period. This reference period is the third quarter in 2010 (2010Q3 = 1), except for Chile and Guatemala, where 2010Q4 = 1..{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of LABLAC (CEDLAS and the World Bank)..{p_end}
 
 
 
@@ -2862,19 +2915,6 @@
 {synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
 
 {synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the top 60 percent that works without pay.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##UIS.XGDP.3.FSGOV:UIS.XGDP.3.FSGOV} - Government expenditure on upper secondary education as a percentage of GDP (%)}{marker sourceid_UIS.XGDP.3.FSGOV}
-
-
-{synopt:{opt Source}}37 LAC Equity Lab.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line..{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank)..{p_end}
 
