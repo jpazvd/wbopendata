@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -72,7 +73,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##CORESA:CORESA} - CPI Price, nominal}{marker sourceid_CORESA}
+{dlgtab: {help wbopendata_sourceid##CORESA:CORESA} - Core CPI,seas.adj,,,}{marker sourceid_CORESA}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -98,20 +99,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##CPTOTSAXMZGY:CPTOTSAXMZGY} - CPI Price, % y-o-y, median weighted, seas. adj.}{marker sourceid_CPTOTSAXMZGY}
-
-
-{synopt:{opt Source}}15 Global Economic Monitor.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Median inflation rate calculated for geographical aggregates (regions, world, etc) of the annual percent change of the CPI. Data is seasonally adjusted..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##CPTOTSAXN:CPTOTSAXN} - CPI Price, nominal, seas. adj.}{marker sourceid_CPTOTSAXN}
+{dlgtab: {help wbopendata_sourceid##CPTOTSAXMZGY:CPTOTSAXMZGY} - CPI Price, nominal, seas. adj.}{marker sourceid_CPTOTSAXMZGY}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -157,7 +145,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, not seasonally adjusted. The base year is 2005..{p_end}
+{synopt:{opt Source Notes}}Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, not seasonally adjusted. The base year is 2005..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
 
@@ -215,6 +203,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.PS.CD:DP.DOD.DSTC.CR.PS.CD} - Official exchange rate, LCU per USD, period average}{marker sourceid_DP.DOD.DSTC.CR.PS.CD}
+
+
+{synopt:{opt Source}}15 Global Economic Monitor.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. It is calculated as an annual average based on monthly averages (local currency units relative to the U.S. dollar)..{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##DPANUSLCU:DPANUSLCU} - Official exchange rate, LCU per USD, period average}{marker sourceid_DPANUSLCU}
 
 
@@ -261,7 +262,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Local equity market index valued in local currency unit (LCU) terms.{p_end}
+{synopt:{opt Source Notes}}Local equity market index valued in US$ terms.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
 
@@ -280,7 +281,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DXGSRMRCHNSCD:DXGSRMRCHNSCD} - Exports Merchandise, Customs, current US$, millions}{marker sourceid_DXGSRMRCHNSCD}
+{dlgtab: {help wbopendata_sourceid##DXGSRMRCHNSCD:DXGSRMRCHNSCD} - Exports Merchandise, Customs, constant US$, millions}{marker sourceid_DXGSRMRCHNSCD}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -306,27 +307,27 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DXGSRMRCHNSXD:DXGSRMRCHNSXD} - Exports Merchandise, Customs, current US$, millions, seas. adj.}{marker sourceid_DXGSRMRCHNSXD}
+{dlgtab: {help wbopendata_sourceid##DXGSRMRCHNSXD:DXGSRMRCHNSXD} - Exports Merchandise, Customs, Price, US$}{marker sourceid_DXGSRMRCHNSXD}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Merchandise (goods) exports,  free on board (f.o.b.), in current US$ millions, seasonally adjusted..{p_end}
+{synopt:{opt Source Notes}}The price index of Merchandise (goods) exports,  free on board (f.o.b.), in currrent US$ millions. Not seasonally adjusted..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DXGSRMRCHSACD:DXGSRMRCHSACD} - Exports Merchandise, Customs, current US$, millions, seas. adj.}{marker sourceid_DXGSRMRCHSACD}
+{dlgtab: {help wbopendata_sourceid##DXGSRMRCHSACD:DXGSRMRCHSACD} - Exports Merchandise, Customs, constant US$, millions, seas. adj.}{marker sourceid_DXGSRMRCHSACD}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Merchandise (goods) exports,  free on board (f.o.b.), in current US$ millions, seasonally adjusted..{p_end}
+{synopt:{opt Source Notes}}Merchandise (goods) exports,  free on board (f.o.b.), in constant US$ millions, seasonally adjusted. The base year is 2005..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
 
@@ -354,24 +355,11 @@
 
 {synopt:{opt Source Notes}}The price index of Merchandise (goods) exports,  free on board (f.o.b.), in US$ seasonally adjusted..{p_end}
 
-{synopt:{opt Source Organization}}Global Findex database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
 
 
 
 {dlgtab: {help wbopendata_sourceid##EMBIG:EMBIG} - J.P. Morgan Emerging Markets Bond Spread (EMBI+),,,,}{marker sourceid_EMBIG}
-
-
-{synopt:{opt Source}}15 Global Economic Monitor.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Agricultural employment shows the number of workers in the agricultural sector..{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization, Production Yearbook and data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EMBIGI:EMBIGI} - J.P. Morgan Emerging Markets Bond Index(EMBI+),,,,}{marker sourceid_EMBIGI}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -397,7 +385,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NEER:NEER} - Nominal Effecive Exchange Rate}{marker sourceid_NEER}
+{dlgtab: {help wbopendata_sourceid##NE.TRM.TRAD.XU:NE.TRM.TRAD.XU} - Terms of trade (goods and services, 2000 = 100)}{marker sourceid_NE.TRM.TRAD.XU}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -407,19 +395,6 @@
 {synopt:{opt Source Notes}}A measure of the value of a currency against a weighted average of several foreign currencies.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}{marker sourceid_NYGDPMKTPKDZ}
-
-
-{synopt:{opt Source}}15 Global Economic Monitor.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PPPs for private consumption. Statutory salaries refer to scheduled salaries according to official pay scales, while actual salaries refer to the average annual salary earned by a full-time teacher. The salaries reported are gross (total sum paid by the employer) less the employer’s contribution to social security and pension, according to existing salary scales. Salaries are “before tax”, i.e. before deductions for income tax. Teachers’ salaries are one component of teachers’ total compensation. Other benefits, such as regional allowances for teaching in remote areas, family allowances, reduced rates on public transport and tax allowances on the purchase of cultural materials, may also form part of teachers’ total remuneration. There are also large differences in taxation and social-benefits systems in OECD countries. All this should be borne in mind when comparing statutory salaries across countries. Data after 2009 is not comparable to data for 2009 and before due to changes in methodology. For more information, consult the OECD's Education at a Glance website: http://www.oecd.org/edu/eag.htm.{p_end}
-
-{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD).{p_end}
 
 
 
@@ -469,26 +444,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Real effective exchange rate is the nominal effective exchange rate (a measure of the value of a currency against a weighted average of several foreign currencies) divided by a price deflator or index of costs..{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence..{p_end}
 
 {synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##RESLV.ISV.SOIF.06.DB1519:RESLV.ISV.SOIF.06.DB1519} - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology)}{marker sourceid_RESLV.ISV.SOIF.06.DB1519}
-
-
-{synopt:{opt Source}}15 Global Economic Monitor.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence..{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget).{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##TN.PRI.MRCH.ID:TN.PRI.MRCH.ID} - Terms of Trade}{marker sourceid_TN.PRI.MRCH.ID}
+{dlgtab: {help wbopendata_sourceid##TN.PRI.MRCH.ID:TN.PRI.MRCH.ID} - Terms of Trade Index (1980=100, US$-based)}{marker sourceid_TN.PRI.MRCH.ID}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -501,7 +463,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TOT:TOT} - Terms of Trade}{marker sourceid_TOT}
+{dlgtab: {help wbopendata_sourceid##TOT:TOT} - Total Reserves}{marker sourceid_TOT}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}
@@ -523,11 +485,11 @@
 
 {synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities..{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Unpublished statistics on Sub-National Trade.{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##UNDP.HDI.XD:UNDP.HDI.XD} - Human development index (HDI)}{marker sourceid_UNDP.HDI.XD}
+{dlgtab: {help wbopendata_sourceid##UNEMPSA_:UNEMPSA_} - Unemployment rate,Percent,,,}{marker sourceid_UNEMPSA_}
 
 
 {synopt:{opt Source}}15 Global Economic Monitor.{p_end}

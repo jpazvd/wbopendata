@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,27 +60,27 @@
 {synopthdr:29 The Atlas of Social Protection: Indicators of Resilience and Equity}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##NV.AGR.TOTL.ZG:NV.AGR.TOTL.ZG} - Real agricultural GDP growth rates (%)}{marker sourceid_NV.AGR.TOTL.ZG}
+{dlgtab: {help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Share of employed - working age}{marker sourceid_AG.CRP.FNO.CN}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group.{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE.{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##UIS.XUNIT.USCONST.23.FSGOV:UIS.XUNIT.USCONST.23.FSGOV} - Initial government funding per secondary student, constant US$}{marker sourceid_UIS.XUNIT.USCONST.23.FSGOV}
+{dlgtab: {help wbopendata_sourceid##UIS.XGDP.3.FSGOV:UIS.XGDP.3.FSGOV} - Government expenditure on upper secondary education as a percentage of GDP (%)}{marker sourceid_UIS.XGDP.3.FSGOV}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group.{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -1333,7 +1334,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_povchi_40_fem:ccx_povchi_40_fem} - Poverty headcount of children (below bottom 40%) - male}{marker sourceid_ccx_povchi_40_fem}
+{dlgtab: {help wbopendata_sourceid##ccx_povchi_40_fem:ccx_povchi_40_fem} - Poverty headcount of children (below bottom 40%) - female}{marker sourceid_ccx_povchi_40_fem}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -1372,7 +1373,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_povchi_40_tot:ccx_povchi_40_tot} - Poverty headcount of children (below bottom 40%)}{marker sourceid_ccx_povchi_40_tot}
+{dlgtab: {help wbopendata_sourceid##ccx_povchi_40_tot:ccx_povchi_40_tot} - Poverty headcount of children (below bottom 40%) - urban}{marker sourceid_ccx_povchi_40_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -1437,7 +1438,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_poveld_40_tot:ccx_poveld_40_tot} - Poverty headcount of the elderly (below bottom 40%)}{marker sourceid_ccx_poveld_40_tot}
+{dlgtab: {help wbopendata_sourceid##ccx_poveld_40_tot:ccx_poveld_40_tot} - Poverty headcount of the elderly (below bottom 40%) - urban}{marker sourceid_ccx_poveld_40_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -1463,7 +1464,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_povwka_40_fem:ccx_povwka_40_fem} - Poverty headcount of working age adults (below bottom 40%) - male}{marker sourceid_ccx_povwka_40_fem}
+{dlgtab: {help wbopendata_sourceid##ccx_povwka_40_fem:ccx_povwka_40_fem} - Poverty headcount of working age adults (below bottom 40%) - female}{marker sourceid_ccx_povwka_40_fem}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -1476,7 +1477,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_povwka_40_mal:ccx_povwka_40_mal} - Poverty headcount of working age adults (below bottom 40%) - male}{marker sourceid_ccx_povwka_40_mal}
+{dlgtab: {help wbopendata_sourceid##ccx_povwka_40_mal:ccx_povwka_40_mal} - Poverty headcount of working age adults (below bottom 40%) - rural}{marker sourceid_ccx_povwka_40_mal}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -1541,7 +1542,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_povyou_40_mal:ccx_povyou_40_mal} - Poverty headcount of youth (below bottom 40%) - rural}{marker sourceid_ccx_povyou_40_mal}
+{dlgtab: {help wbopendata_sourceid##ccx_povyou_40_mal:ccx_povyou_40_mal} - Poverty headcount of youth (below bottom 40%) - male}{marker sourceid_ccx_povyou_40_mal}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -1567,7 +1568,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ccx_povyou_40_tot:ccx_povyou_40_tot} - Poverty headcount of youth (below bottom 40%) - urban}{marker sourceid_ccx_povyou_40_tot}
+{dlgtab: {help wbopendata_sourceid##ccx_povyou_40_tot:ccx_povyou_40_tot} - Poverty headcount of youth (below bottom 40%)}{marker sourceid_ccx_povyou_40_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -7898,7 +7899,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_ep_tot:per_lm_pa.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market}{marker sourceid_per_lm_pa.adq_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_ep_tot:per_lm_pa.adq_ep_tot} - Average per capita transfer held by 4th quintile - Cash Transfer -urban}{marker sourceid_per_lm_pa.adq_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -7911,7 +7912,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_pop_preT_tot:per_lm_pa.adq_pop_preT_tot} - Adequacy of benefits (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.adq_pop_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_pop_preT_tot:per_lm_pa.adq_pop_preT_tot} - Adequacy of benefits (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.adq_pop_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -7937,7 +7938,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_pop_tot:per_lm_pa.adq_pop_tot} - Adequacy of benefits (%) - Passive Labor Market}{marker sourceid_per_lm_pa.adq_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_pop_tot:per_lm_pa.adq_pop_tot} - Adequacy of benefits (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.adq_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8002,7 +8003,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q1_urb:per_lm_pa.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.adq_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q1_urb:per_lm_pa.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.adq_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8041,7 +8042,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q2_tot:per_lm_pa.adq_q2_tot} - Adequacy of benefits in 2nd quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.adq_q2_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q2_tot:per_lm_pa.adq_q2_tot} - Adequacy of benefits in 2nd quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.adq_q2_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8106,7 +8107,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q3_urb:per_lm_pa.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.adq_q3_urb}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q3_urb:per_lm_pa.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.adq_q3_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8158,7 +8159,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q4_urb:per_lm_pa.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.adq_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.adq_q4_urb:per_lm_pa.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.adq_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8275,7 +8276,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_pop_tot:per_lm_pa.avt_pop_tot} - Average per capita transfer - Passive Labor Market}{marker sourceid_per_lm_pa.avt_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_pop_tot:per_lm_pa.avt_pop_tot} - Average per capita transfer - Passive Labor Market -urban}{marker sourceid_per_lm_pa.avt_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8366,7 +8367,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_q2_rur:per_lm_pa.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Passive Labor Market -rural}{marker sourceid_per_lm_pa.avt_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_q2_rur:per_lm_pa.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Passive Labor Market}{marker sourceid_per_lm_pa.avt_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8457,7 +8458,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_q4_preT_tot:per_lm_pa.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.avt_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_q4_preT_tot:per_lm_pa.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Passive Labor Market -rural}{marker sourceid_per_lm_pa.avt_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8496,7 +8497,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_q4_urb:per_lm_pa.avt_q4_urb} - Average per capita transfer held by 4th quintile - Passive Labor Market -urban}{marker sourceid_per_lm_pa.avt_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.avt_q4_urb:per_lm_pa.avt_q4_urb} - Average per capita transfer held by richest quintile - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.avt_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8639,7 +8640,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.ben_q2_preT_tot:per_lm_pa.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.ben_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.ben_q2_preT_tot:per_lm_pa.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.ben_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8691,7 +8692,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.ben_q3_preT_tot:per_lm_pa.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.ben_q3_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.ben_q3_preT_tot:per_lm_pa.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.ben_q3_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8938,7 +8939,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q2_rur:per_lm_pa.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.bry_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q2_rur:per_lm_pa.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.bry_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8977,7 +8978,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q3_preT_tot:per_lm_pa.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.bry_q3_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q3_preT_tot:per_lm_pa.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.bry_q3_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -8990,7 +8991,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q3_rur:per_lm_pa.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.bry_q3_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q3_rur:per_lm_pa.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.bry_q3_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9042,7 +9043,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q4_rur:per_lm_pa.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.bry_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q4_rur:per_lm_pa.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.bry_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9081,7 +9082,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q5_preT_tot:per_lm_pa.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.bry_q5_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q5_preT_tot:per_lm_pa.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.bry_q5_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9107,7 +9108,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q5_tot:per_lm_pa.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.bry_q5_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.bry_q5_tot:per_lm_pa.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.bry_q5_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9224,7 +9225,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_ep_tot:per_lm_pa.cov_ep_tot} - Coverage (%) - Passive Labor Market (preT)}{marker sourceid_per_lm_pa.cov_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_ep_tot:per_lm_pa.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9263,7 +9264,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_pop_tot:per_lm_pa.cov_pop_tot} - Coverage (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.cov_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_pop_tot:per_lm_pa.cov_pop_tot} - Coverage (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9315,7 +9316,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q1_tot:per_lm_pa.cov_q1_tot} - Coverage in poorest quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q1_tot:per_lm_pa.cov_q1_tot} - Coverage in poorest quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.cov_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9419,7 +9420,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q3_tot:per_lm_pa.cov_q3_tot} - Coverage in 3rd quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q3_tot:per_lm_pa.cov_q3_tot} - Coverage in 3rd quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.cov_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9458,7 +9459,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q4_rur:per_lm_pa.cov_q4_rur} - Coverage in 4th quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q4_rur:per_lm_pa.cov_q4_rur} - Coverage in 4th quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.cov_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9510,7 +9511,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q5_rur:per_lm_pa.cov_q5_rur} - Coverage in richest quintile (%) - Passive Labor Market -rural}{marker sourceid_per_lm_pa.cov_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q5_rur:per_lm_pa.cov_q5_rur} - Coverage in richest quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9523,7 +9524,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q5_tot:per_lm_pa.cov_q5_tot} - Coverage in richest quintile (%) - Passive Labor Market -urban}{marker sourceid_per_lm_pa.cov_q5_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa.cov_q5_tot:per_lm_pa.cov_q5_tot} - Coverage in richest quintile (%) - Passive Labor Market}{marker sourceid_per_lm_pa.cov_q5_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9549,7 +9550,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa_gini_preT_tot:per_lm_pa_gini_preT_tot} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile (preT)}{marker sourceid_per_lm_pa_gini_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa_gini_preT_tot:per_lm_pa_gini_preT_tot} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile -rural}{marker sourceid_per_lm_pa_gini_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9562,7 +9563,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa_gini_rur:per_lm_pa_gini_rur} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile -rural}{marker sourceid_per_lm_pa_gini_rur}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa_gini_rur:per_lm_pa_gini_rur} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile}{marker sourceid_per_lm_pa_gini_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -9653,7 +9654,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_lm_pa_p0_tot:per_lm_pa_p0_tot} - Poverty Headcount reduction (%) -  Passive Labor Market  - poorest quintile -urban}{marker sourceid_per_lm_pa_p0_tot}
+{dlgtab: {help wbopendata_sourceid##per_lm_pa_p0_tot:per_lm_pa_p0_tot} - Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile}{marker sourceid_per_lm_pa_p0_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10576,7 +10577,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_pop_rur:per_pr_allpr.adq_pop_rur} - Adequacy of benefits (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.adq_pop_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_pop_rur:per_pr_allpr.adq_pop_rur} - Adequacy of benefits (%) - All Private Transfers}{marker sourceid_per_pr_allpr.adq_pop_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10589,7 +10590,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_pop_tot:per_pr_allpr.adq_pop_tot} - Adequacy of benefits (%) - All Private Transfers}{marker sourceid_per_pr_allpr.adq_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_pop_tot:per_pr_allpr.adq_pop_tot} - Adequacy of benefits (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.adq_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10771,7 +10772,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_q4_preT_tot:per_pr_allpr.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.adq_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_q4_preT_tot:per_pr_allpr.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.adq_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10784,7 +10785,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_q4_rur:per_pr_allpr.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.adq_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.adq_q4_rur:per_pr_allpr.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.adq_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10914,7 +10915,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.avt_pop_rur:per_pr_allpr.avt_pop_rur} - Average per capita transfer - All Private Transfers -rural}{marker sourceid_per_pr_allpr.avt_pop_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.avt_pop_rur:per_pr_allpr.avt_pop_rur} - Average per capita transfer - All Private Transfers}{marker sourceid_per_pr_allpr.avt_pop_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10979,7 +10980,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.avt_q1_tot:per_pr_allpr.avt_q1_tot} - Average per capita transfer held by poorest quintile - All Private Transfers}{marker sourceid_per_pr_allpr.avt_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.avt_q1_tot:per_pr_allpr.avt_q1_tot} - Average per capita transfer held by poorest quintile - All Private Transfers -urban}{marker sourceid_per_pr_allpr.avt_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -10992,7 +10993,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.avt_q1_urb:per_pr_allpr.avt_q1_urb} - Average per capita transfer held by 2nd quintile - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.avt_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.avt_q1_urb:per_pr_allpr.avt_q1_urb} - Average per capita transfer held by poorest quintile - All Private Transfers -urban}{marker sourceid_per_pr_allpr.avt_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11213,7 +11214,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_ep_preT_tot:per_pr_allpr.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.ben_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_ep_preT_tot:per_pr_allpr.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers}{marker sourceid_per_pr_allpr.ben_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11304,7 +11305,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q2_rur:per_pr_allpr.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.ben_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q2_rur:per_pr_allpr.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.ben_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11356,7 +11357,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q3_rur:per_pr_allpr.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.ben_q3_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q3_rur:per_pr_allpr.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.ben_q3_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11421,7 +11422,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q4_tot:per_pr_allpr.ben_q4_tot} - Benefits incidence in 4th quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.ben_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q4_tot:per_pr_allpr.ben_q4_tot} - Benefits incidence in 4th quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.ben_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11447,7 +11448,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q5_preT_tot:per_pr_allpr.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.ben_q5_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.ben_q5_preT_tot:per_pr_allpr.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.ben_q5_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11499,7 +11500,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_ep_preT_tot:per_pr_allpr.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers}{marker sourceid_per_pr_allpr.bry_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_ep_preT_tot:per_pr_allpr.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.bry_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11512,7 +11513,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_ep_tot:per_pr_allpr.bry_ep_tot} - Beneficiary incidence in poorest quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.bry_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_ep_tot:per_pr_allpr.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers}{marker sourceid_per_pr_allpr.bry_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11551,7 +11552,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q1_tot:per_pr_allpr.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.bry_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q1_tot:per_pr_allpr.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.bry_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11603,7 +11604,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q2_tot:per_pr_allpr.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.bry_q2_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q2_tot:per_pr_allpr.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.bry_q2_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11616,7 +11617,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q2_urb:per_pr_allpr.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.bry_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q2_urb:per_pr_allpr.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.bry_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11655,7 +11656,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q3_tot:per_pr_allpr.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.bry_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.bry_q3_tot:per_pr_allpr.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.bry_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11785,7 +11786,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_ep_preT_tot:per_pr_allpr.cba_ep_preT_tot} - Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_pr_allpr.cba_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_ep_preT_tot:per_pr_allpr.cba_ep_preT_tot} - Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_pr_allpr.cba_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11811,7 +11812,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_q1_preT_tot:per_pr_allpr.cba_q1_preT_tot} - Benefit-cost ratio -  All Private Transfers -poorest quintile (preT)}{marker sourceid_per_pr_allpr.cba_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_q1_preT_tot:per_pr_allpr.cba_q1_preT_tot} - Benefit-cost ratio -  All Private Transfers -poorest quintile -rural}{marker sourceid_per_pr_allpr.cba_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11837,7 +11838,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_q1_tot:per_pr_allpr.cba_q1_tot} - Benefit-cost ratio -  All Private Transfers -poorest quintile}{marker sourceid_per_pr_allpr.cba_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_q1_tot:per_pr_allpr.cba_q1_tot} - Benefit-cost ratio -  All Private Transfers - poorest quintile -urban}{marker sourceid_per_pr_allpr.cba_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11850,7 +11851,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_q1_urb:per_pr_allpr.cba_q1_urb} - Benefit-cost ratio -  All Private Transfers - poorest quintile -urban}{marker sourceid_per_pr_allpr.cba_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cba_q1_urb:per_pr_allpr.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.cba_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11928,7 +11929,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_pop_urb:per_pr_allpr.cov_pop_urb} - Coverage (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.cov_pop_urb}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_pop_urb:per_pr_allpr.cov_pop_urb} - Coverage in poorest quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.cov_pop_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -11967,7 +11968,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q1_tot:per_pr_allpr.cov_q1_tot} - Coverage in poorest quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.cov_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q1_tot:per_pr_allpr.cov_q1_tot} - Coverage in poorest quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.cov_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12032,7 +12033,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q2_urb:per_pr_allpr.cov_q2_urb} - Coverage in 3rd quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.cov_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q2_urb:per_pr_allpr.cov_q2_urb} - Coverage in 2nd quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.cov_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12058,7 +12059,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q3_rur:per_pr_allpr.cov_q3_rur} - Coverage in 3rd quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.cov_q3_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q3_rur:per_pr_allpr.cov_q3_rur} - Coverage in 3rd quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.cov_q3_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12071,7 +12072,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q3_tot:per_pr_allpr.cov_q3_tot} - Coverage in 3rd quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.cov_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q3_tot:per_pr_allpr.cov_q3_tot} - Coverage in 3rd quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.cov_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12097,7 +12098,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q4_preT_tot:per_pr_allpr.cov_q4_preT_tot} - Coverage in 4th quintile (%) - All Private Transfers (preT)}{marker sourceid_per_pr_allpr.cov_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q4_preT_tot:per_pr_allpr.cov_q4_preT_tot} - Coverage in 4th quintile (%) - All Private Transfers -rural}{marker sourceid_per_pr_allpr.cov_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12123,7 +12124,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q4_tot:per_pr_allpr.cov_q4_tot} - Coverage in 4th quintile (%) - All Private Transfers}{marker sourceid_per_pr_allpr.cov_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr.cov_q4_tot:per_pr_allpr.cov_q4_tot} - Coverage in 4th quintile (%) - All Private Transfers -urban}{marker sourceid_per_pr_allpr.cov_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12227,7 +12228,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr_gini_tot:per_pr_allpr_gini_tot} - Gini inequality reduction (%) -  All Private Transfers - poorest quintile -urban}{marker sourceid_per_pr_allpr_gini_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr_gini_tot:per_pr_allpr_gini_tot} - Gini inequality reduction (%) -  All Private Transfers -poorest quintile}{marker sourceid_per_pr_allpr_gini_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12240,7 +12241,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr_gini_urb:per_pr_allpr_gini_urb} - Gini inequality reduction (%) -  All Private Transfers - poorest quintile -urban}{marker sourceid_per_pr_allpr_gini_urb}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr_gini_urb:per_pr_allpr_gini_urb} - Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_pr_allpr_gini_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12279,7 +12280,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr_p0_preT_tot:per_pr_allpr_p0_preT_tot} - Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile (preT)}{marker sourceid_per_pr_allpr_p0_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr_p0_preT_tot:per_pr_allpr_p0_preT_tot} - Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile -rural}{marker sourceid_per_pr_allpr_p0_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -12292,7 +12293,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_pr_allpr_p0_rur:per_pr_allpr_p0_rur} - Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile}{marker sourceid_per_pr_allpr_p0_rur}
+{dlgtab: {help wbopendata_sourceid##per_pr_allpr_p0_rur:per_pr_allpr_p0_rur} - Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile -rural}{marker sourceid_per_pr_allpr_p0_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -17921,14 +17922,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_ep_preT_tot:per_sa_cc.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.adq_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_ep_preT_tot:per_sa_cc.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.adq_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -17941,7 +17942,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -17954,7 +17955,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -17967,7 +17968,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -17980,7 +17981,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -17993,20 +17994,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q1_preT_tot:per_sa_cc.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.adq_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q1_preT_tot:per_sa_cc.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.adq_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18019,20 +18020,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q1_tot:per_sa_cc.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.adq_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q1_tot:per_sa_cc.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.adq_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18045,7 +18046,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18058,20 +18059,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q2_rur:per_sa_cc.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.adq_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q2_rur:per_sa_cc.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.adq_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18084,7 +18085,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18097,7 +18098,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18110,7 +18111,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18123,7 +18124,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18136,7 +18137,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18149,33 +18150,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q4_preT_tot:per_sa_cc.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.adq_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q4_preT_tot:per_sa_cc.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.adq_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q4_rur:per_sa_cc.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.adq_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.adq_q4_rur:per_sa_cc.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.adq_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18188,7 +18189,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18201,7 +18202,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18214,7 +18215,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18227,7 +18228,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18240,7 +18241,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18253,7 +18254,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18266,7 +18267,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18279,7 +18280,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18292,20 +18293,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_pop_rur:per_sa_cc.avt_pop_rur} - Average per capita transfer - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.avt_pop_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_pop_rur:per_sa_cc.avt_pop_rur} - Average per capita transfer - Conditional Cash Transfers}{marker sourceid_per_sa_cc.avt_pop_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18318,7 +18319,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18331,20 +18332,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q1_preT_tot:per_sa_cc.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.avt_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q1_preT_tot:per_sa_cc.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.avt_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18357,7 +18358,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18370,20 +18371,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q1_urb:per_sa_cc.avt_q1_urb} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.avt_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q1_urb:per_sa_cc.avt_q1_urb} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.avt_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18396,7 +18397,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18409,7 +18410,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}NULL.{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -18493,7 +18494,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q4_preT_tot:per_sa_cc.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.avt_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q4_preT_tot:per_sa_cc.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.avt_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18558,7 +18559,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q5_rur:per_sa_cc.avt_q5_rur} - Average per capita transfer held by richest quintile - Conditional Cash Transfers}{marker sourceid_per_sa_cc.avt_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q5_rur:per_sa_cc.avt_q5_rur} - Average per capita transfer held by richest quintile - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.avt_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18571,7 +18572,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q5_tot:per_sa_cc.avt_q5_tot} - Average per capita transfer held by richest quintile - Conditional Cash Transfers}{marker sourceid_per_sa_cc.avt_q5_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.avt_q5_tot:per_sa_cc.avt_q5_tot} - Average per capita transfer held by richest quintile - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.avt_q5_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18597,7 +18598,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_ep_preT_tot:per_sa_cc.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.ben_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_ep_preT_tot:per_sa_cc.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.ben_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18662,7 +18663,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q1_urb:per_sa_cc.ben_q1_urb} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.ben_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q1_urb:per_sa_cc.ben_q1_urb} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.ben_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18675,7 +18676,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q2_preT_tot:per_sa_cc.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.ben_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q2_preT_tot:per_sa_cc.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.ben_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18688,7 +18689,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q2_rur:per_sa_cc.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.ben_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q2_rur:per_sa_cc.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.ben_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18740,7 +18741,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q3_rur:per_sa_cc.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.ben_q3_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q3_rur:per_sa_cc.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.ben_q3_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18753,7 +18754,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q3_tot:per_sa_cc.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.ben_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q3_tot:per_sa_cc.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.ben_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18792,7 +18793,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q4_rur:per_sa_cc.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.ben_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q4_rur:per_sa_cc.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.ben_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18831,7 +18832,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q5_preT_tot:per_sa_cc.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.ben_q5_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q5_preT_tot:per_sa_cc.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.ben_q5_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18844,7 +18845,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q5_rur:per_sa_cc.ben_q5_rur} - Benefits incidence in richest quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.ben_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.ben_q5_rur:per_sa_cc.ben_q5_rur} - Benefits incidence in richest quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.ben_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -18974,7 +18975,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.bry_q2_rur:per_sa_cc.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.bry_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.bry_q2_rur:per_sa_cc.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.bry_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19000,7 +19001,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.bry_q2_urb:per_sa_cc.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.bry_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.bry_q2_urb:per_sa_cc.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.bry_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19169,7 +19170,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cba_ep_preT_tot:per_sa_cc.cba_ep_preT_tot} - Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_sa_cc.cba_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cba_ep_preT_tot:per_sa_cc.cba_ep_preT_tot} - Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_cc.cba_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19312,7 +19313,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_pop_urb:per_sa_cc.cov_pop_urb} - Coverage (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.cov_pop_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_pop_urb:per_sa_cc.cov_pop_urb} - Coverage in poorest quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.cov_pop_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19351,7 +19352,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q1_tot:per_sa_cc.cov_q1_tot} - Coverage in poorest quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.cov_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q1_tot:per_sa_cc.cov_q1_tot} - Coverage in poorest quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.cov_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19377,7 +19378,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q2_preT_tot:per_sa_cc.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.cov_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q2_preT_tot:per_sa_cc.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.cov_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19520,7 +19521,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q4_urb:per_sa_cc.cov_q4_urb} - Coverage in 4th quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.cov_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q4_urb:per_sa_cc.cov_q4_urb} - Coverage in richest quintile (%) - Conditional Cash Transfers (preT)}{marker sourceid_per_sa_cc.cov_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19546,7 +19547,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q5_rur:per_sa_cc.cov_q5_rur} - Coverage in richest quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.cov_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q5_rur:per_sa_cc.cov_q5_rur} - Coverage in richest quintile (%) - Conditional Cash Transfers -rural}{marker sourceid_per_sa_cc.cov_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19559,7 +19560,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q5_tot:per_sa_cc.cov_q5_tot} - Coverage in richest quintile (%) - Conditional Cash Transfers}{marker sourceid_per_sa_cc.cov_q5_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc.cov_q5_tot:per_sa_cc.cov_q5_tot} - Coverage in richest quintile (%) - Conditional Cash Transfers -urban}{marker sourceid_per_sa_cc.cov_q5_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19702,7 +19703,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc_p0_urb:per_sa_cc_p0_urb} - Poverty Headcount reduction (%) -  Conditional Cash Transfer - poorest quintile -urban}{marker sourceid_per_sa_cc_p0_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc_p0_urb:per_sa_cc_p0_urb} - Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_sa_cc_p0_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19728,7 +19729,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc_p1_ep_tot:per_sa_cc_p1_ep_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile (preT)}{marker sourceid_per_sa_cc_p1_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc_p1_ep_tot:per_sa_cc_p1_ep_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_cc_p1_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -19767,7 +19768,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_cc_p1_tot:per_sa_cc_p1_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile}{marker sourceid_per_sa_cc_p1_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_cc_p1_tot:per_sa_cc_p1_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer - poorest quintile -urban}{marker sourceid_per_sa_cc_p1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -21672,33 +21673,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_ep_tot:per_sa_fw.adq_ep_tot} - Adequacy of benefits (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.adq_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_ep_tot:per_sa_fw.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Subsidies}{marker sourceid_per_sa_fw.adq_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_pop_preT_tot:per_sa_fw.adq_pop_preT_tot} - Adequacy of benefits (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.adq_pop_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_pop_preT_tot:per_sa_fw.adq_pop_preT_tot} - Adequacy of benefits (%) - Subsidies -rural}{marker sourceid_per_sa_fw.adq_pop_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21711,7 +21712,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21724,7 +21725,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21737,20 +21738,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q1_preT_tot:per_sa_fw.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.adq_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q1_preT_tot:per_sa_fw.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.adq_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21763,20 +21764,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q1_tot:per_sa_fw.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies}{marker sourceid_per_sa_fw.adq_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q1_tot:per_sa_fw.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.adq_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21789,7 +21790,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21802,7 +21803,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21815,7 +21816,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21828,20 +21829,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q2_urb:per_sa_fw.adq_q2_urb} - Adequacy of benefits in 2nd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.adq_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q2_urb:per_sa_fw.adq_q2_urb} - Adequacy of benefits in 3rd quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.adq_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21854,7 +21855,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21867,7 +21868,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21880,20 +21881,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q3_urb:per_sa_fw.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.adq_q3_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q3_urb:per_sa_fw.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.adq_q3_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21906,7 +21907,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21919,33 +21920,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q4_tot:per_sa_fw.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Subsidies}{marker sourceid_per_sa_fw.adq_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q4_tot:per_sa_fw.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.adq_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q4_urb:per_sa_fw.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.adq_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.adq_q4_urb:per_sa_fw.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.adq_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21958,7 +21959,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21971,7 +21972,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21984,7 +21985,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -21997,20 +21998,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_ep_preT_tot:per_sa_fw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies (preT)}{marker sourceid_per_sa_fw.avt_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_ep_preT_tot:per_sa_fw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies}{marker sourceid_per_sa_fw.avt_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22023,46 +22024,46 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_pop_preT_tot:per_sa_fw.avt_pop_preT_tot} - Average per capita transfer - Subsidies (preT)}{marker sourceid_per_sa_fw.avt_pop_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_pop_preT_tot:per_sa_fw.avt_pop_preT_tot} - Average per capita transfer - Subsidies -rural}{marker sourceid_per_sa_fw.avt_pop_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_pop_rur:per_sa_fw.avt_pop_rur} - Average per capita transfer - Subsidies -rural}{marker sourceid_per_sa_fw.avt_pop_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_pop_rur:per_sa_fw.avt_pop_rur} - Average per capita transfer - Subsidies}{marker sourceid_per_sa_fw.avt_pop_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_pop_tot:per_sa_fw.avt_pop_tot} - Average per capita transfer - Subsidies}{marker sourceid_per_sa_fw.avt_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_pop_tot:per_sa_fw.avt_pop_tot} - Average per capita transfer - Subsidies -urban}{marker sourceid_per_sa_fw.avt_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22075,7 +22076,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22088,7 +22089,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22101,7 +22102,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22114,20 +22115,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q1_urb:per_sa_fw.avt_q1_urb} - Average per capita transfer held by poorest quintile - Subsidies -urban}{marker sourceid_per_sa_fw.avt_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q1_urb:per_sa_fw.avt_q1_urb} - Average per capita transfer held by 2nd quintile - Subsidies (preT)}{marker sourceid_per_sa_fw.avt_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22140,33 +22141,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q2_rur:per_sa_fw.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Subsidies}{marker sourceid_per_sa_fw.avt_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q2_rur:per_sa_fw.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Subsidies -rural}{marker sourceid_per_sa_fw.avt_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q2_tot:per_sa_fw.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Subsidies}{marker sourceid_per_sa_fw.avt_q2_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q2_tot:per_sa_fw.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Subsidies -urban}{marker sourceid_per_sa_fw.avt_q2_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22179,7 +22180,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22192,7 +22193,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22205,7 +22206,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22218,72 +22219,72 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q3_urb:per_sa_fw.avt_q3_urb} - Average per capita transfer held by 3rd quintile - Subsidies -urban}{marker sourceid_per_sa_fw.avt_q3_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q3_urb:per_sa_fw.avt_q3_urb} - Average per capita transfer held by 4th quintile - Subsidies (preT)}{marker sourceid_per_sa_fw.avt_q3_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_preT_tot:per_sa_fw.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Subsidies -rural}{marker sourceid_per_sa_fw.avt_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_preT_tot:per_sa_fw.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Subsidies (preT)}{marker sourceid_per_sa_fw.avt_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_rur:per_sa_fw.avt_q4_rur} - Average per capita transfer held by 4th quintile - Subsidies -rural}{marker sourceid_per_sa_fw.avt_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_rur:per_sa_fw.avt_q4_rur} - Average per capita transfer held by 4th quintile - Subsidies}{marker sourceid_per_sa_fw.avt_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_tot:per_sa_fw.avt_q4_tot} - Average per capita transfer held by 4th quintile - Subsidies -urban}{marker sourceid_per_sa_fw.avt_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_tot:per_sa_fw.avt_q4_tot} - Average per capita transfer held by 4th quintile - Subsidies}{marker sourceid_per_sa_fw.avt_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_urb:per_sa_fw.avt_q4_urb} - Average per capita transfer held by richest quintile - Subsidies (preT)}{marker sourceid_per_sa_fw.avt_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.avt_q4_urb:per_sa_fw.avt_q4_urb} - Average per capita transfer held by 4th quintile - Subsidies -urban}{marker sourceid_per_sa_fw.avt_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22296,7 +22297,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22309,7 +22310,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22322,7 +22323,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22335,33 +22336,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_ep_preT_tot:per_sa_fw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies}{marker sourceid_per_sa_fw.ben_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_ep_preT_tot:per_sa_fw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.ben_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_ep_tot:per_sa_fw.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies}{marker sourceid_per_sa_fw.ben_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_ep_tot:per_sa_fw.ben_ep_tot} - Benefits incidence in poorest quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.ben_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22374,7 +22375,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22387,7 +22388,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22400,7 +22401,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22413,7 +22414,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22426,7 +22427,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
+{synopt:{opt Source Notes}}NULL.{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -22458,7 +22459,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q2_urb:per_sa_fw.ben_q2_urb} - Benefits incidence in 2nd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.ben_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q2_urb:per_sa_fw.ben_q2_urb} - Benefits incidence in 3rd quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.ben_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22549,7 +22550,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q4_tot:per_sa_fw.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.ben_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q4_tot:per_sa_fw.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Subsidies}{marker sourceid_per_sa_fw.ben_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22575,7 +22576,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q5_preT_tot:per_sa_fw.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.ben_q5_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q5_preT_tot:per_sa_fw.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.ben_q5_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22588,7 +22589,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q5_rur:per_sa_fw.ben_q5_rur} - Benefits incidence in richest quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.ben_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.ben_q5_rur:per_sa_fw.ben_q5_rur} - Benefits incidence in richest quintile (%) - Subsidies}{marker sourceid_per_sa_fw.ben_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22705,7 +22706,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q2_preT_tot:per_sa_fw.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.bry_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q2_preT_tot:per_sa_fw.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.bry_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22718,7 +22719,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q2_rur:per_sa_fw.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.bry_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q2_rur:per_sa_fw.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Subsidies}{marker sourceid_per_sa_fw.bry_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22809,7 +22810,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q4_preT_tot:per_sa_fw.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.bry_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q4_preT_tot:per_sa_fw.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.bry_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22900,7 +22901,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q5_urb:per_sa_fw.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.bry_q5_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.bry_q5_urb:per_sa_fw.bry_q5_urb} - Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_sa_fw.bry_q5_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22926,7 +22927,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cba_ep_tot:per_sa_fw.cba_ep_tot} - Benefit-cost ratio -  Subsidies -poorest quintile (preT)}{marker sourceid_per_sa_fw.cba_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cba_ep_tot:per_sa_fw.cba_ep_tot} - Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_fw.cba_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22952,7 +22953,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cba_q1_rur:per_sa_fw.cba_q1_rur} - Benefit-cost ratio -  Subsidies -poorest quintile}{marker sourceid_per_sa_fw.cba_q1_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cba_q1_rur:per_sa_fw.cba_q1_rur} - Benefit-cost ratio -  Subsidies -poorest quintile -rural}{marker sourceid_per_sa_fw.cba_q1_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -22978,7 +22979,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cba_q1_urb:per_sa_fw.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.cba_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cba_q1_urb:per_sa_fw.cba_q1_urb} - Benefit-cost ratio -  Subsidies - poorest quintile -urban}{marker sourceid_per_sa_fw.cba_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23043,7 +23044,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_pop_tot:per_sa_fw.cov_pop_tot} - Coverage (%) - Subsidies}{marker sourceid_per_sa_fw.cov_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_pop_tot:per_sa_fw.cov_pop_tot} - Coverage (%) - Subsidies -urban}{marker sourceid_per_sa_fw.cov_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23121,7 +23122,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_preT_tot:per_sa_fw.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.cov_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_preT_tot:per_sa_fw.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.cov_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23134,7 +23135,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_rur:per_sa_fw.cov_q2_rur} - Coverage in 2nd quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.cov_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_rur:per_sa_fw.cov_q2_rur} - Coverage in 2nd quintile (%) - Subsidies}{marker sourceid_per_sa_fw.cov_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23147,7 +23148,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_tot:per_sa_fw.cov_q2_tot} - Coverage in 2nd quintile (%) - Subsidies}{marker sourceid_per_sa_fw.cov_q2_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_tot:per_sa_fw.cov_q2_tot} - Coverage in 2nd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.cov_q2_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23160,7 +23161,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_urb:per_sa_fw.cov_q2_urb} - Coverage in 2nd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.cov_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q2_urb:per_sa_fw.cov_q2_urb} - Coverage in 3rd quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.cov_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23199,7 +23200,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q3_tot:per_sa_fw.cov_q3_tot} - Coverage in 3rd quintile (%) - Subsidies}{marker sourceid_per_sa_fw.cov_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q3_tot:per_sa_fw.cov_q3_tot} - Coverage in 3rd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.cov_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23212,7 +23213,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q3_urb:per_sa_fw.cov_q3_urb} - Coverage in 3rd quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.cov_q3_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q3_urb:per_sa_fw.cov_q3_urb} - Coverage in 4th quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.cov_q3_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23264,7 +23265,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q4_urb:per_sa_fw.cov_q4_urb} - Coverage in richest quintile (%) - Subsidies (preT)}{marker sourceid_per_sa_fw.cov_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q4_urb:per_sa_fw.cov_q4_urb} - Coverage in 4th quintile (%) - Subsidies -urban}{marker sourceid_per_sa_fw.cov_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23290,7 +23291,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q5_rur:per_sa_fw.cov_q5_rur} - Coverage in richest quintile (%) - Subsidies}{marker sourceid_per_sa_fw.cov_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw.cov_q5_rur:per_sa_fw.cov_q5_rur} - Coverage in richest quintile (%) - Subsidies -rural}{marker sourceid_per_sa_fw.cov_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23342,7 +23343,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw_gini_rur:per_sa_fw_gini_rur} - Gini inequality reduction (%) -  Subsidies -poorest quintile -rural}{marker sourceid_per_sa_fw_gini_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw_gini_rur:per_sa_fw_gini_rur} - Gini inequality reduction (%) -  Subsidies -poorest quintile}{marker sourceid_per_sa_fw_gini_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23381,7 +23382,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw_p0_ep_preT_tot:per_sa_fw_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_sa_fw_p0_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw_p0_ep_preT_tot:per_sa_fw_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_fw_p0_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23407,7 +23408,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw_p0_preT_tot:per_sa_fw_p0_preT_tot} - Poverty Headcount reduction (%) -  Subsidies -poorest quintile -rural}{marker sourceid_per_sa_fw_p0_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw_p0_preT_tot:per_sa_fw_p0_preT_tot} - Poverty Headcount reduction (%) -  Subsidies -poorest quintile (preT)}{marker sourceid_per_sa_fw_p0_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23459,7 +23460,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw_p1_ep_preT_tot:per_sa_fw_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_sa_fw_p1_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw_p1_ep_preT_tot:per_sa_fw_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_fw_p1_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -23472,7 +23473,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_fw_p1_ep_tot:per_sa_fw_p1_ep_tot} - Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_fw_p1_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_fw_p1_ep_tot:per_sa_fw_p1_ep_tot} - Poverty Gap reduction (%) -  Subsidies -poorest quintile (preT)}{marker sourceid_per_sa_fw_p1_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25422,7 +25423,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_ep_tot:per_sa_os.adq_ep_tot} - Adequacy of benefits (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.adq_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_ep_tot:per_sa_os.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance}{marker sourceid_per_sa_os.adq_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25526,7 +25527,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q1_urb:per_sa_os.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.adq_q1_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q1_urb:per_sa_os.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.adq_q1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25565,7 +25566,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q2_tot:per_sa_os.adq_q2_tot} - Adequacy of benefits in 2nd quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.adq_q2_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q2_tot:per_sa_os.adq_q2_tot} - Adequacy of benefits in 2nd quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.adq_q2_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25591,7 +25592,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q3_preT_tot:per_sa_os.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.adq_q3_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q3_preT_tot:per_sa_os.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.adq_q3_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25656,7 +25657,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q4_rur:per_sa_os.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.adq_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q4_rur:per_sa_os.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.adq_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25708,7 +25709,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q5_rur:per_sa_os.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.adq_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.adq_q5_rur:per_sa_os.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.adq_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25760,7 +25761,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_ep_tot:per_sa_os.avt_ep_tot} - Average per capita transfer - Other Social Assistance (preT)}{marker sourceid_per_sa_os.avt_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_ep_tot:per_sa_os.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance}{marker sourceid_per_sa_os.avt_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25786,7 +25787,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_pop_rur:per_sa_os.avt_pop_rur} - Average per capita transfer - Other Social Assistance -rural}{marker sourceid_per_sa_os.avt_pop_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_pop_rur:per_sa_os.avt_pop_rur} - Average per capita transfer - Other Social Assistance}{marker sourceid_per_sa_os.avt_pop_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25799,7 +25800,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_pop_tot:per_sa_os.avt_pop_tot} - Average per capita transfer - Other Social Assistance -urban}{marker sourceid_per_sa_os.avt_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_pop_tot:per_sa_os.avt_pop_tot} - Average per capita transfer - Other Social Assistance}{marker sourceid_per_sa_os.avt_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -25994,7 +25995,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_q4_rur:per_sa_os.avt_q4_rur} - Average per capita transfer held by 4th quintile - Other Social Assistance}{marker sourceid_per_sa_os.avt_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_q4_rur:per_sa_os.avt_q4_rur} - Average per capita transfer held by 4th quintile - Other Social Assistance -rural}{marker sourceid_per_sa_os.avt_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26059,7 +26060,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_q5_tot:per_sa_os.avt_q5_tot} - Average per capita transfer held by richest quintile - Other Social Assistance}{marker sourceid_per_sa_os.avt_q5_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.avt_q5_tot:per_sa_os.avt_q5_tot} - Average per capita transfer held by richest quintile - Other Social Assistance -urban}{marker sourceid_per_sa_os.avt_q5_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26176,7 +26177,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q2_rur:per_sa_os.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.ben_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q2_rur:per_sa_os.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.ben_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26306,7 +26307,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q4_urb:per_sa_os.ben_q4_urb} - Benefits incidence in richest quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.ben_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q4_urb:per_sa_os.ben_q4_urb} - Benefits incidence in 4th quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.ben_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26345,7 +26346,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q5_tot:per_sa_os.ben_q5_tot} - Benefits incidence in richest quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.ben_q5_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q5_tot:per_sa_os.ben_q5_tot} - Benefits incidence in richest quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.ben_q5_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26358,7 +26359,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q5_urb:per_sa_os.ben_q5_urb} - Benefits incidence in richest quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.ben_q5_urb}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.ben_q5_urb:per_sa_os.ben_q5_urb} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.ben_q5_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26501,7 +26502,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.bry_q3_preT_tot:per_sa_os.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.bry_q3_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.bry_q3_preT_tot:per_sa_os.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.bry_q3_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26514,7 +26515,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.bry_q3_rur:per_sa_os.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.bry_q3_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.bry_q3_rur:per_sa_os.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.bry_q3_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26553,7 +26554,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.bry_q4_preT_tot:per_sa_os.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.bry_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.bry_q4_preT_tot:per_sa_os.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.bry_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26670,7 +26671,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cba_ep_tot:per_sa_os.cba_ep_tot} - Benefit-cost ratio -  Other Social Assistance -poorest quintile (preT)}{marker sourceid_per_sa_os.cba_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cba_ep_tot:per_sa_os.cba_ep_tot} - Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_os.cba_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26696,7 +26697,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cba_q1_rur:per_sa_os.cba_q1_rur} - Benefit-cost ratio -  Other Social Assistance -poorest quintile -rural}{marker sourceid_per_sa_os.cba_q1_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cba_q1_rur:per_sa_os.cba_q1_rur} - Benefit-cost ratio -  Other Social Assistance -poorest quintile}{marker sourceid_per_sa_os.cba_q1_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26735,7 +26736,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_ep_preT_tot:per_sa_os.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.cov_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_ep_preT_tot:per_sa_os.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance}{marker sourceid_per_sa_os.cov_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26813,7 +26814,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q1_preT_tot:per_sa_os.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.cov_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q1_preT_tot:per_sa_os.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.cov_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26839,7 +26840,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q1_tot:per_sa_os.cov_q1_tot} - Coverage in poorest quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.cov_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q1_tot:per_sa_os.cov_q1_tot} - Coverage in poorest quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.cov_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26865,7 +26866,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q2_preT_tot:per_sa_os.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Other Social Assistance (preT)}{marker sourceid_per_sa_os.cov_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q2_preT_tot:per_sa_os.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Other Social Assistance -rural}{marker sourceid_per_sa_os.cov_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26943,7 +26944,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q3_tot:per_sa_os.cov_q3_tot} - Coverage in 3rd quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.cov_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q3_tot:per_sa_os.cov_q3_tot} - Coverage in 3rd quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.cov_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -26995,7 +26996,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q4_tot:per_sa_os.cov_q4_tot} - Coverage in 4th quintile (%) - Other Social Assistance -urban}{marker sourceid_per_sa_os.cov_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os.cov_q4_tot:per_sa_os.cov_q4_tot} - Coverage in 4th quintile (%) - Other Social Assistance}{marker sourceid_per_sa_os.cov_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -27125,7 +27126,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os_p0_ep_preT_tot:per_sa_os_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_sa_os_p0_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_sa_os_p0_ep_preT_tot:per_sa_os_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_sa_os_p0_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -27164,7 +27165,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_sa_os_p0_rur:per_sa_os_p0_rur} - Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile -rural}{marker sourceid_per_sa_os_p0_rur}
+{dlgtab: {help wbopendata_sourceid##per_sa_os_p0_rur:per_sa_os_p0_rur} - Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile}{marker sourceid_per_sa_os_p0_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -34932,20 +34933,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_ep_tot:per_si_cp.adq_ep_tot} - Adequacy of benefits (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.adq_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_ep_tot:per_si_cp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions}{marker sourceid_per_si_cp.adq_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -34958,7 +34959,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -34971,7 +34972,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -34984,7 +34985,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -34997,7 +34998,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35010,7 +35011,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35023,20 +35024,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q1_tot:per_si_cp.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.adq_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q1_tot:per_si_cp.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Contributory Pensions -urban}{marker sourceid_per_si_cp.adq_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35049,7 +35050,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35062,7 +35063,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35075,7 +35076,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35088,7 +35089,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35101,7 +35102,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35114,7 +35115,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35127,7 +35128,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35140,7 +35141,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35153,85 +35154,85 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_preT_tot:per_si_cp.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.adq_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_preT_tot:per_si_cp.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.adq_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_rur:per_si_cp.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.adq_q4_rur}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_rur:per_si_cp.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.adq_q4_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_tot:per_si_cp.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.adq_q4_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_tot:per_si_cp.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions -urban}{marker sourceid_per_si_cp.adq_q4_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_urb:per_si_cp.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.adq_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q4_urb:per_si_cp.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions -urban}{marker sourceid_per_si_cp.adq_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q5_preT_tot:per_si_cp.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.adq_q5_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q5_preT_tot:per_si_cp.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.adq_q5_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q5_rur:per_si_cp.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.adq_q5_rur}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.adq_q5_rur:per_si_cp.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.adq_q5_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35244,7 +35245,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35257,7 +35258,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35270,7 +35271,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35283,20 +35284,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_pop_preT_tot:per_si_cp.avt_pop_preT_tot} - Average per capita transfer - Contributory Pensions (preT)}{marker sourceid_per_si_cp.avt_pop_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_pop_preT_tot:per_si_cp.avt_pop_preT_tot} - Average per capita transfer - Contributory Pensions -rural}{marker sourceid_per_si_cp.avt_pop_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35309,20 +35310,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_pop_tot:per_si_cp.avt_pop_tot} - Average per capita transfer - Contributory Pensions}{marker sourceid_per_si_cp.avt_pop_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_pop_tot:per_si_cp.avt_pop_tot} - Average per capita transfer - Contributory Pensions -urban}{marker sourceid_per_si_cp.avt_pop_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35335,7 +35336,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35348,20 +35349,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q1_rur:per_si_cp.avt_q1_rur} - Average per capita transfer held by poorest quintile - Contributory Pensions -rural}{marker sourceid_per_si_cp.avt_q1_rur}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q1_rur:per_si_cp.avt_q1_rur} - Average per capita transfer held by poorest quintile - Contributory Pensions}{marker sourceid_per_si_cp.avt_q1_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35374,7 +35375,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35387,7 +35388,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35400,7 +35401,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35413,7 +35414,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35426,7 +35427,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35439,7 +35440,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35452,33 +35453,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q3_rur:per_si_cp.avt_q3_rur} - Average per capita transfer held by 3rd quintile - Contributory Pensions -rural}{marker sourceid_per_si_cp.avt_q3_rur}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q3_rur:per_si_cp.avt_q3_rur} - Average per capita transfer held by 3rd quintile - Contributory Pensions}{marker sourceid_per_si_cp.avt_q3_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q3_tot:per_si_cp.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Contributory Pensions -urban}{marker sourceid_per_si_cp.avt_q3_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q3_tot:per_si_cp.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Contributory Pensions}{marker sourceid_per_si_cp.avt_q3_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35491,7 +35492,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35504,7 +35505,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35517,7 +35518,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35530,20 +35531,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q4_urb:per_si_cp.avt_q4_urb} - Average per capita transfer held by richest quintile - Contributory Pensions (preT)}{marker sourceid_per_si_cp.avt_q4_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q4_urb:per_si_cp.avt_q4_urb} - Average per capita transfer held by 4th quintile - Contributory Pensions -urban}{marker sourceid_per_si_cp.avt_q4_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35556,7 +35557,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35569,7 +35570,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35582,20 +35583,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q5_urb:per_si_cp.avt_q5_urb} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT)}{marker sourceid_per_si_cp.avt_q5_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.avt_q5_urb:per_si_cp.avt_q5_urb} - Average per capita transfer held by richest quintile - Contributory Pensions -urban}{marker sourceid_per_si_cp.avt_q5_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35608,7 +35609,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35621,7 +35622,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35634,7 +35635,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35647,7 +35648,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35660,7 +35661,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35673,7 +35674,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35686,20 +35687,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.ben_q2_rur:per_si_cp.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.ben_q2_rur}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.ben_q2_rur:per_si_cp.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.ben_q2_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35712,7 +35713,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35725,7 +35726,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35738,7 +35739,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35751,7 +35752,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35764,33 +35765,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.ben_q3_urb:per_si_cp.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - Contributory Pensions -urban}{marker sourceid_per_si_cp.ben_q3_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.ben_q3_urb:per_si_cp.ben_q3_urb} - Benefits incidence in 4th quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.ben_q3_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.ben_q4_preT_tot:per_si_cp.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.ben_q4_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.ben_q4_preT_tot:per_si_cp.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.ben_q4_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35803,7 +35804,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35816,7 +35817,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35829,7 +35830,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35842,7 +35843,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35855,7 +35856,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35868,7 +35869,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35881,7 +35882,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35894,20 +35895,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_ep_tot:per_si_cp.bry_ep_tot} - Beneficiary incidence in poorest quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.bry_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_ep_tot:per_si_cp.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions}{marker sourceid_per_si_cp.bry_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35920,33 +35921,33 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q1_rur:per_si_cp.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.bry_q1_rur}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q1_rur:per_si_cp.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.bry_q1_rur}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q1_tot:per_si_cp.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - Contributory Pensions}{marker sourceid_per_si_cp.bry_q1_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q1_tot:per_si_cp.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - Contributory Pensions -urban}{marker sourceid_per_si_cp.bry_q1_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35959,7 +35960,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35972,7 +35973,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35985,7 +35986,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -35998,7 +35999,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36011,20 +36012,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q3_preT_tot:per_si_cp.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.bry_q3_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q3_preT_tot:per_si_cp.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.bry_q3_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36037,7 +36038,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36050,7 +36051,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36063,7 +36064,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36076,7 +36077,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36089,7 +36090,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36102,7 +36103,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36115,7 +36116,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36128,7 +36129,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: http://www.oeaw.ac.at/vid/dataexplorer/.{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
+
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##per_si_cp.bry_q5_rur:per_si_cp.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.bry_q5_rur}
+
+
+{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number of students belonging to a school-cohort who reached each successive grade of lower secondary education by the number of students in the school-cohort i.e. those originally enrolled in the first grade of lower secondary education, and multiply the result by 100. The survival rate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years..{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE).{p_end}
 
@@ -36160,7 +36174,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.cba_ep_preT_tot:per_si_cp.cba_ep_preT_tot} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_si_cp.cba_ep_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.cba_ep_preT_tot:per_si_cp.cba_ep_preT_tot} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_si_cp.cba_ep_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36186,7 +36200,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.cba_q1_preT_tot:per_si_cp.cba_q1_preT_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile (preT)}{marker sourceid_per_si_cp.cba_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.cba_q1_preT_tot:per_si_cp.cba_q1_preT_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile -rural}{marker sourceid_per_si_cp.cba_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36316,7 +36330,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.cov_q1_preT_tot:per_si_cp.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.cov_q1_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.cov_q1_preT_tot:per_si_cp.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.cov_q1_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36368,7 +36382,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.cov_q2_preT_tot:per_si_cp.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.cov_q2_preT_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.cov_q2_preT_tot:per_si_cp.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Contributory Pensions -rural}{marker sourceid_per_si_cp.cov_q2_preT_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36407,7 +36421,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp.cov_q2_urb:per_si_cp.cov_q2_urb} - Coverage in 3rd quintile (%) - Contributory Pensions (preT)}{marker sourceid_per_si_cp.cov_q2_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp.cov_q2_urb:per_si_cp.cov_q2_urb} - Coverage in 2nd quintile (%) - Contributory Pensions -urban}{marker sourceid_per_si_cp.cov_q2_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36693,7 +36707,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp_p0_urb:per_si_cp_p0_urb} - Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT)}{marker sourceid_per_si_cp_p0_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp_p0_urb:per_si_cp_p0_urb} - Poverty Headcount reduction (%) -  Contributory Pensions - poorest quintile -urban}{marker sourceid_per_si_cp_p0_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36719,7 +36733,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp_p1_ep_tot:per_si_cp_p1_ep_tot} - Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day)}{marker sourceid_per_si_cp_p1_ep_tot}
+{dlgtab: {help wbopendata_sourceid##per_si_cp_p1_ep_tot:per_si_cp_p1_ep_tot} - Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile (preT)}{marker sourceid_per_si_cp_p1_ep_tot}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}
@@ -36771,7 +36785,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##per_si_cp_p1_urb:per_si_cp_p1_urb} - Poverty Gap reduction (%) -  Contributory Pensions - poorest quintile -urban}{marker sourceid_per_si_cp_p1_urb}
+{dlgtab: {help wbopendata_sourceid##per_si_cp_p1_urb:per_si_cp_p1_urb} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT)}{marker sourceid_per_si_cp_p1_urb}
 
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity.{p_end}

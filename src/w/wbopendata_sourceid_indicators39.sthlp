@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,7 +60,7 @@
 {synopthdr:39 Health Nutrition and Population Statistics by Wealth Quintile}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.MA.Q5.ZS:SG.OWN.LDNO.MA.Q5.ZS} - Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q1 (lowest)}{marker sourceid_SG.OWN.LDNO.MA.Q5.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSNO.FE.Q1.ZS:SG.OWN.HSNO.FE.Q1.ZS} - Women who do not own a house (% of women age 15-49): Q1 (lowest)}{marker sourceid_SG.OWN.HSNO.FE.Q1.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
@@ -1710,7 +1711,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.H2O.BASW.UR.Q2.ZS:SH.H2O.BASW.UR.Q2.ZS} - People using at least basic drinking water services, urban (% of urban population): Q3}{marker sourceid_SH.H2O.BASW.UR.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SH.H2O.BASW.UR.Q2.ZS:SH.H2O.BASW.UR.Q2.ZS} - People using at least basic drinking water services, urban (% of urban population): Q2}{marker sourceid_SH.H2O.BASW.UR.Q2.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
@@ -1723,7 +1724,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.H2O.BASW.UR.Q3.ZS:SH.H2O.BASW.UR.Q3.ZS} - People using at least basic drinking water services, urban (% of urban population): Q4}{marker sourceid_SH.H2O.BASW.UR.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SH.H2O.BASW.UR.Q3.ZS:SH.H2O.BASW.UR.Q3.ZS} - People using at least basic drinking water services, urban (% of urban population): Q3}{marker sourceid_SH.H2O.BASW.UR.Q3.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
@@ -3114,19 +3115,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.STA.BASS.RU.Q5.ZS:SH.STA.BASS.RU.Q5.ZS} - People using at least basic sanitation services, rural (% of rural population): Q5 (highest)}{marker sourceid_SH.STA.BASS.RU.Q5.ZS}
-
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs..{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org)..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SH.STA.BASS.UR.Q1.ZS:SH.STA.BASS.UR.Q1.ZS} - People using at least basic sanitation services, urban  (% of urban population): Q1 (lowest)}{marker sourceid_SH.STA.BASS.UR.Q1.ZS}
 
 
@@ -3504,19 +3492,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.STA.DIRH.ZS:SH.STA.DIRH.ZS} - Diarrhea prevalence (% of children under 5)}{marker sourceid_SH.STA.DIRH.ZS}
-
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Prevalence of children with fever: Percentage of children under age five years with fever in the two weeks preceding the survey..{p_end}
-
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS).{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SH.STA.FEVR.Q1.ZS:SH.STA.FEVR.Q1.ZS} - Prevalence of children with fever (% of children under 5): Q1 (lowest)}{marker sourceid_SH.STA.FEVR.Q1.ZS}
 
 
@@ -3608,7 +3583,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.STA.HYGN.Q3.ZS:SH.STA.HYGN.Q3.ZS} - People with basic handwashing facilities including soap and water (% of population): Q4}{marker sourceid_SH.STA.HYGN.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SH.STA.HYGN.Q3.ZS:SH.STA.HYGN.Q3.ZS} - People with basic handwashing facilities including soap and water (% of population): Q3}{marker sourceid_SH.STA.HYGN.Q3.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
@@ -3699,19 +3674,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.STA.HYGN.RU.Q5.ZS:SH.STA.HYGN.RU.Q5.ZS} - People with basic handwashing facilities including soap and water, rural (% of rural population): Q5 (highest)}{marker sourceid_SH.STA.HYGN.RU.Q5.ZS}
-
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents..{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org)..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SH.STA.HYGN.UR.Q1.ZS:SH.STA.HYGN.UR.Q1.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population): Q1 (lowest)}{marker sourceid_SH.STA.HYGN.UR.Q1.ZS}
 
 
@@ -3752,19 +3714,6 @@
 
 
 {dlgtab: {help wbopendata_sourceid##SH.STA.HYGN.UR.Q4.ZS:SH.STA.HYGN.UR.Q4.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population): Q4}{marker sourceid_SH.STA.HYGN.UR.Q4.ZS}
-
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents..{p_end}
-
-{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SH.STA.HYGN.UR.Q5.ZS:SH.STA.HYGN.UR.Q5.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population): Q5 (highest)}{marker sourceid_SH.STA.HYGN.UR.Q5.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
@@ -3913,19 +3862,6 @@
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
 
 {synopt:{opt Topics}}08 Health.{p_end}
-
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
-
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS).{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SH.STA.MALR:SH.STA.MALR} - Malaria cases reported}{marker sourceid_SH.STA.MALR}
-
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD..{p_end}
 
@@ -4973,19 +4909,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SP.DYN.CONU.MDN.ZS:SP.DYN.CONU.MDN.ZS} - Contraceptive use among married women 15-49 years old, modern method (%)}{marker sourceid_SP.DYN.CONU.MDN.ZS}
-
-
-{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others..{p_end}
-
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS).{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SP.DYN.CONU.Q1.ZS:SP.DYN.CONU.Q1.ZS} - Current use of contraception (any method) (% of married women): Q1 (lowest)}{marker sourceid_SP.DYN.CONU.Q1.ZS}
 
 
@@ -5311,7 +5234,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SP.REG.BRTH.Q1.ZS:SP.REG.BRTH.Q1.ZS} - Completeness of birth registration (%): Q2}{marker sourceid_SP.REG.BRTH.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SP.REG.BRTH.Q1.ZS:SP.REG.BRTH.Q1.ZS} - Completeness of birth registration (%): Q1 (lowest)}{marker sourceid_SP.REG.BRTH.Q1.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
@@ -5351,6 +5274,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##SP.REG.BRTH.Q4.ZS:SP.REG.BRTH.Q4.ZS} - Completeness of birth registration (%): Q4}{marker sourceid_SP.REG.BRTH.Q4.ZS}
+
+
+{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered..{p_end}
+
+{synopt:{opt Source Organization}}UNICEF global databases, based on DHS, MICS, other national household surveys, censuses and vital registration systems..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SP.REG.BRTH.Q5.ZS:SP.REG.BRTH.Q5.ZS} - Completeness of birth registration (%): Q5 (highest)}{marker sourceid_SP.REG.BRTH.Q5.ZS}
 
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile.{p_end}

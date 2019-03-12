@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -930,7 +931,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GFDD.DM.14:GFDD.DM.14} - Syndicated loan average maturity (years)}{marker sourceid_GFDD.DM.14}
+{dlgtab: {help wbopendata_sourceid##GFDD.DM.14:GFDD.DM.14} - Corporate bond average maturity (years)}{marker sourceid_GFDD.DM.14}
 
 
 {synopt:{opt Source}}32 Global Financial Development.{p_end}
@@ -1099,7 +1100,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GFDD.OE.01:GFDD.OE.01} - Consumer price index (2010=100, average)}{marker sourceid_GFDD.OE.01}
+{dlgtab: {help wbopendata_sourceid##GFDD.OE.01:GFDD.OE.01} - Consumer price index (2010=100, December)}{marker sourceid_GFDD.OE.01}
 
 
 {synopt:{opt Source}}32 Global Financial Development.{p_end}
@@ -1119,9 +1120,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for three largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 3 or more. Calculated from underlying bank-by-bank unconsolidated data from Bankscope..{p_end}
+{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used..{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD).{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
 
 
 
@@ -1499,6 +1500,19 @@
 {synopt:{opt Source Notes}}Stock price volatility is the average of the 360-day volatility of the national stock market index..{p_end}
 
 {synopt:{opt Source Organization}}Bloomberg.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##fin42.t.a.4:fin42.t.a.4} - Received payments for agricultural products in the past year, older adults  (% age 25+)}{marker sourceid_fin42.t.a.4}
+
+
+{synopt:{opt Source}}32 Global Financial Development.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Percentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners..{p_end}
+
+{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10.{p_end}
 
 
 

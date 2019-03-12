@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,6 +60,19 @@
 {synopthdr:57 WDI Database Archives}
 {synoptline}
 
+{dlgtab: {help wbopendata_sourceid##AG.AID.NCREL.MT:AG.AID.NCREL.MT} - Non-cereal food aid deliveries (FAO, tonnes)}{marker sourceid_AG.AID.NCREL.MT}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. Fertilizer products cover nitrogenous, potash, and phosphate fertilizers (including ground rock phosphate). Traditional nutrients--animal and plant manures--are not included. For the purpose of data dissemination, FAO has adopted the concept of a calendar year (January to December). Some countries compile fertilizer data on a calendar year basis, while others are on a split-year basis..{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##AG.CON.FERT.MT:AG.CON.FERT.MT} - Fertilizer consumption (metric tons)}{marker sourceid_AG.CON.FERT.MT}
 
 
@@ -67,6 +81,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. Fertilizer products cover nitrogenous, potash, and phosphate fertilizers (including ground rock phosphate). Traditional nutrients--animal and plant manures--are not included. For the purpose of data dissemination, FAO has adopted the concept of a calendar year (January to December). Some countries compile fertilizer data on a calendar year basis, while others are on a split-year basis..{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##AG.CON.PEST.MT:AG.CON.PEST.MT} - Pesticide consumption (metric tons)}{marker sourceid_AG.CON.PEST.MT}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Producer prices are prices received by farmers for primary agricultural products as defined in the SNA 93.  The producer's price is the amount receivable by the producer from the purchaser for a unit of a good or service produced as output minus any VAT,.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
 
@@ -85,33 +112,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##AG.LND.IRIG.HA:AG.LND.IRIG.HA} - Land use, irrigated land (hectares)}{marker sourceid_AG.LND.IRIG.HA}
+{dlgtab: {help wbopendata_sourceid##AG.IMP.CREL.MT:AG.IMP.CREL.MT} - Cereal imports (metric tons)}{marker sourceid_AG.IMP.CREL.MT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Agricultural area irrigated, part of the full or partial control irrigated agricultural land which is actually irrigated in a given year. Often, part of the equipped area is not irrigated for various reasons, such as lack of water, absence of farmers, land degradation, damage, organisational problems etc..{p_end}
+{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded. Land under permanent crops is land cultivated with crops that occupy the land for long periods and need not be replanted after each harvest, such as cocoa, coffee, and rubber. This category includes land under flowering shrubs, fruit trees, nut trees, and vines, but excludes land under trees grown for wood or timber. Permanent pasture is land used for five or more years for forage, including natural and cultivated crops..{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##AG.LND.IRIG.ZS:AG.LND.IRIG.ZS} - Irrigated land (% of cropland)}{marker sourceid_AG.LND.IRIG.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Land under millet production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded..{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##AG.LND.OTHR.ZS:AG.LND.OTHR.ZS} - Arable land (hectares per person)}{marker sourceid_AG.LND.OTHR.ZS}
+{dlgtab: {help wbopendata_sourceid##AG.LND.OTHR.ZS:AG.LND.OTHR.ZS} - Land use, other (% of land area)}{marker sourceid_AG.LND.OTHR.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -137,7 +151,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##AG.PRD.RICE.MT:AG.PRD.RICE.MT} - Rice production (metric tons)}{marker sourceid_AG.PRD.RICE.MT}
+{dlgtab: {help wbopendata_sourceid##AG.PRD.RTTB.MT:AG.PRD.RTTB.MT} - Roots and tubers production (metric tons)}{marker sourceid_AG.PRD.RTTB.MT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -163,20 +177,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##AG.YLD.WHT.KG:AG.YLD.WHT.KG} - Wheat yield (kg per hectare)}{marker sourceid_AG.YLD.WHT.KG}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs.{p_end}
-
-{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##BG.KAC.FNEI.GD.PP.ZS:BG.KAC.FNEI.GD.PP.ZS} - Gross private capital flows (% of GDP, PPP)}{marker sourceid_BG.KAC.FNEI.GD.PP.ZS}
+{dlgtab: {help wbopendata_sourceid##BG.KAC.FNEI.GD.PP.ZS:BG.KAC.FNEI.GD.PP.ZS} - Gross private capital flows (% of GDP)}{marker sourceid_BG.KAC.FNEI.GD.PP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -189,7 +190,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BG.KAC.FNEI.GD.ZS:BG.KAC.FNEI.GD.ZS} - Gross private capital flows (% of GDP)}{marker sourceid_BG.KAC.FNEI.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##BG.KAC.FNEI.GD.ZS:BG.KAC.FNEI.GD.ZS} - Gross foreign direct investment (% of GDP, PPP)}{marker sourceid_BG.KAC.FNEI.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -212,6 +213,32 @@
 {synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.  Data are in US$..{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##BG.KLT.DINV.GD.ZS:BG.KLT.DINV.GD.ZS} - Gross foreign direct investment (% of GDP)}{marker sourceid_BG.KLT.DINV.GD.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.  Data are in US$..{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##BM.GSR.FINS.CD:BM.GSR.FINS.CD} - Financial services, imports (BoP, current US$)}{marker sourceid_BM.GSR.FINS.CD}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Other income payments..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
 
 
 
@@ -241,16 +268,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BM.GSR.TRVL.CD:BM.GSR.TRVL.CD} - Travel services, imports (BoP, current US$)}{marker sourceid_BM.GSR.TRVL.CD}
+{dlgtab: {help wbopendata_sourceid##BM.GSR.TRAN.CD:BM.GSR.TRAN.CD} - Transport services, imports (BoP, current US$)}{marker sourceid_BM.GSR.TRAN.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the economy being visited and provided by a resident of that economy), but excludes international transport (which is included in passenger transport. Travel also excludes goods for resale, which are included in general merchandise..{p_end}
+{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of goods (freight), rental of carriers with crew, and related support and auxiliary services. Also included are postal and courier services. Excluded are freight insurance (included in insurance services); goods procured in ports by nonresident carriers (included in goods); maintenance and repairs on transport equipment (included in maintenance and repair services n.i.e.); and repairs of railway facilities, harbors, and airfield facilities (included in construction)..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##BM.KLT.DINV.GD.ZS:BM.KLT.DINV.GD.ZS} - Foreign direct investment, net outflows (% of GDP)}{marker sourceid_BM.KLT.DINV.GD.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in an economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a resident in one economy having control or a significant degree of influence on the management of an enterprise that is resident in another economy. Ownership of 10 percent or more of the ordinary shares of voting stock is the criterion for determining the existence of a direct investment relationship. This series shows net outflows of investment from the reporting economy to the rest of the world, and is divided by GDP..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources..{p_end}
 
 
 
@@ -319,6 +359,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##BN.CAB.XOKA.GDP.ZS:BN.CAB.XOKA.GDP.ZS} - Current account balance (% of GDP)}{marker sourceid_BN.CAB.XOKA.GDP.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods, services, net income, and net current transfers. Data are in current U.S. dollars.  Data are divided by GNP at market prices in U.S. dollars to facilitate comparison across economies..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##BN.CAB.XOTR.CD:BN.CAB.XOTR.CD} - Current Acc. Bal. before Off. Transf.(US$, BoP)}{marker sourceid_BN.CAB.XOTR.CD}
 
 
@@ -358,16 +411,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BN.CUR.ACTX.CD:BN.CUR.ACTX.CD} - Total Deficit to be Financed (US$, BoP)}{marker sourceid_BN.CUR.ACTX.CD}
+{dlgtab: {help wbopendata_sourceid##BN.KAP.RSDL.CD:BN.KAP.RSDL.CD} - Other Capital Inflows (net) (US$, BoP)}{marker sourceid_BN.KAP.RSDL.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods, services, net income, and net current transfers.  This is divided by GDP at market prices, with both series expressed in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments. This series shows total net FDI. In BPM6, financial account balances are calculated as the change in assets minus the change in liabilities. Net FDI outflows are assets and net FDI inflows are liabilities. Data are in current U.S. dollars..{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
 
 
 
@@ -384,33 +437,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BN.KLT.DINV.CD.ZS:BN.KLT.DINV.CD.ZS} - Foreign direct investment (% of GDP)}{marker sourceid_BN.KLT.DINV.CD.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net long-term borrowing includes external debt disbursements less repayments due, plus other net long-term inflows. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##BN.KLT.DINV.DRS.GDI.ZS:BN.KLT.DINV.DRS.GDI.ZS} - Foreign direct investment, net inflows (% of GDI)}{marker sourceid_BN.KLT.DINV.DRS.GDI.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net long-term borrowing includes external debt disbursements less repayments due, plus other net long-term inflows. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##BN.KLT.DINV.DRS.GDP.ZS:BN.KLT.DINV.DRS.GDP.ZS} - Foreign direct investment, net inflows (% of GDP)}{marker sourceid_BN.KLT.DINV.DRS.GDP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -436,16 +463,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BN.KLT.OINV.CD:BN.KLT.OINV.CD} - Other net investment (BoP, US$)}{marker sourceid_BN.KLT.OINV.CD}
+{dlgtab: {help wbopendata_sourceid##BN.KLT.PRVT.CD.DT:BN.KLT.PRVT.CD.DT} - Private capital flows, net total (DRS, current US$)}{marker sourceid_BN.KLT.PRVT.CD.DT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Other long-term capital comprises the difference between long-term capital, as defined for total long-term capital: excluding reserves and LCFAR, and the similar item reported in IMF balance of payments statistics. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Private capital flows consist of net foreign direct investment and portfolio investment. Foreign direct investment is net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments. The FDI included here is total net, that is, net FDI in the reporting economy from foreign sources less net FDI by the reporting economy to the rest of the world. Portfolio investment covers transactions in equity securities and debt securities..{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files, and World Bank and OECD GDP estimates..{p_end}
 
 
 
@@ -527,6 +554,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##BN.TRF.OFDC.CD:BN.TRF.OFDC.CD} - Official current transfers, net (BoP, current US$)}{marker sourceid_BN.TRF.OFDC.CD}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Current transfers are recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. Data are in current U.S. dollars..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##BN.TRF.OFFK.CD:BN.TRF.OFFK.CD} - Net Official Capital Grants (US$, BoP)}{marker sourceid_BN.TRF.OFFK.CD}
 
 
@@ -540,7 +580,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BN.TRF.OFFN.CD:BN.TRF.OFFN.CD} - Official Transfers, net (US$, BoP)}{marker sourceid_BN.TRF.OFFN.CD}
+{dlgtab: {help wbopendata_sourceid##BN.TRF.OFFN.CD:BN.TRF.OFFN.CD} - Official Transfers (net) (US$, BoP)}{marker sourceid_BN.TRF.OFFN.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -553,7 +593,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BN.TRF.PWKR.CD:BN.TRF.PWKR.CD} - Workers' remittances, net (BoP, current US$)}{marker sourceid_BN.TRF.PWKR.CD}
+{dlgtab: {help wbopendata_sourceid##BN.TRF.PWKR.CD.DT:BN.TRF.PWKR.CD.DT} - Personal remittances, net (current US$)}{marker sourceid_BN.TRF.PWKR.CD.DT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -566,7 +606,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BN.TRF.PWKR.CD.DT:BN.TRF.PWKR.CD.DT} - Personal remittances, net (current US$)}{marker sourceid_BN.TRF.PWKR.CD.DT}
+{dlgtab: {help wbopendata_sourceid##BN.TRF.XOKA.CD:BN.TRF.XOKA.CD} - Private current transfers, net (BoP, US$)}{marker sourceid_BN.TRF.XOKA.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -592,14 +632,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BX.GSR.FINS.CD:BX.GSR.FINS.CD} - Financial services, exports (BoP, current US$)}{marker sourceid_BX.GSR.FINS.CD}
+{dlgtab: {help wbopendata_sourceid##BX.GSR.INSU.CD:BX.GSR.INSU.CD} - Insurance services, exports (BoP, current US$)}{marker sourceid_BX.GSR.INSU.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, nonmonetary gold, and services. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Goods exports refer to all movable goods (including nonmonetary gold and net exports of goods under merchanting) involved in a change of ownership from residents to nonresidents. Data are in current U.S. dollars..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
 
@@ -631,6 +671,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##BX.GSR.TRAN.CD:BX.GSR.TRAN.CD} - Transport services, exports (BoP, current US$)}{marker sourceid_BX.GSR.TRAN.CD}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of goods (freight), rental of carriers with crew, and related support and auxiliary services. Also included are postal and courier services. Excluded are freight insurance (included in insurance services); goods procured in ports by nonresident carriers (included in goods); maintenance and repairs on transport equipment (included in maintenance and repair services n.i.e.); and repairs of railway facilities, harbors, and airfield facilities (included in construction)..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##BX.GSR.TRVL.CD:BX.GSR.TRVL.CD} - Travel services, exports (BoP, current US$)}{marker sourceid_BX.GSR.TRVL.CD}
 
 
@@ -644,7 +697,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##BX.KLT.DINV.DT.GD.ZS:BX.KLT.DINV.DT.GD.ZS} - Foreign direct investment, net inflows (% of GDP)}{marker sourceid_BX.KLT.DINV.DT.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##BX.KLT.DINV.DT.GD.ZS:BX.KLT.DINV.DT.GD.ZS} - Foreign direct investment, net inflows (% of gross capital formation)}{marker sourceid_BX.KLT.DINV.DT.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -722,6 +775,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##DAK.VILG.CR:DAK.VILG.CR} - Central Government External Debt (US$)}{marker sourceid_DAK.VILG.CR}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars..{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##DB.DOD.DLXF.CD:DB.DOD.DLXF.CD} - Central Government External Debt (US$)}{marker sourceid_DB.DOD.DLXF.CD}
 
 
@@ -735,20 +801,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DC.AID.TOTL.CD:DC.AID.TOTL.CD} - Official aid provided to part II countries (current US$)}{marker sourceid_DC.AID.TOTL.CD}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DE.DOD.DLXF.CD:DE.DOD.DLXF.CD} - Non-financial Pub. Enterprises Ext. Debt (US$)}{marker sourceid_DE.DOD.DLXF.CD}
+{dlgtab: {help wbopendata_sourceid##DE.DOD.DLXF.CD:DE.DOD.DLXF.CD} - Pub. LT Debt, IBRD&amp;IDA (US$, IBRD DRS - end of year)}{marker sourceid_DE.DOD.DLXF.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -800,7 +853,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DG.DOD.TOTL.CD:DG.DOD.TOTL.CD} - Public/Pub. Guar. Long-Term Debt(US$, IBRD DRS)}{marker sourceid_DG.DOD.TOTL.CD}
+{dlgtab: {help wbopendata_sourceid##DG.DOD.TOTL.CD:DG.DOD.TOTL.CD} - Use of Fund Credit (US$, end of year)}{marker sourceid_DG.DOD.TOTL.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -826,7 +879,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DL.AMT.TOTL.CD:DL.AMT.TOTL.CD} - Repay on Long-Term Loans (US$, as per IBRD DRS)}{marker sourceid_DL.AMT.TOTL.CD}
+{dlgtab: {help wbopendata_sourceid##DL.AMT.TOTL.CD:DL.AMT.TOTL.CD} - Disb. of Long-Term Loans (US$, as per IBRD DRS)}{marker sourceid_DL.AMT.TOTL.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -969,7 +1022,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.PS.CD:DP.DOD.DLTC.CR.PS.CD} - Priv. Sector Ext. Debt, incl. non-guarant.(US$)}{marker sourceid_DP.DOD.DLTC.CR.PS.CD}
+{dlgtab: {help wbopendata_sourceid##DN.DOD.TOTL.CD:DN.DOD.TOTL.CD} - Non-guar. Private Long-Term Debt(US$, IBRD DRS)}{marker sourceid_DN.DOD.TOTL.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -978,7 +1031,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLXF.CD:DP.DOD.DLXF.CD} - Priv. Sector Ext. Debt, incl. non-guarant.(US$)}{marker sourceid_DP.DOD.DLXF.CD}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1021,33 +1087,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DT.DOD.DLXF.CD.DC.US:DT.DOD.DLXF.CD.DC.US} - Long-Term External Debt (by debtor) (US$)}{marker sourceid_DT.DOD.DLXF.CD.DC.US}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit.{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DT.DOD.DLXF.CD.DR:DT.DOD.DLXF.CD.DR} - Long-Term External Debt (by debtor) (US$)}{marker sourceid_DT.DOD.DLXF.CD.DR}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit.{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DT.DOD.DLXF.PV.GNP.ZS:DT.DOD.DLXF.PV.GNP.ZS} - Present value of debt (% of GNP)}{marker sourceid_DT.DOD.DLXF.PV.GNP.ZS}
+{dlgtab: {help wbopendata_sourceid##DT.DOD.DLXF.PV.GNP.ZS:DT.DOD.DLXF.PV.GNP.ZS} - Present value of debt (% of exports of goods and services)}{marker sourceid_DT.DOD.DLXF.PV.GNP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1060,20 +1100,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DT.DOD.DLXF.PV.XGS.ZS:DT.DOD.DLXF.PV.XGS.ZS} - Present value of debt (% of exports of goods and services)}{marker sourceid_DT.DOD.DLXF.PV.XGS.ZS}
+{dlgtab: {help wbopendata_sourceid##DT.DOD.DPNG.ZS:DT.DOD.DPNG.ZS} - Private nonguaranteed debt (% of external debt)}{marker sourceid_DT.DOD.DPNG.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt comprises long-term external obligations of public debtors, including the national government, political subdivisions (or an agency of either), and autonomous public bodies, and external obligations of private debtors that are guaranteed for repayment by a public entity. Data are in current U.S. dollars..{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DT.DOD.DSTC.CD.DC.US:DT.DOD.DSTC.CD.DC.US} - Short-Term External Debt (US$)}{marker sourceid_DT.DOD.DSTC.CD.DC.US}
+{dlgtab: {help wbopendata_sourceid##DT.DOD.DSTC.CD.DC.US:DT.DOD.DSTC.CD.DC.US} - Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, Domestic currency, USD}{marker sourceid_DT.DOD.DSTC.CD.DC.US}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1125,19 +1165,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DT.ODA.ALLD.GDI.ZS:DT.ODA.ALLD.GDI.ZS} - Aid (% of GDI)}{marker sourceid_DT.ODA.ALLD.GDI.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Aid includes both official development assistance (ODA) and official aid. Ratios are computed using values in U.S. dollars converted at official exchange rates..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, and World Bank GCF estimates..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##DT.ODA.ALLD.HIV.MITI.CD:DT.ODA.ALLD.HIV.MITI.CD} - ODA aid disbursements for Social mitigation of HIV/AIDS, all donors (current US$)}{marker sourceid_DT.ODA.ALLD.HIV.MITI.CD}
 
 
@@ -1146,32 +1173,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. It includes loans with a grant element of at least 25 percent (calculated at a rate of discount of 10 percent). Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. Data are in constant 2013 U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DT.ODA.ALLD.IMP.ZS:DT.ODA.ALLD.IMP.ZS} - Aid (% of imports of goods and services)}{marker sourceid_DT.ODA.ALLD.IMP.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. It includes loans with a grant element of at least 25 percent (calculated at a rate of discount of 10 percent). Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. Data are in constant 2013 U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DT.ODA.ALLD.PC.ZS:DT.ODA.ALLD.PC.ZS} - Net official development assistance received per capita (current US$)}{marker sourceid_DT.ODA.ALLD.PC.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Net private aid is private transactions broken down into direct investment, portfolio investment and export credits (net). Private transactions are those undertaken by firms and individuals resident in the reporting country. Portfolio investment corresponds to bonds and equities. Inflows into emerging countries’ stocks markets, are, however, heavily understated. Accordingly, the coverage of portfolio investment differs in these regards from the coverage of bank claims, which include indistinguishably export credit lending by banks. The bank claims data represent the net change in banks’ claims after adjustment to eliminate the effect of changes in exchange rates. They are therefore a proxy for net flow data, but are not themselves a net flow figure. They differ in two further regards from other OECD data. First, they relate to loans by banks resident in countries which report quarterly to the Bank for International Settlements (BIS). Secondly, no adjustment has been made to exclude short-term claims..{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: www.oecd.org/dac/stats/idsonline..{p_end}
 
@@ -1203,19 +1204,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.IQ.US:DT.TDS.DEAE.CD.IL.IQ.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}{marker sourceid_DT.TDS.DEAE.CD.IL.IQ.US}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##DT.TDS.DECA.XP.ZS:DT.TDS.DECA.XP.ZS} - Debt service (PPG and IMF only, % of exports of goods and services)}{marker sourceid_DT.TDS.DECA.XP.ZS}
 
 
@@ -1229,7 +1217,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DT.TDS.DECT.GNP.ZS:DT.TDS.DECT.GNP.ZS} - Total debt service (% of GNP)}{marker sourceid_DT.TDS.DECT.GNP.ZS}
+{dlgtab: {help wbopendata_sourceid##DT.TDS.DECT.GNP.ZS:DT.TDS.DECT.GNP.ZS} - Total debt service ( % of exports of goods and services)}{marker sourceid_DT.TDS.DECT.GNP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1243,6 +1231,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##DT.TDS.DPPG.REV.ZS:DT.TDS.DPPG.REV.ZS} - PPG debt service (% of central government current revenue)}{marker sourceid_DT.TDS.DPPG.REV.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public debtors and long-term private obligations guaranteed by a public entity. Exports refer to exports of goods, services, and income..{p_end}
+
+{synopt:{opt Source Organization}}World Bank..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DT.TDS.DPPG.RV.ZS:DT.TDS.DPPG.RV.ZS} - PPG debt service (% of central government current revenue)}{marker sourceid_DT.TDS.DPPG.RV.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1317,19 +1318,6 @@
 {synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants..{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget).{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EC.XPD.TOTL.CR:EC.XPD.TOTL.CR} - Total Expenditure (in IDR)}{marker sourceid_EC.XPD.TOTL.CR}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants..{p_end}
-
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at www.worldbank.org/nipr). The data were updated by the World Bank's Development Research Group using the same methodology as the initial study..{p_end}
 
 
 
@@ -1411,7 +1399,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EE.BOD.TXTL.ZS:EE.BOD.TXTL.ZS} - Water pollution, textile industry (% of total BOD emissions)}{marker sourceid_EE.BOD.TXTL.ZS}
+{dlgtab: {help wbopendata_sourceid##EE.BOD.TXTL.ZS:EE.BOD.TXTL.ZS} - Water pollution, wood industry (% of total BOD emissions)}{marker sourceid_EE.BOD.TXTL.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1463,16 +1451,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EG.ELC.COAL.KH:EG.ELC.COAL.KH} - Electricity production from coal sources (kWh)}{marker sourceid_EG.ELC.COAL.KH}
+{dlgtab: {help wbopendata_sourceid##EG.ELC.HYRO.KH:EG.ELC.HYRO.KH} - Electricity production from hydroelectric sources (kWh)}{marker sourceid_EG.ELC.HYRO.KH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke oven gas, and blast furnace gas). Peat is also included in this category..{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants..{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##EG.ELC.LOSS.KH:EG.ELC.LOSS.KH} - Electric power transmission and distribution losses (kWh)}{marker sourceid_EG.ELC.LOSS.KH}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage..{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
 
 
 
@@ -1489,33 +1490,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EG.ELC.PETR.KH:EG.ELC.PETR.KH} - Electricity production from oil sources (kWh)}{marker sourceid_EG.ELC.PETR.KH}
+{dlgtab: {help wbopendata_sourceid##EG.ELC.NUCL.KH:EG.ELC.NUCL.KH} - Electricity production from nuclear sources (kWh)}{marker sourceid_EG.ELC.NUCL.KH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products..{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants..{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##EG.ELC.PROD.KH:EG.ELC.PROD.KH} - Electricity production (kWh)}{marker sourceid_EG.ELC.PROD.KH}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants..{p_end}
-
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EG.ELC.RNEW.KH:EG.ELC.RNEW.KH} - Electricity production from renewable sources (kWh)}{marker sourceid_EG.ELC.RNEW.KH}
+{dlgtab: {help wbopendata_sourceid##EG.ELC.PROD.KH:EG.ELC.PROD.KH} - Electricity production from renewable sources (kWh)}{marker sourceid_EG.ELC.PROD.KH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1529,6 +1517,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##EG.GDP.PUSE.KO.87:EG.GDP.PUSE.KO.87} - GDP per unit of energy use (1987 US$ per kg of oil equivalent)}{marker sourceid_EG.GDP.PUSE.KO.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2011 ICP round. An international dollar has the same purchasing power over GDP as a U.S. dollar has in the United States..{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##EG.GDP.PUSE.KO.KD:EG.GDP.PUSE.KO.KD} - GDP per unit of energy use (2000 US$ per kg of oil equivalent)}{marker sourceid_EG.GDP.PUSE.KO.KD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1572,7 +1573,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining.{p_end}
+{synopt:{opt Topics}}06 Environment.{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel..{p_end}
 
@@ -1580,7 +1581,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EG.USE.COMM.KT.OE:EG.USE.COMM.KT.OE} - Combustible renewables and waste (metric tons of oil equivalent)}{marker sourceid_EG.USE.COMM.KT.OE}
+{dlgtab: {help wbopendata_sourceid##EG.USE.COMM.KT.OE:EG.USE.COMM.KT.OE} - Energy use (kt of oil equivalent)}{marker sourceid_EG.USE.COMM.KT.OE}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1616,19 +1617,6 @@
 {synopt:{opt Source Notes}}Carbon dioxide emissions from cement production refer mainly to emissions during cement production. Cement production is a multi-step process and CO2 is actually released from klinker production during the cement production process. The U.S. Department of Energy’s carbon Dioxide Information Analysis Center (CDIAC) calculates annual anthropogenic emissions from data on fossil fuel consumption (from the United Nations Statistics Division’s World Energy Data Set) and world cement manufacturing (from the U.S. Bureau of Mine’s Cement Manufacturing Data Set).  Carbon dioxide emissions, often calculated and reported as elemental carbon, were converted to actual carbon dioxide mass by multiplying them by 3.664 (the ratio of the mass of carbon to that of carbon dioxide).  Although estimates of global carbon dioxide emissions are probably accurate within 10 percent (as calculated from global average file chemistry and use), country estimates may have larger error bounds.  Trends estimated from a consistent time series tend to be more accurate than individual values.  Each year the CDIAC recalculates the entire time series since 1949, incorporating recent findings and corrections.  Estimates exclude fuels supplied to ships and aircraft in international transport because of the difficulty of apportioning he fuels among benefitting countries.  The ratio of carbon dioxide per unit of energy shows carbon intensity, which is the amount of carbon dioxide emitted as a result of using one unit of energy in the process of production..{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EN.ATM.CO2E.GDP:EN.ATM.CO2E.GDP} - CO2 emissions, industrial (kg per 1987 US$ of GDP)}{marker sourceid_EN.ATM.CO2E.GDP}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source..{p_end}
-
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States..{p_end}
 
 
 
@@ -1671,20 +1659,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.ATM.NOXE.IN.KT.CE:EN.ATM.NOXE.IN.KT.CE} - Industrial nitrous oxide emissions (thousand metric tons of CO2 equivalent)}{marker sourceid_EN.ATM.NOXE.IN.KT.CE}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Industrial nitrous oxide emissions are emissions produced during the manufacturing of adipic acid and nitric acid..{p_end}
-
-{synopt:{opt Source Organization}}International Energy Agency (IEA Statistics © OECD/IEA, http://www.iea.org/stats/index.asp)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EN.ATM.NOXE.MT.CE:EN.ATM.NOXE.MT.CE} - Nitrous oxide emissions (metric tons of CO2 equivalent per capita)}{marker sourceid_EN.ATM.NOXE.MT.CE}
+{dlgtab: {help wbopendata_sourceid##EN.ATM.NOXE.MT.CE:EN.ATM.NOXE.MT.CE} - Nitrous oxide emissions (metric tons of CO2 equivalent)}{marker sourceid_EN.ATM.NOXE.MT.CE}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1697,29 +1672,42 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.ATM.PM10.MC.M3:EN.ATM.PM10.MC.M3} - PM10, country level (micrograms per cubic meter)}{marker sourceid_EN.ATM.PM10.MC.M3}
+{dlgtab: {help wbopendata_sourceid##EN.CO2.BLDG.MT:EN.CO2.BLDG.MT} - CO2 emissions from residential buildings and commercial and public services (million metric tons)}{marker sourceid_EN.CO2.BLDG.MT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas..{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions from all activities of ISIC Divisions 41, 50-52, 55, 63-67, 70-75, 80, 85, 90-93 and 99..{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016..{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.BIR.TOTL.NO:EN.BIR.TOTL.NO} - Bird species, total known}{marker sourceid_EN.BIR.TOTL.NO}
+{dlgtab: {help wbopendata_sourceid##EN.CO2.ETOT.MT:EN.CO2.ETOT.MT} - CO2 emissions from electricity and heat production, total (million metric tons)}{marker sourceid_EN.CO2.ETOT.MT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disaster risk reduction efforts that was adopted by 168 countries in 2005. Assessments of Priority 1 include four indicators that reflect the degree to which countries have prioritized disaster risk reduction and the strengthening of relevant institutions..{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, combined heat and power generation and heat plants. Main activity producers (formerly known as public utilities) are defined as those undertakings whose primary activity is to supply the public. They may be publicly or privately owned. This corresponds to IPCC Source/Sink Category 1 A 1 a. For the CO2 emissions from fuel combustion (summary) file, emissions from own on-site use of fuel in power plants (EPOWERPLT) are also included. (2) Unallocated Autoproducers which contains the emissions from the generation of electricity and/or heat by autoproducers. Autoproducers are defined as undertakings that generate electricity and/or heat, wholly or partly for their own use as an activity which supports their primary activity. They may be privately or publicly owned. In the 1996 IPCC Guidelines, these emissions would normally be distributed between industry, transport and other sectors. (3) Other Energy Industries contains emissions from fuel combusted in petroleum refineries, for the manufacture of solid fuels, coal mining, oil and gas extraction and other energy-producing industries. This corresponds to the IPCC Source/Sink Categories 1 A 1 b and 1 A 1 c. According to the 1996 IPCC Guidelines, emissions from coke inputs to blast furnaces can either be counted here or in the Industrial Processes source/sink category. Within detailed sectoral calculations, certain non-energy processes can be distinguished. In the reduction of iron in a blast furnace through the combustion of coke, the primary purpose of the coke oxidation is to produce pig iron and the emissions can be considered as an industrial process. Care must be taken not to double count these emissions in both Energy and Industrial Processes. In the IEA estimations, these emissions have been included in this category..{p_end}
 
-{synopt:{opt Source Organization}}(UNISDR, 2009-2011 Progress Reports, http://www.preventionweb.net/english/hyogo)..{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##EN.CO2.MANF.MT:EN.CO2.MANF.MT} - CO2 emissions from manufacturing industries and construction (million metric tons)}{marker sourceid_EN.CO2.MANF.MT}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category also includes emissions from industry autoproducers that generate electricity and/or heat. The IEA data are not collected in a way that allows the energy consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers). Manufacturing industries and construction also includes emissions from coke inputs into blast furnaces, which may be reported either in the transformation sector, the industry sector or the separate IPCC Source/Sink Category 2, Industrial Processes..{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
 
 
 
@@ -1731,19 +1719,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified elsewhere that are included in the IPCC Source/Sink Categories 1 A 4 and 1 A 5. In the 1996 IPCC Guidelines, the category also includes emissions from autoproducers in the commercial/residential/agricultural sectors that generate electricity and/or heat. The IEA data are not collected in a way that allows the energy consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers)..{p_end}
-
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EN.CO2.TRAN.MT:EN.CO2.TRAN.MT} - CO2 emissions from transport (million metric tons)}{marker sourceid_EN.CO2.TRAN.MT}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic navigation, road, rail and pipeline transport, and corresponds to IPCC Source/Sink Category 1 A 3. In addition, the IEA data are not collected in a way that allows the autoproducer consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers)..{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/.{p_end}
 
@@ -1762,7 +1737,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.ELC.PROD.GWH:EN.ELC.PROD.GWH} - Electric power production (million kwh)}{marker sourceid_EN.ELC.PROD.GWH}
+{dlgtab: {help wbopendata_sourceid##EN.ELC.PROD.GWH:EN.ELC.PROD.GWH} - Electric power transmission and distribution losses (% of output)}{marker sourceid_EN.ELC.PROD.GWH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1788,7 +1763,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.HPT.TOTL.NO:EN.HPT.TOTL.NO} - Plant species (higher), total known}{marker sourceid_EN.HPT.TOTL.NO}
+{dlgtab: {help wbopendata_sourceid##EN.HPT.TOTL.NO:EN.HPT.TOTL.NO} - Land use, cropland (sq km)}{marker sourceid_EN.HPT.TOTL.NO}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1801,7 +1776,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.LAND.CRP:EN.LAND.CRP} - Land use, cropland (% of land area)}{marker sourceid_EN.LAND.CRP}
+{dlgtab: {help wbopendata_sourceid##EN.LAND.CRP:EN.LAND.CRP} - Land use, cropland (sq km)}{marker sourceid_EN.LAND.CRP}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1879,7 +1854,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.LAND.TOTL:EN.LAND.TOTL} - Irrigated land (% of arable land)}{marker sourceid_EN.LAND.TOTL}
+{dlgtab: {help wbopendata_sourceid##EN.LAND.TOTL:EN.LAND.TOTL} - Land area (sq km)}{marker sourceid_EN.LAND.TOTL}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Mammal species are mammals excluding whales and porpoises. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known..{p_end}
+
+{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, and International Union for Conservation of Nature, Red List of Threatened Species..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##EN.LND.IRIG.AR.ZS:EN.LND.IRIG.AR.ZS} - Irrigated land (% of arable land)}{marker sourceid_EN.LND.IRIG.AR.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1918,20 +1906,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##EN.ROD.ACCT:EN.ROD.ACCT} - Traffic accidents}{marker sourceid_EN.ROD.ACCT}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Rural population density is the rural population divided by the arable land area. Rural population is calculated as the difference between the total population and the urban population. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded..{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization and World Bank population estimates..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##EN.RUR.DNST.TOTL:EN.RUR.DNST.TOTL} - Traditional fuel use (kt of oil equivalent)}{marker sourceid_EN.RUR.DNST.TOTL}
+{dlgtab: {help wbopendata_sourceid##EN.RUR.DNST.TOTL:EN.RUR.DNST.TOTL} - Population density, rural (people per sq km)}{marker sourceid_EN.RUR.DNST.TOTL}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -1945,6 +1920,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##EN.TDF.COMP:EN.TDF.COMP} - Traditional fuel use (kt of oil equivalent)}{marker sourceid_EN.TDF.COMP}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Population in largest city is the urban population living in the country's largest metropolitan area..{p_end}
+
+{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##EN.TDF.COMP.ZS:EN.TDF.COMP.ZS} - Traditional fuel use (% of total energy use)}{marker sourceid_EN.TDF.COMP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2022,19 +2010,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##ER.LND.PTLD.K2:ER.LND.PTLD.K2} - Terrestrial protected areas (number)}{marker sourceid_ER.LND.PTLD.K2}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, protected landscapes, and areas managed mainly for sustainable use. Marine areas, unclassified areas, littoral (intertidal) areas, and sites protected under local or provincial law are excluded..{p_end}
-
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website (https://www.protectedplanet.net/)..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##ER.LND.PTLD.TR.NO:ER.LND.PTLD.TR.NO} - Terrestrial protected areas (number)}{marker sourceid_ER.LND.PTLD.TR.NO}
 
 
@@ -2049,6 +2024,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##ER.MRN.PTMR.K2:ER.MRN.PTMR.K2} - Marine protected areas (sq. km)}{marker sourceid_ER.MRN.PTMR.K2}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment..{p_end}
+
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website (https://www.protectedplanet.net/)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##ER.MRN.PTMR.NO:ER.MRN.PTMR.NO} - Marine protected areas (number)}{marker sourceid_ER.MRN.PTMR.NO}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2178,6 +2166,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##FB.AST.LOAN.SF.P3:FB.AST.LOAN.SF.P3} - Loan accounts, specialized state financial institutions (per 1,000 adults)}{marker sourceid_FB.AST.LOAN.SF.P3}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Bank nonperforming loans to total gross loans are the value of nonperforming loans divided by the total value of the loan portfolio (including nonperforming loans before the deduction of specific loan-loss provisions). The loan amount recorded as nonperforming should be the gross value of the loan as recorded on the balance sheet, not just the amount that is overdue..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Global Financial Stability Report..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##FB.AST.PUBO.ZS:FB.AST.PUBO.ZS} - Banking assets held by government-owned banks (% of total banking assets)}{marker sourceid_FB.AST.PUBO.ZS}
 
 
@@ -2217,7 +2218,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FB.BNK.BRCH.MF.P5:FB.BNK.BRCH.MF.P5} - Bank branches (per 100,000 people)}{marker sourceid_FB.BNK.BRCH.MF.P5}
+{dlgtab: {help wbopendata_sourceid##FB.BNK.BRCH.MF.P5:FB.BNK.BRCH.MF.P5} - Branches, microfinance institutions (per 100,000 adults)}{marker sourceid_FB.BNK.BRCH.MF.P5}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2295,7 +2296,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FB.LBL.DDPT.CO.P3:FB.LBL.DDPT.CO.P3} - Deposit accounts, microfinance institutions (per 1,000 adults)}{marker sourceid_FB.LBL.DDPT.CO.P3}
+{dlgtab: {help wbopendata_sourceid##FB.LBL.DDPT.CO.P3:FB.LBL.DDPT.CO.P3} - Deposit accounts, cooperatives (per 1,000 adults)}{marker sourceid_FB.LBL.DDPT.CO.P3}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2334,7 +2335,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FB.LBL.DDPT.SF.P3:FB.LBL.DDPT.SF.P3} - Deposit accounts, specialized state financial institutions (per 1,000 adults)}{marker sourceid_FB.LBL.DDPT.SF.P3}
+{dlgtab: {help wbopendata_sourceid##FB.LBL.DDPT.SF.P3:FB.LBL.DDPT.SF.P3} - Point-of-sale terminals (per 100,000 adults)}{marker sourceid_FB.LBL.DDPT.SF.P3}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2360,7 +2361,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FM.ASC.DOMS.CN:FM.ASC.DOMS.CN} - Net domestic credit as % of M2 (annual % change)}{marker sourceid_FM.ASC.DOMS.CN}
+{dlgtab: {help wbopendata_sourceid##FM.ASC.DOMS.ZS:FM.ASC.DOMS.ZS} - Net domestic credit as % of M2 (annual % change)}{marker sourceid_FM.ASC.DOMS.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2368,6 +2369,32 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Change in domestic credit  to government includes changes in net claims on central government, and changes in claims on  state and local government as well as on non-financial public corporations. Data; Annual flow, local currencies..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##FM.ASC.NFRG.ZS:FM.ASC.NFRG.ZS} - Net foreign assets as % of M2 (annual % change)}{marker sourceid_FM.ASC.NFRG.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Net domestic credit to other official entities of government. Data are in current local currencies..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##FM.ASC.OFIN.CN:FM.ASC.OFIN.CN} - Claims on nonmonetary financial institutions, flow (current LCU)}{marker sourceid_FM.ASC.OFIN.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Net domestic credit to Rest of the economy (excludes government). Data are in current local currencies..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
 
@@ -2386,20 +2413,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FM.AST.PUBL.CN:FM.AST.PUBL.CN} - Claims on governments and other public entities (current LCU)}{marker sourceid_FM.AST.PUBL.CN}
+{dlgtab: {help wbopendata_sourceid##FM.AST.OFIN.CN:FM.AST.OFIN.CN} - Net domestic credit to other private financial institutions, stock (current LCU)}{marker sourceid_FM.AST.OFIN.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Net domestic credit to Rest of the economy (excludes government). Data are in current local currencies..{p_end}
+{synopt:{opt Source Notes}}Claims on private sector (IFS line 32d) include gross credit from the financial system to individuals, enterprises, nonfinancial public entities not included under net domestic credit, and financial institutions not included elsewhere. Money and quasi money (M2) comprise the sum of currency outside banks, demand deposits other than those of the central government, and the time, savings, and foreign currency deposits of resident sectors other than the central government..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##FM.AST.PUBL.ZG.M2:FM.AST.PUBL.ZG.M2} - Claims on governments, etc. (annual growth as % of M2)}{marker sourceid_FM.AST.PUBL.ZG.M2}
+{dlgtab: {help wbopendata_sourceid##FM.AST.PUBL.CN:FM.AST.PUBL.CN} - Claims on governments and other public entities (current LCU)}{marker sourceid_FM.AST.PUBL.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2490,7 +2517,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FM.LBL.MQMY.IR.ZS:FM.LBL.MQMY.IR.ZS} - Income velocity of money (GDP/M2)}{marker sourceid_FM.LBL.MQMY.IR.ZS}
+{dlgtab: {help wbopendata_sourceid##FM.LBL.MQMY.IR.ZS:FM.LBL.MQMY.IR.ZS} - Money and quasi money (M2) to total reserves ratio}{marker sourceid_FM.LBL.MQMY.IR.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2607,20 +2634,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FR.INR.LEND.DPST.DF:FR.INR.LEND.DPST.DF} - Interest rate spread (lending rate minus deposit)}{marker sourceid_FR.INR.LEND.DPST.DF}
+{dlgtab: {help wbopendata_sourceid##FP.WPI.TOTL.ZG:FP.WPI.TOTL.ZG} - Inflation, wholesale prices (annual %)}{marker sourceid_FP.WPI.TOTL.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Interest rate spread is the interest rate charged by banks on loans to private sector customers minus the interest rate paid by commercial or similar banks for demand, time, or savings deposits. The terms and conditions attached to these rates differ by country, however, limiting their comparability..{p_end}
+{synopt:{opt Source Notes}}Deposit interest rate is the rate paid by commercial or similar banks for demand, time, or savings deposits. The terms and conditions attached to these rates differ by country, however, limiting their comparability..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##FR.INR.LEND.LIBOR3.DF:FR.INR.LEND.LIBOR3.DF} - Interest rate spread (lending rate minus LIBOR)}{marker sourceid_FR.INR.LEND.LIBOR3.DF}
+{dlgtab: {help wbopendata_sourceid##FR.INR.LEND.DPST.DF:FR.INR.LEND.DPST.DF} - Interest rate spread (lending rate minus deposit)}{marker sourceid_FR.INR.LEND.DPST.DF}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2646,7 +2673,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##FR.INR.TDPT.RL:FR.INR.TDPT.RL} - Real interest on time deposit (%)}{marker sourceid_FR.INR.TDPT.RL}
+{dlgtab: {help wbopendata_sourceid##FR.INR.TDPT.RL:FR.INR.TDPT.RL} - LIBOR rate (%)}{marker sourceid_FR.INR.TDPT.RL}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2669,19 +2696,6 @@
 {synopt:{opt Source Notes}}Claims on central government (IFS line 52AN or 32AN) include loans to central government institutions net of deposits..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##FS.AST.DTOT.ZS:FS.AST.DTOT.ZS} - Domestic credit provided by banking sector (% of GDP)}{marker sourceid_FS.AST.DTOT.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises..{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files..{p_end}
 
 
 
@@ -2724,16 +2738,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.BAL.OVRL.CN:GB.BAL.OVRL.CN} - Overall budget balance, including grants (current LCU)}{marker sourceid_GB.BAL.OVRL.CN}
+{dlgtab: {help wbopendata_sourceid##FS.LBL.QLIQ.GD.ZS:FS.LBL.QLIQ.GD.ZS} - Quasi-liquid liabilities (% of GDP)}{marker sourceid_FS.LBL.QLIQ.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Overall budget surplus/deficit (excluding current grants) is current and capital revenue excluding current grants, less total expenditure and lending minus repayments. Data are shown for central government only, and are in current local currency..{p_end}
+{synopt:{opt Source Notes}}Demand deposits..{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund..{p_end}
 
 
 
@@ -2750,14 +2764,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.BAL.OVRL.GDP.ZS:GB.BAL.OVRL.GDP.ZS} - Overall budget deficit, including grants (% of GDP)}{marker sourceid_GB.BAL.OVRL.GDP.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.DOD.TOTL.CN:GB.DOD.TOTL.CN} - Total government debt (current LCU)}{marker sourceid_GB.DOD.TOTL.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Overall budget surplus/deficit (excluding current grants) is current and capital revenue excluding current grants, less total expenditure and lending minus repayments. Data are shown for central government only, and are in current local currency..{p_end}
+{synopt:{opt Source Notes}}Central government arrears on domestic debt.  Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
 
@@ -2802,7 +2816,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.FIN.DOMS.CN:GB.FIN.DOMS.CN} - Domestic financing, total (% of GDP)}{marker sourceid_GB.FIN.DOMS.CN}
+{dlgtab: {help wbopendata_sourceid##GB.FIN.DNMS.CN:GB.FIN.DNMS.CN} - Domestic financing, total (current LCU)}{marker sourceid_GB.FIN.DNMS.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Financing, including external capital grants. Data are in current local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.FIN.DOMS.CN:GB.FIN.DOMS.CN} - Domestic financing, total (current LCU)}{marker sourceid_GB.FIN.DOMS.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2828,7 +2855,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.GRT.KFRN.CN:GB.GRT.KFRN.CN} - Grants (local currency)}{marker sourceid_GB.GRT.KFRN.CN}
+{dlgtab: {help wbopendata_sourceid##GB.FIN.DOMS.GDP.ZS:GB.FIN.DOMS.GDP.ZS} - Domestic finanacing (% of GDP)}{marker sourceid_GB.FIN.DOMS.GDP.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Financing, including external capital grants. Data are in current local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.GRT.KFRN.CN:GB.GRT.KFRN.CN} - External capital grants (current LCU)}{marker sourceid_GB.GRT.KFRN.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2841,7 +2881,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.GRT.TOTL.CN:GB.GRT.TOTL.CN} - Interest payments (% of current revenue)}{marker sourceid_GB.GRT.TOTL.CN}
+{dlgtab: {help wbopendata_sourceid##GB.GRT.TOTL.CN:GB.GRT.TOTL.CN} - Grants (local currency)}{marker sourceid_GB.GRT.TOTL.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2849,6 +2889,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Receipts from sources other than the tax system like property income, fees, fines, and contributions to government employee pension funds within government.  Data ate in current local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.NTX.CIGR.CN:GB.NTX.CIGR.CN} - Nontax receipts (current LCU)}{marker sourceid_GB.NTX.CIGR.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Total revenue and grants equals the sum of government revenue and grants. Revenue includes all nonrepayable and nonrepaying government  receipts other than grants. Grants are defined as unrequited, nonrepayable, noncompulsory receipts. Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
 
@@ -2893,20 +2946,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.REV.CTOT.GD.ZS:GB.REV.CTOT.GD.ZS} - Current revenue, excluding grants (% of GDP)}{marker sourceid_GB.REV.CTOT.GD.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Total revenue and grants equals the sum of government revenue and grants. Revenue includes all nonrepayable and nonrepaying government  receipts other than grants. Grants are defined as unrequited, nonrepayable, noncompulsory receipts. Data are in current local currency..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##GB.REV.IGRT.CN:GB.REV.IGRT.CN} - Current revenue (local currency)}{marker sourceid_GB.REV.IGRT.CN}
+{dlgtab: {help wbopendata_sourceid##GB.REV.IGRT.CN:GB.REV.IGRT.CN} - Total revenue including current grants (current LCU)}{marker sourceid_GB.REV.IGRT.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -2932,16 +2972,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.RVC.TOTL.GD.ZS:GB.RVC.TOTL.GD.ZS} - Current revenue, excluding grants (% of GDP)}{marker sourceid_GB.RVC.TOTL.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.REV.TOTL.GDP.ZS:GB.REV.TOTL.GDP.ZS} - Current revenue (% of GDP)}{marker sourceid_GB.REV.TOTL.GDP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Capital revenue comprises proceeds from the sale of nonfinancial capital assets, including land, intangible assets, stocks, and fixed capital assets of buildings, construction and equipment of more than a minimum value and usable for more than one year in the process of production, and receipts of unrequited transfers for capital purposes from nongovernmental sources. Data are in current local currency..{p_end}
+{synopt:{opt Source Notes}}Central government revenue excluding all grants.  Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.RVK.TOTL.CN:GB.RVK.TOTL.CN} - Capital revenue (current LCU)}{marker sourceid_GB.RVK.TOTL.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Highest marginal tax rate (corporate rate) is the highest rate shown on the schedule of tax rates applied to the taxable income of corporations..{p_end}
+
+{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online (www.pwc.com)..{p_end}
 
 
 
@@ -2971,7 +3024,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.SOE.ECON.GD.ZS:GB.SOE.ECON.GD.ZS} - SOE economic activity (% of GDP)}{marker sourceid_GB.SOE.ECON.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.SOE.ECON.GD.ZS:GB.SOE.ECON.GD.ZS} - State-owned enterprises, economic activity (% of GDP)}{marker sourceid_GB.SOE.ECON.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3075,16 +3128,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.TAX.DRCT.CN:GB.TAX.DRCT.CN} - Direct taxes (current LCU)}{marker sourceid_GB.TAX.DRCT.CN}
+{dlgtab: {help wbopendata_sourceid##GB.SOE.PRVZ.CD:GB.SOE.PRVZ.CD} - Privatization proceeds (current US$)}{marker sourceid_GB.SOE.PRVZ.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Taxes on goods and services include all taxes and duties levied by central governments on the production, extraction, sale, transfer, leasing, or delivery of goods and rendering of services, or on the use of goods or permission to use goods or perform activities. These include general sales taxes, turnover or value added taxes, excise taxes, and motor vehicle taxes. Data are shown for central government only and are in current local currency..{p_end}
+{synopt:{opt Source Notes}}Highest marginal tax rate (corporate rate) is the highest rate shown on the schedule of tax rates applied to the taxable income of corporations..{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online (www.pwc.com)..{p_end}
 
 
 
@@ -3114,20 +3167,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.TAX.GSRV.CN:GB.TAX.GSRV.CN} - Taxes on goods and services (% value added of industry and srv.)}{marker sourceid_GB.TAX.GSRV.CN}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Indirect taxes are the sum of indirect taxes less subsidies. Indirect taxes are those taxes payable by producers that relate to the production, sale, purchase or use of the goods and services. Subsidies are grants on the current account made by general government to private enterprises and unincorporated public enterprises.  Data are in current local currency..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##GB.TAX.GSRV.NAGR.ZS:GB.TAX.GSRV.NAGR.ZS} - Taxes on goods and services (% of current revenue)}{marker sourceid_GB.TAX.GSRV.NAGR.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.TAX.GSRV.NAGR.ZS:GB.TAX.GSRV.NAGR.ZS} - Taxes on goods and services (% value added of industry and srv.)}{marker sourceid_GB.TAX.GSRV.NAGR.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3153,7 +3193,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.TAX.GSRV.VA.ZS:GB.TAX.GSRV.VA.ZS} - Taxes on goods and services (% value added of industry and services)}{marker sourceid_GB.TAX.GSRV.VA.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.TAX.GSRV.VA.ZS:GB.TAX.GSRV.VA.ZS} - Taxes on goods and services (% of current revenue)}{marker sourceid_GB.TAX.GSRV.VA.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3228,19 +3268,6 @@
 {synopt:{opt Source Notes}}Taxes on international trade include import duties, export duties, profits of export or import monopolies, exchange profits, and exchange taxes.  Current revenue includes all revenue from taxes and nonrepayable receipts (other than grants) from the sale of land, intangible assets, government stocks, or fixed capital assets, or from capital transfers from nongovernmental sources.  It also includes fines, fees, recoveries, inheritance taxes, and nonrecurrent levies on capital.  Data are shown for central government only.  Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##GB.TAX.INTT.CN:GB.TAX.INTT.CN} - Taxes on international trade (% of current revenue)}{marker sourceid_GB.TAX.INTT.CN}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date such as money deposits, securities, shares and loans.  Data are in current local currency..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 
@@ -3361,7 +3388,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.TAX.YPKG.RV.ZS:GB.TAX.YPKG.RV.ZS} - Taxes on income, profits and capital gains (% of current revenue)}{marker sourceid_GB.TAX.YPKG.RV.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.TAX.YPKG.RV.ZS:GB.TAX.YPKG.RV.ZS} - Taxes on income, profits and capital gains (% of total taxes)}{marker sourceid_GB.TAX.YPKG.RV.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3384,6 +3411,32 @@
 {synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date such as money deposits, securities, shares and loans.  Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.XPC.GSRV.ZS:GB.XPC.GSRV.ZS} - Goods and services expenditure (% of total expenditure)}{marker sourceid_GB.XPC.GSRV.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Interest on domestic debt.  Data are in current local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.XPC.INTE.CN:GB.XPC.INTE.CN} - Interest on external debt (current LCU)}{marker sourceid_GB.XPC.INTE.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Subsidies are current unrequited payments that government units make to enterprises, resident producers and importers. Subsidies may be designed to influence enterprises level or type of production, or the prices at which the products are sold. (Capital grants are in the national accounts classified as capital transfers.) Subsidies consists of ‘subsidies on products’, subsidies payable per unit of a good or a service, and ‘other subsidies on production’, which cover all other subsidies enterprises receives as a consequence of engaging in production. Data are in current local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
 
 
 
@@ -3413,7 +3466,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.XPC.TRFT.ZS:GB.XPC.TRFT.ZS} - Subsidies and other current transfers (% of total expenditure)}{marker sourceid_GB.XPC.TRFT.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.XPC.TRFO.CN:GB.XPC.TRFO.CN} - Subsidies and other current transfers (% of total expenditure)}{marker sourceid_GB.XPC.TRFO.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3426,16 +3479,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.XPC.WAGE.ZS:GB.XPC.WAGE.ZS} - Wages and salaries (% of total expenditure)}{marker sourceid_GB.XPC.WAGE.ZS}
+{dlgtab: {help wbopendata_sourceid##GB.XPD.INLD.CN:GB.XPD.INLD.CN} - Total expenditure and net lending (current LCU)}{marker sourceid_GB.XPD.INLD.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Defense expenditures for NATO countries are based on the NATO definition, which covers military-related expenditures of the defense ministry (including recruiting, training, construction, and the purchase of military supplies and equipment) and other ministries. Civilian-type expenditures of the defense ministry are excluded. Military assistance is included in the expenditures of the donor country, and purchases of military equipment on credit are included at the time the debt is incurred, not at the time of payment. Data for other countries generally cover expenditures of the ministry of defense (excluded are expenditures on public order and safety, which are classified separately). Data are in current local currency..{p_end}
+{synopt:{opt Source Notes}}Gloss domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-profit. R&amp;D covers basic research, applied research, and experimental development..{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GB.XPD.RD.GNP.ZS:GB.XPD.RD.GNP.ZS} - Expenditures for research and development (% of GNP)}{marker sourceid_GB.XPD.RD.GNP.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Gloss domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-profit. R&amp;D covers basic research, applied research, and experimental development..{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 
@@ -3452,7 +3518,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.XPD.TOTL.CN:GB.XPD.TOTL.CN} - Expenditure, total (% of GDP)}{marker sourceid_GB.XPD.TOTL.CN}
+{dlgtab: {help wbopendata_sourceid##GB.XPD.TOTL.CN:GB.XPD.TOTL.CN} - Expenditure, total (current LCU)}{marker sourceid_GB.XPD.TOTL.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3466,19 +3532,6 @@
 
 
 {dlgtab: {help wbopendata_sourceid##GB.XPD.TOTL.GD.ZS:GB.XPD.TOTL.GD.ZS} - Expenditure, total (% of GDP)}{marker sourceid_GB.XPD.TOTL.GD.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Expenditure for acquisition of land, intangible assets, government   stocks, and nonmilitary and nonfinancial assets; also for capital  grants and lending minus repayments. Data are in current local currency..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##GB.XPD.TOTL.GDP.ZS:GB.XPD.TOTL.GDP.ZS} - Total expenditure (% of GDP)}{marker sourceid_GB.XPD.TOTL.GDP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3517,16 +3570,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GB.XPK.TOTL.ZS:GB.XPK.TOTL.ZS} - Capital expenditure (% of total expenditure)}{marker sourceid_GB.XPK.TOTL.ZS}
+{dlgtab: {help wbopendata_sourceid##GC.BAL.CASH.CD:GC.BAL.CASH.CD} - Cash surplus/deficit (current LCU)}{marker sourceid_GC.BAL.CASH.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Capital transfers. Data are in current local currency..{p_end}
+{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and loans. It is the gross amount of government liabilities reduced by the amount of equity and financial derivatives held by the government. Because debt is a stock rather than a flow, it is measured as of a given date, usually the last day of the fiscal year..{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files..{p_end}
 
 
 
@@ -3699,7 +3752,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##GC.XPC.TOTL.CN:GC.XPC.TOTL.CN} - Government Capital Payments (local)}{marker sourceid_GC.XPC.TOTL.CN}
+{dlgtab: {help wbopendata_sourceid##GC.XPC.TOTL.CN:GC.XPC.TOTL.CN} - Government Current Expenditure (local)}{marker sourceid_GC.XPC.TOTL.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Compensation of employees consists of all payments in cash, as well as in kind (such as food and housing), to employees in return for services rendered, and government contributions to social insurance schemes such as social security and pensions that provide benefits to employees..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##GC.XPK.INLD.CN:GC.XPK.INLD.CN} - Government Capital Payments (local)}{marker sourceid_GC.XPK.INLD.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3738,6 +3804,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##IC.BUS.NREG.ZS:IC.BUS.NREG.ZS} - Business entry rate (new registrations as % of total)}{marker sourceid_IC.BUS.NREG.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Doing Business measures the strength of minority shareholder protections against directors’ misuse of corporate assets for personal gain. The indicators distinguish 3 dimensions of investor protection: transparency of transactions (extent of disclosure index), liability for self-dealing (extent of director liability index) and shareholders’ ability to sue officers and directors for misconduct (ease of shareholder suits index). The data come from a survey of corporate lawyers and are based on company laws, court rules of evidence and securities regulations.  For more information, visit http://www.doingbusiness.org/MethodologySurveys/..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##IC.BUS.TOTL:IC.BUS.TOTL} - Total businesses registered (number)}{marker sourceid_IC.BUS.TOTL}
 
 
@@ -3746,19 +3825,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}This index averages the country's percentile rankings on: disclosure Index.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##IC.CRD.PRVT.P3:IC.CRD.PRVT.P3} - Private credit bureau coverage (borrowers per 1,000 adults)}{marker sourceid_IC.CRD.PRVT.P3}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adult population..{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
 
@@ -3790,25 +3856,12 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IC.EMPL.FTRNG.ZS:IC.EMPL.FTRNG.ZS} - Employees offered formal training (%)}{marker sourceid_IC.EMPL.FTRNG.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearance and technical control, customs broker fees, terminal handling charges and inland transport. The cost measure does not include tariffs or trade taxes. Only official costs are recorded. Several assumptions are made for the business surveyed: Has 60 or more employees; Is located in the country's most populous city; Is a private, limited liability company. It does not operate within an export processing zone or an industrial estate with special export or import privileges; Is domestically owned with no foreign ownership; Exports more than 10% of its sales. Assumptions about the traded goods: The traded product travels in a dry-cargo, 20-foot, full container load. The product: Is not hazardous nor does it include military items; Does not require refrigeration or any other special environment; Does not require any special phytosanitary or environmental safety standards other than accepted international standards..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##IC.EXP.COST.CD:IC.EXP.COST.CD} - Cost to export (US$ per container)}{marker sourceid_IC.EXP.COST.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}21 Trade.{p_end}
+{synopt:{opt Topics}}12 Private Sector.{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearance and technical control, customs broker fees, terminal handling charges and inland transport. The cost measure does not include tariffs or trade taxes. Only official costs are recorded. Several assumptions are made for the business surveyed: Has 60 or more employees; Is located in the country's most populous city; Is a private, limited liability company. It does not operate within an export processing zone or an industrial estate with special export or import privileges; Is domestically owned with no foreign ownership; Exports more than 10% of its sales. Assumptions about the traded goods: The traded product travels in a dry-cargo, 20-foot, full container load. The product: Is not hazardous nor does it include military items; Does not require refrigeration or any other special environment; Does not require any special phytosanitary or environmental safety standards other than accepted international standards..{p_end}
 
@@ -3834,7 +3887,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}21 Trade.{p_end}
+{synopt:{opt Topics}}12 Private Sector.{p_end}
 
 {synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a procedure can be accelerated for an additional cost, the fastest legal procedure is chosen. It is assumed that neither the exporter nor the importer wastes time and that each commits to completing each remaining procedure without delay. Procedures that can be completed in parallel are measured as simultaneous. The waiting time between procedures--for example, during unloading of the cargo--is included in the measure..{p_end}
 
@@ -3860,7 +3913,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}21 Trade.{p_end}
+{synopt:{opt Topics}}12 Private Sector.{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to import goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and container terminal authorities, health and technical control agencies and banks are taken into account. Since payment is by letter of credit, all documents required by banks for the issuance or securing of a letter of credit are also taken into account. Documents that are renewed annually and that do not require renewal per shipment (for example, an annual tax clearance certificate) are not included..{p_end}
 
@@ -3873,7 +3926,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}21 Trade.{p_end}
+{synopt:{opt Topics}}12 Private Sector.{p_end}
 
 {synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a procedure can be accelerated for an additional cost, the fastest legal procedure is chosen. It is assumed that neither the exporter nor the importer wastes time and that each commits to completing each remaining procedure without delay. Procedures that can be completed in parallel are measured as simultaneous. The waiting time between procedures--for example, during unloading of the cargo--is included in the measure..{p_end}
 
@@ -3907,7 +3960,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IC.SME.EMPL.ZS:IC.SME.EMPL.ZS} - Micro, small and medium enterprises (number)}{marker sourceid_IC.SME.EMPL.ZS}
+{dlgtab: {help wbopendata_sourceid##IC.SALE.DOM.ZS:IC.SALE.DOM.ZS} - MSME employment (% of total employment)}{marker sourceid_IC.SALE.DOM.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and social security contributions..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##IC.SME.EMPL.ZS:IC.SME.EMPL.ZS} - MSME employment (% of total employment)}{marker sourceid_IC.SME.EMPL.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -3928,32 +3994,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and social security contributions..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##IC.SME.TOTL.P3:IC.SME.TOTL.P3} - Micro, small and medium enterprises (per 1,000 people)}{marker sourceid_IC.SME.TOTL.P3}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and social security contributions..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##IC.TAX.TOTL.GP.ZS:IC.TAX.TOTL.GP.ZS} - Total tax payable by businesses (% of gross profit)}{marker sourceid_IC.TAX.TOTL.GP.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}This index ranks economies from 1 to 181, with first place being the best.  This  assesses (a) number of payments (b) time spent to prepare taxes (c) labour taxes (d) other taxes and (e) taxes on profits and gives each topic equal weight.  For more information, visit http://www.doingbusiness.org/MethodologySurveys/..{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project (http://www.doingbusiness.org/)..{p_end}
 
@@ -4011,6 +4051,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS} - Access to an all-season road (% of rural population)}{marker sourceid_IS.ROD.ALLS.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Road density is the ratio of the length of the country's total road network to the country's land area. The road network includes all roads in the country: motorways, highways, main or national roads, secondary or regional roads, and other urban and rural roads..{p_end}
+
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##IS.ROD.DESL.KT:IS.ROD.DESL.KT} - Road sector diesel fuel consumption (kt of oil equivalent)}{marker sourceid_IS.ROD.DESL.KT}
 
 
@@ -4024,7 +4077,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IS.ROD.ENGY.KT:IS.ROD.ENGY.KT} - Road sector energy consumption (kt of oil equivalent)}{marker sourceid_IS.ROD.ENGY.KT}
+{dlgtab: {help wbopendata_sourceid##IS.ROD.DESL.PC:IS.ROD.DESL.PC} - Road sector diesel fuel consumption per capita (kg of oil equivalent)}{marker sourceid_IS.ROD.DESL.PC}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Road density is the ratio of the length of the country's total road network to the country's land area. The road network includes all roads in the country: motorways, highways, main or national roads, secondary or regional roads, and other urban and rural roads..{p_end}
+
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##IS.ROD.ENGY.KT:IS.ROD.ENGY.KT} - Road sector energy consumption per capita (kg of oil equivalent)}{marker sourceid_IS.ROD.ENGY.KT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4037,7 +4103,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IS.ROD.ENGY.PC:IS.ROD.ENGY.PC} - Road sector energy consumption per capita (kg of oil equivalent)}{marker sourceid_IS.ROD.ENGY.PC}
+{dlgtab: {help wbopendata_sourceid##IS.ROD.ENGY.PC:IS.ROD.ENGY.PC} - Road sector energy consumption (% of total energy consumption)}{marker sourceid_IS.ROD.ENGY.PC}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4076,7 +4142,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IS.RRS.DESL.ZS:IS.RRS.DESL.ZS} - Diesel locomotives available (in service as % of total diesel locomotives)}{marker sourceid_IS.RRS.DESL.ZS}
+{dlgtab: {help wbopendata_sourceid##IS.ROD.SGAS.PC:IS.ROD.SGAS.PC} - Road sector gasoline fuel consumption per capita (kg of oil equivalent)}{marker sourceid_IS.ROD.SGAS.PC}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Total road network includes motorways, highways, and main or national roads, secondary or regional roads, and all other roads in a country. A motorway is a road designed and built for motor traffic that separates the traffic flowing in opposite directions..{p_end}
+
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##IS.RRS.DESL.ZS:IS.RRS.DESL.ZS} - Rail traffic density (passengers and freight/km)}{marker sourceid_IS.RRS.DESL.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4102,7 +4181,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IS.RRS.ELEC.KM:IS.RRS.ELEC.KM} - Rail lines, electric (km)}{marker sourceid_IS.RRS.ELEC.KM}
+{dlgtab: {help wbopendata_sourceid##IS.RRS.ELEC.KM:IS.RRS.ELEC.KM} - Railway employee productivity (traffic units per employee)}{marker sourceid_IS.RRS.ELEC.KM}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4193,16 +4272,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.CEL.COVR.ZS:IT.CEL.COVR.ZS} - Population covered by mobile cellular network (%)}{marker sourceid_IT.CEL.COVR.ZS}
+{dlgtab: {help wbopendata_sourceid##IT.CEL.SETS.P3:IT.CEL.SETS.P3} - Mobile phone subscribers (per 1,000 people)}{marker sourceid_IT.CEL.SETS.P3}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months). The indicator applies to all mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions to public mobile data services, private trunked mobile radio, telepoint, radio paging and telemetry services..{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data. The price of a three minute off-peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whether taxes are included (preferred) or not, or if the price refers to a pre-paid or post-paid subscription.  This indicator is expressed in US dollars..{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database..{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates..{p_end}
 
 
 
@@ -4216,19 +4295,6 @@
 {synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data. The price of a three minute off-peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whether taxes are included (preferred) or not, or if the price refers to a pre-paid or post-paid subscription.  This indicator is expressed in US dollars..{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##IT.CELL.PR.CONN.CN:IT.CELL.PR.CONN.CN} - Personal computers}{marker sourceid_IT.CELL.PR.CONN.CN}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Personal computers are self-contained computers designed to be used by a single individual..{p_end}
-
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates..{p_end}
 
 
 
@@ -4349,6 +4415,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##IT.MLT.BSUB.CN:IT.MLT.BSUB.CN} - Business telephone monthly subscription (current LCU)}{marker sourceid_IT.MLT.BSUB.CN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Installation refers to the one time charge involved in applying for basic telephone service for business purposes. Where there are different charges for different exchange areas, the charge is generally for the largest urban area unless otherwise noted. This indicator is expressed in US dollars..{p_end}
+
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##IT.MLT.CLCL.CD:IT.MLT.CLCL.CD} - Telephone average cost of local call (US$ per three minutes)}{marker sourceid_IT.MLT.CLCL.CD}
 
 
@@ -4375,7 +4454,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.MLT.REVN.CN:IT.MLT.REVN.CN} - Revenue from fixed telephone service (current LCU)}{marker sourceid_IT.MLT.REVN.CN}
+{dlgtab: {help wbopendata_sourceid##IT.MLT.LCTY.P3:IT.MLT.LCTY.P3} - Telephone mainlines in largest city (per 1,000 people)}{marker sourceid_IT.MLT.LCTY.P3}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fixed wireless local loop (WLL) subscriptions, ISDN voice-channel equivalents and fixed public payphones..{p_end}
+
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##IT.MLT.REVN.CN:IT.MLT.REVN.CN} - Telephone revenue per mainline (current US$)}{marker sourceid_IT.MLT.REVN.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4440,20 +4532,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.MLT.WAIT.YR:IT.MLT.WAIT.YR} - Invalid Code}{marker sourceid_IT.MLT.WAIT.YR}
+{dlgtab: {help wbopendata_sourceid##IT.NET.CONN.CN:IT.NET.CONN.CN} - Fixed broadband Internet connection charge (current LCU)}{marker sourceid_IT.NET.CONN.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Percentage of population covered by mobile cellular telephony refers to the percentage of a country’s inhabitants that live within areas served by a mobile cellular signal, irrespective of whether or not they choose to use it. This should not be confused with the percentage of the land area covered by a mobile cellular signal or the percentage of the population that subscribe to mobile cellular service. Note that this measures the theoretical ability to use mobile cellular services if one has a cellular telephone and a subscription..{p_end}
+{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey..{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates..{p_end}
+{synopt:{opt Source Organization}}Netcraft (http://www.netcraft.com/).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.NET.EDUC.ZS:IT.NET.EDUC.ZS} - Schools connected to the Internet (%)}{marker sourceid_IT.NET.EDUC.ZS}
+{dlgtab: {help wbopendata_sourceid##IT.NET.EDUC.ZS:IT.NET.EDUC.ZS} - Internet hosts (per 10,000 people)}{marker sourceid_IT.NET.EDUC.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4479,7 +4571,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.NET.TELC.CD:IT.NET.TELC.CD} - Price basket for Internet (US$ per month)}{marker sourceid_IT.NET.TELC.CD}
+{dlgtab: {help wbopendata_sourceid##IT.NET.ISPC.CD:IT.NET.ISPC.CD} - Internet service provider access charges ($ per 30 off-peak hours)}{marker sourceid_IT.NET.ISPC.CD}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey..{p_end}
+
+{synopt:{opt Source Organization}}Netcraft (http://www.netcraft.com/).{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##IT.NET.TELC.CD:IT.NET.TELC.CD} - Internet telephone access charges ($ per 30 off-peak hours)}{marker sourceid_IT.NET.TELC.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4492,7 +4597,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.NET.USEC.CD:IT.NET.USEC.CD} - Price basket for Internet (US$ per month)}{marker sourceid_IT.NET.USEC.CD}
+{dlgtab: {help wbopendata_sourceid##IT.NET.USEC.CD:IT.NET.USEC.CD} - Internet total monthly price (% of monthly GNI per capita)}{marker sourceid_IT.NET.USEC.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4500,32 +4605,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Internet users are people with access to the worldwide network..{p_end}
-
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##IT.NET.USEC.ZS:IT.NET.USEC.ZS} - Internet total monthly price (% of monthly GNI per capita)}{marker sourceid_IT.NET.USEC.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Internet users are people with access to the worldwide network..{p_end}
-
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##IT.NET.USER:IT.NET.USER} - Internet users}{marker sourceid_IT.NET.USER}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc..{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database..{p_end}
 
@@ -4544,7 +4623,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.PC.HOUS.ZS:IT.PC.HOUS.ZS} - Daily newspapers (per 1,000 people)}{marker sourceid_IT.PC.HOUS.ZS}
+{dlgtab: {help wbopendata_sourceid##IT.PC.HOUS.ZS:IT.PC.HOUS.ZS} - Homes with a personal computer (%)}{marker sourceid_IT.PC.HOUS.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4570,7 +4649,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.RES.USEC.CD:IT.RES.USEC.CD} - Telephone employees, total}{marker sourceid_IT.RES.USEC.CD}
+{dlgtab: {help wbopendata_sourceid##IT.RES.USEC.CD:IT.RES.USEC.CD} - Residential fixed line telephone tariff (US$ per month)}{marker sourceid_IT.RES.USEC.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4583,16 +4662,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.TEL.EMPL.TO:IT.TEL.EMPL.TO} - Telephone employees, total}{marker sourceid_IT.TEL.EMPL.TO}
+{dlgtab: {help wbopendata_sourceid##IT.TEL.TOTL.EM:IT.TEL.TOTL.EM} - Fixed line and mobile cellular subscriptions per employee}{marker sourceid_IT.TEL.TOTL.EM}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  This percentage is obtained by dividing the number of main (fixed) lines serving households (i.e., lines which are not used for business, government or other professional purposes or as public telephone stations) by the total number of main lines. Respondents should indicate the definition of households that is being applied, and the source of this definition..{p_end}
+{synopt:{opt Source Notes}}Fixed line and mobile cellular subscriptions are total telephone subscriptions (fixed line plus mobile). Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fixed wireless local loop (WLL) subscriptions, ISDN voice-channel equivalents and fixed public payphones. Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months). The indicator applies to all mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions to public mobile data services, private trunked mobile radio, telepoint, radio paging and telemetry services..{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates..{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database..{p_end}
 
 
 
@@ -4609,7 +4688,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##IT.TVS.SETS.P3:IT.TVS.SETS.P3} - Television sets (per 1,000 people)}{marker sourceid_IT.TVS.SETS.P3}
+{dlgtab: {help wbopendata_sourceid##IT.TVS.SETS.P3:IT.TVS.SETS.P3} - Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits)}{marker sourceid_IT.TVS.SETS.P3}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4622,29 +4701,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##LO.TIMSS.SCI8.HI.FE:LO.TIMSS.SCI8.HI.FE} - TIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%)}{marker sourceid_LO.TIMSS.SCI8.HI.FE}
+{dlgtab: {help wbopendata_sourceid##LO.SACMEQ.MAT.L1:LO.SACMEQ.MAT.L1} - Private consumption per capita growth (annual %)}{marker sourceid_LO.SACMEQ.MAT.L1}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate for value added in services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, and real estate services. Also included are imputed bank service charges, import duties, and any statistical discrepancies noted by national compilers as well as discrepancies arising from rescaling. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3..{p_end}
+{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchases of dwellings but includes imputed rent for owner-occupied dwellings. It also includes payments and fees to governments to obtain permits and licenses. Here, household consumption expenditure includes the expenditures of nonprofit institutions serving households, even when reported separately by the country. Data are converted to current international dollars using purchasing power parity rates based on the 2011 ICP round..{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##MS.MIL.MPRT.ZS:MS.MIL.MPRT.ZS} - Arms imports (% of total imports)}{marker sourceid_MS.MIL.MPRT.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Armed forces personnel are active duty military personnel, including paramilitary forces if the training, organization, equipment, and control suggest they may be used to support or replace regular military forces..{p_end}
-
-{synopt:{opt Source Organization}}International Institute for Strategic Studies, The Military Balance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Comparison Program database..{p_end}
 
 
 
@@ -4674,19 +4740,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.CON.GOVT.KD.87:NE.CON.GOVT.KD.87} - General government consumption (constant 1987 US$)}{marker sourceid_NE.CON.GOVT.KD.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Annual percentage growth of general government final consumption expenditure based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. General government final consumption expenditure (general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NE.CON.GOVT.KN.87:NE.CON.GOVT.KN.87} - General government consumption (constant 1987 LCU)}{marker sourceid_NE.CON.GOVT.KN.87}
 
 
@@ -4695,6 +4748,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NE.CON.PCAP.CD:NE.CON.PCAP.CD} - Final consumption expenditure plus discrepancy, per capita (current US$)}{marker sourceid_NE.CON.PCAP.CD}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchases of dwellings but includes imputed rent for owner-occupied dwellings. It also includes payments and fees to governments to obtain permits and licenses. Here, household consumption expenditure includes the expenditures of nonprofit institutions serving households, even when reported separately by the country. This item also includes any statistical discrepancy in the use of resources relative to the supply of resources. Data are in current U.S. dollars..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
@@ -4752,7 +4818,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.CON.PETC.KD.87:NE.CON.PETC.KD.87} - Household final consumption expenditure, etc. (annual % growth)}{marker sourceid_NE.CON.PETC.KD.87}
+{dlgtab: {help wbopendata_sourceid##NE.CON.PETC.KD.87:NE.CON.PETC.KD.87} - Private consumption, etc. (constant 1987 US$)}{marker sourceid_NE.CON.PETC.KD.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4804,7 +4870,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.CON.PETC.KN.87.ZG:NE.CON.PETC.KN.87.ZG} - Private consumption, etc. (annual % growth)}{marker sourceid_NE.CON.PETC.KN.87.ZG}
+{dlgtab: {help wbopendata_sourceid##NE.CON.PETC.KN.87.ZG:NE.CON.PETC.KN.87.ZG} - Household final consumption expenditure, etc. (% of GDP)}{marker sourceid_NE.CON.PETC.KN.87.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4869,7 +4935,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.CON.PRVT.PC.ZG:NE.CON.PRVT.PC.ZG} - Private consumption per capita (constant 1995 US$)}{marker sourceid_NE.CON.PRVT.PC.ZG}
+{dlgtab: {help wbopendata_sourceid##NE.CON.PRVT.PC.ZG:NE.CON.PRVT.PC.ZG} - Private consumption per capita growth (annual %)}{marker sourceid_NE.CON.PRVT.PC.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4883,6 +4949,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##NE.CON.PRVT.PC.ZS:NE.CON.PRVT.PC.ZS} - Private consumption per capita (constant 1995 US$)}{marker sourceid_NE.CON.PRVT.PC.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchases of dwellings but includes imputed rent for owner-occupied dwellings. It also includes payments and fees to governments to obtain permits and licenses. Here, household consumption expenditure includes the expenditures of nonprofit institutions serving households, even when reported separately by the country. Data are converted to current international dollars using purchasing power parity rates based on the 2011 ICP round..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Comparison Program database..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NE.CON.PRVT.POP.ZG:NE.CON.PRVT.POP.ZG} - Private consumption per capita growth (annual %)}{marker sourceid_NE.CON.PRVT.POP.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4986,7 +5065,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.CON.TETC.KN.87:NE.CON.TETC.KN.87} - Total consumption, etc. (annual % growth)}{marker sourceid_NE.CON.TETC.KN.87}
+{dlgtab: {help wbopendata_sourceid##NE.CON.TETC.KN.87:NE.CON.TETC.KN.87} - Total consumption, etc. (constant 1987 LCU)}{marker sourceid_NE.CON.TETC.KN.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -4999,7 +5078,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.CON.TETC.KN.87.ZG:NE.CON.TETC.KN.87.ZG} - Final consumption expenditure, etc. (% of GDP)}{marker sourceid_NE.CON.TETC.KN.87.ZG}
+{dlgtab: {help wbopendata_sourceid##NE.CON.TETC.KN.87.ZG:NE.CON.TETC.KN.87.ZG} - Total consumption, etc. (annual % growth)}{marker sourceid_NE.CON.TETC.KN.87.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5077,7 +5156,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.DAB.TOTL.KN.87:NE.DAB.TOTL.KN.87} - Domestic Absorption deflator  (1987=100,Index)}{marker sourceid_NE.DAB.TOTL.KN.87}
+{dlgtab: {help wbopendata_sourceid##NE.DAB.TOTL.KD.87:NE.DAB.TOTL.KD.87} - Domestic absorption (constant 1987 US$)}{marker sourceid_NE.DAB.TOTL.KD.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gross capital formation (formerly gross domestic investment). Data are in constant local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NE.DAB.TOTL.KN.87:NE.DAB.TOTL.KN.87} - Domestic absorption (constant 1987 LCU)}{marker sourceid_NE.DAB.TOTL.KN.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5098,19 +5190,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gross capital formation (formerly gross domestic investment)..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NE.EXP.CAPM.KN:NE.EXP.CAPM.KN} - KP Capacity to Import (Local)}{marker sourceid_NE.EXP.CAPM.KN}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments. Data are in current U.S. dollars..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
@@ -5142,19 +5221,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.EXP.GNFS.KN.87.ZG:NE.EXP.GNFS.KN.87.ZG} - Exports of goods and services (annual % growth)}{marker sourceid_NE.EXP.GNFS.KN.87.ZG}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The annual rate of growth of exports of goods and non-financial services, as calculated from the constant local currency series.  Exports of goods and services represent the value of all goods and other market services provided to or received from the rest of the world. Included is the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services.  Data are in constant local currency..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NE.EXP.TTEF.KN:NE.EXP.TTEF.KN} - KP Terms of Trade Adjustment (Local)}{marker sourceid_NE.EXP.TTEF.KN}
 
 
@@ -5168,20 +5234,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.GDI.FIXD.CN:NE.GDI.FIXD.CN} - CP Fixed Investment (Local)}{marker sourceid_NE.GDI.FIXD.CN}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}State and local governments’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets, by state and local governments.  Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NE.GDI.FIXD.KN:NE.GDI.FIXD.KN} - Fixed Investment (local) (Const. Price)}{marker sourceid_NE.GDI.FIXD.KN}
+{dlgtab: {help wbopendata_sourceid##NE.GDI.FIXD.CN:NE.GDI.FIXD.CN} - Fixed Investment (local) (Const. Price)}{marker sourceid_NE.GDI.FIXD.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5259,19 +5312,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.GDI.IMPT.CR:NE.GDI.IMPT.CR} - GDP expenditure on imports (in IDR Million)}{marker sourceid_NE.GDI.IMPT.CR}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NE.GDI.PCAP.KD:NE.GDI.PCAP.KD} - Gross domestic investment per capita (1987 USD)}{marker sourceid_NE.GDI.PCAP.KD}
 
 
@@ -5311,7 +5351,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.GDI.TOTL.KN.87:NE.GDI.TOTL.KN.87} - Gross domestic investment (annual % growth)}{marker sourceid_NE.GDI.TOTL.KN.87}
+{dlgtab: {help wbopendata_sourceid##NE.GDI.TOTL.KN.87:NE.GDI.TOTL.KN.87} - Gross domestic investment (constant 1987 LCU)}{marker sourceid_NE.GDI.TOTL.KN.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5350,7 +5390,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.IMP.GNFS.KN.87:NE.IMP.GNFS.KN.87} - Imports of goods and services (constant 1987 LCU)}{marker sourceid_NE.IMP.GNFS.KN.87}
+{dlgtab: {help wbopendata_sourceid##NE.IMP.GNFS.KN.87:NE.IMP.GNFS.KN.87} - Imports of goods and services (annual % growth)}{marker sourceid_NE.IMP.GNFS.KN.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The imports price index is derived by dividing the national accounts exports of goods and services in current U.S. dollars by imports of goods and services in constant 2000 U.S. dollars, with 2000 equaling 100..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NE.IMP.GNFS.KN.87.ZG:NE.IMP.GNFS.KN.87.ZG} - Imports of goods and services (annual % growth)}{marker sourceid_NE.IMP.GNFS.KN.87.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5389,16 +5442,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NE.RSB.TOTL.KN:NE.RSB.TOTL.KN} - Resource Balance (local) (Const. Price)}{marker sourceid_NE.RSB.TOTL.KN}
+{dlgtab: {help wbopendata_sourceid##NE.RSB.GNFS.ZG:NE.RSB.GNFS.ZG} - Resource balance: contribution to growth of GDP (%)}{marker sourceid_NE.RSB.GNFS.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services measured as a share of gross domestic product..{p_end}
+{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services)..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NEER:NEER} - Agriculture, value added (local)  (Curr. Price)}{marker sourceid_NEER}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production..{p_end}
+
+{synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report).{p_end}
 
 
 
@@ -5467,7 +5533,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NP.IND.TOTL.IN:NP.IND.TOTL.IN} - Industrial Value Added Deflator}{marker sourceid_NP.IND.TOTL.IN}
+{dlgtab: {help wbopendata_sourceid##NP.IND.TOTL.IN:NP.IND.TOTL.IN} - Industry, value added (local) (Const. Price)}{marker sourceid_NP.IND.TOTL.IN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5506,7 +5572,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NP.MAN.TOTL.CN:NP.MAN.TOTL.CN} - Manuf. Value Added Deflator}{marker sourceid_NP.MAN.TOTL.CN}
+{dlgtab: {help wbopendata_sourceid##NP.MAN.TOTL.CN:NP.MAN.TOTL.CN} - CP Value Added in Manufacturing (Local)}{marker sourceid_NP.MAN.TOTL.CN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5519,7 +5585,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NP.MAN.TOTL.IN:NP.MAN.TOTL.IN} - Manuf. Value Added Deflator}{marker sourceid_NP.MAN.TOTL.IN}
+{dlgtab: {help wbopendata_sourceid##NP.MAN.TOTL.IN:NP.MAN.TOTL.IN} - KP Value Added in Manufacturing (Local)}{marker sourceid_NP.MAN.TOTL.IN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5558,7 +5624,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NP.SRV.TOTL.KN:NP.SRV.TOTL.KN} - Services: contribution to growth of GDP (%)}{marker sourceid_NP.SRV.TOTL.KN}
+{dlgtab: {help wbopendata_sourceid##NP.SRV.TOTL.KN:NP.SRV.TOTL.KN} - KP Value Added in Services, etc. (Local)}{marker sourceid_NP.SRV.TOTL.KN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5597,7 +5663,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NV.AGR.TOTL.KN.87.ZG:NV.AGR.TOTL.KN.87.ZG} - Agriculture, value added (annual % growth)}{marker sourceid_NV.AGR.TOTL.KN.87.ZG}
+{dlgtab: {help wbopendata_sourceid##NV.AGR.TOTL.KN.87.ZG:NV.AGR.TOTL.KN.87.ZG} - Agriculture, val. added defl. (1987=100,Index)}{marker sourceid_NV.AGR.TOTL.KN.87.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5620,6 +5686,19 @@
 {synopt:{opt Source Notes}}This is the annual rate of growth of agricultural GDP.  Value added in agriculture measures the output of the agricultural sector (ISIC divisions 1-5) less the value of intermediate inputs. Agriculture comprises value added from forestry, hunting, and fishing as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 2. Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NV.IND.MANF.KD.87:NV.IND.MANF.KD.87} - Manufacturing, value added (constant 1987 US$)}{marker sourceid_NV.IND.MANF.KD.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Annual growth rate for manufacturing value added based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
 
 
@@ -5646,19 +5725,6 @@
 {synopt:{opt Source Notes}}This is the annual rate of growth of value added in manufacturing.  Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 2..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NV.IND.MANF.KN.ZG:NV.IND.MANF.KN.ZG} - Value added, manufacturing growth rate (%)}{marker sourceid_NV.IND.MANF.KN.ZG}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3. Note: For VAB countries, gross value added at factor cost is used as the denominator..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
 
 
@@ -5727,14 +5793,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NV.MNF.MTRN.UN.ZS:NV.MNF.MTRN.UN.ZS} - Machinery and transport equipment (% of value added in mfg)}{marker sourceid_NV.MNF.MTRN.UN.ZS}
+{dlgtab: {help wbopendata_sourceid##NV.MNF.FBTO.UN.ZS:NV.MNF.FBTO.UN.ZS} - Food, beverages, and tobacco (% of value added in mfg)}{marker sourceid_NV.MNF.FBTO.UN.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Machinery and transport equipment correspond to ISIC divisions 29, 30, 32, 34, and 35..{p_end}
+{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Food, beverages, and tobacco correspond to ISIC divisions 15 and 16..{p_end}
 
 {synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics..{p_end}
 
@@ -5753,16 +5819,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NV.SRV.OTHR.KN:NV.SRV.OTHR.KN} - Other services, value added (constant LCU)}{marker sourceid_NV.SRV.OTHR.KN}
+{dlgtab: {help wbopendata_sourceid##NV.MNF.TECH.ZS.UN:NV.MNF.TECH.ZS.UN} - Medium and high-tech Industry (including construction) (% manufacturing value added)}{marker sourceid_NV.MNF.TECH.ZS.UN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, and real estate services. Also included are imputed bank service charges, import duties, and any statistical discrepancies noted by national compilers as well as discrepancies arising from rescaling. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Textiles and clothing correspond to ISIC divisions 17-19..{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+{synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics..{p_end}
 
 
 
@@ -5844,7 +5910,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NV.SRV.TETC.KN.87:NV.SRV.TETC.KN.87} - Services, etc., value added (constant 1987 LCU)}{marker sourceid_NV.SRV.TETC.KN.87}
+{dlgtab: {help wbopendata_sourceid##NV.SRV.TETC.KN.87:NV.SRV.TETC.KN.87} - Services, etc., value added (annual % growth)}{marker sourceid_NV.SRV.TETC.KN.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -5865,19 +5931,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}This is the annual rate of growth of value added in services. Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, and real estate services. Also included are imputed bank service charges, import duties, and any statistical discrepancies noted by national compilers as well as discrepancies arising from rescaling. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 2..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NV.SRV.TETC.KN.ZG:NV.SRV.TETC.KN.ZG} - Value added, services and etc growth rate (%)}{marker sourceid_NV.SRV.TETC.KN.ZG}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99 and they include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, and real estate services. Also included are imputed bank service charges, import duties, and any statistical discrepancies noted by national compilers as well as discrepancies arising from rescaling. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3. Note: For VAB countries, gross value added at factor cost is used as the denominator..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
@@ -5906,32 +5959,6 @@
 {synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99 and they include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, and real estate services. Also included are imputed bank service charges, import duties, and any statistical discrepancies noted by national compilers as well as discrepancies arising from rescaling. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3. Note: For VAB countries, gross value added at factor cost is used as the denominator..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.EXP.CAPM.KD.87:NY.EXP.CAPM.KD.87} - Exports as a capacity to import (constant 1987 US$)}{marker sourceid_NY.EXP.CAPM.KD.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Exports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. Data are in constant local currency..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.EXP.CAPM.KN.87:NY.EXP.CAPM.KN.87} - Exports as a capacity to import (constant 1987 LCU)}{marker sourceid_NY.EXP.CAPM.KN.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Coal rents are the difference between the value of both hard and soft coal production at world prices and their total costs of production..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018)..{p_end}
 
 
 
@@ -5974,19 +6001,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.CN.XD:NY.GDP.MKTP.CN.XD} - GDP Deflator}{marker sourceid_NY.GDP.MKTP.CN.XD}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2010 U.S. dollars. Dollar figures for GDP are converted from domestic currencies using 2010 official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.IN:NY.GDP.MKTP.IN} - GDP Deflator}{marker sourceid_NY.GDP.MKTP.IN}
 
 
@@ -6000,33 +6014,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.KD.87:NY.GDP.MKTP.KD.87} - GDP at market prices (constant 1987 US$)}{marker sourceid_NY.GDP.MKTP.KD.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.KN.87:NY.GDP.MKTP.KN.87} - GDP at market prices (constant 1987 LCU)}{marker sourceid_NY.GDP.MKTP.KN.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current international dollars. For most economies PPP figures are extrapolated from the 2011 International Comparison Program (ICP) benchmark estimates or imputed using a statistical model based on the 2011 ICP. For 47 high- and upper middle-income economies conversion factors are provided by Eurostat and the Organisation for Economic Co-operation and Development (OECD)..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.KN.87.ZG:NY.GDP.MKTP.KN.87.ZG} - GDP growth (annual %)}{marker sourceid_NY.GDP.MKTP.KN.87.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6052,19 +6040,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.XD:NY.GDP.MKTP.XD} - GDP deflator (1987=100,Index)}{marker sourceid_NY.GDP.MKTP.XD}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency. The base year varies by country..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.XU.E:NY.GDP.MKTP.XU.E} - GDP deflator, end period (base year varies by country)}{marker sourceid_NY.GDP.MKTP.XU.E}
 
 
@@ -6078,29 +6053,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GDP.MKTP.ZG:NY.GDP.MKTP.ZG} - Gross domestic product (Av. annual growth, %)}{marker sourceid_NY.GDP.MKTP.ZG}
+{dlgtab: {help wbopendata_sourceid##NY.GDP.PCAP.PP.KD.87:NY.GDP.PCAP.PP.KD.87} - GDP per capita, PPP (constant 1987 international $)}{marker sourceid_NY.GDP.PCAP.PP.KD.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production..{p_end}
+{synopt:{opt Source Notes}}Annual percentage growth rate of GDP per capita based on purchasing power parity (PPP). GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2000 international dollars..{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.GDS.TOTL.KD:NY.GDS.TOTL.KD} - Gross domestic savings, total (constant 2000 US$)}{marker sourceid_NY.GDS.TOTL.KD}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption)..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Comparison Programme database..{p_end}
 
 
 
@@ -6117,7 +6079,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GDS.TOTL.KN:NY.GDS.TOTL.KN} - Gross domestic savings (constant LCU)}{marker sourceid_NY.GDS.TOTL.KN}
+{dlgtab: {help wbopendata_sourceid##NY.GDS.TOTL.KN:NY.GDS.TOTL.KN} - Gross domestic savings (constant 1987 LCU)}{marker sourceid_NY.GDS.TOTL.KN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6156,6 +6118,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##NY.GDY.TOTL.KD.87:NY.GDY.TOTL.KD.87} - Gross domestic income (constant 1987 US$)}{marker sourceid_NY.GDY.TOTL.KD.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Gross domestic income is derived as the sum of GDP and the terms of trade adjustment. Data are in constant local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##NY.GDY.TOTL.KN.87:NY.GDY.TOTL.KN.87} - Gross domestic income (constant 1987 LCU)}{marker sourceid_NY.GDY.TOTL.KN.87}
 
 
@@ -6169,7 +6144,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GEN.AEDU.GD.ZS:NY.GEN.AEDU.GD.ZS} - Genuine savings: carbon dioxide damage (% of GDP)}{marker sourceid_NY.GEN.AEDU.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##NY.GEN.AEDU.GD.ZS:NY.GEN.AEDU.GD.ZS} - Genuine savings: education expenditure (% of GDP)}{marker sourceid_NY.GEN.AEDU.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6182,7 +6157,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GEN.DCO2.GD.ZS:NY.GEN.DCO2.GD.ZS} - Genuine savings: net forest depletion (% of GDP)}{marker sourceid_NY.GEN.DCO2.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##NY.GEN.DCO2.GD.ZS:NY.GEN.DCO2.GD.ZS} - Genuine savings: carbon dioxide damage (% of GDP)}{marker sourceid_NY.GEN.DCO2.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6195,7 +6170,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GEN.DFOR.GD.ZS:NY.GEN.DFOR.GD.ZS} - Genuine savings: consumption of fixed capital (% of GDP)}{marker sourceid_NY.GEN.DFOR.GD.ZS}
+{dlgtab: {help wbopendata_sourceid##NY.GEN.DFOR.GD.ZS:NY.GEN.DFOR.GD.ZS} - Genuine savings: net forest depletion (% of GDP)}{marker sourceid_NY.GEN.DFOR.GD.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6260,6 +6235,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##NY.GEN.SVNG.GD.ZS:NY.GEN.SVNG.GD.ZS} - Genuine domestic savings (% of GDP)}{marker sourceid_NY.GEN.SVNG.GD.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. Data are in current U.S. dollars. GNI, calculated in national currency, is usually converted to U.S. dollars at official exchange rates for comparisons across economies, although an alternative rate is used when the official exchange rate is judged to diverge by an exceptionally large margin from the rate actually applied in international transactions. To smooth fluctuations in prices and exchange rates, a special Atlas method of conversion is used by the World Bank. This applies a conversion factor that averages the exchange rate for a given year and the two preceding years, adjusted for differences in rates of inflation between the country, and through 2000, the G-5 countries (France, Germany, Japan, the United Kingdom, and the United States). From 2001, these countries include the Euro area, Japan, the United Kingdom, and the United States..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##NY.GNP.MKTP.KD.87:NY.GNP.MKTP.KD.87} - GNP at market prices (constant 1987 US$)}{marker sourceid_NY.GNP.MKTP.KD.87}
 
 
@@ -6273,7 +6261,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GNP.MKTP.KN.87:NY.GNP.MKTP.KN.87} - GNP at market prices (constant 1987 LCU)}{marker sourceid_NY.GNP.MKTP.KN.87}
+{dlgtab: {help wbopendata_sourceid##NY.GNP.MKTP.KN.87:NY.GNP.MKTP.KN.87} - GNP growth (annual %)}{marker sourceid_NY.GNP.MKTP.KN.87}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6299,19 +6287,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GNP.MKTP.PP.KD.87:NY.GNP.MKTP.PP.KD.87} - GNP, PPP (constant 1987 international $)}{marker sourceid_NY.GNP.MKTP.PP.KD.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}GNI per capita (formerly GNP per capita) is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. GNI, calculated in national currency, is usually converted to U.S. dollars at official exchange rates for comparisons across economies, although an alternative rate is used when the official exchange rate is judged to diverge by an exceptionally large margin from the rate actually applied in international transactions. To smooth fluctuations in prices and exchange rates, a special Atlas method of conversion is used by the World Bank. This applies a conversion factor that averages the exchange rate for a given year and the two preceding years, adjusted for differences in rates of inflation between the country, and through 2000, the G-5 countries (France, Germany, Japan, the United Kingdom, and the United States). From 2001, these countries include the Euro area, Japan, the United Kingdom, and the United States..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##NY.GNP.PCAP.CD.AT:NY.GNP.PCAP.CD.AT} - GNP per capita (Atlas method) (US$,curr. pr.)}{marker sourceid_NY.GNP.PCAP.CD.AT}
 
 
@@ -6322,32 +6297,6 @@
 {synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.GNP.PCAP.KD.87:NY.GNP.PCAP.KD.87} - GNP per capita (constant 1987 US$)}{marker sourceid_NY.GNP.PCAP.KD.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Annual percentage growth rate of GNI per capita based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad..{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##NY.GNP.PCAP.KN.87:NY.GNP.PCAP.KN.87} - GNP per capita (constant 1987 LCU)}{marker sourceid_NY.GNP.PCAP.KN.87}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}GNI per capita based on purchasing power parity (PPP). PPP GNI is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. dollar has in the United States. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. Data are in current international dollars based on the 2011 ICP round..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database..{p_end}
 
 
 
@@ -6364,7 +6313,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##NY.GNP.PCAP.ZG:NY.GNP.PCAP.ZG} - GNP per capita growth (annual %)}{marker sourceid_NY.GNP.PCAP.ZG}
+{dlgtab: {help wbopendata_sourceid##NY.GNP.PCAP.ZG:NY.GNP.PCAP.ZG} - Gross national product per capita (USD, Atlas meth.)}{marker sourceid_NY.GNP.PCAP.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6385,6 +6334,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Gross savings are calculated as gross national income less total consumption, plus net transfers. Data are in current U.S. dollars..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NY.GNS.PUBL.KN:NY.GNS.PUBL.KN} - Gross national savings, public (constant LCU)}{marker sourceid_NY.GNS.PUBL.KN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Gross national income is derived as the sum of GNP and the terms of trade adjustment. Data are in current local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
@@ -6416,6 +6378,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##NY.GNY.TOTL.KD.87:NY.GNY.TOTL.KD.87} - Gross national income (constant 1987 US$)}{marker sourceid_NY.GNY.TOTL.KD.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Gross national income is derived as the sum of GNP and the terms of trade adjustment. Data are in constant local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##NY.GNY.TOTL.KN.87:NY.GNY.TOTL.KN.87} - Gross national income (constant 1987 LCU)}{marker sourceid_NY.GNY.TOTL.KN.87}
 
 
@@ -6424,6 +6399,19 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Net income includes the net labor income and net property and entrepreneurial income components of the SNA. Labor income covers compensation of employees paid to nonresident workers. Property and entrepreneurial income covers investment income from the ownership of foreign financial claims (interest, dividends, rent, etc.) and nonfinancial property income (patents, copyrights, etc.). Data are in current U.S. dollars..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##NY.GSR.NFCY.KD.87:NY.GSR.NFCY.KD.87} - Net income from abroad (constant 1987 US$)}{marker sourceid_NY.GSR.NFCY.KD.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Net income includes the net labor income and net property and entrepreneurial income components of the SNA. Labor income covers compensation of employees paid to nonresident workers. Property and entrepreneurial income covers investment income from the ownership of foreign financial claims (interest, dividends, rent, etc.) and nonfinancial property income (patents, copyrights, etc.). Data are in constant local currency..{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
 
@@ -6468,6 +6456,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##NY.TTF.GNFS.KD.87:NY.TTF.GNFS.KD.87} - Terms of trade adjustment (constant 1987 US$)}{marker sourceid_NY.TTF.GNFS.KD.87}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The terms of trade effect equals capacity to import less exports of goods and services in constant prices. Data are in constant local currency..{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##NY.TTF.GNFS.KN.87:NY.TTF.GNFS.KN.87} - Terms of trade adjustment (constant 1987 LCU)}{marker sourceid_NY.TTF.GNFS.KN.87}
 
 
@@ -6491,6 +6492,19 @@
 {synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources..{p_end}
 
 {synopt:{opt Source Organization}}The World Bank.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##PA.NUS.FCRF.XR:PA.NUS.FCRF.XR} - Official exchange rate to parallel exchange rate ratio}{marker sourceid_PA.NUS.FCRF.XR}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Purchasing power parity conversion factor is the number of units of a country's currency required to buy the same amounts of goods and services in the domestic market as U.S. dollar would buy in the United States. This conversion factor is for GDP. For most economies PPP figures are extrapolated from the 2011 International Comparison Program (ICP) benchmark estimates or imputed using a statistical model based on the 2011 ICP. For 47 high- and upper middle-income economies conversion factors are provided by Eurostat and the Organisation for Economic Co-operation and Development (OECD)..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Comparison Program database..{p_end}
 
 
 
@@ -6546,6 +6560,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##SABER.WORK.GOAL3.LVL3:SABER.WORK.GOAL3.LVL3} - Illiteracy rate, youth female (% of females ages 15-24)}{marker sourceid_SABER.WORK.GOAL3.LVL3}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life..{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##SE.ADT.1524.IL.FE.ZS:SE.ADT.1524.IL.FE.ZS} - Illiteracy rate, youth male (% of males ages 15-24)}{marker sourceid_SE.ADT.1524.IL.FE.ZS}
 
 
@@ -6559,7 +6586,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SE.ADT.1524.IL.MA.ZS:SE.ADT.1524.IL.MA.ZS} - Illiteracy rate, youth total (% of people ages 15-24)}{marker sourceid_SE.ADT.1524.IL.MA.ZS}
+{dlgtab: {help wbopendata_sourceid##SE.ADT.1524.IL.MA.ZS:SE.ADT.1524.IL.MA.ZS} - Illiteracy rate, youth male (% of males ages 15-24)}{marker sourceid_SE.ADT.1524.IL.MA.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life..{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SE.ADT.1524.IL.ZS:SE.ADT.1524.IL.ZS} - Illiteracy rate, youth total (% of people ages 15-24)}{marker sourceid_SE.ADT.1524.IL.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6624,14 +6664,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SE.PRM.AGEE.ZS:SE.PRM.AGEE.ZS} - Age efficiency, primary (net enrollment as % of gross)}{marker sourceid_SE.PRM.AGEE.ZS}
+{dlgtab: {help wbopendata_sourceid##SE.ENR.SECO.ZS:SE.ENR.SECO.ZS} - School Enroll. Ratio, secondary school (%)}{marker sourceid_SE.ENR.SECO.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Primary school starting age is the age at which students would enter primary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the system without repeating or skipping a grade..{p_end}
+{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools..{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
@@ -6689,6 +6729,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##SE.PRM.PRS4.ZS:SE.PRM.PRS4.ZS} - Persistence to grade 4, total (% of cohort)}{marker sourceid_SE.PRM.PRS4.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method..{p_end}
+
+{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##SE.SCH.EFIC.ZS:SE.SCH.EFIC.ZS} - Education coefficient of efficiency (ideal years to graduate as % of actual)}{marker sourceid_SE.SCH.EFIC.ZS}
 
 
@@ -6697,32 +6750,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified level of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levels of education specified. The part of the enrolment that is not distributed by age is divided by the school-age population for the level of education they are enrolled in, and multiplied by the duration of that level of education. The result is then added to the sum of the age-specific enrolment rates. A relatively high SLE indicates greater probability for children to spend more years in education and higher overall retention within the education system. It must be noted that the expected number of years does not necessarily coincide with the expected number of grades of education completed, because of repetition. Since school life expectancy is an average based on participation in different levels of education, the expected number of years of schooling may be pulled down by the magnitude of children who never go to school. Those children who are in school may benefit from many more years of education than the average..{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SE.SEC.AGEE.ZS:SE.SEC.AGEE.ZS} - Age efficiency, secondary (net enrollment as % of gross)}{marker sourceid_SE.SEC.AGEE.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the system without repeating or skipping a grade..{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SE.SEC.ENRR.MF:SE.SEC.ENRR.MF} - School Enroll. Ratio, secondary (%)}{marker sourceid_SE.SEC.ENRR.MF}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Total enrollment in upper secondary education, regardless of age, expressed as a percentage of the total population of official upper secondary education age..{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
@@ -6741,7 +6768,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SE.SEC.REPT.MA.ZS:SE.SEC.REPT.MA.ZS} - Repeaters, secondary, total (% of total enrollment)}{marker sourceid_SE.SEC.REPT.MA.ZS}
+{dlgtab: {help wbopendata_sourceid##SE.SEC.REPT.MA.ZS:SE.SEC.REPT.MA.ZS} - Repeaters, secondary, male (% of male enrollment)}{marker sourceid_SE.SEC.REPT.MA.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6897,7 +6924,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SE.XPD.EDUC.ZS:SE.XPD.EDUC.ZS} - All education staff compensation, primary (% of total expenditure in primary public institutions)}{marker sourceid_SE.XPD.EDUC.ZS}
+{dlgtab: {help wbopendata_sourceid##SE.XPD.EDUC.ZS:SE.XPD.EDUC.ZS} - Public Expenditure on Education  (% GDP)}{marker sourceid_SE.XPD.EDUC.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6962,7 +6989,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SE.XPD.SECO.GDP.ZS:SE.XPD.SECO.GDP.ZS} - Public spending on education, secondary (% of GDP)}{marker sourceid_SE.XPD.SECO.GDP.ZS}
+{dlgtab: {help wbopendata_sourceid##SE.XPD.TERT.GDP.ZS:SE.XPD.TERT.GDP.ZS} - Public spending on education, tertiary (% of GDP)}{marker sourceid_SE.XPD.TERT.GDP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -6975,7 +7002,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SE.XPD.TOTL.GN.ZS:SE.XPD.TOTL.GN.ZS} - Fax machines (per 1,000 people)}{marker sourceid_SE.XPD.TOTL.GN.ZS}
+{dlgtab: {help wbopendata_sourceid##SE.XPD.TOTL.GN.ZS:SE.XPD.TOTL.GN.ZS} - Public spending on education, total (% of GNI, UNESCO)}{marker sourceid_SE.XPD.TOTL.GN.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -7040,7 +7067,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SF.CMN.MNLN.TH:SF.CMN.MNLN.TH} - Telephone mainlines (per 1,000 people)}{marker sourceid_SF.CMN.MNLN.TH}
+{dlgtab: {help wbopendata_sourceid##SF.CMN.MNLN.TH:SF.CMN.MNLN.TH} - Daily newspapers (per 1,000 people)}{marker sourceid_SF.CMN.MNLN.TH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -7053,7 +7080,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SF.CMN.NEWS.TH:SF.CMN.NEWS.TH} - Personal computers (per 1,000 people)}{marker sourceid_SF.CMN.NEWS.TH}
+{dlgtab: {help wbopendata_sourceid##SF.CMN.NEWS.TH:SF.CMN.NEWS.TH} - Daily newspapers (per 1,000 people)}{marker sourceid_SF.CMN.NEWS.TH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -7131,7 +7158,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SF.CMN.TELE.TH:SF.CMN.TELE.TH} - Aircraft departures (thousands)}{marker sourceid_SF.CMN.TELE.TH}
+{dlgtab: {help wbopendata_sourceid##SF.CMN.TELE.TH:SF.CMN.TELE.TH} - Television sets (per 1,000 people)}{marker sourceid_SF.CMN.TELE.TH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -7222,25 +7249,12 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.ADM.INPT:SH.ADM.INPT} - Inpatient admission rate (% of population )}{marker sourceid_SH.ADM.INPT}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption..{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository (http://apps.who.int/ghodata/)..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - Improved water source, rural (% of rural population with access)}{marker sourceid_SH.H2O.SAFE.RU.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}19 Climate Change.{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development.{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection)..{p_end}
 
@@ -7253,7 +7267,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}08 Health.{p_end}
+{synopt:{opt Topics}}19 Climate Change.{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection)..{p_end}
 
@@ -7271,19 +7285,6 @@
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection)..{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation (http://www.wssinfo.org/)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SH.MLR.DTHS.TOTL:SH.MLR.DTHS.TOTL} - Reported malaria deaths (total)}{marker sourceid_SH.MLR.DTHS.TOTL}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sector, self-medicating or not seeking treatment at all, and potential over-diagnosis through the lack of laboratory confirmation of cases..{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization..{p_end}
 
 
 
@@ -7318,7 +7319,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}19 Climate Change.{p_end}
+{synopt:{opt Topics}}08 Health.{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet..{p_end}
 
@@ -7344,7 +7345,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}16 Urban Development.{p_end}
+{synopt:{opt Topics}}08 Health.{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet..{p_end}
 
@@ -7365,6 +7366,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##SH.STA.DIRH.ZS:SH.STA.DIRH.ZS} - Diarrhea prevalence (% of children under 5)}{marker sourceid_SH.STA.DIRH.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of children with fever: Percentage of children under age five years with fever in the two weeks preceding the survey..{p_end}
+
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS).{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##SH.TBS.DOTS:SH.TBS.DOTS} - Tuberculosis cases detected under DOTS (%)}{marker sourceid_SH.TBS.DOTS}
 
 
@@ -7375,19 +7389,6 @@
 {synopt:{opt Source Notes}}Tuberculosis case detection rate (all forms) is the number of new and relapse tuberculosis cases notified to WHO in a given year, divided by WHO's estimate of the number of incident tuberculosis cases for the same year, expressed as a percentage. Estimates for all years are recalculated as new information becomes available and techniques are refined, so they may differ from those published previously..{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SH.TBS.PREV.LW:SH.TBS.PREV.LW} - Tuberculosis prevalence rate, low uncertainty bound (per 1000,000 population, WHO)}{marker sourceid_SH.TBS.PREV.LW}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure.{p_end}
-
-{synopt:{opt Source Organization}}Wagstaff et al. Progress on Impoverishing Health Spending: Results for 122 Countries. A Retrospective Observational Study, Lancet Global Health 2017.{p_end}
 
 
 
@@ -7443,19 +7444,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.XPD.HLTH.ZS:SH.XPD.HLTH.ZS} - Public Expenditure on Health (% GDP)}{marker sourceid_SH.XPD.HLTH.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Level of capital investments on health expressed as a percentage of GDP.  Capital health investments include health infrastructure (buildings, machinery, IT) and stocks of vaccines for emergency or outbreaks..{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (http://apps.who.int/nha/database)..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SH.XPD.OOPC.TO.ZS:SH.XPD.OOPC.TO.ZS} - Out-of-pocket health expenditure (% of total expenditure on health)}{marker sourceid_SH.XPD.OOPC.TO.ZS}
 
 
@@ -7503,6 +7491,19 @@
 {synopt:{opt Topics}}08 Health.{p_end}
 
 {synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation. Data are in international dollars converted using 2011 purchasing power parity (PPP) rates..{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates)..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SH.XPD.PPPC:SH.XPD.PPPC} - Health expenditure per capita, PPP (current international $)}{marker sourceid_SH.XPD.PPPC}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates)..{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates)..{p_end}
 
@@ -7599,20 +7600,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)}{marker sourceid_SI.POV.DDAY.RE}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the depth of poverty as well as its incidence. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SI.POV.DDAY.SH:SI.POV.DDAY.SH} - Poverty gap at $3.10 a day (2011 PPP) (%)}{marker sourceid_SI.POV.DDAY.SH}
+{dlgtab: {help wbopendata_sourceid##SI.POV.DDAY.SH:SI.POV.DDAY.SH} - Share of total poor population (at $1.90 a day, 2011 PPP)}{marker sourceid_SI.POV.DDAY.SH}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -7677,7 +7665,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SL.AGR.TOTL.IN.ZS:SL.AGR.TOTL.IN.ZS} - Labor Force, Agriculture (%)}{marker sourceid_SL.AGR.TOTL.IN.ZS}
+{dlgtab: {help wbopendata_sourceid##SL.AGR.TOTL.IN.ZS:SL.AGR.TOTL.IN.ZS} - Labor force in agriculture (%)}{marker sourceid_SL.AGR.TOTL.IN.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -7703,12 +7691,25 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS} - Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)}{marker sourceid_SL.EMP.INSV.FE.ZS}
+{dlgtab: {help wbopendata_sourceid##SL.AGR.TOTL.ZS:SL.AGR.TOTL.ZS} - Labor force in agriculture (% of total)}{marker sourceid_SL.AGR.TOTL.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}17 Gender.{p_end}
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population..{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SL.EMP.IND:SL.EMP.IND} - Number of people employed in industrial sector}{marker sourceid_SL.EMP.IND}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3)..{p_end}
 
@@ -7716,16 +7717,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SL.GDP.PCAP.EM.XD:SL.GDP.PCAP.EM.XD} - GDP per person employed, index (1980 = 100)}{marker sourceid_SL.GDP.PCAP.EM.XD}
+{dlgtab: {help wbopendata_sourceid##SL.EMP.INSV.FE.ZS:SL.EMP.INSV.FE.ZS} - Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)}{marker sourceid_SL.EMP.INSV.FE.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}.{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4)..{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3)..{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018..{p_end}
+{synopt:{opt Source Organization}}International Labour Organization..{p_end}
 
 
 
@@ -7786,7 +7787,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}04 Education.{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with primary education is the share of the female labor force that attained or completed primary education as the highest level of education..{p_end}
 
@@ -7799,7 +7800,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with primary education is the share of the male labor force that attained or completed primary education as the highest level of education..{p_end}
 
@@ -7825,7 +7826,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}04 Education.{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education..{p_end}
 
@@ -7838,7 +7839,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}17 Gender.{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education..{p_end}
 
@@ -7864,7 +7865,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}04 Education.{p_end}
+{synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education..{p_end}
 
@@ -7877,7 +7878,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education..{p_end}
 
@@ -7890,7 +7891,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}04 Education.{p_end}
 
 {synopt:{opt Source Notes}}Labor force with tertiary education is the share of the total labor force that attained or completed tertiary education as the highest level of education..{p_end}
 
@@ -7968,7 +7969,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with primary education is the share of the female unemployed who attained or completed primary education as the highest level..{p_end}
 
@@ -7981,7 +7982,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with primary education is the share of the male unemployed who attained or completed primary education as the highest level..{p_end}
 
@@ -8007,7 +8008,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}17 Gender.{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with secondary education is the share of the female unemployed who attained or completed secondary education as the highest level..{p_end}
 
@@ -8020,7 +8021,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor.{p_end}
+{synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with secondary education is the share of the male unemployed who attained or completed secondary education as the highest level..{p_end}
 
@@ -8059,7 +8060,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}08 Health.{p_end}
+{synopt:{opt Topics}}07 Financial Sector.{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and older with tertiary education..{p_end}
 
@@ -8067,7 +8068,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SM.MMR.DTHS:SM.MMR.DTHS} - Number of maternal mortality deaths}{marker sourceid_SM.MMR.DTHS}
+{dlgtab: {help wbopendata_sourceid##SM.MMR.DTHS:SM.MMR.DTHS} - Foreign population}{marker sourceid_SM.MMR.DTHS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8223,16 +8224,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SP.DYN.TFRT:SP.DYN.TFRT} - Total Fertility Rate (births per woman)}{marker sourceid_SP.DYN.TFRT}
+{dlgtab: {help wbopendata_sourceid##SP.DYN.IMRT:SP.DYN.IMRT} - Infant Mortality Rate (per thousand live births)}{marker sourceid_SP.DYN.IMRT}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year..{p_end}
+{synopt:{opt Source Notes}}Infant mortality rate, female is the number of female infants dying before reaching one year of age, per 1,000 female live births in a given year..{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme..{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at www.childmortality.org..{p_end}
 
 
 
@@ -8249,7 +8250,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SP.POP.1564.IN:SP.POP.1564.IN} - Population ages 15-64 (% of total)}{marker sourceid_SP.POP.1564.IN}
+{dlgtab: {help wbopendata_sourceid##SP.POP.1564.IN:SP.POP.1564.IN} - Population aged 15-64, total}{marker sourceid_SP.POP.1564.IN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8257,32 +8258,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SP.POP.1564.IN.ZS:SP.POP.1564.IN.ZS} - Population ages 15-64 (% of total)}{marker sourceid_SP.POP.1564.IN.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SP.POP.65UP.MF.ZS:SP.POP.65UP.MF.ZS} - Women ages 65 and above (per 100 men)}{marker sourceid_SP.POP.65UP.MF.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision..{p_end}
 
@@ -8353,7 +8328,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SP.URB.MCTY:SP.URB.MCTY} - Population in urban agglomerations &gt; 1 million (% of total pop)}{marker sourceid_SP.URB.MCTY}
+{dlgtab: {help wbopendata_sourceid##SP.URB.MCTY:SP.URB.MCTY} - Population in urban agglomerations &gt; 1 million}{marker sourceid_SP.URB.MCTY}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8379,46 +8354,33 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SR.ARE.ARBL.K2:SR.ARE.ARBL.K2} - Arable land area (sq km)}{marker sourceid_SR.ARE.ARBL.K2}
+{dlgtab: {help wbopendata_sourceid##SR.ARE.ARBL.K2:SR.ARE.ARBL.K2} - Surface area (sq km)}{marker sourceid_SR.ARE.ARBL.K2}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from 100..{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located or by a government agency directly or by a governing body (council, committee etc.), most of whose members are either appointed by a public authority of the country where it is located or elected by public franchise..{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SR.ARE.SURF.K2:SR.ARE.SURF.K2} - Surface area (sq km)}{marker sourceid_SR.ARE.SURF.K2}
+{dlgtab: {help wbopendata_sourceid##TG.VAL.TOTL.GD.PP.ZS:TG.VAL.TOTL.GD.PP.ZS} - Trade (% of GDP, PPP)}{marker sourceid_TG.VAL.TOTL.GD.PP.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate from 100..{p_end}
+{synopt:{opt Source Notes}}Merchandise trade as a share of GDP is the sum of merchandise exports and imports divided by the value of GDP, all in current U.S. dollars..{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##TG.VAL.TOTL.GG.ZS:TG.VAL.TOTL.GG.ZS} - Trade in goods (% of goods GDP)}{marker sourceid_TG.VAL.TOTL.GG.ZS}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Number of products (at SITC, Revision 3, 3-digit group level) imported by country or country grouping; this figure includes only those products that are greater than 100,000 dollars or more than 0.3 per cent of the country’s or country group’s total imports.  The maximum number of products is 261..{p_end}
-
-{synopt:{opt Source Organization}}UNCTAD Statistical Office, also reported in the UNCTAD Handbook of Statistics, various issues (http://unctadstat.unctad.org/)..{p_end}
+{synopt:{opt Source Organization}}World Trade Organization, and World Bank GDP estimates..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##TM.PRI.MRCH.CD.UN:TM.PRI.MRCH.CD.UN} - Merchandise import price index (1987 = 100)}{marker sourceid_TM.PRI.MRCH.CD.UN}
+{dlgtab: {help wbopendata_sourceid##TM.PRI.MRCH.CD.UN:TM.PRI.MRCH.CD.UN} - Import Price Index, cif (1980=100, US$-based)}{marker sourceid_TM.PRI.MRCH.CD.UN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8441,32 +8403,6 @@
 {synopt:{opt Source Notes}}Total merchandise imports  price index with 1987=100..{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##TM.PRI.MRCH.XD:TM.PRI.MRCH.XD} - Import Price Index, cif (1987=100,US$-based)}{marker sourceid_TM.PRI.MRCH.XD}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Total merchandise imports  price index with 1987=100..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##TM.VAL.FOOD.KD.WB:TM.VAL.FOOD.KD.WB} - Food (% of merchandise imports)}{marker sourceid_TM.VAL.FOOD.KD.WB}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels)..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division..{p_end}
 
 
 
@@ -8496,14 +8432,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TM.VAL.FUEL.UN.ZS:TM.VAL.FUEL.UN.ZS} - Fuel (% of merchandise imports)}{marker sourceid_TM.VAL.FUEL.UN.ZS}
+{dlgtab: {help wbopendata_sourceid##TM.VAL.MANF.CD:TM.VAL.MANF.CD} - CP Imports of Manufactures (US$)}{marker sourceid_TM.VAL.MANF.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Fuels comprise the commodities in SITC section 3 (mineral fuels, lubricants and related materials)..{p_end}
+{synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals)..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division..{p_end}
 
@@ -8587,7 +8523,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TM.VAL.MRCH.KD.UN:TM.VAL.MRCH.KD.UN} - Merchandise imports (constant 1987 US$)}{marker sourceid_TM.VAL.MRCH.KD.UN}
+{dlgtab: {help wbopendata_sourceid##TM.VAL.MRCH.KD.UN:TM.VAL.MRCH.KD.UN} - Import growth, volume (annual %)}{marker sourceid_TM.VAL.MRCH.KD.UN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8626,7 +8562,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TM.VAL.NFPP.CD:TM.VAL.NFPP.CD} - Imports of Nonfuel Primary Prod.(US$,curr. pr.)}{marker sourceid_TM.VAL.NFPP.CD}
+{dlgtab: {help wbopendata_sourceid##TM.VAL.NFPP.CD:TM.VAL.NFPP.CD} - CP Imports of Nonfuel Primary Products (US$)}{marker sourceid_TM.VAL.NFPP.CD}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8688,6 +8624,19 @@
 {synopt:{opt Source Notes}}The terms of trade effect equals capacity to import less exports of goods and services..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TRD.ACRS.BRDR.RK.DB19:TRD.ACRS.BRDR.RK.DB19} - Rank: Trading across borders (1=most business-friendly regulations) (DB19 methodology)}{marker sourceid_TRD.ACRS.BRDR.RK.DB19}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
 
 
 
@@ -8756,7 +8705,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TX.PRI.MRCH.CD.UN:TX.PRI.MRCH.CD.UN} - Merchandise export price index (1987 = 100)}{marker sourceid_TX.PRI.MRCH.CD.UN}
+{dlgtab: {help wbopendata_sourceid##TX.PRI.MRCH.CD.UN:TX.PRI.MRCH.CD.UN} - Export Price Index, fob (1980=100, US$-based)}{marker sourceid_TX.PRI.MRCH.CD.UN}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8805,6 +8754,32 @@
 {synopt:{opt Source Notes}}This item is a price index measuring changes in the aggregate price level of a country's non-factor services exports over time with 1987 price index=100..{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TX.PRI.NFPR.ID:TX.PRI.NFPR.ID} - Nonfuel Prim.Prod.Exp.Price Index (1980=100,US$-based)}{marker sourceid_TX.PRI.NFPR.ID}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}This item is a price index measuring changes in the aggregate price level of a country's non-factor services exports over time with 1987 price index=100..{p_end}
+
+{synopt:{opt Source Organization}}World Bank  country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TX.VAL.COM4.KD.WB:TX.VAL.COM4.KD.WB} - Fuels, minerals, and metals (% of merchandise exports)}{marker sourceid_TX.VAL.COM4.KD.WB}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels)..{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division..{p_end}
 
 
 
@@ -8860,20 +8835,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TX.VAL.MANF.UN.ZS:TX.VAL.MANF.UN.ZS} - Manufactures (% of merchandise exports)}{marker sourceid_TX.VAL.MANF.UN.ZS}
+{dlgtab: {help wbopendata_sourceid##TX.VAL.MCHT.UN.ZS:TX.VAL.MCHT.UN.ZS} - Machinery and transport equipment (% of merchandise exports)}{marker sourceid_TX.VAL.MCHT.UN.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Manufactures comprise commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (non-ferrous metals)..{p_end}
+{synopt:{opt Source Notes}}Ores and metals comprise the commodities in SITC sections 27 (crude fertilizer, minerals nes); 28 (metalliferous ores, scrap); and 68 (non-ferrous metals)..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##TX.VAL.MCHT.UN.ZS:TX.VAL.MCHT.UN.ZS} - Machinery and transport equipment (% of merchandise exports)}{marker sourceid_TX.VAL.MCHT.UN.ZS}
+{dlgtab: {help wbopendata_sourceid##TX.VAL.METL.UN.ZS:TX.VAL.METL.UN.ZS} - Metals (% of merchandise exports)}{marker sourceid_TX.VAL.METL.UN.ZS}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8925,6 +8900,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##TX.VAL.MRCH.CD.UN.ZG:TX.VAL.MRCH.CD.UN.ZG} - Export growth, value (annual %)}{marker sourceid_TX.VAL.MRCH.CD.UN.ZG}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Merchandise exports (current US$) show the f.o.b. value of goods provided to the rest of the world valued in U.S. dollars. They are classified using the Standard International Trade Classification (SITC). Data are in current U.S. dollars..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##TX.VAL.MRCH.KD:TX.VAL.MRCH.KD} - Exports, fob (1980 US$) (Const. Price)}{marker sourceid_TX.VAL.MRCH.KD}
 
 
@@ -8939,6 +8927,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##TX.VAL.MRCH.KD.UN:TX.VAL.MRCH.KD.UN} - Export growth, volume (annual %)}{marker sourceid_TX.VAL.MRCH.KD.UN}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Merchandise exports (constant 1987 US$) show the f.o.b. value of goods provided to the rest of the world valued in U.S. dollars. They are classified using the Standard International Trade Classification (SITC). Data are in constant U.S. dollars..{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TX.VAL.MRCH.KD.UN.ZG:TX.VAL.MRCH.KD.UN.ZG} - Export growth, volume (annual %)}{marker sourceid_TX.VAL.MRCH.KD.UN.ZG}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -8977,19 +8978,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##TX.VAL.NFPR.CD:TX.VAL.NFPR.CD} - CP Exports of Nonfuel Primary Products (US$)}{marker sourceid_TX.VAL.NFPR.CD}
-
-
-{synopt:{opt Source}}57 WDI Database Archives.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Exports of other primary commodities in current US dollars and fob basis..{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##TX.VAL.OCOM.KD.WB:TX.VAL.OCOM.KD.WB} - Other primary commodities exports (constant US$)}{marker sourceid_TX.VAL.OCOM.KD.WB}
 
 
@@ -9000,6 +8988,32 @@
 {synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service exports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; and personal, cultural, and recreational services..{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TX.VAL.OPRM.UN.ZS:TX.VAL.OPRM.UN.ZS} - Other primary commodities (% of merchandise exports)}{marker sourceid_TX.VAL.OPRM.UN.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service exports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; and personal, cultural, and recreational services..{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##TX.VAL.SERV.MT.ZS:TX.VAL.SERV.MT.ZS} - Ratio of commercial service exports to merchandise exports (%)}{marker sourceid_TX.VAL.SERV.MT.ZS}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Total Primary Commodities exports in current US dollars. Values are in fob basis..{p_end}
+
+{synopt:{opt Source Organization}}World Bank  country economists..{p_end}
 
 
 
@@ -9052,6 +9066,19 @@
 {synopt:{opt Source Notes}}Average number of grade levels that have been merged into multigrade classes in public primary schools. A multigrade class is a class in which students from two or more grades are taught by one teacher in one room at the same time. The existence of multigrade classes can suggest shortages of teachers, classrooms, or low enrolment numbers. Data available for African countries only. For more information, consult the UNESCO Institute for Statistics' Regional Data Collections page..{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##UIS.XUNIT.USCONST.5T8.FSHH:UIS.XUNIT.USCONST.5T8.FSHH} - Initial household funding per tertiary student, constant US$}{marker sourceid_UIS.XUNIT.USCONST.5T8.FSHH}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The Human Development Index (HDI) is a summary measure of human development. It measures the average achievements in a country in three basic dimensions of human development: a long and healthy life, access to knowledge and a decent standard of living. The HDI is the geometric mean of normalized indices measuring achievements in each dimension. The HDI is the geometric mean of the three dimension indices and embodies imperfect substitutability across all HDI dimensions. It thus addresses one of the most serious criticisms of the linear aggregation formula, which allowed for perfect substitution across dimensions. Some substitutability is inherent in the definition of any index that increases with the values of its components. Data sources: Life expectancy at birth: UNDESA; Mean years of schooling: Barro and Lee; Expected years of schooling: UNESCO Institute for Statistics; Gross national income (GNI) per capita: World Bank..{p_end}
+
+{synopt:{opt Source Organization}}http://hdr.undp.org/en/statistics/data/.{p_end}
 
 
 
@@ -9159,7 +9186,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##VC.HOM.ITEN.P5.HE:VC.HOM.ITEN.P5.HE} - Intentional homicide rate (per 100,000 people, CTS and national sources)}{marker sourceid_VC.HOM.ITEN.P5.HE}
+{dlgtab: {help wbopendata_sourceid##VC.HOM.ITEN.P5.HE:VC.HOM.ITEN.P5.HE} - Intentional homicide rate (per 100,000 people, WHO)}{marker sourceid_VC.HOM.ITEN.P5.HE}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -9172,16 +9199,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##VC.HOM.ITEN.P5.LE:VC.HOM.ITEN.P5.LE} - Intentional homicide rate (per 100,000 people, WHO)}{marker sourceid_VC.HOM.ITEN.P5.LE}
+{dlgtab: {help wbopendata_sourceid##VC.IDP.TOTL:VC.IDP.TOTL} - Internally displaced persons (number)}{marker sourceid_VC.IDP.TOTL}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles (http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement) as people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict, situations of generalized violence, violations of human rights, or natural or human-made disasters and who have not crossed an international border. New Displacement refers to the number of new cases or incidents of displacement recorded over the specified year, rather than the number of people displaced. This is done because people may have been displaced more than once..{p_end}
+{synopt:{opt Source Notes}}Internally displaced persons are people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict, situations of generalized violence, violations of human rights, or natural or human-made disasters and who have not crossed an international border..{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre (http://www.internal-displacement.org/).{p_end}
+{synopt:{opt Source Organization}}Internal Displacement Monitoring Centre..{p_end}
 
 
 
@@ -9211,7 +9238,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##VC.IHR.IPOL.P5:VC.IHR.IPOL.P5} - Intentional homicides, international police sources (per 100,000 people)}{marker sourceid_VC.IHR.IPOL.P5}
+{dlgtab: {help wbopendata_sourceid##VC.IHR.IPOL.P5:VC.IHR.IPOL.P5} - Intentional homicides, government police sources (per 100,000 people)}{marker sourceid_VC.IHR.IPOL.P5}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -9320,7 +9347,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
 
-{synopt:{opt Topics}}17 Gender.{p_end}
+{synopt:{opt Topics}}07 Financial Sector.{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (male, % age 15+). [ts: data are available for multiple waves]..{p_end}
 
@@ -9510,7 +9537,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##allsa.gen_pop:allsa.gen_pop} - Generosity of social safety net programs (% of total welfare of beneficiary households)}{marker sourceid_allsa.gen_pop}
+{dlgtab: {help wbopendata_sourceid##allsa.gen_pop:allsa.gen_pop} - Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits)}{marker sourceid_allsa.gen_pop}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}
@@ -9602,6 +9629,19 @@
 
 
 {dlgtab: {help wbopendata_sourceid##lm_ub.cov_pop:lm_ub.cov_pop} - Coverage of unemployment benefits and ALMP (% of population)}{marker sourceid_lm_ub.cov_pop}
+
+
+{synopt:{opt Source}}57 WDI Database Archives.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of letters and/or symbols representing a single sound, are presented). Students are asked to provide the names of all the letters that they can in one minute. Users are discouraged from using these data to make direct comparisons across countries or languages. Consult the EdData website and the specific country report for more information: www.eddataglobal.org..{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##lm_ub.gen_pop:lm_ub.gen_pop} - Generosity of unemployment benefits and ALMP (% of total welfare of beneficiary households)}{marker sourceid_lm_ub.gen_pop}
 
 
 {synopt:{opt Source}}57 WDI Database Archives.{p_end}

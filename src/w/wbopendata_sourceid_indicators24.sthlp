@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -72,6 +73,19 @@
 
 
 
+{dlgtab: {help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)}{marker sourceid_SI.POV.DDAY.RE}
+
+
+{synopt:{opt Source}}24 Poverty and Equity.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the depth of poverty as well as its incidence. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm)..{p_end}
+
+
+
 {dlgtab: {help wbopendata_sourceid##SI.POV.LMIC.GR:SI.POV.LMIC.GR} - Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change)}{marker sourceid_SI.POV.LMIC.GR}
 
 
@@ -98,29 +112,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SI.POV.NAGP.NC:SI.POV.NAGP.NC} - Poverty gap at national poverty lines (%), including noncomparable values}{marker sourceid_SI.POV.NAGP.NC}
+{dlgtab: {help wbopendata_sourceid##SI.POV.LMIC.RE:SI.POV.LMIC.RE} - Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)}{marker sourceid_SI.POV.LMIC.RE}
 
 
 {synopt:{opt Source}}24 Poverty and Equity.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}National poverty headcount ratio is the percentage of the population living below the national poverty lines. National estimates are based on population-weighted subgroup estimates from household surveys..{p_end}
+{synopt:{opt Source Notes}}Poverty gap at national poverty lines is the mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence..{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SI.POV.NAHC.NC:SI.POV.NAHC.NC} - Poverty headcount ratio at national poverty lines (% of population), including noncomparable values}{marker sourceid_SI.POV.NAHC.NC}
-
-
-{synopt:{opt Source}}24 Poverty and Equity.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The number of people (millions) living on less than $1.90 a day (2011 PPP).{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia.{p_end}
 
 
 
@@ -134,32 +135,6 @@
 {synopt:{opt Source Notes}}The number of people (millions) living on less than $1.90 a day (2011 PPP).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. For more information and methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm)..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SI.POV.RUGP.NC:SI.POV.RUGP.NC} - Rural poverty gap at national poverty lines (%), including noncomparable values}{marker sourceid_SI.POV.RUGP.NC}
-
-
-{synopt:{opt Source}}24 Poverty and Equity.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Rural poverty headcount ratio is the percentage of the rural population living below the national poverty lines..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SI.POV.RUHC.NC:SI.POV.RUHC.NC} - Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values}{marker sourceid_SI.POV.RUHC.NC}
-
-
-{synopt:{opt Source}}24 Poverty and Equity.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Poverty headcount ratio at $5.50 a day is the percentage of the population living on less than $5.50 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/index.htm)..{p_end}
 
 
 
@@ -184,32 +159,6 @@
 {synopt:{opt Topics}}.{p_end}
 
 {synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SI.POV.UMIC.RE:SI.POV.UMIC.RE} - Redistribution component of change in poverty at $5.50 a day (2011 PPP) (% of change)}{marker sourceid_SI.POV.UMIC.RE}
-
-
-{synopt:{opt Source}}24 Poverty and Equity.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SI.POV.URGP.NC:SI.POV.URGP.NC} - Urban poverty gap at national poverty lines (%), including noncomparable values}{marker sourceid_SI.POV.URGP.NC}
-
-
-{synopt:{opt Source}}24 Poverty and Equity.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Urban poverty headcount ratio is the percentage of the urban population living below the national poverty lines..{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines..{p_end}
 
@@ -241,7 +190,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Annualized growth in per capita real survey mean consumption or income, top 10% (%)}{marker sourceid_SI.SPR.PT10.ZG}
+{dlgtab: {help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Survey mean consumption or income per capita, top 60% (2011 PPP $ per day)}{marker sourceid_SI.SPR.PT10.ZG}
 
 
 {synopt:{opt Source}}24 Poverty and Equity.{p_end}

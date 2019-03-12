@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -58,19 +59,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:63 Human Capital Index}
 {synoptline}
-
-{dlgtab: {help wbopendata_sourceid##8.3.2_MOZ.SACMEQ.TEST.6.MAT:8.3.2_MOZ.SACMEQ.TEST.6.MAT} - SACMEQ in Mozambique, grade 5, Mathematics (mean score)}{marker sourceid_8.3.2_MOZ.SACMEQ.TEST.6.MAT}
-
-
-{synopt:{opt Source}}63 Human Capital Index.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper and lower bound is the uncertainty interval. While the uncertainty intervals constructed here do not have a rigorous statistical interpretation, a rule of thumb is that if for two countries they overlap substantially, the differences between their HCI values are not likely to be practically meaningful..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498..{p_end}
-
-
 
 {dlgtab: {help wbopendata_sourceid##HD.HCI.AMRT:HD.HCI.AMRT} - Survival Rate from Age 15-60}{marker sourceid_HD.HCI.AMRT}
 
@@ -105,9 +93,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Adult Survival Rate is calculated by subtracting the mortality rate for 15-60 year-olds from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes..{p_end}
+{synopt:{opt Source Notes}}Expected Years of School is calculated as the sum of age-specific enrollment rates between ages 4 and 17. Age-specific enrollment rates are approximated using school enrollment rates at different levels: pre-primary enrollment rates approximate the age-specific enrolment rates for 4 and 5 year-olds; the primary rate approximates for 6-11 year-olds; the lower-secondary rate approximates for 12-14 year-olds; and the upper-secondary approximates for 15-17 year-olds. Most recent estimates are used. Year of most recent primary enrollment rate used is shown in data notes..{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division, World Population Prospects: 2017 Revision, supplemented with data provided by World Bank Staff..{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on data from UNESCO Institute for Statistics, supplemented with data provided by World Bank staff..{p_end}
 
 
 
@@ -150,7 +138,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.HLOS:HD.HCI.HLOS} - Harmonized Test Scores, Female}{marker sourceid_HD.HCI.HLOS}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.HLOS:HD.HCI.HLOS} - Harmonized Test Scores}{marker sourceid_HD.HCI.HLOS}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
@@ -163,7 +151,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.HLOS.FE:HD.HCI.HLOS.FE} - Harmonized Test Scores, Female}{marker sourceid_HD.HCI.HLOS.FE}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.HLOS.FE:HD.HCI.HLOS.FE} - Harmonized Test Scores, Male}{marker sourceid_HD.HCI.HLOS.FE}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
@@ -176,14 +164,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.HLOS.MA:HD.HCI.HLOS.MA} - Harmonized Test Scores, Male}{marker sourceid_HD.HCI.HLOS.MA}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.HLOS.MA:HD.HCI.HLOS.MA} - Learning-Adjusted Years of School}{marker sourceid_HD.HCI.HLOS.MA}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the most recent estimate is shown in the data notes. Test scores from the following testing programs are included: • TIMSS/PIRLS: Refers to the average of test scores from TIMSS (Trends in International Mathematics and Science Study) and PIRLS (Progress in International Reading Literacy Study), both carried out by the International Association for the Evaluation of Educational Achievement. Data from each PIRLS round is moved to the year of the nearest TIMSS round and averaged with the TIMSS data. • PISA: Refers to test scores from the Programme for International Student Assessment • PISA+TIMSS/PIRLS: Refers to the average of these programs for countries and years where both are available • SACMEQ: Refers to test scores from the Southern and Eastern Africa Consortium for Monitoring Educational Quality • PASEC: Refers to test scores from the Program of Analysis of Education Systems • LLECE: Refers to test scores from the Latin American Laboratory for Assessment of the Quality of Education • EGRA: Refers to test scores from Early Grade Reading Assessments..{p_end}
+{synopt:{opt Source Notes}}Learning-Adjusted Years of School are calculated by multiplying the estimates of Expected Years of School by the ratio of most recent Harmonized Test Score to 625, where 625 corresponds to advancement attainment on the TIMSS (Trends in International Mathematics and Science Study) test..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculation based on methodology in Filmer et al. (2018).  http://documents.worldbank.org/curated/en/243261538075151093/Learning-Adjusted-Years-of-Schooling-LAYS-Defining-A-New-Macro-Measure-of-Education.{p_end}
 
@@ -202,7 +190,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.LAYS.FE:HD.HCI.LAYS.FE} - Learning-Adjusted Years of School, Female}{marker sourceid_HD.HCI.LAYS.FE}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.LAYS.FE:HD.HCI.LAYS.FE} - Learning-Adjusted Years of School, Male}{marker sourceid_HD.HCI.LAYS.FE}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
@@ -222,9 +210,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Probability of Survival to Age 5 is calculated by subtracting the under-5 mortality rate from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes..{p_end}
+{synopt:{opt Source Notes}}Learning-Adjusted Years of School are calculated by multiplying the estimates of Expected Years of School by the ratio of most recent Harmonized Test Score to 625, where 625 corresponds to advancement attainment on the TIMSS (Trends in International Mathematics and Science Study) test..{p_end}
 
-{synopt:{opt Source Organization}}United Nations Inter-agency Group for Child Mortality Estimation (UN IGME), supplemented with data provided by World Bank staff..{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculation based on methodology in Filmer et al. (2018).  http://documents.worldbank.org/curated/en/243261538075151093/Learning-Adjusted-Years-of-Schooling-LAYS-Defining-A-New-Macro-Measure-of-Education.{p_end}
 
 
 
@@ -241,7 +229,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.MORT.FE:HD.HCI.MORT.FE} - Probability of Survival to Age 5, Male}{marker sourceid_HD.HCI.MORT.FE}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.MORT.FE:HD.HCI.MORT.FE} - Probability of Survival to Age 5, Female}{marker sourceid_HD.HCI.MORT.FE}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
@@ -261,9 +249,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health and complete education..{p_end}
+{synopt:{opt Source Notes}}Probability of Survival to Age 5 is calculated by subtracting the under-5 mortality rate from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes..{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498..{p_end}
+{synopt:{opt Source Organization}}United Nations Inter-agency Group for Child Mortality Estimation (UN IGME), supplemented with data provided by World Bank staff..{p_end}
 
 
 
@@ -293,7 +281,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.LB:HD.HCI.OVRL.LB} - Human Capital Index (HCI), Female, Lower Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.LB}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.LB:HD.HCI.OVRL.LB} - Human Capital Index (HCI), Lower Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.LB}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
@@ -306,14 +294,27 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.LB.MA:HD.HCI.OVRL.LB.MA} - Human Capital Index (HCI), Male (scale 0-1)}{marker sourceid_HD.HCI.OVRL.LB.MA}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE} - Human Capital Index (HCI), Female, Lower Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.LB.FE}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health and complete education..{p_end}
+{synopt:{opt Source Notes}}The HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper and lower bound is the uncertainty interval. While the uncertainty intervals constructed here do not have a rigorous statistical interpretation, a rule of thumb is that if for two countries they overlap substantially, the differences between their HCI values are not likely to be practically meaningful..{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.LB.MA:HD.HCI.OVRL.LB.MA} - Human Capital Index (HCI), Male, Lower Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.LB.MA}
+
+
+{synopt:{opt Source}}63 Human Capital Index.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper and lower bound is the uncertainty interval. While the uncertainty intervals constructed here do not have a rigorous statistical interpretation, a rule of thumb is that if for two countries they overlap substantially, the differences between their HCI values are not likely to be practically meaningful..{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498..{p_end}
 
@@ -345,7 +346,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.UB.FE:HD.HCI.OVRL.UB.FE} - Human Capital Index (HCI), Female, Upper Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.UB.FE}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.UB.FE:HD.HCI.OVRL.UB.FE} - Human Capital Index (HCI), Male, Upper Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.UB.FE}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
@@ -358,16 +359,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.UB.MA:HD.HCI.OVRL.UB.MA} - Human Capital Index (HCI), Male, Upper Bound (scale 0-1)}{marker sourceid_HD.HCI.OVRL.UB.MA}
+{dlgtab: {help wbopendata_sourceid##HD.HCI.OVRL.UB.MA:HD.HCI.OVRL.UB.MA} - Fraction of Children Under 5 Not Stunted}{marker sourceid_HD.HCI.OVRL.UB.MA}
 
 
 {synopt:{opt Source}}63 Human Capital Index.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The HCI Upper Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI. The range between the upper and lower bound is the uncertainty interval. While the uncertainty intervals constructed here do not have a rigorous statistical interpretation, a rule of thumb is that if for two countries they overlap substantially, the differences between their HCI values are not likely to be practically meaningful..{p_end}
+{synopt:{opt Source Notes}}Fraction of Children Under 5 Not Stunted is calculated by subtracting stunting rates from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes..{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498..{p_end}
+{synopt:{opt Source Organization}}UNICEF-WHO-World Bank Joint Malnutrition Estimates, supplemented with data provided by World Bank staff..{p_end}
 
 
 
