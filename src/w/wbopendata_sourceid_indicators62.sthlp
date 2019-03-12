@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -202,7 +203,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - Insurance policy holders per 1,000 adults (non-life)}{marker sourceid_s_policyholders_B2_nonlife}
+{dlgtab: {help wbopendata_sourceid##S12:S12} - POPULATION (millions)}{marker sourceid_S12}
+
+
+{synopt:{opt Source}}62 International Comparison Program (ICP) 2011.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced.{p_end}
+
+{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank.{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - EXPENDITURES (National currency units, billions)}{marker sourceid_s_policyholders_B2_nonlife}
 
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011.{p_end}

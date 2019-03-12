@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -58,6 +59,45 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:14 Gender Statistics}
 {synoptline}
+
+{dlgtab: {help wbopendata_sourceid##PRT.PDCL.IND2B.IDX:PRT.PDCL.IND2B.IDX} - Women who do not own a house (% of women age 15-49): Q2}{marker sourceid_PRT.PDCL.IND2B.IDX}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q2 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Men who do not own land (% of men)}{marker sourceid_RQ.PER.RNK.LOWER}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Men who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both..{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SABER.SCH.ATNM.GOAL4.LVL4:SABER.SCH.ATNM.GOAL4.LVL4} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4}{marker sourceid_SABER.SCH.ATNM.GOAL4.LVL4}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015..{p_end}
+
+
 
 {dlgtab: {help wbopendata_sourceid##SG.COK.CHCO.ZS:SG.COK.CHCO.ZS} - Main cooking fuel: charcoal (% of households)}{marker sourceid_SG.COK.CHCO.ZS}
 
@@ -197,19 +237,6 @@
 {synopt:{opt Topics}}17 Gender.{p_end}
 
 {synopt:{opt Source Notes}}Percentage of households who use wood as thier main cooking fuel.{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SG.CRT.TSTM.WT:SG.CRT.TSTM.WT} - Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no)}{marker sourceid_SG.CRT.TSTM.WT}
-
-
-{synopt:{opt Source}}14 Gender Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Woman's testimony carries the same evidentiary weight in court as a man's is whether the law differentiates between the evidentiary value of a woman’s testimony in a court and that of a man. It covers all types of court cases..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -612,7 +639,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -638,7 +665,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -651,7 +678,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -664,7 +691,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else..{p_end}
+{synopt:{opt Source Notes}}Women who own house both alone and jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who alone as well as jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a house alone and another house jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -683,7 +710,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q1.ZS:SG.OWN.HSAJ.MA.Q1.ZS} - Men who own a house both alone and jointly (% of men): Q1 (lowest)}{marker sourceid_SG.OWN.HSAJ.MA.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSAJ.MA.Q1.ZS:SG.OWN.HSAJ.MA.Q1.ZS} - Men who own a house both alone and jointly (% of men): Q2}{marker sourceid_SG.OWN.HSAJ.MA.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -703,7 +730,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q3 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a house alone and another house jointly with someone else.Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q2 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a house alone and another house jointly with someone else.Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -716,7 +743,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q4 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a house alone and another house jointly with someone else.Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q3 is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a house alone and another house jointly with someone else.Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -742,7 +769,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men): Q5 (highest) is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a house alone and another house jointly with someone else.Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own house both alone and jointly (% of men) is the percentage of men who both solely and jointly with someone else own a house which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a house alone and another house jointly with someone else..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -768,7 +795,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q2 is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -807,7 +834,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q4 is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone). Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -833,20 +860,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house alone (% of women age 15-49) is the percentage of women age 15-49 who only own a house, which legally registered with their name or cannot be sold without their signature, alone (don't share ownership with anyone)..{p_end}
+{synopt:{opt Source Notes}}Men who own house alone (% of men): Q1 (lowest) is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.HSAL.MA.Q1.ZS:SG.OWN.HSAL.MA.Q1.ZS} - Men who own a house alone (% of men): Q2}{marker sourceid_SG.OWN.HSAL.MA.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSAL.MA.Q1.ZS:SG.OWN.HSAL.MA.Q1.ZS} - Men who own a house alone (% of men): Q1 (lowest)}{marker sourceid_SG.OWN.HSAL.MA.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own house alone (% of men): Q2 is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own house alone (% of men): Q1 (lowest) is the percentage of men who only solely own a house which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -878,7 +905,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.HSAL.MA.Q4.ZS:SG.OWN.HSAL.MA.Q4.ZS} - Men who own a house alone (% of men): Q5 (highest)}{marker sourceid_SG.OWN.HSAL.MA.Q4.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSAL.MA.Q4.ZS:SG.OWN.HSAL.MA.Q4.ZS} - Men who own a house alone (% of men): Q4}{marker sourceid_SG.OWN.HSAL.MA.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -924,7 +951,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a house on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a house on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -963,7 +990,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a house on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own house jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only jointly own a house, which is legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a house on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1021,14 +1048,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.HSJT.MA.Q3.ZS:SG.OWN.HSJT.MA.Q3.ZS} - Men who own a house jointly (% of men): Q4}{marker sourceid_SG.OWN.HSJT.MA.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSJT.MA.Q3.ZS:SG.OWN.HSJT.MA.Q3.ZS} - Men who own a house jointly (% of men): Q3}{marker sourceid_SG.OWN.HSJT.MA.Q3.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own house jointly (% of men): Q4 is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a house on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own house jointly (% of men): Q3 is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a house on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1067,7 +1094,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own house jointly (% of men) is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a house on his own, but instead jointly owns one with someone else..{p_end}
+{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1080,7 +1107,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q2 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q3 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1093,7 +1120,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q4 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q3 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1106,7 +1133,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q4 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1119,7 +1146,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both..{p_end}
+{synopt:{opt Source Notes}}Women who do not own house (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1138,7 +1165,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.HSNO.MA.Q1.ZS:SG.OWN.HSNO.MA.Q1.ZS} - Men who do not own a house (% of men): Q1 (lowest)}{marker sourceid_SG.OWN.HSNO.MA.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSNO.MA.Q1.ZS:SG.OWN.HSNO.MA.Q1.ZS} - Men who do not own a house (% of men): Q2}{marker sourceid_SG.OWN.HSNO.MA.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1158,13 +1185,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who do not own house (% of men): Q3 is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who do not own house (% of men): Q2 is the percentage of men who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.HSNO.MA.Q3.ZS:SG.OWN.HSNO.MA.Q3.ZS} - Men who do not own a house (% of men): Q4}{marker sourceid_SG.OWN.HSNO.MA.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.HSNO.MA.Q3.ZS:SG.OWN.HSNO.MA.Q3.ZS} - Men who do not own a house (% of men): Q3}{marker sourceid_SG.OWN.HSNO.MA.Q3.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1229,14 +1256,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q2.ZS:SG.OWN.LDAJ.FE.Q2.ZS} - Women who own land both alone and jointly (% of women age 15-49): Q2}{marker sourceid_SG.OWN.LDAJ.FE.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q2.ZS:SG.OWN.LDAJ.FE.Q2.ZS} - Women who own land both alone and jointly (% of women age 15-49): Q3}{marker sourceid_SG.OWN.LDAJ.FE.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1255,20 +1282,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q4.ZS:SG.OWN.LDAJ.FE.Q4.ZS} - Women who own land both alone and jointly (% of women age 15-49): Q4}{marker sourceid_SG.OWN.LDAJ.FE.Q4.ZS}
-
-
-{synopt:{opt Source}}14 Gender Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q5.ZS:SG.OWN.LDAJ.FE.Q5.ZS} - Women who own land both alone and jointly (% of women age 15-49): Q5 (highest)}{marker sourceid_SG.OWN.LDAJ.FE.Q5.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q4.ZS:SG.OWN.LDAJ.FE.Q4.ZS} - Women who own land both alone and jointly (% of women age 15-49): Q5 (highest)}{marker sourceid_SG.OWN.LDAJ.FE.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1281,7 +1295,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.ZS:SG.OWN.LDAJ.FE.ZS} - Women who own land both alone and jointly (% of women age 15-49)}{marker sourceid_SG.OWN.LDAJ.FE.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.Q5.ZS:SG.OWN.LDAJ.FE.Q5.ZS} - Women who own land both alone and jointly (% of women age 15-49): Q5 (highest)}{marker sourceid_SG.OWN.LDAJ.FE.Q5.ZS}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Women who own land both alone and jointly (% of women age 15-49) is the percentage of women age 15-49 who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a woman owns a land alone and another land jointly with someone else..{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.FE.ZS:SG.OWN.LDAJ.FE.ZS} - Men who own land both alone and jointly (% of men): Q1 (lowest)}{marker sourceid_SG.OWN.LDAJ.FE.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1314,26 +1341,26 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q3 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q2 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q3.ZS:SG.OWN.LDAJ.MA.Q3.ZS} - Men who own land both alone and jointly (% of men): Q3}{marker sourceid_SG.OWN.LDAJ.MA.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q3.ZS:SG.OWN.LDAJ.MA.Q3.ZS} - Men who own land both alone and jointly (% of men): Q4}{marker sourceid_SG.OWN.LDAJ.MA.Q3.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q3 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q4 is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q4.ZS:SG.OWN.LDAJ.MA.Q4.ZS} - Men who own land both alone and jointly (% of men): Q4}{marker sourceid_SG.OWN.LDAJ.MA.Q4.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAJ.MA.Q4.ZS:SG.OWN.LDAJ.MA.Q4.ZS} - Men who own land both alone and jointly (% of men): Q5 (highest)}{marker sourceid_SG.OWN.LDAJ.MA.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1353,7 +1380,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men) is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else..{p_end}
+{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men): Q5 (highest) is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1366,26 +1393,26 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land both alone and jointly (% of men) is the percentage of men who both solely and jointly with someone else own a land which is legally registered with their name or cannot be sold without their signature. Both alone and jointly Implies a man owns a land alone and another land jointly with someone else..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.FE.Q1.ZS:SG.OWN.LDAL.FE.Q1.ZS} - Women who own land alone (% of women age 15-49): Q1 (lowest)}{marker sourceid_SG.OWN.LDAL.FE.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.FE.Q1.ZS:SG.OWN.LDAL.FE.Q1.ZS} - Women who own land alone (% of women age 15-49): Q2}{marker sourceid_SG.OWN.LDAL.FE.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own land alone (% of women age 15-49): Q2 is the percentage of women age 15-49 who only solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.FE.Q2.ZS:SG.OWN.LDAL.FE.Q2.ZS} - Women who own land alone (% of women age 15-49): Q2}{marker sourceid_SG.OWN.LDAL.FE.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.FE.Q2.ZS:SG.OWN.LDAL.FE.Q2.ZS} - Women who own land alone (% of women age 15-49): Q3}{marker sourceid_SG.OWN.LDAL.FE.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1463,14 +1490,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.MA.Q2.ZS:SG.OWN.LDAL.MA.Q2.ZS} - Men who own land alone (% of men): Q2}{marker sourceid_SG.OWN.LDAL.MA.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.MA.Q2.ZS:SG.OWN.LDAL.MA.Q2.ZS} - Men who own land alone (% of men): Q3}{marker sourceid_SG.OWN.LDAL.MA.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land alone (% of men): Q2 is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land alone (% of men): Q3 is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1496,13 +1523,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land alone (% of men): Q5 (highest) is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land alone (% of men): Q4 is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.MA.Q5.ZS:SG.OWN.LDAL.MA.Q5.ZS} - Men who own land alone (% of men)}{marker sourceid_SG.OWN.LDAL.MA.Q5.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDAL.MA.Q5.ZS:SG.OWN.LDAL.MA.Q5.ZS} - Men who own land alone (% of men): Q5 (highest)}{marker sourceid_SG.OWN.LDAL.MA.Q5.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1522,7 +1549,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q1 (lowest) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land alone (% of men) is the percentage of men who solely own a land which is legally registered with their name or cannot be sold without their signature..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1541,14 +1568,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.FE.Q2.ZS:SG.OWN.LDJT.FE.Q2.ZS} - Women who own land jointly (% of women age 15-49): Q2}{marker sourceid_SG.OWN.LDJT.FE.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.FE.Q2.ZS:SG.OWN.LDJT.FE.Q2.ZS} - Women who own land jointly (% of women age 15-49): Q3}{marker sourceid_SG.OWN.LDJT.FE.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q2 is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q3 is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1574,20 +1601,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q4 is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.FE.Q5.ZS:SG.OWN.LDJT.FE.Q5.ZS} - Women who own land jointly (% of women age 15-49): Q5 (highest)}{marker sourceid_SG.OWN.LDJT.FE.Q5.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.FE.Q5.ZS:SG.OWN.LDJT.FE.Q5.ZS} - Women who own land jointly (% of women age 15-49)}{marker sourceid_SG.OWN.LDJT.FE.Q5.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1600,20 +1627,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q1 (lowest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who own land jointly (% of women age 15-49) is the percentage of women age 15-49 who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the woman doesn’t own a land on her own, but instead jointly owns one with someone else..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.MA.Q1.ZS:SG.OWN.LDJT.MA.Q1.ZS} - Men who own land jointly (% of men): Q2}{marker sourceid_SG.OWN.LDJT.MA.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.MA.Q1.ZS:SG.OWN.LDJT.MA.Q1.ZS} - Men who own land jointly (% of men): Q1 (lowest)}{marker sourceid_SG.OWN.LDJT.MA.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q2 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q1 (lowest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1639,20 +1666,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q4 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q3 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.MA.Q4.ZS:SG.OWN.LDJT.MA.Q4.ZS} - Men who own land jointly (% of men): Q4}{marker sourceid_SG.OWN.LDJT.MA.Q4.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDJT.MA.Q4.ZS:SG.OWN.LDJT.MA.Q4.ZS} - Men who own land jointly (% of men): Q5 (highest)}{marker sourceid_SG.OWN.LDJT.MA.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q4 is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1665,7 +1692,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who own land jointly (% of men) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesn’t own a land on his own, but instead jointly owns one with someone else..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1684,7 +1711,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.FE.Q1.ZS:SG.OWN.LDNO.FE.Q1.ZS} - Women who do not own land (% of women age 15-49): Q2}{marker sourceid_SG.OWN.LDNO.FE.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.FE.Q1.ZS:SG.OWN.LDNO.FE.Q1.ZS} - Women who do not own land (% of women age 15-49): Q1 (lowest)}{marker sourceid_SG.OWN.LDNO.FE.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1697,7 +1724,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.FE.Q2.ZS:SG.OWN.LDNO.FE.Q2.ZS} - Women who do not own land (% of women age 15-49): Q2}{marker sourceid_SG.OWN.LDNO.FE.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.FE.Q2.ZS:SG.OWN.LDNO.FE.Q2.ZS} - Women who do not own land (% of women age 15-49): Q3}{marker sourceid_SG.OWN.LDNO.FE.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1717,7 +1744,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q4 is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q3 is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1730,7 +1757,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q5 (highest) is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49): Q4 is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1756,7 +1783,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who do not own land (% of men): Q1 (lowest) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Women who do not own land (% of women age 15-49) is the percentage of women age 15-49 who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1769,20 +1796,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who do not own land (% of men): Q1 (lowest) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who do not own land (% of men): Q2 is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.MA.Q2.ZS:SG.OWN.LDNO.MA.Q2.ZS} - Men who do not own land (% of men): Q3}{marker sourceid_SG.OWN.LDNO.MA.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.MA.Q2.ZS:SG.OWN.LDNO.MA.Q2.ZS} - Men who do not own land (% of men): Q2}{marker sourceid_SG.OWN.LDNO.MA.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Men who do not own land (% of men): Q3 is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+{synopt:{opt Source Notes}}Men who do not own land (% of men): Q2 is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1814,16 +1841,29 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.MA.ZS:SG.OWN.LDNO.MA.ZS} - Married men and married women have equal ownership rights to property (1=yes; 0=no)}{marker sourceid_SG.OWN.LDNO.MA.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.MA.Q5.ZS:SG.OWN.LDNO.MA.Q5.ZS} - Men who do not own land (% of men): Q5 (highest)}{marker sourceid_SG.OWN.LDNO.MA.Q5.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Married men and married women have equal ownership rights to property is whether both married men and married women have the same ownership rights to property. Ownership rights as used here covers the ability to manage, control, administer, access, encumber, receive, dispose of and transfer property. The answer is “Yes” when there is no specific legal restriction related to property applied to married women or men based on gender. The answer is “No” when there are gender differences in the legal treatment of spousal property, for example, if husbands are granted administrative control over marital property..{p_end}
+{synopt:{opt Source Notes}}Prevalence of children with fever: Percentage of children under age five years with fever in the two weeks preceding the survey..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Women, Business and the Law..{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS).{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SG.OWN.LDNO.MA.ZS:SG.OWN.LDNO.MA.ZS} - Men who do not own land (% of men)}{marker sourceid_SG.OWN.LDNO.MA.ZS}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Men who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both..{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 
@@ -1853,7 +1893,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.RSX.BRTH.Q1.ZS:SG.RSX.BRTH.Q1.ZS} - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q1 (lowest)}{marker sourceid_SG.RSX.BRTH.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.RSX.BRTH.Q1.ZS:SG.RSX.BRTH.Q1.ZS} - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q2}{marker sourceid_SG.RSX.BRTH.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1866,7 +1906,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.RSX.BRTH.Q2.ZS:SG.RSX.BRTH.Q2.ZS} - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q2}{marker sourceid_SG.RSX.BRTH.Q2.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.RSX.BRTH.Q2.ZS:SG.RSX.BRTH.Q2.ZS} - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q3}{marker sourceid_SG.RSX.BRTH.Q2.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1879,7 +1919,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.RSX.BRTH.Q3.ZS:SG.RSX.BRTH.Q3.ZS} - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q4}{marker sourceid_SG.RSX.BRTH.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.RSX.BRTH.Q3.ZS:SG.RSX.BRTH.Q3.ZS} - Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q3}{marker sourceid_SG.RSX.BRTH.Q3.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -1912,7 +1952,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth..{p_end}
+{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she has recently given birth. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -1990,7 +2030,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not in the mood..{p_end}
+{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for none of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -2068,7 +2108,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not in the mood..{p_end}
+{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband for all of the reasons: husband has sexually transmitted disease, husband has sex with other women, recently given birth, tired or not in the mood. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -2087,7 +2127,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.RSX.SXOT.Q1.ZS:SG.RSX.SXOT.Q1.ZS} - Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q1 (lowest)}{marker sourceid_SG.RSX.SXOT.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.RSX.SXOT.Q1.ZS:SG.RSX.SXOT.Q1.ZS} - Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q2}{marker sourceid_SG.RSX.SXOT.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2146,7 +2186,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women..{p_end}
+{synopt:{opt Source Notes}}Percentage of women aged 15-49 who believe that a wife is justified in refusing to have sex with her husband if she knows husband has sex with other women. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
@@ -2191,7 +2231,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.RSX.TIRD.Q3.ZS:SG.RSX.TIRD.Q3.ZS} - Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q3}{marker sourceid_SG.RSX.TIRD.Q3.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.RSX.TIRD.Q3.ZS:SG.RSX.TIRD.Q3.ZS} - Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q4}{marker sourceid_SG.RSX.TIRD.Q3.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2282,7 +2322,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.RSX.TMDS.Q4.ZS:SG.RSX.TMDS.Q4.ZS} - Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q4}{marker sourceid_SG.RSX.TMDS.Q4.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.RSX.TMDS.Q4.ZS:SG.RSX.TMDS.Q4.ZS} - Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q5 (highest)}{marker sourceid_SG.RSX.TMDS.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2438,19 +2478,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.VAW.BURN.Q5.ZS:SG.VAW.BURN.Q5.ZS} - Women who believe a husband is justified in beating his wife when she burns the food (%): Q5 (highest)}{marker sourceid_SG.VAW.BURN.Q5.ZS}
-
-
-{synopt:{opt Source}}14 Gender Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SG.VAW.GOES.Q1.ZS:SG.VAW.GOES.Q1.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q1 (lowest)}{marker sourceid_SG.VAW.GOES.Q1.ZS}
 
 
@@ -2490,7 +2517,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.VAW.GOES.Q4.ZS:SG.VAW.GOES.Q4.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4}{marker sourceid_SG.VAW.GOES.Q4.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.VAW.GOES.Q4.ZS:SG.VAW.GOES.Q4.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q5 (highest)}{marker sourceid_SG.VAW.GOES.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2503,20 +2530,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.VAW.GOES.Q5.ZS:SG.VAW.GOES.Q5.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q5 (highest)}{marker sourceid_SG.VAW.GOES.Q5.ZS}
-
-
-{synopt:{opt Source}}14 Gender Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##SG.VAW.MARR.ZS:SG.VAW.MARR.ZS} - Women who believe a husband is justified in beating his wife when she neglects the children (%): Q1 (lowest)}{marker sourceid_SG.VAW.MARR.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.VAW.MARR.ZS:SG.VAW.MARR.ZS} - Spousal physical or sexual violence in last 12 months (%)}{marker sourceid_SG.VAW.MARR.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2568,7 +2582,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.VAW.NEGL.Q4.ZS:SG.VAW.NEGL.Q4.ZS} - Women who believe a husband is justified in beating his wife when she neglects the children (%): Q4}{marker sourceid_SG.VAW.NEGL.Q4.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.VAW.NEGL.Q4.ZS:SG.VAW.NEGL.Q4.ZS} - Women who believe a husband is justified in beating his wife when she neglects the children (%): Q5 (highest)}{marker sourceid_SG.VAW.NEGL.Q4.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2581,7 +2595,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SG.VAW.REAS.Q1.ZS:SG.VAW.REAS.Q1.ZS} - Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q2}{marker sourceid_SG.VAW.REAS.Q1.ZS}
+{dlgtab: {help wbopendata_sourceid##SG.VAW.NEGL.Q5.ZS:SG.VAW.NEGL.Q5.ZS} - Women who believe a husband is justified in beating his wife when she neglects the children (%): Q5 (highest)}{marker sourceid_SG.VAW.NEGL.Q5.ZS}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SG.VAW.REAS.Q1.ZS:SG.VAW.REAS.Q1.ZS} - Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q1 (lowest)}{marker sourceid_SG.VAW.REAS.Q1.ZS}
 
 
 {synopt:{opt Source}}14 Gender Statistics.{p_end}
@@ -2958,19 +2985,6 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##SH.STA.FGMS.Q5.ZS:SH.STA.FGMS.Q5.ZS} - Female genital mutilation prevalence (%): Q5 (highest)}{marker sourceid_SH.STA.FGMS.Q5.ZS}
-
-
-{synopt:{opt Source}}14 Gender Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Percentage of women aged 15–49 who have gone through partial or total removal of the female external genitalia or other injury to the female genital organs for cultural or other non-therapeutic reasons. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 20 percent of households and quintile 5 being the richest 20 percent of households..{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of February 2016, and MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##SH.STA.OB18.FE.ZS:SH.STA.OB18.FE.ZS} - Prevalence of obesity, female (% of female population ages 18+)}{marker sourceid_SH.STA.OB18.FE.ZS}
 
 
@@ -3020,6 +3034,19 @@
 {synopt:{opt Source Notes}}Own-account workers are workers who, working on their own account or with one or more more partners, hold the types of jobs defined as self-employment jobs and have not engaged on a continuous basis any employees to work for them. Own account workers are a subcategory of self-employed..{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in March 2017..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##SL.EMP.UNDR:SL.EMP.UNDR} - Time-related underemployment, female (% of employment)}{marker sourceid_SL.EMP.UNDR}
+
+
+{synopt:{opt Source}}14 Gender Statistics.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given an opportunity for more work..{p_end}
+
+{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM)..{p_end}
 
 
 

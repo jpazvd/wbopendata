@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -92,22 +93,22 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose height for age (stunting) is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006..{p_end}
+{synopt:{opt Source Notes}}Wasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59..{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at http://www.who.int/nutgrowthdb/en. Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - Sub-National Prevalence of severe wasting, weight for height (% of children under 5)}{marker sourceid_SN.SH.STA.WAST.ZS}
+{dlgtab: {help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - Sub-National Prevalence of wasting (% of children under 5)}{marker sourceid_SN.SH.STA.WAST.ZS}
 
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Yet to receive metadata.{p_end}
+{synopt:{opt Source Notes}}Wasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59..{p_end}
 
-{synopt:{opt Source Organization}}Yet to receive metadata.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at http://www.who.int/nutgrowthdb/en. Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology..{p_end}
 
 
 

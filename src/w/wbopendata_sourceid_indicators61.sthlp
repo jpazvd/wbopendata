@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,7 +60,7 @@
 {synopthdr:61 PPPs Regulatory Quality}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)}{marker sourceid_IQ.PPN.REGQ.S0}
+{dlgtab: {help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)}{marker sourceid_IQ.PPN.REGQ.S0}
 
 
 {synopt:{opt Source}}61 PPPs Regulatory Quality.{p_end}
@@ -107,7 +108,7 @@
 
 {synopt:{opt Source Notes}}The indicator provides assessment of whether a specific process is in place to evaluate the feasibility of the unsolicited proposals (USPs). It evaluates USPs alignment with other government priorities; whether specific compensation mechanisms are in place for USPs; and whether a competitive process is required to select the private partner for the PPP project. Only the countries where USPs are allowed and take place have received scores. No scores have been given to those countries where the regulatory framework specifically prohibits the submission of USPs or where the USPs do not happen in practice..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity (http://bbsc.worldbank.org)..{p_end}
+{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 (http://bpp.worldbank.org/).{p_end}
 
 
 

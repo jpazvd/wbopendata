@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -59,32 +60,6 @@
 {synopthdr:20 Quarterly Public Sector Debt}
 {synoptline}
 
-{dlgtab: {help wbopendata_sourceid##BM.AG.HZ.PEST.CD:BM.AG.HZ.PEST.CD} - Hazardous pesticides imports (FAO, current US$)}{marker sourceid_BM.AG.HZ.PEST.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DN.DOD.TOTL.CD:DN.DOD.TOTL.CD} - 316.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors}{marker sourceid_DN.DOD.TOTL.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
-
-
-
 {dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.BC:DP.DOD.DECD.CR.BC} - 316.Gross Budg. Central Govt. Public Sector Debt, Domestic creditors}{marker sourceid_DP.DOD.DECD.CR.BC}
 
 
@@ -94,7 +69,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -107,7 +82,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -120,7 +95,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -133,7 +108,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -146,11 +121,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.CG.Z1:DP.DOD.DECD.CR.CG.Z1} - 380.Gross Financial Public Corporations Debt, Domestic creditors}{marker sourceid_DP.DOD.DECD.CR.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.CG.Z1:DP.DOD.DECD.CR.CG.Z1} - 508.Central Govt. Public Sector Debt, Domestic creditors(% of GDP)}{marker sourceid_DP.DOD.DECD.CR.CG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -159,7 +134,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -172,7 +147,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -185,7 +160,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -198,11 +173,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.GG:DP.DOD.DECD.CR.GG} - 252.General Govt. Public Sector Debt, Domestic creditors}{marker sourceid_DP.DOD.DECD.CR.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.GG:DP.DOD.DECD.CR.GG} - 028.General Govt. Public Sector Debt, Domestic creditors US$}{marker sourceid_DP.DOD.DECD.CR.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -211,7 +186,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -224,11 +199,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.GG.Z1:DP.DOD.DECD.CR.GG.Z1} - 348.Gross Nonfinancial Public Corporations Debt, Domestic creditors}{marker sourceid_DP.DOD.DECD.CR.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.GG.Z1:DP.DOD.DECD.CR.GG.Z1} - 476.General Govt. Public Sector Debt, Domestic creditors(% of GDP)}{marker sourceid_DP.DOD.DECD.CR.GG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -237,7 +212,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -250,11 +225,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.NF.CD:DP.DOD.DECD.CR.NF.CD} - 572.Gross Nonfinancial Public Corporations Debt, Domestic creditors(% of GDP)}{marker sourceid_DP.DOD.DECD.CR.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECD.CR.NF.CD:DP.DOD.DECD.CR.NF.CD} - 124.Gross Nonfinancial Public Corporations Debt, Domestic creditors  US$}{marker sourceid_DP.DOD.DECD.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -263,7 +238,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -276,7 +251,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -289,7 +264,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -302,7 +277,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -315,7 +290,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -328,7 +303,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -341,7 +316,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -354,11 +329,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECF.CR.CG.CD:DP.DOD.DECF.CR.CG.CD} - 063.Central Govt. Public Sector Debt, Foreign currency US$}{marker sourceid_DP.DOD.DECF.CR.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECF.CR.CG.CD:DP.DOD.DECF.CR.CG.CD} - 511.Central Govt. Public Sector Debt, Foreign currency(% of GDP)}{marker sourceid_DP.DOD.DECF.CR.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -367,7 +342,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -380,7 +355,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -393,7 +368,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -406,7 +381,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -419,7 +394,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -432,7 +407,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -445,7 +420,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -458,7 +433,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -471,24 +446,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECF.CR.NF.CD:DP.DOD.DECF.CR.NF.CD} - 575.Gross Nonfinancial Public Corporations Debt, Foreign currency(% of GDP)}{marker sourceid_DP.DOD.DECF.CR.NF.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECF.CR.NF.Z1:DP.DOD.DECF.CR.NF.Z1} - 575.Gross Nonfinancial Public Corporations Debt, Foreign currency(% of GDP)}{marker sourceid_DP.DOD.DECF.CR.NF.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECF.CR.NF.CD:DP.DOD.DECF.CR.NF.CD} - 127.Gross Nonfinancial Public Corporations Debt, Foreign currency  US$}{marker sourceid_DP.DOD.DECF.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -497,7 +459,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECF.CR.NF.Z1:DP.DOD.DECF.CR.NF.Z1} - 415.Gross Public Sector Debt, Foreign currency}{marker sourceid_DP.DOD.DECF.CR.NF.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -510,7 +485,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -523,7 +498,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -536,7 +511,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -549,7 +524,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -562,7 +537,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -575,7 +550,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -588,7 +563,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -601,7 +576,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -614,7 +589,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -627,7 +602,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -640,7 +615,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -653,24 +628,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECN.CR.GG.CD:DP.DOD.DECN.CR.GG.CD} - 478.General Govt. Public Sector Debt, Domestic currency(% of GDP)}{marker sourceid_DP.DOD.DECN.CR.GG.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECN.CR.GG.Z1:DP.DOD.DECN.CR.GG.Z1} - 478.General Govt. Public Sector Debt, Domestic currency(% of GDP)}{marker sourceid_DP.DOD.DECN.CR.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECN.CR.GG.CD:DP.DOD.DECN.CR.GG.CD} - 030.General Govt. Public Sector Debt, Domestic currency US$}{marker sourceid_DP.DOD.DECN.CR.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -679,11 +641,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECN.CR.NF:DP.DOD.DECN.CR.NF} - 350.Gross Nonfinancial Public Corporations Debt, Domestic currency}{marker sourceid_DP.DOD.DECN.CR.NF}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECN.CR.GG.Z1:DP.DOD.DECN.CR.GG.Z1} - 350.Gross Nonfinancial Public Corporations Debt, Domestic currency}{marker sourceid_DP.DOD.DECN.CR.GG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -692,7 +654,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECN.CR.NF:DP.DOD.DECN.CR.NF} - 126.Gross Nonfinancial Public Corporations Debt, Domestic currency  US$}{marker sourceid_DP.DOD.DECN.CR.NF}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -705,7 +680,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -718,7 +693,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -731,7 +706,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -744,11 +719,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.BC:DP.DOD.DECT.CR.BC} - 289.Gross Budgetary Central Government Debt (PSDCGGB)}{marker sourceid_DP.DOD.DECT.CR.BC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.BC:DP.DOD.DECT.CR.BC} - 065.Gross Budgetary Central Government Debt (PSDCGGB) US$}{marker sourceid_DP.DOD.DECT.CR.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -757,7 +732,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -770,11 +745,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.BC.Z1:DP.DOD.DECT.CR.BC.Z1} - 513.Gross Budgetary Central Government Debt (PSDCGGB)(% of GDP)}{marker sourceid_DP.DOD.DECT.CR.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.BC.Z1:DP.DOD.DECT.CR.BC.Z1} - 257.Gross Central Government Debt (PSDCG)}{marker sourceid_DP.DOD.DECT.CR.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -783,7 +758,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -796,7 +771,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -809,7 +784,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -822,7 +797,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -835,7 +810,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -848,7 +823,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -861,11 +836,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.GG:DP.DOD.DECT.CR.GG} - 225.General Govt. Public Sector Debt (PSDGG)}{marker sourceid_DP.DOD.DECT.CR.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.GG:DP.DOD.DECT.CR.GG} - 001.General Govt. Public Sector Debt (PSDGG) US$}{marker sourceid_DP.DOD.DECT.CR.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -874,7 +849,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -887,11 +862,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.GG.Z1:DP.DOD.DECT.CR.GG.Z1} - 449.General Govt. Public Sector Debt (PSDGG)(% of GDP)}{marker sourceid_DP.DOD.DECT.CR.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.GG.Z1:DP.DOD.DECT.CR.GG.Z1} - 321.Gross Nonfinancial Public Corporations Debt (PSDNFPC)}{marker sourceid_DP.DOD.DECT.CR.GG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -900,7 +875,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -913,7 +888,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -926,7 +901,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -939,7 +914,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -952,11 +927,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.PS.CD:DP.DOD.DECT.CR.PS.CD} - 161.Gross Public Sector Debt (PSDT) US$}{marker sourceid_DP.DOD.DECT.CR.PS.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECT.CR.PS.CD:DP.DOD.DECT.CR.PS.CD} - 317.Gross Budg. Central Govt. Public Sector Debt, External creditors}{marker sourceid_DP.DOD.DECT.CR.PS.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -965,7 +940,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -978,7 +953,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -991,7 +966,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1004,7 +979,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1017,7 +992,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1030,7 +1005,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1043,7 +1018,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1056,7 +1031,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1069,7 +1044,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1082,7 +1057,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1095,11 +1070,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECX.CR.GG.CD:DP.DOD.DECX.CR.GG.CD} - 477.General Govt. Public Sector Debt, External creditors(% of GDP)}{marker sourceid_DP.DOD.DECX.CR.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECX.CR.GG.CD:DP.DOD.DECX.CR.GG.CD} - 029.General Govt. Public Sector Debt, External creditors US$}{marker sourceid_DP.DOD.DECX.CR.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1108,7 +1083,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1121,7 +1096,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1134,11 +1109,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DECX.CR.NF.CD:DP.DOD.DECX.CR.NF.CD} - 125.Gross Nonfinancial Public Corporations Debt, External creditors  US$}{marker sourceid_DP.DOD.DECX.CR.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DECX.CR.NF.CD:DP.DOD.DECX.CR.NF.CD} - 573.Gross Nonfinancial Public Corporations Debt, External creditors(% of GDP)}{marker sourceid_DP.DOD.DECX.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1147,7 +1122,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1160,7 +1135,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1173,7 +1148,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1186,24 +1161,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.BC:DP.DOD.DLCD.CR.BC} - 311.Currency and deposits (PSDCGGB)}{marker sourceid_DP.DOD.DLCD.CR.BC}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.BC.CD:DP.DOD.DLCD.CR.BC.CD} - 087.Currency and deposits (PSDCGGB) US$}{marker sourceid_DP.DOD.DLCD.CR.BC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.BC:DP.DOD.DLCD.CR.BC} - 087.Currency and deposits (PSDCGGB) US$}{marker sourceid_DP.DOD.DLCD.CR.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1212,7 +1174,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.BC.CD:DP.DOD.DLCD.CR.BC.CD} - 535.Currency and deposits (PSDCGGB)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.BC.CD}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1225,7 +1200,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1238,11 +1213,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.CD:DP.DOD.DLCD.CR.CG.CD} - 055.Currency and deposits (PSDCG) US$}{marker sourceid_DP.DOD.DLCD.CR.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.CD:DP.DOD.DLCD.CR.CG.CD} - 503.Currency and deposits (PSDCG)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1251,7 +1226,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1262,9 +1237,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Long-term debt is debt that has an original or extended maturity of more than one year. It has three components: public, publicly guaranteed, and private nonguaranteed debt. Data are in current U.S. dollars.  Use of IMF credit denotes repurchase obligations to the IMF for all uses of IMF resources (excluding those resulting from drawings on the reserve tranche). These obligations, shown for the end of the year specified, comprise purchases outstanding under the credit tranches, including enlarged access resources, and all special facilities (the buffer stock, compensatory financing, extended fund, and oil facilities), trust fund loans, and operations under the structural adjustment and enhanced structural adjustment facilities. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -1277,11 +1252,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.FC.CD:DP.DOD.DLCD.CR.FC.CD} - 151.Currency and deposits (PSDFPC) US$}{marker sourceid_DP.DOD.DLCD.CR.FC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.FC.CD:DP.DOD.DLCD.CR.FC.CD} - 599.Currency and deposits (PSDFPC)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1290,7 +1265,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1303,7 +1278,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1316,7 +1291,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1329,7 +1304,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1342,7 +1317,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1355,7 +1330,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1368,11 +1343,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.BC.Z1:DP.DOD.DLCD.CR.L1.BC.Z1} - 522.Currency and deposits (PSDCGGB, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.L1.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.BC.Z1:DP.DOD.DLCD.CR.L1.BC.Z1} - 266.Currency and deposits (PSDCG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.L1.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1381,7 +1356,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1394,24 +1369,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.CD:DP.DOD.DLCD.CR.L1.CG.CD} - 042.Currency and deposits (PSDCG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.L1.CG.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.Z1:DP.DOD.DLCD.CR.L1.CG.Z1} - 490.Currency and deposits (PSDCG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.L1.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.CD:DP.DOD.DLCD.CR.L1.CG.CD} - 490.Currency and deposits (PSDCG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.L1.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1420,7 +1382,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.Z1:DP.DOD.DLCD.CR.L1.CG.Z1} - 362.Currency and deposits (PSDFPC, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.L1.CG.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1433,11 +1408,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.FC.CD:DP.DOD.DLCD.CR.L1.FC.CD} - 586.Currency and deposits (PSDFPC, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.L1.FC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.FC.CD:DP.DOD.DLCD.CR.L1.FC.CD} - 138.Currency and deposits (PSDFPC, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.L1.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1446,7 +1421,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1459,11 +1434,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.GG:DP.DOD.DLCD.CR.L1.GG} - 010.Currency and deposits (PSDGG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.L1.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.GG:DP.DOD.DLCD.CR.L1.GG} - 234.Currency and deposits (PSDGG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.L1.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1472,7 +1447,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1485,7 +1460,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1498,7 +1473,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1511,7 +1486,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1524,7 +1499,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1537,7 +1512,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1550,7 +1525,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1563,11 +1538,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.BC:DP.DOD.DLCD.CR.M1.BC} - 305.Currency and deposits (PSDCGGB, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.M1.BC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.BC:DP.DOD.DLCD.CR.M1.BC} - 081.Currency and deposits (PSDCGGB, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.M1.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1576,7 +1551,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1589,7 +1564,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1602,11 +1577,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.CG:DP.DOD.DLCD.CR.M1.CG} - 273.Currency and deposits (PSDCG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.M1.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.CG:DP.DOD.DLCD.CR.M1.CG} - 049.Currency and deposits (PSDCG, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.M1.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1615,7 +1590,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1628,7 +1603,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1641,7 +1616,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1654,7 +1629,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1667,7 +1642,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1680,7 +1655,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1693,24 +1668,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.GG.CD:DP.DOD.DLCD.CR.M1.GG.CD} - 017.Currency and deposits (PSDGG, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.M1.GG.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.GG.Z1:DP.DOD.DLCD.CR.M1.GG.Z1} - 465.Currency and deposits (PSDGG, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.M1.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.GG.CD:DP.DOD.DLCD.CR.M1.GG.CD} - 465.Currency and deposits (PSDGG, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.M1.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1719,7 +1681,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.GG.Z1:DP.DOD.DLCD.CR.M1.GG.Z1} - 337.Currency and deposits (PSDNFPC, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.M1.GG.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1732,24 +1707,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF.CD:DP.DOD.DLCD.CR.M1.NF.CD} - 561.Currency and deposits (PSDNFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.M1.NF.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF.Z1:DP.DOD.DLCD.CR.M1.NF.Z1} - 401.Currency and deposits (PSDT, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLCD.CR.M1.NF.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF.CD:DP.DOD.DLCD.CR.M1.NF.CD} - 113.Currency and deposits (PSDNFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLCD.CR.M1.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1758,7 +1720,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF.Z1:DP.DOD.DLCD.CR.M1.NF.Z1} - 561.Currency and deposits (PSDNFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLCD.CR.M1.NF.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1771,7 +1746,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1784,7 +1759,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1797,7 +1772,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1810,7 +1785,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1823,7 +1798,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1836,7 +1811,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1849,7 +1824,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1862,7 +1837,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1875,11 +1850,11 @@
 
 {synopt:{opt Source Notes}}Debt Securities GG + Loans GG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD1.CR.GG.CD:DP.DOD.DLD1.CR.GG.CD} - Gross PSD, General Gov.-D1, All maturities, Debt securities + loans, Nominal Value, % of GDP}{marker sourceid_DP.DOD.DLD1.CR.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD1.CR.GG.CD:DP.DOD.DLD1.CR.GG.CD} - Gross PSD, General Gov.-D1, All maturities, Debt securities + loans, Nominal Value, US$}{marker sourceid_DP.DOD.DLD1.CR.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1888,7 +1863,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1901,7 +1876,7 @@
 
 {synopt:{opt Source Notes}}D1 CG + SDRs CG + Currency &amp; Deposits CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1912,9 +1887,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+{synopt:{opt Source Notes}}D1 CG + SDRs CG + Currency &amp; Deposits CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1925,9 +1900,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}D1 GG + SDRs GG + Currency &amp; Deposits GG.{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1940,7 +1915,7 @@
 
 {synopt:{opt Source Notes}}D1 GG + SDRs GG + Currency &amp; Deposits GG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1953,11 +1928,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD2A.CR.CG.CD:DP.DOD.DLD2A.CR.CG.CD} - Gross PSD, Central Gov.-D2A, All maturities, D1+ currency and deposits, Maastricht debt, US$}{marker sourceid_DP.DOD.DLD2A.CR.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD2A.CR.CG.CD:DP.DOD.DLD2A.CR.CG.CD} - Gross PSD, Central Gov.-D2A, All maturities, D1+ currency and deposits, Maastricht debt, % of GDP}{marker sourceid_DP.DOD.DLD2A.CR.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1966,7 +1941,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -1979,11 +1954,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD2A.CR.GG.CD:DP.DOD.DLD2A.CR.GG.CD} - Gross PSD, General Gov.-D2A, All maturities, D1+ currency and deposits, Maastricht debt, US$}{marker sourceid_DP.DOD.DLD2A.CR.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD2A.CR.GG.CD:DP.DOD.DLD2A.CR.GG.CD} - Gross PSD, General Gov.-D2A, All maturities, D1+ currency and deposits, Maastricht debt, % of GDP}{marker sourceid_DP.DOD.DLD2A.CR.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -1992,7 +1967,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2003,9 +1978,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+{synopt:{opt Source Notes}}D2 CG + Other Accounts Payable CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2016,9 +1991,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}D2 CG + Other Accounts Payable CG.{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2029,9 +2004,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+{synopt:{opt Source Notes}}D2 GG + Other Accounts Payable GG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2042,9 +2017,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+{synopt:{opt Source Notes}}D2 GG + Other Accounts Payable GG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2057,7 +2032,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2070,7 +2045,7 @@
 
 {synopt:{opt Source Notes}}D3 CG + ISPGS CG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2083,7 +2058,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2094,13 +2069,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+{synopt:{opt Source Notes}}D3 GG + IPSGS GG.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD4.CR.GG.Z1:DP.DOD.DLD4.CR.GG.Z1} - Gross PSD, General Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, % of GDP}{marker sourceid_DP.DOD.DLD4.CR.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLD4.CR.GG.Z1:DP.DOD.DLD4.CR.GG.Z1} - 312.Debt securities (PSDCGGB)}{marker sourceid_DP.DOD.DLD4.CR.GG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2109,7 +2084,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2122,7 +2097,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2135,24 +2110,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.BC.Z1:DP.DOD.DLDS.CR.BC.Z1} - 536.Debt securities (PSDCGGB)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.BC.Z1}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.CG:DP.DOD.DLDS.CR.CG} - 280.Debt securities (PSDCG)}{marker sourceid_DP.DOD.DLDS.CR.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.BC.Z1:DP.DOD.DLDS.CR.BC.Z1} - 280.Debt securities (PSDCG)}{marker sourceid_DP.DOD.DLDS.CR.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2161,24 +2123,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.CG.CD:DP.DOD.DLDS.CR.CG.CD} - 056.Debt securities (PSDCG) US$}{marker sourceid_DP.DOD.DLDS.CR.CG.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.CG.Z1:DP.DOD.DLDS.CR.CG.Z1} - 504.Debt securities (PSDCG)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.CG:DP.DOD.DLDS.CR.CG} - 056.Debt securities (PSDCG) US$}{marker sourceid_DP.DOD.DLDS.CR.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2187,7 +2136,33 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.CG.CD:DP.DOD.DLDS.CR.CG.CD} - 504.Debt securities (PSDCG)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.CG.CD}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.CG.Z1:DP.DOD.DLDS.CR.CG.Z1} - 376.Debt securities (PSDFPC)}{marker sourceid_DP.DOD.DLDS.CR.CG.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2200,11 +2175,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.FC.CD:DP.DOD.DLDS.CR.FC.CD} - 152.Debt securities (PSDFPC) US$}{marker sourceid_DP.DOD.DLDS.CR.FC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.FC.CD:DP.DOD.DLDS.CR.FC.CD} - 600.Debt securities (PSDFPC)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2213,7 +2188,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2226,11 +2201,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.GG:DP.DOD.DLDS.CR.GG} - 024.Debt securities (PSDGG) US$}{marker sourceid_DP.DOD.DLDS.CR.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.GG:DP.DOD.DLDS.CR.GG} - 248.Debt securities (PSDGG, LT)}{marker sourceid_DP.DOD.DLDS.CR.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2239,7 +2214,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2252,7 +2227,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2265,7 +2240,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2278,7 +2253,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2291,7 +2266,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2304,7 +2279,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2317,7 +2292,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2330,24 +2305,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.CG.Z1:DP.DOD.DLDS.CR.L1.CG.Z1} - 363.Debt securities (PSDFPC, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLDS.CR.L1.CG.Z1}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.FC:DP.DOD.DLDS.CR.L1.FC} - 139.Debt securities (PSDFPC, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLDS.CR.L1.FC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.CG.Z1:DP.DOD.DLDS.CR.L1.CG.Z1} - 491.Debt securities (PSDCG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.L1.CG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2356,7 +2318,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.FC:DP.DOD.DLDS.CR.L1.FC} - 363.Debt securities (PSDFPC, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLDS.CR.L1.FC}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2369,7 +2344,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2382,11 +2357,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.GG:DP.DOD.DLDS.CR.L1.GG} - 011.Debt securities (PSDGG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLDS.CR.L1.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.GG:DP.DOD.DLDS.CR.L1.GG} - 235.Debt securities (PSDGG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLDS.CR.L1.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2395,7 +2370,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2408,11 +2383,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.GG.Z1:DP.DOD.DLDS.CR.L1.GG.Z1} - 459.Debt securities (PSDGG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.L1.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.GG.Z1:DP.DOD.DLDS.CR.L1.GG.Z1} - 331.Debt securities (PSDNFPC, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLDS.CR.L1.GG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2421,7 +2396,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2434,24 +2409,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.NF.CD:DP.DOD.DLDS.CR.L1.NF.CD} - 107.Debt securities (PSDNFPC, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLDS.CR.L1.NF.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.NF.Z1:DP.DOD.DLDS.CR.L1.NF.Z1} - 395.Debt securities (PSDT, LT,&lt;1yr)}{marker sourceid_DP.DOD.DLDS.CR.L1.NF.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.NF.CD:DP.DOD.DLDS.CR.L1.NF.CD} - 555.Debt securities (PSDNFPC, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.L1.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2460,7 +2422,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.NF.Z1:DP.DOD.DLDS.CR.L1.NF.Z1} - 555.Debt securities (PSDNFPC, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.L1.NF.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2473,7 +2448,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2486,7 +2461,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2499,7 +2474,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2512,7 +2487,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2525,7 +2500,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2538,11 +2513,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.CG.CD:DP.DOD.DLDS.CR.M1.CG.CD} - 498.Debt securities (PSDCG, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.M1.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.CG.CD:DP.DOD.DLDS.CR.M1.CG.CD} - 050.Debt securities (PSDCG, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLDS.CR.M1.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2551,7 +2526,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2564,7 +2539,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2577,11 +2552,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.FC.CD:DP.DOD.DLDS.CR.M1.FC.CD} - 594.Debt securities (PSDFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.M1.FC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.FC.CD:DP.DOD.DLDS.CR.M1.FC.CD} - 146.Debt securities (PSDFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLDS.CR.M1.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2590,7 +2565,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2603,7 +2578,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2616,7 +2591,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2629,7 +2604,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2642,7 +2617,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2655,7 +2630,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2668,7 +2643,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2681,7 +2656,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2694,7 +2669,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2707,7 +2682,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2720,7 +2695,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2733,7 +2708,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2746,24 +2721,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.CG:DP.DOD.DLDS.CR.MV.CG} - 064.Central Govt. Public Sector Debt Securities at market value US$}{marker sourceid_DP.DOD.DLDS.CR.MV.CG}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.CG.CD:DP.DOD.DLDS.CR.MV.CG.CD} - 512.Central Govt. Public Sector Debt securities at market value(% of GDP)}{marker sourceid_DP.DOD.DLDS.CR.MV.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.CG:DP.DOD.DLDS.CR.MV.CG} - 288.Central Govt. Public Sector Debt securities at market value}{marker sourceid_DP.DOD.DLDS.CR.MV.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2772,7 +2734,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.CG.CD:DP.DOD.DLDS.CR.MV.CG.CD} - 064.Central Govt. Public Sector Debt Securities at market value US$}{marker sourceid_DP.DOD.DLDS.CR.MV.CG.CD}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2785,7 +2760,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2798,7 +2773,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2811,11 +2786,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.FC.Z1:DP.DOD.DLDS.CR.MV.FC.Z1} - Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, % of GDP}{marker sourceid_DP.DOD.DLDS.CR.MV.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.FC.Z1:DP.DOD.DLDS.CR.MV.FC.Z1} - 256.General Govt. Public Sector Debt securities at market value}{marker sourceid_DP.DOD.DLDS.CR.MV.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -2824,7 +2799,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2837,7 +2812,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2850,7 +2825,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2863,7 +2838,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2876,7 +2851,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2889,7 +2864,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2902,7 +2877,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2915,7 +2890,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2928,7 +2903,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2941,7 +2916,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2954,7 +2929,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2967,7 +2942,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2980,7 +2955,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -2993,11 +2968,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.BC:DP.DOD.DLIN.CR.BC} - 314.Insurance, pensions, and standardized guarantee schemes (PSDCGGB)}{marker sourceid_DP.DOD.DLIN.CR.BC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.BC:DP.DOD.DLIN.CR.BC} - 090.Insurance, pensions, and standardized guarantee schemes (PSDCGGB) US$}{marker sourceid_DP.DOD.DLIN.CR.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3006,7 +2981,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3019,7 +2994,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3032,7 +3007,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3045,7 +3020,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3058,7 +3033,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3071,7 +3046,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3084,7 +3059,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3097,11 +3072,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.FC.Z1:DP.DOD.DLIN.CR.FC.Z1} - 602.Insurance, pensions, and standardized guarantee schemes (PSDFPC)(% of GDP)}{marker sourceid_DP.DOD.DLIN.CR.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.FC.Z1:DP.DOD.DLIN.CR.FC.Z1} - 250.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT)}{marker sourceid_DP.DOD.DLIN.CR.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3110,7 +3085,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3123,7 +3098,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3136,7 +3111,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3149,7 +3124,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3162,7 +3137,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3175,7 +3150,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3188,7 +3163,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3201,7 +3176,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3214,7 +3189,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3227,7 +3202,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3240,7 +3215,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3253,7 +3228,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3266,7 +3241,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3279,7 +3254,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3292,7 +3267,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3305,7 +3280,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3318,7 +3293,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3331,7 +3306,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3344,11 +3319,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.L1.PS:DP.DOD.DLIN.CR.L1.PS} - 173.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr) US$}{marker sourceid_DP.DOD.DLIN.CR.L1.PS}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.L1.PS:DP.DOD.DLIN.CR.L1.PS} - 397.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr)}{marker sourceid_DP.DOD.DLIN.CR.L1.PS}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3357,7 +3332,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3370,11 +3345,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.BC:DP.DOD.DLIN.CR.M1.BC} - 308.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLIN.CR.M1.BC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.BC:DP.DOD.DLIN.CR.M1.BC} - 084.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLIN.CR.M1.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3383,7 +3358,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3396,7 +3371,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3409,11 +3384,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.CG:DP.DOD.DLIN.CR.M1.CG} - 276.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLIN.CR.M1.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.CG:DP.DOD.DLIN.CR.M1.CG} - 052.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLIN.CR.M1.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3422,7 +3397,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3435,7 +3410,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3448,11 +3423,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.FC:DP.DOD.DLIN.CR.M1.FC} - 372.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLIN.CR.M1.FC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.FC:DP.DOD.DLIN.CR.M1.FC} - 148.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLIN.CR.M1.FC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3461,7 +3436,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3474,7 +3449,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3487,7 +3462,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3500,7 +3475,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3513,7 +3488,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3526,7 +3501,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3539,7 +3514,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3552,7 +3527,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3565,7 +3540,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3578,7 +3553,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3591,7 +3566,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3604,11 +3579,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.NF.CD:DP.DOD.DLIN.CR.NF.CD} - 570.Insurance, pensions, and standardized guarantee schemes (PSDNFPC)(% of GDP)}{marker sourceid_DP.DOD.DLIN.CR.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLIN.CR.NF.CD:DP.DOD.DLIN.CR.NF.CD} - 122.Insurance, pensions, and standardized guarantee schemes (PSDNFPC) US$}{marker sourceid_DP.DOD.DLIN.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3617,7 +3592,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3630,7 +3605,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3643,7 +3618,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3656,7 +3631,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3669,7 +3644,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3682,7 +3657,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3695,7 +3670,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3708,7 +3683,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3721,7 +3696,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3734,7 +3709,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3747,7 +3722,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3760,7 +3735,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3773,11 +3748,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.GG:DP.DOD.DLLO.CR.GG} - 249.Loans (PSDGG, LT)}{marker sourceid_DP.DOD.DLLO.CR.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.GG:DP.DOD.DLLO.CR.GG} - 025.Loans (PSDGG) US$}{marker sourceid_DP.DOD.DLLO.CR.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3786,7 +3761,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3799,7 +3774,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3810,9 +3785,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3823,9 +3798,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3836,9 +3811,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars..{p_end}
+{synopt:{opt Source Notes}}Students with results above the mean competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country..{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG..{p_end}
 
 
 
@@ -3851,7 +3826,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3864,11 +3839,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.CG.CD:DP.DOD.DLLO.CR.L1.CG.CD} - 492.Loans (PSDCG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLLO.CR.L1.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.CG.CD:DP.DOD.DLLO.CR.L1.CG.CD} - 044.Loans (PSDCG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLLO.CR.L1.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3877,7 +3852,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3890,7 +3865,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3903,7 +3878,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3916,7 +3891,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3929,7 +3904,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3942,11 +3917,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.GG.CD:DP.DOD.DLLO.CR.L1.GG.CD} - 012.Loans (PSDGG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLLO.CR.L1.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.GG.CD:DP.DOD.DLLO.CR.L1.GG.CD} - 460.Loans (PSDGG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLLO.CR.L1.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -3955,7 +3930,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3968,7 +3943,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3981,7 +3956,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -3994,11 +3969,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.NF.Z1:DP.DOD.DLLO.CR.L1.NF.Z1} - 556.Loans (PSDNFPC, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLLO.CR.L1.NF.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.NF.Z1:DP.DOD.DLLO.CR.L1.NF.Z1} - 396.Loans (PSDT, LT,&lt;1yr)}{marker sourceid_DP.DOD.DLLO.CR.L1.NF.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4007,7 +3982,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4020,7 +3995,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4033,11 +4008,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.BC:DP.DOD.DLLO.CR.M1.BC} - 083.Loans (PSDCGGB, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLLO.CR.M1.BC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.BC:DP.DOD.DLLO.CR.M1.BC} - 307.Loans (PSDCGGB, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLLO.CR.M1.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4046,7 +4021,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4059,7 +4034,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4072,7 +4047,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4085,7 +4060,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4098,7 +4073,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4111,7 +4086,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4124,7 +4099,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4137,7 +4112,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4150,7 +4125,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4163,7 +4138,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4176,7 +4151,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4189,7 +4164,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4202,11 +4177,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.NF.CD:DP.DOD.DLLO.CR.M1.NF.CD} - 115.Loans (PSDNFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLLO.CR.M1.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.NF.CD:DP.DOD.DLLO.CR.M1.NF.CD} - 563.Loans (PSDNFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLLO.CR.M1.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4215,7 +4190,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4228,7 +4203,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4241,7 +4216,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4254,7 +4229,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4267,24 +4242,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.NF.CD:DP.DOD.DLLO.CR.NF.CD} - 569.Loans (PSDNFPC)(% of GDP)}{marker sourceid_DP.DOD.DLLO.CR.NF.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.NF.Z1:DP.DOD.DLLO.CR.NF.Z1} - 569.Loans (PSDNFPC)(% of GDP)}{marker sourceid_DP.DOD.DLLO.CR.NF.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.NF.CD:DP.DOD.DLLO.CR.NF.CD} - 121.Loans (PSDNFPC) US$}{marker sourceid_DP.DOD.DLLO.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4293,7 +4255,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLLO.CR.NF.Z1:DP.DOD.DLLO.CR.NF.Z1} - 409.Loans (PSDT, LT)}{marker sourceid_DP.DOD.DLLO.CR.NF.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4306,7 +4281,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4319,11 +4294,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.BC:DP.DOD.DLOA.CR.BC} - 315.Other accounts payable (PSDCGGB)}{marker sourceid_DP.DOD.DLOA.CR.BC}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.BC:DP.DOD.DLOA.CR.BC} - 091.Other accounts payable (PSDCGGB) US$}{marker sourceid_DP.DOD.DLOA.CR.BC}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4332,7 +4307,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4345,7 +4320,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4358,7 +4333,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4371,24 +4346,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.CG.CD:DP.DOD.DLOA.CR.CG.CD} - 059.Other accounts payable (PSDCG) US$}{marker sourceid_DP.DOD.DLOA.CR.CG.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.CG.Z1:DP.DOD.DLOA.CR.CG.Z1} - 507.Other accounts payable (PSDCG)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.CG.CD:DP.DOD.DLOA.CR.CG.CD} - 507.Other accounts payable (PSDCG)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4397,7 +4359,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.CG.Z1:DP.DOD.DLOA.CR.CG.Z1} - 379.Other accounts payable (PSDFPC)}{marker sourceid_DP.DOD.DLOA.CR.CG.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4410,7 +4385,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4423,11 +4398,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.FC.Z1:DP.DOD.DLOA.CR.FC.Z1} - 603.Other accounts payable (PSDFPC)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.FC.Z1:DP.DOD.DLOA.CR.FC.Z1} - 251.Other accounts payable (PSDGG, LT)}{marker sourceid_DP.DOD.DLOA.CR.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4436,7 +4411,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4449,11 +4424,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.GG.CD:DP.DOD.DLOA.CR.GG.CD} - 027.Other accounts payable (PSDGG) US$}{marker sourceid_DP.DOD.DLOA.CR.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.GG.CD:DP.DOD.DLOA.CR.GG.CD} - 475.Other accounts payable (PSDGG, LT)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4462,7 +4437,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4475,7 +4450,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4488,7 +4463,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4501,11 +4476,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.BC.Z1:DP.DOD.DLOA.CR.L1.BC.Z1} - 526.Other accounts payable (PSDCGGB, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.L1.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.BC.Z1:DP.DOD.DLOA.CR.L1.BC.Z1} - 270.Other accounts payable (PSDCG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLOA.CR.L1.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4514,7 +4489,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4527,7 +4502,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4540,7 +4515,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4553,7 +4528,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4566,7 +4541,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4579,7 +4554,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4592,7 +4567,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4605,11 +4580,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.GG.CD:DP.DOD.DLOA.CR.L1.GG.CD} - 014.Other accounts payable (PSDGG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLOA.CR.L1.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.GG.CD:DP.DOD.DLOA.CR.L1.GG.CD} - 462.Other accounts payable (PSDGG, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.L1.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4618,7 +4593,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4631,7 +4606,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4644,11 +4619,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.NF.CD:DP.DOD.DLOA.CR.L1.NF.CD} - 110.Other accounts payable (PSDNFPC, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLOA.CR.L1.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.NF.CD:DP.DOD.DLOA.CR.L1.NF.CD} - 558.Other accounts payable (PSDNFPC, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.L1.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4657,7 +4632,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4670,7 +4645,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4683,7 +4658,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4696,7 +4671,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4709,7 +4684,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4722,7 +4697,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4735,7 +4710,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4748,7 +4723,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4761,7 +4736,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4774,7 +4749,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4787,7 +4762,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4800,24 +4775,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.FC.Z1:DP.DOD.DLOA.CR.M1.FC.Z1} - 597.Other accounts payable (PSDFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.M1.FC.Z1}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.GG:DP.DOD.DLOA.CR.M1.GG} - 021.Other accounts payable (PSDGG, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLOA.CR.M1.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.FC.Z1:DP.DOD.DLOA.CR.M1.FC.Z1} - 245.Other accounts payable (PSDGG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLOA.CR.M1.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4826,7 +4788,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.GG:DP.DOD.DLOA.CR.M1.GG} - 245.Other accounts payable (PSDGG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLOA.CR.M1.GG}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4839,7 +4814,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4852,7 +4827,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4865,11 +4840,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.NF.CD:DP.DOD.DLOA.CR.M1.NF.CD} - 117.Other accounts payable (PSDNFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLOA.CR.M1.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.NF.CD:DP.DOD.DLOA.CR.M1.NF.CD} - 565.Other accounts payable (PSDNFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLOA.CR.M1.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -4878,7 +4853,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4891,7 +4866,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4904,7 +4879,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4917,7 +4892,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4930,7 +4905,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4943,7 +4918,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4956,7 +4931,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4969,7 +4944,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4982,7 +4957,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -4995,7 +4970,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5008,7 +4983,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5021,11 +4996,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.CG:DP.DOD.DLSD.CR.CG} - 278.Special Drawing Rights (SDRs) (PSDCG)}{marker sourceid_DP.DOD.DLSD.CR.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.CG:DP.DOD.DLSD.CR.CG} - 054.Special Drawing Rights (SDRs) (PSDCG) US$}{marker sourceid_DP.DOD.DLSD.CR.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5034,7 +5009,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5047,7 +5022,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5060,7 +5035,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5073,7 +5048,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5086,7 +5061,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5099,7 +5074,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5112,7 +5087,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5125,7 +5100,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5138,7 +5113,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5151,11 +5126,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.BC.CD:DP.DOD.DLSD.CR.M1.BC.CD} - 080.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLSD.CR.M1.BC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.BC.CD:DP.DOD.DLSD.CR.M1.BC.CD} - 528.Special Drawing Rights (SDRs) (PSDCGGB, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLSD.CR.M1.BC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5164,7 +5139,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5177,7 +5152,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5190,7 +5165,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5203,7 +5178,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5216,7 +5191,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5229,24 +5204,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.FC.CD:DP.DOD.DLSD.CR.M1.FC.CD} - 592.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLSD.CR.M1.FC.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.FC.Z1:DP.DOD.DLSD.CR.M1.FC.Z1} - 240.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLSD.CR.M1.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.FC.CD:DP.DOD.DLSD.CR.M1.FC.CD} - 144.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLSD.CR.M1.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5255,7 +5217,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.FC.Z1:DP.DOD.DLSD.CR.M1.FC.Z1} - 592.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLSD.CR.M1.FC.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5268,7 +5243,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5281,7 +5256,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5294,7 +5269,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5307,11 +5282,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.NF.CD:DP.DOD.DLSD.CR.M1.NF.CD} - 112.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLSD.CR.M1.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.NF.CD:DP.DOD.DLSD.CR.M1.NF.CD} - 560.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLSD.CR.M1.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5320,7 +5295,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5333,7 +5308,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5346,7 +5321,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5359,7 +5334,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5372,11 +5347,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.NF.CD:DP.DOD.DLSD.CR.NF.CD} - 566.Special Drawing Rights (SDRs) (PSDNFPC)(% of GDP)}{marker sourceid_DP.DOD.DLSD.CR.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.NF.CD:DP.DOD.DLSD.CR.NF.CD} - 118.Special Drawing Rights (SDRs) (PSDNFPC) US$}{marker sourceid_DP.DOD.DLSD.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5385,7 +5360,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5398,24 +5373,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.PS:DP.DOD.DLSD.CR.PS} - 406.Special Drawing Rights (SDRs) (PSDT, LT)}{marker sourceid_DP.DOD.DLSD.CR.PS}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.PS.CD:DP.DOD.DLSD.CR.PS.CD} - 296.Long-term, by original maturity (PSDCGGB, LT)}{marker sourceid_DP.DOD.DLSD.CR.PS.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.PS:DP.DOD.DLSD.CR.PS} - 182.Special Drawing Rights (SDRs) (PSDT) US$}{marker sourceid_DP.DOD.DLSD.CR.PS}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5424,7 +5386,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLSD.CR.PS.CD:DP.DOD.DLSD.CR.PS.CD} - 182.Special Drawing Rights (SDRs) (PSDT) US$}{marker sourceid_DP.DOD.DLSD.CR.PS.CD}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5437,7 +5412,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5450,11 +5425,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.BC.Z1:DP.DOD.DLTC.CR.BC.Z1} - 520.Long-term, by original maturity (PSDCGGB, LT)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.BC.Z1:DP.DOD.DLTC.CR.BC.Z1} - 264.Long-term, by original maturity (PSDCG, LT)}{marker sourceid_DP.DOD.DLTC.CR.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5463,7 +5438,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5476,11 +5451,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.CG.CD:DP.DOD.DLTC.CR.CG.CD} - 040.Long-term, by original maturity (PSDCG, LT) US$}{marker sourceid_DP.DOD.DLTC.CR.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.CG.CD:DP.DOD.DLTC.CR.CG.CD} - 488.Long-term, by original maturity (PSDCG, LT)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5489,7 +5464,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5502,7 +5477,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5515,7 +5490,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5528,7 +5503,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5541,11 +5516,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.GG:DP.DOD.DLTC.CR.GG} - 008.Long-term, by original maturity (PSDGG, LT) US$}{marker sourceid_DP.DOD.DLTC.CR.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.GG:DP.DOD.DLTC.CR.GG} - 232.Long-term, by original maturity (PSDGG, LT)}{marker sourceid_DP.DOD.DLTC.CR.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5554,7 +5529,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5567,7 +5542,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5580,7 +5555,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5593,7 +5568,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5606,24 +5581,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.BC.Z1:DP.DOD.DLTC.CR.L1.BC.Z1} - 265.With payment due in one year or less (PSDCG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.L1.BC.Z1}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.CG:DP.DOD.DLTC.CR.L1.CG} - 041.With payment due in one year or less (PSDCG, LT, &lt;1yr) US$}{marker sourceid_DP.DOD.DLTC.CR.L1.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.BC.Z1:DP.DOD.DLTC.CR.L1.BC.Z1} - 521.With payment due in one year or less (PSDCGGB, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.L1.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5632,7 +5594,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.CG:DP.DOD.DLTC.CR.L1.CG} - 265.With payment due in one year or less (PSDCG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.L1.CG}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5645,7 +5620,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5658,7 +5633,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5671,7 +5646,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5684,11 +5659,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.FC.Z1:DP.DOD.DLTC.CR.L1.FC.Z1} - 233.With payment due in one year or less (PSDGG, LT, &lt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.L1.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.FC.Z1:DP.DOD.DLTC.CR.L1.FC.Z1} - 585.With payment due in one year or less (PSDFPC, LT, &lt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.L1.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5697,7 +5672,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5710,7 +5685,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5723,7 +5698,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5736,7 +5711,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5749,7 +5724,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5762,7 +5737,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5775,11 +5750,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.PS:DP.DOD.DLTC.CR.L1.PS} - 393.With payment due in one year or less (PSDT, LT,&lt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.L1.PS}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.PS:DP.DOD.DLTC.CR.L1.PS} - 169.With payment due in one year or less (PSDT, LT,&lt;1yr) US$}{marker sourceid_DP.DOD.DLTC.CR.L1.PS}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5788,7 +5763,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5801,7 +5776,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5814,7 +5789,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5827,11 +5802,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.BC.Z1:DP.DOD.DLTC.CR.M1.BC.Z1} - 527.With payment due in more than one year (PSDCGGB, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.M1.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.BC.Z1:DP.DOD.DLTC.CR.M1.BC.Z1} - 271.With payment due in more than one year (PSDCG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.M1.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5840,7 +5815,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5853,24 +5828,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.CG.CD:DP.DOD.DLTC.CR.M1.CG.CD} - 047.With payment due in more than one year (PSDCG, LT, &gt;1yr) US$}{marker sourceid_DP.DOD.DLTC.CR.M1.CG.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.CG.Z1:DP.DOD.DLTC.CR.M1.CG.Z1} - 367.With payment due in more than one year (PSDFPC, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.M1.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.CG.CD:DP.DOD.DLTC.CR.M1.CG.CD} - 495.With payment due in more than one year (PSDCG, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.M1.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5879,7 +5841,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.CG.Z1:DP.DOD.DLTC.CR.M1.CG.Z1} - 495.With payment due in more than one year (PSDCG, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.M1.CG.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5892,7 +5867,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5905,11 +5880,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.FC.Z1:DP.DOD.DLTC.CR.M1.FC.Z1} - 239.With payment due in more than one year (PSDGG, LT, &gt;1yr)}{marker sourceid_DP.DOD.DLTC.CR.M1.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.FC.Z1:DP.DOD.DLTC.CR.M1.FC.Z1} - 591.With payment due in more than one year (PSDFPC, LT, &gt;1yr)(% of GDP)}{marker sourceid_DP.DOD.DLTC.CR.M1.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -5918,7 +5893,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5931,7 +5906,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5944,7 +5919,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5957,7 +5932,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5970,7 +5945,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5983,7 +5958,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -5996,7 +5971,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6009,7 +5984,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6022,7 +5997,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6035,7 +6010,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6048,7 +6023,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6061,7 +6036,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6074,11 +6049,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DLXF.CD:DP.DOD.DLXF.CD} - Priv. Sector Ext. Debt, incl. non-guarant.(US$)}{marker sourceid_DP.DOD.DLXF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DLTC.CR.PS.CD:DP.DOD.DLTC.CR.PS.CD} - 168.Long-term, by original maturity (PSDT, LT) US$}{marker sourceid_DP.DOD.DLTC.CR.PS.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6087,7 +6062,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6100,7 +6075,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6113,7 +6088,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6126,24 +6101,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.CG:DP.DOD.DSCD.CR.CG} - 259.Currency and deposits (PSDCG, ST)}{marker sourceid_DP.DOD.DSCD.CR.CG}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.CG.CD:DP.DOD.DSCD.CR.CG.CD} - 483.Currency and deposits (PSDCG, ST)(% of GDP)}{marker sourceid_DP.DOD.DSCD.CR.CG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.CG:DP.DOD.DSCD.CR.CG} - 035.Currency and deposits (PSDCG, ST) US$}{marker sourceid_DP.DOD.DSCD.CR.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6152,11 +6114,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.CG.Z1:DP.DOD.DSCD.CR.CG.Z1} - 483.Currency and deposits (PSDCG, ST)(% of GDP)}{marker sourceid_DP.DOD.DSCD.CR.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.CG.CD:DP.DOD.DSCD.CR.CG.CD} - 035.Currency and deposits (PSDCG, ST) US$}{marker sourceid_DP.DOD.DSCD.CR.CG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6165,7 +6127,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.CG.Z1:DP.DOD.DSCD.CR.CG.Z1} - 355.Currency and deposits (PSDFPC, ST)}{marker sourceid_DP.DOD.DSCD.CR.CG.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6178,24 +6153,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.FC.CD:DP.DOD.DSCD.CR.FC.CD} - 579.Currency and deposits (PSDFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSCD.CR.FC.CD}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.FC.Z1:DP.DOD.DSCD.CR.FC.Z1} - 227.Currency and deposits (PSDGG, ST)}{marker sourceid_DP.DOD.DSCD.CR.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.FC.CD:DP.DOD.DSCD.CR.FC.CD} - 131.Currency and deposits (PSDFPC, ST) US$}{marker sourceid_DP.DOD.DSCD.CR.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6204,7 +6166,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSCD.CR.FC.Z1:DP.DOD.DSCD.CR.FC.Z1} - 579.Currency and deposits (PSDFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSCD.CR.FC.Z1}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6217,7 +6192,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6230,7 +6205,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6243,7 +6218,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6256,7 +6231,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6269,7 +6244,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6282,7 +6257,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6295,7 +6270,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6308,7 +6283,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6321,11 +6296,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.BC.CD:DP.DOD.DSDS.CR.BC.CD} - 068.Debt securities (PSDCGGB, ST) US$}{marker sourceid_DP.DOD.DSDS.CR.BC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.BC.CD:DP.DOD.DSDS.CR.BC.CD} - 516.Debt securities (PSDCGGB, ST)(% of GDP)}{marker sourceid_DP.DOD.DSDS.CR.BC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6334,7 +6309,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6347,11 +6322,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.CG:DP.DOD.DSDS.CR.CG} - 260.Debt securities (PSDCG, ST)}{marker sourceid_DP.DOD.DSDS.CR.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.CG:DP.DOD.DSDS.CR.CG} - 036.Debt securities (PSDCG, ST) US$}{marker sourceid_DP.DOD.DSDS.CR.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6360,7 +6335,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6373,11 +6348,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.CG.Z1:DP.DOD.DSDS.CR.CG.Z1} - 484.Debt securities (PSDCG, ST)(% of GDP)}{marker sourceid_DP.DOD.DSDS.CR.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.CG.Z1:DP.DOD.DSDS.CR.CG.Z1} - 356.Debt securities (PSDFPC, ST)}{marker sourceid_DP.DOD.DSDS.CR.CG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6386,7 +6361,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6399,7 +6374,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6412,11 +6387,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.FC.Z1:DP.DOD.DSDS.CR.FC.Z1} - 228.Debt securities (PSDGG, ST)}{marker sourceid_DP.DOD.DSDS.CR.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.FC.Z1:DP.DOD.DSDS.CR.FC.Z1} - 580.Debt securities (PSDFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSDS.CR.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6425,7 +6400,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6438,7 +6413,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6451,7 +6426,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6464,24 +6439,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.NF:DP.DOD.DSDS.CR.NF} - 100.Debt securities (PSDNFPC, ST) US$}{marker sourceid_DP.DOD.DSDS.CR.NF}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.NF.CD:DP.DOD.DSDS.CR.NF.CD} - 548.Debt securities (PSDNFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSDS.CR.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.NF:DP.DOD.DSDS.CR.NF} - 324.Debt securities (PSDNFPC, ST)}{marker sourceid_DP.DOD.DSDS.CR.NF}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6490,7 +6452,20 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
+
+
+
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.NF.CD:DP.DOD.DSDS.CR.NF.CD} - 100.Debt securities (PSDNFPC, ST) US$}{marker sourceid_DP.DOD.DSDS.CR.NF.CD}
+
+
+{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
+
+{synopt:{opt Topics}}.{p_end}
+
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6503,11 +6478,11 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.PS:DP.DOD.DSDS.CR.PS} - 164.Debt securities (PSDT, ST) US$}{marker sourceid_DP.DOD.DSDS.CR.PS}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSDS.CR.PS:DP.DOD.DSDS.CR.PS} - 388.Debt securities (PSDT)}{marker sourceid_DP.DOD.DSDS.CR.PS}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6516,7 +6491,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6529,7 +6504,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6542,7 +6517,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6555,7 +6530,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6568,7 +6543,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6581,7 +6556,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6594,7 +6569,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6607,7 +6582,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6620,7 +6595,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6633,7 +6608,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6646,7 +6621,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified..{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics..{p_end}
 
 
 
@@ -6689,7 +6664,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSIN.CR.NF:DP.DOD.DSIN.CR.NF} - 326.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)}{marker sourceid_DP.DOD.DSIN.CR.NF}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSIN.CR.NF:DP.DOD.DSIN.CR.NF} - 102.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST) US$}{marker sourceid_DP.DOD.DSIN.CR.NF}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6741,7 +6716,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSIN.CR.PS.CD:DP.DOD.DSIN.CR.PS.CD} - 293.Loans (PSDCGGB, ST)}{marker sourceid_DP.DOD.DSIN.CR.PS.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSIN.CR.PS.CD:DP.DOD.DSIN.CR.PS.CD} - 166.Insurance, pensions, and standardized guarantee schemes (PSDT, ST) US$}{marker sourceid_DP.DOD.DSIN.CR.PS.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6793,7 +6768,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.CG:DP.DOD.DSLO.CR.CG} - 037.Loans (PSDCG, ST) US$}{marker sourceid_DP.DOD.DSLO.CR.CG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.CG:DP.DOD.DSLO.CR.CG} - 261.Loans (PSDCG, ST)}{marker sourceid_DP.DOD.DSLO.CR.CG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6845,7 +6820,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.FC.CD:DP.DOD.DSLO.CR.FC.CD} - 581.Loans (PSDFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSLO.CR.FC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.FC.CD:DP.DOD.DSLO.CR.FC.CD} - 133.Loans (PSDFPC, ST) US$}{marker sourceid_DP.DOD.DSLO.CR.FC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6884,7 +6859,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.GG.CD:DP.DOD.DSLO.CR.GG.CD} - 005.Loans (PSDGG, ST) US$}{marker sourceid_DP.DOD.DSLO.CR.GG.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.GG.CD:DP.DOD.DSLO.CR.GG.CD} - 453.Loans (PSDGG, ST)(% of GDP)}{marker sourceid_DP.DOD.DSLO.CR.GG.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6897,7 +6872,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.GG.Z1:DP.DOD.DSLO.CR.GG.Z1} - 325.Loans (PSDNFPC, ST)}{marker sourceid_DP.DOD.DSLO.CR.GG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSLO.CR.GG.Z1:DP.DOD.DSLO.CR.GG.Z1} - 453.Loans (PSDGG, ST)(% of GDP)}{marker sourceid_DP.DOD.DSLO.CR.GG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -6988,7 +6963,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.BC.CD:DP.DOD.DSOA.CR.BC.CD} - 071.Other accounts payable (PSDCGGB, ST) US$}{marker sourceid_DP.DOD.DSOA.CR.BC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.BC.CD:DP.DOD.DSOA.CR.BC.CD} - 519.Other accounts payable (PSDCGGB, ST)(% of GDP)}{marker sourceid_DP.DOD.DSOA.CR.BC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7001,7 +6976,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.BC.Z1:DP.DOD.DSOA.CR.BC.Z1} - 263.Other accounts payable (PSDCG, ST)}{marker sourceid_DP.DOD.DSOA.CR.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.BC.Z1:DP.DOD.DSOA.CR.BC.Z1} - 519.Other accounts payable (PSDCGGB, ST)(% of GDP)}{marker sourceid_DP.DOD.DSOA.CR.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7040,7 +7015,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.CG.Z1:DP.DOD.DSOA.CR.CG.Z1} - 487.Other accounts payable (PSDCG, ST)(% of GDP)}{marker sourceid_DP.DOD.DSOA.CR.CG.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.CG.Z1:DP.DOD.DSOA.CR.CG.Z1} - 359.Other accounts payable (PSDFPC, ST)}{marker sourceid_DP.DOD.DSOA.CR.CG.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7079,7 +7054,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.FC.Z1:DP.DOD.DSOA.CR.FC.Z1} - 231.Other accounts payable (PSDGG, ST)}{marker sourceid_DP.DOD.DSOA.CR.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.FC.Z1:DP.DOD.DSOA.CR.FC.Z1} - 583.Other accounts payable (PSDFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSOA.CR.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7092,7 +7067,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.GG:DP.DOD.DSOA.CR.GG} - 231.Other accounts payable (PSDGG, ST)}{marker sourceid_DP.DOD.DSOA.CR.GG}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.GG:DP.DOD.DSOA.CR.GG} - 007.Other accounts payable (PSDGG, ST) US$}{marker sourceid_DP.DOD.DSOA.CR.GG}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7157,7 +7132,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.NF.Z1:DP.DOD.DSOA.CR.NF.Z1} - 551.Other accounts payable (PSDNFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSOA.CR.NF.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSOA.CR.NF.Z1:DP.DOD.DSOA.CR.NF.Z1} - 391.Other accounts payable (PSDT)}{marker sourceid_DP.DOD.DSOA.CR.NF.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7209,7 +7184,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.BC.CD:DP.DOD.DSTC.CR.BC.CD} - 066.Short-term by original maturity (PSDCGGB, ST) US$}{marker sourceid_DP.DOD.DSTC.CR.BC.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.BC.CD:DP.DOD.DSTC.CR.BC.CD} - 514.Short-term by original maturity (PSDCGGB, ST)(% of GDP)}{marker sourceid_DP.DOD.DSTC.CR.BC.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7222,7 +7197,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.BC.Z1:DP.DOD.DSTC.CR.BC.Z1} - 514.Short-term by original maturity (PSDCGGB, ST)(% of GDP)}{marker sourceid_DP.DOD.DSTC.CR.BC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.BC.Z1:DP.DOD.DSTC.CR.BC.Z1} - 258.Short-term by original maturity (PSDCG, ST)}{marker sourceid_DP.DOD.DSTC.CR.BC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7300,7 +7275,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.FC.Z1:DP.DOD.DSTC.CR.FC.Z1} - 226.Short-term by original maturity (PSDGG, ST)}{marker sourceid_DP.DOD.DSTC.CR.FC.Z1}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.FC.Z1:DP.DOD.DSTC.CR.FC.Z1} - 578.Short-term by original maturity (PSDFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSTC.CR.FC.Z1}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7352,7 +7327,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.NF:DP.DOD.DSTC.CR.NF} - 098.Short-term by original maturity (PSDNFPC, ST) US$}{marker sourceid_DP.DOD.DSTC.CR.NF}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.NF:DP.DOD.DSTC.CR.NF} - 322.Short-term by original maturity (PSDNFPC, ST)}{marker sourceid_DP.DOD.DSTC.CR.NF}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7365,7 +7340,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.NF.CD:DP.DOD.DSTC.CR.NF.CD} - 098.Short-term by original maturity (PSDNFPC, ST) US$}{marker sourceid_DP.DOD.DSTC.CR.NF.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.NF.CD:DP.DOD.DSTC.CR.NF.CD} - 546.Short-term by original maturity (PSDNFPC, ST)(% of GDP)}{marker sourceid_DP.DOD.DSTC.CR.NF.CD}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
@@ -7391,20 +7366,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.PS:DP.DOD.DSTC.CR.PS} - 386.Short-term by original maturity (PSDT)}{marker sourceid_DP.DOD.DSTC.CR.PS}
-
-
-{synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. It is calculated as an annual average based on monthly averages (local currency units relative to the U.S. dollar)..{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data..{p_end}
-
-
-
-{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.PS.CD:DP.DOD.DSTC.CR.PS.CD} - 162.Short-term by original maturity (PSDT, ST) US$}{marker sourceid_DP.DOD.DSTC.CR.PS.CD}
+{dlgtab: {help wbopendata_sourceid##DP.DOD.DSTC.CR.PS:DP.DOD.DSTC.CR.PS} - 162.Short-term by original maturity (PSDT, ST) US$}{marker sourceid_DP.DOD.DSTC.CR.PS}
 
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt.{p_end}

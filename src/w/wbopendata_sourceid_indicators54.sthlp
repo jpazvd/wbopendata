@@ -26,6 +26,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -98,7 +99,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA} - 13_Multilateral loans, IMF, short term}{marker sourceid_Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA}
+{dlgtab: {help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA} - 11_SDR allocation}{marker sourceid_Q.1C0.1C0.C.9B.IFI.LMIM.1.STR.NV.SDR.MOA}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
@@ -111,20 +112,20 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA} - 14_Debt securities held by nonresidents}{marker sourceid_Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA}
+{dlgtab: {help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA} - 11_SDR allocation}{marker sourceid_Q.1C0.1C0.C.9B.IFI.SDAL.1.ALL.MV.SDR.MOA}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are sourced from the IMF’s Coordinated Portfolio Investment Survey (CPIS) database. Individual economy data on debt securities held by nonresidents are derived from other economies’ CPIS creditor data. The relevant tables in the CPIS database are 1) derived portfolio investment liabilities: long-term debt securities; and 2) derived portfolio investment liabilities: short-term debt securities..{p_end}
+{synopt:{opt Source Notes}}SDRs are international reserve assets created by the IMF and allocated to members to supplement existing official reserves. Holdings of SDRs by an IMF member are recorded as an asset, while the allocation of SDRs is recorded as the incurrence of a liability of the member receiving them. The membership of the SDR Department incurs the asset and liability position among themselves, not with the IMF. The holdings and allocations should be shown gross, rather than netted (Balance of Payments and International Investment Position Manual, sixth edition (BPM6))..{p_end}
 
 {synopt:{opt Source Organization}}IMF.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL} - 15_Debt securities held by nonresidents, total, short term}{marker sourceid_Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL}
+{dlgtab: {help wbopendata_sourceid##Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL:Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL} - 14_Debt securities held by nonresidents}{marker sourceid_Q.1C0.1C0.C.9E.ALL.DSTT.1.ALL.MV.TO1.ALL}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
@@ -157,7 +158,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Holdings of SDRs are international reserve assets created by the IMF to supplement existing reserves. They are valued on the basis of a basket of currencies of four key international currencies and can be used in a wide variety of transactions and operations among official holders. SDRs are allocated to Fund members that are participants in the Fund’s Operations Division for SDRs and Administered Accounts in proportion to their quotas. Data  are sourced from IMF records..{p_end}
+{synopt:{opt Source Notes}}The data are sourced from the African Development Bank, Asian Development Bank, and Inter-American Development, and IBRD loans and IDA credits from the World Bank..{p_end}
 
 {synopt:{opt Source Organization}}African Development Bank, Asian Development Bank, Inter-American Development, World Bank.{p_end}
 
@@ -176,16 +177,16 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL} - 04_Official bilateral loans, aid loans}{marker sourceid_Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL}
+{dlgtab: {help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL} - 06_Multilateral loans, total}{marker sourceid_Q.1E0.1E0.C.9B.IFI.LMTT.1.ALL.NV.TO1.ALL}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}Aid loans cover Official Development Assistance (ODA) loans. ODA loans are concessional loans provided by the official sector to countries and territories on the DAC List of ODA Recipients..{p_end}
+{synopt:{opt Source Notes}}The data represent the sum of loans from the IMF (item 07) and other institutions (item 08)..{p_end}
 
-{synopt:{opt Source Organization}}OECD.{p_end}
+{synopt:{opt Source Organization}}African Development Bank, Asian Development Bank, Inter-American Development, IMF, World Bank.{p_end}
 
 
 
@@ -222,9 +223,9 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data show the outstanding debt on loans, other than direct export credits, extended by governments which are members of the OECD’s Development Assistance Committee (DAC). In addition to straightforward loans, official bilateral loans include loans repayable in kind, and eligible loans in Associated Financing packages..{p_end}
+{synopt:{opt Source Notes}}The data provides total international liabilities (all instruments) to banks that report the BIS Consolidated Banking Statistics..{p_end}
 
-{synopt:{opt Source Organization}}OECD.{p_end}
+{synopt:{opt Source Organization}}BIS.{p_end}
 
 
 
@@ -235,7 +236,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data provides total international liabilities (all instruments) to banks that report the BIS Consolidated Banking Statistics..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the BIS Consolidated Banking Statistics (CBS), which comprise data on gross consolidated claims of banks resident in the CBS reporting..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
@@ -261,13 +262,13 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data provides total cross-border liabilities (all instruments) to banks that report the BIS Locational Banking Statistics..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) Locational Banking Statistics..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL} - 01_Cross-border loans from BIS reporting banks}{marker sourceid_Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL}
+{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL} - 02_Cross-border loans from BIS banks to nonbanks}{marker sourceid_Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.ALL}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
@@ -280,14 +281,14 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK} - 02_Cross-border loans from BIS banks to nonbanks}{marker sourceid_Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK}
+{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK} - 27_Cross-border deposits with BIS rep. banks}{marker sourceid_Q.5B0.5B0.C.5A.BKL.LDPT.1.ALL.NV.TO1.NBK}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) Locational Banking Statistics..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the BIS locational banking statistics. Deposits with BIS reporting banks are shown in BIS publications as banks' liabilities to their creditors..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
@@ -313,7 +314,7 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are derived from the BIS locational banking statistics. Deposits with BIS reporting banks are shown in BIS publications as banks' liabilities to their creditors..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
@@ -326,20 +327,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics, excluding bank issuers..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK} - 18_International debt securities, short term}{marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK}
+{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK} - 17_International debt securities, nonbanks}{marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.ALL.NV.TO1.NBK}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics and cover securities with original maturity of up to 12 months..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics, excluding bank issuers..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
@@ -352,20 +353,20 @@
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics and cover securities with original maturity of up to 12 months..{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics and cover securities with original maturity of up to 12 months, excluding bank issuers..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK} - 19_Intnl debt securities, nonbanks, short term}{marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK}
+{dlgtab: {help wbopendata_sourceid##Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK:Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK} - 21_Paris Club claims (non ODA)}{marker sourceid_Q.5B0.5B0.M.3P.ALL.DSIT.1.STR.NV.TO1.NBK}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
 
 {synopt:{opt Topics}}.{p_end}
 
-{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics and cover securities with original maturity of up to 12 months, excluding bank issuers..{p_end}
+{synopt:{opt Source Notes}}Amounts due to Paris Club Creditor Countries by foreign sovereign and other public debtors..{p_end}
 
 {synopt:{opt Source Organization}}BIS.{p_end}
 
@@ -384,7 +385,7 @@
 
 
 
-{dlgtab: {help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO} - 20_Paris Club claims (ODA)}{marker sourceid_Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO}
+{dlgtab: {help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO} - 09_Insured export credit exposures, Berne Union}{marker sourceid_Q.6T0.5B0.C.3P.GGO.PCOD.1.ALL.NV.TO1.GGO}
 
 
 {synopt:{opt Source}}54 Joint External Debt Hub.{p_end}
