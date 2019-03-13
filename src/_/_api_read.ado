@@ -3,7 +3,81 @@
 *! v 15.2  	8Mar2019               by Joao Pedro Azevedo
 *	flexible API address
 * 	fix API query when option query was not selected
-*******************************************************************************
+/*******************************************************************************
+
+
+cd "C:\GitHub_myados\wbopendata\src"
+
+! git checkout dev
+
+discard
+
+/* Coutries */
+
+_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		nopreserve single parameter(page pages total)
+return list
+
+_api_read , query("http://api.worldbank.org/v2/countries/") ///
+		per_page(5) page(1) list nopreserve ///
+		parameter( country?id iso2Code name region?id adminregion?id incomeLevel?id lendingType?id iso2code capitalCity latitude longitude )
+return list
+
+
+			
+/* Indicators */
+
+_api_read, single parameter(pages per_page total)
+return list
+
+_api_read, per_page(50) single parameter(pages per_page total)
+return list
+
+_api_read, per_page(200) single parameter(pages per_page total)
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.NFSV.CD")
+return list
+
+cls
+clear
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.OSRV.CD") ///
+		nopreserve
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		nopreserve parameter( indicator?id name topic?id ) 
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		nopreserve parameter( indicator?id name topic?id ) verbose
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) verbose
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) 
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.EST") ///
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
+		verbose 
+return list
+
+set trace on
+_api_read , page(1728) per_page(1) list parameter( indicator?id name topic?id ///
+		source?id sourceNote sourceOrganization) verbose
+return list
+
+local sourceNote "Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives the country's score on the aggregate indicator, in units of a standard normal distribution, i.e. ranging from approximately -2.5 to 2.5."
+di "`sourceNote'"
+local pchar = length("`sourceNote'")
+di `pchar'
+
+
+*******************************************************************************/
 
 
 program define _api_read, rclass
@@ -97,8 +171,10 @@ program define _api_read, rclass
 						if ("`parameter'" != "") {
 						
 							foreach name in `parameter' {
-						
-								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),50),1)
+								
+								local pchar = length(`"`line`l''"')
+								
+								local tmp = word(substr(`"`line`l''"',strpos(`"`line`l''"',`"`name'="'),`pchar'),1)
 
 								local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
 								
@@ -121,12 +197,12 @@ program define _api_read, rclass
 						}
 				   		
 						if ("`parameter'" != "") {
-						
+
+							/* BEGIN: Replace '?' by "_" in all parameter names */
+							
 							local new_parameter ""					/* clear list */
 							local multiparametersinsingleline ""	/* clear list */
 
-							/* Replace '?' by "_" in all parameter names */
-							
 							foreach name in `parameter' {
 
 								if (strmatch("`name'","*?*") == 1) {
@@ -140,7 +216,10 @@ program define _api_read, rclass
 							
 							}
 							
-							/* Screen how many (and which) parameters per line */
+							/* END: Replace '?' by "_" in all parameter names */
+							
+							
+							/* BEGIN: Screen and Report how many (and which) parameters per line */
 
 							local c = 0
 
@@ -154,15 +233,30 @@ program define _api_read, rclass
 							}
 
 							if (`c'== 1) {
-								`noi' di "--------------------------"
-								`noi' di "`c': single: `multiparametersinsingleline' : `stub'"
+								`noi' di in g ""
+								`noi' di in g  "Original Parameters: `parameter'"
+								`noi' di in g  "New Parameters: `new_parameter'"
+								`noi' di in g  ""
+								`noi' di in y "--------------------------"
+								`noi' di in y "SINGLE START VAR: "
+								`noi' di in y "BEFORE LOOP"
+								`noi' di in y "--------------------------"
+								`noi' di in g "`c': single: `multiparametersinsingleline' "
 								`noi' di "`line`l''"
 							}
 							if (`c' >= 2) {
-								`noi' di "--------------------------"
-								`noi' di "`c': multi: `multiparametersinsingleline' : `stub'"
+								`noi' di in g ""
+								`noi' di in g  "Original Parameters: `parameter'"
+								`noi' di in g  "New Parameters: `new_parameter'"
+								`noi' di in g  ""
+								`noi' di in y "--------------------------"
+								`noi' di in y "MULTI START VAR: "
+								`noi' di in y "BEFORE LOOP"
+								`noi' di in y "--------------------------"
+								`noi' di in g "`c': multi: `multiparametersinsingleline' "
 								`noi' di "`line`l''"
 							}
+							/* END: Screen and Report how many (and which) parameters per line */
 							
 							/* Extract only relevant parameters as determined by previous loop */
 							
@@ -183,6 +277,8 @@ program define _api_read, rclass
 									
 										local line`l' = subinstr(`"`line`l''"',"</wb:`name'>","",.)
 										
+*										local line`l' = subinstr(`"`line`l''"',"<wb:`name'>","",.)
+
 										local line`l' = subinstr(`"`line`l''"',"<wb:","",.)
 									
 										if (`k'<`c') {
@@ -193,18 +289,41 @@ program define _api_read, rclass
 											
 											local end =strpos(`"`line`l''"',"`nextparameter'")
 										
-											`noi' di "`k' `c' : `nextparameter' : stub: `stub'"
-											`noi' di "--------------------------"
-											`noi' di ""
+											`noi' di  ""
+											`noi' di in g "start: 	`str'"
+											`noi' di in g "end:	`end'"
+											`noi' di  in g "`k'<`c' " in g ": `nextparameter' : stub: `stub'"
+											`noi' di  in y "--------------------------"
+											`noi' di  in y "INSIDE THE LOOP (K<C)"
+											`noi' di  in y "--------------------------"
+											`noi' di  in g ""
+											`noi' di `"`line`l''"'
+											`noi' di  in g ""
 
 										
 										}
 										if (`k'==`c')  {
 										
 											local str =strpos(`"`line`l''"',`"`name'="')
-											
+											if (`str'==0) {
+												local str =strpos(`"`line`l''"',`"`name'>"')
+												local adj = length(`"`name'>"')
+												local str = `str'+`adj'
+											}
 											local end =strpos(`"`line`l''"',`"</wb:`stub'>"')
-											*local end =length(`"`line`l''"')
+											if (`end'==0) {	
+												local end =length(`"`line`l''"')
+											}
+
+											`noi' di in g "start: 	`str'"
+											`noi' di in g "end:	`end'"
+											`noi' di in g "`k'=`c' " in g ": `nextparameter' : stub: `stub'"
+											`noi' di  in y "--------------------------"
+											`noi' di  in y "INSIDE THE LOOP (K=C)"
+											`noi' di  in y "--------------------------"
+											`noi' di  in g ""
+											`noi' di `"`line`l''"'
+											`noi' di  in g ""
 
 										}
 										
@@ -215,36 +334,43 @@ program define _api_read, rclass
 										
 										local len = `end'-`str'
 									
-*										noi di ""
-*										noi di "`name' : `stub' : local len = `end'-`str'"
+										`noi' di `"`line`l''"'
 
+									
 										local tmp = substr(`"`line`l''"',`str',(`end'-1))
 										local tmp = subinstr(`"`tmp'"',`"`name'="',"",.)
 										local tmp = subinstr(`"`tmp'"',`"</wb:`stub'>"',"",.)
+*										local tmp = subinstr(`"`line`l''"',"&amp;","and",.)
 										local tmp = trim("`tmp'")
+
+										`noi' di "`tmp'"
+
 									}
 									
 									if (strmatch(`"`line`l''"',"*=*") != 1) {
 									
 										local tmp = subinstr(`"`line`l''"',"<wb:`name'>","",.)
-										local tmp = subinstr(`"`line`l''"',"<wb:`name'","",.)
 										local tmp = subinstr(`"`tmp'"',`"</wb:`stub'>"',"",.)
 *										noi di `"local tmp = subinstr(`"`tmp'"',`"</wb:`stub'>"',"",.)"'
+*										local tmp = subinstr(`"`line`l''"',"&amp;","and",.)
 										local tmp = trim("`tmp'")
 									}
 									
 									local tmp = subinstr(`"`tmp'"',"/"," ",.)
 									local tmp = subinstr(`"`tmp'"',">"," ",.)
+									local tmp = subinstr(`"`tmp'"',"&amp;","and",.)
 									local tmp = trim("`tmp'")
 																		
-									return local `name'`l' `tmp'
+									return local `name'`l' "`tmp'"
 
 									`noi' di "`name'`l': `tmp'"
 									
 								}
 								
-								`noi' di "--------------------------"
-								`noi' di ""
+								`noi' di in y "--------------------------"
+								`noi' di in y " END VAR: `name'			 "
+								`noi' di in y "--------------------------"
+								`noi' di in g ""
 
 								
 							}

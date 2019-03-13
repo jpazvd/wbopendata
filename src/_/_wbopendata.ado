@@ -1,5 +1,7 @@
 **********************************************************
-*! version 15.1 			<3Mar2019>		JPAzevedo
+*! version 15.2 			<13Mar2019>		JPAzevedo
+*	change indicators update; function _update_indicators.ado replaced by _indicators.ado
+* version 15.1 			<3Mar2019>		JPAzevedo
 *	include countrymetadata option
 *	include force option
 * version 15.0.2 			<16Feb2019>		JPAzevedo
@@ -21,6 +23,7 @@ syntax , 								///
 				QUERY		            ///
 				CHECK		            ///
 				COUNTRYMETADATA			///
+				INDICATORS				///
 				FORCE					///
 				ALL						///
 		  ]
@@ -232,7 +235,8 @@ syntax , 								///
 			file open `out'    using 	`out2'   		, write text append 
 
 			
-			noi _update_indicators, update `preserveout'
+			*noi _update_indicators, update `preserveout'
+			noi _indicators.ado
 					
 			noi di in smcl ""
 			noi di in smcl in g "{bf:New indicator list created}"
