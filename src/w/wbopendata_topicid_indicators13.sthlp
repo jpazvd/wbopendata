@@ -1244,7 +1244,7 @@
 
 {synopt:{opt Source Notes}}Battle-related deaths are deaths in battle-related conflicts between warring parties in the conflict dyad (two conflict units that are parties to a conflict). Typically, battle-related deaths occur in warfare involving the armed forces of the warring parties. This includes traditional battlefield fighting, guerrilla activities, and all kinds of bombardments of military units, cities, and villages, etc. The targets are usually the military itself and its installations or state institutions and state representatives, but there is often substantial collateral damage in the form of civilians being killed in crossfire, in indiscriminate bombings, etc. All deaths--military as well as civilian--incurred in such situations, are counted as battle-related deaths.{p_end}
 
-{synopt:{opt Source Organization}}Uppsala Conflict Data Program, {browse "http://www.pcr.uu.se/research/ucdp/."}{p_end}
+{synopt:{opt Source Organization}}Uppsala Conflict Data Program, {browse "http://www.pcr.uu.se/research/ucdp/"}.{p_end}
 
 
 {synoptline}
@@ -1257,7 +1257,7 @@
 
 {synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles (http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement) as people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict, situations of generalized violence, violations of human rights, or natural or human-made disasters and who have not crossed an international border. New Displacement refers to the number of new cases or incidents of displacement recorded over the specified year, rather than the number of people displaced. This is done because people may have been displaced more than once.{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/){p_end}
+{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/"}){p_end}
 
 
 {synoptline}
@@ -1270,7 +1270,7 @@
 
 {synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles (http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement) as people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict, situations of generalized violence, violations of human rights, or natural or human-made disasters and who have not crossed an international border. New Displacement refers to the number of new cases or incidents of displacement recorded over the specified year, rather than the number of people displaced. This is done because people may have been displaced more than once.{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/){p_end}
+{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/"}){p_end}
 
 
 {synoptline}
@@ -1283,7 +1283,7 @@
 
 {synopt:{opt Source Notes}}Internally displaced persons are defined according to the 1998 Guiding Principles (http://www.internal-displacement.org/publications/1998/ocha-guiding-principles-on-internal-displacement) as people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict, situations of generalized violence, violations of human rights, or natural or human-made disasters and who have not crossed an international border. “People displaced” refers to the number of people living in displacement as of the end of each year, and reflects the stock of people displaced at the end of the previous year, plus inflows of new cases arriving over the year as well as births over the year to those displaced, minus outflows which may include returnees, those who settled elsewhere, those who integrated locally, those who travelled over borders, and deaths.{p_end}
 
-{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/){p_end}
+{synopt:{opt Source Organization}}The Internal Displacement Monitoring Centre ({browse "http://www.internal-displacement.org/"}){p_end}
 
 
 {synoptline}
@@ -1335,7 +1335,7 @@
 
 {synopt:{opt Source Notes}}Presence of peacebuilders and peacekeepers are active in peacebuilding and peacekeeping. Peacebuilding reduces the risk of lapsing or relapsing into conflict by strengthening national capacities at all levels of for conflict management, and to lay the foundation for sustainable peace and development. Peacekeepers provide essential security to preserve the peace, however fragile, where fighting has been halted, and to assist in implementing agreements achieved by the peacemakers. Peacekeepers deploy to war-torn regions where no one else is willing or able to go and prevent conflict from returning or escalating. Peacekeepers include police, troops, and military observers.{p_end}
 
-{synopt:{opt Source Organization}}UN Department of Peacekeeping Operations, {browse "http://www.un.org/en/peacekeeping/."}{p_end}
+{synopt:{opt Source Organization}}UN Department of Peacekeeping Operations, {browse "http://www.un.org/en/peacekeeping/"}.{p_end}
 
 
 

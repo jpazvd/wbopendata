@@ -1,7 +1,14 @@
 *******************************************************************************
 * wbopendata                                                                  *
 *!  v 15.2	    11Mar2019               by Joao Pedro Azevedo 
-*		New help file and documentation
+* created and tested new functions, namely:
+  * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
+  * _indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:
+    * dialogue indicator list
+    * sthlp indicator list by Source and Topic
+    * sthlp indicator metadata by Source and Topic
+ * _website.ado : screens a text file and converts and http or www "word" to a SMCL web compatible code.
+ * updated help file to allow for the search of indicators by Source and Topics
 *******************************************************************************
 
 program def wbopendata, rclass

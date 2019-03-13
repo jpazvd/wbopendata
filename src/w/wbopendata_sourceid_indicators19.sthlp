@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -70,7 +68,7 @@
 
 {synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. OECD DAC.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -83,7 +81,7 @@
 
 {synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Total sector-allocable aid is the sum of aid that can be assigned to specific sectors or multisector activities. OECD DAC.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -96,7 +94,7 @@
 
 {synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Total sector-allocable aid is the sum of aid that can be assigned to specific sectors or multisector activities. Basic social services consists of, primary education, basic life skills for youth and adults and early childhood education, basic health care, basic health infrastructure, basic nutrition, infectious disease control, health education and health personnel development, population policy and administrative management, reproductive health care, family planning, sexually transmitted disease (STD) control including HIV/AIDS, personnel development (population &amp; reproductive health), basic drinking water supply and basic sanitation, and multi-sector aid for basic social services. OECD DAC.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -109,7 +107,7 @@
 
 {synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Total sector-allocable aid is the sum of aid that can be assigned to specific sectors or multisector activities. Basic social services consists of, primary education, basic life skills for youth and adults and early childhood education, basic health care, basic health infrastructure, basic nutrition, infectious disease control, health education and health personnel development, population policy and administrative management, reproductive health care, family planning, sexually transmitted disease (STD) control including HIV/AIDS, personnel development (population &amp; reproductive health), basic drinking water supply and basic sanitation, and multi-sector aid for basic social services.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -122,7 +120,7 @@
 
 {synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Untied bilateral official development assistance is assistance from country to country for which the associated goods and services may be fully and freely procured in substantially all countries. OECD DAC.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -135,7 +133,7 @@
 
 {synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Untied bilateral official development assistance is assistance from country to country for which the associated goods and services may be fully and freely procured in substantially all countries.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -200,19 +198,7 @@
 
 {synopt:{opt Source Notes}}Agriculture support is the annual monetary value of all gross transfers from taxpayers and consumers, both domestic and foreign (in the form of subsidies arising from policy measures that support agriculture), net of the associated budgetary receipts, regardless of their objectives and impacts on farm production and income, or consumption of farm products.{p_end}
 
-{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development, Producer and Consumer Support Estimates database. Available online at {browse "www.oecd.org/tad/support/psecse."}{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.KNOW.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.KNOW.FE.ZS:SH.HIV.KNOW.FE.ZS} - % of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)}}
-
-{synopt:{opt Source}}19 Millennium Development Goals{p_end}
-
-
-{synopt:{opt Source Notes}}Knowledge of HIV, female, is the percentage of female respondents who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local misconceptions about HIV transmission, and who know that a healthy-looking person can have HIV.{p_end}
-
-{synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development, Producer and Consumer Support Estimates database. Available online at {browse "www.oecd.org/tad/support/psecse"}.{p_end}
 
 
 {synoptline}
@@ -225,7 +211,7 @@
 
 {synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -238,7 +224,7 @@
 
 {synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -251,7 +237,7 @@
 
 {synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -264,7 +250,7 @@
 
 {synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -277,7 +263,7 @@
 
 {synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -290,7 +276,7 @@
 
 {synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -303,7 +289,7 @@
 
 {synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -316,7 +302,7 @@
 
 {synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org."}{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 

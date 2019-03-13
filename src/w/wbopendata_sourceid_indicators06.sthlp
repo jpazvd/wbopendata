@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -61,18 +59,6 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:06 International Debt Statistics}}}
 {synoptline}
-{marker sourceid_BX.GRT.EXTA.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.GRT.EXTA.CD.DT:BX.GRT.EXTA.CD.DT} - Grants, excluding technical cooperation (current US$)}}
-
-{synopt:{opt Source}}06 International Debt Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
-
-
-{synoptline}
 {marker sourceid_BX.GRT.TECH.CD.DT}
 {synopt:{bf:{help wbopendata_sourceid##BX.GRT.TECH.CD.DT:BX.GRT.TECH.CD.DT} - Technical cooperation grants (current US$)}}
 
@@ -86,7 +72,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DINV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (DRS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -109,8 +95,8 @@
 
 
 {synoptline}
-{marker sourceid_BX.PEF.TOTL.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT} - Portfolio investment, equity (DRS, current US$)}}
+{marker sourceid_BX.PEF.TOTL.CD}
+{synopt:{bf:{help wbopendata_sourceid##BX.PEF.TOTL.CD:BX.PEF.TOTL.CD} - Portfolio investment, equity (DRS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 

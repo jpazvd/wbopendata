@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -61,15 +59,15 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:22 Quarterly External Debt Statistics SDDS}}}
 {synoptline}
-{marker sourceid_DP.DOD.DLCD.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1} - Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Market Value, USD}}
+{marker sourceid_DP.DOD.DLLO.CR.L1.BC.CD}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.BC.CD:DP.DOD.DLLO.CR.L1.BC.CD} - 076.Loans (PSDCGGB, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basis and cover flows from all bilateral and multilateral donors. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -86,7 +84,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEAE.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEAE.CD.IL.0912.US:DT.AMT.DEAE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of dir. investors to DI ent., Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEAE.CD.IL.0912.US:DT.AMT.DEAE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of dir. investors to DI ent., Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -98,7 +96,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEAE.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEAE.CD.IL.1218.US:DT.AMT.DEAE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of dir. investors to DI ent., Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEAE.CD.IL.1218.US:DT.AMT.DEAE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. of dir. investors to DI ent., Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -157,8 +155,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.AMT.DECT.CD.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.03.US:DT.AMT.DECT.CD.03.US} - Ext. Debt Service Pmt, All Sectors, More than 0 to 3, All instruments, Principal, USD}}
+{marker sourceid_DT.AMT.DECT.CD.00.03.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.00.03.MO.US:DT.AMT.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -171,18 +169,6 @@
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.0912.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.0912.US:DT.AMT.DECT.CD.0912.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Principal, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.AMT.DECT.CD.10.15.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.15.YR.US:DT.AMT.DECT.CD.10.15.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -206,7 +192,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.15.UP.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.15.UP.YR.US:DT.AMT.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.15.UP.YR.US:DT.AMT.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, All Sectors, More than 18 to 24, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -302,7 +288,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.1824.US:DT.AMT.DECT.CD.AR.1824.US} - Gross Ext. Debt Pmt, All Sectors, More than 2yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.1824.US:DT.AMT.DECT.CD.AR.1824.US} - Gross Ext. Debt Pmt, All Sectors, More than 18 to 24, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -314,7 +300,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.24P.US:DT.AMT.DECT.CD.AR.24P.US} - Gross Ext. Debt Pmt, All Sectors, More than 2yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.24P.US:DT.AMT.DECT.CD.AR.24P.US} - Gross Ext. Debt Pmt, All Sectors, More than 3 to 6, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -326,7 +312,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.36.US:DT.AMT.DECT.CD.AR.36.US} - Gross Ext. Debt Pmt, All Sectors, More than 3 to 6, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.36.US:DT.AMT.DECT.CD.AR.36.US} - Gross Ext. Debt Pmt, All Sectors, More than 6 to 9, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -350,7 +336,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.IQ.US:DT.AMT.DECT.CD.AR.IQ.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.IQ.US:DT.AMT.DECT.CD.AR.IQ.US} - Gross Ext. Debt Pmt, All Sectors, Immediate, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -386,7 +372,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.CB.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.1218.US:DT.AMT.DECT.CD.CB.1218.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.1218.US:DT.AMT.DECT.CD.CB.1218.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -422,7 +408,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.CB.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.36.US:DT.AMT.DECT.CD.CB.36.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.36.US:DT.AMT.DECT.CD.CB.36.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -518,7 +504,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.GG.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.24P.US:DT.AMT.DECT.CD.GG.24P.US} - Ext. Debt Service Pmt, General Government, More than 3 to 6, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.24P.US:DT.AMT.DECT.CD.GG.24P.US} - Ext. Debt Service Pmt, General Government, More than 2yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -566,7 +552,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.GG.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.RM.US:DT.AMT.DECT.CD.GG.RM.US} - Gross Ext. Debt Pos., General Government, One year or less, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.RM.US:DT.AMT.DECT.CD.GG.RM.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -590,7 +576,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.IL.0912.US:DT.AMT.DECT.CD.IL.0912.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 12 to 18, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.IL.0912.US:DT.AMT.DECT.CD.IL.0912.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 9 to 12, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -673,6 +659,30 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.DECT.CD.IL.RM.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.IL.RM.US:DT.AMT.DECT.CD.IL.RM.US} - Gross Ext. Debt Pos., DI: Intercom Lending, One year or less, All instruments, Principal, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.DECT.CD.IQ.00.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.IQ.00.US:DT.AMT.DECT.CD.IQ.00.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Principal, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AMT.DECT.CD.IQ.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.IQ.US:DT.AMT.DECT.CD.IQ.US} - Ext. Debt Service Pmt, All Sectors, Immediate, All instruments, Principal, USD}}
 
@@ -698,7 +708,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.MA.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.0912.US:DT.AMT.DECT.CD.MA.0912.US} - Ext. Debt Service Pmt, Central Bank, More than 9 to 12, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.0912.US:DT.AMT.DECT.CD.MA.0912.US} - Ext. Debt Service Pmt, Central Bank, More than 12 to 18, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -710,7 +720,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.MA.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.1218.US:DT.AMT.DECT.CD.MA.1218.US} - Ext. Debt Service Pmt, Central Bank, More than 18 to 24, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.1218.US:DT.AMT.DECT.CD.MA.1218.US} - Ext. Debt Service Pmt, Central Bank, More than 12 to 18, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -758,7 +768,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.MA.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.69.US:DT.AMT.DECT.CD.MA.69.US} - Ext. Debt Service Pmt, Central Bank, Immediate, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.69.US:DT.AMT.DECT.CD.MA.69.US} - Ext. Debt Service Pmt, Central Bank, More than 6 to 9, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -806,7 +816,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.OS.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.0912.US:DT.AMT.DECT.CD.OS.0912.US} - Ext. Debt Service Pmt, Other Sectors, More than 9 to 12, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.0912.US:DT.AMT.DECT.CD.OS.0912.US} - Ext. Debt Service Pmt, Other Sectors, More than 12 to 18, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -818,7 +828,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.OS.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.1218.US:DT.AMT.DECT.CD.OS.1218.US} - Ext. Debt Service Pmt, Other Sectors, More than 12 to 18, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.1218.US:DT.AMT.DECT.CD.OS.1218.US} - Ext. Debt Service Pmt, Other Sectors, More than 18 to 24, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -830,7 +840,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.OS.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.1824.US:DT.AMT.DECT.CD.OS.1824.US} - Ext. Debt Service Pmt, Other Sectors, More than 2yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.1824.US:DT.AMT.DECT.CD.OS.1824.US} - Ext. Debt Service Pmt, Other Sectors, More than 18 to 24, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -878,7 +888,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.OS.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.IQ.US:DT.AMT.DECT.CD.OS.IQ.US} - Ext. Debt Service Pmt, Other Sectors, Immediate, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.IQ.US:DT.AMT.DECT.CD.OS.IQ.US} - Gross Ext. Debt Pos., Other Sectors, One year or less, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -938,7 +948,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEFE.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEFE.CD.IL.1218.US:DT.AMT.DEFE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. to fellow ent., Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEFE.CD.IL.1218.US:DT.AMT.DEFE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. to fellow ent., Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -962,7 +972,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEFE.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEFE.CD.IL.24P.US:DT.AMT.DEFE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEFE.CD.IL.24P.US:DT.AMT.DEFE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. to fellow ent., Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1010,7 +1020,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DILD.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.03.US:DT.AMT.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.03.US:DT.AMT.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1118,7 +1128,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.CB.AR.0912.US:DT.AMT.DLBN.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.CB.AR.0912.US:DT.AMT.DLBN.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1178,7 +1188,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.CB.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.CB.AR.69.US:DT.AMT.DLBN.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.CB.AR.69.US:DT.AMT.DLBN.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1214,7 +1224,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.0912.US:DT.AMT.DLBN.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.0912.US:DT.AMT.DLBN.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1226,7 +1236,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.GG.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.1218.US:DT.AMT.DLBN.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.1218.US:DT.AMT.DLBN.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1238,7 +1248,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.1824.US:DT.AMT.DLBN.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.1824.US:DT.AMT.DLBN.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1250,7 +1260,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.24P.US:DT.AMT.DLBN.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.24P.US:DT.AMT.DLBN.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1406,7 +1416,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.OT.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.OT.AR.0912.US:DT.AMT.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.OT.AR.0912.US:DT.AMT.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1490,7 +1500,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.CB.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.03.US:DT.AMT.DLCD.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.03.US:DT.AMT.DLCD.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1502,7 +1512,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.0912.US:DT.AMT.DLCD.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.0912.US:DT.AMT.DLCD.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1514,7 +1524,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.CB.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.1218.US:DT.AMT.DLCD.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.1218.US:DT.AMT.DLCD.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1850,19 +1860,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.OT.AR.69.US:DT.AMT.DLCD.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Currency and deposits, Principal, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. This item includes principal repayments on long-term debt and IMF repurchases. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. To maintain comparability between data on transactions with the IMF and data on long-term debt, use of IMF credit outstanding at the end of year (stock) is converted to dollars at the SDR exchange rate in effect at the end of year. Repurchases (flows) are converted at the average SDR exchange rate for the year in which transactions take place. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.AMT.DLCD.CD.OT.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.OT.AR.IQ.US:DT.AMT.DLCD.CD.OT.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.OT.AR.69.US:DT.AMT.DLCD.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1898,7 +1896,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.CB.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.1218.US:DT.AMT.DLTL.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.1218.US:DT.AMT.DLTL.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1934,7 +1932,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.36.US:DT.AMT.DLTL.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.36.US:DT.AMT.DLTL.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1946,7 +1944,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.CB.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.69.US:DT.AMT.DLTL.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.69.US:DT.AMT.DLTL.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1958,7 +1956,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.CB.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.IQ.US:DT.AMT.DLTL.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.IQ.US:DT.AMT.DLTL.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2006,7 +2004,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.1824.US:DT.AMT.DLTL.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.1824.US:DT.AMT.DLTL.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2030,7 +2028,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.36.US:DT.AMT.DLTL.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.36.US:DT.AMT.DLTL.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2054,7 +2052,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.IQ.US:DT.AMT.DLTL.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.IQ.US:DT.AMT.DLTL.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2114,7 +2112,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.MA.AR.24P.US:DT.AMT.DLTL.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.MA.AR.24P.US:DT.AMT.DLTL.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2162,7 +2160,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.03.US:DT.AMT.DLTL.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.03.US:DT.AMT.DLTL.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2186,7 +2184,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.1218.US:DT.AMT.DLTL.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.1218.US:DT.AMT.DLTL.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2270,7 +2268,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.0912.US:DT.AMT.DLTO.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.0912.US:DT.AMT.DLTO.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2294,7 +2292,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.1824.US:DT.AMT.DLTO.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.1824.US:DT.AMT.DLTO.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2318,7 +2316,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.36.US:DT.AMT.DLTO.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.36.US:DT.AMT.DLTO.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2462,7 +2460,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.MA.AR.0912.US:DT.AMT.DLTO.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.MA.AR.0912.US:DT.AMT.DLTO.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2474,7 +2472,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.MA.AR.1218.US:DT.AMT.DLTO.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.MA.AR.1218.US:DT.AMT.DLTO.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2546,7 +2544,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.OT.AR.03.US:DT.AMT.DLTO.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.OT.AR.03.US:DT.AMT.DLTO.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2570,7 +2568,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.OT.AR.1218.US:DT.AMT.DLTO.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.OT.AR.1218.US:DT.AMT.DLTO.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2618,7 +2616,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.OT.AR.69.US:DT.AMT.DLTO.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.OT.AR.69.US:DT.AMT.DLTO.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2654,7 +2652,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.GG.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.GG.0912.US:DT.AMT.DLTS.CD.GG.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.GG.0912.US:DT.AMT.DLTS.CD.GG.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2750,7 +2748,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.0912.US:DT.AMT.DLTS.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.0912.US:DT.AMT.DLTS.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2822,7 +2820,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.IQ.US:DT.AMT.DLTS.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.IQ.US:DT.AMT.DLTS.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2882,7 +2880,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.CB.AR.24P.US:DT.AMT.DLTT.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.CB.AR.24P.US:DT.AMT.DLTT.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2942,7 +2940,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.GG.AR.0912.US:DT.AMT.DLTT.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.GG.AR.0912.US:DT.AMT.DLTT.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3038,7 +3036,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.0912.US:DT.AMT.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.0912.US:DT.AMT.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3146,7 +3144,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.OT.AR.1218.US:DT.AMT.DLTT.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.OT.AR.1218.US:DT.AMT.DLTT.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3194,7 +3192,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.OT.AR.69.US:DT.AMT.DLTT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.OT.AR.69.US:DT.AMT.DLTT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3217,6 +3215,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.AMT.PUBS.CD.IQ.00.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.IQ.00.US:DT.AMT.PUBS.CD.IQ.00.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, Immediately, All instruments, Principal, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.AXA.DECT.CD.CB.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.CB.US:DT.AXA.DECT.CD.CB.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Principal, USD}}
 
@@ -3230,7 +3240,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DECT.CD.GG.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.GG.US:DT.AXA.DECT.CD.GG.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.GG.US:DT.AXA.DECT.CD.GG.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Principal, Arrears, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3266,7 +3276,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DECT.CD.OT.NB.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.OT.NB.US:DT.AXA.DECT.CD.OT.NB.US} - Gross Ext. Debt Pos., Other financial corporations, All maturities, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.OT.NB.US:DT.AXA.DECT.CD.OT.NB.US} - Gross Ext. Debt Pos., Nonfinancial corporations, All maturities, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3314,36 +3324,12 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DIFE.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DIFE.CD.IL.US:DT.AXA.DIFE.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. of dir. investors to DI ent., All maturities, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DIFE.CD.IL.US:DT.AXA.DIFE.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. to fellow ent., All maturities, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.AXA.DIIE.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DIIE.CD.IL.US:DT.AXA.DIIE.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. of dir. investors to DI ent., All maturities, All instruments, Principal, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.BLTN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTN.CD:DT.DOD.BLTN.CD} - Debt outstanding and disbursed, PPG Bilateral on nonconcessional terms (DOD, current US$)}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3398,7 +3384,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.CDST.CD.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDST.CD.PR.AR.US:DT.DOD.CDST.CD.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDST.CD.PR.AR.US:DT.DOD.CDST.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3409,8 +3395,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.DOD.DECT.AR.T4.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.AR.T4.US:DT.DOD.DECT.AR.T4.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Arrears, USD}}
+{marker sourceid_DT.DOD.CDST.CD.PU.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDST.CD.PU.AR.US:DT.DOD.CDST.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3435,18 +3421,6 @@
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CB.AR.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CB.AR.US:DT.DOD.DECT.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Arrears, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DECT.CB.DS.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CB.DS.US:DT.DOD.DECT.CB.DS.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, Debt Securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3482,7 +3456,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.EN.US:DT.DOD.DECT.CD.AR.EN.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments,  Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.EN.US:DT.DOD.DECT.CD.AR.EN.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3553,6 +3527,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.DECT.CD.AR.TL.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TL.US:DT.DOD.DECT.CD.AR.TL.US} - Gross Ext. Debt Pos., All Sectors, All maturities, Arrears, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total change in debt stocks shows the variation in debt stock between two consecutive years. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.DECT.CD.AR.TR.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TR.US:DT.DOD.DECT.CD.AR.TR.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Transactions, USD}}
 
@@ -3578,7 +3564,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CB.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.BE.US:DT.DOD.DECT.CD.CB.AR.BE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.BE.US:DT.DOD.DECT.CD.CB.AR.BE.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3638,7 +3624,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.NE.US:DT.DOD.DECT.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.NE.US:DT.DOD.DECT.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3662,7 +3648,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.PX.US:DT.DOD.DECT.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.PX.US:DT.DOD.DECT.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3674,7 +3660,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CB.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.TR.US:DT.DOD.DECT.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.TR.US:DT.DOD.DECT.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3686,7 +3672,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.US:DT.DOD.DECT.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.AR.US:DT.DOD.DECT.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3711,18 +3697,6 @@
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CB.TD.MV.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.TD.MV.US:DT.DOD.DECT.CD.CB.TD.MV.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, Debt Securities, Market Value, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total change in debt stocks shows the variation in debt stock between two consecutive years. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DECT.CD.CB.TD.NV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CB.TD.NV.US:DT.DOD.DECT.CD.CB.TD.NV.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, Debt Securities, Nominal Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3806,7 +3780,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.CB.US.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.CB.US.US:DT.DOD.DECT.CD.FC.CB.US.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, US dollar, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.CB.US.US:DT.DOD.DECT.CD.FC.CB.US.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, Euro, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3818,7 +3792,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.GG.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.GG.EU.US:DT.DOD.DECT.CD.FC.GG.EU.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.GG.EU.US:DT.DOD.DECT.CD.FC.GG.EU.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, Euro, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3854,7 +3828,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.GG.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.GG.TO.US:DT.DOD.DECT.CD.FC.GG.TO.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, US dollar, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.GG.TO.US:DT.DOD.DECT.CD.FC.GG.TO.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, All curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3974,7 +3948,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.MA.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.MA.TO.US:DT.DOD.DECT.CD.FC.MA.TO.US} - Gross Ext. F. Curr Debt Pos., Central Bank, All maturities, All instruments, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.MA.TO.US:DT.DOD.DECT.CD.FC.MA.TO.US} - Gross Ext. F. Curr Debt Pos., Central Bank, All maturities, All instruments, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3998,7 +3972,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.OT.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.OT.EU.US:DT.DOD.DECT.CD.FC.OT.EU.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, All maturities, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.OT.EU.US:DT.DOD.DECT.CD.FC.OT.EU.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, All maturities, All instruments, Euro, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4057,18 +4031,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.DOD.DECT.CD.FC.T5.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.T5.US:DT.DOD.DECT.CD.FC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt.  Data are in current U.S. dollars per inhabitant of the country.  {p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.US:DT.DOD.DECT.CD.FC.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD}}
 
@@ -4106,7 +4068,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FF.TT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FF.TT.US:DT.DOD.DECT.CD.FF.TT.US} - Gross Ext. F. Curr Debt Pos., All Sectors, All maturities, All instruments, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FF.TT.US:DT.DOD.DECT.CD.FF.TT.US} - Gross Ext. F. Curr Debt Pos., All Sectors, All maturities, All instruments, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4166,7 +4128,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.EN.US:DT.DOD.DECT.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government , All maturities, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.EN.US:DT.DOD.DECT.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4214,7 +4176,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.OC.US:DT.DOD.DECT.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.OC.US:DT.DOD.DECT.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4250,7 +4212,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.US:DT.DOD.DECT.CD.GG.AR.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.US:DT.DOD.DECT.CD.GG.AR.US} - Gross Ext. Debt Pos., General Government, All maturities, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4262,7 +4224,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.TD.MP.US:DT.DOD.DECT.CD.GG.TD.MP.US} - Gross Ext. Debt Pos., General Government, All maturities, Debt Securities, Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.TD.MP.US:DT.DOD.DECT.CD.GG.TD.MP.US} - Gross Ext. Debt Pos., General Government, All maturities, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4334,7 +4296,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.EN.US:DT.DOD.DECT.CD.IL.AR.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.EN.US:DT.DOD.DECT.CD.IL.AR.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4370,7 +4332,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.NE.US:DT.DOD.DECT.CD.IL.AR.NE.US} - Net Ext. Debt Position, DI: Intercom Lending, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.NE.US:DT.DOD.DECT.CD.IL.AR.NE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4382,7 +4344,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.OC.US:DT.DOD.DECT.CD.IL.AR.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.OC.US:DT.DOD.DECT.CD.IL.AR.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4442,7 +4404,19 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.LT.TD.MV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.TD.MV.US:DT.DOD.DECT.CD.LT.TD.MV.US} - Gross Ext. Debt Pos., All Sectors, Long-term, Debt Securities, Nominal Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.TD.MV.US:DT.DOD.DECT.CD.LT.TD.MV.US} - Gross Ext. Debt Pos., All Sectors, Long-term, Debt Securities, Market Value, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt.  Data are in current U.S. dollars per inhabitant of the country.  {p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DECT.CD.LT.TD.NV.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.TD.NV.US:DT.DOD.DECT.CD.LT.TD.NV.US} - Gross Ext. Debt Pos., All Sectors, Long-term, Debt Securities, Nominal Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4478,7 +4452,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.EN.US:DT.DOD.DECT.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.EN.US:DT.DOD.DECT.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4538,7 +4512,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.PX.US:DT.DOD.DECT.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.PX.US:DT.DOD.DECT.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4562,7 +4536,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.US:DT.DOD.DECT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.US:DT.DOD.DECT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4574,7 +4548,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.TD.MP.US:DT.DOD.DECT.CD.MA.TD.MP.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.TD.MP.US:DT.DOD.DECT.CD.MA.TD.MP.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4586,7 +4560,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.TD.MV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.TD.MV.US:DT.DOD.DECT.CD.MA.TD.MV.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.TD.MV.US:DT.DOD.DECT.CD.MA.TD.MV.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Nominal Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4598,7 +4572,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.TD.NV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.TD.NV.US:DT.DOD.DECT.CD.MA.TD.NV.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Nominal Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.TD.NV.US:DT.DOD.DECT.CD.MA.TD.NV.US} - Gross Ext. Debt Pos., Nonfinancial corporations, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4766,7 +4740,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.OT.TD.MV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.OT.TD.MV.US:DT.DOD.DECT.CD.OT.TD.MV.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, Debt Securities, Nominal Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.OT.TD.MV.US:DT.DOD.DECT.CD.OT.TD.MV.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4789,8 +4763,20 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.DECT.CD.PC}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.PC:DT.DOD.DECT.CD.PC} - Debt outstanding and disbursed, Total per capita (DOD, current US$)}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data expressed as a percentage of GDP at market prices.  {p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.DECT.CD.ST.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ST.TD.MP.US:DT.DOD.DECT.CD.ST.TD.MP.US} - Gross Ext. Debt Pos., All Sectors, Short-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ST.TD.MP.US:DT.DOD.DECT.CD.ST.TD.MP.US} - Gross Ext. Debt Pos., All Sectors, Short-term, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4861,6 +4847,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.DECT.CD.TL.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TL.US:DT.DOD.DECT.CD.TL.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data expressed as a percentage of GDP at market prices.  {p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.DECT.CD.TO.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TO.US:DT.DOD.DECT.CD.TO.US} - Gross Ext. Debt Pos., All Other Sectors, All maturities, All instruments, USD}}
 
@@ -4870,30 +4868,6 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data expressed as a percentage of GDP at market prices.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DECT.CD.UC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.UC.US:DT.DOD.DECT.CD.UC.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Unallocated, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data expressed as a percentage of GDP at market prices.  {p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DECT.DS.T4.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.DS.T4.US:DT.DOD.DECT.DS.T4.US} - Gross Ext. Debt Pos., All Sectors, All maturities, Debt Securities, Memo item, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total external debt stocks to exports of goods, services and primary income.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4969,6 +4943,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.DECT.OT.DS.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.OT.DS.US:DT.DOD.DECT.OT.DS.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, Debt Securities, Memo item, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Use of IMF Credit: Data related to the operations of the IMF are provided by the IMF Treasurer’s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-period exchange rates for flows. IMF trust fund operations under the Enhanced Structural Adjustment Facility, Extended Fund Facility, Poverty Reduction and Growth Facility, and Structural Adjustment Facility (Enhanced Structural Adjustment Facility in 1999) are presented together with all of the IMF’s special facilities (buffer stock, supplemental reserve, compensatory and contingency facilities, oil facilities, and other facilities). SDR allocations are also included in this category. According to the BPM6, SDR allocations are recorded as the incurrence of a debt liability of the member receiving them (because of a requirement to repay the allocation in certain circumstances, and also because interest accrues). This debt item is introduced for the first time this year with historical data starting in 1999.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.FC.IL.EU.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.FC.IL.EU.US:DT.DOD.DIDI.CD.FC.IL.EU.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, Euro, USD}}
 
@@ -5006,7 +4992,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.FC.IL.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.FC.IL.TO.US:DT.DOD.DIDI.CD.FC.IL.TO.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.FC.IL.TO.US:DT.DOD.DIDI.CD.FC.IL.TO.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5054,7 +5040,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.IL.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.EN.US:DT.DOD.DIDI.CD.IL.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.EN.US:DT.DOD.DIDI.CD.IL.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5078,7 +5064,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.IL.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.GE.US:DT.DOD.DIDI.CD.IL.GE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt of dir. investment ent. to dir. investors, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.GE.US:DT.DOD.DIDI.CD.IL.GE.US} - Net Ext. Debt Position, DI: Intercom Lending, All maturities, Debt of dir. investment ent. to dir. investors, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5138,7 +5124,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.US:DT.DOD.DIDI.CD.IL.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.US:DT.DOD.DIDI.CD.IL.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Debt liab. of DI ent. to dir. investors, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5210,7 +5196,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.FC.IL.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.FC.IL.TO.US:DT.DOD.DIFE.CD.FC.IL.TO.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liabilities to fellow enterprises, US dollar, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.FC.IL.TO.US:DT.DOD.DIFE.CD.FC.IL.TO.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., All curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5234,7 +5220,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.BE.US:DT.DOD.DIFE.CD.IL.BE.US} - Ext. Assets in Debt Instruments, DI: Intercom Lending, All maturities, Debt between fellow enterprises, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.BE.US:DT.DOD.DIFE.CD.IL.BE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent. , Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5258,7 +5244,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.EN.US:DT.DOD.DIFE.CD.IL.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.EN.US:DT.DOD.DIFE.CD.IL.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5306,7 +5292,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.OC.US:DT.DOD.DIFE.CD.IL.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.OC.US:DT.DOD.DIFE.CD.IL.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5330,7 +5316,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.TR.US:DT.DOD.DIFE.CD.IL.TR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.TR.US:DT.DOD.DIFE.CD.IL.TR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5366,7 +5352,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.PU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.PU.US:DT.DOD.DIFE.CD.PU.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Debt liab. to fellow ent., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.PU.US:DT.DOD.DIFE.CD.PU.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., Euro, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5402,7 +5388,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIIE.CD.FC.IL.OT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.FC.IL.OT.US:DT.DOD.DIIE.CD.FC.IL.OT.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.FC.IL.OT.US:DT.DOD.DIIE.CD.FC.IL.OT.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., Other curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5426,7 +5412,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIIE.CD.FC.IL.US.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.FC.IL.US.US:DT.DOD.DIIE.CD.FC.IL.US.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.FC.IL.US.US:DT.DOD.DIIE.CD.FC.IL.US.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5486,7 +5472,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIIE.CD.IL.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.IL.GE.US:DT.DOD.DIIE.CD.IL.GE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt of dir. investors to dir. investment ent., Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.IL.GE.US:DT.DOD.DIIE.CD.IL.GE.US} - Net Ext. Debt Position, DI: Intercom Lending, All maturities, Debt of dir. investors to dir. investment ent., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5510,7 +5496,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIIE.CD.IL.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.IL.OC.US:DT.DOD.DIIE.CD.IL.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.IL.OC.US:DT.DOD.DIIE.CD.IL.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of dir. investors to DI ent., Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5613,7 +5599,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -5625,7 +5611,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -5637,7 +5623,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -5738,7 +5724,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.GG.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.EA.US:DT.DOD.DLBN.CD.GG.AR.EA.US} - Ext. Assets in Debt Instruments, General Government, Long-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.EA.US:DT.DOD.DLBN.CD.GG.AR.EA.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt securities, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5846,7 +5832,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.HN.US:DT.DOD.DLBN.CD.HN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.HN.US:DT.DOD.DLBN.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5882,7 +5868,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.MA.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.EN.US:DT.DOD.DLBN.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.EN.US:DT.DOD.DLBN.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5918,7 +5904,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.NE.US:DT.DOD.DLBN.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.NE.US:DT.DOD.DLBN.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6134,7 +6120,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.CB.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.EA.US:DT.DOD.DLCD.CD.CB.AR.EA.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.EA.US:DT.DOD.DLCD.CD.CB.AR.EA.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits , USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6182,7 +6168,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.NE.US:DT.DOD.DLCD.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.NE.US:DT.DOD.DLCD.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6218,7 +6204,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.CB.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.TR.US:DT.DOD.DLCD.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.TR.US:DT.DOD.DLCD.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6230,7 +6216,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.US:DT.DOD.DLCD.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.US:DT.DOD.DLCD.CD.CB.AR.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6278,7 +6264,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.GG.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.GG.AR.EX.US:DT.DOD.DLCD.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.GG.AR.EX.US:DT.DOD.DLCD.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6314,7 +6300,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.GG.AR.OC.US:DT.DOD.DLCD.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.GG.AR.OC.US:DT.DOD.DLCD.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6458,7 +6444,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.PX.US:DT.DOD.DLCD.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Currency and deposits, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.PX.US:DT.DOD.DLCD.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Currency and deposits, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6578,7 +6564,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.OT.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.OT.AR.NE.US:DT.DOD.DLCD.CD.OT.AR.NE.US} - Net Ext. Debt Position, Other Sectors, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.OT.AR.NE.US:DT.DOD.DLCD.CD.OT.AR.NE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Currency and deposits, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6818,7 +6804,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.NE.US:DT.DOD.DLTL.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.NE.US:DT.DOD.DLTL.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6830,7 +6816,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.OC.US:DT.DOD.DLTL.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.OC.US:DT.DOD.DLTL.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6866,7 +6852,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.US:DT.DOD.DLTL.CD.GG.AR.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.US:DT.DOD.DLTL.CD.GG.AR.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6878,7 +6864,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.HN.US:DT.DOD.DLTL.CD.HN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Loans, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.HN.US:DT.DOD.DLTL.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6890,7 +6876,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.MA.AR.BE.US:DT.DOD.DLTL.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.MA.AR.BE.US:DT.DOD.DLTL.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Loans, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6998,7 +6984,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.MA.AR.US:DT.DOD.DLTL.CD.MA.AR.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.MA.AR.US:DT.DOD.DLTL.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7082,7 +7068,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.OT.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.OT.AR.GE.US:DT.DOD.DLTL.CD.OT.AR.GE.US} - Net Ext. Debt Position, Other Sectors, Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.OT.AR.GE.US:DT.DOD.DLTL.CD.OT.AR.GE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Loans, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7094,7 +7080,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.OT.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.OT.AR.NE.US:DT.DOD.DLTL.CD.OT.AR.NE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Loans, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.OT.AR.NE.US:DT.DOD.DLTL.CD.OT.AR.NE.US} - Net Ext. Debt Position, Other Sectors, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7214,7 +7200,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.CB.AR.NE.US:DT.DOD.DLTO.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Other debt liabilities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.CB.AR.NE.US:DT.DOD.DLTO.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7310,7 +7296,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.EX.US:DT.DOD.DLTO.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.EX.US:DT.DOD.DLTO.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7334,7 +7320,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.NE.US:DT.DOD.DLTO.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Long-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.NE.US:DT.DOD.DLTO.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7346,7 +7332,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.OC.US:DT.DOD.DLTO.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.OC.US:DT.DOD.DLTO.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7358,7 +7344,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.PX.US:DT.DOD.DLTO.CD.GG.AR.PX.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.PX.US:DT.DOD.DLTO.CD.GG.AR.PX.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7370,7 +7356,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.TR.US:DT.DOD.DLTO.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.TR.US:DT.DOD.DLTO.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7394,7 +7380,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.HN.US:DT.DOD.DLTO.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Long-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.HN.US:DT.DOD.DLTO.CD.HN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7406,7 +7392,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.BE.US:DT.DOD.DLTO.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Long-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.BE.US:DT.DOD.DLTO.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7418,7 +7404,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EA.US:DT.DOD.DLTO.CD.MA.AR.EA.US} - Ext. Assets in Debt Instruments, Central Bank, Long-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EA.US:DT.DOD.DLTO.CD.MA.AR.EA.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7478,7 +7464,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.OC.US:DT.DOD.DLTO.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.OC.US:DT.DOD.DLTO.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7526,7 +7512,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.NC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.NC.US:DT.DOD.DLTO.CD.NC.US} - Gross Ext. Debt Pos., Other financial corporations, Long-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.NC.US:DT.DOD.DLTO.CD.NC.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7670,7 +7656,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.GG.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.BE.US:DT.DOD.DLTS.CD.GG.BE.US} - Ext. Assets in Debt Instruments, General Government, Long-term, Special drawing rights (SDRs), USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.BE.US:DT.DOD.DLTS.CD.GG.BE.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7742,7 +7728,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.GG.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.OC.US:DT.DOD.DLTS.CD.GG.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.OC.US:DT.DOD.DLTS.CD.GG.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7874,7 +7860,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.PX.US:DT.DOD.DLTS.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (allocations), Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.PX.US:DT.DOD.DLTS.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (allocations), Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7958,7 +7944,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.GE.US:DT.DOD.DLTT.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.GE.US:DT.DOD.DLTT.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7970,7 +7956,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.NE.US:DT.DOD.DLTT.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.NE.US:DT.DOD.DLTT.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7982,7 +7968,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.CB.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.OC.US:DT.DOD.DLTT.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.OC.US:DT.DOD.DLTT.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8198,7 +8184,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.EX.US:DT.DOD.DLTT.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.EX.US:DT.DOD.DLTT.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances , Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8210,7 +8196,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.GE.US:DT.DOD.DLTT.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Long-term, Trade credit and advances , USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.GE.US:DT.DOD.DLTT.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances , Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8222,7 +8208,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.NE.US:DT.DOD.DLTT.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.NE.US:DT.DOD.DLTT.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Long-term, Trade credit and advances , USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8246,7 +8232,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.PX.US:DT.DOD.DLTT.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.PX.US:DT.DOD.DLTT.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8270,7 +8256,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.US:DT.DOD.DLTT.CD.MA.AR.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.US:DT.DOD.DLTT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8330,7 +8316,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.OT.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OT.AR.EN.US:DT.DOD.DLTT.CD.OT.AR.EN.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Trade credit and advances, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OT.AR.EN.US:DT.DOD.DLTT.CD.OT.AR.EN.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Trade credit and advances, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8402,7 +8388,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.OT.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OT.AR.TR.US:DT.DOD.DLTT.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OT.AR.TR.US:DT.DOD.DLTT.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Trade credit and advances, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8433,19 +8419,19 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.EA.US:DT.DOD.DLXF.CD.CB.AR.EA.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.EA.US:DT.DOD.DLXF.CD.CB.AR.EA.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8457,7 +8443,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8469,31 +8455,31 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.GE.US:DT.DOD.DLXF.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.GE.US:DT.DOD.DLXF.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.NE.US:DT.DOD.DLXF.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.NE.US:DT.DOD.DLXF.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8505,7 +8491,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8517,7 +8503,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8529,7 +8515,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8541,7 +8527,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8553,7 +8539,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8565,7 +8551,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8577,7 +8563,31 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DLXF.CD.DC.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.DC.US:DT.DOD.DLXF.CD.DC.US} - Gross Ext. Debt Pos., All Sectors, Long-term, All instruments, Domestic currency, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DLXF.CD.DR}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.DR:DT.DOD.DLXF.CD.DR} - Long-Term External Debt (by debtor) (US$)}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8589,7 +8599,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8601,7 +8611,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8613,19 +8623,19 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.FC.CB.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.CB.TO.US:DT.DOD.DLXF.CD.FC.CB.TO.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.CB.TO.US:DT.DOD.DLXF.CD.FC.CB.TO.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8637,7 +8647,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8649,7 +8659,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8661,7 +8671,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8673,7 +8683,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8685,7 +8695,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8697,31 +8707,31 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.FC.MA.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.MA.EU.US:DT.DOD.DLXF.CD.FC.MA.EU.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Long-term, All instruments, Euro, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.MA.EU.US:DT.DOD.DLXF.CD.FC.MA.EU.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Long-term, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.FC.MA.JY.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.MA.JY.US:DT.DOD.DLXF.CD.FC.MA.JY.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Long-term, All instruments, Other curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.MA.JY.US:DT.DOD.DLXF.CD.FC.MA.JY.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Long-term, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8733,7 +8743,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8745,7 +8755,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8757,7 +8767,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8769,7 +8779,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8781,7 +8791,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8793,7 +8803,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8805,7 +8815,31 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DLXF.CD.FC.OT.US.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.OT.US.US:DT.DOD.DLXF.CD.FC.OT.US.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Long-term, All instruments, US dollar, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DLXF.CD.FC.T5.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.T5.US:DT.DOD.DLXF.CD.FC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Long-term, All instruments, Foreign currency, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8817,7 +8851,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8829,19 +8863,19 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.GG.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.AR.EA.US:DT.DOD.DLXF.CD.GG.AR.EA.US} - Ext. Assets in Debt Instruments, General Government, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.AR.EA.US:DT.DOD.DLXF.CD.GG.AR.EA.US} - Gross Ext. Debt Pos., General Government, Long-term, All instruments, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8853,7 +8887,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8865,7 +8899,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8877,7 +8911,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8889,7 +8923,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8901,7 +8935,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8913,7 +8947,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8925,7 +8959,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8937,7 +8971,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -8949,12 +8983,12 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor).). UN agencies are United Nations includes the United Nations Children’s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), World Food Programme (WFP), International Fund for Agricultural Development (IFAD), United Nations Development Programme(UNDP), Unit{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.GG.TD.MV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.TD.MV.US:DT.DOD.DLXF.CD.GG.TD.MV.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Nominal Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.TD.MV.US:DT.DOD.DLXF.CD.GG.TD.MV.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9014,7 +9048,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.EN.US:DT.DOD.DLXF.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.EN.US:DT.DOD.DLXF.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9026,7 +9060,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.EX.US:DT.DOD.DLXF.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.EX.US:DT.DOD.DLXF.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9098,7 +9132,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.US:DT.DOD.DLXF.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.US:DT.DOD.DLXF.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9122,7 +9156,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.TD.MV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.TD.MV.US:DT.DOD.DLXF.CD.MA.TD.MV.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt Securities, Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.TD.MV.US:DT.DOD.DLXF.CD.MA.TD.MV.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt Securities, Nominal Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9134,7 +9168,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.TD.NV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.TD.NV.US:DT.DOD.DLXF.CD.MA.TD.NV.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.TD.NV.US:DT.DOD.DLXF.CD.MA.TD.NV.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt Securities, Nominal Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9349,18 +9383,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.DOD.DPPG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPPG.AR.US:DT.DOD.DPPG.AR.US} - Gross Ext. Debt Pos., Public and Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt comprises long-term external obligations of public debtors, including the national government, political subdivisions (or an agency of either), and autonomous public bodies, and external obligations of private debtors that are guaranteed for repayment by a public entity. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.DOD.DPPG.CD.AR.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPPG.CD.AR.US:DT.DOD.DPPG.CD.AR.US} - Gross Ext. Debt Pos., Public and Publicly Guar. Private Sector Ext. Debt, All maturities, All instruments, USD}}
 
@@ -9410,7 +9432,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.CB.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.EN.US:DT.DOD.DSCD.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.EN.US:DT.DOD.DSCD.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9434,7 +9456,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.GE.US:DT.DOD.DSCD.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.GE.US:DT.DOD.DSCD.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9542,7 +9564,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.GG.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.GG.AR.EX.US:DT.DOD.DSCD.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Short-term, Currency and deposits, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.GG.AR.EX.US:DT.DOD.DSCD.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Short-term, Currency and deposits, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9566,7 +9588,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.GG.AR.NE.US:DT.DOD.DSCD.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Short-term, Currency and deposits, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.GG.AR.NE.US:DT.DOD.DSCD.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9650,7 +9672,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.MA.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.EA.US:DT.DOD.DSCD.CD.MA.AR.EA.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Currency and deposits, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.EA.US:DT.DOD.DSCD.CD.MA.AR.EA.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9662,7 +9684,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.MA.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.EN.US:DT.DOD.DSCD.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Currency and deposits, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.EN.US:DT.DOD.DSCD.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Currency and deposits, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9710,7 +9732,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.OC.US:DT.DOD.DSCD.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Currency and deposits, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.OC.US:DT.DOD.DSCD.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Currency and deposits, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9770,7 +9792,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.OF.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OF.US:DT.DOD.DSCD.CD.OF.US} - Gross Ext. Debt Pos., Other financial corporations, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OF.US:DT.DOD.DSCD.CD.OF.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9866,7 +9888,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.OT.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OT.AR.PX.US:DT.DOD.DSCD.CD.OT.AR.PX.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OT.AR.PX.US:DT.DOD.DSCD.CD.OT.AR.PX.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9902,7 +9924,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.CB.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.BE.US:DT.DOD.DSOO.CD.CB.AR.BE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.BE.US:DT.DOD.DSOO.CD.CB.AR.BE.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Short-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9938,7 +9960,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.CB.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.EX.US:DT.DOD.DSOO.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt instruments, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.EX.US:DT.DOD.DSOO.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10214,7 +10236,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.MA.AR.OC.US:DT.DOD.DSOO.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Other debt liabilities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.MA.AR.OC.US:DT.DOD.DSOO.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Other debt liabilities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10274,7 +10296,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.OT.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.EA.US:DT.DOD.DSOO.CD.OT.AR.EA.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.EA.US:DT.DOD.DSOO.CD.OT.AR.EA.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Other debt liabilities, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10310,7 +10332,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.OT.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.GE.US:DT.DOD.DSOO.CD.OT.AR.GE.US} - Net Ext. Debt Position, Other Sectors, Short-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.GE.US:DT.DOD.DSOO.CD.OT.AR.GE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Other debt instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10430,7 +10452,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.GE.US:DT.DOD.DSTC.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.GE.US:DT.DOD.DSTC.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10454,7 +10476,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.CB.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.OC.US:DT.DOD.DSTC.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.OC.US:DT.DOD.DSTC.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10466,7 +10488,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.PX.US:DT.DOD.DSTC.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.PX.US:DT.DOD.DSTC.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10525,30 +10547,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.DOD.DSTC.CD.DC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.DC.US:DT.DOD.DSTC.CD.DC.US} - Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, Domestic currency, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DSTC.CD.DR}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.DR:DT.DOD.DSTC.CD.DR} - Short-Term External Debt (US$)}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.CB.EU.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.EU.US:DT.DOD.DSTC.CD.FC.CB.EU.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Euro, USD}}
 
@@ -10562,7 +10560,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.CB.JY.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.JY.US:DT.DOD.DSTC.CD.FC.CB.JY.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.JY.US:DT.DOD.DSTC.CD.FC.CB.JY.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Other curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10586,7 +10584,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.CB.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.TO.US:DT.DOD.DSTC.CD.FC.CB.TO.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.TO.US:DT.DOD.DSTC.CD.FC.CB.TO.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10598,7 +10596,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.CB.US.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.US.US:DT.DOD.DSTC.CD.FC.CB.US.US} - Gross Ext. F. Curr Debt Pos., General Government, Short-term, All instruments, Euro, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.CB.US.US:DT.DOD.DSTC.CD.FC.CB.US.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10622,7 +10620,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.GG.JY.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.GG.JY.US:DT.DOD.DSTC.CD.FC.GG.JY.US} - Gross Ext. F. Curr Debt Pos., General Government, Short-term, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.GG.JY.US:DT.DOD.DSTC.CD.FC.GG.JY.US} - Gross Ext. F. Curr Debt Pos., General Government, Short-term, All instruments, Other curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10682,7 +10680,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.MA.JY.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.JY.US:DT.DOD.DSTC.CD.FC.MA.JY.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.JY.US:DT.DOD.DSTC.CD.FC.MA.JY.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, Other curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10694,7 +10692,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.MA.OT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.OT.US:DT.DOD.DSTC.CD.FC.MA.OT.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, Other curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.OT.US:DT.DOD.DSTC.CD.FC.MA.OT.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, All curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10730,7 +10728,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.OT.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.EU.US:DT.DOD.DSTC.CD.FC.OT.EU.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, Euro, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.EU.US:DT.DOD.DSTC.CD.FC.OT.EU.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10754,7 +10752,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.OT.OT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.OT.US:DT.DOD.DSTC.CD.FC.OT.OT.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, Other curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.OT.US:DT.DOD.DSTC.CD.FC.OT.OT.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, All curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10767,18 +10765,6 @@
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.OT.TO.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.TO.US:DT.DOD.DSTC.CD.FC.OT.TO.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, All curr., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DSTC.CD.FC.T5.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.T5.US:DT.DOD.DSTC.CD.FC.T5.US} - Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10802,7 +10788,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.BE.US:DT.DOD.DSTC.CD.GG.AR.BE.US} - Ext. Assets in Debt Instruments, General Government, Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.BE.US:DT.DOD.DSTC.CD.GG.AR.BE.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10814,7 +10800,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.EA.US:DT.DOD.DSTC.CD.GG.AR.EA.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.EA.US:DT.DOD.DSTC.CD.GG.AR.EA.US} - Ext. Assets in Debt Instruments, General Government, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11042,7 +11028,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.MA.AR.OC.US:DT.DOD.DSTC.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Short-term, All instruments, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.MA.AR.OC.US:DT.DOD.DSTC.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Short-term, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11198,7 +11184,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.OT.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.GE.US:DT.DOD.DSTC.CD.OT.AR.GE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.GE.US:DT.DOD.DSTC.CD.OT.AR.GE.US} - Net Ext. Debt Position, Other Sectors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11222,7 +11208,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.OT.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.OC.US:DT.DOD.DSTC.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.OC.US:DT.DOD.DSTC.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11234,7 +11220,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.OT.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.PX.US:DT.DOD.DSTC.CD.OT.AR.PX.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.PX.US:DT.DOD.DSTC.CD.OT.AR.PX.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11246,7 +11232,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.OT.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.TR.US:DT.DOD.DSTC.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.TR.US:DT.DOD.DSTC.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11301,7 +11287,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11313,7 +11299,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11325,7 +11311,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11337,7 +11323,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11349,7 +11335,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11361,7 +11347,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11373,31 +11359,31 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.PX.US:DT.DOD.DSTL.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.PX.US:DT.DOD.DSTL.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.CB.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.TR.US:DT.DOD.DSTL.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.TR.US:DT.DOD.DSTL.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11409,19 +11395,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.GG.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.BE.US:DT.DOD.DSTL.CD.GG.AR.BE.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.BE.US:DT.DOD.DSTL.CD.GG.AR.BE.US} - Ext. Assets in Debt Instruments, General Government, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11433,7 +11419,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11445,7 +11431,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11457,7 +11443,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11469,7 +11455,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11481,7 +11467,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11493,7 +11479,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11505,31 +11491,31 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.GG.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.TR.US:DT.DOD.DSTL.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.TR.US:DT.DOD.DSTL.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.US:DT.DOD.DSTL.CD.GG.AR.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.US:DT.DOD.DSTL.CD.GG.AR.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11541,7 +11527,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11553,7 +11539,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11565,7 +11551,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11577,19 +11563,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.MA.AR.EX.US:DT.DOD.DSTL.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Loans, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.MA.AR.EX.US:DT.DOD.DSTL.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Loans, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11601,19 +11587,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.MA.AR.NE.US:DT.DOD.DSTL.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Loans, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.MA.AR.NE.US:DT.DOD.DSTL.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11625,7 +11611,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11637,7 +11623,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11649,7 +11635,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11661,7 +11647,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11673,7 +11659,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11685,31 +11671,31 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.BE.US:DT.DOD.DSTL.CD.OT.AR.BE.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.BE.US:DT.DOD.DSTL.CD.OT.AR.BE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.EA.US:DT.DOD.DSTL.CD.OT.AR.EA.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.EA.US:DT.DOD.DSTL.CD.OT.AR.EA.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11721,7 +11707,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11733,7 +11719,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11745,19 +11731,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.NE.US:DT.DOD.DSTL.CD.OT.AR.NE.US} - Net Ext. Debt Position, Other Sectors, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.NE.US:DT.DOD.DSTL.CD.OT.AR.NE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11769,7 +11755,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11781,7 +11767,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11793,19 +11779,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.US:DT.DOD.DSTL.CD.OT.AR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.US:DT.DOD.DSTL.CD.OT.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11817,7 +11803,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11829,7 +11815,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11841,19 +11827,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.CB.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.EX.US:DT.DOD.DSTM.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.EX.US:DT.DOD.DSTM.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11865,7 +11851,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11877,19 +11863,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.CB.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.OC.US:DT.DOD.DSTM.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.OC.US:DT.DOD.DSTM.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11901,7 +11887,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11913,7 +11899,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11925,7 +11911,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11937,7 +11923,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11949,7 +11935,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11961,7 +11947,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11973,7 +11959,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11985,7 +11971,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -11997,7 +11983,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -12009,19 +11995,19 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.GG.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.GG.AR.PX.US:DT.DOD.DSTM.CD.GG.AR.PX.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt securities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.GG.AR.PX.US:DT.DOD.DSTM.CD.GG.AR.PX.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt securities, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -12033,7 +12019,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -12045,7 +12031,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -12057,7 +12043,7 @@
 
 {synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline."}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -12086,7 +12072,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.EX.US:DT.DOD.DSTM.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.EX.US:DT.DOD.DSTM.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12158,7 +12144,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.US:DT.DOD.DSTM.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.US:DT.DOD.DSTM.CD.MA.AR.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Short-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12230,7 +12216,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.OT.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.OT.AR.EX.US:DT.DOD.DSTM.CD.OT.AR.EX.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt securities, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.OT.AR.EX.US:DT.DOD.DSTM.CD.OT.AR.EX.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt securities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12266,7 +12252,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.OT.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.OT.AR.OC.US:DT.DOD.DSTM.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt securities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.OT.AR.OC.US:DT.DOD.DSTM.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt securities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12290,7 +12276,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.OT.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.OT.AR.TR.US:DT.DOD.DSTM.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.OT.AR.TR.US:DT.DOD.DSTM.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt securities, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12374,7 +12360,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.EN.US:DT.DOD.DSTT.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.EN.US:DT.DOD.DSTT.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12410,7 +12396,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.NE.US:DT.DOD.DSTT.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.NE.US:DT.DOD.DSTT.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12434,7 +12420,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.PX.US:DT.DOD.DSTT.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.PX.US:DT.DOD.DSTT.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12446,7 +12432,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.TR.US:DT.DOD.DSTT.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.TR.US:DT.DOD.DSTT.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12458,7 +12444,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.US:DT.DOD.DSTT.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.US:DT.DOD.DSTT.CD.CB.AR.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12530,7 +12516,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.NE.US:DT.DOD.DSTT.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.NE.US:DT.DOD.DSTT.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12542,7 +12528,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.OC.US:DT.DOD.DSTT.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.OC.US:DT.DOD.DSTT.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12590,7 +12576,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.HN.US:DT.DOD.DSTT.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.HN.US:DT.DOD.DSTT.CD.HN.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12602,7 +12588,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.BE.US:DT.DOD.DSTT.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.BE.US:DT.DOD.DSTT.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12650,7 +12636,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.GE.US:DT.DOD.DSTT.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.GE.US:DT.DOD.DSTT.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12710,7 +12696,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.US:DT.DOD.DSTT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.US:DT.DOD.DSTT.CD.MA.AR.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12866,7 +12852,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.OT.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.OT.TD.MP.US:DT.DOD.DSTT.CD.OT.TD.MP.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt Securities, Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.OT.TD.MP.US:DT.DOD.DSTT.CD.OT.TD.MP.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12902,7 +12888,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSUN.CD.GG.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.GG.AR.EA.US:DT.DOD.DSUN.CD.GG.AR.EA.US} - Ext. Assets in Debt Instruments, General Government, Short-term, Unallocated gold accounts included in monetary gold, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.GG.AR.EA.US:DT.DOD.DSUN.CD.GG.AR.EA.US} - Gross Ext. Debt Pos., General Government, Short-term, Unallocated gold accounts included in monetary gold, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12926,7 +12912,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSUN.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.GG.AR.NE.US:DT.DOD.DSUN.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Short-term, Unallocated gold accounts included in monetary gold, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.GG.AR.NE.US:DT.DOD.DSUN.CD.GG.AR.NE.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Unallocated gold accounts included in monetary gold, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12938,7 +12924,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSUN.CD.MA.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.MA.AR.EA.US:DT.DOD.DSUN.CD.MA.AR.EA.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Unallocated gold accounts included in monetary gold, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.MA.AR.EA.US:DT.DOD.DSUN.CD.MA.AR.EA.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Unallocated gold accounts included in monetary gold, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12974,7 +12960,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.LOLT.CD.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.LOLT.CD.PR.AR.US:DT.DOD.LOLT.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.LOLT.CD.PR.AR.US:DT.DOD.LOLT.CD.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13022,19 +13008,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MMST.CD.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MMST.CD.PR.AR.US:DT.DOD.MMST.CD.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Debt securities, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}IBRD loans and IDA credits are public and publicly guaranteed debt extended by the World Bank Group. The International Bank for Reconstruction and Development (IBRD) lends at market rates. Credits from the International Development Association (IDA) are at concessional rates. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.MMST.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MMST.CD.PU.AR.US:DT.DOD.MMST.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MMST.CD.PR.AR.US:DT.DOD.MMST.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13106,7 +13080,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PR.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PR.PR.AR.US:DT.DOD.OFFT.PR.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PR.PR.AR.US:DT.DOD.OFFT.PR.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13130,7 +13104,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PU.DS.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PU.DS.US:DT.DOD.OFFT.PU.DS.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PU.DS.US:DT.DOD.OFFT.PU.DS.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13178,7 +13152,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OLLT.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OLLT.CD.PU.AR.US:DT.DOD.OLLT.CD.PU.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OLLT.CD.PU.AR.US:DT.DOD.OLLT.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13196,6 +13170,66 @@
 
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from bonds that are either publicly issued or privately placed. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PRLT.CD.PR.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLT.CD.PR.AR.US:DT.DOD.PRLT.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, All instruments, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PROT.CD.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROT.CD.US:DT.DOD.PROT.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, All maturities, All instruments, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PRST.CD.PR.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRST.CD.PR.AR.US:DT.DOD.PRST.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, All instruments, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PULO.ST.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PULO.ST.AR.US:DT.DOD.PULO.ST.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, All instruments, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PULT.CD.PU.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PULT.CD.PU.AR.US:DT.DOD.PULT.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, All instruments, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -13274,7 +13308,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CB.AR.US:DT.DOR.DECT.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, All maturities, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CB.AR.US:DT.DOR.DECT.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Arrears, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13310,7 +13344,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.GG.AR.US:DT.DOR.DECT.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.GG.AR.US:DT.DOR.DECT.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13322,7 +13356,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.IL.US:DT.DOR.DECT.CD.IL.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.IL.US:DT.DOR.DECT.CD.IL.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13370,7 +13404,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.GG.AR.US:DT.DOR.DECT.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, All maturities, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.GG.AR.US:DT.DOR.DECT.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, All maturities, All instruments, Arrears, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13454,7 +13488,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.RL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.RL.US:DT.DOR.DECT.RL.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, ST debt on orig. maturity, Debt liab. of DI ent. to dir. investors, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.RL.US:DT.DOR.DECT.RL.US} - Gross Ext. Debt Pos., ST Rem., All Sectors, All maturities, All instruments, Reserve related liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13502,7 +13536,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLBN.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.CB.AR.US:DT.DOR.DLBN.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.CB.AR.US:DT.DOR.DLBN.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, LT debt obg pmt 1year or less, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13526,7 +13560,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLBN.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.MA.AR.US:DT.DOR.DLBN.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, LT debt obg pmt 1year or less, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.MA.AR.US:DT.DOR.DLBN.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, LT debt obg pmt 1year or less, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13538,7 +13572,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLBN.CD.OT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.OT.AR.US:DT.DOR.DLBN.CD.OT.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, LT debt obg pmt 1year or less, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.OT.AR.US:DT.DOR.DLBN.CD.OT.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, LT debt obg pmt 1year or less, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13598,7 +13632,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTL.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTL.CD.CB.AR.US:DT.DOR.DLTL.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTL.CD.CB.AR.US:DT.DOR.DLTL.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, LT debt obg pmt 1year or less, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13646,7 +13680,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTO.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTO.CD.CB.AR.US:DT.DOR.DLTO.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTO.CD.CB.AR.US:DT.DOR.DLTO.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, LT debt obg pmt 1year or less, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13658,7 +13692,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTO.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTO.CD.GG.AR.US:DT.DOR.DLTO.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, LT debt obg pmt 1year or less, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTO.CD.GG.AR.US:DT.DOR.DLTO.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13694,7 +13728,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTT.CD.CB.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.CB.US:DT.DOR.DLTT.CD.CB.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.CB.US:DT.DOR.DLTT.CD.CB.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13754,7 +13788,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLXF.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLXF.CD.GG.AR.US:DT.DOR.DLXF.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, LT debt obg pmt 1year or less, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLXF.CD.GG.AR.US:DT.DOR.DLXF.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13778,7 +13812,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLXF.CD.OT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLXF.CD.OT.AR.US:DT.DOR.DLXF.CD.OT.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, ST debt on orig. maturity, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLXF.CD.OT.AR.US:DT.DOR.DLXF.CD.OT.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, LT debt obg pmt 1year or less, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13802,7 +13836,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSCD.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSCD.CD.GG.AR.US:DT.DOR.DSCD.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, ST debt on orig. maturity, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSCD.CD.GG.AR.US:DT.DOR.DSCD.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13838,7 +13872,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSOO.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSOO.CD.CB.AR.US:DT.DOR.DSOO.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSOO.CD.CB.AR.US:DT.DOR.DSOO.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, ST debt on orig. maturity, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13862,7 +13896,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSOO.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSOO.CD.MA.AR.US:DT.DOR.DSOO.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, ST debt on orig. maturity, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSOO.CD.MA.AR.US:DT.DOR.DSOO.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, ST debt on orig. maturity, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13886,7 +13920,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSTC.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTC.CD.CB.AR.US:DT.DOR.DSTC.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTC.CD.CB.AR.US:DT.DOR.DSTC.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, ST debt on orig. maturity, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13910,7 +13944,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSTC.CD.IL.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTC.CD.IL.AR.US:DT.DOR.DSTC.CD.IL.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, ST debt on orig. maturity, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTC.CD.IL.AR.US:DT.DOR.DSTC.CD.IL.AR.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, ST debt on orig. maturity, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13922,7 +13956,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSTC.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTC.CD.MA.AR.US:DT.DOR.DSTC.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, ST debt on orig. maturity, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTC.CD.MA.AR.US:DT.DOR.DSTC.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, ST debt on orig. maturity, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14054,7 +14088,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSTT.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTT.CD.CB.AR.US:DT.DOR.DSTT.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, ST debt on orig. maturity, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTT.CD.CB.AR.US:DT.DOR.DSTT.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14144,6 +14178,18 @@
 
 
 {synopt:{opt Source Notes}}Debt buyback is the repurchase by a debtor of its own debt, discounted or at par. In the event of a buyback of long-term debt, the face value of the debt bought back will be recorded as a decline in the long-term debt stock, and the cash amount received by creditors will be recorded as a principal repayment. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INP.DECT.19.24.MO.SA.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.19.24.MO.SA.US:DT.INP.DECT.19.24.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, More than 0 to 3, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -14258,7 +14304,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.1824.US:DT.INP.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 18 to 24, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.1824.US:DT.INP.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 3 to 6, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14342,7 +14388,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.1824.US:DT.INR.DECT.CD.SA.1824.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, More than 18 to 24, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.1824.US:DT.INR.DECT.CD.SA.1824.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, More than 3 to 6, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14366,7 +14412,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.69.US:DT.INR.DECT.CD.SA.69.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, More than 6 to 9, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.69.US:DT.INR.DECT.CD.SA.69.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 0 to 3, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14378,7 +14424,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.03.US:DT.INR.DECT.CD.SA.AR.03.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 0 to 3, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.03.US:DT.INR.DECT.CD.SA.AR.03.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 9 to 12, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14414,7 +14460,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.1824.US:DT.INR.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 3 to 6, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.1824.US:DT.INR.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 18 to 24, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14438,7 +14484,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.69.US:DT.INR.DECT.CD.SA.AR.69.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 6 to 9, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.69.US:DT.INR.DECT.CD.SA.AR.69.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, Immediate, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14522,7 +14568,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEAE.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEAE.CD.IL.24P.US:DT.INT.DEAE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. of dir. investors to DI ent., Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEAE.CD.IL.24P.US:DT.INT.DEAE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. of dir. investors to DI ent., Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14570,7 +14616,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.00.03.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.00.03.MO.US:DT.INT.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 0 to 3, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.00.03.MO.US:DT.INT.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14593,8 +14639,20 @@
 
 
 {synoptline}
-{marker sourceid_DT.INT.DECT.CD.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.1218.US:DT.INT.DECT.CD.1218.US} - Ext. Debt Service Pmt, All Sectors, More than 12 to 18, All instruments, Interest, USD}}
+{marker sourceid_DT.INT.DECT.CD.07.09.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.07.09.MO.US:DT.INT.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.0912.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.0912.US:DT.INT.DECT.CD.0912.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14606,7 +14664,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.15.UP.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.15.UP.YR.US:DT.INT.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, All Sectors, More than 18 to 24, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.15.UP.YR.US:DT.INT.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14642,7 +14700,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.69.US:DT.INT.DECT.CD.69.US} - Gross Ext. Debt Pmt, All Sectors, More than 0 to 3, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.69.US:DT.INT.DECT.CD.69.US} - Ext. Debt Service Pmt, All Sectors, More than 6 to 9, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14690,7 +14748,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.AR.1824.US:DT.INT.DECT.CD.AR.1824.US} - Gross Ext. Debt Pmt, All Sectors, More than 18 to 24, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.AR.1824.US:DT.INT.DECT.CD.AR.1824.US} - Gross Ext. Debt Pmt, All Sectors, More than 2yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14750,7 +14808,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.CB.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.03.US:DT.INT.DECT.CD.CB.03.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.03.US:DT.INT.DECT.CD.CB.03.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14786,7 +14844,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.CB.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.1824.US:DT.INT.DECT.CD.CB.1824.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.1824.US:DT.INT.DECT.CD.CB.1824.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14810,7 +14868,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.CB.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.36.US:DT.INT.DECT.CD.CB.36.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.36.US:DT.INT.DECT.CD.CB.36.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14834,7 +14892,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.CB.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.IQ.US:DT.INT.DECT.CD.CB.IQ.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, Immediate, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.IQ.US:DT.INT.DECT.CD.CB.IQ.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, One year or less, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14966,7 +15024,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.03.US:DT.INT.DECT.CD.IL.03.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.03.US:DT.INT.DECT.CD.IL.03.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15002,7 +15060,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.1824.US:DT.INT.DECT.CD.IL.1824.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 18 to 24, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.1824.US:DT.INT.DECT.CD.IL.1824.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 2yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15038,7 +15096,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.69.US:DT.INT.DECT.CD.IL.69.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 6 to 9, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.69.US:DT.INT.DECT.CD.IL.69.US} - Ext. Debt Service Pmt, DI: Intercom Lending, Immediate, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15050,7 +15108,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.IQ.US:DT.INT.DECT.CD.IL.IQ.US} - Gross Ext. Debt Pos., DI: Intercom Lending, One year or less, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.IQ.US:DT.INT.DECT.CD.IL.IQ.US} - Ext. Debt Service Pmt, DI: Intercom Lending, Immediate, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15063,18 +15121,6 @@
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.RM.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.RM.US:DT.INT.DECT.CD.IL.RM.US} - Gross Ext. Debt Pos., DI: Intercom Lending, One year or less, All instruments, Interest, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.INT.DECT.CD.IQ.00.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IQ.00.US:DT.INT.DECT.CD.IQ.00.US} - Ext. Debt Service Pmt, All Sectors, Immediate, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15110,7 +15156,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.MA.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.0912.US:DT.INT.DECT.CD.MA.0912.US} - Ext. Debt Service Pmt, Central Bank, More than 12 to 18, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.0912.US:DT.INT.DECT.CD.MA.0912.US} - Ext. Debt Service Pmt, Central Bank, More than 9 to 12, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15134,7 +15180,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.MA.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.1824.US:DT.INT.DECT.CD.MA.1824.US} - Ext. Debt Service Pmt, Central Bank, More than 2yrs, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.1824.US:DT.INT.DECT.CD.MA.1824.US} - Ext. Debt Service Pmt, Central Bank, More than 18 to 24, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15302,7 +15348,19 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.OS.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.OS.RM.US:DT.INT.DECT.CD.OS.RM.US} - Gross Ext. Debt Pos., All Sectors, One year or less, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.OS.RM.US:DT.INT.DECT.CD.OS.RM.US} - Gross Ext. Debt Pos., Other Sectors, One year or less, All instruments, Interest, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.RM.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.RM.US:DT.INT.DECT.CD.RM.US} - Gross Ext. Debt Pos., All Sectors, One year or less, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15338,7 +15396,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEFE.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEFE.CD.IL.1218.US:DT.INT.DEFE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. to fellow ent., Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEFE.CD.IL.1218.US:DT.INT.DEFE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. to fellow ent., Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15362,7 +15420,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEFE.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEFE.CD.IL.24P.US:DT.INT.DEFE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEFE.CD.IL.24P.US:DT.INT.DEFE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. to fellow ent., Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15493,6 +15551,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.INT.DILD.CD.IL.IQ.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.IQ.US:DT.INT.DILD.CD.IL.IQ.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of DI ent. to dir. investors, Interest, USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.INT.DLBN.CD.CB.AR.03.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.CB.AR.03.US:DT.INT.DLBN.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Debt securities, Interest, USD}}
 
@@ -15578,7 +15648,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLBN.CD.CB.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.CB.AR.IQ.US:DT.INT.DLBN.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Debt securities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.CB.AR.IQ.US:DT.INT.DLBN.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Debt securities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15662,7 +15732,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLBN.CD.GG.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.GG.AR.69.US:DT.INT.DLBN.CD.GG.AR.69.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Debt securities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.GG.AR.69.US:DT.INT.DLBN.CD.GG.AR.69.US} - Gross Ext. Debt Pmt, General Government, Immediate, Debt securities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15794,7 +15864,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLBN.CD.OT.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.OT.AR.0912.US:DT.INT.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Debt securities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.OT.AR.0912.US:DT.INT.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Debt securities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15914,7 +15984,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.CB.AR.1824.US:DT.INT.DLCD.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.CB.AR.1824.US:DT.INT.DLCD.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15926,7 +15996,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.CB.AR.24P.US:DT.INT.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.CB.AR.24P.US:DT.INT.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15998,7 +16068,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.GG.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.GG.AR.1218.US:DT.INT.DLCD.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.GG.AR.1218.US:DT.INT.DLCD.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16010,7 +16080,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.GG.AR.1824.US:DT.INT.DLCD.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.GG.AR.1824.US:DT.INT.DLCD.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16142,7 +16212,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.MA.AR.69.US:DT.INT.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.MA.AR.69.US:DT.INT.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16154,7 +16224,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.MA.AR.IQ.US:DT.INT.DLCD.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.MA.AR.IQ.US:DT.INT.DLCD.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16166,7 +16236,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.OT.AR.03.US:DT.INT.DLCD.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.OT.AR.03.US:DT.INT.DLCD.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16226,7 +16296,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.OT.AR.36.US:DT.INT.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.OT.AR.36.US:DT.INT.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16346,7 +16416,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.MA.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.MA.AR.03.US:DT.INT.DLTL.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.MA.AR.03.US:DT.INT.DLTL.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16490,7 +16560,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.OT.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.24P.US:DT.INT.DLTL.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.24P.US:DT.INT.DLTL.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16514,7 +16584,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.69.US:DT.INT.DLTL.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.69.US:DT.INT.DLTL.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16538,7 +16608,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.CB.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.CB.AR.03.US:DT.INT.DLTO.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.CB.AR.03.US:DT.INT.DLTO.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16586,7 +16656,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.CB.AR.24P.US:DT.INT.DLTO.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.CB.AR.24P.US:DT.INT.DLTO.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16598,7 +16668,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.CB.AR.36.US:DT.INT.DLTO.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.CB.AR.36.US:DT.INT.DLTO.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16646,7 +16716,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.GG.AR.0912.US:DT.INT.DLTO.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.GG.AR.0912.US:DT.INT.DLTO.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16766,7 +16836,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.MA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.1824.US:DT.INT.DLTO.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.1824.US:DT.INT.DLTO.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16778,7 +16848,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.24P.US:DT.INT.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.24P.US:DT.INT.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16826,7 +16896,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.OT.AR.03.US:DT.INT.DLTO.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.OT.AR.03.US:DT.INT.DLTO.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16970,7 +17040,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.GG.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.24P.US:DT.INT.DLTS.CD.GG.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.24P.US:DT.INT.DLTS.CD.GG.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17006,7 +17076,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.GG.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.IQ.US:DT.INT.DLTS.CD.GG.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.IQ.US:DT.INT.DLTS.CD.GG.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17030,7 +17100,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.MA.AR.0912.US:DT.INT.DLTS.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.MA.AR.0912.US:DT.INT.DLTS.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17066,7 +17136,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.MA.AR.24P.US:DT.INT.DLTS.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.MA.AR.24P.US:DT.INT.DLTS.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17138,7 +17208,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.CB.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.CB.AR.1218.US:DT.INT.DLTT.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.CB.AR.1218.US:DT.INT.DLTT.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17246,7 +17316,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.1824.US:DT.INT.DLTT.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.1824.US:DT.INT.DLTT.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17258,7 +17328,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.24P.US:DT.INT.DLTT.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.24P.US:DT.INT.DLTT.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17270,7 +17340,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.36.US:DT.INT.DLTT.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.36.US:DT.INT.DLTT.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17294,7 +17364,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.IQ.US:DT.INT.DLTT.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.GG.AR.IQ.US:DT.INT.DLTT.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17318,7 +17388,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.MA.AR.0912.US:DT.INT.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.MA.AR.0912.US:DT.INT.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17401,18 +17471,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.INT.PUBS.CD.IQ.00.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.IQ.00.US:DT.INT.PUBS.CD.IQ.00.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, Immediately, All instruments, Interest, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.INTS.DLTL.CD.GG.AR.03.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTL.CD.GG.AR.03.US:DT.INTS.DLTL.CD.GG.AR.03.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Loans, Interest, USD}}
 
@@ -17462,7 +17520,7 @@
 
 {synoptline}
 {marker sourceid_DT.INTS.DLTL.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTL.CD.GG.AR.24P.US:DT.INTS.DLTL.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTL.CD.GG.AR.24P.US:DT.INTS.DLTL.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17534,7 +17592,7 @@
 
 {synoptline}
 {marker sourceid_DT.INTS.DLTT.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTT.CD.OT.AR.1218.US:DT.INTS.DLTT.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTT.CD.OT.AR.1218.US:DT.INTS.DLTT.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17582,7 +17640,7 @@
 
 {synoptline}
 {marker sourceid_DT.INTS.DLTT.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTT.CD.OT.AR.69.US:DT.INTS.DLTT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTT.CD.OT.AR.69.US:DT.INTS.DLTT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17666,7 +17724,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.DECT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DECT.CD.MA.AR.US:DT.IXA.DECT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DECT.CD.MA.AR.US:DT.IXA.DECT.CD.MA.AR.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17713,20 +17771,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.IXA.DIIE.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DIIE.CD.IL.US:DT.IXA.DIIE.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. of dir. investors to DI ent., All maturities, All instruments, Interest, USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.TDS.DEAE.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.03.US:DT.TDS.DEAE.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.03.US:DT.TDS.DEAE.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17738,7 +17784,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEAE.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.0912.US:DT.TDS.DEAE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.0912.US:DT.TDS.DEAE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17774,7 +17820,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEAE.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.24P.US:DT.TDS.DEAE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.24P.US:DT.TDS.DEAE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17798,7 +17844,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEAE.CD.IL.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.69.US:DT.TDS.DEAE.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.69.US:DT.TDS.DEAE.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17809,20 +17855,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.TDS.DEAE.CD.IL.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.IQ.US:DT.TDS.DEAE.CD.IL.IQ.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.TDS.DECT.CD.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.03.US:DT.TDS.DECT.CD.03.US} - Ext. Debt Service Pmt, All Sectors, More than 0 to 3, All instruments, Prin. and Int., USD}}
+{marker sourceid_DT.TDS.DECT.CD.07.09.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.07.09.MO.US:DT.TDS.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17833,20 +17867,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.TDS.DECT.CD.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.1218.US:DT.TDS.DECT.CD.1218.US} - Ext. Debt Service Pmt, All Sectors, More than 12 to 18, All instruments, Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.TDS.DECT.CD.15.UP.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.15.UP.YR.US:DT.TDS.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD}}
+{marker sourceid_DT.TDS.DECT.CD.0912.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.0912.US:DT.TDS.DECT.CD.0912.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17859,6 +17881,18 @@
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.1824.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.1824.US:DT.TDS.DECT.CD.1824.US} - Ext. Debt Service Pmt, All Sectors, More than 18 to 24, All instruments, Prin. and Int., USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECT.CD.19.24.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.19.24.MO.US:DT.TDS.DECT.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17942,7 +17976,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.1824.US:DT.TDS.DECT.CD.AR.1824.US} - Gross Ext. Debt Pmt, All Sectors, More than 2yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.1824.US:DT.TDS.DECT.CD.AR.1824.US} - Gross Ext. Debt Pmt, All Sectors, More than 18 to 24, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17954,7 +17988,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.24P.US:DT.TDS.DECT.CD.AR.24P.US} - Gross Ext. Debt Pmt, All Sectors, More than 2yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.24P.US:DT.TDS.DECT.CD.AR.24P.US} - Gross Ext. Debt Pmt, All Sectors, More than 3 to 6, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17978,7 +18012,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.69.US:DT.TDS.DECT.CD.AR.69.US} - Gross Ext. Debt Pmt, All Sectors, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.69.US:DT.TDS.DECT.CD.AR.69.US} - Gross Ext. Debt Pmt, All Sectors, Immediate, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17990,7 +18024,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.IQ.US:DT.TDS.DECT.CD.AR.IQ.US} - Gross Ext. Debt Pmt, All Sectors, Immediate, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.IQ.US:DT.TDS.DECT.CD.AR.IQ.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18026,7 +18060,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.CB.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.1218.US:DT.TDS.DECT.CD.CB.1218.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.1218.US:DT.TDS.DECT.CD.CB.1218.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18038,7 +18072,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.CB.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.1824.US:DT.TDS.DECT.CD.CB.1824.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.1824.US:DT.TDS.DECT.CD.CB.1824.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18302,7 +18336,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.0912.US:DT.TDS.DECT.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.0912.US:DT.TDS.DECT.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18350,7 +18384,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.36.US:DT.TDS.DECT.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.36.US:DT.TDS.DECT.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18386,7 +18420,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.IQ.US:DT.TDS.DECT.CD.GG.IQ.US} - Ext. Debt Service Pmt, General Government, Immediate, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.IQ.US:DT.TDS.DECT.CD.GG.IQ.US} - Gross Ext. Debt Pos., General Government, One year or less, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18410,7 +18444,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.03.US:DT.TDS.DECT.CD.IL.03.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.03.US:DT.TDS.DECT.CD.IL.03.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18422,7 +18456,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.0912.US:DT.TDS.DECT.CD.IL.0912.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.0912.US:DT.TDS.DECT.CD.IL.0912.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18601,18 +18635,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.TDS.DECT.CD.IL.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.RM.US:DT.TDS.DECT.CD.IL.RM.US} - Gross Ext. Debt Pos., DI: Intercom Lending, One year or less, All instruments, Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IQ.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IQ.US:DT.TDS.DECT.CD.IQ.US} - Ext. Debt Service Pmt, All Sectors, Immediate, All instruments, Prin. and Int., USD}}
 
@@ -18758,7 +18780,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.AR.24P.US:DT.TDS.DECT.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.AR.24P.US:DT.TDS.DECT.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18770,7 +18792,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.MA.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.AR.36.US:DT.TDS.DECT.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.AR.36.US:DT.TDS.DECT.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18914,7 +18936,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OS.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.IQ.US:DT.TDS.DECT.CD.OS.IQ.US} - Gross Ext. Debt Pos., Other Sectors, One year or less, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.IQ.US:DT.TDS.DECT.CD.OS.IQ.US} - Ext. Debt Service Pmt, Other Sectors, Immediate, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18986,7 +19008,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OT.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.24P.US:DT.TDS.DECT.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.24P.US:DT.TDS.DECT.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19010,7 +19032,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.69.US:DT.TDS.DECT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.69.US:DT.TDS.DECT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19052,6 +19074,18 @@
 
 
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECT.XGS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.XGS.ZS:DT.TDS.DECT.XGS.ZS} - Total debt service ( % of exports of goods and services)}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -19106,7 +19140,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEFE.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.24P.US:DT.TDS.DEFE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. to fellow ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.24P.US:DT.TDS.DEFE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19178,7 +19212,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DILD.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.1218.US:DT.TDS.DILD.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.1218.US:DT.TDS.DILD.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19214,7 +19248,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DILD.CD.IL.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.36.US:DT.TDS.DILD.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.36.US:DT.TDS.DILD.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19237,8 +19271,20 @@
 
 
 {synoptline}
+{marker sourceid_DT.TDS.DILD.CD.IL.IQ.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.IQ.US:DT.TDS.DILD.CD.IL.IQ.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
+
+{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
+
+
+{synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.03.US:DT.TDS.DLBN.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.03.US:DT.TDS.DLBN.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19250,7 +19296,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.0912.US:DT.TDS.DLBN.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.0912.US:DT.TDS.DLBN.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19274,7 +19320,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.1824.US:DT.TDS.DLBN.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.1824.US:DT.TDS.DLBN.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19310,7 +19356,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.69.US:DT.TDS.DLBN.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.69.US:DT.TDS.DLBN.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19490,7 +19536,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.MA.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.36.US:DT.TDS.DLBN.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.36.US:DT.TDS.DLBN.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19502,7 +19548,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.69.US:DT.TDS.DLBN.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.69.US:DT.TDS.DLBN.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19574,7 +19620,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.OT.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.24P.US:DT.TDS.DLBN.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.24P.US:DT.TDS.DLBN.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19598,7 +19644,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.69.US:DT.TDS.DLBN.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.69.US:DT.TDS.DLBN.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19634,7 +19680,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.0912.US:DT.TDS.DLCD.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.0912.US:DT.TDS.DLCD.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19658,7 +19704,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.1824.US:DT.TDS.DLCD.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.1824.US:DT.TDS.DLCD.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19670,7 +19716,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.24P.US:DT.TDS.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.24P.US:DT.TDS.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19682,7 +19728,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.36.US:DT.TDS.DLCD.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.36.US:DT.TDS.DLCD.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19730,7 +19776,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.0912.US:DT.TDS.DLCD.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.0912.US:DT.TDS.DLCD.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19778,7 +19824,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.36.US:DT.TDS.DLCD.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.36.US:DT.TDS.DLCD.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19790,7 +19836,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.GG.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.69.US:DT.TDS.DLCD.CD.GG.AR.69.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.69.US:DT.TDS.DLCD.CD.GG.AR.69.US} - Gross Ext. Debt Pmt, General Government, Immediate, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19838,7 +19884,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.1218.US:DT.TDS.DLCD.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.1218.US:DT.TDS.DLCD.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19886,7 +19932,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.69.US:DT.TDS.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.69.US:DT.TDS.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19970,7 +20016,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.OT.AR.36.US:DT.TDS.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.OT.AR.36.US:DT.TDS.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20078,7 +20124,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.CB.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.CB.AR.69.US:DT.TDS.DLTL.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.CB.AR.69.US:DT.TDS.DLTL.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20090,7 +20136,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.CB.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.CB.AR.IQ.US:DT.TDS.DLTL.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.CB.AR.IQ.US:DT.TDS.DLTL.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20126,19 +20172,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.GG.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.1218.US:DT.TDS.DLTL.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Loans, Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, income, richest 50% (% age 15+){p_end}
-
-{synopt:{opt Source Organization}}Global Findex database{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.TDS.DLTL.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.1824.US:DT.TDS.DLTL.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.1218.US:DT.TDS.DLTL.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20174,7 +20208,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.GG.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.69.US:DT.TDS.DLTL.CD.GG.AR.69.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.69.US:DT.TDS.DLTL.CD.GG.AR.69.US} - Gross Ext. Debt Pmt, General Government, Immediate, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20222,7 +20256,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.1218.US:DT.TDS.DLTL.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.1218.US:DT.TDS.DLTL.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20354,7 +20388,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.36.US:DT.TDS.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.36.US:DT.TDS.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20402,7 +20436,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.CB.AR.0912.US:DT.TDS.DLTO.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.CB.AR.0912.US:DT.TDS.DLTO.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20438,7 +20472,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.CB.AR.24P.US:DT.TDS.DLTO.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.CB.AR.24P.US:DT.TDS.DLTO.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20630,7 +20664,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.24P.US:DT.TDS.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.24P.US:DT.TDS.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20642,7 +20676,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.MA.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.36.US:DT.TDS.DLTO.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.36.US:DT.TDS.DLTO.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20654,7 +20688,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.69.US:DT.TDS.DLTO.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.69.US:DT.TDS.DLTO.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20738,7 +20772,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.36.US:DT.TDS.DLTO.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.36.US:DT.TDS.DLTO.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20750,7 +20784,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.69.US:DT.TDS.DLTO.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.69.US:DT.TDS.DLTO.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20798,7 +20832,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.GG.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.1218.US:DT.TDS.DLTS.CD.GG.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.1218.US:DT.TDS.DLTS.CD.GG.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20858,7 +20892,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.GG.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.IQ.US:DT.TDS.DLTS.CD.GG.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.IQ.US:DT.TDS.DLTS.CD.GG.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20870,7 +20904,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.MA.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.03.US:DT.TDS.DLTS.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.03.US:DT.TDS.DLTS.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20942,7 +20976,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.69.US:DT.TDS.DLTS.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.69.US:DT.TDS.DLTS.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20954,7 +20988,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.IQ.US:DT.TDS.DLTS.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.IQ.US:DT.TDS.DLTS.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20966,7 +21000,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.CB.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.03.US:DT.TDS.DLTT.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.03.US:DT.TDS.DLTT.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21062,7 +21096,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.GG.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.GG.AR.03.US:DT.TDS.DLTT.CD.GG.AR.03.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.GG.AR.03.US:DT.TDS.DLTT.CD.GG.AR.03.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21146,7 +21180,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.GG.AR.IQ.US:DT.TDS.DLTT.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.GG.AR.IQ.US:DT.TDS.DLTT.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21254,7 +21288,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.03.US:DT.TDS.DLTT.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.03.US:DT.TDS.DLTT.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21278,7 +21312,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.1218.US:DT.TDS.DLTT.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.1218.US:DT.TDS.DLTT.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21290,7 +21324,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.OT.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.1824.US:DT.TDS.DLTT.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.1824.US:DT.TDS.DLTT.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21337,30 +21371,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.TDS.DLTT.CD.OT.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.OT.AR.IQ.US:DT.TDS.DLTT.CD.OT.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Trade credit and advances, Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.TRA.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TRA.DECT.CD:DT.TRA.DECT.CD} - Debt service, reduction in arrears/prepayments (current US$)}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total amount of debt rescheduled includes the debt stock, principal, interest, charges and penalties rescheduled. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.TXA.DECT.CD.CB.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.CB.US:DT.TXA.DECT.CD.CB.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Prin. and Int., USD}}
 
@@ -21386,7 +21396,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXA.DECT.CD.IL.IN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.IL.IN.US:DT.TXA.DECT.CD.IL.IN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.IL.IN.US:DT.TXA.DECT.CD.IL.IN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21458,7 +21468,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXA.DECT.CD.OT.NF.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.OT.NF.US:DT.TXA.DECT.CD.OT.NF.US} - Gross Ext. Debt Pos., Nonfinancial corporations, All maturities, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.OT.NF.US:DT.TXA.DECT.CD.OT.NF.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21482,7 +21492,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXA.DECT.CD.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.TO.US:DT.TXA.DECT.CD.TO.US} - Gross Ext. Debt Pos., Debt liab. of DI ent. to dir. investors, All maturities, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.TO.US:DT.TXA.DECT.CD.TO.US} - Gross Ext. Debt Pos., All Other Sectors, All maturities, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21507,18 +21517,6 @@
 {synoptline}
 {marker sourceid_DT.TXA.DIFE.CD.IL.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.TXA.DIFE.CD.IL.US:DT.TXA.DIFE.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. to fellow ent., All maturities, All instruments, Prin. and Int., USD}}
-
-{synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
-
-
-{synopt:{opt Source Notes}}Total amount of debt rescheduled includes the debt stock, principal, interest, charges and penalties rescheduled. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.TXA.DIIE.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DIIE.CD.IL.US:DT.TXA.DIIE.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. of dir. investors to DI ent., All maturities, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 

@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -524,6 +522,18 @@
 {synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_1.3_ACCESS.ELECTRICITY.URBAN}
+{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Coverage: Mobile Phone}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1387,18 +1397,6 @@
 
 
 {synoptline}
-{marker sourceid_3.02.01.02.fscov}
-{synopt:{bf:{help wbopendata_sourceid##3.02.01.02.fscov:3.02.01.02.fscov} - Government finance accounting}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation includes observations of 0 income.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
 {marker sourceid_3.1.Gini}
 {synopt:{bf:{help wbopendata_sourceid##3.1.Gini:3.1.Gini} - Gini, Rural}}
 
@@ -1433,18 +1431,6 @@
 {synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have a straightforward representation and lacks the appealing interpretation of the Gini coefficient.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_3.15_LEARN.TIME.TEACHER.STUDY}
-{synopt:{bf:{help wbopendata_sourceid##3.15_LEARN.TIME.TEACHER.STUDY:3.15_LEARN.TIME.TEACHER.STUDY} - Last study on effective learning time and teacher attendance (year)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation includes observations of 0 income.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1486,18 +1472,6 @@
 {synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have a straightforward representation and lacks the appealing interpretation of the Gini coefficient.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_3.9_LOW.SEC.TEACHERS}
-{synopt:{bf:{help wbopendata_sourceid##3.9_LOW.SEC.TEACHERS:3.9_LOW.SEC.TEACHERS} - Youth: Neither in School Nor Working  (15-18)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the population ages 15-18 that is neither employed nor in school.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
 
 {synoptline}
@@ -1652,6 +1626,18 @@
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the population ages 19-24 that is employed and not in school.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_4.1.2_REN.ELECTRICITY.OUTPUT}
+{synopt:{bf:{help wbopendata_sourceid##4.1.2_REN.ELECTRICITY.OUTPUT:4.1.2_REN.ELECTRICITY.OUTPUT} - Renewable energy electricity output (GWh)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the male population ages 15-18 that is neither employed nor in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1995,6 +1981,18 @@
 
 
 {synoptline}
+{marker sourceid_5.1.9_TJK.TOTA.AID.WFP}
+{synopt:{bf:{help wbopendata_sourceid##5.1.9_TJK.TOTA.AID.WFP:5.1.9_TJK.TOTA.AID.WFP} - International aid disbursed to total education, WFP to Tajikistan (USD million)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators{p_end}
+
+
+{synoptline}
 {marker sourceid_5.1.AMeanIncGr.All}
 {synopt:{bf:{help wbopendata_sourceid##5.1.AMeanIncGr.All:5.1.AMeanIncGr.All} - Annualized Mean Income Growth (2004-2009)}}
 
@@ -2125,6 +2123,18 @@
 
 
 {synoptline}
+{marker sourceid_7.9_CURR.ALLOCATION.CLOSURE}
+{synopt:{bf:{help wbopendata_sourceid##7.9_CURR.ALLOCATION.CLOSURE:7.9_CURR.ALLOCATION.CLOSURE} - Labor Income Poverty Index}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The Labor Income Poverty Index (LIPI)  measures changes in the share of households that have per capita labor income below the regional poverty line of $4 per day, relative to a selected reference period. This reference period is the third quarter in 2010 (2010Q3 = 1), except for Chile and Guatemala, where 2010Q4 = 1.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of LABLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_8.0.LIPI}
 {synopt:{bf:{help wbopendata_sourceid##8.0.LIPI:8.0.LIPI} - Labor Income Poverty Index}}
 
@@ -2135,6 +2145,18 @@
 {synopt:{opt Source Notes}}The Labor Income Poverty Index (LIPI)  measures changes in the share of households that have per capita labor income below the regional poverty line of $4 per day, relative to a selected reference period. This reference period is the third quarter in 2010 (2010Q3 = 1), except for Chile and Guatemala, where 2010Q4 = 1.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of LABLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_8.4_ORAL.READING.TEST}
+{synopt:{bf:{help wbopendata_sourceid##8.4_ORAL.READING.TEST:8.4_ORAL.READING.TEST} - Administration of oral reading fluency tests (yes=1, no=0, see notes if available)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) that is a wage or salary worker{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -2606,6 +2628,18 @@
 
 
 {synoptline}
+{marker sourceid_9.1_AID.ALIGNMENT}
+{synopt:{bf:{help wbopendata_sourceid##9.1_AID.ALIGNMENT:9.1_AID.ALIGNMENT} - Alignment of aid to education (% of total international aid to education)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that is a wage or salary worker{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_9.2.Employee.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employee.All:9.2.Employee.All} - Employees (%), Female}}
 
@@ -2835,18 +2869,6 @@
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the top 60 percent that works without pay{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_LO.SACMEQ.MAT.L1}
-{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.MAT.L1:LO.SACMEQ.MAT.L1} - Gini Coefficient (No Zero Income)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation does not includes observations of 0 income.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 

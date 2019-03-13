@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -62,7 +60,7 @@
 {syntab:{title:{bf:36 Statistical Capacity Indicators}}}
 {synoptline}
 {marker sourceid_2.01.01.02.nabase}
-{synopt:{bf:{help wbopendata_sourceid##2.01.01.02.nabase:2.01.01.02.nabase} - Consumer price index base year}}
+{synopt:{bf:{help wbopendata_sourceid##2.01.01.02.nabase:2.01.01.02.nabase} - National accounts base year}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -109,15 +107,27 @@
 
 
 {synoptline}
+{marker sourceid_3.02.01.02.fscov}
+{synopt:{bf:{help wbopendata_sourceid##3.02.01.02.fscov:3.02.01.02.fscov} - Government finance accounting}}
+
+{synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Government finance accounting concept describes the accounting basis for reporting central government financial data. For many countries government finance data have been consolidated into one set of accounts capturing all the central government's fiscal activities. Budgetary central government accounts do not necessarily include all central government units, the picture they provide of central government activities is usually incomplete.{p_end}
+
+{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation). Original source: IMF: Government Finance Statistics Yearbook.{p_end}
+
+
+{synoptline}
 {marker sourceid_3.11.01.01.popcen}
 {synopt:{bf:{help wbopendata_sourceid##3.11.01.01.popcen:3.11.01.01.popcen} - Population census}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Vital registration systems record the occurrence and characteristics of vital events pertaining to the population and serve as a main source of vital statistics. Countries with complete vital statistics registries may have more accurate and timely demographic indicators.{p_end}
+{synopt:{opt Source Notes}}Population censuses collect data on the size, distribution and composition of population and information on a broad range of social and economic characteristics of the population. It also provides sampling frames for household and other surveys. It is recommended that population censuses be conducted at least every 10 years.{p_end}
 
-{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation): Original source: United Nations Department of Economic and Social Information and Policy Analysis, Statistics Division. Population and Vital Statistics Report{p_end}
+{synopt:{opt Source Organization}}World Bank Microdata library. Original source: United Nations Statistical Division (UNSD), 2010 World Population and Housing Censuses Programme{p_end}
 
 
 {synoptline}
@@ -129,19 +139,7 @@
 
 {synopt:{opt Source Notes}}Vital registration systems record the occurrence and characteristics of vital events pertaining to the population and serve as a main source of vital statistics. Countries with complete vital statistics registries may have more accurate and timely demographic indicators.{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG.{p_end}
-
-
-{synoptline}
-{marker sourceid_3.1_RE.CONSUMPTION}
-{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - Renewable energy consumption (TJ)}}
-
-{synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Population censuses collect data on the size, distribution and composition of population and information on a broad range of social and economic characteristics of the population. It also provides sampling frames for household and other surveys. It is recommended that population censuses be conducted at least every 10 years.{p_end}
-
-{synopt:{opt Source Organization}}World Bank Microdata library. Original source: United Nations Statistical Division (UNSD), 2010 World Population and Housing Censuses Programme{p_end}
+{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation): Original source: United Nations Department of Economic and Social Information and Policy Analysis, Statistics Division. Population and Vital Statistics Report{p_end}
 
 
 {synoptline}
@@ -151,7 +149,7 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Industrial production index measures changes in industrial production and is widely used for the observation and analysis of the current economic activity. Monthly survey on industrial production of index allows identifying the turning points in economic development at an early stage.{p_end}
+{synopt:{opt Source Notes}}The principal sources of external debt statistics are reports submitted to the World Bank through its Debtor Reporting System by reporting countries. Data quality and coverage vary among countries and from year to year. The reporting status shows, for the latest series, whether data were used as reported (actual), data were preliminary and included an element of staff estimation (preliminary), or data are staff estimates (estimate).{p_end}
 
 {synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation): Original source: International Debt Statistics (for low and middle income countries).{p_end}
 
@@ -163,9 +161,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The principal sources of external debt statistics are reports submitted to the World Bank through its Debtor Reporting System by reporting countries. Data quality and coverage vary among countries and from year to year. The reporting status shows, for the latest series, whether data were used as reported (actual), data were preliminary and included an element of staff estimation (preliminary), or data are staff estimates (estimate).{p_end}
+{synopt:{opt Source Notes}}Import and export price indexes measure changes in the price of goods and services in international trade. They are used to deflate the value of imports and exports. Import price index is also used as an indicator of future domestic inflation.{p_end}
 
-{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation): Original source: International Debt Statistics (for low and middle income countries).{p_end}
+{synopt:{opt Source Organization}}IMF: International Financial Statistics (IFS). Series 74, 75, or/and 76.{p_end}
 
 
 {synoptline}
@@ -187,9 +185,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Health surveys collect information on various aspects of health of populations, such as health expenditure, access, utilization, and outcomes. They typically include Demographic and Health Surveys, Core Welfare Indicator Questionnaire surveys, Multiple Indicator Cluster Survey, Integrated Surveys, Living Standard Measuring Surveys, Priority Surveys and other health related surveys. It is recommended that health surveys be conducted at least every 3 to 5 years.{p_end}
+{synopt:{opt Source Notes}}UNESCO Institute of Statistics compiles data on education based on official responses to surveys and from reports provided by education authorities in each country. As the recommended periodicity of these data is annual, annual reporting from countries is considered a good practice.{p_end}
 
-{synopt:{opt Source Organization}}Microdata library. Original source: Measure DHS - Demographic and Health Surveys{p_end}
+{synopt:{opt Source Organization}}World Bank EdStats. Original source: UNESCO Institute for Statistics (UIS){p_end}
 
 
 {synoptline}
@@ -211,9 +209,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty surveys collect data on household income, consumption and expenditure, including income in kind. They typically include income, expenditure, and consumption surveys, household budget surveys, Integrated Surveys, Living Standard Measuring Surveys, and other poverty related surveys. It is recommended that poverty surveys be conducted at least every 3 to 5 years.{p_end}
+{synopt:{opt Source Notes}}WHO and UNICEF collect and review data available on national immunization coverage. Then estimates on the level of immunization coverage are made by using officially reported data, survey results, scientific literature, and by taking account of potential biases and consultation with local experts. The gap between the international estimates and the government official estimates therefore suggests that the estimation method adopted by the country differs from the internationally recommended practice.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Microdata library{p_end}
+{synopt:{opt Source Organization}}WHO / UNICEF{p_end}
 
 
 {synoptline}
@@ -223,9 +221,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty surveys collect data on household income, consumption and expenditure, including income in kind. They typically include income, expenditure, and consumption surveys, household budget surveys, Integrated Surveys, Living Standard Measuring Surveys, and other poverty related surveys. It is recommended that poverty surveys be conducted at least every 3 to 5 years.{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Microdata library{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: {browse "http://www.globalpartnership.org/our-work/areas-of-focus/aid-effectiveness/2011-monitoring-exercise-on-aid-effectiveness-2/"}{p_end}
 
 
 {synoptline}
@@ -271,21 +269,21 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of underweight children under-five years of age, also known as prevalence of child malnutrition (weight for age), is the percentage of children under-five whose weight for age is less than minus two standard deviations from the median for the international reference population ages 0 to 59 months. The data are based on the World Health Organization’s new child growth standards released in 2006. Child malnutrition is linked to poverty, low levels of education, and poor access to health services. Sufficient and good-quality nutrition is therefore critical for development, health, and survival of current and succeeding generations. This indicator monitors nutritional status and health in populations and relates to the first MDG aiming at reducing poverty and hunger.{p_end}
+{synopt:{opt Source Notes}}Under-five mortality rate is the probability that a newborn baby will die before reaching age five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000. The indicator measures child survival. Survival of a child is closely linked to the provision of primary health-care services; but poverty, malnutrition, a decline in breast-feeding, maternal education, use of improved water, and inadequacy sanitation and health facilities are all associated with high child mortality. The indicator relates to the fourth MDG calling for reducing child mortality.{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNICEF, WHO, World Bank, UN DESA, UNPD{p_end}
 
 
 {synoptline}
 {marker sourceid_5.51.01.03.mortal}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.03.mortal:5.51.01.03.mortal} - Immunization}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.03.mortal:5.51.01.03.mortal} - Child mortality}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The proportion of one-year-old children immunized against measles is the proportion of children aged one who received one dose of measles vaccine. A child is considered adequately immunized against measles after receiving one dose of vaccine. Immunization is an essential component for reducing under-five mortality, and it serves as a proxy to measure the coverage and the quality of the child health care system. This indicator is also related to the fourth MDG aiming at reducing child mortality.{p_end}
+{synopt:{opt Source Notes}}Under-five mortality rate is the probability that a newborn baby will die before reaching age five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000. The indicator measures child survival. Survival of a child is closely linked to the provision of primary health-care services; but poverty, malnutrition, a decline in breast-feeding, maternal education, use of improved water, and inadequacy sanitation and health facilities are all associated with high child mortality. The indicator relates to the fourth MDG calling for reducing child mortality.{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: WHO and UNICEF{p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNICEF, WHO, World Bank, UN DESA, UNPD{p_end}
 
 
 {synoptline}
@@ -297,24 +295,24 @@
 
 {synopt:{opt Source Notes}}The proportion of one-year-old children immunized against measles is the proportion of children aged one who received one dose of measles vaccine. A child is considered adequately immunized against measles after receiving one dose of vaccine. Immunization is an essential component for reducing under-five mortality, and it serves as a proxy to measure the coverage and the quality of the child health care system. This indicator is also related to the fourth MDG aiming at reducing child mortality.{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNAIDS{p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: WHO and UNICEF{p_end}
 
 
 {synoptline}
 {marker sourceid_5.51.01.05.hiv}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.05.hiv:5.51.01.05.hiv} - Maternal health}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.05.hiv:5.51.01.05.hiv} - HIV/AIDS}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Births attended by skilled health staff are the percentage of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period, to conduct deliveries on their own, and to care for the newborns. High maternal mortality rates in many countries are the result of inadequate reproductive health care for women and inadequately spaced births. The indicator monitors the ability of the health system to provide good antenatal and postnatal care for women and relates to the fifth MDG aiming at improving maternal health, with a target of reducing by three-quarters, between 1990 and 2015, the maternal mortality ratio.{p_end}
+{synopt:{opt Source Notes}}HIV prevalence at any given age is the difference between the cumulative numbers of people who have become affected with HIV up to this age and the number who died, expressed as a percentage of the total number alive at this age. The basis of measuring infection is the incidence of HIV among people aged 15-49. HIV/AIDS is one of the world’s most important killers and has its greatest impact on poor countries and poor people. This indicator relates to MDG number six to combat HIV/AIDS, malaria, and other diseases.{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original sources: UNICEF: State of the World's Children{p_end}
 
 
 {synoptline}
 {marker sourceid_5.51.01.06.matern}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.06.matern:5.51.01.06.matern} - Maternal health}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.06.matern:5.51.01.06.matern} - Gender equality}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -333,7 +331,7 @@
 
 {synopt:{opt Source Notes}}The indicator is defined as the ratio of the gross enrollment rate of girls to boys in primary and secondary education levels in both public and private schools. Women have an enormous impact on the well-being of their families and societies, but their potential is sometimes not realized because of discriminatory social norms, incentives, and legal institutions. Although their status has improved in recent decades, gender inequalities persist. Education is one of the most important aspects of human development, and eliminating gender disparity at all levels of education would help to increase the status and capabilities of women. This indicator provides a measure of equality of educational opportunity and relates to the third MDG that seeks to promote gender equality and the empowerment of women.{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNESCO Institute for Statistics: Table 12: Measures of progression and completion in primary education (ISCED 1){p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNESCO Institute for Statistics: Table 5: Enrolment ratios by ISCED level{p_end}
 
 
 {synoptline}
@@ -343,7 +341,7 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Access to an improved water source is currently defined as the percentage of the population that can obtain at least 20 liters per person per day from an “improved” source that is within one kilometer of the user’s dwelling. Improved water sources include household connection, public standpipe, borehole, protected well or spring, and rainwater collection, but do not include water provided through vendors, tanker trucks, unprotected wells, unprotected springs, and bottled water. Unsafe water and lack of basic sanitation is the direct cause of many water-related diseases in developing countries. This indicator monitors access to improved water sources based on the assumption that improved sources are likely to provide safer water and relates to the seventh MDG to ensure environmental sustainability.{p_end}
+{synopt:{opt Source Notes}}Primary completion rate (PCR) is the number of students successfully completing the last year of (or graduating from) primary school in a given year, divided by the number of children of official graduation age in the population. Because of difficulties with developing data based on this definition, data analysis is generally based on the PCR proxy indicator which is the number of children reaching the last year of primary school (as defined by a country) net of repeaters. The indicator, which monitors education system coverage and student progression, is intended to measure human capital formation and school system quality and efficiency and relates to the second MDG to achieve universal primary education.{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Health Organization and United Nations Children's Fund, Joint Measurement Programme (JMP){p_end}
 
@@ -355,9 +353,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}GDP per capita is the sum of gross value added by all resident producers in the economy plus any product taxes (less subsidies) not included in the valuation of output, divided by mid-year population. Growth is calculated from constant price GDP data in local currency. Sustained economic growth increases average incomes and is strongly linked to poverty reduction. GDP per capita provides a basic measure of the value of output per person, which is an indirect indicator of per capita income. Growth in GDP and GDP per capita are considered broad measures of economic growth.{p_end}
+{synopt:{opt Source Notes}}Access to an improved water source is currently defined as the percentage of the population that can obtain at least 20 liters per person per day from an “improved” source that is within one kilometer of the user’s dwelling. Improved water sources include household connection, public standpipe, borehole, protected well or spring, and rainwater collection, but do not include water provided through vendors, tanker trucks, unprotected wells, unprotected springs, and bottled water. Unsafe water and lack of basic sanitation is the direct cause of many water-related diseases in developing countries. This indicator monitors access to improved water sources based on the assumption that improved sources are likely to provide safer water and relates to the seventh MDG to ensure environmental sustainability.{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Bank national accounts data, and OECD National Accounts data files{p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Health Organization and United Nations Children's Fund, Joint Measurement Programme (JMP){p_end}
 
 
 {synoptline}

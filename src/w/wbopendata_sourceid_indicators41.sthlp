@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -61,8 +59,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:41 Country Partnership Strategy for India (FY2013 - 17)}}}
 {synoptline}
-{marker sourceid_IN.AGR.GR.IRRIG.AREA}
-{synopt:{bf:{help wbopendata_sourceid##IN.AGR.GR.IRRIG.AREA:IN.AGR.GR.IRRIG.AREA} - Gross Irrigated Area under all crops ('000 hectares)}}
+{marker sourceid_IMPCOV}
+{synopt:{bf:{help wbopendata_sourceid##IMPCOV:IMPCOV} - Foreign Reserves, Months Import Cover, Goods}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -70,6 +68,18 @@
 {synopt:{opt Source Notes}}Gross area under irrigation is the total area under crops, irrigated once and/or more than once in a year. It is counted as many times as the number of times the areas are cropped and irrigated in a year.{p_end}
 
 {synopt:{opt Source Organization}}Source: Directorate of Economics and Statistics, Ministry of Agriculture{p_end}
+
+
+{synoptline}
+{marker sourceid_IN.AGR.GR.IRRIG.AREA}
+{synopt:{bf:{help wbopendata_sourceid##IN.AGR.GR.IRRIG.AREA:IN.AGR.GR.IRRIG.AREA} - Gross Irrigated Area under all crops ('000 hectares)}}
+
+{synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
+
+
+{synopt:{opt Source Notes}}Yield of Total Foodgrains (Rice, Wheat, etc.), measured in Kgs/Hectare, is derived by aggregating the individual foodgrain production (Kgs) and total harvested areas (hectares), which are estimated using their Yield.{p_end}
+
+{synopt:{opt Source Organization}}{browse "http://eands.dacnet.nic.in/Publication12-12-2012/Agriculture_at_a_Glance%202012/Pages85-136.pdf"}{p_end}
 
 
 {synoptline}
@@ -86,7 +96,7 @@
 
 {synoptline}
 {marker sourceid_IN.AGR.YLD.RICE}
-{synopt:{bf:{help wbopendata_sourceid##IN.AGR.YLD.RICE:IN.AGR.YLD.RICE} - Yield - Sugarcane (Kgs/Hectare)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.AGR.YLD.RICE:IN.AGR.YLD.RICE} - Yield - Rice (Kgs/Hectare)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -98,7 +108,7 @@
 
 {synoptline}
 {marker sourceid_IN.AGR.YLD.SUGRCANE}
-{synopt:{bf:{help wbopendata_sourceid##IN.AGR.YLD.SUGRCANE:IN.AGR.YLD.SUGRCANE} - Nominal GSDP Per Capita (INR)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.AGR.YLD.SUGRCANE:IN.AGR.YLD.SUGRCANE} - Yield - Sugarcane (Kgs/Hectare)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -110,7 +120,7 @@
 
 {synoptline}
 {marker sourceid_IN.EC.GSDP.PERCAP.NOM.INR}
-{synopt:{bf:{help wbopendata_sourceid##IN.EC.GSDP.PERCAP.NOM.INR:IN.EC.GSDP.PERCAP.NOM.INR} - Nominal GSDP Per Capita (INR)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.EC.GSDP.PERCAP.NOM.INR:IN.EC.GSDP.PERCAP.NOM.INR} - Nominal GSDP Per Capita (USD)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -134,12 +144,12 @@
 
 {synoptline}
 {marker sourceid_IN.EC.GSDP.PERCAP.REAL.INR}
-{synopt:{bf:{help wbopendata_sourceid##IN.EC.GSDP.PERCAP.REAL.INR:IN.EC.GSDP.PERCAP.REAL.INR} - Real GSDP Per Capita (INR) Growth Rate}}
+{synopt:{bf:{help wbopendata_sourceid##IN.EC.GSDP.PERCAP.REAL.INR:IN.EC.GSDP.PERCAP.REAL.INR} - Real GSDP Per Capita (INR)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Real Gross state domestic product (GSDP) [per capita, or gross regional product (GRP) per capita, is a measurement of the per capita growth rate of economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
+{synopt:{opt Source Notes}}Real Gross state domestic product (GSDP), or gross regional product (GRP), is a measurement of the per capita economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
 
 {synopt:{opt Source Organization}}Source : Central Statistics Office (CSO), Ministry of Statistics and Prgramme Implementation, Gov't of India website as on 01.08.13{p_end}
 
@@ -151,19 +161,19 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Real Gross state domestic product (GSDP) per capita, or gross regional product (GRP) per capita, is a measurement of the per capita economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
+{synopt:{opt Source Notes}}Real Gross state domestic product (GSDP) [per capita, or gross regional product (GRP) per capita, is a measurement of the per capita growth rate of economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
 
 {synopt:{opt Source Organization}}Source : Central Statistics Office (CSO), Ministry of Statistics and Prgramme Implementation, Gov't of India website as on 01.08.13{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.EC.GSDP.PERCAP.REAL.USD}
-{synopt:{bf:{help wbopendata_sourceid##IN.EC.GSDP.PERCAP.REAL.USD:IN.EC.GSDP.PERCAP.REAL.USD} - Real GSDP Per Capita (USD)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.EC.GSDP.PERCAP.REAL.USD:IN.EC.GSDP.PERCAP.REAL.USD} - Real GSDP Per Capita (USD) Growth Rate}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Real Gross state domestic product (GSDP) per capita, or gross regional product (GRP) per capita, is a measurement of the per capita economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
+{synopt:{opt Source Notes}}Gross state domestic product (GSDP), or gross regional product (GRP), is a measurement of the per capita growth rate  of the economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
 
 {synopt:{opt Source Organization}}Source : Central Statistics Office (CSO), Ministry of Statistics and Prgramme Implementation, Gov't of India website as on 01.08.13{p_end}
 
@@ -175,7 +185,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Gross state domestic product (GSDP), or gross regional product (GRP), is a measurement of the per capita growth rate  of the economic output in real terms of a state or province (i.e., of a subnational entity). It is the sum of all value added by industries and services within the state and serves as a counterpart to the gross domestic product (GDP).{p_end}
+{synopt:{opt Source Notes}}Population growth rate over the 10 year period.  This is simple growth rate calculation between two population observations that are 10 year apart.{p_end}
 
 {synopt:{opt Source Organization}}Source: Provisional Population Tables &amp; Annexures, Census of India 2011{p_end}
 
@@ -206,7 +216,7 @@
 
 {synoptline}
 {marker sourceid_IN.EC.POP.GRWTHRAT.URBN}
-{synopt:{bf:{help wbopendata_sourceid##IN.EC.POP.GRWTHRAT.URBN:IN.EC.POP.GRWTHRAT.URBN} - Population, Rural (Thousands)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.EC.POP.GRWTHRAT.URBN:IN.EC.POP.GRWTHRAT.URBN} - Decadal Growth of Population, Urban (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -249,7 +259,7 @@
 
 {synopt:{opt Source Notes}}Percent pupils in General category: not belonging to the Scheduled Caste (SC), Scheduled Tribe (ST) or Other Backward Class (OBC) category. Muslims and other minorities are included in the General Category.{p_end}
 
-{synopt:{opt Source Organization}}Source:{p_end}
+{synopt:{opt Source Organization}}Secondary Education in India: Progress towards universalization, Flash Statistics 2012-13, National University of Educational Planning and Adminsitration; SEMIS-FLASH-STASTICS.pdf{p_end}
 
 
 {synoptline}
@@ -283,7 +293,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Percent pupils not in the General category and belonging to the Other Backward Class (OBC) category{p_end}
+{synopt:{opt Source Notes}}Percent of Secondary and Higher Secondary pupils in the General category and belonging to the Muslim community{p_end}
 
 {synopt:{opt Source Organization}}Secondary Education in India: Progress towards universalization, Flash Statistics 2012-13, National University of Educational Planning and Adminsitration; SEMIS-FLASH-STASTICS.pdf{p_end}
 
@@ -307,7 +317,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Percent pupils not in the General category and belonging to the Scheduled Caste (SC) category{p_end}
+{synopt:{opt Source Notes}}Percent pupils not in the General category and belonging to the Scheduled Tribe (ST) category{p_end}
 
 {synopt:{opt Source Organization}}Secondary Education in India: Progress towards universalization, Flash Statistics 2012-13, National University of Educational Planning and Adminsitration; SEMIS-FLASH-STASTICS.pdf{p_end}
 
@@ -350,7 +360,7 @@
 
 {synoptline}
 {marker sourceid_IN.EDU.PUPIL.TCHR}
-{synopt:{bf:{help wbopendata_sourceid##IN.EDU.PUPIL.TCHR:IN.EDU.PUPIL.TCHR} - Pupil-Teacher Ratio}}
+{synopt:{bf:{help wbopendata_sourceid##IN.EDU.PUPIL.TCHR:IN.EDU.PUPIL.TCHR} - Teachers (Number)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -367,7 +377,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Total number of Teachers in secondary and higher secondary schools. Thes include regular and on-contract teachers.{p_end}
+{synopt:{opt Source Notes}}Numbers of Teacher Education Institutes sponsored and funded by the Central Government for elementary and secondary schools-- District Institutes of Education and Trainin(DIETs), Colleges of Teacher Education (CTEs),  Institutes of Advanced Study in Education (IASEs){p_end}
 
 {synopt:{opt Source Organization}}teacher Education, Department of School Education and Literacy, Min. of Human resource Development, Gov't of India.{p_end}
 
@@ -415,7 +425,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Utilities/Non Utilities  Per Capita Consumption (in KWh).  Uses net electricity consumption after excluding  consumption by power station auxiliaries. Non-utilities are power stations for railways and similar entities.{p_end}
+{synopt:{opt Source Notes}}Non Utilities  Per Capita Consumption (in KWh){p_end}
 
 {synopt:{opt Source Organization}}Source: Central Electricity Authority, Ministry of Power, India.{p_end}
 
@@ -441,19 +451,19 @@
 
 {synopt:{opt Source Notes}}Total (Utilities &amp; Non-Utilities) Per Capita Consumption (in KWh). Uses net electricity consumption after excluding  consumption by power station auxiliaries. Non-utilities are power stations for railways and similar entities.{p_end}
 
-{synopt:{opt Source Organization}}Source: Central Electricity Authority, Ministry of Power, India.{p_end}
+{synopt:{opt Source Organization}}Source: Ministry of New and Renewable Energy, India{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.ENRGY.GRID.RENEW.CAP}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENRGY.GRID.RENEW.CAP:IN.ENRGY.GRID.RENEW.CAP} - Number of Towns Electrified (Per 2001 Census)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENRGY.GRID.RENEW.CAP:IN.ENRGY.GRID.RENEW.CAP} - Grid interactive renewable power installed capacity (MW)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Number of Towns Electrified (Per 2001 Census){p_end}
+{synopt:{opt Source Notes}}Grid interactive renewable power installed capacity (in MW). Includes power generated from small hydro, biomass and waste, wind and solar sources. Energy from these renewable sources is connected to the regional and state grids.{p_end}
 
-{synopt:{opt Source Organization}}Source: Central Electricity Authority, Ministry of Power, India.{p_end}
+{synopt:{opt Source Organization}}Source: Ministry of New and Renewable Energy, India{p_end}
 
 
 {synoptline}
@@ -487,19 +497,19 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Number of Villages Electrified{p_end}
+{synopt:{opt Source Notes}}Number of Towns Total (Per 2001 Census){p_end}
 
 {synopt:{opt Source Organization}}Source: Central Electricity Authority, Ministry of Power, India.{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.ENRGY.VILLAG.ELECTRFIED}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENRGY.VILLAG.ELECTRFIED:IN.ENRGY.VILLAG.ELECTRFIED} - Number of Villages Electrified}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENRGY.VILLAG.ELECTRFIED:IN.ENRGY.VILLAG.ELECTRFIED} - Number of Villages Electrified (Percentage)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Number of Villages Electrified{p_end}
+{synopt:{opt Source Notes}}Percentage of Villages Electrified in the State{p_end}
 
 {synopt:{opt Source Organization}}Source: Central Electricity Authority, Ministry of Power, India.{p_end}
 
@@ -525,7 +535,7 @@
 
 {synopt:{opt Source Notes}}Number of Villages Total (Per 2001 Census){p_end}
 
-{synopt:{opt Source Organization}}{browse "http://www.rbi.org.in/scripts/PublicationsView.aspx?id=12662"}{p_end}
+{synopt:{opt Source Organization}}Source: Central Electricity Authority, Ministry of Power, India.{p_end}
 
 
 {synoptline}
@@ -590,7 +600,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.COASTALZONE.BUILT.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.BUILT.PCT:IN.ENV.COASTALZONE.BUILT.PCT} - Forest (Non- tidal)/ Plantation (SQ KMs)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.BUILT.PCT:IN.ENV.COASTALZONE.BUILT.PCT} - Ratio: Built-up land to total coastal area of state (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -602,7 +612,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.COASTALZONE.FOREST.AREA}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.FOREST.AREA:IN.ENV.COASTALZONE.FOREST.AREA} - Ratio: Forest (Non- tidal)/ Plantation to total coastal area of state (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.FOREST.AREA:IN.ENV.COASTALZONE.FOREST.AREA} - Forest (Non- tidal)/ Plantation (SQ KMs)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -614,7 +624,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.COASTALZONE.FOREST.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.FOREST.PCT:IN.ENV.COASTALZONE.FOREST.PCT} - Ratio: Forest (Non- tidal)/ Plantation to total coastal area of state (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.FOREST.PCT:IN.ENV.COASTALZONE.FOREST.PCT} - Other features (SQ KMs)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -650,7 +660,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.COASTALZONE.SHORELAND.AREA}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.SHORELAND.AREA:IN.ENV.COASTALZONE.SHORELAND.AREA} - Shore land (SQ KMs)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.SHORELAND.AREA:IN.ENV.COASTALZONE.SHORELAND.AREA} - Ratio: Shore land to total coastal area of state (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -698,7 +708,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.COASTALZONE.WATERBODIES.AREA}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.WATERBODIES.AREA:IN.ENV.COASTALZONE.WATERBODIES.AREA} - Water bodies (SQ KMs)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.WATERBODIES.AREA:IN.ENV.COASTALZONE.WATERBODIES.AREA} - Ratio: Water bodies to total coastal area of state (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -710,7 +720,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.COASTALZONE.WATERBODIES.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.WATERBODIES.PCT:IN.ENV.COASTALZONE.WATERBODIES.PCT} - Wetlands (SQ KMs)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.COASTALZONE.WATERBODIES.PCT:IN.ENV.COASTALZONE.WATERBODIES.PCT} - Ratio: Water bodies to total coastal area of state (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -794,7 +804,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.GROSS.IRRIG.AREA}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.GROSS.IRRIG.AREA:IN.ENV.GROSS.IRRIG.AREA} - Ratio: Gross Irrigated to Total Cropped Area (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.GROSS.IRRIG.AREA:IN.ENV.GROSS.IRRIG.AREA} - Gross Irrigated Area ('000 hectares)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -806,7 +816,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.IRRIGTOCROPPED.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.IRRIGTOCROPPED.PCT:IN.ENV.IRRIGTOCROPPED.PCT} - Ratio: Gross Irrigated to Total Cropped Area (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.IRRIGTOCROPPED.PCT:IN.ENV.IRRIGTOCROPPED.PCT} - Net Irrigated Area ('000 hectares)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -866,7 +876,7 @@
 
 {synoptline}
 {marker sourceid_IN.ENV.PM.CONC}
-{synopt:{bf:{help wbopendata_sourceid##IN.ENV.PM.CONC:IN.ENV.PM.CONC} - AIr Quality: Sulfur Dioxide (Micrograms/Cubic Meter)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.ENV.PM.CONC:IN.ENV.PM.CONC} - AIr Quality: Particulate Matter (Micrograms/Cubic Meter)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -895,14 +905,14 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}CRISIL Inclusix is a relative index that incorporates various forms of basic financial services into one single metric. CRISIL Inclusix is India’s first comprehensive measure of financial inclusion in the form of an index. It is a relative index that has a scale of 0 to 100, and combines three very critical parameters of basic banking services — branch penetration (BP), deposit penetration (DP), and credit penetration (CP) — together into one single metric. For each of these parameters, CRISIL evaluates financial inclusion at the national/ regional/ state/ district level vis-à-vis a defined ideal. A CRISIL Inclusix score of 100 indicates the ideal state for each of the national/ regional/ state/ district level vis-à-vis a defined ideal. A CRISIL Inclusix score of 100 indicates the ideal state for each of the three parameters.{p_end}
+{synopt:{opt Source Notes}}Number of commercial banks{p_end}
 
-{synopt:{opt Source Organization}}{browse "http://www.crisil.com/about-crisil/crisil-inclusix.html"}{p_end}
+{synopt:{opt Source Organization}}{browse "http://www.rbi.org.in/scripts/PublicationsView.aspx?id=12662"}{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.FIN.FININCL.INDX}
-{synopt:{bf:{help wbopendata_sourceid##IN.FIN.FININCL.INDX:IN.FIN.FININCL.INDX} - Total number of households availing banking services - Rural}}
+{synopt:{bf:{help wbopendata_sourceid##IN.FIN.FININCL.INDX:IN.FIN.FININCL.INDX} - Financial Inclusion Index (CRISIL Method)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -914,12 +924,12 @@
 
 {synoptline}
 {marker sourceid_IN.FIN.HH.BNKG.SRVC.RURL}
-{synopt:{bf:{help wbopendata_sourceid##IN.FIN.HH.BNKG.SRVC.RURL:IN.FIN.HH.BNKG.SRVC.RURL} - Total number of households availing banking services}}
+{synopt:{bf:{help wbopendata_sourceid##IN.FIN.HH.BNKG.SRVC.RURL:IN.FIN.HH.BNKG.SRVC.RURL} - Total number of households availing banking services - Rural}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Total number of households availing banking services ( Source: Census 2011){p_end}
+{synopt:{opt Source Notes}}Total number of households availing banking services - Rural (Source: Census 2011){p_end}
 
 {synopt:{opt Source Organization}}{browse "http://data.gov.in/catalog/households-availing-banking-services-and-number-households-having-each-specified-assets"}{p_end}
 
@@ -938,24 +948,24 @@
 
 {synoptline}
 {marker sourceid_IN.FIN.HH.BNKG.SRVC.URBN}
-{synopt:{bf:{help wbopendata_sourceid##IN.FIN.HH.BNKG.SRVC.URBN:IN.FIN.HH.BNKG.SRVC.URBN} - Total number of households availing banking services - Urban}}
+{synopt:{bf:{help wbopendata_sourceid##IN.FIN.HH.BNKG.SRVC.URBN:IN.FIN.HH.BNKG.SRVC.URBN} - Total number of households -Rural}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Total number of households availing banking services - Urban ( Source: Census 2011){p_end}
+{synopt:{opt Source Notes}}Total number of households -Rural (Source: Census 2011){p_end}
 
 {synopt:{opt Source Organization}}{browse "http://data.gov.in/catalog/households-availing-banking-services-and-number-households-having-each-specified-assets"}{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.FIN.HH.RURL}
-{synopt:{bf:{help wbopendata_sourceid##IN.FIN.HH.RURL:IN.FIN.HH.RURL} - Total number of households -Rural}}
+{synopt:{bf:{help wbopendata_sourceid##IN.FIN.HH.RURL:IN.FIN.HH.RURL} - Total number of households}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Total number of households -Rural (Source: Census 2011){p_end}
+{synopt:{opt Source Notes}}Total number of households (Source: Census 2011){p_end}
 
 {synopt:{opt Source Organization}}{browse "http://data.gov.in/catalog/households-availing-banking-services-and-number-households-having-each-specified-assets"}{p_end}
 
@@ -979,14 +989,14 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Total number of households - Urban (Source: Census 2011){p_end}
+{synopt:{opt Source Notes}}Average Population Per Bank Office (In Thousands){p_end}
 
-{synopt:{opt Source Organization}}{browse "http://data.gov.in/catalog/households-availing-banking-services-and-number-households-having-each-specified-assets"}{p_end}
+{synopt:{opt Source Organization}}{browse "http://www.rbi.org.in/scripts/PublicationsView.aspx?id=12662"}{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.FIN.POP.PERBANK}
-{synopt:{bf:{help wbopendata_sourceid##IN.FIN.POP.PERBANK:IN.FIN.POP.PERBANK} - Average Population Per Bank Office (In Thousands)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.FIN.POP.PERBANK:IN.FIN.POP.PERBANK} - Auxiliary nursing midwives}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1003,9 +1013,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Auxiliary Nurse Midwives have some training in secondary school. A period of on-thejob training may be included, and sometimes formalised in apprenticeships. Like an auxiliary nurse, an auxiliary nurse midwife has basic nursing skills and no training in nursing decisionmaking. Auxiliary nurse midwives assist in the provision of maternal and newborn health care, particularly during childbirth but also in the prenatal and postpartum periods. They possess some of the competencies in midwifery but are not fully qualified as midwives. (Source WHO cadres in maternal and newborn health){p_end}
+{synopt:{opt Source Notes}}Structure for the Rural health Infastucture consists of 4 levels -- District Hospitals (DH), Community Health Centers (CHC), Primary Health Centers (PHC), and Sub-Centers (SC). The number of CHCs efer to public hospitals.  The number of CHCs  refer to CHCs under the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM) (see original source){p_end}
 
-{synopt:{opt Source Organization}}Indian Nursing Council, Pharmacy Council of India.{p_end}
+{synopt:{opt Source Organization}}Ministry of Health and Family Welfare, India.{p_end}
 
 
 {synoptline}
@@ -1015,7 +1025,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Structure for the Rural health Infastucture consists of 4 levels -- District Hospitals (DH), Community Health Centers (CHC), Primary Health Centers (PHC), and Sub-Centers (SC). The number of CHCs efer to public hospitals.  The number of CHCs  refer to CHCs under the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM) (see original source){p_end}
+{synopt:{opt Source Notes}}Structure for the Rural health Infastucture consists of 4 levels -- District Hospitals (DH), Community Health Centers (CHC), Primary Health Centers (PHC), and Sub-Centers (SC). The number of hospitals refer to public facilities under the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM) (see original source){p_end}
 
 {synopt:{opt Source Organization}}Ministry of Health and Family Welfare, India.{p_end}
 
@@ -1051,7 +1061,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Health infrastructure indicator  -- Number of beds in Government Hospitals (public) per 100,000 population{p_end}
+{synopt:{opt Source Notes}}Health infrastructure indicator  -- Number of beds in Government Hospitals{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Health and Family Welfare, India.{p_end}
 
@@ -1087,7 +1097,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Health infrastructure indicator  - Number of government hospitals (public) per 100,000 population{p_end}
+{synopt:{opt Source Notes}}State/UT-wise HIV/AIDS Related Death Estimates with Uncertainty Bounds{p_end}
 
 {synopt:{opt Source Organization}}Source: DATA.GOV.IN under Ministry of Health and Family Welfare, Department of AIDS Control, India{p_end}
 
@@ -1100,6 +1110,18 @@
 
 
 {synopt:{opt Source Notes}}State/UT-wise HIV/AIDS Related Death Estimates with Uncertainty Bounds{p_end}
+
+{synopt:{opt Source Organization}}Source: DATA.GOV.IN under Ministry of Health and Family Welfare, Department of AIDS Control, India{p_end}
+
+
+{synoptline}
+{marker sourceid_IN.HLTH.HIVINFECTION.EST}
+{synopt:{bf:{help wbopendata_sourceid##IN.HLTH.HIVINFECTION.EST:IN.HLTH.HIVINFECTION.EST} - HIV Infection Estimates}}
+
+{synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
+
+
+{synopt:{opt Source Notes}}State/UT-wise Annual New HIV Infection among Adults (15+ Years) With Uncertainty Bounds{p_end}
 
 {synopt:{opt Source Organization}}Source: DATA.GOV.IN under Ministry of Health and Family Welfare, Department of AIDS Control, India{p_end}
 
@@ -1135,9 +1157,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Reported cases of Death due to Malaria{p_end}
+{synopt:{opt Source Notes}}Structure for the Rural health Infastucture consists of 4 levels -- District Hospitals (DH), Community Health Centers (CHC), Primary Health Centers (PHC), and Sub-Centers (SC). The number of Sub-Centers (SCs) refers to public facilities.  The number of Sub-Centers (SCs) refer to public facilities under the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM) (see original source){p_end}
 
-{synopt:{opt Source Organization}}Source: Central Bureau of  Health Intelligence,  Ministry of Health &amp; Family Welfare, India{p_end}
+{synopt:{opt Source Organization}}Ministry of Health and Family Welfare, India.{p_end}
 
 
 {synoptline}
@@ -1147,9 +1169,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}The labor force participation rate is the percentage of working-age persons in an economy who are employed, or are unemployed but looking for a job. Typically working-age persons is defined as people between the ages of 16-59.{p_end}
+{synopt:{opt Source Notes}}Structure for the Rural health Infastucture consists of 4 levels -- District Hospitals (DH), Community Health Centers (CHC), Primary Health Centers (PHC), and Sub-Centers (SC). The number of Sub-Centers (SCs) refers to public facilities.  The number of Sub-Centers (SCs) refer to public facilities under the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM) (see original source){p_end}
 
-{synopt:{opt Source Organization}}Source: NSS Report NO:531:Employment and Unemployment Situtation in India, July-2007- June 2008, statement no:10.1, Chapter 3{p_end}
+{synopt:{opt Source Organization}}Ministry of Health and Family Welfare, India.{p_end}
 
 
 {synoptline}
@@ -1166,7 +1188,7 @@
 
 {synoptline}
 {marker sourceid_IN.IS.RRS.FRGT.LEAD}
-{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.FRGT.LEAD:IN.IS.RRS.FRGT.LEAD} - Freight Traffic (revenue earning) - Lead (Average no. of KMs per tonne)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.FRGT.LEAD:IN.IS.RRS.FRGT.LEAD} - Average Freight Rate per Tonne-KM (in Paise, for all commodities)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1202,7 +1224,7 @@
 
 {synoptline}
 {marker sourceid_IN.IS.RRS.FRGT.SPEED}
-{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.FRGT.SPEED:IN.IS.RRS.FRGT.SPEED} - Speed of Freight Trains (KMs/hour)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.FRGT.SPEED:IN.IS.RRS.FRGT.SPEED} - Freight Traffic - Tonnes originating (Millions)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1274,7 +1296,7 @@
 
 {synoptline}
 {marker sourceid_IN.IS.RRS.PASG.KM.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.PASG.KM.TOTL:IN.IS.RRS.PASG.KM.TOTL} - Running Track Kilometres}}
+{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.PASG.KM.TOTL:IN.IS.RRS.PASG.KM.TOTL} - Total Passenger-Kilometers Traffic, in millions}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1334,7 +1356,7 @@
 
 {synoptline}
 {marker sourceid_IN.IS.RRS.WAGN.LEAD}
-{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.WAGN.LEAD:IN.IS.RRS.WAGN.LEAD} - Wagon Usage: Avergae Wagon Lead during run (in Tonnes)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.WAGN.LEAD:IN.IS.RRS.WAGN.LEAD} - Wagon Usage: Net Tonne-KMs/Weagon Day}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1358,7 +1380,7 @@
 
 {synoptline}
 {marker sourceid_IN.IS.RRS.WAGN.USAGE}
-{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.WAGN.USAGE:IN.IS.RRS.WAGN.USAGE} - Wagon Usage (KMs/Wagon Day)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.IS.RRS.WAGN.USAGE:IN.IS.RRS.WAGN.USAGE} - Number of wagons in service (All Gauges)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1454,7 +1476,7 @@
 
 {synoptline}
 {marker sourceid_IN.LABR.LFPR.TOTL.NOTLITRT}
-{synopt:{bf:{help wbopendata_sourceid##IN.LABR.LFPR.TOTL.NOTLITRT:IN.LABR.LFPR.TOTL.NOTLITRT} - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Not Literate}}
+{synopt:{bf:{help wbopendata_sourceid##IN.LABR.LFPR.TOTL.NOTLITRT:IN.LABR.LFPR.TOTL.NOTLITRT} - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Degree + Post Graduate}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1478,7 +1500,7 @@
 
 {synoptline}
 {marker sourceid_IN.LABR.LFPR.TOTL.PRIMRY}
-{synopt:{bf:{help wbopendata_sourceid##IN.LABR.LFPR.TOTL.PRIMRY:IN.LABR.LFPR.TOTL.PRIMRY} - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Secondary}}
+{synopt:{bf:{help wbopendata_sourceid##IN.LABR.LFPR.TOTL.PRIMRY:IN.LABR.LFPR.TOTL.PRIMRY} - LFPR per 1000 for ages 15+ Rural &amp; Urban: Level Literacy upto Primary}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1497,7 +1519,7 @@
 
 {synopt:{opt Source Notes}}The labor force participation rate is the percentage of working-age persons in an economy who are employed, or are unemployed but looking for a job. Typically working-age persons is defined as people between the ages of 16-59.{p_end}
 
-{synopt:{opt Source Organization}}Sources:{p_end}
+{synopt:{opt Source Organization}}Source: NSS Report NO:531:Employment and Unemployment Situtation in India, July-2007- June 2008, statement no:10.1, Chapter 3{p_end}
 
 
 {synoptline}
@@ -1519,14 +1541,14 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Poverty Head Count Ratio is the percentage of the total population living below the poverty line estimated based on population-weighted subgroup estimates (rural and urban) from household surveys.{p_end}
+{synopt:{opt Source Notes}}Poverty Head Count Ratio is the percentage of the rural population living below the poverty line estimated based on population-weighted subgroup estimates (rural and urban) from household surveys.{p_end}
 
 {synopt:{opt Source Organization}}Sources:{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.POV.HCR.EST.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.HCR.EST.TOTL:IN.POV.HCR.EST.TOTL} - Poverty HCR Estimates (%) - Urban}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.HCR.EST.TOTL:IN.POV.HCR.EST.TOTL} - Poverty HCR Estimates (%) - Total}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1550,7 +1572,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.HH.ASSETS.COMP.INTERNET.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.ASSETS.COMP.INTERNET.PCT:IN.POV.HH.ASSETS.COMP.INTERNET.PCT} - Households having computer laptops (w/Internet, %)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.ASSETS.COMP.INTERNET.PCT:IN.POV.HH.ASSETS.COMP.INTERNET.PCT} - Households having computer laptops (w/o Internet, %)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1610,7 +1632,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.HH.ASSETS.NUM}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.ASSETS.NUM:IN.POV.HH.ASSETS.NUM} - Households with telephones (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.ASSETS.NUM:IN.POV.HH.ASSETS.NUM} - Households with assets (Number)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1658,12 +1680,12 @@
 
 {synoptline}
 {marker sourceid_IN.POV.HH.DRKNGWATER.NEAR}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.DRKNGWATER.NEAR:IN.POV.HH.DRKNGWATER.NEAR} - Availability of drinking water source near the premises}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.DRKNGWATER.NEAR:IN.POV.HH.DRKNGWATER.NEAR} - Availability of drinking water source within the premises}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Distribution of households by availability of drinking water sources - near the premises{p_end}
+{synopt:{opt Source Notes}}Distribution of households by availability of drinking water sources - within the premises{p_end}
 
 {synopt:{opt Source Organization}}Source: Databook for DCH December 2013 (Page 330 of 333) - Planning Commission, Government of India{p_end}
 
@@ -1682,7 +1704,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.HH.DRNKNGWATER.RURL.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.DRNKNGWATER.RURL.PCT:IN.POV.HH.DRNKNGWATER.RURL.PCT} - Households Access to Safe Drinking Water - Rural (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.DRNKNGWATER.RURL.PCT:IN.POV.HH.DRNKNGWATER.RURL.PCT} - Households Access to Safe Drinking Water - Total (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1694,7 +1716,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.HH.DRNKNGWATER.TOTL.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.DRNKNGWATER.TOTL.PCT:IN.POV.HH.DRNKNGWATER.TOTL.PCT} - Households Access to Safe Drinking Water - Urban (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.HH.DRNKNGWATER.TOTL.PCT:IN.POV.HH.DRNKNGWATER.TOTL.PCT} - Households Access to Safe Drinking Water - Total (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1742,12 +1764,12 @@
 
 {synoptline}
 {marker sourceid_IN.POV.INF.MORTRATE}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.INF.MORTRATE:IN.POV.INF.MORTRATE} - Under 5 Mortality Rate (Per 1,000)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.INF.MORTRATE:IN.POV.INF.MORTRATE} - Infant Mortality Rate (per 1,000)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Under 5 Mortality Rate per 1000 is the  number of deaths of children less than five years of age per 1000 live births. The rate for a given region is the number of children dying under five years of age, divided by the number of live births during that period, multiplied by 1,000.{p_end}
+{synopt:{opt Source Notes}}Infant Mortality Rate (IMR) per 1000: Infant mortality rate (IMR) is the number of deaths of children less than one year of age per 1000 live births. The rate for a given region is the number of children dying under one year of age, divided by the number of live births during the year, multiplied by 1,000.{p_end}
 
 {synopt:{opt Source Organization}}Source: SRS Bulletin, Registrar General, India, January 2011{p_end}
 
@@ -1783,7 +1805,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of male population age 7 and above who can read and write. For the purposes of census a person aged seven and above, who can both read and write with understanding in any language, is treated as literate. A person, who can only read but cannot write, is not literate.{p_end}
+{synopt:{opt Source Notes}}Percentage of population age 7 and above who can read and write. For the purposes of census a person aged seven and above, who can both read and write with understanding in any language, is treated as literate. A person, who can only read but cannot write, is not literate.{p_end}
 
 {synopt:{opt Source Organization}}Source: Census, Registrar General of India, Ministry of Home Affairs, India{p_end}
 
@@ -1802,7 +1824,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.LIT.RAT.SLUMS.FEMALE.PCT}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.LIT.RAT.SLUMS.FEMALE.PCT:IN.POV.LIT.RAT.SLUMS.FEMALE.PCT} - Literacy Rate in Slums - Male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.LIT.RAT.SLUMS.FEMALE.PCT:IN.POV.LIT.RAT.SLUMS.FEMALE.PCT} - Literacy Rate in Slums-Female (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1838,19 +1860,19 @@
 
 {synoptline}
 {marker sourceid_IN.POV.LIT.RAT.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.LIT.RAT.TOTL:IN.POV.LIT.RAT.TOTL} - Literacy Rate (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.LIT.RAT.TOTL:IN.POV.LIT.RAT.TOTL} - Literacy rate, Urban (%)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population age 7 and above who can read and write. For the purposes of census a person aged seven and above, who can both read and write with understanding in any language, is treated as literate. A person, who can only read but cannot write, is not literate.{p_end}
+{synopt:{opt Source Notes}}Distribution of households by type of latrine facility -  not available within premises{p_end}
 
-{synopt:{opt Source Organization}}Source: Census, Registrar General of India, Ministry of Home Affairs, India{p_end}
+{synopt:{opt Source Organization}}Source: Databook for DCH December 2013 (Page 330 of 333) - Planning Commission, GOI{p_end}
 
 
 {synoptline}
 {marker sourceid_IN.POV.LIT.RAT.URBN}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.LIT.RAT.URBN:IN.POV.LIT.RAT.URBN} - Literacy rate, Urban (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.LIT.RAT.URBN:IN.POV.LIT.RAT.URBN} - Latrine not available within premises}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1867,7 +1889,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Distribution of households by type of latrine facility -  not available within premises{p_end}
+{synopt:{opt Source Notes}}Distribution of households by type of latrine facility -  available within premises{p_end}
 
 {synopt:{opt Source Organization}}Source: Databook for DCH December 2013 (Page 330 of 333) - Planning Commission, GOI{p_end}
 
@@ -1879,9 +1901,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}National Highways: Arterial roads of the country for inter-state and strategic defense movements.{p_end}
+{synopt:{opt Source Notes}}Distribution of households by type of latrine facility -  available within premises{p_end}
 
-{synopt:{opt Source Organization}}Source: Transport Research Wing, Ministry of Road Transport and Highways{p_end}
+{synopt:{opt Source Organization}}Source: Databook for DCH December 2013 (Page 330 of 333) - Planning Commission, GOI{p_end}
 
 
 {synoptline}
@@ -1898,7 +1920,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.MIGRNTS.FEMALE.1TO4YEARS.NUM}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.MIGRNTS.FEMALE.1TO4YEARS.NUM:IN.POV.MIGRNTS.FEMALE.1TO4YEARS.NUM} - Migrants, Female: 5 to 9 years  residence (Number)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.MIGRNTS.FEMALE.1TO4YEARS.NUM:IN.POV.MIGRNTS.FEMALE.1TO4YEARS.NUM} - Migrants, Female 1 to 4 years  residence (Number)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -1982,7 +2004,7 @@
 
 {synoptline}
 {marker sourceid_IN.POV.MIGRNTS.MALE.UNDER1YEAR.NUM}
-{synopt:{bf:{help wbopendata_sourceid##IN.POV.MIGRNTS.MALE.UNDER1YEAR.NUM:IN.POV.MIGRNTS.MALE.UNDER1YEAR.NUM} - Migrants, Total: 1 to 4 years  residence (Number)}}
+{synopt:{bf:{help wbopendata_sourceid##IN.POV.MIGRNTS.MALE.UNDER1YEAR.NUM:IN.POV.MIGRNTS.MALE.UNDER1YEAR.NUM} - Migrants, Male: less than 1 Year  residence (Number)}}
 
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
@@ -2167,7 +2189,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Length of Surfaced Urban Roads (in KMs){p_end}
+{synopt:{opt Source Notes}}Length of Urban Roads (in KMs){p_end}
 
 {synopt:{opt Source Organization}}Source: Transport and Research Wing, Ministry of Road Transport and Highways, India{p_end}
 
@@ -2191,7 +2213,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Length of Surfaced Urban Roads (in KMs){p_end}
+{synopt:{opt Source Notes}}Number of seriously injured in road traffic crashes{p_end}
 
 {synopt:{opt Source Organization}}Source: Ministry of Road Transport and Highways (2011){p_end}
 
@@ -2215,7 +2237,7 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Number of seriously injured in road traffic crashes{p_end}
+{synopt:{opt Source Notes}}Number of road crashes{p_end}
 
 {synopt:{opt Source Organization}}Source: Ministry of Road Transport and Highways (2011){p_end}
 
@@ -2227,9 +2249,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Number of road crashes{p_end}
+{synopt:{opt Source Notes}}Rural roads density is measured in KMs of rural roads in the area (State, District) divided by population in thousands in that area (State, District){p_end}
 
-{synopt:{opt Source Organization}}Source: Ministry of Road Transport and Highways (2011){p_end}
+{synopt:{opt Source Organization}}Source: Transport and Research Wing, Ministry of Road Transport and Highways, India{p_end}
 
 
 {synoptline}
@@ -2251,9 +2273,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Urban roads density is measured in KMs of Urban roads in the area (State, District) divided by population in thousands in that area (State, District){p_end}
+{synopt:{opt Source Notes}}Number of road traffic deaths{p_end}
 
-{synopt:{opt Source Organization}}Source: Transport and Research Wing, Ministry of Road Transport and Highways, India{p_end}
+{synopt:{opt Source Organization}}Source: Ministry of Road Transport and Highways (2011){p_end}
 
 
 {synoptline}
