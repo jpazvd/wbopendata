@@ -1,22 +1,153 @@
-/*******************************************************************************
+********************************************************************************
 *! v 15.2  	8Mar2019               by Joao Pedro Azevedo   
 *	initial commit
+/*******************************************************************************
 
+cd "C:\GitHub_myados\wbopendata\src"
 
+! git checkout dev
 
-_query_indicators , indicator(2.0.cov.Math.pl_3.prv)
+discard
 
+*****************************************************************
 
-
-_query_indicators , maxp(10) page(1)
-
-
-_query_indicators, maxp(200) page(1)
-
-
-
-_query_indicators, maxp(2000) page(1)
+_query_indicators , indicator("2.0.cov.Math.pl_3.prv")
 tab indicatorcode
+list
+
+_query_indicators , indicator("2.0.cov.Math.pl_3.prv") source
+tab indicatorcode
+list
+
+_query_indicators , indicator(BX.GSR.TOTL.CD)
+tab indicatorcode
+list
+
+_query_indicators , indicator(BX.GSR.TOTL.CD) source
+tab indicatorcode
+list
+
+
+*****************************************************************
+* Multiple indicators per_page does not seem to work
+* skip patters are different due to different numbers of topics
+
+_query_indicators , per_page(10) page(1)
+tab indicatorcode
+
+
+_query_indicators , per_page(10) page(2)
+tab indicatorcode
+
+
+_query_indicators , per_page(10) page(100)
+tab indicatorcode
+
+
+_query_indicators , per_page(20) page(1)
+tab indicatorcode
+
+
+_query_indicators, per_page(20) page(1)
+tab indicatorcode
+
+_query_indicators, per_page(20) page(2)
+tab indicatorcode
+
+_query_indicators, per_page(70) 
+tab indicatorcode
+
+
+_query_indicators, per_page(200) page(1)
+tab indicatorcode
+
+_query_indicators, per_page(2000) 
+tab indicatorcode
+drop if indicatorcode == "."
+bysort indicatorcode : gen dups = _n
+bysort indicatorcode : gen tot = _N
+
+*************************************************
+
+_query_indicators, per_page(1) cmax(10)
+tab indicatorcode
+
+_query_indicators, per_page(1) page(647) cmax(653) noi nopreserve
+tab indicatorcode
+
+/* break */
+set more off
+_query_indicators, per_page(1) page(7687) cmax(16638) nopreserve using(tmp3tmp.csv)
+tab indicatorcode
+
+/* break */
+_query_indicators, per_page(1) page(7680) cmax(7693) noi nopreserve using(tmp.csv)
+tab indicatorcode
+
+
+_query_indicators, per_page(1) page(1726) cmax(1728) noi nopreserve source
+tab indicatorcode
+
+set trace on
+_query_indicators, per_page(1) page(1728) cmax(1728) noi nopreserve verbose
+
+
+
+_query_indicators, per_page(1) cmax(100) 
+tab indicatorcode
+
+
+clear
+set more off
+_query_indicators, per_page(1) cmax(16638) using(tmp2tmp)
+
+set more off
+_query_indicators, per_page(1) cmax(700)
+
+
+set trace on
+set tracedepth 1
+
+
+
+*****************************************************
+* Examples of multiple topics in a single indicator
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		parameter( indicator?id name topic?id ) 
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/BX.GSR.TOTL.CD") ///
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
+		verbose 
+return list
+
+*****************************************************
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) verbose
+return list
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/6.1_LEG.CA") ///
+		parameter( indicator?id name topic?id ) 
+return list
+
+
+_query_indicators, indicator("6.1_LEG.CA") nopreserve
+
+_query_indicators, indicator("6.0.GDPpc_constant") nopreserve
+
+
+
+_query_indicators, indicator("BX.GSR.TOTL.CD")
+tab indicatorcode
+
+_query_indicators, indicator(IN.HLTH.HIVDEATH.EST) nopreserve
+
+_api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.EST") ///
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization ) ///
+		verbose 
+return list
 
 
 *******************************************************************************/
@@ -28,42 +159,68 @@ program define _query_indicators , rclass
 	 syntax                                	///
                  ,                         	///
 							[				///
-                        per_page(int 1)		///
-						page(int 1) 		///
+                        per_page(int -1)	///
+						page(int -1) 		///
 						indicator(string)	///
-						maxp(int -1) 		///
-						pages(int -1)		///
+						cmax(int 1)			///
+						NOIsily				///
+						NOPReserve			///
+						verbose				///
+						using(string)		///
+						source 				///
 							]
 	
 	
 	
-	if ("`indicator'" != "") {
-		local query1 "http://api.worldbank.org/v2/indicators/`indicator'"
-		local pages = 1
-		local maxp = 1
-		local linequery "  query("`query1'")  "
-	}
-	else {
-		local linep `" page(\`p')  "'
-	}
-		
-	
 	
 	*preserve
 
-	************************************************************************/
-	/* Identify the total number of indicators	(default value all)        */				
-	
-	if (`maxp' == -1) & ("`indicator'" == "") {
-	
-		qui _api_read ,  ///
-			nopreserve ///
-			single ///
-			parameter(page pages total) ///
+quietly {
 
-		local maxp = real("`r(total1)'")
+	if ("`source'" == "") {
+		local sourceHeader 	""
+		local sourceVar 	""
+		local sourcePar 	""
+		local sl			""
+	}
+	if ("`source'" != "") {
+		local sourceHeader 		"#SourceID#SourceNote#SourceOrganization"
+		local sourceVar 		"\`source'#\`sourceNote'#\`sourceOrg'#"
+		local sourcePar			"source?id sourceNote sourceOrganization"
+		local sl				" 5 6 7 "
+	}
+	
+	************************************************************************/
+	/* if specific indicator is provided						           */				
+
+	if ("`indicator'" != "") {
+		local query1 `"http://api.worldbank.org/v2/indicators/`indicator'"'
+		local pages = 1
+		local maxpp = 1
+		local min = 1
+		local max = 1
+		local linequery "  query(`"`query1'"')  "
+	}
+	else {
+		local linepp	" per_page(\`maxpp')  "
+		local linep 	" page(\`p')  "
+	}
 		
-		local linemaxp " per_page(`maxp') /// "
+	*****************************************************************************/
+	/* Identify the total number of indicators available (default value all)	*/
+	
+	if (`per_page' == -1) & ("`indicator'" == "") {
+	
+		_api_read ,  ///
+			single ///
+			parameter(page pages total) nopreserve 
+
+		local maxpp = real("`r(total1)'")
+		local page	= 1
+		local min = 1
+		local max = 1
+		
+		`noi' di "Total Number: `maxpp'"
 
 	}
 
@@ -71,99 +228,173 @@ program define _query_indicators , rclass
 	/* Identify the total number of pages as per the total number of indicators	*/				
 	/* default value : single page extraction 	*/
 
-	if (`pages' == -1) & ("`indicator'" == "")  {
+	if (`per_page' == -1) & ("`indicator'" == "")  {
 	
-		local maxp 2000
-	
-		qui _api_read ,  ///
-			nopreserve ///
+		`noisily' _api_read ,  ///
 			single ///
-			per_page(`maxp') ///
-			parameter(page pages total)
+			per_page(`maxpp') ///
+			parameter(page pages total) nopreserve
 
 		local pages = r(pages1)
+		local maxpp = `per_page' 
 
 	}
 		
-	local maxk = `maxp'-1
+	if (`per_page' != -1) & ("`indicator'" == "")  {
+	
+		`noisily' _api_read ,  ///
+			single ///
+			per_page(`per_page') ///
+			parameter(page pages total) nopreserve
+
+		local pages = r(pages1)
+		local maxpp	= `per_page' 
+
+	}
+	
+	
+	************************************************************************
+
+	local maxk = `maxpp'-1
 
 	************************************************************************
 
-	noi di "`maxp'"
-	noi di "`pages'"
-
+	if (`page' == -1) & ("`indicator'" == "")  {
+		local min = 1
+		local pages = `pages'
+	}
+	if (`page' != -1) & ("`indicator'" == "")  {
+		local min = `page'
+		local pages = `page'
+	}
+	
 	************************************************************************
 
-
+	if (`cmax' != .) {
+		local pages = `cmax'
+	}	
+	
+	if ("`using'" == "") {
 		tempfile tmpindicatorlist
+		local file `tmpindicatorlist'
+	}
+	if ("`using'" != "") {
+		local file `using'
+	}
+	
 
-		tempname out
+	tempname out
 
-		file open `out' using `tmpindicatorlist' , text write replace
+	file open `out' using `file' , text write replace
 
-		file write `out' " indicatorcode#indicatorname#topiccode#topicname" _n
+	file write `out'  `"indicatorcode#indicatorname#topiccode1#topicname1#topiccode2#topicname2#topiccode3#topicname3#topiccode4#topicname4#topiccode5#topicname5`sourceHeader'"' _n
 			
-		forvalues p = 1(1)`pages' {
+	forvalues p = `min'(1)`pages' {
+	
+		noi di "`p'"
 
-			_api_read ,  ///
-				`linep' `linequery' ///
-				list ///
-				nopreserve ///
-				parameter( indicator?id name topic?id ) ///
-				`linemaxp' 
-				
-
-				
-
-			forvalues pp = 0(1)`maxk' {
+		`noisily' _api_read ,  ///
+			`linep' `linepp'  `linequery' ///
+			list nopreserve ///
+			parameter( indicator?id name topic?id `sourcePar' ) `verbose' 
+	    
+		local commandline `" _api_read ,  `linep' `linepp'  `linequery' list parameter( indicator?id name topic?id `sourcePar') `verbose' "'
+		
+		`noisily' di ""
+		`noisily' di in smcl `"{p 6 16 2} `commandline' {p_end}"' 
+		`noisily' di ""
+	
+		forvalues pp = 0(1)`maxk' {
 			
-				qui foreach jj in 2 3 9 {
+			qui foreach jj in 2 3 `sl' 9 10 11 12 13 {
 						
+				local kk = `jj'+(10*`pp')
 					
-					local kk = `jj'+(10*`pp')
+				local `jj' `kk'
 					
-					local `jj' `kk'
+			}
+				
+			local indicator 		= trim(r(indicator_id`2'))
+			local name 				= trim(r(name`3'))
+			
+			if ("`source'" != "") {
+				local source			= trim(r(source_id`5'))
+				local sourceNote		= trim(r(sourceNote`6'))
+				local sourceOrg			= trim(r(sourceOrganization`7'))
+			}
+			
+			cap: local topic1 			= trim(r(topic_id`9'))
+			if _rc==0 { 
+				local kk = 1 
+			}
+			cap: local topic2 			= trim(r(topic_id`10'))
+			if _rc==0 { 
+				local kk = 1 + `kk' 
+			}
+			cap: local topic3 			= trim(r(topic_id`11'))
+			if _rc==0 { 
+				local kk = 1 + `kk' 
+			}
+			cap: local topic4 			= trim(r(topic_id`12'))
+			if _rc==0 { 
+				local kk = 1 + `kk' 
+			}
+			cap: local topic5 			= trim(r(topic_id`13'))
+			if _rc==0 { 
+				local kk = 1 + `kk' 
+			}
+
+			forvalues t = 1(1)`kk' {
+				
+				local topiccode`t'        	= trim(word("`topic`t''",1))
 					
+				if length("`topiccode`t''")<=2 {
+					local topicname`t' 			= subinstr("`topic`t''","`topiccode`t''","",.) 				
 				}
 				
-				local indicator 		= r(indicator_id`2')
-				local name 				= r(name`3')
-				local topic 			= r(topic_id`9')
-
-					
-				foreach var in	 indicator name topic {
+				foreach var in	 topiccode`t' topicname`t' {
 
 					local `var' = trim("``var''")
+						
+				}
 					
-				}
-				
-				local topiccode        	= word("`topic'",1)
-				
-				if length("`topiccode'")==2 {
-					local topicname 			= subinstr("`topic'","`topiccode'","",.) 				
-				}
+			}
+			
 
-				di "`p' - `pp'"
-				
-				file write `out' " `indicator'#`name'#`topiccode'#`topicname' " _n
-				
-				local indicator 		""
-				local name 				""
-				local topic_id 			""
-				local topiccode 		""
-				local topicname 		""
-				
+			file write `out' `"`indicator'#`name'#"' 
+
+			forvalues t = 1(1)5 {
+				file write `out' `"`topiccode`t''#`topicname`t''#"' 
+			}
+			
+			file write `out' `"`sourceVar'`p'#`pp'#`commandline' "' _n 
+
+			
+			local indicator 			""
+			local name 					""
+			if ("`source'" != "") {
+				cap: local source		""
+				cap: local sourceNote	""
+				cap: local sourceOrg	""
+			}
+			local topic_id 				""
+			forvalues t = 1(1)5 {
+				local topic`t'			""
+				local topicname`t' 		""
+				local topiccode`t'		""
 			}
 
 		}
+
+	}
 		
-		file close `out'
+	file close `out'
 
-		*******************************************************************************
+	*******************************************************************************
 
-		insheet using `tmpindicatorlist' , delimiter("#") names clear 
+	insheet using `file' , delimiter("#") names clear 
 
-		list
+	*list
 		
 		/*
 		
@@ -264,6 +495,13 @@ program define _query_indicators , rclass
 
 *	restore
 
+	if ("`nopreserve'" == "") {
+		return add
+	}
+	
+
+}
+	
 end
 
 

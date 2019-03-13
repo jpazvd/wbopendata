@@ -1,20 +1,14 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
-*	New Features
-*		new error categories to faciliate debuging
-*		error 23: series no longer supported moved to archive
-*		country attribute table fully revised and linked to api
-*		update check, update query, and update
-*		auto refresh indicators
-*		revised _wbopendata.ado 		
-*		update query; update check; and update options are included
-* 		country attributes revised
-*		update countrymetadata option created
-*		country metadata documentation in help file revised
-*		break code when no metadata is available is now an option
-*   Revisions
-*       over 16,000 indicators
+*!  v 15.2	    11Mar2019               by Joao Pedro Azevedo 
+* created and tested new functions, namely:
+  * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
+  * _indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:
+    * dialogue indicator list
+    * sthlp indicator list by Source and Topic
+    * sthlp indicator metadata by Source and Topic
+ * _website.ado : screens a text file and converts and http or www "word" to a SMCL web compatible code.
+ * updated help file to allow for the search of indicators by Source and Topics
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -242,6 +236,23 @@ end
 
 
 **********************************************************************************
+*  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
+*	New Features
+*		new error categories to faciliate debuging
+*		error 23: series no longer supported moved to archive
+*		country attribute table fully revised and linked to api
+*		update check, update query, and update
+*		auto refresh indicators
+*		revised _wbopendata.ado 		
+*		update query; update check; and update options are included
+* 		country attributes revised
+*		update countrymetadata option created
+*		country metadata documentation in help file revised
+*		break code when no metadata is available is now an option
+*   Revisions
+*       over 16,000 indicators
+*  v 15.0.1		8Fev2019				by Joao Pedro Azevedo
+*  v 15.0	    2Fev2019               	by Joao Pedro Azevedo 
 *  v 14.3 	2Feb2019               by Joao Pedro Azevedo 
 * 	Bug Fixed
 *		_wbopendata_update.ado revised; out.txt file no longer created
