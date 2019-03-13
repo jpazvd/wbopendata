@@ -21,10 +21,14 @@ program define _api_read_indicators, rclass
 
 	version 9
 	
-    syntax                                         ///
-                 ,                                 ///
-                         UPDATE		               ///
-						 [ PRESERVEOUT ]			   
+    syntax                                         	///
+                 ,                                 	///
+                         UPDATE		               	///
+							[						/// 
+							PRESERVEOUT 			///
+							FILE1(string)			///
+							FILE2(string)			///
+							]			   
                  
 
 	
@@ -71,7 +75,7 @@ program define _api_read_indicators, rclass
 		/* Preapre Indicator list (TXT)	  */
 		************************************
 	
-		tempfile in out source out3 hlp1 hlp2 indicator help file1 file2
+		tempfile in out source out3 hlp1 hlp2 indicator help file1tmp file2tmp
 		tempname in2 in3 out2 in_tmp saving source1 source2 source3 source4 hlp hlp01 hlp02
 			   
 		local skipnumber = 1
@@ -82,17 +86,26 @@ program define _api_read_indicators, rclass
 
 		if ("`preserveout'" == "") {
 			file open `out2'    using 	`out'     		, write text replace
-			file open `source3' using 	`file1'  		, write text replace
-			file open `source4' using 	`file2'  		, write text replace
+			file open `source3' using 	`file1tmp' 		, write text replace
+			file open `source4' using 	`file2tmp' 		, write text replace
 		}
 		else {
-			file open `out2'    using 	out.txt    		, write text replace
-			file open `source3' using 	file1.txt  		, write text replace
-			file open `source4' using 	file2.txt  		, write text replace
+			*file open `out2'    using 	out.txt    		, write text replace
+			if ("`file1'"=="") {
+				local file1 "file1.txt"
+			}
+			if ("`file2'"=="") {
+				local file2 "file2.txt"
+			}
+
+			file open `source3' using 	`file1tmp' 		, write text replace
+			
+			file open `source4' using 	`file2tmp'  	, write text replace
+		
 		}
 		
-		file open `source2' using 	`indicator'  		, write text replace
-		file open `hlp01'	using 	`hlp1'				, write text replace
+		*file open `source2' using 	`indicator'  		, write text replace
+		*file open `hlp01'	using 	`hlp1'				, write text replace
 		
 		file write `source3' "indicatorcode#type#valuelabel# " _n
 		
@@ -107,7 +120,7 @@ program define _api_read_indicators, rclass
 					  file read ``inputfile'' line
 					  if(`l'>`skipnumber') {
 						local line = subinstr(`"`line'"', `"""', "", .)
-						file write `out2' `"`line'"' _n
+						*file write `out2' `"`line'"' _n
 						if ("`line'" != "") {
 							local line = subinstr(`"`line'"', `"""', "", .)
 							
@@ -116,7 +129,7 @@ program define _api_read_indicators, rclass
 								local namevar = trim(subinstr("`namevar'","<wb:indicator id=","",.))
 								local namevar = subinstr("`namevar'",">"," - ",.)
 								local namevar2 = subinstr("`namevar'"," - ","",.)
-								file write `source2' "`namevar'" 
+								*file write `source2' "`namevar'" 
 								*file write `source3' "`namevar2' # # # " _n
 							}
 							
@@ -125,8 +138,8 @@ program define _api_read_indicators, rclass
 								local labvar = trim(subinstr("`labvar'","<wb:name>","",.))
 								local labvar = subinstr("`labvar'","</wb:name>","",.)
 								local labvar = trim(substr("`labvar'",1,200))
-								file write `source2' "`labvar'" _n
-								file write `hlp01' "{synopt:{opt `namevar2'}} `labvar'{p_end}" 	_n
+								*file write `source2' "`labvar'" _n
+								*file write `hlp01' "{synopt:{opt `namevar2'}} `labvar'{p_end}" 	_n
 								file write `source3' "`namevar2' # indicatorname # `labvar' # " _n
 							}
 						
@@ -171,31 +184,38 @@ program define _api_read_indicators, rclass
 		
 		file close `in2'
 		file close `in3'
-		file close `out2'
+*		file close `out2'
 		
-		file close `source2'
+*		file close `source2'
 		file close `source3'
 		file close `source4'
 
-		file close `hlp01'
+*		file close `hlp01'
 		
-		************************************
-		/* Final files			  */
-		************************************
-
-		
-		************************************
-		/* Final files			  */
-		************************************
-
-		
-	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Update...COMPLETED!}"
-	noi di in smcl in g ""
-
 	
 	*====================================================================================
+	
+	cap: findfile `file1' , `path'
+			
+	if _rc == 0 {
+		copy `file1tmp'  `r(fn)' , replace
+	}
+	else {
+		copy `file1tmp' `file1'
+	}
+	
+	cap: findfile `file2' , `path'
+			
+	if _rc == 0 {
+		copy `file2tmp'  `r(fn)' , replace
+	}
+	else {
+		copy `file2tmp' `file2'
+	}
 
+	return local file1 "`file1'"
+	return local file2 "`file2'"
+	
 	}
 
 end
