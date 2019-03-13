@@ -1,8 +1,9 @@
 {smcl}
+{right:(as of 13mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Source (as of 11mar2019)}
+{title:Source}
 
 {marker toc}
 {p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}}){p_end}
@@ -26,6 +27,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -57,19 +59,18 @@
 {p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators27##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{synopthdr:27 Global Economic Prospects}
+{syntab:{title:{bf:27 Global Economic Prospects}}}
 {synoptline}
+{marker sourceid_NYGDPMKTPKDZ}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}}
 
-{dlgtab: {help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}{marker sourceid_NYGDPMKTPKDZ}
+{synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
 
-{synopt:{opt Source}}27 Global Economic Prospects.{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.{p_end}
 
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources..{p_end}
-
-{synopt:{opt Source Organization}}The World Bank.{p_end}
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
 
 
 
+{right:(as of 13mar2019)}

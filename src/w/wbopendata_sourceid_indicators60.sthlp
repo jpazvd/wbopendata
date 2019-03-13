@@ -1,8 +1,9 @@
 {smcl}
+{right:(as of 13mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Source (as of 11mar2019)}
+{title:Source}
 
 {marker toc}
 {p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}}){p_end}
@@ -26,6 +27,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -57,19 +59,30 @@
 {p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators60##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{synopthdr:60 Economic Fitness}
+{syntab:{title:{bf:60 Economic Fitness}}}
 {synoptline}
+{marker sourceid_EF.EFM.OVRL.XD}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness Ranking (1 = high, 149 = low)}}
 
-{dlgtab: {help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness Metric}{marker sourceid_EF.EFM.OVRL.XD}
-
-
-{synopt:{opt Source}}60 Economic Fitness.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth.{p_end}
+{synopt:{opt Source}}60 Economic Fitness{p_end}
 
 
+{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
+
+
+{synoptline}
+{marker sourceid_EF.EFM.RANK.XD}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - Economic Fitness Ranking (1 = high, 149 = low)}}
+
+{synopt:{opt Source}}60 Economic Fitness{p_end}
+
+
+{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
+
+
+
+{right:(as of 13mar2019)}

@@ -1,8 +1,9 @@
 {smcl}
+{right:(as of 13mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Source (as of 11mar2019)}
+{title:Source}
 
 {marker toc}
 {p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}}){p_end}
@@ -26,6 +27,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -57,32 +59,66 @@
 {p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators06##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{synopthdr:06 International Debt Statistics}
+{syntab:{title:{bf:06 International Debt Statistics}}}
 {synoptline}
+{marker sourceid_BX.GRT.EXTA.CD.DT}
+{synopt:{bf:{help wbopendata_sourceid##BX.GRT.EXTA.CD.DT:BX.GRT.EXTA.CD.DT} - Grants, excluding technical cooperation (current US$)}}
 
-{dlgtab: {help wbopendata_sourceid##BX.GRT.TECH.CD.DT:BX.GRT.TECH.CD.DT} - Technical cooperation grants (current US$)}{marker sourceid_BX.GRT.TECH.CD.DT}
-
-
-{synopt:{opt Source}}06 International Debt Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without reference to any specific investment projects; and investment-related technical cooperation grants, which are provided to strengthen the capacity to execute specific investment projects. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD..{p_end}
+{synopt:{opt Source}}06 International Debt Statistics{p_end}
 
 
+{synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
 
-{dlgtab: {help wbopendata_sourceid##BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT} - Portfolio investment, equity (DRS, current US$)}{marker sourceid_BX.PEF.TOTL.CD.DT}
-
-
-{synopt:{opt Source}}06 International Debt Statistics.{p_end}
-
-{synopt:{opt Topics}}.{p_end}
-
-{synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreign investors. Data are in current U.S. dollars..{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, and World Bank, International Debt Statistics..{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
 
 
+{synoptline}
+{marker sourceid_BX.GRT.TECH.CD.DT}
+{synopt:{bf:{help wbopendata_sourceid##BX.GRT.TECH.CD.DT:BX.GRT.TECH.CD.DT} - Technical cooperation grants (current US$)}}
 
+{synopt:{opt Source}}06 International Debt Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without reference to any specific investment projects; and investment-related technical cooperation grants, which are provided to strengthen the capacity to execute specific investment projects. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+
+
+{synoptline}
+{marker sourceid_BX.KLT.DINV.CD}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)}}
+
+{synopt:{opt Source}}06 International Debt Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a resident in one economy having control or a significant degree of influence on the management of an enterprise that is resident in another economy. Ownership of 10 percent or more of the ordinary shares of voting stock is the criterion for determining the existence of a direct investment relationship. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+
+
+{synoptline}
+{marker sourceid_BX.KLT.DINV.CD.DT}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD.DT:BX.KLT.DINV.CD.DT} - Foreign direct investment, net inflows in reporting economy (DRS, current US$)}}
+
+{synopt:{opt Source}}06 International Debt Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a resident in one economy having control or a significant degree of influence on the management of an enterprise that is resident in another economy. Ownership of 10 percent or more of the ordinary shares of voting stock is the criterion for determining the existence of a direct investment relationship. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+
+
+{synoptline}
+{marker sourceid_BX.PEF.TOTL.CD.DT}
+{synopt:{bf:{help wbopendata_sourceid##BX.PEF.TOTL.CD.DT:BX.PEF.TOTL.CD.DT} - Portfolio investment, equity (DRS, current US$)}}
+
+{synopt:{opt Source}}06 International Debt Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreign investors. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, and World Bank, International Debt Statistics.{p_end}
+
+
+
+{right:(as of 13mar2019)}

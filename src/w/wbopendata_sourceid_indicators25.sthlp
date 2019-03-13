@@ -55,57 +55,21 @@
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
 
 
-{marker sourceid_61}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators61##:TOC}}){p_end}
+{marker sourceid_25}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators25##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:61 PPPs Regulatory Quality}}}
+{syntab:{title:{bf:25 Jobs}}}
 {synoptline}
-{marker sourceid_IQ.ICR.RISK.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IQ.ICR.RISK.XQ:IQ.ICR.RISK.XQ} - ICRG composite risk rating (0=highest risk to 100=lowest)}}
+{marker sourceid_SL.EMP.OWAC.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - Own-account workers, total (% of total employment)}}
 
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
-
-
-{synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the period and activities that inform the decision of whether to launch a PPP procurement process. It is determined by assessing whether the identification of a prospective PPP project happens within the broader context of public investments, consistent with other government priorities. It also examines the different types of assessments and the methodologies used to set the rules for these assessments. Furthermore, it considers other activities undertaken before publishing the public tender notice, such as preparing the draft contract and tender documents and obtaining land and permits, that lead to the procurement of the PPP project.{p_end}
-
-{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/){p_end}
+{synopt:{opt Source}}25 Jobs{p_end}
 
 
-{synoptline}
-{marker sourceid_IQ.PPN.REGQ.S0}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)}}
+{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced. Self-employed workers include four sub-categories of employers, own-account workers, members of producers' cooperatives, and contributing family workers.{p_end}
 
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
-
-
-{synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the selection of a private partner who takes on the responsibility of developing the PPP project. It focuses on fairness, neutrality, and transparency of the process, as well as provisions assuring competition between the potential private partners.{p_end}
-
-{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/){p_end}
-
-
-{synoptline}
-{marker sourceid_IQ.PPN.REGQ.S1}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S1:IQ.PPN.REGQ.S1} - Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)}}
-
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
-
-
-{synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions regarding PPP contract modification and renegotiation, dispute resolution, lender step-in rights, and termination of contracts.{p_end}
-
-{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/){p_end}
-
-
-{synoptline}
-{marker sourceid_IQ.PPN.REGQ.S2}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S2:IQ.PPN.REGQ.S2} - Assessment of country’s adherence to the best regulatory practices at the management stage of PPP project (scale 1-100)}}
-
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
-
-
-{synopt:{opt Source Notes}}The indicator provides assessment of whether a specific process is in place to evaluate the feasibility of the unsolicited proposals (USPs). It evaluates USPs alignment with other government priorities; whether specific compensation mechanisms are in place for USPs; and whether a competitive process is required to select the private partner for the PPP project. Only the countries where USPs are allowed and take place have received scores. No scores have been given to those countries where the regulatory framework specifically prohibits the submission of USPs or where the USPs do not happen in practice.{p_end}
-
-{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/){p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
 
 
