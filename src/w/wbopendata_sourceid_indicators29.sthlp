@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -62,7 +60,7 @@
 {syntab:{title:{bf:29 The Atlas of Social Protection: Indicators of Resilience and Equity}}}
 {synoptline}
 {marker sourceid_AG.CRP.FNO.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Share of employed - working age}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Producer Price for Fonio (per tonne, current LCU)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -73,44 +71,8 @@
 
 
 {synoptline}
-{marker sourceid_NV.AGR.TOTL.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.ZG:NV.AGR.TOTL.ZG} - Real agricultural GDP growth rates (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker sourceid_PE.USG.LNDN}
-{synopt:{bf:{help wbopendata_sourceid##PE.USG.LNDN:PE.USG.LNDN} - London gold price (US$ per ounce)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}NULL{p_end}
-
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
-
-
-{synoptline}
-{marker sourceid_PRJ.POP.1519.NED.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.1519.NED.MF:PRJ.POP.1519.NED.MF} - Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}NULL{p_end}
-
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.SLE.12}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.12:UIS.SLE.12} - School life expectancy, primary and lower secondary, both sexes (years)}}
+{marker sourceid_UIS.XSPENDP.23.FDPUB.FNCAP}
+{synopt:{bf:{help wbopendata_sourceid##UIS.XSPENDP.23.FDPUB.FNCAP:UIS.XSPENDP.23.FDPUB.FNCAP} - Capital expenditure as % of total expenditure in secondary public institutions (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1370,7 +1332,7 @@
 
 {synoptline}
 {marker sourceid_ccx_povchi_40_fem}
-{synopt:{bf:{help wbopendata_sourceid##ccx_povchi_40_fem:ccx_povchi_40_fem} - Poverty headcount of children (below bottom 40%) - male}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_povchi_40_fem:ccx_povchi_40_fem} - Poverty headcount of children (below bottom 40%) - female}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1394,7 +1356,7 @@
 
 {synoptline}
 {marker sourceid_ccx_povchi_40_rur}
-{synopt:{bf:{help wbopendata_sourceid##ccx_povchi_40_rur:ccx_povchi_40_rur} - Poverty headcount of children (below bottom 40%)}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_povchi_40_rur:ccx_povchi_40_rur} - Poverty headcount of children (below bottom 40%) - rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1430,7 +1392,7 @@
 
 {synoptline}
 {marker sourceid_ccx_poveld_40_fem}
-{synopt:{bf:{help wbopendata_sourceid##ccx_poveld_40_fem:ccx_poveld_40_fem} - Poverty headcount of the elderly (below bottom 40%) - female}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_poveld_40_fem:ccx_poveld_40_fem} - Poverty headcount of the elderly (below bottom 40%) - male}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7907,7 +7869,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -7919,14 +7881,14 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_pop_preT_tot:per_lm_pa.adq_pop_preT_tot} - Adequacy of benefits (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_pop_preT_tot:per_lm_pa.adq_pop_preT_tot} - Adequacy of benefits (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7938,7 +7900,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_pop_rur:per_lm_pa.adq_pop_rur} - Adequacy of benefits (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_pop_rur:per_lm_pa.adq_pop_rur} - Adequacy of benefits (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7986,7 +7948,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q1_rur:per_lm_pa.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q1_rur:per_lm_pa.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8010,7 +7972,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q1_urb:per_lm_pa.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q1_urb:per_lm_pa.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8070,7 +8032,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q3_preT_tot:per_lm_pa.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q3_preT_tot:per_lm_pa.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8118,7 +8080,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q4_preT_tot:per_lm_pa.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q4_preT_tot:per_lm_pa.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8154,7 +8116,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q4_urb:per_lm_pa.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q4_urb:per_lm_pa.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8166,7 +8128,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q5_preT_tot:per_lm_pa.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q5_preT_tot:per_lm_pa.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8214,7 +8176,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_ep_preT_tot:per_lm_pa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_ep_preT_tot:per_lm_pa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8262,7 +8224,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_pop_tot:per_lm_pa.avt_pop_tot} - Average per capita transfer - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_pop_tot:per_lm_pa.avt_pop_tot} - Average per capita transfer - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8298,7 +8260,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q1_rur:per_lm_pa.avt_q1_rur} - Average per capita transfer held by poorest quintile - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q1_rur:per_lm_pa.avt_q1_rur} - Average per capita transfer held by poorest quintile - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8346,7 +8308,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q2_rur:per_lm_pa.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q2_rur:per_lm_pa.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8370,7 +8332,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q2_urb:per_lm_pa.avt_q2_urb} - Average per capita transfer held by 2nd quintile - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q2_urb:per_lm_pa.avt_q2_urb} - Average per capita transfer held by 3rd quintile - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8526,7 +8488,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.ben_ep_preT_tot:per_lm_pa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.ben_ep_preT_tot:per_lm_pa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8730,7 +8692,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.ben_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.ben_q4_urb:per_lm_pa.ben_q4_urb} - Benefits incidence in 4th quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.ben_q4_urb:per_lm_pa.ben_q4_urb} - Benefits incidence in richest quintile (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8934,7 +8896,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.bry_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.bry_q3_tot:per_lm_pa.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.bry_q3_tot:per_lm_pa.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9054,7 +9016,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_ep_preT_tot:per_lm_pa.cba_ep_preT_tot} - Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_ep_preT_tot:per_lm_pa.cba_ep_preT_tot} - Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9090,7 +9052,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cba_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_q1_rur:per_lm_pa.cba_q1_rur} - Benefit-cost ratio -  Passive Labor Market  -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_q1_rur:per_lm_pa.cba_q1_rur} - Benefit-cost ratio -  Passive Labor Market  -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9102,7 +9064,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_q1_tot:per_lm_pa.cba_q1_tot} - Benefit-cost ratio -  Passive Labor Market  -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_q1_tot:per_lm_pa.cba_q1_tot} - Benefit-cost ratio -  Passive Labor Market  - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9114,7 +9076,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_q1_urb:per_lm_pa.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cba_q1_urb:per_lm_pa.cba_q1_urb} - Benefit-cost ratio -  Passive Labor Market  - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9138,7 +9100,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_ep_tot:per_lm_pa.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_ep_tot:per_lm_pa.cov_ep_tot} - Coverage (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9174,7 +9136,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_pop_tot:per_lm_pa.cov_pop_tot} - Coverage (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_pop_tot:per_lm_pa.cov_pop_tot} - Coverage (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9198,7 +9160,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q1_preT_tot:per_lm_pa.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q1_preT_tot:per_lm_pa.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9258,7 +9220,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_rur:per_lm_pa.cov_q2_rur} - Coverage in 2nd quintile (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_rur:per_lm_pa.cov_q2_rur} - Coverage in 2nd quintile (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9270,7 +9232,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_tot:per_lm_pa.cov_q2_tot} - Coverage in 2nd quintile (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_tot:per_lm_pa.cov_q2_tot} - Coverage in 2nd quintile (%) - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9318,7 +9280,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q3_tot:per_lm_pa.cov_q3_tot} - Coverage in 3rd quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q3_tot:per_lm_pa.cov_q3_tot} - Coverage in 3rd quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9402,7 +9364,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_rur:per_lm_pa.cov_q5_rur} - Coverage in richest quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_rur:per_lm_pa.cov_q5_rur} - Coverage in richest quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9558,7 +9520,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p1_ep_preT_tot:per_lm_pa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p1_ep_preT_tot:per_lm_pa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9594,7 +9556,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa_p1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p1_rur:per_lm_pa_p1_rur} - Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p1_rur:per_lm_pa_p1_rur} - Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10518,7 +10480,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q1_urb:per_pr_allpr.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q1_urb:per_pr_allpr.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10530,7 +10492,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q2_preT_tot:per_pr_allpr.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q2_preT_tot:per_pr_allpr.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10578,7 +10540,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_preT_tot:per_pr_allpr.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_preT_tot:per_pr_allpr.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10590,7 +10552,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_rur:per_pr_allpr.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_rur:per_pr_allpr.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10614,7 +10576,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_urb:per_pr_allpr.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_urb:per_pr_allpr.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10638,7 +10600,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q4_rur:per_pr_allpr.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q4_rur:per_pr_allpr.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10698,7 +10660,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q5_tot:per_pr_allpr.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q5_tot:per_pr_allpr.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10722,7 +10684,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_ep_preT_tot:per_pr_allpr.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_ep_preT_tot:per_pr_allpr.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10734,7 +10696,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_ep_tot:per_pr_allpr.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_ep_tot:per_pr_allpr.avt_ep_tot} - Average per capita transfer - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10746,7 +10708,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_pop_preT_tot:per_pr_allpr.avt_pop_preT_tot} - Average per capita transfer - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_pop_preT_tot:per_pr_allpr.avt_pop_preT_tot} - Average per capita transfer - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10758,7 +10720,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_pop_rur:per_pr_allpr.avt_pop_rur} - Average per capita transfer - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_pop_rur:per_pr_allpr.avt_pop_rur} - Average per capita transfer - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10854,7 +10816,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q2_rur:per_pr_allpr.avt_q2_rur} - Average per capita transfer held by 2nd quintile - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q2_rur:per_pr_allpr.avt_q2_rur} - Average per capita transfer held by 2nd quintile - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10938,7 +10900,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q4_preT_tot:per_pr_allpr.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q4_preT_tot:per_pr_allpr.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10950,7 +10912,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q4_rur:per_pr_allpr.avt_q4_rur} - Average per capita transfer held by 4th quintile - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q4_rur:per_pr_allpr.avt_q4_rur} - Average per capita transfer held by 4th quintile - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10986,7 +10948,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q5_preT_tot:per_pr_allpr.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q5_preT_tot:per_pr_allpr.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11022,7 +10984,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q5_urb:per_pr_allpr.avt_q5_urb} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q5_urb:per_pr_allpr.avt_q5_urb} - Average per capita transfer held by richest quintile - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11046,7 +11008,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_ep_tot:per_pr_allpr.ben_ep_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_ep_tot:per_pr_allpr.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11058,7 +11020,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q1_preT_tot:per_pr_allpr.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q1_preT_tot:per_pr_allpr.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11082,7 +11044,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q1_tot:per_pr_allpr.ben_q1_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q1_tot:per_pr_allpr.ben_q1_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11130,7 +11092,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q2_tot:per_pr_allpr.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q2_tot:per_pr_allpr.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11154,7 +11116,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q3_preT_tot:per_pr_allpr.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q3_preT_tot:per_pr_allpr.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11190,7 +11152,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q3_urb:per_pr_allpr.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q3_urb:per_pr_allpr.ben_q3_urb} - Benefits incidence in 4th quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11238,7 +11200,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q4_urb:per_pr_allpr.ben_q4_urb} - Benefits incidence in 4th quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q4_urb:per_pr_allpr.ben_q4_urb} - Benefits incidence in richest quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11298,7 +11260,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_ep_preT_tot:per_pr_allpr.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_ep_preT_tot:per_pr_allpr.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11358,7 +11320,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q1_urb:per_pr_allpr.bry_q1_urb} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q1_urb:per_pr_allpr.bry_q1_urb} - Beneficiary incidence in poorest quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11382,7 +11344,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q2_rur:per_pr_allpr.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q2_rur:per_pr_allpr.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11490,7 +11452,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q4_tot:per_pr_allpr.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q4_tot:per_pr_allpr.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11586,7 +11548,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cba_q1_preT_tot:per_pr_allpr.cba_q1_preT_tot} - Benefit-cost ratio -  All Private Transfers -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cba_q1_preT_tot:per_pr_allpr.cba_q1_preT_tot} - Benefit-cost ratio -  All Private Transfers -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11658,7 +11620,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_preT_tot:per_pr_allpr.cov_pop_preT_tot} - Coverage (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_preT_tot:per_pr_allpr.cov_pop_preT_tot} - Coverage (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11742,7 +11704,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q1_urb:per_pr_allpr.cov_q1_urb} - Coverage in 2nd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q1_urb:per_pr_allpr.cov_q1_urb} - Coverage in poorest quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11778,7 +11740,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q2_tot:per_pr_allpr.cov_q2_tot} - Coverage in 2nd quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q2_tot:per_pr_allpr.cov_q2_tot} - Coverage in 2nd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11826,7 +11788,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q3_tot:per_pr_allpr.cov_q3_tot} - Coverage in 3rd quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q3_tot:per_pr_allpr.cov_q3_tot} - Coverage in 3rd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11862,7 +11824,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_rur:per_pr_allpr.cov_q4_rur} - Coverage in 4th quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_rur:per_pr_allpr.cov_q4_rur} - Coverage in 4th quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11874,7 +11836,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_tot:per_pr_allpr.cov_q4_tot} - Coverage in 4th quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_tot:per_pr_allpr.cov_q4_tot} - Coverage in 4th quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11886,7 +11848,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_urb:per_pr_allpr.cov_q4_urb} - Coverage in 4th quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_urb:per_pr_allpr.cov_q4_urb} - Coverage in richest quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11958,7 +11920,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_gini_rur:per_pr_allpr_gini_rur} - Gini inequality reduction (%) -  All Private Transfers -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_gini_rur:per_pr_allpr_gini_rur} - Gini inequality reduction (%) -  All Private Transfers -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11970,7 +11932,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr_gini_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_gini_tot:per_pr_allpr_gini_tot} - Gini inequality reduction (%) -  All Private Transfers -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_gini_tot:per_pr_allpr_gini_tot} - Gini inequality reduction (%) -  All Private Transfers - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12078,7 +12040,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr_p1_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p1_ep_tot:per_pr_allpr_p1_ep_tot} - Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p1_ep_tot:per_pr_allpr_p1_ep_tot} - Poverty Gap reduction (%) -  All Private Transfers -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12133,7 +12095,7 @@
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -17674,7 +17636,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_pop_preT_tot:per_sa_cc.adq_pop_preT_tot} - Adequacy of benefits (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_pop_preT_tot:per_sa_cc.adq_pop_preT_tot} - Adequacy of benefits (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17686,7 +17648,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_pop_rur:per_sa_cc.adq_pop_rur} - Adequacy of benefits (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_pop_rur:per_sa_cc.adq_pop_rur} - Adequacy of benefits (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17806,7 +17768,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q2_urb:per_sa_cc.adq_q2_urb} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q2_urb:per_sa_cc.adq_q2_urb} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17830,7 +17792,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_rur:per_sa_cc.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_rur:per_sa_cc.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17842,7 +17804,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_tot:per_sa_cc.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_tot:per_sa_cc.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17854,7 +17816,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_urb:per_sa_cc.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_urb:per_sa_cc.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17986,7 +17948,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_pop_preT_tot:per_sa_cc.avt_pop_preT_tot} - Average per capita transfer - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_pop_preT_tot:per_sa_cc.avt_pop_preT_tot} - Average per capita transfer - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18010,7 +17972,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_pop_tot:per_sa_cc.avt_pop_tot} - Average per capita transfer - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_pop_tot:per_sa_cc.avt_pop_tot} - Average per capita transfer - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18034,7 +17996,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q1_preT_tot:per_sa_cc.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q1_preT_tot:per_sa_cc.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18094,7 +18056,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Coverage in 2nd quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18118,7 +18080,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_urb:per_sa_cc.avt_q2_urb} - Average per capita transfer held by 3rd quintile - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_urb:per_sa_cc.avt_q2_urb} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18310,7 +18272,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q1_rur:per_sa_cc.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q1_rur:per_sa_cc.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18346,7 +18308,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q2_preT_tot:per_sa_cc.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q2_preT_tot:per_sa_cc.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18358,7 +18320,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q2_rur:per_sa_cc.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q2_rur:per_sa_cc.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18394,7 +18356,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_preT_tot:per_sa_cc.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_preT_tot:per_sa_cc.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18634,7 +18596,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q2_tot:per_sa_cc.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q2_tot:per_sa_cc.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18718,7 +18680,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q4_rur:per_sa_cc.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q4_rur:per_sa_cc.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18778,7 +18740,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q5_tot:per_sa_cc.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q5_tot:per_sa_cc.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18850,7 +18812,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cba_q1_tot:per_sa_cc.cba_q1_tot} - Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cba_q1_tot:per_sa_cc.cba_q1_tot} - Benefit-cost ratio -  Conditional Cash Transfer - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18886,7 +18848,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_ep_tot:per_sa_cc.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_ep_tot:per_sa_cc.cov_ep_tot} - Coverage (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18958,7 +18920,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_rur:per_sa_cc.cov_q1_rur} - Coverage in poorest quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_rur:per_sa_cc.cov_q1_rur} - Coverage in poorest quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19030,7 +18992,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q2_urb:per_sa_cc.cov_q2_urb} - Coverage in 3rd quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q2_urb:per_sa_cc.cov_q2_urb} - Coverage in 2nd quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19102,7 +19064,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q4_rur:per_sa_cc.cov_q4_rur} - Coverage in 4th quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q4_rur:per_sa_cc.cov_q4_rur} - Coverage in 4th quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19138,7 +19100,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q5_preT_tot:per_sa_cc.cov_q5_preT_tot} - Coverage in richest quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q5_preT_tot:per_sa_cc.cov_q5_preT_tot} - Coverage in richest quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19210,7 +19172,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_gini_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_gini_tot:per_sa_cc_gini_tot} - Gini inequality reduction (%) -  Conditional Cash Transfer - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_gini_tot:per_sa_cc_gini_tot} - Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19246,7 +19208,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p0_ep_tot:per_sa_cc_p0_ep_tot} - Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p0_ep_tot:per_sa_cc_p0_ep_tot} - Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19306,7 +19268,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p1_ep_preT_tot:per_sa_cc_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p1_ep_preT_tot:per_sa_cc_p1_ep_preT_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19354,7 +19316,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p1_tot:per_sa_cc_p1_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p1_tot:per_sa_cc_p1_tot} - Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21322,7 +21284,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_preT_tot:per_sa_fw.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_preT_tot:per_sa_fw.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21334,7 +21296,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_rur:per_sa_fw.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_rur:per_sa_fw.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21346,7 +21308,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_tot:per_sa_fw.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_tot:per_sa_fw.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21382,7 +21344,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q2_rur:per_sa_fw.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q2_rur:per_sa_fw.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21406,7 +21368,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q2_urb:per_sa_fw.adq_q2_urb} - Adequacy of benefits in 3rd quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q2_urb:per_sa_fw.adq_q2_urb} - Adequacy of benefits in 2nd quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21478,7 +21440,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q4_rur:per_sa_fw.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q4_rur:per_sa_fw.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21514,7 +21476,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_preT_tot:per_sa_fw.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_preT_tot:per_sa_fw.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Subsidies -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21550,7 +21512,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_urb:per_sa_fw.adq_q5_urb} - Adequacy of benefits in richest quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_urb:per_sa_fw.adq_q5_urb} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21562,7 +21524,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_ep_preT_tot:per_sa_fw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_ep_preT_tot:per_sa_fw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21598,7 +21560,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_pop_rur:per_sa_fw.avt_pop_rur} - Average per capita transfer - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_pop_rur:per_sa_fw.avt_pop_rur} - Average per capita transfer - Subsidies -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21622,7 +21584,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_pop_urb:per_sa_fw.avt_pop_urb} - Average per capita transfer held by poorest quintile - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_pop_urb:per_sa_fw.avt_pop_urb} - Average per capita transfer - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21706,7 +21668,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q2_tot:per_sa_fw.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q2_tot:per_sa_fw.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21718,7 +21680,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q2_urb:per_sa_fw.avt_q2_urb} - Average per capita transfer held by 3rd quintile - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q2_urb:per_sa_fw.avt_q2_urb} - Average per capita transfer held by 2nd quintile - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21754,7 +21716,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q3_tot:per_sa_fw.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q3_tot:per_sa_fw.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21802,7 +21764,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q4_tot:per_sa_fw.avt_q4_tot} - Average per capita transfer held by 4th quintile - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q4_tot:per_sa_fw.avt_q4_tot} - Average per capita transfer held by 4th quintile - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22018,7 +21980,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q3_tot:per_sa_fw.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q3_tot:per_sa_fw.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22054,7 +22016,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q4_rur:per_sa_fw.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q4_rur:per_sa_fw.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22090,7 +22052,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q5_preT_tot:per_sa_fw.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q5_preT_tot:per_sa_fw.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22618,7 +22580,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q2_tot:per_sa_fw.cov_q2_tot} - Coverage in 2nd quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q2_tot:per_sa_fw.cov_q2_tot} - Coverage in 2nd quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22714,7 +22676,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q4_tot:per_sa_fw.cov_q4_tot} - Coverage in 4th quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q4_tot:per_sa_fw.cov_q4_tot} - Coverage in 4th quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22726,7 +22688,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q4_urb:per_sa_fw.cov_q4_urb} - Coverage in richest quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q4_urb:per_sa_fw.cov_q4_urb} - Coverage in 4th quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22810,7 +22772,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw_gini_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_gini_tot:per_sa_fw_gini_tot} - Gini inequality reduction (%) -  Subsidies - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_gini_tot:per_sa_fw_gini_tot} - Gini inequality reduction (%) -  Subsidies -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22822,7 +22784,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_gini_urb:per_sa_fw_gini_urb} - Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_gini_urb:per_sa_fw_gini_urb} - Gini inequality reduction (%) -  Subsidies - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22846,7 +22808,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_p0_ep_tot:per_sa_fw_p0_ep_tot} - Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_p0_ep_tot:per_sa_fw_p0_ep_tot} - Poverty Headcount reduction (%) -  Subsidies -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22918,7 +22880,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw_p1_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_p1_ep_tot:per_sa_fw_p1_ep_tot} - Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_p1_ep_tot:per_sa_fw_p1_ep_tot} - Poverty Gap reduction (%) -  Subsidies -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24855,7 +24817,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24867,7 +24829,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24879,7 +24841,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24891,7 +24853,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24903,7 +24865,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24915,7 +24877,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24927,7 +24889,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24939,7 +24901,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24951,7 +24913,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24963,7 +24925,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24975,19 +24937,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q2_rur:per_sa_os.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q2_rur:per_sa_os.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -24999,7 +24961,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25011,7 +24973,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25023,7 +24985,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25035,7 +24997,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25047,7 +25009,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25059,7 +25021,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25071,7 +25033,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25083,7 +25045,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25095,7 +25057,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25107,7 +25069,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25119,19 +25081,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q5_rur:per_sa_os.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q5_rur:per_sa_os.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25143,7 +25105,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25155,7 +25117,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25167,19 +25129,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_ep_tot:per_sa_os.avt_ep_tot} - Average per capita transfer - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_ep_tot:per_sa_os.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25191,7 +25153,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25203,7 +25165,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25215,7 +25177,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25227,7 +25189,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25239,7 +25201,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25251,7 +25213,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25263,7 +25225,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25275,19 +25237,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q2_preT_tot:per_sa_os.avt_q2_preT_tot} - Average per capita transfer held by 2nd quintile - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q2_preT_tot:per_sa_os.avt_q2_preT_tot} - Average per capita transfer held by 2nd quintile - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25299,7 +25261,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25311,7 +25273,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25323,31 +25285,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q3_preT_tot:per_sa_os.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q3_preT_tot:per_sa_os.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q3_rur:per_sa_os.avt_q3_rur} - Average per capita transfer held by 3rd quintile - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q3_rur:per_sa_os.avt_q3_rur} - Average per capita transfer held by 3rd quintile - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25359,7 +25321,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25371,19 +25333,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_preT_tot:per_sa_os.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_preT_tot:per_sa_os.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25395,31 +25357,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_tot:per_sa_os.avt_q4_tot} - Average per capita transfer held by 4th quintile - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_tot:per_sa_os.avt_q4_tot} - Average per capita transfer held by 4th quintile - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_urb:per_sa_os.avt_q4_urb} - Average per capita transfer held by 4th quintile - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_urb:per_sa_os.avt_q4_urb} - Average per capita transfer held by richest quintile - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25431,7 +25393,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25443,7 +25405,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25455,7 +25417,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25467,7 +25429,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25479,7 +25441,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25491,7 +25453,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25503,7 +25465,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25515,7 +25477,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25527,19 +25489,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q1_urb:per_sa_os.ben_q1_urb} - Benefits incidence in poorest quintile (%) - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q1_urb:per_sa_os.ben_q1_urb} - Benefits incidence in 2nd quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25551,7 +25513,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25563,7 +25525,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25575,19 +25537,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q2_urb:per_sa_os.ben_q2_urb} - Benefits incidence in 2nd quintile (%) - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q2_urb:per_sa_os.ben_q2_urb} - Benefits incidence in 3rd quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25599,19 +25561,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q3_rur:per_sa_os.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q3_rur:per_sa_os.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25623,19 +25585,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q3_urb:per_sa_os.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q3_urb:per_sa_os.ben_q3_urb} - Benefits incidence in 4th quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25647,7 +25609,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25659,7 +25621,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25671,7 +25633,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25683,7 +25645,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25695,7 +25657,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25707,7 +25669,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25719,19 +25681,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q5_urb:per_sa_os.ben_q5_urb} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q5_urb:per_sa_os.ben_q5_urb} - Benefits incidence in richest quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25743,7 +25705,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25755,7 +25717,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25767,7 +25729,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25779,7 +25741,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25791,43 +25753,43 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q1_urb:per_sa_os.bry_q1_urb} - Beneficiary incidence in poorest quintile (%) - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q1_urb:per_sa_os.bry_q1_urb} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_preT_tot:per_sa_os.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_preT_tot:per_sa_os.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_rur:per_sa_os.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_rur:per_sa_os.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25839,7 +25801,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25851,7 +25813,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25863,7 +25825,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25875,7 +25837,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
+
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+
+
+{synoptline}
+{marker sourceid_per_sa_os.bry_q3_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q3_tot:per_sa_os.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance}}
+
+{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -25954,7 +25928,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q5_rur:per_sa_os.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q5_rur:per_sa_os.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26134,7 +26108,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q1_preT_tot:per_sa_os.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q1_preT_tot:per_sa_os.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26146,7 +26120,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q1_rur:per_sa_os.cov_q1_rur} - Coverage in poorest quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q1_rur:per_sa_os.cov_q1_rur} - Coverage in poorest quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26242,7 +26216,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q3_rur:per_sa_os.cov_q3_rur} - Coverage in 3rd quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q3_rur:per_sa_os.cov_q3_rur} - Coverage in 3rd quintile (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26386,7 +26360,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_rur:per_sa_os_gini_rur} - Gini inequality reduction (%) -  Other Social Assistance -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_rur:per_sa_os_gini_rur} - Gini inequality reduction (%) -  Other Social Assistance -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26410,7 +26384,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_urb:per_sa_os_gini_urb} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_urb:per_sa_os_gini_urb} - Gini inequality reduction (%) -  Other Social Assistance - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26506,7 +26480,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_p1_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p1_ep_tot:per_sa_os_p1_ep_tot} - Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p1_ep_tot:per_sa_os_p1_ep_tot} - Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34215,7 +34189,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34227,7 +34201,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34239,43 +34213,43 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_rur:per_si_cp.adq_pop_rur} - Adequacy of benefits (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_rur:per_si_cp.adq_pop_rur} - Adequacy of benefits (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_tot:per_si_cp.adq_pop_tot} - Adequacy of benefits (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_tot:per_si_cp.adq_pop_tot} - Adequacy of benefits (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_urb:per_si_cp.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_urb:per_si_cp.adq_pop_urb} - Adequacy of benefits (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34287,7 +34261,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34299,7 +34273,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34311,7 +34285,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34323,7 +34297,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34335,19 +34309,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q2_rur:per_si_cp.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q2_rur:per_si_cp.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34359,7 +34333,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34371,7 +34345,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34383,19 +34357,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q3_rur:per_si_cp.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q3_rur:per_si_cp.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34407,7 +34381,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34419,7 +34393,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34431,19 +34405,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q4_rur:per_si_cp.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q4_rur:per_si_cp.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34455,7 +34429,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34467,7 +34441,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34479,31 +34453,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q5_rur:per_si_cp.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q5_rur:per_si_cp.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q5_tot:per_si_cp.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q5_tot:per_si_cp.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34515,31 +34489,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_ep_preT_tot:per_si_cp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_ep_preT_tot:per_si_cp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_ep_tot:per_si_cp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_ep_tot:per_si_cp.avt_ep_tot} - Average per capita transfer - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34551,7 +34525,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34563,19 +34537,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_pop_tot:per_si_cp.avt_pop_tot} - Average per capita transfer - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_pop_tot:per_si_cp.avt_pop_tot} - Average per capita transfer - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34587,7 +34561,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34599,7 +34573,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34611,7 +34585,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34623,19 +34597,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q1_urb:per_si_cp.avt_q1_urb} - Average per capita transfer held by 2nd quintile - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q1_urb:per_si_cp.avt_q1_urb} - Average per capita transfer held by poorest quintile - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34647,43 +34621,43 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_rur:per_si_cp.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_rur:per_si_cp.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_tot:per_si_cp.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_tot:per_si_cp.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_urb:per_si_cp.avt_q2_urb} - Average per capita transfer held by 3rd quintile - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_urb:per_si_cp.avt_q2_urb} - Average per capita transfer held by 2nd quintile - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34695,7 +34669,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34707,7 +34681,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34719,7 +34693,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34731,19 +34705,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q4_preT_tot:per_si_cp.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q4_preT_tot:per_si_cp.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34755,7 +34729,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34767,7 +34741,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34779,7 +34753,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34791,7 +34765,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34803,7 +34777,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34815,7 +34789,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34827,7 +34801,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34839,7 +34813,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34851,7 +34825,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34863,7 +34837,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34875,7 +34849,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34887,7 +34861,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34899,7 +34873,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34911,7 +34885,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34923,7 +34897,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34935,7 +34909,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34947,7 +34921,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34959,7 +34933,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34971,7 +34945,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34983,7 +34957,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34995,19 +34969,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.ben_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q4_preT_tot:per_si_cp.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q4_preT_tot:per_si_cp.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35019,7 +34993,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35031,7 +35005,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35043,7 +35017,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35055,7 +35029,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35067,7 +35041,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35079,7 +35053,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35091,7 +35065,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35103,7 +35077,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35115,7 +35089,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35127,7 +35101,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35139,7 +35113,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35151,7 +35125,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35163,7 +35137,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35175,55 +35149,55 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_rur:per_si_cp.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_rur:per_si_cp.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_tot:per_si_cp.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_tot:per_si_cp.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_urb:per_si_cp.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_urb:per_si_cp.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q3_preT_tot:per_si_cp.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q3_preT_tot:per_si_cp.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35235,7 +35209,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35247,7 +35221,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35259,7 +35233,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35271,7 +35245,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35283,7 +35257,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35295,7 +35269,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35307,7 +35281,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35319,7 +35293,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35331,7 +35305,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-of-the-road scenario that combines medium fertility with medium mortality, medium migration, and the Global Education Trend (GET) education scenario. For more information and other projection models, consult the Wittgenstein Centre for Demography and Global Human Capital's website: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35374,7 +35348,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_ep_tot:per_si_cp.cba_ep_tot} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_ep_tot:per_si_cp.cba_ep_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35386,7 +35360,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_q1_preT_tot:per_si_cp.cba_q1_preT_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_q1_preT_tot:per_si_cp.cba_q1_preT_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35410,7 +35384,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_q1_tot:per_si_cp.cba_q1_tot} - Benefit-cost ratio -  Contributory Pensions - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_q1_tot:per_si_cp.cba_q1_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35446,7 +35420,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_ep_tot:per_si_cp.cov_ep_tot} - Coverage (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_ep_tot:per_si_cp.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35638,7 +35612,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q3_urb:per_si_cp.cov_q3_urb} - Coverage in 3rd quintile (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q3_urb:per_si_cp.cov_q3_urb} - Coverage in 4th quintile (%) - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35650,7 +35624,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q4_preT_tot:per_si_cp.cov_q4_preT_tot} - Coverage in 4th quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q4_preT_tot:per_si_cp.cov_q4_preT_tot} - Coverage in 4th quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35662,7 +35636,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q4_rur:per_si_cp.cov_q4_rur} - Coverage in 4th quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q4_rur:per_si_cp.cov_q4_rur} - Coverage in 4th quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35722,7 +35696,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q5_tot:per_si_cp.cov_q5_tot} - Coverage in richest quintile (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q5_tot:per_si_cp.cov_q5_tot} - Coverage in richest quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35758,7 +35732,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_gini_rur:per_si_cp_gini_rur} - Gini inequality reduction (%) -  Contributory Pensions -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_gini_rur:per_si_cp_gini_rur} - Gini inequality reduction (%) -  Contributory Pensions -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35806,7 +35780,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p0_ep_tot:per_si_cp_p0_ep_tot} - Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p0_ep_tot:per_si_cp_p0_ep_tot} - Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35830,7 +35804,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_p0_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p0_rur:per_si_cp_p0_rur} - Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p0_rur:per_si_cp_p0_rur} - Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35914,7 +35888,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p1_tot:per_si_cp_p1_tot} - Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p1_tot:per_si_cp_p1_tot} - Poverty Gap reduction (%) -  Contributory Pensions - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 

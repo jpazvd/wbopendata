@@ -95,7 +95,7 @@ quietly {
 	noi di in smcl in g "{bf: Processing indicators list...}"
 	noi di in smcl in g ""
 
-	local indicator indicator.txt
+	local indicator indicators.txt
 	
 	tempfile  tmp1tmp
 	

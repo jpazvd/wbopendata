@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -61,20 +59,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:24 Poverty and Equity}}}
 {synoptline}
-{marker sourceid_SH.HIV.1524.KW.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.KW.FE.ZS:SH.HIV.1524.KW.FE.ZS} - Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female (2 prevent ways and reject 3 misconceptions)}}
-
-{synopt:{opt Source}}24 Poverty and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.DDAY.GR}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.GR:SI.POV.DDAY.GR} - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
+{marker sourceid_SI.POV.DDAY.CV}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -85,8 +71,8 @@
 
 
 {synoptline}
-{marker sourceid_SI.POV.DDAY.RE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
+{marker sourceid_SI.POV.DDAY.GR}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.GR:SI.POV.DDAY.GR} - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -111,6 +97,18 @@
 {synoptline}
 {marker sourceid_SI.POV.LMIC.NO}
 {synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.NO:SI.POV.LMIC.NO} - Number of poor at $3.20 a day (2011 PPP) (millions)}}
+
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}Poverty gap at national poverty lines is the mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.LMIC.RE}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.RE:SI.POV.LMIC.RE} - Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -151,9 +149,9 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Rural poverty gap at national poverty lines is the rural population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+{synopt:{opt Source Notes}}The number of people (millions) living on less than $1.90 a day (2011 PPP){p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. For more information and methodology, please see PovcalNet ({browse "http://iresearch.worldbank.org/PovcalNet/index.htm"}).{p_end}
 
 
 {synoptline}
@@ -212,6 +210,18 @@
 
 
 {synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.URGP.NC}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP.NC:SI.POV.URGP.NC} - Urban poverty gap at national poverty lines (%), including noncomparable values}}
+
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}Urban poverty headcount ratio is the percentage of the urban population living below the national poverty lines.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 

@@ -1491,7 +1491,7 @@
 
 {synopt:{opt Source Notes}}Female professional and technical workers refers to the share of professionals and technical workers who are female. Women's share of positions are defined according to the International Standard Classification of Occupations (ISCO-88) to include physical, mathematical and engineering science professionals (and associate professionals), life science and health professionals (and associate professionals), teaching professionals (and associate professionals) and other professionals and associate professionals.{p_end}
 
-{synopt:{opt Source Organization}}Gender, Institutions and Development Database, Organization for Economic Co-operation and Development (OECD), web site: {browse "http://www.oecd.org/document/16/0,3343,en_2649_33935_39323280_1_1_1_1,00.html."}{p_end}
+{synopt:{opt Source Organization}}Gender, Institutions and Development Database, Organization for Economic Co-operation and Development (OECD), web site: {browse "http://www.oecd.org/document/16/0,3343,en_2649_33935_39323280_1_1_1_1,00.html"}.{p_end}
 
 
 {synoptline}

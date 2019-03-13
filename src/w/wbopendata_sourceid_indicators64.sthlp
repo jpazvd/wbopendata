@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -62,7 +60,7 @@
 {syntab:{title:{bf:64 Worldwide Bureaucracy Indicators}}}
 {synoptline}
 {marker sourceid_BI.EMP.FRML.PB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.ZS:BI.EMP.FRML.PB.ZS} - Public sector employment as a share of paid employment by gender (Female)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.ZS:BI.EMP.FRML.PB.ZS} - Public sector employment as a share of formal employment}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -146,7 +144,7 @@
 
 {synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.FE.ZS:BI.EMP.TOTL.PB.FE.ZS} - Public sector employment as a share of total employment by gender (Male)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.FE.ZS:BI.EMP.TOTL.PB.FE.ZS} - Public sector employment as a share of total employment by gender (Female)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -158,7 +156,7 @@
 
 {synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.MA.ZS:BI.EMP.TOTL.PB.MA.ZS} - Public sector employment as a share of total employment by location (Rural)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.MA.ZS:BI.EMP.TOTL.PB.MA.ZS} - Public sector employment as a share of total employment by gender (Male)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -194,7 +192,7 @@
 
 {synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.UR.ZS:BI.EMP.TOTL.PB.UR.ZS} - Public sector employment as a share of total employment}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.UR.ZS:BI.EMP.TOTL.PB.UR.ZS} - Public sector employment as a share of total employment by location (Urban)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -230,7 +228,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.AGES.PB.MD}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.MD:BI.PWK.AGES.PB.MD} - Mean age of public paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.MD:BI.PWK.AGES.PB.MD} - Median age of public paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -242,7 +240,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.AGES.PB.SM}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SM:BI.PWK.AGES.PB.SM} - Mean age of public paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SM:BI.PWK.AGES.PB.SM} - Median age of private paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -278,7 +276,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.CK.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.CK.FE.ZS:BI.PWK.PRVS.CK.FE.ZS} - Share of private paid employees with a contract}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.CK.FE.ZS:BI.PWK.PRVS.CK.FE.ZS} - Females as a share of private paid employees by occupation (Clerks)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -326,7 +324,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.FE.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.FE.Q2.ZS:BI.PWK.PRVS.FE.Q2.ZS} - Females, as a share of private paid employee by wage quintile (Quintile 2)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.FE.Q2.ZS:BI.PWK.PRVS.FE.Q2.ZS} - Females as a share of private paid employee by wage quintile (Quintile 3)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -398,7 +396,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.NN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.NN.ZS:BI.PWK.PRVS.NN.ZS} - Individuals with no education as a share of private paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.NN.ZS:BI.PWK.PRVS.NN.ZS} - Females as a share of private paid employees by occupation (Professionals)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -434,7 +432,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.RU.ZS:BI.PWK.PRVS.RU.ZS} - Individuals with secondary education as a share of private paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.RU.ZS:BI.PWK.PRVS.RU.ZS} - Rural residents as a share of private paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -494,7 +492,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.TT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.ZS:BI.PWK.PRVS.TT.ZS} - Individuals with tertiary education as a share of private paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.ZS:BI.PWK.PRVS.TT.ZS} - Share of private paid employees with union membership}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -554,7 +552,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.FE.Q1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q1.ZS:BI.PWK.PUBS.FE.Q1.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 2)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q1.ZS:BI.PWK.PUBS.FE.Q1.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 1)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -578,7 +576,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.FE.Q3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q3.ZS:BI.PWK.PUBS.FE.Q3.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 3)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q3.ZS:BI.PWK.PUBS.FE.Q3.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 4)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -626,7 +624,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.HS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.HS.ZS:BI.PWK.PUBS.HS.ZS} - Individuals with no education as a share of public paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.HS.ZS:BI.PWK.PUBS.HS.ZS} - Share of public paid employees with health insurance}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -662,7 +660,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.PN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PN.FE.ZS:BI.PWK.PUBS.PN.FE.ZS} - Females as a share of public paid employees by occupation (Professionals)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PN.FE.ZS:BI.PWK.PUBS.PN.FE.ZS} - Individuals with primary education as a share of public paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -710,7 +708,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.SN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.SN.FE.ZS:BI.PWK.PUBS.SN.FE.ZS} - Share of public paid employees with social security}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.SN.FE.ZS:BI.PWK.PUBS.SN.FE.ZS} - Females as a share of public paid employees by occupation (Senior officials)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -794,7 +792,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.CPRS.PV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.CPRS.PV.ZS:BI.WAG.CPRS.PV.ZS} - Pay compression ratio in private sector}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.CPRS.PV.ZS:BI.WAG.CPRS.PV.ZS} - Public sector wage premium (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -890,7 +888,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.PN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.PN:BI.WAG.PREM.PB.PN} - Public sector wage premium by occupation (Professionals) (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.PN:BI.WAG.PREM.PB.PN} - Public sector wage premium by education level: Primary education (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -950,7 +948,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.TT}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TT:BI.WAG.PREM.PB.TT} - Public sector wage premium by education level: Tertiary education (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TT:BI.WAG.PREM.PB.TT} - Female to male wage ratio in the private sector (using median)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -962,7 +960,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PRVS.FM.MD}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.FM.MD:BI.WAG.PRVS.FM.MD} - Female to male wage ratio in the private sector (using mean)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.FM.MD:BI.WAG.PRVS.FM.MD} - Female to male wage ratio in the private sector (using median)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -998,7 +996,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PRVS.SN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.SN:BI.WAG.PRVS.SN} - Relative wage of Senior officials in private sector (using clerk as reference)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.SN:BI.WAG.PRVS.SN} - Relative wage of Technicians in private sector  (using clerk as reference)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 

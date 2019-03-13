@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -67,7 +65,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms expected to give gifts or an informal payment to get an operating license.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Notes}}Percent of firms expected to give gifts or an informal payment in meetings with tax officials.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
@@ -115,7 +113,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of the contract value expected as a gift to secure a government contract. Only firms that have confirmed that they have secured or attempted to secure a government contract in the last 12 months were required to answer this question.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Notes}}Percent of establishments that consider that firms with characteristics similar to theirs are making informal payments or giving gifts to public officials to get things done” with regard to customs, taxes, licenses, regulations, services, etc.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
@@ -134,7 +132,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR6}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR6:IC.FRM.CORR.CORR6} - Percent of firms expected to give gifts to get an electrical connection}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR6:IC.FRM.CORR.CORR6} - Percent of firms expected to give gifts to get a water connection}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -151,7 +149,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms expected to give gifts or an informal payment to get a construction permit.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Notes}}Percent of firms expected to give gifts or an informal payment to get a water connection.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
@@ -170,12 +168,12 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CORR.CORR9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR9:IC.FRM.CORR.CORR9} - Percent of firms identifying the courts system as a major constraint}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CORR.CORR9:IC.FRM.CORR.CORR9} - Percent of firms expected to give gifts to get an import license}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms identifying the courts system as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Notes}}Percent of firms expected to give gifts or an informal payment to get an import license.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
@@ -187,7 +185,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms identifying the courts system as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Notes}}Bribery index is the percentage of gift or informal payment requests during 6 infrastructure, permits and licences, and tax transactions.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
@@ -199,7 +197,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Informal payments to public officials are the percentage of firms expected to make informal payments to public officials to get things done with regard to customs, taxes, licenses, regulations, services, and the like.{p_end}
+{synopt:{opt Source Notes}}Bribery index is the percentage of gift or informal payment requests during 6 infrastructure, permits and licences, and tax transactions.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -218,12 +216,12 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.CRM.CRIME2_C}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME2_C:IC.FRM.CRM.CRIME2_C} - If the establishment pays for security, average security costs (% of annual sales)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRM.CRIME2_C:IC.FRM.CRM.CRIME2_C} - If there were losses, average losses due to theft and vandalism (% of annual sales)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}If the establishment pays for security, for example equipment, personnel, or professional security services, the average security costs as a percentage of total annual sales.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/crime).{p_end}
+{synopt:{opt Source Notes}}If there were losses, average losses as a result of theft, robbery, vandalism or arson that occurred on the establishment’s premises calculated as a percentage of annual sales.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/crime).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/crime).{p_end}
 
@@ -253,18 +251,6 @@
 
 
 {synoptline}
-{marker sourceid_IC.FRM.EXP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.EXP.ZS:IC.FRM.EXP.ZS} - Exporter firms (% of firms)}}
-
-{synopt:{opt Source}}13 Enterprise Surveys{p_end}
-
-
-{synopt:{opt Source Notes}}Age of the establishment in years.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.FRM.FCHAR.CAR1}
 {synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.CAR1:IC.FRM.FCHAR.CAR1} - Age of the establishment (years)}}
 
@@ -283,9 +269,33 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of private domestic ownership in a firm.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Notes}}Percent of firms with legal status of Sole Proprietorship   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.FCHAR.LFORM3}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FCHAR.LFORM3:IC.FRM.FCHAR.LFORM3} - Percent of firms with legal status of Sole Proprietorship}}
+
+{synopt:{opt Source}}13 Enterprise Surveys{p_end}
+
+
+{synopt:{opt Source Notes}}Percent of firms with legal status of Sole Proprietorship   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.FEMW.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FEMW.ZS:IC.FRM.FEMW.ZS} - Full time female workers (%)}}
+
+{synopt:{opt Source}}13 Enterprise Surveys{p_end}
+
+
+{synopt:{opt Source Notes}}Proportion of purchases of fixed assets that was financed from internal funds/retained earnings.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 
 {synoptline}
@@ -295,19 +305,19 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Value of collateral needed for a loan or line of credit as a percentage of the loan value or the value of the line of credit.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Proportion of purchases of fixed assets that was financed from internal funds/retained earnings.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.FIN.FIN10}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN10:IC.FRM.FIN.FIN10} - Value of collateral needed for a loan (% of the loan amount)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FIN.FIN10:IC.FRM.FIN.FIN10} - Proportion of loans requiring collateral (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Value of collateral needed for a loan or line of credit as a percentage of the loan value or the value of the line of credit.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Proportion of loans requiring collateral in order to get the financing.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
@@ -319,7 +329,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms using banks to finance purchases of fixed assets.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Proportion of loans requiring collateral in order to get the financing.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
@@ -331,7 +341,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms using banks to finance purchases of fixed assets.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Percent of firms using banks to finance working capital.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
@@ -343,7 +353,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms with a bank loan/line of credit.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Percent of firms using banks to finance working capital.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
@@ -403,7 +413,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms whose recent loan application was rejected.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
 
@@ -439,7 +449,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms with female participation in ownership.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/gender).{p_end}
+{synopt:{opt Source Notes}}Percentage of permanent full-time workers that are female.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/gender).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/gender).{p_end}
 
@@ -477,7 +487,7 @@
 
 {synopt:{opt Source Notes}}Percent of firms with a female top manager.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/gender).{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/gender).{p_end}
 
 
 {synoptline}
@@ -487,19 +497,19 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms identifying practices of competitors in the informal sector as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
+{synopt:{opt Source Notes}}Percent of firms competing against unregistered or informal firms.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.INFOR.INFOR2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR2:IC.FRM.INFOR.INFOR2} - Percent of firms formally registered when they started operations in the country}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFOR.INFOR2:IC.FRM.INFOR.INFOR2} - Percent of firms identifying practices of competitors in the informal sector as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms formally registered when they started operations in the country.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
+{synopt:{opt Source Notes}}Percent of firms identifying practices of competitors in the informal sector as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
@@ -511,7 +521,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Number of years firm operated without formal registration. This indicator is computed only for the firms that did not have a formal registration when they started their operations in the country.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
+{synopt:{opt Source Notes}}Percent of firms formally registered when they started operations in the country.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
@@ -523,9 +533,9 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}The wait, in days, experienced to obtain electrical connection from the day this establishment applied for it to the day it received the service.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Notes}}Number of years firm operated without formal registration. This indicator is computed only for the firms that did not have a formal registration when they started their operations in the country.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/informality).{p_end}
 
 
 {synoptline}
@@ -535,7 +545,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}If a generator is used, the average proportion of electricity from a generator.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Notes}}The wait, in days, experienced to obtain electrical connection from the day this establishment applied for it to the day it received the service.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
@@ -547,14 +557,14 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}If a generator is used, the average proportion of electricity from a generator.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Notes}}Percent of firms identifying transportation as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN11}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN11:IC.FRM.INFRA.IN11} - Percent of firms identifying transportation as a major constraint}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN11:IC.FRM.INFRA.IN11} - Percent of firms identifying electricity as a major constraint}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -583,14 +593,14 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Number of power outages in a typical month.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Notes}}Products lost to breakage or spoilage during shipping to domestic markets, as a percentage of total product value.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN2:IC.FRM.INFRA.IN2} - If there were outages, average duration of a typical electrical outage (hours)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN2:IC.FRM.INFRA.IN2} - Number of electrical outages in a typical month}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -607,21 +617,33 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Number of water shortages in a typical month.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Notes}}If there were outages, duration of a typical power outage, in hours.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.INFRA.IN6}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN6:IC.FRM.INFRA.IN6} - Percent of firms owning or sharing  a generator}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN6:IC.FRM.INFRA.IN6} - Number of water insufficiencies in a typical month}}
+
+{synopt:{opt Source}}13 Enterprise Surveys{p_end}
+
+
+{synopt:{opt Source Notes}}Number of water shortages in a typical month.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.INFRA.IN9}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFRA.IN9:IC.FRM.INFRA.IN9} - Percent of firms owning or sharing  a generator}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
 {synopt:{opt Source Notes}}Percent of firms owning or sharing a generator.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -655,14 +677,14 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Capacity utilization based on the comparison of the current output with the maximum output possible using all the resources available.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/innovation-and-technology).{p_end}
+{synopt:{opt Source Notes}}Percent of firms using technology licensed from foreign companies.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/innovation-and-technology).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/innovation-and-technology).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.INNOV.T4}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T4:IC.FRM.INNOV.T4} - Percent of firms using technology licensed from foreign companies}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INNOV.T4:IC.FRM.INNOV.T4} - Percent of firms having their own Web site}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -693,7 +715,19 @@
 
 {synopt:{opt Source Notes}}Percent of firms using e-mail to interact with clients/suppliers.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/innovation-and-technology).{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/innovation-and-technology).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.MGR.EXP}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.MGR.EXP:IC.FRM.MGR.EXP} - Years of experience of the Top Manager working in the firm's sector}}
+
+{synopt:{opt Source}}13 Enterprise Surveys{p_end}
+
+
+{synopt:{opt Source Notes}}Percent of firms that chose access to finance as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 
 {synoptline}
@@ -703,7 +737,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms that chose labor regulations as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Notes}}Percent of firms that chose access to finance as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
@@ -763,7 +797,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms that chose tax rates as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Notes}}Percent of firms that chose transportation as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
@@ -818,12 +852,12 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST5:IC.FRM.OBS.OBST5} - Percent of firms choosing courts as their biggest obstacle}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST5:IC.FRM.OBS.OBST5} - Percent of firms choosing crime, theft and disorder as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms that chose courts as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Notes}}Percent of firms that chose crime, theft and disorder as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
@@ -835,19 +869,19 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms that chose crime, theft and disorder as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Notes}}Percent of firms that chose customs and trade regulations as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.OBS.OBST7}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST7:IC.FRM.OBS.OBST7} - Percent of firms choosing customs and trade regulations as their biggest obstacle}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST7:IC.FRM.OBS.OBST7} - Percent of firms choosing electricity as their biggest obstacle}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms that chose customs and trade regulations as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Notes}}Percent of firms that chose electricity as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
 
@@ -865,20 +899,8 @@
 
 
 {synoptline}
-{marker sourceid_IC.FRM.OBS.OBST9}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.OBS.OBST9:IC.FRM.OBS.OBST9} - Percent of firms choosing inadequately educated workforce as their biggest obstacle}}
-
-{synopt:{opt Source}}13 Enterprise Surveys{p_end}
-
-
-{synopt:{opt Source Notes}}Average losses due to electrical outages, as percentage of total annual sales. The value represents average losses for all firms which reported outages (please see indicator IC.ELC.OUTG.ZS).{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.FRM.REG.BUS1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS1:IC.FRM.REG.BUS1} - Days to obtain an operating license}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.BUS1:IC.FRM.REG.BUS1} - Days to obtain an import license}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -919,7 +941,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms identifying business licensing and permits as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
+{synopt:{opt Source Notes}}Proportion of senior management’s time, in a typical week, that is spent dealing with the requirements imposed by government regulations (e.g. taxes, customs, labor regulations, licensing and registration, including dealings with officials, and completing forms).   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
 
@@ -931,7 +953,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}If there were visits, average number of visits or required meetings with tax officials.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
+{synopt:{opt Source Notes}}Proportion of senior management’s time, in a typical week, that is spent dealing with the requirements imposed by government regulations (e.g. taxes, customs, labor regulations, licensing and registration, including dealings with officials, and completing forms).   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
 
@@ -955,18 +977,6 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms identifying tax rates as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
-
-
-{synoptline}
-{marker sourceid_IC.FRM.REG.REG5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG5:IC.FRM.REG.REG5} - Percent of firms identifying tax administration as a major constraint}}
-
-{synopt:{opt Source}}13 Enterprise Surveys{p_end}
-
-
 {synopt:{opt Source Notes}}Percent of firms identifying tax administration as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
@@ -974,7 +984,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR1}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR1:IC.FRM.TRD.TR1} - Days to clear direct exports through customs}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR1:IC.FRM.TRD.TR1} - Percent of firms using material inputs and/or supplies of foreign origin}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
@@ -998,12 +1008,12 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.TRD.TR2}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR2:IC.FRM.TRD.TR2} - Days to clear imports from customs}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.TRD.TR2:IC.FRM.TRD.TR2} - Proportion of total sales that are exported directly (%)}}
 
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Number of days to clear imports from customs.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).{p_end}
+{synopt:{opt Source Notes}}Percentage of total annual sales that are exported directly.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).{p_end}
 
@@ -1015,7 +1025,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of material inputs and/or supplies that are of foreign origin.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).{p_end}
+{synopt:{opt Source Notes}}Percentage of total annual sales that are exported directly.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).{p_end}
 
@@ -1051,7 +1061,7 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms identifying an inadequately educated workforce as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
+{synopt:{opt Source Notes}}Percent of firms offering formal training programs for its permanent, full-time employees.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
 
@@ -1087,7 +1097,19 @@
 {synopt:{opt Source}}13 Enterprise Surveys{p_end}
 
 
-{synopt:{opt Source Notes}}Years of the top manager's experience working in the firm's sector.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
+{synopt:{opt Source Notes}}Percent of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.WRKF.WK9}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.WRKF.WK9:IC.FRM.WRKF.WK9} - Percent of firms identifying labor regulations as a major constraint}}
+
+{synopt:{opt Source}}13 Enterprise Surveys{p_end}
+
+
+{synopt:{opt Source Notes}}Percent of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
 

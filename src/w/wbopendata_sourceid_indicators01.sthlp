@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -86,7 +84,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.COST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.COST.ZS:ENF.CONT.COEN.COST.ZS} - Enforcing contracts: Cost (% of claim)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.COST.ZS:ENF.CONT.COEN.COST.ZS} - Enforcing contracts: Cost (% of claim) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -146,7 +144,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.CTSP.DB16}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTSP.DB16:ENF.CONT.COEN.CTSP.DB16} - Enforcing contracts: Court structure and proceedings (0-5) (DB17-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTSP.DB16:ENF.CONT.COEN.CTSP.DB16} - Enforcing contracts: Court structure and proceedings (0-5) (DB16 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -254,7 +252,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.PROC.NO.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.PROC.NO.DFRN:ENF.CONT.COEN.PROC.NO.DFRN} - Enforcing contracts: Quality of the judicial processes index (0-19) (DB16 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.PROC.NO.DFRN:ENF.CONT.COEN.PROC.NO.DFRN} - Enforcing contracts: Procedures (number) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -290,7 +288,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.QUJP.XD}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.XD:ENF.CONT.COEN.QUJP.XD} - Enforcing contracts: Quality of the judicial processes index (0-18) (DB16 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.XD:ENF.CONT.COEN.QUJP.XD} - Rank: Enforcing contracts (1=most business-friendly regulations) (DB19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -314,7 +312,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.TRJU.DY}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.TRJU.DY:ENF.CONT.COEN.TRJU.DY} - Enforcing contracts: Trial and judgment (days)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.TRJU.DY:ENF.CONT.COEN.TRJU.DY} - Enforcing contracts: Time (days)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -385,30 +383,6 @@
 
 
 {synoptline}
-{marker sourceid_IC.BUS.EASE.DFRN.XQ.DB1719}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.DFRN.XQ.DB1719:IC.BUS.EASE.DFRN.XQ.DB1719} - Global: Ease of doing business score (DB17-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile rankings on 10 topics covered in the World Bank's Doing Business. The ranking on each topic is the simple average of the percentile rankings on its component indicators.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_IC.CNS.TRSP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRSP.ZS:IC.CNS.TRSP.ZS} - Transportation (% of managers surveyed ranking this as a major constraint)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of firms expected to give gifts or an informal payment to get a construction permit.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.CNST.LIR.XD.02.DB1619}
 {synopt:{bf:{help wbopendata_sourceid##IC.CNST.LIR.XD.02.DB1619:IC.CNST.LIR.XD.02.DB1619} - Dealing with construction permits: Liability and insurance regimes index (0-2) (DB16-19 methodology)}}
 
@@ -422,7 +396,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNST.PC.XD.04.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PC.XD.04.DB1619:IC.CNST.PC.XD.04.DB1619} - Dealing with construction permits: Building quality control index (0-15) (DB16-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PC.XD.04.DB1619:IC.CNST.PC.XD.04.DB1619} - Dealing with construction permits: Professional certifications index (0-4) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -530,7 +504,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNST.PRMT.QCAC.XD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.QCAC.XD.DB1619:IC.CNST.PRMT.QCAC.XD.DB1619} - Dealing with construction permits: Quality control before construction index (0-1) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.QCAC.XD.DB1619:IC.CNST.PRMT.QCAC.XD.DB1619} - Dealing with construction permits: Quality control after construction index (0-3) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -566,7 +540,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNST.PRMT.RK}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.RK:IC.CNST.PRMT.RK} - Dealing with construction permits: Time (days)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.RK:IC.CNST.PRMT.RK} - Rank: Dealing with construction permits  (DB19 methodology) (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -584,6 +558,30 @@
 
 
 {synopt:{opt Source Notes}}Percentage of firms expected to give gifts or an informal payment to get a construction permit.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.CNST.PRMT.TM.DY.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.TM.DY.DFRN:IC.CNST.PRMT.TM.DY.DFRN} - Dealing with construction permits: Time (days)  - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of firms expected to give gifts or an informal payment to get a construction permit.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.CRD.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.XQ:IC.CRD.XQ} - Getting credit (rank)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -614,7 +612,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.CRD.DB0514.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.CRD.DB0514.DFRN:IC.CRED.ACC.CRD.DB0514.DFRN} - Getting credit (DB15-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.CRD.DB0514.DFRN:IC.CRED.ACC.CRD.DB0514.DFRN} - Getting credit (DB05-14 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -650,7 +648,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.DPTH.CISI.XD.06.DB0514}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.DPTH.CISI.XD.06.DB0514:IC.CRED.ACC.DPTH.CISI.XD.06.DB0514} - Getting credit: Depth of credit information index (0-6) (DB05-14 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.DPTH.CISI.XD.06.DB0514:IC.CRED.ACC.DPTH.CISI.XD.06.DB0514} - Getting credit: Depth of credit information index (0-6) (DB05-14 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -710,7 +708,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN:IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN} - Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN:IC.CRED.ACC.LGL.RGHT.012.XD.DB1519.DFRN} - Getting credit: Strength of legal rights index (0-12) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -722,7 +720,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.LGL.RGHT.XD.010.DB0514}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.LGL.RGHT.XD.010.DB0514:IC.CRED.ACC.LGL.RGHT.XD.010.DB0514} - Getting credit: Strength of legal rights index (0-12) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.LGL.RGHT.XD.010.DB0514:IC.CRED.ACC.LGL.RGHT.XD.010.DB0514} - Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -781,6 +779,18 @@
 
 
 {synoptline}
+{marker sourceid_IC.DMKT.LOSS.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.DMKT.LOSS.ZS:IC.DMKT.LOSS.ZS} - Products shipped to supply domestic markets lost due to theft (%)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Delay in obtaining an electrical connection is the average wait, in days, experienced to obtain an electrical connection from the day an establishment applies for it to the day it receives the service.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.ELC.ACES.DFRN.DB1015}
 {synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACES.DFRN.DB1015:IC.ELC.ACES.DFRN.DB1015} - Getting electricity (DB10-15 methodology) - Score}}
 
@@ -794,7 +804,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.ACES.DFRN.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACES.DFRN.DB1619:IC.ELC.ACES.DFRN.DB1619} - Getting electricity (DB16-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACES.DFRN.DB1619:IC.ELC.ACES.DFRN.DB1619} - Rank: Getting electricity (1=most business-friendly regulations) (DB19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -830,7 +840,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.ACS.COST.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACS.COST.DFRN:IC.ELC.ACS.COST.DFRN} - Getting electricity: Communication of tariffs and tariff changes (0-1) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.ACS.COST.DFRN:IC.ELC.ACS.COST.DFRN} - Getting electricity: Cost to get electricity (% of income per capita) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -848,6 +858,18 @@
 
 
 {synopt:{opt Source Notes}}Delay in obtaining an electrical connection is the average wait, in days, experienced to obtain an electrical connection from the day an establishment applies for it to the day it receives the service.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ELC.GIFT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.GIFT.ZS:IC.ELC.GIFT.ZS} - Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Power outages are the average number of power outages that establishments experience in a typical month.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -877,8 +899,8 @@
 
 
 {synoptline}
-{marker sourceid_IC.ELC.OUTG.DY}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.DY:IC.ELC.OUTG.DY} - Electrical outages (days)}}
+{marker sourceid_IC.ELC.OUTG.FREQ.DURS.03.DB1619}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.FREQ.DURS.03.DB1619:IC.ELC.OUTG.FREQ.DURS.03.DB1619} - Getting electricity: Total duration and frequency of outages per customer a year (0-3) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -889,15 +911,27 @@
 
 
 {synoptline}
-{marker sourceid_IC.ELC.OUTG.FREQ.DURS.03.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.FREQ.DURS.03.DB1619:IC.ELC.OUTG.FREQ.DURS.03.DB1619} - Getting electricity: Total duration and frequency of outages per customer a year (0-3) (DB16-19 methodology)}}
+{marker sourceid_IC.ELC.OUTG.HR}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.HR:IC.ELC.OUTG.HR} - Average duration of power outages (hours)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of hours of power outages.{p_end}
+{synopt:{opt Source Notes}}Percent of firms experiencing electrical outages during the previous fiscal year.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ELC.OUTG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.ZS:IC.ELC.OUTG.ZS} - Firms experiencing electrical outages (% of firms)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -974,7 +1008,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.RSTT.XD.08.DFRN.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.RSTT.XD.08.DFRN.DB1619:IC.ELC.RSTT.XD.08.DFRN.DB1619} - Getting electricity: System average interruption duration index (SAIDI) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.RSTT.XD.08.DFRN.DB1619:IC.ELC.RSTT.XD.08.DFRN.DB1619} - Getting electricity: Reliability of supply and transparency of tariff index (0-8) (DB16-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -986,7 +1020,19 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.SAID.XD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.SAID.XD.DB1619:IC.ELC.SAID.XD.DB1619} - Getting electricity: System average interruption frequency index (SAIFI) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.SAID.XD.DB1619:IC.ELC.SAID.XD.DB1619} - Getting electricity: System average interruption duration index (SAIDI) (DB16-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ELC.SAIF.XD.DB1619}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.SAIF.XD.DB1619:IC.ELC.SAIF.XD.DB1619} - Getting electricity: System average interruption frequency index (SAIFI) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1009,8 +1055,8 @@
 
 
 {synoptline}
-{marker sourceid_IC.REG.DURS.FE.DY}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.DURS.FE.DY:IC.REG.DURS.FE.DY} - Starting a business: Time - Women (days)}}
+{marker sourceid_IC.REG.DFRN.PC.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.DFRN.PC.DFRN:IC.REG.DFRN.PC.DFRN} - Starting a business: Paid-in Minimum capital (% of income per capita) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1021,8 +1067,8 @@
 
 
 {synoptline}
-{marker sourceid_IC.REG.DURS.FE.DY.DRFN}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.DURS.FE.DY.DRFN:IC.REG.DURS.FE.DY.DRFN} - Starting a business: Time - Women (days)- Score}}
+{marker sourceid_IC.REG.DURS.FE.DY}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.DURS.FE.DY:IC.REG.DURS.FE.DY} - Starting a business: Time - Women (days)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1059,6 +1105,18 @@
 {synoptline}
 {marker sourceid_IC.REG.PROC.FE.NO}
 {synopt:{bf:{help wbopendata_sourceid##IC.REG.PROC.FE.NO:IC.REG.PROC.FE.NO} - Starting a business: Procedures required - Women (number)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with specific characteristics of ownership, size, and type of production.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.PROC.FE.NO.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PROC.FE.NO.DFRN:IC.REG.PROC.FE.NO.DFRN} - Starting a business: Procedures required - Women (number) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1226,7 +1284,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.PROC.NO}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.PROC.NO:IC.REG.PRRT.PROC.NO} - Registering property: Procedures (number) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.PROC.NO:IC.REG.PRRT.PROC.NO} - Registering property: Procedures (number)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1250,7 +1308,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16} - Registering property: Quality of land administration index (0-30) (DB16 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16} - Registering property: Quality of land administration index (0-30) (DB16 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1286,7 +1344,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.REG.RK.DB19}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.REG.RK.DB19:IC.REG.PRRT.REG.RK.DB19} - Rank: Registering property (1=most business-friendly regulations)  (DB19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.REG.RK.DB19:IC.REG.PRRT.REG.RK.DB19} - Registering property: Reliability of infrastructure index (0-8) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1333,15 +1391,15 @@
 
 
 {synoptline}
-{marker sourceid_OECD.TSAL.3.ETOP}
-{synopt:{bf:{help wbopendata_sourceid##OECD.TSAL.3.ETOP:OECD.TSAL.3.ETOP} - Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Top of scale}}
+{marker sourceid_IC.REG.STRT.BUS.RK.DB19}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.STRT.BUS.RK.DB19:IC.REG.STRT.BUS.RK.DB19} - Rank: Starting a business (DB19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise where further refinements are made by World Bank staff. It is expressed in local currency units per U.S. dollar.{p_end}
+{synopt:{opt Source Notes}}This index averages the country's percentile rankings on: procedures, time, cost (% of income per capita) and minimum capital (% of income per capita){p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics, supplemented by World Bank staff estimates.{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -1354,6 +1412,18 @@
 {synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise where further refinements are made by World Bank staff. It is expressed in local currency units per U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics, supplemented by World Bank staff estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_PALM.YLD.SOE}
+{synopt:{bf:{help wbopendata_sourceid##PALM.YLD.SOE:PALM.YLD.SOE} - Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
@@ -1394,7 +1464,7 @@
 
 {synoptline}
 {marker sourceid_PAY.TAX.COIT.WKS.TM.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.COIT.WKS.TM.DB1719.DFRN:PAY.TAX.COIT.WKS.TM.DB1719.DFRN} - Paying taxes (DB06-16 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.COIT.WKS.TM.DB1719.DFRN:PAY.TAX.COIT.WKS.TM.DB1719.DFRN} - Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1466,7 +1536,7 @@
 
 {synoptline}
 {marker sourceid_PAY.TAX.PYMT.FREQ.NO}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.PYMT.FREQ.NO:PAY.TAX.PYMT.FREQ.NO} - Paying taxes: Tax payments per year (number) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.PYMT.FREQ.NO:PAY.TAX.PYMT.FREQ.NO} - Paying taxes: Payments (number per year)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1514,7 +1584,7 @@
 
 {synoptline}
 {marker sourceid_PAY.TAX.TM.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.TM.DFRN:PAY.TAX.TM.DFRN} - Paying taxes: Total tax rate (% of profit)}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.TM.DFRN:PAY.TAX.TM.DFRN} - Paying taxes: Time (hours per year) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1622,7 +1692,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.DFRN.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.DFRN.DB1519:PROT.MINOR.INV.DFRN.DB1519} - Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.DFRN.DB1519:PROT.MINOR.INV.DFRN.DB1519} - Protecting minority investors (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1754,7 +1824,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519:PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519} - Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519:PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519} - Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1766,7 +1836,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN:PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN} - Protecting minority investors: Extent of shareholder governance index (0-10) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN:PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN} - Protecting minority investors: Extent of ownership and control index (0-10) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1790,7 +1860,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519} - Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519} - Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1814,7 +1884,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD:PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD} - Protecting minority investors: Extent of director liability index (0-10)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD:PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD} - Rank: Protecting minority investors (1=most business-friendly regulations)  (DB19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1826,7 +1896,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.IC.PRIN.MINOR.RK}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.IC.PRIN.MINOR.RK:PROT.MINOR.INV.IC.PRIN.MINOR.RK} - Rank: Protecting minority investors (1=most business-friendly regulations)  (DB19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.IC.PRIN.MINOR.RK:PROT.MINOR.INV.IC.PRIN.MINOR.RK} - Protecting minority investors: Strength of investor protection index (0-10) (DB06-14 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1838,7 +1908,7 @@
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614} - Protecting minority investors: Strength of investor protection index (0-10) (DB06-14 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614} - Protecting minority investors: Strength of minority investor protection index (0-10) (DB15-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1898,7 +1968,7 @@
 
 {synoptline}
 {marker sourceid_RESLV.ISV.DB0414.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DB0414.DFRN:RESLV.ISV.DB0414.DFRN} - Resolving insolvency (DB15-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DB0414.DFRN:RESLV.ISV.DB0414.DFRN} - Resolving insolvency (DB04-14 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1970,7 +2040,7 @@
 
 {synoptline}
 {marker sourceid_RESLV.ISV.RCOV.RT}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RCOV.RT:RESLV.ISV.RCOV.RT} - Resolving insolvency: Recovery rate (cents on the dollar)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RCOV.RT:RESLV.ISV.RCOV.RT} - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2006,7 +2076,7 @@
 
 {synoptline}
 {marker sourceid_RESLV.ISV.ROPC.03.XD.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.ROPC.03.XD.DB1519:RESLV.ISV.ROPC.03.XD.DB1519} - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.ROPC.03.XD.DB1519:RESLV.ISV.ROPC.03.XD.DB1519} - Reorganization proceedings index (0-3) (DB15-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2090,7 +2160,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN:TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN} - Time to export: Border compliance (hours) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN:TRD.ACRS.BRDR.DOCS.IMP.NO.DB0615.DFRN} - Trading across borders: Documents to import (number) (DB06-15 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2210,7 +2280,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN} - Trading across borders: Time to export: Documentary compliance (hours) (DB16-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.TM.DOC.COMP.HR.DB1619.DFRN} - Trading across borders: Time to export (days) (DB06-15 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2222,7 +2292,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN} - Trading across borders: Time to export (days) (DB06-15 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.EXPT.TM.DY.DB0615.DFRN} - Time to import: Border compliance (hours) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2246,7 +2316,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619} - Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619} - Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2306,7 +2376,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to import: Documentary compliance (USD) (DB16-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.DOC.COMP.CD.DB1619.DFRN} - Time to import: Documentary compliance (hours) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 

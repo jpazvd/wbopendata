@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -61,6 +59,18 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:03 Worldwide Governance Indicators}}}
 {synoptline}
+{marker sourceid_C6}
+{synopt:{bf:{help wbopendata_sourceid##C6:C6} - Control of Corruption: Estimate}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.{p_end}
+
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+
+
+{synoptline}
 {marker sourceid_CC.EST}
 {synopt:{bf:{help wbopendata_sourceid##CC.EST:CC.EST} - Control of Corruption: Estimate}}
 
@@ -74,7 +84,7 @@
 
 {synoptline}
 {marker sourceid_CC.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Number of Sources}}
+{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -115,7 +125,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.{p_end}
+{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Upper refers to upper bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -127,7 +137,19 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
+
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+
+
+{synoptline}
+{marker sourceid_GCI.RANK.XQ}
+{synopt:{bf:{help wbopendata_sourceid##GCI.RANK.XQ:GCI.RANK.XQ} - Global Competitive Index (GCI) rank}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -158,12 +180,12 @@
 
 {synoptline}
 {marker sourceid_GE.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK:GE.PER.RNK} - Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+{synopt:{bf:{help wbopendata_sourceid##GE.PER.RNK:GE.PER.RNK} - Government Effectiveness: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies. Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Lower refers to lower bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -187,7 +209,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies.{p_end}
+{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies. Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Upper refers to upper bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -201,7 +223,7 @@
 
 {synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies.{p_end}
 
-{synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
 
 {synoptline}
@@ -242,12 +264,12 @@
 
 {synoptline}
 {marker sourceid_PV.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank}}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism captures perceptions of the likelihood that the government will be destabilized or overthrown by unconstitutional or violent means, including politically-motivated violence and terrorism.{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Lower refers to lower bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -259,7 +281,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Upper refers to upper bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Lower refers to lower bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -289,8 +311,20 @@
 
 
 {synoptline}
+{marker sourceid_REV.TXRV.SHR.CR}
+{synopt:{bf:{help wbopendata_sourceid##REV.TXRV.SHR.CR:REV.TXRV.SHR.CR} - Total Tax Revenue Sharing/DBH Pajak (in IDR)}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
+
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+
+
+{synoptline}
 {marker sourceid_RL.EST}
-{synopt:{bf:{help wbopendata_sourceid##RL.EST:RL.EST} - Rule of Law: Number of Sources}}
+{synopt:{bf:{help wbopendata_sourceid##RL.EST:RL.EST} - Rule of Law: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -314,12 +348,12 @@
 
 {synoptline}
 {marker sourceid_RL.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK:RL.PER.RNK} - Rule of Law: Percentile Rank}}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK:RL.PER.RNK} - Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence. Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Lower refers to lower bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -343,7 +377,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence. Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.    Percentile Rank Upper refers to upper bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -356,18 +390,6 @@
 
 
 {synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
-
-
-{synoptline}
-{marker sourceid_ROD.VILG.OTHR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ROD.VILG.OTHR.ZS:ROD.VILG.OTHR.ZS} - Villages with road: Other (in % of total villages)}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -409,18 +431,6 @@
 
 
 {synoptline}
-{marker sourceid_RQ.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all countries covered by the aggregate indicator, with 0 corresponding to lowest rank, and 100 to highest rank.  Percentile ranks have been adjusted to correct for changes over time in the composition of the countries covered by the WGI.  Percentile Rank Lower refers to lower bound of 90 percent confidence interval for governance, expressed in percentile rank terms.{p_end}
-
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
-
-
-{synoptline}
 {marker sourceid_RQ.PER.RNK.UPPER}
 {synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
@@ -428,6 +438,30 @@
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
+
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+
+
+{synoptline}
+{marker sourceid_RQ.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##RQ.STD.ERR:RQ.STD.ERR} - Regulatory Quality: Standard Error}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
+
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+
+
+{synoptline}
+{marker sourceid_UPP.REV.POL.XQ}
+{synopt:{bf:{help wbopendata_sourceid##UPP.REV.POL.XQ:UPP.REV.POL.XQ} - Voice and Accountability: Estimate}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -446,7 +480,7 @@
 
 {synoptline}
 {marker sourceid_VA.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##VA.NO.SRC:VA.NO.SRC} - Voice and Accountability: Number of Sources}}
+{synopt:{bf:{help wbopendata_sourceid##VA.NO.SRC:VA.NO.SRC} - Voice and Accountability: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 

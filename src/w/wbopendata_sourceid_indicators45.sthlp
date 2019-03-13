@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -42,7 +41,6 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -146,7 +144,7 @@
 
 {synoptline}
 {marker sourceid_DAK.HE.CR}
-{synopt:{bf:{help wbopendata_sourceid##DAK.HE.CR:DAK.HE.CR} - Total Specific Allocation Grant for Health (in IDR Billion)}}
+{synopt:{bf:{help wbopendata_sourceid##DAK.HE.CR:DAK.HE.CR} - Total Specific Allocation Grant for Health Sector (Subsect: Recommended Services) (in IDR Billion)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -194,7 +192,7 @@
 
 {synoptline}
 {marker sourceid_DAK.INFR.IRIG.CR}
-{synopt:{bf:{help wbopendata_sourceid##DAK.INFR.IRIG.CR:DAK.INFR.IRIG.CR} - Total Specific Allocation Grant for Infrastructure Sector (Subsect: Road) (in IDR Billion)}}
+{synopt:{bf:{help wbopendata_sourceid##DAK.INFR.IRIG.CR:DAK.INFR.IRIG.CR} - Total Specific Allocation Grant for Infrastructure Sector (Subsect: Irrigation) (in IDR Billion)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -289,6 +287,18 @@
 
 
 {synoptline}
+{marker sourceid_EC.XPD.TOTL.CR}
+{synopt:{bf:{help wbopendata_sourceid##EC.XPD.TOTL.CR:EC.XPD.TOTL.CR} - Total Expenditure (in IDR)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
+
+{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+
+
+{synoptline}
 {marker sourceid_ENF.CONT.EC.QJPI}
 {synopt:{bf:{help wbopendata_sourceid##ENF.CONT.EC.QJPI:ENF.CONT.EC.QJPI} - Enforcing contracts: Quality of the judicial administration index (0-18) (DB17-19 methodology)}}
 
@@ -302,7 +312,7 @@
 
 {synoptline}
 {marker sourceid_EP.CPI.1996}
-{synopt:{bf:{help wbopendata_sourceid##EP.CPI.1996:EP.CPI.1996} - Consumer Price Index in 42 cities base 1996}}
+{synopt:{bf:{help wbopendata_sourceid##EP.CPI.1996:EP.CPI.1996} - Consumer Price Index in 45 cities base 2002}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -314,7 +324,7 @@
 
 {synoptline}
 {marker sourceid_EP.CPI.2002}
-{synopt:{bf:{help wbopendata_sourceid##EP.CPI.2002:EP.CPI.2002} - Consumer Price Index in 66 cities base 2007}}
+{synopt:{bf:{help wbopendata_sourceid##EP.CPI.2002:EP.CPI.2002} - Consumer Price Index in 45 cities base 2002}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -362,7 +372,7 @@
 
 {synoptline}
 {marker sourceid_FC.XPD.EDU.CR}
-{synopt:{bf:{help wbopendata_sourceid##FC.XPD.EDU.CR:FC.XPD.EDU.CR} - Environment function expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.EDU.CR:FC.XPD.EDU.CR} - Education function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -398,7 +408,7 @@
 
 {synoptline}
 {marker sourceid_FC.XPD.HOUS.CR}
-{synopt:{bf:{help wbopendata_sourceid##FC.XPD.HOUS.CR:FC.XPD.HOUS.CR} - Infrastructure function expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.HOUS.CR:FC.XPD.HOUS.CR} - Housing and public facilities function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -434,7 +444,7 @@
 
 {synoptline}
 {marker sourceid_FC.XPD.PUBL.CR}
-{synopt:{bf:{help wbopendata_sourceid##FC.XPD.PUBL.CR:FC.XPD.PUBL.CR} - Public, law and order function expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.PUBL.CR:FC.XPD.PUBL.CR} - Religious function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -446,7 +456,7 @@
 
 {synoptline}
 {marker sourceid_FC.XPD.RELG.CR}
-{synopt:{bf:{help wbopendata_sourceid##FC.XPD.RELG.CR:FC.XPD.RELG.CR} - Religious function expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.RELG.CR:FC.XPD.RELG.CR} - Tourism and culture function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -465,7 +475,19 @@
 
 {synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_FM.LBL.XMQM.CN}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBL.XMQM.CN:FM.LBL.XMQM.CN} - Other liabilities excluding M2 (current LCU)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Central bank intervention rate.{p_end}
+
+{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
 
 
 {synoptline}
@@ -482,7 +504,7 @@
 
 {synoptline}
 {marker sourceid_FN.CRED.BUS.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##FN.CRED.BUS.TOTL:FN.CRED.BUS.TOTL} - Total Credit by Utilization: Consumption (province level, in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##FN.CRED.BUS.TOTL:FN.CRED.BUS.TOTL} - Total Credit by Sector: Business (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -494,7 +516,7 @@
 
 {synoptline}
 {marker sourceid_FN.CRED.CNSP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##FN.CRED.CNSP.TOTL:FN.CRED.CNSP.TOTL} - Total Credit by Sector: Construction (province level, in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##FN.CRED.CNSP.TOTL:FN.CRED.CNSP.TOTL} - Total Credit by Utilization: Consumption (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -542,7 +564,7 @@
 
 {synoptline}
 {marker sourceid_FN.CRED.MNF.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##FN.CRED.MNF.TOTL:FN.CRED.MNF.TOTL} - Total Credit by Sector: Other Services (province level, in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##FN.CRED.MNF.TOTL:FN.CRED.MNF.TOTL} - Total Credit by Sector: Manufacture (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -578,7 +600,7 @@
 
 {synoptline}
 {marker sourceid_FN.CRED.TRAD.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##FN.CRED.TRAD.TOTL:FN.CRED.TRAD.TOTL} - Total Credit by Sector: Trade (province level, in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##FN.CRED.TRAD.TOTL:FN.CRED.TRAD.TOTL} - Total Credit by Sector: Transportation (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -602,7 +624,7 @@
 
 {synoptline}
 {marker sourceid_FN.CRED.UTL.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##FN.CRED.UTL.TOTL:FN.CRED.UTL.TOTL} - Total Credit by Sector: Utilities (province level, in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##FN.CRED.UTL.TOTL:FN.CRED.UTL.TOTL} - Total Credit by Utilization: Working Capital (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -633,12 +655,24 @@
 
 {synopt:{opt Source Notes}}Central bank intervention rate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
 
 
 {synoptline}
 {marker sourceid_FN.INR.CBIR}
 {synopt:{bf:{help wbopendata_sourceid##FN.INR.CBIR:FN.INR.CBIR} - Central bank intervention rate (%)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used. Data are period averages.{p_end}
+
+{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
+
+
+{synoptline}
+{marker sourceid_FN.LOAN.CBK.TOTL}
+{synopt:{bf:{help wbopendata_sourceid##FN.LOAN.CBK.TOTL:FN.LOAN.CBK.TOTL} - Total Commercial and Rural Banks Loans Rupiah and Foreign Currency (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -733,27 +767,15 @@
 
 
 {synoptline}
-{marker sourceid_IDX.HDI}
-{synopt:{bf:{help wbopendata_sourceid##IDX.HDI:IDX.HDI} - Human Development Index}}
+{marker sourceid_HOU.XPD.TOTL.20POOR.CR}
+{synopt:{bf:{help wbopendata_sourceid##HOU.XPD.TOTL.20POOR.CR:HOU.XPD.TOTL.20POOR.CR} - Monthly Per Capita TOTAL Household Expenditure for The Poorest 20 percent (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Information and communications technology expenditures include computer hardware (computers, storage devices, printers, and other peripherals); computer software (operating systems, programming tools, utilities, applications, and internal software development); computer services (information technology consulting, computer and network systems integration, Web hosting, data processing services, and other services); and communications services (voice and data communications services) and wired and wireless communications equipment.{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
-
-
-{synoptline}
-{marker sourceid_MS.MIL.XPRT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##MS.MIL.XPRT.ZS:MS.MIL.XPRT.ZS} - Arms exports (% of total exports)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
 
 
 {synoptline}
@@ -770,7 +792,7 @@
 
 {synoptline}
 {marker sourceid_NA.GDP.AGR.KR}
-{synopt:{bf:{help wbopendata_sourceid##NA.GDP.AGR.KR:NA.GDP.AGR.KR} - GDP on Construction Sector (in IDR Million), Current Price}}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.AGR.KR:NA.GDP.AGR.KR} - GDP on Agriculture Sector (in IDR Million), Constant Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -842,7 +864,7 @@
 
 {synoptline}
 {marker sourceid_NA.GDP.FINS.KR}
-{synopt:{bf:{help wbopendata_sourceid##NA.GDP.FINS.KR:NA.GDP.FINS.KR} - Total GDP including Oil and Gas (in IDR Million), Current Price}}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.FINS.KR:NA.GDP.FINS.KR} - GDP on Financial Service Sector (in IDR Million), Constant Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -878,7 +900,7 @@
 
 {synoptline}
 {marker sourceid_NA.GDP.MINQ.CR}
-{synopt:{bf:{help wbopendata_sourceid##NA.GDP.MINQ.CR:NA.GDP.MINQ.CR} - GDP on Mining and Quarrying Sector (in IDR Million), Current Price}}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.MINQ.CR:NA.GDP.MINQ.CR} - GDP on Mining and Quarrying Sector (in IDR Million), Constant Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -974,7 +996,7 @@
 
 {synoptline}
 {marker sourceid_NA.GDP.TRD.HTL.CR}
-{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRD.HTL.CR:NA.GDP.TRD.HTL.CR} - GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Constant Price}}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRD.HTL.CR:NA.GDP.TRD.HTL.CR} - GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Current Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1009,13 +1031,13 @@
 
 
 {synoptline}
-{marker sourceid_NA.GDP.UTL.KR}
-{synopt:{bf:{help wbopendata_sourceid##NA.GDP.UTL.KR:NA.GDP.UTL.KR} - GDP on Utilities Sector (in IDR Million), Constant Price}}
+{marker sourceid_NE.EXP.TTEF.KN}
+{synopt:{bf:{help wbopendata_sourceid##NE.EXP.TTEF.KN:NE.EXP.TTEF.KN} - GDP expenditure on general government consumption (in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets, by central government.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1057,6 +1079,30 @@
 
 
 {synoptline}
+{marker sourceid_NE.GDI.EXPT.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.EXPT.CR:NE.GDI.EXPT.CR} - GDP expenditure on exports (in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets, by central government.  Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.FTOT.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FTOT.CR:NE.GDI.FTOT.CR} - GDP expenditure on gross fixed capital formation (in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private residential dwellings, and commercial and industrial buildings. According to the 1993 SNA, net acquisitions of valuables are also considered capital formation. Data are in constant 2010 U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
 {marker sourceid_NE.GDI.IMPT.CR}
 {synopt:{bf:{help wbopendata_sourceid##NE.GDI.IMPT.CR:NE.GDI.IMPT.CR} - GDP expenditure on imports (in IDR Million)}}
 
@@ -1064,18 +1110,6 @@
 
 
 {synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
-
-
-{synoptline}
-{marker sourceid_NE.GDI.STKB.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.CR:NE.GDI.STKB.CR} - GDP expenditure on changes in stock (in IDR Million)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in constant local currency.{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -1089,7 +1123,7 @@
 
 {synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private residential dwellings, and commercial and industrial buildings. Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. According to the 1993 SNA, net acquisitions of valuables are also considered capital formation. Data are in constant 2010 U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -1130,7 +1164,7 @@
 
 {synoptline}
 {marker sourceid_NRRV.SHR.GEOT.CR}
-{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.GEOT.CR:NRRV.SHR.GEOT.CR} - Total Natural Resources Revenue Sharing from Mining (in IDR, realization value)}}
+{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.GEOT.CR:NRRV.SHR.GEOT.CR} - Total Natural Resources Revenue Sharing from Geothermal  Energy (in IDR, realization value)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1142,7 +1176,7 @@
 
 {synoptline}
 {marker sourceid_NRRV.SHR.MIN.CR}
-{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.MIN.CR:NRRV.SHR.MIN.CR} - Total Natural Resources Revenue Sharing from Oil (in IDR, realization value)}}
+{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.MIN.CR:NRRV.SHR.MIN.CR} - Total Natural Resources Revenue Sharing from Mining (in IDR, realization value)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1153,15 +1187,15 @@
 
 
 {synoptline}
-{marker sourceid_NRRV.SHR.PETR.CR}
-{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.PETR.CR:NRRV.SHR.PETR.CR} - Total Natural Resources Revenue Sharing from Oil (in IDR, realization value)}}
+{marker sourceid_PA.PPR.WHEA.CN}
+{synopt:{bf:{help wbopendata_sourceid##PA.PPR.WHEA.CN:PA.PPR.WHEA.CN} - Palm Oil Land Area by type of condition: Damaged (in Hectares)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production.{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
-{synopt:{opt Source Organization}}Derived using World Bank national accounts data and OECD National Accounts data files, and employment data from International Labour Organization, ILOSTAT database.{p_end}
+{synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
 
 {synoptline}
@@ -1190,7 +1224,7 @@
 
 {synoptline}
 {marker sourceid_PALM.LND.MTR}
-{synopt:{bf:{help wbopendata_sourceid##PALM.LND.MTR:PALM.LND.MTR} - Palm Oil Land Area by type of ownership: Private (in Hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##PALM.LND.MTR:PALM.LND.MTR} - Palm Oil Land Area by type of condition: Mature (in Hectares)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1202,7 +1236,7 @@
 
 {synoptline}
 {marker sourceid_PALM.LND.PRVT}
-{synopt:{bf:{help wbopendata_sourceid##PALM.LND.PRVT:PALM.LND.PRVT} - Palm Oil Land Area by type of ownership: Private (in Hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##PALM.LND.PRVT:PALM.LND.PRVT} - Palm Oil Land Area by type of ownership: Smallholder (in Hectares)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1310,7 +1344,7 @@
 
 {synoptline}
 {marker sourceid_PALM.YLD.SMHD}
-{synopt:{bf:{help wbopendata_sourceid##PALM.YLD.SMHD:PALM.YLD.SMHD} - Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha)}}
+{synopt:{bf:{help wbopendata_sourceid##PALM.YLD.SMHD:PALM.YLD.SMHD} - Palm Oil Yield by type of ownership: Smallholder (in Kg/Ha)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1318,47 +1352,11 @@
 {synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
-
-
-{synoptline}
-{marker sourceid_PALM.YLD.SOE}
-{synopt:{bf:{help wbopendata_sourceid##PALM.YLD.SOE:PALM.YLD.SOE} - Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
-
-
-{synoptline}
-{marker sourceid_REER}
-{synopt:{bf:{help wbopendata_sourceid##REER:REER} - Real Effective Exchange Rate}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
-
-{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
 
 
 {synoptline}
 {marker sourceid_RES.DPST.CBK}
 {synopt:{bf:{help wbopendata_sourceid##RES.DPST.CBK:RES.DPST.CBK} - Outstanding Deposits of Commercial Banks owned by Regional Government (Province Level, in IDR Million)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
-
-{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
-
-
-{synoptline}
-{marker sourceid_RETSALESSA}
-{synopt:{bf:{help wbopendata_sourceid##RETSALESSA:RETSALESSA} - Retail Sales Volume,Index,,,}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1394,7 +1392,7 @@
 
 {synoptline}
 {marker sourceid_REV.NRRV.SHR.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.NRRV.SHR.CR:REV.NRRV.SHR.CR} - Total Natural Resource Revenue Sharing/DBH SDA (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##REV.NRRV.SHR.CR:REV.NRRV.SHR.CR} - Total Own Source Revenue/PAD (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1418,7 +1416,7 @@
 
 {synoptline}
 {marker sourceid_REV.OTHR.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.OTHR.CR:REV.OTHR.CR} - Total Other Revenue (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##REV.OTHR.CR:REV.OTHR.CR} - Total Revenue Sharing}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1453,27 +1451,15 @@
 
 
 {synoptline}
-{marker sourceid_REV.TXRV.SHR.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.TXRV.SHR.CR:REV.TXRV.SHR.CR} - Total Tax Revenue Sharing/DBH Pajak (in IDR)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
-
-
-{synoptline}
 {marker sourceid_ROD.DIST.ASPH.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.ASPH.KM:ROD.DIST.ASPH.KM} - Length of District Road: Bad Damage (in km) (Bina Marga Data)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.ASPH.KM:ROD.DIST.ASPH.KM} - Length of District Road: Asphalt (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -1490,7 +1476,7 @@
 
 {synoptline}
 {marker sourceid_ROD.DIST.BDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.BDMG.KM:ROD.DIST.BDMG.KM} - Length of District Road: Bad Damage (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.BDMG.KM:ROD.DIST.BDMG.KM} - Length of District Road: Dirt (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1509,7 +1495,7 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
 
 
 {synoptline}
@@ -1545,7 +1531,7 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
 
 
 {synoptline}
@@ -1569,7 +1555,7 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
 
 
 {synoptline}
@@ -1718,7 +1704,7 @@
 
 {synoptline}
 {marker sourceid_ROD.PROV.BDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.BDMG.KM:ROD.PROV.BDMG.KM} - Length of Province Road: Bad Damage (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.BDMG.KM:ROD.PROV.BDMG.KM} - Length of Province Road: Dirt (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1778,7 +1764,7 @@
 
 {synoptline}
 {marker sourceid_ROD.PROV.LDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.LDMG.KM:ROD.PROV.LDMG.KM} - Length of Province Road: Light Damage (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.LDMG.KM:ROD.PROV.LDMG.KM} - Length of Province Road: Other (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1790,7 +1776,7 @@
 
 {synoptline}
 {marker sourceid_ROD.PROV.OTHR.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.OTHR.KM:ROD.PROV.OTHR.KM} - Villages with road: Asphalt (in % of total villages)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.OTHR.KM:ROD.PROV.OTHR.KM} - Length of Province Road: Other (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1826,7 +1812,19 @@
 
 {synoptline}
 {marker sourceid_ROD.VILG.GRAVL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ROD.VILG.GRAVL.ZS:ROD.VILG.GRAVL.ZS} - Villages with road: Gravel (in % of total villages)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.VILG.GRAVL.ZS:ROD.VILG.GRAVL.ZS} - Villages with road: Other (in % of total villages)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+
+
+{synoptline}
+{marker sourceid_ROD.VILG.OTHR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##ROD.VILG.OTHR.ZS:ROD.VILG.OTHR.ZS} - Villages with road: Other (in % of total villages)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1885,6 +1883,18 @@
 
 
 {synoptline}
+{marker sourceid_SE.NEXM.SCR.SRSEC}
+{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.SRSEC:SE.NEXM.SCR.SRSEC} - Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
+
+{synopt:{opt Source Organization}}Ministry of Education{p_end}
+
+
+{synoptline}
 {marker sourceid_SE.SCHL.JRSEC}
 {synopt:{bf:{help wbopendata_sourceid##SE.SCHL.JRSEC:SE.SCHL.JRSEC} - Number of schools at Junior Secondary Level}}
 
@@ -1898,7 +1908,7 @@
 
 {synoptline}
 {marker sourceid_SE.SCHL.PRM}
-{synopt:{bf:{help wbopendata_sourceid##SE.SCHL.PRM:SE.SCHL.PRM} - Number of schools at Primary Level}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SCHL.PRM:SE.SCHL.PRM} - Number of schools at Senior Secondary level}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1909,15 +1919,15 @@
 
 
 {synoptline}
-{marker sourceid_SE.SCHL.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.SCHL.SRSEC:SE.SCHL.SRSEC} - Number of schools at Senior Secondary level}}
+{marker sourceid_SE.SEC.UNER.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.ZS:SE.SEC.UNER.ZS} - Children out of school, secondary (% of relevant age group)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the system without repeating or skipping a grade.{p_end}
+{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
@@ -1929,12 +1939,12 @@
 
 {synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
+{synopt:{opt Source Organization}}Ministry of Education{p_end}
 
 
 {synoptline}
 {marker sourceid_SE.STUD.JRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.STUD.JRSEC:SE.STUD.JRSEC} - Number of Student: Junior Secondary Level (in number of people, 2009 data only)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.STUD.JRSEC:SE.STUD.JRSEC} - Number of Student: Primary Level (in number of people, 2009 data only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2001,7 +2011,7 @@
 
 {synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}Ministry of Education{p_end}
 
 
 {synoptline}
@@ -2014,42 +2024,6 @@
 {synopt:{opt Source Notes}}Number of deaths of children ages 5-14 years{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.TOTL.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.NUM:SH.HIV.TOTL.NUM} - People living with HIV/AIDS, total}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HOSP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.HOSP.TOTL:SH.HOSP.TOTL} - Number of hospitals}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.IMM.CHLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.IMM.CHLD.ZS:SH.IMM.CHLD.ZS} - Immunization Coverage for Children under 5 years old (in % of children population under 5 years old)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Child immunization rate, hepatitis B is the percentage of children ages 12-23 months who received hepatitis B vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.{p_end}
-
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
 
 {synoptline}
@@ -2073,19 +2047,19 @@
 
 {synopt:{opt Source Notes}}Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
-{marker sourceid_SH.POLINDES.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.POLINDES.TOTL:SH.POLINDES.TOTL} - Number of Polindes (Poliklinik Desa/Village Polyclinic)}}
+{marker sourceid_SI.POV.BPL}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.BPL:SI.POV.BPL} - Number of people live below the poverty line (in number of people)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/gho/data/node.main.1?lang=en"}).{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -2150,7 +2124,7 @@
 
 {synoptline}
 {marker sourceid_SL.EMP.ELC}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.ELC:SL.EMP.ELC} - Number of people employed in electricity and utilities sector}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.ELC:SL.EMP.ELC} - Number of people employed in financial services sector}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2162,7 +2136,7 @@
 
 {synoptline}
 {marker sourceid_SL.EMP.FINS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.FINS:SL.EMP.FINS} - Number of people employed in industrial sector}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.FINS:SL.EMP.FINS} - Number of people employed in financial services sector}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2181,7 +2155,7 @@
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization.{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
 
 {synoptline}
@@ -2193,7 +2167,7 @@
 
 {synopt:{opt Source Notes}}Total employment shows the total number employed ages 15 and over.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
 
 {synoptline}
@@ -2221,18 +2195,6 @@
 
 
 {synoptline}
-{marker sourceid_SL.TLF}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF:SL.TLF} - Number of people in labor force}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
-
-
-{synoptline}
 {marker sourceid_SL.UEM.TOTL}
 {synopt:{bf:{help wbopendata_sourceid##SL.UEM.TOTL:SL.UEM.TOTL} - Number of people unemployed}}
 
@@ -2242,18 +2204,6 @@
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
-
-
-{synoptline}
-{marker sourceid_SP.URB.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.ZS:SP.URB.TOTL.ZS} - Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -2294,7 +2244,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.FLVSK}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.FLVSK:TRAD.EXPT.FLVSK} - Export: Mineral fuels, lubricants and related materials (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.FLVSK:TRAD.EXPT.FLVSK} - Export: Food and Live Animals (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2306,7 +2256,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.FUEL}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.FUEL:TRAD.EXPT.FUEL} - Export: Mineral fuels, lubricants and related materials (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.FUEL:TRAD.EXPT.FUEL} - Export: Manufactured goods, classified chiefly by material (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2366,7 +2316,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.OTHR}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.OTHR:TRAD.EXPT.OTHR} - Import: Beverages and tobacco (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.OTHR:TRAD.EXPT.OTHR} - Export: Commodities and transaction not elsewhere classified (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2390,7 +2340,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.IMPT.CHEM}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.CHEM:TRAD.IMPT.CHEM} - Import: Crude materials, inedible, except fuels (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.CHEM:TRAD.IMPT.CHEM} - Import: Chemical and related products, nes (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2474,7 +2424,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.IMPT.OLFTW}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.OLFTW:TRAD.IMPT.OLFTW} - Import: Commodities and transaction not elsewhere classified (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.OLFTW:TRAD.IMPT.OLFTW} - Import: Animals and vegetable oil, fat and waxes (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2493,19 +2443,7 @@
 
 {synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
-
-
-{synoptline}
-{marker sourceid_lm_ub.gen_pop}
-{synopt:{bf:{help wbopendata_sourceid##lm_ub.gen_pop:lm_ub.gen_pop} - Total Area (in Km²)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of letters and/or symbols representing a single sound, are presented). Students are asked to provide the names of all the letters that they can in one minute. Users are discouraged from using these data to make direct comparisons across countries or languages. Consult the EdData website and the specific country report for more information: {browse "www.eddataglobal.org."}{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Unpublished statistics on Sub-National Trade{p_end}
 
 
 
