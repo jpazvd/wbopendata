@@ -29,12 +29,22 @@ program define _indicators, rclass
 
 *******************************************************************************
 
+if ("`file'" == "") {
+
 	tempfile file1 file2
 
 	_api_read_indicators, update preserveout file1(`file1')  file2(`file2')
 
 	local file "`r(file2)'"
 	
+}
+
+if ("`file'" == "") {
+
+	local file2 "`file'"
+
+}
+
 *******************************************************************************
 quietly {
 
