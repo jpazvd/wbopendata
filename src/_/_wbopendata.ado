@@ -1,6 +1,7 @@
 **********************************************************
 *! version 15.2 			<13Mar2019>		JPAzevedo
 *	change indicators update; function _update_indicators.ado replaced by _indicators.ado
+*	increase the return list stored under parameterre
 * version 15.1 			<3Mar2019>		JPAzevedo
 *	include countrymetadata option
 *	include force option
@@ -255,6 +256,8 @@ syntax , 								///
 			file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
 			file write `out' `""' 					_n
 			file write `out' `"program define _parameters, rclass"' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"version 9"' 					_n
 			file write `out' `""' 					_n
 			file write `out' `"		return add"' 					_n
 			file write `out' `""' 					_n

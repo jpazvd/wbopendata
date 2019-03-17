@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -40,7 +39,6 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -118,7 +116,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The percentage of respondents with an account (self or together with someone else) at a bank, credit union, another financial institution (e.g., cooperative, microfinance institution), or the post office (if applicable) including respondents w{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents with an account (self or together with someone else) at a bank, credit union, another financial institution (e.g., cooperative, microfinance institution), or the post office (if applicable) including respondents who reported having a debit card (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -235,7 +233,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The percentage of respondents who borrowed any money in the past 12 months from any of the following sources: a formal financial institution, a store by using installment credit, family or friends, employer, or another private lender (% age 15{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who borrowed any money in the past 12 months from any of the following sources: a formal financial institution, a store by using installment credit, family or friends, employer, or another private lender (% age 15+). (Note that getting a loan does not necessarily require having an account.){p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -339,7 +337,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The percentage of respondents who used electronic payments (payments that one makes or that are made automatically including wire transfers or payments made online) in the past 12 months to make payments on bills or to buy things using money f{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who used electronic payments (payments that one makes or that are made automatically including wire transfers or payments made online) in the past 12 months to make payments on bills or to buy things using money from their accounts (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -391,7 +389,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Adults depositing/withdrawing at least once in a typical month (% age 15+). It is calculated as follows: (100 - 0 deposits/withdrawals in typical month (% with an account,  age 15+) ) * (Account at a formal financial institution (% age 15+)) /{p_end}
+{synopt:{opt Source Notes}}Adults depositing/withdrawing at least once in a typical month (% age 15+). It is calculated as follows: (100 - 0 deposits/withdrawals in typical month (% with an account,  age 15+) ) * (Account at a formal financial institution (% age 15+)) / 100.  0 deposits/withdrawals in typical month (% with an account,  age 15+) denotes the percentage of respondents with an account at a formal financial institution who report making zero deposits into or zero withdrawals from their personal account(s) in a typical month (also called “inactive account”). This includes cash or electronic deposits, or any time money is put into or removed from account(s) by self or others (% age 15+, with an account). Account at a formal financial institution (% age 15+) denotes the percentage of respondents with an account (self or together with someone else) at a bank, credit union, another financial institution (e.g., cooperative, microfinance institution), or the post office (if applicable) including respondents who reported having a debit card (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -469,7 +467,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the sum of all firms who applied and did not apply for a loan. The numerator is the number of firms who did not apply f{p_end}
+{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the sum of all firms who applied and did not apply for a loan. The numerator is the number of firms who did not apply for a loan and also stated that they did not need a loan.{p_end}
 
 {synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
 
@@ -534,7 +532,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Value of all traded shares outside of the top ten largest traded companies as a share of total value of all traded shares in a stock market exchange. WFE provides data on the exchange level. This variable is aggregated up to the country level{p_end}
+{synopt:{opt Source Notes}}Value of all traded shares outside of the top ten largest traded companies as a share of total value of all traded shares in a stock market exchange. WFE provides data on the exchange level. This variable is aggregated up to the country level by taking a simple average over exchanges.{p_end}
 
 {synopt:{opt Source Organization}}World Federation of Exchanges{p_end}
 
@@ -586,7 +584,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and{p_end}
+{synopt:{opt Source Notes}}Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF’s International Financial Statistics. Private credit by deposit money banks (IFS line 22d); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -599,7 +597,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by deposit money banks as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is deposit money bank claims, P_e is end-of period CPI,{p_end}
+{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by deposit money banks as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is deposit money bank claims, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF’s International Financial Statistics. Deposit money bank assets (IFS lines 22, a-d); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -612,7 +610,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by other financial institutions as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at]  where F is other financial institutions' claims, P_e i{p_end}
+{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by other financial institutions as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at]  where F is other financial institutions' claims, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF’s International Financial Statistics. Nonbank financial institutions assets (IFS lines 42, a-d, h, and s); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -638,7 +636,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of liquid liabilities to GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is liquid liabilities, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the elec{p_end}
+{synopt:{opt Source Notes}}Ratio of liquid liabilities to GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is liquid liabilities, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF's International Financial Statistics. Liquid liabilities (IFS lines 55L or, if not available, line 35L); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF) For Eurocurrency  area countries liquid liabilities are estimated by summing IFS items 34A, 34B and 35.{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -651,7 +649,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by the Central Bank as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is Central Bank claims, P_e is end-of period CPI, and P_a{p_end}
+{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by the Central Bank as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is Central Bank claims, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF's International Financial Statistics. Central Bank claims (IFS lines 12, a-d); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -677,7 +675,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks and other financial institutions as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving dep{p_end}
+{synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks and other financial institutions as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving deposits, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF’s International Financial Statistics. Financial system deposits (IFS lines 24, 25, 44, and 45); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -729,7 +727,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and{p_end}
+{synopt:{opt Source Notes}}Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF’s International Financial Statistics. Private credit by deposit money banks and other financial institutions (IFS lines 22d and 42d); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF){p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -755,7 +753,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. Fo{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (WDI), World Bank{p_end}
 
@@ -768,7 +766,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Value of listed shares to GDP, calculated using the following deflation  method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is average annual CPI. End-of period CPI ({p_end}
+{synopt:{opt Source Notes}}Value of listed shares to GDP, calculated using the following deflation  method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is average annual CPI. End-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF) and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
@@ -781,7 +779,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Total value of all traded shares in a stock market exchange as a percentage of GDP.  Following deflation method is use:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is{p_end}
+{synopt:{opt Source Notes}}Total value of all traded shares in a stock market exchange as a percentage of GDP.  Following deflation method is use:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is average annual CPI. End-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF) and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
@@ -794,7 +792,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Total amount of domestic private debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers data on long-term bonds and notes, commercial paper and other short-term notes. Table 16A (domestic debt amount): al{p_end}
+{synopt:{opt Source Notes}}Total amount of domestic private debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers data on long-term bonds and notes, commercial paper and other short-term notes. Table 16A (domestic debt amount): all issuers minus governments / GDP. End of year data (i.e. December data) are considered for debt securities.  The figures are deflated using the following methodology: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is the level domestic private debt, P_e is end-of period CPI, and P_a is average annual CPI. GDP is from World Development Indicators. End-of period CPI is taken from IFS line 64M..ZF month of December (or if not available Q4). Average annual CPI is constructed from the monthly CPI figure taken from IFS line 64..ZF.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -807,7 +805,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Total amount of domestic public debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers long-term bonds and notes, treasury bills, commercial paper and other short-term notes. Table 16A (domestic debt amou{p_end}
+{synopt:{opt Source Notes}}Total amount of domestic public debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers long-term bonds and notes, treasury bills, commercial paper and other short-term notes. Table 16A (domestic debt amount): governments / GDP. End of year data (i.e. December data) are considered for debt securities. The figures are deflated using the following methodology: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is the level domestic public debt, P_e is end-of period CPI, and P_a is average annual CPI. GDP is from World Development Indicators. End-of period CPI is taken from IFS line 64M..ZF month of December (or if not available Q4). Average annual CPI is constructed from the monthly CPI figure taken from IFS line 64..ZF.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -820,7 +818,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Amount of private international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. (Table 12A  (international debt amount: all issuers) -{p_end}
+{synopt:{opt Source Notes}}Amount of private international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. (Table 12A  (international debt amount: all issuers) - Table 12D (international debt amount: governments)) / GDP. End of year data (i.e. December data) are considered for debt securities. The figures are deflated using the following methodology: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is the level intenational private debt, P_e is end-of period CPI, and P_a is average annual CPI. GDP is from World Development Indicators.End-of period CPI is taken from IFS line 64M..ZF month of December (or if not available Q4). Average annual CPI is constructed from the monthly CPI figure taken from IFS line 64..ZF.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -833,7 +831,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Amount of public international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. Table 12D (international debt amount): governments / GDP{p_end}
+{synopt:{opt Source Notes}}Amount of public international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. Table 12D (international debt amount): governments / GDP. End of year data (i.e. December data) are considered for debt securities. The figures are deflated using the following methodology: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is the level international public debt, P_e is end-of period CPI, and P_a is average annual CPI. GDP is from World Development Indicators. End-of period CPI is taken from IFS line 64M..ZF month of December (or if not available Q4). Average annual CPI is constructed from the monthly CPI figure taken from IFS line 64..ZF.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -859,7 +857,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of gross portfolio equity liabilities to GDP. Equity liabilities include shares, stocks, participation, and similar documents (such as American depository receipts) that usually denote ownership of equity. Raw data are from the electroni{p_end}
+{synopt:{opt Source Notes}}Ratio of gross portfolio equity liabilities to GDP. Equity liabilities include shares, stocks, participation, and similar documents (such as American depository receipts) that usually denote ownership of equity. Raw data are from the electronic version of the IMF's International Financial Statistics. IFS line 79LDDZF/ GDP. Local currency GDP is from IFS (line 99B..ZF or, if not available, line 99B.CZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -872,7 +870,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of gross portfolio equity assets to GDP. Equity assets include shares, stocks, participation, and similar documents (such as American depository receipts) that usually denote ownership of equity. Raw data are from the electronic version{p_end}
+{synopt:{opt Source Notes}}Ratio of gross portfolio equity assets to GDP. Equity assets include shares, stocks, participation, and similar documents (such as American depository receipts) that usually denote ownership of equity. Raw data are from the electronic version of the IMF's International Financial Statistics. IFS line 79ADDZF / GDP. Local currency GDP is from IFS (line 99B..ZF or, if not available, line 99B.CZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -885,7 +883,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of gross portfolio debt liabilities to GDP. Debt liabilities cover (1) bonds, debentures, notes, etc., and (2) money market or negotiable debt instruments. Raw data are from the electronic version of the IMF's International Financial Sta{p_end}
+{synopt:{opt Source Notes}}Ratio of gross portfolio debt liabilities to GDP. Debt liabilities cover (1) bonds, debentures, notes, etc., and (2) money market or negotiable debt instruments. Raw data are from the electronic version of the IMF's International Financial Statistics. IFS line 79LEDZF / GDP. Local currency GDP is from IFS (line 99B..ZF or, if not available, line 99B.CZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -897,7 +895,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -909,7 +907,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -921,7 +919,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -933,7 +931,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -945,7 +943,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -958,7 +956,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -971,7 +969,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF’s International Financial Statistics. Difference between lending rate and deposit rate. Lending rate is the rate charged by banks on loans to the private sector and deposit interest rate is{p_end}
+{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF’s International Financial Statistics. Difference between lending rate and deposit rate. Lending rate is the rate charged by banks on loans to the private sector and deposit interest rate is the rate offered by commercial banks on three-month deposits. IFS line 60P - line 60L.{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -984,7 +982,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2085 / (data2080 + data2085). Number is only calculated when net-interest income is not negative. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2085 / (data2080 + data2085). Number is only calculated when net-interest income is not negative. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -997,7 +995,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2090[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcula{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2090[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1010,7 +1008,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2115[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcula{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2115[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1023,7 +1021,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2115[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcul{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2115[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1036,7 +1034,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2090 / (data2080 + data2085). All Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from u{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2090 / (data2080 + data2085). All Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1062,7 +1060,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data10270[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcul{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data10270[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1075,7 +1073,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data10270[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcu{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data10270[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1088,7 +1086,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of the value of total shares traded to average real market capitalization, the denominator is deflated using the following method:  Tt/P_at/{(0.5)*[Mt/P_et + Mt-1/P_et-1] where T is total value traded, M is stock market capitalization, P{p_end}
+{synopt:{opt Source Notes}}Ratio of the value of total shares traded to average real market capitalization, the denominator is deflated using the following method:  Tt/P_at/{(0.5)*[Mt/P_et + Mt-1/P_et-1] where T is total value traded, M is stock market capitalization, P_e is end-of period CPI. (IFS line 64M..ZF or, if not available, 64Q..ZF) and annual CPI (IFS line 64..ZF) are from the IMF’s International Financial Statistics.{p_end}
 
 {synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
@@ -1107,12 +1105,12 @@
 
 {synoptline}
 {marker sourceid_GFDD.OE.02}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OE.02:GFDD.OE.02} - Bank concentration (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OE.02:GFDD.OE.02} - Consumer price index (2010=100, average)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for three largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 3 or more. Calculated from underlying bank-by-bank unconsolidated{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for three largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 3 or more. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1125,7 +1123,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for three largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 3 or more. Calculated from underlying bank-by-bank unconsolidated{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for three largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 3 or more. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1138,7 +1136,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving deposits, P_e is end-of period CPI, a{p_end}
+{synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving deposits, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF’s International Financial Statistics. Bank deposits (IFS lines 24 and 25); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and average annual CPI is calculated using the monthly CPI values (IFS line 64M..ZF).{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -1151,7 +1149,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}A measure of the degree of competition in the banking market. It measures the elasticity of banks revenues relative to input prices. Under perfect competition, an increase in input prices raises both marginal costs and total revenues by the sa{p_end}
+{synopt:{opt Source Notes}}A measure of the degree of competition in the banking market. It measures the elasticity of banks revenues relative to input prices. Under perfect competition, an increase in input prices raises both marginal costs and total revenues by the same amount, and hence the H-statistic equals 1. Under a monopoly, an increase in input prices results in a rise in marginal costs, a fall in output, and a decline in revenues, leading to an H-statistic less than or equal to 0. When H is between 0 and 1, the system operates under monopolistic competition.  it is possible for H-stat to be greater than 1 in some oligopolistic markets. (For more information, see Panzar and Rosse 1982, 1987). Calculated from underlying bank-by-bank data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1164,7 +1162,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}A measure of market power in the banking market. It is defined as the difference between output prices and marginal costs (relative to prices). Prices are calculated as total bank revenue over assets, whereas marginal costs are obtained from a{p_end}
+{synopt:{opt Source Notes}}A measure of market power in the banking market. It is defined as the difference between output prices and marginal costs (relative to prices). Prices are calculated as total bank revenue over assets, whereas marginal costs are obtained from an estimated translog cost function with respect to output. Higher values of the Lerner index indicate less bank competition. Lerner Index estimations follow the methodology described in Demirgüç-Kunt and Martínez Pería (2010). Calculated from underlying bank-by-bank data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1177,7 +1175,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}A measure of degree of competition, calculated as the elasticity of profits to marginal costs. To obtain the elasticity, the log of profits (measured by return on assets) is regressed on the log of marginal costs. The estimated coefficient (co{p_end}
+{synopt:{opt Source Notes}}A measure of degree of competition, calculated as the elasticity of profits to marginal costs. To obtain the elasticity, the log of profits (measured by return on assets) is regressed on the log of marginal costs. The estimated coefficient (computed from the first derivative of a trans-log cost function) is the elasticity. The rationale behind the indicator is that higher profits are achieved by more-efficient banks. Hence, the more negative the Boone indicator, the higher the degree of competition is because the effect of reallocation is stronger. Estimations of the Boone indicator in this database follow the methodology used by Schaeck and Čihák (2010) with a modification to use marginal costs instead of average costs. Regional estimates of the Boone indicator pool the bank data by regions (for more information, see Hay and Liu 1997; Boone 2001; Boone, Griffith, and Harrison 2005). Calculated from underlying bank-by-bank data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1190,7 +1188,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for five largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 5 or more. Calculated from underlying bank-by-bank unconsolidated d{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for five largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 5 or more. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1203,7 +1201,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF's International Financial Statistics. Liquid liabilities (IFS lines 55L..ZF or, if not available, line 35L..ZF); for Eurocurrency area countries (BEF, DEM, ESP, FRF, GRD, IEP, ITL, LUF, NLG,{p_end}
+{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF's International Financial Statistics. Liquid liabilities (IFS lines 55L..ZF or, if not available, line 35L..ZF); for Eurocurrency area countries (BEF, DEM, ESP, FRF, GRD, IEP, ITL, LUF, NLG, ATS, PTE, FIM), liquid liabilities are estimated by summing IFS items 34A, 34B and 35.{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -1216,7 +1214,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of net offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore bank loan{p_end}
+{synopt:{opt Source Notes}}Ratio of net offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore bank loan data from BIS Statistical Appendix Table 12A (Net Issues): International debt securities - all issuers.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -1229,7 +1227,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of outstanding offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore ba{p_end}
+{synopt:{opt Source Notes}}Ratio of outstanding offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore bank loan data from BIS Statistical Appendix Table 7A: External loans and deposits of reporting banks vis-à-vis all sectors.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -1242,7 +1240,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Data is from BIS Statistical Appendix Table 7A minus 7B: External loans and deposits of reporting banks vis-à-vis all sectors minus external loans and deposits of reporting banks vis-à-vis nonbanking sectors; bank deposits from IFS (IFS line{p_end}
+{synopt:{opt Source Notes}}Data is from BIS Statistical Appendix Table 7A minus 7B: External loans and deposits of reporting banks vis-à-vis all sectors minus external loans and deposits of reporting banks vis-à-vis nonbanking sectors; bank deposits from IFS (IFS lines 24 and 25). End of year data (i.e. December data) are used.{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -1281,7 +1279,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Workers' remittances and compensation of employees comprise current transfers by migrant workers and wages and salaries earned by nonresident workers. Data are the sum of three items defined in the fifth edition of the IMF's Balance of Payment{p_end}
+{synopt:{opt Source Notes}}Workers' remittances and compensation of employees comprise current transfers by migrant workers and wages and salaries earned by nonresident workers. Data are the sum of three items defined in the fifth edition of the IMF's Balance of Payments Manual: workers' remittances, compensation of employees, and migrants' transfers. Remittances are classified as current private transfers from migrant workers resident in the host country for more than a year, irrespective of their immigration status, to recipients in their country of origin. Migrants' transfers are defined as the net worth of migrants who are expected to remain in the host country for more than one year that is transferred from one country to another at the time of migration. Compensation of employees is the income of migrants who have lived in the host country for less than a year.{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (WDI), World Bank{p_end}
 
@@ -1294,7 +1292,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The ratio of consolidated foreign claims to GDP of the banks that are reporting to BIS. Foreign claims are defined as the sum of cross-border claims plus foreign offices’ local claims in all currencies. In the consolidated banking statistics{p_end}
+{synopt:{opt Source Notes}}The ratio of consolidated foreign claims to GDP of the banks that are reporting to BIS. Foreign claims are defined as the sum of cross-border claims plus foreign offices’ local claims in all currencies. In the consolidated banking statistics claims that are granted or extended to nonresidents are referred to as either cross-border claims.  In the context of the consolidated banking statistics, local claims refer to claims of domestic banks’ foreign affiliates (branches/subsidiaries) on the residents of the host country (i.e. country of residence of affiliates). Items (A+L from BIS Table 9A). End-of-year data (i.e. December data) are considered for banks claims. GDP is from World Development Indicators.{p_end}
 
 {synopt:{opt Source Organization}}Consolidated banking statistics, Bank for International Settlements (BIS){p_end}
 
@@ -1359,7 +1357,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}A banking crisis is defined as systemic if two conditions are met: a. Significant signs of financial distress in the banking system (as indicated bysignificant bank runs, losses in the banking system, and/or bank liquidations), b. Significant{p_end}
+{synopt:{opt Source Notes}}A banking crisis is defined as systemic if two conditions are met: a. Significant signs of financial distress in the banking system (as indicated bysignificant bank runs, losses in the banking system, and/or bank liquidations), b. Significant banking policy intervention measures in response to significant losses in the banking system. The first year that both criteria are met is considered as the year when the crisis start becoming systemic.  The end of a crisis is defined the year before both real GDP growth and real credit growth are positive for at least two consecutive years.{p_end}
 
 {synopt:{opt Source Organization}}Luc Laeven and Fabián Valencia, 2012. “Systemic Banking Crises Database: An Update”, IMF Working Paper WP/12/163{p_end}
 
@@ -1372,7 +1370,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Number of publicly listed companies per 1,000,000 people. Number of listed domestic companies is the domestically incorporated companies listed on the country's stock exchanges at the end of the year. This indicator does not include investment{p_end}
+{synopt:{opt Source Notes}}Number of publicly listed companies per 1,000,000 people. Number of listed domestic companies is the domestically incorporated companies listed on the country's stock exchanges at the end of the year. This indicator does not include investment companies, mutual funds, or other collective investment vehicles.{p_end}
 
 {synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
@@ -1398,7 +1396,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}It captures the probability of default of a country's banking system. Z-score compares the buffer of a country's banking system (capitalization and returns) with the volatility of those returns. It is estimated as (ROA+(equity/assets))/sd(ROA){p_end}
+{synopt:{opt Source Notes}}It captures the probability of default of a country's banking system. Z-score compares the buffer of a country's banking system (capitalization and returns) with the volatility of those returns. It is estimated as (ROA+(equity/assets))/sd(ROA); sd(ROA) is the standard deviation of ROA. ROA, equity, and assets are country-level aggregate figures Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1424,7 +1422,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Ratio of bank capital and reserves to total assets. Capital and reserves include funds contributed by owners, retained earnings, general and special reserves, provisions, and valuation adjustments. Capital includes tier 1 capital (paid-up shar{p_end}
+{synopt:{opt Source Notes}}Ratio of bank capital and reserves to total assets. Capital and reserves include funds contributed by owners, retained earnings, general and special reserves, provisions, and valuation adjustments. Capital includes tier 1 capital (paid-up shares and common stock), which is a common feature in all countries' banking systems, and total regulatory capital, which includes several specified types of subordinated debt instruments that need not be repaid if the funds are required to maintain minimum capital levels (these comprise tier 2 and tier 3 capital). Total assets include all nonfinancial and financial assets. Reported by IMF staff. Note that due to differences in national accounting, taxation, and supervisory regimes, these data are not strictly comparable across countries.{p_end}
 
 {synopt:{opt Source Organization}}Financial Soundness Indicators Database (fsi.imf.org), International Monetary Fund (IMF){p_end}
 
@@ -1476,7 +1474,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Provisions to nonperforming loans. Nonperforming Loans are loans for which the contractual payments are delinquent, usually defined as and NPL ratio  being overdue for more than a certain number of days (e.g., usually more than 90 days). Repor{p_end}
+{synopt:{opt Source Notes}}Provisions to nonperforming loans. Nonperforming Loans are loans for which the contractual payments are delinquent, usually defined as and NPL ratio  being overdue for more than a certain number of days (e.g., usually more than 90 days). Reported by IMF staff. Note that due to differences in national accounting, taxation, and supervisory regimes, these data are not strictly comparable across countries.{p_end}
 
 {synopt:{opt Source Organization}}Financial Soundness Indicators Database (fsi.imf.org), International Monetary Fund (IMF){p_end}
 
@@ -1492,18 +1490,6 @@
 {synopt:{opt Source Notes}}Stock price volatility is the average of the 360-day volatility of the national stock market index.{p_end}
 
 {synopt:{opt Source Organization}}Bloomberg{p_end}
-
-
-{synoptline}
-{marker sourceid_gf7_n_7}
-{synopt:{bf:{help wbopendata_sourceid##gf7_n_7:gf7_n_7} - Bank accounts per 1,000 adults}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-
-{synopt:{opt Source Notes}}For each country calculated as: 1,000*reported number of depositors/adult population in the reporting country.{p_end}
-
-{synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
 
 
 

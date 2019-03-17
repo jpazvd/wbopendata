@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -40,7 +39,6 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -72,7 +70,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.ATFE.PR}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.ATFE.PR:ENF.CONT.COEN.ATFE.PR} - Enforcing contracts: Attorney fees (% of claim)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.ATFE.PR:ENF.CONT.COEN.ATFE.PR} - Enforcing contracts: Cost (% of claim)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -84,7 +82,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.COST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.COST.ZS:ENF.CONT.COEN.COST.ZS} - Enforcing contracts: Cost (% of claim) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.COST.ZS:ENF.CONT.COEN.COST.ZS} - Enforcing contracts: Cost (% of claim)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -96,7 +94,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.COST.ZS.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.COST.ZS.DFRN:ENF.CONT.COEN.COST.ZS.DFRN} - Enforcing contracts: Case management (0-6) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.COST.ZS.DFRN:ENF.CONT.COEN.COST.ZS.DFRN} - Enforcing contracts: Cost (% of claim) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -120,7 +118,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.CTAU}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTAU:ENF.CONT.COEN.CTAU} - Enforcing contracts: Court fees (% of claim)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.CTAU:ENF.CONT.COEN.CTAU} - Enforcing contracts: Court automation (0-4) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -168,7 +166,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.DB0415.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.DB0415.DFRN:ENF.CONT.COEN.DB0415.DFRN} - Enforcing contracts (DB16 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.DB0415.DFRN:ENF.CONT.COEN.DB0415.DFRN} - Enforcing contracts (DB04-15 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -216,7 +214,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.ENJU.DY}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.ENJU.DY:ENF.CONT.COEN.ENJU.DY} - Enforcing contracts: Filing and service (days)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.ENJU.DY:ENF.CONT.COEN.ENJU.DY} - Enforcing contracts: Enforcement of judgment (days)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -228,7 +226,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.FLSR.DY}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.FLSR.DY:ENF.CONT.COEN.FLSR.DY} - Enforcing contracts: Filing and service (days)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.FLSR.DY:ENF.CONT.COEN.FLSR.DY} - Enforcing contracts: Procedures (number)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -252,7 +250,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.PROC.NO.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.PROC.NO.DFRN:ENF.CONT.COEN.PROC.NO.DFRN} - Enforcing contracts: Quality of the judicial processes index (0-19) (DB16 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.PROC.NO.DFRN:ENF.CONT.COEN.PROC.NO.DFRN} - Enforcing contracts: Procedures (number) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -276,7 +274,7 @@
 
 {synoptline}
 {marker sourceid_ENF.CONT.COEN.QUJP.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.DB1719.DFRN:ENF.CONT.COEN.QUJP.DB1719.DFRN} - Enforcing contracts: Quality of the judicial processes index (0-18) (DB16 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.COEN.QUJP.DB1719.DFRN:ENF.CONT.COEN.QUJP.DB1719.DFRN} - Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -347,25 +345,13 @@
 
 
 {synoptline}
-{marker sourceid_ENF.CONT.EC.QJPI}
-{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.EC.QJPI:ENF.CONT.EC.QJPI} - Enforcing contracts: Quality of the judicial administration index (0-18) (DB17-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of diesel fuel. Prices have been converted from the local currency to U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.BUS.EASE.DFRN.DB1014}
 {synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.DFRN.DB1014:IC.BUS.EASE.DFRN.DB1014} - Global: Ease of doing business score (DB10-14 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile rankings on 10 topics covered in the World Bank's Doing Business. The ranking on each topic is the simple average of the percentile rankings on its component indicators.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -377,7 +363,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile rankings on 10 topics covered in the World Bank's Doing Business. The ranking on each topic is the simple average of the percentile rankings on its component indicators.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -389,7 +375,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile rankings on 10 topics covered in the World Bank's Doing Business. The ranking on each topic is the simple average of the percentile rankings on its component indicators.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -401,21 +387,9 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile{p_end}
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. A high ranking (a low numerical rank) means that the regulatory environment is conducive to business operation. The index averages the country's percentile rankings on 10 topics covered in the World Bank's Doing Business. The ranking on each topic is the simple average of the percentile rankings on its component indicators.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_IC.CNS.TRSP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRSP.ZS:IC.CNS.TRSP.ZS} - Transportation (% of managers surveyed ranking this as a major constraint)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of firms expected to give gifts or an informal payment to get a construction permit.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -564,7 +538,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNST.PRMT.QCDC.XD.03.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.QCDC.XD.03.DB1619:IC.CNST.PRMT.QCDC.XD.03.DB1619} - Dealing with construction permits: Quality control during construction index (0-3) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.QCDC.XD.03.DB1619:IC.CNST.PRMT.QCDC.XD.03.DB1619} - Rank: Dealing with construction permits  (DB19 methodology) (1=most business-friendly regulations)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -599,6 +573,18 @@
 
 
 {synoptline}
+{marker sourceid_IC.CNST.PRMT.TM.DY.DFRN}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.TM.DY.DFRN:IC.CNST.PRMT.TM.DY.DFRN} - Dealing with construction permits: Time (days)  - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of firms expected to give gifts or an informal payment to get a construction permit.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.CRED.ACC.ACES.DB0514}
 {synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.ACES.DB0514:IC.CRED.ACC.ACES.DB0514} - Getting Credit total score (DB05-14 methodology)}}
 
@@ -612,7 +598,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.ACES.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.ACES.DB1519:IC.CRED.ACC.ACES.DB1519} - Getting Credit total score (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.ACES.DB1519:IC.CRED.ACC.ACES.DB1519} - Getting credit (DB05-14 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -636,7 +622,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.CRD.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.CRD.DB1519.DFRN:IC.CRED.ACC.CRD.DB1519.DFRN} - Rank: Getting credit  (DB19 methodology) (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.CRD.DB1519.DFRN:IC.CRED.ACC.CRD.DB1519.DFRN} - Getting credit (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -696,7 +682,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN:IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN} - Getting credit: Strength of legal rights index (0-10) (DB05-14 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN:IC.CRED.ACC.DPTH.CISI.XD.08.DB1519.DFRN} - Getting credit: Depth of credit information index (0-8) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -762,6 +748,30 @@
 
 
 {synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS:IC.CRED.ACC.PUBL.CRD.REG.COVR.ZS} - Getting credit: Credit registry coverage (% of adults)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.DCP.BQC.XD.015.DB1619}
+{synopt:{bf:{help wbopendata_sourceid##IC.DCP.BQC.XD.015.DB1619:IC.DCP.BQC.XD.015.DB1619} - Dealing with construction permits: Building quality control index (0-15) (DB16-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of products shipped to supply domestic markets lost due to breakage or spoilage.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -839,32 +849,20 @@
 
 
 {synoptline}
-{marker sourceid_IC.ELC.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.GIFT.ZS:IC.ELC.GIFT.ZS} - Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-19 methodology)}}
+{marker sourceid_IC.ELC.COMM.TRFF.CG.01.DB1619}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.COMM.TRFF.CG.01.DB1619:IC.ELC.COMM.TRFF.CG.01.DB1619} - Getting electricity: Communication of tariffs and tariff changes (0-1) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Power outages are the average number of power outages that establishments experience in a typical month.{p_end}
+{synopt:{opt Source Notes}}Delay in obtaining an electrical connection is the average wait, in days, experienced to obtain an electrical connection from the day an establishment applies for it to the day it receives the service.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.ELC.LMTG.OUTG.01.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.LMTG.OUTG.01.DB1619:IC.ELC.LMTG.OUTG.01.DB1619} - Getting electricity: Mechanisms for monitoring outages (0-1) (DB16-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Power outages are the average number of power outages that establishments experience in a typical month.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_IC.ELC.MONT.OUTG.01.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.MONT.OUTG.01.DB1619:IC.ELC.MONT.OUTG.01.DB1619} - Getting electricity: Mechanisms for monitoring outages (0-1) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.LMTG.OUTG.01.DB1619:IC.ELC.LMTG.OUTG.01.DB1619} - Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -899,13 +897,25 @@
 
 
 {synoptline}
-{marker sourceid_IC.ELC.PRI.KH.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.PRI.KH.DB1619:IC.ELC.PRI.KH.DB1619} - Getting electricity: Procedures (number)}}
+{marker sourceid_IC.ELC.OUTG.MN.DB1619}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.MN.DB1619:IC.ELC.OUTG.MN.DB1619} - Getting electricity: Minimum outage time (in minutes)  (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Percent of firms experiencing electrical outages during the previous fiscal year.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ELC.PRI.KH.DB1619}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.PRI.KH.DB1619:IC.ELC.PRI.KH.DB1619} - Getting electricity: Price of electricity (US cents per kWh) (DB16-19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -917,31 +927,31 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.ELC.PROC.NO.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.PROC.NO.DFRN:IC.ELC.PROC.NO.DFRN} - Getting electricity: Procedures (number) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.PROC.NO.DFRN:IC.ELC.PROC.NO.DFRN} - Getting electricity: Regulatory monitoring (0-1) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.ELC.REGU.MONT.01.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.REGU.MONT.01.DB1619:IC.ELC.REGU.MONT.01.DB1619} - Getting electricity: Regulatory monitoring (0-1) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.REGU.MONT.01.DB1619:IC.ELC.REGU.MONT.01.DB1619} - Getting electricity: Mechanisms for restoring service (0-1) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -953,7 +963,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -965,7 +975,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -977,19 +987,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.ELC.SAID.XD.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.SAID.XD.DB1619:IC.ELC.SAID.XD.DB1619} - Getting electricity: System average interruption frequency index (SAIFI) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.SAID.XD.DB1619:IC.ELC.SAID.XD.DB1619} - Getting electricity: System average interruption duration index (SAIDI) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -1001,7 +1011,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.COST.PC.FE.ZS.DRFN}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.COST.PC.FE.ZS.DRFN:IC.REG.COST.PC.FE.ZS.DRFN} - Starting a business: Cost - Women (% of income per capita) - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -1061,7 +1083,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with specific characteristics of ownership, size, and type of production.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -1073,7 +1095,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with specific characteristics of ownership, size, and type of production.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -1085,7 +1107,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with specific characteristics of ownership, size, and type of production.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -1097,7 +1119,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with specific characteristics of ownership, size, and type of production.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -1140,7 +1162,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.COST.PRT.VAL.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.COST.PRT.VAL.DFRN:IC.REG.PRRT.COST.PRT.VAL.DFRN} - Registering property: Cost (% of property value) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.COST.PRT.VAL.DFRN:IC.REG.PRRT.COST.PRT.VAL.DFRN} - Registering property (DB05-15 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1188,7 +1210,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.DURS.TM}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.DURS.TM:IC.REG.PRRT.DURS.TM} - Registering property: Time (days) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.DURS.TM:IC.REG.PRRT.DURS.TM} - Registering property: Time (days)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1224,7 +1246,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.GEO.COVR.XD.08.DB1619}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.GEO.COVR.XD.08.DB1619:IC.REG.PRRT.GEO.COVR.XD.08.DB1619} - Registering property: Geographic coverage index (0-8) (DB16-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.GEO.COVR.XD.08.DB1619:IC.REG.PRRT.GEO.COVR.XD.08.DB1619} - Registering property: Land dispute resolution index (0-8) (DB16-19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1248,7 +1270,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN:IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN} - Registering property: Quality of land administration index with Gender (0-30) (DB17-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN:IC.REG.PRRT.LNDADM.GEN.XD.030.DB1719.DFRN} - Registering property: Procedures (number)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1284,7 +1306,7 @@
 
 {synoptline}
 {marker sourceid_IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16} - Registering property: Quality of land administration index (0-30) (DB16 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16:IC.REG.PRRT.QUAL.LNDADM.XD.030.DB16} - Registering property: Quality of land administration index (0-30) (DB16 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1356,7 +1378,19 @@
 
 {synoptline}
 {marker sourceid_IC.REG.STRT.BUS.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.REG.STRT.BUS.DFRN:IC.REG.STRT.BUS.DFRN} - Rank: Starting a business (DB19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.STRT.BUS.DFRN:IC.REG.STRT.BUS.DFRN} - Starting a business - Score}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}This index averages the country's percentile rankings on: procedures, time, cost (% of income per capita) and minimum capital (% of income per capita){p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.STRT.BUS.RK.DB19}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.STRT.BUS.RK.DB19:IC.REG.STRT.BUS.RK.DB19} - Rank: Starting a business (DB19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -1373,21 +1407,9 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise{p_end}
+{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise where further refinements are made by World Bank staff. It is expressed in local currency units per U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics, supplemented by World Bank staff estimates.{p_end}
-
-
-{synoptline}
-{marker sourceid_PALM.YLD.SOE}
-{synopt:{bf:{help wbopendata_sourceid##PALM.YLD.SOE:PALM.YLD.SOE} - Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
@@ -1397,7 +1419,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1409,7 +1431,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1421,7 +1443,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1433,7 +1455,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1445,7 +1467,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1457,7 +1479,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1469,19 +1491,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN:PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN} - Paying taxes: Postfiling index (0-100) (DB17-19 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN:PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN} - Paying taxes: Profit tax (% of profits)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1493,7 +1515,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1505,7 +1527,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1517,7 +1539,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1529,7 +1551,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1541,19 +1563,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_PAY.TAX.TM.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.TM.DFRN:PAY.TAX.TM.DFRN} - Paying taxes: Total tax rate (% of profit)}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.TM.DFRN:PAY.TAX.TM.DFRN} - Paying taxes: Time (hours per year) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1565,7 +1587,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1577,7 +1599,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1589,7 +1611,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1601,19 +1623,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719:PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719} - Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719:PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719} - Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1625,7 +1647,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1637,7 +1659,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1649,7 +1671,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1661,7 +1683,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1673,7 +1695,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1685,7 +1707,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1697,7 +1719,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1709,7 +1731,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1721,7 +1743,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1733,7 +1755,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1745,7 +1767,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1757,7 +1779,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1769,7 +1791,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1781,7 +1803,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1793,7 +1815,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1805,19 +1827,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN:PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN} - Protecting minority investors: Extent of director liability index (0-10)}}
+{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN:PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN} - Protecting minority investors: Extent of shareholder rights index (0-10) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1829,7 +1851,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1841,7 +1863,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -1853,31 +1875,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614} - Protecting minority investors: Strength of minority investor protection index (0-10) (DB15-19 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitment in the Paris Declaration.  It is also a variable that seems to be subject to significant changes over time. Another dimension of ownership is the degree to which countries have development strategies that are clear and well operationalised, so that development efforts are effective and there is a robust basis for the alignment of aid with country policies. This is based on the World Bank's Results-Based National Development Strategies: Assessment and Challenges Ahead Report.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of 3; D assigned a value of 4; E assigned a value of 5; and N/A assigned a value of 6.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each respective year.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_RESLV.ISV.COPR.03.XD.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.COPR.03.XD.DB1519:RESLV.ISV.COPR.03.XD.DB1519} - Resolving insolvency: Commencement of proceedings index (0-3) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.COPR.03.XD.DB1519:RESLV.ISV.COPR.03.XD.DB1519} - Resolving insolvency: Cost (% of estate)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1889,7 +1899,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1901,7 +1911,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1913,7 +1923,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1925,19 +1935,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_RESLV.ISV.DFRN.RCOV.RT}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DFRN.RCOV.RT:RESLV.ISV.DFRN.RCOV.RT} - Resolving insolvency: Time (years)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DFRN.RCOV.RT:RESLV.ISV.DFRN.RCOV.RT} - Resolving insolvency: Recovery rate (cents on the dollar) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1949,7 +1959,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1961,19 +1971,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_RESLV.ISV.OTCM}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.OTCM:RESLV.ISV.OTCM} - Resolving insolvency: Recovery rate (cents on the dollar)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.OTCM:RESLV.ISV.OTCM} - Resolving insolvency: Outcome (0 as piecemeal sale and 1 as going concern)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1985,19 +1995,19 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_RESLV.ISV.RCOV.RT.016.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RCOV.RT.016.DB1519.DFRN:RESLV.ISV.RCOV.RT.016.DB1519.DFRN} - Rank: Resolving insolvency  (DB19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RCOV.RT.016.DB1519.DFRN:RESLV.ISV.RCOV.RT.016.DB1519.DFRN} - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -2009,7 +2019,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -2021,7 +2031,7 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -2033,21 +2043,9 @@
 {synopt:{opt Source}}01 Doing Business{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
-
-
-{synoptline}
-{marker sourceid_TRAD.IMPT.OTHR}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.OTHR:TRAD.IMPT.OTHR} - Trading across borders (DB06-15 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987.{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -2208,7 +2206,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN} - Time to export (days) (DB06-15 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.EXPT.COST.DOC.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to export: Documentary compliance (USD) (DB16-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2292,7 +2290,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to import (US$ per container deflated)(DB06-15 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN:TRD.ACRS.BRDR.IMP.COST.BRDR.COMP.CD.DB1619.DFRN} - Trading across borders: Cost to import: Border compliance (USD) (DB16-19 methodology) - Score}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 
@@ -2400,7 +2398,19 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN} - Trading across borders: Time to import (days) (DB06-15 methodology) - Score}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN:TRD.ACRS.BRDR.IMP.TM.DY.DB0615.DFRN} - Rank: Trading across borders (1=most business-friendly regulations) (DB19 methodology)}}
+
+{synopt:{opt Source}}01 Doing Business{p_end}
+
+
+{synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987.{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+{synoptline}
+{marker sourceid_TRD.ACRS.BRDR.RK.DB19}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.RK.DB19:TRD.ACRS.BRDR.RK.DB19} - Rank: Trading across borders (1=most business-friendly regulations) (DB19 methodology)}}
 
 {synopt:{opt Source}}01 Doing Business{p_end}
 

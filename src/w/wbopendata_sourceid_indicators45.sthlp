@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -40,7 +39,6 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -59,18 +57,6 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:45 Indonesia Database for Policy and Economic Research}}}
 {synoptline}
-{marker sourceid_BN.TRN.KOGT.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRN.KOGT.CD:BN.TRN.KOGT.CD} - Grants (disbursements) from new commitments (BoP, current US$)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.  Data are in US$.{p_end}
-
-{synopt:{opt Source Organization}}BPK - Indonesia Audit Board, Report{p_end}
-
-
-{synoptline}
 {marker sourceid_BPK.AUD.SUBN}
 {synopt:{bf:{help wbopendata_sourceid##BPK.AUD.SUBN:BPK.AUD.SUBN} - BPK Audit Report on Sub-National Budget}}
 
@@ -83,25 +69,13 @@
 
 
 {synoptline}
-{marker sourceid_D6iii}
-{synopt:{bf:{help wbopendata_sourceid##D6iii:D6iii} - 080.Product Survival Rate of 2-year Incumbents: StDev.}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
-
-
-{synoptline}
 {marker sourceid_DAK.AGR.CR}
 {synopt:{bf:{help wbopendata_sourceid##DAK.AGR.CR:DAK.AGR.CR} - Total Specific Allocation Grant for Agriculture (in IDR Billion)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -113,7 +87,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -125,7 +99,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -137,7 +111,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -149,7 +123,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -161,19 +135,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
 
 {synoptline}
 {marker sourceid_DAK.HE.BSRV.CR}
-{synopt:{bf:{help wbopendata_sourceid##DAK.HE.BSRV.CR:DAK.HE.BSRV.CR} - Total Specific Allocation Grant for Health (in IDR Billion)}}
+{synopt:{bf:{help wbopendata_sourceid##DAK.HE.BSRV.CR:DAK.HE.BSRV.CR} - Total Specific Allocation Grant for Health Sector (Subsect: Basic Services) (in IDR Billion)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -185,7 +159,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -197,7 +171,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -209,7 +183,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -221,7 +195,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -233,7 +207,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -245,7 +219,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -257,7 +231,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -269,7 +243,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
@@ -281,21 +255,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
-
-
-{synoptline}
-{marker sourceid_EA.PRD.LAND.KD}
-{synopt:{bf:{help wbopendata_sourceid##EA.PRD.LAND.KD:EA.PRD.LAND.KD} - Agriculture value added per hectare of agricultural land (constant 1995 US$)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
 
 
 {synoptline}
@@ -305,19 +267,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_EC.XPD.GSR.CR}
-{synopt:{bf:{help wbopendata_sourceid##EC.XPD.GSR.CR:EC.XPD.GSR.CR} - Goods and services expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##EC.XPD.GSR.CR:EC.XPD.GSR.CR} - Others expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -329,7 +291,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -341,9 +303,33 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+
+
+{synoptline}
+{marker sourceid_EC.XPD.TOTL.CR}
+{synopt:{bf:{help wbopendata_sourceid##EC.XPD.TOTL.CR:EC.XPD.TOTL.CR} - Total Expenditure (in IDR)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
+
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at www.worldbank.org/nipr). The data were updated by the World Bank's Development Research Group using the same methodology as the initial study.{p_end}
+
+
+{synoptline}
+{marker sourceid_ENF.CONT.EC.QJPI}
+{synopt:{bf:{help wbopendata_sourceid##ENF.CONT.EC.QJPI:ENF.CONT.EC.QJPI} - Enforcing contracts: Quality of the judicial administration index (0-18) (DB17-19 methodology)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of diesel fuel. Prices have been converted from the local currency to U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -371,13 +357,25 @@
 
 
 {synoptline}
+{marker sourceid_EP.CPI.2007}
+{synopt:{bf:{help wbopendata_sourceid##EP.CPI.2007:EP.CPI.2007} - Consumer Price Index in 66 cities base 2007}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of diesel fuel. Prices have been converted from the local currency to U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
 {marker sourceid_FC.XPD.ADMN.CR}
 {synopt:{bf:{help wbopendata_sourceid##FC.XPD.ADMN.CR:FC.XPD.ADMN.CR} - General administration function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -389,7 +387,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -401,7 +399,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -413,31 +411,31 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_FC.XPD.ENVR.CR}
-{synopt:{bf:{help wbopendata_sourceid##FC.XPD.ENVR.CR:FC.XPD.ENVR.CR} - Health function expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.ENVR.CR:FC.XPD.ENVR.CR} - Environment function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_FC.XPD.HE.CR}
-{synopt:{bf:{help wbopendata_sourceid##FC.XPD.HE.CR:FC.XPD.HE.CR} - Housing and public facilities function expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.HE.CR:FC.XPD.HE.CR} - Health function expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -449,7 +447,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -461,7 +459,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -473,7 +471,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -485,7 +483,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -497,14 +495,26 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
+
+{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+
+
+{synoptline}
+{marker sourceid_FC.XPD.TOUR.CR}
+{synopt:{bf:{help wbopendata_sourceid##FC.XPD.TOUR.CR:FC.XPD.TOUR.CR} - Tourism and culture function expenditure (in IDR)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. For some countries these claims include credit to public enterprises.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_FN.CRED.AGR.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##FN.CRED.AGR.TOTL:FN.CRED.AGR.TOTL} - Total Credit by Sector: Business (province level, in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##FN.CRED.AGR.TOTL:FN.CRED.AGR.TOTL} - Total Credit by Sector: Agriculture (province level, in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -667,7 +677,31 @@
 
 {synopt:{opt Source Notes}}Central bank intervention rate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
+
+
+{synoptline}
+{marker sourceid_FN.INR.CBIR}
+{synopt:{bf:{help wbopendata_sourceid##FN.INR.CBIR:FN.INR.CBIR} - Central bank intervention rate (%)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used. Data are period averages.{p_end}
+
+{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
+
+
+{synoptline}
+{marker sourceid_FN.LOAN.CBK.TOTL}
+{synopt:{bf:{help wbopendata_sourceid##FN.LOAN.CBK.TOTL:FN.LOAN.CBK.TOTL} - Total Commercial and Rural Banks Loans Rupiah and Foreign Currency (province level, in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used. Data are period averages.{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -677,33 +711,33 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
 {marker sourceid_HOU.H2O.ACSN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HOU.H2O.ACSN.ZS:HOU.H2O.ACSN.ZS} - Household Access to Fixed Line Phone Connection (in % of total Household)}}
+{synopt:{bf:{help wbopendata_sourceid##HOU.H2O.ACSN.ZS:HOU.H2O.ACSN.ZS} - Household Access to Safe Water (in % of total household)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
 
 
 {synoptline}
 {marker sourceid_HOU.MLT.MAIN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HOU.MLT.MAIN.ZS:HOU.MLT.MAIN.ZS} - Household Access to Fixed Line Phone Connection (in % of total Household)}}
+{synopt:{bf:{help wbopendata_sourceid##HOU.MLT.MAIN.ZS:HOU.MLT.MAIN.ZS} - Household Access to safe Sanitation (in % of total Household)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
@@ -713,19 +747,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
 {marker sourceid_HOU.XPD.EDU.PC.CR}
-{synopt:{bf:{help wbopendata_sourceid##HOU.XPD.EDU.PC.CR:HOU.XPD.EDU.PC.CR} - Monthly Per Capita Household Education Expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##HOU.XPD.EDU.PC.CR:HOU.XPD.EDU.PC.CR} - Monthly Per Capita Household Health Expenditure (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -737,7 +771,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
@@ -749,21 +783,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
-{marker sourceid_IDX.HDI}
-{synopt:{bf:{help wbopendata_sourceid##IDX.HDI:IDX.HDI} - Human Development Index}}
+{marker sourceid_HOU.XPD.TOTL.20POOR.CR}
+{synopt:{bf:{help wbopendata_sourceid##HOU.XPD.TOTL.20POOR.CR:HOU.XPD.TOTL.20POOR.CR} - Monthly Per Capita TOTAL Household Expenditure for The Poorest 20 percent (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Information and communications technology expenditures include computer hardware (computers, storage devices, printers, and other peripherals); computer software (operating systems, programming tools, utilities, applications, and internal soft{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that provide client{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
 
 
 {synoptline}
@@ -773,7 +807,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of{p_end}
+{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of letters and/or symbols representing a single sound, are presented). Students are asked to provide the names of all the letters that they can in one minute. Users are discouraged from using these data to make direct comparisons across countries or languages. Consult the EdData website and the specific country report for more information: {browse "www.eddataglobal.org"}.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -785,7 +819,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -797,7 +831,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -809,7 +843,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -821,7 +855,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -833,7 +867,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -845,7 +879,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -857,7 +891,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -869,7 +903,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -881,7 +915,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -893,7 +927,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -905,7 +939,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -917,7 +951,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -929,7 +963,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -941,7 +975,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -953,7 +987,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -965,7 +999,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -977,7 +1011,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -989,19 +1023,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
 {marker sourceid_NA.GDP.TRD.HTL.CR}
-{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRD.HTL.CR:NA.GDP.TRD.HTL.CR} - GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Constant Price}}
+{synopt:{bf:{help wbopendata_sourceid##NA.GDP.TRD.HTL.CR:NA.GDP.TRD.HTL.CR} - GDP on Trade, Hotel and Restaurant Sector (in IDR Million), Current Price}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1013,7 +1047,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1025,7 +1059,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1037,19 +1071,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
-
-
-{synoptline}
-{marker sourceid_NE.EXP.TTEF.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.EXP.TTEF.KN:NE.EXP.TTEF.KN} - KP Terms of Trade Adjustment (Local)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
+{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditures on national defense and security, but excludes government military expenditures that are part of government capital formation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1061,7 +1083,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets, by central government.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1073,7 +1095,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets, by central government.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1085,19 +1107,43 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets, by central government.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
-{marker sourceid_NE.GDI.STKB.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.CR:NE.GDI.STKB.CR} - GDP expenditure on changes in stock (in IDR Million)}}
+{marker sourceid_NE.GDI.FTOT.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FTOT.CR:NE.GDI.FTOT.CR} - GDP expenditure on gross fixed capital formation (in IDR Million)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private residential dwellings, and commercial and industrial buildings. According to the 1993 SNA, net acquisitions of valuables are also considered capital formation. Data are in constant 2010 U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.IMPT.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.IMPT.CR:NE.GDI.IMPT.CR} - GDP expenditure on imports (in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.TOTL.CR}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.TOTL.CR:NE.GDI.TOTL.CR} - Total GDP based on expenditure (in IDR Million)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private residential dwellings, and commercial and industrial buildings. Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. According to the 1993 SNA, net acquisitions of valuables are also considered capital formation. Data are in constant 2010 U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
@@ -1109,19 +1155,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report){p_end}
 
 
 {synoptline}
 {marker sourceid_NRRV.SHR.FSH.CR}
-{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.FSH.CR:NRRV.SHR.FSH.CR} - Total Natural Resources Revenue Sharing from Fishery (in IDR, realization value)}}
+{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.FSH.CR:NRRV.SHR.FSH.CR} - Total Natural Resources Revenue Sharing from Gas (in IDR, realization value)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report){p_end}
 
@@ -1133,7 +1179,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report){p_end}
 
@@ -1145,7 +1191,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report){p_end}
 
@@ -1157,21 +1203,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars. Agriculture corresponds to the International Standard Industrial Classification (ISIC) tabulation categories A and B (revision 3) or tabulation category A (revision 4), and includes forestry, hunting, and fishing as well as cultivation of crops and livestock production.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report){p_end}
-
-
-{synoptline}
-{marker sourceid_NRRV.SHR.PETR.CR}
-{synopt:{bf:{help wbopendata_sourceid##NRRV.SHR.PETR.CR:NRRV.SHR.PETR.CR} - Total Natural Resources Revenue Sharing from Oil (in IDR, realization value)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2010 U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}Derived using World Bank national accounts data and OECD National Accounts data files, and employment data from International Labour Organization, ILOSTAT database.{p_end}
 
 
 {synoptline}
@@ -1181,7 +1215,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1193,7 +1227,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1205,31 +1239,31 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
 
 {synoptline}
 {marker sourceid_PALM.LND.PRVT}
-{synopt:{bf:{help wbopendata_sourceid##PALM.LND.PRVT:PALM.LND.PRVT} - Palm Oil Land Area by type of ownership: Smallholder (in Hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##PALM.LND.PRVT:PALM.LND.PRVT} - Palm Oil Land Area by type of ownership: Private (in Hectares)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
 
 {synoptline}
 {marker sourceid_PALM.LND.SMHD}
-{synopt:{bf:{help wbopendata_sourceid##PALM.LND.SMHD:PALM.LND.SMHD} - Palm Oil Land Area by type of ownership: State Owned Enterprise (in Hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##PALM.LND.SMHD:PALM.LND.SMHD} - Palm Oil Land Area by type of ownership: Smallholder (in Hectares)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1241,7 +1275,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1253,7 +1287,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1265,7 +1299,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1277,7 +1311,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1289,19 +1323,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
 
 {synoptline}
 {marker sourceid_PALM.PRD.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##PALM.PRD.TOTL:PALM.PRD.TOTL} - Palm Oil Yield by type of ownership: Private (in Kg/Ha)}}
+{synopt:{bf:{help wbopendata_sourceid##PALM.PRD.TOTL:PALM.PRD.TOTL} - Palm Production: Total (in Tons)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1313,7 +1347,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
@@ -1325,21 +1359,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. doll{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Agriculture, Tree Crop Estate Statistics of Indonesia for Oil Palm{p_end}
 
 
 {synoptline}
-{marker sourceid_REER}
-{synopt:{bf:{help wbopendata_sourceid##REER:REER} - Real Effective Exchange Rate}}
+{marker sourceid_PALM.YLD.SOE}
+{synopt:{bf:{help wbopendata_sourceid##PALM.YLD.SOE:PALM.YLD.SOE} - Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.{p_end}
 
-{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
@@ -1349,21 +1383,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
-
-
-{synoptline}
-{marker sourceid_RETSALESSA}
-{synopt:{bf:{help wbopendata_sourceid##RETSALESSA:RETSALESSA} - Retail Sales Volume,Index,,,}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
 
 
 {synoptline}
@@ -1373,19 +1395,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_REV.DAU.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.DAU.CR:REV.DAU.CR} - Total Natural Resource Revenue Sharing/DBH SDA (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##REV.DAU.CR:REV.DAU.CR} - Total General Allocation Grant/DAU (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1397,19 +1419,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
 {marker sourceid_REV.OSRV.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.OSRV.CR:REV.OSRV.CR} - Total Own Source Revenue/PAD (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##REV.OSRV.CR:REV.OSRV.CR} - Total Other Revenue (in IDR)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1421,7 +1443,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1433,7 +1455,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
@@ -1445,21 +1467,21 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
 
 
 {synoptline}
-{marker sourceid_REV.TXRV.SHR.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.TXRV.SHR.CR:REV.TXRV.SHR.CR} - Total Tax Revenue Sharing/DBH Pajak (in IDR)}}
+{marker sourceid_RL.STD.ERR}
+{synopt:{bf:{help wbopendata_sourceid##RL.STD.ERR:RL.STD.ERR} - Length of District Road: Asphalt (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -1476,19 +1498,19 @@
 
 {synoptline}
 {marker sourceid_ROD.DIST.BDMG.BM.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.BDMG.BM.KM:ROD.DIST.BDMG.BM.KM} - Length of District Road: Bad Damage (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.BDMG.BM.KM:ROD.DIST.BDMG.BM.KM} - Length of District Road: Bad Damage (in km) (Bina Marga Data)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
 
 
 {synoptline}
 {marker sourceid_ROD.DIST.BDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.BDMG.KM:ROD.DIST.BDMG.KM} - Length of District Road: Dirt (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.BDMG.KM:ROD.DIST.BDMG.KM} - Length of District Road: Bad Damage (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1507,7 +1529,7 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
@@ -1548,7 +1570,7 @@
 
 {synoptline}
 {marker sourceid_ROD.DIST.GOOD.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.GOOD.KM:ROD.DIST.GOOD.KM} - Length of District Road: Good (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.GOOD.KM:ROD.DIST.GOOD.KM} - Length of District Road: Gravel (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1579,12 +1601,12 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}Ministry of Public Works, Directorate General of Highways (Bina Marga) Statistics{p_end}
 
 
 {synoptline}
 {marker sourceid_ROD.DIST.LDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.LDMG.KM:ROD.DIST.LDMG.KM} - Length of District Road: Light Damage (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.LDMG.KM:ROD.DIST.LDMG.KM} - Length of District Road: Other (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1596,7 +1618,7 @@
 
 {synoptline}
 {marker sourceid_ROD.DIST.OTHR.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.OTHR.KM:ROD.DIST.OTHR.KM} - Length of National Road: Asphalt (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.DIST.OTHR.KM:ROD.DIST.OTHR.KM} - Length of District Road: Other (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1620,7 +1642,7 @@
 
 {synoptline}
 {marker sourceid_ROD.NATL.BDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.NATL.BDMG.KM:ROD.NATL.BDMG.KM} - Length of National Road: Dirt (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.NATL.BDMG.KM:ROD.NATL.BDMG.KM} - Length of National Road: Bad Damage (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1680,7 +1702,7 @@
 
 {synoptline}
 {marker sourceid_ROD.NATL.LDMG.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.NATL.LDMG.KM:ROD.NATL.LDMG.KM} - Length of National Road: Other (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.NATL.LDMG.KM:ROD.NATL.LDMG.KM} - Length of National Road: Light Damage (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1728,7 +1750,7 @@
 
 {synoptline}
 {marker sourceid_ROD.PROV.DIRT.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.DIRT.KM:ROD.PROV.DIRT.KM} - Length of Province Road: Dirt (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.DIRT.KM:ROD.PROV.DIRT.KM} - Length of Province Road: Fair (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1752,7 +1774,7 @@
 
 {synoptline}
 {marker sourceid_ROD.PROV.GOOD.KM}
-{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.GOOD.KM:ROD.PROV.GOOD.KM} - Length of Province Road: Good (in km) (BPS Data, Province only)}}
+{synopt:{bf:{help wbopendata_sourceid##ROD.PROV.GOOD.KM:ROD.PROV.GOOD.KM} - Length of Province Road: Gravel (in km) (BPS Data, Province only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1795,7 +1817,7 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
 
 
 {synoptline}
@@ -1843,7 +1865,7 @@
 
 {synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
 
 {synoptline}
@@ -1860,7 +1882,7 @@
 
 {synoptline}
 {marker sourceid_SE.LITR.15UP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.LITR.15UP.ZS:SE.LITR.15UP.ZS} - Literacy Rate for Population age 15 and over (in % of total population)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.LITR.15UP.ZS:SE.LITR.15UP.ZS} - Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1872,7 +1894,7 @@
 
 {synoptline}
 {marker sourceid_SE.NEXM.SCR.JRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.JRSEC:SE.NEXM.SCR.JRSEC} - Average National Exam Score: Primary Level (out of 100, available only in district level for 2009)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.JRSEC:SE.NEXM.SCR.JRSEC} - Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1885,18 +1907,6 @@
 {synoptline}
 {marker sourceid_SE.NEXM.SCR.PRM}
 {synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.PRM:SE.NEXM.SCR.PRM} - Average National Exam Score: Primary Level (out of 100, available only in district level for 2009)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.NEXM.SCR.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.NEXM.SCR.SRSEC:SE.NEXM.SCR.SRSEC} - Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -1925,7 +1935,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
+{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the system without repeating or skipping a grade.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
 
@@ -1937,33 +1947,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
+{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the system without repeating or skipping a grade.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SCHL.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.SCHL.SRSEC:SE.SCHL.SRSEC} - Number of schools at Senior Secondary level}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.UNER.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.ZS:SE.SEC.UNER.ZS} - Children out of school, secondary (% of relevant age group)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
@@ -2004,7 +1990,7 @@
 
 {synoptline}
 {marker sourceid_SE.STUD.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.STUD.SRSEC:SE.STUD.SRSEC} - Number of Student: Senior Secondary Level (in number of people, 2009 data only)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.STUD.SRSEC:SE.STUD.SRSEC} - Number of Teacher: Junior Secondary Level (in number of people, 2009 data only)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2047,7 +2033,7 @@
 
 {synopt:{opt Source Notes}}Number of graduates from first degree programmes (at ISCED 6 and 7) expressed as a percentage of the population of the theoretical graduation age of the most common first degree programme.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Education{p_end}
+{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -2059,19 +2045,31 @@
 
 {synopt:{opt Source Notes}}Number of deaths of children ages 5-14 years{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
-{marker sourceid_SH.MED.MWIV.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.MWIV.TOTL:SH.MED.MWIV.TOTL} - Number of Midwives}}
+{marker sourceid_SH.HIV.TOTL.NUM}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.NUM:SH.HIV.TOTL.NUM} - People living with HIV/AIDS, total}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Nurses and midwives include professional nurses, professional midwives, auxiliary nurses, auxiliary midwives, enrolled nurses, enrolled midwives and other associated personnel, such as dental nurses and primary care nurses.{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
+
+
+{synoptline}
+{marker sourceid_SH.IMM.CHLD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.IMM.CHLD.ZS:SH.IMM.CHLD.ZS} - Immunization Coverage for Children under 5 years old (in % of children population under 5 years old)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Child immunization rate, hepatitis B is the percentage of children ages 12-23 months who received hepatitis B vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.{p_end}
+
+{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
 
 {synoptline}
@@ -2083,31 +2081,7 @@
 
 {synopt:{opt Source Notes}}Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.POLINDES.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.POLINDES.TOTL:SH.POLINDES.TOTL} - Number of Polindes (Poliklinik Desa/Village Polyclinic)}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level.{p_end}
-
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.PUSKESMAS.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##SH.PUSKESMAS.TOTL:SH.PUSKESMAS.TOTL} - Number of Puskesmas and its line services}}
-
-{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
-
-
-{synopt:{opt Source Notes}}The proportion of population at risk of catastrophic expenditure when surgical care is required. Catastrophic expenditure is defined as direct out of pocket payments for surgical and anaesthesia care exceeding 10% of total income.{p_end}
-
-{synopt:{opt Source Organization}}The Program in Global Surgery and Social Change (PGSSC) at Harvard Medical School ({browse "https://www.pgssc.org/"}){p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, National Social Economic Survey (SUSENAS){p_end}
 
 
 {synoptline}
@@ -2117,9 +2091,9 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet ({browse "http://iresearch.worldbank.org/PovcalNet/index.htm"}).{p_end}
 
 
 {synoptline}
@@ -2165,19 +2139,19 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
 
 {synoptline}
 {marker sourceid_SL.EMP.CNST}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.CNST:SL.EMP.CNST} - Number of people employed in construction sector}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.CNST:SL.EMP.CNST} - Number of people employed in electricity and utilities sector}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2189,7 +2163,7 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2201,43 +2175,67 @@
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
 
 {synoptline}
-{marker sourceid_SL.EMP.IND}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.IND:SL.EMP.IND} - Number of people employed in industrial sector}}
+{marker sourceid_SL.EMP.SOCL}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SOCL:SL.EMP.SOCL} - Number of people employed in social services sector}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
+{synopt:{opt Source Notes}}Total employment shows the total number employed ages 15 and over.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
 
 {synoptline}
 {marker sourceid_SL.EMP.TRAD}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TRAD:SL.EMP.TRAD} - Number of people employed in transportation and telecommunication sector}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TRAD:SL.EMP.TRAD} - Number of people employed in trade, hotel and restaurant sector}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given{p_end}
+{synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given an opportunity for more work.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
 
 {synoptline}
 {marker sourceid_SL.EMP.TRAN}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TRAN:SL.EMP.TRAN} - Number of people employed in transportation and telecommunication sector}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.TRAN:SL.EMP.TRAN} - Number of people underemployed}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given{p_end}
+{synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given an opportunity for more work.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
+
+
+{synoptline}
+{marker sourceid_SL.EMP.UNDR}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.UNDR:SL.EMP.UNDR} - Number of people underemployed}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given an opportunity for more work.{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
+
+
+{synoptline}
+{marker sourceid_SL.TLF}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF:SL.TLF} - Number of people in labor force}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Children in employment refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
 
@@ -2251,12 +2249,24 @@
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Labor Survey (SAKERNAS){p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+
+
+{synoptline}
+{marker sourceid_SP.URB.TOTL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SP.URB.TOTL.ZS:SP.URB.TOTL.ZS} - Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population)}}
+
+{synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
+
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
 {synoptline}
 {marker sourceid_TOTRESV}
-{synopt:{bf:{help wbopendata_sourceid##TOTRESV:TOTRESV} - Total Reserves}}
+{synopt:{bf:{help wbopendata_sourceid##TOTRESV:TOTRESV} - Export: Beverages and tobacco (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2328,7 +2338,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.MANF}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.MANF:TRAD.EXPT.MANF} - Export: Manufactured goods, classified chiefly by material (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.MANF:TRAD.EXPT.MANF} - Export: Miscellaneous manufactures articles (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2352,7 +2362,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.MTRN}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.MTRN:TRAD.EXPT.MTRN} - Export: Machinery and transport equipment (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.MTRN:TRAD.EXPT.MTRN} - Export: Animals and vegetable oil, fat and waxes (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2364,7 +2374,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.OLFTW}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.OLFTW:TRAD.EXPT.OLFTW} - Export: Animals and vegetable oil, fat and waxes (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.OLFTW:TRAD.EXPT.OLFTW} - Export: Commodities and transaction not elsewhere classified (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2376,7 +2386,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.EXPT.OTHR}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.OTHR:TRAD.EXPT.OTHR} - Export: Commodities and transaction not elsewhere classified (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.EXPT.OTHR:TRAD.EXPT.OTHR} - Import: Beverages and tobacco (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2388,7 +2398,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.IMPT.BVTO}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.BVTO:TRAD.IMPT.BVTO} - Import: Beverages and tobacco (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.BVTO:TRAD.IMPT.BVTO} - Import: Chemical and related products, nes (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2412,7 +2422,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.IMPT.CRUD}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.CRUD:TRAD.IMPT.CRUD} - Import: Food and Live Animals (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.CRUD:TRAD.IMPT.CRUD} - Import: Crude materials, inedible, except fuels (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2424,7 +2434,7 @@
 
 {synoptline}
 {marker sourceid_TRAD.IMPT.FLVSK}
-{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.FLVSK:TRAD.IMPT.FLVSK} - Import: Food and Live Animals (province Level, in USD)}}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.FLVSK:TRAD.IMPT.FLVSK} - Import: Mineral fuels, lubricants and related materials (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
@@ -2495,15 +2505,15 @@
 
 
 {synoptline}
-{marker sourceid_lm_ub.gen_pop}
-{synopt:{bf:{help wbopendata_sourceid##lm_ub.gen_pop:lm_ub.gen_pop} - Generosity of unemployment benefits and ALMP (% of total welfare of beneficiary households)}}
+{marker sourceid_TRAD.IMPT.OTHR}
+{synopt:{bf:{help wbopendata_sourceid##TRAD.IMPT.OTHR:TRAD.IMPT.OTHR} - Import: Commodities and transaction not elsewhere classified (province Level, in USD)}}
 
 {synopt:{opt Source}}45 Indonesia Database for Policy and Economic Research{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of{p_end}
+{synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987.{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Unpublished statistics on Sub-National Trade{p_end}
 
 
 

@@ -27,6 +27,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -40,6 +41,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
+{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
 {synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
@@ -59,27 +61,15 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:27 Global Economic Prospects}}}
 {synoptline}
-{marker sourceid_NY.TTF.MRCH.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TTF.MRCH.KN:NY.TTF.MRCH.KN} - Terms of Trade Adjustment (local) (Const. Price)}}
-
-{synopt:{opt Source}}27 Global Economic Prospects{p_end}
-
-
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
-
-{synopt:{opt Source Organization}}The World Bank{p_end}
-
-
-{synoptline}
 {marker sourceid_NYGDPMKTPKDZ}
 {synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}}
 
 {synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.{p_end}
 
-{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
+{synopt:{opt Source Organization}}The World Bank{p_end}
 
 
 

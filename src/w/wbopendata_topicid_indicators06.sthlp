@@ -46,7 +46,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
+{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded. Land under permanent crops is land cultivated with crops that occupy the land for long periods and need not be replanted after each harvest, such as cocoa, coffee, and rubber. This category includes land under flowering shrubs, fruit trees, nut trees, and vines, but excludes land under trees grown for wood or timber. Permanent pasture is land used for five or more years for forage, including natural and cultivated crops.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -59,7 +59,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
+{synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -74,7 +74,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -87,7 +87,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -100,7 +100,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -113,7 +113,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -126,7 +126,7 @@
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -137,7 +137,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and trees in urban parks and gardens.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -150,7 +150,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and trees in urban parks and gardens.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -189,9 +189,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as{p_end}
+{synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approximated urban extents based on buffered settlement points for which the total population is greater than 5,000 persons.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -202,9 +202,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approx{p_end}
+{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approximated urban extents based on buffered settlement points for which the total population is greater than 5,000 persons.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -228,9 +228,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at www.worldbank.org/nipr). The data were updated by the World Bank's Development Research Group us{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at www.worldbank.org/nipr). The data were updated by the World Bank's Development Research Group using the same methodology as the initial study.{p_end}
 
 
 {synoptline}
@@ -254,7 +254,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lo{p_end}
+{synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lower ratio indicates that less energy is used to produce one unit of output.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
 
@@ -280,7 +280,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (includin{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke oven gas, and blast furnace gas). Peat is also included in this category.{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -540,7 +540,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-b{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and decay of drained peatlands), all anthropogenic CH4 sources, N2O sources and F-gases (HFCs, PFCs and SF6).{p_end}
 
 {synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR), EDGARv4.2 FT2012: {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
 
@@ -553,7 +553,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires an{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and decay of drained peatlands), all anthropogenic CH4 sources, N2O sources and F-gases (HFCs, PFCs and SF6). Each year of data shows the percentage change to that year from 1990.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
@@ -774,7 +774,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
+{synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.{p_end}
 
 {synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016.{p_end}
 
@@ -787,7 +787,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
+{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 micrograms per cubic meter, the guideline value recommended by the World Health Organization as the lower end of the range of concentrations over which adverse health effects due to PM2.5 exposure have been observed.{p_end}
 
 {synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016.{p_end}
 
@@ -826,7 +826,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disast{p_end}
+{synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disaster risk reduction efforts that was adopted by 168 countries in 2005. Assessments of Priority 1 include four indicators that reflect the degree to which countries have prioritized disaster risk reduction and the strengthening of relevant institutions.{p_end}
 
 {synopt:{opt Source Organization}}(UNISDR, 2009-2011 Progress Reports, {browse "http://www.preventionweb.net/english/hyogo)"}.{p_end}
 
@@ -839,7 +839,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increase{p_end}
+{synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increases in biomass stocks due to forest management, logging, fuelwood collection, etc.; (2) conversion of existing forests and natural grasslands to other land uses; (3) removal of CO2 from the abandonment of formerly managed lands (e.g. croplands and pastures); and (4) emissions and removals of CO2 in soil associated with land-use change and management. For Annex-I countries under the UNFCCC, these data are drawn from the annual GHG inventories submitted to the UNFCCC by each country; for non-Annex-I countries, data are drawn from the most recently submitted National Communication where available. Because of differences in reporting years and methodologies, these data are not generally considered comparable across countries. Data are in million metric tons.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Framework Convention on Climate Change.{p_end}
 
@@ -852,7 +852,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time ch{p_end}
+{synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time characterized by a deficiency in a region's water supply that is the result of constantly below average precipitation. A drought can lead to losses to agriculture, affect inland navigation and hydropower plants, and cause a lack of drinking water and famine. A flood is a significant rise of water level in a stream, lake, reservoir or coastal region. Extreme temperature events are either cold waves or heat waves. A cold wave can be both a prolonged period of excessively cold weather and the sudden invasion of very cold air over a large area. Along with frost it can cause damage to agriculture, infrastructure, and property. A heat wave is a prolonged period of excessively hot and sometimes also humid weather relative to normal climate patterns of a certain region. Population affected is the number of people injured, left homeless or requiring immediate assistance during a period of emergency resulting from a natural disaster; it can also include displaced or evacuated people. Average percentage of population affected is calculated by dividing the sum of total affected for the period stated by the sum of the annual population figures for the period stated.{p_end}
 
 {synopt:{opt Source Organization}}EM-DAT: The OFDA/CRED International Disaster Database: www.emdat.be, Université Catholique de Louvain, Brussels (Belgium), World Bank.{p_end}
 
@@ -865,7 +865,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions from all activities of ISIC Divisions 41, 50-52, 55, 63-67, 70-75, 80, 85, 90-93 and 99.{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -878,7 +878,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, com{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, combined heat and power generation and heat plants. Main activity producers (formerly known as public utilities) are defined as those undertakings whose primary activity is to supply the public. They may be publicly or privately owned. This corresponds to IPCC Source/Sink Category 1 A 1 a. For the CO2 emissions from fuel combustion (summary) file, emissions from own on-site use of fuel in power plants (EPOWERPLT) are also included. (2) Unallocated Autoproducers which contains the emissions from the generation of electricity and/or heat by autoproducers. Autoproducers are defined as undertakings that generate electricity and/or heat, wholly or partly for their own use as an activity which supports their primary activity. They may be privately or publicly owned. In the 1996 IPCC Guidelines, these emissions would normally be distributed between industry, transport and other sectors. (3) Other Energy Industries contains emissions from fuel combusted in petroleum refineries, for the manufacture of solid fuels, coal mining, oil and gas extraction and other energy-producing industries. This corresponds to the IPCC Source/Sink Categories 1 A 1 b and 1 A 1 c. According to the 1996 IPCC Guidelines, emissions from coke inputs to blast furnaces can either be counted here or in the Industrial Processes source/sink category. Within detailed sectoral calculations, certain non-energy processes can be distinguished. In the reduction of iron in a blast furnace through the combustion of coke, the primary purpose of the coke oxidation is to produce pig iron and the emissions can be considered as an industrial process. Care must be taken not to double count these emissions in both Energy and Industrial Processes. In the IEA estimations, these emissions have been included in this category.{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -891,7 +891,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category also includes emissions from industry autoproducers that generate electricity and/or heat. The IEA data are not collected in a way that allows the energy consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers). Manufacturing industries and construction also includes emissions from coke inputs into blast furnaces, which may be reported either in the transformation sector, the industry sector or the separate IPCC Source/Sink Category 2, Industrial Processes.{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -904,7 +904,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified else{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified elsewhere that are included in the IPCC Source/Sink Categories 1 A 4 and 1 A 5. In the 1996 IPCC Guidelines, the category also includes emissions from autoproducers in the commercial/residential/agricultural sectors that generate electricity and/or heat. The IEA data are not collected in a way that allows the energy consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers).{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -917,7 +917,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic navigation, road, rail and pipeline transport, and corresponds to IPCC Source/Sink Category 1 A 3. In addition, the IEA data are not collected in a way that allows the autoproducer consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers).{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -971,7 +971,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -984,7 +984,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -997,7 +997,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
 
 
 {synoptline}
@@ -1008,7 +1008,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
+{synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improved water, access to improved sanitation, sufficient living area, and durability of housing.{p_end}
 
 {synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
 
@@ -1021,7 +1021,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Aquaculture is understood to mean the farming of aquatic organisms including fish, molluscs, crustaceans and aquatic plants. Aquaculture production specifically refers to output from aquaculture activities, which are designated for final harve{p_end}
+{synopt:{opt Source Notes}}Aquaculture is understood to mean the farming of aquatic organisms including fish, molluscs, crustaceans and aquatic plants. Aquaculture production specifically refers to output from aquaculture activities, which are designated for final harvest for consumption.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
 
@@ -1047,7 +1047,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total fisheries production measures the volume of aquatic species caught by a country for all commercial, industrial, recreational and subsistence purposes. The harvest from mariculture, aquaculture and other kinds of fish farming is also incl{p_end}
+{synopt:{opt Source Notes}}Total fisheries production measures the volume of aquatic species caught by a country for all commercial, industrial, recreational and subsistence purposes. The harvest from mariculture, aquaculture and other kinds of fish farming is also included.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
 
@@ -1073,7 +1073,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture are total withdrawals for irrigation and livestock production. Data are for the most recent year available for 1987-2002.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1086,7 +1086,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1099,7 +1099,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for industry are total withdrawals for direct industrial use (including withdrawals for cooling thermoelectric plants). Data are for the most recent year available for 1987-2002.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1112,7 +1112,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1125,7 +1125,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1151,7 +1151,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's p{p_end}
+{synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's population estimates.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
@@ -1164,9 +1164,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
+{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, protected landscapes, and areas managed mainly for sustainable use. Marine areas, unclassified areas, littoral (intertidal) areas, and sites protected under local or provincial law are excluded.{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website ({browse "https://www.protectedplanet.net/"}).{p_end}
 
 
 {synoptline}
@@ -1177,9 +1177,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the{p_end}
+{synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website ({browse "https://www.protectedplanet.net/"}).{p_end}
 
 
 {synoptline}
@@ -1190,9 +1190,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
+{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, protected landscapes, and areas managed mainly for sustainable use. Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment. Sites protected under local or provincial law are excluded.{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website ({browse "https://www.protectedplanet.net/"}).{p_end}
 
 
 {synoptline}
@@ -1359,7 +1359,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
+{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in households cooking with solid fuels. Damages are calculated as foregone labor income due to premature death. Estimates of health impacts from the Global Burden of Disease Study 2016. Data for other years have been extrapolated from trends in mortality rates.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
@@ -1372,7 +1372,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
+{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in households cooking with solid fuels. Damages are calculated as foregone labor income due to premature death. Estimates of health impacts from the Global Burden of Disease Study 2016. Data for other years have been extrapolated from trends in mortality rates.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
@@ -1502,7 +1502,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
+{synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
@@ -1554,7 +1554,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1567,7 +1567,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1580,7 +1580,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1593,7 +1593,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1606,7 +1606,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1619,7 +1619,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1632,7 +1632,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1645,7 +1645,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1658,7 +1658,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1671,7 +1671,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1684,7 +1684,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1697,7 +1697,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1710,7 +1710,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1762,7 +1762,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1775,7 +1775,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1788,7 +1788,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1801,7 +1801,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1814,7 +1814,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1827,7 +1827,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -1840,7 +1840,7 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing the number of deaths by the total population. In this estimate, only the impact of diarrhoeal diseases, intestinal nematode infections, and protein-energy malnutrition are taken into account.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 

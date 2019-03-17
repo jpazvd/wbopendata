@@ -27,7 +27,6 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -40,7 +39,6 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -59,13 +57,13 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:65 Health Equity and Financial Protection Indicators}}}
 {synoptline}
-{marker sourceid_FX.OWN.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS} - Prevalence of obesity, female, BMI &gt; 30 (% of population 18+): Q1 (lowest)}}
+{marker sourceid_HD.HCI.STNT.MA}
+{synopt:{bf:{help wbopendata_sourceid##HD.HCI.STNT.MA:HD.HCI.STNT.MA} - Condom use in last intercourse (% of females at risk population)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of females aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 18-49 who had more than one sexual partner in the last 12 months and used a condom during last intercourse{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -137,7 +135,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 18-49 who had more than one sexual partner in the last 12 months and used a condom during last intercourse{p_end}
+{synopt:{opt Source Notes}}Percentage of population age 15-49 who had blood tests that are positive for HIV1 or HIV2{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -221,19 +219,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive device (IUD), injectables, implants, female condom, male condom, diaphragm, contraceptive foam and contraceptive jelly, lactational amenorrhea method (LAM), emergency contraception, country-specific modern methods and other modern contraceptive methods respondent mentioned.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.DYN.CONM.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.CONM.ZS.Q1:HF.DYN.CONM.ZS.Q1} - Contraceptive prevalence, modern methods (% of females ages 15-49): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.CONM.ZS.Q1:HF.DYN.CONM.ZS.Q1} - Contraceptive prevalence, modern methods (% of females ages 15-49): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive device (IUD), injectables, implants, female condom, male condom, diaphragm, contraceptive foam and contraceptive jelly, lactational amenorrhea method (LAM), emergency contraception, country-specific modern methods and other modern contraceptive methods respondent mentioned.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -245,7 +243,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive device (IUD), injectables, implants, female condom, male condom, diaphragm, contraceptive foam and contraceptive jelly, lactational amenorrhea method (LAM), emergency contraception, country-specific modern methods and other modern contraceptive methods respondent mentioned.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -257,7 +255,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive device (IUD), injectables, implants, female condom, male condom, diaphragm, contraceptive foam and contraceptive jelly, lactational amenorrhea method (LAM), emergency contraception, country-specific modern methods and other modern contraceptive methods respondent mentioned.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -269,7 +267,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive device (IUD), injectables, implants, female condom, male condom, diaphragm, contraceptive foam and contraceptive jelly, lactational amenorrhea method (LAM), emergency contraception, country-specific modern methods and other modern contraceptive methods respondent mentioned.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -281,19 +279,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.DYN.IMRT.IN}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN:HF.DYN.IMRT.IN} - Mortality rate, infant (per 1,000 live births): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN:HF.DYN.IMRT.IN} - Mortality rate, infant (per 1,000 live births)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -305,7 +303,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -317,7 +315,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -329,7 +327,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -341,7 +339,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -353,19 +351,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.DYN.MORT}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.MORT:HF.DYN.MORT} - Mortality rate, under-5 (per 1,000)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.MORT:HF.DYN.MORT} - Mortality rate, under-5 (per 1,000): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -377,19 +375,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.DYN.MORT.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.MORT.Q2:HF.DYN.MORT.Q2} - Mortality rate, under-5 (per 1,000): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.MORT.Q2:HF.DYN.MORT.Q2} - Mortality rate, under-5 (per 1,000): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -401,19 +399,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.DYN.MORT.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.MORT.Q4:HF.DYN.MORT.Q4} - Mortality rate, under-5 (per 1,000): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.MORT.Q4:HF.DYN.MORT.Q4} - Mortality rate, under-5 (per 1,000): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -425,7 +423,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 5th birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality estimates{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -497,7 +495,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -509,7 +507,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -521,19 +519,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.IMM.FULL.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.IMM.FULL.Q2:HF.IMM.FULL.Q2} - Immunization, full (% of children ages 15-23 months): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.IMM.FULL.Q2:HF.IMM.FULL.Q2} - Immunization, full (% of children ages 15-23 months): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -545,7 +543,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -557,7 +555,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -569,7 +567,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received measles or MMR vaccination, either verified by vaccination card or by recall of respondent{p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccinations, either verified by vaccination card or by recall of respondent{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -641,7 +639,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received measles or MMR vaccination, either verified by vaccination card or by recall of respondent{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insecticides less than 12 months ago, or c) a non-pre-treated net which was soaked in insecticides less than 12 months ago. MICS 2 data points (MICS surveys pre-2002) consider bed nets treated if they were ever treated.){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -653,7 +651,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insecticides less than 12 months ago, or c) a non-pre-treated net which was soaked in insecticides less than 12 months ago. MICS 2 data points (MICS surveys pre-2002) consider bed nets treated if they were ever treated.){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -665,19 +663,19 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insecticides less than 12 months ago, or c) a non-pre-treated net which was soaked in insecticides less than 12 months ago. MICS 2 data points (MICS surveys pre-2002) consider bed nets treated if they were ever treated.){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.MLR.NETS.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.MLR.NETS.ZS.Q2:HF.MLR.NETS.ZS.Q2} - Use of insecticide-treated bed nets (% of under-5 population): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.MLR.NETS.ZS.Q2:HF.MLR.NETS.ZS.Q2} - Use of insecticide-treated bed nets (% of under-5 population): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insecticides less than 12 months ago, or c) a non-pre-treated net which was soaked in insecticides less than 12 months ago. MICS 2 data points (MICS surveys pre-2002) consider bed nets treated if they were ever treated.){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -689,7 +687,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insecticides less than 12 months ago, or c) a non-pre-treated net which was soaked in insecticides less than 12 months ago. MICS 2 data points (MICS surveys pre-2002) consider bed nets treated if they were ever treated.){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -701,7 +699,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insecticides less than 12 months ago, or c) a non-pre-treated net which was soaked in insecticides less than 12 months ago. MICS 2 data points (MICS surveys pre-2002) consider bed nets treated if they were ever treated.){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -713,7 +711,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last two years with at least 4 antenatal care visits (women age 18-49 at the time of the survey{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -797,7 +795,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS data points use sample of children under 5 with cough and rapid breathing in the 2 weeks preceding the survey which originated from the chest. The definition of formal healthcare providers varies by country and data source.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -809,7 +807,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS data points use sample of children under 5 with cough and rapid breathing in the 2 weeks preceding the survey which originated from the chest. The definition of formal healthcare providers varies by country and data source.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -821,7 +819,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS data points use sample of children under 5 with cough and rapid breathing in the 2 weeks preceding the survey which originated from the chest. The definition of formal healthcare providers varies by country and data source.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -833,7 +831,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS data points use sample of children under 5 with cough and rapid breathing in the 2 weeks preceding the survey which originated from the chest. The definition of formal healthcare providers varies by country and data source.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -845,7 +843,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS data points use sample of children under 5 with cough and rapid breathing in the 2 weeks preceding the survey which originated from the chest. The definition of formal healthcare providers varies by country and data source.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -857,7 +855,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with cough and rapid breathing in the two weeks preceding the survey (DHS, WHS) who had a consultation with a formal healthcare provider (excluding pharmacies and visits to “other” healthcare providers). MICS{p_end}
+{synopt:{opt Source Notes}}Percentage of population aged 40-69 at increased risk of diabetes (overweight, obese) having their blood sugar measured in the last 5 years{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -960,7 +958,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM15.FE.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM15.FE.Q2:HF.STA.BM15.FE.Q2} - Mean BMI, female (ages 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM15.FE.Q2:HF.STA.BM15.FE.Q2} - Mean BMI, female (ages 15-49): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1044,7 +1042,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM18.FE.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.FE.Q2:HF.STA.BM18.FE.Q2} - Mean BMI, female (age 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.FE.Q2:HF.STA.BM18.FE.Q2} - Mean BMI, female (age 18+): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1104,7 +1102,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM18.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.Q2:HF.STA.BM18.Q2} - Mean BMI, adults (age 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.Q2:HF.STA.BM18.Q2} - Mean BMI, adults (age 18+): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1116,7 +1114,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM18.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.Q3:HF.STA.BM18.Q3} - Mean BMI, adults (age 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.Q3:HF.STA.BM18.Q3} - Mean BMI, adults (age 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1188,7 +1186,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BMIN.MA.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q3:HF.STA.BMIN.MA.Q3} - Mean BMI, male (age 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q3:HF.STA.BMIN.MA.Q3} - Mean BMI, male (age 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1200,7 +1198,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BMIN.MA.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q4:HF.STA.BMIN.MA.Q4} - Mean BMI, male (age 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q4:HF.STA.BMIN.MA.Q4} - Mean BMI, male (age 18+): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1260,7 +1258,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BP18.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BP18.ZS.Q3:HF.STA.BP18.ZS.Q3} - Blood pressure measured in last 12 months (% of population age 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BP18.ZS.Q3:HF.STA.BP18.ZS.Q3} - Blood pressure measured in last 12 months (% of population age 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1289,7 +1287,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population with high blood pressure or on treatment for high blood pressure (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of population over 18 having their blood pressure measured by health professional in the last year{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1308,7 +1306,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPDI.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPDI.Q1:HF.STA.BPDI.Q1} - Mean diastolic blood pressure, adult population (mmHg): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPDI.Q1:HF.STA.BPDI.Q1} - Mean diastolic blood pressure, adult population (mmHg): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1344,7 +1342,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPDI.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPDI.Q4:HF.STA.BPDI.Q4} - Mean diastolic blood pressure, adult population (mmHg): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPDI.Q4:HF.STA.BPDI.Q4} - Mean diastolic blood pressure, adult population (mmHg): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1380,7 +1378,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPHT.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPHT.ZS.Q1:HF.STA.BPHT.ZS.Q1} - High blood pressure or being treated for high blood pressure (% of adult population): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPHT.ZS.Q1:HF.STA.BPHT.ZS.Q1} - High blood pressure or being treated for high blood pressure (% of adult population): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1452,7 +1450,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPSY.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPSY.Q1:HF.STA.BPSY.Q1} - Mean systolic blood pressure, adult population (mmHg): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPSY.Q1:HF.STA.BPSY.Q1} - Mean systolic blood pressure, adult population (mmHg): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1488,7 +1486,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPSY.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPSY.Q4:HF.STA.BPSY.Q4} - Mean systolic blood pressure, adult population (mmHg): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPSY.Q4:HF.STA.BPSY.Q4} - Mean systolic blood pressure, adult population (mmHg): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1512,7 +1510,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPTR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPTR.ZS:HF.STA.BPTR.ZS} - Treated for high blood pressure (% of adult population)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPTR.ZS:HF.STA.BPTR.ZS} - Treated for high blood pressure (% of adult population): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1548,7 +1546,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPTR.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPTR.ZS.Q3:HF.STA.BPTR.ZS.Q3} - Treated for high blood pressure (% of adult population): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPTR.ZS.Q3:HF.STA.BPTR.ZS.Q3} - Treated for high blood pressure (% of adult population): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1584,12 +1582,12 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BRTC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS:HF.STA.BRTC.ZS} - Births attended by skilled health staff (% of total): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS:HF.STA.BRTC.ZS} - Births attended by skilled health staff (% of total)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary midwife).{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1601,31 +1599,31 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary midwife).{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.STA.BRTC.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS.Q2:HF.STA.BRTC.ZS.Q2} - Births attended by skilled health staff (% of total): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS.Q2:HF.STA.BRTC.ZS.Q2} - Births attended by skilled health staff (% of total): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary midwife).{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.STA.BRTC.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS.Q3:HF.STA.BRTC.ZS.Q3} - Births attended by skilled health staff (% of total): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS.Q3:HF.STA.BRTC.ZS.Q3} - Births attended by skilled health staff (% of total): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary midwife).{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1637,7 +1635,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary midwife).{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1649,7 +1647,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary midwife).{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1673,7 +1671,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population with high cholesterol or on treatment for high cholesterol (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of adult population at risk (overweight or obese and older than 20, male and older than 34) having their cholesterol levels measured in the last 5 years{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1704,7 +1702,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.CHOM.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.CHOM.ZS.Q2:HF.STA.CHOM.ZS.Q2} - Cholesterol measured in last five years (% of population at risk of high cholesterol): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.CHOM.ZS.Q2:HF.STA.CHOM.ZS.Q2} - Cholesterol measured in last five years (% of population at risk of high cholesterol): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1745,7 +1743,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population being treated for raised blood glucose or diabetes (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of adult population at risk (overweight or obese and older than 20, male and older than 34) having their cholesterol levels measured in the last 5 years{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1776,7 +1774,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.DIAB.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.DIAB.ZS.Q2:HF.STA.DIAB.ZS.Q2} - Treated for raised blood glucose or diabetes (% of adult population): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.DIAB.ZS.Q2:HF.STA.DIAB.ZS.Q2} - Treated for raised blood glucose or diabetes (% of adult population): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1788,7 +1786,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.DIAB.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.DIAB.ZS.Q3:HF.STA.DIAB.ZS.Q3} - Treated for raised blood glucose or diabetes (% of adult population): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.DIAB.ZS.Q3:HF.STA.DIAB.ZS.Q3} - Treated for raised blood glucose or diabetes (% of adult population): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1817,14 +1815,14 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population being treated for raised blood glucose or diabetes (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of adult population with impaired fasting glycaemia (age-range may vary){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.STA.GLUC}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.GLUC:HF.STA.GLUC} - Mean fasting blood glucose, adult population (mmol/L)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.GLUC:HF.STA.GLUC} - Impaired fasting glycaemia (% of adult population)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1841,7 +1839,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population age 18 and older using inpatient care in the last 12 months{p_end}
+{synopt:{opt Source Notes}}Percentage of adult population with impaired fasting glycaemia (age-range may vary){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1860,7 +1858,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE15.FE.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE.Q1:HF.STA.HE15.FE.Q1} - Mean height in meters, female, (age 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE.Q1:HF.STA.HE15.FE.Q1} - Mean height in meters, female, (age 15-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1932,7 +1930,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.FE}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE:HF.STA.HE18.FE} - Mean height in meters, female (age 18+): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE:HF.STA.HE18.FE} - Mean height in meters, female (age 18+)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1992,7 +1990,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.FE.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE.Q5:HF.STA.HE18.FE.Q5} - Mean height in meters, male (age 18+)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE.Q5:HF.STA.HE18.FE.Q5} - Mean height in meters, female (age 18+): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2028,7 +2026,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.MA.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q2:HF.STA.HE18.MA.Q2} - Mean height in meters, male (age 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q2:HF.STA.HE18.MA.Q2} - Mean height in meters, male (age 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2112,7 +2110,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q4:HF.STA.HE18.Q4} - Mean height in meters, adults (age 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q4:HF.STA.HE18.Q4} - Mean height in meters, adults (age 18+): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2292,7 +2290,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.MAMO.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.MAMO.ZS.Q1:HF.STA.MAMO.ZS.Q1} - Mammography in last 2 years, (% of females 50-69): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.MAMO.ZS.Q1:HF.STA.MAMO.ZS.Q1} - Mammography in last 2 years, (% of females 50-69): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2345,7 +2343,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women who received a mammogram in the last 2 years (preferably age 50-69 but age groups may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of females aged 15-49 with BMI above 30 (excludes currently pregnant women and women having given birth in the three months preceding the survey){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2376,7 +2374,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB15.FE.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB15.FE.ZS.Q2:HF.STA.OB15.FE.ZS.Q2} - Prevalence of obesity, female, BMI &gt; 30 (% of population 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB15.FE.ZS.Q2:HF.STA.OB15.FE.ZS.Q2} - Prevalence of obesity, female, BMI &gt; 30 (% of population 15-49): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2436,7 +2434,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB18.FE.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS.Q2:HF.STA.OB18.FE.ZS.Q2} - Prevalence of obesity, female, BMI &gt; 30 (% of population 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS.Q2:HF.STA.OB18.FE.ZS.Q2} - Prevalence of obesity, female, BMI &gt; 30 (% of population 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2477,7 +2475,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of females aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of males aged 18 and older with BMI above 30{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2549,7 +2547,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of males aged 18 and older with BMI above 30{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2592,7 +2590,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB18.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.ZS.Q3:HF.STA.OB18.ZS.Q3} - Prevalence of obesity, BMI &gt; 30 (% of population 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.ZS.Q3:HF.STA.OB18.ZS.Q3} - Prevalence of obesity, BMI &gt; 30 (% of population 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2616,12 +2614,12 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB18.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.ZS.Q5:HF.STA.OB18.ZS.Q5} - Diarrhea treatment (% of children under 5 who received ORS)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.ZS.Q5:HF.STA.OB18.ZS.Q5} - Prevalence of obesity, BMI &gt; 30 (% of population 18+): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with diarrhea in the 2 weeks before the survey who were given oral rehydration salts (ORS){p_end}
+{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 30{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2652,7 +2650,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.ORTH.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q2:HF.STA.ORTH.ZS.Q2} - Diarrhea treatment (% of children under 5 who received ORS): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q2:HF.STA.ORTH.ZS.Q2} - Diarrhea treatment (% of children under 5 who received ORS): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2688,7 +2686,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.ORTH.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q5:HF.STA.ORTH.ZS.Q5} - Diarrhea treatment (% of children under 5 who received ORS): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q5:HF.STA.ORTH.ZS.Q5} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2712,7 +2710,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW15.FE.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q1:HF.STA.OW15.FE.ZS.Q1} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q1:HF.STA.OW15.FE.ZS.Q1} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2724,7 +2722,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW15.FE.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q2:HF.STA.OW15.FE.ZS.Q2} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q2:HF.STA.OW15.FE.ZS.Q2} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2765,7 +2763,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of female population aged 15-49 with BMI above 25 (excludes currently pregnant women and women having given birth in the three months preceding the survey){p_end}
+{synopt:{opt Source Notes}}Percentage of female population aged 18 or older with BMI above 25{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2880,7 +2878,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.MA.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q3:HF.STA.OW18.MA.ZS.Q3} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q3:HF.STA.OW18.MA.ZS.Q3} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2892,7 +2890,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.MA.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q4:HF.STA.OW18.MA.ZS.Q4} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q4:HF.STA.OW18.MA.ZS.Q4} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2909,7 +2907,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 25{p_end}
+{synopt:{opt Source Notes}}Percentage of male population aged 18 or older with BMI above 25{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2940,7 +2938,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.ZS.Q2:HF.STA.OW18.ZS.Q2} - Prevalence of overweight, BMI &gt; 25 (% of population 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.ZS.Q2:HF.STA.OW18.ZS.Q2} - Prevalence of overweight, BMI &gt; 25 (% of population 18+): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2981,7 +2979,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 25{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with a Height-for-Age z-score &lt;-2 standard deviations from the reference median (z-score calculated using WHO 2006 Child Growth Standards){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -3036,7 +3034,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.STNT.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.STNT.ZS.Q4:HF.STA.STNT.ZS.Q4} - Prevalence of stunting, height for age (% of children under 5): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.STNT.ZS.Q4:HF.STA.STNT.ZS.Q4} - Prevalence of stunting, height for age (% of children under 5): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3048,12 +3046,12 @@
 
 {synoptline}
 {marker sourceid_HF.STA.STNT.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.STNT.ZS.Q5:HF.STA.STNT.ZS.Q5} - Prevalence of stunting, height for age (% of children under 5): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.STNT.ZS.Q5:HF.STA.STNT.ZS.Q5} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with a Height-for-Age z-score &lt;-2 standard deviations from the reference median (z-score calculated using WHO 2006 Child Growth Standards){p_end}
+{synopt:{opt Source Notes}}Percentage of population pushed below 60% of median consumption by out-of-pocket health spending{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -3084,7 +3082,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.CONS.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q2:HF.UHC.CONS.ZS.Q2} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q2:HF.UHC.CONS.ZS.Q2} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3108,7 +3106,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.CONS.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q4:HF.UHC.CONS.ZS.Q4} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q4:HF.UHC.CONS.ZS.Q4} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3156,7 +3154,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.NOP1.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS.Q2:HF.UHC.NOP1.ZS.Q2} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS.Q2:HF.UHC.NOP1.ZS.Q2} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3240,7 +3238,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.NOP2.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP2.ZS.Q3:HF.UHC.NOP2.ZS.Q3} - Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP2.ZS.Q3:HF.UHC.NOP2.ZS.Q3} - Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3269,7 +3267,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population pushed below 3.20 international $ per day consumption poverty line by out-of-pocket health spending{p_end}
+{synopt:{opt Source Notes}}Percentage of population with out-of-pocket health spending larger than 10% of total household expenditure{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -3312,7 +3310,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.OOPC.10.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.10.ZS.Q3:HF.UHC.OOPC.10.ZS.Q3} - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.10.ZS.Q3:HF.UHC.OOPC.10.ZS.Q3} - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3408,7 +3406,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.OOPC.25.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.25.ZS.Q5:HF.UHC.OOPC.25.ZS.Q5} - Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.25.ZS.Q5:HF.UHC.OOPC.25.ZS.Q5} - Unmet need for contraception (% of females ages 15-49)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3420,7 +3418,7 @@
 
 {synoptline}
 {marker sourceid_HF.UWT.TFRT}
-{synopt:{bf:{help wbopendata_sourceid##HF.UWT.TFRT:HF.UWT.TFRT} - Unmet need for contraception (% of females ages 15-49): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UWT.TFRT:HF.UWT.TFRT} - Unmet need for contraception (% of females ages 15-49)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
