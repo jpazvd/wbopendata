@@ -1,4 +1,4 @@
-*! _capital <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _capital <16 Mar 2019 : 13:09:10>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _capital 
@@ -42,6 +42,7 @@
          replace capital = "Bangui"  if `match' == "CAF"  
          replace capital = "Ottawa"  if `match' == "CAN"  
          replace capital = "Bern"  if `match' == "CHE"  
+         replace capital = "<wb:capitalCity"  if `match' == "CHI"  
          replace capital = "Santiago"  if `match' == "CHL"  
          replace capital = "Beijing"  if `match' == "CHN"  
          replace capital = "Yamoussoukro"  if `match' == "CIV"  
@@ -78,6 +79,7 @@
          replace capital = "London"  if `match' == "GBR"  
          replace capital = "Tbilisi"  if `match' == "GEO"  
          replace capital = "Accra"  if `match' == "GHA"  
+         replace capital = "<wb:capitalCity"  if `match' == "GIB"  
          replace capital = "Conakry"  if `match' == "GIN"  
          replace capital = "Banjul"  if `match' == "GMB"  
          replace capital = "Bissau"  if `match' == "GNB"  
@@ -88,6 +90,7 @@
          replace capital = "Guatemala City"  if `match' == "GTM"  
          replace capital = "Agana"  if `match' == "GUM"  
          replace capital = "Georgetown"  if `match' == "GUY"  
+         replace capital = "<wb:capitalCity"  if `match' == "HKG"  
          replace capital = "Tegucigalpa"  if `match' == "HND"  
          replace capital = "Zagreb"  if `match' == "HRV"  
          replace capital = "Port-au-Prince"  if `match' == "HTI"  
@@ -99,6 +102,7 @@
          replace capital = "Tehran"  if `match' == "IRN"  
          replace capital = "Baghdad"  if `match' == "IRQ"  
          replace capital = "Reykjavik"  if `match' == "ISL"  
+         replace capital = "<wb:capitalCity"  if `match' == "ISR"  
          replace capital = "Rome"  if `match' == "ITA"  
          replace capital = "Kingston"  if `match' == "JAM"  
          replace capital = "Amman"  if `match' == "JOR"  
@@ -122,6 +126,7 @@
          replace capital = "Vilnius"  if `match' == "LTU"  
          replace capital = "Luxembourg"  if `match' == "LUX"  
          replace capital = "Riga"  if `match' == "LVA"  
+         replace capital = "<wb:capitalCity"  if `match' == "MAC"  
          replace capital = "Marigot"  if `match' == "MAF"  
          replace capital = "Rabat"  if `match' == "MAR"  
          replace capital = "Monaco"  if `match' == "MCO"  
@@ -164,6 +169,7 @@
          replace capital = "Pyongyang"  if `match' == "PRK"  
          replace capital = "Lisbon"  if `match' == "PRT"  
          replace capital = "Asuncion"  if `match' == "PRY"  
+         replace capital = "<wb:capitalCity"  if `match' == "PSE"  
          replace capital = "Papeete"  if `match' == "PYF"  
          replace capital = "Doha"  if `match' == "QAT"  
          replace capital = "Bucharest"  if `match' == "ROU"  
@@ -201,6 +207,7 @@
          replace capital = "Tunis"  if `match' == "TUN"  
          replace capital = "Ankara"  if `match' == "TUR"  
          replace capital = "Funafuti"  if `match' == "TUV"  
+         replace capital = "<wb:capitalCity"  if `match' == "TWN"  
          replace capital = "Dodoma"  if `match' == "TZA"  
          replace capital = "Kampala"  if `match' == "UGA"  
          replace capital = "Kiev"  if `match' == "UKR"  
@@ -218,7 +225,6 @@
          replace capital = "Sana'a"  if `match' == "YEM"  
          replace capital = "Pretoria"  if `match' == "ZAF"  
          replace capital = "Lusaka"  if `match' == "ZMB"  
-         replace capital = "Harare"  if `match' == "ZWE"  
   
 *********************
   

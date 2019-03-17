@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -58,6 +58,18 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:64 Worldwide Bureaucracy Indicators}}}
+{synoptline}
+{marker sourceid_BG.KLT.DINV.GD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BG.KLT.DINV.GD.ZS:BG.KLT.DINV.GD.ZS} - Public sector employment as a share of formal employment}}
+
+{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.  Data are in US$.{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+
+
 {synoptline}
 {marker sourceid_BI.EMP.FRML.PB.ZS}
 {synopt:{bf:{help wbopendata_sourceid##BI.EMP.FRML.PB.ZS:BI.EMP.FRML.PB.ZS} - Public sector employment as a share of formal employment}}
@@ -204,7 +216,7 @@
 
 {synoptline}
 {marker sourceid_BI.EMP.TOTL.PB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.ZS:BI.EMP.TOTL.PB.ZS} - Public sector employment as a share of total employment}}
+{synopt:{bf:{help wbopendata_sourceid##BI.EMP.TOTL.PB.ZS:BI.EMP.TOTL.PB.ZS} - Sample size}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -240,7 +252,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.AGES.PB.SM}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SM:BI.PWK.AGES.PB.SM} - Median age of private paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.AGES.PB.SM:BI.PWK.AGES.PB.SM} - Mean age of public paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -324,7 +336,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.FE.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.FE.Q2.ZS:BI.PWK.PRVS.FE.Q2.ZS} - Females as a share of private paid employee by wage quintile (Quintile 3)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.FE.Q2.ZS:BI.PWK.PRVS.FE.Q2.ZS} - Females, as a share of private paid employee by wage quintile (Quintile 2)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -396,7 +408,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.NN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.NN.ZS:BI.PWK.PRVS.NN.ZS} - Females as a share of private paid employees by occupation (Professionals)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.NN.ZS:BI.PWK.PRVS.NN.ZS} - Individuals with no education as a share of private paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -408,7 +420,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.PN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.PN.FE.ZS:BI.PWK.PRVS.PN.FE.ZS} - Females as a share of private paid employees by occupation (Professionals)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.PN.FE.ZS:BI.PWK.PRVS.PN.FE.ZS} - Individuals with primary education as a share of private paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -444,7 +456,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.SG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.SG.ZS:BI.PWK.PRVS.SG.ZS} - Individuals with secondary education as a share of private paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.SG.ZS:BI.PWK.PRVS.SG.ZS} - Females as a share of private paid employees by occupation (Senior officials)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -492,7 +504,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PRVS.TT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.ZS:BI.PWK.PRVS.TT.ZS} - Share of private paid employees with union membership}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PRVS.TT.ZS:BI.PWK.PRVS.TT.ZS} - Individuals with tertiary education as a share of private paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -552,7 +564,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.FE.Q1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q1.ZS:BI.PWK.PUBS.FE.Q1.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 1)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q1.ZS:BI.PWK.PUBS.FE.Q1.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 2)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -564,7 +576,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.FE.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q2.ZS:BI.PWK.PUBS.FE.Q2.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 2)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q2.ZS:BI.PWK.PUBS.FE.Q2.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 3)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -576,7 +588,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.FE.Q3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q3.ZS:BI.PWK.PUBS.FE.Q3.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 4)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q3.ZS:BI.PWK.PUBS.FE.Q3.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 3)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -588,7 +600,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.FE.Q4.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q4.ZS:BI.PWK.PUBS.FE.Q4.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 5)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.FE.Q4.ZS:BI.PWK.PUBS.FE.Q4.ZS} - Females, as a share of public paid employee by wage quintile (Quintile 4)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -624,7 +636,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.HS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.HS.ZS:BI.PWK.PUBS.HS.ZS} - Share of public paid employees with health insurance}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.HS.ZS:BI.PWK.PUBS.HS.ZS} - Individuals with no education as a share of public paid employees}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -660,7 +672,7 @@
 
 {synoptline}
 {marker sourceid_BI.PWK.PUBS.PN.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PN.FE.ZS:BI.PWK.PUBS.PN.FE.ZS} - Individuals with primary education as a share of public paid employees}}
+{synopt:{bf:{help wbopendata_sourceid##BI.PWK.PUBS.PN.FE.ZS:BI.PWK.PUBS.PN.FE.ZS} - Females as a share of public paid employees by occupation (Professionals)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -792,7 +804,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.CPRS.PV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.CPRS.PV.ZS:BI.WAG.CPRS.PV.ZS} - Public sector wage premium (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.CPRS.PV.ZS:BI.WAG.CPRS.PV.ZS} - Pay compression ratio in private sector}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -888,7 +900,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.PN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.PN:BI.WAG.PREM.PB.PN} - Public sector wage premium by education level: Primary education (compared to formal wage employees)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.PN:BI.WAG.PREM.PB.PN} - Public sector wage premium by occupation (Professionals) (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -948,7 +960,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PREM.PB.TT}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TT:BI.WAG.PREM.PB.TT} - Female to male wage ratio in the private sector (using median)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PREM.PB.TT:BI.WAG.PREM.PB.TT} - Public sector wage premium by education level: Tertiary education (compared to formal wage employees)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -996,7 +1008,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.PRVS.SN}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.SN:BI.WAG.PRVS.SN} - Relative wage of Technicians in private sector  (using clerk as reference)}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.PRVS.SN:BI.WAG.PRVS.SN} - Relative wage of Senior officials in private sector (using clerk as reference)}}
 
 {synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
 
@@ -1090,17 +1102,5 @@
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
-{synoptline}
-{marker sourceid_BI.WAG.TOTL.PB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.TOTL.PB.ZS:BI.WAG.TOTL.PB.ZS} - Wage bill as a percentage of Public Expenditure}}
 
-{synopt:{opt Source}}64 Worldwide Bureaucracy Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.  Data are in US$.{p_end}
-
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
-
-
-
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

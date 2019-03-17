@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -58,6 +58,18 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:15 Global Economic Monitor}}}
+{synoptline}
+{marker sourceid_AG.PRD.GAGRI.XD}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GAGRI.XD:AG.PRD.GAGRI.XD} - Agriculture production index (gross, 1999-2001 = 100)}}
+
+{synopt:{opt Source}}15 Global Economic Monitor{p_end}
+
+
+{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal percentage terms, measured on a year-on-year basis, and seasonally adjusted.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
+
+
 {synoptline}
 {marker sourceid_CORENS}
 {synopt:{bf:{help wbopendata_sourceid##CORENS:CORENS} - Core CPI,not seas.adj,,,}}
@@ -89,7 +101,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is not seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}Median inflation rate calculated for geographical aggregates (regions, world, etc) of the annual percent change of the CPI. Data is seasonally adjusted.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
@@ -101,33 +113,21 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Median inflation rate calculated for geographical aggregates (regions, world, etc) of the annual percent change of the CPI. Data is seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal terms and seasonally adjusted.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
 
 {synoptline}
-{marker sourceid_CPTOTSAXNZGY}
-{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXNZGY:CPTOTSAXNZGY} - CPI Price, % y-o-y, nominal, seas. adj.}}
+{marker sourceid_CPTOTSAXN}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXN:CPTOTSAXN} - CPI Price, nominal, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
+{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal terms and seasonally adjusted.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
-
-
-{synoptline}
-{marker sourceid_DM.DOD.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DM.DOD.DLTF.CD:DM.DOD.DLTF.CD} - Imports Merchandise, Customs, current US$, millions}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in current US$ millions, not seasonally adjusted.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
 
 {synoptline}
@@ -161,7 +161,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, not seasonally adjusted. The base year is 2005.{p_end}
+{synopt:{opt Source Notes}}Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in current US$ millions, seasonally adjusted.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -185,7 +185,31 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Merchandise (goods) exports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, seasonally adjusted. The base year is 2005.{p_end}
+{synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, seasonally adjusted. The base year is 2005.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+
+
+{synoptline}
+{marker sourceid_DMGSRMRCHSAXD}
+{synopt:{bf:{help wbopendata_sourceid##DMGSRMRCHSAXD:DMGSRMRCHSAXD} - Imports Merchandise, Customs, Price, US$, seas. adj.}}
+
+{synopt:{opt Source}}15 Global Economic Monitor{p_end}
+
+
+{synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, seasonally adjusted. The base year is 2005.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+
+
+{synoptline}
+{marker sourceid_DP.DOD.DSTC.CR.PS.CD}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.PS.CD:DP.DOD.DSTC.CR.PS.CD} - Official exchange rate, LCU per USD, period average}}
+
+{synopt:{opt Source}}15 Global Economic Monitor{p_end}
+
+
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. It is calculated as an annual average based on monthly averages (local currency units re{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -197,7 +221,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Local currency units (LCU) per U.S. dollar, with values prior to the currency's introduction presented in the new currency's terms{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. It is calculated as an annual average based on monthly averages (local currency units re{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -215,18 +239,6 @@
 
 
 {synoptline}
-{marker sourceid_DPANUSSPF}
-{synopt:{bf:{help wbopendata_sourceid##DPANUSSPF:DPANUSSPF} - Exchange rate, old LCU per USD extended forward, period average}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Local currency units (LCU) per U.S. dollar, with values after a new currency's introduction presented in the old currency's terms{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
-
-
-{synoptline}
 {marker sourceid_DSTKMKTXD}
 {synopt:{bf:{help wbopendata_sourceid##DSTKMKTXD:DSTKMKTXD} - Stock Markets, US$}}
 
@@ -239,20 +251,8 @@
 
 
 {synoptline}
-{marker sourceid_DSTKMKTXN}
-{synopt:{bf:{help wbopendata_sourceid##DSTKMKTXN:DSTKMKTXN} - Stock Markets, LCU}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Memorandum item - repayments due on outstanding debts.  Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
-
-
-{synoptline}
 {marker sourceid_DXGSRMRCHNSCD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSCD:DXGSRMRCHNSCD} - Exports Merchandise, Customs, current US$, millions}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSCD:DXGSRMRCHNSCD} - Exports Merchandise, Customs, constant US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -269,7 +269,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}The price index of Merchandise (goods) exports,  free on board (f.o.b.), in currrent US$ millions. Not seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}Merchandise (goods) exports,  free on board (f.o.b.), in constant US$ millions not seasonally adjusted. The base year is 2005.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -300,19 +300,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHSAKD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAKD:DXGSRMRCHSAKD} - Exports Merchandise, Customs, Price, US$, seas. adj.}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}The price index of Merchandise (goods) exports,  free on board (f.o.b.), in US$ seasonally adjusted.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
-
-
-{synoptline}
-{marker sourceid_DXGSRMRCHSAXD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAXD:DXGSRMRCHSAXD} - Exports Merchandise, Customs, Price, US$, seas. adj.}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAKD:DXGSRMRCHSAKD} - Exports Merchandise, Customs, constant US$, millions, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -325,6 +313,18 @@
 {synoptline}
 {marker sourceid_EMBIG}
 {synopt:{bf:{help wbopendata_sourceid##EMBIG:EMBIG} - J.P. Morgan Emerging Markets Bond Spread (EMBI+),,,,}}
+
+{synopt:{opt Source}}15 Global Economic Monitor{p_end}
+
+
+{synopt:{opt Source Notes}}Agricultural employment shows the number of workers in the agricultural sector.{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, Production Yearbook and data files.{p_end}
+
+
+{synoptline}
+{marker sourceid_EMBIGI}
+{synopt:{bf:{help wbopendata_sourceid##EMBIGI:EMBIGI} - J.P. Morgan Emerging Markets Bond Index(EMBI+),,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -365,7 +365,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PPPs for private consumption. Statutory salaries refer to scheduled salaries according to official pay scales, while actual salaries refer to the average annual salary earned by a full-time teacher. The salaries reported are gross (total sum paid by the employer) less the employer’s contribution to social security and pension, according to existing salary scales. Salaries are “before tax”, i.e. before deductions for income tax. Teachers’ salaries are one component of teachers’ total compensation. Other benefits, such as regional allowances for teaching in remote areas, family allowances, reduced rates on public transport and tax allowances on the purchase of cultural materials, may also form part of teachers’ total remuneration. There are also large differences in taxation and social-benefits systems in OECD countries. All this should be borne in mind when comparing statutory salaries across countries. Data after 2009 is not comparable to data for 2009 and before due to changes in methodology. For more information, consult the OECD's Education at a Glance website: {browse "http://www.oecd.org/edu/eag.htm"}{p_end}
+{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
 
 {synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
 
@@ -377,7 +377,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PPPs for private consumption. Statutory salaries refer to scheduled salaries according to official pay scales, while actual salaries refer to the average annual salary earned by a full-time teacher. The salaries reported are gross (total sum paid by the employer) less the employer’s contribution to social security and pension, according to existing salary scales. Salaries are “before tax”, i.e. before deductions for income tax. Teachers’ salaries are one component of teachers’ total compensation. Other benefits, such as regional allowances for teaching in remote areas, family allowances, reduced rates on public transport and tax allowances on the purchase of cultural materials, may also form part of teachers’ total remuneration. There are also large differences in taxation and social-benefits systems in OECD countries. All this should be borne in mind when comparing statutory salaries across countries. Data after 2009 is not comparable to data for 2009 and before due to changes in methodology. For more information, consult the OECD's Education at a Glance website: {browse "http://www.oecd.org/edu/eag.htm"}{p_end}
+{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
 
 {synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
 
@@ -389,7 +389,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PPPs for private consumption. Statutory salaries refer to scheduled salaries according to official pay scales, while actual salaries refer to the average annual salary earned by a full-time teacher. The salaries reported are gross (total sum paid by the employer) less the employer’s contribution to social security and pension, according to existing salary scales. Salaries are “before tax”, i.e. before deductions for income tax. Teachers’ salaries are one component of teachers’ total compensation. Other benefits, such as regional allowances for teaching in remote areas, family allowances, reduced rates on public transport and tax allowances on the purchase of cultural materials, may also form part of teachers’ total remuneration. There are also large differences in taxation and social-benefits systems in OECD countries. All this should be borne in mind when comparing statutory salaries across countries. Data after 2009 is not comparable to data for 2009 and before due to changes in methodology. For more information, consult the OECD's Education at a Glance website: {browse "http://www.oecd.org/edu/eag.htm"}{p_end}
+{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
 
 {synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
 
@@ -401,69 +401,9 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PPPs for private consumption. Statutory salaries refer to scheduled salaries according to official pay scales, while actual salaries refer to the average annual salary earned by a full-time teacher. The salaries reported are gross (total sum paid by the employer) less the employer’s contribution to social security and pension, according to existing salary scales. Salaries are “before tax”, i.e. before deductions for income tax. Teachers’ salaries are one component of teachers’ total compensation. Other benefits, such as regional allowances for teaching in remote areas, family allowances, reduced rates on public transport and tax allowances on the purchase of cultural materials, may also form part of teachers’ total remuneration. There are also large differences in taxation and social-benefits systems in OECD countries. All this should be borne in mind when comparing statutory salaries across countries. Data after 2009 is not comparable to data for 2009 and before due to changes in methodology. For more information, consult the OECD's Education at a Glance website: {browse "http://www.oecd.org/edu/eag.htm"}{p_end}
+{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
 
 {synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
-
-
-{synoptline}
-{marker sourceid_Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL:Q.8A0.5B0.C.5A.ALL.IECE.1.STR.MX.TO1.ALL} - 10_Insured export credit exposures, short term (BU)}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Real effective exchange rate is the nominal effective exchange rate (a measure of the value of a currency against a weighted average of several foreign currencies) divided by a price deflator or index of costs.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
-
-
-{synoptline}
-{marker sourceid_REER}
-{synopt:{bf:{help wbopendata_sourceid##REER:REER} - Real Effective Exchange Rate}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Real effective exchange rate is the nominal effective exchange rate (a measure of the value of a currency against a weighted average of several foreign currencies) divided by a price deflator or index of costs.{p_end}
-
-{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.SOIF.06.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.SOIF.06.DB1519:RESLV.ISV.SOIF.06.DB1519} - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology)}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
-
-
-{synoptline}
-{marker sourceid_RETSALESSA}
-{synopt:{bf:{help wbopendata_sourceid##RETSALESSA:RETSALESSA} - Retail Sales Volume,Index,,,}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood of crime and violence.{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
-
-
-{synoptline}
-{marker sourceid_TN.PRI.MRCH.ID}
-{synopt:{bf:{help wbopendata_sourceid##TN.PRI.MRCH.ID:TN.PRI.MRCH.ID} - Terms of Trade}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}The terms of trade effect equals capacity to import less exports of goods and services.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
 
 {synoptline}
@@ -479,16 +419,16 @@
 
 
 {synoptline}
-{marker sourceid_TOTRESV}
-{synopt:{bf:{help wbopendata_sourceid##TOTRESV:TOTRESV} - Total Reserves}}
+{marker sourceid_UNEMPSA_}
+{synopt:{bf:{help wbopendata_sourceid##UNEMPSA_:UNEMPSA_} - Unemployment rate,Percent,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987.{p_end}
+{synopt:{opt Source Notes}}The Combined Polity score is computed by subtracting the AUTOCRACY score (UPP.INS.AUTO.XQ) from the DEMOCRACY score (UPP.INS.DEMO.XQ); the resulting unified polity scale ranges from +10 (strongly democratic) to -10 (strongly autocratic). Note:{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Unpublished statistics on Sub-National Trade{p_end}
+{synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

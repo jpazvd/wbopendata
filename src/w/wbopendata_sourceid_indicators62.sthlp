@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -96,7 +96,7 @@
 
 {synoptline}
 {marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -120,7 +120,7 @@
 
 {synoptline}
 {marker sourceid_S06}
-{synopt:{bf:{help wbopendata_sourceid##S06:S06} - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S06:S06} - REAL EXPENDITURES PER CAPITA (US$)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -144,7 +144,7 @@
 
 {synoptline}
 {marker sourceid_S08}
-{synopt:{bf:{help wbopendata_sourceid##S08:S08} - PRICE LEVEL INDEX (World = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##S08:S08} - NOMINAL EXPENDITURES (US$, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -191,8 +191,8 @@
 
 
 {synoptline}
-{marker sourceid_s_policyholders_B2_nonlife}
-{synopt:{bf:{help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - EXPENDITURES (National currency units, billions)}}
+{marker sourceid_S12}
+{synopt:{bf:{help wbopendata_sourceid##S12:S12} - POPULATION (millions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -203,4 +203,4 @@
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

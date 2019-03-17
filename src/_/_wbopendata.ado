@@ -236,7 +236,7 @@ syntax , 								///
 
 			
 			*noi _update_indicators, update `preserveout'
-			noi _indicators.ado
+			noi _indicators
 					
 			noi di in smcl ""
 			noi di in smcl in g "{bf:New indicator list created}"

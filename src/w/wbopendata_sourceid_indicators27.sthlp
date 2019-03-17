@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -65,7 +65,7 @@
 {synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}The World Bank{p_end}
 
@@ -77,10 +77,10 @@
 {synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
 
-{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PPPs for private consumption. Statutory salaries refer to scheduled salaries according to official pay scales, while actual salaries refer to the average annual salary earned by a full-time teacher. The salaries reported are gross (total sum paid by the employer) less the employer’s contribution to social security and pension, according to existing salary scales. Salaries are “before tax”, i.e. before deductions for income tax. Teachers’ salaries are one component of teachers’ total compensation. Other benefits, such as regional allowances for teaching in remote areas, family allowances, reduced rates on public transport and tax allowances on the purchase of cultural materials, may also form part of teachers’ total remuneration. There are also large differences in taxation and social-benefits systems in OECD countries. All this should be borne in mind when comparing statutory salaries across countries. Data after 2009 is not comparable to data for 2009 and before due to changes in methodology. For more information, consult the OECD's Education at a Glance website: {browse "http://www.oecd.org/edu/eag.htm"}{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

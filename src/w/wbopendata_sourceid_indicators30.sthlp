@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -58,6 +58,18 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:30 Exporter Dynamics Database – Indicators at Country-Year Level}}}
+{synoptline}
+{marker sourceid_9.6_PBA}
+{synopt:{bf:{help wbopendata_sourceid##9.6_PBA:9.6_PBA} - Aid provided through program based approaches (% of international aid to education)}}
+
+{synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
+
+
+{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
 {synoptline}
 {marker sourceid_A1}
 {synopt:{bf:{help wbopendata_sourceid##A1:A1} - 001.Number of Exporters}}
@@ -144,7 +156,7 @@
 
 {synoptline}
 {marker sourceid_A11ii}
-{synopt:{bf:{help wbopendata_sourceid##A11ii:A11ii} - 033.Growth of Incumbents: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##A11ii:A11ii} - 032.Growth of Incumbents: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -264,7 +276,7 @@
 
 {synoptline}
 {marker sourceid_A3}
-{synopt:{bf:{help wbopendata_sourceid##A3:A3} - 003.Number of Exiters}}
+{synopt:{bf:{help wbopendata_sourceid##A3:A3} - 004.Number of Surviving Entrants}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -288,7 +300,7 @@
 
 {synoptline}
 {marker sourceid_A5}
-{synopt:{bf:{help wbopendata_sourceid##A5:A5} - 006.Export Value per Exporter: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##A5:A5} - 005.Number of Incumbents}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -312,7 +324,7 @@
 
 {synoptline}
 {marker sourceid_A6ii}
-{synopt:{bf:{help wbopendata_sourceid##A6ii:A6ii} - 007.Export Value per Exporter: Median}}
+{synopt:{bf:{help wbopendata_sourceid##A6ii:A6ii} - 008.Export Value per Exporter: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -360,7 +372,7 @@
 
 {synoptline}
 {marker sourceid_A7i}
-{synopt:{bf:{help wbopendata_sourceid##A7i:A7i} - 011.Export Value per Entrant: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##A7i:A7i} - 012.Export Value per Entrant: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -420,7 +432,7 @@
 
 {synoptline}
 {marker sourceid_A8i}
-{synopt:{bf:{help wbopendata_sourceid##A8i:A8i} - 017.Export Value per Exiter: Median}}
+{synopt:{bf:{help wbopendata_sourceid##A8i:A8i} - 016.Export Value per Exiter: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -468,7 +480,7 @@
 
 {synoptline}
 {marker sourceid_A8v}
-{synopt:{bf:{help wbopendata_sourceid##A8v:A8v} - 021.Export Value per Surviving Entrant: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##A8v:A8v} - 020.Export Value per Exiter: Third Quartile}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -504,7 +516,7 @@
 
 {synoptline}
 {marker sourceid_A9iii}
-{synopt:{bf:{help wbopendata_sourceid##A9iii:A9iii} - 024.Export Value per Surviving Entrant: First Quartile}}
+{synopt:{bf:{help wbopendata_sourceid##A9iii:A9iii} - 023.Export Value per Surviving Entrant: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -540,7 +552,7 @@
 
 {synoptline}
 {marker sourceid_B1}
-{synopt:{bf:{help wbopendata_sourceid##B1:B1} - 042.Share of top 1% Exporters in TEV (Total Export Value)}}
+{synopt:{bf:{help wbopendata_sourceid##B1:B1} - 041.Herfindahl-Hirschman Index}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -600,7 +612,7 @@
 
 {synoptline}
 {marker sourceid_B3ii}
-{synopt:{bf:{help wbopendata_sourceid##B3ii:B3ii} - 046.Number of HS6 Products per Exporter: Median}}
+{synopt:{bf:{help wbopendata_sourceid##B3ii:B3ii} - 047.Number of HS6 Products per Exporter: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -624,7 +636,7 @@
 
 {synoptline}
 {marker sourceid_B4i}
-{synopt:{bf:{help wbopendata_sourceid##B4i:B4i} - 048.Number of Destinations per Exporter: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##B4i:B4i} - 049.Number of Destinations per Exporter: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -648,7 +660,7 @@
 
 {synoptline}
 {marker sourceid_B4iii}
-{synopt:{bf:{help wbopendata_sourceid##B4iii:B4iii} - 051.Number of Exporters per HS6 Product: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##B4iii:B4iii} - 050.Number of Destinations per Exporter: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -696,7 +708,7 @@
 
 {synoptline}
 {marker sourceid_B6i}
-{synopt:{bf:{help wbopendata_sourceid##B6i:B6i} - 055.Number of Exporters per Destination: Median}}
+{synopt:{bf:{help wbopendata_sourceid##B6i:B6i} - 054.Number of Exporters per Destination: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -716,18 +728,6 @@
 {synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
 
 {synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: {browse "http://www.barrolee.com/"}{p_end}
-
-
-{synoptline}
-{marker sourceid_BX.TRF.XOKA.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.XOKA.CD:BX.TRF.XOKA.CD} - Private current transfers, receipts (BoP, US$)}}
-
-{synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
-
-
-{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
-
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
 
 {synoptline}
@@ -756,7 +756,7 @@
 
 {synoptline}
 {marker sourceid_C3}
-{synopt:{bf:{help wbopendata_sourceid##C3:C3} - 060.Share of Entrants in TEV (Total Export Value)}}
+{synopt:{bf:{help wbopendata_sourceid##C3:C3} - 059.Entrant 1st Year Survival Rate}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -768,7 +768,7 @@
 
 {synoptline}
 {marker sourceid_C4}
-{synopt:{bf:{help wbopendata_sourceid##C4:C4} - 060.Share of Entrants in TEV (Total Export Value)}}
+{synopt:{bf:{help wbopendata_sourceid##C4:C4} - 061.Entrant 2nd Year Survival Rate}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -791,8 +791,20 @@
 
 
 {synoptline}
+{marker sourceid_CPTOTSAXNZGY}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXNZGY:CPTOTSAXNZGY} - CPI Price, % y-o-y, nominal, seas. adj.}}
+
+{synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
+
+
+{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
+
+{synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
+
+
+{synoptline}
 {marker sourceid_D1i}
-{synopt:{bf:{help wbopendata_sourceid##D1i:D1i} - 064.Product Entry Rate of Incumbents: Median}}
+{synopt:{bf:{help wbopendata_sourceid##D1i:D1i} - 063.Product Entry Rate of Incumbents: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -816,7 +828,7 @@
 
 {synoptline}
 {marker sourceid_D1iii}
-{synopt:{bf:{help wbopendata_sourceid##D1iii:D1iii} - 065.Product Entry Rate of Incumbents: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##D1iii:D1iii} - 066.Product Entry Rate of Surviving Entrants: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -828,7 +840,7 @@
 
 {synoptline}
 {marker sourceid_D2i}
-{synopt:{bf:{help wbopendata_sourceid##D2i:D2i} - 066.Product Entry Rate of Surviving Entrants: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##D2i:D2i} - 067.Product Entry Rate of Surviving Entrants: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -888,7 +900,7 @@
 
 {synoptline}
 {marker sourceid_D3iii}
-{synopt:{bf:{help wbopendata_sourceid##D3iii:D3iii} - 072.Share of New Products in TEV of Surviving Entrants: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##D3iii:D3iii} - 071.Share of New Products in TEV of Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -924,7 +936,7 @@
 
 {synoptline}
 {marker sourceid_D4iii}
-{synopt:{bf:{help wbopendata_sourceid##D4iii:D4iii} - 074.Share of New Products in TEV of Surviving Entrants: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##D4iii:D4iii} - 075.Product Exit Rate of Incumbents: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -972,7 +984,7 @@
 
 {synoptline}
 {marker sourceid_D6i}
-{synopt:{bf:{help wbopendata_sourceid##D6i:D6i} - 079.Product Survival Rate of 2-year Incumbents: Median}}
+{synopt:{bf:{help wbopendata_sourceid##D6i:D6i} - 078.Product Survival Rate of 2-year Incumbents: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -984,7 +996,7 @@
 
 {synoptline}
 {marker sourceid_D6ii}
-{synopt:{bf:{help wbopendata_sourceid##D6ii:D6ii} - 079.Product Survival Rate of 2-year Incumbents: Median}}
+{synopt:{bf:{help wbopendata_sourceid##D6ii:D6ii} - 080.Product Survival Rate of 2-year Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -995,20 +1007,8 @@
 
 
 {synoptline}
-{marker sourceid_D6iii}
-{synopt:{bf:{help wbopendata_sourceid##D6iii:D6iii} - 080.Product Survival Rate of 2-year Incumbents: StDev.}}
-
-{synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
-
-
-{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
-
-{synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
-
-
-{synoptline}
-{marker sourceid_E1i}
-{synopt:{bf:{help wbopendata_sourceid##E1i:E1i} - 081.Destination Entry Rate of Incumbents: Mean}}
+{marker sourceid_DXGSRMRCHSAXD}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAXD:DXGSRMRCHSAXD} - 081.Destination Entry Rate of Incumbents: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1019,8 +1019,8 @@
 
 
 {synoptline}
-{marker sourceid_E1ii}
-{synopt:{bf:{help wbopendata_sourceid##E1ii:E1ii} - 082.Destination Entry Rate of Incumbents: Median}}
+{marker sourceid_E1i}
+{synopt:{bf:{help wbopendata_sourceid##E1i:E1i} - 081.Destination Entry Rate of Incumbents: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1044,7 +1044,7 @@
 
 {synoptline}
 {marker sourceid_E2i}
-{synopt:{bf:{help wbopendata_sourceid##E2i:E2i} - 084.Destination Entry Rate of Surviving Entrants: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##E2i:E2i} - 085.Destination Entry Rate of Surviving Entrants: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1092,7 +1092,7 @@
 
 {synoptline}
 {marker sourceid_E3ii}
-{synopt:{bf:{help wbopendata_sourceid##E3ii:E3ii} - 088.Share of New Destinations in TEV of Incumbents: Median}}
+{synopt:{bf:{help wbopendata_sourceid##E3ii:E3ii} - 089.Share of New Destinations in TEV of Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1140,7 +1140,7 @@
 
 {synoptline}
 {marker sourceid_E4iii}
-{synopt:{bf:{help wbopendata_sourceid##E4iii:E4iii} - 093.Destination Exit Rate of Incumbents: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##E4iii:E4iii} - 092.Share of New Destinations in TEV of Surviving Entrants: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1152,7 +1152,7 @@
 
 {synoptline}
 {marker sourceid_E5i}
-{synopt:{bf:{help wbopendata_sourceid##E5i:E5i} - 093.Destination Exit Rate of Incumbents: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##E5i:E5i} - 094.Destination Exit Rate of Incumbents: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1211,4 +1211,4 @@
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

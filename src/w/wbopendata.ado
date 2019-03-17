@@ -35,7 +35,8 @@ version 9.0
 						 ISO						///
 						 COUNTRYMETADATA			///
 						 ALL						///
-						 BREAKNOMETADATA						///
+						 BREAKNOMETADATA			///
+						 FORCE						///
                  ]
 
 
@@ -58,7 +59,7 @@ version 9.0
 			
 		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
-			noi _wbopendata, update `query' `check'	`countrymetadata' `all'
+			noi _wbopendata, update `query' `check'	`countrymetadata' `all' `force'
 			break
 					
 		}

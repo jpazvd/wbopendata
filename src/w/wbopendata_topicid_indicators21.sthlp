@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -59,7 +59,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; personal, cultural, and recreational services; manufacturing services on physical inputs owned by others; and maintenance and repair services and government services not included elsewhere.{p_end}
+{synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -72,7 +72,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from nonresidents to residents of general merchandise, nonmonetary gold, and services. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from nonresidents to residents of general merchandise, nonmonetary gold, and services. Data are in{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -85,7 +85,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension funds) exchanged between residents and nonresidents.{p_end}
+{synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -137,7 +137,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of goods (freight), rental of carriers with crew, and related support and auxiliary services. Also included are postal and courier services. Excluded are freight insurance (included in insurance services); goods procured in ports by nonresident carriers (included in goods); maintenance and repairs on transport equipment (included in maintenance and repair services n.i.e.); and repairs of railway facilities, harbors, and airfield facilities (included in construction).{p_end}
+{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -150,7 +150,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the economy being visited and provided by a resident of that economy), but excludes international transport (which is included in passenger transport. Travel also excludes goods for resale, which are included in general merchandise.{p_end}
+{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -163,7 +163,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Net trade in goods and services is derived by offsetting imports of goods and services against exports of goods and services. Exports and imports of goods and services comprise all transactions involving a change of ownership of goods and services between residents of one country and the rest of the world. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Net trade in goods and services is derived by offsetting imports of goods and services against exports of goods and services. Exports and imports of goods and services comprise all transactions involving a change of ownership of goods and serv{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -189,7 +189,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -215,7 +215,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; personal, cultural, and recreational services; manufacturing services on physical inputs owned by others; and maintenance and repair services and government services not included elsewhere.{p_end}
+{synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -228,7 +228,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, nonmonetary gold, and services. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, non{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -241,7 +241,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension funds) exchanged between residents and nonresidents.{p_end}
+{synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -293,7 +293,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of goods (freight), rental of carriers with crew, and related support and auxiliary services. Also included are postal and courier services. Excluded are freight insurance (included in insurance services); goods procured in ports by nonresident carriers (included in goods); maintenance and repairs on transport equipment (included in maintenance and repair services n.i.e.); and repairs of railway facilities, harbors, and airfield facilities (included in construction).{p_end}
+{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -306,7 +306,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the economy being visited and provided by a resident of that economy), but excludes international transport (which is included in passenger transport. Travel also excludes goods for resale, which are included in general merchandise.{p_end}
+{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -319,7 +319,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.{p_end}
+{synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -332,7 +332,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, or import duties are deducted from the gross amounts receivable from these taxes, not from amounts receivable from export taxes.{p_end}
+{synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, o{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
@@ -345,7 +345,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or ad valorem basis as long as they are restricted to imported goods or services.{p_end}
+{synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
@@ -371,7 +371,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearance and technical control, customs broker fees, terminal handling charges and inland transport. The cost measure does not include tariffs or trade taxes. Only official costs are recorded. Several assumptions are made for the business surveyed: Has 60 or more employees; Is located in the country's most populous city; Is a private, limited liability company. It does not operate within an export processing zone or an industrial estate with special export or import privileges; Is domestically owned with no foreign ownership; Exports more than 10% of its sales. Assumptions about the traded goods: The traded product travels in a dry-cargo, 20-foot, full container load. The product: Is not hazardous nor does it include military items; Does not require refrigeration or any other special environment; Does not require any special phytosanitary or environmental safety standards other than accepted international standards.{p_end}
+{synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -384,7 +384,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, as well as the time and cost for handling that takes place at its port or border. The time and cost for this segment include time and cost for customs clearance and inspection procedures conducted by other government agencies.{p_end}
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -397,7 +397,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total burden of preparing the bundle of documents that will enable completion of the international trade for the product and partner pair assumed in the case study.{p_end}
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -410,7 +410,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and container terminal authorities, health and technical control agencies and banks are taken into account. Since payment is by letter of credit, all documents required by banks for the issuance or securing of a letter of credit are also taken into account. Documents that are renewed annually and that do not require renewal per shipment (for example, an annual tax clearance certificate) are not included.{p_end}
+{synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -423,7 +423,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a procedure can be accelerated for an additional cost, the fastest legal procedure is chosen. It is assumed that neither the exporter nor the importer wastes time and that each commits to completing each remaining procedure without delay. Procedures that can be completed in parallel are measured as simultaneous. The waiting time between procedures--for example, during unloading of the cargo--is included in the measure.{p_end}
+{synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -436,7 +436,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, as well as the time and cost for handling that takes place at its port or border. The time and cost for this segment include time and cost for customs clearance and inspection procedures conducted by other government agencies.{p_end}
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -449,7 +449,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total burden of preparing the bundle of documents that will enable completion of the international trade for the product and partner pair assumed in the case study.{p_end}
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -462,7 +462,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearance and technical control, customs broker fees, terminal handling charges and inland transport. The cost measure does not include tariffs or trade taxes. Only official costs are recorded.{p_end}
+{synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -475,7 +475,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, as well as the time and cost for handling that takes place at its port or border. The time and cost for this segment include time and cost for customs clearance and inspection procedures conducted by other government agencies.{p_end}
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -488,7 +488,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total burden of preparing the bundle of documents that will enable completion of the international trade for the product and partner pair assumed in the case study.{p_end}
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -501,7 +501,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}All documents required per shipment to import goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and container terminal authorities, health and technical control agencies and banks are taken into account. Since payment is by letter of credit, all documents required by banks for the issuance or securing of a letter of credit are also taken into account. Documents that are renewed annually and that do not require renewal per shipment (for example, an annual tax clearance certificate) are not included.{p_end}
+{synopt:{opt Source Notes}}All documents required per shipment to import goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -514,7 +514,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a procedure can be accelerated for an additional cost, the fastest legal procedure is chosen. It is assumed that neither the exporter nor the importer wastes time and that each commits to completing each remaining procedure without delay. Procedures that can be completed in parallel are measured as simultaneous. The waiting time between procedures--for example, during unloading of the cargo--is included in the measure.{p_end}
+{synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -527,7 +527,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, as well as the time and cost for handling that takes place at its port or border. The time and cost for this segment include time and cost for customs clearance and inspection procedures conducted by other government agencies.{p_end}
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -540,7 +540,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total burden of preparing the bundle of documents that will enable completion of the international trade for the product and partner pair assumed in the case study.{p_end}
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -553,9 +553,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of shipments) and the median case (50 percent of shipments). The data are exponentiated averages of the logarithm of single value responses and of midpoint values of range responses for the median case.{p_end}
+{synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -566,9 +566,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of shipments) and the median case (50 percent of shipments). The data are exponentiated averages of the logarithm of single value responses and of midpoint values of range responses for the median case.{p_end}
+{synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -579,9 +579,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents evaluated efficiency of customs clearance processes (i.e. speed, simplicity and predictability of formalities), on a rating ranging from 1 (very low) to 5 (very high). Scores are averaged across all respondents.{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -592,9 +592,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents evaluated the quality of trade and transport related infrastructure (e.g. ports, railroads, roads, information technology), on a rating ranging from 1 (very low) to 5 (very high). Scores are averaged across all respondents.{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -605,9 +605,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents assessed the ease of arranging competitively priced shipments to markets, on a rating ranging from 1 (very difficult) to 5 (very easy). Scores are averaged across all respondents.{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -618,9 +618,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents evaluated the overall level of competence and quality of logistics services (e.g. transport operators, customs brokers), on a rating ranging from 1 (very low) to 5 (very high). Scores are averaged across all respondents.{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -631,9 +631,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments, quality of logistics services, ability to track and trace consignments, and frequency with which shipments reach the consignee within the scheduled time. The index ranges from 1 to 5, with a higher score representing better performance. Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Scores for the six areas are averaged across all respondents and aggregated to a single score using principal components analysis. Details of the survey methodology and index construction methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010).{p_end}
+{synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments,{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -644,9 +644,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents assessed how often the shipments to assessed markets reach the consignee within the scheduled or expected delivery time, on a rating ranging from 1 (hardly ever) to 5 (nearly always). Scores are averaged across all respondents.{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -657,9 +657,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered more than 5,000 country assessments by nearly 1,000 international freight forwarders. Respondents evaluate eight markets on six core dimensions on a scale from 1 (worst) to 5 (best). The markets are chosen based on the most important export and import markets of the respondent's country, random selection, and, for landlocked countries, neighboring countries that connect them with international markets. Details of the survey methodology are in Arvis and others' Connecting to Compete 2010: Trade Logistics in the Global Economy (2010). Respondents evaluated the ability to track and trace consignments when shipping to the market, on a rating ranging from 1 (very low) to 5 (very high). Scores are averaged across all respondents.{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators report.{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
@@ -670,7 +670,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and ships designed for military use. Excluded are transfers of other military equipment such as small arms and light weapons, trucks, small artillery, ammunition, support equipment, technology transfers, and other services. Figures are SIPRI Trend Indicator Values (TIVs) expressed in US$ m. at constant (1990) prices. A '0' indicates that the value of deliveries is less than US$0.5m.{p_end}
+{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
 
 {synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Arms Transfers Programme ({browse "http://portal.sipri.org/publications/pages/transfer/splash"}).{p_end}
 
@@ -683,7 +683,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and ships designed for military use. Excluded are transfers of other military equipment such as small arms and light weapons, trucks, small artillery, ammunition, support equipment, technology transfers, and other services. Figures are SIPRI Trend Indicator Values (TIVs) expressed in US$ m. at constant (1990) prices.  A '0' indicates that the value of deliveries is less than US$0.5m{p_end}
+{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
 
 {synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Arms Transfers Programme ({browse "http://portal.sipri.org/publications/pages/transfer/splash"}).{p_end}
 
@@ -696,7 +696,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -709,7 +709,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -722,7 +722,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of exports of goods and services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments.{p_end}
+{synopt:{opt Source Notes}}Annual growth rate of exports of goods and services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Exports of goods and services represent the value of all goods and other market services provided to the{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -735,7 +735,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments.{p_end}
+{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -748,7 +748,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -761,7 +761,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments. Data are in constant 2010 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -774,7 +774,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of imports of goods and services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments.{p_end}
+{synopt:{opt Source Notes}}Annual growth rate of imports of goods and services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Imports of goods and services represent the value of all goods and other market services received from th{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -787,7 +787,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments.{p_end}
+{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -852,7 +852,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International inbound tourists (overnight visitors) are the number of tourists who travel to a country other than that in which they have their usual residence, but outside their usual environment, for a period not exceeding 12 months and whose main purpose in visiting is other than an activity remunerated from within the country visited. When data on number of tourists are not available, the number of visitors, which includes tourists, same-day visitors, cruise passengers, and crew members, is shown instead. Sources and collection methods for arrivals differ across countries. In some cases data are from border statistics (police, immigration, and the like) and supplemented by border surveys. In other cases data are from tourism accommodation establishments. For some countries number of arrivals is limited to arrivals by air and for others to arrivals staying in hotels. Some countries include arrivals of nationals residing abroad while others do not. Caution should thus be used in comparing arrivals across countries. The data on inbound tourists refer to the number of arrivals, not to the number of people traveling. Thus a person who makes several trips to a country during a given period is counted each time as a new arrival.{p_end}
+{synopt:{opt Source Notes}}International inbound tourists (overnight visitors) are the number of tourists who travel to a country other than that in which they have their usual residence, but outside their usual environment, for a period not exceeding 12 months and whos{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -865,7 +865,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International outbound tourists are the number of departures that people make from their country of usual residence to any other country for any purpose other than a remunerated activity in the country visited. The data on outbound tourists refer to the number of departures, not to the number of people traveling. Thus a person who makes several trips from a country during a given period is counted each time as a new departure.{p_end}
+{synopt:{opt Source Notes}}International outbound tourists are the number of departures that people make from their country of usual residence to any other country for any purpose other than a remunerated activity in the country visited. The data on outbound tourists re{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -878,7 +878,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the destination country. They also may include receipts from same-day visitors, except when these are important enough to justify separate classification. For some countries they do not include receipts for passenger transport items. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the dest{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -891,7 +891,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the destination country. They also may include receipts from same-day visitors, except when these are important enough to justify separate classification. For some countries they do not include receipts for passenger transport items. Their share in exports is calculated as a ratio to exports of goods and services, which comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, goods sent for processing and repairs, nonmonetary gold, and services.{p_end}
+{synopt:{opt Source Notes}}International tourism receipts are expenditures by international inbound visitors, including payments to national carriers for international transport. These receipts include any other prepayment made for goods or services received in the dest{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, and IMF and World Bank exports estimates.{p_end}
 
@@ -904,7 +904,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism receipts for passenger transport items are expenditures by international inbound visitors for all services provided in the international transportation by resident carriers. Also included are passenger services performed within an economy by nonresident carriers. Excluded are passenger services provided to nonresidents by resident carriers within the resident economies; these are included in travel items. In addition to the services covered by passenger fares--including fares that are a part of package tours but excluding cruise fares, which are included in travel--passenger services include such items as charges for excess baggage, vehicles, or other personal accompanying effects and expenditures for food, drink, or other items for which passengers make expenditures while on board carriers. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}International tourism receipts for passenger transport items are expenditures by international inbound visitors for all services provided in the international transportation by resident carriers. Also included are passenger services performed{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -917,7 +917,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism expenditures for passenger transport items are expenditures of international outbound visitors in other countries for all services provided during international transportation by nonresident carriers. Also included are passenger services performed within an economy by nonresident carriers. Excluded are passenger services provided to nonresidents by resident carriers within the resident economies; these are included in travel items. In addition to the services covered by passenger fares--including fares that are a part of package tours but excluding cruise fares, which are included in travel--passenger services include such items as charges for excess baggage, vehicles, or other personal accompanying effects and expenditures for food, drink, or other items for which passengers make expenditures while on board carriers. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}International tourism expenditures for passenger transport items are expenditures of international outbound visitors in other countries for all services provided during international transportation by nonresident carriers. Also included are pa{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -930,7 +930,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism receipts for travel items are expenditures by international inbound visitors in the reporting economy. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the traveler to use or give away. These receipts should include any other prepayment made for goods or services received in the destination country. They also may include receipts from same-day visitors, except in cases where these are so important as to justify a separate classification. Excluded is the international carriage of travelers, which is covered in passenger travel items. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}International tourism receipts for travel items are expenditures by international inbound visitors in the reporting economy. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the tr{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -943,7 +943,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the traveler to use or give away. These may include expenditures by residents traveling abroad as same-day visitors, except in cases where these are so important as to justify a separate classification. Excluded is the international carriage of travelers, which is covered in passenger travel items. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries. The goods and services are purchased by, or on behalf of, the traveler or provided, without a quid pro quo, for the traveler to use or g{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -956,7 +956,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad as same-day visitors, except in cases where these are important enough to justify separate classification. For some countries they do not include expenditures for passenger transport items. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad a{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
@@ -969,7 +969,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad as same-day visitors, except in cases where these are important enough to justify separate classification. For some countries they do not include expenditures for passenger transport items. Their share in imports is calculated as a ratio to imports of goods and services, which comprise all transactions between residents of a country and the rest of the world involving a change of ownership from nonresidents to residents of general merchandise, goods sent for processing and repairs, nonmonetary gold, and services.{p_end}
+{synopt:{opt Source Notes}}International tourism expenditures are expenditures of international outbound visitors in other countries, including payments to foreign carriers for international transport. These expenditures may include those by residents traveling abroad a{p_end}
 
 {synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, and IMF and World Bank imports estimates.{p_end}
 
@@ -995,7 +995,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Import volume indexes are derived from UNCTAD's volume index series and are the ratio of the import value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’s trade values at the Standard International Trade Classification three-digit level as weights. To improve data coverage, especially for the latest periods, UNCTAD constructs a set of average prices indexes at the three-digit product classification of the Standard International Trade Classification revision 3 using UNCTAD’s Commodity Price Statistics, interna­tional and national sources, and UNCTAD secretariat estimates and calculates unit value indexes at the country level using the current year’s trade values as weights. For economies for which UNCTAD does not publish data, the import volume indexes (lines 73) in the IMF's International Financial Statistics are used.{p_end}
+{synopt:{opt Source Notes}}Import volume indexes are derived from UNCTAD's volume index series and are the ratio of the import value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1008,7 +1008,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Manufactured products are commodities cla{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
 
@@ -1021,7 +1021,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
 
@@ -1034,7 +1034,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Manufactured products are commodities class{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
 
@@ -1047,9 +1047,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups. Effectively applied tariff rates at the six- and eight-digit product level are averaged for products in each commodity group. When the effectively applied rate is unavailable, the most favored nation rate is used instead. To the extent possible, specific rates have been converted to their ad valorem equivalent rates and have been included in the calculation of simple mean tariffs. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1060,9 +1060,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1073,7 +1073,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantities or other, non-ad valorem measures. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
 
@@ -1086,9 +1086,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups and import weights. To the extent possible, specific rates have been converted to their ad valorem equivalent rates and have been included in the calculation of weighted mean tariffs. Import weights were calculated using the United Nations Statistics Division's Commodity Trade (Comtrade) database. Effectively applied tariff rates at the six- and eight-digit product level are averaged for products in each commodity group. When the effectively applied rate is unavailable, the most favored nation rate is used instead. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1099,9 +1099,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups and import weights. Import weights were calculated using the United Nations Statistics Division's Commodity Trade (Comtrade) database. Manufactured products are commodities classified in SITC revision 3 sections 5-8 excluding division 68.{p_end}
+{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1125,7 +1125,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable.{p_end}
+{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
 
@@ -1151,9 +1151,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups. Effectively applied tariff rates at the six- and eight-digit product level are averaged for products in each commodity group. When the effectively applied rate is unavailable, the most favored nation rate is used instead. To the extent possible, specific rates have been converted to their ad valorem equivalent rates and have been included in the calculation of simple mean tariffs.{p_end}
+{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1164,9 +1164,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups.{p_end}
+{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1177,7 +1177,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantities or other, non-ad valorem measures.{p_end}
+{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
 
@@ -1190,9 +1190,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups and import weights. To the extent possible, specific rates have been converted to their ad valorem equivalent rates and have been included in the calculation of weighted mean tariffs. Import weights were calculated using the United Nations Statistics Division's Commodity Trade (Comtrade) database. Effectively applied tariff rates at the six- and eight-digit product level are averaged for products in each commodity group. When the effectively applied rate is unavailable, the most favored nation rate is used instead.{p_end}
+{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1203,9 +1203,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups and import weights. Import weights were calculated using the United Nations Statistics Division's Commodity Trade (Comtrade) database.{p_end}
+{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1216,7 +1216,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Primary products are commodities classifi{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
 
@@ -1229,7 +1229,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Simple mean bound rate is the unweighted average of all the lines in the tariff schedule in which bound rates have been set. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforcea{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
 
@@ -1242,7 +1242,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Primary products are commodities classified{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
 
@@ -1255,9 +1255,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups. Effectively applied tariff rates at the six- and eight-digit product level are averaged for products in each commodity group. When the effectively applied rate is unavailable, the most favored nation rate is used instead. To the extent possible, specific rates have been converted to their ad valorem equivalent rates and have been included in the calculation of simple mean tariffs. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1268,9 +1268,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Simple mean most favored nation tariff rate is the unweighted average of most favored nation rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eig{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1281,7 +1281,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantities or other, non-ad valorem measures. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Share of tariff lines with specific rates is the share of lines in the tariff schedule that are set on a per unit basis or that combine ad valorem and per unit rates. It shows the extent to which countries use tariffs based on physical quantit{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
 
@@ -1294,9 +1294,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups and import weights. To the extent possible, specific rates have been converted to their ad valorem equivalent rates and have been included in the calculation of weighted mean tariffs. Import weights were calculated using the United Nations Statistics Division's Commodity Trade (Comtrade) database. Effectively applied tariff rates at the six- and eight-digit product level are averaged for products in each commodity group. When the effectively applied rate is unavailable, the most favored nation rate is used instead. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Weighted mean applied tariff is the average of effectively applied rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Ta{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1307,9 +1307,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-digit level. Tariff line data were matched to Standard International Trade Classification (SITC) revision 3 codes to define commodity groups and import weights. Import weights were calculated using the United Nations Statistics Division's Commodity Trade (Comtrade) database. Primary products are commodities classified in SITC revision 3 sections 0-4 plus division 68 (nonferrous metals).{p_end}
+{synopt:{opt Source Notes}}Weighted mean most favored nations tariff is the average of most favored nation rates weighted by the product import shares corresponding to each partner country. Data are classified using the Harmonized System of trade at the six- or eight-di{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s (WTO) Integrated Data Base (IDB) and Consolidated Tariff Schedules (CTS) database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
 
 {synoptline}
@@ -1372,7 +1372,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods imported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and auxiliary services such as financial market operational and regulatory services.{p_end}
+{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods imported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and aux{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1411,7 +1411,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from economies in the Arab World are the sum of merchandise imports by the reporting economy from economies in the Arab World. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from economies in the Arab World are the sum of merchandise imports by the reporting economy from economies in the Arab World. Data are expressed as a percentage of total merchandise imports by the economy. Data are compute{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1437,7 +1437,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from high-income economies are the sum of merchandise imports by the reporting economy from high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from high-income economies are the sum of merchandise imports by the reporting economy from high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchand{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1450,7 +1450,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies outside region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in other World Bank regions according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies outside region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in other World Bank regions according to the World Bank classifica{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1463,7 +1463,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in East Asia and Pacific are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the East Asia and Pacific region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in East Asia and Pacific are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the East Asia and Pacific region according to the World Ban{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1476,7 +1476,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Europe and Central Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Europe and Central Asia region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Europe and Central Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Europe and Central Asia region according to the World{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1489,7 +1489,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Latin America and the Caribbean region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Latin America and the Caribbean region accord{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1502,7 +1502,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Middle East and North Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Middle East and North Africa region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Middle East and North Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Middle East and North Africa region according to{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1515,7 +1515,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in South Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the South Asia region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in South Asia are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the South Asia region according to the World Bank classification of ec{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1528,7 +1528,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Sub-Saharan Africa region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise imports by the reporting economy from low- and middle-income economies in the Sub-Saharan Africa region according to the World Bank clas{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1541,7 +1541,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports by the reporting economy residuals are the total merchandise imports by the reporting economy from the rest of the world as reported in the IMF's Direction of trade database, less the sum of imports by the reporting economy from high-, low-, and middle-income economies according to the World Bank classification of economies. Includes trade with unspecified partners or with economies not covered by World Bank classification. Data are as a percentage of total merchandise imports by the economy.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports by the reporting economy residuals are the total merchandise imports by the reporting economy from the rest of the world as reported in the IMF's Direction of trade database, less the sum of imports by the reporting economy{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1567,7 +1567,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies within region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in the same World Bank region according to the World Bank classification of economies. Data are as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data. No figures are shown for high-income economies, because they are a separate category in the World Bank classification of economies.{p_end}
+{synopt:{opt Source Notes}}Merchandise imports from low- and middle-income economies within region are the sum of merchandise imports by the reporting economy from other low- and middle-income economies in the same World Bank region according to the World Bank classific{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1580,7 +1580,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Import value indexes are the current value of imports (c.i.f.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's import value indexes are reported for most economies. For selected economies for which UNCTAD does not publish data, the import value indexes are derived from import volume indexes (line 73) and corresponding unit value indexes of imports (line 75) in the IMF's International Financial Statistics.{p_end}
+{synopt:{opt Source Notes}}Import value indexes are the current value of imports (c.i.f.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's import value indexes are reported for most economies. For selected econo{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1593,7 +1593,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service imports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; and personal, cultural, and recreational services.{p_end}
+{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service imports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1606,7 +1606,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Commercial service imports are total service imports minus imports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Definitions may vary among reporting economies.{p_end}
+{synopt:{opt Source Notes}}Commercial service imports are total service imports minus imports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1619,7 +1619,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Transport services (% of commercial service imports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, movement of goods (freight), rental of carriers with crew, and related support and auxiliary services. Excluded are freight insurance, which is included in insurance services; goods procured in ports by nonresident carriers and repairs of transport equipment, which are included in goods; repairs of railway facilities, harbors, and airfield facilities, which are included in construction services; and rental of carriers without crew, which is included in other services.{p_end}
+{synopt:{opt Source Notes}}Transport services (% of commercial service imports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, mo{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1632,7 +1632,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Travel services (% of commercial service imports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include the goods and services consumed by travelers, such as lodging, meals, and transport (within the economy visited).{p_end}
+{synopt:{opt Source Notes}}Travel services (% of commercial service imports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1645,7 +1645,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Net barter terms of trade index is calculated as the percentage ratio of the export unit value indexes to the import unit value indexes, measured relative to the base year 2000. Unit value indexes are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD's estimates using the previous year’s trade values at the Standard International Trade Classification three-digit level as weights. To improve data coverage, especially for the latest periods, UNCTAD constructs a set of average prices indexes at the three-digit product classification of the Standard International Trade Classification revision 3 using UNCTAD’s Commodity Price Statistics, interna­tional and national sources, and UNCTAD secretariat estimates and calculates unit value indexes at the country level using the current year's trade values as weights.{p_end}
+{synopt:{opt Source Notes}}Net barter terms of trade index is calculated as the percentage ratio of the export unit value indexes to the import unit value indexes, measured relative to the base year 2000. Unit value indexes are based on data reported by countries that d{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1658,7 +1658,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Export volume indexes are derived from UNCTAD's volume index series and are the ratio of the export value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’s trade values at the Standard International Trade Classification three-digit level as weights. To improve data coverage, especially for the latest periods, UNCTAD constructs a set of average prices indexes at the three-digit product classification of the Standard International Trade Classification revision 3 using UNCTAD’s Commodity Price Statistics, interna­tional and national sources, and UNCTAD secretariat estimates and calculates unit value indexes at the country level using the current year’s trade values as weights. For economies for which UNCTAD does not publish data, the export volume indexes (lines 72) in the IMF's International Financial Statistics are used.{p_end}
+{synopt:{opt Source Notes}}Export volume indexes are derived from UNCTAD's volume index series and are the ratio of the export value indexes to the corresponding unit value indexes. Unit value indexes are based on data reported by countries that demonstrate consistency{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1723,7 +1723,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods exported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and auxiliary services such as financial market operational and regulatory services.{p_end}
+{synopt:{opt Source Notes}}Insurance and financial services cover freight insurance on goods exported and other direct insurance such as life insurance; financial intermediation services such as commissions, foreign exchange transactions, and brokerage services; and aux{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1762,7 +1762,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to economies in the Arab World are the sum of merchandise exports by the reporting economy to economies in the Arab World. Data are expressed as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to economies in the Arab World are the sum of merchandise exports by the reporting economy to economies in the Arab World. Data are expressed as a percentage of total merchandise exports by the economy. Data are computed on{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1788,7 +1788,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to high-income economies are the sum of merchandise exports from the reporting economy to high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to high-income economies are the sum of merchandise exports from the reporting economy to high-income economies according to the World Bank classification of economies. Data are expressed as a percentage of total merchandis{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1801,7 +1801,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies outside region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in other World Bank regions according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies outside region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in other World Bank regions according to the World Bank classificati{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1814,7 +1814,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in East Asia and Pacific are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the East Asia and Pacific region according to World Bank classification of economies. Data are as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in East Asia and Pacific are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the East Asia and Pacific region according to World Bank clas{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1827,7 +1827,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Europe and Central Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Europe and Central Asia region according to World Bank classification of economies. Data are as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Europe and Central Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Europe and Central Asia region according to World Bank{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1840,7 +1840,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Latin America and the Caribbean region according to World Bank classification of economies. Data are as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Latin America and the Caribbean are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Latin America and the Caribbean region accordin{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1853,7 +1853,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Middle East and North Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Middle East and North Africa region according to World Bank classification of economies. Data are as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Middle East and North Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Middle East and North Africa region according to W{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1866,7 +1866,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in South Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the South Asia region according to World Bank classification of economies. Data are as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in South Asia are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the South Asia region according to World Bank classification of economie{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1879,7 +1879,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Sub-Saharan Africa region according to World Bank classification of economies. Data are as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies in Sub-Saharan Africa are the sum of merchandise exports from the reporting economy to low- and middle-income economies in the Sub-Saharan Africa region according to World Bank classifica{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1892,7 +1892,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports by the reporting economy residuals are the total merchandise exports by the reporting economy to the rest of the world as reported in the IMF's Direction of trade database, less the sum of exports by the reporting economy to high-, low-, and middle-income economies according to the World Bank classification of economies. Includes trade with unspecified partners or with economies not covered by World Bank classification. Data are as a percentage of total merchandise exports by the economy.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports by the reporting economy residuals are the total merchandise exports by the reporting economy to the rest of the world as reported in the IMF's Direction of trade database, less the sum of exports by the reporting economy t{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1918,7 +1918,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies within region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in the same World Bank region as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data. No figures are shown for high-income economies, because they are a separate category in the World Bank classification of economies.{p_end}
+{synopt:{opt Source Notes}}Merchandise exports to low- and middle-income economies within region are the sum of merchandise exports from the reporting economy to other low- and middle-income economies in the same World Bank region as a percentage of total merchandise ex{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based data from International Monetary Fund's Direction of Trade database.{p_end}
 
@@ -1931,7 +1931,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Export values are the current value of exports (f.o.b.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's export value indexes are reported for most economies. For selected economies for which UNCTAD does not publish data, the export value indexes are derived from export volume indexes (line 72) and corresponding unit value indexes of exports (line 74) in the IMF's International Financial Statistics.{p_end}
+{synopt:{opt Source Notes}}Export values are the current value of exports (f.o.b.) converted to U.S. dollars and expressed as a percentage of the average for the base period (2000). UNCTAD's export value indexes are reported for most economies. For selected economies fo{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -1944,7 +1944,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service exports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; and personal, cultural, and recreational services.{p_end}
+{synopt:{opt Source Notes}}Computer, communications and other services (% of commercial service exports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1957,7 +1957,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Commercial service exports are total service exports minus exports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Definitions may vary among reporting economies.{p_end}
+{synopt:{opt Source Notes}}Commercial service exports are total service exports minus exports of government services not included elsewhere. International transactions in services are defined by the IMF's Balance of Payments Manual (1993) as the economic output of intan{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1996,7 +1996,7 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Transport services (% of commercial service exports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, movement of goods (freight), rental of carriers with crew, and related support and auxiliary services. Excluded are freight insurance, which is included in insurance services; goods procured in ports by nonresident carriers and repairs of transport equipment, which are included in goods; repairs of railway facilities, harbors, and airfield facilities, which are included in construction services; and rental of carriers without crew, which is included in other services.{p_end}
+{synopt:{opt Source Notes}}Transport services (% of commercial service exports) covers all transport services (sea, air, land, internal waterway, space, and pipeline) performed by residents of one economy for those of another and involving the carriage of passengers, mo{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -2009,10 +2009,10 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Travel services (% of commercial service exports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include the goods and services consumed by travelers, such as lodging and meals and transport (within the economy visited).{p_end}
+{synopt:{opt Source Notes}}Travel services (% of commercial service exports) covers goods and services acquired from an economy by travelers in that economy for their own use during visits of less than one year for business or personal purposes. Travel services include{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
