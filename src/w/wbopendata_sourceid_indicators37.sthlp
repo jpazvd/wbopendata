@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -144,7 +144,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -157,7 +157,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -170,7 +170,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -300,7 +300,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -313,7 +313,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -326,7 +326,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -456,7 +456,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -469,7 +469,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -482,7 +482,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over the total population).{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -528,7 +528,7 @@
 
 {synoptline}
 {marker sourceid_1.3_ACCESS.ELECTRICITY.URBAN}
-{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Coverage: Mobile Phone}}
+{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Access to electricity (% of urban population)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -871,7 +871,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -884,7 +884,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -897,7 +897,7 @@
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -910,7 +910,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -923,7 +923,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -936,7 +936,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -949,7 +949,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -962,7 +962,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -975,7 +975,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -988,7 +988,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1001,7 +1001,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1014,7 +1014,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1027,7 +1027,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1040,7 +1040,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1053,7 +1053,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1066,7 +1066,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1079,7 +1079,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1092,7 +1092,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1105,7 +1105,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1118,7 +1118,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1131,7 +1131,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1144,7 +1144,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1157,7 +1157,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1170,7 +1170,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, region of school location, father's occupation, and a household wealth index based on assets.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
@@ -1183,7 +1183,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a given opportunity (service) and the inequality of its distribution. The circumstances included in the HOI are the gender of the child, parents' education, household per capita income, number of siblings, presence of both parents in the household, gender of the household head, and urban or rural residence.An increase in the index can be related either to an increase in the coverage or to a more equal distribution of that service.{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1196,7 +1196,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive to transfers at the top. The limit case, ε→0, the index reflects the Function of Rawls which only takes account of transfers to the very lowest income group; at the other extreme, when ε=0, we obtain the linear utility function. This ranks distributions solely according to total income.{p_end}
+{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1209,7 +1209,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive to transfers at the top. The limit case, ε→0, the index reflects the Function of Rawls which only takes account of transfers to the very lowest income group; at the other extreme, when ε=0, we obtain the linear utility function. This ranks distributions solely according to total income.{p_end}
+{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1222,7 +1222,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive to transfers at the top. The limit case, ε→0, the index reflects the Function of Rawls which only takes account of transfers to the very lowest income group; at the other extreme, when ε=0, we obtain the linear utility function. This ranks distributions solely according to total income.{p_end}
+{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1235,7 +1235,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of the distribution, and for higher values GE is more sensitive to changes that affect the upper tail. GE(1) is the Theil index.{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1248,7 +1248,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of the distribution, and for higher values GE is more sensitive to changes that affect the upper tail. GE(1) is the Theil index.{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1261,7 +1261,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation includes observations of 0 income.{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1274,7 +1274,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation does not includes observations of 0 income.{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1352,7 +1352,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of the distribution, and for higher values GE is more sensitive to changes that affect the upper tail. GE(1) is the Theil index.{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1365,7 +1365,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 25 percent by that of the poorest 25 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ignores information about incomes in the middle of the income distribution and doesn’t use information about the distribution of income within the top and bottom deciles or percentiles.{p_end}
+{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 25 percent by that of the poorest 25 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ign{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1378,7 +1378,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 10 percent by that of the poorest 10 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ignores information about incomes in the middle of the income distribution and doesn’t use information about the distribution of income within the top and bottom deciles or percentiles.{p_end}
+{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 10 percent by that of the poorest 10 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ign{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1391,7 +1391,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have a straightforward representation and lacks the appealing interpretation of the Gini coefficient.{p_end}
+{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1404,7 +1404,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation includes observations of 0 income.{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1417,7 +1417,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of the distribution, and for higher values GE is more sensitive to changes that affect the upper tail. GE(1) is the Theil index.{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1430,7 +1430,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have a straightforward representation and lacks the appealing interpretation of the Gini coefficient.{p_end}
+{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1443,7 +1443,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents equality. The Gini coefficient is bounded by 0 (indicating perfect equality of income) and 1, which means complete inequality. This calculation includes observations of 0 income.{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1456,7 +1456,7 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of the distribution, and for higher values GE is more sensitive to changes that affect the upper tail. GE(1) is the Theil index.{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1469,9 +1469,21 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have a straightforward representation and lacks the appealing interpretation of the Gini coefficient.{p_end}
+{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_3.9_LOW.SEC.TEACHERS}
+{synopt:{bf:{help wbopendata_sourceid##3.9_LOW.SEC.TEACHERS:3.9_LOW.SEC.TEACHERS} - Youth: Neither in School Nor Working  (15-18)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the population ages 15-18 that is neither employed nor in school.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
 
 {synoptline}
@@ -1981,18 +1993,6 @@
 
 
 {synoptline}
-{marker sourceid_5.1.9_TJK.TOTA.AID.WFP}
-{synopt:{bf:{help wbopendata_sourceid##5.1.9_TJK.TOTA.AID.WFP:5.1.9_TJK.TOTA.AID.WFP} - International aid disbursed to total education, WFP to Tajikistan (USD million)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators{p_end}
-
-
-{synoptline}
 {marker sourceid_5.1.AMeanIncGr.All}
 {synopt:{bf:{help wbopendata_sourceid##5.1.AMeanIncGr.All:5.1.AMeanIncGr.All} - Annualized Mean Income Growth (2004-2009)}}
 
@@ -2012,6 +2012,18 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
+
+{synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators{p_end}
+
+
+{synoptline}
+{marker sourceid_5.2.9_TLS.TOT.AID.PRT}
+{synopt:{bf:{help wbopendata_sourceid##5.2.9_TLS.TOT.AID.PRT:5.2.9_TLS.TOT.AID.PRT} - International aid disbursed to total education, Portugal to Timor-Leste (USD million)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
 
 {synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
 
@@ -2045,6 +2057,18 @@
 
 
 {synoptline}
+{marker sourceid_5.51.01.10.gdp}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.10.gdp:5.51.01.10.gdp} - Per capita GDP growth}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Consumption per capita is the market value of all goods and services, including durable products and payments and fees to governments to obtain permits and licenses, purchased by households. It excludes purchases of dwellings but includes impu{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab Tablulations of the World Development Indicators (World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_6.0.Conspc}
 {synopt:{bf:{help wbopendata_sourceid##6.0.Conspc:6.0.Conspc} - Consumption per capita (2011 $)}}
 
@@ -2052,7 +2076,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Consumption per capita is the market value of all goods and services, including durable products and payments and fees to governments to obtain permits and licenses, purchased by households. It excludes purchases of dwellings but includes imputed rent for owner-occupied dwellings. It also includes the expenditures of nonprofit institutions serving households, even when reported separately by the country.{p_end}
+{synopt:{opt Source Notes}}Consumption per capita is the market value of all goods and services, including durable products and payments and fees to governments to obtain permits and licenses, purchased by households. It excludes purchases of dwellings but includes impu{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab Tablulations of the World Development Indicators (World Bank).{p_end}
 
@@ -2065,7 +2089,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2078,7 +2102,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2011 U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources.{p_end}
+{synopt:{opt Source Notes}}Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2011 U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2091,7 +2115,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2005 U.S. dollars. Dollar figures for GDP are converted from domestic currencies using 2000 official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used.{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2104,7 +2128,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant 2011 international dollars.{p_end}
+{synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2117,21 +2141,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abroad. To smooth fluctuations in prices and exchange rates, a special Atlas method of conversion is used by the World Bank. This applies a conversion factor that averages the exchange rate for a given year and the two preceding years, adjusted for differences in rates of inflation between the country, and the Euro area, Japan, the United Kingdom, and the United States.{p_end}
+{synopt:{opt Source Notes}}GNI per capita is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not in{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab Tablulations of the World Development Indicators (World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_7.9_CURR.ALLOCATION.CLOSURE}
-{synopt:{bf:{help wbopendata_sourceid##7.9_CURR.ALLOCATION.CLOSURE:7.9_CURR.ALLOCATION.CLOSURE} - Labor Income Poverty Index}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Labor Income Poverty Index (LIPI)  measures changes in the share of households that have per capita labor income below the regional poverty line of $4 per day, relative to a selected reference period. This reference period is the third quarter in 2010 (2010Q3 = 1), except for Chile and Guatemala, where 2010Q4 = 1.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of LABLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -2142,21 +2154,9 @@
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The Labor Income Poverty Index (LIPI)  measures changes in the share of households that have per capita labor income below the regional poverty line of $4 per day, relative to a selected reference period. This reference period is the third quarter in 2010 (2010Q3 = 1), except for Chile and Guatemala, where 2010Q4 = 1.{p_end}
+{synopt:{opt Source Notes}}The Labor Income Poverty Index (LIPI)  measures changes in the share of households that have per capita labor income below the regional poverty line of $4 per day, relative to a selected reference period. This reference period is the third qua{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of LABLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_8.4_ORAL.READING.TEST}
-{synopt:{bf:{help wbopendata_sourceid##8.4_ORAL.READING.TEST:8.4_ORAL.READING.TEST} - Administration of oral reading fluency tests (yes=1, no=0, see notes if available)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) that is a wage or salary worker{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -2628,18 +2628,6 @@
 
 
 {synoptline}
-{marker sourceid_9.1_AID.ALIGNMENT}
-{synopt:{bf:{help wbopendata_sourceid##9.1_AID.ALIGNMENT:9.1_AID.ALIGNMENT} - Alignment of aid to education (% of total international aid to education)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that is a wage or salary worker{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
 {marker sourceid_9.2.Employee.All}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Employee.All:9.2.Employee.All} - Employees (%), Female}}
 
@@ -2874,4 +2862,4 @@
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

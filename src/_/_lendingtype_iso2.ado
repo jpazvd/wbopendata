@@ -1,4 +1,4 @@
-*! _lendingtype_iso2 <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _lendingtype_iso2 <16 Mar 2019 : 13:09:10>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _lendingtype_iso2 
@@ -311,7 +311,6 @@
          replace lendingtype_iso2 = "XI"  if `match' == "YEM"  
          replace lendingtype_iso2 = "XF"  if `match' == "ZAF"  
          replace lendingtype_iso2 = "XI"  if `match' == "ZMB"  
-         replace lendingtype_iso2 = "XH"  if `match' == "ZWE"  
   
 *********************
   

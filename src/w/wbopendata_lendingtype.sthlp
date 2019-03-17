@@ -2,7 +2,14 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 03mar2019)}
+{title:Lending Type  (as of 16mar2019)}
+
+{marker I}
+{p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
+{synoptset 33 tabbed}{...}
+{synopthdr: (I)}
+{synoptline}
+{synopt:{opt ZWE}}  Zimbabwe {p_end}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -99,7 +106,6 @@
 {synopt:{opt VCT}}  St Vincent and the Grenadines {p_end}
 {synopt:{opt TLS}}  Timor-Leste {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
-{synopt:{opt ZWE}}  Zimbabwe {p_end}
 
 {marker IDX}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}

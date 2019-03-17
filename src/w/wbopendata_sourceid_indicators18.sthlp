@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -59,18 +59,6 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:18 IDA Results Measurement System}}}
 {synoptline}
-{marker sourceid_EG.ELC.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.ELC.HOUS.ZS:EG.ELC.HOUS.ZS} - Household electrification rate (% of households)}}
-
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
-
-
-{synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide better measurement than the data provided by national power utilities. In addition, utilities employ different definitions of electrification making it difficult for accurate cross-country comparison.{p_end}
-
-{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys.{p_end}
-
-
-{synoptline}
 {marker sourceid_ER.FST.DFST.ZG}
 {synopt:{bf:{help wbopendata_sourceid##ER.FST.DFST.ZG:ER.FST.DFST.ZG} - Annual deforestation (% of change)}}
 
@@ -82,17 +70,5 @@
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data, and World Bank and OECD GDP estimates.{p_end}
 
 
-{synoptline}
-{marker sourceid_IS.ROD.ALLS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.ALLS.ZS:IS.ROD.ALLS.ZS} - Access to an all-season road (% of rural population)}}
 
-{synopt:{opt Source}}18 IDA Results Measurement System{p_end}
-
-
-{synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailing means of rural transport (often a pick-up or a truck which does not have four-wheel-drive). Predictable interruptions of short duration during inclement weather (e.g. heavy rainfall) are acceptable, particularly on low volume roads. The preferred approach to measuring this indicator is by analysis of household surveys that include appropriate questions about access to transport.{p_end}
-
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted.{p_end}
-
-
-
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

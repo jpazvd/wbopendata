@@ -48,6 +48,8 @@ if ("`file'" == "") {
 *******************************************************************************
 quietly {
 
+	local file2 file2.csv
+
 	insheet using `file2', delimiter("#") clear name
 
 	bysort indicatorcode topicid : gen dups = _n
@@ -101,7 +103,7 @@ quietly {
 	
 	use `tmp' , clear
 
-	keep if seq == 2
+	keep if seq == 1
 	keep indicatorcode indicatorname
 	sort indicatorcode
 	outsheet using `tmp1tmp', replace noquote nolabel nonames

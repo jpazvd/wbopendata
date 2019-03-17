@@ -1,4 +1,4 @@
-*! _latitude <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _latitude <16 Mar 2019 : 13:09:10>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _latitude 
@@ -42,7 +42,7 @@
          replace latitude = real("5.63056")    if `match' == "CAF"  
          replace latitude = real("45.4215")    if `match' == "CAN"  
          replace latitude = real("46.948")    if `match' == "CHE"  
-         replace latitude = real(".")    if `match' == "CHI"  
+         replace latitude = real("<wb:latitude")    if `match' == "CHI"  
          replace latitude = real("-33.475")    if `match' == "CHL"  
          replace latitude = real("40.0495")    if `match' == "CHN"  
          replace latitude = real("5.332")    if `match' == "CIV"  
@@ -54,7 +54,7 @@
          replace latitude = real("14.9218")    if `match' == "CPV"  
          replace latitude = real("9.63701")    if `match' == "CRI"  
          replace latitude = real("23.1333")    if `match' == "CUB"  
-         replace latitude = real(".")    if `match' == "CUW"  
+         replace latitude = real("<wb:latitude")    if `match' == "CUW"  
          replace latitude = real("19.3022")    if `match' == "CYM"  
          replace latitude = real("35.1676")    if `match' == "CYP"  
          replace latitude = real("50.0878")    if `match' == "CZE"  
@@ -79,7 +79,7 @@
          replace latitude = real("51.5002")    if `match' == "GBR"  
          replace latitude = real("41.71")    if `match' == "GEO"  
          replace latitude = real("5.57045")    if `match' == "GHA"  
-         replace latitude = real(".")    if `match' == "GIB"  
+         replace latitude = real("<wb:latitude")    if `match' == "GIB"  
          replace latitude = real("9.51667")    if `match' == "GIN"  
          replace latitude = real("13.4495")    if `match' == "GMB"  
          replace latitude = real("11.8037")    if `match' == "GNB"  
@@ -127,7 +127,7 @@
          replace latitude = real("49.61")    if `match' == "LUX"  
          replace latitude = real("56.9465")    if `match' == "LVA"  
          replace latitude = real("22.1667")    if `match' == "MAC"  
-         replace latitude = real(".")    if `match' == "MAF"  
+         replace latitude = real("<wb:latitude")    if `match' == "MAF"  
          replace latitude = real("33.9905")    if `match' == "MAR"  
          replace latitude = real("43.7325")    if `match' == "MCO"  
          replace latitude = real("47.0167")    if `match' == "MDA"  
@@ -169,7 +169,7 @@
          replace latitude = real("39.0319")    if `match' == "PRK"  
          replace latitude = real("38.7072")    if `match' == "PRT"  
          replace latitude = real("-25.3005")    if `match' == "PRY"  
-         replace latitude = real(".")    if `match' == "PSE"  
+         replace latitude = real("<wb:latitude")    if `match' == "PSE"  
          replace latitude = real("-17.535")    if `match' == "PYF"  
          replace latitude = real("25.2948")    if `match' == "QAT"  
          replace latitude = real("44.4479")    if `match' == "ROU"  
@@ -192,7 +192,7 @@
          replace latitude = real("46.0546")    if `match' == "SVN"  
          replace latitude = real("59.3327")    if `match' == "SWE"  
          replace latitude = real("-26.5225")    if `match' == "SWZ"  
-         replace latitude = real(".")    if `match' == "SXM"  
+         replace latitude = real("<wb:latitude")    if `match' == "SXM"  
          replace latitude = real("-4.6309")    if `match' == "SYC"  
          replace latitude = real("33.5146")    if `match' == "SYR"  
          replace latitude = real("21.4602778")    if `match' == "TCA"  
@@ -207,7 +207,7 @@
          replace latitude = real("36.7899")    if `match' == "TUN"  
          replace latitude = real("39.7153")    if `match' == "TUR"  
          replace latitude = real("-8.6314877")    if `match' == "TUV"  
-         replace latitude = real(".")    if `match' == "TWN"  
+         replace latitude = real("<wb:latitude")    if `match' == "TWN"  
          replace latitude = real("-6.17486")    if `match' == "TZA"  
          replace latitude = real("0.314269")    if `match' == "UGA"  
          replace latitude = real("50.4536")    if `match' == "UKR"  
@@ -225,7 +225,6 @@
          replace latitude = real("15.352")    if `match' == "YEM"  
          replace latitude = real("-25.746")    if `match' == "ZAF"  
          replace latitude = real("-15.3982")    if `match' == "ZMB"  
-         replace latitude = real("-17.8312")    if `match' == "ZWE"  
   
 *********************
   

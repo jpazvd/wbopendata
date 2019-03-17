@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -58,6 +58,18 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:59 Wealth Accounts}}}
+{synoptline}
+{marker sourceid_LO.TIMSS.SCI8.HI.FE}
+{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI8.HI.FE:LO.TIMSS.SCI8.HI.FE} - TIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%)}}
+
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
+
+
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
+
+{synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
+
+
 {synoptline}
 {marker sourceid_NW.HCA.PC}
 {synopt:{bf:{help wbopendata_sourceid##NW.HCA.PC:NW.HCA.PC} - Human capital per capita (constant 2014 US$)}}
@@ -77,19 +89,19 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Human capital is computed as the present value of future earnings for the working population over their lifetimes.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_NW.NCA.AGRI.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.AGRI.PC:NW.NCA.AGRI.PC} - Natural capital, agricultural land (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.AGRI.PC:NW.NCA.AGRI.PC} - Natural capital per capita, agricultural land (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -101,7 +113,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -113,7 +125,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -125,7 +137,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -137,7 +149,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -149,7 +161,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -161,7 +173,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -173,7 +185,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -185,7 +197,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -197,7 +209,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -209,19 +221,19 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_NW.NCA.MBAU.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MBAU.TO:NW.NCA.MBAU.TO} - Natural capital, subsoil assets, minerals: bauxite (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MBAU.TO:NW.NCA.MBAU.TO} - Natural capital per capita, subsoil assets, minerals: copper (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -233,7 +245,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -245,7 +257,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -257,7 +269,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -269,7 +281,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -281,7 +293,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -293,7 +305,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -305,7 +317,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -317,7 +329,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -329,7 +341,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -341,19 +353,19 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_NW.NCA.MNIC.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MNIC.PC:NW.NCA.MNIC.PC} - Natural capital per capita, subsoil assets, minerals: nickel (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MNIC.PC:NW.NCA.MNIC.PC} - Natural capital, subsoil assets, minerals: nickel (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -365,19 +377,31 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
+
+{synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
+
+
+{synoptline}
+{marker sourceid_NW.NCA.MPHO.PC}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.PC:NW.NCA.MPHO.PC} - Natural capital per capita, subsoil assets, minerals: phosphate (constant 2014 US$)}}
+
+{synopt:{opt Source}}59 Wealth Accounts{p_end}
+
+
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_NW.NCA.MPHO.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.TO:NW.NCA.MPHO.TO} - Natural capital per capita, subsoil assets, minerals: silver (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.TO:NW.NCA.MPHO.TO} - Natural capital, subsoil assets, minerals: phosphate (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -389,7 +413,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -401,7 +425,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -413,7 +437,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -425,7 +449,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -437,7 +461,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -449,7 +473,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -461,7 +485,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -473,7 +497,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -485,7 +509,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -497,7 +521,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -509,7 +533,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -521,7 +545,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -533,7 +557,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -545,7 +569,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -557,7 +581,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -569,7 +593,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -581,7 +605,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -593,7 +617,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -605,7 +629,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (timber and some nontimber forest products), and protected areas.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -689,10 +713,10 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
+{synopt:{opt Source Notes}}Total wealth is calculated as the sum of produced capital, natural capital, human capital, and net foreign assets.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO; data are extrapolated to the most recent year available{p_end}
+{synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

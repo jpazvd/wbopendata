@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -59,15 +59,27 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:24 Poverty and Equity}}}
 {synoptline}
-{marker sourceid_SI.POV.DDAY.CV}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
+{marker sourceid_SH.HIV.1524.KW.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.KW.FE.ZS:SH.HIV.1524.KW.FE.ZS} - Survey mean consumption or income per capita, top 10% (2011 PPP $ per day)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the depth of poverty as well as its incidence. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet ({browse "http://iresearch.worldbank.org/PovcalNet/index.htm"}).{p_end}
+{synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.DDAY.CV}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP)}}
+
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
 
 
 {synoptline}
@@ -77,9 +89,21 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the depth of poverty as well as its incidence. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.{p_end}
+{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet ({browse "http://iresearch.worldbank.org/PovcalNet/index.htm"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+
+
+{synoptline}
+{marker sourceid_SI.POV.DDAY.RE}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
+
+{synopt:{opt Source}}24 Poverty and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}Poverty gap at $3.10 a day (2011 PPP) is the mean shortfall in income or consumption from the poverty line $3.10 a day (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the de{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
 
 
 {synoptline}
@@ -97,18 +121,6 @@
 {synoptline}
 {marker sourceid_SI.POV.LMIC.NO}
 {synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.NO:SI.POV.LMIC.NO} - Number of poor at $3.20 a day (2011 PPP) (millions)}}
-
-{synopt:{opt Source}}24 Poverty and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Poverty gap at national poverty lines is the mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.LMIC.RE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.RE:SI.POV.LMIC.RE} - Redistribution component of change in poverty at $3.20 a day (2011 PPP) (% of change)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -151,31 +163,7 @@
 
 {synopt:{opt Source Notes}}The number of people (millions) living on less than $1.90 a day (2011 PPP){p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. For more information and methodology, please see PovcalNet ({browse "http://iresearch.worldbank.org/PovcalNet/index.htm"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.RUGP.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP.NC:SI.POV.RUGP.NC} - Rural poverty gap at national poverty lines (%), including noncomparable values}}
-
-{synopt:{opt Source}}24 Poverty and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Rural poverty headcount ratio is the percentage of the rural population living below the national poverty lines.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
-
-
-{synoptline}
-{marker sourceid_SI.POV.RUHC.NC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUHC.NC:SI.POV.RUHC.NC} - Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values}}
-
-{synopt:{opt Source}}24 Poverty and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Poverty headcount ratio at $5.50 a day is the percentage of the population living on less than $5.50 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet ({browse "http://iresearch.worldbank.org/PovcalNet/index.htm"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. For more information and methodology, please see PovcalNet (http://iresea{p_end}
 
 
 {synoptline}
@@ -185,7 +173,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
@@ -197,7 +185,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
@@ -209,7 +197,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
@@ -233,7 +221,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Average transaction cost of sending remittance to a specific country is the average of the total transaction cost in percentage of the amount sent for sending USD 200 charged by each single remittance service provider (RSP) included in the Remittance Prices Worldwide (RPW) database to a specific country.{p_end}
+{synopt:{opt Source Notes}}Average transaction cost of sending remittance to a specific country is the average of the total transaction cost in percentage of the amount sent for sending USD 200 charged by each single remittance service provider (RSP) included in the Rem{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Remittance Prices Worldwide, available at {browse "http://remittanceprices.worldbank.org"}{p_end}
 
@@ -245,7 +233,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -257,7 +245,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -269,7 +257,7 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -281,10 +269,10 @@
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}

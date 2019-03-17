@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,7 +40,7 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -65,7 +65,7 @@
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the period and activities that inform the decision of whether to launch a PPP procurement process. It is determined by assessing whether the identification of a prospective PPP project happens within the broader context of public investments, consistent with other government priorities. It also examines the different types of assessments and the methodologies used to set the rules for these assessments. Furthermore, it considers other activities undertaken before publishing the public tender notice, such as preparing the draft contract and tender documents and obtaining land and permits, that lead to the procurement of the PPP project.{p_end}
+{synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the selection of a private partner who takes on the responsibility of developing the PPP project. It{p_end}
 
 {synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/"}){p_end}
 
@@ -77,7 +77,7 @@
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
 
-{synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions regarding PPP contract modification and renegotiation, dispute resolution, lender step-in rights, and termination of contracts.{p_end}
+{synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions{p_end}
 
 {synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/"}){p_end}
 
@@ -89,7 +89,7 @@
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
 
-{synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions regarding PPP contract modification and renegotiation, dispute resolution, lender step-in rights, and termination of contracts.{p_end}
+{synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions{p_end}
 
 {synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/"}){p_end}
 
@@ -101,10 +101,10 @@
 {synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
 
 
-{synopt:{opt Source Notes}}The indicator provides assessment of whether a specific process is in place to evaluate the feasibility of the unsolicited proposals (USPs). It evaluates USPs alignment with other government priorities; whether specific compensation mechanisms are in place for USPs; and whether a competitive process is required to select the private partner for the PPP project. Only the countries where USPs are allowed and take place have received scores. No scores have been given to those countries where the regulatory framework specifically prohibits the submission of USPs or where the USPs do not happen in practice.{p_end}
+{synopt:{opt Source Notes}}The indicator provides assessment of whether a specific process is in place to evaluate the feasibility of the unsolicited proposals (USPs). It evaluates USPs alignment with other government priorities; whether specific compensation mechanisms{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity ({browse "http://bbsc.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/"}){p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 16mar2019)}
