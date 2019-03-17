@@ -46,7 +46,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of women subjected to physical and/or sexual violence in the last 12 months is the percentage of ever partnered women age 15-49 who are subjected to physical violence, sexual violence or both by a current or former intimate partner{p_end}
+{synopt:{opt Source Notes}}Proportion of women subjected to physical and/or sexual violence in the last 12 months is the percentage of ever partnered women age 15-49 who are subjected to physical violence, sexual violence or both by a current or former intimate partner in the last 12 months.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Statistics Division (UNSD){p_end}
 
@@ -61,7 +61,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
 
 
 {synoptline}
@@ -74,7 +74,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
 
 
 {synoptline}
@@ -87,7 +87,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
 
 
 {synoptline}
@@ -100,7 +100,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
 
 
 {synoptline}
@@ -111,9 +111,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
+{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when she neglects the children.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
 
 
 {synoptline}
@@ -126,7 +126,7 @@
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
 
 
 {synoptline}
@@ -137,7 +137,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -150,7 +150,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -163,7 +163,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -176,7 +176,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -189,7 +189,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -202,7 +202,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -215,7 +215,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -228,7 +228,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -241,7 +241,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -254,7 +254,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -267,7 +267,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -280,7 +280,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -293,7 +293,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -306,7 +306,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -319,7 +319,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -332,7 +332,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -345,7 +345,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -358,7 +358,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -371,7 +371,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -384,7 +384,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -397,7 +397,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -410,7 +410,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -423,7 +423,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -436,7 +436,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -449,7 +449,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -462,7 +462,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -475,7 +475,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -488,7 +488,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -501,7 +501,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -514,7 +514,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -527,7 +527,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -540,7 +540,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -553,7 +553,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -566,7 +566,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -579,7 +579,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -592,7 +592,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -605,7 +605,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -618,7 +618,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -631,7 +631,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -644,7 +644,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -657,7 +657,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
+{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -670,7 +670,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
+{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -683,7 +683,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
+{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -774,7 +774,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritional defici{p_end}
+{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritional deficiencies such as underweight and stunting.{p_end}
 
 {synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
 
@@ -826,7 +826,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and congenit{p_end}
+{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and congenital anomalies.{p_end}
 
 {synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
 
@@ -893,7 +893,7 @@
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes for a source.{p_end}
 
 
 {synoptline}
@@ -906,7 +906,7 @@
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes for a source.{p_end}
 
 
 {synoptline}
@@ -956,7 +956,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -969,7 +969,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -982,7 +982,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -995,7 +995,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -1008,7 +1008,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -1021,7 +1021,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
+{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death (e.g., injuries or HIV/AIDS).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1034,7 +1034,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
+{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death (e.g., injuries or HIV/AIDS).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1047,7 +1047,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
+{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death (e.g., injuries or HIV/AIDS).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -1996,7 +1996,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2009,7 +2009,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2022,7 +2022,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2035,7 +2035,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2048,7 +2048,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2061,7 +2061,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
+{synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -2074,7 +2074,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
+{synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -2087,7 +2087,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
+{synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -2100,7 +2100,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2113,7 +2113,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2126,7 +2126,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -2256,7 +2256,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2269,7 +2269,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2282,7 +2282,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2295,7 +2295,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2308,7 +2308,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2334,7 +2334,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2347,7 +2347,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2360,7 +2360,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2373,7 +2373,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2386,7 +2386,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2399,7 +2399,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Child immunization, DPT, measures the percentage of children ages 12-23 months who received DPT vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against diphtheria, pertussis (or whoopi{p_end}
+{synopt:{opt Source Notes}}Child immunization, DPT, measures the percentage of children ages 12-23 months who received DPT vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against diphtheria, pertussis (or whooping cough), and tetanus (DPT) after receiving three doses of vaccine.{p_end}
 
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
@@ -2412,7 +2412,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2425,7 +2425,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2438,7 +2438,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2451,7 +2451,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2464,7 +2464,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2477,7 +2477,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Child immunization, measles, measures the percentage of children ages 12-23 months who received the measles vaccination before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receivi{p_end}
+{synopt:{opt Source Notes}}Child immunization, measles, measures the percentage of children ages 12-23 months who received the measles vaccination before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receiving one dose of vaccine.{p_end}
 
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
@@ -2490,7 +2490,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2503,7 +2503,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2516,7 +2516,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2529,7 +2529,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2542,7 +2542,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2555,7 +2555,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2568,7 +2568,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2581,7 +2581,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2594,7 +2594,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2607,7 +2607,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -2633,7 +2633,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and hea{p_end}
+{synopt:{opt Source Notes}}Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and health extension package workers.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization's Global Health Workforce Statistics, OECD, supplemented by country data.{p_end}
 
@@ -2685,7 +2685,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sec{p_end}
+{synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sector, self-medicating or not seeking treatment at all, and potential over-diagnosis through the lack of laboratory confirmation of cases.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization.{p_end}
 
@@ -3231,7 +3231,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management bu{p_end}
+{synopt:{opt Source Notes}}A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
 
@@ -3244,7 +3244,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
+{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking into account competing causes of death.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
 
@@ -3257,7 +3257,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
+{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking into account competing causes of death.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
 
@@ -3400,7 +3400,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The proportion of population at risk of impoverishing expenditure when surgical care is required. Impoverishing expenditure is defined as direct out of pocket payments for surgical and anaesthesia care which drive people below a poverty thresh{p_end}
+{synopt:{opt Source Notes}}The proportion of population at risk of impoverishing expenditure when surgical care is required. Impoverishing expenditure is defined as direct out of pocket payments for surgical and anaesthesia care which drive people below a poverty threshold (using a threshold of $1.25 PPP/day).{p_end}
 
 {synopt:{opt Source Organization}}The Program in Global Surgery and Social Change (PGSSC) at Harvard Medical School ({browse "https://www.pgssc.org/"}){p_end}
 
@@ -3413,7 +3413,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The number of procedures undertaken in an operating theatre per 100,000 population per year in each country. A procedure is defined as the incision, excision, or manipulation of tissue that needs regional or general anaesthesia, or profound se{p_end}
+{synopt:{opt Source Notes}}The number of procedures undertaken in an operating theatre per 100,000 population per year in each country. A procedure is defined as the incision, excision, or manipulation of tissue that needs regional or general anaesthesia, or profound sedation to control pain.{p_end}
 
 {synopt:{opt Source Organization}}The Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}).{p_end}
 
@@ -3426,7 +3426,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
+{synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -3439,7 +3439,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -3452,7 +3452,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -3465,7 +3465,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -3478,7 +3478,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -3491,7 +3491,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -3569,7 +3569,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3582,7 +3582,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3595,7 +3595,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3608,7 +3608,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3621,7 +3621,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3647,7 +3647,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3660,7 +3660,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3673,7 +3673,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3686,7 +3686,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3699,7 +3699,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3777,7 +3777,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Children with acute respiratory infection (ARI) who are taken to a health provider refers to the percentage of children under age five with ARI in the last two weeks who were taken to an appropriate health provider, including hospital, health{p_end}
+{synopt:{opt Source Notes}}Children with acute respiratory infection (ARI) who are taken to a health provider refers to the percentage of children under age five with ARI in the last two weeks who were taken to an appropriate health provider, including hospital, health center, dispensary, village health worker, clinic, and private physician.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
@@ -3855,7 +3855,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -3868,7 +3868,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -3881,7 +3881,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -3972,7 +3972,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3985,7 +3985,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -3998,7 +3998,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4011,7 +4011,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4024,7 +4024,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4037,7 +4037,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Births attended by skilled health staff are the percentage of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on th{p_end}
+{synopt:{opt Source Notes}}Births attended by skilled health staff are the percentage of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on their own; and to care for newborns.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
@@ -4115,7 +4115,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4128,7 +4128,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4141,7 +4141,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4154,7 +4154,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4167,7 +4167,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4349,7 +4349,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -4362,7 +4362,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -4375,7 +4375,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -4388,7 +4388,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4401,7 +4401,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4414,7 +4414,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4427,7 +4427,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4440,7 +4440,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4453,7 +4453,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's n{p_end}
+{synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
@@ -4466,7 +4466,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new{p_end}
+{synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
@@ -4479,7 +4479,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4492,7 +4492,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4505,7 +4505,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4518,7 +4518,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4531,7 +4531,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4544,7 +4544,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of underweight children is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO'{p_end}
+{synopt:{opt Source Notes}}Prevalence of underweight children is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
@@ -4557,7 +4557,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4570,7 +4570,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4583,7 +4583,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4596,7 +4596,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4609,7 +4609,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4622,7 +4622,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the pr{p_end}
+{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the proportion of maternal deaths among non-AIDS deaths in women ages 15-49, fertility, birth attendants, and GDP.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
 
@@ -4687,7 +4687,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Children with diarrhea who received oral rehydration and continued feeding refer to the percentage of children under age five with diarrhea in the two weeks prior to the survey who received either oral rehydration therapy or increased fluids,{p_end}
+{synopt:{opt Source Notes}}Children with diarrhea who received oral rehydration and continued feeding refer to the percentage of children under age five with diarrhea in the two weeks prior to the survey who received either oral rehydration therapy or increased fluids, with continued feeding.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
@@ -4700,7 +4700,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4713,7 +4713,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4726,7 +4726,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4739,7 +4739,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4752,7 +4752,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -4908,7 +4908,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WH{p_end}
+{synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
@@ -4921,7 +4921,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's{p_end}
+{synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
@@ -4934,7 +4934,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
+{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
@@ -4947,7 +4947,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4960,7 +4960,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4973,7 +4973,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4986,7 +4986,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -4999,7 +4999,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -5012,7 +5012,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
@@ -5025,7 +5025,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5038,7 +5038,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5051,7 +5051,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5064,7 +5064,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5077,7 +5077,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5090,7 +5090,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old hei{p_end}
+{synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
@@ -5103,7 +5103,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height{p_end}
+{synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
@@ -5116,7 +5116,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5129,7 +5129,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5142,7 +5142,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5155,7 +5155,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5168,7 +5168,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5181,7 +5181,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is{p_end}
+{synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
@@ -5246,7 +5246,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing the number of deaths by the total population. In this estimate, only the impact of diarrhoeal diseases, intestinal nematode infections, and protein-energy malnutrition are taken into account.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -5285,7 +5285,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5298,7 +5298,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5311,7 +5311,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5324,7 +5324,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5337,7 +5337,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5363,7 +5363,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5376,7 +5376,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5389,7 +5389,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5402,7 +5402,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5415,7 +5415,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -5467,7 +5467,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Tuberculosis treatment success rate is the percentage of all new tuberculosis cases (or new and relapse cases for some countries) registered under a national tuberculosis control programme in a given year that successfully completed treatment,{p_end}
+{synopt:{opt Source Notes}}Tuberculosis treatment success rate is the percentage of all new tuberculosis cases (or new and relapse cases for some countries) registered under a national tuberculosis control programme in a given year that successfully completed treatment, with or without bacteriological evidence of success (cured and treatment completed respectively).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
@@ -5480,7 +5480,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Tuberculosis case detection rate (all forms) is the number of new and relapse tuberculosis cases notified to WHO in a given year, divided by WHO's estimate of the number of incident tuberculosis cases for the same year, expressed as a percenta{p_end}
+{synopt:{opt Source Notes}}Tuberculosis case detection rate (all forms) is the number of new and relapse tuberculosis cases notified to WHO in a given year, divided by WHO's estimate of the number of incident tuberculosis cases for the same year, expressed as a percentage. Estimates for all years are recalculated as new information becomes available and techniques are refined, so they may differ from those published previously.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
@@ -5493,7 +5493,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Incidence of tuberculosis is the estimated number of new and relapse tuberculosis cases arising in a given year, expressed as the rate per 100,000 population. All forms of TB are included, including cases in people living with HIV. Estimates f{p_end}
+{synopt:{opt Source Notes}}Incidence of tuberculosis is the estimated number of new and relapse tuberculosis cases arising in a given year, expressed as the rate per 100,000 population. All forms of TB are included, including cases in people living with HIV. Estimates for all years are recalculated as new information becomes available and techniques are refined, so they may differ from those published previously.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
@@ -5688,7 +5688,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a sca{p_end}
+{synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a scale of 0 to 100. Values greater than or equal to 80 are presented as 80 as the index does not provide fine resolution at high values.{p_end}
 
 {synopt:{opt Source Organization}}Hogan et al. An index of the coverage of essential health services for monitoring UHC within the SDGs, Lancet Global Health 2017.{p_end}
 
@@ -5792,7 +5792,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such a{p_end}
+{synopt:{opt Source Notes}}Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such as buildings, machinery, IT and stocks of vaccines for emergency or outbreaks.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -5831,7 +5831,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Share of current health expenditures funded from external sources. External sources compose of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from out{p_end}
+{synopt:{opt Source Notes}}Share of current health expenditures funded from external sources. External sources compose of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from outside the country. External sources either flow through the government scheme or are channeled through non-governmental organizations or other schemes.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -5844,7 +5844,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in current US dollars. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national{p_end}
+{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in current US dollars. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from outside the country.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -5857,7 +5857,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity (PPP). External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all{p_end}
+{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity (PPP). External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from outside the country.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -5870,7 +5870,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}External resources for health are funds or services in kind that are provided by entities not part of the country in question. The resources may come from international organizations, other countries through bilateral arrangements, or foreign{p_end}
+{synopt:{opt Source Notes}}External resources for health are funds or services in kind that are provided by entities not part of the country in question. The resources may come from international organizations, other countries through bilateral arrangements, or foreign nongovernmental organizations. These resources are part of total health expenditure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -5883,7 +5883,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic public sources for health.  Domestic public sources include domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, non-prof{p_end}
+{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic public sources for health.  Domestic public sources include domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, non-profit institutions serving households (NPISH) or enterprise financing schemes as well as compulsory prepayment and social health insurance contributions. They do not include external resources spent by governments on health.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -5987,7 +5987,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to{p_end}
+{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to contribute to the restoration or enhancement of the health status of individuals or population groups. It is a part of private health expenditure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6000,7 +6000,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to{p_end}
+{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to contribute to the restoration or enhancement of the health status of individuals or population groups. It is a part of private health expenditure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6013,7 +6013,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6026,7 +6026,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation. Data are in international dollars converted using 2011 purchasing power parity (PPP) rates.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6065,7 +6065,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds. Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6078,7 +6078,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6091,7 +6091,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6104,7 +6104,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic private sources.  Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insuranc{p_end}
+{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic private sources.  Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insurance or paid directly to healthcare providers.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -6117,7 +6117,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in current US dollars. Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health i{p_end}
+{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in current US dollars. Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insurance or paid directly to healthcare providers.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
@@ -6143,7 +6143,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but d{p_end}
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -6156,7 +6156,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
+{synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and older with tertiary education.{p_end}
 
 {synopt:{opt Source Organization}}Frédéric Docquier, B. Lindsay Lowell, and Abdeslam Marfouk's , A Gendered Assessment of Highly Skilled Emigration (2009).{p_end}
 
@@ -6182,9 +6182,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
+{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of asylum is the country where an asylum claim was filed and granted.{p_end}
 
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are{p_end}
+{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are available online at: {browse "www.unhcr.org/en-us/figures-at-a-glance.html"}.{p_end}
 
 
 {synoptline}
@@ -6195,9 +6195,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
+{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of origin generally refers to the nationality or country of citizenship of a claimant.{p_end}
 
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are{p_end}
+{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are available online at: {browse "www.unhcr.org/en-us/figures-at-a-glance.html"}.{p_end}
 
 
 {synoptline}
@@ -6208,7 +6208,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
+{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from population censuses. The estimates are derived from the data on foreign-born population--people who have residence in one country but were born in another country. When data on the foreign-born population are not available, data on foreign population--that is, people who are citizens of a country other than the country in which they reside--are used as estimates. After the breakup of the Soviet Union in 1991 people living in one of the newly independent countries who were born in another were classified as international migrants. Estimates of migrant stock in the newly independent states from 1990 on are based on the 1989 census of the Soviet Union. For countries with information on the international migrant stock for at least two points in time, interpolation or extrapolation was used to estimate the international migrant stock on July 1 of the reference years. For countries with only one observation, estimates for the reference years were derived using rates of change in the migrant stock in the years preceding or following the single observation available. A model was used to estimate migrants for countries that had no data.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2012 Revision.{p_end}
 
@@ -6221,7 +6221,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
+{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from population censuses. The estimates are derived from the data on foreign-born population--people who have residence in one country but were born in another country. When data on the foreign-born population are not available, data on foreign population--that is, people who are citizens of a country other than the country in which they reside--are used as estimates. After the breakup of the Soviet Union in 1991 people living in one of the newly independent countries who were born in another were classified as international migrants. Estimates of migrant stock in the newly independent states from 1990 on are based on the 1989 census of the Soviet Union. For countries with information on the international migrant stock for at least two points in time, interpolation or extrapolation was used to estimate the international migrant stock on July 1 of the reference years. For countries with only one observation, estimates for the reference years were derived using rates of change in the migrant stock in the years preceding or following the single observation available. A model was used to estimate migrants for countries that had no data.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2008 Revision.{p_end}
 
@@ -6234,7 +6234,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Population below minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. Data s{p_end}
+{synopt:{opt Source Notes}}Population below minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. Data showing as 5 may signify a prevalence of undernourishment below 5%.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization ({browse "http://www.fao.org/publications/en/"}).{p_end}
 
@@ -6247,7 +6247,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}The depth of the food deficit indicates how many calories would be needed to lift the undernourished from their status, everything else being constant. The average intensity of food deprivation of the undernourished, estimated as the differenc{p_end}
+{synopt:{opt Source Notes}}The depth of the food deficit indicates how many calories would be needed to lift the undernourished from their status, everything else being constant. The average intensity of food deprivation of the undernourished, estimated as the difference between the average dietary energy requirement and the average dietary energy consumption of the undernourished population (food-deprived), is multiplied by the number of undernourished to provide an estimate of the total food deficit in the country, which is then normalized by the total population.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, Food Security Statistics.{p_end}
 
@@ -6260,7 +6260,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Depth of hunger or the intensity of food deprivation, indicates how much food-deprived people fall short of minimum food needs in terms of dietary energy. The food deficit, in kilocalories per person per day, is measured by comparing the avera{p_end}
+{synopt:{opt Source Notes}}Depth of hunger or the intensity of food deprivation, indicates how much food-deprived people fall short of minimum food needs in terms of dietary energy. The food deficit, in kilocalories per person per day, is measured by comparing the average amount of dietary energy that undernourished people get from the foods they eat with the minimum amount of dietary energy they need to maintain body weight and undertake light activity. The depth of hunger is low when it is less than 200 kilocalories per person per day, and high when it is higher than 300 kilocalories per person per day.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, Food Security Statistics ({browse "http://www.fao.org/economic/ess/food-security-statistics/en/"}).{p_end}
 
@@ -6286,7 +6286,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6299,7 +6299,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6312,7 +6312,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6325,7 +6325,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6338,7 +6338,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6442,7 +6442,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of infant death reporting is the number of infant deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of infant deaths estimated by the United Na{p_end}
+{synopt:{opt Source Notes}}Completeness of infant death reporting is the number of infant deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of infant deaths estimated by the United Nations Population Division.{p_end}
 
 {synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
 
@@ -6455,7 +6455,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of total death reporting is the number of total deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of total deaths estimated by the United Natio{p_end}
+{synopt:{opt Source Notes}}Completeness of total death reporting is the number of total deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of total deaths estimated by the United Nations Population Division.{p_end}
 
 {synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
 
@@ -6468,7 +6468,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between th{p_end}
+{synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those ages.{p_end}
 
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
@@ -6481,7 +6481,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
+{synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those ages.{p_end}
 
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
@@ -6494,9 +6494,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the{p_end}
+{synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -6507,9 +6507,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate{p_end}
+{synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -6585,7 +6585,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6598,7 +6598,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6611,7 +6611,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6624,7 +6624,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6637,7 +6637,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6650,7 +6650,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, at least one modern method of contraception. It is usually measured for women ages 15-49 who are married or in union. Modern{p_end}
+{synopt:{opt Source Notes}}Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, at least one modern method of contraception. It is usually measured for women ages 15-49 who are married or in union. Modern methods of contraception include female and male sterilization, oral hormonal pills, the intra-uterine device (IUD), the male condom, injectables, the implant (including Norplant), vaginal barrier methods, the female condom and emergency contraception.{p_end}
 
 {synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
 
@@ -6663,7 +6663,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6676,7 +6676,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6689,7 +6689,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6702,7 +6702,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6715,7 +6715,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6780,7 +6780,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6793,7 +6793,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6806,7 +6806,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6819,7 +6819,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6832,7 +6832,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6847,7 +6847,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -6860,7 +6860,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -6873,7 +6873,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -6886,7 +6886,7 @@
 
 {synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -6897,7 +6897,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6910,7 +6910,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6923,7 +6923,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6936,7 +6936,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -6949,7 +6949,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -7924,9 +7924,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
+{synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2017 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2017 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -7939,7 +7939,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
 
 
 {synoptline}
@@ -8002,7 +8002,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
@@ -8015,7 +8015,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
@@ -8028,7 +8028,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
@@ -8041,7 +8041,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
@@ -8054,7 +8054,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
@@ -8080,7 +8080,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8093,7 +8093,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8106,7 +8106,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8119,7 +8119,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8132,7 +8132,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8145,7 +8145,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8158,7 +8158,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8171,7 +8171,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8184,7 +8184,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8197,7 +8197,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8223,7 +8223,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8236,7 +8236,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8249,7 +8249,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8262,7 +8262,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
@@ -8275,7 +8275,7 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 

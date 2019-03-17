@@ -17,9 +17,14 @@ _api_read_indicators, update preserveout
 
 program define _indicators, rclass
 
+version 9
+
    syntax                               ///
             [ ,                         ///
-                file(string) 			///
+                FILE(string) 			///
+				NOINDLIST				///
+				NOSTHLP1 				///
+				NOSTHLP2 				///				
 			] 			
 						 
 
@@ -39,7 +44,7 @@ if ("`file'" == "") {
 	
 }
 
-if ("`file'" == "") {
+if ("`file'" != "") {
 
 	local file2 "`file'"
 
@@ -47,8 +52,6 @@ if ("`file'" == "") {
 
 *******************************************************************************
 quietly {
-
-	local file2 file2.csv
 
 	insheet using `file2', delimiter("#") clear name
 
@@ -93,6 +96,9 @@ quietly {
 /* Create Indicator list for dialogue box */
 ********************************************
 
+if ("`noindlist'" == "") {
+
+
 	noi di in smcl in g ""
 	noi di in smcl in g "{bf: Processing indicators list...}"
 	noi di in smcl in g ""
@@ -117,9 +123,13 @@ quietly {
 		copy `tmp1tmp' `indicator'
 	}
 	
+}
+
 *******************************************************************************
 * create sthlp files (sourceid and topicid)
 *******************************************************************************
+
+if ("`nosthlp1'" == "") {
 
 	local date: disp %td date("`c(current_date)'", "DMY")
 			
@@ -236,10 +246,14 @@ quietly {
 		noi di in smcl in g "{bf: Processing indicators metadata...}"
 		noi di in smcl in g ""
 
+}
+		
 	*******************************************************************************
 	* create sthlp files (sourceid_indicators and topicid_indicators)
 	*******************************************************************************
 
+if ("`nosthlp2'" == "") {
+	
 	local date: disp %td date("`c(current_date)'", "DMY")
 			
 	qui foreach variable in sourceid topicid  {
@@ -416,7 +430,42 @@ quietly {
 		}
 			
 	}		
-			
+		
+}
+
+********************************************
+/* Create return locals */
+********************************************
+
+	use `tmp' , clear
+
+	sum if seq == 1
+	return local total = r(N)
+	
+	levelsof sourceid
+	foreach varvalue in `r(levels)' {
+		di `"`varvalue'"'
+		sum if sourceid == "`varvalue'"
+		local obs = r(N)
+		local code = word("`varvalue'",1)
+		local name = lower("`varvalue'")
+		local name = subinstr("`name'"," ","_",.)
+		return local sourceid`code' `obs'
+	}
+	
+	
+	levelsof topicid
+	foreach varvalue in `r(levels)' {
+		di `"`varvalue'"'
+		sum if topicid == "`varvalue'"
+		local obs = r(N)
+		local code = word("`varvalue'",1)
+		local name = lower("`varvalue'")
+		local name = subinstr("`name'"," ","_",.)
+		return local topicid`code' `obs'
+	}
+	
+	
 	*******************************************************************************
 	*******************************************************************************
 
