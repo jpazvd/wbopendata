@@ -27,6 +27,8 @@ syntax , 								///
 				INDICATORS				///
 				FORCE					///
 				ALL						///
+				SHORT					///
+				DETAIL					///
 		  ]
 
 	return add
@@ -49,6 +51,10 @@ syntax , 								///
 	local dt_ctrycheck 		"`ctrydatef' `ctrytime'"
 	local dt_ctryupdate 	= r(dt_ctryupdate)
 	local dt_ctrylastcheck 	= r(dt_ctrycheck)
+	
+	foreach returnname in r(sourcereturn) r(topicreturn) {
+		local old`returnname'  = r(`returnname')
+	}
 
 	
 	qui if ("`query'" != "") & ("`check'" == "") & ("`update'" != "") {
@@ -69,6 +75,12 @@ syntax , 								///
 			noi di in g in smcl "	Last country check:   		" in w "{bf:`r(dt_ctrylastcheck)'}"  
 			noi di in g in smcl "	Current country update level:   " in w "{bf:`r(dt_ctryupdate)'}"
 			noi di in smcl ""
+			if ("`detail'" != "") {
+				foreach name in r(sourcereturn) r(topicreturn) {
+					noi di in g in smcl "	`name' : `r(`name')"	"
+				}
+				noi di in smcl ""
+			}
 			noi di in g in smcl "Possible actions"
 			noi di in smcl ""
 			noi di in g in smcl 	`" {stata wbopendata, update check : {bf: Check for available updates}} "'         "  (or type -wbopendata, update check-)"
@@ -142,18 +154,47 @@ syntax , 								///
 		
 		tempfile in out2
 		tempname in2 out
-			
-		findfile _parameters.ado, `path'
-			
-*		file open `out'    using 	`r(fn)'    		, write text replace
+
 		file open `out'    using 	`out2'   		, write text append 
 				
-				
-		file write `out' `"*! _parameters <`datef' : `tie'> 			João Pedro Azevedo "' 					_n
+		
+		file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
 		file write `out' `""' 					_n
 		file write `out' `"program define _parameters, rclass"' 					_n
 		file write `out' `""' 					_n
+		file write `out' `"version 9"' 					_n
+		file write `out' `""' 					_n
 		file write `out' `"		return add"' 					_n
+		file write `out' `""' 					_n
+			
+		if ("`detail'" != "") {
+
+			noi _indicators, noindlist nosthlp1 nosthlp2
+
+			file write `out' `""' 					_n
+			file write `out' `"		return local total = r(total) "' 					_n 
+			file write `out' `""' 					_n
+
+			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+
+				file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+					
+			}
+			
+			file write `out' `""' 					_n
+			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return local topicid  `r(topicid)' "' 					_n
+			file write `out' `""' 					_n
+				
+			file write `out' `""' 					_n
+
+		}
+		
 		file write `out' `""' 					_n
 		file write `out' `"		return local number_indicators = `number_indicators'"' 					_n 
 		file write `out' `"		return local dt_update "`dt_update'" "' 					_n
@@ -166,8 +207,8 @@ syntax , 								///
 		file write `out' `"end"' 					_n	
 			
 		file close `out'
+		
 		findfile _parameters.ado, `path'
-
 		copy `out2'  `r(fn)' , replace
 
 	}
@@ -231,14 +272,42 @@ syntax , 								///
 			tempfile in out2
 			tempname in2 out
 			
-			findfile _parameters.ado, `path'
-			
 			file open `out'    using 	`out2'   		, write text append 
+						
+			file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"program define _parameters, rclass"' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"version 9"' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return add"' 					_n
+			file write `out' `""' 					_n
+			
+			noi _indicators
+
+			file write `out' `""' 					_n
+			file write `out' `"		return local total = r(total) "' 					_n 
+			file write `out' `""' 					_n
+
+			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+
+				file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+				
+			}
+			
+			file write `out' `""' 					_n
+			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
+			file write `out' `""' 					_n
+			file write `out' `"		return local topicid  `r(topicid)' "' 					_n
+			file write `out' `""' 					_n
+			
+			file write `out' `""' 					_n
 
 			
-			*noi _update_indicators, update `preserveout'
-			noi _indicators
-					
 			noi di in smcl ""
 			noi di in smcl in g "{bf:New indicator list created}"
 			noi di in smcl ""
@@ -253,13 +322,6 @@ syntax , 								///
 			local newctryupdate		= r(dt_ctryupdate)
 			
 			
-			file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"program define _parameters, rclass"' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"version 9"' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return add"' 					_n
 			file write `out' `""' 					_n
 			file write `out' `"		return local number_indicators = `newnumber'"' 					_n 
 			file write `out' `"		return local dt_update "`datef' `time'" "' 					_n

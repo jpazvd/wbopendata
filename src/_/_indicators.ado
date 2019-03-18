@@ -443,6 +443,7 @@ if ("`nosthlp2'" == "") {
 	return local total = r(N)
 	
 	levelsof sourceid
+	return local sourceid = r(levels)
 	foreach varvalue in `r(levels)' {
 		di `"`varvalue'"'
 		sum if sourceid == "`varvalue'"
@@ -451,10 +452,12 @@ if ("`nosthlp2'" == "") {
 		local name = lower("`varvalue'")
 		local name = subinstr("`name'"," ","_",.)
 		return local sourceid`code' `obs'
+		local sourcereturn "`sourcereturn' sourceid`code'"
 	}
-	
+	return local sourcereturn = "`sourcereturn'"
 	
 	levelsof topicid
+	return local topicid = r(levels)
 	foreach varvalue in `r(levels)' {
 		di `"`varvalue'"'
 		sum if topicid == "`varvalue'"
@@ -463,7 +466,9 @@ if ("`nosthlp2'" == "") {
 		local name = lower("`varvalue'")
 		local name = subinstr("`name'"," ","_",.)
 		return local topicid`code' `obs'
+		local topicreturn "`topicreturn' topicid`code'"
 	}
+	return local topicreturn = "`topicreturn'"
 	
 	
 	*******************************************************************************
