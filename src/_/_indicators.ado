@@ -30,7 +30,9 @@ version 9
 
 *******************************************************************************
 
+	tempfile tmp
 	
+	set checksum off
 
 *******************************************************************************
 
@@ -55,22 +57,8 @@ quietly {
 
 	insheet using `file2', delimiter("#") clear name
 
-	bysort indicatorcode topicid : gen dups = _n
-	keep if dups == 1
-	bysort indicatorcode  : gen tot = _N
-	drop if tot == 2 & dups == 1 & topicid == ""
-
-	drop dups
-	bysort indicatorcode  : gen dups = _n
-	drop tot
-	bysort indicatorcode  : gen tot = _N
-
-	drop if topicid == "" & tot>=2
-
-	drop dups
-	bysort indicatorcode  : gen dups = _n
-	drop tot
-	bysort indicatorcode  : gen tot = _N
+	bysort indicatorcode topicid : gen double dups = _n
+	bysort indicatorcode  : gen double tot = _N
 
 	foreach var in topicid sourceid {
 		replace `var' = subinstr(`var',"&amp;","and",.) 
@@ -88,8 +76,6 @@ quietly {
 
 	label var topicid "Topics"
 
-	tempfile tmp
-			
 	save `tmp', replace
 		
 ********************************************
@@ -109,8 +95,9 @@ if ("`noindlist'" == "") {
 	
 	use `tmp' , clear
 
-	keep if seq == 1
 	keep indicatorcode indicatorname
+	bysort indicatorcode : gen seq = _n
+	keep if seq == 1
 	sort indicatorcode
 	outsheet using `tmp1tmp', replace noquote nolabel nonames
 	
@@ -442,33 +429,57 @@ if ("`nosthlp2'" == "") {
 	sum if seq == 1
 	return local total = r(N)
 	
-	levelsof sourceid
-	return local sourceid = r(levels)
-	foreach varvalue in `r(levels)' {
-		di `"`varvalue'"'
-		sum if sourceid == "`varvalue'"
-		local obs = r(N)
-		local code = word("`varvalue'",1)
-		local name = lower("`varvalue'")
-		local name = subinstr("`name'"," ","_",.)
-		return local sourceid`code' `obs'
-		local sourcereturn "`sourcereturn' sourceid`code'"
-	}
-	return local sourcereturn = "`sourcereturn'"
 	
-	levelsof topicid
-	return local topicid = r(levels)
-	foreach varvalue in `r(levels)' {
-		di `"`varvalue'"'
-		sum if topicid == "`varvalue'"
-		local obs = r(N)
-		local code = word("`varvalue'",1)
-		local name = lower("`varvalue'")
-		local name = subinstr("`name'"," ","_",.)
-		return local topicid`code' `obs'
-		local topicreturn "`topicreturn' topicid`code'"
-	}
-	return local topicreturn = "`topicreturn'"
+	preserve
+	
+		keep sourceid indicatorcode
+		drop if sourceid == ""
+		bysort sourceid indicatorcode : gen dups = _n
+		keep if dups == 1
+		tab sourceid, m
+		
+		levelsof sourceid
+		return local sourceid = r(levels)
+		foreach varvalue in `r(levels)' {
+			di `"`varvalue'"'
+			sum if sourceid == "`varvalue'" & sourceid != ""
+			local obs = r(N)
+			local code = word("`varvalue'",1)
+			local name = lower("`varvalue'")
+			local name = subinstr("`name'"," ","_",.)
+			return local sourceid`code' `obs'
+			local sourcereturn "`sourcereturn' sourceid`code'"
+		}
+		
+		return local sourcereturn = "`sourcereturn'"
+
+	restore
+	
+	
+	preserve
+	
+		keep topicid indicatorcode
+		drop if topicid == ""
+		bysort topicid indicatorcode : gen dups = _n
+		keep if dups == 1
+		tab topicid, m
+	
+		levelsof topicid
+		return local topicid = r(levels)
+		foreach varvalue in `r(levels)' {
+			di `"`varvalue'"'
+			sum if topicid == "`varvalue'" & topicid != ""
+			local obs = r(N)
+			local code = word("`varvalue'",1)
+			local name = lower("`varvalue'")
+			local name = subinstr("`name'"," ","_",.)
+			return local topicid`code' `obs'
+			local topicreturn "`topicreturn' topicid`code'"
+		}
+
+		return local topicreturn = "`topicreturn'"
+		
+	restore
 	
 	
 	*******************************************************************************

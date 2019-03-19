@@ -52,7 +52,7 @@ syntax , 								///
 	local dt_ctryupdate 	= r(dt_ctryupdate)
 	local dt_ctrylastcheck 	= r(dt_ctrycheck)
 	
-	foreach returnname in r(sourcereturn) r(topicreturn) {
+	foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 		local old`returnname'  = r(`returnname')
 	}
 
@@ -68,19 +68,62 @@ syntax , 								///
 			noi di in smcl ""
 			noi di in g in smcl "	Existing Number of Indicators: " in y "{bf: `r(number_indicators)'}"
 			noi di in g in smcl "	Last check for updates:        " in w "{bf: `r(dt_lastcheck)'}"
-			noi di in g in smcl "	New update available:          " in w "{bf: none}     " in g " (as of `r(dt_lastcheck)'}"
+			noi di in g in smcl "	New update available:          " in w "{bf: none}     " in g " (as of `r(dt_lastcheck)')"
 			noi di in g in smcl "	Current update level:          " in w "{bf: `r(dt_update)'}"
 			noi di in smcl ""
 			noi di in g in smcl "	Country metadata:		" in y "{bf:`r(ctrymetadata)'}"
 			noi di in g in smcl "	Last country check:   		" in w "{bf:`r(dt_ctrylastcheck)'}"  
 			noi di in g in smcl "	Current country update level:   " in w "{bf:`r(dt_ctryupdate)'}"
 			noi di in smcl ""
-			if ("`detail'" != "") {
-				foreach name in r(sourcereturn) r(topicreturn) {
-					noi di in g in smcl "	`name' : `r(`name')"	"
+
+			qui if ("`detail'" != "") {
+				
+				/* Source */
+				
+				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptline}"
+				noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
+				noi di in g in smcl "{synoptline}"
+				
+				qui foreach name in `r(sourcereturn)' {
+				
+					if (`r(`name')' == `old`name'') {
+						local checkvalue `""  in y  "		(SAME) {p_end}""'
+					}
+					if (`r(`name')' != `old`name'') {
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+					}
+
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
 				}
+				
+				noi di in g in smcl "{synoptline}"
 				noi di in smcl ""
+			
+				/* Topic */
+				
+				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptline}"
+				noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
+				noi di in g in smcl "{synoptline}"
+				
+				qui foreach name in `r(topicreturn)' {
+				
+					if (`r(`name')' == `old`name'') {
+						local checkvalue `""  in y  "		(SAME) {p_end}""'
+					}
+					if (`r(`name')' != `old`name'') {
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+					}
+
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+				}
+				
+				noi di in g in smcl "{synoptline}"
+				noi di in smcl ""
+			
 			}
+			
 			noi di in g in smcl "Possible actions"
 			noi di in smcl ""
 			noi di in g in smcl 	`" {stata wbopendata, update check : {bf: Check for available updates}} "'         "  (or type -wbopendata, update check-)"
@@ -133,6 +176,55 @@ syntax , 								///
 			noi di in g in smcl "	Last country check:   		" in w "{bf:`r(dt_ctrylastcheck)'}"  
 			noi di in g in smcl "	Current country update level:   " in w "{bf:`r(dt_ctryupdate)'}"
 			noi di in smcl ""
+			
+			qui if ("`detail'" != "") {
+				
+				/* Source */
+				
+				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptline}"
+				noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
+				noi di in g in smcl "{synoptline}"
+				
+				qui foreach name in `r(sourcereturn)' {
+				
+					if (`r(`name')' == `old`name'') {
+						local checkvalue `""  in y  "		(SAME) {p_end}""'
+					}
+					if (`r(`name')' != `old`name'') {
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+					}
+
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+				}
+				
+				noi di in g in smcl "{synoptline}"
+				noi di in smcl ""
+			
+				/* Topic */
+				
+				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptline}"
+				noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
+				noi di in g in smcl "{synoptline}"
+				
+				qui foreach name in `r(topicreturn)' {
+				
+					if (`r(`name')' == `old`name'') {
+						local checkvalue `""  in y  "		(SAME) {p_end}""'
+					}
+					if (`r(`name')' != `old`name'') {
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+					}
+
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+				}
+				
+				noi di in g in smcl "{synoptline}"
+				noi di in smcl ""
+			
+			}
+			
 			noi di in g in smcl "Possible actions"
 			noi di in smcl ""
 			if (`number_indicators' == `newnumber') & (`ctrymetadata'==`newctrymetadata') {
@@ -166,35 +258,35 @@ syntax , 								///
 		file write `out' `""' 					_n
 		file write `out' `"		return add"' 					_n
 		file write `out' `""' 					_n
-			
-		if ("`detail'" != "") {
-
-			noi _indicators, noindlist nosthlp1 nosthlp2
-
-			file write `out' `""' 					_n
-			file write `out' `"		return local total = r(total) "' 					_n 
-			file write `out' `""' 					_n
-
-			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
-
-				file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
-					
-			}
-			
-			file write `out' `""' 					_n
-			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local topicid  `r(topicid)' "' 					_n
-			file write `out' `""' 					_n
-				
-			file write `out' `""' 					_n
-
-		}
 		
+		/* begin: full indicators details always on */
+
+		noi _indicators, noindlist nosthlp1 nosthlp2
+
+		file write `out' `""' 					_n
+		file write `out' `"		return local total = `r(total)' "' 					_n 
+		file write `out' `""' 					_n
+
+		noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+
+			file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+					
+		}
+			
+		file write `out' `""' 					_n
+		file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
+		file write `out' `""' 					_n
+		file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
+		file write `out' `""' 					_n
+		file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
+		file write `out' `""' 					_n
+		file write `out' `"		return local topicid  `r(topicid)' "' 					_n
+		file write `out' `""' 					_n
+				
+		file write `out' `""' 					_n
+
+		/* end: full indicators details always on */
+				
 		file write `out' `""' 					_n
 		file write `out' `"		return local number_indicators = `number_indicators'"' 					_n 
 		file write `out' `"		return local dt_update "`dt_update'" "' 					_n
@@ -261,6 +353,55 @@ syntax , 								///
 				noi di in g in smcl "	Last country check:   		" in w "{bf:`r(dt_ctrylastcheck)'}"  
 				noi di in g in smcl "	Current country update level:   " in w "{bf:`r(dt_ctryupdate)'}"
 				noi di in smcl ""
+			
+				qui if ("`detail'" != "") {
+					
+					/* Source */
+					
+					noi di in g in smcl "{synoptset 15 tabbed} "
+					noi di in g in smcl "{synoptline}"
+					noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
+					noi di in g in smcl "{synoptline}"
+					
+					qui foreach name in `r(sourcereturn)' {
+					
+						if (`r(`name')' == `old`name'') {
+							local checkvalue `""  in y  "		(SAME) {p_end}""'
+						}
+						if (`r(`name')' != `old`name'') {
+							local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						}
+
+						noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					}
+					
+					noi di in g in smcl "{synoptline}"
+					noi di in smcl ""
+				
+					/* Topic */
+					
+					noi di in g in smcl "{synoptset 15 tabbed} "
+					noi di in g in smcl "{synoptline}"
+					noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
+					noi di in g in smcl "{synoptline}"
+					
+					qui foreach name in `r(topicreturn)' {
+					
+						if (`r(`name')' == `old`name'') {
+							local checkvalue `""  in y  "		(SAME) {p_end}""'
+						}
+						if (`r(`name')' != `old`name'') {
+							local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						}
+
+						noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					}
+					
+					noi di in g in smcl "{synoptline}"
+					noi di in smcl ""
+				
+				}
+
 				noi di in g in smcl "Possible actions"
 				noi di in smcl ""
 				noi di in w in smcl in y "{bf:UPDATE IN PROGRESS...}"
@@ -286,7 +427,7 @@ syntax , 								///
 			noi _indicators
 
 			file write `out' `""' 					_n
-			file write `out' `"		return local total = r(total) "' 					_n 
+			file write `out' `"		return local total = `r(total)'dis "' 					_n 
 			file write `out' `""' 					_n
 
 			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
