@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 16mar2019)}
+{title:Administrative Region  (as of 21mar2019)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -49,9 +49,9 @@
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
 {synopt:{opt XKX}}  Kosovo {p_end}
 {synopt:{opt KGZ}}  Kyrgyz Republic {p_end}
-{synopt:{opt MKD}}  Macedonia, FYR {p_end}
 {synopt:{opt MDA}}  Moldova {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
+{synopt:{opt MKD}}  North Macedonia {p_end}
 {synopt:{opt ROU}}  Romania {p_end}
 {synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}

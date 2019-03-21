@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -31,6 +31,7 @@
 {synopt:{opt 19}}  {help wbopendata_topicid##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid##topicid_21:Trade}{p_end}
+{synoptline}
 
 
 {marker topicid_01}
@@ -136,6 +137,7 @@
 {synopt:{help wbopendata_topicid_indicators01##topicid_TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN{marker TM.VAL.AGRI.ZS.UN}}}Agricultural raw materials imports (% of merchandise imports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators01##topicid_TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN{marker TX.VAL.AGRI.ZS.UN}}}Agricultural raw materials exports (% of merchandise exports){p_end}
+{synoptline}
 
 {marker topicid_02}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_02:Topics}} or {it:{help wbopendata_topicid_indicators02##:TOC}}){p_end}
@@ -288,6 +290,7 @@
 {synopt:{help wbopendata_topicid_indicators02##topicid_SL.EMP.VULN.ZS:SL.EMP.VULN.ZS{marker SL.EMP.VULN.ZS}}}Vulnerable employment, total (% of total employment) (modeled ILO estimate){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
+{synoptline}
 
 {marker topicid_03}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_03:Topics}} or {it:{help wbopendata_topicid_indicators03##:TOC}}){p_end}
@@ -888,6 +891,7 @@
 {synopt:{help wbopendata_topicid_indicators03##topicid_PA.NUS.PRVT.PP:PA.NUS.PRVT.PP{marker PA.NUS.PRVT.PP}}}PPP conversion factor, private consumption (LCU per international $){p_end}
 
 {synopt:{help wbopendata_topicid_indicators03##topicid_PA.NUS.PRVT.PP.05:PA.NUS.PRVT.PP.05{marker PA.NUS.PRVT.PP.05}}}2005 PPP conversion factor, private consumption (LCU per international $){p_end}
+{synoptline}
 
 {marker topicid_04}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_04:Topics}} or {it:{help wbopendata_topicid_indicators04##:TOC}}){p_end}
@@ -3854,6 +3858,7 @@
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thDur.0:UIS.thDur.0{marker UIS.thDur.0}}}Theoretical duration of pre-primary education (years){p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_UIS.thDur.4.A.GPV:UIS.thDur.4.A.GPV{marker UIS.thDur.4.A.GPV}}}Theoretical duration of post-secondary non-tertiary education (years){p_end}
+{synoptline}
 
 {marker topicid_05}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_05:Topics}} or {it:{help wbopendata_topicid_indicators05##:TOC}}){p_end}
@@ -3966,6 +3971,7 @@
 {synopt:{help wbopendata_topicid_indicators05##topicid_TX.VAL.FUEL.ZS.UN:TX.VAL.FUEL.ZS.UN{marker TX.VAL.FUEL.ZS.UN}}}Fuel exports (% of merchandise exports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN{marker TX.VAL.MMTL.ZS.UN}}}Ores and metals exports (% of merchandise exports){p_end}
+{synoptline}
 
 {marker topicid_06}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_06:Topics}} or {it:{help wbopendata_topicid_indicators06##:TOC}}){p_end}
@@ -4250,6 +4256,7 @@
 {synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.SMSS.ZS:SH.STA.SMSS.ZS{marker SH.STA.SMSS.ZS}}}People using safely managed sanitation services (% of population){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_SH.STA.WASH.P5:SH.STA.WASH.P5{marker SH.STA.WASH.P5}}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population){p_end}
+{synoptline}
 
 {marker topicid_07}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_07:Topics}} or {it:{help wbopendata_topicid_indicators07##:TOC}}){p_end}
@@ -4646,6 +4653,7 @@
 {synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.8:WP_time_10.8{marker WP_time_10.8}}}Account, income, poorest 40% (% ages 15+){p_end}
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_WP_time_10.9:WP_time_10.9{marker WP_time_10.9}}}Account, income, richest 60% (% ages 15+){p_end}
+{synoptline}
 
 {marker topicid_08}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_08:Topics}} or {it:{help wbopendata_topicid_indicators08##:TOC}}){p_end}
@@ -5920,6 +5928,7 @@
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q4.ZS:SP.UWT.TFRT.Q4.ZS{marker SP.UWT.TFRT.Q4.ZS}}}Unmet need for family planning (total) (% of married women): Q4{p_end}
 
 {synopt:{help wbopendata_topicid_indicators08##topicid_SP.UWT.TFRT.Q5.ZS:SP.UWT.TFRT.Q5.ZS{marker SP.UWT.TFRT.Q5.ZS}}}Unmet need for family planning (total) (% of married women): Q5 (highest){p_end}
+{synoptline}
 
 {marker topicid_09}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_09:Topics}} or {it:{help wbopendata_topicid_indicators09##:TOC}}){p_end}
@@ -6076,6 +6085,7 @@
 {synopt:{help wbopendata_topicid_indicators09##topicid_TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN{marker TM.VAL.ICTG.ZS.UN}}}ICT goods imports (% total goods imports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN{marker TX.VAL.ICTG.ZS.UN}}}ICT goods exports (% of total goods exports){p_end}
+{synoptline}
 
 {marker topicid_10}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_10:Topics}} or {it:{help wbopendata_topicid_indicators10##:TOC}}){p_end}
@@ -10828,6 +10838,7 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_q1_tot:per_sionl.overlap_q1_tot{marker per_sionl.overlap_q1_tot}}}Population in the poorest quintile only receiving All Social Insurance (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_q1_urb:per_sionl.overlap_q1_urb{marker per_sionl.overlap_q1_urb}}}Population in the poorest quintile only receiving All Social Insurance (%) -urban{p_end}
+{synoptline}
 
 {marker topicid_11}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_11:Topics}} or {it:{help wbopendata_topicid_indicators11##:TOC}}){p_end}
@@ -11106,6 +11117,7 @@
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP.05:SI.SPR.PCAP.05{marker SI.SPR.PCAP.05}}}Survey mean consumption or income per capita, total population (2005 PPP $ per day){p_end}
 
 {synopt:{help wbopendata_topicid_indicators11##topicid_SI.SPR.PCAP.ZG:SI.SPR.PCAP.ZG{marker SI.SPR.PCAP.ZG}}}Annualized average growth rate in per capita real survey mean consumption or income, total population (%){p_end}
+{synoptline}
 
 {marker topicid_12}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_12:Topics}} or {it:{help wbopendata_topicid_indicators12##:TOC}}){p_end}
@@ -11468,6 +11480,7 @@
 {synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT{marker TX.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service exports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
+{synoptline}
 
 {marker topicid_13}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_13:Topics}} or {it:{help wbopendata_topicid_indicators13##:TOC}}){p_end}
@@ -11674,6 +11687,7 @@
 {synopt:{help wbopendata_topicid_indicators13##topicid_VC.IHR.PSRC.P5:VC.IHR.PSRC.P5{marker VC.IHR.PSRC.P5}}}Intentional homicides (per 100,000 people){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_VC.PKP.TOTL.UN:VC.PKP.TOTL.UN{marker VC.PKP.TOTL.UN}}}Presence of peace keepers (number of troops, police, and military observers in mandate){p_end}
+{synoptline}
 
 {marker topicid_14}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_14:Topics}} or {it:{help wbopendata_topicid_indicators14##:TOC}}){p_end}
@@ -11706,6 +11720,7 @@
 {synopt:{help wbopendata_topicid_indicators14##topicid_TX.VAL.TECH.CD:TX.VAL.TECH.CD{marker TX.VAL.TECH.CD}}}High-technology exports (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators14##topicid_TX.VAL.TECH.MF.ZS:TX.VAL.TECH.MF.ZS{marker TX.VAL.TECH.MF.ZS}}}High-technology exports (% of manufactured exports){p_end}
+{synoptline}
 
 {marker topicid_15}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_15:Topics}} or {it:{help wbopendata_topicid_indicators15##:TOC}}){p_end}
@@ -11782,6 +11797,7 @@
 {synopt:{help wbopendata_topicid_indicators15##topicid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
 
 {synopt:{help wbopendata_topicid_indicators15##topicid_SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN{marker SP.DYN.LE00.MA.IN}}}Life expectancy at birth, male (years){p_end}
+{synoptline}
 
 {marker topicid_16}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_16:Topics}} or {it:{help wbopendata_topicid_indicators16##:TOC}}){p_end}
@@ -11842,6 +11858,7 @@
 {synopt:{help wbopendata_topicid_indicators16##topicid_SP.URB.TOTL:SP.URB.TOTL{marker SP.URB.TOTL}}}Urban population{p_end}
 
 {synopt:{help wbopendata_topicid_indicators16##topicid_SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS{marker SP.URB.TOTL.IN.ZS}}}Urban population (% of total){p_end}
+{synoptline}
 
 {marker topicid_17}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_17:Topics}} or {it:{help wbopendata_topicid_indicators17##:TOC}}){p_end}
@@ -12414,6 +12431,7 @@
 {synopt:{help wbopendata_topicid_indicators17##topicid_WP_time_01.2:WP_time_01.2{marker WP_time_01.2}}}Account at a financial institution, male (% age 15+) [ts]{p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_WP_time_01.3:WP_time_01.3{marker WP_time_01.3}}}Account at a financial institution, female (% age 15+) [ts]{p_end}
+{synoptline}
 
 {marker topicid_18}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_18:Topics}} or {it:{help wbopendata_topicid_indicators18##:TOC}}){p_end}
@@ -12472,6 +12490,7 @@
 {synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV{marker TM.TAX.TXTL.CD.DV}}}Average tariffs imposed by developed countries on textile products from developing countries (%){p_end}
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_TM.TAX.TXTL.CD.LD:TM.TAX.TXTL.CD.LD{marker TM.TAX.TXTL.CD.LD}}}Average tariffs imposed by developed countries on textile products from least developed countries (%){p_end}
+{synoptline}
 
 {marker topicid_19}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_19:Topics}} or {it:{help wbopendata_topicid_indicators19##:TOC}}){p_end}
@@ -12642,6 +12661,7 @@
 {synopt:{help wbopendata_topicid_indicators19##topicid_SP.URB.TOTL:SP.URB.TOTL{marker SP.URB.TOTL}}}Urban population{p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS{marker SP.URB.TOTL.IN.ZS}}}Urban population (% of total){p_end}
+{synoptline}
 
 {marker topicid_20}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_20:Topics}} or {it:{help wbopendata_topicid_indicators20##:TOC}}){p_end}
@@ -13106,6 +13126,7 @@
 {synopt:{help wbopendata_topicid_indicators20##topicid_FI.RES.TOTL.MO:FI.RES.TOTL.MO{marker FI.RES.TOTL.MO}}}Total reserves in months of imports{p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_NY.GNP.MKTP.CD:NY.GNP.MKTP.CD{marker NY.GNP.MKTP.CD}}}GNI (current US$){p_end}
+{synoptline}
 
 {marker topicid_21}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##topicid_21:Topics}} or {it:{help wbopendata_topicid_indicators21##:TOC}}){p_end}
@@ -13416,5 +13437,6 @@
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRAN.ZS.WT:TX.VAL.TRAN.ZS.WT{marker TX.VAL.TRAN.ZS.WT}}}Transport services (% of commercial service exports){p_end}
 
 {synopt:{help wbopendata_topicid_indicators21##topicid_TX.VAL.TRVL.ZS.WT:TX.VAL.TRVL.ZS.WT{marker TX.VAL.TRVL.ZS.WT}}}Travel services (% of commercial service exports){p_end}
+{synoptline}
 
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}

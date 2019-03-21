@@ -1,5 +1,5 @@
 *******************************************************************************
-* _indicators                                                                     *
+* _indicators                                                                   
 *! v 15.2   10Mar2019				by João Pedro Azevedo
 *		initial commit
 /*******************************************************************************
@@ -171,6 +171,7 @@ if ("`nosthlp1'" == "") {
 					file write `hlp`variable''  "{synopt:{opt `var1code'}}  {help wbopendata_`variable'##`variable'_`var1code':`var1name'}{p_end}" _n
 				}
 
+				file write `hlp`variable'' "{synoptline}" 				_n
 				file write `hlp`variable'' "" 				_n
 				file write `hlp`variable'' "" 				_n
 				
@@ -202,6 +203,7 @@ if ("`nosthlp1'" == "") {
 						
 					}
 				
+					file write `hlp`variable'' "{synoptline}" 				_n
 					file write `hlp`variable''  `""' _n
 					
 				}

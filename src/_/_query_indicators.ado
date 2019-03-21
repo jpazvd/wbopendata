@@ -1,6 +1,15 @@
 ********************************************************************************
 *! v 15.2  	8Mar2019               by Joao Pedro Azevedo   
-*	initial commit
+*
+*	query to country attributes using API (requires _api_read.ado)
+*	generate country attributes tables
+*	update country attribute tables
+*	atrributes currently supported:
+*		indicatorcode
+*		indicatorname
+*		topiccode
+*		topicname
+*
 /*******************************************************************************
 
 cd "C:\GitHub_myados\wbopendata\src"
@@ -507,14 +516,5 @@ end
 
 *******************************************************************************
 * v 15.2  	8Mar2019               by Joao Pedro Azevedo   
-*
-*	query to country attributes using API (requires _api_read.ado)
-*	generate country attributes tables
-*	update country attribute tables
-*	atrributes currently supported:
-*		indicatorcode
-*		indicatorname
-*		topiccode
-*		topicname
-*
+*	initial commit
 *******************************************************************************

@@ -1,16 +1,9 @@
 **********************************************************
 *! version 15.2 			<13Mar2019>		JPAzevedo
-*	change indicators update; function _update_indicators.ado replaced by _indicators.ado
-*	increase the return list stored under parameterre
-* version 15.1 			<3Mar2019>		JPAzevedo
-*	include countrymetadata option
-*	include force option
-* version 15.0.2 			<16Feb2019>		JPAzevedo
-*	add update query, update check and update options
-* version 15.0.1	 		<11Feb2019>		JPAzevedo
-*	add latest check value to default report
-* version 15.0   			<8Feb2019>		JPAzevedo
-*	original commit
+*
+*	change indicators update; function _update_indicators.ado replaced by 
+*   _indicators.ado increase the return list stored under parameterre
+*
 **********************************************************
 
 program define _wbopendata, rclass
@@ -496,3 +489,16 @@ syntax , 								///
 	discard
 
 end
+
+
+**********************************************************
+* version 15.1 			<3Mar2019>		JPAzevedo
+*	include countrymetadata option
+*	include force option
+* version 15.0.2 			<16Feb2019>		JPAzevedo
+*	add update query, update check and update options
+* version 15.0.1	 		<11Feb2019>		JPAzevedo
+*	add latest check value to default report
+* version 15.0   			<8Feb2019>		JPAzevedo
+*	original commit
+**********************************************************

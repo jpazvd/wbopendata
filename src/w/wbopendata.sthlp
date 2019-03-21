@@ -55,8 +55,8 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##options:Options description}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
+		{it:{help wbopendata##sourceid:Indicators by Source}}
 		{it:{help wbopendata##topic:Topic List}}
-		{it:{help wbopendata_sourceid##indicators:Indicators by Source}}
 		{it:{help wbopendata##Examples:Examples}}
 		{it:{help wbopendata##disclaimer:Disclaimer}}
 		{it:{help wbopendata##termsofuse:Terms of use}}
@@ -113,7 +113,6 @@ a semicolon (;), with no spaces.{p_end}
 Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; 
 Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; 
 External Debt; and, Trade (only one topic collection can be requested at the time).{p_end}
-{marker sourceid}
 {synopt:{opt indicator(string)}}{help wbopendata_sourceid##indicators:Indicators List} list of indicator codes (All series). When selecting multiple 
 indicators please use semicolon (;), to separate differenet indicatos.{p_end}
 
@@ -181,6 +180,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt:{opt capital}}Capital Name{p_end}
 {synopt:{opt latitude}}Capital Latitude{p_end}
 {synopt:{opt longitude}}Capital Longitude{p_end}
+{synoptline}
+
 
 {marker countries}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -198,6 +199,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt:{opt NAC}}{help wbopendata_region##NAC:North America}{p_end}
 {synopt:{opt SAS}}{help wbopendata_region##SAS:South Asia}{p_end}
 {synopt:{opt SSF}}{help wbopendata_region##SSF:Sub-Saharan Africa}{p_end}
+{synoptline}
 
 
 {marker adminregion}
@@ -209,6 +211,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt:{opt MNA}}{help wbopendata_adminregion##MNA:Middle East and North Africa}{p_end}
 {synopt:{opt SAS}}{help wbopendata_adminregion##SAS:South Asia}{p_end}
 {synopt:{opt SSA}}{help wbopendata_adminregion##SSA:Sub-Saharan Africa}{p_end}
+{synoptline}
 
 
 {marker incomelevel}
@@ -219,6 +222,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt:{opt UMC}}{help wbopendata_incomelevel##UMC:Upper middle income}{p_end}
 {synopt:{opt LMC}}{help wbopendata_incomelevel##LMC:Lower middle income}{p_end}
 {synopt:{opt LIC}}{help wbopendata_incomelevel##LIC:Low income}{p_end}
+{synoptline}
 
 
 {marker lendingtype}
@@ -228,8 +232,53 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt:{opt IDX}}{help wbopendata_lendingtype##IDX:IDA}{p_end}
 {synopt:{opt IDB}}{help wbopendata_lendingtype##IDB:Blend}{p_end}
 {synopt:{opt LNX}}{help wbopendata_lendingtype##LNX:Not classified}{p_end}
+{synoptline}
 
-    
+
+{marker sourceid}{...}    
+{synoptset 33 tabbed}{...}
+{synopthdr:Source Code}
+{synoptline}
+{synopt:{opt 01}}  {help wbopendata_sourceid##sourceid_01:Doing Business}{p_end}
+{synopt:{opt 02}}  {help wbopendata_sourceid##sourceid_02:World Development Indicators}{p_end}
+{synopt:{opt 03}}  {help wbopendata_sourceid##sourceid_03:Worldwide Governance Indicators}{p_end}
+{synopt:{opt 05}}  {help wbopendata_sourceid##sourceid_05:Subnational Malnutrition Database}{p_end}
+{synopt:{opt 06}}  {help wbopendata_sourceid##sourceid_06:International Debt Statistics}{p_end}
+{synopt:{opt 11}}  {help wbopendata_sourceid##sourceid_11:Africa Development Indicators}{p_end}
+{synopt:{opt 12}}  {help wbopendata_sourceid##sourceid_12:Education Statistics}{p_end}
+{synopt:{opt 13}}  {help wbopendata_sourceid##sourceid_13:Enterprise Surveys}{p_end}
+{synopt:{opt 14}}  {help wbopendata_sourceid##sourceid_14:Gender Statistics}{p_end}
+{synopt:{opt 15}}  {help wbopendata_sourceid##sourceid_15:Global Economic Monitor}{p_end}
+{synopt:{opt 16}}  {help wbopendata_sourceid##sourceid_16:Health Nutrition and Population Statistics}{p_end}
+{synopt:{opt 18}}  {help wbopendata_sourceid##sourceid_18:IDA Results Measurement System}{p_end}
+{synopt:{opt 19}}  {help wbopendata_sourceid##sourceid_19:Millennium Development Goals}{p_end}
+{synopt:{opt 20}}  {help wbopendata_sourceid##sourceid_20:Quarterly Public Sector Debt}{p_end}
+{synopt:{opt 22}}  {help wbopendata_sourceid##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
+{synopt:{opt 23}}  {help wbopendata_sourceid##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
+{synopt:{opt 24}}  {help wbopendata_sourceid##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 28}}  {help wbopendata_sourceid##sourceid_28:Global Financial Inclusion}{p_end}
+{synopt:{opt 29}}  {help wbopendata_sourceid##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
+{synopt:{opt 30}}  {help wbopendata_sourceid##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
+{synopt:{opt 32}}  {help wbopendata_sourceid##sourceid_32:Global Financial Development}{p_end}
+{synopt:{opt 33}}  {help wbopendata_sourceid##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
+{synopt:{opt 34}}  {help wbopendata_sourceid##sourceid_34:Global Partnership for Education}{p_end}
+{synopt:{opt 35}}  {help wbopendata_sourceid##sourceid_35:Sustainable Energy for All}{p_end}
+{synopt:{opt 36}}  {help wbopendata_sourceid##sourceid_36:Statistical Capacity Indicators}{p_end}
+{synopt:{opt 37}}  {help wbopendata_sourceid##sourceid_37:LAC Equity Lab}{p_end}
+{synopt:{opt 39}}  {help wbopendata_sourceid##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
+{synopt:{opt 41}}  {help wbopendata_sourceid##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
+{synopt:{opt 45}}  {help wbopendata_sourceid##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
+{synopt:{opt 54}}  {help wbopendata_sourceid##sourceid_54:Joint External Debt Hub}{p_end}
+{synopt:{opt 57}}  {help wbopendata_sourceid##sourceid_57:WDI Database Archives}{p_end}
+{synopt:{opt 59}}  {help wbopendata_sourceid##sourceid_59:Wealth Accounts}{p_end}
+{synopt:{opt 60}}  {help wbopendata_sourceid##sourceid_60:Economic Fitness}{p_end}
+{synopt:{opt 61}}  {help wbopendata_sourceid##sourceid_61:PPPs Regulatory Quality}{p_end}
+{synopt:{opt 62}}  {help wbopendata_sourceid##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
+{synopt:{opt 63}}  {help wbopendata_sourceid##sourceid_63:Human Capital Index}{p_end}
+{synopt:{opt 64}}  {help wbopendata_sourceid##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
+{synopt:{opt 65}}  {help wbopendata_sourceid##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
+{synopt:{opt 66}}  {help wbopendata_sourceid##sourceid_66:Logistics Performance Index}{p_end}
+{synoptline}
 
 
 {marker topic}{marker topicid}{...}
@@ -282,6 +331,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt:{help wbopendata_topicid##topicid_20:20 - External Debt}} Debt statistics provide a detailed picture of debt stocks and flows of developing countries. Data presented as part of the Quarterly External Debt Statistics takes a closer look at the external debt of high-income countries and emerging markets to enable a more complete understanding of global financial flows. The Quarterly Public Sector Debt database provides further data on public sector valuation methods, debt instruments, and clearly defined tiers of debt for central, state and local government, as well as extra-budgetary agencies and funds. Data are gathered from national statistical organizations and central banks as well as by various major multilateral institutions and World Bank staff. {p_end}
 
 {synopt:{help wbopendata_topicid##topicid_21:21 - Trade}} Trade is a key means to fight poverty and achieve the Millennium Development Goals, specifically by improving developing country access to markets, and supporting a rules based, predictable trading system. In cooperation with other international development partners, the World Bank launched the Transparency in Trade Initiative to provide free and easy access to data on country-specific trade policies. {p_end}
+{synoptline}
+
 
 {marker Examples}{...}
 {title:Examples}{p 50 20 2}{p_end}
@@ -321,7 +372,8 @@ at the World Bank Data website to identify which format is supported.{p_end}
                 legstyle(3) legend(ring(1) position(3))                                     ///
                 note("Source: World Development Indicators (latest available year: `avg') using ///
                 Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
-                Statistical Software Components S457234 Boston College Department of Economics.", size(*.7)){p_end} 
+                Statistical Software Components S457234 Boston College Department of Economics.", ///
+				size(*.7))
 {txt}      ({stata "wbopendata_examples example01":click to run})
 
 {cmd}
@@ -334,10 +386,11 @@ at the World Bank Data website to identify which format is supported.{p_end}
         . alorenz diff_pov, gp points(100) fullview  xdecrease markvar(reg2)  ///                                         
             ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional ///
             episodes of poverty reduction (%)") legend(off) title("Poverty Reduction") ///
-            legend(off) note("Source: World Development Indicators using Azevedo, J.P. ///
-            (2011) wbopendata: Stata module to " "access World Bank databases, Statistical ///
-			mlabelangle(45)		///
-            Software Components S457234 Boston College Department of Economics.", size(*.7)){p_end} 
+        	mlabelangle(45)	legend(off)	///
+			note("Source: World Development Indicators using Azevedo, J.P. (2011) ///
+            wbopendata: Stata module to " "access World Bank databases, Statistical ///
+            Software Components S457234 Boston College Department of Economics.", ///
+			size(*.7))
 {txt}      ({stata "wbopendata_examples example02":click to run})
 
 {cmd}
@@ -369,7 +422,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
                    note("Source: World Development Indicators (latest available year: 2008) ///
                    using Azevedo, J.P. (2011) wbopendata: Stata module to " "access ///
                    World Bank databases, Statistical Software Components S457234 Boston ///
-                    College Department of Economics.", size(*.7)){p_end} 
+                   College Department of Economics.", size(*.7))
 {txt}      ({stata "wbopendata_examples example03":click to run})
 
 
@@ -383,11 +436,11 @@ at the World Bank Data website to identify which format is supported.{p_end}
            (lowess si_pov_dday ny_gdp_pcap_pp_kd) , ///
                xtitle("GDP per capita, PPP (constant 2011 international $)") ///
                ytitle("Poverty headcount ratio at the International Poverty Line") ///
-               legend(off) ///
+               mlabelangle(45)	legend(off) ///
                note("Source: World Development Indicators (latest available year as off 2012-08-08) ///
-                using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
-                 Statistical Software Components S457234 Boston College Department of Economics.", /// 
-                 size(*.7)){p_end} 
+               using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
+               Statistical Software Components S457234 Boston College Department of Economics.", /// 
+               size(*.7))
 
 {txt}      ({stata "wbopendata_examples example04":click to run})
 
