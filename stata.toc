@@ -1,6 +1,6 @@
-﻿v 15.1
+v 15.2
 d Materials by João Pedro Azevedo
-d The World Bank Group
+d World Bank
 d jazevedo@worldbank.org
 d http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo
  

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -150,7 +150,7 @@
 
 {synopt:{opt Topics}}15 Social Development{p_end}
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization.{p_end}
 
@@ -436,9 +436,9 @@
 
 {synopt:{opt Topics}}15 Social Development{p_end}
 
-{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of asylum is the country where an asylum claim was filed and granted.{p_end}
+{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are available online at: {browse "www.unhcr.org/en-us/figures-at-a-glance.html"}.{p_end}
+{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are{p_end}
 
 
 {synoptline}
@@ -449,9 +449,9 @@
 
 {synopt:{opt Topics}}15 Social Development{p_end}
 
-{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of origin generally refers to the nationality or country of citizenship of a claimant.{p_end}
+{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are available online at: {browse "www.unhcr.org/en-us/figures-at-a-glance.html"}.{p_end}
+{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are{p_end}
 
 
 {synoptline}
@@ -477,7 +477,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -490,8 +490,8 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}

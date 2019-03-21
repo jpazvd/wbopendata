@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1138,7 +1138,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1151,7 +1151,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1164,7 +1164,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision 2), categories A and B (ISIC revision 3), or category A (ISIC revision 4) and includes hunting, forestry, and fishing. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revision{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1177,7 +1177,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The agriculture sector consists of activities in agriculture, hunting, forestry and fishing, in accordance with division 1 (ISIC 2) or categories A-B (ISIC 3) or category A (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1190,7 +1190,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The agriculture sector consists of activities in agriculture, hunting, forestry and fishing, in accordance with division 1 (ISIC 2) or categories A-B (ISIC 3) or category A (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1203,7 +1203,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The agriculture sector consists of activities in agriculture, hunting, forestry and fishing, in accordance with division 1 (ISIC 2) or categories A-B (ISIC 3) or category A (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1216,7 +1216,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1229,7 +1229,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1242,7 +1242,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1255,7 +1255,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1268,7 +1268,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1281,7 +1281,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15-24 are generally considered the youth population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1294,7 +1294,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural sector. Industry includes mining and quarrying (including oil production), manufacturing, construction, electricity, gas, and water, corresponding to divisions 2-5 (ISIC revision 2) or tabulation categories C-F (ISIC revision 3). Services include wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services-corresponding to divisions 6-9 (ISIC revision 2) or tabulation categories G-Q (ISIC revision 3).{p_end}
+{synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization.{p_end}
 
@@ -1307,7 +1307,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced), and, in this capacity, have engaged, on a continuous basis, one or more persons to work for them as employee(s).{p_end}
+{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1320,7 +1320,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced), and, in this capacity, have engaged, on a continuous basis, one or more persons to work for them as employee(s).{p_end}
+{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1333,7 +1333,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced), and, in this capacity, have engaged, on a continuous basis, one or more persons to work for them as employee(s).{p_end}
+{synopt:{opt Source Notes}}Employers are those workers who, working on their own account or with one or a few partners, hold the type of jobs defined as a self-employment jobs i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1346,7 +1346,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced. Self-employed workers include four sub-categories of employers, own-account workers, members of producers' cooperatives, and contributing family workers.{p_end}
+{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1359,7 +1359,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced. Self-employed workers include four sub-categories of employers, own-account workers, members of producers' cooperatives, and contributing family workers.{p_end}
+{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1372,7 +1372,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced. Self-employed workers include four sub-categories of employers, own-account workers, members of producers' cooperatives, and contributing family workers.{p_end}
+{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1385,7 +1385,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The proportion of females in total employment in senior and middle management. It corresponds to major group 1 in both ISCO-08 and ISCO-88 minus category 14 in ISCO-08 (hospitality, retail and other services managers) and minus category 13 in ISCO-88 (general managers), since these comprise mainly managers of small enterprises.{p_end}
+{synopt:{opt Source Notes}}The proportion of females in total employment in senior and middle management. It corresponds to major group 1 in both ISCO-08 and ISCO-88 minus category 14 in ISCO-08 (hospitality, retail and other services managers) and minus category 13 in{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1398,7 +1398,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1411,7 +1411,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1424,7 +1424,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1437,7 +1437,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1450,7 +1450,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1463,7 +1463,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1515,7 +1515,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that is not directly dependent upon the revenue of the unit for which they work.{p_end}
+{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1528,7 +1528,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that is not directly dependent upon the revenue of the unit for which they work.{p_end}
+{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1541,7 +1541,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that is not directly dependent upon the revenue of the unit for which they work.{p_end}
+{synopt:{opt Source Notes}}Wage and salaried workers (employees) are those workers who hold the type of jobs defined as paid employment jobs, where the incumbents hold explicit (written or oral) or implicit employment contracts that give them a basic remuneration that i{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1632,7 +1632,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2011 constant international dollars using PPP rates. An international dollar has the same purchasing power over GDP that a U.S. dollar has in the United States.{p_end}
+{synopt:{opt Source Notes}}GDP per person employed is gross domestic product (GDP) divided by total employment in the economy. Purchasing power parity (PPP) GDP is GDP converted to 2011 constant international dollars using PPP rates. An international dollar has the same{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1645,7 +1645,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1658,7 +1658,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1671,7 +1671,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1684,7 +1684,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or barter. Self-employed street vendors, taxi drivers and home-base workers, regardless of size, are all considered enterprises. However, agricultural and related activities, households producing goods exclusively for their own use (e.g. subsistence farming, domestic housework, care work, and employment of paid domestic workers), and volunteer services rendered to the community are excluded.{p_end}
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1697,7 +1697,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or barter. Self-employed street vendors, taxi drivers and home-base workers, regardless of size, are all considered enterprises. However, agricultural and related activities, households producing goods exclusively for their own use (e.g. subsistence farming, domestic housework, care work, and employment of paid domestic workers), and volunteer services rendered to the community are excluded.{p_end}
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1710,7 +1710,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or barter. Self-employed street vendors, taxi drivers and home-base workers, regardless of size, are all considered enterprises. However, agricultural and related activities, households producing goods exclusively for their own use (e.g. subsistence farming, domestic housework, care work, and employment of paid domestic workers), and volunteer services rendered to the community are excluded.{p_end}
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1723,7 +1723,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revision 2), category D (ISIC revision 3), or category C (ISIC revision 4). Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1736,7 +1736,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revision 2), category D (ISIC revision 3), or category C (ISIC revision 4). Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1749,7 +1749,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revision 2), category D (ISIC revision 3), or category C (ISIC revision 4). Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Manufacturing corresponds to division 3 (ISIC revisio{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1775,7 +1775,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers cooperatives.{p_end}
+{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1788,7 +1788,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers cooperatives.{p_end}
+{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1801,7 +1801,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers cooperatives.{p_end}
+{synopt:{opt Source Notes}}Self-employed workers are people whose remuneration depends directly on the profits derived from the goods and services they produce, with or without other employees, and include employers, own-account workers, and members of producers coopera{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1814,7 +1814,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2), categories G-P (ISIC revision 3), or categories G-U (ISIC revision 4). Services include wholesale and retail trade, hotels and restaurants, transport, financial intermediation, real estate, public administration, education, health and social work, other community services, and private household activity. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1827,7 +1827,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2), categories G-P (ISIC revision 3), or categories G-U (ISIC revision 4). Services include wholesale and retail trade, hotels and restaurants, transport, financial intermediation, real estate, public administration, education, health and social work, other community services, and private household activity. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1840,7 +1840,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2), categories G-P (ISIC revision 3), or categories G-U (ISIC revision 4). Services include wholesale and retail trade, hotels and restaurants, transport, financial intermediation, real estate, public administration, education, health and social work, other community services, and private household activity. Economically active children refer to children involved in economic activity for at least one hour in the reference week of the survey.{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Services correspond to divisions 6-9 (ISIC revision 2{p_end}
 
 {synopt:{opt Source Organization}}Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
@@ -1853,7 +1853,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The services sector consists of wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services, in accordance with divisions 6-9 (ISIC 2) or categories G-Q (ISIC 3) or categories G-U (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1866,7 +1866,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The services sector consists of wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services, in accordance with divisions 6-9 (ISIC 2) or categories G-Q (ISIC 3) or categories G-U (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -1879,7 +1879,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The services sector consists of wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services, in accordance with divisions 6-9 (ISIC 2) or categories G-Q (ISIC 3) or categories G-U (ISIC 4).{p_end}
+{synopt:{opt Source Notes}}Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to work{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2087,7 +2087,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It includes both the employed and the unemployed. While national practices vary in the treatment of such groups as the armed forces and seasonal or part-time workers, in general the labor force includes the armed forces, the unemployed, and first-time job-seekers, but excludes homemakers and other unpaid caregivers and workers in the informal sector.{p_end}
+{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -2100,7 +2100,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It includes both the employed and the unemployed. While national practices vary in the treatment of such groups as the armed forces and seasonal or part-time workers, in general the labor force includes the armed forces, the unemployed, and first-time job-seekers, but excludes homemakers and other unpaid caregivers and workers in the informal sector.{p_end}
+{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -2113,7 +2113,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It includes both the employed and the unemployed. While national practices vary in the treatment of such groups as the armed forces and seasonal or part-time workers, in general the labor force includes the armed forces, the unemployed, and first-time job-seekers, but excludes homemakers and other unpaid caregivers and workers in the informal sector.{p_end}
+{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -2126,7 +2126,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It includes both the employed and the unemployed. While national practices vary in the treatment of such groups as the armed forces and seasonal or part-time workers, in general the labor force includes the armed forces, the unemployed, and first-time job-seekers, but excludes homemakers and other unpaid caregivers and workers in the informal sector.{p_end}
+{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -2139,7 +2139,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It includes both the employed and the unemployed. While national practices vary in the treatment of such groups as the armed forces and seasonal or part-time workers, in general the labor force includes the armed forces, the unemployed, and first-time job-seekers, but excludes homemakers and other unpaid caregivers and workers in the informal sector.{p_end}
+{synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -2269,7 +2269,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2282,7 +2282,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2295,7 +2295,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with an advanced level of education who are in the labor force. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2308,7 +2308,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2321,7 +2321,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2334,7 +2334,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with a basic level of education who are in the labor force. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Educati{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2373,7 +2373,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor force participation rate is calculated by dividing female labor force participation rate by male labor force participation rate and multiplying by 100.{p_end}
+{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
 
 {synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2386,7 +2386,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor force participation rate is calculated by dividing female labor force participation rate by male labor force participation rate and multiplying by 100.{p_end}
+{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor for{p_end}
 
 {synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2451,7 +2451,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2464,7 +2464,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2477,7 +2477,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the working age population with an intermediate level of education who are in the labor force. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2672,7 +2672,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-time job-seekers. Not everyone who works is included, however. Unpaid workers, family workers, and students are often omitted, and some countries do not count members of the armed forces. Labor force size tends to vary during the year as seasonal workers enter and leave.{p_end}
+{synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
 
 {synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2018.{p_end}
 
@@ -2763,7 +2763,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2776,7 +2776,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2789,7 +2789,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent educa{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2802,7 +2802,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2815,7 +2815,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2828,7 +2828,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with a basic level of education who are unemployed. Basic education comprises primary education or lower secondary education according to the International Standard Classification of Education 2011 (ISCED 2011{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2841,7 +2841,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2854,7 +2854,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2867,7 +2867,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).{p_end}
+{synopt:{opt Source Notes}}The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of E{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2919,7 +2919,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29; or both age groups.{p_end}
+{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2932,7 +2932,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29; or both age groups.{p_end}
+{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -2945,7 +2945,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29; or both age groups.{p_end}
+{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
@@ -5311,7 +5311,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Adequacy of social protection and labor programs (SPL) is measured by the total transfer amount received by the population participating in social insurance, social safety net, and unemployment benefits and active labor market programs as a share of their total welfare. Welfare is defined as the total income or total expenditure of beneficiary households. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Adequacy of social protection and labor programs (SPL) is measured by the total transfer amount received by the population participating in social insurance, social safety net, and unemployment benefits and active labor market programs as a sh{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -5987,7 +5987,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Benefit incidence of social protection and labor programs (SPL) to poorest quintile shows the percentage of total social protection and labor programs benefits received by the poorest 20% of the population. Social protection and labor programs include social insurance, social safety nets, and unemployment benefits and active labor market programs. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Benefit incidence of social protection and labor programs (SPL) to poorest quintile shows the percentage of total social protection and labor programs benefits received by the poorest 20% of the population. Social protection and labor programs{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -6637,7 +6637,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social protection and labor programs (SPL) shows the percentage of population participating in social insurance, social safety net, and unemployment benefits and active labor market programs. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social protection and labor programs (SPL) shows the percentage of population participating in social insurance, social safety net, and unemployment benefits and active labor market programs. Estimates include both direct and indir{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -9055,7 +9055,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Adequacy of unemployment benefits and active labor market programs (ALMP) is measured by the total transfer amount received by the population participating in unemployment benefits and active labor market programs as a share of their total welfare. Welfare is defined as the total income or total expenditure of beneficiary households. Unemployment benefits and active labor market programs include unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Adequacy of unemployment benefits and active labor market programs (ALMP) is measured by the total transfer amount received by the population participating in unemployment benefits and active labor market programs as a share of their total wel{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -9731,7 +9731,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Benefit incidence of unemployment benefits and active labor market programs (ALMP) to poorest quintile shows the percentage of total unemployment and active labor market programs benefits received by the poorest 20% of the population. Unemployment benefits and active labor market programs include unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Benefit incidence of unemployment benefits and active labor market programs (ALMP) to poorest quintile shows the percentage of total unemployment and active labor market programs benefits received by the poorest 20% of the population. Unemploy{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -10381,7 +10381,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -10433,7 +10433,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -10485,7 +10485,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -10537,7 +10537,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -10589,7 +10589,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -10641,7 +10641,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (intermediation), training (vocational, life skills, and cash for training), job rotation and job sharing, employment incentives and wage subsidies, supported employment and rehabilitation, and employment measures for the disabled. Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -15451,7 +15451,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Adequacy of social safety net programs is measured by the total transfer amount received by the population participating in social safety net programs as a share of their total welfare. Welfare is defined as the total income or total expenditure of beneficiary households. Social safety net programs include cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Adequacy of social safety net programs is measured by the total transfer amount received by the population participating in social safety net programs as a share of their total welfare. Welfare is defined as the total income or total expenditu{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -16127,7 +16127,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Benefit incidence of social safety net programs to poorest quintile shows the percentage of total social safety net benefits received by the poorest 20% of the population. Social safety net programs include cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Benefit incidence of social safety net programs to poorest quintile shows the percentage of total social safety net benefits received by the poorest 20% of the population. Social safety net programs include cash transfers and last resort progr{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -16777,7 +16777,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -16829,7 +16829,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -16881,7 +16881,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -16933,7 +16933,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -16985,7 +16985,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -17037,7 +17037,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and death grants, disability benefits, and other allowances), conditional cash transfers, in-kind food transfers (food stamps and vouchers, food rations, supplementary feeding, and emergency food distribution), school feeding, other social assistance programs (housing allowances, scholarships, fee waivers, health subsidies, and other social assistance) and public works programs (cash for work and food for work). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -26943,7 +26943,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Adequacy of social insurance programs is measured by the total transfer amount received by the population participating in social insurance programs as a share of their total welfare. Welfare is defined as the total income or total expenditure of beneficiary households. Social insurance programs include old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Adequacy of social insurance programs is measured by the total transfer amount received by the population participating in social insurance programs as a share of their total welfare. Welfare is defined as the total income or total expenditure{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -27619,7 +27619,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Benefit incidence of social insurance programs to poorest quintile shows the percentage of total social insurance benefits received by the poorest 20% of the population. Social insurance programs include old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Benefit incidence of social insurance programs to poorest quintile shows the percentage of total social insurance benefits received by the poorest 20% of the population. Social insurance programs include old age contributory pensions (includin{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -28269,7 +28269,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occ{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -28321,7 +28321,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occ{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -28373,7 +28373,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occ{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -28425,7 +28425,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occ{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -28477,7 +28477,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occ{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -28529,7 +28529,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occupational injury benefits, paid sick leave, maternity and other social insurance). Estimates include both direct and indirect beneficiaries.{p_end}
+{synopt:{opt Source Notes}}Coverage of social insurance programs shows the percentage of population participating in programs that provide old age contributory pensions (including survivors and disability) and social security and health insurance benefits (including occ{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -30888,4 +30888,4 @@
 
 
 
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}

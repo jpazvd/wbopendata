@@ -1,4 +1,4 @@
-*! _parameters <18 Mar 2019 : 06:43:40>                    João Pedro Azevedo 
+*! _parameters <21 Mar 2019 : 14:38:51>                    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -7,51 +7,51 @@ version 9
              return add
 
 
-             return local total = 16638 
+             return local total = 16638dis 
 
-             return local sourceid01 = 1608 
-             return local sourceid02 = 16477 
-             return local sourceid03 = 289 
-             return local sourceid05 = 40 
-             return local sourceid06 = 32 
-             return local sourceid11 = 6846 
-             return local sourceid12 = 31715 
-             return local sourceid13 = 712 
-             return local sourceid14 = 2136 
-             return local sourceid15 = 304 
-             return local sourceid16 = 942 
-             return local sourceid18 = 24 
-             return local sourceid19 = 198 
-             return local sourceid20 = 4512 
-             return local sourceid22 = 14400 
-             return local sourceid23 = 2048 
-             return local sourceid24 = 152 
-             return local sourceid25 = 8 
-             return local sourceid27 = 8 
-             return local sourceid28 = 6208 
-             return local sourceid29 = 28110 
-             return local sourceid30 = 784 
-             return local sourceid32 = 1096 
-             return local sourceid33 = 1048 
-             return local sourceid34 = 5424 
-             return local sourceid35 = 88 
-             return local sourceid36 = 200 
-             return local sourceid37 = 2111 
-             return local sourceid39 = 4076 
-             return local sourceid41 = 1634 
-             return local sourceid45 = 1704 
-             return local sourceid46 = 16 
-             return local sourceid50 = 8 
-             return local sourceid54 = 224 
-             return local sourceid57 = 6817 
-             return local sourceid59 = 432 
-             return local sourceid60 = 16 
-             return local sourceid61 = 32 
-             return local sourceid62 = 96 
-             return local sourceid63 = 216 
-             return local sourceid64 = 696 
-             return local sourceid65 = 2288 
-             return local sourceid66 = 96 
+             return local sourceid01 = 224 
+             return local sourceid02 = 2211 
+             return local sourceid03 = 43 
+             return local sourceid05 = 6 
+             return local sourceid06 = 8 
+             return local sourceid11 = 1137 
+             return local sourceid12 = 3755 
+             return local sourceid13 = 100 
+             return local sourceid14 = 276 
+             return local sourceid15 = 53 
+             return local sourceid16 = 223 
+             return local sourceid18 = 6 
+             return local sourceid19 = 28 
+             return local sourceid20 = 569 
+             return local sourceid22 = 1874 
+             return local sourceid23 = 310 
+             return local sourceid24 = 30 
+             return local sourceid25 = 2 
+             return local sourceid27 = 2 
+             return local sourceid28 = 797 
+             return local sourceid29 = 3027 
+             return local sourceid30 = 104 
+             return local sourceid32 = 114 
+             return local sourceid33 = 148 
+             return local sourceid34 = 702 
+             return local sourceid35 = 19 
+             return local sourceid36 = 31 
+             return local sourceid37 = 230 
+             return local sourceid39 = 469 
+             return local sourceid41 = 187 
+             return local sourceid45 = 254 
+             return local sourceid46 = 4 
+             return local sourceid50 = 2 
+             return local sourceid54 = 29 
+             return local sourceid57 = 1196 
+             return local sourceid59 = 56 
+             return local sourceid60 = 3 
+             return local sourceid61 = 5 
+             return local sourceid62 = 13 
+             return local sourceid63 = 29 
+             return local sourceid64 = 88 
+             return local sourceid65 = 289 
+             return local sourceid66 = 19 
              return local topicid01 = 49 
              return local topicid02 = 73 
              return local topicid03 = 297 
@@ -85,11 +85,12 @@ version 9
 
 
              return local number_indicators = 16638
-             return local dt_update "16 Mar 2019 13:05:39" 
-             return local dt_lastcheck  "18 Mar 2019 06:43:40" 
+             return local dt_update "21 Mar 2019 14:38:51" 
+             return local dt_lastcheck  "21 Mar 2019 14:38:51" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastcheck   "18 Mar 2019 06:43:40" 
-             return local dt_ctryupdate  "16 Mar 2019 13:09:19" 
+             return local dt_ctrylastupdate  "16 Mar 2019 13:09:19" 
+             return local dt_ctrylastcheck   "21 Mar 2019 14:38:51" 
+             return local dt_ctryupdate  "21 Mar 2019 14:47:08" 
 
 end

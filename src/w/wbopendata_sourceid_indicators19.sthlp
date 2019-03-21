@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -27,6 +27,8 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
+{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
@@ -39,6 +41,8 @@
 {synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
+{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -57,42 +61,54 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:19 Millennium Development Goals}}}
 {synoptline}
+{marker sourceid_DC.DAC.USAL.CD}
+{synopt:{bf:{help wbopendata_sourceid##DC.DAC.USAL.CD:DC.DAC.USAL.CD} - Net bilateral aid flows from DAC donors, United States (current US$)Total bilateral ODA commitments (current US$)}}
+
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
+
+
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multi{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_DC.ODA.COMM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.CD:DC.ODA.COMM.CD} - Total bilateral ODA commitments (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.CD:DC.ODA.COMM.CD} - Total bilateral ODA commitments (current US$)Total bilateral sector allocable ODA commitments (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. OECD DAC.{p_end}
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multi{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DC.ODA.COMM.SA.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.SA.CD:DC.ODA.COMM.SA.CD} - Total bilateral sector allocable ODA commitments (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.COMM.SA.CD:DC.ODA.COMM.SA.CD} - Bilateral, sector-allocable ODA to basic social services (current US$)Total bilateral sector allocable ODA commitments (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Total sector-allocable aid is the sum of aid that can be assigned to specific sectors or multisector activities. OECD DAC.{p_end}
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multi{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DC.ODA.SOCL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.SOCL.CD:DC.ODA.SOCL.CD} - Bilateral, sector-allocable ODA to basic social services (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.SOCL.CD:DC.ODA.SOCL.CD} - Bilateral, sector-allocable ODA to basic social services (% of bilateral ODA commitments)Bilateral, sector-allocable ODA to basic social services (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Total sector-allocable aid is the sum of aid that can be assigned to specific sectors or multisector activities. Basic social services consists of, primary education, basic life skills for youth and adults and early childhood education, basic health care, basic health infrastructure, basic nutrition, infectious disease control, health education and health personnel development, population policy and administrative management, reproductive health care, family planning, sexually transmitted disease (STD) control including HIV/AIDS, personnel development (population &amp; reproductive health), basic drinking water supply and basic sanitation, and multi-sector aid for basic social services. OECD DAC.{p_end}
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multi{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -103,22 +119,34 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Total sector-allocable aid is the sum of aid that can be assigned to specific sectors or multisector activities. Basic social services consists of, primary education, basic life skills for youth and adults and early childhood education, basic health care, basic health infrastructure, basic nutrition, infectious disease control, health education and health personnel development, population policy and administrative management, reproductive health care, family planning, sexually transmitted disease (STD) control including HIV/AIDS, personnel development (population &amp; reproductive health), basic drinking water supply and basic sanitation, and multi-sector aid for basic social services.{p_end}
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multiNet Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
+{marker sourceid_DC.ODA.TOTL.KD}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Bilateral ODA commitments that is untied (current US$)Net ODA provided, total (constant 2015 US$)}}
+
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
+
+
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multi{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DC.ODA.UNTD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.CD:DC.ODA.UNTD.CD} - Bilateral ODA commitments that is untied (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.CD:DC.ODA.UNTD.CD} - Bilateral ODA commitments that is untied (% of bilateral ODA commitments)Bilateral ODA commitments that is untied (current US$)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Untied bilateral official development assistance is assistance from country to country for which the associated goods and services may be fully and freely procured in substantially all countries. OECD DAC.{p_end}
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multi{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -129,46 +157,58 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multilateral organization. Bilateral commitments are recorded in the full amount of expected transfer, irrespective of the time required for completing disbursements. Untied bilateral official development assistance is assistance from country to country for which the associated goods and services may be fully and freely procured in substantially all countries.{p_end}
+{synopt:{opt Source Notes}}Bilateral official development assistance (ODA) commitments are firm obligations, expressed in writing and backed by the necessary funds, undertaken by official bilateral donors to provide specified assistance to a recipient country or a multiMerchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in current US$ millions, not seasonally adjusted.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics database. Data are available online at: {browse "www.oecd.org/dac/stats/idsonline"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datWorld Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.GRE.PRVT}
+{synopt:{bf:{help wbopendata_sourceid##DT.GRE.PRVT:DT.GRE.PRVT} - Average grant element on new external debt commitments, private (%)Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms}}
+
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
+
+
+{synopt:{opt Source Notes}}Debt relief is committed as of the decision point (assuming full participation of creditors) under the enhanced HIPC Initiative. It is calculated as the amount needed to bring the net present value (NPV) of the country's debt level to the thre{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Economic Policy and Debt Department.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.HPC.COMR.PV}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.COMR.PV:DT.HPC.COMR.PV} - Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV terms}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.COMR.PV:DT.HPC.COMR.PV} - Debt relief committed under HIPC initiative, cumulative US$ in end-2012 NPV termsDebt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Debt relief is committed as of the decision point (assuming full participation of creditors) under the enhanced HIPC Initiative. It is calculated as the amount needed to bring the net present value (NPV) of the country's debt level to the thresholds established by the HIPC Initiative (150 percent of exports or in certain cases 250 percent of fiscal revenues). Topping-up assistance and assistance provided under the original HIPC Initiative were committed in net present value terms as of the decision point and are converted to end-2012 terms.{p_end}
+{synopt:{opt Source Notes}}Debt relief delivered in full under MDRI initiative is the net present value of debt relief from International Development Association, International Monetary Fund, African Development Fund, and Inter-American Development Bank and delivered toDebt relief is committed as of the decision point (assuming full participation of creditors) under the enhanced HIPC Initiative. It is calculated as the amount needed to bring the net present value (NPV) of the country's debt level to the thre{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Economic Policy and Debt Department.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.HPC.MDRI.PV}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.MDRI.PV:DT.HPC.MDRI.PV} - Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV terms}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.MDRI.PV:DT.HPC.MDRI.PV} - Debt relief delivered in full under MDRI initiative, cumulative US$ in end-2012 NPV termsStatus under enhanced HIPC initiative}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Debt relief delivered in full under MDRI initiative is the net present value of debt relief from International Development Association, International Monetary Fund, African Development Fund, and Inter-American Development Bank and delivered to countries having reached the HIPC completion point converted to end-2012 terms.{p_end}
+{synopt:{opt Source Notes}}Debt relief delivered in full under MDRI initiative is the net present value of debt relief from International Development Association, International Monetary Fund, African Development Fund, and Inter-American Development Bank and delivered toIndicator shows the status of heavily indebted poor countries country under the enhanced HIPC initiative. Heavily indebted poor countries reach HIPC decision point if they have a track record of macroeconomic stability, have prepared an Interi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Economic Policy and Debt Department.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.HPC.STTS}
-{synopt:{bf:{help wbopendata_sourceid##DT.HPC.STTS:DT.HPC.STTS} - Status under enhanced HIPC initiative}}
+{synopt:{bf:{help wbopendata_sourceid##DT.HPC.STTS:DT.HPC.STTS} - Debt relief committed under HIPC and MDRI initiatives, cumulative US$ in end-2012 NPV termsStatus under enhanced HIPC initiative}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Indicator shows the status of heavily indebted poor countries country under the enhanced HIPC initiative. Heavily indebted poor countries reach HIPC decision point if they have a track record of macroeconomic stability, have prepared an Interim Poverty Reduction Strategy through a participatory process, and have cleared or reached an agreement on a process to clear, the outstanding arrears to multilateral creditors. The amount of debt relief necessary to bring countries’ debt indicators to HIPC thresholds is calculated, and countries begin receiving debt relief. Heavily indebted poor countries reach HIPC completion point if they maintain macroeconomic stability under a Poverty Reduction and Growth Facility (PRGF) supported program, carry out key structural and social reforms agreed on at the decision point, and implement satisfactorily Poverty Reduction Strategy for one year. Debt relief is then provided irrevocably by the country’s creditors.{p_end}
+{synopt:{opt Source Notes}}Debt relief is committed as of the decision point (assuming full participation of creditors) under the enhanced HIPC Initiative. It is calculated as the amount needed to bring the net present value (NPV) of the country's debt level to the threIndicator shows the status of heavily indebted poor countries country under the enhanced HIPC initiative. Heavily indebted poor countries reach HIPC decision point if they have a track record of macroeconomic stability, have prepared an Interi{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Economic Policy and Debt Department.{p_end}
 
@@ -181,9 +221,21 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Debt relief is committed as of the decision point (assuming full participation of creditors) under the enhanced HIPC Initiative. It is calculated as the amount needed to bring the net present value (NPV) of the country's debt level to the thresholds established by the HIPC Initiative (150 percent of exports or in certain cases 250 percent of fiscal revenues). Topping-up assistance and assistance provided under the original HIPC Initiative were committed in net present value terms as of the decision point and are converted to end-2012 terms. Debt relief delivered in full under MDRI initiative is the net present value of debt relief from International Development Association, International Monetary Fund, African Development Fund, and Inter-American Development Bank and delivered to countries having reached the HIPC completion point converted to end-2012 terms.{p_end}
+{synopt:{opt Source Notes}}Debt relief is committed as of the decision point (assuming full participation of creditors) under the enhanced HIPC Initiative. It is calculated as the amount needed to bring the net present value (NPV) of the country's debt level to the threInterest due is actual amounts of interest due in currency, goods, or services in the year specified.  Interest payments are actual amounts of interest paid in currency, goods, or services in the year specified. This item includes interest pa{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Policy and Debt Department.{p_end}
+{synopt:{opt Source Organization}}World Bank, Economic Policy and Debt Department.World Bank, Global Development Finance.{p_end}
+
+
+{synoptline}
+{marker sourceid_NY.ADJ.SVNX.GN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##NY.ADJ.SVNX.GN.ZS:NY.ADJ.SVNX.GN.ZS} - Adjusted net savings, excluding particulate emission damage (% of GNI)Agricultural support estimate (% of GDP)}}
+
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
+
+
+{synopt:{opt Source Notes}}Agriculture support is the annual monetary value of all gross transfers from taxpayers and consumers, both domestic and foreign (in the form of subsidies arising from policy measures that support agriculture), net of the associated budgetary r{p_end}
+
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development, Producer and Consumer Support Estimates database. Available online at {browse "www.oecd.org/tad/support/psecse"}.{p_end}
 
 
 {synoptline}
@@ -194,9 +246,21 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}Agriculture support is the annual monetary value of all gross transfers from taxpayers and consumers, both domestic and foreign (in the form of subsidies arising from policy measures that support agriculture), net of the associated budgetary receipts, regardless of their objectives and impacts on farm production and income, or consumption of farm products.{p_end}
+{synopt:{opt Source Notes}}Agriculture support is the annual monetary value of all gross transfers from taxpayers and consumers, both domestic and foreign (in the form of subsidies arising from policy measures that support agriculture), net of the associated budgetary rExports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development, Producer and Consumer Support Estimates database. Available online at {browse "www.oecd.org/tad/support/psecse"}.{p_end}
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development, Producer and Consumer Support Estimates database. Available online at www.oecd.org/tad/support/psecse.World Bank national accounts data, and OECD National Accounts data files.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.HIV.INCD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - % of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)Incidence of HIV (% of uninfected population ages 15-49)}}
+
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
+
+
+{synopt:{opt Source Notes}}Knowledge of HIV, female, is the percentage of female respondents who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two m{p_end}
+
+{synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
 
 
 {synoptline}
@@ -206,32 +270,32 @@
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 
-{synopt:{opt Source Notes}}Knowledge of HIV, male, is the percentage of male respondents who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local misconceptions about HIV transmission, and who know that a healthy-looking person can have HIV.{p_end}
+{synopt:{opt Source Notes}}Knowledge of HIV, female, is the percentage of female respondents who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two mKnowledge of HIV, male, is the percentage of male respondents who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most{p_end}
 
 {synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.GATS.XD}
-{synopt:{bf:{help wbopendata_sourceid##TM.GATS.XD:TM.GATS.XD} - General Agreement on Trade in Services (GATS) Commitments Index, all service sectors (0 least liberal to 100 most liberal)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.GATS.XD:TM.GATS.XD} - General Agreement on Trade in Services (GATS) Commitments Index, all service sectors (0 least liberal to 100 most liberal)Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 
-{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council.{p_end}
+{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Aus{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.MRC.NOTX.DV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.MRC.NOTX.DV.ZS:TM.MRC.NOTX.DV.ZS} - Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council.{p_end}
+{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Aus{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
@@ -244,58 +308,58 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council.{p_end}
+{synopt:{opt Source Notes}}It is the proportion of duty free imports (excluding arms) into developed countries from developing and least developed countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, AusTotal merchandise imports  price index with 1987=100.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: www.mdg-trade.org.World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.QTY.RAWT.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWT.XD.WB:TM.QTY.RAWT.XD.WB} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWT.XD.WB:TM.QTY.RAWT.XD.WB} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)Import volume index, intermediate goods}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.TAX.AGRI.CD.DV}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.DV:TM.TAX.AGRI.CD.DV} - Average tariffs imposed by developed countries on agricultural products from developing countries (%)Average tariffs imposed by developed countries on agricultural products from least developed countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.TAX.AGRI.CD.LD}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - Average tariffs imposed by developed countries on agricultural products from least developed countries (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.AGRI.CD.LD:TM.TAX.AGRI.CD.LD} - Average tariffs imposed by developed countries on agricultural products from least developed countries (%)Average tariffs imposed by developed countries on clothing products from developing countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.TAX.CLTH.CD.DV}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - Average tariffs imposed by developed countries on clothing products from developing countries (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.CLTH.CD.DV:TM.TAX.CLTH.CD.DV} - Average tariffs imposed by developed countries on clothing products from developing countries (%)Average tariffs imposed by developed countries on clothing products from least developed countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
@@ -308,20 +372,32 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicatoThis indicator reflects the total share of lines in the country’s tariff schedule bound subject to WTO Negotiation Agreements. Expressed as a percentage of total lines.  As calculated by the World Bank Institute WTI 2008 team.{p_end}
+
+{synopt:{opt Source Organization}}UNCTAD TRAINS database through WITS until 2006, then ITC database.United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: www.mdg-trade.org.{p_end}
+
+
+{synoptline}
+{marker sourceid_TM.TAX.TCOM.WM.FN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.WM.FN.ZS:TM.TAX.TCOM.WM.FN.ZS} - Average tariffs imposed by developed countries on textile products from developing countries (%)Tariff rate, most favored nation, weighted mean, primary products (%)}}
+
+{synopt:{opt Source}}19 Millennium Development Goals{p_end}
+
+
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.TAX.TXTL.CD.DV}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - Average tariffs imposed by developed countries on textile products from developing countries (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TXTL.CD.DV:TM.TAX.TXTL.CD.DV} - Average tariffs imposed by developed countries on textile products from developing countries (%)Average tariffs imposed by developed countries on textile products from least developed countries (%)}}
 
 {synopt:{opt Source}}19 Millennium Development Goals{p_end}
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
@@ -334,10 +410,10 @@
 
 {synopt:{opt Topics}}18 Millenium development goals{p_end}
 
-{synopt:{opt Source Notes}}It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicator, Japan in Asia, Canada and the United States in North America, Australia and New Zealand in Oceania and Iceland, Norway, Switzerland and the EU (25 countries included since 2004) in Europe are considered “developed” regions or areas, following the common accepted practice used for MDG indicators. Developing countries are those not listed as developed or transition countries. The list of least developed countries (LDCs) has been agreed by the General Assembly, on the recommendation of the Committee for Development Policy, Economic and Social Council. Agricultural, clothing and textile groups follow the definition in WTO agreements based on the Harmonized System 1992, transposed to current versions by WTO Secretariat. Agricultural products correspond to Harmonized System 1992, chapters 01 to 24 less fish and fish products (chap. 03); in addition to parts of chapters 29, 33, 35, 38, 41, 43, 50 to 53. Textile is mainly covered in chapters 50 to 60. The bulk of clothing products are found in chapters 61-63.{p_end}
+{synopt:{opt Source Notes}}Import unit value indices come from UNCTAD's trade database. Unit value indices are based on data reported by countries that demonstrate consistency under UNCTAD quality controls, supplemented by UNCTAD’s estimates using the previous year’It is the average tariffs imposed by developed countries on subsets of selected items (agricultural products, textile and clothing exports) that are deemed to be of interest to developing countries. For the purpose of calculating this indicato{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files. (http://unctadstat.unctad.org)United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: www.mdg-trade.org.{p_end}
 
 
 
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}

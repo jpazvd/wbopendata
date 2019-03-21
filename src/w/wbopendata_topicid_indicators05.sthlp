@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -46,7 +46,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lower ratio indicates that less energy is used to produce one unit of output.{p_end}
+{synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lo{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
 
@@ -98,7 +98,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke oven gas, and blast furnace gas). Peat is also included in this category.{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -111,7 +111,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke oven gas, and blast furnace gas). Peat is also included in this category.{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (includin{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -241,7 +241,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2011 ICP round. An international dollar has the same purchasing power over GDP as a U.S. dollar has in the United States.{p_end}
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2011 ICP round. An internatio{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -254,7 +254,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2011 constant international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as a U.S. dollar has in the United States.{p_end}
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2011 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -267,7 +267,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.{p_end}
+{synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -345,7 +345,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport. PPP GDP is gross domestic product converted to 2011 constant international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as a U.S. dollar has in the United States.{p_end}
+{synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -384,7 +384,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.{p_end}
+{synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
@@ -514,7 +514,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -553,7 +553,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects such as windmills are excluded. The types of projects included are management and lease contracts, operations and management contracts with major capital expenditure, greenfield projects (in which a private entity or a public-private joint venture builds and operates a new facility), and divestitures. Investment commitments are the sum of investments in facilities and investments in government assets. Investments in facilities are the resources the project company commits to invest during the contract period either in new facilities or in expansion and modernization of existing facilities. Investments in government assets are the resources the project company spends on acquiring government assets such as state-owned enterprises, rights to provide services in a specific area, or the use of specific radio spectrums. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
 
@@ -618,7 +618,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime. It covers coal, crude oil, and natural gas. Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
@@ -631,7 +631,7 @@
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
@@ -728,4 +728,4 @@
 
 
 
-{right:(as of 16mar2019)}
+{right:(as of 21mar2019)}

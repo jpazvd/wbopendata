@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 16mar2019)}
+{title:Income Level  (as of 21mar2019)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -312,7 +312,6 @@
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
 {synopt:{opt LBN}}  Lebanon {p_end}
 {synopt:{opt LBY}}  Libya {p_end}
-{synopt:{opt MKD}}  Macedonia, FYR {p_end}
 {synopt:{opt MYS}}  Malaysia {p_end}
 {synopt:{opt MDV}}  Maldives {p_end}
 {synopt:{opt MHL}}  Marshall Islands {p_end}
@@ -321,6 +320,7 @@
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt NAM}}  Namibia {p_end}
 {synopt:{opt NRU}}  Nauru {p_end}
+{synopt:{opt MKD}}  North Macedonia {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
 {synopt:{opt PER}}  Peru {p_end}
 {synopt:{opt ROU}}  Romania {p_end}
