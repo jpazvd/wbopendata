@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -283,9 +283,9 @@
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
-{synopt:{opt Source Notes}}The HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upperTypology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
+{synopt:{opt Source Notes}}Distance to frontier score illustrates the distance of an economy to the frontier, which represents the best performance observed on each Doing Business topic across all economies and years included since 2005. An economy's distance to frontieThe HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) dataWorld Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498.{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498.World Bank, Doing Business project (http://www.doingbusiness.org/).{p_end}
 
 
 {synoptline}
@@ -385,8 +385,8 @@
 
 
 {synoptline}
-{marker sourceid_IC.FRM.ISOC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS} - Human Capital Index (HCI), Male, Lower Bound (scale 0-1)Internationally-recognized quality certification (% of firms)}}
+{marker sourceid_IC.LGL.CRED.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - Human Capital Index (HCI), Male, Lower Bound (scale 0-1)Strength of legal rights index (0=weak to 12=strong)}}
 
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
@@ -409,4 +409,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

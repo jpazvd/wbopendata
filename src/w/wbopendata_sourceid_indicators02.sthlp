@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -60,18 +60,6 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:02 World Development Indicators}}}
-{synoptline}
-{marker sourceid_8.3.3_GIN.PASEC.CP2.FR.MAT.MEAN}
-{synopt:{bf:{help wbopendata_sourceid##8.3.3_GIN.PASEC.CP2.FR.MAT.MEAN:8.3.3_GIN.PASEC.CP2.FR.MAT.MEAN} - Net bilateral aid flows from DAC donors, United States (current US$)PASEC in Guinea, CP2, French and Mathematics (mean score)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
-
-
 {synoptline}
 {marker sourceid_AG.AGR.TRAC.NO}
 {synopt:{bf:{help wbopendata_sourceid##AG.AGR.TRAC.NO:AG.AGR.TRAC.NO} - Agricultural machinery, tractors}}
@@ -644,8 +632,20 @@
 
 
 {synoptline}
+{marker sourceid_BAR.NOED.7074.ZS}
+{synopt:{bf:{help wbopendata_sourceid##BAR.NOED.7074.ZS:BAR.NOED.7074.ZS} - Barro-Lee: Percentage of population age 70-74 with no educationNet bilateral aid flows from DAC donors, Greece (current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_BAR.SCHL.2024.FE}
-{synopt:{bf:{help wbopendata_sourceid##BAR.SCHL.2024.FE:BAR.SCHL.2024.FE} - Barro-Lee: Average years of total schooling, age 20-24, femaleNet bilateral aid flows from DAC donors, Greece (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BAR.SCHL.2024.FE:BAR.SCHL.2024.FE} - Barro-Lee: Average years of total schooling, age 20-24, femaleNet bilateral aid flows from DAC donors, United States (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -2407,15 +2407,15 @@
 
 
 {synoptline}
-{marker sourceid_DP.DOD.DLCD.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1} - 503.Currency and deposits (PSDCG)(% of GDP)Net official flows from UN agencies, UNWTO (current US$)}}
+{marker sourceid_DP.DOD.DSIN.CR.FC.Z1}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.FC.Z1:DP.DOD.DSIN.CR.FC.Z1} - 582.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST)(% of GDP)Residual, debt stock-flow reconciliation (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
+{synopt:{opt Source Notes}}The residual difference, i.e. the change in stock not explained by any of the factors identified under debt stock-flow reconciliation, is calculated as the sum of identified accounts minus the change in stock. Where the latter is large it can,{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2495,15 +2495,15 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - Principal repayments on external debt, long-term + IMF (AMT, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - Average interest on new external debt commitments, private (%)Principal repayments on external debt, long-term + IMF (AMT, current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Percentage of young (age 16-24) adults scoring 326 to less than 376 points on the 0 to 500 point scale. Tasks at this level often require respondents to perform multiple-step operations to integrate, interpret, or synthesize information from cPrincipal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. This item includes principal repayments on long-term debt and IMF repurchases. Long-term external d{p_end}
+{synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amountsPrincipal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. This item includes principal repayments on long-term debt and IMF repurchases. Long-term external d{p_end}
 
-{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC)World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2803,13 +2803,13 @@
 
 {synoptline}
 {marker sourceid_DT.AXR.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXR.OFFT.CD:DT.AXR.OFFT.CD} - Average interest on new external debt commitments, private (%)Principal rescheduled, official (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXR.OFFT.CD:DT.AXR.OFFT.CD} - Principal rescheduled, official (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amountsPrincipal rescheduled is the amount of principal due or in arrears that was rescheduled in any given year. Debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral{p_end}
+{synopt:{opt Source Notes}}Interest payments on long-term debt are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Long-term external debt is defined as debt that has an original or extended maturity of more than onPrincipal rescheduled is the amount of principal due or in arrears that was rescheduled in any given year. Debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -3382,6 +3382,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.ALLN.ZSG}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSG:DT.DOD.ALLN.ZSG} - Debt on Non-concessional terms to GDP (% of GDP)Net flows on external debt, short-term (NFL, current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.ALLN.ZSX}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSX:DT.DOD.ALLN.ZSX} - Debt on Non-concessional terms to export ratio (% of exports)PPG, bilateral (DOD, current US$)}}
 
@@ -3542,21 +3554,21 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available datUse of IMF Credit: Data related to the operations of the IMF are provided by the IMF Treasurer’s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-perio{p_end}
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and representUse of IMF Credit: Data related to the operations of the IMF are provided by the IMF Treasurer’s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-perio{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datWorld Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.CB.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.EN.US:DT.DOD.DLBN.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, end of period, USDNet flows on external debt, short-term (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.EN.US:DT.DOD.DLBN.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, end of period, USDNet official flows from UN agencies, UNICEF (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -3586,7 +3598,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.GG.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.TD.MP.US:DT.DOD.DLXF.CD.GG.TD.MP.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Diff. with Market Value, USDNet official flows from UN agencies, UNICEF (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.TD.MP.US:DT.DOD.DLXF.CD.GG.TD.MP.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Diff. with Market Value, USDNet official flows from UN agencies, UNWTO (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3731,9 +3743,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalShort-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donWorld Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datWorld Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5640,7 +5652,7 @@
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
-{synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateThe percentage of respondents who report personally receiving any payment from the government in the past 12 months. This includes payments for educational or medical expenses, unemployment benefits, subsidy payments, or any kind of social ben{p_end}
+{synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateThe percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution,female (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datGlobal Findex database{p_end}
 
@@ -5774,7 +5786,7 @@
 {synopt:    }03 Economy and Growth{p_end}
 {synopt:    }20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), bThe percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee, male (% age 15+).{p_end}
+{synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), bThe percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datGlobal Findex database{p_end}
 
@@ -5927,7 +5939,7 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. IMF charges cover interest payments with respect to all uses of IMF resThe percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, iIMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. IMF charges cover interest payments with respect to all uses of IMF res{p_end}
 
 {synopt:{opt Source Organization}}Global Findex databaseWorld Bank, International Debt Statistics.{p_end}
 
@@ -6934,7 +6946,7 @@
 {synopt:{opt Topics}}06 Environment{p_end}
 {synopt:    }19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Among respondents reporting personally receiving any money in the past 12 months from a relative or friend living in a different area of their country, the percentage who report receiving it only by having cash handed to them by that person orCarbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting personally making regular payments for school fees in the past 12 months, the percentage who report making these payments using cash only.Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
 {synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.Global Findex database{p_end}
 
@@ -7690,7 +7702,7 @@
 {synopt:    }16 Urban Development{p_end}
 {synopt:    }19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Among respondents reporting personally making regular payments for school fees in the past 12 months, the percentage who report making these payments using cash only.Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving money from any source for the sale of agricultural products, crops, produce, or livestock in the past 12 months, primary education or less (% age 15+)Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
 {synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). http://sedac.ciesiGlobal Findex database{p_end}
 
@@ -8815,9 +8827,9 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 monthsPercentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 monthsPercentage of females aged 18 and older with BMI above 30{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2018, Global Financial Inclusion Database, World Bank.World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2018, Global Financial Inclusion Database, World Bank.Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
@@ -9339,7 +9351,7 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Total is the proportion of children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration of prOther taxes include employer payroll or labor taxes, taxes on property, and taxes not allocable to other categories, such as penalties for late payment or nonpayment of taxes.{p_end}
+{synopt:{opt Source Notes}}Other taxes include employer payroll or labor taxes, taxes on property, and taxes not allocable to other categories, such as penalties for late payment or nonpayment of taxes.Typology of out-of-school children. Primary. Never in school. Quintile 1 is the percentage of quintile 1 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
@@ -9604,8 +9616,8 @@
 
 
 {synoptline}
-{marker sourceid_HF.STA.ANV4.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS.Q5:HF.STA.ANV4.ZS.Q5} - Distance to frontier score (0=lowest performance to 100=frontier)Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q5 (highest)}}
+{marker sourceid_HD.HCI.OVRL.LB.FE}
+{synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE} - Distance to frontier score (0=lowest performance to 100=frontier)Human Capital Index (HCI), Female, Lower Bound (scale 0-1)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -9616,8 +9628,8 @@
 
 
 {synoptline}
-{marker sourceid_HF.STA.OB18.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Bribery incidence (% of firms experiencing at least one bribe payment request)Prevalence of obesity, female, BMI &gt; 30 (% of population 18+)}}
+{marker sourceid_HF.STA.ANV4.ZS.Q5}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS.Q5:HF.STA.ANV4.ZS.Q5} - Bribery incidence (% of firms experiencing at least one bribe payment request)Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q5 (highest)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -10532,9 +10544,9 @@
 {synopt:    }12 Private Sector{p_end}
 {synopt:    }13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Share of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions aboutStrength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
+{synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws arThe HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/World Bank, Doing Business project (http://www.doingbusiness.org/).{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498.World Bank, Doing Business project (http://www.doingbusiness.org/).{p_end}
 
 
 {synoptline}
@@ -11082,7 +11094,7 @@
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average total number of familiar words correctly read per minute. The familiar word reading subtask tests students' ability to read a list of one or two syllable words drawn from a corpus of frequent words presented in random order. Users arePublic Private Partnerships in ICT (current US$) refers to commitments to projects in ICT backbone infrastructure (including land based and submarine cables) that have reached financial closure and directly or indirectly serve the public. Mova{p_end}
+{synopt:{opt Source Notes}}Percentage of students who were unable to read a single word of text on the oral reading fluency subtask. The oral reading fluency/paragraph reading subtask examines students' ability to read a narrative or informational text with accuracy, wiPublic Private Partnerships in ICT (current US$) refers to commitments to projects in ICT backbone infrastructure (including land based and submarine cables) that have reached financial closure and directly or indirectly serve the public. Mova{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/World Bank, Private Participation in Infrastructure Project Database (http://ppi.worldbank.org).{p_end}
 
@@ -11941,7 +11953,7 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Average total number of invented/nonsense words correctly read per minute. The indicator measures students' ability to fluently decipher/decode randomly-presented “words” that follow linguistic rules but do not actually exist in the statedThe number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey.{p_end}
+{synopt:{opt Source Notes}}Average total number of words correctly read per minute from a narrative or informational reading passage. The oral reading fluency/paragraph reading subtask examines students'ability to read a narrative or informational text with accuracy, wiThe number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey.{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/Netcraft (http://www.netcraft.com/){p_end}
 
@@ -11985,8 +11997,8 @@
 
 
 {synoptline}
-{marker sourceid_LO.TIMSS.SCI4.BL.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI4.BL.MA:LO.TIMSS.SCI4.BL.MA} - Agriculture, forestry, and fishing, value added (% of GDP)TIMSS: Male 4th grade students who did not reach the low international benchmark of science achievement (%)}}
+{marker sourceid_LO.TIMSS.MAT4.P25}
+{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.MAT4.P25:LO.TIMSS.MAT4.P25} - Agriculture, forestry, and fishing, value added (% of GDP)TIMSS: Distribution of 4th Grade Mathematics Scores: 25th Percentile Score}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -12135,9 +12147,9 @@
 {synopt:{opt Topics}}12 Private Sector{p_end}
 {synopt:    }21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered mNatural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered mThis is the discrepancy included in the ‘total consumption etc.' This discrepancy is included to ensures that GDP from the expenditure side equals GDP measured by the income or output approach. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World BankWorld Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the GlobalWorld Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -12577,15 +12589,15 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PRVT.PC.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.PC.KD.ZG:NE.CON.PRVT.PC.KD.ZG} - GNI per capita (constant LCU)Households and NPISHs Final consumption expenditure per capita growth (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.PC.KD.ZG:NE.CON.PRVT.PC.KD.ZG} - Households and NPISHs Final consumption expenditure per capita growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth of household final consumption expenditure per capita, which is calculated using household final consumption expenditure in constant 2010 prices and World Bank population estimates. Household final consumption expenditGNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
+{synopt:{opt Source Notes}}Annual percentage growth of household final consumption expenditure per capita, which is calculated using household final consumption expenditure in constant 2010 prices and World Bank population estimates. Household final consumption expenditStarting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD)World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -14228,18 +14240,6 @@
 
 
 {synoptline}
-{marker sourceid_NW.NCA.MPHO.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.PC:NW.NCA.MPHO.PC} - Natural capital per capita, subsoil assets, minerals: phosphate (constant 2014 US$)Residual, debt stock-flow reconciliation (current US$)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The residual difference, i.e. the change in stock not explained by any of the factors identified under debt stock-flow reconciliation, is calculated as the sum of identified accounts minus the change in stock. Where the latter is large it can,{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
-
-
-{synoptline}
 {marker sourceid_NW.TOW.TO}
 {synopt:{bf:{help wbopendata_sourceid##NW.TOW.TO:NW.TOW.TO} - Adjusted savings: education expenditure (current US$)Total wealth (constant 2014 US$)}}
 
@@ -14763,9 +14763,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the sum of all firms who applied and did not apply for a loan. The numerator is the number of firms who did not apply fThe GDP implicit deflator is calculated as the ratio of GDP in current local currency to GDP in constant local currency. This series has been linked to produce a consistent time series to counteract breaks in series over time due to changes in{p_end}
+{synopt:{opt Source Notes}}The GDP implicit deflator is calculated as the ratio of GDP in current local currency to GDP in constant local currency. This series has been linked to produce a consistent time series to counteract breaks in series over time due to changes in{p_end}
 
-{synopt:{opt Source Organization}}Enterprise Surveys, World BankWorld Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
 
 
 {synoptline}
@@ -15524,15 +15524,15 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.PCAP.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG} - GNI per capita growth (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG} - Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)GNI per capita growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth rate of GNI per capita based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value{p_end}
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 monthsAnnual percentage growth rate of GNI per capita based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2018, Global Financial Inclusion Database, World Bank.World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -15981,8 +15981,8 @@
 
 
 {synoptline}
-{marker sourceid_PRJ.POP.1519.NED.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.1519.NED.MF:PRJ.POP.1519.NED.MF} - Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total}}
+{marker sourceid_PRJ.MYS.2064.FE}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.MYS.2064.FE:PRJ.MYS.2064.FE} - Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)Wittgenstein Projection: Mean years of schooling. Age 20-64. Female}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -19714,6 +19714,18 @@
 
 
 {synoptline}
+{marker sourceid_SH.IMM.NONE.Q5.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.IMM.NONE.Q5.ZS:SH.IMM.NONE.Q5.ZS} - Informal employment, female (% of total non-agricultural employment)Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.IMM.POL3}
 {synopt:{bf:{help wbopendata_sourceid##SH.IMM.POL3:SH.IMM.POL3} - Hospital beds (per 1,000 people)Immunization, Pol3 (% of one-year-old children)}}
 
@@ -20124,16 +20136,16 @@
 
 {synoptline}
 {marker sourceid_SH.STA.AIRP.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Informal employment, female (% of total non-agricultural employment)Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 {synopt:    }08 Health{p_end}
 
-{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bartMortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 25-34 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonizedMortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.World Health Organization, Global Health Observatory Data Repository (http://apps.who.int/ghodata/).{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.World Health Organization, Global Health Observatory Data Repository (http://apps.who.int/ghodata/).{p_end}
 
 
 {synoptline}
@@ -20344,6 +20356,18 @@
 
 
 {synoptline}
+{marker sourceid_SH.STA.FEVR.Q2.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS} - Prevalence of children with fever (% of children under 5): Q2Share of youth not in education, employment or training, total (% of youth population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.STA.FGMS.Q5.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FGMS.Q5.ZS:SH.STA.FGMS.Q5.ZS} - Female genital mutilation prevalence (%)Female genital mutilation prevalence (%): Q5 (highest)}}
 
@@ -20529,16 +20553,16 @@
 
 {synoptline}
 {marker sourceid_SH.STA.MMRT.NE}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)Share of youth not in education, employment or training, total (% of youth population)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 {synopt:    }17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
+{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.Mean number of children ever born to women aged 40-49: Mean number of children ever born (CEB) to women aged 40-49 years.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
 
 {synoptline}
@@ -25509,9 +25533,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.Total number of graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are recognise{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.Worldwide Governance Indicators, The World Bank{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -26533,7 +26557,7 @@
 {synopt:{opt Topics}}12 Private Sector{p_end}
 {synopt:    }21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. TTotal number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located{p_end}
+{synopt:{opt Source Notes}}Simple mean applied tariff is the unweighted average of effectively applied rates for all products subject to tariffs calculated for all traded goods. Data are classified using the Harmonized System of trade at the six- or eight-digit level. TThe ratio of the female percentage of the population (age 25 and over) with at least completed post-secondary education (ISCED 4 or higher) to the male percentage of the population with at least post-secondary education. It is calculated by di{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database and the World Trade Organization’s ({p_end}
 
@@ -28083,27 +28107,15 @@
 
 
 {synoptline}
-{marker sourceid_fin17c.14.a}
-{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)Saved for education or school fees (% age 15+)}}
+{marker sourceid_mobileaccount.t.d.6}
+{synopt:{bf:{help wbopendata_sourceid##mobileaccount.t.d.6:mobileaccount.t.d.6} - GNI per capita (constant LCU)Mobile money account, secondary education or less (% age 15+)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
+{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2018, Global Financial Inclusion Database, World Bank.{p_end}
-
-
-{synoptline}
-{marker sourceid_fin25c.a.s.7}
-{synopt:{bf:{help wbopendata_sourceid##fin25c.a.s.7:fin25c.a.s.7} - Main source of emergency funds: money from working, income, poorest 40% (% able to raise funds, age 15+)Tax revenue (current LCU)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Tax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -28141,6 +28153,18 @@
 {synopt:{opt Source Notes}}Adequacy of social protection and labor programs (SPL) is measured by the total transfer amount received by the population participating in social insurance, social safety net, and unemployment benefits and active labor market programs as a shNULL{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/)The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+
+
+{synoptline}
+{marker sourceid_per_allsp.avt_pop_preT_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_pop_preT_tot:per_allsp.avt_pop_preT_tot} - Average per capita transfer -All Social Protection and Labor (preT)Tax revenue (current LCU)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Tax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -28794,4 +28818,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

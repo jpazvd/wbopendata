@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,37 +61,37 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:12 Education Statistics}}}
 {synoptline}
-{marker sourceid_5.1.3_DJI.TOTA.AID.AFD}
-{synopt:{bf:{help wbopendata_sourceid##5.1.3_DJI.TOTA.AID.AFD:5.1.3_DJI.TOTA.AID.AFD} - International aid disbursed to total education, AFD to Djibouti (USD million)PIAAC: Mean Adult Numeracy Proficiency. Male}}
+{marker sourceid_8.3.2_MOZ.SACMEQ.TEST.6.MAT}
+{synopt:{bf:{help wbopendata_sourceid##8.3.2_MOZ.SACMEQ.TEST.6.MAT:8.3.2_MOZ.SACMEQ.TEST.6.MAT} - Barro-Lee: Percentage of female population age 75+ with no educationSACMEQ in Mozambique, grade 5, Mathematics (mean score)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Numeracy is defined as the ability to access, use, interpret and communicate mathematical information and ideas in order to engage in and manage the mathematical demands of a range of situations in adult life. To this end, numeracy involves ma{p_end}
+{synopt:{opt Source Notes}}Percentage of female population age 75+ with no education{p_end}
 
-{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
-
-
-{synoptline}
-{marker sourceid_5.1.7_MDG.TOTA.AID.UNESCO}
-{synopt:{bf:{help wbopendata_sourceid##5.1.7_MDG.TOTA.AID.UNESCO:5.1.7_MDG.TOTA.AID.UNESCO} - International aid to total education executed by UNESCO in Madagascar (USD million)PASEC: 6th grade students by reading proficiency level (%). Level 4}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of 6th grade students scoring higher than 595.1 on the PASEC reading scale. Students at level 4 have achieved the Sufficient Competency Threshold and have an overall understanding of narrative passages, informative texts and documents. T{p_end}
-
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): {browse "http://www.pasec.confemen.org/"}{p_end}
+{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: {browse "http://www.barrolee.com/"}{p_end}
 
 
 {synoptline}
-{marker sourceid_8.3.5_GHA.LEAR.TEST.P3.ENG.ABOV.MIN}
-{synopt:{bf:{help wbopendata_sourceid##8.3.5_GHA.LEAR.TEST.P3.ENG.ABOV.MIN:8.3.5_GHA.LEAR.TEST.P3.ENG.ABOV.MIN} - Barro-Lee: Average years of total schooling, age 25-29, totalNational assessment for learning outcomes in Ghana, P3, English, students above minimal competency (%)}}
+{marker sourceid_8.3.3_GIN.PASEC.CP2.FR.MAT.MEAN}
+{synopt:{bf:{help wbopendata_sourceid##8.3.3_GIN.PASEC.CP2.FR.MAT.MEAN:8.3.3_GIN.PASEC.CP2.FR.MAT.MEAN} - Barro-Lee: Average years of total schooling, age 25-29, totalPASEC in Guinea, CP2, French and Mathematics (mean score)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}Average years of total schooling, 25-29, total is the average years of education completed among people age 25-29.{p_end}
+
+{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: {browse "http://www.barrolee.com/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_8.3.5_GHA.LEAR.TEST.P3.ENG.ABOV.MIN}
+{synopt:{bf:{help wbopendata_sourceid##8.3.5_GHA.LEAR.TEST.P3.ENG.ABOV.MIN:8.3.5_GHA.LEAR.TEST.P3.ENG.ABOV.MIN} - Barro-Lee: Percentage of population age 30-34 with tertiary schooling. Completed TertiaryNational assessment for learning outcomes in Ghana, P3, English, students above minimal competency (%)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of population age 30-34 with tertiary schooling. Completed Tertiary{p_end}
 
 {synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: {browse "http://www.barrolee.com/"}{p_end}
 
@@ -463,9 +463,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population age 70-74 with no educationThe consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal percentage terms, measured on a year-on-year basis, and seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants andPercentage of population age 70-74 with no education{p_end}
 
-{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/World Bank staff calculations based on Datastream data.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datRobert J. Barro and Jong-Wha Lee: http://www.barrolee.com/{p_end}
 
 
 {synoptline}
@@ -3704,7 +3704,7 @@
 
 {synopt:{opt Source Notes}}Percentage of female population age 30-34 with tertiary schooling. Completed TertiaryThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/{p_end}
 
 
 {synoptline}
@@ -4717,20 +4717,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.AMT.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - PIAAC: Young adults by literacy proficiency level (%). Level 4Principal repayments on external debt, long-term + IMF (AMT, current US$)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of young (age 16-24) adults scoring 326 to less than 376 points on the 0 to 500 point scale. Tasks at this level often require respondents to perform multiple-step operations to integrate, interpret, or synthesize information from c{p_end}
-
-{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
-
-
-{synoptline}
-{marker sourceid_GC.TAX.OTHR.RV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GC.TAX.OTHR.RV.ZS:GC.TAX.OTHR.RV.ZS} - DHS: Net attendance rate. PrimaryOther taxes (% of revenue)}}
+{marker sourceid_GB.FIN.ABRD.CN}
+{synopt:{bf:{help wbopendata_sourceid##GB.FIN.ABRD.CN:GB.FIN.ABRD.CN} - DHS: Net attendance rate. PrimaryExternal borrowing, net (current LCU)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -4741,8 +4729,8 @@
 
 
 {synoptline}
-{marker sourceid_GFDD.AI.31}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.31:GFDD.AI.31} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 1Value of collateral needed for a loan (% of the loan amount)}}
+{marker sourceid_GC.TAX.OTHR.RV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##GC.TAX.OTHR.RV.ZS:GC.TAX.OTHR.RV.ZS} - DHS: Typology of out-of-school children. Primary. Never in school. Quintile 1Other taxes (% of revenue)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -4753,8 +4741,8 @@
 
 
 {synoptline}
-{marker sourceid_GFDD.OI.15}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.15:GFDD.OI.15} - Foreign banks among total banks (%)MICS: Net attendance rate. Primary. Female}}
+{marker sourceid_GFDD.AI.31}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.31:GFDD.AI.31} - MICS: Net attendance rate. Primary. FemaleValue of collateral needed for a loan (% of the loan amount)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -4765,8 +4753,8 @@
 
 
 {synoptline}
-{marker sourceid_HD.HCI.OVRL.LB.FE}
-{synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.LB.FE:HD.HCI.OVRL.LB.FE} - Human Capital Index (HCI), Female, Lower Bound (scale 0-1)MICS: Typology of out-of-school children. Primary. Never in school. Quintile 2}}
+{marker sourceid_GFDD.OI.15}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.15:GFDD.OI.15} - Foreign banks among total banks (%)MICS: Typology of out-of-school children. Primary. Never in school. Quintile 2}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -8029,32 +8017,44 @@
 
 
 {synoptline}
-{marker sourceid_IC.LGL.CRED.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Akuapem. 2nd GradeStrength of legal rights index (0=weak to 12=strong)}}
+{marker sourceid_IC.FRM.ISOC.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.ISOC.ZS:IC.FRM.ISOC.ZS} - EGRA: Correct Letter Names Read Per Minute (Mean). Somaligna. 2nd GradeInternationally-recognized quality certification (% of firms)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about{p_end}
+{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_IE.PPN.ICTI.CD}
-{synopt:{bf:{help wbopendata_sourceid##IE.PPN.ICTI.CD:IE.PPN.ICTI.CD} - EGRA: Correct Isolated Words Read Per Minute (Mean). Bomu. 2nd GradePublic private partnerships investment in ICT (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IE.PPN.ICTI.CD:IE.PPN.ICTI.CD} - EGRA: Oral Reading Fluency - Share of students with a zero score (%). Hararigna. 2nd GradePublic private partnerships investment in ICT (current US$)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total number of familiar words correctly read per minute. The familiar word reading subtask tests students' ability to read a list of one or two syllable words drawn from a corpus of frequent words presented in random order. Users are{p_end}
+{synopt:{opt Source Notes}}Percentage of students who were unable to read a single word of text on the oral reading fluency subtask. The oral reading fluency/paragraph reading subtask examines students' ability to read a narrative or informational text with accuracy, wi{p_end}
+
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_IN.HLTH.HIVINFECTION.EST}
+{synopt:{bf:{help wbopendata_sourceid##IN.HLTH.HIVINFECTION.EST:IN.HLTH.HIVINFECTION.EST} - EGRA: Listening Comprehension - Share of students with a zero score (%). Bomu. 2nd GradeHIV Infection Estimates}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Share of students scoring zero percent on the listening comprehension assessment. The listening comprehension subtask examines students' ability to respond correctly to questions about a brief passage read aloud to the student by the assessor{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_IP.JRN.ARTC.SC}
-{synopt:{bf:{help wbopendata_sourceid##IP.JRN.ARTC.SC:IP.JRN.ARTC.SC} - EGRA: Listening Comprehension - Share of students with a zero score (%). Bomu. 2nd GradeScientific and technical journal articles}}
+{synopt:{bf:{help wbopendata_sourceid##IP.JRN.ARTC.SC:IP.JRN.ARTC.SC} - EGRA: Listening Comprehension - Share of students with a zero score (%). Tigrinya. 3rd GradeScientific and technical journal articles}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -8066,12 +8066,12 @@
 
 {synoptline}
 {marker sourceid_IS.VEH.PCAR.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - EGRA: Listening Comprehension - Share of students with a zero score (%). Tigrinya. 3rd GradePassenger cars (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - EGRA: Correct Non-Words Read Per Minute (Mean). Indonesian. 2nd GradePassenger cars (per 1,000 people)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of students scoring zero percent on the listening comprehension assessment. The listening comprehension subtask examines students' ability to respond correctly to questions about a brief passage read aloud to the student by the assessor{p_end}
+{synopt:{opt Source Notes}}Average total number of invented/nonsense words correctly read per minute. The indicator measures students' ability to fluently decipher/decode randomly-presented “words” that follow linguistic rules but do not actually exist in the stated{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
@@ -8103,12 +8103,12 @@
 
 {synoptline}
 {marker sourceid_IT.NET.SECR}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.SECR:IT.NET.SECR} - EGRA: Correct Non-Words Read Per Minute (Mean). Indonesian. 2nd GradeSecure Internet servers}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.SECR:IT.NET.SECR} - EGRA: Oral Reading Fluency - Correct Words Read Per Minute (Mean). Dagbani. 2nd GradeSecure Internet servers}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total number of invented/nonsense words correctly read per minute. The indicator measures students' ability to fluently decipher/decode randomly-presented “words” that follow linguistic rules but do not actually exist in the stated{p_end}
+{synopt:{opt Source Notes}}Average total number of words correctly read per minute from a narrative or informational reading passage. The oral reading fluency/paragraph reading subtask examines students'ability to read a narrative or informational text with accuracy, wi{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
@@ -8331,12 +8331,12 @@
 
 {synoptline}
 {marker sourceid_LO.EGRA.CLPM.SNG.2GRD}
-{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.CLPM.SNG.2GRD:LO.EGRA.CLPM.SNG.2GRD} - EGRA: Correct Letter Names Read Per Minute (Mean). Songhoi. 2nd GradeEGRA: Oral Reading Fluency - Correct Words Read Per Minute (Mean). Dagbani. 2nd Grade}}
+{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.CLPM.SNG.2GRD:LO.EGRA.CLPM.SNG.2GRD} - EGRA: Correct Letter Names Read Per Minute (Mean). Songhoi. 2nd GradeEGRA: Reading Comprehension - Share of students with a zero score (%). Arabic. 2nd Grade}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets ofAverage total number of words correctly read per minute from a narrative or informational reading passage. The oral reading fluency/paragraph reading subtask examines students'ability to read a narrative or informational text with accuracy, wi{p_end}
+{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets ofShare of students who scored zero percent on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about the oral{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
@@ -8823,12 +8823,12 @@
 
 {synoptline}
 {marker sourceid_LO.EGRA.CWPM.BMN.2GRD}
-{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.CWPM.BMN.2GRD:LO.EGRA.CWPM.BMN.2GRD} - EGRA: Correct Isolated Words Read Per Minute (Mean). Bamanankan. 2nd GradeEGRA: Reading Comprehension - Share of students with a zero score (%). Arabic. 2nd Grade}}
+{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.CWPM.BMN.2GRD:LO.EGRA.CWPM.BMN.2GRD} - EGRA: Correct Isolated Words Read Per Minute (Mean). Bamanankan. 2nd GradeEGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Akuapem. 2nd Grade}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total number of familiar words correctly read per minute. The familiar word reading subtask tests students' ability to read a list of one or two syllable words drawn from a corpus of frequent words presented in random order. Users areShare of students who scored zero percent on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about the oral{p_end}
+{synopt:{opt Source Notes}}Average total number of familiar words correctly read per minute. The familiar word reading subtask tests students' ability to read a list of one or two syllable words drawn from a corpus of frequent words presented in random order. Users areShare of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
@@ -12363,14 +12363,14 @@
 
 {synoptline}
 {marker sourceid_LO.EGRA.READ.AFA.ADV.3GRD}
-{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.AFA.ADV.3GRD:LO.EGRA.READ.AFA.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Afan Oromo. 3rd Grade}}
+{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.AFA.ADV.3GRD:LO.EGRA.READ.AFA.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Afan Oromo. 3rd GradePASEC: 6th grade students by reading proficiency level (%). Level 4}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions aboutThe Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
+{synopt:{opt Source Notes}}Share of 6th grade students scoring higher than 595.1 on the PASEC reading scale. Students at level 4 have achieved the Sufficient Competency Threshold and have an overall understanding of narrative passages, informative texts and documents. TShare of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): http://www.pasec.confemen.org/{p_end}
 
 
 {synoptline}
@@ -12843,14 +12843,14 @@
 
 {synoptline}
 {marker sourceid_LO.EGRA.READ.SID.ADV.3GRD}
-{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.SID.ADV.3GRD:LO.EGRA.READ.SID.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Sidaamu Afoo. 3rd GradePISA: Male 15-year-olds by reading proficiency level (%). Level 6}}
+{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.SID.ADV.3GRD:LO.EGRA.READ.SID.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Sidaamu Afoo. 3rd GradePIAAC: Female adults by literacy proficiency level (%). Level 3}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 698 on the PISA reading scale. Tasks at Level 6 level typically require the reader to make multiple inferences, comparisons and contrasts that are both detailed and precise. They requShare of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about{p_end}
+{synopt:{opt Source Notes}}Percentage of female adults scoring 276 to less than 326 points on the 0 to 500 point scale. Texts at this level are often dense or lengthy, and include continuous, non-continuous, mixed, or multiple pages of text. Understanding text and rhetoShare of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/OECD Programme for International Student Assessment (PISA){p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -13352,12 +13352,12 @@
 
 {synoptline}
 {marker sourceid_LO.LLECE.MAT6.0.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.LLECE.MAT6.0.MA:LO.LLECE.MAT6.0.MA} - LLECE: Male 6th grade students by mathematics proficiency level (%). Below Level 1PIAAC: Female adults by literacy proficiency level (%). Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##LO.LLECE.MAT6.0.MA:LO.LLECE.MAT6.0.MA} - LLECE: Male 6th grade students by mathematics proficiency level (%). Below Level 1PIAAC: Young adults by literacy proficiency level (%). Level 4}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 6th grade male students below the lowest proficiency level (scoring below 309.64) on the LLECE mathematics scale. Students below Level 1 have not been able to acquire the abilities required in Level I. Data reflects country perfoPercentage of female adults scoring 276 to less than 326 points on the 0 to 500 point scale. Texts at this level are often dense or lengthy, and include continuous, non-continuous, mixed, or multiple pages of text. Understanding text and rheto{p_end}
+{synopt:{opt Source Notes}}Percentage of 6th grade male students below the lowest proficiency level (scoring below 309.64) on the LLECE mathematics scale. Students below Level 1 have not been able to acquire the abilities required in Level I. Data reflects country perfoPercentage of young (age 16-24) adults scoring 326 to less than 376 points on the 0 to 500 point scale. Tasks at this level often require respondents to perform multiple-step operations to integrate, interpret, or synthesize information from c{p_end}
 
 {synopt:{opt Source Organization}}Latin American Laboratory for Assessment of the Quality of Education (LLECE)OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
@@ -13837,14 +13837,14 @@
 
 {synoptline}
 {marker sourceid_LO.LLECE.REA3.P50}
-{synopt:{bf:{help wbopendata_sourceid##LO.LLECE.REA3.P50:LO.LLECE.REA3.P50} - LLECE: Distribution of 3rd Grade Reading Scores: 50th Percentile ScoreSACMEQ: Female 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy}}
+{synopt:{bf:{help wbopendata_sourceid##LO.LLECE.REA3.P50:LO.LLECE.REA3.P50} - LLECE: Distribution of 3rd Grade Reading Scores: 50th Percentile ScorePIAAC: Mean Adult Numeracy Proficiency. Male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers anThe 50th percentile score is the score below which 50 percent of students scored. 1997 scores were calculated on a scale with a mean of 250 points and a standard deviation of 50 points. 2006 scores were calculated on a scale with a mean of 500{p_end}
+{synopt:{opt Source Notes}}Numeracy is defined as the ability to access, use, interpret and communicate mathematical information and ideas in order to engage in and manage the mathematical demands of a range of situations in adult life. To this end, numeracy involves maThe 50th percentile score is the score below which 50 percent of students scored. 1997 scores were calculated on a scale with a mean of 250 points and a standard deviation of 50 points. 2006 scores were calculated on a scale with a mean of 500{p_end}
 
-{synopt:{opt Source Organization}}Latin American Laboratory for Assessment of the Quality of Education (LLECE)Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, www.sacmeq.org{p_end}
+{synopt:{opt Source Organization}}Latin American Laboratory for Assessment of the Quality of Education (LLECE)OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -14382,14 +14382,14 @@
 
 {synoptline}
 {marker sourceid_LO.LLECE.SCI6.4}
-{synopt:{bf:{help wbopendata_sourceid##LO.LLECE.SCI6.4:LO.LLECE.SCI6.4} - Barro-Lee: Percentage of population age 30-34 with tertiary schooling. Completed TertiaryLLECE: 6th grade students by science proficiency level (%). Level 4}}
+{synopt:{bf:{help wbopendata_sourceid##LO.LLECE.SCI6.4:LO.LLECE.SCI6.4} - LLECE: 6th grade students by science proficiency level (%). Level 4PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 6th grade students scoring at least 704.75 points on the LLECE science scale. At Level 4, students can 1) use and transfer scientific knowledge to diverse types of situations, which requires a high degree of formalization and absPercentage of population age 30-34 with tertiary schooling. Completed Tertiary{p_end}
+{synopt:{opt Source Notes}}Percentage of 6th grade students scoring at least 704.75 points on the LLECE science scale. At Level 4, students can 1) use and transfer scientific knowledge to diverse types of situations, which requires a high degree of formalization and absPercentage of adults scoring below 241 points on the 0 to 500 point scale. Tasks are based on well-defined problems involving the use of only one function within a generic interface to meet one explicit criterion without any categorical or inf{p_end}
 
-{synopt:{opt Source Organization}}Latin American Laboratory for Assessment of the Quality of Education (LLECE)Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/{p_end}
+{synopt:{opt Source Organization}}Latin American Laboratory for Assessment of the Quality of Education (LLECE)OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -14945,14 +14945,14 @@
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT.2.P75}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT.2.P75:LO.PASEC.MAT.2.P75} - PASEC: Distribution of 2nd grade mathematics scores: 75th Percentile ScorePIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT.2.P75:LO.PASEC.MAT.2.P75} - PASEC: Distribution of 2nd grade mathematics scores: 75th Percentile ScorePIRLS: Male 4th grade students reaching the advanced international benchmark in reading achievement (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adults scoring below 241 points on the 0 to 500 point scale. Tasks are based on well-defined problems involving the use of only one function within a generic interface to meet one explicit criterion without any categorical or infThe 75th percentile score is the score below which 75 percent of students scored. Data were published for this indicator beginning with PASEC 2014. Consult the PASEC website for more detailed information: http://www.pasec.confemen.org/{p_end}
+{synopt:{opt Source Notes}}Male 4th grade students reaching the advanced international benchmark in reading achievement (%) is the share of male 4th grade students scoring at least 625 on the reading assessment. When reading Literary Texts, students at the advanced inteThe 75th percentile score is the score below which 75 percent of students scored. Data were published for this indicator beginning with PASEC 2014. Consult the PASEC website for more detailed information: http://www.pasec.confemen.org/{p_end}
 
-{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC)Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): http://www.pasec.confemen.org/{p_end}
+{synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA) Progress in International Reading Literacy Study (PIRLS)Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): http://www.pasec.confemen.org/{p_end}
 
 
 {synoptline}
@@ -15464,15 +15464,15 @@
 
 {synoptline}
 {marker sourceid_LO.PASEC.MAT5.HIG.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE} - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)PIRLS: Male 4th grade students reaching the advanced international benchmark in reading achievement (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.MAT5.HIG.FE:LO.PASEC.MAT5.HIG.FE} - PASEC: Female 5th grade students reaching the Knowledge Base Rate on the mathematics scale (%)PISA: Female 15-year-olds by mathematics proficiency level (%). Below Level 1}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Male 4th grade students reaching the advanced international benchmark in reading achievement (%) is the share of male 4th grade students scoring at least 625 on the reading assessment. When reading Literary Texts, students at the advanced inteShare of female students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old female students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as readinShare of female students scoring at least 40 percent on the PASEC mathematics exam. The Knowledge Base Rate is the minimum learning goal based on the programs of the level selected and appropriate to the scale of the tests used. Data reflects{p_end}
 
-{synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA) Progress in International Reading Literacy Study (PIRLS)Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
+{synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA)Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEM Education Systems (PASEC){p_end}
 
 
 {synoptline}
@@ -15986,12 +15986,12 @@
 
 {synoptline}
 {marker sourceid_LO.PASEC.REA.6.L3}
-{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.REA.6.L3:LO.PASEC.REA.6.L3} - PASEC: 6th grade students by reading proficiency level (%). Level 3PISA: Female 15-year-olds by mathematics proficiency level (%). Below Level 1}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PASEC.REA.6.L3:LO.PASEC.REA.6.L3} - PASEC: 6th grade students by reading proficiency level (%). Level 3PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1B}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old female students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as readinShare of 6th grade students scoring higher than 518.4 but lower than 595.1 on the PASEC reading scale. Students at level 3 have achieved the Sufficient Competency Threshold. They are able to combine two pieces of explicit information from a do{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring students below the lowest proficiency level (1B) on the PISA reading scale. Students with scores below Level 1b (less or equal to 262 points) usually do not succeed at the most basic reading taskShare of 6th grade students scoring higher than 518.4 but lower than 595.1 on the PASEC reading scale. Students at level 3 have achieved the Sufficient Competency Threshold. They are able to combine two pieces of explicit information from a do{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA)Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): http://www.pasec.confemen.org/{p_end}
 
@@ -16310,12 +16310,12 @@
 
 {synoptline}
 {marker sourceid_LO.PIAAC.LIT.FE.2}
-{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.FE.2:LO.PIAAC.LIT.FE.2} - PIAAC: Female adults by literacy proficiency level (%). Level 2PISA: Male 15-year-olds by reading proficiency level (%). Below Level 1B}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.FE.2:LO.PIAAC.LIT.FE.2} - PIAAC: Female adults by literacy proficiency level (%). Level 2PISA: Male 15-year-olds by reading proficiency level (%). Level 6}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring students below the lowest proficiency level (1B) on the PISA reading scale. Students with scores below Level 1b (less or equal to 262 points) usually do not succeed at the most basic reading taskPercentage of female adults scoring 226 to less than 276 points on the 0 to 500 point scale. At this level, the medium of texts may be digital or printed, and texts may comprise continuous, non-continuous, or mixed types. Tasks at this level r{p_end}
+{synopt:{opt Source Notes}}Percentage of 15-year-old male students scoring higher than 698 on the PISA reading scale. Tasks at Level 6 level typically require the reader to make multiple inferences, comparisons and contrasts that are both detailed and precise. They requPercentage of female adults scoring 226 to less than 276 points on the 0 to 500 point scale. At this level, the medium of texts may be digital or printed, and texts may comprise continuous, non-continuous, or mixed types. Tasks at this level r{p_end}
 
 {synopt:{opt Source Organization}}OECD Programme for International Student Assessment (PISA)OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
@@ -16598,14 +16598,14 @@
 
 {synoptline}
 {marker sourceid_LO.PIAAC.LIT.YOU.3}
-{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.YOU.3:LO.PIAAC.LIT.YOU.3} - PIAAC: Young adults by literacy proficiency level (%). Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.YOU.3:LO.PIAAC.LIT.YOU.3} - PIAAC: Young adults by literacy proficiency level (%). Level 3SACMEQ: Female 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study crePercentage of young (age 16-24) adults scoring 276 to less than 326 points on the 0 to 500 point scale. Texts at this level are often dense or lengthy, and include continuous, non-continuous, mixed, or multiple pages of text. Understanding tex{p_end}
+{synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers anPercentage of young (age 16-24) adults scoring 276 to less than 326 points on the 0 to 500 point scale. Texts at this level are often dense or lengthy, and include continuous, non-continuous, mixed, or multiple pages of text. Understanding tex{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationOECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
+{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC)Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, www.sacmeq.org{p_end}
 
 
 {synoptline}
@@ -17186,14 +17186,14 @@
 
 {synoptline}
 {marker sourceid_LO.PIAAC.TEC.3}
-{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.TEC.3:LO.PIAAC.TEC.3} - EGRA: Oral Reading Fluency - Share of students with a zero score (%). Hararigna. 2nd GradePIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.TEC.3:LO.PIAAC.TEC.3} - PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3TIMSS: Distribution of 4th Grade Mathematics Scores: 50th Percentile Score}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adults scoring equal to or higher than 341 points on the 0 to 500 point scale. At this level, tasks typically require the use of both generic and more specific technology applications. Some navigation across pages and applicationPercentage of students who were unable to read a single word of text on the oral reading fluency subtask. The oral reading fluency/paragraph reading subtask examines students' ability to read a narrative or informational text with accuracy, wi{p_end}
+{synopt:{opt Source Notes}}Percentage of adults scoring equal to or higher than 341 points on the 0 to 500 point scale. At this level, tasks typically require the use of both generic and more specific technology applications. Some navigation across pages and applicationThe 50th percentile score is the score below which 50 percent of students scored. Data reflects country performance in the stated year according to TIMSS reports, but may not be comparable across years or countries. Consult the TIMSS website f{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/OECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
+{synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science StudyOECD Programme for the International Assessment of Adult Competencies (PIAAC){p_end}
 
 
 {synoptline}
@@ -19149,14 +19149,14 @@
 
 {synoptline}
 {marker sourceid_LO.SACMEQ.MAT.L1}
-{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.MAT.L1:LO.SACMEQ.MAT.L1} - Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Starting salarySACMEQ: 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy}}
+{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.MAT.L1:LO.SACMEQ.MAT.L1} - SACMEQ: 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers and pictuStarting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
+{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchasPercentage of 6th grade students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers and pictu{p_end}
 
-{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD)Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, www.sacmeq.org{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, www.sacmeq.orgWorld Bank, International Comparison Program database.{p_end}
 
 
 {synoptline}
@@ -19601,9 +19601,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchasPercentage of 6th grade female students scoring at the Reading for Meaning level (Level 4 of 8) on the reading assessment. At this level, students can read on or read back in order to link and interpret information located in various parts of{p_end}
+{synopt:{opt Source Notes}}Gross public investment (see definition below) as a percentage of GDP (%) .  Public sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capPercentage of 6th grade female students scoring at the Reading for Meaning level (Level 4 of 8) on the reading assessment. At this level, students can read on or read back in order to link and interpret information located in various parts of{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, www.sacmeq.orgWorld Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, www.sacmeq.orgWorld Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -20030,7 +20030,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Gross public investment (see definition below) as a percentage of GDP (%) .  Public sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capThe 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to TIMSS reports, but may not be comparable across years or countries. Consult the TIMSS website f{p_end}
+{synopt:{opt Source Notes}}Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermedThe 25th percentile score is the score below which 25 percent of students scored. Data reflects country performance in the stated year according to TIMSS reports, but may not be comparable across years or countries. Consult the TIMSS website f{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science StudyWorld Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -20473,7 +20473,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermedTIMSS: Male 4th grade students who did not reach the low international benchmark of science achievement (%) is the share of male 4th grade students scoring below 400 on the science assessment. This indicator is calculated by subtracting the sh{p_end}
+{synopt:{opt Source Notes}}Annual growth rate for value added in services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (includingTIMSS: Male 4th grade students who did not reach the low international benchmark of science achievement (%) is the share of male 4th grade students scoring below 400 on the science assessment. This indicator is calculated by subtracting the sh{p_end}
 
 {synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science StudyWorld Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -20819,9 +20819,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Annual growth rate for value added in services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (includingTIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%) is the share of female 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can demonstrate understa{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (TIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%) is the share of female 8th grade students scoring at least 550 on the science assessment. Students at this benchmark can demonstrate understa{p_end}
 
-{synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science StudyWorld Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science StudyLange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 {synoptline}
@@ -21008,15 +21008,15 @@
 
 
 {synoptline}
-{marker sourceid_NE.GDI.FPUB.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KN:NE.GDI.FPUB.KN} - EGRA: Correct Letter Names Read Per Minute (Mean). Somaligna. 2nd GradeGDFI - public sector (constant LCU)}}
+{marker sourceid_NE.CON.PRVT.PC.KD.ZG}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.PC.KD.ZG:NE.CON.PRVT.PC.KD.ZG} - Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Starting salaryHouseholds and NPISHs Final consumption expenditure per capita growth (annual %)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets of{p_end}
+{synopt:{opt Source Notes}}Starting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD){p_end}
 
 
 {synoptline}
@@ -21122,9 +21122,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that representsTop of scale salaries reported refer to the scheduled maximum annual salary of a full-time classroom teacher with the minimum training to be fully qualified for the job. Salaries are in equivalent USD converted using PPPs for private consumpti{p_end}
+{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.Top of scale salaries reported refer to the scheduled maximum annual salary of a full-time classroom teacher with the minimum training to be fully qualified for the job. Salaries are in equivalent USD converted using PPPs for private consumpti{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).Organisation for Economic Co-operation and Development (OECD){p_end}
+{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD)World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -21453,14 +21453,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.15UP.1.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.15UP.1.MA:PRJ.ATT.15UP.1.MA} - Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Male}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.15UP.1.MA:PRJ.ATT.15UP.1.MA} - Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. MaleWittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the baseTotal population in thousands in the specified age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 
 {synoptline}
@@ -21837,14 +21837,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.2024.S1.FE}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2024.S1.FE:PRJ.ATT.2024.S1.FE} - Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Female}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2024.S1.FE:PRJ.ATT.2024.S1.FE} - Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. FemaleWittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (aroundTotal population in thousands in the specified age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (aroun{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 
 {synoptline}
@@ -22221,14 +22221,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.2064.4.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2064.4.MF:PRJ.ATT.2064.4.MF} - Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. TotalWittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Total}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2064.4.MF:PRJ.ATT.2064.4.MF} - Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) aTotal population in thousands in the specified age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (aroun{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) aThe objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
 
-{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development (www.oecd.org/dac/effectiveness/monitoring).Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -22610,9 +22610,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the populationShare of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all countShare of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
 
-{synopt:{opt Source Organization}}ASPIREWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/Worldwide Governance Indicators, The World Bank{p_end}
 
 
 {synoptline}
@@ -22989,14 +22989,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.60UP.2.FE}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.60UP.2.FE:PRJ.ATT.60UP.2.FE} - Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.60UP.2.FE:PRJ.ATT.60UP.2.FE} - SABER: (School Autonomy Accountability) Policy Goal 4 Lever 5: Publication of student assessmentsWittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
+{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=AdvancedShare of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World BankWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -23373,14 +23373,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.80UP.S1.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.80UP.S1.MF:PRJ.ATT.80UP.S1.MF} - SABER: (School Autonomy Accountability) Policy Goal 4 Lever 5: Publication of student assessmentsWittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Total}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.80UP.S1.MF:PRJ.ATT.80UP.S1.MF} - Net enrolment rate, pre-primary, female (%)Wittgenstein Projection: Percentage of the population age 80+ by highest level of educational attainment. Incomplete Primary. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=AdvancedShare of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (aroundTotal number of female students in the theoretical age group for pre-primary education enrolled in that level, expressed as a percentage of the total female population in that age group. Divide the number of female students enrolled who are of{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World BankWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -23793,12 +23793,12 @@
 
 {synoptline}
 {marker sourceid_PRJ.MYS.2064.FE}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.MYS.2064.FE:PRJ.MYS.2064.FE} - Net enrolment rate, pre-primary, female (%)Wittgenstein Projection: Mean years of schooling. Age 20-64. Female}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.MYS.2064.FE:PRJ.MYS.2064.FE} - Wittgenstein Projection: Mean years of schooling. Age 20-64. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-Total number of female students in the theoretical age group for pre-primary education enrolled in that level, expressed as a percentage of the total female population in that age group. Divide the number of female students enrolled who are of{p_end}
+{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
@@ -24225,14 +24225,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.POP.1519.NED.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.1519.NED.MF:PRJ.POP.1519.NED.MF} - Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.1519.NED.MF:PRJ.POP.1519.NED.MF} - Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%)Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.Total population in thousands in the specified age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection m{p_end}
+{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.Total population in thousands in the specified age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection m{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -24609,14 +24609,14 @@
 
 {synoptline}
 {marker sourceid_PRJ.POP.2529.4.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.2529.4.MA:PRJ.POP.2529.4.MA} - Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%)Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Male}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.2529.4.MA:PRJ.POP.2529.4.MA} - Wittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female share of graduates in the given field of education, tertiary is the number of female graduates expressed as a percentage of the total number of graduates in the given field of education from tertiary education.Total population in thousands in the specified age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (aroun{p_end}
+{synopt:{opt Source Notes}}NULLTotal population in thousands in the specified age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (aroun{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -26358,9 +26358,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=AdvancedMen who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both.{p_end}
+{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=AdvancedPercentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.The Systems Approach for Better Education Results (SABER), World Bank{p_end}
 
 
 {synoptline}
@@ -28820,8 +28820,8 @@
 
 
 {synoptline}
-{marker sourceid_SH.ACS.PERM.Q3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - Population, ages 5-9, maleProblems in accessing health care (getting permission to go for treatment) (% of women): Q3}}
+{marker sourceid_SH.STA.WAST.Q2.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.WAST.Q2.ZS:SH.STA.WAST.Q2.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q2Population, ages 5-9, male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -28829,30 +28829,6 @@
 {synopt:{opt Source Notes}}Population, ages 5-9, male is the total number of males age 5-9.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
-
-
-{synoptline}
-{marker sourceid_SH.HIV.1524.KW.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.KW.FE.ZS:SH.HIV.1524.KW.FE.ZS} - Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female (2 prevent ways and reject 3 misconceptions)UIS: Net attendance rate, primary, urban, both sexes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of students in the theoretical age group for primary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household survey-based{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_SH.XPD.PCAP.GX}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP.GX:SH.XPD.PCAP.GX} - Government health expenditure per capita (current US$)Share of male students in post-secondary non-tertiary education enrolled in vocational programmes (%)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Total number of male students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the post-{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -30266,6 +30242,18 @@
 
 
 {synoptline}
+{marker sourceid_SP.POP.6064.MA.5Y}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, both sexes (number)Population ages 60-64, male (% of male population)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are recognise{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_SP.POP.AG00.FE.IN}
 {synopt:{bf:{help wbopendata_sourceid##SP.POP.AG00.FE.IN:SP.POP.AG00.FE.IN} - Age population, age 0, female, interpolatedPopulation, age 0, female}}
 
@@ -31300,12 +31288,12 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG16.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG16.MA.IN:SP.POP.AG16.MA.IN} - Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, both sexes (number)Age population, age 16, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG16.MA.IN:SP.POP.AG16.MA.IN} - Africa Dataset: Average number of pupils per mathematics textbook in Grade 6 of primary education (number)Age population, age 16, male, interpolated}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total number of graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are recognise{p_end}
+{synopt:{opt Source Notes}}Average number of Grade 6 pupils per mathematics textbook in public primary schools. The data reported includes textbooks in all languages of instruction which are owned by schools and have been distributed to pupils on loan or kept in schools{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -32163,13 +32151,13 @@
 
 {synoptline}
 {marker sourceid_SP.TER.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.TER.TOTL.FE.IN:SP.TER.TOTL.FE.IN} - Africa Dataset: Average number of pupils per mathematics textbook in Grade 6 of primary education (number)School age population, tertiary education, female (number)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.TER.TOTL.FE.IN:SP.TER.TOTL.FE.IN} - Drop-out rate from Grade 3 of lower secondary general education, male (%)School age population, tertiary education, female (number)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Average number of Grade 6 pupils per mathematics textbook in public primary schools. The data reported includes textbooks in all languages of instruction which are owned by schools and have been distributed to pupils on loan or kept in schoolsFemale population of the age-group theoretically corresponding to tertiary education as indicated by theoretical entrance age and duration.{p_end}
+{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to tertiary education as indicated by theoretical entrance age and duration.Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -32202,19 +32190,7 @@
 
 {synoptline}
 {marker sourceid_SR.ARE.SURF.K2}
-{synopt:{bf:{help wbopendata_sourceid##SR.ARE.SURF.K2:SR.ARE.SURF.K2} - Drop-out rate from Grade 3 of lower secondary general education, male (%)Surface area (sq km)}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
-
-{synoptline}
-{marker sourceid_TM.TAX.MANF.SM.AR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS} - Enrolment in upper secondary education, public institutions, female (number)Tariff rate, applied, simple mean, manufactured products (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SR.ARE.SURF.K2:SR.ARE.SURF.K2} - Enrolment in upper secondary education, public institutions, female (number)Surface area (sq km)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -32225,8 +32201,8 @@
 
 
 {synoptline}
-{marker sourceid_TM.VAL.MRCH.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.KD.WB:TM.VAL.MRCH.KD.WB} - Merchandise imports (constant US$)UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Gender Parity Index}}
+{marker sourceid_TM.TAX.MANF.SM.AR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.SM.AR.ZS:TM.TAX.MANF.SM.AR.ZS} - Tariff rate, applied, simple mean, manufactured products (%)UIS: Percentage of population age 25+ with at least completed post-secondary education (ISCED 4 or higher). Gender Parity Index}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -32237,13 +32213,25 @@
 
 
 {synoptline}
-{marker sourceid_TX.VAL.MANF.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.CD.WB:TX.VAL.MANF.CD.WB} - Manufactures exports (current US$)UIS: Percentage of population age 25+ with some primary education. Female}}
+{marker sourceid_TM.VAL.MRCH.KD.WB}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.KD.WB:TM.VAL.MRCH.KD.WB} - Merchandise imports (constant US$)UIS: Percentage of population age 25+ with some primary education. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
 {synopt:{opt Source Notes}}The percentage of female population (age 25 and over) with incomplete primary as the highest level of educational attainment. This indicator is calculated by dividing the number of females aged 25 years and above with incomplete primary educat{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
+{marker sourceid_TX.VAL.MANF.CD.WB}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.CD.WB:TX.VAL.MANF.CD.WB} - Graduates from ISCED 7 programmes in tertiary education, female (number)Manufactures exports (current US$)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of female students successfully completing programmes on the masters or equivalent (ISCED 7) level during the reference academic year in public and private tertiary education institutions.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -32466,12 +32454,12 @@
 
 {synoptline}
 {marker sourceid_UIS.AFR.GTC.1T3.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTC.1T3.F:UIS.AFR.GTC.1T3.F} - Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, female (number)Graduates from ISCED 7 programmes in tertiary education, female (number)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.AFR.GTC.1T3.F:UIS.AFR.GTC.1T3.F} - Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, female (number)Share of male students in post-secondary non-tertiary education enrolled in vocational programmes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Total number of female graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are reTotal number of female students successfully completing programmes on the masters or equivalent (ISCED 7) level during the reference academic year in public and private tertiary education institutions.{p_end}
+{synopt:{opt Source Notes}}Total number of female graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are reTotal number of male students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the post-{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -33572,14 +33560,14 @@
 
 {synoptline}
 {marker sourceid_UIS.DR.2.GPV.G3.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.DR.2.GPV.G3.F:UIS.DR.2.GPV.G3.F} - Drop-out rate from Grade 3 of lower secondary general education, female (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.DR.2.GPV.G3.F:UIS.DR.2.GPV.G3.F} - Drop-out rate from Grade 3 of lower secondary general education, female (%)UIS: Net attendance rate, lower secondary, rural, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 65-69.Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rat{p_end}
+{synopt:{opt Source Notes}}Proportion of female pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition ratTotal number of students in the theoretical age group for lower secondary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household surve{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38213,14 +38201,14 @@
 
 {synoptline}
 {marker sourceid_UIS.NAR.1.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.Q5.M:UIS.NAR.1.Q5.M} - UIS: Net attendance rate, primary, richest quintile, male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.Q5.M:UIS.NAR.1.Q5.M} - UIS: Net attendance rate, primary, richest quintile, male (%)UIS: Rate of out-of-school children of primary school age, fourth quintile, both sexes (household survey data) (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}NULLTotal number of students in the theoretical age group for primary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household survey-based{p_end}
+{synopt:{opt Source Notes}}Number of children of official primary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official primary school age children in the household sTotal number of students in the theoretical age group for primary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household survey-based{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38261,14 +38249,14 @@
 
 {synoptline}
 {marker sourceid_UIS.NAR.1.RUR.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.RUR.M:UIS.NAR.1.RUR.M} - UIS: Net attendance rate, primary, rural, male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.RUR.M:UIS.NAR.1.RUR.M} - UIS: Net attendance rate, primary, rural, male (%)UIS: Net attendance rate, primary, urban, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the populationTotal number of students in the theoretical age group for primary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household survey-based{p_end}
+{synopt:{opt Source Notes}}Total number of students in the theoretical age group for primary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household survey-based{p_end}
 
-{synopt:{opt Source Organization}}ASPIREUNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -38597,12 +38585,12 @@
 
 {synoptline}
 {marker sourceid_UIS.NAR.2.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.2.Q5.M:UIS.NAR.2.Q5.M} - UIS: Net attendance rate, lower secondary, richest quintile, male (%)UIS: Rate of out-of-school children of primary school age, fourth quintile, both sexes (household survey data) (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.2.Q5.M:UIS.NAR.2.Q5.M} - UIS: Net attendance rate, lower secondary, richest quintile, male (%)UIS: Rate of out-of-school adolescents of lower secondary school age, fourth quintile, both sexes (household survey data) (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Number of children of official primary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official primary school age children in the household sTotal number of students in the theoretical age group for lower secondary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household surve{p_end}
+{synopt:{opt Source Notes}}Number of children of official lower secondary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official lower secondary school age children inTotal number of students in the theoretical age group for lower secondary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household surve{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -38981,12 +38969,12 @@
 
 {synoptline}
 {marker sourceid_UIS.NARA.1.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q5.M:UIS.NARA.1.Q5.M} - UIS: Adjusted net attendance rate, primary, richest quintile, male (%)UIS: Rate of out-of-school adolescents of lower secondary school age, fourth quintile, both sexes (household survey data) (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NARA.1.Q5.M:UIS.NARA.1.Q5.M} - School life expectancy, primary and lower secondary, female (years)UIS: Adjusted net attendance rate, primary, richest quintile, male (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Number of children of official lower secondary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official lower secondary school age children inTotal number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
+{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified levels of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levelTotal number of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institute for S{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -39365,12 +39353,12 @@
 
 {synoptline}
 {marker sourceid_UIS.NART.2.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NART.2.Q5.M:UIS.NART.2.Q5.M} - School life expectancy, primary and lower secondary, female (years)UIS: Total net attendance rate, lower secondary, richest quintile, male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NART.2.Q5.M:UIS.NART.2.Q5.M} - Survival rate to the last grade of lower secondary general education, male (%)UIS: Total net attendance rate, lower secondary, richest quintile, male (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified levels of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levelTotal number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number ofTotal number of students of the official lower secondary school age group who attended primary or secondary education at any time during the reference academic year, expressed as a percentage of the corresponding population. The UNESCO Institu{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -39951,12 +39939,12 @@
 
 {synoptline}
 {marker sourceid_UIS.NIR.1.AGM1.GPI}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NIR.1.AGM1.GPI:UIS.NIR.1.AGM1.GPI} - Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), gender parity index (GPI)Survival rate to the last grade of lower secondary general education, male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NIR.1.AGM1.GPI:UIS.NIR.1.AGM1.GPI} - Initial government funding of upper secondary education as a percentage of GDP (%)Net intake rate to Grade 1 of primary education by under-age entrants (-1 year), gender parity index (GPI)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of a cohort of male students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number ofRatio of female net intake rate to grade 1 of primary education by under-age entrants to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to{p_end}
+{synopt:{opt Source Notes}}Ratio of female net intake rate to grade 1 of primary education by under-age entrants to the male value for the same indicator. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal toTotal general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -41092,13 +41080,13 @@
 
 {synoptline}
 {marker sourceid_UIS.REPP.1.G4}
-{synopt:{bf:{help wbopendata_sourceid##UIS.REPP.1.G4:UIS.REPP.1.G4} - Initial government funding of upper secondary education as a percentage of GDP (%)Percentage of repeaters in Grade 4 of primary education, both sexes (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.REPP.1.G4:UIS.REPP.1.G4} - Current expenditure as % of total expenditure in secondary public institutions (%)Percentage of repeaters in Grade 4 of primary education, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide tTotal number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
+{synopt:{opt Source Notes}}Current expenditure expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from dTotal number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a giv{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -41687,13 +41675,13 @@
 
 {synoptline}
 {marker sourceid_UIS.REPR.1.G4}
-{synopt:{bf:{help wbopendata_sourceid##UIS.REPR.1.G4:UIS.REPR.1.G4} - Current expenditure as % of total expenditure in secondary public institutions (%)Repetition rate in Grade 4 of primary education, both sexes (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.REPR.1.G4:UIS.REPR.1.G4} - Initial household funding per secondary student, constant US$Repetition rate in Grade 4 of primary education, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Current expenditure expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from dNumber of repeaters in a given grade in a given school year, expressed as a percentage of enrolment in that grade the previous school year. Divide the number of repeaters in a given grade in school year t+1 by the number of pupils from the sam{p_end}
+{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years befNumber of repeaters in a given grade in a given school year, expressed as a percentage of enrolment in that grade the previous school year. Divide the number of repeaters in a given grade in school year t+1 by the number of pupils from the sam{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -42356,14 +42344,14 @@
 
 {synoptline}
 {marker sourceid_UIS.ROFST.H.1.Q3.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.1.Q3.M:UIS.ROFST.H.1.Q3.M} - Initial household funding per secondary student, constant US$UIS: Rate of out-of-school children of primary school age, middle quintile, male (household survey data) (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.1.Q3.M:UIS.ROFST.H.1.Q3.M} - UIS: Rate of out-of-school children of primary school age, middle quintile, male (household survey data) (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years befNumber of children of official primary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official primary school age children in the household s{p_end}
+{synopt:{opt Source Notes}}NULLNumber of children of official primary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official primary school age children in the household s{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -42649,9 +42637,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}NULLNumber of children of official lower secondary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official lower secondary school age children in{p_end}
+{synopt:{opt Source Notes}}Number of children of official lower secondary school age who did not attend primary or secondary school at any time during the reference academic year, expressed as a percentage of the number of official lower secondary school age children inPercentage of households who have a water source on their premises{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -43049,14 +43037,14 @@
 
 {synoptline}
 {marker sourceid_UIS.SLE.12}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.12:UIS.SLE.12} - School life expectancy, primary and lower secondary, both sexes (years)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.12:UIS.SLE.12} - School life expectancy, primary and lower secondary, both sexes (years)Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}NULLNumber of years a person of school entrance age can expect to spend within the specified levels of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the level{p_end}
+{synopt:{opt Source Notes}}Number of years a person of school entrance age can expect to spend within the specified levels of education. For a child of a certain age a, the school life expectancy is calculated as the sum of the age specific enrolment rates for the levelShare of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -43428,15 +43416,15 @@
 
 {synoptline}
 {marker sourceid_UIS.SR.2.GPV.GLAST.CP.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SR.2.GPV.GLAST.CP.F:UIS.SR.2.GPV.GLAST.CP.F} - Survival rate to the last grade of lower secondary general education, female (%)UIS: Net attendance rate, lower secondary, rural, both sexes (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SR.2.GPV.GLAST.CP.F:UIS.SR.2.GPV.GLAST.CP.F} - Survival rate to the last grade of lower secondary general education, female (%)Wittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
-{synopt:{opt Source Notes}}Percentage of a cohort of female students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total numberTotal number of students in the theoretical age group for lower secondary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household surve{p_end}
+{synopt:{opt Source Notes}}Percentage of a cohort of female students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total numberShare of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -44815,7 +44803,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. TheTotal general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide t{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
@@ -44827,7 +44815,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The{p_end}
 
 {synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
@@ -44839,7 +44827,7 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The{p_end}
 
 {synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
@@ -44851,19 +44839,19 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The{p_end}
 
 {synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_UIS.XGDP.3.FSGOV}
-{synopt:{bf:{help wbopendata_sourceid##UIS.XGDP.3.FSGOV:UIS.XGDP.3.FSGOV} - Government expenditure on upper secondary education as a percentage of GDP (%)Wittgenstein Projection: Mean years of schooling. Age 20-64. Male}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.XGDP.3.FSGOV:UIS.XGDP.3.FSGOV} - Government expenditure on upper secondary education as a percentage of GDP (%)Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The{p_end}
 
 {synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
@@ -45367,12 +45355,12 @@
 
 {synoptline}
 {marker sourceid_UIS.XSPENDP.23.FDPUB.FNCAP}
-{synopt:{bf:{help wbopendata_sourceid##UIS.XSPENDP.23.FDPUB.FNCAP:UIS.XSPENDP.23.FDPUB.FNCAP} - Capital expenditure as % of total expenditure in secondary public institutions (%)Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Female}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.XSPENDP.23.FDPUB.FNCAP:UIS.XSPENDP.23.FDPUB.FNCAP} - Capital expenditure as % of total expenditure in secondary public institutions (%)Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Capital expenditure expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from dTotal population in thousands in the specified age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year{p_end}
+{synopt:{opt Source Notes}}Capital expenditure expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded from dShare of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
@@ -46204,9 +46192,9 @@
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years befThe poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.{p_end}
+{synopt:{opt Source Notes}}Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed in US$ at market exchange rates, in constant prices. The constant prices base year is normally three years befInternational concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donUNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -46323,44 +46311,20 @@
 
 
 {synoptline}
-{marker sourceid_fin27c1.t.d}
-{synopt:{bf:{help wbopendata_sourceid##fin27c1.t.d:fin27c1.t.d} - Received domestic remittances: in person and in cash only (% age 15+)TIMSS: Distribution of 4th Grade Mathematics Scores: 50th Percentile Score}}
+{marker sourceid_fin1.t.a.11}
+{synopt:{bf:{help wbopendata_sourceid##fin1.t.a.11:fin1.t.a.11} - EGRA: Correct Isolated Words Read Per Minute (Mean). Bomu. 2nd GradeFinancial institution account, out of labor force (% age 15+)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The 50th percentile score is the score below which 50 percent of students scored. Data reflects country performance in the stated year according to TIMSS reports, but may not be comparable across years or countries. Consult the TIMSS website f{p_end}
+{synopt:{opt Source Notes}}Average total number of familiar words correctly read per minute. The familiar word reading subtask tests students' ability to read a list of one or two syllable words drawn from a corpus of frequent words presented in random order. Users are{p_end}
 
-{synopt:{opt Source Organization}}International Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
-
-
-{synoptline}
-{marker sourceid_per_allsp.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_pop_preT_tot:per_allsp.avt_pop_preT_tot} - Average per capita transfer -All Social Protection and Labor (preT)Barro-Lee: Percentage of female population age 75+ with no education}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of female population age 75+ with no education{p_end}
-
-{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: {browse "http://www.barrolee.com/"}{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
 
 {synoptline}
-{marker sourceid_per_sa_cc.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -ruralWittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Total}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
-
-{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
-
-
-{synoptline}
-{marker sourceid_per_sa_pw.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_urb:per_sa_pw.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urbanWittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Total}}
+{marker sourceid_per_sa_fw.ben_q2_preT_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_preT_tot:per_sa_fw.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Subsidies (preT)Wittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -46371,32 +46335,8 @@
 
 
 {synoptline}
-{marker sourceid_per_sa_sf.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - School FeedingWittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Male}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around{p_end}
-
-{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
-
-
-{synoptline}
-{marker sourceid_per_sa_sp.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q2_rur:per_sa_sp.cov_q2_rur} - Coverage in 2nd quintile (%) - Social Pensions -ruralWittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. No Education. Female}}
-
-{synopt:{opt Source}}12 Education Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The{p_end}
-
-{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
-
-
-{synoptline}
-{marker sourceid_per_si_allsi.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT)Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Male}}
+{marker sourceid_per_si_cp.bry_q5_rur}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_rur:per_si_cp.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -ruralWittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -46407,13 +46347,13 @@
 
 
 {synoptline}
-{marker sourceid_per_si_cp.bry_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_rur:per_si_cp.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -ruralWittgenstein Projection: Percentage of the total population by highest level of educational attainment. Primary. Female}}
+{marker sourceid_per_si_ss.cov_ep_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social InsuranceWittgenstein Projection: Mean years of schooling. Age 20-64. Male}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-{p_end}
 
 {synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
 
@@ -46431,4 +46371,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_2.0.hoi.Ele}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Ele:2.0.hoi.Ele} - HOI: ElectricityInternational aid disbursed to total education, DFID to Ethiopia (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Ele:2.0.hoi.Ele} - HOI: ElectricityInternational aid disbursed to total education, AfDB to Guinea (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -214,18 +214,6 @@
 {synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitiveThe lower secondary school completion rate is the percentage of children who are completing the last year of lower secondary education. It is computed by dividing the total number of students in the last grade of lower secondary education scho{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationLAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_3.0.Gini}
-{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini CoefficientInternational aid disbursed to total education, AfDB to Djibouti (USD million)}}
-
-{synopt:{opt Source}}34 Global Partnership for Education{p_end}
-
-
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
-
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -458,14 +446,14 @@
 
 {synoptline}
 {marker sourceid_4.1_TOTAL.EDU.SPENDING}
-{synopt:{bf:{help wbopendata_sourceid##4.1_TOTAL.EDU.SPENDING:4.1_TOTAL.EDU.SPENDING} - International aid disbursed to total education, IsDB to Djibouti (USD million)Public spending on total education (% of total public spending)}}
+{synopt:{bf:{help wbopendata_sourceid##4.1_TOTAL.EDU.SPENDING:4.1_TOTAL.EDU.SPENDING} - Public spending on total education (% of total public spending)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalPublic expenses devoted to the education sector, including recurrent and capital expenditures and teacher salaries, expressed as a percentage of the total general government expenses. Country-specific definition, method and targets are determi{p_end}
+{synopt:{opt Source Notes}}Public expenses devoted to the education sector, including recurrent and capital expenditures and teacher salaries, expressed as a percentage of the total general government expenses. Country-specific definition, method and targets are determiThe Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationLAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -686,14 +674,14 @@
 
 {synoptline}
 {marker sourceid_5.1.11_MOZ.TOTA.AID.NLD}
-{synopt:{bf:{help wbopendata_sourceid##5.1.11_MOZ.TOTA.AID.NLD:5.1.11_MOZ.TOTA.AID.NLD} - International aid disbursed to total education, Netherlands to Mozambique (USD million)International aid disbursed to total education, WFP to Laos (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.11_MOZ.TOTA.AID.NLD:5.1.11_MOZ.TOTA.AID.NLD} - International aid disbursed to total education, Netherlands to Mozambique (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalShare of the female population ages 15-18 that is neither employed nor in school.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -1070,14 +1058,14 @@
 
 {synoptline}
 {marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
-{synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - International aid disbursed to total education, GPE to Mozambique (USD million)International aid disbursed to total education, UNICEF to Moldova (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - International aid disbursed to total education, UNICEF to Moldova (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -1586,14 +1574,14 @@
 
 {synoptline}
 {marker sourceid_5.1.3_DJI.TOTA.AID.AFD}
-{synopt:{bf:{help wbopendata_sourceid##5.1.3_DJI.TOTA.AID.AFD:5.1.3_DJI.TOTA.AID.AFD} - International aid disbursed to total education, AFD to Djibouti (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.3_DJI.TOTA.AID.AFD:5.1.3_DJI.TOTA.AID.AFD} - International aid disbursed to basic education, World Bank to Cambodia (USD million)International aid disbursed to total education, AFD to Djibouti (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalNumeracy is defined as the ability to access, use, interpret and communicate mathematical information and ideas in order to engage in and manage the mathematical demands of a range of situations in adult life. To this end, numeracy involves ma{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalInternational concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
-{synopt:{opt Source Organization}}OECD Programme for the International Assessment of Adult Competencies (PIAAC)The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -1874,12 +1862,12 @@
 
 {synoptline}
 {marker sourceid_5.1.4_CMR.TOTA.AID.JICA}
-{synopt:{bf:{help wbopendata_sourceid##5.1.4_CMR.TOTA.AID.JICA:5.1.4_CMR.TOTA.AID.JICA} - International aid disbursed to total education, AfDB to Guinea (USD million)International aid disbursed to total education, JICA to Cameroun (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.4_CMR.TOTA.AID.JICA:5.1.4_CMR.TOTA.AID.JICA} - International aid disbursed to basic education, ADPP (Humana People to People) to Guinea Bissau (USD million)International aid disbursed to total education, JICA to Cameroun (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalInternational concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
@@ -2162,7 +2150,7 @@
 
 {synoptline}
 {marker sourceid_5.1.5_CMR.TOTA.AID.UNESCO}
-{synopt:{bf:{help wbopendata_sourceid##5.1.5_CMR.TOTA.AID.UNESCO:5.1.5_CMR.TOTA.AID.UNESCO} - International aid disbursed to basic education, ADPP (Humana People to People) to Guinea Bissau (USD million)International aid disbursed to total education, UNESCO to Cameroun (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.5_CMR.TOTA.AID.UNESCO:5.1.5_CMR.TOTA.AID.UNESCO} - International aid disbursed to basic education, USAID to Georgia (USD million)International aid disbursed to total education, UNESCO to Cameroun (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -2738,14 +2726,14 @@
 
 {synoptline}
 {marker sourceid_5.1.7_MDG.TOTA.AID.UNESCO}
-{synopt:{bf:{help wbopendata_sourceid##5.1.7_MDG.TOTA.AID.UNESCO:5.1.7_MDG.TOTA.AID.UNESCO} - International aid to total education executed by UNESCO in Madagascar (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.7_MDG.TOTA.AID.UNESCO:5.1.7_MDG.TOTA.AID.UNESCO} - International aid disbursed to basic education, European Commission to Ethiopia (USD million)International aid to total education executed by UNESCO in Madagascar (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalShare of 6th grade students scoring higher than 595.1 on the PASEC reading scale. Students at level 4 have achieved the Sufficient Competency Threshold and have an overall understanding of narrative passages, informative texts and documents. T{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalInternational concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
-{synopt:{opt Source Organization}}Programme d'Analyse des Systèmes Educatifs de la CONFEMEN/Program for the Analysis of CONFEMEN Education Systems (PASEC): http://www.pasec.confemen.org/The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -3026,7 +3014,7 @@
 
 {synoptline}
 {marker sourceid_5.1.9_KHM.TOTA.AID.USAID}
-{synopt:{bf:{help wbopendata_sourceid##5.1.9_KHM.TOTA.AID.USAID:5.1.9_KHM.TOTA.AID.USAID} - International aid disbursed to basic education, European Commission to Ethiopia (USD million)International aid disbursed to total education, USAID to Cambodia (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.9_KHM.TOTA.AID.USAID:5.1.9_KHM.TOTA.AID.USAID} - International aid disbursed to basic education, KfW to Guinea (USD million)International aid disbursed to total education, USAID to Cambodia (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -3254,7 +3242,7 @@
 
 {synoptline}
 {marker sourceid_5.2.11_ETH.BAS.AID.JICA}
-{synopt:{bf:{help wbopendata_sourceid##5.2.11_ETH.BAS.AID.JICA:5.2.11_ETH.BAS.AID.JICA} - International aid disbursed to basic education, JICA to Ethiopia (USD million)International aid disbursed to basic education, WFP to Mauritania (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.11_ETH.BAS.AID.JICA:5.2.11_ETH.BAS.AID.JICA} - International aid disbursed to basic education, JICA to Ethiopia (USD million)International aid disbursed to basic education, WFP to Laos (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -3590,7 +3578,7 @@
 
 {synoptline}
 {marker sourceid_5.2.1_KHM.BAS.AID.BAD}
-{synopt:{bf:{help wbopendata_sourceid##5.2.1_KHM.BAS.AID.BAD:5.2.1_KHM.BAS.AID.BAD} - International aid disbursed to basic education, AfDB to Cambodia (USD million)International aid disbursed to basic education, KfW to Guinea (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.1_KHM.BAS.AID.BAD:5.2.1_KHM.BAS.AID.BAD} - International aid disbursed to basic education, AfDB to Cambodia (USD million)International aid disbursed to basic education, WFP to Mauritania (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -3878,14 +3866,14 @@
 
 {synoptline}
 {marker sourceid_5.2.2_GIN.BAS.AID.ADPP.AFDB}
-{synopt:{bf:{help wbopendata_sourceid##5.2.2_GIN.BAS.AID.ADPP.AFDB:5.2.2_GIN.BAS.AID.ADPP.AFDB} - International aid disbursed to basic education, AfDB to Guinea (USD million)International aid disbursed to basic education, WFP to Laos (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.2_GIN.BAS.AID.ADPP.AFDB:5.2.2_GIN.BAS.AID.ADPP.AFDB} - Date of last Joint Education Sector Review (year=full date in notes)International aid disbursed to basic education, AfDB to Guinea (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Date of most recent Joint Sector Review (JSR) carried out by the Local Education Group (LEG). A JSR is a monitoring and review mechanism where LEG members get together to assess progress, challenges and funding of the education sector. They prInternational concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was preThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -4166,14 +4154,14 @@
 
 {synoptline}
 {marker sourceid_5.2.3_ETH.BAS.AID.DFID}
-{synopt:{bf:{help wbopendata_sourceid##5.2.3_ETH.BAS.AID.DFID:5.2.3_ETH.BAS.AID.DFID} - Date of last Joint Education Sector Review (year=full date in notes)International aid disbursed to basic education, DFID to Ethiopia (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.3_ETH.BAS.AID.DFID:5.2.3_ETH.BAS.AID.DFID} - International aid disbursed to basic education, DFID to Ethiopia (USD million)SACMEQ in Malawi, standards 3,5,7, Reading (mean score)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}Date of most recent Joint Sector Review (JSR) carried out by the Local Education Group (LEG). A JSR is a monitoring and review mechanism where LEG members get together to assess progress, challenges and funding of the education sector. They prInternational concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalMean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was preThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -4454,12 +4442,12 @@
 
 {synoptline}
 {marker sourceid_5.2.4_DJI.BAS.AID.AFDB}
-{synopt:{bf:{help wbopendata_sourceid##5.2.4_DJI.BAS.AID.AFDB:5.2.4_DJI.BAS.AID.AFDB} - International aid disbursed to basic education, AfDB to Djibouti (USD million)SACMEQ in Malawi, standards 3,5,7, Reading (mean score)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.4_DJI.BAS.AID.AFDB:5.2.4_DJI.BAS.AID.AFDB} - International aid disbursed to basic education, AfDB to Djibouti (USD million)National assessment for learning outcomes in Niger, CM2, Mathematics (mean score)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalMean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalMean scores calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country.{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
@@ -4742,12 +4730,12 @@
 
 {synoptline}
 {marker sourceid_5.2.5_DJI.BAS.AID.ISDB}
-{synopt:{bf:{help wbopendata_sourceid##5.2.5_DJI.BAS.AID.ISDB:5.2.5_DJI.BAS.AID.ISDB} - International aid disbursed to basic education, IsDB to Djibouti (USD million)National assessment for learning outcomes in Niger, CM2, Mathematics (mean score)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.5_DJI.BAS.AID.ISDB:5.2.5_DJI.BAS.AID.ISDB} - International aid disbursed to basic education, IsDB to Djibouti (USD million)PASEC in Mauritania, grade 5, Mathematics (mean score)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalMean scores calculated for the results of the national assessment carried out in the specific grade and subject, as reported by the Local Education Group (LEG). Country-specific definition and method are determined by the country.{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalMean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study cre{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
@@ -5762,14 +5750,14 @@
 
 {synoptline}
 {marker sourceid_6.3_LEG.CSO}
-{synopt:{bf:{help wbopendata_sourceid##6.3_LEG.CSO:6.3_LEG.CSO} - Civil society organizations in Local Education Group (1=text in notes)}}
+{synopt:{bf:{help wbopendata_sourceid##6.3_LEG.CSO:6.3_LEG.CSO} - Civil society organizations in Local Education Group (1=text in notes)International aid disbursed to total education, WFP to Laos (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}Local and international civil society organizations (CSO) participating in the Local Education Group (LEG), excluding development partners and government and public entities. The LEG is the local structure of the Global Partnership for EducatiShare of the female population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalLocal and international civil society organizations (CSO) participating in the Local Education Group (LEG), excluding development partners and government and public entities. The LEG is the local structure of the Global Partnership for Educati{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was preLAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was preThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -7190,14 +7178,14 @@
 
 {synoptline}
 {marker sourceid_8.3.2_MOZ.SACMEQ.TEST.6.MAT}
-{synopt:{bf:{help wbopendata_sourceid##8.3.2_MOZ.SACMEQ.TEST.6.MAT:8.3.2_MOZ.SACMEQ.TEST.6.MAT} - International aid disbursed to basic education, USAID to Georgia (USD million)SACMEQ in Mozambique, grade 5, Mathematics (mean score)}}
+{synopt:{bf:{help wbopendata_sourceid##8.3.2_MOZ.SACMEQ.TEST.6.MAT:8.3.2_MOZ.SACMEQ.TEST.6.MAT} - SACMEQ in Mozambique, grade 5, Mathematics (mean score)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalMean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQ{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. SACMEQPercentage of female population age 75+ with no education{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationRobert J. Barro and Jong-Wha Lee: http://www.barrolee.com/{p_end}
 
 
 {synoptline}
@@ -7363,9 +7351,9 @@
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study creNet bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Average years of total schooling, 25-29, total is the average years of education completed among people age 25-29.Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study cre{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationDevelopment Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationRobert J. Barro and Jong-Wha Lee: http://www.barrolee.com/{p_end}
 
 
 {synoptline}
@@ -7723,7 +7711,7 @@
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}Average years of total schooling, 25-29, total is the average years of education completed among people age 25-29.Students with results above the minimal competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-sp{p_end}
+{synopt:{opt Source Notes}}Percentage of population age 30-34 with tertiary schooling. Completed TertiaryStudents with results above the minimal competency in the National Education Assessment (NEA) carried out in the specific subject and grade, using multiple choice items with 4 options, as reported by the Local Education Group (LEG). Country-sp{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationRobert J. Barro and Jong-Wha Lee: http://www.barrolee.com/{p_end}
 
@@ -8083,9 +8071,9 @@
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Progress in International Reading Literacy Study (PIRLS) on the reading achievement of fourth grade students, as reported by the Local Education Group (LEG). It was first conduced in 2001 and then eNULL{p_end}
+{synopt:{opt Source Notes}}Mean score calculated for the results of the Progress in International Reading Literacy Study (PIRLS) on the reading achievement of fourth grade students, as reported by the Local Education Group (LEG). It was first conduced in 2001 and then ePesticides refer to insecticides, fungicides, herbicides, disinfectants and any substance or mixture of substances intended for preventing, destroying or controlling any pest, including vectors of human or animal disease, unwanted species of p{p_end}
 
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationThe Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other educationFood and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -8425,30 +8413,6 @@
 
 
 {synoptline}
-{marker sourceid_DT.DOD.DSTM.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.BE.US:DT.DOD.DSTM.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Beginning of period, USDInternational aid disbursed to total education, WFP to Djibouti (USD million)}}
-
-{synopt:{opt Source}}34 Global Partnership for Education{p_end}
-
-
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
-
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
-
-
-{synoptline}
-{marker sourceid_LO.PIAAC.LIT.YOU.3}
-{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.YOU.3:LO.PIAAC.LIT.YOU.3} - PASEC in Mauritania, grade 5, Mathematics (mean score)PIAAC: Young adults by literacy proficiency level (%). Level 3}}
-
-{synopt:{opt Source}}34 Global Partnership for Education{p_end}
-
-
-{synopt:{opt Source Notes}}Mean score calculated for the results of the Programme on the Analysis of Education Systems (PASEC) in the specific subject and grade, as reported by the Local Education Group (LEG) of the evaluated country. PASEC is an international study cre{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
-
-
-{synoptline}
 {marker sourceid_NV.SRV.TETC.KD}
 {synopt:{bf:{help wbopendata_sourceid##NV.SRV.TETC.KD:NV.SRV.TETC.KD} - International aid disbursed to total education, World Bank to Malawi (USD million)Services, etc., value added (constant 2010 US$)}}
 
@@ -8461,20 +8425,68 @@
 
 
 {synoptline}
-{marker sourceid_fin34a.14.a}
-{synopt:{bf:{help wbopendata_sourceid##fin34a.14.a:fin34a.14.a} - International aid disbursed to basic education, World Bank to Cambodia (USD million)Paid school fees: using cash only (% age 15+)}}
+{marker sourceid_UIS.XUNIT.USCONST.23.FSGOV}
+{synopt:{bf:{help wbopendata_sourceid##UIS.XUNIT.USCONST.23.FSGOV:UIS.XUNIT.USCONST.23.FSGOV} - Initial government funding per secondary student, constant US$International aid to total education executed by World Bank (including GPE funds) in Madagascar (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
 {synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
-{marker sourceid_per_lm_alllm.adq_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.adq_q1_tot:per_lm_alllm.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - All Labor MarketInternational aid to total education executed by World Bank (including GPE funds) in Madagascar (USD million)}}
+{marker sourceid_fin22a.t.d.9}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.d.9:fin22a.t.d.9} - Borrowed from a financial institution or used a credit card, rural (% age 15+)International aid disbursed to total education, DFID to Ethiopia (USD million)}}
+
+{synopt:{opt Source}}34 Global Partnership for Education{p_end}
+
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+
+
+{synoptline}
+{marker sourceid_fin25c.a.s.7}
+{synopt:{bf:{help wbopendata_sourceid##fin25c.a.s.7:fin25c.a.s.7} - International aid disbursed to total education, AfDB to Djibouti (USD million)Main source of emergency funds: money from working, income, poorest 40% (% able to raise funds, age 15+)}}
+
+{synopt:{opt Source}}34 Global Partnership for Education{p_end}
+
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+
+
+{synoptline}
+{marker sourceid_fin27c1.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin27c1.t.d:fin27c1.t.d} - International aid disbursed to total education, IsDB to Djibouti (USD million)Received domestic remittances: in person and in cash only (% age 15+)}}
+
+{synopt:{opt Source}}34 Global Partnership for Education{p_end}
+
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+
+
+{synoptline}
+{marker sourceid_fin34a.14.a}
+{synopt:{bf:{help wbopendata_sourceid##fin34a.14.a:fin34a.14.a} - International aid disbursed to total education, WFP to Djibouti (USD million)Paid school fees: using cash only (% age 15+)}}
+
+{synopt:{opt Source}}34 Global Partnership for Education{p_end}
+
+
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+
+
+{synoptline}
+{marker sourceid_fin42.t.a.4}
+{synopt:{bf:{help wbopendata_sourceid##fin42.t.a.4:fin42.t.a.4} - International aid disbursed to total education, GPE to Mozambique (USD million)Received payments for agricultural products in the past year, older adults  (% age 25+)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -8485,4 +8497,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
