@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,20 +61,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:29 The Atlas of Social Protection: Indicators of Resilience and Equity}}}
 {synoptline}
-{marker sourceid_8.3.7_MDA.PIRLS.READ.4.MEAN}
-{synopt:{bf:{help wbopendata_sourceid##8.3.7_MDA.PIRLS.READ.4.MEAN:8.3.7_MDA.PIRLS.READ.4.MEAN} - Average per capita transfer -All Social Protection and Labor -ruralPIRLS in Moldova, grade 4, Reading (mean score)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}NULL{p_end}
-
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
-
-
-{synoptline}
-{marker sourceid_AG.PRD.GAGRI.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GAGRI.XD:AG.PRD.GAGRI.XD} - Agriculture production index (gross, 1999-2001 = 100)Share of employed - working age}}
+{marker sourceid_AG.CRP.FNO.CN}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Producer Price for Fonio (per tonne, current LCU)Share of employed - working age}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -87,6 +75,18 @@
 {synoptline}
 {marker sourceid_CC.STD.ERR}
 {synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - Control of Corruption: Standard ErrorShare of employed in agriculture - elderly}}
+
+{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}NULL{p_end}
+
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+
+
+{synoptline}
+{marker sourceid_NE.GDI.FPUB.KN}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KN:NE.GDI.FPUB.KN} - Average per capita transfer -All Social Protection and Labor -ruralGDFI - public sector (constant LCU)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -121,8 +121,8 @@
 
 
 {synoptline}
-{marker sourceid_PRJ.ATT.15UP.1.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.15UP.1.MA:PRJ.ATT.15UP.1.MA} - Adequacy of benefits (%) - Passive Labor Market (preT)Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Male}}
+{marker sourceid_PRJ.POP.2529.4.MA}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.2529.4.MA:PRJ.POP.2529.4.MA} - Beneficiary incidence in richest quintile (%) - Contributory PensionsWittgenstein Projection: Population age 25-29 in thousands by highest level of educational attainment. Post Secondary. Male}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -133,8 +133,8 @@
 
 
 {synoptline}
-{marker sourceid_PRJ.ATT.2024.S1.FE}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2024.S1.FE:PRJ.ATT.2024.S1.FE} - Population not receiving Social Protection (%) -ruralWittgenstein Projection: Percentage of the population age 20-24 by highest level of educational attainment. Incomplete Primary. Female}}
+{marker sourceid_SG.GEN.TECH.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SG.GEN.TECH.ZS:SG.GEN.TECH.ZS} - Adequacy of benefits in poorest quintile (%) - All Labor Market -urbanFemale professional and technical workers (% of total)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -145,20 +145,8 @@
 
 
 {synoptline}
-{marker sourceid_PRJ.ATT.25UP.3.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.25UP.3.MA:PRJ.ATT.25UP.3.MA} - Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -ruralWittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.NAR.1.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.Q5.M:UIS.NAR.1.Q5.M} - Benefits incidence in 2nd quintile (%) - All Social Assistance -urbanUIS: Net attendance rate, primary, richest quintile, male (%)}}
+{marker sourceid_UIS.ROFST.H.1.Q3.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.1.Q3.M:UIS.ROFST.H.1.Q3.M} - Adequacy of benefits (%) - Passive Labor Market (preT)UIS: Rate of out-of-school children of primary school age, middle quintile, male (household survey data) (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -169,32 +157,8 @@
 
 
 {synoptline}
-{marker sourceid_UIS.NAR.1.RUR.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.RUR.M:UIS.NAR.1.RUR.M} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT)UIS: Net attendance rate, primary, rural, male (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.ROFST.H.2.Q3.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.2.Q3.M:UIS.ROFST.H.2.Q3.M} - Adequacy of benefits in poorest quintile (%) - All Labor Market -urbanUIS: Rate of out-of-school adolescents of lower secondary school age, middle quintile, male (household survey data) (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}NULL{p_end}
-
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.SLE.12}
-{synopt:{bf:{help wbopendata_sourceid##UIS.SLE.12:UIS.SLE.12} - Adequacy of benefits in 3rd quintile (%) - All Labor Market (preT)School life expectancy, primary and lower secondary, both sexes (years)}}
+{marker sourceid_WP15163_4.9}
+{synopt:{bf:{help wbopendata_sourceid##WP15163_4.9:WP15163_4.9} - Adequacy of benefits in 3rd quintile (%) - All Labor Market (preT)Mobile account, income, richest 60% (% ages 15+) [w2]}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2882,9 +2846,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLPercentage of female population age 75+ with no education{p_end}
+{synopt:{opt Source Notes}}NULLTax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
 
-{synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: http://www.barrolee.com/The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -4700,9 +4664,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
+{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the sum of all firms who applied and did not apply for a loan. The numerator is the number of firms who did not apply fTotal transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}ASPIRELAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+{synopt:{opt Source Organization}}ASPIREEnterprise Surveys, World Bank{p_end}
 
 
 {synoptline}
@@ -6363,9 +6327,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalNULL{p_end}
+{synopt:{opt Source Notes}}NULLPercentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donThe Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -17955,7 +17919,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -17967,7 +17931,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -17979,7 +17943,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -17991,7 +17955,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18003,7 +17967,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18015,7 +17979,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18027,7 +17991,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18039,7 +18003,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18051,7 +18015,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18063,7 +18027,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18075,7 +18039,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18087,7 +18051,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18099,7 +18063,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18111,7 +18075,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18123,7 +18087,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18135,7 +18099,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18147,7 +18111,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18159,7 +18123,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18171,7 +18135,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18183,7 +18147,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18195,7 +18159,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18207,7 +18171,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18219,7 +18183,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18231,7 +18195,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18243,7 +18207,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18255,7 +18219,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18267,7 +18231,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18279,7 +18243,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18291,7 +18255,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18303,7 +18267,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18315,7 +18279,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18327,7 +18291,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18339,7 +18303,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18351,7 +18315,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18363,7 +18327,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18375,7 +18339,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18387,7 +18351,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -18399,21 +18363,21 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -ruralCoverage in 2nd quintile (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed upper secondary or incomplete post-secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base ye{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -20288,7 +20252,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q4_tot:per_sa_ct.avt_q4_tot} - Average per capita transfer held by 4th quintile - Cash TransferCoverage in 2nd quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q4_tot:per_sa_ct.avt_q4_tot} - Average per capita transfer held by 4th quintile - Cash TransferBenefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21555,7 +21519,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21567,7 +21531,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21579,7 +21543,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21591,7 +21555,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21603,7 +21567,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21615,7 +21579,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21627,7 +21591,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21639,7 +21603,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21651,7 +21615,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21663,7 +21627,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21675,7 +21639,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21687,7 +21651,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21699,7 +21663,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21711,7 +21675,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21723,7 +21687,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21735,7 +21699,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21747,7 +21711,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21759,7 +21723,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21771,7 +21735,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21783,7 +21747,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21795,7 +21759,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21807,7 +21771,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21819,7 +21783,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21831,7 +21795,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21843,7 +21807,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21855,7 +21819,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21867,7 +21831,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21879,7 +21843,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21891,7 +21855,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21903,7 +21867,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21915,7 +21879,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21927,7 +21891,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21939,7 +21903,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21951,7 +21915,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21963,7 +21927,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21975,7 +21939,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21987,7 +21951,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21999,7 +21963,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22011,7 +21975,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22023,7 +21987,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22035,7 +21999,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22047,7 +22011,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22059,7 +22023,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22071,7 +22035,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22083,7 +22047,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22095,7 +22059,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22107,7 +22071,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22119,7 +22083,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22131,7 +22095,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22143,7 +22107,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22155,7 +22119,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22167,7 +22131,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22179,7 +22143,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22191,7 +22155,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22203,7 +22167,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22215,7 +22179,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22227,7 +22191,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22239,7 +22203,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -22251,21 +22215,21 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_preT_tot:per_sa_fw.ben_q2_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day)Benefits incidence in 2nd quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_preT_tot:per_sa_fw.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -24252,15 +24216,15 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT)Beneficiary incidence in richest quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Child immunization rate, Polio is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)WHO and UNICEF (http://www.who.int/immunization_monitoring/routine/en/).{p_end}
 
 
 {synoptline}
@@ -28125,15 +28089,15 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_urb:per_sa_pw.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_urb:per_sa_pw.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urbanPopulation not receiving Social Protection (%) -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -30101,15 +30065,15 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage (%) - All Private TransfersCoverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has pre-primary education or incomplete primary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around{p_end}
+{synopt:{opt Source Notes}}NULLTotal transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -32103,15 +32067,15 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q2_rur:per_sa_sp.cov_q2_rur} - Coverage in 2nd quintile (%) - Social Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q2_rur:per_sa_sp.cov_q2_rur} - Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -ruralCoverage in 2nd quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has never attended school. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The{p_end}
+{synopt:{opt Source Notes}}NULLPercentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}ASPIREThe Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -34012,15 +33976,15 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT)Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
+{synopt:{opt Source Notes}}NULLPercentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}ASPIREThe Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -34623,7 +34587,7 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34635,7 +34599,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34647,7 +34611,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34659,7 +34623,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34671,7 +34635,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34683,7 +34647,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34695,7 +34659,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34707,7 +34671,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34719,7 +34683,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34731,7 +34695,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34743,7 +34707,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34755,7 +34719,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34767,7 +34731,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34779,7 +34743,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34791,7 +34755,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34803,7 +34767,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34815,7 +34779,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34827,7 +34791,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34839,7 +34803,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34851,7 +34815,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34863,7 +34827,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34875,7 +34839,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34887,7 +34851,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34899,7 +34863,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34911,7 +34875,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34923,7 +34887,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34935,7 +34899,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34947,7 +34911,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34959,7 +34923,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34971,7 +34935,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34983,7 +34947,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -34995,7 +34959,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35007,7 +34971,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35019,7 +34983,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35031,7 +34995,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35043,7 +35007,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35055,7 +35019,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35067,7 +35031,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35079,7 +35043,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35091,7 +35055,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35103,7 +35067,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35115,7 +35079,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35127,7 +35091,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35139,7 +35103,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35151,7 +35115,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35163,7 +35127,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35175,7 +35139,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35187,7 +35151,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35199,7 +35163,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35211,7 +35175,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35223,7 +35187,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35235,7 +35199,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35247,7 +35211,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35259,7 +35223,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35271,7 +35235,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35283,7 +35247,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35295,7 +35259,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35307,7 +35271,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35319,7 +35283,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35331,7 +35295,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35343,7 +35307,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35355,7 +35319,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35367,7 +35331,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35379,7 +35343,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35391,7 +35355,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35403,7 +35367,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35415,7 +35379,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35427,7 +35391,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35439,7 +35403,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35451,7 +35415,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35463,7 +35427,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35475,7 +35439,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35487,7 +35451,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35499,7 +35463,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35511,7 +35475,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35523,7 +35487,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35535,7 +35499,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35547,7 +35511,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35559,7 +35523,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35571,7 +35535,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35583,7 +35547,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35595,7 +35559,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35607,7 +35571,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35619,7 +35583,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35631,7 +35595,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35643,7 +35607,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35655,7 +35619,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35667,7 +35631,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35679,7 +35643,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35691,7 +35655,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35703,7 +35667,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35715,7 +35679,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35727,7 +35691,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35739,7 +35703,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -35751,7 +35715,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed lower secondary or incomplete upper secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base y{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
@@ -37703,9 +37667,9 @@
 
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLTotal health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+{synopt:{opt Source Notes}}Mean number of years spent in school by age group and gender. Projections are based on collected census and survey data for the base year (around 2010) and the Medium Shared Socioeconomic Pathways (SSP2) projection model. The SSP2 is a middle-NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}
@@ -38489,4 +38453,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

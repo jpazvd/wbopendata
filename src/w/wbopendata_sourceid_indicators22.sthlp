@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -73,8 +73,8 @@
 
 
 {synoptline}
-{marker sourceid_DP.DOD.DLLO.CR.L1.BC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.BC.CD:DP.DOD.DLLO.CR.L1.BC.CD} - 076.Loans (PSDCGGB, LT, &lt;1yr) US$Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Market Value, USD}}
+{marker sourceid_DP.DOD.DLCD.CR.CG.Z1}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1} - 503.Currency and deposits (PSDCG)(% of GDP)Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -85,8 +85,8 @@
 
 
 {synoptline}
-{marker sourceid_DP.DOD.DSIN.CR.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.FC.Z1:DP.DOD.DSIN.CR.FC.Z1} - 582.Insurance, pensions, and standardized guarantee schemes (PSDFPC, ST)(% of GDP)Ext. Assets in Debt Instruments, Central Bank, Short-term, Debt securities, USD}}
+{marker sourceid_DP.DOD.DLLO.CR.L1.BC.CD}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.BC.CD:DP.DOD.DLLO.CR.L1.BC.CD} - 076.Loans (PSDCGGB, LT, &lt;1yr) US$Ext. Assets in Debt Instruments, Central Bank, Short-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3469,8 +3469,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.DOD.ALLN.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSG:DT.DOD.ALLN.ZSG} - Debt on Non-concessional terms to GDP (% of GDP)Gross Ext. Debt Pmt, General Government, More than 18 to 24, Trade credit and advances, Interest, USD}}
+{marker sourceid_DT.AXR.OFFT.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXR.OFFT.CD:DT.AXR.OFFT.CD} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Trade credit and advances, Interest, USDPrincipal rescheduled, official (current US$)}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5935,9 +5935,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -5947,9 +5947,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -5959,9 +5959,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -5971,9 +5971,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11827,9 +11827,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11839,9 +11839,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11851,9 +11851,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11863,9 +11863,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11875,9 +11875,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11887,9 +11887,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11899,9 +11899,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11911,9 +11911,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11923,9 +11923,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11935,9 +11935,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11947,9 +11947,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11959,9 +11959,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11971,9 +11971,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11983,9 +11983,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -11995,9 +11995,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12007,9 +12007,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12019,9 +12019,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12031,9 +12031,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12043,9 +12043,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12055,9 +12055,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12067,9 +12067,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12079,9 +12079,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12091,9 +12091,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12103,9 +12103,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12115,9 +12115,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12127,9 +12127,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12139,9 +12139,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12151,9 +12151,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12163,9 +12163,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12175,9 +12175,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12187,9 +12187,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12199,9 +12199,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12211,9 +12211,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12223,9 +12223,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12235,9 +12235,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12247,9 +12247,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12259,9 +12259,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12271,9 +12271,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12283,9 +12283,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12295,9 +12295,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12307,9 +12307,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12319,9 +12319,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12331,9 +12331,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12343,9 +12343,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12355,9 +12355,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12367,9 +12367,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12379,9 +12379,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12391,9 +12391,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12403,9 +12403,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12415,9 +12415,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12427,9 +12427,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12439,9 +12439,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12451,9 +12451,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12463,9 +12463,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12475,9 +12475,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12487,9 +12487,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12499,9 +12499,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12511,9 +12511,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12523,9 +12523,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12535,9 +12535,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12547,9 +12547,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12559,9 +12559,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12571,9 +12571,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12583,9 +12583,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12595,9 +12595,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -12607,9 +12607,9 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -20239,7 +20239,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20251,7 +20251,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20263,7 +20263,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20275,7 +20275,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20287,7 +20287,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20299,7 +20299,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20311,7 +20311,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20323,7 +20323,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20335,7 +20335,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20347,7 +20347,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20359,7 +20359,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20371,7 +20371,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20383,7 +20383,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20395,7 +20395,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20407,7 +20407,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20419,7 +20419,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20431,7 +20431,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20443,7 +20443,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20455,7 +20455,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20467,7 +20467,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20479,7 +20479,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20491,7 +20491,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20503,7 +20503,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20515,7 +20515,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20527,7 +20527,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20539,7 +20539,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20551,7 +20551,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20563,7 +20563,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20575,7 +20575,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20587,7 +20587,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20599,7 +20599,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20611,7 +20611,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20623,7 +20623,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20635,7 +20635,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20647,7 +20647,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20659,7 +20659,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20671,7 +20671,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20683,7 +20683,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20695,7 +20695,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20707,7 +20707,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20719,7 +20719,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20731,7 +20731,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20743,7 +20743,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20755,7 +20755,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20767,7 +20767,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20779,7 +20779,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20791,7 +20791,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20803,7 +20803,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20815,7 +20815,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20827,7 +20827,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20839,7 +20839,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20851,7 +20851,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20863,7 +20863,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20875,7 +20875,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20887,7 +20887,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20899,7 +20899,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20911,7 +20911,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20923,7 +20923,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20935,7 +20935,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20947,7 +20947,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20959,7 +20959,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20971,7 +20971,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20983,7 +20983,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -20995,7 +20995,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21007,7 +21007,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21019,7 +21019,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21031,7 +21031,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21043,7 +21043,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21055,7 +21055,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21067,7 +21067,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21079,7 +21079,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21091,7 +21091,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21103,7 +21103,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21115,7 +21115,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21127,7 +21127,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21139,7 +21139,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -21151,7 +21151,7 @@
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from family, relatives, or friends in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, i{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -22549,4 +22549,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

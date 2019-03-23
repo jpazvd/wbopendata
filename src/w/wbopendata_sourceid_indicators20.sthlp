@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -69,7 +69,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -81,7 +81,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -105,7 +105,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -117,7 +117,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -129,7 +129,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -141,7 +141,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -165,7 +165,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -177,7 +177,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -189,7 +189,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -201,7 +201,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -213,7 +213,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -225,7 +225,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -237,7 +237,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -249,7 +249,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -261,7 +261,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -273,7 +273,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -285,7 +285,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -297,7 +297,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -321,7 +321,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -333,7 +333,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -345,7 +345,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -357,7 +357,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -369,7 +369,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -381,7 +381,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -393,7 +393,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -405,7 +405,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -417,7 +417,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -429,7 +429,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -441,7 +441,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -453,7 +453,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -465,7 +465,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -477,7 +477,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -489,7 +489,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -501,7 +501,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -513,7 +513,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -525,7 +525,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -537,7 +537,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -549,7 +549,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -561,7 +561,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -573,7 +573,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -585,7 +585,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -597,7 +597,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -609,7 +609,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -621,7 +621,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -633,7 +633,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -645,7 +645,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -657,7 +657,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -669,7 +669,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -681,7 +681,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -693,7 +693,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -705,7 +705,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -717,7 +717,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -729,7 +729,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -741,7 +741,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -753,7 +753,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -765,7 +765,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -789,7 +789,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -801,7 +801,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -813,7 +813,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -825,7 +825,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -837,7 +837,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -849,7 +849,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -861,7 +861,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -873,7 +873,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -885,7 +885,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -897,7 +897,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -909,7 +909,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -921,7 +921,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -933,7 +933,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -945,7 +945,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -957,7 +957,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -969,7 +969,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -981,7 +981,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -993,7 +993,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1005,7 +1005,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1017,7 +1017,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1029,7 +1029,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1041,7 +1041,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1053,7 +1053,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1065,7 +1065,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1077,7 +1077,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1089,7 +1089,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1101,7 +1101,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1113,7 +1113,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1125,7 +1125,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1137,7 +1137,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1149,7 +1149,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1161,7 +1161,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1173,7 +1173,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1185,7 +1185,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1195,9 +1195,9 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and representThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1209,7 +1209,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1221,7 +1221,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1233,7 +1233,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1245,7 +1245,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1257,7 +1257,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1269,7 +1269,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1281,7 +1281,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1293,7 +1293,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1305,7 +1305,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1317,7 +1317,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1329,7 +1329,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1341,7 +1341,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1353,7 +1353,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1365,7 +1365,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1377,7 +1377,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1389,7 +1389,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1401,7 +1401,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1413,7 +1413,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1425,7 +1425,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1437,7 +1437,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1449,7 +1449,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1461,7 +1461,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1473,7 +1473,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1485,7 +1485,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1497,7 +1497,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1509,7 +1509,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1521,7 +1521,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1533,7 +1533,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1545,7 +1545,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1557,7 +1557,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1569,7 +1569,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1581,7 +1581,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1593,7 +1593,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1605,7 +1605,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1617,7 +1617,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1629,7 +1629,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1641,7 +1641,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1653,7 +1653,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1665,7 +1665,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1677,7 +1677,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1689,7 +1689,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1701,7 +1701,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1713,7 +1713,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1725,7 +1725,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CG{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1737,7 +1737,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CG{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1749,7 +1749,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities CG + Loans CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1761,7 +1761,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities GG + Loans GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1773,7 +1773,7 @@
 
 {synopt:{opt Source Notes}}Debt Securities GG + Loans GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1785,7 +1785,7 @@
 
 {synopt:{opt Source Notes}}D1 CG + SDRs CG + Currency &amp; Deposits CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1797,7 +1797,7 @@
 
 {synopt:{opt Source Notes}}D1 CG + SDRs CG + Currency &amp; Deposits CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1809,7 +1809,7 @@
 
 {synopt:{opt Source Notes}}D1 GG + SDRs GG + Currency &amp; Deposits GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1821,7 +1821,7 @@
 
 {synopt:{opt Source Notes}}D1 GG + SDRs GG + Currency &amp; Deposits GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1833,7 +1833,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1845,7 +1845,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1857,7 +1857,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1869,7 +1869,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1881,7 +1881,7 @@
 
 {synopt:{opt Source Notes}}D2 CG + Other Accounts Payable CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1893,7 +1893,7 @@
 
 {synopt:{opt Source Notes}}D2 CG + Other Accounts Payable CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1905,7 +1905,7 @@
 
 {synopt:{opt Source Notes}}D2 GG + Other Accounts Payable GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1917,7 +1917,7 @@
 
 {synopt:{opt Source Notes}}D2 GG + Other Accounts Payable GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1929,7 +1929,7 @@
 
 {synopt:{opt Source Notes}}D3 CG + ISPGS CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1941,7 +1941,7 @@
 
 {synopt:{opt Source Notes}}D3 CG + ISPGS CGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1953,7 +1953,7 @@
 
 {synopt:{opt Source Notes}}D3 GG + IPSGS GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1965,7 +1965,7 @@
 
 {synopt:{opt Source Notes}}D3 GG + IPSGS GGThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1977,7 +1977,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -1989,7 +1989,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2001,7 +2001,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2013,7 +2013,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2025,7 +2025,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2037,7 +2037,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2049,7 +2049,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2061,7 +2061,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2073,7 +2073,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2085,7 +2085,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2097,7 +2097,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2109,7 +2109,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2121,7 +2121,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2133,7 +2133,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2145,7 +2145,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2157,7 +2157,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2169,7 +2169,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2181,7 +2181,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2193,7 +2193,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2205,7 +2205,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2217,7 +2217,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2229,7 +2229,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2241,7 +2241,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2253,7 +2253,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2265,7 +2265,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2277,7 +2277,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2289,7 +2289,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2301,7 +2301,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2313,7 +2313,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2325,7 +2325,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2337,7 +2337,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2349,7 +2349,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2361,7 +2361,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2373,7 +2373,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2385,7 +2385,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2397,7 +2397,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2409,7 +2409,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2421,7 +2421,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2433,7 +2433,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2445,7 +2445,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2457,7 +2457,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2469,7 +2469,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2481,7 +2481,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2493,7 +2493,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2505,7 +2505,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2517,7 +2517,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2529,7 +2529,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2541,7 +2541,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2553,7 +2553,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2565,7 +2565,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2577,7 +2577,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2589,7 +2589,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2601,7 +2601,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2613,7 +2613,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2625,7 +2625,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2637,7 +2637,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2649,7 +2649,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2661,7 +2661,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2673,7 +2673,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2685,7 +2685,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2697,7 +2697,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2709,7 +2709,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2721,7 +2721,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2733,7 +2733,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2745,7 +2745,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2757,7 +2757,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2769,7 +2769,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2781,7 +2781,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2793,7 +2793,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2805,7 +2805,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2817,7 +2817,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2829,7 +2829,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2841,7 +2841,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2853,7 +2853,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2865,7 +2865,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2877,7 +2877,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2889,7 +2889,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2901,7 +2901,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2913,7 +2913,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2925,7 +2925,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2937,7 +2937,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2949,7 +2949,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2961,7 +2961,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2973,7 +2973,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2985,7 +2985,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -2997,7 +2997,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3009,7 +3009,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3021,7 +3021,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3033,7 +3033,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3045,7 +3045,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3057,7 +3057,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3069,7 +3069,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3081,7 +3081,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3093,7 +3093,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3105,7 +3105,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3117,7 +3117,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3129,7 +3129,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3141,7 +3141,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3153,7 +3153,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3165,7 +3165,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3177,7 +3177,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3189,7 +3189,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3201,7 +3201,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3213,7 +3213,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3225,7 +3225,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3237,7 +3237,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3249,7 +3249,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3261,7 +3261,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3273,7 +3273,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3285,7 +3285,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3297,7 +3297,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3309,7 +3309,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3321,7 +3321,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3333,7 +3333,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3345,7 +3345,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3357,7 +3357,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3369,7 +3369,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3381,7 +3381,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3393,7 +3393,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3405,7 +3405,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3417,7 +3417,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3429,7 +3429,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3441,7 +3441,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3453,7 +3453,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3465,7 +3465,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3477,7 +3477,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3489,7 +3489,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3501,7 +3501,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3513,7 +3513,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3525,7 +3525,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3537,7 +3537,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3547,9 +3547,9 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basiThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3559,9 +3559,9 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3571,9 +3571,9 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3585,7 +3585,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3597,7 +3597,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3609,7 +3609,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3621,7 +3621,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3633,7 +3633,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3645,7 +3645,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3657,7 +3657,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3669,7 +3669,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3681,7 +3681,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3693,7 +3693,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3705,7 +3705,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3717,7 +3717,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3729,7 +3729,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3741,7 +3741,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3753,7 +3753,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3765,7 +3765,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3777,7 +3777,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3789,7 +3789,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3801,7 +3801,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3813,7 +3813,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3825,7 +3825,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3837,7 +3837,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3849,7 +3849,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3861,7 +3861,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3873,7 +3873,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3885,7 +3885,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3897,7 +3897,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3909,7 +3909,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3921,7 +3921,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3933,7 +3933,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3945,7 +3945,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3957,7 +3957,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3969,7 +3969,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3981,7 +3981,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3993,7 +3993,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4005,7 +4005,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4017,7 +4017,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4029,7 +4029,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4041,7 +4041,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4053,7 +4053,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4065,7 +4065,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4077,7 +4077,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4089,7 +4089,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4101,7 +4101,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4113,7 +4113,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4125,7 +4125,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4137,7 +4137,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4149,7 +4149,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4161,7 +4161,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4173,7 +4173,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4185,7 +4185,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4197,7 +4197,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4209,7 +4209,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4221,7 +4221,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4233,7 +4233,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4245,7 +4245,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4257,7 +4257,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4269,7 +4269,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4281,7 +4281,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4293,7 +4293,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4305,7 +4305,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4317,7 +4317,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4329,7 +4329,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4341,7 +4341,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4353,7 +4353,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4365,7 +4365,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4377,7 +4377,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4389,7 +4389,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4401,7 +4401,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4413,7 +4413,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4425,7 +4425,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4437,7 +4437,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4449,7 +4449,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4461,7 +4461,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4473,7 +4473,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4485,7 +4485,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4497,7 +4497,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4509,7 +4509,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4521,7 +4521,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4533,7 +4533,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4545,7 +4545,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4557,7 +4557,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4569,7 +4569,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4581,7 +4581,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4593,7 +4593,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4605,7 +4605,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4617,7 +4617,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4629,7 +4629,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4641,7 +4641,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4653,7 +4653,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4665,7 +4665,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4677,7 +4677,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4689,7 +4689,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4701,7 +4701,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4713,7 +4713,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4725,7 +4725,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4737,7 +4737,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4749,7 +4749,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4761,7 +4761,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4773,7 +4773,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4785,7 +4785,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4797,7 +4797,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4809,7 +4809,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4821,7 +4821,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4833,7 +4833,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4845,7 +4845,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4857,7 +4857,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4869,7 +4869,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4881,7 +4881,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4893,7 +4893,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4905,7 +4905,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4917,7 +4917,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4929,7 +4929,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4941,7 +4941,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4953,7 +4953,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4965,7 +4965,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4977,7 +4977,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -4989,7 +4989,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5001,7 +5001,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5013,7 +5013,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5025,7 +5025,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5037,7 +5037,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5049,7 +5049,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5061,7 +5061,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5073,7 +5073,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5085,7 +5085,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5097,7 +5097,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5109,7 +5109,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5121,7 +5121,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5133,7 +5133,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5145,7 +5145,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5157,7 +5157,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5169,7 +5169,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5181,7 +5181,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5193,7 +5193,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5205,7 +5205,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5217,7 +5217,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5229,7 +5229,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5241,7 +5241,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5253,7 +5253,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5265,7 +5265,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5277,7 +5277,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5289,7 +5289,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5301,7 +5301,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5313,7 +5313,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5325,7 +5325,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5337,7 +5337,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5349,7 +5349,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5361,7 +5361,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5373,7 +5373,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5385,7 +5385,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5397,7 +5397,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5409,7 +5409,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5421,7 +5421,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5433,7 +5433,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5445,7 +5445,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5457,7 +5457,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5469,7 +5469,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5481,7 +5481,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5493,7 +5493,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5505,7 +5505,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5517,7 +5517,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5529,7 +5529,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5541,7 +5541,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5553,7 +5553,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5565,7 +5565,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5577,7 +5577,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5589,7 +5589,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5601,7 +5601,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5613,7 +5613,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5625,7 +5625,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5637,7 +5637,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5649,7 +5649,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5661,7 +5661,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5673,7 +5673,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5685,7 +5685,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5697,7 +5697,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5709,7 +5709,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5721,7 +5721,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5733,7 +5733,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5745,7 +5745,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5757,7 +5757,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5769,7 +5769,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5781,7 +5781,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5793,7 +5793,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5805,7 +5805,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5817,7 +5817,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5829,7 +5829,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5841,7 +5841,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5853,7 +5853,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5865,7 +5865,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5877,7 +5877,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5889,7 +5889,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5901,7 +5901,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5913,7 +5913,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5925,7 +5925,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5937,7 +5937,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5949,7 +5949,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5961,7 +5961,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5973,7 +5973,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5985,7 +5985,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -5997,7 +5997,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6009,7 +6009,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6021,7 +6021,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6033,7 +6033,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6045,7 +6045,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6057,7 +6057,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6069,7 +6069,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6081,7 +6081,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6093,7 +6093,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6105,7 +6105,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6117,7 +6117,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6129,7 +6129,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6141,7 +6141,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6153,7 +6153,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6165,7 +6165,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6175,9 +6175,9 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basiThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}The residual difference, i.e. the change in stock not explained by any of the factors identified under debt stock-flow reconciliation, is calculated as the sum of identified accounts minus the change in stock. Where the latter is large it can,The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -6889,4 +6889,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

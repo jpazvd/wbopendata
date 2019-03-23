@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -94,18 +94,6 @@
 {synopt:{opt Source Notes}}The percent of male respondents ages 15-24 who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local miscon{p_end}
 
 {synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
-
-
-{synoptline}
-{marker sourceid_SG.GEN.TECH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.GEN.TECH.ZS:SG.GEN.TECH.ZS} - Female professional and technical workers (% of total)Immunization, Pol3 (% of one-year-old children)}}
-
-{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Child immunization rate, Polio is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.{p_end}
-
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization_monitoring/routine/en/"}).{p_end}
 
 
 {synoptline}
@@ -224,9 +212,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The percent of female respondents ages 15-24 who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local miscTotal number of students in the theoretical age group for primary education attending that level, expressed as a percentage of the total population in that age group. The UNESCO Institute for Statistics (UIS) calculates household survey-based{p_end}
+{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revisionThe percent of female respondents ages 15-24 who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local misc{p_end}
 
-{synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
 
 
 {synoptline}
@@ -623,6 +611,18 @@
 {synopt:{opt Source Notes}}Level of capital investments on health expressed as a percentage of GDP.  Capital health investments include health infrastructure (buildings, machinery, IT) and stocks of vaccines for emergency or outbreaks.Share of out-of-pocket payments of total current health expenditures.  Out-of-pocket payments are spending on health directly out-of-pocket by households.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.XPD.PCAP.GX}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP.GX:SH.XPD.PCAP.GX} - Female population 65-69Government health expenditure per capita (current US$)}}
+
+{synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Female population between the ages 65-69.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -2302,7 +2302,7 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.Total number of graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are recognise{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.Average number of Grade 6 pupils per mathematics textbook in public primary schools. The data reported includes textbooks in all languages of instruction which are owned by schools and have been distributed to pupils on loan or kept in schools{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
@@ -2740,16 +2740,16 @@
 
 
 {synoptline}
-{marker sourceid_UIS.DR.2.GPV.G3.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.DR.2.GPV.G3.F:UIS.DR.2.GPV.G3.F} - Drop-out rate from Grade 3 of lower secondary general education, female (%)Female population 65-69}}
+{marker sourceid_per_sa_ik.bry_ep_preT_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_ep_preT_tot:per_sa_ik.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT)Immunization, Pol3 (% of one-year-old children)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 65-69.{p_end}
+{synopt:{opt Source Notes}}Child immunization rate, Polio is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization_monitoring/routine/en/"}).{p_end}
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

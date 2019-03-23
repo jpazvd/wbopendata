@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -229,6 +229,18 @@
 
 
 {synoptline}
+{marker sourceid_PRJ.ATT.25UP.3.MA}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.25UP.3.MA:PRJ.ATT.25UP.3.MA} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence IntervalWittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+
+
+{synoptline}
 {marker sourceid_PRT.PDCL.IND9.ALLD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND9.ALLD.ZS:PRT.PDCL.IND9.ALLD.ZS} - PDI-9 Aid provided in the framework of programme-based appproaches (%)Political Stability and Absence of Violence/Terrorism: Estimate}}
 
@@ -451,7 +463,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all countWomen who do not own house (% of women age 15-49): Q2 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone els{p_end}
+{synopt:{opt Source Notes}}Men who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both.Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -478,18 +490,6 @@
 {synopt:{opt Source Notes}}Denotes the total number of life insurance policy holders (resident) that are resident nonfinancial corporations (public and private) and households for every 1,000 adults in the reporting country. Calculated as (number of life insurance policRegulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.Worldwide Governance Indicators, The World Bank{p_end}
-
-
-{synoptline}
-{marker sourceid_SP.POP.6064.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - Population ages 60-64, male (% of male population)Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
-
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
 
 {synoptline}
@@ -577,4 +577,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

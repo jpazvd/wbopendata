@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,8 +61,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:15 Global Economic Monitor}}}
 {synoptline}
-{marker sourceid_BAR.NOED.7074.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BAR.NOED.7074.ZS:BAR.NOED.7074.ZS} - Barro-Lee: Percentage of population age 70-74 with no educationCPI Price, % y-o-y, nominal, seas. adj.}}
+{marker sourceid_AG.PRD.GAGRI.XD}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GAGRI.XD:AG.PRD.GAGRI.XD} - Agriculture production index (gross, 1999-2001 = 100)CPI Price, % y-o-y, nominal, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -237,7 +237,7 @@
 
 {synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, seasonally adjusted. The base year is 2005.The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datWorld Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -697,4 +697,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
