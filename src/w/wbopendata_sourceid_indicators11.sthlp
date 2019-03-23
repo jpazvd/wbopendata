@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -85,13 +85,25 @@
 
 
 {synoptline}
-{marker sourceid_9.2.Labor.B40}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Labor.B40:9.2.Labor.B40} - Labor Force Participation Rate (%)-Bottom 40 Percent, FemalePesticides imports (FAO, current US$)}}
+{marker sourceid_8.3.7_MDA.PIRLS.READ.4.MEAN}
+{synopt:{bf:{help wbopendata_sourceid##8.3.7_MDA.PIRLS.READ.4.MEAN:8.3.7_MDA.PIRLS.READ.4.MEAN} - PIRLS in Moldova, grade 4, Reading (mean score)Pesticides imports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Pesticides refer to insecticides, fungicides, herbicides, disinfectants and any substance or mixture of substances intended for preventing, destroying or controlling any pest, including vectors of human or animal disease, unwanted species of p{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+
+
+{synoptline}
+{marker sourceid_9.2.Labor.B40}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Labor.B40:9.2.Labor.B40} - Forest products exports (FAO, current US$)Labor Force Participation Rate (%)-Bottom 40 Percent, Female}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Forest products exports.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -194,14 +206,14 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.FNO.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Forest products exports (FAO, current US$)Producer Price for Fonio (per tonne, current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Producer Price for Fonio (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Forest products exports.  Data are in current U.S. dollars.Producer prices are prices received by farmers for primary agricultural products as defined in the SNA 93.  The producer's price is the amount receivable by the producer from the purchaser for a unit of a good or service produced as output min{p_end}
+{synopt:{opt Source Notes}}NULLProducer prices are prices received by farmers for primary agricultural products as defined in the SNA 93.  The producer's price is the amount receivable by the producer from the purchaser for a unit of a good or service produced as output min{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -727,9 +739,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}NULLThe FAO indices of agricultural production show the relative level of the aggregate volume of agricultural production for each year in comparison with the base period 2004-2006. They are based on the sum of price-weighted quantities of differe{p_end}
+{synopt:{opt Source Notes}}The FAO indices of agricultural production show the relative level of the aggregate volume of agricultural production for each year in comparison with the base period 2004-2006. They are based on the sum of price-weighted quantities of differeThe consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal percentage terms, measured on a year-on-year basis, and seasonally adjusted.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.World Bank staff calculations based on Datastream data.{p_end}
 
 
 {synoptline}
@@ -1185,7 +1197,7 @@
 
 {synopt:{opt Source Notes}}Pesticides refer to insecticides, fungicides, herbicides, disinfectants and any substance or mixture of substances intended for preventing, destroying or controlling any pest, including vectors of human or animal disease, unwanted species of pThe source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2254,7 +2266,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Interest payments on long-term debt are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Long-term external debt is defined as debt that has an original or extended maturity of more than onNon-concessional LDOD conveys information about the borrower's receipt of aid from official lenders on non-concessional terms as defined by the Development Assistance Committee (DAC) of the OECD. Concessional debt is defined as loans with an o{p_end}
+{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available datNon-concessional LDOD conveys information about the borrower's receipt of aid from official lenders on non-concessional terms as defined by the Development Assistance Committee (DAC) of the OECD. Concessional debt is defined as loans with an o{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.World Bank, International Debt Statistics.{p_end}
 
@@ -2365,6 +2377,18 @@
 {synopt:{opt Source Notes}}Long-term debt is debt that has an original or extended maturity of more than one year. It has three components: public, publicly guaranteed, and private nonguaranteed debt. Data are in current U.S. dollars.Long-term debt is debt that has an original or extended maturity of more than one year. It has three components: public, publicly guaranteed, and private nonguaranteed debt. Data are in current U.S. dollars.  Use of IMF credit denotes repurcha{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DSTM.CD.MA.AR.BE.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.BE.US:DT.DOD.DSTM.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Beginning of period, USDODA aid disbursements for Malaria control, all donors (current US$)}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -3253,7 +3277,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution,female (% age 15+).This is the aggregate total for agriculture, forestry and fishing (DT.ODA.DACD.PROD.AGRI.CD); industry, mining and construction (DT.ODA.DACD.PROD.INDS.CD); trade policy and regulations (DT.ODA.DACD.PROD.TRDP.CD) and tourism (DT.ODA.DACD.PROD.T{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee, male (% age 15+).This is the aggregate total for agriculture, forestry and fishing (DT.ODA.DACD.PROD.AGRI.CD); industry, mining and construction (DT.ODA.DACD.PROD.INDS.CD); trade policy and regulations (DT.ODA.DACD.PROD.TRDP.CD) and tourism (DT.ODA.DACD.PROD.T{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datGlobal Findex database{p_end}
 
@@ -4745,18 +4769,6 @@
 
 
 {synoptline}
-{marker sourceid_FX.OWN.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)Labor regulations (% of firms identifying this as a major constraint)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
-
-
-{synoptline}
 {marker sourceid_GB.AMA.ABRD.CN}
 {synopt:{bf:{help wbopendata_sourceid##GB.AMA.ABRD.CN:GB.AMA.ABRD.CN} - Adjustments to foreign scheduled principal repayments (current LCU)Current budget balance, including grants (current LCU)}}
 
@@ -4943,9 +4955,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Financing from abroad (obtained from nonresidents) refer to the means by which a government provides financial resources to cover a budget deficit or allocates financial resources arising from a budget surplus. It includes all government liabiPercentage of females aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Financing from abroad (obtained from nonresidents) refer to the means by which a government provides financial resources to cover a budget deficit or allocates financial resources arising from a budget surplus. It includes all government liabiNet attendance rate. Primary. Total is the proportion of children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duration of pr{p_end}
 
-{synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World BankWorld Bank country economists.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -6102,6 +6114,18 @@
 
 
 {synoptline}
+{marker sourceid_HF.STA.OB18.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Labor regulations (% of firms identifying this as a major constraint)Prevalence of obesity, female, BMI &gt; 30 (% of population 18+)}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
 {marker sourceid_IBP.OBI.XQ}
 {synopt:{bf:{help wbopendata_sourceid##IBP.OBI.XQ:IBP.OBI.XQ} - Open Budget Index Overall Country ScoreVehicles (per km of road)}}
 
@@ -7121,9 +7145,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Internationally-recognized quality certification is the percentage of firms having an internationally-recognized quality certification, i.e., International Organization for Standardization (ISO) 9000, 9002 or 14000.The HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
+{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets ofInternationally-recognized quality certification is the percentage of firms having an internationally-recognized quality certification, i.e., International Organization for Standardization (ISO) 9000, 9002 or 14000.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). https://openknowledge.worldbank.org/handle/10986/30498.World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).{p_end}
 
 
 {synoptline}
@@ -7899,18 +7923,6 @@
 
 
 {synoptline}
-{marker sourceid_IN.HLTH.HIVINFECTION.EST}
-{synopt:{bf:{help wbopendata_sourceid##IN.HLTH.HIVINFECTION.EST:IN.HLTH.HIVINFECTION.EST} - HIV Infection EstimatesODA aid disbursements for Malaria control, all donors (current US$)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
-
-
-{synoptline}
 {marker sourceid_IS.ROD.DESL.PC}
 {synopt:{bf:{help wbopendata_sourceid##IS.ROD.DESL.PC:IS.ROD.DESL.PC} - Road density (km of road per 100 sq. km of land area)Road sector diesel fuel consumption per capita (kg of oil equivalent)}}
 
@@ -8047,7 +8059,7 @@
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 {synopt:    }16 Urban Development{p_end}
 
-{synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).Share of students scoring zero percent on the listening comprehension assessment. The listening comprehension subtask examines students' ability to respond correctly to questions about a brief passage read aloud to the student by the assessor{p_end}
+{synopt:{opt Source Notes}}Average total number of invented/nonsense words correctly read per minute. The indicator measures students' ability to fluently decipher/decode randomly-presented “words” that follow linguistic rules but do not actually exist in the statedPassenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
 {synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/International Road Federation, World Road Statistics and data files.{p_end}
 
@@ -9060,13 +9072,25 @@
 
 
 {synoptline}
-{marker sourceid_LO.TIMSS.MAT4.P25}
-{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.MAT4.P25:LO.TIMSS.MAT4.P25} - Gross public investment (% of GDP)TIMSS: Distribution of 4th Grade Mathematics Scores: 25th Percentile Score}}
+{marker sourceid_LO.SACMEQ.REA.L4.FE}
+{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.REA.L4.FE:LO.SACMEQ.REA.L4.FE} - Gross public investment (% of GDP)SACMEQ: Female 6th grade students by reading proficiency level (%). Level 4 - Reading for Meaning}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}Gross public investment (see definition below) as a percentage of GDP (%) .  Public sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account cap{p_end}
+
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+
+
+{synoptline}
+{marker sourceid_LP.LPI.LOGS.XQ}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ} - Discrepancy in expenditure estimate of GDP (current US$)Logistics performance index: Competence and quality of logistics services (1=low to 5=high)}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}This is the discrepancy included in the ‘total consumption etc.' This discrepancy is included to ensures that GDP from the expenditure side equals GDP measured by the income or output approach. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9498,9 +9522,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of letter names that students could read per minute. In this EGRA subtask, assessors present students with a sheet listing between 50 and 100 upper- and lowercase letters of the alphabet (in some languages, graphemes, or sets ofPublic sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets meas{p_end}
+{synopt:{opt Source Notes}}NULLPublic sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets meas{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -10741,6 +10765,18 @@
 
 
 {synoptline}
+{marker sourceid_PRJ.ATT.2064.4.MF}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2064.4.MF:PRJ.ATT.2064.4.MF} - PDI-3 Government budget estimates comprehensive and realistic (percent)Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
+
+{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
+
+
+{synoptline}
 {marker sourceid_PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614}
 {synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614} - PDI-1 Country with operational national development strategies (rating)Protecting minority investors: Strength of minority investor protection index (0-10) (DB15-19 methodology)}}
 
@@ -10831,7 +10867,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of households who have a water source on their premisesThe focus is on the degree to which existing systems adhere to broadly accepted good practices or there is a reform programme in place to promote improved practices. Reliable procurement systems are based on the common benchmarking and assessm{p_end}
+{synopt:{opt Source Notes}}The focus is on the degree to which existing systems adhere to broadly accepted good practices or there is a reform programme in place to promote improved practices. Reliable procurement systems are based on the common benchmarking and assessmWomen who do not own house (% of women age 15-49): Q2 is the percentage of women age 15-49 who don’t own any house, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone els{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)Organization for Economic Co-operation and Development (www.oecd.org/dac/effectiveness/monitoring).{p_end}
 
@@ -11564,8 +11600,8 @@
 
 
 {synoptline}
-{marker sourceid_SH.STA.FEVR.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS} - Labor participation rate, male (% of male population ages 25-34)Prevalence of children with fever (% of children under 5): Q2}}
+{marker sourceid_SH.STA.AIRP.P5}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Labor participation rate, male (% of male population ages 25-34)Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11702,9 +11738,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}General government expenditure corresponds to the consolidated outlays of all levels of government: territorial authorities (Central/Federal Government, Provincial/Regional/State/District authorities, Municipal/ Local governments), social secuTotal number of male students enrolled in vocational programmes at the post-secondary non-tertiary education level, expressed as a percentage of the total number of male students enrolled in all programmes (vocational and general) at the post-{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 65-69.General government expenditure corresponds to the consolidated outlays of all levels of government: territorial authorities (Central/Federal Government, Provincial/Regional/State/District authorities, Municipal/ Local governments), social secu{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Health Organization (http://www.who.int/nha/country/en/){p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.World Health Organization (http://www.who.int/nha/country/en/){p_end}
 
 
 {synoptline}
@@ -12972,7 +13008,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The ratio of the female percentage of the population (age 25 and over) with at least completed post-secondary education (ISCED 4 or higher) to the male percentage of the population with at least post-secondary education. It is calculated by diTotal merchandise imports, cif (includes freight and insurance costs) in 1987 constant US dollars.{p_end}
+{synopt:{opt Source Notes}}The percentage of female population (age 25 and over) with incomplete primary as the highest level of educational attainment. This indicator is calculated by dividing the number of females aged 25 years and above with incomplete primary educatTotal merchandise imports, cif (includes freight and insurance costs) in 1987 constant US dollars.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Bank country economists.{p_end}
 
@@ -13452,7 +13488,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals).The percentage of female population (age 25 and over) with incomplete primary as the highest level of educational attainment. This indicator is calculated by dividing the number of females aged 25 years and above with incomplete primary educat{p_end}
+{synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals).Total number of female students successfully completing programmes on the masters or equivalent (ISCED 7) level during the reference academic year in public and private tertiary education institutions.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for StatisticsWorld Bank staff estimates from the COMTRADE database maintained by the United Nations Statistics Division.{p_end}
 
@@ -13712,18 +13748,6 @@
 
 
 {synoptline}
-{marker sourceid_WP15163_4.9}
-{synopt:{bf:{help wbopendata_sourceid##WP15163_4.9:WP15163_4.9} - Mobile account, income, richest 60% (% ages 15+) [w2]PDI-3 Government budget estimates comprehensive and realistic (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
 {marker sourceid_fing2p.t.d.9}
 {synopt:{bf:{help wbopendata_sourceid##fing2p.t.d.9:fing2p.t.d.9} - Claims on private sector, flow (current LCU)Received government payments in the past year, rural  (% age 15+)}}
 
@@ -13759,17 +13783,5 @@
 {synopt:{opt Source Organization}}{browse "http://www.openbudgetindex.org"}{p_end}
 
 
-{synoptline}
-{marker sourceid_mobileaccount.t.d.6}
-{synopt:{bf:{help wbopendata_sourceid##mobileaccount.t.d.6:mobileaccount.t.d.6} - Discrepancy in expenditure estimate of GDP (current US$)Mobile money account, secondary education or less (% age 15+)}}
 
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}This is the discrepancy included in the ‘total consumption etc.' This discrepancy is included to ensures that GDP from the expenditure side equals GDP measured by the income or output approach. Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
-
-
-
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

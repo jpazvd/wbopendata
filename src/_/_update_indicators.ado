@@ -1,6 +1,6 @@
 *******************************************************************************
 * _indicators                                                                   
-*! v 15.2   10Mar2019				by João Pedro Azevedo
+*! v 15.2   23Mar2019				by João Pedro Azevedo
 *		initial commit
 /*******************************************************************************
 
@@ -84,7 +84,6 @@ quietly {
 
 if ("`noindlist'" == "") {
 
-
 	noi di in smcl in g ""
 	noi di in smcl in g "{bf: Processing indicators list...}"
 	noi di in smcl in g ""
@@ -98,7 +97,11 @@ if ("`noindlist'" == "") {
 	keep indicatorcode indicatorname
 	bysort indicatorcode : gen seq = _n
 	keep if seq == 1
+	drop seq
 	sort indicatorcode
+	gen export = indicatorcode + " - " + indicatorname
+	keep export
+	sort export
 	outsheet using `tmp1tmp', replace noquote nolabel nonames
 	
 	cap: findfile `indicator' , `path'

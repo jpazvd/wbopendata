@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,8 +61,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:59 Wealth Accounts}}}
 {synoptline}
-{marker sourceid_LP.LPI.LOGS.XQ}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ} - Logistics performance index: Competence and quality of logistics services (1=low to 5=high)Natural capital, subsoil assets, minerals: phosphate (constant 2014 US$)}}
+{marker sourceid_LO.TIMSS.SCI8.HI.FE}
+{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI8.HI.FE:LO.TIMSS.SCI8.HI.FE} - Natural capital, subsoil assets, minerals: phosphate (constant 2014 US$)TIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -403,9 +403,9 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (The residual difference, i.e. the change in stock not explained by any of the factors identified under debt stock-flow reconciliation, is calculated as the sum of identified accounts minus the change in stock. Where the latter is large it can,{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests (Share of the female population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
 
-{synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World BankWorld Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
 
 {synoptline}
@@ -733,4 +733,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

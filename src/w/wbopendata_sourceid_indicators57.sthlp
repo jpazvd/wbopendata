@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1629,7 +1629,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1641,7 +1641,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1653,7 +1653,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -1665,7 +1665,7 @@
 
 {synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -7048,8 +7048,8 @@
 
 
 {synoptline}
-{marker sourceid_LO.SACMEQ.REA.L4.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.REA.L4.FE:LO.SACMEQ.REA.L4.FE} - Private consumption per capita growth (annual %)SACMEQ: Female 6th grade students by reading proficiency level (%). Level 4 - Reading for Meaning}}
+{marker sourceid_LO.SACMEQ.MAT.L1}
+{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.MAT.L1:LO.SACMEQ.MAT.L1} - Private consumption per capita growth (annual %)SACMEQ: 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7060,8 +7060,8 @@
 
 
 {synoptline}
-{marker sourceid_LO.TIMSS.SCI8.HI.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI8.HI.FE:LO.TIMSS.SCI8.HI.FE} - Services, etc., value added (constant 1987 US$)TIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%)}}
+{marker sourceid_LO.TIMSS.SCI4.BL.MA}
+{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI4.BL.MA:LO.TIMSS.SCI4.BL.MA} - Services, etc., value added (constant 1987 US$)TIMSS: Male 4th grade students who did not reach the low international benchmark of science achievement (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9970,6 +9970,18 @@
 
 
 {synoptline}
+{marker sourceid_OECD.TSAL.1.ETOP}
+{synopt:{bf:{help wbopendata_sourceid##OECD.TSAL.1.ETOP:OECD.TSAL.1.ETOP} - Annual statutory teacher salaries in public institutions in USD. Primary. Top of scaleFinancing from abroad (% of GDP)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+{synoptline}
 {marker sourceid_PA.NUS.FCRF}
 {synopt:{bf:{help wbopendata_sourceid##PA.NUS.FCRF:PA.NUS.FCRF} - Official exchange rate (LCU per US$, period average)Official exchange rate to parallel exchange rate ratio}}
 
@@ -11087,6 +11099,18 @@
 {synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.FPL.ACPT.Q2.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - Acceptability of media messages on family planning (% of women): Q2Health expenditure per capita, PPP (constant 2011 international $)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 
 {synoptline}
@@ -12876,7 +12900,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -12888,7 +12912,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -12900,7 +12924,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rate{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is located{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -14203,9 +14227,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, gThe objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
+{synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, gNULL{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015Organization for Economic Co-operation and Development (www.oecd.org/dac/effectiveness/monitoring).{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -14513,18 +14537,6 @@
 
 
 {synoptline}
-{marker sourceid_fin22a.t.d.9}
-{synopt:{bf:{help wbopendata_sourceid##fin22a.t.d.9:fin22a.t.d.9} - Borrowed from a financial institution or used a credit card, rural (% age 15+)Financing from abroad (% of GDP)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
-
-
-{synoptline}
 {marker sourceid_lm_ub.bi_q1}
 {synopt:{bf:{help wbopendata_sourceid##lm_ub.bi_q1:lm_ub.bi_q1} - Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits)Coverage of unemployment benefits and ALMP (% of population)}}
 
@@ -14560,17 +14572,5 @@
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
 
 
-{synoptline}
-{marker sourceid_per_si_ss.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social InsuranceHealth expenditure per capita, PPP (constant 2011 international $)}}
 
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
-
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
-
-
-
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

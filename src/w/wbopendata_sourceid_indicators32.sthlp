@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -458,9 +458,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 1 is the percentage of quintile 1 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no surveyValue of collateral needed by a formal financial institution for a loan or line of credit as a percentage of the loan value or the value of the line of credit.{p_end}
+{synopt:{opt Source Notes}}Net attendance rate. Primary. Female is the proportion of female children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duratiValue of collateral needed by a formal financial institution for a loan or line of credit as a percentage of the loan value or the value of the line of credit.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS)Enterprise Surveys, World Bank{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World BankWorld Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
 
 
 {synoptline}
@@ -1309,7 +1309,7 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Female is the proportion of female children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and duratiPercentage of the number of foreign owned banks to the number of the total banks in an Economy. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
+{synopt:{opt Source Notes}}Percentage of the number of foreign owned banks to the number of the total banks in an Economy. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.Typology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
 {synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
 
@@ -1497,30 +1497,6 @@
 
 
 {synoptline}
-{marker sourceid_NY.GDP.DEFL.ZS.AD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.DEFL.ZS.AD:NY.GDP.DEFL.ZS.AD} - Firms not needing a loan (%)GDP deflator: linked series (base year varies by country)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-
-{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the sum of all firms who applied and did not apply for a loan. The numerator is the number of firms who did not apply f{p_end}
-
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
-
-
-{synoptline}
-{marker sourceid_fin42.t.a.4}
-{synopt:{bf:{help wbopendata_sourceid##fin42.t.a.4:fin42.t.a.4} - Foreign bank assets among total bank assets (%)Received payments for agricultural products in the past year, older adults  (% age 25+)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
-
-{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
-
-
-{synoptline}
 {marker sourceid_gf7_n_7}
 {synopt:{bf:{help wbopendata_sourceid##gf7_n_7:gf7_n_7} - Active account (% age 60+)Bank accounts per 1,000 adults}}
 
@@ -1532,5 +1508,29 @@
 {synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
 
 
+{synoptline}
+{marker sourceid_per_lm_ac.adq_q5_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q5_tot:per_lm_ac.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Active Labor MarketFirms not needing a loan (%)}}
 
-{right:(as of 21mar2019)}
+{synopt:{opt Source}}32 Global Financial Development{p_end}
+
+
+{synopt:{opt Source Notes}}Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the sum of all firms who applied and did not apply for a loan. The numerator is the number of firms who did not apply f{p_end}
+
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
+
+
+{synoptline}
+{marker sourceid_per_lm_alllm.adq_q1_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.adq_q1_tot:per_lm_alllm.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - All Labor MarketForeign bank assets among total bank assets (%)}}
+
+{synopt:{opt Source}}32 Global Financial Development{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
+
+{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
+
+
+
+{right:(as of 23mar2019)}

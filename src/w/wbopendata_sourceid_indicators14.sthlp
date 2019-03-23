@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,32 +61,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:14 Gender Statistics}}}
 {synoptline}
-{marker sourceid_PRJ.ATT.60UP.2.FE}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.60UP.2.FE:PRJ.ATT.60UP.2.FE} - Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. FemaleWomen who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
-
-
-{synoptline}
 {marker sourceid_PRT.PDCL.IND2B.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2B.IDX:PRT.PDCL.IND2B.IDX} - Households with water on the premises (%)PDI-2b Country procurement systems reliability (rating)}}
-
-{synopt:{opt Source}}14 Gender Statistics{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of households who have a water source on their premises{p_end}
-
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
-
-
-{synoptline}
-{marker sourceid_RQ.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence IntervalWomen who do not own a house (% of women age 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2B.IDX:PRT.PDCL.IND2B.IDX} - PDI-2b Country procurement systems reliability (rating)Women who do not own a house (% of women age 15-49): Q2}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -97,8 +73,8 @@
 
 
 {synoptline}
-{marker sourceid_SABER.SCH.ATNM.GOAL4.LVL4}
-{synopt:{bf:{help wbopendata_sourceid##SABER.SCH.ATNM.GOAL4.LVL4:SABER.SCH.ATNM.GOAL4.LVL4} - Men who do not own land (% of men)SABER: (School Autonomy Accountability) Policy Goal 4 Lever 4: Use of standardized student assessments for pedagogical, operational, and personnel adjustments}}
+{marker sourceid_RQ.PER.RNK.LOWER}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Men who do not own land (% of men)Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
@@ -106,6 +82,18 @@
 {synopt:{opt Source Notes}}Men who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both.{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
+
+
+{synoptline}
+{marker sourceid_SABER.SCH.ATNM.GOAL4.LVL4}
+{synopt:{bf:{help wbopendata_sourceid##SABER.SCH.ATNM.GOAL4.LVL4:SABER.SCH.ATNM.GOAL4.LVL4} - SABER: (School Autonomy Accountability) Policy Goal 4 Lever 4: Use of standardized student assessments for pedagogical, operational, and personnel adjustmentsWomen who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him. Each wealth quintile represents one fifth of households with quintile 1 being the poorest 2{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of June 9, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015.{p_end}
 
 
 {synoptline}
@@ -617,9 +605,9 @@
 
 {synopt:{opt Topics}}17 Gender{p_end}
 
-{synopt:{opt Source Notes}}Child immunization rate, Polio is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.Female professional and technical workers refers to the share of professionals and technical workers who are female. Women's share of positions are defined according to the International Standard Classification of Occupations (ISCO-88) to incl{p_end}
+{synopt:{opt Source Notes}}Female professional and technical workers refers to the share of professionals and technical workers who are female. Women's share of positions are defined according to the International Standard Classification of Occupations (ISCO-88) to inclNULL{p_end}
 
-{synopt:{opt Source Organization}}Gender, Institutions and Development Database, Organization for Economic Co-operation and Development (OECD), web site: http://www.oecd.org/document/16/0,3343,en_2649_33935_39323280_1_1_1_1,00.html.WHO and UNICEF (http://www.who.int/immunization_monitoring/routine/en/).{p_end}
+{synopt:{opt Source Organization}}Gender, Institutions and Development Database, Organization for Economic Co-operation and Development (OECD), web site: http://www.oecd.org/document/16/0,3343,en_2649_33935_39323280_1_1_1_1,00.html.The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -3453,5 +3441,17 @@
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics IndonesiaThe United Nations Population Division's World Urbanization Prospects.{p_end}
 
 
+{synoptline}
+{marker sourceid_UIS.ROFST.H.2.Q3.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.2.Q3.M:UIS.ROFST.H.2.Q3.M} - Households with water on the premises (%)UIS: Rate of out-of-school adolescents of lower secondary school age, middle quintile, male (household survey data) (%)}}
 
-{right:(as of 21mar2019)}
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of households who have a water source on their premises{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
+
+
+
+{right:(as of 23mar2019)}
