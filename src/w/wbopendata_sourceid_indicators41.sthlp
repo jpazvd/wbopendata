@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1135,9 +1135,9 @@
 {synopt:{opt Source}}41 Country Partnership Strategy for India (FY2013 - 17){p_end}
 
 
-{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.State/UT-wise Annual New HIV Infection among Adults (15+ Years) With Uncertainty Bounds{p_end}
+{synopt:{opt Source Notes}}Share of students scoring zero percent on the listening comprehension assessment. The listening comprehension subtask examines students' ability to respond correctly to questions about a brief passage read aloud to the student by the assessorState/UT-wise Annual New HIV Infection among Adults (15+ Years) With Uncertainty Bounds{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datSource: DATA.GOV.IN under Ministry of Health and Family Welfare, Department of AIDS Control, India{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/Source: DATA.GOV.IN under Ministry of Health and Family Welfare, Department of AIDS Control, India{p_end}
 
 
 {synoptline}
@@ -2305,4 +2305,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

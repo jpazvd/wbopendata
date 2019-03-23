@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -408,15 +408,15 @@
 
 {synoptline}
 {marker sourceid_SH.ACS.PERM.Q3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q3Problems in accessing health care (getting permission to go for treatment) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Population, ages 5-9, male is the total number of males age 5-9.Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-heiProblems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)UNESCO Institute for Statistics (Derived){p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
@@ -744,15 +744,15 @@
 
 {synoptline}
 {marker sourceid_SH.FPL.ACPT.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - Acceptability of media messages on family planning (% of women): Q2Malnourished children (wasting, -2SD) (% of children under 5): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - Acceptability of media messages on family planning (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Acceptability of media messages on family planning: Percentage of all women who believe that it is acceptable to have messages about family planning on the radio or television.Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+{synopt:{opt Source Notes}}Acceptability of media messages on family planning: Percentage of all women who believe that it is acceptable to have messages about family planning on the radio or television.Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 
 {synoptline}
@@ -2213,9 +2213,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Employment by economic activity refers to the distribution of economically active children by the major industrial categories of the International Standard Industrial Classification (ISIC). Agriculture corresponds to division 1 (ISIC revisionVaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bartVaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)Understanding Children's Work project based on data from ILO, UNICEF and the World Bank.{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
 
 {synoptline}
@@ -3822,9 +3822,9 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 25-34 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonizedPrevalence of children with fever: Percentage of children under age five years with fever in the two weeks preceding the survey.{p_end}
+{synopt:{opt Source Notes}}Prevalence of children with fever: Percentage of children under age five years with fever in the two weeks preceding the survey.Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
 
 {synoptline}
@@ -4299,6 +4299,18 @@
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-heiMaternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the pr{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS)WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.MMRT.NE}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)Mean number of children ever born to women aged 40-49: Q1 (lowest)}}
+
+{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+
+
+{synopt:{opt Source Notes}}Mean number of children ever born to women aged 40-49: Mean number of children ever born (CEB) to women aged 40-49 years.{p_end}
+
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
@@ -4893,15 +4905,15 @@
 
 {synoptline}
 {marker sourceid_SH.STA.WAST.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.WAST.Q2.ZS:SH.STA.WAST.Q2.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q2Mean number of children ever born to women aged 40-49: Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.WAST.Q2.ZS:SH.STA.WAST.Q2.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-heiMean number of children ever born to women aged 40-49: Mean number of children ever born (CEB) to women aged 40-49 years.{p_end}
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-heiPopulation, ages 5-9, male is the total number of males age 5-9.{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)UNESCO Institute for Statistics (Derived){p_end}
 
 
 {synoptline}
@@ -6040,10 +6052,10 @@
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Proportion of male pupils from a cohort enrolled in a given grade at a given school year who are no longer enrolled in the following school year. Dropout rate by grade is calculated by subtracting the sum of promotion rate and repetition rateUnmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+{synopt:{opt Source Notes}}Total number of females enrolled in public upper secondary education institutions regardless of age. Public education Institutions are controlled and managed directly by a public education authority or agency of the country where it is locatedUnmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS)UNESCO Institute for Statistics{p_end}
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

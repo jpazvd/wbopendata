@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1281,15 +1281,15 @@
 
 {synoptline}
 {marker sourceid_3.0.Gini}
-{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini Coefficient}}
+{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini CoefficientPoverty Headcount ($1.90 a day)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 {synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that representsThe poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -1861,6 +1861,18 @@
 
 
 {synoptline}
+{marker sourceid_4.1_TOTAL.EDU.SPENDING}
+{synopt:{bf:{help wbopendata_sourceid##4.1_TOTAL.EDU.SPENDING:4.1_TOTAL.EDU.SPENDING} - HOI: Finished Primary SchoolPublic spending on total education (% of total public spending)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_4.2.nini.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.2.nini.15a18:4.2.nini.15a18} - Youth: Neither in School Nor Working  (15-18), FemaleYouth: Neither in School Nor Working  (15-24), Female}}
 
@@ -2055,6 +2067,30 @@
 
 
 {synoptline}
+{marker sourceid_5.1.11_MOZ.TOTA.AID.NLD}
+{synopt:{bf:{help wbopendata_sourceid##5.1.11_MOZ.TOTA.AID.NLD:5.1.11_MOZ.TOTA.AID.NLD} - International aid disbursed to total education, Netherlands to Mozambique (USD million)Youth: Neither in School Nor Working  (15-18), Female}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
+{synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - Gini Coefficient (No Zero Income)International aid disbursed to total education, UNICEF to Moldova (USD million)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_5.1.9_TJK.TOTA.AID.WFP}
 {synopt:{bf:{help wbopendata_sourceid##5.1.9_TJK.TOTA.AID.WFP:5.1.9_TJK.TOTA.AID.WFP} - Annualized Mean Income Growth (2004-2009)International aid disbursed to total education, WFP to Tajikistan (USD million)}}
 
@@ -2218,18 +2254,6 @@
 {synopt:{opt Source Notes}}Coordinating Agency (CA) or lead donor in the Local Education Group (LEG) coordinates and facilitates partners’ engagement with the Global Partnership for Education, thus serving as the communication link between the LEG and the Secretariat.GNI per capita is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not in{p_end}
 
 {synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was preLAC Equity Lab Tablulations of the World Development Indicators (World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_6.3_LEG.CSO}
-{synopt:{bf:{help wbopendata_sourceid##6.3_LEG.CSO:6.3_LEG.CSO} - Civil society organizations in Local Education Group (1=text in notes)Labor Force Participation Rate (%)-Top 60 Percent, Female}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the female population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -2848,7 +2872,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Pesticides refer to insecticides, fungicides, herbicides, disinfectants and any substance or mixture of substances intended for preventing, destroying or controlling any pest, including vectors of human or animal disease, unwanted species of pShare of the female population (ages 18-65) in the Bottom 40 percent that is in the labor force{p_end}
+{synopt:{opt Source Notes}}Forest products exports.  Data are in current U.S. dollars.Share of the female population (ages 18-65) in the Bottom 40 percent that is in the labor force{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2984,52 +3008,16 @@
 
 
 {synoptline}
-{marker sourceid_LO.EGRA.READ.AFA.ADV.3GRD}
-{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.AFA.ADV.3GRD:LO.EGRA.READ.AFA.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Afan Oromo. 3rd GradeHOI: Finished Primary School}}
+{marker sourceid_NW.NCA.MPHO.PC}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.PC:NW.NCA.MPHO.PC} - Labor Force Participation Rate (%)-Top 60 Percent, FemaleNatural capital per capita, subsoil assets, minerals: phosphate (constant 2014 US$)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
+{synopt:{opt Source Notes}}Share of the female population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
-{synoptline}
-{marker sourceid_OECD.TSAL.1.ETOP}
-{synopt:{bf:{help wbopendata_sourceid##OECD.TSAL.1.ETOP:OECD.TSAL.1.ETOP} - Annual statutory teacher salaries in public institutions in USD. Primary. Top of scaleGini Coefficient (No Zero Income)}}
 
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_UIS.XUNIT.USCONST.23.FSGOV}
-{synopt:{bf:{help wbopendata_sourceid##UIS.XUNIT.USCONST.23.FSGOV:UIS.XUNIT.USCONST.23.FSGOV} - Initial government funding per secondary student, constant US$Poverty Headcount ($1.90 a day)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_per_lm_ac.adq_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q5_tot:per_lm_ac.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Active Labor MarketYouth: Neither in School Nor Working  (15-18), Female}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
-
-
-
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

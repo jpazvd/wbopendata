@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 21mar2019)}
+{title:Income Level  (as of 23mar2019)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}

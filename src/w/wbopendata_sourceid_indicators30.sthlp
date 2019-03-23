@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1099,7 +1099,7 @@
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
 
-{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, iExporter-level information on export transactions - Customs{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting personally receiving any money in the past 12 months from a relative or friend living in a different area of their country, the percentage who report receiving it only by having cash handed to them by that person orExporter-level information on export transactions - Customs{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -1309,4 +1309,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

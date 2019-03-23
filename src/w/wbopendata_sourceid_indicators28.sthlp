@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -74,19 +74,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.KD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2015 US$)Received government payments in the past year, out of labor force (% age 15+)}}
-
-{synopt:{opt Source}}28 Global Financial Inclusion{p_end}
-
-
-{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any payment from the government in the past 12 months. This includes payments for educational or medical expenses, unemployment benefits, subsidy payments, or any kind of social ben{p_end}
-
-{synopt:{opt Source Organization}}Global Findex database{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.ODA.DACD.PROD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.CD:DT.ODA.DACD.PROD.CD} - Financial institution account,female(% age 15+)Gross ODA aid disbursement for production sectors,  DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Financial institution account,female(% age 15+)Net official development assistance and official aid received (constant 2015 US$)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
@@ -97,8 +85,8 @@
 
 
 {synoptline}
-{marker sourceid_DT.ODA.ODAT.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.PC.ZS:DT.ODA.ODAT.PC.ZS} - Net ODA received per capita (current US$)Saved for education or school fees, male (% age 15+)}}
+{marker sourceid_DT.ODA.DACD.PROD.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.CD:DT.ODA.DACD.PROD.CD} - Gross ODA aid disbursement for production sectors,  DAC donors total (current US$)Saved for education or school fees, male (% age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
@@ -109,8 +97,8 @@
 
 
 {synoptline}
-{marker sourceid_E1ii}
-{synopt:{bf:{help wbopendata_sourceid##E1ii:E1ii} - 082.Destination Entry Rate of Incumbents: MedianMain source of emergency funds: money from working, income, richest 60% (% able to raise funds, age 15+)}}
+{marker sourceid_DT.TDS.DLTL.CD.GG.AR.1824.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.1824.US:DT.TDS.DLTL.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Loans, Prin. and Int., USDMain source of emergency funds: money from working, income, richest 60% (% able to raise funds, age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
@@ -121,8 +109,8 @@
 
 
 {synoptline}
-{marker sourceid_EN.ATM.CO2E.PC}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)Received domestic remittances: in person and in cash only (% recipients, age 15+)}}
+{marker sourceid_E1ii}
+{synopt:{bf:{help wbopendata_sourceid##E1ii:E1ii} - 082.Destination Entry Rate of Incumbents: MedianReceived domestic remittances: in person and in cash only (% recipients, age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
@@ -133,13 +121,25 @@
 
 
 {synoptline}
-{marker sourceid_EN.POP.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - Paid school fees: using cash only (% paying school fees, age 15+)Urban population living in areas where elevation is below 5 meters (% of total population)}}
+{marker sourceid_EN.ATM.CO2E.PC}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)Paid school fees: using cash only (% paying school fees, age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
 {synopt:{opt Source Notes}}Among respondents reporting personally making regular payments for school fees in the past 12 months, the percentage who report making these payments using cash only.{p_end}
+
+{synopt:{opt Source Organization}}Global Findex database{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.POP.EL5M.UR.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - Received payments for agricultural products in the past year, primary education or less  (% age 15+)Urban population living in areas where elevation is below 5 meters (% of total population)}}
+
+{synopt:{opt Source}}28 Global Financial Inclusion{p_end}
+
+
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving money from any source for the sale of agricultural products, crops, produce, or livestock in the past 12 months, primary education or less (% age 15+){p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -374,14 +374,14 @@
 
 {synoptline}
 {marker sourceid_fin1.t.a.11}
-{synopt:{bf:{help wbopendata_sourceid##fin1.t.a.11:fin1.t.a.11} - Financial institution account, out of labor force (% age 15+)Received payments for agricultural products in the past year, primary education or less  (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin1.t.a.11:fin1.t.a.11} - Financial institution account, out of labor force (% age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution,out of labor force (% age 15+).The percentage of respondents who report personally receiving money from any source for the sale of agricultural products, crops, produce, or livestock in the past 12 months, primary education or less (% age 15+){p_end}
+{synopt:{opt Source Notes}}Average total number of familiar words correctly read per minute. The familiar word reading subtask tests students' ability to read a list of one or two syllable words drawn from a corpus of frequent words presented in random order. Users areThe percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution,out of labor force (% age 15+).{p_end}
 
-{synopt:{opt Source Organization}}Global Findex database{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/Global Findex database{p_end}
 
 
 {synoptline}
@@ -1802,14 +1802,14 @@
 
 {synoptline}
 {marker sourceid_fin17c.14.a}
-{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Saved for education or school fees (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Received government payments in the past year, out of labor force (% age 15+)Saved for education or school fees (% age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 monthsThe percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee.{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report personally receiving any payment from the government in the past 12 months. This includes payments for educational or medical expenses, unemployment benefits, subsidy payments, or any kind of social benThe percentage of respondents who report saving or setting aside any money in the past 12 months for education or school fee.{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2018, Global Financial Inclusion Database, World Bank.Global Findex database{p_end}
+{synopt:{opt Source Organization}}Global Findex database{p_end}
 
 
 {synoptline}
@@ -3235,9 +3235,9 @@
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.The percentage of respondents who report borrowing any money from a bank or another type of financial institution, or using a credit card, in the past 12 months, rural (% age 15+){p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe percentage of respondents who report borrowing any money from a bank or another type of financial institution, or using a credit card, in the past 12 months, rural (% age 15+){p_end}
 
-{synopt:{opt Source Organization}}Global Findex databaseWorld Bank country economists.{p_end}
+{synopt:{opt Source Organization}}Global Findex databaseThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -4387,9 +4387,9 @@
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, iTax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
+{synopt:{opt Source Notes}}Among respondents reporting that in case of an emergency it is possible for them to come up with 1/20 of gross national income (GNI) per capita in local currency, the percentage who cite money from working as their main source of this money, iInternational concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
-{synopt:{opt Source Organization}}Global Findex databaseInternational Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Global Findex databaseThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -5359,9 +5359,9 @@
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}The 50th percentile score is the score below which 50 percent of students scored. Data reflects country performance in the stated year according to TIMSS reports, but may not be comparable across years or countries. Consult the TIMSS website fThe percentage of respondents who report personally receiving any money in the past 12 months from a relative or friend living in a different area of their country only by having cash handed to them by that person or by someone else they know.{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe percentage of respondents who report personally receiving any money in the past 12 months from a relative or friend living in a different area of their country only by having cash handed to them by that person or by someone else they know.{p_end}
 
-{synopt:{opt Source Organization}}Global Findex databaseInternational Association for the Evaluation of Educational Achievement (IEA)'s Trends in International Mathematics and Science Study{p_end}
+{synopt:{opt Source Organization}}Global Findex databaseThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -6535,7 +6535,7 @@
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe percentage of respondents who report personally making regular payments for school fees in the past 12 months using cash only.{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe percentage of respondents who report personally making regular payments for school fees in the past 12 months using cash only.{p_end}
 
 {synopt:{opt Source Organization}}Global Findex databaseThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
@@ -7615,9 +7615,9 @@
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.The percentage of respondents who report personally receiving money from any source for the sale of agricultural products, crops, produce, or livestock in the past 12 months, older adults (% age 25+){p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe percentage of respondents who report personally receiving money from any source for the sale of agricultural products, crops, produce, or livestock in the past 12 months, older adults (% age 25+){p_end}
 
-{synopt:{opt Source Organization}}Global Findex databaseStijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
+{synopt:{opt Source Organization}}Global Findex databaseThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -9583,7 +9583,7 @@
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report personally using a mobile money service in the past 12 months, secondary education or more (% age 15+)This is the discrepancy included in the ‘total consumption etc.' This discrepancy is included to ensures that GDP from the expenditure side equals GDP measured by the income or output approach. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts ofThe percentage of respondents who report personally using a mobile money service in the past 12 months, secondary education or more (% age 15+){p_end}
 
 {synopt:{opt Source Organization}}Global Findex databaseWorld Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9625,4 +9625,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}

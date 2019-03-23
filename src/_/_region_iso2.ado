@@ -1,4 +1,4 @@
-*! _region_iso2 <21 Mar 2019 : 14:46:54>                 by João Pedro Azevedo
+*! _region_iso2 <23 Mar 2019 : 07:04:37>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _region_iso2 

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,8 +61,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:65 Health Equity and Financial Protection Indicators}}}
 {synoptline}
-{marker sourceid_GB.FIN.ABRD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.FIN.ABRD.CN:GB.FIN.ABRD.CN} - External borrowing, net (current LCU)Prevalence of obesity, female, BMI &gt; 30 (% of population 18+): Q1 (lowest)}}
+{marker sourceid_FX.OWN.TOTL.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##FX.OWN.TOTL.MA.ZS:FX.OWN.TOTL.MA.ZS} - Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)Prevalence of obesity, female, BMI &gt; 30 (% of population 18+): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -799,9 +799,9 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Distance to frontier score illustrates the distance of an economy to the frontier, which represents the best performance observed on each Doing Business topic across all economies and years included since 2005. An economy's distance to frontiePercentage of most recent births in last two years with at least 4 antenatal care visits (women age 18-49 at the time of the survey{p_end}
+{synopt:{opt Source Notes}}Bribery incidence is the percentage of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.Percentage of most recent births in last two years with at least 4 antenatal care visits (women age 18-49 at the time of the survey{p_end}
 
-{synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World BankWorld Bank, Doing Business project (http://www.doingbusiness.org/).{p_end}
+{synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World BankWorld Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).{p_end}
 
 
 {synoptline}
@@ -2443,7 +2443,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Bribery incidence is the percentage of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.Percentage of females aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of females aged 18 and older with BMI above 30Percentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World BankWorld Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).{p_end}
 
@@ -3529,4 +3529,4 @@
 
 
 
-{right:(as of 21mar2019)}
+{right:(as of 23mar2019)}
