@@ -243,53 +243,53 @@ syntax , 								///
 		file open `out'    using 	`out2'   		, write text append 
 				
 		
-		file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"program define _parameters, rclass"' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"version 9"' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return add"' 					_n
-		file write `out' `""' 					_n
+		file write `out' `"*! _parameters <`datef' : `time'> 	João Pedro Azevedo "' 		_n
+		file write `out' `""' 																_n
+		file write `out' `"program define _parameters, rclass"' 							_n
+		file write `out' `""' 																_n
+		file write `out' `"version 9"' 														_n
+		file write `out' `""' 																_n
+		file write `out' `"		return add"' 												_n
+		file write `out' `""' 																_n
 		
 		/* begin: full indicators details always on */
 
 		noi _update_indicators, noindlist nosthlp1 nosthlp2
 
-		file write `out' `""' 					_n
-		file write `out' `"		return local total = `r(total)' "' 					_n 
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local total = `r(total)' "' 							_n 
+		file write `out' `""' 																_n
 
 		noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 
-			file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+			file write `out' `"		return local `returnname' = `r(`returnname')' "' 		_n
 					
 		}
 			
-		file write `out' `""' 					_n
-		file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 			_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 			_n
+		file write `out' `""' 																_n
 		file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return local topicid  `r(topicid)' "' 					_n
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local topicid  `r(topicid)' "' 						_n
+		file write `out' `""' 																_n
 				
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
 
 		/* end: full indicators details always on */
 				
-		file write `out' `""' 					_n
-		file write `out' `"		return local number_indicators = `number_indicators'"' 					_n 
+		file write `out' `""' 																_n
+		file write `out' `"		return local number_indicators = `number_indicators'"' 		_n 
 		file write `out' `"		return local dt_update "`dt_update'" "' 					_n
 		file write `out' `"		return local dt_lastcheck  "`dt_check'" "' 					_n  
-		file write `out' `""' 					_n
-		file write `out' `"		return local ctrymetadata = `ctrymetadata'"' 					_n 
-		file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 					_n
-		file write `out' `"		return local dt_ctryupdate  "`dt_ctryupdate'" "' 					_n  
-		file write `out' `""' 					_n
-		file write `out' `"end"' 					_n	
+		file write `out' `""' 																_n
+		file write `out' `"		return local ctrymetadata = `ctrymetadata'"' 				_n 
+		file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 		_n
+		file write `out' `"		return local dt_ctryupdate  "`dt_ctryupdate'" "' 			_n  
+		file write `out' `""' 																_n
+		file write `out' `"end"' 															_n
 			
 		file close `out'
 		
@@ -408,38 +408,38 @@ syntax , 								///
 			
 			file open `out'    using 	`out2'   		, write text append 
 						
-			file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"program define _parameters, rclass"' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"version 9"' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return add"' 					_n
-			file write `out' `""' 					_n
+			file write `out' `"*! _parameters <`datef' : `time'> 	João Pedro Azevedo "' 	_n
+			file write `out' `""' 															_n
+			file write `out' `"program define _parameters, rclass"' 						_n
+			file write `out' `""' 															_n
+			file write `out' `"version 9"' 													_n
+			file write `out' `""' 															_n
+			file write `out' `"		return add"' 											_n
+			file write `out' `""' 															_n
 			
 			noi _update_indicators
 
-			file write `out' `""' 					_n
-			file write `out' `"		return local total = `r(total)'dis "' 					_n 
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local total = `r(total)' "' 						_n 
+			file write `out' `""' 															_n
 
 			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 
-				file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+				file write `out' `"		return local `returnname' = `r(`returnname')' "' 	_n
 				
 			}
 			
-			file write `out' `""' 					_n
-			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 		_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 		_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local sourceid  `r(sourceid)' "' 				_n
+			file write `out' `""' 															_n
 			file write `out' `"		return local topicid  `r(topicid)' "' 					_n
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
 			
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
 
 			
 			noi di in smcl ""
@@ -450,17 +450,17 @@ syntax , 								///
 			local newctryupdate		= r(dt_ctryupdate)
 			
 			
-			file write `out' `""' 					_n
-			file write `out' `"		return local number_indicators = `newnumber'"' 					_n 
-			file write `out' `"		return local dt_update "`datef' `time'" "' 					_n
-			file write `out' `"		return local dt_lastcheck  "`datef' `time'" "' 					_n  
-			file write `out' `""' 					_n
-			file write `out' `"		return local ctrymetadata = `newctrymetadata'"' 					_n 
-			file write `out' `"		return local dt_ctrylastupdate  "`dt_ctryupdate'" "' 					_n 
-			file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 					_n
-			file write `out' `"		return local dt_ctryupdate  "`newctryupdate'" "' 					_n  
-			file write `out' `""' 					_n
-			file write `out' `"end"' 					_n	
+			file write `out' `""' 															_n
+			file write `out' `"		return local number_indicators = `newnumber'"' 			_n 
+			file write `out' `"		return local dt_update "`datef' `time'" "' 				_n
+			file write `out' `"		return local dt_lastcheck  "`datef' `time'" "' 			_n  
+			file write `out' `""' 															_n
+			file write `out' `"		return local ctrymetadata = `newctrymetadata'"' 		_n 
+			file write `out' `"		return local dt_ctrylastupdate  "`dt_ctryupdate'" "' 	_n 
+			file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 	_n
+			file write `out' `"		return local dt_ctryupdate  "`newctryupdate'" "' 		_n  
+			file write `out' `""' 															_n
+			file write `out' `"end"' 														_n
 
 			file close `out'
 
