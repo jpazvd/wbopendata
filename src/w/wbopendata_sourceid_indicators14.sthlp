@@ -658,7 +658,7 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Legislation explicitly criminalizes marital rape is whether there is legislation that explicitly criminalizes the act of marital rape by providing that rape or sexual assault provisions apply â€œirrespective of the nature of the relationshipâ€{p_end}
+{synopt:{opt Source Notes}}Legislation explicitly criminalizes marital rape is whether there is legislation that explicitly criminalizes the act of marital rape by providing that rape or sexual assault provisions apply â€œirrespective of the nature of the relationshipï¿½{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Women, Business and the Law.{p_end}
 
@@ -1078,7 +1078,7 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Men who own house jointly (% of men): Q1 (lowest) is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesnâ{p_end}
+{synopt:{opt Source Notes}}Men who own house jointly (% of men): Q1 (lowest) is the percentage of men who only jointly own a house, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesnï¿½{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -1690,7 +1690,7 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesnâ€{p_end}
+{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesnï¿½{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -1702,7 +1702,7 @@
 {synopt:{opt Source}}14 Gender Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesnâ€{p_end}
+{synopt:{opt Source Notes}}Men who own land jointly (% of men): Q5 (highest) is the percentage of men who only jointly own a land, which legally registered with their name or cannot be sold without their signature, with someone else. Only jointly implies the man doesnï¿½{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -3377,6 +3377,18 @@
 {synopt:{opt Source Notes}}Male urban population is the percentage of males who live in urban areas to total population.{p_end}
 
 {synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+
+
+{synoptline}
+{marker sourceid_UIS.ROFST.H.2.Q3.M}
+{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.2.Q3.M:UIS.ROFST.H.2.Q3.M} - Households with water on the premises (%)UIS: Rate of out-of-school adolescents of lower secondary school age, middle quintile, male (household survey data) (%)}}
+
+{synopt:{opt Source}}14 Gender Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of households who have a water source on their premises{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
 
 

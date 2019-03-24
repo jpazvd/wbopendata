@@ -388,7 +388,7 @@
 
 {synoptline}
 {marker sourceid_SH.ACS.PERM.Q3.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q3Problems in accessing health care (getting permission to go for treatment) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 
@@ -707,7 +707,7 @@
 
 {synopt:{opt Source Notes}}Acceptability of media messages on family planning: Percentage of all women who believe that it is acceptable to have messages about family planning on the radio or television.{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS)World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 
 {synoptline}
@@ -4074,6 +4074,18 @@
 {synoptline}
 {marker sourceid_SH.STA.MMRT.NE}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)}}
+
+{synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+
+
+{synopt:{opt Source Notes}}Mean number of children ever born to women aged 40-49: Mean number of children ever born (CEB) to women aged 40-49 years.{p_end}
+
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.MMRT.NE}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)Mean number of children ever born to women aged 40-49: Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
 

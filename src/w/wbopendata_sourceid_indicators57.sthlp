@@ -9940,6 +9940,18 @@
 
 
 {synoptline}
+{marker sourceid_OECD.TSAL.1.ETOP}
+{synopt:{bf:{help wbopendata_sourceid##OECD.TSAL.1.ETOP:OECD.TSAL.1.ETOP} - Annual statutory teacher salaries in public institutions in USD. Primary. Top of scaleFinancing from abroad (% of GDP)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+
+
+{synoptline}
 {marker sourceid_PA.NUS.FCRF}
 {synopt:{bf:{help wbopendata_sourceid##PA.NUS.FCRF:PA.NUS.FCRF} - Official exchange rate to parallel exchange rate ratio}}
 

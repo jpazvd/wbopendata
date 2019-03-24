@@ -2311,7 +2311,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - Principal repayments on external debt, long-term + IMF (AMT, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTF.CD:DT.AMT.DLTF.CD} - Average interest on new external debt commitments, private (%)Principal repayments on external debt, long-term + IMF (AMT, current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3155,6 +3155,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.ALLN.ZSG}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSG:DT.DOD.ALLN.ZSG} - Debt on Non-concessional terms to GDP (% of GDP)Net flows on external debt, short-term (NFL, current US$)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available dat{p_end}
+
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.ALLN.ZSX}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.ZSX:DT.DOD.ALLN.ZSX} - PPG, bilateral (DOD, current US$)}}
 
@@ -3308,7 +3320,7 @@
 
 {synopt:{opt Source Notes}}Use of IMF Credit: Data related to the operations of the IMF are provided by the IMF Treasurer’s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-perio{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics datWorld Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -14523,7 +14535,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.PCAP.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG} - GNI per capita growth (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.KD.ZG:NY.GNP.PCAP.KD.ZG} - Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)GNI per capita growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -18412,6 +18424,18 @@
 
 
 {synoptline}
+{marker sourceid_SH.IMM.NONE.Q5.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.IMM.NONE.Q5.ZS:SH.IMM.NONE.Q5.ZS} - Informal employment, female (% of total non-agricultural employment)Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Employment in the informal economy as a percentage of total non-agricultural employment. It basically includes all jobs in unregistered and/or small-scale private unincorporated enterprises that produce goods or services meant for sale or bart{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+
+
+{synoptline}
 {marker sourceid_SH.IMM.POL3}
 {synopt:{bf:{help wbopendata_sourceid##SH.IMM.POL3:SH.IMM.POL3} - Immunization, Pol3 (% of one-year-old children)}}
 
@@ -19008,6 +19032,18 @@
 {synoptline}
 {marker sourceid_SH.STA.FEVR.Q2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS} - Share of youth not in education, employment or training, total (% of youth population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24); persons ages 15 to 29;{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+
+
+{synoptline}
+{marker sourceid_SH.STA.FEVR.Q2.ZS}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS} - Prevalence of children with fever (% of children under 5): Q2Share of youth not in education, employment or training, total (% of youth population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -26225,6 +26261,18 @@
 {synopt:{opt Source Notes}}Adequacy of social protection and labor programs (SPL) is measured by the total transfer amount received by the population participating in social insurance, social safety net, and unemployment benefits and active labor market programs as a sh{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
+
+
+{synoptline}
+{marker sourceid_per_allsp.avt_pop_preT_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_pop_preT_tot:per_allsp.avt_pop_preT_tot} - Average per capita transfer -All Social Protection and Labor (preT)Tax revenue (current LCU)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Tax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
+
+{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}

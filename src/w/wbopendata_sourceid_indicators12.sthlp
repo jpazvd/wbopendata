@@ -11909,7 +11909,7 @@
 
 {synoptline}
 {marker sourceid_LO.EGRA.READ.AFA.ADV.3GRD}
-{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.AFA.ADV.3GRD:LO.EGRA.READ.AFA.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Afan Oromo. 3rd Grade}}
+{synopt:{bf:{help wbopendata_sourceid##LO.EGRA.READ.AFA.ADV.3GRD:LO.EGRA.READ.AFA.ADV.3GRD} - EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Afan Oromo. 3rd GradePASEC: 6th grade students by reading proficiency level (%). Level 4}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -16115,7 +16115,7 @@
 
 {synoptline}
 {marker sourceid_LO.PIAAC.LIT.YOU.3}
-{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.YOU.3:LO.PIAAC.LIT.YOU.3} - PIAAC: Young adults by literacy proficiency level (%). Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##LO.PIAAC.LIT.YOU.3:LO.PIAAC.LIT.YOU.3} - PIAAC: Young adults by literacy proficiency level (%). Level 3SACMEQ: Female 6th grade students by mathematics proficiency level (%). Level 1 - Pre-Numeracy}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -20918,7 +20918,7 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.15UP.1.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.15UP.1.MA:PRJ.ATT.15UP.1.MA} - Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. Male}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.15UP.1.MA:PRJ.ATT.15UP.1.MA} - Wittgenstein Projection: Percentage of the population age 15+ by highest level of educational attainment. Primary. MaleWittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. Incomplete Primary. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -22454,7 +22454,7 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.60UP.2.FE}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.60UP.2.FE:PRJ.ATT.60UP.2.FE} - Wittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.60UP.2.FE:PRJ.ATT.60UP.2.FE} - SABER: (School Autonomy Accountability) Policy Goal 4 Lever 5: Publication of student assessmentsWittgenstein Projection: Percentage of the population age 60+ by highest level of educational attainment. Lower Secondary. Female}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -23690,7 +23690,7 @@
 
 {synoptline}
 {marker sourceid_PRJ.POP.1519.NED.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.1519.NED.MF:PRJ.POP.1519.NED.MF} - Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.POP.1519.NED.MF:PRJ.POP.1519.NED.MF} - Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%)Wittgenstein Projection: Population age 15-19 in thousands by highest level of educational attainment. No Education. Total}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -29525,6 +29525,18 @@
 
 
 {synoptline}
+{marker sourceid_SP.POP.6064.MA.5Y}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - Africa Dataset: Graduates from accredited pre-service primary or secondary teacher training programmes, both sexes (number)Population ages 60-64, male (% of male population)}}
+
+{synopt:{opt Source}}12 Education Statistics{p_end}
+
+
+{synopt:{opt Source Notes}}Total number of graduates receiving a government recognised primary or secondary education teaching qualification during the reference year through a pre-service teacher training programme. Pre-service teacher training programmes are recognise{p_end}
+
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+
+
+{synoptline}
 {marker sourceid_SP.POP.AG00.FE.IN}
 {synopt:{bf:{help wbopendata_sourceid##SP.POP.AG00.FE.IN:SP.POP.AG00.FE.IN} - Age population, age 0, female, interpolated}}
 
@@ -32721,7 +32733,7 @@
 
 {synoptline}
 {marker sourceid_UIS.DR.2.GPV.G3.F}
-{synopt:{bf:{help wbopendata_sourceid##UIS.DR.2.GPV.G3.F:UIS.DR.2.GPV.G3.F} - Drop-out rate from Grade 3 of lower secondary general education, female (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.DR.2.GPV.G3.F:UIS.DR.2.GPV.G3.F} - Drop-out rate from Grade 3 of lower secondary general education, female (%)UIS: Net attendance rate, lower secondary, rural, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -37246,7 +37258,7 @@
 
 {synoptline}
 {marker sourceid_UIS.NAR.1.Q5.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.Q5.M:UIS.NAR.1.Q5.M} - UIS: Net attendance rate, primary, richest quintile, male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.Q5.M:UIS.NAR.1.Q5.M} - UIS: Net attendance rate, primary, richest quintile, male (%)UIS: Rate of out-of-school children of primary school age, fourth quintile, both sexes (household survey data) (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -37294,7 +37306,7 @@
 
 {synoptline}
 {marker sourceid_UIS.NAR.1.RUR.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.RUR.M:UIS.NAR.1.RUR.M} - UIS: Net attendance rate, primary, rural, male (%)}}
+{synopt:{bf:{help wbopendata_sourceid##UIS.NAR.1.RUR.M:UIS.NAR.1.RUR.M} - UIS: Net attendance rate, primary, rural, male (%)UIS: Net attendance rate, primary, urban, both sexes (%)}}
 
 {synopt:{opt Source}}12 Education Statistics{p_end}
 
@@ -42324,7 +42336,7 @@
 
 {synopt:{opt Source Notes}}Percentage of a cohort of female students enrolled in the first grade of lower secondary education in a given school year who are expected to reach the last grade of lower secondary education, regardless of repetition. Divide the total number{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for StatisticsWittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
 
 
 {synoptline}

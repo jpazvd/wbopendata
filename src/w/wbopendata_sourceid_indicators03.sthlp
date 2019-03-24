@@ -241,6 +241,18 @@
 
 
 {synoptline}
+{marker sourceid_PRJ.ATT.25UP.3.MA}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.25UP.3.MA:PRJ.ATT.25UP.3.MA} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence IntervalWittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male}}
+
+{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+
+
+{synoptline}
 {marker sourceid_PRT.PDCL.IND9.ALLD.ZS}
 {synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND9.ALLD.ZS:PRT.PDCL.IND9.ALLD.ZS} - PDI-9 Aid provided in the framework of programme-based appproaches (%)}}
 
