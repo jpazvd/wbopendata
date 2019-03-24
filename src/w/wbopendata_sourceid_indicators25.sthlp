@@ -62,7 +62,7 @@
 {syntab:{title:{bf:25 Jobs}}}
 {synoptline}
 {marker sourceid_SL.EMP.OWAC.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS} - Own-account workers, male (% of male employment) (modeled ILO estimate)Own-account workers, total (% of total employment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS} - Own-account workers, total (% of total employment)}}
 
 {synopt:{opt Source}}25 Jobs{p_end}
 

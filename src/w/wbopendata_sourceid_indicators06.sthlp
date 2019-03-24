@@ -62,7 +62,7 @@
 {syntab:{title:{bf:06 International Debt Statistics}}}
 {synoptline}
 {marker sourceid_BX.FOD.AGRI.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.FOD.AGRI.CD:BX.FOD.AGRI.CD} - Food exports excluding fish (FAO, current US$)Grants, excluding technical cooperation (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.FOD.AGRI.CD:BX.FOD.AGRI.CD} - Food exports excluding fish (FAO, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_BX.GRT.EXTA.CD.WD}
-{synopt:{bf:{help wbopendata_sourceid##BX.GRT.EXTA.CD.WD:BX.GRT.EXTA.CD.WD} - Grants, excluding technical cooperation (BoP, current US$)Technical cooperation grants (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GRT.EXTA.CD.WD:BX.GRT.EXTA.CD.WD} - Technical cooperation grants (current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -110,7 +110,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DINV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (DRS, current US$)Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 

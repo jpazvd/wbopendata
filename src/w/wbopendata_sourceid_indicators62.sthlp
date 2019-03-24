@@ -62,7 +62,7 @@
 {syntab:{title:{bf:62 International Comparison Program (ICP) 2011}}}
 {synoptline}
 {marker sourceid_S01}
-{synopt:{bf:{help wbopendata_sourceid##S01:S01} - EXPENDITURE SHARES (GDP=100)EXPENDITURES (National currency units, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S01:S01} - EXPENDITURES (National currency units, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -74,7 +74,7 @@
 
 {synoptline}
 {marker sourceid_S02}
-{synopt:{bf:{help wbopendata_sourceid##S02:S02} - EXPENDITURE SHARES (GDP=100)PPPs (US$=1)}}
+{synopt:{bf:{help wbopendata_sourceid##S02:S02} - EXPENDITURE SHARES (GDP=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_S03}
-{synopt:{bf:{help wbopendata_sourceid##S03:S03} - PPPs (US$=1)REAL EXPENDITURES (US$, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S03:S03} - PPPs (US$=1)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -98,7 +98,7 @@
 
 {synoptline}
 {marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -110,7 +110,7 @@
 
 {synoptline}
 {marker sourceid_S05}
-{synopt:{bf:{help wbopendata_sourceid##S05:S05} - REAL EXPENDITURES PER CAPITA (US$)REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S05:S05} - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -122,7 +122,7 @@
 
 {synoptline}
 {marker sourceid_S06}
-{synopt:{bf:{help wbopendata_sourceid##S06:S06} - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)REAL EXPENDITURES PER CAPITA (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##S06:S06} - REAL EXPENDITURES PER CAPITA (US$)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -134,7 +134,7 @@
 
 {synoptline}
 {marker sourceid_S07}
-{synopt:{bf:{help wbopendata_sourceid##S07:S07} - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)PRICE LEVEL INDEX (World = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##S07:S07} - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -146,7 +146,7 @@
 
 {synoptline}
 {marker sourceid_S08}
-{synopt:{bf:{help wbopendata_sourceid##S08:S08} - NOMINAL EXPENDITURES (US$, billions)PRICE LEVEL INDEX (World = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##S08:S08} - PRICE LEVEL INDEX (World = 100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -158,7 +158,7 @@
 
 {synoptline}
 {marker sourceid_S09}
-{synopt:{bf:{help wbopendata_sourceid##S09:S09} - NOMINAL EXPENDITURES (US$, billions)NOMINAL EXPENDITURES PER CAPITA (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##S09:S09} - NOMINAL EXPENDITURES (US$, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker sourceid_S10}
-{synopt:{bf:{help wbopendata_sourceid##S10:S10} - EXCHANGE RATE (US$ = 1.000)NOMINAL EXPENDITURES PER CAPITA (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##S10:S10} - NOMINAL EXPENDITURES PER CAPITA (US$)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -182,7 +182,7 @@
 
 {synoptline}
 {marker sourceid_S11}
-{synopt:{bf:{help wbopendata_sourceid##S11:S11} - EXCHANGE RATE (US$ = 1.000)POPULATION (millions)}}
+{synopt:{bf:{help wbopendata_sourceid##S11:S11} - EXCHANGE RATE (US$ = 1.000)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -206,7 +206,7 @@
 
 {synoptline}
 {marker sourceid_s_policyholders_B2_nonlife}
-{synopt:{bf:{help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - EXPENDITURES (National currency units, billions)Insurance policy holders per 1,000 adults (non-life)}}
+{synopt:{bf:{help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - Insurance policy holders per 1,000 adults (non-life)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
