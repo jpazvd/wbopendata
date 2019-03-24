@@ -61,8 +61,20 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:15 Global Economic Monitor}}}
 {synoptline}
+{marker sourceid_AG.PRD.GAGRI.XD}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GAGRI.XD:AG.PRD.GAGRI.XD} - Agriculture production index (gross, 1999-2001 = 100)}}
+
+{synopt:{opt Source}}15 Global Economic Monitor{p_end}
+
+
+{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal percentage terms, measured on a year-on-year basis, and seasonally adjusted.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
+
+
+{synoptline}
 {marker sourceid_CM.MKT.TRNR}
-{synopt:{bf:{help wbopendata_sourceid##CM.MKT.TRNR:CM.MKT.TRNR} - Core CPI,not seas.adj,,,}}
+{synopt:{bf:{help wbopendata_sourceid##CM.MKT.TRNR:CM.MKT.TRNR} - Stocks traded, turnover ratio of domestic shares (%)}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -110,7 +122,7 @@
 
 {synoptline}
 {marker sourceid_CPTOTSAXMZGY}
-{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXMZGY:CPTOTSAXMZGY} - CPI Price, nominal, seas. adj.}}
+{synopt:{bf:{help wbopendata_sourceid##CPTOTSAXMZGY:CPTOTSAXMZGY} - CPI Price, % y-o-y, median weighted, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -129,7 +141,7 @@
 
 {synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal terms and seasonally adjusted.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
 
 {synoptline}
@@ -139,14 +151,14 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal percentage terms, measured on a year-on-year basis, and seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
 
 {synoptline}
 {marker sourceid_DM.DOD.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DM.DOD.DLTF.CD:DM.DOD.DLTF.CD} - Central Bank Ext. Debt, incl. IMF credit (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DM.DOD.DLTF.CD:DM.DOD.DLTF.CD} - Imports Merchandise, Customs, current US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -187,7 +199,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in current US$ millions, seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, not seasonally adjusted. The base year is 2005.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -199,7 +211,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Merchandise (goods) exports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, seasonally adjusted. The base year is 2005.{p_end}
+{synopt:{opt Source Notes}}Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in current US$ millions, seasonally adjusted.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -223,7 +235,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}The price index of Merchandise (goods) imports, cost, insurance and freight basis (c.i.f.), in constant US$ millions, seasonally adjusted. The base year is 2005.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -247,19 +259,19 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. It is calculated as an annual average based on monthly averages (local currency units re{p_end}
+{synopt:{opt Source Notes}}Local currency units (LCU) per U.S. dollar, with values prior to the currency's introduction presented in the new currency's terms{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
 
 {synoptline}
 {marker sourceid_DPANUSSPB}
-{synopt:{bf:{help wbopendata_sourceid##DPANUSSPB:DPANUSSPB} - Exchange rate, new LCU per USD extended backward, period average}}
+{synopt:{bf:{help wbopendata_sourceid##DPANUSSPB:DPANUSSPB} - Exchange rate, old LCU per USD extended forward, period average}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Local currency units (LCU) per U.S. dollar, with values prior to the currency's introduction presented in the new currency's terms{p_end}
+{synopt:{opt Source Notes}}Local currency units (LCU) per U.S. dollar, with values after a new currency's introduction presented in the old currency's terms{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -278,7 +290,7 @@
 
 {synoptline}
 {marker sourceid_DS.DOD.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DS.DOD.TOTL.CD:DS.DOD.TOTL.CD} - Identified Short-Term Debt (US$, end of year)}}
+{synopt:{bf:{help wbopendata_sourceid##DS.DOD.TOTL.CD:DS.DOD.TOTL.CD} - Stock Markets, US$}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -295,7 +307,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}Local equity market index valued in US$ terms{p_end}
+{synopt:{opt Source Notes}}Local equity market index valued in local currency unit (LCU) terms{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -309,12 +321,12 @@
 
 {synopt:{opt Source Notes}}Local equity market index valued in local currency unit (LCU) terms{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.UND.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.UND.PRVT.CD:DT.UND.PRVT.CD} - Undisbursed external debt, private creditors (UND, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.UND.PRVT.CD:DT.UND.PRVT.CD} - Exports Merchandise, Customs, current US$, millions}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -350,12 +362,12 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHNSXD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSXD:DXGSRMRCHNSXD} - Exports Merchandise, Customs, Price, US$}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHNSXD:DXGSRMRCHNSXD} - Exports Merchandise, Customs, current US$, millions, seas. adj.}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}The price index of Merchandise (goods) exports,  free on board (f.o.b.), in currrent US$ millions. Not seasonally adjusted.{p_end}
+{synopt:{opt Source Notes}}Merchandise (goods) exports,  free on board (f.o.b.), in current US$ millions, seasonally adjusted.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
@@ -398,7 +410,7 @@
 
 {synoptline}
 {marker sourceid_EG.USE.PCAP.KG.OE}
-{synopt:{bf:{help wbopendata_sourceid##EG.USE.PCAP.KG.OE:EG.USE.PCAP.KG.OE} - Energy use (kg of oil equivalent per capita)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.USE.PCAP.KG.OE:EG.USE.PCAP.KG.OE} - J.P. Morgan Emerging Markets Bond Spread (EMBI+),,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -458,7 +470,7 @@
 
 {synoptline}
 {marker sourceid_IP.TMK.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##IP.TMK.TOTL:IP.TMK.TOTL} - Industrial Production, constant US$}}
+{synopt:{bf:{help wbopendata_sourceid##IP.TMK.TOTL:IP.TMK.TOTL} - Trademark applications, total}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -475,7 +487,7 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}An economic indicator that measures changes in output for the industrial sector of the economy. The industrial sector includes manufacturing, mining, and utilities. Data is in constant US$, seasonally adjusted. The base year is 2005.{p_end}
+{synopt:{opt Source Notes}}An economic indicator that measures changes in output for the industrial sector of the economy. The industrial sector includes manufacturing, mining, and utilities. Data is in constant US$, and not seasonally adjusted. The base year is 2005.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
@@ -487,14 +499,14 @@
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
 
-{synopt:{opt Source Notes}}An economic indicator that measures changes in output for the industrial sector of the economy. The industrial sector includes manufacturing, mining, and utilities. Data is in constant US$, seasonally adjusted. The base year is 2005.{p_end}
+{synopt:{opt Source Notes}}Business regulatory environment assesses the extent to which the legal, regulatory, and policy environments help or hinder private businesses in investing, creating jobs, and becoming more productive.{p_end}
 
 {synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_NE.TRM.TRAD.XU}
-{synopt:{bf:{help wbopendata_sourceid##NE.TRM.TRAD.XU:NE.TRM.TRAD.XU} - Terms of trade (goods and services, 2000 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.TRM.TRAD.XU:NE.TRM.TRAD.XU} - Nominal Effecive Exchange Rate}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -513,7 +525,7 @@
 
 {synopt:{opt Source Notes}}A measure of the value of a currency against a weighted average of several foreign currencies{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, Laporan Keuangan Pemerintah Pusat (Central Government Financial Report){p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
 
 
 {synoptline}
@@ -602,7 +614,7 @@
 
 {synoptline}
 {marker sourceid_RESLV.ISV.SOIF.06.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.SOIF.06.DB1519:RESLV.ISV.SOIF.06.DB1519} - Resolving insolvency: Strength of insolvency framework index (0-16) (DB15-19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.SOIF.06.DB1519:RESLV.ISV.SOIF.06.DB1519} - Retail Sales Volume,Index,,,}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -626,7 +638,7 @@
 
 {synoptline}
 {marker sourceid_TN.PRI.MRCH.ID}
-{synopt:{bf:{help wbopendata_sourceid##TN.PRI.MRCH.ID:TN.PRI.MRCH.ID} - Terms of Trade Index (1980=100, US$-based)}}
+{synopt:{bf:{help wbopendata_sourceid##TN.PRI.MRCH.ID:TN.PRI.MRCH.ID} - Terms of Trade}}
 
 {synopt:{opt Source}}15 Global Economic Monitor{p_end}
 
@@ -682,18 +694,6 @@
 {synopt:{opt Source Notes}}The Combined Polity score is computed by subtracting the AUTOCRACY score (UPP.INS.AUTO.XQ) from the DEMOCRACY score (UPP.INS.DEMO.XQ); the resulting unified polity scale ranges from +10 (strongly democratic) to -10 (strongly autocratic). Note:{p_end}
 
 {synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
-
-
-{synoptline}
-{marker sourceid_fin17c.14.a}
-{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Saved for education or school fees (% age 15+)}}
-
-{synopt:{opt Source}}15 Global Economic Monitor{p_end}
-
-
-{synopt:{opt Source Notes}}The consumer price index reflects the change in prices for the average consumer of a constant basket of consumer goods. Data is in nominal percentage terms, measured on a year-on-year basis, and seasonally adjusted.{p_end}
-
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
 
 
 

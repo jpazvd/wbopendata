@@ -79,9 +79,9 @@
 {synopt:{opt Source}}50 Subnational Population{p_end}
 
 
-{synopt:{opt Source Notes}}Female population of the age-group theoretically corresponding to pre-primary education as indicated by theoretical entrance age and duration.{p_end}
+{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
 
 
 

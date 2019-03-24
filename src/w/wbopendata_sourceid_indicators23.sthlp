@@ -62,7 +62,7 @@
 {syntab:{title:{bf:23 Quarterly External Debt Statistics GDDS}}}
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD:DT.AMT.DECT.CD} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD:DT.AMT.DECT.CD} - Principal repayments, Total (current US$)}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -134,7 +134,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.05.10.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.05.10.YR.US:DT.AMT.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.05.10.YR.US:DT.AMT.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -182,7 +182,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.10.12.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.12.MO.US:DT.AMT.DECT.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.12.MO.US:DT.AMT.DECT.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -206,7 +206,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.1218.US:DT.AMT.DECT.CD.1218.US} - Ext. Debt Service Pmt, All Sectors, More than 12 to 18, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.1218.US:DT.AMT.DECT.CD.1218.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -218,7 +218,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.13.18.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.13.18.MO.US:DT.AMT.DECT.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.13.18.MO.US:DT.AMT.DECT.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -290,7 +290,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PROP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.CD:DT.AMT.PROP.CD} - PPG, other private creditors (AMT, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PROP.CD:DT.AMT.PROP.CD} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -314,7 +314,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.03.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.03.YR.US:DT.AMT.PRVS.CD.03.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.03.YR.US:DT.AMT.PRVS.CD.03.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -338,7 +338,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.04.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.04.YR.US:DT.AMT.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.04.YR.US:DT.AMT.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -362,7 +362,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.05.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.05.YR.US:DT.AMT.PRVS.CD.05.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.05.YR.US:DT.AMT.PRVS.CD.05.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -398,7 +398,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.10.15.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.10.15.YR.US:DT.AMT.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.10.15.YR.US:DT.AMT.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -434,7 +434,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.19.24.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.19.24.MO.US:DT.AMT.PRVS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.19.24.MO.US:DT.AMT.PRVS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -542,7 +542,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.07.09.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.07.09.MO.US:DT.AMT.PUBS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.07.09.MO.US:DT.AMT.PUBS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -626,7 +626,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.CDST.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDST.CD.PU.AR.US:DT.DOD.CDST.CD.PU.AR.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDST.CD.PU.AR.US:DT.DOD.CDST.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -674,7 +674,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.CG}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CG:DT.DOD.DECT.CD.CG} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Domestic currency, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.CG:DT.DOD.DECT.CD.CG} - Total change in external debt stocks (current US$)}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -794,7 +794,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TO.US:DT.DOD.DECT.CD.TO.US} - Gross Ext. Debt Pos., All Other Sectors, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TO.US:DT.DOD.DECT.CD.TO.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Unallocated, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -926,7 +926,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DPNG.CD.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.AR.US:DT.DOD.DPNG.CD.AR.US} - Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.AR.US:DT.DOD.DPNG.CD.AR.US} - Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., All maturities, Arrears, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -938,7 +938,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DPNG.CD.LT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.LT.US:DT.DOD.DPNG.CD.LT.US} - Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.LT.US:DT.DOD.DPNG.CD.LT.US} - Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -974,7 +974,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DPNG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.ZS:DT.DOD.DPNG.ZS} - Private nonguaranteed debt (% of external debt)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.ZS:DT.DOD.DPNG.ZS} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, All currencies, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -986,7 +986,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DPPC.CD.DT.T5.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPPC.CD.DT.T5.US:DT.DOD.DPPC.CD.DT.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, All currencies, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPPC.CD.DT.T5.US:DT.DOD.DPPC.CD.DT.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1070,7 +1070,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PCCR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCCR.US:DT.DOD.PCCR.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCCR.US:DT.DOD.PCCR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1202,7 +1202,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBA.CD.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.US:DT.DOD.PRBA.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.US:DT.DOD.PRBA.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1262,7 +1262,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRCD.LT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRCD.LT.AR.US:DT.DOD.PRCD.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Currency and deposits , USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRCD.LT.AR.US:DT.DOD.PRCD.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Currency and deposits , USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1310,7 +1310,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRLO.LT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.LT.AR.US:DT.DOD.PRLO.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.LT.AR.US:DT.DOD.PRLO.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Loans, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1334,7 +1334,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRLT.CD.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLT.CD.PR.AR.US:DT.DOD.PRLT.CD.PR.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLT.CD.PR.AR.US:DT.DOD.PRLT.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1526,7 +1526,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRTD.CD.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.US:DT.DOD.PRTD.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Debt securities' holders, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.US:DT.DOD.PRTD.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1622,7 +1622,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.DI.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DI.US:DT.DOD.PRVS.DI.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DI.US:DT.DOD.PRVS.DI.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, DI: Intercom. Lending, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1682,7 +1682,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.LT.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.LT.TO.US:DT.DOD.PRVS.LT.TO.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.LT.TO.US:DT.DOD.PRVS.LT.TO.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1730,7 +1730,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.CD:DT.DOD.PRVT.CD} - Public Sector Ext. Debt Pos., Long-term, Special drawing rights (allocations), USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVT.CD:DT.DOD.PRVT.CD} - PPG, private creditors (DOD, current US$)}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1754,7 +1754,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUAE.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUAE.IL.US:DT.DOD.PUAE.IL.US} - Public Sector Ext. Debt Pos., All maturities, Debt liab. of dir. investors to DI ent., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUAE.IL.US:DT.DOD.PUAE.IL.US} - Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1922,7 +1922,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.US:DT.DOD.PUBS.CD.US} - Public Sector Ext. Debt Pos., All maturities, DI: Intercom. Lending, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.US:DT.DOD.PUBS.CD.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1934,7 +1934,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.DI.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DI.US:DT.DOD.PUBS.DI.US} - Public Sector Ext. Debt Pos., Long-term, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DI.US:DT.DOD.PUBS.DI.US} - Public Sector Ext. Debt Pos., All maturities, DI: Intercom. Lending, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -1994,7 +1994,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.LT.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.LT.TO.US:DT.DOD.PUBS.LT.TO.US} - Public Sector Ext. Debt Pos., Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.LT.TO.US:DT.DOD.PUBS.LT.TO.US} - Public Sector Ext. Debt Pos., All maturities, Arrears, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2198,7 +2198,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUOT.CD.LT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.LT.US:DT.DOD.PUOT.CD.LT.US} - Public Sector Ext. Debt Pos., Other creditors, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.LT.US:DT.DOD.PUOT.CD.LT.US} - Public Sector Ext. Debt Pos., Other creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2270,7 +2270,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PUTD.CD.LT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.LT.US:DT.DOD.PUTD.CD.LT.US} - Public Sector Ext. Debt Pos., Debt securities' holders, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.LT.US:DT.DOD.PUTD.CD.LT.US} - Public Sector Ext. Debt Pos., Debt securities' holders, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2342,7 +2342,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.04.06.MO.SA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.04.06.MO.SA.US:DT.INP.DECT.04.06.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 4yrs, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.04.06.MO.SA.US:DT.INP.DECT.04.06.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 3 to 6 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2390,7 +2390,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.07.09.MO.SA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.07.09.MO.SA.US:DT.INP.DECT.07.09.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 9 to 12 mo., All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.07.09.MO.SA.US:DT.INP.DECT.07.09.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 6 to 9 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2450,7 +2450,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.IQ.US:DT.INP.DECT.CD.SA.IQ.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, Immediately, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.IQ.US:DT.INP.DECT.CD.SA.IQ.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, Immediate, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2474,7 +2474,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.00.03.MO.SA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.00.03.MO.SA.US:DT.INR.DECT.00.03.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 3yrs, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.00.03.MO.SA.US:DT.INR.DECT.00.03.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 0 to 3 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2534,7 +2534,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.05.YR.SA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.05.YR.SA.US:DT.INR.DECT.05.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 5yrs, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.05.YR.SA.US:DT.INR.DECT.05.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 6 to 9 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2654,7 +2654,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.03.US:DT.INT.DECT.CD.03.US} - Ext. Debt Service Pmt, All Sectors, More than 0 to 3, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.03.US:DT.INT.DECT.CD.03.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2738,7 +2738,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.0912.US:DT.INT.DECT.CD.0912.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.0912.US:DT.INT.DECT.CD.0912.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2774,7 +2774,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.1218.US:DT.INT.DECT.CD.1218.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.1218.US:DT.INT.DECT.CD.1218.US} - Ext. Debt Service Pmt, All Sectors, More than 12 to 18, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2810,7 +2810,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.1824.US:DT.INT.DECT.CD.1824.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.1824.US:DT.INT.DECT.CD.1824.US} - Ext. Debt Service Pmt, All Sectors, More than 18 to 24, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2834,7 +2834,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.RM.US:DT.INT.DECT.CD.IL.RM.US} - Gross Ext. Debt Pos., DI: Intercom Lending, One year or less, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.RM.US:DT.INT.DECT.CD.IL.RM.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -2966,7 +2966,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.10.15.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.10.15.YR.US:DT.INT.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.10.15.YR.US:DT.INT.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3050,7 +3050,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.03.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.03.YR.US:DT.INT.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.03.YR.US:DT.INT.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3098,7 +3098,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.05.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.05.YR.US:DT.INT.PUBS.CD.05.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.05.YR.US:DT.INT.PUBS.CD.05.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3122,7 +3122,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.10.12.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.10.12.MO.US:DT.INT.PUBS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.10.12.MO.US:DT.INT.PUBS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3146,7 +3146,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.13.18.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.13.18.MO.US:DT.INT.PUBS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.13.18.MO.US:DT.INT.PUBS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3218,7 +3218,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD:DT.TDS.DECT.CD} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD:DT.TDS.DECT.CD} - Debt service on external debt, total (TDS, current US$)}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3290,7 +3290,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.05.10.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.05.10.YR.US:DT.TDS.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.05.10.YR.US:DT.TDS.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3494,7 +3494,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.04.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.04.YR.US:DT.TDS.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.04.YR.US:DT.TDS.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3614,7 +3614,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.CD:DT.TDS.PRVT.CD} - PPG, private creditors (TDS, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVT.CD:DT.TDS.PRVT.CD} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3638,7 +3638,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.03.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.03.YR.US:DT.TDS.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.03.YR.US:DT.TDS.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 
@@ -3650,7 +3650,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.04.06.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.04.06.MO.US:DT.TDS.PUBS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.04.06.MO.US:DT.TDS.PUBS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
 

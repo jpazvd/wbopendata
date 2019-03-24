@@ -74,7 +74,7 @@
 
 {synoptline}
 {marker sourceid_HD.HCI.STNT.MA}
-{synopt:{bf:{help wbopendata_sourceid##HD.HCI.STNT.MA:HD.HCI.STNT.MA} - Condom use in last intercourse (% of females at risk population)}}
+{synopt:{bf:{help wbopendata_sourceid##HD.HCI.STNT.MA:HD.HCI.STNT.MA} - Fraction of Children Under 5 Not Stunted, Male}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -151,7 +151,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 18-49 who had more than one sexual partner in the last 12 months and used a condom during last intercourse{p_end}
+{synopt:{opt Source Notes}}Percentage of population age 15-49 who had blood tests that are positive for HIV1 or HIV2{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.AIDS.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.AIDS.ZS.Q1:HF.DYN.AIDS.ZS.Q1} - Prevalence of HIV, total (% of population ages 15-49): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.AIDS.ZS.Q1:HF.DYN.AIDS.ZS.Q1} - Prevalence of HIV, total (% of population ages 15-49): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -206,7 +206,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.AIDS.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.AIDS.ZS.Q4:HF.DYN.AIDS.ZS.Q4} - Prevalence of HIV, total (% of population ages 15-49): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.AIDS.ZS.Q4:HF.DYN.AIDS.ZS.Q4} - Prevalence of HIV, total (% of population ages 15-49): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -223,7 +223,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population age 15-49 who had blood tests that are positive for HIV1 or HIV2{p_end}
+{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -266,7 +266,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.CONM.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.CONM.ZS.Q3:HF.DYN.CONM.ZS.Q3} - Contraceptive prevalence, modern methods (% of females ages 15-49): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.CONM.ZS.Q3:HF.DYN.CONM.ZS.Q3} - Contraceptive prevalence, modern methods (% of females ages 15-49): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -295,7 +295,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women age 15-49 who are married or live in union and currently use a modern method of contraception. Modern methods are defined as female sterilization, male sterilization, the contraceptive pill, intrauterine contraceptive devic{p_end}
+{synopt:{opt Source Notes}}Deaths of children before their 1st birthday per 1,000 live births. Sample: children born up to 5 years before the survey for full population mortality estimates, and up to 10 years before the survey for wealth quintile specific mortality esti{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.IMRT.IN.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN.Q2:HF.DYN.IMRT.IN.Q2} - Mortality rate, infant (per 1,000 live births): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN.Q2:HF.DYN.IMRT.IN.Q2} - Mortality rate, infant (per 1,000 live births): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -338,7 +338,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.IMRT.IN.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN.Q3:HF.DYN.IMRT.IN.Q3} - Mortality rate, infant (per 1,000 live births): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN.Q3:HF.DYN.IMRT.IN.Q3} - Mortality rate, infant (per 1,000 live births): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -350,7 +350,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.IMRT.IN.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN.Q4:HF.DYN.IMRT.IN.Q4} - Mortality rate, infant (per 1,000 live births): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.IMRT.IN.Q4:HF.DYN.IMRT.IN.Q4} - Mortality rate, infant (per 1,000 live births): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -446,7 +446,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.SMEA}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.SMEA:HF.DYN.SMEA} - Pap smear in last 5 years (% of females 30-49): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.SMEA:HF.DYN.SMEA} - Pap smear in last 5 years (% of females 30-49)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -482,7 +482,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.SMEA.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.SMEA.Q3:HF.DYN.SMEA.Q3} - Pap smear in last 5 years (% of females 30-49): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.SMEA.Q3:HF.DYN.SMEA.Q3} - Pap smear in last 5 years (% of females 30-49): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -494,7 +494,7 @@
 
 {synoptline}
 {marker sourceid_HF.DYN.SMEA.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.DYN.SMEA.Q4:HF.DYN.SMEA.Q4} - Pap smear in last 5 years (% of females 30-49): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.DYN.SMEA.Q4:HF.DYN.SMEA.Q4} - Pap smear in last 5 years (% of females 30-49): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -511,7 +511,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women who received a pap smear in the last 5 years (preferably age 30-49 but age groups may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of children age 15-23 months who received Bacillus Calmette–Guérin (BCG), measles/Measles-Mumps-Rubella (MMR), 3 doses of polio (excluding polio given at birth) and 3 doses of diphtheria-pertussis-tetanus (DPT)/Pentavalent vaccin{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -578,7 +578,7 @@
 
 {synoptline}
 {marker sourceid_HF.IMM.FULL.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.IMM.FULL.Q5:HF.IMM.FULL.Q5} - Immunization, full (% of children ages 15-23 months): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.IMM.FULL.Q5:HF.IMM.FULL.Q5} - Immunization, measles (% of children ages 15-23 months)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -650,7 +650,7 @@
 
 {synoptline}
 {marker sourceid_HF.IMM.MEAS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.IMM.MEAS.Q5:HF.IMM.MEAS.Q5} - Use of insecticide-treated bed nets (% of under-5 population)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.IMM.MEAS.Q5:HF.IMM.MEAS.Q5} - Immunization, measles (% of children ages 15-23 months): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -727,14 +727,14 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of most recent births in last two years with at least 4 antenatal care visits (women age 18-49 at the time of the survey{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 who slept under an insecticide treated bed net (ITN) the night before the survey. A bed net is considered treated if it a) is a long-lasting treated net, b) a pre-treated net that was purchased or soaked in insec{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.STA.ANV4.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS:HF.STA.ANV4.ZS} - Pregnant women receiving prenatal care of at least four visits (% of pregnant women)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS:HF.STA.ANV4.ZS} - Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -758,7 +758,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.ANV4.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS.Q2:HF.STA.ANV4.ZS.Q2} - Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS.Q2:HF.STA.ANV4.ZS.Q2} - Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -782,7 +782,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.ANV4.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS.Q4:HF.STA.ANV4.ZS.Q4} - Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ANV4.ZS.Q4:HF.STA.ANV4.ZS.Q4} - Pregnant women receiving prenatal care of at least four visits (% of pregnant women): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -943,7 +943,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population over 18 having their blood pressure measured by health professional in the last year{p_end}
+{synopt:{opt Source Notes}}Percentage of population aged 40-69 at increased risk of diabetes (overweight, obese) having their blood sugar measured in the last 5 years{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -986,7 +986,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM15.FE.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM15.FE.Q3:HF.STA.BM15.FE.Q3} - Mean BMI, female (ages 15-49): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM15.FE.Q3:HF.STA.BM15.FE.Q3} - Mean BMI, female (ages 15-49): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1058,7 +1058,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM18.FE.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.FE.Q2:HF.STA.BM18.FE.Q2} - Mean BMI, female (age 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.FE.Q2:HF.STA.BM18.FE.Q2} - Mean BMI, female (age 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1070,7 +1070,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM18.FE.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.FE.Q3:HF.STA.BM18.FE.Q3} - Mean BMI, female (age 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.FE.Q3:HF.STA.BM18.FE.Q3} - Mean BMI, female (age 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1106,7 +1106,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BM18.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.Q1:HF.STA.BM18.Q1} - Mean BMI, adults (age 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BM18.Q1:HF.STA.BM18.Q1} - Mean BMI, adults (age 18+): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1202,7 +1202,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BMIN.MA.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q3:HF.STA.BMIN.MA.Q3} - Mean BMI, male (age 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q3:HF.STA.BMIN.MA.Q3} - Mean BMI, male (age 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1214,7 +1214,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BMIN.MA.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q4:HF.STA.BMIN.MA.Q4} - Mean BMI, male (age 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BMIN.MA.Q4:HF.STA.BMIN.MA.Q4} - Mean BMI, male (age 18+): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1238,7 +1238,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BP18.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BP18.ZS:HF.STA.BP18.ZS} - Blood pressure measured in last 12 months (% of population age 18+)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BP18.ZS:HF.STA.BP18.ZS} - Blood pressure measured in last 12 months (% of population age 18+): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1310,7 +1310,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPDI}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPDI:HF.STA.BPDI} - Mean diastolic blood pressure, adult population (mmHg)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPDI:HF.STA.BPDI} - Mean diastolic blood pressure, adult population (mmHg): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1447,7 +1447,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population with high blood pressure or on treatment for high blood pressure (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of adult population being treated for high blood pressure (age-range may vary){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1478,7 +1478,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPSY.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPSY.Q2:HF.STA.BPSY.Q2} - Mean systolic blood pressure, adult population (mmHg): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPSY.Q2:HF.STA.BPSY.Q2} - Mean systolic blood pressure, adult population (mmHg): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1526,7 +1526,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BPTR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPTR.ZS:HF.STA.BPTR.ZS} - Treated for high blood pressure (% of adult population): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BPTR.ZS:HF.STA.BPTR.ZS} - Treated for high blood pressure (% of adult population)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1591,7 +1591,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population being treated for high blood pressure (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of most recent births in last 2 years attended by any skilled health personnel (women age 18-49 at the time of the survey). Definition of skilled varies by country and survey but always includes doctor, nurse, midwife and auxiliary{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1610,7 +1610,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.BRTC.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS.Q1:HF.STA.BRTC.ZS.Q1} - Births attended by skilled health staff (% of total): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.BRTC.ZS.Q1:HF.STA.BRTC.ZS.Q1} - Births attended by skilled health staff (% of total): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1670,7 +1670,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.CHOL}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.CHOL:HF.STA.CHOL} - High cholesterol or on treatment for high cholesterol (% of adult population)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.CHOL:HF.STA.CHOL} - Mean cholesterol, adult population (mmol/L)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1687,7 +1687,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population with high cholesterol or on treatment for high cholesterol (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of adult population at risk (overweight or obese and older than 20, male and older than 34) having their cholesterol levels measured in the last 5 years{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1742,7 +1742,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.CHOM.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.CHOM.ZS.Q4:HF.STA.CHOM.ZS.Q4} - Cholesterol measured in last five years (% of population at risk of high cholesterol): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.CHOM.ZS.Q4:HF.STA.CHOM.ZS.Q4} - Cholesterol measured in last five years (% of population at risk of high cholesterol): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1759,7 +1759,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population at risk (overweight or obese and older than 20, male and older than 34) having their cholesterol levels measured in the last 5 years{p_end}
+{synopt:{opt Source Notes}}Percentage of adult population being treated for raised blood glucose or diabetes (age-range may vary){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1826,12 +1826,12 @@
 
 {synoptline}
 {marker sourceid_HF.STA.DIAB.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.DIAB.ZS.Q5:HF.STA.DIAB.ZS.Q5} - Treated for raised blood glucose or diabetes (% of adult population): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.DIAB.ZS.Q5:HF.STA.DIAB.ZS.Q5} - Mean fasting blood glucose, adult population (mmol/L)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of adult population being treated for raised blood glucose or diabetes (age-range may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of adult population with impaired fasting glycaemia (age-range may vary){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -1862,7 +1862,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE15.FE}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE:HF.STA.HE15.FE} - Mean height in meters, female, (age 15-49)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE:HF.STA.HE15.FE} - Mean height in meters, female, (age 15-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1874,7 +1874,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE15.FE.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE.Q1:HF.STA.HE15.FE.Q1} - Mean height in meters, female, (age 15-49): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE.Q1:HF.STA.HE15.FE.Q1} - Mean height in meters, female, (age 15-49): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1886,7 +1886,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE15.FE.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE.Q2:HF.STA.HE15.FE.Q2} - Mean height in meters, female, (age 15-49): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE15.FE.Q2:HF.STA.HE15.FE.Q2} - Mean height in meters, female, (age 15-49): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1946,7 +1946,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.FE}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE:HF.STA.HE18.FE} - Mean height in meters, female (age 18+): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE:HF.STA.HE18.FE} - Mean height in meters, female (age 18+)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1958,7 +1958,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.FE.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE.Q1:HF.STA.HE18.FE.Q1} - Mean height in meters, female (age 18+): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE.Q1:HF.STA.HE18.FE.Q1} - Mean height in meters, female (age 18+): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -1994,7 +1994,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.FE.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE.Q4:HF.STA.HE18.FE.Q4} - Mean height in meters, female (age 18+): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.FE.Q4:HF.STA.HE18.FE.Q4} - Mean height in meters, female (age 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2030,7 +2030,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.MA.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q1:HF.STA.HE18.MA.Q1} - Mean height in meters, male (age 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q1:HF.STA.HE18.MA.Q1} - Mean height in meters, male (age 18+): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2042,7 +2042,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.MA.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q2:HF.STA.HE18.MA.Q2} - Mean height in meters, male (age 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q2:HF.STA.HE18.MA.Q2} - Mean height in meters, male (age 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2066,7 +2066,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.MA.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q4:HF.STA.HE18.MA.Q4} - Mean height in meters, male (age 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.MA.Q4:HF.STA.HE18.MA.Q4} - Mean height in meters, male (age 18+): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2090,7 +2090,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q1:HF.STA.HE18.Q1} - Mean height in meters, adults (age 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q1:HF.STA.HE18.Q1} - Mean height in meters, adults (age 18+): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2114,7 +2114,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q3:HF.STA.HE18.Q3} - Mean height in meters, adults (age 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q3:HF.STA.HE18.Q3} - Mean height in meters, adults (age 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2138,7 +2138,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.HE18.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q5:HF.STA.HE18.Q5} - Mean height in meters, adults (age 18+): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.HE18.Q5:HF.STA.HE18.Q5} - Inpatient care use in last 12 months (% of population 18+)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2215,7 +2215,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population age 18 and older using inpatient care in the last 12 months{p_end}
+{synopt:{opt Source Notes}}Percentage of children under 5 with a Weight-for-Age z-score &lt;-2 standard deviations from the reference median (z-score calculated using WHO 2006 Child Growth Standards){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2234,7 +2234,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.MALN.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.MALN.ZS.Q1:HF.STA.MALN.ZS.Q1} - Prevalence of underweight, weight for age (% of children under 5): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.MALN.ZS.Q1:HF.STA.MALN.ZS.Q1} - Prevalence of underweight, weight for age (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2258,7 +2258,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.MALN.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.MALN.ZS.Q3:HF.STA.MALN.ZS.Q3} - Prevalence of underweight, weight for age (% of children under 5): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.MALN.ZS.Q3:HF.STA.MALN.ZS.Q3} - Prevalence of underweight, weight for age (% of children under 5): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2318,7 +2318,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.MAMO.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.MAMO.ZS.Q2:HF.STA.MAMO.ZS.Q2} - Mammography in last 2 years, (% of females 50-69): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.MAMO.ZS.Q2:HF.STA.MAMO.ZS.Q2} - Mammography in last 2 years, (% of females 50-69): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2359,7 +2359,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women who received a mammogram in the last 2 years (preferably age 50-69 but age groups may vary){p_end}
+{synopt:{opt Source Notes}}Percentage of females aged 15-49 with BMI above 30 (excludes currently pregnant women and women having given birth in the three months preceding the survey){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2402,7 +2402,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB15.FE.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB15.FE.ZS.Q3:HF.STA.OB15.FE.ZS.Q3} - Prevalence of obesity, female, BMI &gt; 30 (% of population 15-49): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB15.FE.ZS.Q3:HF.STA.OB15.FE.ZS.Q3} - Prevalence of obesity, female, BMI &gt; 30 (% of population 15-49): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2431,7 +2431,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of females aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of females aged 15-49 with BMI above 30 (excludes currently pregnant women and women having given birth in the three months preceding the survey){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2503,7 +2503,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of females aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of males aged 18 and older with BMI above 30{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2546,7 +2546,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB18.MA.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.MA.ZS.Q3:HF.STA.OB18.MA.ZS.Q3} - Prevalence of obesity, male, BMI &gt; 30 (% of population 18+): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.MA.ZS.Q3:HF.STA.OB18.MA.ZS.Q3} - Prevalence of obesity, male, BMI &gt; 30 (% of population 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2575,7 +2575,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of males aged 18 and older with BMI above 30{p_end}
+{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 30{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2630,7 +2630,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OB18.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.ZS.Q4:HF.STA.OB18.ZS.Q4} - Prevalence of obesity, BMI &gt; 30 (% of population 18+): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.ZS.Q4:HF.STA.OB18.ZS.Q4} - Prevalence of obesity, BMI &gt; 30 (% of population 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2666,7 +2666,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.ORTH.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q1:HF.STA.ORTH.ZS.Q1} - Diarrhea treatment (% of children under 5 who received ORS): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q1:HF.STA.ORTH.ZS.Q1} - Diarrhea treatment (% of children under 5 who received ORS): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2690,7 +2690,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.ORTH.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q3:HF.STA.ORTH.ZS.Q3} - Diarrhea treatment (% of children under 5 who received ORS): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.ORTH.ZS.Q3:HF.STA.ORTH.ZS.Q3} - Diarrhea treatment (% of children under 5 who received ORS): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2738,7 +2738,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW15.FE.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q1:HF.STA.OW15.FE.ZS.Q1} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q1:HF.STA.OW15.FE.ZS.Q1} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2762,7 +2762,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW15.FE.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q3:HF.STA.OW15.FE.ZS.Q3} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW15.FE.ZS.Q3:HF.STA.OW15.FE.ZS.Q3} - Prevalence of overweight, female, BMI &gt; 25 (% of population ages 15-49): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2791,7 +2791,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of female population aged 18 or older with BMI above 25{p_end}
+{synopt:{opt Source Notes}}Percentage of female population aged 15-49 with BMI above 25 (excludes currently pregnant women and women having given birth in the three months preceding the survey){p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2822,7 +2822,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.FE.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.FE.ZS.Q2:HF.STA.OW18.FE.ZS.Q2} - Prevalence of overweight, female, BMI &gt; 25 (% of population 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.FE.ZS.Q2:HF.STA.OW18.FE.ZS.Q2} - Prevalence of overweight, female, BMI &gt; 25 (% of population 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2834,7 +2834,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.FE.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.FE.ZS.Q3:HF.STA.OW18.FE.ZS.Q3} - Prevalence of overweight, female, BMI &gt; 25 (% of population 18+): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.FE.ZS.Q3:HF.STA.OW18.FE.ZS.Q3} - Prevalence of overweight, female, BMI &gt; 25 (% of population 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2846,7 +2846,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.FE.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.FE.ZS.Q4:HF.STA.OW18.FE.ZS.Q4} - Prevalence of overweight, female, BMI &gt; 25 (% of population 18+): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.FE.ZS.Q4:HF.STA.OW18.FE.ZS.Q4} - Prevalence of overweight, female, BMI &gt; 25 (% of population 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2870,7 +2870,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS:HF.STA.OW18.MA.ZS} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS:HF.STA.OW18.MA.ZS} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2882,7 +2882,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.MA.ZS.Q1}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q1:HF.STA.OW18.MA.ZS.Q1} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q1:HF.STA.OW18.MA.ZS.Q1} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2894,7 +2894,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.MA.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q2:HF.STA.OW18.MA.ZS.Q2} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.MA.ZS.Q2:HF.STA.OW18.MA.ZS.Q2} - Prevalence of overweight, male, BMI &gt; 25 (% of population 18+): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -2935,7 +2935,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of male population aged 18 or older with BMI above 25{p_end}
+{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 25{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -2990,7 +2990,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.OW18.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.ZS.Q4:HF.STA.OW18.ZS.Q4} - Prevalence of overweight, BMI &gt; 25 (% of population 18+): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OW18.ZS.Q4:HF.STA.OW18.ZS.Q4} - Prevalence of overweight, BMI &gt; 25 (% of population 18+): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3007,7 +3007,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of children under 5 with a Height-for-Age z-score &lt;-2 standard deviations from the reference median (z-score calculated using WHO 2006 Child Growth Standards){p_end}
+{synopt:{opt Source Notes}}Percentage of population aged 18 or older with BMI above 25{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -3038,7 +3038,7 @@
 
 {synoptline}
 {marker sourceid_HF.STA.STNT.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.STNT.ZS.Q2:HF.STA.STNT.ZS.Q2} - Prevalence of stunting, height for age (% of children under 5): Q2}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.STNT.ZS.Q2:HF.STA.STNT.ZS.Q2} - Prevalence of stunting, height for age (% of children under 5): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3110,7 +3110,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.CONS.ZS.Q2}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q2:HF.UHC.CONS.ZS.Q2} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q2:HF.UHC.CONS.ZS.Q2} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q2}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3122,7 +3122,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.CONS.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q3:HF.UHC.CONS.ZS.Q3} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.CONS.ZS.Q3:HF.UHC.CONS.ZS.Q3} - Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q3}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3151,14 +3151,14 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population pushed below 60% of median consumption by out-of-pocket health spending{p_end}
+{synopt:{opt Source Notes}}Percentage of population pushed below 1.90 international $ per day consumption poverty line by out-of-pocket health spending{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.UHC.NOP1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS:HF.UHC.NOP1.ZS} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS:HF.UHC.NOP1.ZS} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3194,7 +3194,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.NOP1.ZS.Q3}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS.Q3:HF.UHC.NOP1.ZS.Q3} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS.Q3:HF.UHC.NOP1.ZS.Q3} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3223,7 +3223,7 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population pushed below 1.90 international $ per day consumption poverty line by out-of-pocket health spending{p_end}
+{synopt:{opt Source Notes}}Percentage of population pushed below 3.20 international $ per day consumption poverty line by out-of-pocket health spending{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
@@ -3350,7 +3350,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.OOPC.10.ZS.Q4}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.10.ZS.Q4:HF.UHC.OOPC.10.ZS.Q4} - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q4}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.10.ZS.Q4:HF.UHC.OOPC.10.ZS.Q4} - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q5 (highest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3367,14 +3367,14 @@
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population with out-of-pocket health spending larger than 10% of total household expenditure{p_end}
+{synopt:{opt Source Notes}}Percentage of population with out-of-pocket health spending larger than 25% of total household expenditure{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.UHC.OOPC.25.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.25.ZS:HF.UHC.OOPC.25.ZS} - Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.25.ZS:HF.UHC.OOPC.25.ZS} - Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3434,7 +3434,7 @@
 
 {synoptline}
 {marker sourceid_HF.UHC.OOPC.25.ZS.Q5}
-{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.25.ZS.Q5:HF.UHC.OOPC.25.ZS.Q5} - Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOPC.25.ZS.Q5:HF.UHC.OOPC.25.ZS.Q5} - Unmet need for contraception (% of females ages 15-49)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3446,7 +3446,7 @@
 
 {synoptline}
 {marker sourceid_HF.UWT.TFRT}
-{synopt:{bf:{help wbopendata_sourceid##HF.UWT.TFRT:HF.UWT.TFRT} - Unmet need for contraception (% of females ages 15-49)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.UWT.TFRT:HF.UWT.TFRT} - Unmet need for contraception (% of females ages 15-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 
@@ -3517,8 +3517,8 @@
 
 
 {synoptline}
-{marker sourceid_fing2p.t.d.10}
-{synopt:{bf:{help wbopendata_sourceid##fing2p.t.d.10:fing2p.t.d.10} - Acute respiratory infections treated (% of children under 5 with cough and rapid breathing)}}
+{marker sourceid_NW.NCA.MPHO.PC}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MPHO.PC:NW.NCA.MPHO.PC} - Natural capital per capita, subsoil assets, minerals: phosphate (constant 2014 US$)}}
 
 {synopt:{opt Source}}65 Health Equity and Financial Protection Indicators{p_end}
 

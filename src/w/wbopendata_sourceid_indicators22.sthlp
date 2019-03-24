@@ -74,7 +74,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1} - 503.Currency and deposits (PSDCG)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.CG.Z1:DP.DOD.DLCD.CR.CG.Z1} - Gross Ext. Debt Pos., General Government, Long-term, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -230,7 +230,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.07.09.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.07.09.MO.US:DT.AMT.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.07.09.MO.US:DT.AMT.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -302,7 +302,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.19.24.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.19.24.MO.US:DT.AMT.DECT.CD.19.24.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 2yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.19.24.MO.US:DT.AMT.DECT.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -314,7 +314,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.24P.US:DT.AMT.DECT.CD.24P.US} - Ext. Debt Service Pmt, All Sectors, More than 2yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.24P.US:DT.AMT.DECT.CD.24P.US} - Ext. Debt Service Pmt, All Sectors, More than 3 to 6, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -350,7 +350,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.03.US:DT.AMT.DECT.CD.AR.03.US} - Gross Ext. Debt Pmt, All Sectors, More than 9 to 12, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.03.US:DT.AMT.DECT.CD.AR.03.US} - Gross Ext. Debt Pmt, All Sectors, More than 0 to 3, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -398,7 +398,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.24P.US:DT.AMT.DECT.CD.AR.24P.US} - Gross Ext. Debt Pmt, All Sectors, More than 2yrs, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.24P.US:DT.AMT.DECT.CD.AR.24P.US} - Gross Ext. Debt Pmt, All Sectors, More than 3 to 6, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -434,7 +434,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.IQ.US:DT.AMT.DECT.CD.AR.IQ.US} - Gross Ext. Debt Pmt, All Sectors, Immediate, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.AR.IQ.US:DT.AMT.DECT.CD.AR.IQ.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -530,7 +530,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.CB.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.IQ.US:DT.AMT.DECT.CD.CB.IQ.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, One year or less, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.IQ.US:DT.AMT.DECT.CD.CB.IQ.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, Immediate, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -542,7 +542,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.CB.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.RM.US:DT.AMT.DECT.CD.CB.RM.US} - Ext. Debt Service Pmt, General Government, More than 0 to 3, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.CB.RM.US:DT.AMT.DECT.CD.CB.RM.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, One year or less, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -554,7 +554,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.GG.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.03.US:DT.AMT.DECT.CD.GG.03.US} - Ext. Debt Service Pmt, General Government, More than 0 to 3, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.03.US:DT.AMT.DECT.CD.GG.03.US} - Ext. Debt Service Pmt, General Government, More than 9 to 12, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -626,7 +626,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.GG.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.69.US:DT.AMT.DECT.CD.GG.69.US} - Ext. Debt Service Pmt, General Government, Immediate, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.69.US:DT.AMT.DECT.CD.GG.69.US} - Ext. Debt Service Pmt, General Government, More than 6 to 9, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -650,7 +650,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.GG.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.RM.US:DT.AMT.DECT.CD.GG.RM.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.GG.RM.US:DT.AMT.DECT.CD.GG.RM.US} - Gross Ext. Debt Pos., General Government, One year or less, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -830,7 +830,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.MA.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.1824.US:DT.AMT.DECT.CD.MA.1824.US} - Ext. Debt Service Pmt, Central Bank, More than 18 to 24, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.MA.1824.US:DT.AMT.DECT.CD.MA.1824.US} - Ext. Debt Service Pmt, Central Bank, More than 2yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -938,7 +938,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.OS.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.1824.US:DT.AMT.DECT.CD.OS.1824.US} - Ext. Debt Service Pmt, Other Sectors, More than 18 to 24, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.OS.1824.US:DT.AMT.DECT.CD.OS.1824.US} - Ext. Debt Service Pmt, Other Sectors, More than 2yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1010,7 +1010,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.RM.US:DT.AMT.DECT.CD.RM.US} - Gross Ext. Debt Pos., All Sectors, One year or less, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.RM.US:DT.AMT.DECT.CD.RM.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. to fellow ent., Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1034,7 +1034,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DEFE.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEFE.CD.IL.0912.US:DT.AMT.DEFE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. to fellow ent., Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DEFE.CD.IL.0912.US:DT.AMT.DEFE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. to fellow ent., Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1118,7 +1118,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DILD.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.03.US:DT.AMT.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.03.US:DT.AMT.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1142,7 +1142,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DILD.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.1218.US:DT.AMT.DILD.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.1218.US:DT.AMT.DILD.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. of DI ent. to dir. investors, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1154,7 +1154,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DILD.CD.IL.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.1824.US:DT.AMT.DILD.CD.IL.1824.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. of DI ent. to dir. investors, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.1824.US:DT.AMT.DILD.CD.IL.1824.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. of DI ent. to dir. investors, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1178,7 +1178,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DILD.CD.IL.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.36.US:DT.AMT.DILD.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. of DI ent. to dir. investors, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DILD.CD.IL.36.US:DT.AMT.DILD.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. of DI ent. to dir. investors, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1346,7 +1346,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.GG.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.1218.US:DT.AMT.DLBN.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.GG.AR.1218.US:DT.AMT.DLBN.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1526,7 +1526,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.OT.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.OT.AR.0912.US:DT.AMT.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.OT.AR.0912.US:DT.AMT.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1538,7 +1538,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLBN.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.OT.AR.1218.US:DT.AMT.DLBN.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Debt securities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLBN.CD.OT.AR.1218.US:DT.AMT.DLBN.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Debt securities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1610,7 +1610,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.CB.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.03.US:DT.AMT.DLCD.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.03.US:DT.AMT.DLCD.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1634,7 +1634,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.CB.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.1218.US:DT.AMT.DLCD.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.CB.AR.1218.US:DT.AMT.DLCD.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1766,7 +1766,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.GG.AR.36.US:DT.AMT.DLCD.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.GG.AR.36.US:DT.AMT.DLCD.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1790,7 +1790,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.GG.AR.IQ.US:DT.AMT.DLCD.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.GG.AR.IQ.US:DT.AMT.DLCD.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1850,7 +1850,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.MA.AR.24P.US:DT.AMT.DLCD.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.MA.AR.24P.US:DT.AMT.DLCD.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1874,7 +1874,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.MA.AR.69.US:DT.AMT.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.MA.AR.69.US:DT.AMT.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -1958,7 +1958,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLCD.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.OT.AR.36.US:DT.AMT.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Currency and deposits, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLCD.CD.OT.AR.36.US:DT.AMT.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Currency and deposits, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2042,7 +2042,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.24P.US:DT.AMT.DLTL.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.24P.US:DT.AMT.DLTL.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2078,7 +2078,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.CB.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.IQ.US:DT.AMT.DLTL.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.CB.AR.IQ.US:DT.AMT.DLTL.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2102,7 +2102,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.0912.US:DT.AMT.DLTL.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.GG.AR.0912.US:DT.AMT.DLTL.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2282,7 +2282,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.03.US:DT.AMT.DLTL.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.03.US:DT.AMT.DLTL.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2294,7 +2294,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.OT.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.0912.US:DT.AMT.DLTL.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.0912.US:DT.AMT.DLTL.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2318,7 +2318,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.OT.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.1824.US:DT.AMT.DLTL.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.1824.US:DT.AMT.DLTL.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2342,7 +2342,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTL.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.36.US:DT.AMT.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Loans, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTL.CD.OT.AR.36.US:DT.AMT.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Loans, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2438,7 +2438,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.36.US:DT.AMT.DLTO.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.CB.AR.36.US:DT.AMT.DLTO.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2654,7 +2654,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTO.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.MA.AR.IQ.US:DT.AMT.DLTO.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Other debt liabilities, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTO.CD.MA.AR.IQ.US:DT.AMT.DLTO.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Other debt liabilities, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2798,7 +2798,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.GG.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.GG.1824.US:DT.AMT.DLTS.CD.GG.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.GG.1824.US:DT.AMT.DLTS.CD.GG.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2870,7 +2870,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.0912.US:DT.AMT.DLTS.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.0912.US:DT.AMT.DLTS.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2894,7 +2894,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.1824.US:DT.AMT.DLTS.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.1824.US:DT.AMT.DLTS.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2906,7 +2906,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.24P.US:DT.AMT.DLTS.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.24P.US:DT.AMT.DLTS.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2918,7 +2918,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.36.US:DT.AMT.DLTS.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.36.US:DT.AMT.DLTS.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -2930,7 +2930,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTS.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.69.US:DT.AMT.DLTS.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Special drawing rights (allocations), Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTS.CD.MA.AR.69.US:DT.AMT.DLTS.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Special drawing rights (allocations), Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3014,7 +3014,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.CB.AR.36.US:DT.AMT.DLTT.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.CB.AR.36.US:DT.AMT.DLTT.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3026,7 +3026,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.CB.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.CB.AR.69.US:DT.AMT.DLTT.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.CB.AR.69.US:DT.AMT.DLTT.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3146,7 +3146,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.MA.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.03.US:DT.AMT.DLTT.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.03.US:DT.AMT.DLTT.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3170,7 +3170,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.1218.US:DT.AMT.DLTT.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.1218.US:DT.AMT.DLTT.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3218,7 +3218,7 @@
 
 {synoptline}
 {marker sourceid_DT.AMT.DLTT.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.69.US:DT.AMT.DLTT.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Trade credit and advances, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DLTT.CD.MA.AR.69.US:DT.AMT.DLTT.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Trade credit and advances, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3398,7 +3398,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DECT.CD.OT.NB.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.OT.NB.US:DT.AXA.DECT.CD.OT.NB.US} - Gross Ext. Debt Pos., Other financial corporations, All maturities, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DECT.CD.OT.NB.US:DT.AXA.DECT.CD.OT.NB.US} - Gross Ext. Debt Pos., Nonfinancial corporations, All maturities, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3434,7 +3434,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DIDI.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DIDI.CD.IL.US:DT.AXA.DIDI.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. to fellow ent., All maturities, All instruments, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DIDI.CD.IL.US:DT.AXA.DIDI.CD.IL.US} - Gross Ext. Debt Pos., Debt liab. of DI ent. to dir. investors, All maturities, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3518,7 +3518,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.CDLT.CD.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDLT.CD.PR.AR.US:DT.DOD.CDLT.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDLT.CD.PR.AR.US:DT.DOD.CDLT.CD.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3530,7 +3530,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.CDLT.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDLT.CD.PU.AR.US:DT.DOD.CDLT.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.CDLT.CD.PU.AR.US:DT.DOD.CDLT.CD.PU.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3698,7 +3698,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.OC.US:DT.DOD.DECT.CD.AR.OC.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.OC.US:DT.DOD.DECT.CD.AR.OC.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3722,7 +3722,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.AR.TL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TL.US:DT.DOD.DECT.CD.AR.TL.US} - Gross Ext. Debt Pos., All Sectors, All maturities, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TL.US:DT.DOD.DECT.CD.AR.TL.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3734,7 +3734,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TR.US:DT.DOD.DECT.CD.AR.TR.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TR.US:DT.DOD.DECT.CD.AR.TR.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3746,7 +3746,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.US:DT.DOD.DECT.CD.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.US:DT.DOD.DECT.CD.AR.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -3914,7 +3914,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.DC.T5.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.DC.T5.US:DT.DOD.DECT.CD.DC.T5.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Domestic currency, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.DC.T5.US:DT.DOD.DECT.CD.DC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Domestic currency, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4010,7 +4010,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.GG.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.GG.EU.US:DT.DOD.DECT.CD.FC.GG.EU.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, Euro, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.GG.EU.US:DT.DOD.DECT.CD.FC.GG.EU.US} - Gross Ext. F. Curr Debt Pos., General Government, All maturities, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4094,7 +4094,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.IL.OT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.IL.OT.US:DT.DOD.DECT.CD.FC.IL.OT.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, All instruments, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.IL.OT.US:DT.DOD.DECT.CD.FC.IL.OT.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, All instruments, Other curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4250,7 +4250,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.T5.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.T5.US:DT.DOD.DECT.CD.FC.T5.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.T5.US:DT.DOD.DECT.CD.FC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4262,7 +4262,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.US:DT.DOD.DECT.CD.FC.US} - Gross Ext. F. Curr Debt Pos., All Sectors, All maturities, All instruments, Euro, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.US:DT.DOD.DECT.CD.FC.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4310,7 +4310,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FF.UD.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FF.UD.US:DT.DOD.DECT.CD.FF.UD.US} - Gross Ext. F. Curr Debt Pos., All Sectors, All maturities, All instruments, US dollar, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FF.UD.US:DT.DOD.DECT.CD.FF.UD.US} - Gross Ext. F. Curr Debt Pos., All Sectors, All maturities, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4322,7 +4322,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FF.YE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FF.YE.US:DT.DOD.DECT.CD.FF.YE.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FF.YE.US:DT.DOD.DECT.CD.FF.YE.US} - Gross Ext. F. Curr Debt Pos., All Sectors, All maturities, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4406,7 +4406,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.OC.US:DT.DOD.DECT.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.OC.US:DT.DOD.DECT.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4418,7 +4418,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.PX.US:DT.DOD.DECT.CD.GG.AR.PX.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.AR.PX.US:DT.DOD.DECT.CD.GG.AR.PX.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4466,7 +4466,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.GG.TD.MV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.TD.MV.US:DT.DOD.DECT.CD.GG.TD.MV.US} - Gross Ext. Debt Pos., General Government, All maturities, Debt Securities, Nominal Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.GG.TD.MV.US:DT.DOD.DECT.CD.GG.TD.MV.US} - Gross Ext. Debt Pos., General Government, All maturities, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4490,7 +4490,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.HN.US:DT.DOD.DECT.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.HN.US:DT.DOD.DECT.CD.HN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4502,7 +4502,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.BE.US:DT.DOD.DECT.CD.IL.AR.BE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.BE.US:DT.DOD.DECT.CD.IL.AR.BE.US} - Ext. Assets in Debt Instruments, DI: Intercom Lending, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4514,7 +4514,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.EA.US:DT.DOD.DECT.CD.IL.AR.EA.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.EA.US:DT.DOD.DECT.CD.IL.AR.EA.US} - Ext. Assets in Debt Instruments, DI: Intercom Lending, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4574,7 +4574,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.OC.US:DT.DOD.DECT.CD.IL.AR.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.OC.US:DT.DOD.DECT.CD.IL.AR.OC.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4598,7 +4598,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.TR.US:DT.DOD.DECT.CD.IL.AR.TR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.AR.TR.US:DT.DOD.DECT.CD.IL.AR.TR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4610,7 +4610,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.US:DT.DOD.DECT.CD.IL.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.IL.US:DT.DOD.DECT.CD.IL.US} - Gross Ext. Debt Pos., All Sectors, Long-term, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4658,7 +4658,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.LT.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.US:DT.DOD.DECT.CD.LT.US} - Gross Ext. Debt Pos., All Sectors, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.US:DT.DOD.DECT.CD.LT.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4766,7 +4766,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.MA.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.TR.US:DT.DOD.DECT.CD.MA.AR.TR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.MA.AR.TR.US:DT.DOD.DECT.CD.MA.AR.TR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -4862,7 +4862,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.OT.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.OT.AR.EA.US:DT.DOD.DECT.CD.OT.AR.EA.US} - Ext. Assets in Debt Instruments, Other Sectors, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.OT.AR.EA.US:DT.DOD.DECT.CD.OT.AR.EA.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5018,7 +5018,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.ST.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ST.TD.MP.US:DT.DOD.DECT.CD.ST.TD.MP.US} - Gross Ext. Debt Pos., All Sectors, Short-term, Debt Securities, Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ST.TD.MP.US:DT.DOD.DECT.CD.ST.TD.MP.US} - Gross Ext. Debt Pos., All Sectors, Short-term, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5066,7 +5066,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TD.MP.US:DT.DOD.DECT.CD.TD.MP.US} - Gross Ext. Debt Pos., All Sectors, All maturities, Debt Securities, Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TD.MP.US:DT.DOD.DECT.CD.TD.MP.US} - Gross Ext. Debt Pos., All Sectors, All maturities, Debt Securities, Diff. with Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5102,7 +5102,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.TL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TL.US:DT.DOD.DECT.CD.TL.US} - Gross Ext. Debt Pos., All Other Sectors, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TL.US:DT.DOD.DECT.CD.TL.US} - Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5150,7 +5150,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.DS.T4.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.DS.T4.US:DT.DOD.DECT.DS.T4.US} - Gross Ext. Debt Pos., All Sectors, All maturities, Debt Securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.DS.T4.US:DT.DOD.DECT.DS.T4.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5186,7 +5186,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.GG.AR.US:DT.DOD.DECT.GG.AR.US} - Gross Ext. Debt Pos., General Government, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.GG.AR.US:DT.DOD.DECT.GG.AR.US} - Gross Ext. Debt Pos., General Government, All maturities, Debt Securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5210,7 +5210,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.GN.ZS:DT.DOD.DECT.GN.ZS} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.GN.ZS:DT.DOD.DECT.GN.ZS} - External debt stocks (% of GNI)}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5222,7 +5222,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.IL.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.IL.AR.US:DT.DOD.DECT.IL.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.IL.AR.US:DT.DOD.DECT.IL.AR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Arrears, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5234,7 +5234,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.MA.AR.US:DT.DOD.DECT.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.MA.AR.US:DT.DOD.DECT.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, Debt Securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5330,7 +5330,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.FC.IL.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.FC.IL.TO.US:DT.DOD.DIDI.CD.FC.IL.TO.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, US dollar, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.FC.IL.TO.US:DT.DOD.DIDI.CD.FC.IL.TO.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, All curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5366,7 +5366,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.IL.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.EA.US:DT.DOD.DIDI.CD.IL.EA.US} - Ext. Assets in Debt Instruments, DI: Intercom Lending, All maturities, Debt of dir. investment ent. to dir. investors, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.EA.US:DT.DOD.DIDI.CD.IL.EA.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5378,7 +5378,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.IL.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.EN.US:DT.DOD.DIDI.CD.IL.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.IL.EN.US:DT.DOD.DIDI.CD.IL.EN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5474,7 +5474,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIDI.CD.PR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.PR.US:DT.DOD.DIDI.CD.PR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Debt liab. of DI ent. to dir. investors, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIDI.CD.PR.US:DT.DOD.DIDI.CD.PR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Debt liab. of DI ent. to dir. investors, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5510,7 +5510,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.FC.IL.JY.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.FC.IL.JY.US:DT.DOD.DIFE.CD.FC.IL.JY.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liabilities to fellow enterprises, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.FC.IL.JY.US:DT.DOD.DIFE.CD.FC.IL.JY.US} - Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liabilities to fellow enterprises, Other curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5558,7 +5558,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.BE.US:DT.DOD.DIFE.CD.IL.BE.US} - Ext. Assets in Debt Instruments, DI: Intercom Lending, All maturities, Debt between fellow enterprises, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.BE.US:DT.DOD.DIFE.CD.IL.BE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent. , Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5642,7 +5642,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.PX.US:DT.DOD.DIFE.CD.IL.PX.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.PX.US:DT.DOD.DIFE.CD.IL.PX.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5654,7 +5654,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIFE.CD.IL.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.TR.US:DT.DOD.DIFE.CD.IL.TR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIFE.CD.IL.TR.US:DT.DOD.DIFE.CD.IL.TR.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt liab. to fellow ent., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5810,7 +5810,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIIE.CD.IL.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.IL.GE.US:DT.DOD.DIIE.CD.IL.GE.US} - Net Ext. Debt Position, DI: Intercom Lending, All maturities, Debt of dir. investors to dir. investment ent., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIIE.CD.IL.GE.US:DT.DOD.DIIE.CD.IL.GE.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, Debt of dir. investors to dir. investment ent., Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5930,7 +5930,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DIMF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIMF.CD:DT.DOD.DIMF.CD} - Use of IMF credit (DOD, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DIMF.CD:DT.DOD.DIMF.CD} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -5942,7 +5942,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.CB.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.BE.US:DT.DOD.DLBN.CD.CB.AR.BE.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Long-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.BE.US:DT.DOD.DLBN.CD.CB.AR.BE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6026,7 +6026,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.PX.US:DT.DOD.DLBN.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.PX.US:DT.DOD.DLBN.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6038,7 +6038,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.CB.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.TR.US:DT.DOD.DLBN.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.CB.AR.TR.US:DT.DOD.DLBN.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6086,7 +6086,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.GG.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.EN.US:DT.DOD.DLBN.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt securities, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.EN.US:DT.DOD.DLBN.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt securities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6110,7 +6110,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.GG.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.GE.US:DT.DOD.DLBN.CD.GG.AR.GE.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt securities, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.GE.US:DT.DOD.DLBN.CD.GG.AR.GE.US} - Net Ext. Debt Position, General Government, Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6134,7 +6134,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.OC.US:DT.DOD.DLBN.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt securities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.GG.AR.OC.US:DT.DOD.DLBN.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Long-term, Debt securities, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6230,7 +6230,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.EX.US:DT.DOD.DLBN.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.EX.US:DT.DOD.DLBN.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6254,7 +6254,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.NE.US:DT.DOD.DLBN.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Long-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.MA.AR.NE.US:DT.DOD.DLBN.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt securities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6362,7 +6362,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.OT.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.OT.AR.EN.US:DT.DOD.DLBN.CD.OT.AR.EN.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Debt securities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.OT.AR.EN.US:DT.DOD.DLBN.CD.OT.AR.EN.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Debt securities, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6386,7 +6386,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.OT.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.OT.AR.GE.US:DT.DOD.DLBN.CD.OT.AR.GE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Debt securities, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.OT.AR.GE.US:DT.DOD.DLBN.CD.OT.AR.GE.US} - Net Ext. Debt Position, Other Sectors, Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6446,7 +6446,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLBN.CD.OT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.OT.AR.US:DT.DOD.DLBN.CD.OT.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLBN.CD.OT.AR.US:DT.DOD.DLBN.CD.OT.AR.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6482,7 +6482,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.CB.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.EN.US:DT.DOD.DLCD.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.CB.AR.EN.US:DT.DOD.DLCD.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Currency and deposits, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6602,7 +6602,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.GG.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.GG.AR.EN.US:DT.DOD.DLCD.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.GG.AR.EN.US:DT.DOD.DLCD.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, Currency and deposits, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6710,7 +6710,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.BE.US:DT.DOD.DLCD.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Currency and deposits, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.BE.US:DT.DOD.DLCD.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Long-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6770,7 +6770,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.NE.US:DT.DOD.DLCD.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.NE.US:DT.DOD.DLCD.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Currency and deposits, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6782,7 +6782,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.OC.US:DT.DOD.DLCD.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Currency and deposits, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.MA.AR.OC.US:DT.DOD.DLCD.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Currency and deposits, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6890,7 +6890,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.OT.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.OT.AR.EX.US:DT.DOD.DLCD.CD.OT.AR.EX.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Currency and deposits, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.OT.AR.EX.US:DT.DOD.DLCD.CD.OT.AR.EX.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Currency and deposits, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6914,7 +6914,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLCD.CD.OT.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.OT.AR.NE.US:DT.DOD.DLCD.CD.OT.AR.NE.US} - Net Ext. Debt Position, Other Sectors, Long-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLCD.CD.OT.AR.NE.US:DT.DOD.DLCD.CD.OT.AR.NE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Currency and deposits, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -6974,7 +6974,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTF.CD:DT.DOD.DLTF.CD} - Debt outstanding and disbursed, Long-term debt including IMF credit (DOD, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTF.CD:DT.DOD.DLTF.CD} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Loans, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7022,7 +7022,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.CB.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.CB.AR.EX.US:DT.DOD.DLTL.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Loans, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.CB.AR.EX.US:DT.DOD.DLTL.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Loans, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7046,7 +7046,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.CB.AR.NE.US:DT.DOD.DLTL.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.CB.AR.NE.US:DT.DOD.DLTL.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7058,7 +7058,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.CB.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.CB.AR.OC.US:DT.DOD.DLTL.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Loans, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.CB.AR.OC.US:DT.DOD.DLTL.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Loans, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7166,7 +7166,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.NE.US:DT.DOD.DLTL.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Long-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.NE.US:DT.DOD.DLTL.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7202,7 +7202,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.GG.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.TR.US:DT.DOD.DLTL.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.GG.AR.TR.US:DT.DOD.DLTL.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7226,7 +7226,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.HN.US:DT.DOD.DLTL.CD.HN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Loans, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.HN.US:DT.DOD.DLTL.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7310,7 +7310,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.MA.AR.OC.US:DT.DOD.DLTL.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Loans, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.MA.AR.OC.US:DT.DOD.DLTL.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7478,7 +7478,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTL.CD.OT.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.OT.AR.TR.US:DT.DOD.DLTL.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Loans, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTL.CD.OT.AR.TR.US:DT.DOD.DLTL.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7514,7 +7514,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.CB.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.CB.AR.EA.US:DT.DOD.DLTO.CD.CB.AR.EA.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Other debt liabilities, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.CB.AR.EA.US:DT.DOD.DLTO.CD.CB.AR.EA.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Long-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7562,7 +7562,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.CB.AR.NE.US:DT.DOD.DLTO.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Other debt liabilities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.CB.AR.NE.US:DT.DOD.DLTO.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7658,7 +7658,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.EX.US:DT.DOD.DLTO.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.EX.US:DT.DOD.DLTO.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7670,7 +7670,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.GE.US:DT.DOD.DLTO.CD.GG.AR.GE.US} - Net Ext. Debt Position, General Government, Long-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.GE.US:DT.DOD.DLTO.CD.GG.AR.GE.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7682,7 +7682,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.NE.US:DT.DOD.DLTO.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.NE.US:DT.DOD.DLTO.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Long-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7730,7 +7730,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.US:DT.DOD.DLTO.CD.GG.AR.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Long-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.GG.AR.US:DT.DOD.DLTO.CD.GG.AR.US} - Gross Ext. Debt Pos., General Government, Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7766,7 +7766,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EA.US:DT.DOD.DLTO.CD.MA.AR.EA.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EA.US:DT.DOD.DLTO.CD.MA.AR.EA.US} - Ext. Assets in Debt Instruments, Central Bank, Long-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7778,7 +7778,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EN.US:DT.DOD.DLTO.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EN.US:DT.DOD.DLTO.CD.MA.AR.EN.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7790,7 +7790,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EX.US:DT.DOD.DLTO.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt instruments, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.EX.US:DT.DOD.DLTO.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7802,7 +7802,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.GE.US:DT.DOD.DLTO.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Long-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.GE.US:DT.DOD.DLTO.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7826,7 +7826,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.OC.US:DT.DOD.DLTO.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.OC.US:DT.DOD.DLTO.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7838,7 +7838,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.PX.US:DT.DOD.DLTO.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.MA.AR.PX.US:DT.DOD.DLTO.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Other debt liabilities, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7898,7 +7898,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.OT.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.OT.AR.BE.US:DT.DOD.DLTO.CD.OT.AR.BE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Other debt liabilities , Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.OT.AR.BE.US:DT.DOD.DLTO.CD.OT.AR.BE.US} - Ext. Assets in Debt Instruments, Other Sectors, Long-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7958,7 +7958,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.OT.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.OT.AR.NE.US:DT.DOD.DLTO.CD.OT.AR.NE.US} - Net Ext. Debt Position, Other Sectors, Long-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.OT.AR.NE.US:DT.DOD.DLTO.CD.OT.AR.NE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Other debt liabilities , Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -7970,7 +7970,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTO.CD.OT.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.OT.AR.OC.US:DT.DOD.DLTO.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Other debt liabilities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTO.CD.OT.AR.OC.US:DT.DOD.DLTO.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Other debt liabilities , Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8042,7 +8042,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.GG.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.EN.US:DT.DOD.DLTS.CD.GG.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.EN.US:DT.DOD.DLTS.CD.GG.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8114,7 +8114,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.GG.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.TR.US:DT.DOD.DLTS.CD.GG.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.GG.TR.US:DT.DOD.DLTS.CD.GG.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, Special drawing rights (allocations), USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8174,7 +8174,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.EX.US:DT.DOD.DLTS.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (allocations), Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.EX.US:DT.DOD.DLTS.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (SDRs), Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8186,7 +8186,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.GE.US:DT.DOD.DLTS.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Long-term, Special drawing rights (SDRs), USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.GE.US:DT.DOD.DLTS.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (SDRs), Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8222,7 +8222,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTS.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.PX.US:DT.DOD.DLTS.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (allocations), Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTS.CD.MA.AR.PX.US:DT.DOD.DLTS.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Special drawing rights (allocations), Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8270,7 +8270,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.CB.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.EA.US:DT.DOD.DLTT.CD.CB.AR.EA.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.CB.AR.EA.US:DT.DOD.DLTT.CD.CB.AR.EA.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Long-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8426,7 +8426,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.GG.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.GG.AR.GE.US:DT.DOD.DLTT.CD.GG.AR.GE.US} - Net Ext. Debt Position, General Government, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.GG.AR.GE.US:DT.DOD.DLTT.CD.GG.AR.GE.US} - Gross Ext. Debt Pos., General Government, Long-term, Trade credit and advances, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8546,7 +8546,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.EX.US:DT.DOD.DLTT.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances , Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.EX.US:DT.DOD.DLTT.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8570,7 +8570,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.NE.US:DT.DOD.DLTT.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Long-term, Trade credit and advances , USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.NE.US:DT.DOD.DLTT.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8582,7 +8582,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.MA.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.OC.US:DT.DOD.DLTT.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.MA.AR.OC.US:DT.DOD.DLTT.CD.MA.AR.OC.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Trade credit and advances, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8630,7 +8630,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.NC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.NC.US:DT.DOD.DLTT.CD.NC.US} - Gross Ext. Debt Pos., Other financial corporations, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.NC.US:DT.DOD.DLTT.CD.NC.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Long-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8642,7 +8642,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.OF.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OF.US:DT.DOD.DLTT.CD.OF.US} - Gross Ext. Debt Pos., Other financial corporations, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OF.US:DT.DOD.DLTT.CD.OF.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Trade credit and advances, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8654,7 +8654,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLTT.CD.OT.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OT.AR.BE.US:DT.DOD.DLTT.CD.OT.AR.BE.US} - Ext. Assets in Debt Instruments, Other Sectors, Long-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLTT.CD.OT.AR.BE.US:DT.DOD.DLTT.CD.OT.AR.BE.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, Trade credit and advances, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8786,7 +8786,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.BE.US:DT.DOD.DLXF.CD.CB.AR.BE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.BE.US:DT.DOD.DLXF.CD.CB.AR.BE.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8846,7 +8846,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.NE.US:DT.DOD.DLXF.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.NE.US:DT.DOD.DLXF.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8870,7 +8870,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.PX.US:DT.DOD.DLXF.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.PX.US:DT.DOD.DLXF.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8894,7 +8894,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.US:DT.DOD.DLXF.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.AR.US:DT.DOD.DLXF.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8906,7 +8906,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.CB.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.TD.MP.US:DT.DOD.DLXF.CD.CB.TD.MP.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.CB.TD.MP.US:DT.DOD.DLXF.CD.CB.TD.MP.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -8978,7 +8978,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.FC.CB.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.CB.EU.US:DT.DOD.DLXF.CD.FC.CB.EU.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.CB.EU.US:DT.DOD.DLXF.CD.FC.CB.EU.US} - Gross Ext. F. Curr Debt Pos., Deposit-Taking Corp., exc. CB, Long-term, All instruments, Euro, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9194,7 +9194,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.FC.OT.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.OT.TO.US:DT.DOD.DLXF.CD.FC.OT.TO.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Long-term, All instruments, US dollar, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.OT.TO.US:DT.DOD.DLXF.CD.FC.OT.TO.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Long-term, All instruments, All curr., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9230,7 +9230,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.FC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.US:DT.DOD.DLXF.CD.FC.US} - Gross Ext. Debt Pos., All Sectors, Long-term, All instruments, Foreign currency, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.US:DT.DOD.DLXF.CD.FC.US} - Gross Ext. Debt Pos., General Government, Long-term, All instruments, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9266,7 +9266,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.GG.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.AR.EN.US:DT.DOD.DLXF.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.AR.EN.US:DT.DOD.DLXF.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Long-term, All instruments, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9338,7 +9338,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.GG.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.AR.TR.US:DT.DOD.DLXF.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.GG.AR.TR.US:DT.DOD.DLXF.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9458,7 +9458,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.GE.US:DT.DOD.DLXF.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.GE.US:DT.DOD.DLXF.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9506,7 +9506,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.TR.US:DT.DOD.DLXF.CD.MA.AR.TR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.TR.US:DT.DOD.DLXF.CD.MA.AR.TR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9518,7 +9518,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.US:DT.DOD.DLXF.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.MA.AR.US:DT.DOD.DLXF.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9674,7 +9674,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.OT.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.OT.AR.PX.US:DT.DOD.DLXF.CD.OT.AR.PX.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.OT.AR.PX.US:DT.DOD.DLXF.CD.OT.AR.PX.US} - Gross Ext. Debt Pos., Other Sectors, Long-term, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9758,7 +9758,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.PR.DS.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.PR.DS.US:DT.DOD.DLXF.PR.DS.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.PR.DS.US:DT.DOD.DLXF.PR.DS.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9866,7 +9866,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.CB.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.EN.US:DT.DOD.DSCD.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.EN.US:DT.DOD.DSCD.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9890,7 +9890,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.GE.US:DT.DOD.DSCD.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.GE.US:DT.DOD.DSCD.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9914,7 +9914,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.CB.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.OC.US:DT.DOD.DSCD.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.OC.US:DT.DOD.DSCD.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -9950,7 +9950,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.US:DT.DOD.DSCD.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.CB.AR.US:DT.DOD.DSCD.CD.CB.AR.US} - Gross Ext. Debt Pos., General Government, Short-term, Currency and deposits, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10010,7 +10010,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.GG.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.GG.AR.GE.US:DT.DOD.DSCD.CD.GG.AR.GE.US} - Net Ext. Debt Position, General Government, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.GG.AR.GE.US:DT.DOD.DSCD.CD.GG.AR.GE.US} - Gross Ext. Debt Pos., General Government, Short-term, Currency and deposits, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10094,7 +10094,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.BE.US:DT.DOD.DSCD.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.MA.AR.BE.US:DT.DOD.DSCD.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Currency and deposits, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10238,7 +10238,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.OT.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OT.AR.BE.US:DT.DOD.DSCD.CD.OT.AR.BE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OT.AR.BE.US:DT.DOD.DSCD.CD.OT.AR.BE.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10286,7 +10286,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSCD.CD.OT.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OT.AR.GE.US:DT.DOD.DSCD.CD.OT.AR.GE.US} - Net Ext. Debt Position, Other Sectors, Short-term, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSCD.CD.OT.AR.GE.US:DT.DOD.DSCD.CD.OT.AR.GE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10382,7 +10382,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.CB.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.EN.US:DT.DOD.DSOO.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.EN.US:DT.DOD.DSOO.CD.CB.AR.EN.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10394,7 +10394,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.CB.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.EX.US:DT.DOD.DSOO.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt instruments, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.EX.US:DT.DOD.DSOO.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10466,7 +10466,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.US:DT.DOD.DSOO.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.CB.AR.US:DT.DOD.DSOO.CD.CB.AR.US} - Gross Ext. Debt Pos., General Government, Short-term, Other debt liabilities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10526,7 +10526,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.GG.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.GG.AR.GE.US:DT.DOD.DSOO.CD.GG.AR.GE.US} - Gross Ext. Debt Pos., General Government, Short-term, Other debt instruments, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.GG.AR.GE.US:DT.DOD.DSOO.CD.GG.AR.GE.US} - Net Ext. Debt Position, General Government, Short-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10574,7 +10574,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.GG.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.GG.AR.TR.US:DT.DOD.DSOO.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Short-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.GG.AR.TR.US:DT.DOD.DSOO.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Short-term, Other debt liabilities, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10586,7 +10586,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.GG.AR.US:DT.DOD.DSOO.CD.GG.AR.US} - Gross Ext. Debt Pos., General Government, Short-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.GG.AR.US:DT.DOD.DSOO.CD.GG.AR.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Other debt liabilities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10598,7 +10598,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.MA.AR.BE.US:DT.DOD.DSOO.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Other debt instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.MA.AR.BE.US:DT.DOD.DSOO.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Other debt liabilities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10742,7 +10742,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.OT.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.EN.US:DT.DOD.DSOO.CD.OT.AR.EN.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Other debt liabilities, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.EN.US:DT.DOD.DSOO.CD.OT.AR.EN.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Other debt liabilities, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10778,7 +10778,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSOO.CD.OT.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.NE.US:DT.DOD.DSOO.CD.OT.AR.NE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Other debt liabilities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSOO.CD.OT.AR.NE.US:DT.DOD.DSOO.CD.OT.AR.NE.US} - Net Ext. Debt Position, Other Sectors, Short-term, Other debt instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10934,7 +10934,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.CB.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.PX.US:DT.DOD.DSTC.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.PX.US:DT.DOD.DSTC.CD.CB.AR.PX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10946,7 +10946,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.CB.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.TR.US:DT.DOD.DSTC.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.TR.US:DT.DOD.DSTC.CD.CB.AR.TR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -10958,7 +10958,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.US:DT.DOD.DSTC.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.CB.AR.US:DT.DOD.DSTC.CD.CB.AR.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11174,7 +11174,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.MA.JY.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.JY.US:DT.DOD.DSTC.CD.FC.MA.JY.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, Other curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.JY.US:DT.DOD.DSTC.CD.FC.MA.JY.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, Yen, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11198,7 +11198,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.MA.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.TO.US:DT.DOD.DSTC.CD.FC.MA.TO.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, All curr., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.MA.TO.US:DT.DOD.DSTC.CD.FC.MA.TO.US} - Gross Ext. F. Curr Debt Pos., Central Bank, Short-term, All instruments, US dollar, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11222,7 +11222,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.OT.EU.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.EU.US:DT.DOD.DSTC.CD.FC.OT.EU.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, Yen, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.OT.EU.US:DT.DOD.DSTC.CD.FC.OT.EU.US} - Gross Ext. F. Curr Debt Pos., Other Sectors, Short-term, All instruments, Euro, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11282,7 +11282,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.T5.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.T5.US:DT.DOD.DSTC.CD.FC.T5.US} - Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, Foreign currency, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.T5.US:DT.DOD.DSTC.CD.FC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Short-term, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11294,7 +11294,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.US:DT.DOD.DSTC.CD.FC.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.US:DT.DOD.DSTC.CD.FC.US} - Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11306,7 +11306,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.BE.US:DT.DOD.DSTC.CD.GG.AR.BE.US} - Ext. Assets in Debt Instruments, General Government, Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.BE.US:DT.DOD.DSTC.CD.GG.AR.BE.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11342,7 +11342,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.EX.US:DT.DOD.DSTC.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.EX.US:DT.DOD.DSTC.CD.GG.AR.EX.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11366,7 +11366,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.NE.US:DT.DOD.DSTC.CD.GG.AR.NE.US} - Net Ext. Debt Position, General Government, Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.NE.US:DT.DOD.DSTC.CD.GG.AR.NE.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11378,7 +11378,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.OC.US:DT.DOD.DSTC.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.AR.OC.US:DT.DOD.DSTC.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Short-term, All instruments, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11426,7 +11426,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.GG.TD.MP.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.TD.MP.US:DT.DOD.DSTC.CD.GG.TD.MP.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt Securities, Diff. with Market Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.GG.TD.MP.US:DT.DOD.DSTC.CD.GG.TD.MP.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt Securities, Market Value, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11522,7 +11522,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.MA.AR.GE.US:DT.DOD.DSTC.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Short-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.MA.AR.GE.US:DT.DOD.DSTC.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, All instruments, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11666,7 +11666,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.OT.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.EA.US:DT.DOD.DSTC.CD.OT.AR.EA.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, All instruments, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.OT.AR.EA.US:DT.DOD.DSTC.CD.OT.AR.EA.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11786,7 +11786,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.IR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.IR.ZS:DT.DOD.DSTC.IR.ZS} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.IR.ZS:DT.DOD.DSTC.IR.ZS} - Short-term debt (% of total reserves)}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11834,7 +11834,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.CB.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.BE.US:DT.DOD.DSTL.CD.CB.AR.BE.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.BE.US:DT.DOD.DSTL.CD.CB.AR.BE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11846,7 +11846,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.CB.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.EA.US:DT.DOD.DSTL.CD.CB.AR.EA.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.EA.US:DT.DOD.DSTL.CD.CB.AR.EA.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11882,7 +11882,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.GE.US:DT.DOD.DSTL.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.GE.US:DT.DOD.DSTL.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11894,7 +11894,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.CB.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.NE.US:DT.DOD.DSTL.CD.CB.AR.NE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.CB.AR.NE.US:DT.DOD.DSTL.CD.CB.AR.NE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11966,7 +11966,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.GG.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.EA.US:DT.DOD.DSTL.CD.GG.AR.EA.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.EA.US:DT.DOD.DSTL.CD.GG.AR.EA.US} - Ext. Assets in Debt Instruments, General Government, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -11978,7 +11978,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.GG.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.EN.US:DT.DOD.DSTL.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.GG.AR.EN.US:DT.DOD.DSTL.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Short-term, Loans, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12074,7 +12074,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.HN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.HN.US:DT.DOD.DSTL.CD.HN.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Loans, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.HN.US:DT.DOD.DSTL.CD.HN.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12146,7 +12146,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.MA.AR.NE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.MA.AR.NE.US:DT.DOD.DSTL.CD.MA.AR.NE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Loans, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.MA.AR.NE.US:DT.DOD.DSTL.CD.MA.AR.NE.US} - Net Ext. Debt Position, Central Bank, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12230,7 +12230,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.BE.US:DT.DOD.DSTL.CD.OT.AR.BE.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.BE.US:DT.DOD.DSTL.CD.OT.AR.BE.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12302,7 +12302,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.OC.US:DT.DOD.DSTL.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.OC.US:DT.DOD.DSTL.CD.OT.AR.OC.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12326,7 +12326,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTL.CD.OT.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.TR.US:DT.DOD.DSTL.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTL.CD.OT.AR.TR.US:DT.DOD.DSTL.CD.OT.AR.TR.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Loans, Transactions, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12386,7 +12386,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.CB.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.EX.US:DT.DOD.DSTM.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Exchange rate chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.EX.US:DT.DOD.DSTM.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12398,7 +12398,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.CB.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.GE.US:DT.DOD.DSTM.CD.CB.AR.GE.US} - Net Ext. Debt Position, Deposit-Taking Corp., exc. CB, Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.GE.US:DT.DOD.DSTM.CD.CB.AR.GE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Beginning pos., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12422,7 +12422,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.CB.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.OC.US:DT.DOD.DSTM.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Other price chg, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.CB.AR.OC.US:DT.DOD.DSTM.CD.CB.AR.OC.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Debt securities, Other chg in vol., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12470,7 +12470,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.GG.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.GG.AR.BE.US:DT.DOD.DSTM.CD.GG.AR.BE.US} - Ext. Assets in Debt Instruments, General Government, Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.GG.AR.BE.US:DT.DOD.DSTM.CD.GG.AR.BE.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt securities, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12542,7 +12542,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.GG.AR.OC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.GG.AR.OC.US:DT.DOD.DSTM.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt securities, Other chg in vol., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.GG.AR.OC.US:DT.DOD.DSTM.CD.GG.AR.OC.US} - Gross Ext. Debt Pos., General Government, Short-term, Debt securities, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12686,7 +12686,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.MA.AR.PX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.PX.US:DT.DOD.DSTM.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.PX.US:DT.DOD.DSTM.CD.MA.AR.PX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Other price chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12878,7 +12878,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTO.CD.NC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTO.CD.NC.US:DT.DOD.DSTO.CD.NC.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Short-term, Other debt liabilities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTO.CD.NC.US:DT.DOD.DSTO.CD.NC.US} - Gross Ext. Debt Pos., Other financial corporations, Short-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12902,7 +12902,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.BE.US:DT.DOD.DSTT.CD.CB.AR.BE.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Beginning of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.BE.US:DT.DOD.DSTT.CD.CB.AR.BE.US} - Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -12938,7 +12938,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.CB.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.EX.US:DT.DOD.DSTT.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.CB.AR.EX.US:DT.DOD.DSTT.CD.CB.AR.EX.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Trade credit and advances, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13046,7 +13046,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.GG.AR.EN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.EN.US:DT.DOD.DSTT.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, end of period, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.EN.US:DT.DOD.DSTT.CD.GG.AR.EN.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13118,7 +13118,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.GG.AR.TR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.TR.US:DT.DOD.DSTT.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, Transactions, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.GG.AR.TR.US:DT.DOD.DSTT.CD.GG.AR.TR.US} - Gross Ext. Debt Pos., General Government, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13154,7 +13154,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.BE.US:DT.DOD.DSTT.CD.MA.AR.BE.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.BE.US:DT.DOD.DSTT.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, Beginning of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13190,7 +13190,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.MA.AR.EX.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.EX.US:DT.DOD.DSTT.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.EX.US:DT.DOD.DSTT.CD.MA.AR.EX.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, Exchange rate chg, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13262,7 +13262,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.US:DT.DOD.DSTT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.MA.AR.US:DT.DOD.DSTT.CD.MA.AR.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13274,7 +13274,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.NC.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.NC.US:DT.DOD.DSTT.CD.NC.US} - Gross Ext. Debt Pos., Nonfinancial corporations, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.NC.US:DT.DOD.DSTT.CD.NC.US} - Gross Ext. Debt Pos., Other financial corporations, Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13310,7 +13310,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTT.CD.OT.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.OT.AR.EA.US:DT.DOD.DSTT.CD.OT.AR.EA.US} - Ext. Assets in Debt Instruments, Other Sectors, Short-term, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTT.CD.OT.AR.EA.US:DT.DOD.DSTT.CD.OT.AR.EA.US} - Gross Ext. Debt Pos., Other Sectors, Short-term, Trade credit and advances, end of period, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13490,7 +13490,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSUN.CD.MA.AR.EA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.MA.AR.EA.US:DT.DOD.DSUN.CD.MA.AR.EA.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Unallocated gold accounts included in monetary gold, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.MA.AR.EA.US:DT.DOD.DSUN.CD.MA.AR.EA.US} - Ext. Assets in Debt Instruments, Central Bank, Short-term, Unallocated gold accounts included in monetary gold, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13502,7 +13502,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.DSUN.CD.MA.AR.GE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.MA.AR.GE.US:DT.DOD.DSUN.CD.MA.AR.GE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Unallocated gold accounts included in monetary gold, Beginning pos., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSUN.CD.MA.AR.GE.US:DT.DOD.DSUN.CD.MA.AR.GE.US} - Net Ext. Debt Position, Central Bank, Short-term, Unallocated gold accounts included in monetary gold, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13538,7 +13538,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.LOLT.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.LOLT.CD.PU.AR.US:DT.DOD.LOLT.CD.PU.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.LOLT.CD.PU.AR.US:DT.DOD.LOLT.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13586,7 +13586,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.MMST.CD.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MMST.CD.PR.AR.US:DT.DOD.MMST.CD.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.MMST.CD.PR.AR.US:DT.DOD.MMST.CD.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13610,7 +13610,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CD:DT.DOD.OFFT.CD} - PPG, official creditors (DOD, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CD:DT.DOD.OFFT.CD} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13634,7 +13634,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CD.PU.AR.US:DT.DOD.OFFT.CD.PU.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.CD.PU.AR.US:DT.DOD.OFFT.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13670,7 +13670,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PR.IN.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PR.IN.AR.US:DT.DOD.OFFT.PR.IN.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PR.IN.AR.US:DT.DOD.OFFT.PR.IN.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13682,7 +13682,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PR.PR.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PR.PR.AR.US:DT.DOD.OFFT.PR.PR.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Principal, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PR.PR.AR.US:DT.DOD.OFFT.PR.PR.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13694,7 +13694,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.OFFT.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PU.AR.US:DT.DOD.OFFT.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.OFFT.PU.AR.US:DT.DOD.OFFT.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13790,7 +13790,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.PRLO.ST.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.ST.AR.US:DT.DOD.PRLO.ST.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.ST.AR.US:DT.DOD.PRLO.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13958,7 +13958,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.VTOT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.VTOT.CD:DT.DOD.VTOT.CD} - Gross Ext. Debt Pos., ST Rem., All Sectors, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.VTOT.CD:DT.DOD.VTOT.CD} - External debt stocks, variable rate (DOD, current US$)}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -13982,7 +13982,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CB.AR.US:DT.DOR.DECT.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, All maturities, Debt securities, Memo item, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CB.AR.US:DT.DOR.DECT.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Arrears, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14006,7 +14006,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.CB.AR.US:DT.DOR.DECT.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.CB.AR.US:DT.DOR.DECT.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14030,7 +14030,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.CD.IL.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.IL.US:DT.DOR.DECT.CD.IL.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, All maturities, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.CD.IL.US:DT.DOR.DECT.CD.IL.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14066,7 +14066,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.DS.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.DS.US:DT.DOR.DECT.DS.US} - Gross Ext. Debt Pos., ST Rem., General Government, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.DS.US:DT.DOR.DECT.DS.US} - Gross Ext. Debt Pos., ST Rem., All Sectors, All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14126,7 +14126,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DECT.MA.DS.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.MA.DS.US:DT.DOR.DECT.MA.DS.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, All maturities, All instruments, Arrears, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DECT.MA.DS.US:DT.DOR.DECT.MA.DS.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14234,7 +14234,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLBN.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.MA.AR.US:DT.DOR.DLBN.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, LT debt obg pmt 1year or less, Debt securities, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLBN.CD.MA.AR.US:DT.DOR.DLBN.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, LT debt obg pmt 1year or less, Debt securities, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14414,7 +14414,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTT.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.GG.AR.US:DT.DOR.DLTT.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.GG.AR.US:DT.DOR.DLTT.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14426,7 +14426,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.MA.AR.US:DT.DOR.DLTT.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.MA.AR.US:DT.DOR.DLTT.CD.MA.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14438,7 +14438,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DLTT.CD.OT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.OT.AR.US:DT.DOR.DLTT.CD.OT.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, LT debt obg pmt 1year or less, All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DLTT.CD.OT.AR.US:DT.DOR.DLTT.CD.OT.AR.US} - Gross Ext. Debt Pos., ST Rem., Other Sectors, LT debt obg pmt 1year or less, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14498,7 +14498,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSCD.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSCD.CD.CB.AR.US:DT.DOR.DSCD.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, ST debt on orig. maturity, Currency and deposits, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSCD.CD.CB.AR.US:DT.DOR.DSCD.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, Currency and deposits, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14678,7 +14678,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSTL.CD.GG.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTL.CD.GG.AR.US:DT.DOR.DSTL.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., Central Bank, ST debt on orig. maturity, Loans, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTL.CD.GG.AR.US:DT.DOR.DSTL.CD.GG.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, Loans, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14762,7 +14762,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.DSTT.CD.CB.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTT.CD.CB.AR.US:DT.DOR.DSTT.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., Deposit-Taking Corp., exc. CB, ST debt on orig. maturity, Trade credit and advances, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.DSTT.CD.CB.AR.US:DT.DOR.DSTT.CD.CB.AR.US} - Gross Ext. Debt Pos., ST Rem., General Government, ST debt on orig. maturity, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14822,7 +14822,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOR.LTFE.CD.IL.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOR.LTFE.CD.IL.RM.US:DT.DOR.LTFE.CD.IL.RM.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, LT debt obg pmt 1year or less, Debt liab. of dir. investors to DI ent., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOR.LTFE.CD.IL.RM.US:DT.DOR.LTFE.CD.IL.RM.US} - Gross Ext. Debt Pos., ST Rem., DI: Intercom Lending, LT debt obg pmt 1year or less, Debt liab. to fellow ent., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14870,7 +14870,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.03.US:DT.INP.DECT.CD.SA.03.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, More than 0 to 3, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.03.US:DT.INP.DECT.CD.SA.03.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, More than 9 to 12, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14906,7 +14906,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.1824.US:DT.INP.DECT.CD.SA.1824.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, More than 18 to 24, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.1824.US:DT.INP.DECT.CD.SA.1824.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, More than 3 to 6, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14954,7 +14954,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.0912.US:DT.INP.DECT.CD.SA.AR.0912.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 9 to 12, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.0912.US:DT.INP.DECT.CD.SA.AR.0912.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 12 to 18, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14966,7 +14966,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.1218.US:DT.INP.DECT.CD.SA.AR.1218.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 12 to 18, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.1218.US:DT.INP.DECT.CD.SA.AR.1218.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 18 to 24, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -14978,7 +14978,7 @@
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.CD.SA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.1824.US:DT.INP.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 3 to 6, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.CD.SA.AR.1824.US:DT.INP.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest payments on SDR allocations, More than 18 to 24, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15038,7 +15038,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.19.24.MO.SA.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.19.24.MO.SA.US:DT.INR.DECT.19.24.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 18 to 24 mo., All instruments, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.19.24.MO.SA.US:DT.INR.DECT.19.24.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, More than 0 to 3, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15134,7 +15134,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.0912.US:DT.INR.DECT.CD.SA.AR.0912.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 12 to 18, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.0912.US:DT.INR.DECT.CD.SA.AR.0912.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 9 to 12, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15158,7 +15158,7 @@
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.CD.SA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.1824.US:DT.INR.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 18 to 24, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.CD.SA.AR.1824.US:DT.INR.DECT.CD.SA.AR.1824.US} - Gross Ext. Debt Pmt, Interest receipts on SDR holdings, More than 3 to 6, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15278,7 +15278,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEAE.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEAE.CD.IL.24P.US:DT.INT.DEAE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. of dir. investors to DI ent., Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEAE.CD.IL.24P.US:DT.INT.DEAE.CD.IL.24P.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. of dir. investors to DI ent., Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15326,7 +15326,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.00.03.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.00.03.MO.US:DT.INT.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 0 to 3, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.00.03.MO.US:DT.INT.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15350,7 +15350,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.07.09.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.07.09.MO.US:DT.INT.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.07.09.MO.US:DT.INT.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15374,7 +15374,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.10.15.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.10.15.YR.US:DT.INT.DECT.CD.10.15.YR.US} - Ext. Debt Service Pmt, All Sectors, More than 12 to 18, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.10.15.YR.US:DT.INT.DECT.CD.10.15.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15398,7 +15398,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.15.UP.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.15.UP.YR.US:DT.INT.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, All Sectors, More than 18 to 24, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.15.UP.YR.US:DT.INT.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15626,7 +15626,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.CB.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.36.US:DT.INT.DECT.CD.CB.36.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.36.US:DT.INT.DECT.CD.CB.36.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15650,7 +15650,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.CB.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.IQ.US:DT.INT.DECT.CD.CB.IQ.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, Immediate, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.CB.IQ.US:DT.INT.DECT.CD.CB.IQ.US} - Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, One year or less, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15674,7 +15674,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.GG.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.GG.03.US:DT.INT.DECT.CD.GG.03.US} - Ext. Debt Service Pmt, General Government, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.GG.03.US:DT.INT.DECT.CD.GG.03.US} - Ext. Debt Service Pmt, General Government, More than 0 to 3, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15770,7 +15770,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.GG.RM.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.GG.RM.US:DT.INT.DECT.CD.GG.RM.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.GG.RM.US:DT.INT.DECT.CD.GG.RM.US} - Gross Ext. Debt Pos., General Government, One year or less, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15842,7 +15842,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IL.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.36.US:DT.INT.DECT.CD.IL.36.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 6 to 9, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IL.36.US:DT.INT.DECT.CD.IL.36.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 3 to 6, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15890,7 +15890,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IQ.00.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IQ.00.US:DT.INT.DECT.CD.IQ.00.US} - Ext. Debt Service Pmt, All Sectors, Immediate, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IQ.00.US:DT.INT.DECT.CD.IQ.00.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15914,7 +15914,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.MA.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.03.US:DT.INT.DECT.CD.MA.03.US} - Ext. Debt Service Pmt, Central Bank, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.03.US:DT.INT.DECT.CD.MA.03.US} - Ext. Debt Service Pmt, Central Bank, More than 0 to 3, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15926,7 +15926,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.MA.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.0912.US:DT.INT.DECT.CD.MA.0912.US} - Ext. Debt Service Pmt, Central Bank, More than 9 to 12, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.0912.US:DT.INT.DECT.CD.MA.0912.US} - Ext. Debt Service Pmt, Central Bank, More than 12 to 18, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -15974,7 +15974,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.MA.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.36.US:DT.INT.DECT.CD.MA.36.US} - Ext. Debt Service Pmt, Central Bank, More than 6 to 9, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.MA.36.US:DT.INT.DECT.CD.MA.36.US} - Ext. Debt Service Pmt, Central Bank, More than 3 to 6, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16058,7 +16058,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.OS.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.OS.1824.US:DT.INT.DECT.CD.OS.1824.US} - Ext. Debt Service Pmt, Other Sectors, More than 18 to 24, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.OS.1824.US:DT.INT.DECT.CD.OS.1824.US} - Ext. Debt Service Pmt, Other Sectors, More than 2yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16178,7 +16178,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DEFE.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEFE.CD.IL.1218.US:DT.INT.DEFE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. to fellow ent., Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DEFE.CD.IL.1218.US:DT.INT.DEFE.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. to fellow ent., Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16250,7 +16250,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DILD.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.03.US:DT.INT.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.03.US:DT.INT.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16262,7 +16262,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DILD.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.0912.US:DT.INT.DILD.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.0912.US:DT.INT.DILD.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16286,7 +16286,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DILD.CD.IL.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.1824.US:DT.INT.DILD.CD.IL.1824.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 2yrs, Debt liab. of DI ent. to dir. investors, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.1824.US:DT.INT.DILD.CD.IL.1824.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. of DI ent. to dir. investors, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16322,7 +16322,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DILD.CD.IL.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.69.US:DT.INT.DILD.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of DI ent. to dir. investors, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DILD.CD.IL.69.US:DT.INT.DILD.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. of DI ent. to dir. investors, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16418,7 +16418,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLBN.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.CB.AR.36.US:DT.INT.DLBN.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Debt securities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.CB.AR.36.US:DT.INT.DLBN.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Debt securities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16538,7 +16538,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLBN.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.GG.AR.IQ.US:DT.INT.DLBN.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Debt securities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.GG.AR.IQ.US:DT.INT.DLBN.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Debt securities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16694,7 +16694,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLBN.CD.OT.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.OT.AR.24P.US:DT.INT.DLBN.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Debt securities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLBN.CD.OT.AR.24P.US:DT.INT.DLBN.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Debt securities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16790,7 +16790,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.CB.AR.24P.US:DT.INT.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.CB.AR.24P.US:DT.INT.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -16862,7 +16862,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.GG.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.GG.AR.1218.US:DT.INT.DLCD.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.GG.AR.1218.US:DT.INT.DLCD.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17006,7 +17006,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.MA.AR.69.US:DT.INT.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.MA.AR.69.US:DT.INT.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17090,7 +17090,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLCD.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.OT.AR.36.US:DT.INT.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Currency and deposits, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLCD.CD.OT.AR.36.US:DT.INT.DLCD.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Currency and deposits, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17126,7 +17126,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTF.CD:DT.INT.DLTF.CD} - Interest payments, Long-term debt including IMF credit (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTF.CD:DT.INT.DLTF.CD} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17174,7 +17174,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.CB.AR.1824.US:DT.INT.DLTL.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.CB.AR.1824.US:DT.INT.DLTL.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17198,7 +17198,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.CB.AR.36.US:DT.INT.DLTL.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.CB.AR.36.US:DT.INT.DLTL.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17270,7 +17270,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.MA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.MA.AR.1824.US:DT.INT.DLTL.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.MA.AR.1824.US:DT.INT.DLTL.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17330,7 +17330,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.03.US:DT.INT.DLTL.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.03.US:DT.INT.DLTL.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17354,7 +17354,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.1218.US:DT.INT.DLTL.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.1218.US:DT.INT.DLTL.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17366,7 +17366,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.OT.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.1824.US:DT.INT.DLTL.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.1824.US:DT.INT.DLTL.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17390,7 +17390,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTL.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.36.US:DT.INT.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTL.CD.OT.AR.36.US:DT.INT.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17534,7 +17534,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.GG.AR.0912.US:DT.INT.DLTO.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.GG.AR.0912.US:DT.INT.DLTO.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17570,7 +17570,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.GG.AR.24P.US:DT.INT.DLTO.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.GG.AR.24P.US:DT.INT.DLTO.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17642,7 +17642,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.1218.US:DT.INT.DLTO.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.1218.US:DT.INT.DLTO.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17666,7 +17666,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.24P.US:DT.INT.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.24P.US:DT.INT.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17690,7 +17690,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.69.US:DT.INT.DLTO.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.MA.AR.69.US:DT.INT.DLTO.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17786,7 +17786,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTO.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.OT.AR.69.US:DT.INT.DLTO.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Other debt liabilities, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTO.CD.OT.AR.69.US:DT.INT.DLTO.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Other debt liabilities, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17822,7 +17822,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.GG.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.0912.US:DT.INT.DLTS.CD.GG.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.0912.US:DT.INT.DLTS.CD.GG.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17870,7 +17870,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.GG.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.36.US:DT.INT.DLTS.CD.GG.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.36.US:DT.INT.DLTS.CD.GG.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -17894,7 +17894,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTS.CD.GG.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.IQ.US:DT.INT.DLTS.CD.GG.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Special drawing rights (allocations), Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTS.CD.GG.IQ.US:DT.INT.DLTS.CD.GG.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Special drawing rights (allocations), Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18002,7 +18002,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.CB.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.CB.AR.03.US:DT.INT.DLTT.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.CB.AR.03.US:DT.INT.DLTT.CD.CB.AR.03.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18206,7 +18206,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.MA.AR.0912.US:DT.INT.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.MA.AR.0912.US:DT.INT.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18218,7 +18218,7 @@
 
 {synoptline}
 {marker sourceid_DT.INT.DLTT.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.MA.AR.1218.US:DT.INT.DLTT.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Trade credit and advances, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DLTT.CD.MA.AR.1218.US:DT.INT.DLTT.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Trade credit and advances, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18350,7 +18350,7 @@
 
 {synoptline}
 {marker sourceid_DT.INTS.DLTL.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTL.CD.GG.AR.24P.US:DT.INTS.DLTL.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Loans, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.INTS.DLTL.CD.GG.AR.24P.US:DT.INTS.DLTL.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Loans, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18494,7 +18494,7 @@
 
 {synoptline}
 {marker sourceid_DT.IWA.DECT.CD.OT.HH.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.IWA.DECT.CD.OT.HH.AR.US:DT.IWA.DECT.CD.OT.HH.AR.US} - Gross Ext. Debt Pos., HH and nonprofit institu. (NPISHs), All maturities, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IWA.DECT.CD.OT.HH.AR.US:DT.IWA.DECT.CD.OT.HH.AR.US} - Gross Ext. Debt Pos., Other financial corporations, All maturities, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18554,7 +18554,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.DECT.CD.MA.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DECT.CD.MA.AR.US:DT.IXA.DECT.CD.MA.AR.US} - Gross Ext. Debt Pos., Central Bank, All maturities, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DECT.CD.MA.AR.US:DT.IXA.DECT.CD.MA.AR.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18566,7 +18566,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.DECT.CD.OT.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DECT.CD.OT.AR.US:DT.IXA.DECT.CD.OT.AR.US} - Gross Ext. Debt Pos., Debt liab. of DI ent. to dir. investors, All maturities, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DECT.CD.OT.AR.US:DT.IXA.DECT.CD.OT.AR.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18722,7 +18722,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.00.03.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.00.03.MO.US:DT.TDS.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.00.03.MO.US:DT.TDS.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 0 to 3, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18746,7 +18746,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.07.09.MO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.07.09.MO.US:DT.TDS.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, All Sectors, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.07.09.MO.US:DT.TDS.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18794,7 +18794,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.15.UP.YR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.15.UP.YR.US:DT.TDS.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, All Sectors, More than 18 to 24, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.15.UP.YR.US:DT.TDS.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18830,7 +18830,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.24P.US:DT.TDS.DECT.CD.24P.US} - Ext. Debt Service Pmt, All Sectors, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.24P.US:DT.TDS.DECT.CD.24P.US} - Ext. Debt Service Pmt, All Sectors, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18854,7 +18854,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.69.US:DT.TDS.DECT.CD.69.US} - Ext. Debt Service Pmt, All Sectors, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.69.US:DT.TDS.DECT.CD.69.US} - Gross Ext. Debt Pmt, All Sectors, More than 0 to 3, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18878,7 +18878,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.0912.US:DT.TDS.DECT.CD.AR.0912.US} - Gross Ext. Debt Pmt, All Sectors, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.AR.0912.US:DT.TDS.DECT.CD.AR.0912.US} - Gross Ext. Debt Pmt, All Sectors, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -18974,7 +18974,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.CB.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.0912.US:DT.TDS.DECT.CD.CB.0912.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.0912.US:DT.TDS.DECT.CD.CB.0912.US} - Ext. Debt Service Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19058,7 +19058,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.AR.0912.US:DT.TDS.DECT.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.CB.AR.0912.US:DT.TDS.DECT.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19202,7 +19202,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.1824.US:DT.TDS.DECT.CD.GG.1824.US} - Ext. Debt Service Pmt, General Government, More than 2yrs, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.1824.US:DT.TDS.DECT.CD.GG.1824.US} - Ext. Debt Service Pmt, General Government, More than 18 to 24, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19250,7 +19250,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.03.US:DT.TDS.DECT.CD.GG.AR.03.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.03.US:DT.TDS.DECT.CD.GG.AR.03.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19298,7 +19298,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.24P.US:DT.TDS.DECT.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.24P.US:DT.TDS.DECT.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19310,7 +19310,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.36.US:DT.TDS.DECT.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.GG.AR.36.US:DT.TDS.DECT.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19418,7 +19418,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IL.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.24P.US:DT.TDS.DECT.CD.IL.24P.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.24P.US:DT.TDS.DECT.CD.IL.24P.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19430,7 +19430,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IL.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.36.US:DT.TDS.DECT.CD.IL.36.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.36.US:DT.TDS.DECT.CD.IL.36.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 3 to 6, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19442,7 +19442,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IL.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.69.US:DT.TDS.DECT.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.69.US:DT.TDS.DECT.CD.IL.69.US} - Ext. Debt Service Pmt, DI: Intercom Lending, More than 6 to 9, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19454,7 +19454,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IL.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.AR.03.US:DT.TDS.DECT.CD.IL.AR.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IL.AR.03.US:DT.TDS.DECT.CD.IL.AR.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19646,7 +19646,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.MA.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.24P.US:DT.TDS.DECT.CD.MA.24P.US} - Ext. Debt Service Pmt, Central Bank, More than 3 to 6, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.24P.US:DT.TDS.DECT.CD.MA.24P.US} - Ext. Debt Service Pmt, Central Bank, More than 2yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19670,7 +19670,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.MA.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.69.US:DT.TDS.DECT.CD.MA.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.69.US:DT.TDS.DECT.CD.MA.69.US} - Ext. Debt Service Pmt, Central Bank, More than 6 to 9, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19706,7 +19706,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.AR.1218.US:DT.TDS.DECT.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.MA.AR.1218.US:DT.TDS.DECT.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19814,7 +19814,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OS.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.0912.US:DT.TDS.DECT.CD.OS.0912.US} - Ext. Debt Service Pmt, Other Sectors, More than 12 to 18, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.0912.US:DT.TDS.DECT.CD.OS.0912.US} - Ext. Debt Service Pmt, Other Sectors, More than 9 to 12, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19874,7 +19874,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OS.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.69.US:DT.TDS.DECT.CD.OS.69.US} - Ext. Debt Service Pmt, Other Sectors, Immediate, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.69.US:DT.TDS.DECT.CD.OS.69.US} - Ext. Debt Service Pmt, Other Sectors, More than 6 to 9, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19886,7 +19886,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OS.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.IQ.US:DT.TDS.DECT.CD.OS.IQ.US} - Gross Ext. Debt Pos., Other Sectors, One year or less, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OS.IQ.US:DT.TDS.DECT.CD.OS.IQ.US} - Ext. Debt Service Pmt, Other Sectors, Immediate, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19922,7 +19922,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OT.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.0912.US:DT.TDS.DECT.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.0912.US:DT.TDS.DECT.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -19982,7 +19982,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.69.US:DT.TDS.DECT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.OT.AR.69.US:DT.TDS.DECT.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20042,7 +20042,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEFE.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.03.US:DT.TDS.DEFE.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. to fellow ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.03.US:DT.TDS.DEFE.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. to fellow ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20054,7 +20054,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEFE.CD.IL.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.0912.US:DT.TDS.DEFE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. to fellow ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.0912.US:DT.TDS.DEFE.CD.IL.0912.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. to fellow ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20102,7 +20102,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEFE.CD.IL.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.36.US:DT.TDS.DEFE.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. to fellow ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.36.US:DT.TDS.DEFE.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20114,7 +20114,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEFE.CD.IL.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.69.US:DT.TDS.DEFE.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. to fellow ent., Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEFE.CD.IL.69.US:DT.TDS.DEFE.CD.IL.69.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. to fellow ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20138,7 +20138,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DILD.CD.IL.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.03.US:DT.TDS.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.03.US:DT.TDS.DILD.CD.IL.03.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20162,7 +20162,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DILD.CD.IL.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.1218.US:DT.TDS.DILD.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.1218.US:DT.TDS.DILD.CD.IL.1218.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 18 to 24, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20198,7 +20198,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DILD.CD.IL.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.36.US:DT.TDS.DILD.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DILD.CD.IL.36.US:DT.TDS.DILD.CD.IL.36.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20294,7 +20294,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.24P.US:DT.TDS.DLBN.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.24P.US:DT.TDS.DLBN.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20306,7 +20306,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.36.US:DT.TDS.DLBN.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.36.US:DT.TDS.DLBN.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20330,7 +20330,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.CB.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.IQ.US:DT.TDS.DLBN.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.CB.AR.IQ.US:DT.TDS.DLBN.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20378,7 +20378,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.GG.AR.1824.US:DT.TDS.DLBN.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.GG.AR.1824.US:DT.TDS.DLBN.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20390,7 +20390,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.GG.AR.24P.US:DT.TDS.DLBN.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.GG.AR.24P.US:DT.TDS.DLBN.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20486,7 +20486,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.24P.US:DT.TDS.DLBN.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.24P.US:DT.TDS.DLBN.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20498,7 +20498,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.MA.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.36.US:DT.TDS.DLBN.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.MA.AR.36.US:DT.TDS.DLBN.CD.MA.AR.36.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20546,7 +20546,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.OT.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.0912.US:DT.TDS.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Debt securities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.0912.US:DT.TDS.DLBN.CD.OT.AR.0912.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20618,7 +20618,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLBN.CD.OT.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.IQ.US:DT.TDS.DLBN.CD.OT.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLBN.CD.OT.AR.IQ.US:DT.TDS.DLBN.CD.OT.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Debt securities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20642,7 +20642,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.0912.US:DT.TDS.DLCD.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.0912.US:DT.TDS.DLCD.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20666,7 +20666,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.1824.US:DT.TDS.DLCD.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.1824.US:DT.TDS.DLCD.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20678,7 +20678,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.24P.US:DT.TDS.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.24P.US:DT.TDS.DLCD.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20690,7 +20690,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.36.US:DT.TDS.DLCD.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.36.US:DT.TDS.DLCD.CD.CB.AR.36.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20714,7 +20714,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.CB.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.IQ.US:DT.TDS.DLCD.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.CB.AR.IQ.US:DT.TDS.DLCD.CD.CB.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20762,7 +20762,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.GG.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.1824.US:DT.TDS.DLCD.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.1824.US:DT.TDS.DLCD.CD.GG.AR.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20774,7 +20774,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.GG.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.24P.US:DT.TDS.DLCD.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.24P.US:DT.TDS.DLCD.CD.GG.AR.24P.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20810,7 +20810,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.IQ.US:DT.TDS.DLCD.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.GG.AR.IQ.US:DT.TDS.DLCD.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20870,7 +20870,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.24P.US:DT.TDS.DLCD.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.24P.US:DT.TDS.DLCD.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20894,7 +20894,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.69.US:DT.TDS.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.69.US:DT.TDS.DLCD.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -20906,7 +20906,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLCD.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.IQ.US:DT.TDS.DLCD.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Currency and deposits, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLCD.CD.MA.AR.IQ.US:DT.TDS.DLCD.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Currency and deposits, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21086,7 +21086,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.CB.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.CB.AR.69.US:DT.TDS.DLTL.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 6 to 9, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.CB.AR.69.US:DT.TDS.DLTL.CD.CB.AR.69.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, Immediate, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21122,7 +21122,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.GG.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.0912.US:DT.TDS.DLTL.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.0912.US:DT.TDS.DLTL.CD.GG.AR.0912.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21194,7 +21194,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.GG.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.IQ.US:DT.TDS.DLTL.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.GG.AR.IQ.US:DT.TDS.DLTL.CD.GG.AR.IQ.US} - Gross Ext. Debt Pmt, General Government, Immediate, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21218,7 +21218,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.0912.US:DT.TDS.DLTL.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.0912.US:DT.TDS.DLTL.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21230,7 +21230,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.MA.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.1218.US:DT.TDS.DLTL.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.1218.US:DT.TDS.DLTL.CD.MA.AR.1218.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21242,7 +21242,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.MA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.1824.US:DT.TDS.DLTL.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.1824.US:DT.TDS.DLTL.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21278,7 +21278,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.MA.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.69.US:DT.TDS.DLTL.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.69.US:DT.TDS.DLTL.CD.MA.AR.69.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21290,7 +21290,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.IQ.US:DT.TDS.DLTL.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.MA.AR.IQ.US:DT.TDS.DLTL.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21326,7 +21326,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.1218.US:DT.TDS.DLTL.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.1218.US:DT.TDS.DLTL.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21350,7 +21350,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.OT.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.24P.US:DT.TDS.DLTL.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.24P.US:DT.TDS.DLTL.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21362,7 +21362,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.OT.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.36.US:DT.TDS.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.36.US:DT.TDS.DLTL.CD.OT.AR.36.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21374,7 +21374,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.OT.AR.69.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.69.US:DT.TDS.DLTL.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Loans, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.69.US:DT.TDS.DLTL.CD.OT.AR.69.US} - Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21386,7 +21386,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTL.CD.OT.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.IQ.US:DT.TDS.DLTL.CD.OT.AR.IQ.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 0 to 3, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTL.CD.OT.AR.IQ.US:DT.TDS.DLTL.CD.OT.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, Immediate, Loans, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21422,7 +21422,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.CB.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.CB.AR.1218.US:DT.TDS.DLTO.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.CB.AR.1218.US:DT.TDS.DLTO.CD.CB.AR.1218.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21554,7 +21554,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.GG.AR.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.GG.AR.36.US:DT.TDS.DLTO.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.GG.AR.36.US:DT.TDS.DLTO.CD.GG.AR.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21602,7 +21602,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.0912.US:DT.TDS.DLTO.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.0912.US:DT.TDS.DLTO.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21638,7 +21638,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.24P.US:DT.TDS.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.24P.US:DT.TDS.DLTO.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21674,7 +21674,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.MA.AR.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.IQ.US:DT.TDS.DLTO.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Central Bank, Immediate, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.MA.AR.IQ.US:DT.TDS.DLTO.CD.MA.AR.IQ.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21686,7 +21686,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.OT.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.03.US:DT.TDS.DLTO.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 9 to 12, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.03.US:DT.TDS.DLTO.CD.OT.AR.03.US} - Gross Ext. Debt Pmt, Other Sectors, More than 0 to 3, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21710,7 +21710,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.OT.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.1218.US:DT.TDS.DLTO.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 12 to 18, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.1218.US:DT.TDS.DLTO.CD.OT.AR.1218.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21722,7 +21722,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.OT.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.1824.US:DT.TDS.DLTO.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 18 to 24, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.1824.US:DT.TDS.DLTO.CD.OT.AR.1824.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21734,7 +21734,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTO.CD.OT.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.24P.US:DT.TDS.DLTO.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 3 to 6, Other debt liabilities, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTO.CD.OT.AR.24P.US:DT.TDS.DLTO.CD.OT.AR.24P.US} - Gross Ext. Debt Pmt, Other Sectors, More than 2yrs, Other debt liabilities, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21782,7 +21782,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.GG.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.03.US:DT.TDS.DLTS.CD.GG.03.US} - Gross Ext. Debt Pmt, General Government, More than 0 to 3, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.03.US:DT.TDS.DLTS.CD.GG.03.US} - Gross Ext. Debt Pmt, General Government, More than 9 to 12, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21818,7 +21818,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.GG.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.1824.US:DT.TDS.DLTS.CD.GG.1824.US} - Gross Ext. Debt Pmt, General Government, More than 2yrs, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.1824.US:DT.TDS.DLTS.CD.GG.1824.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21842,7 +21842,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.GG.36.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.36.US:DT.TDS.DLTS.CD.GG.36.US} - Gross Ext. Debt Pmt, General Government, More than 6 to 9, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.GG.36.US:DT.TDS.DLTS.CD.GG.36.US} - Gross Ext. Debt Pmt, General Government, More than 3 to 6, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21878,7 +21878,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.MA.AR.03.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.03.US:DT.TDS.DLTS.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.03.US:DT.TDS.DLTS.CD.MA.AR.03.US} - Gross Ext. Debt Pmt, Central Bank, More than 0 to 3, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21914,7 +21914,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTS.CD.MA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.1824.US:DT.TDS.DLTS.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Special drawing rights (allocations), Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTS.CD.MA.AR.1824.US:DT.TDS.DLTS.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Special drawing rights (allocations), Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -21986,7 +21986,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.CB.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.0912.US:DT.TDS.DLTT.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 9 to 12, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.0912.US:DT.TDS.DLTT.CD.CB.AR.0912.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 12 to 18, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22010,7 +22010,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.CB.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.1824.US:DT.TDS.DLTT.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 18 to 24, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.1824.US:DT.TDS.DLTT.CD.CB.AR.1824.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22022,7 +22022,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.CB.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.24P.US:DT.TDS.DLTT.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 2yrs, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.CB.AR.24P.US:DT.TDS.DLTT.CD.CB.AR.24P.US} - Gross Ext. Debt Pmt, Deposit-Taking Corp., exc. CB, More than 3 to 6, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22094,7 +22094,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.GG.AR.1218.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.GG.AR.1218.US:DT.TDS.DLTT.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 18 to 24, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.GG.AR.1218.US:DT.TDS.DLTT.CD.GG.AR.1218.US} - Gross Ext. Debt Pmt, General Government, More than 12 to 18, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22178,7 +22178,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.MA.AR.0912.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.MA.AR.0912.US:DT.TDS.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 12 to 18, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.MA.AR.0912.US:DT.TDS.DLTT.CD.MA.AR.0912.US} - Gross Ext. Debt Pmt, Central Bank, More than 9 to 12, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22202,7 +22202,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.MA.AR.1824.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.MA.AR.1824.US:DT.TDS.DLTT.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.MA.AR.1824.US:DT.TDS.DLTT.CD.MA.AR.1824.US} - Gross Ext. Debt Pmt, Central Bank, More than 18 to 24, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22214,7 +22214,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DLTT.CD.MA.AR.24P.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.MA.AR.24P.US:DT.TDS.DLTT.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 2yrs, Trade credit and advances, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DLTT.CD.MA.AR.24P.US:DT.TDS.DLTT.CD.MA.AR.24P.US} - Gross Ext. Debt Pmt, Central Bank, More than 3 to 6, Trade credit and advances, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22394,7 +22394,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXA.DECT.CD.IL.IN.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.IL.IN.US:DT.TXA.DECT.CD.IL.IN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Interest, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.IL.IN.US:DT.TXA.DECT.CD.IL.IN.US} - Gross Ext. Debt Pos., DI: Intercom Lending, All maturities, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22466,7 +22466,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXA.DECT.CD.OT.NF.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.OT.NF.US:DT.TXA.DECT.CD.OT.NF.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.OT.NF.US:DT.TXA.DECT.CD.OT.NF.US} - Gross Ext. Debt Pos., Nonfinancial corporations, All maturities, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 
@@ -22490,7 +22490,7 @@
 
 {synoptline}
 {marker sourceid_DT.TXA.DECT.CD.TO.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.TO.US:DT.TXA.DECT.CD.TO.US} - Gross Ext. Debt Pos., Debt liab. of DI ent. to dir. investors, All maturities, All instruments, Prin. and Int., USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TXA.DECT.CD.TO.US:DT.TXA.DECT.CD.TO.US} - Gross Ext. Debt Pos., All Other Sectors, All maturities, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}22 Quarterly External Debt Statistics SDDS{p_end}
 

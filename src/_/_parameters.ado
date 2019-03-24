@@ -1,4 +1,4 @@
-*! _parameters <24 Mar 2019 : 06:34:33>    João Pedro Azevedo 
+*! _parameters <24 Mar 2019 : 07:17:22>    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -10,12 +10,12 @@ version 9
              return local total = 16638 
 
              return local sourceid01 = 224 
-             return local sourceid02 = 2213 
+             return local sourceid02 = 2211 
              return local sourceid03 = 43 
              return local sourceid05 = 6 
              return local sourceid06 = 8 
              return local sourceid11 = 1138 
-             return local sourceid12 = 3750 
+             return local sourceid12 = 3751 
              return local sourceid13 = 100 
              return local sourceid14 = 276 
              return local sourceid15 = 53 
@@ -28,12 +28,12 @@ version 9
              return local sourceid24 = 30 
              return local sourceid25 = 2 
              return local sourceid27 = 2 
-             return local sourceid28 = 797 
-             return local sourceid29 = 3021 
+             return local sourceid28 = 798 
+             return local sourceid29 = 3024 
              return local sourceid30 = 104 
              return local sourceid32 = 114 
              return local sourceid33 = 148 
-             return local sourceid34 = 703 
+             return local sourceid34 = 702 
              return local sourceid35 = 19 
              return local sourceid36 = 31 
              return local sourceid37 = 230 
@@ -85,12 +85,12 @@ version 9
 
 
              return local number_indicators = 16638
-             return local dt_update "24 Mar 2019 06:34:33" 
-             return local dt_lastcheck  "24 Mar 2019 06:34:33" 
+             return local dt_update "24 Mar 2019 07:17:22" 
+             return local dt_lastcheck  "24 Mar 2019 07:17:22" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastupdate  "24 Mar 2019 06:34:28" 
-             return local dt_ctrylastcheck   "24 Mar 2019 06:34:33" 
-             return local dt_ctryupdate  "24 Mar 2019 06:37:28" 
+             return local dt_ctrylastupdate  "24 Mar 2019 06:59:06" 
+             return local dt_ctrylastcheck   "24 Mar 2019 07:17:22" 
+             return local dt_ctryupdate  "24 Mar 2019 07:20:03" 
 
 end

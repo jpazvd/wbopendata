@@ -67,21 +67,21 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}For each country calculated as: 1,000*reported number of depositors/adult population in the reporting country.{p_end}
+{synopt:{opt Source Notes}}For each country calculated as: 100,000*reported number of depositors/adult population in the reporting country.{p_end}
 
 {synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.AI.02}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.02:GFDD.AI.02} - Firms with a bank loan or line of credit (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.02:GFDD.AI.02} - Bank branches per 100,000 adults}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms in the formal sector with a line of credit or a loan from a formal financial institution, such as a bank, credit union, microfinance institution, or cooperative.{p_end}
+{synopt:{opt Source Notes}}For each country calculated as: 100,000*reported number of depositors/adult population in the reporting country.{p_end}
 
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
+{synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money by using an account at a formal financial institution such as a bank, credit union, microfinance institution, or cooperative in the past 12 months (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank, credit union, microfinance institution, or another financial institution such as a cooperative in the past 12 months (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -138,6 +138,7 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a bank, credit union, microfinance institution, or another financial institution such as a cooperative in the past 12 months (% age 15+).{p_end}
 
@@ -151,14 +152,14 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report using their accounts at a formal financial institution for business purposes only or for both business purposes and personal transactions (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report using their accounts at a formal financial institution to receive money or payments from the government in the past 12 months (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.AI.09}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.09:GFDD.AI.09} - Account used to receive remittances (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.09:GFDD.AI.09} - Account used to receive government payments (% age 15+)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -199,7 +200,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money by using an informal savings club or a person outside the family in the past 12 months (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report saving or setting aside any money in the past 12 months (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -235,6 +236,7 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from a private lender in the past 12 months (% age 15+).{p_end}
 
@@ -248,14 +250,14 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who borrowed any money in the past 12 months from a store by using installment credit or buying on credit (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who report borrowing any money from an employer in the past 12 months (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.AI.17}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.17:GFDD.AI.17} - Loan through store credit in the past year (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.17:GFDD.AI.17} - Loan from family or friends in the past year (% age 15+)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -279,12 +281,12 @@
 
 {synoptline}
 {marker sourceid_GFDD.AI.19}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.19:GFDD.AI.19} - Checks used to make payments (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.19:GFDD.AI.19} - Credit card (% age 15+)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who used checks in the past 12 months to make payments on bills or to buy things using money from their accounts (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents with a credit card (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -295,8 +297,9 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The percentage of respondents with a debit card (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents with a credit card (% age 15+).{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -308,7 +311,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents with a debit card (% age 15+).{p_end}
+{synopt:{opt Source Notes}}The percentage of respondents who used electronic payments (payments that one makes or that are made automatically including wire transfers or payments made online) in the past 12 months to make payments on bills or to buy things using money f{p_end}
 
 {synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
@@ -319,7 +322,6 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}The percentage of respondents who used electronic payments (payments that one makes or that are made automatically including wire transfers or payments made online) in the past 12 months to make payments on bills or to buy things using money f{p_end}
 
@@ -359,7 +361,7 @@
 
 {synopt:{opt Source Notes}}For each country calculated as: 100,000*Number of ATMs/adult population in the reporting country.{p_end}
 
-{synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}Global Financial Inclusion (Global Findex) Database, World Bank{p_end}
 
 
 {synoptline}
@@ -368,6 +370,7 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Adults depositing/withdrawing at least once in a typical month (% age 15+). It is calculated as follows: (100 - 0 deposits/withdrawals in typical month (% with an account,  age 15+) ) * (Account at a formal financial institution (% age 15+)) /{p_end}
 
@@ -405,7 +408,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms using bank loans to finance working capital.{p_end}
+{synopt:{opt Source Notes}}Percentage of loans where a formal financial institution requires collateral in order to provide the financing.{p_end}
 
 {synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
 
@@ -428,15 +431,16 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Net attendance rate. Primary. Female is the proportion of female children of the official primary school age who are attending primary school. The primary school age is based on the parameters of the educational system: starting age and durati{p_end}
+{synopt:{opt Source Notes}}Value of collateral needed by a formal financial institution for a loan or line of credit as a percentage of the loan value or the value of the line of credit.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.AI.32}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.32:GFDD.AI.32} - Firms whose recent loan application was rejected (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.AI.32:GFDD.AI.32} - Firms not needing a loan (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -477,7 +481,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Proportion of the working capital that was financed by bank loans.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying access/cost of finance as a major or very severe obstacle.{p_end}
 
 {synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
 
@@ -500,8 +504,9 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Value of listed shares outside of the top ten largest companies to total value of all listed shares.{p_end}
+{synopt:{opt Source Notes}}Value of all traded shares outside of the top ten largest traded companies as a share of total value of all traded shares in a stock market exchange. WFE provides data on the exchange level. This variable is aggregated up to the country level{p_end}
 
 {synopt:{opt Source Organization}}World Federation of Exchanges{p_end}
 
@@ -537,9 +542,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and{p_end}
+{synopt:{opt Source Notes}}Estimated proportion of purchases of fixed assets that was financed by owners’ contribution or issue of new equity shares.{p_end}
 
-{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank{p_end}
 
 
 {synoptline}
@@ -549,7 +554,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by deposit money banks as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is deposit money bank claims, P_e is end-of period CPI,{p_end}
+{synopt:{opt Source Notes}}Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
@@ -561,14 +566,14 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by other financial institutions as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at]  where F is other financial institutions' claims, P_e i{p_end}
+{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by deposit money banks as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is deposit money bank claims, P_e is end-of period CPI,{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.DI.03}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.03:GFDD.DI.03} - Deposit money bank assets to deposit money bank assets and central bank assets (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.03:GFDD.DI.03} - Nonbank financial institutions’ assets to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -592,19 +597,19 @@
 
 {synoptline}
 {marker sourceid_GFDD.DI.05}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.05:GFDD.DI.05} - Liquid liabilities to GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.05:GFDD.DI.05} - Central bank assets to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Ratio of liquid liabilities to GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is liquid liabilities, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the elec{p_end}
+{synopt:{opt Source Notes}}Claims on domestic real nonfinancial sector by the Central Bank as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is Central Bank claims, P_e is end-of period CPI, and P_a{p_end}
 
 {synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.DI.06}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.06:GFDD.DI.06} - Mutual fund assets to GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.06:GFDD.DI.06} - Central bank assets to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -620,10 +625,11 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Data taken from a variety of sources such as Investment Company Institute and national sources.{p_end}
 
-{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}World Bank - Non banking financial database{p_end}
 
 
 {synoptline}
@@ -633,9 +639,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Premium data is taken from various issues of Sigma reports (Swiss Re). Data on GDP in US dollars is from the electronic version of the World Development Indicators.{p_end}
+{synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks and other financial institutions as a share of GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving dep{p_end}
 
-{synopt:{opt Source Organization}}Sigma Reports, Swiss Re{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -652,14 +658,14 @@
 
 {synoptline}
 {marker sourceid_GFDD.DI.10}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.10:GFDD.DI.10} - Non-life insurance premium volume to GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DI.10:GFDD.DI.10} - Insurance company assets to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Premium data is taken from various issues of Sigma reports (Swiss Re). Data on GDP in US dollars is from the electronic version of the World Development Indicators.{p_end}
+{synopt:{opt Source Notes}}Data taken from a variety of sources such as AXCO and national sources.{p_end}
 
-{synopt:{opt Source Organization}}Sigma Reports, Swiss Re{p_end}
+{synopt:{opt Source Organization}}Nonbanking financial database, World Bank{p_end}
 
 
 {synoptline}
@@ -693,9 +699,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. Fo{p_end}
+{synopt:{opt Source Notes}}Ratio of assets of pension funds to GDP. A pension fund is any plan, fund, or scheme that provides retirement income. Data taken from a variety of sources such as OECD, AIOS, FIAP and national sources.{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicators (WDI), World Bank{p_end}
+{synopt:{opt Source Organization}}Nonbanking financial database, World Bank{p_end}
 
 
 {synoptline}
@@ -705,9 +711,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. Fo{p_end}
+{synopt:{opt Source Notes}}Value of listed shares to GDP, calculated using the following deflation  method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is average annual CPI. End-of period CPI ({p_end}
 
-{synopt:{opt Source Organization}}World Development Indicators (WDI), World Bank{p_end}
+{synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
 
 {synoptline}
@@ -717,7 +723,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Total value of all traded shares in a stock market exchange as a percentage of GDP.  Following deflation method is use:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is{p_end}
+{synopt:{opt Source Notes}}Value of listed shares to GDP, calculated using the following deflation  method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is average annual CPI. End-of period CPI ({p_end}
 
 {synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
@@ -729,9 +735,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Total value of all traded shares in a stock market exchange as a percentage of GDP.  Following deflation method is use:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is stock market capitalization, P_e is end-of period CPI, and P_a  is{p_end}
+{synopt:{opt Source Notes}}Total amount of domestic private debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers data on long-term bonds and notes, commercial paper and other short-term notes. Table 16A (domestic debt amount): al{p_end}
 
-{synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
+{synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
 
 {synoptline}
@@ -741,19 +747,19 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Total amount of domestic private debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers data on long-term bonds and notes, commercial paper and other short-term notes. Table 16A (domestic debt amount): al{p_end}
+{synopt:{opt Source Notes}}Total amount of domestic public debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers long-term bonds and notes, treasury bills, commercial paper and other short-term notes. Table 16A (domestic debt amou{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.DM.04}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.04:GFDD.DM.04} - Outstanding domestic public debt securities to GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.04:GFDD.DM.04} - Outstanding international private debt securities to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Total amount of domestic public debt securities (amounts outstanding) issued in domestic markets as a share of GDP. It covers long-term bonds and notes, treasury bills, commercial paper and other short-term notes. Table 16A (domestic debt amou{p_end}
+{synopt:{opt Source Notes}}Amount of private international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. (Table 12A  (international debt amount: all issuers) -{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -765,7 +771,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Amount of public international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. Table 12D (international debt amount): governments / GDP{p_end}
+{synopt:{opt Source Notes}}Amount of private international debt securities (amounts outstanding), as a share of GDP. It covers long-term bonds and notes and money market instruments placed on international markets. (Table 12A  (international debt amount: all issuers) -{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -808,7 +814,7 @@
 
 {synoptline}
 {marker sourceid_GFDD.DM.09}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.09:GFDD.DM.09} - Gross portfolio debt liabilities to GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.09:GFDD.DM.09} - Gross portfolio equity assets to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -825,9 +831,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Ratio of gross portfolio debt liabilities to GDP. Debt liabilities cover (1) bonds, debentures, notes, etc., and (2) money market or negotiable debt instruments. Raw data are from the electronic version of the IMF's International Financial Sta{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
 
-{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
 
 {synoptline}
@@ -844,7 +850,7 @@
 
 {synoptline}
 {marker sourceid_GFDD.DM.12}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.12:GFDD.DM.12} - Syndicated loan issuance volume to GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.DM.12:GFDD.DM.12} - Corporate bond issuance volume to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -896,11 +902,10 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope. Data2080[t] / ((data2010[t] + data2010[t-1])/2). Numerator and denominator are aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated fr{p_end}
+{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF’s International Financial Statistics. Difference between lending rate and deposit rate. Lending rate is the rate charged by banks on loans to the private sector and deposit interest rate is{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
+{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -945,6 +950,7 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Raw data are from Bankscope. Data2115[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcula{p_end}
 
@@ -958,21 +964,21 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2090 / (data2080 + data2085). All Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from u{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2115[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcul{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.EI.07}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.EI.07:GFDD.EI.07} - Bank cost to income ratio (%)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.EI.07:GFDD.EI.07} - Credit to government and state-owned enterprises to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2090 / (data2080 + data2085). All Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calculated from u{p_end}
+{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF’s International Financial Statistics. (IFS line 22A + line 22B + line 22C) / GDP. Local currency GDP is from IFS (line 99B..ZF or, if not available, line 99B.CZF).{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
+{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -994,7 +1000,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data10270[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcu{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. Data10270[t] / ((data2025[t] + data2025[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcul{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1006,9 +1012,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data10270[t] / ((data2055[t] + data2055[t-1])/2). Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. Calcu{p_end}
+{synopt:{opt Source Notes}}Ratio of the value of total shares traded to average real market capitalization, the denominator is deflated using the following method:  Tt/P_at/{(0.5)*[Mt/P_et + Mt-1/P_et-1] where T is total value traded, M is stock market capitalization, P{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
+{synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
 
 {synoptline}
@@ -1018,9 +1024,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Ratio of the value of total shares traded to average real market capitalization, the denominator is deflated using the following method:  Tt/P_at/{(0.5)*[Mt/P_et + Mt-1/P_et-1] where T is total value traded, M is stock market capitalization, P{p_end}
+{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used.{p_end}
 
-{synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -1056,19 +1062,20 @@
 
 {synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for three largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 3 or more. Calculated from underlying bank-by-bank unconsolidated{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
+{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.OI.02}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.02:GFDD.OI.02} - H-statistic}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.02:GFDD.OI.02} - Bank deposits to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}A measure of the degree of competition in the banking market. It measures the elasticity of banks revenues relative to input prices. Under perfect competition, an increase in input prices raises both marginal costs and total revenues by the sa{p_end}
+{synopt:{opt Source Notes}}Demand, time and saving deposits in deposit money banks as a share of GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is demand and time and saving deposits, P_e is end-of period CPI, a{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
+{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1078,7 +1085,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}A measure of market power in the banking market. It is defined as the difference between output prices and marginal costs (relative to prices). Prices are calculated as total bank revenue over assets, whereas marginal costs are obtained from a{p_end}
+{synopt:{opt Source Notes}}A measure of the degree of competition in the banking market. It measures the elasticity of banks revenues relative to input prices. Under perfect competition, an increase in input prices raises both marginal costs and total revenues by the sa{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1101,9 +1108,8 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}A measure of degree of competition, calculated as the elasticity of profits to marginal costs. To obtain the elasticity, the log of profits (measured by return on assets) is regressed on the log of marginal costs. The estimated coefficient (co{p_end}
+{synopt:{opt Source Notes}}Raw data are from Bankscope. (Sum(data2025) for five largest banks in Bankscope) / (Sum(data2025) for all banks in Bankscope). Only reported if number of banks in Bankscope is 5 or more. Calculated from underlying bank-by-bank unconsolidated d{p_end}
 
 {synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
 
@@ -1127,7 +1133,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Ratio of net offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore bank loan{p_end}
+{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF's International Financial Statistics. Liquid liabilities (IFS lines 55L..ZF or, if not available, line 35L..ZF); for Eurocurrency area countries (BEF, DEM, ESP, FRF, GRD, IEP, ITL, LUF, NLG,{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -1139,7 +1145,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Ratio of outstanding offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore ba{p_end}
+{synopt:{opt Source Notes}}Ratio of net offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore bank loan{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -1163,7 +1169,7 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Data is from BIS Statistical Appendix Table 7B: External loans and deposits of reporting banks vis-à-vis nonbanking sectors; bank deposits from IFS (IFS lines 24 and 25). End of year data (i.e. December data) are used.{p_end}
+{synopt:{opt Source Notes}}Data is from BIS Statistical Appendix Table 7A minus 7B: External loans and deposits of reporting banks vis-à-vis all sectors minus external loans and deposits of reporting banks vis-à-vis nonbanking sectors; bank deposits from IFS (IFS line{p_end}
 
 {synopt:{opt Source Organization}}Bank for International Settlements (BIS){p_end}
 
@@ -1199,9 +1205,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Workers' remittances and compensation of employees comprise current transfers by migrant workers and wages and salaries earned by nonresident workers. Data are the sum of three items defined in the fifth edition of the IMF's Balance of Payment{p_end}
+{synopt:{opt Source Notes}}The ratio of consolidated foreign claims to GDP of the banks that are reporting to BIS. Foreign claims are defined as the sum of cross-border claims plus foreign offices’ local claims in all currencies. In the consolidated banking statistics{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicators (WDI), World Bank{p_end}
+{synopt:{opt Source Organization}}Consolidated banking statistics, Bank for International Settlements (BIS){p_end}
 
 
 {synoptline}
@@ -1211,9 +1217,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}The ratio of consolidated foreign claims to GDP of the banks that are reporting to BIS. Foreign claims are defined as the sum of cross-border claims plus foreign offices’ local claims in all currencies. In the consolidated banking statistics{p_end}
+{synopt:{opt Source Notes}}Percentage of the number of foreign owned banks to the number of the total banks in an Economy. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
 
-{synopt:{opt Source Organization}}Consolidated banking statistics, Bank for International Settlements (BIS){p_end}
+{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
 
 
 {synoptline}
@@ -1223,9 +1229,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of the number of foreign owned banks to the number of the total banks in an Economy. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
+{synopt:{opt Source Notes}}Typology of out-of-school children. Primary. Never in school. Quintile 2 is the percentage of quintile 2 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey{p_end}
 
-{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
+{synopt:{opt Source Organization}}World Bank staff calculations based on Multiple Indicator Cluster Survey (MICS) data{p_end}
 
 
 {synoptline}
@@ -1247,19 +1253,19 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Ratios calculated by source.{p_end}
+{synopt:{opt Source Notes}}GDP data provided by IFS and converted into USD using IFS exchange rates.{p_end}
 
-{synopt:{opt Source Organization}}White Clarke Global Leasing Report{p_end}
+{synopt:{opt Source Organization}}Factors Chain International{p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.OI.18}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.18:GFDD.OI.18} - Banking crisis dummy (1=banking crisis, 0=none)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OI.18:GFDD.OI.18} - Total factoring volume to GDP (%)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}A banking crisis is defined as systemic if two conditions are met: a. Significant signs of financial distress in the banking system (as indicated bysignificant bank runs, losses in the banking system, and/or bank liquidations), b. Significant{p_end}
+{synopt:{opt Source Notes}}GDP data provided by IFS and converted into USD using IFS exchange rates.{p_end}
 
 {synopt:{opt Source Organization}}Luc Laeven and Fabián Valencia, 2012. “Systemic Banking Crises Database: An Update”, IMF Working Paper WP/12/163{p_end}
 
@@ -1273,19 +1279,19 @@
 
 {synopt:{opt Source Notes}}A banking crisis is defined as systemic if two conditions are met: a. Significant signs of financial distress in the banking system (as indicated bysignificant bank runs, losses in the banking system, and/or bank liquidations), b. Significant{p_end}
 
-{synopt:{opt Source Organization}}Luc Laeven and Fabián Valencia, 2012. “Systemic Banking Crises Database: An Update”, IMF Working Paper WP/12/163{p_end}
+{synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
 
 {synoptline}
 {marker sourceid_GFDD.OM.01}
-{synopt:{bf:{help wbopendata_sourceid##GFDD.OM.01:GFDD.OM.01} - Stock market return (%, year-on-year)}}
+{synopt:{bf:{help wbopendata_sourceid##GFDD.OM.01:GFDD.OM.01} - Number of listed companies per 1,000,000 people}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Stock market return is the growth rate of annual average stock market index. Annual average stock market index is constructed by taking the average of the daily stock market indexes available at Bloomberg.{p_end}
+{synopt:{opt Source Notes}}Number of publicly listed companies per 1,000,000 people. Number of listed domestic companies is the domestically incorporated companies listed on the country's stock exchanges at the end of the year. This indicator does not include investment{p_end}
 
-{synopt:{opt Source Organization}}Bloomberg{p_end}
+{synopt:{opt Source Organization}}Global Stock Markets Factbook and supplemental S&amp;P data, Standard &amp; Poor's{p_end}
 
 
 {synoptline}
@@ -1331,9 +1337,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF’s International Financial Statistics. Private credit by deposit money banks (IFS line 22d); bank deposits (IFS lines 24 and 25).{p_end}
+{synopt:{opt Source Notes}}Ratio of bank capital and reserves to total assets. Capital and reserves include funds contributed by owners, retained earnings, general and special reserves, provisions, and valuation adjustments. Capital includes tier 1 capital (paid-up shar{p_end}
 
-{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}Financial Soundness Indicators Database (fsi.imf.org), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1342,10 +1348,11 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Raw data are from the electronic version of the IMF’s International Financial Statistics. Private credit by deposit money banks (IFS line 22d); bank deposits (IFS lines 24 and 25).{p_end}
 
-{synopt:{opt Source Organization}}Financial Soundness Indicators Database (fsi.imf.org), International Monetary Fund (IMF){p_end}
+{synopt:{opt Source Organization}}International Financial Statistics (IFS), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1354,7 +1361,6 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Reported by IMF staff. Note that due to differences in national accounting, taxation, and supervisory regimes, these data are not strictly comparable across countries.{p_end}
 
@@ -1368,9 +1374,9 @@
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
 
-{synopt:{opt Source Notes}}Raw data are from Bankscope.  Data2075 / data2030. Numerator and denominator are first aggregated on the country level before division. Calculated from underlying bank-by-bank unconsolidated data from Bankscope.{p_end}
+{synopt:{opt Source Notes}}Provisions to nonperforming loans. Nonperforming Loans are loans for which the contractual payments are delinquent, usually defined as and NPL ratio  being overdue for more than a certain number of days (e.g., usually more than 90 days). Repor{p_end}
 
-{synopt:{opt Source Organization}}Bankscope, Bureau van Dijk (BvD){p_end}
+{synopt:{opt Source Organization}}Financial Soundness Indicators Database (fsi.imf.org), International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1379,7 +1385,6 @@
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Provisions to nonperforming loans. Nonperforming Loans are loans for which the contractual payments are delinquent, usually defined as and NPL ratio  being overdue for more than a certain number of days (e.g., usually more than 90 days). Repor{p_end}
 
@@ -1395,24 +1400,12 @@
 
 {synopt:{opt Source Notes}}Stock price volatility is the average of the 360-day volatility of the national stock market index.{p_end}
 
-{synopt:{opt Source Organization}}Bloomberg{p_end}
+{synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
 
 {synoptline}
-{marker sourceid_NV.AGR.TOTL.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.ZG:NV.AGR.TOTL.ZG} - Real agricultural GDP growth rates (%)}}
-
-{synopt:{opt Source}}32 Global Financial Development{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
-
-{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
-
-
-{synoptline}
-{marker sourceid_fin34a.14.a}
-{synopt:{bf:{help wbopendata_sourceid##fin34a.14.a:fin34a.14.a} - Paid school fees: using cash only (% age 15+)}}
+{marker sourceid_fin27c1.t.d}
+{synopt:{bf:{help wbopendata_sourceid##fin27c1.t.d:fin27c1.t.d} - Received domestic remittances: in person and in cash only (% age 15+)}}
 
 {synopt:{opt Source}}32 Global Financial Development{p_end}
 
@@ -1432,6 +1425,18 @@
 {synopt:{opt Source Notes}}For each country calculated as: 1,000*reported number of depositors/adult population in the reporting country.{p_end}
 
 {synopt:{opt Source Organization}}Financial Access Survey (FAS), International Monetary Fund (IMF){p_end}
+
+
+{synoptline}
+{marker sourceid_per_lm_ac.adq_q5_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q5_tot:per_lm_ac.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Active Labor Market}}
+
+{synopt:{opt Source}}32 Global Financial Development{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of the total banking assets that are held by foreign banks. A foreign bank is a bank where 50 percent or more of its shares are owned by foreigners.{p_end}
+
+{synopt:{opt Source Organization}}Stijn Claessens and Neeltje van Horen, 2012. Foreign Banks: Trends, Impact and Financial Stability IMF Working Paper, WP/12/10{p_end}
 
 
 

@@ -81,7 +81,7 @@
 
 {synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide{p_end}
 
-{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys.{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
@@ -103,14 +103,14 @@
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
-{synopt:{opt Source Notes}}Average annual deforestation refers to the permanent conversion of natural forest area to other uses, including shifting cultivation, permanent agriculture, ranching, settlements, and infrastructure development. Deforested areas do not include{p_end}
+{synopt:{opt Source Notes}}Water productivity is calculated as GDP in constant prices divided by annual total water withdrawal.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, Global Forest Resources Assessment.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data, and World Bank and OECD GDP estimates.{p_end}
 
 
 {synoptline}
 {marker sourceid_IS.AIR.PSGR.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR.P3:IS.AIR.PSGR.P3} - Access to an all-season road (% of rural population)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR.P3:IS.AIR.PSGR.P3} - Air transport, passengers carried (thousands)}}
 
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 

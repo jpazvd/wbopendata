@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_BX.AG.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.MT:BX.AG.CREL.MT} - Cereal imports quantity (FAO, tonnes)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.MT:BX.AG.CREL.MT} - 230.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -254,7 +254,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECD.CR.NF}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECD.CR.NF:DP.DOD.DECD.CR.NF} - 124.Gross Nonfinancial Public Corporations Debt, Domestic creditors  US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECD.CR.NF:DP.DOD.DECD.CR.NF} - 348.Gross Nonfinancial Public Corporations Debt, Domestic creditors}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -362,7 +362,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECF.CR.CG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.CG.CD:DP.DOD.DECF.CR.CG.CD} - 511.Central Govt. Public Sector Debt, Foreign currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.CG.CD:DP.DOD.DECF.CR.CG.CD} - 063.Central Govt. Public Sector Debt, Foreign currency US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -386,7 +386,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECF.CR.FC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.FC:DP.DOD.DECF.CR.FC} - 383.Gross Financial Public Corporations Debt, Foreign currency}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.FC:DP.DOD.DECF.CR.FC} - 159.Gross Financial Public Corporations Debt, Foreign currency  US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -410,7 +410,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECF.CR.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.FC.Z1:DP.DOD.DECF.CR.FC.Z1} - 255.General Govt. Public Sector Debt, Foreign currency}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.FC.Z1:DP.DOD.DECF.CR.FC.Z1} - 607.Gross Financial Public Corporations Debt, Foreign currency(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -434,7 +434,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECF.CR.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.GG.CD:DP.DOD.DECF.CR.GG.CD} - 479.General Govt. Public Sector Debt, Foreign currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.GG.CD:DP.DOD.DECF.CR.GG.CD} - 031.General Govt. Public Sector Debt, Foreign currency US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -446,7 +446,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECF.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.GG.Z1:DP.DOD.DECF.CR.GG.Z1} - 479.General Govt. Public Sector Debt, Foreign currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.GG.Z1:DP.DOD.DECF.CR.GG.Z1} - 351.Gross Nonfinancial Public Corporations Debt, Foreign currency}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -506,7 +506,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECF.CR.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.PS.CD:DP.DOD.DECF.CR.PS.CD} - 318.Gross Budg. Central Govt. Public Sector Debt, Domestic currency}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECF.CR.PS.CD:DP.DOD.DECF.CR.PS.CD} - 191.Gross Public Sector Debt, Foreign currency  US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -602,7 +602,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECN.CR.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.FC.CD:DP.DOD.DECN.CR.FC.CD} - 606.Gross Financial Public Corporations Debt, Domestic currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.FC.CD:DP.DOD.DECN.CR.FC.CD} - 158.Gross Financial Public Corporations Debt, Domestic currency  US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -614,7 +614,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECN.CR.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.FC.Z1:DP.DOD.DECN.CR.FC.Z1} - 606.Gross Financial Public Corporations Debt, Domestic currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.FC.Z1:DP.DOD.DECN.CR.FC.Z1} - 254.General Govt. Public Sector Debt, Domestic currency}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -638,7 +638,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECN.CR.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.GG.CD:DP.DOD.DECN.CR.GG.CD} - 478.General Govt. Public Sector Debt, Domestic currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.GG.CD:DP.DOD.DECN.CR.GG.CD} - 030.General Govt. Public Sector Debt, Domestic currency US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -674,7 +674,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECN.CR.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.NF.CD:DP.DOD.DECN.CR.NF.CD} - 574.Gross Nonfinancial Public Corporations Debt, Domestic currency(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECN.CR.NF.CD:DP.DOD.DECN.CR.NF.CD} - 126.Gross Nonfinancial Public Corporations Debt, Domestic currency  US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -782,7 +782,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECT.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECT.CR.CG.Z1:DP.DOD.DECT.CR.CG.Z1} - 481.Gross Central Government Debt (PSDCG)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECT.CR.CG.Z1:DP.DOD.DECT.CR.CG.Z1} - 353.Gross Financial Public Corporations Debt (PSDFPC, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -806,7 +806,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECT.CR.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECT.CR.FC.CD:DP.DOD.DECT.CR.FC.CD} - 129.Gross Financial Public Corporations Debt (PSDFPC) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECT.CR.FC.CD:DP.DOD.DECT.CR.FC.CD} - 577.Gross Financial Public Corporations Debt (PSDFPC, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -854,7 +854,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECT.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECT.CR.GG.Z1:DP.DOD.DECT.CR.GG.Z1} - 321.Gross Nonfinancial Public Corporations Debt (PSDNFPC)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECT.CR.GG.Z1:DP.DOD.DECT.CR.GG.Z1} - 449.General Govt. Public Sector Debt (PSDGG)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -962,7 +962,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECX.CR.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.CG:DP.DOD.DECX.CR.CG} - 061.Central Govt. Public Sector Debt, External creditors US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.CG:DP.DOD.DECX.CR.CG} - 285.Central Govt. Public Sector Debt, External creditors}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -974,7 +974,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECX.CR.CG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.CG.CD:DP.DOD.DECX.CR.CG.CD} - 509.Central Govt. Public Sector Debt, External creditors(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.CG.CD:DP.DOD.DECX.CR.CG.CD} - 061.Central Govt. Public Sector Debt, External creditors US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1022,7 +1022,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECX.CR.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.FC.Z1:DP.DOD.DECX.CR.FC.Z1} - 253.General Govt. Public Sector Debt, External creditors}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.FC.Z1:DP.DOD.DECX.CR.FC.Z1} - 605.Gross Financial Public Corporations Debt, External creditors(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1058,7 +1058,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DECX.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.GG.Z1:DP.DOD.DECX.CR.GG.Z1} - 349.Gross Nonfinancial Public Corporations Debt, External creditors}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DECX.CR.GG.Z1:DP.DOD.DECX.CR.GG.Z1} - 477.General Govt. Public Sector Debt, External creditors(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1195,7 +1195,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
@@ -1262,7 +1262,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.GG.Z1:DP.DOD.DLCD.CR.GG.Z1} - 298.Currency and deposits (PSDCGGB, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.GG.Z1:DP.DOD.DLCD.CR.GG.Z1} - 471.Currency and deposits (PSDGG, LT)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1322,7 +1322,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.L1.CG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.CD:DP.DOD.DLCD.CR.L1.CG.CD} - 490.Currency and deposits (PSDCG, LT, &lt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.CD:DP.DOD.DLCD.CR.L1.CG.CD} - 042.Currency and deposits (PSDCG, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1334,7 +1334,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.L1.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.Z1:DP.DOD.DLCD.CR.L1.CG.Z1} - 362.Currency and deposits (PSDFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.CG.Z1:DP.DOD.DLCD.CR.L1.CG.Z1} - 490.Currency and deposits (PSDCG, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1418,7 +1418,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.L1.NF}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.NF:DP.DOD.DLCD.CR.L1.NF} - 330.Currency and deposits (PSDNFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.NF:DP.DOD.DLCD.CR.L1.NF} - 106.Currency and deposits (PSDNFPC, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1442,7 +1442,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.L1.NF.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.NF.Z1:DP.DOD.DLCD.CR.L1.NF.Z1} - 554.Currency and deposits (PSDNFPC, LT, &lt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.L1.NF.Z1:DP.DOD.DLCD.CR.L1.NF.Z1} - 394.Currency and deposits (PSDT, LT,&lt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1550,7 +1550,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.M1.FC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.FC:DP.DOD.DLCD.CR.M1.FC} - 369.Currency and deposits (PSDFPC, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.FC:DP.DOD.DLCD.CR.M1.FC} - 145.Currency and deposits (PSDFPC, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1598,7 +1598,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.M1.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.GG.CD:DP.DOD.DLCD.CR.M1.GG.CD} - 465.Currency and deposits (PSDGG, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.GG.CD:DP.DOD.DLCD.CR.M1.GG.CD} - 017.Currency and deposits (PSDGG, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1622,7 +1622,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.M1.NF}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF:DP.DOD.DLCD.CR.M1.NF} - 113.Currency and deposits (PSDNFPC, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF:DP.DOD.DLCD.CR.M1.NF} - 337.Currency and deposits (PSDNFPC, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1646,7 +1646,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLCD.CR.M1.NF.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF.Z1:DP.DOD.DLCD.CR.M1.NF.Z1} - 561.Currency and deposits (PSDNFPC, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLCD.CR.M1.NF.Z1:DP.DOD.DLCD.CR.M1.NF.Z1} - 401.Currency and deposits (PSDT, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1759,7 +1759,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}Debt Securities GG + Loans GG{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1783,7 +1783,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}D1 CG + SDRs CG + Currency &amp; Deposits CG{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1795,7 +1795,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}D1 CG + SDRs CG + Currency &amp; Deposits CG{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1819,14 +1819,14 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}D1 GG + SDRs GG + Currency &amp; Deposits GG{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
 {marker sourceid_DP.DOD.DLD2.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLD2.CR.GG.Z1:DP.DOD.DLD2.CR.GG.Z1} - Gross PSD, General Gov.-D2, All maturities, D1+ SDRs + currency and deposits, Nominal Value, % of GDP}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLD2.CR.GG.Z1:DP.DOD.DLD2.CR.GG.Z1} - Gross PSD, Central Gov.-D2A, All maturities, D1+ currency and deposits, Maastricht debt, US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -1879,7 +1879,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}D2 CG + Other Accounts Payable CG{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1898,12 +1898,12 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLD3.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLD3.CR.CG.Z1:DP.DOD.DLD3.CR.CG.Z1} - Gross PSD, General Gov.-D3, All maturities, D2+other accounts payable, Nominal Value, US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLD3.CR.CG.Z1:DP.DOD.DLD3.CR.CG.Z1} - Gross PSD, Central Gov.-D3, All maturities, D2+other accounts payable, Nominal Value, % of GDP}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}D2 GG + Other Accounts Payable GG{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1915,7 +1915,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}D2 GG + Other Accounts Payable GG{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1939,19 +1939,19 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}D3 CG + ISPGS CG{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
 {marker sourceid_DP.DOD.DLD4.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLD4.CR.CG.Z1:DP.DOD.DLD4.CR.CG.Z1} - Gross PSD, Central Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, % of GDP}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLD4.CR.CG.Z1:DP.DOD.DLD4.CR.CG.Z1} - Gross PSD, General Gov.-D4, All maturities, D3+insurance, pensions, and standardized guarantees, Nominal Value, US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}D3 GG + IPSGS GG{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1963,7 +1963,7 @@
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
 
-{synopt:{opt Source Notes}}D3 GG + IPSGS GG{p_end}
+{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -2054,7 +2054,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.FC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.FC:DP.DOD.DLDS.CR.FC} - 376.Debt securities (PSDFPC)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.FC:DP.DOD.DLDS.CR.FC} - 152.Debt securities (PSDFPC) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2090,7 +2090,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.GG:DP.DOD.DLDS.CR.GG} - 248.Debt securities (PSDGG, LT)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.GG:DP.DOD.DLDS.CR.GG} - 024.Debt securities (PSDGG) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2258,7 +2258,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.L1.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.GG.Z1:DP.DOD.DLDS.CR.L1.GG.Z1} - 331.Debt securities (PSDNFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.GG.Z1:DP.DOD.DLDS.CR.L1.GG.Z1} - 459.Debt securities (PSDGG, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2282,7 +2282,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.L1.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.NF.CD:DP.DOD.DLDS.CR.L1.NF.CD} - 555.Debt securities (PSDNFPC, LT, &lt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.L1.NF.CD:DP.DOD.DLDS.CR.L1.NF.CD} - 107.Debt securities (PSDNFPC, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2414,7 +2414,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.M1.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.FC.CD:DP.DOD.DLDS.CR.M1.FC.CD} - 146.Debt securities (PSDFPC, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.FC.CD:DP.DOD.DLDS.CR.M1.FC.CD} - 594.Debt securities (PSDFPC, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2438,7 +2438,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.M1.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.GG:DP.DOD.DLDS.CR.M1.GG} - 018.Debt securities (PSDGG, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.GG:DP.DOD.DLDS.CR.M1.GG} - 242.Debt securities (PSDGG, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2486,7 +2486,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.M1.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.NF.CD:DP.DOD.DLDS.CR.M1.NF.CD} - 562.Debt securities (PSDNFPC, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.M1.NF.CD:DP.DOD.DLDS.CR.M1.NF.CD} - 114.Debt securities (PSDNFPC, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2534,7 +2534,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.MV.BC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.BC:DP.DOD.DLDS.CR.MV.BC} - 096.Gross Budg. Central Govt. Public Sector Debt Securities at market value US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.BC:DP.DOD.DLDS.CR.MV.BC} - 320.Gross Budg. Central Govt. Public Sector Debt securities at market value}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2558,7 +2558,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.MV.BC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.BC.Z1:DP.DOD.DLDS.CR.MV.BC.Z1} - 288.Central Govt. Public Sector Debt securities at market value}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.BC.Z1:DP.DOD.DLDS.CR.MV.BC.Z1} - 544.Gross Budg. Central Govt. Public Sector Debt securities at market value(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2570,7 +2570,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.MV.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.CG:DP.DOD.DLDS.CR.MV.CG} - 288.Central Govt. Public Sector Debt securities at market value}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.CG:DP.DOD.DLDS.CR.MV.CG} - 064.Central Govt. Public Sector Debt Securities at market value US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2630,7 +2630,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLDS.CR.MV.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.FC.Z1:DP.DOD.DLDS.CR.MV.FC.Z1} - Gross PSD, Financial Public Corp., All maturities, Debt Securities, Market value, % of GDP}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLDS.CR.MV.FC.Z1:DP.DOD.DLDS.CR.MV.FC.Z1} - 256.General Govt. Public Sector Debt securities at market value}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2798,7 +2798,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.BC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.BC:DP.DOD.DLIN.CR.BC} - 314.Insurance, pensions, and standardized guarantee schemes (PSDCGGB)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.BC:DP.DOD.DLIN.CR.BC} - 090.Insurance, pensions, and standardized guarantee schemes (PSDCGGB) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2846,7 +2846,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.CG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.CG.CD:DP.DOD.DLIN.CR.CG.CD} - 506.Insurance, pensions, and standardized guarantee schemes (PSDCG)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.CG.CD:DP.DOD.DLIN.CR.CG.CD} - 058.Insurance, pensions, and standardized guarantee schemes (PSDCG) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2870,7 +2870,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.FC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.FC:DP.DOD.DLIN.CR.FC} - 378.Insurance, pensions, and standardized guarantee schemes (PSDFPC)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.FC:DP.DOD.DLIN.CR.FC} - 154.Insurance, pensions, and standardized guarantee schemes (PSDFPC) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2918,7 +2918,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.GG.CD:DP.DOD.DLIN.CR.GG.CD} - 474.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.GG.CD:DP.DOD.DLIN.CR.GG.CD} - 026.Insurance, pensions, and standardized guarantee schemes (PSDGG) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -2930,7 +2930,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.GG.Z1:DP.DOD.DLIN.CR.GG.Z1} - 301.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.GG.Z1:DP.DOD.DLIN.CR.GG.Z1} - 474.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3122,7 +3122,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.L1.PS}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.L1.PS:DP.DOD.DLIN.CR.L1.PS} - 173.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.L1.PS:DP.DOD.DLIN.CR.L1.PS} - 397.Insurance, pensions, and standardized guarantee schemes (PSDT, LT,&lt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3206,7 +3206,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.M1.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.CG.Z1:DP.DOD.DLIN.CR.M1.CG.Z1} - 500.Insurance, pensions, and standardized guarantee schemes (PSDCG, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.CG.Z1:DP.DOD.DLIN.CR.M1.CG.Z1} - 372.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3230,7 +3230,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.M1.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.FC.CD:DP.DOD.DLIN.CR.M1.FC.CD} - 596.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.FC.CD:DP.DOD.DLIN.CR.M1.FC.CD} - 148.Insurance, pensions, and standardized guarantee schemes (PSDFPC, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3266,7 +3266,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.M1.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.GG.CD:DP.DOD.DLIN.CR.M1.GG.CD} - 468.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.GG.CD:DP.DOD.DLIN.CR.M1.GG.CD} - 020.Insurance, pensions, and standardized guarantee schemes (PSDGG, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3278,7 +3278,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.M1.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.GG.Z1:DP.DOD.DLIN.CR.M1.GG.Z1} - 340.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.M1.GG.Z1:DP.DOD.DLIN.CR.M1.GG.Z1} - 468.Insurance, pensions, and stnd. guarantee schemes (PSDGG, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3362,7 +3362,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLIN.CR.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.NF.CD:DP.DOD.DLIN.CR.NF.CD} - 122.Insurance, pensions, and standardized guarantee schemes (PSDNFPC) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLIN.CR.NF.CD:DP.DOD.DLIN.CR.NF.CD} - 570.Insurance, pensions, and standardized guarantee schemes (PSDNFPC)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3434,7 +3434,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.BC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.BC.Z1:DP.DOD.DLLO.CR.BC.Z1} - 281.Loans (PSDCG)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.BC.Z1:DP.DOD.DLLO.CR.BC.Z1} - 537.Loans (PSDCGGB)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3470,7 +3470,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.CG.Z1:DP.DOD.DLLO.CR.CG.Z1} - 377.Loans (PSDFPC)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.CG.Z1:DP.DOD.DLLO.CR.CG.Z1} - 505.Loans (PSDCG)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3494,7 +3494,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.FC.CD:DP.DOD.DLLO.CR.FC.CD} - 153.Loans (PSDFPC) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.FC.CD:DP.DOD.DLLO.CR.FC.CD} - 601.Loans (PSDFPC)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3542,7 +3542,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.GG.Z1:DP.DOD.DLLO.CR.GG.Z1} - 473.Loans (PSDGG, LT)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.GG.Z1:DP.DOD.DLLO.CR.GG.Z1} - 300.Loans (PSDCGGB, LT, &lt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3590,7 +3590,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.L1.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.CG:DP.DOD.DLLO.CR.L1.CG} - 044.Loans (PSDCG, LT, &lt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.CG:DP.DOD.DLLO.CR.L1.CG} - 268.Loans (PSDCG, LT, &lt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3650,7 +3650,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.L1.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.FC.Z1:DP.DOD.DLLO.CR.L1.FC.Z1} - 236.Loans (PSDGG, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.FC.Z1:DP.DOD.DLLO.CR.L1.FC.Z1} - 588.Loans (PSDFPC, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3686,7 +3686,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.L1.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.GG.Z1:DP.DOD.DLLO.CR.L1.GG.Z1} - 332.Loans (PSDNFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.L1.GG.Z1:DP.DOD.DLLO.CR.L1.GG.Z1} - 460.Loans (PSDGG, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3842,7 +3842,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.M1.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.FC.CD:DP.DOD.DLLO.CR.M1.FC.CD} - 147.Loans (PSDFPC, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.FC.CD:DP.DOD.DLLO.CR.M1.FC.CD} - 595.Loans (PSDFPC, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -3938,7 +3938,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.M1.PS}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.PS:DP.DOD.DLLO.CR.M1.PS} - 403.Loans (PSDT, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.M1.PS:DP.DOD.DLLO.CR.M1.PS} - 179.Loans (PSDT, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4010,7 +4010,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLLO.CR.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.PS.CD:DP.DOD.DLLO.CR.PS.CD} - 185.Loans (PSDT) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLLO.CR.PS.CD:DP.DOD.DLLO.CR.PS.CD} - 315.Other accounts payable (PSDCGGB)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4058,7 +4058,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.CG:DP.DOD.DLOA.CR.CG} - 059.Other accounts payable (PSDCG) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.CG:DP.DOD.DLOA.CR.CG} - 283.Other accounts payable (PSDCG)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4106,7 +4106,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.FC.CD:DP.DOD.DLOA.CR.FC.CD} - 155.Other accounts payable (PSDFPC) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.FC.CD:DP.DOD.DLOA.CR.FC.CD} - 603.Other accounts payable (PSDFPC)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4118,7 +4118,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.FC.Z1:DP.DOD.DLOA.CR.FC.Z1} - 603.Other accounts payable (PSDFPC)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.FC.Z1:DP.DOD.DLOA.CR.FC.Z1} - 251.Other accounts payable (PSDGG, LT)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4130,7 +4130,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.GG:DP.DOD.DLOA.CR.GG} - 027.Other accounts payable (PSDGG) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.GG:DP.DOD.DLOA.CR.GG} - 251.Other accounts payable (PSDGG, LT)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4142,7 +4142,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.GG.CD:DP.DOD.DLOA.CR.GG.CD} - 475.Other accounts payable (PSDGG, LT)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.GG.CD:DP.DOD.DLOA.CR.GG.CD} - 027.Other accounts payable (PSDGG) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4178,7 +4178,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.L1.BC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.BC.CD:DP.DOD.DLOA.CR.L1.BC.CD} - 526.Other accounts payable (PSDCGGB, LT, &lt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.BC.CD:DP.DOD.DLOA.CR.L1.BC.CD} - 078.Other accounts payable (PSDCGGB, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4298,7 +4298,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.L1.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.GG.Z1:DP.DOD.DLOA.CR.L1.GG.Z1} - 334.Other accounts payable (PSDNFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.L1.GG.Z1:DP.DOD.DLOA.CR.L1.GG.Z1} - 462.Other accounts payable (PSDGG, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4466,7 +4466,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.M1.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.FC.Z1:DP.DOD.DLOA.CR.M1.FC.Z1} - 597.Other accounts payable (PSDFPC, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.FC.Z1:DP.DOD.DLOA.CR.M1.FC.Z1} - 245.Other accounts payable (PSDGG, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4514,7 +4514,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.M1.NF}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.NF:DP.DOD.DLOA.CR.M1.NF} - 341.Other accounts payable (PSDNFPC, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.M1.NF:DP.DOD.DLOA.CR.M1.NF} - 117.Other accounts payable (PSDNFPC, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4610,7 +4610,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLOA.CR.PS}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.PS:DP.DOD.DLOA.CR.PS} - 411.Other accounts payable /8}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLOA.CR.PS:DP.DOD.DLOA.CR.PS} - 187.Other accounts payable (PSDT) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4634,7 +4634,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.BC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.BC:DP.DOD.DLSD.CR.BC} - 310.Special Drawing Rights (SDRs) (PSDCGGB)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.BC:DP.DOD.DLSD.CR.BC} - 086.Special Drawing Rights (SDRs) (PSDCGGB) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4658,7 +4658,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.BC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.BC.Z1:DP.DOD.DLSD.CR.BC.Z1} - 278.Special Drawing Rights (SDRs) (PSDCG)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.BC.Z1:DP.DOD.DLSD.CR.BC.Z1} - 534.Special Drawing Rights (SDRs) (PSDCGGB)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4730,7 +4730,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.FC.Z1:DP.DOD.DLSD.CR.FC.Z1} - 598.Special Drawing Rights (SDRs) (PSDFPC)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.FC.Z1:DP.DOD.DLSD.CR.FC.Z1} - 246.Special Drawing Rights (SDRs) (PSDGG, LT)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4814,7 +4814,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.CG:DP.DOD.DLSD.CR.M1.CG} - 272.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.CG:DP.DOD.DLSD.CR.M1.CG} - 048.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4826,7 +4826,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.CG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.CG.CD:DP.DOD.DLSD.CR.M1.CG.CD} - 496.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.CG.CD:DP.DOD.DLSD.CR.M1.CG.CD} - 048.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4838,7 +4838,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.CG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.CG.Z1:DP.DOD.DLSD.CR.M1.CG.Z1} - 368.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.CG.Z1:DP.DOD.DLSD.CR.M1.CG.Z1} - 496.Special Drawing Rights (SDRs) (PSDCG, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4850,7 +4850,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.FC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.FC:DP.DOD.DLSD.CR.M1.FC} - 368.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.FC:DP.DOD.DLSD.CR.M1.FC} - 144.Special Drawing Rights (SDRs) (PSDFPC, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4886,7 +4886,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.GG:DP.DOD.DLSD.CR.M1.GG} - 016.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.GG:DP.DOD.DLSD.CR.M1.GG} - 240.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4898,7 +4898,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.GG.CD:DP.DOD.DLSD.CR.M1.GG.CD} - 464.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.GG.CD:DP.DOD.DLSD.CR.M1.GG.CD} - 016.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -4910,7 +4910,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.M1.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.GG.Z1:DP.DOD.DLSD.CR.M1.GG.Z1} - 336.Special Drawing Rights (SDRs) (PSDNFPC, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.M1.GG.Z1:DP.DOD.DLSD.CR.M1.GG.Z1} - 464.Special Drawing Rights (SDRs) (PSDGG, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5018,7 +5018,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLSD.CR.PS}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.PS:DP.DOD.DLSD.CR.PS} - 182.Special Drawing Rights (SDRs) (PSDT) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLSD.CR.PS:DP.DOD.DLSD.CR.PS} - 406.Special Drawing Rights (SDRs) (PSDT, LT)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5066,7 +5066,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.BC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.BC.Z1:DP.DOD.DLTC.CR.BC.Z1} - 520.Long-term, by original maturity (PSDCGGB, LT)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.BC.Z1:DP.DOD.DLTC.CR.BC.Z1} - 264.Long-term, by original maturity (PSDCG, LT)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5078,7 +5078,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.CG:DP.DOD.DLTC.CR.CG} - 264.Long-term, by original maturity (PSDCG, LT)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.CG:DP.DOD.DLTC.CR.CG} - 040.Long-term, by original maturity (PSDCG, LT) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5258,7 +5258,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.L1.FC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.FC:DP.DOD.DLTC.CR.L1.FC} - 361.With payment due in one year or less (PSDFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.FC:DP.DOD.DLTC.CR.L1.FC} - 137.With payment due in one year or less (PSDFPC, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5270,7 +5270,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.L1.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.FC.CD:DP.DOD.DLTC.CR.L1.FC.CD} - 137.With payment due in one year or less (PSDFPC, LT, &lt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.FC.CD:DP.DOD.DLTC.CR.L1.FC.CD} - 585.With payment due in one year or less (PSDFPC, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5294,7 +5294,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.L1.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.GG:DP.DOD.DLTC.CR.L1.GG} - 233.With payment due in one year or less (PSDGG, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.GG:DP.DOD.DLTC.CR.L1.GG} - 009.With payment due in one year or less (PSDGG, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5306,7 +5306,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.L1.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.GG.CD:DP.DOD.DLTC.CR.L1.GG.CD} - 457.With payment due in one year or less (PSDGG, LT, &lt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.GG.CD:DP.DOD.DLTC.CR.L1.GG.CD} - 009.With payment due in one year or less (PSDGG, LT, &lt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5318,7 +5318,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.L1.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.GG.Z1:DP.DOD.DLTC.CR.L1.GG.Z1} - 329.With payment due in one year or less (PSDNFPC, LT, &lt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.L1.GG.Z1:DP.DOD.DLTC.CR.L1.GG.Z1} - 457.With payment due in one year or less (PSDGG, LT, &lt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5390,7 +5390,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.BC}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.BC:DP.DOD.DLTC.CR.M1.BC} - 303.With payment due in more than one year (PSDCGGB, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.BC:DP.DOD.DLTC.CR.M1.BC} - 079.With payment due in more than one year (PSDCGGB, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5414,7 +5414,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.BC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.BC.Z1:DP.DOD.DLTC.CR.M1.BC.Z1} - 271.With payment due in more than one year (PSDCG, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.BC.Z1:DP.DOD.DLTC.CR.M1.BC.Z1} - 527.With payment due in more than one year (PSDCGGB, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5438,7 +5438,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.CG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.CG.CD:DP.DOD.DLTC.CR.M1.CG.CD} - 047.With payment due in more than one year (PSDCG, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.CG.CD:DP.DOD.DLTC.CR.M1.CG.CD} - 495.With payment due in more than one year (PSDCG, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5486,7 +5486,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.FC.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.FC.Z1:DP.DOD.DLTC.CR.M1.FC.Z1} - 239.With payment due in more than one year (PSDGG, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.FC.Z1:DP.DOD.DLTC.CR.M1.FC.Z1} - 591.With payment due in more than one year (PSDFPC, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5498,7 +5498,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.GG:DP.DOD.DLTC.CR.M1.GG} - 239.With payment due in more than one year (PSDGG, LT, &gt;1yr)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.GG:DP.DOD.DLTC.CR.M1.GG} - 015.With payment due in more than one year (PSDGG, LT, &gt;1yr) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5546,7 +5546,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.NF.CD:DP.DOD.DLTC.CR.M1.NF.CD} - 111.With payment due in more than one year (PSDNFPC, LT, &gt;1yr) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.NF.CD:DP.DOD.DLTC.CR.M1.NF.CD} - 559.With payment due in more than one year (PSDNFPC, LT, &gt;1yr)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5558,7 +5558,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.M1.NF.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.NF.Z1:DP.DOD.DLTC.CR.M1.NF.Z1} - 559.With payment due in more than one year (PSDNFPC, LT, &gt;1yr)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.M1.NF.Z1:DP.DOD.DLTC.CR.M1.NF.Z1} - 399.With payment due in more than one year (PSDT, LT, &gt;1yr)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5594,7 +5594,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.NF}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.NF:DP.DOD.DLTC.CR.NF} - 328.Long-term, by original maturity (PSDNFPC, LT)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.NF:DP.DOD.DLTC.CR.NF} - 104.Long-term, by original maturity (PSDNFPC, LT) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5654,7 +5654,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLXF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLXF.CD:DP.DOD.DLXF.CD} - 291.Currency and deposits (PSDCGGB, ST)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLXF.CD:DP.DOD.DLXF.CD} - Priv. Sector Ext. Debt, incl. non-guarant.(US$)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5678,7 +5678,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSCD.CR.BC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSCD.CR.BC.CD:DP.DOD.DSCD.CR.BC.CD} - 515.Currency and deposits (PSDCGGB, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSCD.CR.BC.CD:DP.DOD.DSCD.CR.BC.CD} - 067.Currency and deposits (PSDCGGB, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5882,7 +5882,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSDS.CR.BC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.BC.CD:DP.DOD.DSDS.CR.BC.CD} - 068.Debt securities (PSDCGGB, ST) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.BC.CD:DP.DOD.DSDS.CR.BC.CD} - 516.Debt securities (PSDCGGB, ST)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -5954,7 +5954,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSDS.CR.FC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.FC.CD:DP.DOD.DSDS.CR.FC.CD} - 132.Debt securities (PSDFPC, ST) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.FC.CD:DP.DOD.DSDS.CR.FC.CD} - 580.Debt securities (PSDFPC, ST)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6026,7 +6026,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSDS.CR.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.NF.CD:DP.DOD.DSDS.CR.NF.CD} - 548.Debt securities (PSDNFPC, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.NF.CD:DP.DOD.DSDS.CR.NF.CD} - 100.Debt securities (PSDNFPC, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6062,7 +6062,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSDS.CR.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.PS.CD:DP.DOD.DSDS.CR.PS.CD} - 164.Debt securities (PSDT, ST) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSDS.CR.PS.CD:DP.DOD.DSDS.CR.PS.CD} - 294.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6086,7 +6086,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSIN.CR.BC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.BC.CD:DP.DOD.DSIN.CR.BC.CD} - 518.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.BC.CD:DP.DOD.DSIN.CR.BC.CD} - 070.Insurance, pensions, and standardized guarantee schemes (PSDCGGB, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6194,7 +6194,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSIN.CR.GG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.GG.CD:DP.DOD.DSIN.CR.GG.CD} - 006.Insurance, pensions, and standardized guarantee schemes (PSDGG, ST) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.GG.CD:DP.DOD.DSIN.CR.GG.CD} - 454.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6206,7 +6206,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSIN.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.GG.Z1:DP.DOD.DSIN.CR.GG.Z1} - 454.Insurance, pensions, and stnd. guarantee schemes (PSDGG, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.GG.Z1:DP.DOD.DSIN.CR.GG.Z1} - 326.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6218,7 +6218,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSIN.CR.NF}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.NF:DP.DOD.DSIN.CR.NF} - 326.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.NF:DP.DOD.DSIN.CR.NF} - 102.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6242,7 +6242,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSIN.CR.NF.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.NF.Z1:DP.DOD.DSIN.CR.NF.Z1} - 550.Insurance, pensions, and standardized guarantee schemes (PSDNFPC, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSIN.CR.NF.Z1:DP.DOD.DSIN.CR.NF.Z1} - 390.Insurance, pensions, and standardized guarantee schemes (PSDT)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6314,7 +6314,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSLO.CR.CG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSLO.CR.CG:DP.DOD.DSLO.CR.CG} - 261.Loans (PSDCG, ST)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSLO.CR.CG:DP.DOD.DSLO.CR.CG} - 037.Loans (PSDCG, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6386,7 +6386,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSLO.CR.GG}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSLO.CR.GG:DP.DOD.DSLO.CR.GG} - 229.Loans (PSDGG, ST)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSLO.CR.GG:DP.DOD.DSLO.CR.GG} - 005.Loans (PSDGG, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6614,7 +6614,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSOA.CR.GG.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSOA.CR.GG.Z1:DP.DOD.DSOA.CR.GG.Z1} - 455.Other accounts payable (PSDGG, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSOA.CR.GG.Z1:DP.DOD.DSOA.CR.GG.Z1} - 327.Other accounts payable (PSDNFPC, ST)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6638,7 +6638,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSOA.CR.NF.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSOA.CR.NF.CD:DP.DOD.DSOA.CR.NF.CD} - 551.Other accounts payable (PSDNFPC, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSOA.CR.NF.CD:DP.DOD.DSOA.CR.NF.CD} - 103.Other accounts payable (PSDNFPC, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6674,7 +6674,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSOA.CR.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSOA.CR.PS.CD:DP.DOD.DSOA.CR.PS.CD} - 167.Other accounts payable (PSDT, ST) US$}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSOA.CR.PS.CD:DP.DOD.DSOA.CR.PS.CD} - 290.Short-term by original maturity (PSDCGGB, ST)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6698,7 +6698,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSTC.CR.BC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.BC.CD:DP.DOD.DSTC.CR.BC.CD} - 514.Short-term by original maturity (PSDCGGB, ST)(% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.BC.CD:DP.DOD.DSTC.CR.BC.CD} - 066.Short-term by original maturity (PSDCGGB, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6854,7 +6854,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSTC.CR.NF.Z1}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.NF.Z1:DP.DOD.DSTC.CR.NF.Z1} - 386.Short-term by original maturity (PSDT)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.NF.Z1:DP.DOD.DSTC.CR.NF.Z1} - 546.Short-term by original maturity (PSDNFPC, ST)(% of GDP)}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 
@@ -6866,7 +6866,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DSTC.CR.PS}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.PS:DP.DOD.DSTC.CR.PS} - 386.Short-term by original maturity (PSDT)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DSTC.CR.PS:DP.DOD.DSTC.CR.PS} - 162.Short-term by original maturity (PSDT, ST) US$}}
 
 {synopt:{opt Source}}20 Quarterly Public Sector Debt{p_end}
 

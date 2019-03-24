@@ -230,7 +230,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.RUGP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%), including noncomparable values}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.URGP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%), including noncomparable values}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -350,7 +350,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.URHC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.URHC:SI.POV.URHC} - Urban poverty headcount ratio at national poverty lines (% of urban population)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URHC:SI.POV.URHC} - Urban poverty headcount ratio at national poverty lines (% of urban population), including noncomparable values}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -386,7 +386,7 @@
 
 {synoptline}
 {marker sourceid_SI.SPR.PT10.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Annualized growth in per capita real survey mean consumption or income, top 10% (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Survey mean consumption or income per capita, top 60% (2011 PPP $ per day)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
