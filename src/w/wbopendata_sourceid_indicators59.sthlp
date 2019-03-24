@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -62,7 +62,7 @@
 {syntab:{title:{bf:59 Wealth Accounts}}}
 {synoptline}
 {marker sourceid_LO.TIMSS.SCI8.HI.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI8.HI.FE:LO.TIMSS.SCI8.HI.FE} - Natural capital, subsoil assets, minerals: phosphate (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI8.HI.FE:LO.TIMSS.SCI8.HI.FE} - TIMSS: Female 8th grade students reaching the high international benchmark of science achievement (%)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -74,7 +74,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAN.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.KN:NV.SRV.TRAN.KN} - Human capital per capita (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAN.KN:NV.SRV.TRAN.KN} - Transportation, storage and communication, value added (constant LCU)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -103,7 +103,7 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
+{synopt:{opt Source Notes}}Human capital is computed as the present value of future earnings for the working population over their lifetimes.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -290,7 +290,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.MGOL.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MGOL.TO:NW.NCA.MGOL.TO} - Natural capital per capita, subsoil assets: minerals (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MGOL.TO:NW.NCA.MGOL.TO} - Natural capital, subsoil assets, minerals: gold (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -302,7 +302,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.MINR.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MINR.PC:NW.NCA.MINR.PC} - Natural capital per capita, subsoil assets: minerals (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MINR.PC:NW.NCA.MINR.PC} - Natural capital, subsoil assets: minerals (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -362,7 +362,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.MLEA.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MLEA.TO:NW.NCA.MLEA.TO} - Natural capital, subsoil assets, minerals: lead (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MLEA.TO:NW.NCA.MLEA.TO} - Natural capital per capita, subsoil assets, minerals: nickel (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -422,7 +422,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.MSIL.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MSIL.PC:NW.NCA.MSIL.PC} - Natural capital per capita, subsoil assets, minerals: silver (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MSIL.PC:NW.NCA.MSIL.PC} - Natural capital, subsoil assets, minerals: silver (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -458,7 +458,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.MTIN.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MTIN.TO:NW.NCA.MTIN.TO} - Natural capital per capita, subsoil assets, minerals: zinc (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.MTIN.TO:NW.NCA.MTIN.TO} - Natural capital, subsoil assets, minerals: tin (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -506,7 +506,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.PASL.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.PASL.TO:NW.NCA.PASL.TO} - Natural capital, agricultural land: pastureland (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.PASL.TO:NW.NCA.PASL.TO} - Natural capital per capita (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -530,7 +530,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.PRAR.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.PRAR.PC:NW.NCA.PRAR.PC} - Natural capital, protected areas (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.PRAR.PC:NW.NCA.PRAR.PC} - Natural capital per capita, protected areas (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -566,7 +566,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.SACO.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SACO.TO:NW.NCA.SACO.TO} - Natural capital, subsoil assets: coal (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SACO.TO:NW.NCA.SACO.TO} - Natural capital per capita, subsoil assets: gas (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -578,7 +578,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.SAGA.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAGA.PC:NW.NCA.SAGA.PC} - Natural capital, subsoil assets: gas (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAGA.PC:NW.NCA.SAGA.PC} - Natural capital per capita, subsoil assets: gas (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -614,7 +614,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.SAOI.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAOI.TO:NW.NCA.SAOI.TO} - Natural capital, subsoil assets: oil (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SAOI.TO:NW.NCA.SAOI.TO} - Natural capital per capita, subsoil assets (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -626,7 +626,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.SSOI.PC}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SSOI.PC:NW.NCA.SSOI.PC} - Natural capital, subsoil assets (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SSOI.PC:NW.NCA.SSOI.PC} - Natural capital per capita, subsoil assets (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -638,7 +638,7 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.SSOI.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SSOI.TO:NW.NCA.SSOI.TO} - Natural capital (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.SSOI.TO:NW.NCA.SSOI.TO} - Natural capital, subsoil assets (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
@@ -650,12 +650,12 @@
 
 {synoptline}
 {marker sourceid_NW.NCA.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NCA.TO:NW.NCA.TO} - Net foreign assets per capita (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NCA.TO:NW.NCA.TO} - Natural capital (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Net foreign assets is foreign assets minus foreign liabilities.   Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Natural capital includes the valuation of fossil fuel energy (oil, gas, hard and soft coal) and minerals (bauxite, copper, gold, iron ore, lead, nickel, phosphate, silver, tin, and zinc), agricultural land (cropland and pastureland), forests ({p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -674,12 +674,12 @@
 
 {synoptline}
 {marker sourceid_NW.NFA.TO}
-{synopt:{bf:{help wbopendata_sourceid##NW.NFA.TO:NW.NFA.TO} - Produced capital per capita (constant 2014 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NW.NFA.TO:NW.NFA.TO} - Net foreign assets (constant 2014 US$)}}
 
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Produced capital includes the value of machinery, buildings, equipment, and residential and nonresidential urban land.    Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Net foreign assets is foreign assets minus foreign liabilities.   Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
 
 {synopt:{opt Source Organization}}Lange, G.M., Q. Wodon, and K. Carey, editors, The Changing Wealth of Nations 2018: Building a Sustainable Future, Washington, DC: The World Bank{p_end}
 
@@ -727,10 +727,10 @@
 {synopt:{opt Source}}59 Wealth Accounts{p_end}
 
 
-{synopt:{opt Source Notes}}Total wealth is calculated as the sum of produced capital, natural capital, human capital, and net foreign assets.  Values are measured at market exchange rates in constant 2014 US dollars, using a country-specific GDP deflator.{p_end}
+{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO; data are extrapolated to the most recent year available{p_end}
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

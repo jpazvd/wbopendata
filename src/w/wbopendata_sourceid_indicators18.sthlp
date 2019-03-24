@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -81,7 +81,7 @@
 
 {synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys.{p_end}
 
 
 {synoptline}
@@ -110,7 +110,7 @@
 
 {synoptline}
 {marker sourceid_IS.AIR.PSGR.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR.P3:IS.AIR.PSGR.P3} - Air transport, passengers carried (thousands)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR.P3:IS.AIR.PSGR.P3} - Access to an all-season road (% of rural population)}}
 
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
@@ -133,4 +133,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

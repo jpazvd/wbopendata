@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -62,7 +62,7 @@
 {syntab:{title:{bf:33 G20 Financial Inclusion Indicators}}}
 {synoptline}
 {marker sourceid_DT.ODA.ODAT.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.PC.ZS:DT.ODA.ODAT.PC.ZS} - Net ODA received per capita (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.PC.ZS:DT.ODA.ODAT.PC.ZS} - Borrowed from a financial institution in the past year (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -98,7 +98,7 @@
 
 {synoptline}
 {marker sourceid_GPFI1_TOTL}
-{synopt:{bf:{help wbopendata_sourceid##GPFI1_TOTL:GPFI1_TOTL} - Financial knowledge score (0-3)}}
+{synopt:{bf:{help wbopendata_sourceid##GPFI1_TOTL:GPFI1_TOTL} - Disclosure index (0-5)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -115,7 +115,7 @@
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Index reflecting the existence of formal internal and external dispute resolution mechanisms takes the value 1 if both resolution mechanisms are available, the value 0.5 if one of the mechanisms is available, and 0 if neither of the mechanisms{p_end}
+{synopt:{opt Source Notes}}Disclosure index denotes the sum of a variety of existing disclosure requirements. These are (i) Law specifies disclosure requirements in plain language, (ii) Law specifies disclosure requirements in local language, (iii) Law specifies require{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -139,7 +139,7 @@
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Control of corruption measures the extent to which public power is exercised for private gain, including petty and grand forms of corruption, as well as “capture” of the state by elites and private interests.  Further documentation and res{p_end}
+{synopt:{opt Source Notes}}Getting credit: Distance to the frontier denotes the distance of each economy to the “frontier,” which represents the highest performance observed on the  getting credit indicator across all economies included in Doing Business. An economy{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -218,7 +218,7 @@
 
 {synoptline}
 {marker sourceid_GV.VOIC.AC.SE}
-{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.SE:GV.VOIC.AC.SE} - Voice and Accountability (standard error)}}
+{synopt:{bf:{help wbopendata_sourceid##GV.VOIC.AC.SE:GV.VOIC.AC.SE} - Access to a mobile phone (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -314,7 +314,7 @@
 
 {synoptline}
 {marker sourceid_account_t_d_4}
-{synopt:{bf:{help wbopendata_sourceid##account_t_d_4:account_t_d_4} - Account (% ages 15-34)}}
+{synopt:{bf:{help wbopendata_sourceid##account_t_d_4:account_t_d_4} - Account, income, richest 60% (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker sourceid_account_t_d_5}
-{synopt:{bf:{help wbopendata_sourceid##account_t_d_5:account_t_d_5} - Account (% ages 35-59)}}
+{synopt:{bf:{help wbopendata_sourceid##account_t_d_5:account_t_d_5} - Account (% ages 15-34)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -434,7 +434,7 @@
 
 {synoptline}
 {marker sourceid_fin15.t.a.9}
-{synopt:{bf:{help wbopendata_sourceid##fin15.t.a.9:fin15.t.a.9} - Saved to start, operate, or expand a farm or business, rural (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin15.t.a.9:fin15.t.a.9} - SMEs with at least one female owner with an account at a formal financial institution}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -446,7 +446,7 @@
 
 {synoptline}
 {marker sourceid_fin15q1}
-{synopt:{bf:{help wbopendata_sourceid##fin15q1:fin15q1} - SMEs with at least one female owner with an account at a formal financial institution}}
+{synopt:{bf:{help wbopendata_sourceid##fin15q1:fin15q1} - SMEs with an account at a formal financial institution}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -626,7 +626,7 @@
 
 {synoptline}
 {marker sourceid_fin17a_t_a_3}
-{synopt:{bf:{help wbopendata_sourceid##fin17a_t_a_3:fin17a_t_a_3} - Saved at a financial institution, income, poorest 40% (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin17a_t_a_3:fin17a_t_a_3} - Saved at a financial institution, income, richest 60% (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -794,7 +794,7 @@
 
 {synoptline}
 {marker sourceid_fin25a_t_a_s}
-{synopt:{bf:{help wbopendata_sourceid##fin25a_t_a_s:fin25a_t_a_s} - Main source of emergency funds: savings, female  (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin25a_t_a_s:fin25a_t_a_s} - Main source of emergency funds: savings (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -806,7 +806,7 @@
 
 {synoptline}
 {marker sourceid_fin25a_t_a_s_1}
-{synopt:{bf:{help wbopendata_sourceid##fin25a_t_a_s_1:fin25a_t_a_s_1} - Main source of emergency funds: savings, male (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin25a_t_a_s_1:fin25a_t_a_s_1} - Main source of emergency funds: savings, female  (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -950,7 +950,7 @@
 
 {synoptline}
 {marker sourceid_fin48_a_3}
-{synopt:{bf:{help wbopendata_sourceid##fin48_a_3:fin48_a_3} - Has a national identity card, income, poorest 40% (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin48_a_3:fin48_a_3} - Has a national identity card, income, richest 60% (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1046,7 +1046,7 @@
 
 {synoptline}
 {marker sourceid_fin6_a_1}
-{synopt:{bf:{help wbopendata_sourceid##fin6_a_1:fin6_a_1} - Used a mobile phone or the internet to check account balance in the past year, male (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin6_a_1:fin6_a_1} - Used a mobile phone or the internet to check account balance in the past year, female  (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1094,7 +1094,7 @@
 
 {synoptline}
 {marker sourceid_fin6_a_5}
-{synopt:{bf:{help wbopendata_sourceid##fin6_a_5:fin6_a_5} - Used a mobile phone or the internet to check account balance in the past year (% ages 35-59)}}
+{synopt:{bf:{help wbopendata_sourceid##fin6_a_5:fin6_a_5} - Used a mobile phone or the internet to check account balance in the past year (% ages 15-34)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1142,7 +1142,7 @@
 
 {synoptline}
 {marker sourceid_g20_t}
-{synopt:{bf:{help wbopendata_sourceid##g20_t:g20_t} - Made or received digital payments, female (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t:g20_t} - Made or received digital payments (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1178,7 +1178,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_3}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_3:g20_t_3} - Made or received digital payments, income, poorest 40% (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_3:g20_t_3} - Made or received digital payments, income, richest 60% (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1190,7 +1190,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_4}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_4:g20_t_4} - Made or received digital payments, income, richest 60% (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_4:g20_t_4} - Made or received digital payments, (% ages 15-34)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1202,7 +1202,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_5}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_5:g20_t_5} - Made or received digital payments, (% ages 15-34)}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_5:g20_t_5} - Made or received digital payments in the past year (% ages 35-59)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1214,7 +1214,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_6}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_6:g20_t_6} - Made or received digital payments in the past year (% ages 35-59)}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_6:g20_t_6} - Made or received digital payments in the past year (% age 60+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1250,7 +1250,7 @@
 
 {synoptline}
 {marker sourceid_gf10_n_1}
-{synopt:{bf:{help wbopendata_sourceid##gf10_n_1:gf10_n_1} - Received wages or government transfers into an account, female (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##gf10_n_1:gf10_n_1} - Received wages or government transfers into an account, male (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1298,7 +1298,7 @@
 
 {synoptline}
 {marker sourceid_gf10_n_5}
-{synopt:{bf:{help wbopendata_sourceid##gf10_n_5:gf10_n_5} - Received wages or government transfers into an account, (% ages 15-34)}}
+{synopt:{bf:{help wbopendata_sourceid##gf10_n_5:gf10_n_5} - Received wages or government transfers into an account (% ages 35-59)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1406,7 +1406,7 @@
 
 {synoptline}
 {marker sourceid_gf4_n_6}
-{synopt:{bf:{help wbopendata_sourceid##gf4_n_6:gf4_n_6} - Made payment using a mobile phone or the internet (% ages 35-59)}}
+{synopt:{bf:{help wbopendata_sourceid##gf4_n_6:gf4_n_6} - Made payment using a mobile phone or the internet (% age 60+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1418,7 +1418,7 @@
 
 {synoptline}
 {marker sourceid_gf4_n_7}
-{synopt:{bf:{help wbopendata_sourceid##gf4_n_7:gf4_n_7} - Active account (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##gf4_n_7:gf4_n_7} - Made payment using a mobile phone or the internet (% age 60+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1430,7 +1430,7 @@
 
 {synoptline}
 {marker sourceid_gf7_n}
-{synopt:{bf:{help wbopendata_sourceid##gf7_n:gf7_n} - Active account (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##gf7_n:gf7_n} - Active account, female (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1442,7 +1442,7 @@
 
 {synoptline}
 {marker sourceid_gf7_n_1}
-{synopt:{bf:{help wbopendata_sourceid##gf7_n_1:gf7_n_1} - Active account, female (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##gf7_n_1:gf7_n_1} - Active account, male (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1598,7 +1598,7 @@
 
 {synoptline}
 {marker sourceid_gwp1_n_6}
-{synopt:{bf:{help wbopendata_sourceid##gwp1_n_6:gwp1_n_6} - Access to a mobile phone (% age 60+)}}
+{synopt:{bf:{help wbopendata_sourceid##gwp1_n_6:gwp1_n_6} - Access to a mobile phone (% ages 35-59)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1622,7 +1622,7 @@
 
 {synoptline}
 {marker sourceid_gwp2_n}
-{synopt:{bf:{help wbopendata_sourceid##gwp2_n:gwp2_n} - Access to internet (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##gwp2_n:gwp2_n} - Access to internet, female (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1670,7 +1670,7 @@
 
 {synoptline}
 {marker sourceid_gwp2_n_4}
-{synopt:{bf:{help wbopendata_sourceid##gwp2_n_4:gwp2_n_4} - Access to internet (% ages 15-34)}}
+{synopt:{bf:{help wbopendata_sourceid##gwp2_n_4:gwp2_n_4} - Access to internet, income, richest 60% (% age 15+)}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1718,12 +1718,12 @@
 
 {synoptline}
 {marker sourceid_i_ATMs_pop}
-{synopt:{bf:{help wbopendata_sourceid##i_ATMs_pop:i_ATMs_pop} - Branches per 100,000 adults}}
+{synopt:{bf:{help wbopendata_sourceid##i_ATMs_pop:i_ATMs_pop} - ATMs per 100,000 adults}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the number of registered mobile agent outlets per 100,000 adults{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of ATMs for every 100,000 adults in the reporting country. Calculated as (number of ATMs)*100,000/adult population in the reporting country. Automated teller machines are computerized telecommunications devices that pr{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
 
@@ -1766,7 +1766,7 @@
 
 {synoptline}
 {marker sourceid_i_loan_acc_A1_sme_perNFC}
-{synopt:{bf:{help wbopendata_sourceid##i_loan_acc_A1_sme_perNFC:i_loan_acc_A1_sme_perNFC} - SME loan accounts (as a % of non-financial corporation borrowers)}}
+{synopt:{bf:{help wbopendata_sourceid##i_loan_acc_A1_sme_perNFC:i_loan_acc_A1_sme_perNFC} - Mobile agent outlets per 100,000 adults}}
 
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
@@ -1783,9 +1783,9 @@
 {synopt:{opt Source}}33 G20 Financial Inclusion Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Open Budget Index scores countries from zero to 100, based on a subset of 91 questions from the questionnaire. These questions focus on the public availability of eight key budget documents (with a particular emphasis on the Executive’s Budg{p_end}
+{synopt:{opt Source Notes}}Denotes the number of registered mobile agent outlets per 100,000 adults{p_end}
 
-{synopt:{opt Source Organization}}{browse "http://www.openbudgetindex.org"}{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
 
 
 {synoptline}
@@ -1837,4 +1837,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

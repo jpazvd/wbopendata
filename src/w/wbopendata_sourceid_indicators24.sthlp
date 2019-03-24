@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -62,7 +62,7 @@
 {syntab:{title:{bf:24 Poverty and Equity}}}
 {synoptline}
 {marker sourceid_SH.HIV.1524.KW.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.KW.FE.ZS:SH.HIV.1524.KW.FE.ZS} - Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female (2 prevent ways and reject 3 misconceptions)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.1524.KW.FE.ZS:SH.HIV.1524.KW.FE.ZS} - Survey mean consumption or income per capita, top 10% (2011 PPP $ per day)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -74,7 +74,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.CV}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.CV:SI.POV.DDAY.CV} - Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -110,7 +110,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.LMIC.GP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.GP:SI.POV.LMIC.GP} - Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.LMIC.GP:SI.POV.LMIC.GP} - Poverty gap at $3.20 a day (2011 PPP) (%)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -182,7 +182,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.NAHC}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAHC:SI.POV.NAHC} - Poverty headcount ratio at national poverty lines (% of population), including noncomparable values}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.NAHC:SI.POV.NAHC} - Poverty headcount ratio at national poverty lines (% of population)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -230,7 +230,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.RUGP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.RUGP:SI.POV.RUGP} - Rural poverty gap at national poverty lines (%), including noncomparable values}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.URGP}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%), including noncomparable values}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -386,7 +386,7 @@
 
 {synoptline}
 {marker sourceid_SI.SPR.PT10.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Survey mean consumption or income per capita, top 60% (2011 PPP $ per day)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.SPR.PT10.ZG:SI.SPR.PT10.ZG} - Annualized growth in per capita real survey mean consumption or income, top 10% (%)}}
 
 {synopt:{opt Source}}24 Poverty and Equity{p_end}
 
@@ -421,4 +421,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

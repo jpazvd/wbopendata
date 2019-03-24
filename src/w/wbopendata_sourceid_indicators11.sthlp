@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -74,7 +74,7 @@
 
 {synoptline}
 {marker sourceid_8.3.1_MRT.PASEC.5.FR}
-{synopt:{bf:{help wbopendata_sourceid##8.3.1_MRT.PASEC.5.FR:8.3.1_MRT.PASEC.5.FR} - PASEC in Mauritania, grade 5, French (mean score)}}
+{synopt:{bf:{help wbopendata_sourceid##8.3.1_MRT.PASEC.5.FR:8.3.1_MRT.PASEC.5.FR} - Producer Price for Millet (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -98,7 +98,7 @@
 
 {synoptline}
 {marker sourceid_9.2.Labor.B40}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Labor.B40:9.2.Labor.B40} - Forest products exports (FAO, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Labor.B40:9.2.Labor.B40} - Labor Force Participation Rate (%)-Bottom 40 Percent, Female}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -122,7 +122,7 @@
 
 {synoptline}
 {marker sourceid_AG.AID.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.AID.CREL.MT:AG.AID.CREL.MT} - Cereal food aid deliveries (FAO, tonnes)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.AID.CREL.MT:AG.AID.CREL.MT} - Total food (cereals and non-cereal) food aid deliveries (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Non-cereal commodities or commodity groups include skimmed milk powder, vegetable oil, butter oil, other dairy products, meat, fish, pulses, sugar, dried fruit and other foodstuffs. From 1977 to 1986, because of the non-availability of data, n{p_end}
 
-{synopt:{opt Source Organization}}World Food Programme, electronic files and web site ({browse "http://www.wfp.org/fais/"}){p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -182,7 +182,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.BLY.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.BLY.CN:AG.CRP.BLY.CN} - Producer Price for Barley (per tonne, current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.BLY.CN:AG.CRP.BLY.CN} - Producer Price for Fonio (per tonne, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -213,7 +213,7 @@
 
 {synopt:{opt Source Notes}}Producer prices are prices received by farmers for primary agricultural products as defined in the SNA 93.  The producer's price is the amount receivable by the producer from the purchaser for a unit of a good or service produced as output min{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -242,7 +242,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.MZE.CD}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MZE.CD:AG.CRP.MZE.CD} - Producer Price for Maize (per tonne, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.MZE.CD:AG.CRP.MZE.CD} - Producer Price for Maize (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -302,7 +302,7 @@
 
 {synoptline}
 {marker sourceid_AG.CRP.SGM.CN}
-{synopt:{bf:{help wbopendata_sourceid##AG.CRP.SGM.CN:AG.CRP.SGM.CN} - Producer Price for Wheat (per tonne, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CRP.SGM.CN:AG.CRP.SGM.CN} - Producer Price for Sorghum (per tonne, current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -331,19 +331,19 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Wood carbonized by partial combustion or application of heat from an external source. It is used as a fuel or for other uses. Figures are given in weight (MT).{p_end}
+{synopt:{opt Source Notes}}Producer prices are prices received by farmers for primary agricultural products as defined in the SNA 93.  The producer's price is the amount receivable by the producer from the purchaser for a unit of a good or service produced as output min{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.FRST.PROD.CHAR}
-{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.CHAR:AG.FRST.PROD.CHAR} - Wood charcoal production quantity (tonnes)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.CHAR:AG.FRST.PROD.CHAR} - Wood fuel production quantity (CUM, solid volume units)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Wood carbonized by partial combustion or application of heat from an external source. It is used as a fuel or for other uses. Figures are given in weight (MT).{p_end}
+{synopt:{opt Source Notes}}Wood fuel refers to all roundwood used as fuel for purposes such as cooking, heating, or power production. It includes wood harvested from main stems, branches and other parts of trees. It also includes wood intended for charcoal production.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -403,9 +403,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Land under barley production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or si{p_end}
+{synopt:{opt Source Notes}}Land under cereal production refers to harvested area, although some countries report only sown or cultivated area. Cereals include wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, Production Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -417,12 +417,12 @@
 
 {synopt:{opt Source Notes}}Land under cereal production refers to harvested area, although some countries report only sown or cultivated area. Cereals include wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, Production Yearbook and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.LND.CREL.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.CREL.HA:AG.LND.CREL.HA} - Land under cereal production (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.CREL.HA:AG.LND.CREL.HA} - Permanent cropland (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -446,7 +446,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.CROP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.CROP.ZS:AG.LND.CROP.ZS} - Arable and permanent cropland (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.CROP.ZS:AG.LND.CROP.ZS} - Permanent cropland (% of land area)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -465,7 +465,7 @@
 
 {synopt:{opt Source Notes}}This land category is the sum of areas under “Arable land” and Permanent crops”.   Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pa{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
@@ -482,12 +482,12 @@
 
 {synoptline}
 {marker sourceid_AG.LND.FNO.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.FNO.HA:AG.LND.FNO.HA} - Forest area (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.FNO.HA:AG.LND.FNO.HA} - Land under fonio production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}Land under fonio production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or sil{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -506,7 +506,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.IRIG.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.HA:AG.LND.IRIG.HA} - Agricultural area irrigated (ha)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.HA:AG.LND.IRIG.HA} - Land use, irrigated land (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -523,7 +523,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Area equipped to provide water (via irrigation) to the crops. It includes areas equipped for full and partial control irrigation, equipped lowland areas, pastures, and areas equipped for spate irrigation. Data are expressed in 1000 hectares.{p_end}
+{synopt:{opt Source Notes}}Agricultural area irrigated, part of the full or partial control irrigated agricultural land which is actually irrigated in a given year. Often, part of the equipped area is not irrigated for various reasons, such as lack of water, absence of{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -535,7 +535,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Land under millet production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or si{p_end}
+{synopt:{opt Source Notes}}Area equipped to provide water (via irrigation) to the crops. It includes areas equipped for full and partial control irrigation, equipped lowland areas, pastures, and areas equipped for spate irrigation. Data are expressed in 1000 hectares.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -559,7 +559,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Land under maize production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or sil{p_end}
+{synopt:{opt Source Notes}}Land under millet production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or si{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -571,7 +571,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average precipitation is the long-term average in depth (over space and time) of annual precipitation in the country. Precipitation is defined as any kind of water that falls from clouds as a liquid or a solid.{p_end}
+{synopt:{opt Source Notes}}Land under maize production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or sil{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -590,12 +590,12 @@
 
 {synoptline}
 {marker sourceid_AG.LND.RICE.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.RICE.HA:AG.LND.RICE.HA} - Land under sorghum production (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.RICE.HA:AG.LND.RICE.HA} - Land under rice production (hectares)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Land under sorghum production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or s{p_end}
+{synopt:{opt Source Notes}}Land under rice production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or sila{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -607,7 +607,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Land under sorghum production refers to harvested area, although some countries report only sown or cultivated area. Production data on relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or s{p_end}
+{synopt:{opt Source Notes}}Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -626,7 +626,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.TRAC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.TRAC.ZS:AG.LND.TRAC.ZS} - Land under wheat production (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.TRAC.ZS:AG.LND.TRAC.ZS} - Agricultural machinery, tractors per 100 sq. km of arable land}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -650,7 +650,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.AGRI.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.AGRI.XD:AG.PRD.AGRI.XD} - Barley production (metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.AGRI.XD:AG.PRD.AGRI.XD} - Agriculture production index (1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -667,7 +667,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Production data on cereals relate to crops harvested for dry grain only. Cereal crops harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Production data on barley relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -698,7 +698,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.CROP.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.CROP.XD:AG.PRD.CROP.XD} - Crop production index (2004-2006 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.CROP.XD:AG.PRD.CROP.XD} - Fonio production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -722,7 +722,7 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.FOOD.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.FOOD.XD:AG.PRD.FOOD.XD} - Food production index (2004-2006 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.FOOD.XD:AG.PRD.FOOD.XD} - Agriculture production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -741,7 +741,7 @@
 
 {synopt:{opt Source Notes}}The FAO indices of agricultural production show the relative level of the aggregate volume of agricultural production for each year in comparison with the base period 2004-2006. They are based on the sum of price-weighted quantities of differe{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream data.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -751,26 +751,26 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Cereal production index covers cereals that are considered edible and that contain nutrients.  The FAO indices of agricultural production show the relative level of the aggregate volume of agricultural production for each year in comparison wi{p_end}
+{synopt:{opt Source Notes}}Crop production index shows agricultural production for each year relative to the base period 2004-2006. It includes all crops except fodder crops. Regional and income group aggregates for the FAO's production indexes are calculated from the u{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.PRD.GCROP.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GCROP.XD:AG.PRD.GCROP.XD} - Food production index (gross, 1999-2001 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GCROP.XD:AG.PRD.GCROP.XD} - Crop production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Food production index covers food crops that are considered edible and that contain nutrients. Coffee and tea are excluded because, although edible, they have no nutritive value.{p_end}
+{synopt:{opt Source Notes}}Crop production index shows agricultural production for each year relative to the base period 2004-2006. It includes all crops except fodder crops. Regional and income group aggregates for the FAO's production indexes are calculated from the u{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.PRD.GFOOD.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GFOOD.XD:AG.PRD.GFOOD.XD} - Food production index (gross, 1999-2001 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.GFOOD.XD:AG.PRD.GFOOD.XD} - Livestock production index (gross, 1999-2001 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -799,14 +799,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Livestock production index includes meat and milk from all sources, dairy products such as cheese, and eggs, honey, raw silk, wool, and hides and skins.{p_end}
+{synopt:{opt Source Notes}}Non-food production index covers non-food items.  All the indices at the country, regional and world levels are calculated by the Laspeyres formula. Production quantities of each commodity are weighted by 2004-2006 average international commod{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.PRD.LVSK.XD}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.LVSK.XD:AG.PRD.LVSK.XD} - Millet production (metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.LVSK.XD:AG.PRD.LVSK.XD} - Livestock production index (2004-2006 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -823,7 +823,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Production data on millet relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Production data on maize relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -835,7 +835,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Production data on maize relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Non-food production index covers non-food items.  The FAO indices of agricultural production show the relative level of the aggregate volume of agricultural production for each year in comparison with the base period 2004-2006. They are based{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, Production Yearbook and data files.{p_end}
 
@@ -847,9 +847,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Non-food production index covers non-food items.  The FAO indices of agricultural production show the relative level of the aggregate volume of agricultural production for each year in comparison with the base period 2004-2006. They are based{p_end}
+{synopt:{opt Source Notes}}Production data on rice relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, Production Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -859,7 +859,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Production data on rice relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Production data on sorghum relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -878,24 +878,24 @@
 
 {synoptline}
 {marker sourceid_AG.PRD.SGM.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.SGM.MT:AG.PRD.SGM.MT} - Sorghum production (metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.SGM.MT:AG.PRD.SGM.MT} - Wheat production (metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Production data on sorghum relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Production data on wheat relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.PRD.WHT.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.PRD.WHT.MT:AG.PRD.WHT.MT} - Wheat production (metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.PRD.WHT.MT:AG.PRD.WHT.MT} - Barley seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Production data on wheat relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Data include the amounts of the commodity in question set aside for sowing or planting (or generally for reproduction purposes, e.g. sugar cane planted, potatoes for seed, eggs for hatching and fish for bait, whether domestically produced or i{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -950,7 +950,7 @@
 
 {synoptline}
 {marker sourceid_AG.SED.MZE.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.SED.MZE.MT:AG.SED.MZE.MT} - Maize seed quantity (FAO, metric tonnes)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.SED.MZE.MT:AG.SED.MZE.MT} - Rice seed quantity (FAO, metric tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1051,19 +1051,19 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Fonio yield, measured as kilograms per hectare of harvested land. Production data on  relate to crops harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Millet yield, measured as kilograms per hectare of harvested land. Production data on  relate to crops harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_AG.YLD.MLT.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.MLT.KG:AG.YLD.MLT.KG} - Maize yield (kg per hectare)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.MLT.KG:AG.YLD.MLT.KG} - Millet yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Maize yield, measured as kilograms per hectare of harvested land. Production data on  relate to crops harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}Millet yield, measured as kilograms per hectare of harvested land. Production data on  relate to crops harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -1094,7 +1094,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.SGM.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.SGM.KG:AG.YLD.SGM.KG} - Sorghum yield (kg per hectare)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.SGM.KG:AG.YLD.SGM.KG} - Wheat yield (kg per hectare)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1118,7 +1118,7 @@
 
 {synoptline}
 {marker sourceid_BI.WAG.TOTL.PB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BI.WAG.TOTL.PB.ZS:BI.WAG.TOTL.PB.ZS} - Wage bill as a percentage of Public Expenditure}}
+{synopt:{bf:{help wbopendata_sourceid##BI.WAG.TOTL.PB.ZS:BI.WAG.TOTL.PB.ZS} - Agricultural tractors, exports (FAO, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1130,7 +1130,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.AGR.TRAC.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.AGR.TRAC.CD:BM.AG.AGR.TRAC.CD} - Agricultural tractors, exports (FAO, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.AGR.TRAC.CD:BM.AG.AGR.TRAC.CD} - Agricultural tractors, exports}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1154,7 +1154,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.CREL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.CD:BM.AG.CREL.CD} - Cereal exports (FAO, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.CD:BM.AG.CREL.CD} - Cereal exports quantity (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1166,7 +1166,7 @@
 
 {synoptline}
 {marker sourceid_BM.AG.CREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.MT:BM.AG.CREL.MT} - Forest products imports (FAO, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.AG.CREL.MT:BM.AG.CREL.MT} - Cereal exports quantity (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1238,7 +1238,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.FINS.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.FINS.CD:BM.GSR.FINS.CD} - Other income payments (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.FINS.CD:BM.GSR.FINS.CD} - Financial services, imports (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1262,7 +1262,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.ROYL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.ROYL.CD:BM.GSR.ROYL.CD} - Imports of  total services (Debit, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.ROYL.CD:BM.GSR.ROYL.CD} - Charges for the use of intellectual property, payments (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1329,7 +1329,7 @@
 
 {synopt:{opt Source Notes}}Current transfers comprise transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the International Monetary Fund's Balance of Payments Statistics Yearbook 2008.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -1341,7 +1341,7 @@
 
 {synopt:{opt Source Notes}}Migrants’ remittances are defined as the sum of worker’s remittances,{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the International Monetary Fund's Balance of Payments Statistics Yearbook 2008.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -1375,14 +1375,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
+{synopt:{opt Source Notes}}Workers' remittances are current transfers by migrants who are employed or intend to remain employed for more than a year in another economy in which they are considered residents. Some developing countries classify workers' remittances as a f{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
 
 
 {synoptline}
 {marker sourceid_BN.CAB.XOKA.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.CAB.XOKA.GDP.ZS:BN.CAB.XOKA.GDP.ZS} - Current account balance (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.CAB.XOKA.GDP.ZS:BN.CAB.XOKA.GDP.ZS} - Current account balance (% of GNP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1406,7 +1406,7 @@
 
 {synoptline}
 {marker sourceid_BN.CUR.ACTX.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.CUR.ACTX.CD:BN.CUR.ACTX.CD} - Current account balance excluding net official capital grants (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.CUR.ACTX.CD:BN.CUR.ACTX.CD} - Total Deficit to be Financed (US$, BoP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1423,19 +1423,19 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods, services, net income, and net current transfers.  This is divided by GDP at market prices, with both series expressed in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Debt service not paid (BoP, current US$).{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_BN.DSR.UNPD.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.DSR.UNPD.CD:BN.DSR.UNPD.CD} - Debt Service not paid: Arrears Accumulation (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.DSR.UNPD.CD:BN.DSR.UNPD.CD} - Debt service not paid (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}In the standard presentation of the balance of payments, arrears of interest and amortization--amounts that are past due and unpaid--are recorded as if the amounts had been paid on schedule, and an offsetting entry is made to reflect the assoc{p_end}
+{synopt:{opt Source Notes}}Debt service not paid (BoP, current US$).{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -1449,12 +1449,12 @@
 
 {synopt:{opt Source Notes}}In the standard presentation of the balance of payments, arrears of interest and amortization--amounts that are past due and unpaid--are recorded as if the amounts had been paid on schedule, and an offsetting entry is made to reflect the assoc{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_BN.GSR.FCTY.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.GSR.FCTY.CD:BN.GSR.FCTY.CD} - Net income (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.GSR.FCTY.CD:BN.GSR.FCTY.CD} - Net primary income (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1473,7 +1473,7 @@
 
 {synopt:{opt Source Notes}}Net income refers to receipts and payments of employee compensation paid to nonresident workers and investment income (receipts and payments on direct investment, portfolio investment, other investments, and receipts on reserve assets). Income{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files. World Bank GDP estimates are used for the denominator.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -1495,7 +1495,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The sum of short-term capital, net errors and omissions, and capital transactions not included elsewhere. Data denominated in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This item comprises capital transactions not included elsewhere. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -1555,14 +1555,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Other long-term capital comprises the difference between long-term capital, as defined for total long-term capital: excluding reserves and LCFAR, and the similar item reported in IMF balance of payments statistics. Data are in current U.S. dol{p_end}
+{synopt:{opt Source Notes}}Net long-term borrowing includes external debt disbursements less repayments due, plus other net long-term inflows. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_BN.KLT.OINV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.OINV.CD:BN.KLT.OINV.CD} - Other long-term inflows, net (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.OINV.CD:BN.KLT.OINV.CD} - Other net investment (BoP, US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1598,7 +1598,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.PRVT.CD.DT}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.PRVT.CD.DT:BN.KLT.PRVT.CD.DT} - Private capital flows, total (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.PRVT.CD.DT:BN.KLT.PRVT.CD.DT} - Private capital flows, net total (DRS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1614,6 +1614,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Private capital flows consist of net foreign direct investment and portfolio investment. Foreign direct investment is net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise oper{p_end}
 
@@ -1641,7 +1642,7 @@
 
 {synopt:{opt Source Notes}}Net current transfers are recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. Data are in curr{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files. World Bank GDP estimates are used for the denominator.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -1687,7 +1688,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Workers' remittances are current transfers by migrants who are employed or intend to remain employed for more than a year in another economy in which they are considered residents. Some developing countries classify workers' remittances as a f{p_end}
+{synopt:{opt Source Notes}}Current transfers are recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. Data are in current{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
@@ -1699,14 +1700,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Workers' remittances are current transfers by migrants who are employed or intend to remain employed for more than a year in another economy in which they are considered residents. Some developing countries classify workers' remittances as a f{p_end}
+{synopt:{opt Source Notes}}Grants (disbursements) from new commitments in current US dollars.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_BN.TRF.XOKA.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.XOKA.CD:BN.TRF.XOKA.CD} - Grants (disbursements) from new commitments (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.XOKA.CD:BN.TRF.XOKA.CD} - Private current transfers, net (BoP, US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1723,9 +1724,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.  Data are in US$.{p_end}
+{synopt:{opt Source Notes}}Grants (disbursements) from new commitments in current US dollars.{p_end}
 
-{synopt:{opt Source Organization}}BPK - Indonesia Audit Board, Report{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -1759,14 +1760,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.{p_end}
+{synopt:{opt Source Notes}}Cereals include wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals relate to crops harvested for dry grain only. Cereal crops harvested for hay or harvested green for food, feed, or{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_BX.AG.CREL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.CD:BX.AG.CREL.CD} - Cereal imports (FAO, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.AG.CREL.CD:BX.AG.CREL.CD} - Cereal imports quantity (FAO, tonnes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1783,9 +1784,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The source of non-seasonally adjusted Gross Domestic Product (GDP) data in national currency, at current prices, is the International Finance Statistics quarterly database of the IMF, annualized by the World Bank, unless otherwise specified.{p_end}
+{synopt:{opt Source Notes}}Cereals include wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals relate to crops harvested for dry grain only. Cereal crops harvested for hay or harvested green for food, feed, or{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -1795,7 +1796,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Pesticides refer to insecticides, fungicides, herbicides, disinfectants and any substance or mixture of substances intended for preventing, destroying or controlling any pest, including vectors of human or animal disease, unwanted species of p{p_end}
+{synopt:{opt Source Notes}}Forest products exports.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -1819,7 +1820,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Pesticides trade refers to the value of all types of pesticides (put up in forms or packings for retail sale or as preparations or articles), provided to (exports) or received (imported) from the rest of the world. Differences between figures{p_end}
+{synopt:{opt Source Notes}}Food exports an are expressed in current U.S. dollars at free on board (fob) prices. Excludes fish.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -1838,7 +1839,7 @@
 
 {synoptline}
 {marker sourceid_BX.GRT.TECH.CD.WD}
-{synopt:{bf:{help wbopendata_sourceid##BX.GRT.TECH.CD.WD:BX.GRT.TECH.CD.WD} - Total agricultural exports (FAO, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GRT.TECH.CD.WD:BX.GRT.TECH.CD.WD} - Technical cooperation grants (BoP, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1878,6 +1879,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods and services are the total value of goods and services exported as well as income and workers' remittances received. Workers' remittances include compensation of employees. Data are in current U.S. dollars.{p_end}
 
@@ -1910,7 +1912,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.CURR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.CURR.CD:BX.TRF.CURR.CD} - Secondary income receipts (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.CURR.CD:BX.TRF.CURR.CD} - Migrant remittance inflows (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -1941,7 +1943,7 @@
 
 {synopt:{opt Source Notes}}Migrants’ remittances are defined as the sum of worker’s remittances,{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the International Monetary Fund's Balance of Payments Statistics Yearbook 2008, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
@@ -1982,7 +1984,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.PWKR.DT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PWKR.DT.GD.ZS:BX.TRF.PWKR.DT.GD.ZS} - Workers' remittances, receipts (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PWKR.DT.GD.ZS:BX.TRF.PWKR.DT.GD.ZS} - Personal remittances, received (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2002,6 +2004,18 @@
 {synopt:{opt Source Notes}}Workers' remittances are current transfers by migrants who are employed or intend to remain employed for more than a year in another economy in which they are considered residents. Some developing countries classify workers' remittances as a f{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+
+
+{synoptline}
+{marker sourceid_DC.DAC.GBRL.CD}
+{synopt:{bf:{help wbopendata_sourceid##DC.DAC.GBRL.CD:DC.DAC.GBRL.CD} - Net bilateral aid flows from DAC donors, United Kingdom (current US$)}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Non-concessional LDOD conveys information about the borrower's receipt of aid from official lenders on non-concessional terms as defined by the Development Assistance Committee (DAC) of the OECD. Concessional debt is defined as loans with an o{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
@@ -2174,7 +2188,7 @@
 
 {synoptline}
 {marker sourceid_DT.DIS.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.CD:DT.DIS.PCBK.CD} - Disbursements, PPG and PNG private creditors (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DIS.PCBK.CD:DT.DIS.PCBK.CD} - PPG, commercial banks (DIS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2191,9 +2205,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Nonguaranteed long-term debt from bonds that are privately placed. Disbursements are drawings by the borrower on loan commitments during the year specified. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Private nonguaranteed external debt is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Disbursements are drawings on loan commitments during the year specified. Long-term external debt is def{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
@@ -2234,7 +2248,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.ALLN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.CD:DT.DOD.ALLN.CD} - Debt on Non-concessional terms to GDP (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.ALLN.CD:DT.DOD.ALLN.CD} - Debt on Non-concessional terms (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2265,12 +2279,12 @@
 
 {synopt:{opt Source Notes}}Non-concessional LDOD conveys information about the borrower's receipt of aid from official lenders on non-concessional terms as defined by the Development Assistance Committee (DAC) of the OECD. Concessional debt is defined as loans with an o{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.BLTC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.CD:DT.DOD.BLTC.CD} - Debt outstanding and disbursed, PPG Bilateral on nonconcessional terms (DOD, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.BLTC.CD:DT.DOD.BLTC.CD} - PPG, bilateral concessional (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2287,14 +2301,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-{p_end}
+{synopt:{opt Source Notes}}Bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. These are non-concessional figures, however the explanation for c{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.OT.TD.NV.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.OT.TD.NV.US:DT.DOD.DECT.CD.OT.TD.NV.US} - Gross Ext. Debt Pos., Other Sectors, All maturities, Debt Securities, Nominal Value, USD}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.OT.TD.NV.US:DT.DOD.DECT.CD.OT.TD.NV.US} - Debt outstanding and disbursed, Total per capita (DOD, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2361,24 +2375,12 @@
 
 {synopt:{opt Source Notes}}Long-term debt is debt that has an original or extended maturity of more than one year. It has three components: public, publicly guaranteed, and private nonguaranteed debt. Data are in current U.S. dollars.  Use of IMF credit denotes repurcha{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTM.CD.MA.AR.BE.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.BE.US:DT.DOD.DSTM.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Beginning of period, USD}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
-
-
-{synoptline}
-{marker sourceid_DT.DOD.DSTM.CD.MA.AR.BE.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.BE.US:DT.DOD.DSTM.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Beginning of period, USDODA aid disbursements for Malaria control, all donors (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2407,9 +2409,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international{p_end}
+{synopt:{opt Source Notes}}IBRD loans and IDA credits are public and publicly guaranteed debt extended by the World Bank Group. The International Bank for Reconstruction and Development (IBRD) lends at market rates. Credits from the International Development Association{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2455,14 +2457,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the aggregate total for industry (DT.ODA.DACD.PROD.INDS.IND.CD); mining (DT.ODA.DACD.PROD.INDS.MIN.CD) and construction (DT.ODA.DACD.PROD.INDS.CON.CD).  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans.  Total{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.DSF.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.DSF.DPPG.CD:DT.DSF.DPPG.CD} - Debt stock reduction (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DSF.DPPG.CD:DT.DSF.DPPG.CD} - Total stock of arrears (principal and interest payments) (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2479,9 +2481,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Adjustment to Arrears.{p_end}
+{synopt:{opt Source Notes}}Principal and interest payments due but not paid.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
@@ -2491,9 +2493,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Adjustment to Arrears.{p_end}
+{synopt:{opt Source Notes}}Debt stocks rescheduled is the amount of debt outstanding rescheduled in any given year. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -2515,7 +2517,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Interest due is actual amounts of interest due in currency, goods, or services in the year specified.  {p_end}
+{synopt:{opt Source Notes}}Interest due is actual amounts of interest due in currency, goods, or services in the year specified.  Interest payments are actual amounts of interest paid in currency, goods, or services in the year specified. This item includes interest pa{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
@@ -2575,14 +2577,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from man{p_end}
+{synopt:{opt Source Notes}}Nonguaranteed long-term debt from bonds that are privately placed. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.CD:DT.ODA.ALLD.CD} - Net official development assistance and official aid received (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.CD:DT.ODA.ALLD.CD} - Net ODA received (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2599,9 +2601,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Official development assistance and net official aid record the actual international transfer by the donor of financial resources or of goods or services valued at the cost to the donor, less any repayments of loan principal during the same pe{p_end}
+{synopt:{opt Source Notes}}Aid includes both official development assistance (ODA) and official aid. Ratios are computed using values in U.S. dollars converted at official exchange rates.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, and World Bank GCF estimates.{p_end}
 
 
 {synoptline}
@@ -2659,7 +2661,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}All activities related to sexually transmitted diseases and HIV/AIDS control e.g. information, education and communication; testing; prevention; treatment, care.  Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed de{p_end}
+{synopt:{opt Source Notes}}Special programmes to address the consequences of HIV/AIDS, e.g. social, legal and economic assistance to people living with HIV/AIDS including food security and employment; support to vulnerable groups and children orphaned by HIV/AIDS; human{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -2683,9 +2685,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Aid includes both official development assistance (ODA) and official aid. Ratios are computed using values in U.S. dollars converted at official exchange rates.{p_end}
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, and World Bank imports of goods and services estimates.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -2707,9 +2709,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Aid per capita includes both official development assistance (ODA) and official aid, and is calculated by dividing total aid by the midyear population estimate.{p_end}
+{synopt:{opt Source Notes}}Net private aid is private transactions broken down into direct investment, portfolio investment and export credits (net). Private transactions are those undertaken by firms and individuals resident in the reporting country. Portfolio investme{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, and World Bank population estimates.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -2733,7 +2735,7 @@
 
 {synopt:{opt Source Notes}}Net private aid is private transactions broken down into direct investment, portfolio investment and export credits (net). Private transactions are those undertaken by firms and individuals resident in the reporting country. Portfolio investme{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, and IMF central government expense estimates.{p_end}
 
 
 {synoptline}
@@ -2743,7 +2745,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}These are described as administrative costs. Data are expressed in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Aid includes both official development assistance (ODA) and official aid. Ratios are computed using values in U.S. dollars converted at official exchange rates.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -2762,12 +2764,12 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ADMN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ADMN.CD:DT.ODA.DACD.ADMN.CD} - Gross ODA aid disbursement for administrative costs of donors, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ADMN.CD:DT.ODA.DACD.ADMN.CD} - Gross ODA aid disbursement for general budget support, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}These are described as administrative costs. Data are expressed in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as general budget support.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -2798,12 +2800,12 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.AGPA.FOOD.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.FOOD.CD:DT.ODA.DACD.AGPA.FOOD.CD} - Gross ODA aid disbursement for other commodity assistance, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.AGPA.FOOD.CD:DT.ODA.DACD.AGPA.FOOD.CD} - Gross ODA aid disbursement for developmental food aid/food security assistance, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as import support (capital goods and services; line of credit) and import support for commodities, general goods and services, oil imports.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as food aid and food security programmes.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -2822,7 +2824,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ALLS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ALLS.CD:DT.ODA.DACD.ALLS.CD} - Net ODA received from DAC donors (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ALLS.CD:DT.ODA.DACD.ALLS.CD} - Gross ODA aid disbursement for all sectors and functions, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2870,7 +2872,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.BKFN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BKFN.CD:DT.ODA.DACD.ECON.BKFN.CD} - Gross ODA aid disbursement for business &amp; other services, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BKFN.CD:DT.ODA.DACD.ECON.BKFN.CD} - Gross ODA aid disbursement for banking &amp; financial services, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2882,7 +2884,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.BUSN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BUSN.CD:DT.ODA.DACD.ECON.BUSN.CD} - Gross ODA aid disbursement for economic infrastructure, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.BUSN.CD:DT.ODA.DACD.ECON.BUSN.CD} - Gross ODA aid disbursement for business &amp; other services, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -2894,24 +2896,24 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.CD:DT.ODA.DACD.ECON.CD} - Gross ODA aid disbursement for economic infrastructure, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.CD:DT.ODA.DACD.ECON.CD} - Gross ODA aid disbursement for communications, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the aggregate total for transport and storage (DT.ODA.DACD.ECON.TRSP.CD); communications (DT.ODA.DACD.ECON.COMM.CD); energy (DT.ODA.DACD.ECON.NRGY.CD); banking and financial services (DT.ODA.DACD.ECON.BKFN.CD); business and other servi{p_end}
+{synopt:{opt Source Notes}}This is described as communications policy and administrative; telecommunications; radio/television/print media and information and communication technology (ICT).  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ECON.COMM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.COMM.CD:DT.ODA.DACD.ECON.COMM.CD} - Gross ODA aid disbursement for energy,  DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ECON.COMM.CD:DT.ODA.DACD.ECON.COMM.CD} - Gross ODA aid disbursement for communications, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as energy policy and administrative management; power generation/non-renewable. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as communications policy and administrative; telecommunications; radio/television/print media and information and communication technology (ICT).  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -2971,7 +2973,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as secondary education and vocational training.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as higher education and advanced technical and managerial training.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -2983,14 +2985,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as secondary education and vocational training.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as education policy and administrative management; education facilities and training; teacher training and educational research.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EDU.UNKN.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.UNKN.CD:DT.ODA.DACD.EDU.UNKN.CD} - Gross ODA aid disbursement for humanitarian aid, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EDU.UNKN.CD:DT.ODA.DACD.EDU.UNKN.CD} - Gross ODA aid disbursement for education (level unspecified), DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3007,7 +3009,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is disaster prevention and preparedness.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is the aggregate total for other emergency and distress relief (DT.ODA.DACDEMRC.OTHR.CD); reconstruction relief (DT.ODA.DACD.EMRC.RCST.CD) and disaster prevention &amp; preparedness (DT.ODA.DACD.EMRC.DISA.CD).  Data are in current U.S. do{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3019,7 +3021,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is disaster prevention and preparedness.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as material relief assistance and services; emergency food aid and relief co-ordination; protection and support services.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3038,12 +3040,12 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.EMRC.RCST.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.RCST.CD:DT.ODA.DACD.EMRC.RCST.CD} - Gross ODA aid disbursement for government &amp; civil society, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.EMRC.RCST.CD:DT.ODA.DACD.EMRC.RCST.CD} - Gross ODA aid disbursement for reconstruction relief and rehabilitation, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the aggregate total for general government and civil society (DT.ODA.DACD.GVCS.GEN.CD) and conflict, peace and security (DT.ODA.DACD.GVCS.CPS.CD).  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as reconstruction relief and rehabilitation.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3067,7 +3069,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as security system management and reform; civilian peace-building, conflict prevention and resolution; post-conflict peace-building (UN); reintegration and Small Arms and Light Weapons (SALW) control; land mine clearance and{p_end}
+{synopt:{opt Source Notes}}This is described as economic and development policy/planning; public sector financial management; legal and judicial development; general administration; strengthening civil society; elections; human rights; free flow of information and women{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3091,7 +3093,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Special programmes to address the consequences of HIV/AIDS, e.g. social, legal and economic assistance to people living with HIV/AIDS including food security and employment; support to vulnerable groups and children orphaned by HIV/AIDS; human{p_end}
+{synopt:{opt Source Notes}}All activities related to sexually transmitted diseases and HIV/AIDS control e.g. information, education and communication; testing; prevention; treatment, care.  Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed de{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -3103,9 +3105,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as basic health care; basic health infrastructure; basic nutrition; infectious disease control; health education; malaria control; tuberculosis control and health personnel development.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Special programmes to address the consequences of HIV/AIDS, e.g. social, legal and economic assistance to people living with HIV/AIDS including food security and employment; support to vulnerable groups and children orphaned by HIV/AIDS; human{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3115,7 +3117,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as basic health care; basic health infrastructure; basic nutrition; infectious disease control; health education; malaria control; tuberculosis control and health personnel development.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is the aggregate total for general health (DT.ODA.DACD.HLTH.GEN.CD) and basic health (DT.ODA.DACD.HLTH.BAS.CD).  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3127,7 +3129,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as health policy and administrative management; medical education/training; medical research ad medical services.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is the aggregate total for general health (DT.ODA.DACD.HLTH.GEN.CD) and basic health (DT.ODA.DACD.HLTH.BAS.CD).  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3162,16 +3164,15 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.MSEC.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.CD:DT.ODA.DACD.MSEC.CD} - Gross ODA aid disbursement for general environment protection, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.MSEC.CD:DT.ODA.DACD.MSEC.CD} - Gross ODA aid disbursement for multisector,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3236,7 +3237,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as fishing policy and administrative management; fishery development; fishery education/training; fishery research and fishery services. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is the aggregate total for agriculture (DT.ODA.DACD.PROD.AGRI.AGR.CD); forestry (DT.ODA.DACD.PROD.AGRI.FORS.CD) and fishing (DT.ODA.DACD.PROD.AGRI.FISH.CD).  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3248,7 +3249,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as fishing policy and administrative management; fishery development; fishery education/training; fishery research and fishery services. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is described as forestry policy and administrative management; forestry development; fuelwood/charcoal; forestry education/training; forestry research and forestry services.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3260,7 +3261,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the aggregate total for agriculture, forestry and fishing (DT.ODA.DACD.PROD.AGRI.CD); industry, mining and construction (DT.ODA.DACD.PROD.INDS.CD); trade policy and regulations (DT.ODA.DACD.PROD.TRDP.CD) and tourism (DT.ODA.DACD.PROD.T{p_end}
+{synopt:{opt Source Notes}}This is described as forestry policy and administrative management; forestry development; fuelwood/charcoal; forestry education/training; forestry research and forestry services.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3274,7 +3275,7 @@
 
 {synopt:{opt Source Notes}}This is the aggregate total for agriculture, forestry and fishing (DT.ODA.DACD.PROD.AGRI.CD); industry, mining and construction (DT.ODA.DACD.PROD.INDS.CD); trade policy and regulations (DT.ODA.DACD.PROD.TRDP.CD) and tourism (DT.ODA.DACD.PROD.T{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Global Findex database{p_end}
 
 
 {synoptline}
@@ -3291,7 +3292,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.INDS.CON.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.CON.CD:DT.ODA.DACD.PROD.INDS.CON.CD} - Gross ODA aid disbursement for industry,  DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.CON.CD:DT.ODA.DACD.PROD.INDS.CON.CD} - Gross ODA aid disbursement for construction,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3303,7 +3304,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.INDS.IND.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.IND.CD:DT.ODA.DACD.PROD.INDS.IND.CD} - Gross ODA aid disbursement for mineral resources and mining,  DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.INDS.IND.CD:DT.ODA.DACD.PROD.INDS.IND.CD} - Gross ODA aid disbursement for industry,  DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3327,12 +3328,12 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.PROD.TRDP.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.TRDP.CD:DT.ODA.DACD.PROD.TRDP.CD} - Gross ODA aid disbursement for trade policy and regulations, DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.PROD.TRDP.CD:DT.ODA.DACD.PROD.TRDP.CD} - Gross ODA aid disbursement for tourism sector, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as trade policy and administrative management; trade facilitation; regional trade agreements (RTAs); multilateral trade negotiations; trade-related adjustment and trade education/training.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This described as tourism policy and administrative management.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3344,7 +3345,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This described as tourism policy and administrative management.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Net private aid is private transactions broken down into direct investment, portfolio investment and export credits (net). Private transactions are those undertaken by firms and individuals resident in the reporting country. Portfolio investme{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3368,14 +3369,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as support to refugees in donor countries.  Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This is the aggregate total for education (DT.ODA.DACD.EDU.CD); health (DT.ODA.DACD.HLTH.CD); population programmes (DT.ODA.DACD.POP.CD); water supply and sanitation (DT.ODA.DACD.WSS.CD) and government and civil society (DT.ODA.DACD.GVCS.CD).{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.SOCI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.SOCI.CD:DT.ODA.DACD.SOCI.CD} - Gross ODA aid disbursement for social infrastructure &amp; services,  DAC donors total (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.SOCI.CD:DT.ODA.DACD.SOCI.CD} - Gross ODA aid disbursement for total sector allocable, DAC donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3392,7 +3393,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the aggregate total of allocable sectors as follows: I.1 Education, Total; I.2 Health, Total; I.3 Population Programmes; I.4 Water Supply &amp; Sanitation; I.5 Government &amp; Civil Society; I.6 Other Social Infrastructure &amp; Servi{p_end}
+{synopt:{opt Source Notes}}This is described as sectors not specified and promotion of development awareness.  Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3416,14 +3417,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is described as water resources policy and administrative management; water resources protection; water supply and sanitation - large systems; basic drinking water supply and basic sanitation; river development; waste management/disposal{p_end}
+{synopt:{opt Source Notes}}Official development assistance and net official aid record the actual international transfer by the donor of financial resources or of goods or services valued at the cost to the donor, less any repayments of loan principal during the same pe{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.ODA.DACD.ZSG}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ZSG:DT.ODA.DACD.ZSG} - Net ODA received from DAC donors (% of recipient's GDI)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.DACD.ZSG:DT.ODA.DACD.ZSG} - Net ODA received from DAC donors (% of recipient's GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3500,9 +3501,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Official development assistance and net official aid record the actual international transfer by the donor of financial resources or of goods or services valued at the cost to the donor, less any repayments of loan principal during the same pe{p_end}
+{synopt:{opt Source Notes}}All activities related to sexually transmitted diseases and HIV/AIDS control e.g. information, education and communication; testing; prevention; treatment, care.  Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed de{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
 
 {synoptline}
@@ -3519,12 +3520,12 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.MULTI.HIV.MITI.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.HIV.MITI.CD:DT.ODA.MULTI.HIV.MITI.CD} - ODA aid disbursements for Social mitigation of HIV/AIDS, Multilateral donors (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.MULTI.HIV.MITI.CD:DT.ODA.MULTI.HIV.MITI.CD} - ODA aid disbursements for Malaria control, multilateral donors total (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Special programmes to address the consequences of HIV/AIDS, e.g. social, legal and economic assistance to people living with HIV/AIDS including food security and employment; support to vulnerable groups and children orphaned by HIV/AIDS; human{p_end}
+{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -3536,9 +3537,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
+{synopt:{opt Source Notes}}Official development assistance and net official aid record the actual international transfer by the donor of financial resources or of goods or services valued at the cost to the donor, less any repayments of loan principal during the same pe{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
 
 {synoptline}
@@ -3572,7 +3573,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The transactions covered are those undertaken by residents of non-DAC Member countries.  Net private aid is private transactions broken down into direct investment, portfolio investment and export credits (net). Private transactions are those{p_end}
+{synopt:{opt Source Notes}}Official development assistance and net official aid record the actual international transfer by the donor of financial resources or of goods or services valued at the cost to the donor, less any repayments of loan principal during the same pe{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
 
@@ -3644,9 +3645,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The debt service to export ratio is defined as the total debt service divided by the sum of exports of goods, services, and income plus workers' remittances.  Definitions for each indicator follow.  Total debt service (TDS) shows the debt serv{p_end}
+{synopt:{opt Source Notes}}Adjustment to scheduled debt service equals debt service not paid plus debt service arrears reductions and prepayments. Data are denominated in U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance and International Monetary Fund, International Financial Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
 
 
 {synoptline}
@@ -3658,7 +3659,7 @@
 
 {synopt:{opt Source Notes}}Adjustment to scheduled debt service equals debt service not paid plus debt service arrears reductions and prepayments. Data are denominated in U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3682,12 +3683,12 @@
 
 {synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PCBK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.CD:DT.TDS.PCBK.CD} - PPG, commercial banks (TDS, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PCBK.CD:DT.TDS.PCBK.CD} - Debt service, PPG and PNG private creditors (TDS, current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3704,9 +3705,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Debt service for private and public non-guaranteed debt is the sum of the two.{p_end}
+{synopt:{opt Source Notes}}Nonguaranteed long-term debt from bonds that are privately placed. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
@@ -3730,12 +3731,12 @@
 
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_EE.BOD.PAPR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EE.BOD.PAPR.ZS:EE.BOD.PAPR.ZS} - Water pollution, paper and pulp industry (% of total BOD emissions)}}
+{synopt:{bf:{help wbopendata_sourceid##EE.BOD.PAPR.ZS:EE.BOD.PAPR.ZS} - Organic water pollutant (BOD) emissions (kg per day)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3759,7 +3760,7 @@
 
 {synoptline}
 {marker sourceid_EG.IMP.CONS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.IMP.CONS.ZS:EG.IMP.CONS.ZS} - Energy imports, net (% of energy use)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.IMP.CONS.ZS:EG.IMP.CONS.ZS} - Energy imports (kt of oil equivalent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3776,7 +3777,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
+{synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
@@ -3795,12 +3796,12 @@
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL:EN.AGR.EMPL} - Economically active population in agriculture (number)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL:EN.AGR.EMPL} - Economically active population in agriculture, female (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Agricultural employment shows the number of workers in the agricultural sector.{p_end}
+{synopt:{opt Source Notes}}Economically active female population in agriculture is that part of the economically active female population engaged in or seeking work in agriculture, hunting, fishing or forestry.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
@@ -3812,14 +3813,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The Agricultural Population is defined as all persons depending for their livelihood on agriculture, hunting, fishing or forestry. This estimate comprises all persons actively engaged in agriculture and their non-working dependants. The Agricu{p_end}
+{synopt:{opt Source Notes}}Economically active female population in agriculture is that part of the economically active female population engaged in or seeking work in agriculture, hunting, fishing or forestry.{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL.IN}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.IN:EN.AGR.EMPL.IN} - Agricultural population (FAO, number)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.IN:EN.AGR.EMPL.IN} - Economically active population in agriculture, male (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3831,14 +3832,14 @@
 
 {synoptline}
 {marker sourceid_EN.AGR.EMPL.MA}
-{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.MA:EN.AGR.EMPL.MA} - Animal species, threatened}}
+{synopt:{bf:{help wbopendata_sourceid##EN.AGR.EMPL.MA:EN.AGR.EMPL.MA} - Economically active population in agriculture, male (FAO, number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Animal species are mammals (excluding whales and porpoises) and birds (included within a country's breeding or wintering ranges). Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminat{p_end}
+{synopt:{opt Source Notes}}Economically active male population in agriculture is that part of the economically active male population engaged in or seeking work in agriculture, hunting, fishing or forestry.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, and International Union for Conservation of Nature, Red List of Threatened Species.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -3855,7 +3856,7 @@
 
 {synoptline}
 {marker sourceid_EN.ARE.LAND.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ARE.LAND.ZS:EN.ARE.LAND.ZS} - Arable land area (% of total land area)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ARE.LAND.ZS:EN.ARE.LAND.ZS} - CO2 emissions from cement production (thousand metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3879,7 +3880,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.EG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 intensity (kg per kg of oil equivalent energy use)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 emissions from fossil-fuels, total (thousand metric tons)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3891,7 +3892,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.FF.KT}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.FF.KT:EN.ATM.CO2E.FF.KT} - CO2 emissions from fossil-fuels, total (thousand metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.FF.KT:EN.ATM.CO2E.FF.KT} - CO2 emissions from fossil-fuels (% of total)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3915,7 +3916,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.GF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gas flaring (thousand metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gaseous fuel consumption (% of total)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -3934,7 +3935,7 @@
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from gas flaring fuel consumption refer mainly to emissions from gas flaring activities.{p_end}
 
-{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -3956,9 +3957,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Industrial methane emissions are emissions from the handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
+{synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
-{synopt:{opt Source Organization}}International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
 
 
 {synoptline}
@@ -4004,9 +4005,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Population density is midyear population divided by land area in square kilometers. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not per{p_end}
+{synopt:{opt Source Notes}}The non-agricultural population is obtained as a residual of agricultural population from the total population.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization and World Bank population estimates.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -4030,7 +4031,7 @@
 
 {synopt:{opt Source Notes}}Rural population density is the rural population divided by the arable land area. Rural population is calculated as the difference between the total population and the urban population. Arable land includes land defined by the FAO as land unde{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization and World Bank population estimates.{p_end}
+{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects.{p_end}
 
 
 {synoptline}
@@ -4052,14 +4053,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
+{synopt:{opt Source Notes}}Nationally protected areas are totally or partially protected areas of at least 1,000 hectares that are designated as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, p{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, as compiled by the World Resources Institute, based on data from national authorities, national legislation and international agreements.{p_end}
 
 
 {synoptline}
 {marker sourceid_ER.LND.PTLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##ER.LND.PTLD.ZS:ER.LND.PTLD.ZS} - Marine protected areas (sq. km)}}
+{synopt:{bf:{help wbopendata_sourceid##ER.LND.PTLD.ZS:ER.LND.PTLD.ZS} - Terrestrial protected areas (% of total land area)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4078,7 +4079,7 @@
 
 {synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, as compiled by the World Resources Institute, based on data from national authorities, national legislation and international agreements.{p_end}
 
 
 {synoptline}
@@ -4100,9 +4101,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}The gold component of reserves is valued at year-end (December 31) London prices.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund.{p_end}
 
 
 {synoptline}
@@ -4124,9 +4125,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross international reserves comprise holdings of monetary gold, special drawing rights, the reserve position of members in the International Monetary Fund (IMF), and holdings of foreign exchange under the control of monetary authorities. The{p_end}
+{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -4136,14 +4137,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}International reserves to total external debt stocks.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_FI.RES.TOTL.MO}
-{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.MO:FI.RES.TOTL.MO} - Total reserves in months of imports of goods and services}}
+{synopt:{bf:{help wbopendata_sourceid##FI.RES.TOTL.MO:FI.RES.TOTL.MO} - Total reserves in months of imports}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4160,9 +4161,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The number of months for which a country's reserves can sustain its imports. Gross international reserves comprise holdings of monetary gold, special drawing rights, the reserve position of members in the International Monetary Fund (IMF), and{p_end}
+{synopt:{opt Source Notes}}Total reserves minus gold comprise special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. Gold holdings are excluded. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -4208,14 +4209,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Net domestic credit to government budget. Data are in current local currencies. AF stands for annual flow.{p_end}
+{synopt:{opt Source Notes}}Change in domestic credit  to government includes changes in net claims on central government, and changes in claims on  state and local government as well as on non-financial public corporations. Data; Annual flow, local currencies.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_FM.ASC.GOVT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.GOVT.ZS:FM.ASC.GOVT.ZS} - Claims on central government, flow (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.GOVT.ZS:FM.ASC.GOVT.ZS} - Claims on governments, etc. as % of M2 (annual % change)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4227,7 +4228,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.NCGV.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NCGV.CN:FM.ASC.NCGV.CN} - Total assets, flow (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NCGV.CN:FM.ASC.NCGV.CN} - Claims on central government, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4263,7 +4264,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.NFRG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NFRG.ZS:FM.ASC.NFRG.ZS} - Net foreign assets as % of M2 (annual % change)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.NFRG.ZS:FM.ASC.NFRG.ZS} - Claims on other official entities, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4292,7 +4293,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Net domestic credit  to other financial institutions (non-governmental). Data are in current local currencies.{p_end}
+{synopt:{opt Source Notes}}Net domestic credit to Rest of the economy (excludes government). Data are in current local currencies.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
@@ -4371,7 +4372,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.GOVT.CN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.CN.ZS:FM.AST.GOVT.CN.ZS} - Claims on governments and other public entities (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.GOVT.CN.ZS:FM.AST.GOVT.CN.ZS} - Claims on governments, etc. (annual growth as % of M2)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4387,16 +4388,15 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on governments and other public entities (IFS line 32an + 32b + 32bx + 32c) usually comprise direct credit for specific purposes such as financing of the government budget deficit or loans to state enterprises, advances against future c{p_end}
+{synopt:{opt Source Notes}}Claims on the central government, net is defined as the central  governments direct financial obligations to the country’s financial institutions less any claims the central government has on those  institutions.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_FM.AST.NCGV.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.NCGV.CN:FM.AST.NCGV.CN} - Claims on central government (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.NCGV.CN:FM.AST.NCGV.CN} - Total assets (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4408,7 +4408,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.NFGD.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.NFGD.CN:FM.AST.NFGD.CN} - Net foreign assets (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.NFGD.CN:FM.AST.NFGD.CN} - Total assets (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4425,7 +4425,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Net foreign assets are the sum of foreign assets held by monetary authorities and deposit money banks, less their foreign liabilities. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Net foreign assets are the sum of foreign assets held by monetary authorities and deposit money banks, less their foreign liabilities. Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
@@ -4468,7 +4468,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.PRVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.PRVT.CN:FM.AST.PRVT.CN} - Banking survey: claims on private sector (net) (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.PRVT.CN:FM.AST.PRVT.CN} - Claims on private sector (annual growth as % of M2)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4492,7 +4492,7 @@
 
 {synoptline}
 {marker sourceid_FM.AST.PUBL.ZG.M2}
-{synopt:{bf:{help wbopendata_sourceid##FM.AST.PUBL.ZG.M2:FM.AST.PUBL.ZG.M2} - Net domestic credit to rest of economy, stock (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.AST.PUBL.ZG.M2:FM.AST.PUBL.ZG.M2} - Claims on governments, etc. (annual growth as % of M2)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4521,7 +4521,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Other liabilities excluding M2 (current LCU).{p_end}
+{synopt:{opt Source Notes}}Money and quasi money (M2), flow (current LCU) is the sum of currency outside banks, demand deposits other than those of the central government, and the time, savings, and foreign currency deposits of resident sectors other than the central go{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
@@ -4583,7 +4583,7 @@
 
 {synopt:{opt Source Notes}}Central bank intervention rate.{p_end}
 
-{synopt:{opt Source Organization}}Bank Indonesia, Commercial Bank Monthly Report{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -4607,7 +4607,7 @@
 
 {synopt:{opt Source Notes}}Real interest rate is the lending interest rate adjusted for inflation as measured by the GDP deflator.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files using World Bank data on the GDP deflator.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -4629,9 +4629,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}International interest rate (implicit, %).{p_end}
+{synopt:{opt Source Notes}}Lending rate is the bank rate that usually meets the short- and medium-term financing needs of the private sector. This rate is normally differentiated according to creditworthiness of borrowers and objectives of financing. The terms and condi{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -4660,7 +4660,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.RISK}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.RISK:FR.INR.RISK} - Risk premium on lending (lending rate minus treasury bill rate, %)}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.RISK:FR.INR.RISK} - Time deposits interest rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4677,7 +4677,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Interest, deposit rate, shows the average rate offered by banks to resident customers for demand, time, and savings deposits. This item is equal to line 60l..zf in the IMFs International Financial Statistics publication.{p_end}
+{synopt:{opt Source Notes}}IFS, line 60 lc deflated by CPI.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
@@ -4689,9 +4689,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Claims on central government (IFS line 52AN or 32AN) include loans to central government institutions net of deposits.{p_end}
+{synopt:{opt Source Notes}}IFS, line 60 lc deflated by CPI.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
 {synoptline}
@@ -4737,7 +4737,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Time deposits.{p_end}
+{synopt:{opt Source Notes}}Demand deposits.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund.{p_end}
 
@@ -4749,14 +4749,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Time deposits.{p_end}
+{synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund.{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2018, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.AMA.ABRD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.AMA.ABRD.CN:GB.AMA.ABRD.CN} - Current budget balance, including grants (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.AMA.ABRD.CN:GB.AMA.ABRD.CN} - Adjustments to foreign scheduled principal repayments (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4792,7 +4792,7 @@
 
 {synoptline}
 {marker sourceid_GB.BAL.OVRL.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVRL.GDP.ZS:GB.BAL.OVRL.GDP.ZS} - Overall surplus/deficit, excluding current grants (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVRL.GDP.ZS:GB.BAL.OVRL.GDP.ZS} - Overall budget deficit, including grants (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4809,38 +4809,38 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Overall budget surplus/deficit (excluding current grants) is current and capital revenue excluding current grants, less total expenditure and lending minus repayments. Data are shown for central government only, and are in current local curren{p_end}
+{synopt:{opt Source Notes}}Overall budget deficit is current and capital revenue excluding current grants less total expenditure and lending minus repayments. Values are in current local currencies.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.BAL.OVXG.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVXG.CN:GB.BAL.OVXG.CN} - Primary balance, excluding interest (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.OVXG.CN:GB.BAL.OVXG.CN} - Overall surplus/deficit, excluding all grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Primary deficit, excluding interest (current LCU).{p_end}
+{synopt:{opt Source Notes}}Overall budget deficit is current and capital revenue excluding current grants less total expenditure and lending minus repayments. Values are in current local currencies.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.BAL.XINT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.BAL.XINT.CN:GB.BAL.XINT.CN} - Primary balance, excluding interest (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.BAL.XINT.CN:GB.BAL.XINT.CN} - Central government debt, monetary system credit (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Primary deficit, excluding interest (current LCU).{p_end}
+{synopt:{opt Source Notes}}Domestic debt consists of the outstanding stock or recognized, direct liabilities to the monetary system. Data are in current local currencies.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.DOD.DMSY.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.DMSY.CN:GB.DOD.DMSY.CN} - Central government debt, other domestic (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.DMSY.CN:GB.DOD.DMSY.CN} - Central government debt, monetary system credit (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4857,9 +4857,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Foreign debt consists of the outstanding stock or recognized, direct liabilities of the government to the rest of the world, generated in the  past and scheduled to be extinguished by government operations in the future or to continue as perpe{p_end}
+{synopt:{opt Source Notes}}Domestic debt to other in current local currencies.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank and Global Development Finance.{p_end}
 
 
 {synoptline}
@@ -4876,12 +4876,12 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.FRGN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.FRGN.CN:GB.DOD.FRGN.CN} - External debt, end year (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.FRGN.CN:GB.DOD.FRGN.CN} - Total government debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Foreign debt consists of the outstanding stock or recognized, direct liabilities of the government to the rest of the world, generated in the  past and scheduled to be extinguished by government operations in the future or to continue as perpe{p_end}
+{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and lo{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -4900,7 +4900,7 @@
 
 {synoptline}
 {marker sourceid_GB.DOD.TOTL.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.DOD.TOTL.GDP.ZS:GB.DOD.TOTL.GDP.ZS} - Central government debt, total (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DOD.TOTL.GDP.ZS:GB.DOD.TOTL.GDP.ZS} - Central government arrears on domestic debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4912,7 +4912,7 @@
 
 {synoptline}
 {marker sourceid_GB.DTA.DOMS.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DTA.DOMS.CN:GB.DTA.DOMS.CN} - Central government arrears on external debt (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DTA.DOMS.CN:GB.DTA.DOMS.CN} - Central government arrears on domestic debt (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4924,7 +4924,7 @@
 
 {synoptline}
 {marker sourceid_GB.DTA.FRGN.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.DTA.FRGN.CN:GB.DTA.FRGN.CN} - Central government arrears on external debt (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.DTA.FRGN.CN:GB.DTA.FRGN.CN} - External borrowing, net (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -4965,7 +4965,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic financing (obtained from residents) refer to the means by which a government provides financial resources to cover a budget deficit or allocates financial resources arising from a budget surplus. It includes all government liabilities{p_end}
+{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -5001,14 +5001,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Grants include grants from other foreign governments, international organizations, and other government units.  Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Financing, including external capital grants. Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.GRT.CTOT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.GRT.CTOT.CN:GB.GRT.CTOT.CN} - Total current grants (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.GRT.CTOT.CN:GB.GRT.CTOT.CN} - External capital grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5056,7 +5056,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.CTOT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.CTOT.GD.ZS:GB.REV.CTOT.GD.ZS} - Current revenue, excluding grants (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.CTOT.GD.ZS:GB.REV.CTOT.GD.ZS} - Total revenue including current grants (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5080,7 +5080,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.TOTL.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.TOTL.GDP.ZS:GB.REV.TOTL.GDP.ZS} - Current revenue (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.TOTL.GDP.ZS:GB.REV.TOTL.GDP.ZS} - Central government revenue excluding all grants  (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5123,7 +5123,7 @@
 
 {synopt:{opt Source Notes}}Current revenue (including grants) includes all revenue from taxes and current nontax revenues such as fines, fees, recoveries, and income from property or sales, and grants. Data are shown for central government only, and are in current local{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -5135,12 +5135,12 @@
 
 {synopt:{opt Source Notes}}Revenue is cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales.  Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.RVC.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.RVC.TOTL.GD.ZS:GB.RVC.TOTL.GD.ZS} - Capital revenue (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.RVC.TOTL.GD.ZS:GB.RVC.TOTL.GD.ZS} - Current revenue, excluding grants (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5157,14 +5157,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Highest marginal tax rate (corporate rate) is the highest rate shown on the schedule of tax rates applied to the taxable income of corporations.{p_end}
+{synopt:{opt Source Notes}}Capital revenue comprises proceeds from the sale of nonfinancial capital assets, including land, intangible assets, stocks, and fixed capital assets of buildings, construction and equipment of more than a minimum value and usable for more than{p_end}
 
-{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online ({browse "www.pwc.com"}).{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.SOE.PRVZ.CD}
-{synopt:{bf:{help wbopendata_sourceid##GB.SOE.PRVZ.CD:GB.SOE.PRVZ.CD} - Privatization proceeds (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.SOE.PRVZ.CD:GB.SOE.PRVZ.CD} - Highest marginal tax rate, corporate rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5183,7 +5183,7 @@
 
 {synopt:{opt Source Notes}}Highest marginal tax rate (corporate rate) is the highest rate shown on the schedule of tax rates applied to the taxable income of corporations.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online ({browse "www.pwc.com"}).{p_end}
 
 
 {synoptline}
@@ -5248,7 +5248,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.INCM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.INCM.ZS:GB.TAX.INCM.ZS} - Income, profit, and capital gains taxes (% of current revenue)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.INCM.ZS:GB.TAX.INCM.ZS} - Taxes on international trade, GB (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5272,7 +5272,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.YPKG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.YPKG.ZS:GB.TAX.YPKG.ZS} - Adjustments to foreign scheduled debt service (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.YPKG.ZS:GB.TAX.YPKG.ZS} - Taxes on income, profits and capital gains (% of total taxes)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5289,7 +5289,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date such as money deposits, securities, shares and loans.  Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date such as money deposits, securities, shares and loans. Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists{p_end}
 
@@ -5301,9 +5301,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Current expenditure on goods and services comprises payments of wages and salaries in cash to employees (including the armed forces) before deduction of withholding taxes and employees' contributions to social security and pension funds, as we{p_end}
+{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date such as money deposits, securities, shares and loans. Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists{p_end}
 
 
 {synoptline}
@@ -5320,7 +5320,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.GSRV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.GSRV.ZS:GB.XPC.GSRV.ZS} - Interest on domestic debt (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.GSRV.ZS:GB.XPC.GSRV.ZS} - Goods and services expenditure (% of total expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5337,7 +5337,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Interest on external debt (current LCU). Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Interest on domestic debt.  Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -5356,7 +5356,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.INTP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTP.ZS:GB.XPC.INTP.ZS} - Subsidies (GFS, current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTP.ZS:GB.XPC.INTP.ZS} - Interest payments (% of total expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5385,7 +5385,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Other current transfers include all unrequited, nonrepayable transfers on current account to private and public enterprises. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Total current expenditure includes requited payments other than for capital assets or for goods or services to be used in the production of capital assets, and unrequited payments for purposes other than permitting the recipients to acquire ca{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -5397,7 +5397,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Wages and salaries consist of all payments in cash, but not in kind, to employees in return for services rendered, before deduction of withholding taxes and employees  contributions to social security and pension funds. Data are shown for cent{p_end}
+{synopt:{opt Source Notes}}Other current transfers include all unrequited, nonrepayable transfers on current account to private and public enterprises. Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -5428,7 +5428,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.WAGE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.WAGE.ZS:GB.XPC.WAGE.ZS} - Wages and salaries (% of total expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.WAGE.ZS:GB.XPC.WAGE.ZS} - Defense expenditure (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5452,7 +5452,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPD.DEFN.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPD.DEFN.GDP.ZS:GB.XPD.DEFN.GDP.ZS} - Total expenditure and net lending (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPD.DEFN.GDP.ZS:GB.XPD.DEFN.GDP.ZS} - Defense expenditure (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5469,9 +5469,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gloss domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
+{synopt:{opt Source Notes}}Total expenditure and net lending includes both current and capital (development) expenditures and includes lending minus repayments. Data are shown for central government only.  Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -5493,9 +5493,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Expenditure for acquisition of land, intangible assets, government   stocks, and nonmilitary and nonfinancial assets; also for capital  grants and lending minus repayments. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Budgetary investment.  Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists{p_end}
 
 
 {synoptline}
@@ -5505,14 +5505,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Capital transfers. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Budgetary investment.  Data are in current local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists{p_end}
 
 
 {synoptline}
 {marker sourceid_GB.XPK.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPK.TOTL.ZS:GB.XPK.TOTL.ZS} - Capital transfers (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPK.TOTL.ZS:GB.XPK.TOTL.ZS} - Capital expenditure (% of total expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5553,14 +5553,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Cash surplus or deficit is revenue (including grants) minus expense, minus net acquisition of nonfinancial assets. In the 1986 GFS manual nonfinancial assets were included under revenue and expenditure in gross terms. This cash surplus or defi{p_end}
+{synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and lo{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_GC.REV.SOCL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GC.REV.SOCL.ZS:GC.REV.SOCL.ZS} - Social contributions (% of revenue)}}
+{synopt:{bf:{help wbopendata_sourceid##GC.REV.SOCL.ZS:GC.REV.SOCL.ZS} - Total revenue (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5577,7 +5577,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Current revenue includes all revenue from taxes and nonrepayable receipts (other than grants) from the sale of land, intangible assets, government stocks or fixed capital assets, or from capital transfers from nongovernmental sources. It also{p_end}
+{synopt:{opt Source Notes}}Revenue is cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales. Grants are also considered as revenue.{p_end}
 
 {synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
 
@@ -5608,7 +5608,7 @@
 
 {synoptline}
 {marker sourceid_GC.XPN.OTHR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GC.XPN.OTHR.ZS:GC.XPN.OTHR.ZS} - Other expense (% of expense)}}
+{synopt:{bf:{help wbopendata_sourceid##GC.XPN.OTHR.ZS:GC.XPN.OTHR.ZS} - Expense (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5680,12 +5680,12 @@
 
 {synoptline}
 {marker sourceid_GCI.1STPILLAR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.1STPILLAR.XQ:GCI.1STPILLAR.XQ} - 2nd pillar: Infrastructure}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.1STPILLAR.XQ:GCI.1STPILLAR.XQ} - 1st pillar: Institutions}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Quality of overall infrastructure (b) Quality of roads (c) Quality of railroad infrastructure (d) Quality of port infrastructure (e) Quality of air transport infrastructure (f) A{p_end}
+{synopt:{opt Source Notes}}This indicator is a derived from the following indicators:  (a) Property rights (b) Intellectual property protection (c) Diversion of public funds (d) Public trust of politicians (e) Irregular payments and bribes (f) Judicial independence (g){p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5697,7 +5697,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Government budget balance (b) National savings rate (c) Inflation (d) Interest rate spread (e) Government debt and (f) Country credit rating.{p_end}
+{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Quality of overall infrastructure (b) Quality of roads (c) Quality of railroad infrastructure (d) Quality of port infrastructure (e) Quality of air transport infrastructure (f) A{p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5709,7 +5709,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Government budget balance (b) National savings rate (c) Inflation (d) Interest rate spread (e) Government debt and (f) Country credit rating.{p_end}
+{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Business impact of malaria (b) Malaria incidence (c) Business impact of tuberculosis (d) Tuberculosis incidence (e) Business impact of HIV/AIDS (f) HIV prevalence (g) Infant mort{p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5733,7 +5733,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Intensity of local competition (b) Extent of market dominance (c) Effectiveness of anti-monopoly policy (d) Extent and effect of taxation (e) Total tax rate  (f) Number of proced{p_end}
+{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Secondary enrollment (b) Tertiary enrollment (c) Quality of the educational system  (d) Quality of math and science education (e) Quality of management schools (f) Internet acces{p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5745,7 +5745,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Cooperation in labor-employer relations (b) Flexibility of wage determination (c) Rigidity of employment (d) Hiring and firing practices (e) Firing costs  (f) Pay and productivit{p_end}
+{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Intensity of local competition (b) Extent of market dominance (c) Effectiveness of anti-monopoly policy (d) Extent and effect of taxation (e) Total tax rate  (f) Number of proced{p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5769,7 +5769,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Availability of financial services (b) Affordability of financial services  (c) Financing through local equity market (d) Ease of access to loans (e) Venture capital availability{p_end}
+{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Availability of latest technologies (b) Firm-level technology absorption (c) FDI and technology transfer (d) Internet users  (f)Broadband Internet subscriptions and  (g) Internet{p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5781,7 +5781,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator is a derived from the following indicators: - (a) Availability of latest technologies (b) Firm-level technology absorption (c) FDI and technology transfer (d) Internet users  (f)Broadband Internet subscriptions and  (g) Internet{p_end}
+{synopt:{opt Source Notes}}The Global Competitiveness Index (GCI), a highly comprehensive index, which captures the microeconomic and macroeconomic foundations of national competitiveness.  Competitiveness as the set of institutions, policies, and factors that determine{p_end}
 
 {synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
@@ -5812,7 +5812,7 @@
 
 {synoptline}
 {marker sourceid_GCI.PILLAR1TO4.XQ}
-{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR1TO4.XQ:GCI.PILLAR1TO4.XQ} - Efficiency enhancers (weighted index 5th to 10th pillar)}}
+{synopt:{bf:{help wbopendata_sourceid##GCI.PILLAR1TO4.XQ:GCI.PILLAR1TO4.XQ} - Basic requirements (weighted index 1st pillar to 4th pillar)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5843,7 +5843,7 @@
 
 {synopt:{opt Source Notes}}This ranks each country for The Global Competitiveness Index (GCI).  The 2006–2007 rank is out of 125 countries.{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+{synopt:{opt Source Organization}}The Global Competitiveness Report: various issues ({browse "http://gcr.weforum.org/"}).{p_end}
 
 
 {synoptline}
@@ -5860,7 +5860,7 @@
 
 {synoptline}
 {marker sourceid_GV.CONT.CO.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.ES:GV.CONT.CO.ES} - Control of Corruption (number of surveys/polls)}}
+{synopt:{bf:{help wbopendata_sourceid##GV.CONT.CO.ES:GV.CONT.CO.ES} - Control of Corruption (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -5877,7 +5877,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}See definition GV.CONT.CO.ES.  This is the number of surveys/polls used to derive the GV.CONT.CO.ES.{p_end}
+{synopt:{opt Source Notes}}See definition GV.CONT.CO.ES.  Inherent to all Governance Indicators is a margin of error, which might vary from country to country, normally attributable to two factors: (i) cross-country differences in the number of sources in which a countr{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -5889,7 +5889,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Government effectiveness measures the quality of public services, the quality and degree of independence from political pressures of the civil service, the quality of policy formulation and implementation, and the credibility of the government{p_end}
+{synopt:{opt Source Notes}}See definition GV.CONT.CO.ES.  Inherent to all Governance Indicators is a margin of error, which might vary from country to country, normally attributable to two factors: (i) cross-country differences in the number of sources in which a countr{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -5925,7 +5925,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Political stability and absence of violence measures the perceptions of the likelihood that the government will be destabilized or overthrown by unconstitutional or violent means, including domestic violence or terrorism.  Further documentatio{p_end}
+{synopt:{opt Source Notes}}See definition GV.GOVT.EF.ES. Inherent to all Governance Indicators is a margin of error, which might vary from country to country, normally attributable to two factors: (i) cross-country differences in the number of sources in which a country{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -6004,7 +6004,7 @@
 
 {synoptline}
 {marker sourceid_GV.RULE.LW.ES}
-{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.ES:GV.RULE.LW.ES} - Rule of Law (number off surveys/polls)}}
+{synopt:{bf:{help wbopendata_sourceid##GV.RULE.LW.ES:GV.RULE.LW.ES} - Rule of Law (estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6033,7 +6033,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the ranking from the annual Transparency International corruption perceptions index, which ranks more than 150 countries in terms of perceived levels of corruption, as determined by expert assessments and opinion surveys.  For more inf{p_end}
+{synopt:{opt Source Notes}}See definition GV.RULE.LW.ES.   Inherent to all Governance Indicators is a margin of error, which might vary from country to country, normally attributable to two factors: (i) cross-country differences in the number of sources in which a count{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -6057,7 +6057,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This information is from the http://www.transparency.org Transparency International web site.  More information may be available there.  CPI Score relates to perceptions of the degree of corruption as seen by business people and country analys{p_end}
+{synopt:{opt Source Notes}}Voice and accountability measures the extent to which a country’s citizens are able to participate in selecting their government and to enjoy freedom of expression, freedom of association, and a free media.  Further documentation and researc{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -6069,7 +6069,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}See definition GV.VOIC.AC.ES.  This is the number of surveys/polls used to derive the GV.VOIC.AC.ES.{p_end}
+{synopt:{opt Source Notes}}Voice and accountability measures the extent to which a country’s citizens are able to participate in selecting their government and to enjoy freedom of expression, freedom of association, and a free media.  Further documentation and researc{p_end}
 
 {synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
@@ -6095,24 +6095,12 @@
 
 {synopt:{opt Source Notes}}See definition GV.VOIC.AC.ES.  Inherent to all Governance Indicators is a margin of error, which might vary from country to country, normally attributable to two factors: (i) cross-country differences in the number of sources in which a countr{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division, World Population Prospects: 2017 Revision, supplemented with data provided by World Bank Staff.{p_end}
+{synopt:{opt Source Organization}}World Bank Institute.{p_end}
 
 
 {synoptline}
 {marker sourceid_HF.STA.OB18.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Labor regulations (% of firms identifying this as a major constraint)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Percentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_HF.STA.OB18.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Labor regulations (% of firms identifying this as a major constraint)Prevalence of obesity, female, BMI &gt; 30 (% of population 18+)}}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Prevalence of obesity, female, BMI &gt; 30 (% of population 18+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6131,7 +6119,7 @@
 
 {synopt:{opt Source Notes}}Open Budget Index scores countries from zero to 100, based on a subset of 91 questions from the questionnaire. These questions focus on the public availability of eight key budget documents (with a particular emphasis on the Executive’s Budg{p_end}
 
-{synopt:{opt Source Organization}}{browse "http://www.openbudgetindex.org"}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -6160,7 +6148,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Protecting investors, investor protection index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6177,9 +6165,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}Protecting investors disclosure index measures the degree to which investors are protected through disclosure of ownership and financial information. For more information, visit {browse "http://www.doingbusiness.org/MethodologySurveys/"}.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "http://www.doingbusiness.org/data/exploretopics/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -6220,19 +6208,19 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.XQ:IC.BUS.XQ} - Protecting investors (rank)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.XQ:IC.BUS.XQ} - Closing a business, cost (% of estate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This index averages the country's percentile rankings on: disclosure Index{p_end}
+{synopt:{opt Source Notes}}The cost of the proceedings is recorded as a percentage of the estate’s value. The cost is calculated on the basis of survey responses by insolvency practitioners and includes court fees as well as fees of insolvency practitioners, independe{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.CLS.COST.EST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CLS.COST.EST.ZS:IC.CLS.COST.EST.ZS} - Closing a business, cost (% of estate)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CLS.COST.EST.ZS:IC.CLS.COST.EST.ZS} - Closing a business, time (years)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6249,7 +6237,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The recovery rate is recorded as cents on the dollar recouped by creditors through the bankruptcy or insolvency proceedings. The calculation takes into account whether the business emerges from the proceedings as a going concern as well as cos{p_end}
+{synopt:{opt Source Notes}}Time is recorded in calendar years. Information is collected on the sequence of procedures and on whether any procedures can be carried out simultaneously. Potential delay tactics by the parties, such as the filing of dilatory appeals or reque{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -6273,19 +6261,19 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked corruption as a major or very severe constraint.{p_end}
+{synopt:{opt Source Notes}}This index averages the country's percentile rankings on: time, cost (% of estate) and recovery rate (cents on the dollar), giving equal weight to each topic.  For more information, visit {browse "http://www.doingbusiness.org/MethodologySurveys/"}.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.CNS.CORR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.CORR.ZS:IC.CNS.CORR.ZS} - Crime (% of managers surveyed ranking this as a major constraint)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.CORR.ZS:IC.CNS.CORR.ZS} - Corruption (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked crime, theft, and disorder as a major or very severe constraint.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked corruption as a major or very severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6328,7 +6316,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.GEN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.GEN.ZS:IC.CNS.GEN.ZS} - Firms that share or own their own generator (% of firms)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.GEN.ZS:IC.CNS.GEN.ZS} - Days to Obtain Import License}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6369,7 +6357,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked access to land as a major or very severe constraint.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked labor regulations as a major or severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6405,19 +6393,19 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked licenses and permits as a major or severe constraint.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked courts and dispute resolution systems as a major or very severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.CNS.LIC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LIC.ZS:IC.CNS.LIC.ZS} - Licenses &amp; Permits (% of managers surveyed ranking this as a major constraint)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.LIC.ZS:IC.CNS.LIC.ZS} - Losses Due to Theft, Robbery, Vandalism, and Arson Against the Firm (% of Sales)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked licenses and permits as a major or severe constraint.{p_end}
+{synopt:{opt Source Notes}}Estimated losses as a result of theft, robbery, vandalism or arson that occurred on establishment’s premises calculated as a percentage of annual sales.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6436,12 +6424,12 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.PER.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.PER.DURS:IC.CNS.PER.DURS} - Days to Obtain Construction-related Permit}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.PER.DURS:IC.CNS.PER.DURS} - Policy uncertainty (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average wait, in days, experienced to obtain construction-related permit from the day the establishment applied for it to the day it was granted.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked economic and regulatory policy uncertainty as a major or very severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6453,7 +6441,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked tax administration as a major or very severe constraint.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked economic and regulatory policy uncertainty as a major or very severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6465,7 +6453,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked tax rates as a major or very severe constraint.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked tax administration as a major or very severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6484,12 +6472,12 @@
 
 {synoptline}
 {marker sourceid_IC.CNS.TRAD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRAD.ZS:IC.CNS.TRAD.ZS} - Customs &amp; trade regulations (% of managers surveyed ranking this as a major constraint)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNS.TRAD.ZS:IC.CNS.TRAD.ZS} - Transportation (% of managers surveyed ranking this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Is the share of senior managers who ranked customs and trade regulations as a major or very severe constraint.{p_end}
+{synopt:{opt Source Notes}}Is the share of senior managers who ranked transport as a major or very severe constraint.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6508,7 +6496,7 @@
 
 {synoptline}
 {marker sourceid_IC.CNST.PRMT.TM.DY.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.TM.DY.DFRN:IC.CNST.PRMT.TM.DY.DFRN} - Expected to give gifts to get a Construction Permit (% of firms)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CNST.PRMT.TM.DY.DFRN:IC.CNST.PRMT.TM.DY.DFRN} - Dealing with construction permits: Time (days)  - Score}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6532,7 +6520,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRD.INFO.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - Getting credit, legal rights index}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - Depth of credit information index (0=low to 8=high)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6575,7 +6563,7 @@
 
 {synopt:{opt Source Notes}}This index ranks economies from 1 to N (number of economies varies by year), with first place being the best.  This index averages (a) Legal Rights Index, which measures the degree to which collateral and bankruptcy laws facilitate lending, (b{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -6597,7 +6585,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of products shipped to supply domestic markets lost due to breakage or spoilage.{p_end}
+{synopt:{opt Source Notes}}Average time to clear imports through customs is the average number of days to clear imports through customs.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6621,7 +6609,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Losses of the products shipped to supply domestic markets while in transit because of theft (computed as percentage of the consignment values).  For survey data collected in 2006 and 2007, this indicator is computed for the Manufacturing modul{p_end}
+{synopt:{opt Source Notes}}Percentage of products shipped to supply domestic markets lost due to breakage or spoilage.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6717,7 +6705,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The number of procedures to obtain a permanent electricity connection. A procedure is defined as any interaction of the company employees or the company’s main electrician with external parties.{p_end}
+{synopt:{opt Source Notes}}The cost is recorded as a percentage of the economy’s income per capita. Costs are recorded exclusive of value added tax.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -6728,9 +6716,8 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}The number of procedures to obtain a permanent electricity connection. A procedure is defined as any interaction of the company employees or the company’s main electrician with external parties.{p_end}
+{synopt:{opt Source Notes}}The number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -6742,7 +6729,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by law, to complete a procedure.{p_end}
+{synopt:{opt Source Notes}}This index averages the country's percentile rankings on the challenges required for a business to obtain a permanent electricity connection for a newly constructed warehouse. Included are the number of steps, time, and cost.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -6754,7 +6741,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This index averages the country's percentile rankings on the challenges required for a business to obtain a permanent electricity connection for a newly constructed warehouse. Included are the number of steps, time, and cost.{p_end}
+{synopt:{opt Source Notes}}Percentage of workers offered formal training. For survey data collected in 2006 and 2007, this indicator is computed for the Manufacturing module only.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6802,7 +6789,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms with a checking and/or savings account.{p_end}
+{synopt:{opt Source Notes}}Age of the firm based on the year in which the firm began operations.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6845,7 +6832,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.COMP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COMP.ZS:IC.FRM.COMP.ZS} - Firms identifying practices of competitors in the Informal Sector as a major constraint (% of firms)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.COMP.ZS:IC.FRM.COMP.ZS} - Firms identifying corruption as a major constraint (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6862,9 +6849,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms expected to give gifts or an informal payment in meetings with tax officials.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying corruption as a major or very severe obstacle.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/corruption).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -6898,7 +6885,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average losses as a result of theft, robbery, vandalism or arson that occurred on the establishment’s premises calculated as a percentage of annual sales. The value represents the average losses for all firms which reported losses (please se{p_end}
+{synopt:{opt Source Notes}}Percentage of firms with bank loans or line of credit.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -6934,14 +6921,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Time required to obtain operating license is the average wait to obtain an operating license from the day the establishment applied for it to the day it was granted.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms that trade identifying customs &amp; trade regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.DURS:IC.FRM.DURS} - Time required to obtain an operating license (days)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.DURS:IC.FRM.DURS} - Electricity (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -6982,7 +6969,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of skilled production workers{p_end}
+{synopt:{opt Source Notes}}Average number of permanent, full time workers.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7037,7 +7024,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.FEMO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FEMO.ZS:IC.FRM.FEMO.ZS} - Full time female workers (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.FEMO.ZS:IC.FRM.FEMO.ZS} - Firms with female participation in ownership (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7054,9 +7041,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Proportion of purchases of fixed assets that was financed from internal funds/retained earnings.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Notes}}Percentage of full-time workers that are female.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/finance).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7078,7 +7065,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms that use material inputs and/or supplies of foreign origin.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying access/cost of finance as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7090,7 +7077,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms that use material inputs and/or supplies of foreign origin.{p_end}
+{synopt:{opt Source Notes}}Firms formally registered when operations started are the percentage of firms formally registered when they started operations in the country.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7137,28 +7124,27 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Internationally-recognized quality certification is the percentage of firms having an internationally-recognized quality certification, i.e., International Organization for Standardization (ISO) 9000, 9002 or 14000.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.LBRG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBRG.ZS:IC.FRM.LBRG.ZS} - Labor regulations (% of firms identifying this as a major constraint)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBRG.ZS:IC.FRM.LBRG.ZS} - Labor skill level (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying labor skills as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.LBSK.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBSK.ZS:IC.FRM.LBSK.ZS} - Business Licensing and Permits (% of firms Identifying this as major constraint)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.LBSK.ZS:IC.FRM.LBSK.ZS} - Labor skill level (% of firms identifying this as a major constraint)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7199,9 +7185,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percent of firms that chose access to finance as the biggest obstacle faced by this establishment.  (Survey respondents were presented with a list of 15 potential obstacles.)   Source:World Bank, Enterprise Surveys Project(http://www.enterpris{p_end}
+{synopt:{opt Source Notes}}Years of experience of the top manager working in the firm's sector.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/CustomQuery).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7223,7 +7209,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of foreign ownership in private firms.  The ownership variables represent the average ownership composition within a firm. These variables do not represent the ownership composition across firms.{p_end}
+{synopt:{opt Source Notes}}Percentage of government or state ownership in private firms.  The ownership variables represent the average ownership composition within a firm. These variables do not represent the ownership composition across firms.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7247,7 +7233,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage held by largest owner or owners{p_end}
+{synopt:{opt Source Notes}}Percentage of domestic ownership in private firms. The ownership variables represent the average ownership composition within a firm. These variables do not represent the ownership composition across firms.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7259,9 +7245,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}A procedure is any interaction of the company’s employees or managers with external parties, including government agencies, notaries, the land registry, the cadastre, utility com­panies, public and private inspectors and technical experts a{p_end}
+{synopt:{opt Source Notes}}Percentage held by largest owner or owners{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7271,14 +7257,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}A procedure is any interaction of the company’s employees or managers with external parties, including government agencies, notaries, the land registry, the cadastre, utility com­panies, public and private inspectors and technical experts a{p_end}
+{synopt:{opt Source Notes}}The wait, in days, experienced to obtain an import license from the day the establishment applied for it to the day it was granted.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/regulations-and-taxes).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.FRM.REG.REG5}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG5:IC.FRM.REG.REG5} - Firms Formally Registered when Started Operations in the Country (% of firms)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.REG.REG5:IC.FRM.REG.REG5} - Percent of firms identifying tax administration as a major constraint}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7302,7 +7288,7 @@
 
 {synoptline}
 {marker sourceid_IC.FRM.RSDV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS} - Firms that spend on R&amp;D (% of firms)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS} - Firms Paying for Security (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7331,7 +7317,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Security costs is the average security costs as a percentage of total annual sales.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying tax administration as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7343,7 +7329,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms identifying tax administration as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying tax rates as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7415,7 +7401,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of firms using the web for communication with clients or suppliers.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms identifying transport as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
@@ -7429,7 +7415,7 @@
 
 {synopt:{opt Source Notes}}Percentage of firms using the web for communication with clients or suppliers.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/workforce).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7451,7 +7437,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Average number of years firms operated without formal registration. This indicator is computed only for the firms that did not have a formal registration when they started their operations in the country.{p_end}
+{synopt:{opt Source Notes}}This index ranks economies from 1 to 181, with first place being the best.  This looks into (a) procedures (b) time and (c) cost  required for a business in the construction industry to build a standardized warehouse and gives weight to each t{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -7463,9 +7449,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This index ranks economies from 1 to 181, with first place being the best.  This looks into (a) procedures (b) time and (c) cost  required for a business in the construction industry to build a standardized warehouse and gives weight to each t{p_end}
+{synopt:{opt Source Notes}}Percentage of establishments that consider that firms with characteristics similar to theirs are making informal payments or giving gifts to public officials to secure government contract.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7482,7 +7468,7 @@
 
 {synoptline}
 {marker sourceid_IC.GOV.DURS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.GOV.DURS.ZS:IC.GOV.DURS.ZS} - Time spent dealing with the requirements of government regulations (% of senior management time)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.GOV.DURS.ZS:IC.GOV.DURS.ZS} - Incidence of Graft index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7501,7 +7487,7 @@
 
 {synopt:{opt Source Notes}}Incidence of Graft Index is the proportion of instances in which firms were either expected or requested to pay a gift or informal payment over the number of total solicitations for public services, licenses or permits for that country.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -7547,7 +7533,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Cost is recorded as a percentage of the claim, assumed to be equivalent to 200% of income per capita. Only official costs required by law are recorded, including court and enforcement costs and average attorney fees where the use of attorneys{p_end}
+{synopt:{opt Source Notes}}This index ranks economies from 1 to 181, with first place being the best giving time, cost and procedures equal weight to each topic.  For more information, visit {browse "http://www.doingbusiness.org/MethodologySurveys/"}.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -7578,7 +7564,7 @@
 
 {synoptline}
 {marker sourceid_IC.LOAN.COL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.LOAN.COL.ZS:IC.LOAN.COL.ZS} - Loans requiring collateral (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.LOAN.COL.ZS:IC.LOAN.COL.ZS} - Expected to give gifts to get an Operating License (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7626,12 +7612,12 @@
 
 {synoptline}
 {marker sourceid_IC.PRP.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.PRP.XQ:IC.PRP.XQ} - Registering property (rank)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.PRP.XQ:IC.PRP.XQ} - Minimum capital for starting a business  (% of income per capita)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This index ranks economies from 1 to 181, with first place being the best. This gives (a) time (b) procedures and (c) cost equal weight to each topic.  For more information, visit {browse "http://www.doingbusiness.org/MethodologySurveys/"}.{p_end}
+{synopt:{opt Source Notes}}The paid-in minimum capital requirement reflects the amount that the entrepreneur needs to deposit in a bank or with a notary before registration and up to 3 months following in­corporation and is recorded as a percentage of the country’s i{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -7643,7 +7629,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
+{synopt:{opt Source Notes}}The paid-in minimum capital requirement reflects the amount that the entrepreneur needs to deposit in a bank or with a notary before registration and up to 3 months following in­corporation and is recorded as a percentage of the country’s i{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -7669,7 +7655,7 @@
 
 {synopt:{opt Source Notes}}This index averages the country's percentile rankings on: procedures, time, cost (% of income per capita) and minimum capital (% of income per capita){p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7679,9 +7665,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
+{synopt:{opt Source Notes}}Percentage of sales sold domestically.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
 
 
 {synoptline}
@@ -7705,7 +7691,7 @@
 
 {synopt:{opt Source Notes}}The total tax rate measures the amount of taxes and mandatory contributions payable by the business in the second year of operation, expressed as a share of commercial profits. Doing Business 2008 reports the total tax rate for fiscal 2006. Th{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -7734,7 +7720,7 @@
 
 {synoptline}
 {marker sourceid_IC.TAX.PAYM}
-{synopt:{bf:{help wbopendata_sourceid##IC.TAX.PAYM:IC.TAX.PAYM} - Paying taxes, profit tax (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.PAYM:IC.TAX.PAYM} - Tax payments (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7751,14 +7737,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total amount of taxes and mandatory contributions payable by the business.{p_end}
+{synopt:{opt Source Notes}}Profit tax is the amount of taxes on profits paid by the business.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.TAX.TOTL.GP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TAX.TOTL.GP.ZS:IC.TAX.TOTL.GP.ZS} - Paying taxes (rank)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.TOTL.GP.ZS:IC.TAX.TOTL.GP.ZS} - Total tax payable by businesses (% of gross profit)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7775,9 +7761,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Delay for firm in obtaining a telephone connection is the average actual delay in days that firms experience when obtaining a telephone connection, measured from the day the establishment applied to the day it received the service or approval.{p_end}
+{synopt:{opt Source Notes}}This index ranks economies from 1 to 181, with first place being the best.  This  assesses (a) number of payments (b) time spent to prepare taxes (c) labour taxes (d) other taxes and (e) taxes on profits and gives each topic equal weight.  For{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -7794,7 +7780,7 @@
 
 {synoptline}
 {marker sourceid_IC.TEL.GIFT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.TEL.GIFT.ZS:IC.TEL.GIFT.ZS} - Trading across borders (rank)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.TEL.GIFT.ZS:IC.TEL.GIFT.ZS} - Expected to give gifts to get a phone connection (% of firms)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -7861,7 +7847,7 @@
 
 {synopt:{opt Source Notes}}Percentage of firms expected to give gifts or an informal payment to get a water connection.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
 
 {synoptline}
@@ -7894,7 +7880,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Information and communications technology expenditures include computer hardware (computers, storage devices, printers, and other peripherals); computer software (operating systems, programming tools, utilities, applications, and internal soft{p_end}
 
@@ -7908,9 +7893,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Information and communications technology expenditures include computer hardware (computers, storage devices, printers, and other peripherals); computer software (operating systems, programming tools, utilities, applications, and internal soft{p_end}
+{synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
 
-{synopt:{opt Source Organization}}World Information Technology and Services Alliance, Digital Planet: The Global Information Economy, and Global Insight, Inc.{p_end}
+{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
 
 
 {synoptline}
@@ -7957,7 +7942,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Paved roads are those surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country's roads, measured in length.{p_end}
+{synopt:{opt Source Notes}}Goods transported by road are the volume of goods transported by road vehicles, measured in millions of metric tons times kilometers traveled.{p_end}
 
 {synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted.{p_end}
 
@@ -7968,8 +7953,9 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Passengers carried by road are the number of passengers transported by road times kilometers traveled.{p_end}
+{synopt:{opt Source Notes}}Paved roads are those surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country's roads, measured in length.{p_end}
 
 {synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted.{p_end}
 
@@ -8007,7 +7993,7 @@
 
 {synopt:{opt Source Notes}}Total road network includes motorways, highways, and main or national roads, secondary or regional roads, and all other roads in a country. A motorway is a road designed and built for motor traffic that separates the traffic flowing in opposit{p_end}
 
-{synopt:{opt Source Organization}}Internation Union of Railways (UIC){p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted.{p_end}
 
 
 {synoptline}
@@ -8028,7 +8014,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Motor vehicles include cars, buses, and freight vehicles but do not include two-wheelers. Population refers to midyear population in the year for which data are available.{p_end}
 
@@ -8041,10 +8026,11 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
-{synopt:{opt Source Notes}}Average total number of invented/nonsense words correctly read per minute. The indicator measures students' ability to fluently decipher/decode randomly-presented “words” that follow linguistic rules but do not actually exist in the stated{p_end}
+{synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
-{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): {browse "https://www.eddataglobal.org/reading/"}{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and data files.{p_end}
 
 
 {synoptline}
@@ -8053,7 +8039,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
 
@@ -8062,7 +8047,7 @@
 
 {synoptline}
 {marker sourceid_IT.CEL.SETS.P2}
-{synopt:{bf:{help wbopendata_sourceid##IT.CEL.SETS.P2:IT.CEL.SETS.P2} - Mobile phone subscribers (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CEL.SETS.P2:IT.CEL.SETS.P2} - Mobile cellular subscriptions (per 100 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8103,26 +8088,26 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data. The price of a three minute off-peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whet{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The price of a three minute peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whether{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.CELL.3MIN.CD.PK}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CD.PK:IT.CELL.3MIN.CD.PK} - Mobile cellular - price of 3-minute local call (off-peak rate - current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CD.PK:IT.CELL.3MIN.CD.PK} - Mobile cellular - price of 3-minute local call (peak rate - current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The price of a three minute off-peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whe{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The price of a three minute peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whether{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.CELL.3MIN.CN.OP}
-{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CN.OP:IT.CELL.3MIN.CN.OP} - Mobile cellular - price of 3-minute local call (off-peak rate - current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CELL.3MIN.CN.OP:IT.CELL.3MIN.CN.OP} - Mobile cellular - price of 3-minute local call (peak rate - current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8139,7 +8124,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The monthly subscription charge for mobile cellular service. Due to the variety of plans available in many countries, it is preferable to use the tariff{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The price of a three minute peak rate call from a mobile cellular telephone to a mobile cellular subscriber of the same network. A note indicates whether{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8163,7 +8148,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The monthly subscription charge for mobile cellular service. Due to the variety of plans available in many countries, it is preferable to use the tariff{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The initial, one-time charge for a new postpaid subscription. Refundable deposits should not be counted. Although some operators waive the connection cha{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8213,7 +8198,7 @@
 
 {synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The initial, one-time charge for a new postpaid subscription. Refundable deposits should not be counted. Although some operators waive the connection cha{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
@@ -8230,12 +8215,12 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.3MIN.CD.OP}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.OP:IT.MLT.3MIN.CD.OP} - Price of a 3-minute fixed telephone local call (off-peak rate - current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.3MIN.CD.OP:IT.MLT.3MIN.CD.OP} - Price of a 3-minute fixed telephone local call (peak rate - current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Local call refers to the cost of an off-peak rate 3-minute call within the same exchange area using the subscriber's own terminal (i.e., not from a publi{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Local call refers to the cost of peak rate 3-minute call within the same exchange area using the subscriber's own terminal (i.e., not from a public telep{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8259,7 +8244,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Local call refers to the cost of an off-peak rate 3-minute call within the same exchange area using the subscriber's own terminal (i.e., not from a publi{p_end}
+{synopt:{opt Source Notes}}Cost of international call to U.S. is the cost of a three-minute, peak rate, fixed line call from the country to the United States.{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8283,14 +8268,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Local call refers to the cost of peak rate 3-minute call within the same exchange area using the subscriber's own terminal (i.e., not from a public telep{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Installation (or connection) refers to the one-off charge involved in applying for business basic telephone service. Where there are different charges fo{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.MLT.BCONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BCONN.CD:IT.MLT.BCONN.CD} - Business telephone connection charge (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.BCONN.CD:IT.MLT.BCONN.CD} - Business telephone connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8338,7 +8323,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.CLCL.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CLCL.CD:IT.MLT.CLCL.CD} - Telephone average cost of local call (US$ per three minutes)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CLCL.CD:IT.MLT.CLCL.CD} - Residential telephone connection charge (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8350,7 +8335,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.CONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CONN.CD:IT.MLT.CONN.CD} - Residential telephone connection charge (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.CONN.CD:IT.MLT.CONN.CD} - Residential telephone connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8391,9 +8376,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Telephone faults cleared by next working day are the percentage of faults in the public switched telephone network that have been corrected by the end of the next working day.{p_end}
+{synopt:{opt Source Notes}}Telephone mainline faults is the number of reported telephone faults for the year per 100 telephone mainlines.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
@@ -8410,12 +8395,12 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.INVS.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.INVS.CD:IT.MLT.INVS.CD} - Fixed telephone service investment (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.INVS.CD:IT.MLT.INVS.CD} - Fixed telephone service investment (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Annual investment on equipment for fixed telephone service. This indicator is expressed in local currency.{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Annual investment on equipment for fixed telephone service. This indicator is expressed in US dollars.{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8427,9 +8412,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Annual investment on equipment for fixed telephone service. This indicator is expressed in local currency.{p_end}
+{synopt:{opt Source Notes}}Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fixed wireless local loop (WLL) subscriptions, ISDN voice-channel equivalents and fixed public payphones.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -8451,7 +8436,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data. Telephone mainlines are fixed telephone lines connecting a subscriber to the telephone exchange equipment.{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Revenue received from fixed telephone connection, subscription and calls.  This indicator is expressed in US dollars.{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8511,7 +8496,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Monthly subscription refers to the recurring fixed charge for subscribing to the PSTN. The charge should cover the rental of the line, but not the rental{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Percentage of population covered by mobile cellular telephony refers to the percentage of a country’s inhabitants that live within areas served by a mo{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8535,7 +8520,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Percentage of population covered by mobile cellular telephony refers to the percentage of a country’s inhabitants that live within areas served by a mo{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Annual investment on equipment for mobile communication networks. Data is in US dollar.{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8547,7 +8532,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Annual investment on equipment for mobile communication networks. Data is in US dollar.{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Annual investment on equipment for mobile communication networks. Data are in current local currency.{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8566,7 +8551,7 @@
 
 {synoptline}
 {marker sourceid_IT.MOB.REVN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.MOB.REVN.CD:IT.MOB.REVN.CD} - Revenue from mobile communication (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MOB.REVN.CD:IT.MOB.REVN.CD} - Revenue from mobile communication (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8585,12 +8570,12 @@
 
 {synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Revenues from the provision of all types of mobile communications services such cellular, private trunked radio and radio paging.  This indicator is expr{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.NET.BBND.P2}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.BBND.P2:IT.NET.BBND.P2} - Broadband subscribers (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.BBND.P2:IT.NET.BBND.P2} - Fixed broadband subscriptions (per 100 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8614,31 +8599,31 @@
 
 {synoptline}
 {marker sourceid_IT.NET.BNDW}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW:IT.NET.BNDW} - International Internet bandwidth (Mbps)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW:IT.NET.BNDW} - International Internet bandwidth (bits per person)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}International Internet bandwidth is the contracted capacity of international connections between countries for transmitting Internet traffic.{p_end}
+{synopt:{opt Source Notes}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and TeleGeography.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.NET.BNDW.PC}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW.PC:IT.NET.BNDW.PC} - Fixed broadband Internet connection charge (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.BNDW.PC:IT.NET.BNDW.PC} - International Internet bandwidth (bits per person)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Fixed (Wired) broadband Internet connection charge is the initial, one-time charge for a new fixed (wired)  broadband Internet connection. The tariffs should represent the cheapest fixed (wired) broadband entry plan. Refundable deposits should{p_end}
+{synopt:{opt Source Notes}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.NET.CONN.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.CONN.CD:IT.NET.CONN.CD} - Fixed broadband Internet connection charge (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.CONN.CD:IT.NET.CONN.CD} - Fixed broadband Internet connection charge (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8655,9 +8640,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey.{p_end}
+{synopt:{opt Source Notes}}Fixed (Wired) broadband Internet connection charge is the initial, one-time charge for a new fixed (wired)  broadband Internet connection. The tariffs should represent the cheapest fixed (wired) broadband entry plan. Refundable deposits should{p_end}
 
-{synopt:{opt Source Organization}}Netcraft ({browse "http://www.netcraft.com/"}){p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
@@ -8691,9 +8676,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Internet users are people with access to the worldwide network.{p_end}
+{synopt:{opt Source Notes}}Fixed (Wired) broadband Internet monthly subscription is the monthly subscription charge for fixed (wired) broadband Internet service. Fixed (wired) broadband is considered any dedicated connection to the Internet at downstream speeds equal to{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
@@ -8739,14 +8724,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Internet users are people with access to the worldwide network.{p_end}
+{synopt:{opt Source Notes}}Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.NET.USER.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER.ZS:IT.NET.USER.ZS} - Public payphones}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER.ZS:IT.NET.USER.ZS} - Individuals using the Internet (% of population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8775,7 +8760,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Total number of all types of public telephones, including coin- and card-operated and public telephones in call offices. Publicly available phones instal{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.    The proportion of households with a computer is calculated by dividing the number of in-scope households with a computer by the total number of inscope{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8806,12 +8791,12 @@
 
 {synoptline}
 {marker sourceid_IT.RAD.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.RAD.HOUS.ZS:IT.RAD.HOUS.ZS} - Households with a radio (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.RAD.HOUS.ZS:IT.RAD.HOUS.ZS} - Number of radio sets}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The proportion of households with a radio is calculated by dividing the number of in-scope households with a radio by the total number of inscope Househo{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The total number of radio sets. A radio set is a device capable of receiving broadcast radio signals, using popular frequencies, such as FM, AM, LW and S{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8823,7 +8808,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Radio sets per 1000 inhabitants is obtained by dividing the number of radio sets in use by the population and multiplying by 1000.{p_end}
+{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  The total number of radio sets. A radio set is a device capable of receiving broadcast radio signals, using popular frequencies, such as FM, AM, LW and S{p_end}
 
 {synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
@@ -8842,7 +8827,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.EMPL.TO}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.EMPL.TO:IT.TEL.EMPL.TO} - Telephone employees, total}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.EMPL.TO:IT.TEL.EMPL.TO} - Households with a telephone (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -8859,9 +8844,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  This percentage is obtained by dividing the number of main (fixed) lines serving households (i.e., lines which are not used for business, government or o{p_end}
+{synopt:{opt Source Notes}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -8871,9 +8856,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Telecommunications investment refers to the expenditure associated with acquiring the ownership of telecommunication equipment infrastructure (including supporting land and buildings and intellectual and non-tangible property such as computer{p_end}
+{synopt:{opt Source Notes}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -8895,7 +8880,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
@@ -8911,7 +8895,7 @@
 
 {synopt:{opt Source Notes}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -8969,6 +8953,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Fixed line and mobile cellular subscriptions are total telephone subscriptions (fixed line plus mobile). Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fi{p_end}
 
@@ -8994,14 +8979,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}They are aggregated from the following Standard International Trade Classification (SITC) subgroupings: (1) 764.1 Electrical apparatus for line telephony or line telegraphy (including such apparatus for carrier-current line systems). Telephone{p_end}
+{synopt:{opt Source Notes}}Unmet demand is unmet applications for connection to the public switched telephone network that have had to be held over owing to a lack of technical facilities (equipment, lines, and the like) divided by the number of main telephone lines in{p_end}
 
-{synopt:{opt Source Organization}}The  United Nations.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
 {marker sourceid_IT.TELC.IM.CD}
-{synopt:{bf:{help wbopendata_sourceid##IT.TELC.IM.CD:IT.TELC.IM.CD} - Telecommunication equipment - export (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TELC.IM.CD:IT.TELC.IM.CD} - Telecommunication equipment - import (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9020,7 +9005,7 @@
 
 {synopt:{opt Source Notes}}They are aggregated from the following Standard International Trade Classification (SITC) subgroupings: (1) 764.1 Electrical apparatus for line telephony or line telegraphy (including such apparatus for carrier-current line systems). Telephone{p_end}
 
-{synopt:{opt Source Organization}}The United Nations.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database, and World Bank estimates.{p_end}
 
 
 {synoptline}
@@ -9050,7 +9035,7 @@
 
 {synoptline}
 {marker sourceid_LO.SACMEQ.REA.L4.FE}
-{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.REA.L4.FE:LO.SACMEQ.REA.L4.FE} - SACMEQ: Female 6th grade students by reading proficiency level (%). Level 4 - Reading for Meaning}}
+{synopt:{bf:{help wbopendata_sourceid##LO.SACMEQ.REA.L4.FE:LO.SACMEQ.REA.L4.FE} - Gross public investment (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9062,7 +9047,7 @@
 
 {synoptline}
 {marker sourceid_LP.LPI.LOGS.XQ}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ} - Logistics performance index: Competence and quality of logistics services (1=low to 5=high)}}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.LOGS.XQ:LP.LPI.LOGS.XQ} - Discrepancy in expenditure estimate of GDP (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9086,12 +9071,12 @@
 
 {synoptline}
 {marker sourceid_MO.INDEX.ECON.XQ}
-{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.ECON.XQ:MO.INDEX.ECON.XQ} - Sustainable Economic Opportunity}}
+{synopt:{bf:{help wbopendata_sourceid##MO.INDEX.ECON.XQ:MO.INDEX.ECON.XQ} - Human Development}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public Management:  Within this subcategory the Ibrahim Index measures: (i) Quality of Public Administration – clustered indicator (average) of variables from the African Development Bank and the World Bank measuring the extent to which the{p_end}
+{synopt:{opt Source Notes}}Health and Welfare: Within this sub-category the Ibrahim Index measures: (i) Incidence of TB – incidence of new cases of Tuberculosis. (ii) Child Mortality – likelihood that a newborn baby will die before the age of five, assuming that he/{p_end}
 
 {synopt:{opt Source Organization}}Mo Ibrahim Foundation, electronic files and web site.{p_end}
 
@@ -9115,7 +9100,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Personal Safety:  Within this sub-category the Ibrahim Index measures: (i) Safety of the Person – level of criminality in a country. (ii) Violent Crime – prevalence of violent crime, both organised and common. (iii) Social Unrest – preva{p_end}
+{synopt:{opt Source Notes}}Participation: Within this sub-category the Ibrahim Index measures: (i) Political Participation – extent to which citizens have relevant information and the freedom to participate in the political process. (ii) Effective Power to Govern –{p_end}
 
 {synopt:{opt Source Organization}}Mo Ibrahim Foundation, electronic files and web site.{p_end}
 
@@ -9127,7 +9112,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Measures overall index on (a) Safety and rule of law (b) Participation and human rights (c) Sustainable Economic  opportunity and (d) Human development.{p_end}
+{synopt:{opt Source Notes}}Personal Safety:  Within this sub-category the Ibrahim Index measures: (i) Safety of the Person – level of criminality in a country. (ii) Violent Crime – prevalence of violent crime, both organised and common. (iii) Social Unrest – preva{p_end}
 
 {synopt:{opt Source Organization}}Mo Ibrahim Foundation, electronic files and web site.{p_end}
 
@@ -9139,14 +9124,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report personally using a mobile money service in the past 12 months{p_end}
+{synopt:{opt Source Notes}}Measures overall index on (a) Safety and rule of law (b) Participation and human rights (c) Sustainable Economic  opportunity and (d) Human development.{p_end}
 
-{synopt:{opt Source Organization}}Global Findex database{p_end}
+{synopt:{opt Source Organization}}Mo Ibrahim Foundation, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker sourceid_NE.CON.GOVT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.GOVT.ZS:NE.CON.GOVT.ZS} - General government final consumption expenditure (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.GOVT.ZS:NE.CON.GOVT.ZS} - Final consumption expenditure plus discrepancy, per capita (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9206,7 +9191,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.EXPT.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.EXPT.CR:NE.GDI.EXPT.CR} - GDP expenditure on exports (in IDR Million)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.EXPT.CR:NE.GDI.EXPT.CR} - GDFI - central government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9218,7 +9203,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FCGV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.CD:NE.GDI.FCGV.CD} - GDFI - central government (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FCGV.CD:NE.GDI.FCGV.CD} - GDFI - central government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9247,9 +9232,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross domestic fixed investment includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private r{p_end}
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -9259,14 +9244,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}General government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
+{synopt:{opt Source Notes}}Central government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NE.GDI.FGOV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.CD:NE.GDI.FGOV.CD} - GDFI - general government (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.CD:NE.GDI.FGOV.CD} - GDFI - general government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9283,7 +9268,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}General government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9309,7 +9294,7 @@
 
 {synopt:{opt Source Notes}}General government’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -9326,14 +9311,14 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FLGV.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.CD:NE.GDI.FLGV.CD} - GDFI - state and local government (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FLGV.CD:NE.GDI.FLGV.CD} - GDFI - state and local government (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
 {synopt:{opt Source Notes}}State and local governments’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixe{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -9367,7 +9352,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public sector’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets. Dat{p_end}
+{synopt:{opt Source Notes}}Public sector’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets.  Da{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9386,12 +9371,12 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FPBE.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.KN:NE.GDI.FPBE.KN} - GDFI - private (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPBE.KN:NE.GDI.FPBE.KN} - GDFI - public enterprises (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Private sector’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets.  D{p_end}
+{synopt:{opt Source Notes}}Public sector’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets. Dat{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9439,7 +9424,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Private investment covers gross outlays by the private sector (including private nonprofit agencies) on additions to its fixed domestic assets.{p_end}
+{synopt:{opt Source Notes}}Private sector’s gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets.  D{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9463,7 +9448,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public investment covers gross outlays by the public sector on additions to its fixed domestic assets.{p_end}
+{synopt:{opt Source Notes}}Public sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets meas{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -9475,14 +9460,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public investment covers gross outlays by the public sector on additions to its fixed domestic assets.{p_end}
+{synopt:{opt Source Notes}}Public sectors’ gross domestic fixed investment (gross fixed capital formation) comprises all additions to the stocks of fixed assets (purchases and own-account capital formation), less any sales of second-hand and scrapped fixed assets meas{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NE.GDI.FPUB.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KD:NE.GDI.FPUB.KD} - GDFI - public sector (constant 2000 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FPUB.KD:NE.GDI.FPUB.KD} - GDFI - public sector (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9573,7 +9558,7 @@
 
 {synopt:{opt Source Notes}}Changes in stocks/inventories of private sector comprises the value of the physical changes in stocks of raw materials, work-in-progress (excluding work put in place on structures, roads and other construction projects), and finished goods hel{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -9595,14 +9580,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Changes in stocks/inventories of private sector comprises the value of the physical changes in stocks of raw materials, work-in-progress (excluding work put in place on structures, roads and other construction projects), and finished goods hel{p_end}
+{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NE.IMP.GNFS.KN.87.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NE.IMP.GNFS.KN.87.ZG:NE.IMP.GNFS.KN.87.ZG} - Imports of goods and services (annual % growth)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.IMP.GNFS.KN.87.ZG:NE.IMP.GNFS.KN.87.ZG} - Import price index (goods and services 2000=100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9674,7 +9659,7 @@
 
 {synoptline}
 {marker sourceid_NE.TRD.GNFS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NE.TRD.GNFS.ZS:NE.TRD.GNFS.ZS} - Trade (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.TRD.GNFS.ZS:NE.TRD.GNFS.ZS} - Terms of trade index (2000=100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9710,7 +9695,7 @@
 
 {synoptline}
 {marker sourceid_NV.AGR.EMPL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.EMPL.KD:NV.AGR.EMPL.KD} - Agriculture, forestry, and fishing, value added per worker (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.AGR.EMPL.KD:NV.AGR.EMPL.KD} - Real agricultural GDP per capita growth rate (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9758,7 +9743,7 @@
 
 {synoptline}
 {marker sourceid_NV.FSM.TOTL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.FSM.TOTL.KN:NV.FSM.TOTL.KN} - Financial intermediary services indirectly Measured (FISIM) (constant LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.FSM.TOTL.KN:NV.FSM.TOTL.KN} - Construction, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9801,7 +9786,7 @@
 
 {synopt:{opt Source Notes}}Value added in construction is defined as the value of output of the construction industry less the value of intermediate consumption (intermediate inputs). Construction is a subset of industry (ISIC 45). Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Derived using World Bank national accounts data and OECD National Accounts data files, and employment data from International Labour Organization, ILOSTAT database.{p_end}
 
 
 {synoptline}
@@ -9818,7 +9803,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.GELW.CD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.CD:NV.IND.GELW.CD} - Electricity, gas and water supply, value added (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.GELW.CD:NV.IND.GELW.CD} - Electricity, gas and water supply, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9854,7 +9839,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MANF.KN.87.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.87.ZG:NV.IND.MANF.KN.87.ZG} - Value added, manufacturing growth rate (%)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.87.ZG:NV.IND.MANF.KN.87.ZG} - Manufacturing, value added (annual % growth)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9873,12 +9858,12 @@
 
 {synopt:{opt Source Notes}}This is the annual rate of growth of value added in manufacturing.  Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_NV.IND.MANF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.ZS:NV.IND.MANF.ZS} - Manufacturing, value added (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.ZS:NV.IND.MANF.ZS} - Mining and quarrying, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9902,7 +9887,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MINQ.CN}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.CN:NV.IND.MINQ.CN} - Mining and quarrying, value added (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MINQ.CN:NV.IND.MINQ.CN} - Value added, mining and quarrying (constant 2000 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9938,7 +9923,7 @@
 
 {synoptline}
 {marker sourceid_NV.MNF.TXTL.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##NV.MNF.TXTL.ZS.UN:NV.MNF.TXTL.ZS.UN} - Textiles and clothing (% of value added in manufacturing)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.MNF.TXTL.ZS.UN:NV.MNF.TXTL.ZS.UN} - Public administration and defence, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -9979,7 +9964,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Value added in banking is defined as the value of output of the banking industry less the value of intermediate consumption (intermediate inputs). Banking is a subset of services, comprising financial intermediation (ISIC 65-67). Data are in c{p_end}
+{synopt:{opt Source Notes}}Value added in public administration and defense is defined as the value of output of the public administration and defense industries less the value of intermediate consumption (intermediate inputs). Public administration and defense is a sub{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -10015,7 +10000,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This is the discrepancy included in the value added of services, etc. Covered here are any discrepancies noted by national compilers as well as discrepancies arising from linking new and old series in the World Bank data base. Data are in curr{p_end}
+{synopt:{opt Source Notes}}Value added in banking is defined as the value of output of the banking industry less the value of intermediate consumption (intermediate inputs). Banking is a subset of services, comprising financial intermediation (ISIC 65-67). Data are in c{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -10075,7 +10060,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Value added in dwellings is defined as the imputed value of output of owner occupied dwellings less the value of intermediate consumption (intermediate inputs). Dwellings is a subset of services (part of ISIC 70). Data are in current local cur{p_end}
+{synopt:{opt Source Notes}}Value added in dwellings is defined as the imputed value of output of owner occupied dwellings less the value of intermediate consumption (intermediate inputs). Dwellings is a subset of services (part of ISIC 70). Data are in constant local cu{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -10094,7 +10079,7 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.EMPL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.EMPL.KD:NV.SRV.EMPL.KD} - Services, value added per worker (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.EMPL.KD:NV.SRV.EMPL.KD} - Other services, value added (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10202,12 +10187,12 @@
 
 {synoptline}
 {marker sourceid_NV.SRV.TRAD.KN}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.KN:NV.SRV.TRAD.KN} - Transportation, storage and communication, value added (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TRAD.KN:NV.SRV.TRAD.KN} - Wholesale and retail trade, value added (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Value added in transport is defined as the value of output of the transport industry less the value of intermediate consumption (intermediate inputs). Transport is a subset of services, comprising transport, storage and communications (ISIC 60{p_end}
+{synopt:{opt Source Notes}}Value added in trade is defined as the value of output of the trade industry less the value of intermediate consumption (intermediate inputs). Trade is a subset of services, comprising wholesale and retail trade, and hotel and restaurants (ISI{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -10249,25 +10234,13 @@
 
 
 {synoptline}
-{marker sourceid_NY.GDP.DEFL.ZS.AD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.DEFL.ZS.AD:NY.GDP.DEFL.ZS.AD} - Debt on Non-concessional terms to export ratio (% of exports)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Non-concessional LDOD conveys information about the borrower's receipt of aid from official lenders on non-concessional terms as defined by the Development Assistance Committee (DAC) of the OECD. Concessional debt is defined as loans with an o{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
-
-
-{synoptline}
 {marker sourceid_NY.GDP.DISC.CD}
 {synopt:{bf:{help wbopendata_sourceid##NY.GDP.DISC.CD:NY.GDP.DISC.CD} - Discrepancy in expenditure estimate of GDP (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Discrepancy in expenditure estimate of GDP is the discrepancy included in final consumption expenditure, etc. (total consumption, etc.). This discrepancy is included to ensure that GDP from the expenditure side equals GDP measured by the incom{p_end}
+{synopt:{opt Source Notes}}This is the discrepancy included in the ‘total consumption etc.' This discrepancy is included to ensures that GDP from the expenditure side equals GDP measured by the income or output approach. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -10291,9 +10264,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreci{p_end}
+{synopt:{opt Source Notes}}The GDP deflator series based upon the U.S. dollar series is defined as the ratio of the GDP at market prices in current U.S. dollars) to the GDP at market prices in constant (2000) U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10339,14 +10312,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency. The base year varies by country.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NY.GDP.PCAP.PP.KD.87}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD.87:NY.GDP.PCAP.PP.KD.87} - GDP per capita, PPP (constant 1987 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD.87:NY.GDP.PCAP.PP.KD.87} - GDP per capita, PPP annual growth (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10387,7 +10360,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Private sector’s gross domestic saving is derived as value added in private sector at factor cost less private consumption, etc. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Private sector’s gross domestic saving is derived as value added in private sector at factor cost less private consumption, etc. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -10411,9 +10384,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Public sector’s gross domestic saving is derived as value added in public sector at factor cost plus all indirect taxes, net less general government consumption expenditure. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Private sector’s gross domestic saving is derived as value added in private sector at factor cost less private consumption, etc. Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
@@ -10430,7 +10403,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDS.PUBL.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.CN:NY.GDS.PUBL.CN} - Gross domestic savings, public (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDS.PUBL.CN:NY.GDS.PUBL.CN} - Gross domestic savings, public (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10495,7 +10468,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross national savings, including net current transfers is equal to gross domestic savings plus net income and net current transfers from abroad. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Gross national savings including net current transfers is equal to gross domestic savings plus net income and net current transfers from abroad. Data are in constant 2000 U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -10514,7 +10487,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.ICTR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.ICTR.ZS:NY.GNS.ICTR.ZS} - Gross national savings, private (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.ICTR.ZS:NY.GNS.ICTR.ZS} - Gross savings (% of GDP)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10526,26 +10499,26 @@
 
 {synoptline}
 {marker sourceid_NY.GNS.PRVT.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CD:NY.GNS.PRVT.CD} - Gross national savings, private (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CD:NY.GNS.PRVT.CD} - Gross national savings, private (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross saving real in private sector is derived as gross disposable income REAL in private sector less private consumption expenditure. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Gross saving real in private sector is derived as gross disposable income REAL in private sector less private consumption expenditure. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_NY.GNS.PRVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CN:NY.GNS.PRVT.CN} - Gross national savings, private (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNS.PRVT.CN:NY.GNS.PRVT.CN} - Gross national savings, private (constant LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross saving real in private sector is derived as gross disposable income REAL in private sector less private consumption expenditure. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Gross saving real in private sector is derived as gross disposable income REAL in private sector less private consumption expenditure. Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10555,7 +10528,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross saving real in private sector is derived as gross disposable income REAL in private sector less private consumption expenditure. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Gross saving in public sector is derived as gross disposable income in public sector less government final consumption expenditure. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -10567,9 +10540,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross saving in public sector is derived as gross disposable income in public sector less government final consumption expenditure. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Gross saving in public sector is derived as gross disposable income in public sector less government final consumption expenditure. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10579,9 +10552,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross saving in public sector is derived as gross disposable income in public sector less government final consumption expenditure. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Gross saving in public sector is derived as gross disposable income in public sector less government final consumption expenditure. Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10593,7 +10566,7 @@
 
 {synopt:{opt Source Notes}}Gross saving in public sector is derived as gross disposable income in public sector less government final consumption expenditure. Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10627,14 +10600,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Gross national income is derived as the sum of GNP and the terms of trade adjustment. Data are in constant 2000 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Gross national income is derived as the sum of GNP and the terms of trade adjustment. Data are in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NY.GNY.TOTL.KD.87}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KD.87:NY.GNY.TOTL.KD.87} - Gross national income (constant LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KD.87:NY.GNY.TOTL.KD.87} - Gross national income (constant 1987 US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10677,7 +10650,7 @@
 
 {synopt:{opt Source Notes}}Taxes are compulsory, unrequited payments made by institutional units to government units. Indirect taxes consists of ‘taxes on products’ payable on goods and services when they are produced, delivered, sold, transferred or otherwise dispo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10694,7 +10667,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.NIND.KN.87}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.NIND.KN.87:NY.TAX.NIND.KN.87} - Subsidies (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.NIND.KN.87:NY.TAX.NIND.KN.87} - Net indirect taxes (constant 1987 LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10713,7 +10686,7 @@
 
 {synopt:{opt Source Notes}}Subsidies are current unrequited payments that government units make to enterprises, resident producers and importers. Subsidies may be designed to influence enterprises level or type of production, or the prices at which the products are sold{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -10730,7 +10703,7 @@
 
 {synoptline}
 {marker sourceid_PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN:PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN} - Official exchange rate (LCU per US$, end period)}}
+{synopt:{bf:{help wbopendata_sourceid##PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN:PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN} - Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) - Score}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10765,18 +10738,6 @@
 
 
 {synoptline}
-{marker sourceid_PRJ.ATT.2064.4.MF}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2064.4.MF:PRJ.ATT.2064.4.MF} - PDI-3 Government budget estimates comprehensive and realistic (percent)Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
 {marker sourceid_PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614}
 {synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614} - PDI-1 Country with operational national development strategies (rating)}}
 
@@ -10795,7 +10756,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
+{synopt:{opt Source Notes}}Encourage shared analysis on field missions work including diagnostic reviews that are joint.  Donor co-ordinated missions focuses only on the proportion of (i) missions undertaken jointly by two or more donors, or (ii) missions undertaken by{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10807,7 +10768,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Encourage shared analysis on field missions work including diagnostic reviews that are joint.  Donor co-ordinated missions focuses only on the proportion of (i) missions undertaken jointly by two or more donors, or (ii) missions undertaken by{p_end}
+{synopt:{opt Source Notes}}Encourage shared analysis on country analytic work including diagnostic reviews that are joint.  (i) Country analytic work undertaken by one or more donors jointly; (ii) Country analytic work undertaken by one donor on behalf of another donor{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10843,7 +10804,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The concept of mutual accountability is an important innovation of the Paris Declaration.  It develops the idea that aid is more effective when both donors and partner governments are accountable to their respective publics for the use of reso{p_end}
+{synopt:{opt Source Notes}}This rating is the World Bank's annual Country Policy and Institutional Assessment ratings (CPIA sub-component 13) for the quality of budgetary and financial management.  This scale runs from 1 to 5 with 1 the worst and 5 the best.  The focus{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10855,7 +10816,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This rating is the World Bank's annual Country Policy and Institutional Assessment ratings (CPIA sub-component 13) for the quality of budgetary and financial management.  This scale runs from 1 to 5 with 1 the worst and 5 the best.  The focus{p_end}
+{synopt:{opt Source Notes}}The focus is on the degree to which existing systems adhere to broadly accepted good practices or there is a reform programme in place to promote improved practices. Reliable procurement systems are based on the common benchmarking and assessm{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10869,17 +10830,17 @@
 
 {synopt:{opt Source Notes}}The focus is on the degree to which existing systems adhere to broadly accepted good practices or there is a reform programme in place to promote improved practices. Reliable procurement systems are based on the common benchmarking and assessm{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
+{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND3.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND3.ALLD.ZS:PRT.PDCL.IND3.ALLD.ZS} - PDI-4 Technical assistance aligned and co-ordinated with country programmes (percent)}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND3.ALLD.ZS:PRT.PDCL.IND3.ALLD.ZS} - PDI-3 Government budget estimates comprehensive and realistic (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Donor capacity-development support provided through co-ordinated programmes are consistent with country's development strategies.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each r{p_end}
+{synopt:{opt Source Notes}}The objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10915,7 +10876,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Indicator 6 is a count of parallel project implementation units (PIUs), where{p_end}
+{synopt:{opt Source Notes}}Donors and aid flows that use country's procurement systems that either (a) adhere to broadly good practices or (b) have a reform programme in place to achieve these.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monito{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10946,12 +10907,12 @@
 
 {synoptline}
 {marker sourceid_PRT.PDCL.IND8.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND8.ALLD.ZS:PRT.PDCL.IND8.ALLD.ZS} - PDI-9 Aid provided in the framework of programme-based appproaches (%)}}
+{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND8.ALLD.ZS:PRT.PDCL.IND8.ALLD.ZS} - PDI-8 Bilateral aid that is untied (percent)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Aid provided in the framework of programme-based approaches (PBAs) are a way of engaging in development co-operation based on the principles of co-ordinated support for  a locally owned programme of development, such as a national development{p_end}
+{synopt:{opt Source Notes}}Tied aid is aid provided on the condition that the recipient uses it to purchase goods and services from suppliers based in the donor country. The target for this indicator is to increase untied aid over time.{p_end}
 
 {synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
 
@@ -10987,14 +10948,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Manufactures unit value index (percentage change) is calculated as the annual percentage change of a weighted unit value index of exports of manufactures by industrial countries.{p_end}
+{synopt:{opt Source Notes}}Manufactures unit value index is a weighted unit value index of exports of manufactures by industrial countries.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, IECAP.{p_end}
+{synopt:{opt Source Organization}}World Bank, IECAP{p_end}
 
 
 {synoptline}
 {marker sourceid_PX.MUV.TOTL.XU}
-{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL.XU:PX.MUV.TOTL.XU} - Manufactured exports unit value (MUV) index (% change)}}
+{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL.XU:PX.MUV.TOTL.XU} - Real effective exchange rate index (line rec, 2005 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11018,7 +10979,7 @@
 
 {synoptline}
 {marker sourceid_SE.XPD.PRIM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS} - Spending on teaching materials, primary (% of primary expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS} - Expenditure on primary education (% of government expenditure on education)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11058,7 +11019,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
@@ -11079,7 +11039,7 @@
 
 {synoptline}
 {marker sourceid_SH.DYN.AIDS.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS} - Women's share of population ages 15+ living with HIV (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS} - HIV prevalence rate, adult 15-49 years (%; high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11096,7 +11056,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of HIV refers to the percentage of people ages 15-49 who are infected with HIV based on a high estimate.{p_end}
+{synopt:{opt Source Notes}}Prevalence of HIV refers to the percentage of people ages 15-49 who are infected with HIV based on a low estimate.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
@@ -11108,9 +11068,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of HIV refers to the percentage of people ages 15-49 who are infected with HIV.{p_end}
+{synopt:{opt Source Notes}}Prevalence of HIV refers to the percentage of people ages 15-49 who are infected with HIV based on a low estimate.{p_end}
 
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+{synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
 
 {synoptline}
@@ -11131,6 +11091,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
@@ -11146,7 +11107,7 @@
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes{p_end}
+{synopt:{opt Source Organization}}Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -11180,9 +11141,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of HIV, female is the percentage of females who are infected with HIV. Youth rates are as a percentage of the relevant age group.{p_end}
+{synopt:{opt Source Notes}}Prevalence of HIV, female refers to the percentage of females ages 15-24 who are infected with HIV based the low estimate.{p_end}
 
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+{synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
 
 {synoptline}
@@ -11216,14 +11177,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of HIV, male is the percentage of males who are infected with HIV. Youth rates are as a percentage of the relevant age group.{p_end}
+{synopt:{opt Source Notes}}Prevalence of HIV, male refers to the percentage of females ages 15-24 who are infected with HIV based the low estimate.{p_end}
 
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+{synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.HIV.ARTC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS} - Antiretroviral therapy coverage (% of people living with HIV)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS} - AIDS deaths in adults and children (high estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11235,7 +11196,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.DTS.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.HG.NUM:SH.HIV.DTS.HG.NUM} - AIDS deaths in adults and children (high estimate)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.DTS.HG.NUM:SH.HIV.DTS.HG.NUM} - AIDS deaths in adults and children (low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11264,9 +11225,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Number of adults (ages 15+) newly infected with HIV.{p_end}
+{synopt:{opt Source Notes}}Deaths due to HIV/AIDS are the estimated number of adults and children that have died in a specific year based in the modeling of HIV surveillance data using standard and appropriate tools.{p_end}
 
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+{synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
 
 {synoptline}
@@ -11300,14 +11261,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Estimated number of children (0-14 years) newly infected with HIV.{p_end}
+{synopt:{opt Source Notes}}Estimated number of children (0-14 years) newly infected with HIV, low estimate.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.HIV.NEW.0014.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.NUM:SH.HIV.NEW.0014.NUM} - New HIV infections (0-14 years)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.NEW.0014.NUM:SH.HIV.NEW.0014.NUM} - New HIV infections, high estimate}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11324,7 +11285,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Estimated number of people newly infected with HIV, low estimate.{p_end}
+{synopt:{opt Source Notes}}Estimated number of people newly infected with HIV, high estimate.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
@@ -11336,7 +11297,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Estimated number of people newly infected with HIV, low estimate.{p_end}
+{synopt:{opt Source Notes}}Estimated number of people newly infected with HIV.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
@@ -11348,7 +11309,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}AIDS orphans are the estimated number of children who have lost their mother or both parents to AIDS before age 17 since the epidemic began in 1990. Some of the orphaned children included in this cumulative total are no longer alive; others ar{p_end}
+{synopt:{opt Source Notes}}Estimated number of people newly infected with HIV.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
@@ -11384,7 +11345,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Number of children orphaned by HIV/AIDS is the estimated number of children who have lost their mother or both parents to AIDS before age 15 since the epidemic began. Some of the orphaned children included in this cumulative total are no longe{p_end}
+{synopt:{opt Source Notes}}AIDS orphans are the estimated number of children who have lost their mother or both parents to AIDS before age 17 since the epidemic began in 1990. Some of the orphaned children included in this cumulative total are no longer alive; others ar{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
 
@@ -11444,9 +11405,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Adults and children living with HIV refers to the number of people ages 0-49 (adult ages 15-49 and children ages 0-14) who are infected with HIV.{p_end}
+{synopt:{opt Source Notes}}Percentage of HIV-infected pregnant women who received antiretrovirals to reduce the risk of mother-to-child transmission.  Numerator: Number of HIV-infected pregnant women who received antiretrovirals during the last 12 months to reduce mothe{p_end}
 
-{synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
+{synopt:{opt Source Organization}}{browse "http://data.unaids.org/pub/GlobalReport/2008/"}{p_end}
 
 
 {synoptline}
@@ -11463,7 +11424,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.TOTL.HG.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.HG.NUM:SH.HIV.TOTL.HG.NUM} - People living with HIV/AIDS, total (high estimate)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.HG.NUM:SH.HIV.TOTL.HG.NUM} - People living with HIV/AIDS, total (low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11475,7 +11436,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.TOTL.LW.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.LW.NUM:SH.HIV.TOTL.LW.NUM} - People living with HIV/AIDS, total}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.TOTL.LW.NUM:SH.HIV.TOTL.LW.NUM} - People living with HIV/AIDS, total (low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11516,7 +11477,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Number of clinical malaria cases reported are the sum of cases confirmed by slide examination or RDT and probable and unconfirmed cases (cases that were not tested but treated as malaria). NMCPs often collect data on the number of suspected ca{p_end}
+{synopt:{opt Source Notes}}Malaria mortality is the percentage of deaths due to malaria among children under five years.  Malaria was the underlying cause of death, that is, the disease which initiated the train of morbid events leading directly to death. This is the di{p_end}
 
 {synopt:{opt Source Organization}}World Health Organisation.{p_end}
 
@@ -11528,9 +11489,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Malaria mortality is the percentage of deaths due to malaria among children under five years.  Malaria was the underlying cause of death, that is, the disease which initiated the train of morbid events leading directly to death. This is the di{p_end}
+{synopt:{opt Source Notes}}Reported malaria deaths include all deaths in health facilities that are attributed to malaria, whether or not confirmed by microscopy or by RDT.   Deaths reported before 2000 can be probable and confirmed or only confirmed deaths depending on{p_end}
 
-{synopt:{opt Source Organization}}World Health Organisation.{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Malaria Programme ({browse "http://www.who.int/malaria/world_malaria_report_2009/all_mal2009_annexes.pdf"}){p_end}
 
 
 {synoptline}
@@ -11564,9 +11525,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of households owning at least one insecticide-treated bednet (ITN).{p_end}
+{synopt:{opt Source Notes}}Mosquito net use by children: Percentage of children under age five years who slept under any mosquito net (treated or untreated), and an insecticide-treated net (ITN) the night before the survey.{p_end}
 
-{synopt:{opt Source Organization}}DHS, MICS, MIS or MoH surveys.{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
@@ -11672,19 +11633,19 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The estimated number of deaths attributable to tuberculosis (TB) in a given time period.{p_end}
+{synopt:{opt Source Notes}}The number of cases of tuberculosis (all forms) in a population at a given point in time (the middle of the calendar year), expressed as the rate per 100 000 population. It is sometimes referred to as point prevalence. Estimates include cases{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Control Report.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.TBS.PREV}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV:SH.TBS.PREV} - Tuberculosis prevalence rate, high uncertainty bound (per 1000,000 population, WHO)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV:SH.TBS.PREV} - Tuberculosis prevalence rate (per 1000,000 population, WHO)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The number of cases of tuberculosis (all forms) in a population at a given point in time (the middle of the calendar year), expressed as the rate per 100 000 population. It is sometimes referred to as point prevalence high uncertainty bound. E{p_end}
+{synopt:{opt Source Notes}}The number of cases of tuberculosis (all forms) in a population at a given point in time (the middle of the calendar year), expressed as the rate per 100 000 population. It is sometimes referred to as point prevalence. Estimates include cases{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Control Report.{p_end}
 
@@ -11715,7 +11676,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.PCAP}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP:SH.XPD.PCAP} - Health expenditure per capita (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP:SH.XPD.PCAP} - Government health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11732,14 +11693,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 65-69.{p_end}
+{synopt:{opt Source Notes}}General government expenditure corresponds to the consolidated outlays of all levels of government: territorial authorities (Central/Federal Government, Provincial/Regional/State/District authorities, Municipal/ Local governments), social secu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Health Organization ({browse "http://www.who.int/nha/country/en/"}){p_end}
 
 
 {synoptline}
 {marker sourceid_SH.XPD.PPPC}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PPPC:SH.XPD.PPPC} - Health expenditure, private (% of total health expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PPPC:SH.XPD.PPPC} - Health expenditure per capita, PPP (current international $)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11756,9 +11717,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+{synopt:{opt Source Notes}}Prepaid and risk-pooling plans are the expenditure on health by private insurance institutions.  Private insurance enrolment may be contractual or voluntary, and conditions and benefits or basket of benefits are agreed on a voluntary basis bet{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+{synopt:{opt Source Organization}}World Health Organization ({browse "http://www.who.int/nha/country/en/"}){p_end}
 
 
 {synoptline}
@@ -11775,7 +11736,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.PVTD.PP.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD} - Domestic private health expenditure per capita, PPP (current international $)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD} - Social Security expenditure on health (% government expenditure on health)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11804,14 +11765,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but d{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 
 {synoptline}
 {marker sourceid_SL.EMP.SOCL}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SOCL:SL.EMP.SOCL} - Number of people employed}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.SOCL:SL.EMP.SOCL} - Number of people employed in social services sector}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11852,9 +11813,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total employment shows the total number employed ages 15 and over.{p_end}
+{synopt:{opt Source Notes}}Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide service{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
 
 
 {synoptline}
@@ -11883,7 +11844,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - Children in employment, total (% of children ages 7-14)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.0714.ZS:SL.TLF.0714.ZS} - Labor force (15-24 years), female}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11902,7 +11863,7 @@
 
 {synopt:{opt Source Notes}}Total labor force comprises people ages 15 to 24 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. I{p_end}
 
-{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM).{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
 
 {synoptline}
@@ -11914,12 +11875,24 @@
 
 {synopt:{opt Source Notes}}Labor participation rate, female (% of female population ages 15-24){p_end}
 
-{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM).{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
 
 {synoptline}
 {marker sourceid_SL.TLF.1524.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.IN:SL.TLF.1524.IN} - Labor force (15-24 years), male}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.IN:SL.TLF.1524.IN} - Labor force (15-24 years), total}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Total labor force comprises people ages 15-24 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It i{p_end}
+
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+
+
+{synoptline}
+{marker sourceid_SL.TLF.1524.MA.IN}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.MA.IN:SL.TLF.1524.MA.IN} - Labor force (15-24 years), male}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -11927,18 +11900,6 @@
 {synopt:{opt Source Notes}}Total labor force comprises people ages 15 to 24 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. I{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
-
-
-{synoptline}
-{marker sourceid_SL.TLF.1524.MA.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1524.MA.IN:SL.TLF.1524.MA.IN} - Labor force (15-24 years), male (% of total labor force 15-24 years)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Labor participation rate, male (% of male population ages 15-24){p_end}
-
-{synopt:{opt Source Organization}}ILO Key Indicators of the Labour Market (KILM).{p_end}
 
 
 {synoptline}
@@ -11959,7 +11920,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}The labor force comprising people ages 15 to 64 who meet the International Labour Organization definition of the economically active population: all people who supply labor for the production of goods and services during a specified period. It{p_end}
 
@@ -11968,7 +11928,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.1564.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.FE.ZS:SL.TLF.1564.FE.ZS} - Labor force (15-64 years), female (% of total labor force 15-64 years)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.1564.FE.ZS:SL.TLF.1564.FE.ZS} - Labor force (15-64 years), total}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12033,9 +11993,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 25-34 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonized{p_end}
+{synopt:{opt Source Notes}}Water supply failure for firms receiving water is the average number of days per year that firms experienced insufficient water supply for production.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
+{synopt:{opt Source Organization}}World Bank Investment Climate Surveys.{p_end}
 
 
 {synoptline}
@@ -12076,7 +12036,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2554.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.MA.ZS:SL.TLF.CACT.2554.MA.ZS} - Labor participation rate, male (% of male population ages 25-54)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.MA.ZS:SL.TLF.CACT.2554.MA.ZS} - Labor participation rate, total (% of total population ages 25-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12088,12 +12048,12 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.2554.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.ZS:SL.TLF.CACT.2554.ZS} - Labor participation rate, female (% of female population ages 35-54)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.2554.ZS:SL.TLF.CACT.2554.ZS} - Labor participation rate, total (% of total population ages 25-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 35-54 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonized{p_end}
+{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 25-54 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonized{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12124,7 +12084,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.CACT.3554.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.ZS:SL.TLF.CACT.3554.ZS} - Labor participation rate, female (% of female population ages 55-64)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.CACT.3554.ZS:SL.TLF.CACT.3554.ZS} - Labor participation rate, total (% of total population ages 35-54)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12165,7 +12125,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 65 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harm{p_end}
+{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 55-64 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonized{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12201,9 +12161,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.{p_end}
+{synopt:{opt Source Notes}}Labor force participation rate is the proportion of the population ages 65 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harm{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
 
 {synoptline}
@@ -12237,14 +12197,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment. Definitions of labor force and unemployment differ by country.{p_end}
+{synopt:{opt Source Notes}}Male labor force as a percentage of the total show the extent to which men are active in the labor force. Labor force comprises people ages 15 and older who meet the International Labour Organization's definition of the economically active pop{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, using World Bank population estimates.{p_end}
 
 
 {synoptline}
 {marker sourceid_SL.UEM.SECO.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.SECO.MA.ZS:SL.UEM.SECO.MA.ZS} - Unemployment with secondary education (% of total unemployment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.SECO.MA.ZS:SL.UEM.SECO.MA.ZS} - Unemployment with secondary education, male (% of male unemployment)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12268,7 +12228,7 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.TERT.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TERT.FE.ZS:SL.UEM.TERT.FE.ZS} - Unemployment with tertiary education, male (% of male unemployment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TERT.FE.ZS:SL.UEM.TERT.FE.ZS} - Unemployment with tertiary education, female (% of female unemployment)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12292,7 +12252,7 @@
 
 {synoptline}
 {marker sourceid_SN.ITK.DEFC}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DEFC:SN.ITK.DEFC} - Number of people who are undernourished}}
+{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DEFC:SN.ITK.DEFC} - Prevalence of undernourishment (population)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12309,14 +12269,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Population below minimum dietary energy consumption is the population whose food intake is insufficient to meet dietary energy requirements continuously.{p_end}
+{synopt:{opt Source Notes}}Population below minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. Data s{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization ({browse "http://www.fao.org/faostat/foodsecurity/index_en.htm"}).{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization ({browse "http://www.fao.org/publications/en/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_SN.ITK.DFCT}
-{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DFCT:SN.ITK.DFCT} - Depth of the food deficit (kilocalories per person per day)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.ITK.DFCT:SN.ITK.DFCT} - Depth of hunger (kilocalories per person per day)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12332,10 +12292,11 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Depth of hunger or the intensity of food deprivation, indicates how much food-deprived people fall short of minimum food needs in terms of dietary energy. The food deficit, in kilocalories per person per day, is measured by comparing the avera{p_end}
 
-{synopt:{opt Source Organization}}United Nations Children's Fund, State of the World's Children.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, Food Security Statistics ({browse "http://www.fao.org/economic/ess/food-security-statistics/en/"}).{p_end}
 
 
 {synoptline}
@@ -12371,7 +12332,7 @@
 
 {synopt:{opt Source Notes}}Antenatal care coverage (at least four visits) is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care four or more times with ANY provider (whether skilled or unskilled), as a percentage of{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}{browse "http://www.who.int/reproductive-health/global_monitoring/index.html"}{p_end}
 
 
 {synoptline}
@@ -12393,7 +12354,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Contraceptive prevalence, modern methods is the percentage of women married or in-union aged 15 to 49 who are currently using, or whose sexual partner is using, at least one modern method of contraception, regardless of the method used. Modern{p_end}
+{synopt:{opt Source Notes}}Contraceptive prevalence, condom use is the percentage of women married or in-union aged 15 to 49, whose sexual partner is currently using a male condom for contraceptive purposes.{p_end}
 
 {synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys by Macro International and Multiple Indicator Cluster Surveys by UNICEF.{p_end}
 
@@ -12407,7 +12368,7 @@
 
 {synopt:{opt Source Notes}}Contraceptive prevalence, modern methods is the percentage of women married or in-union aged 15 to 49 who are currently using, or whose sexual partner is using, at least one modern method of contraception, regardless of the method used. Modern{p_end}
 
-{synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys by Macro International and Multiple Indicator Cluster Surveys by UNICEF.{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
@@ -12429,14 +12390,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Population ages 0 to 24 is the percentage of the total population that is in the age group 0 to 24.{p_end}
+{synopt:{opt Source Notes}}Population, ages 3-5, female is the total number of females age 3-5.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (Derived){p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.0509.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - Population ages 5-9, male (% of male population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - Manufactures exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12455,12 +12416,12 @@
 
 {synopt:{opt Source Notes}}Water supply failure for firms receiving water is the average number of days per year that firms experienced insufficient water supply for production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Investment Climate Surveys.{p_end}
+{synopt:{opt Source Organization}}World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_TG.VAL.TOTL.GG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TG.VAL.TOTL.GG.ZS:TG.VAL.TOTL.GG.ZS} - Trade in goods (% of goods GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##TG.VAL.TOTL.GG.ZS:TG.VAL.TOTL.GG.ZS} - Number of product (imports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12472,12 +12433,12 @@
 
 {synoptline}
 {marker sourceid_TM.CONC.DIV.NO}
-{synopt:{bf:{help wbopendata_sourceid##TM.CONC.DIV.NO:TM.CONC.DIV.NO} - Number of product (imports)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.CONC.DIV.NO:TM.CONC.DIV.NO} - Import product concentration index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Number of products (at SITC, Revision 3, 3-digit group level) imported by country or country grouping; this figure includes only those products that are greater than 100,000 dollars or more than 0.3 per cent of the country’s or country group{p_end}
+{synopt:{opt Source Notes}}This indicator reflects the Herfindahl-Hirschmann index measure of the degree of import concentration within a country.  The sectoral Hirschmann index is defined as the square root of the sum of the squared shares of exports of each industry i{p_end}
 
 {synopt:{opt Source Organization}}UNCTAD Statistical Office, also reported in the UNCTAD Handbook of Statistics, various issues ({browse "http://unctadstat.unctad.org/"}).{p_end}
 
@@ -12489,7 +12450,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The diversification index signals whether the structure of imports by product of a given country or group of countries differ from the structure of product of the world.  Diversification index that ranges from 0 to 1 reveals the extent of the{p_end}
+{synopt:{opt Source Notes}}This indicator reflects the Herfindahl-Hirschmann index measure of the degree of import concentration within a country.  The sectoral Hirschmann index is defined as the square root of the sum of the squared shares of exports of each industry i{p_end}
 
 {synopt:{opt Source Organization}}UNCTAD Statistical Office, also reported in the UNCTAD Handbook of Statistics, various issues ({browse "http://unctadstat.unctad.org/"}).{p_end}
 
@@ -12503,7 +12464,7 @@
 
 {synopt:{opt Source Notes}}The diversification index signals whether the structure of imports by product of a given country or group of countries differ from the structure of product of the world.  Diversification index that ranges from 0 to 1 reveals the extent of the{p_end}
 
-{synopt:{opt Source Organization}}GATS commitment schedules in the WTO, as scored by the World Bank Institute WTI 2008 team. Scoring and Sectoral weights follow Bernard Hoekman, Tentative First Steps: An assessment of the Uruguay Round Agreement on Services. Finance and Privat{p_end}
+{synopt:{opt Source Organization}}UNCTAD Statistical Office, also reported in the UNCTAD Handbook of Statistics, various issues ({browse "http://unctadstat.unctad.org/"}).{p_end}
 
 
 {synoptline}
@@ -12515,7 +12476,7 @@
 
 {synopt:{opt Source Notes}}This indicator measures the extent of General Agreement on Trade in Services (GATS) commitments for all 155 services sub-sectors as classified by the GATS and in the four modes of the GATS. Each entry in the country’s schedule is assigned sc{p_end}
 
-{synopt:{opt Source Organization}}GATS commitment schedules in the WTO, as scored by the World Bank Institute WTI 2008 team. Scoring and Sectoral weights follow Bernard Hoekman, Tentative First Steps: An assessment of the Uruguay Round Agreement on Services. Finance and Privat{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, World Trade Organization, and International Trade Center. Data are available online at: {browse "www.mdg-trade.org"}.{p_end}
 
 
 {synoptline}
@@ -12544,7 +12505,7 @@
 
 {synoptline}
 {marker sourceid_TM.PRI.NFSV.XU}
-{synopt:{bf:{help wbopendata_sourceid##TM.PRI.NFSV.XU:TM.PRI.NFSV.XU} - Import price index, (nonfactor) services}}
+{synopt:{bf:{help wbopendata_sourceid##TM.PRI.NFSV.XU:TM.PRI.NFSV.XU} - Import volume index, POL and other energy}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12561,7 +12522,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total food imports  volume index with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Petroleum and other energy products imports  volume index with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -12580,12 +12541,12 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.KGDS.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.KGDS.XD.WB:TM.QTY.KGDS.XD.WB} - Import volume index, capital goods}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.KGDS.XD.WB:TM.QTY.KGDS.XD.WB} - Merchandise import volume index}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Capital goods imports  volume index with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Total merchandise imports  volume index with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -12604,7 +12565,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD} - Import volume index (2000 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.MRCH.XD.WD:TM.QTY.MRCH.XD.WD} - Import volume index, other consumer goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12621,14 +12582,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Imports of (non-factor) services. Data; Volume index with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Other consumer goods imports  volume index with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.QTY.NFSV.XD}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.NFSV.XD:TM.QTY.NFSV.XD} - Import volume index, manufactures}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.NFSV.XD:TM.QTY.NFSV.XD} - Import volume index, (nonfactor) services}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12640,7 +12601,7 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.RAWM.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWM.XD.WB:TM.QTY.RAWM.XD.WB} - Import volume index, manufactures}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWM.XD.WB:TM.QTY.RAWM.XD.WB} - Import volume index, primary goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12652,12 +12613,12 @@
 
 {synoptline}
 {marker sourceid_TM.QTY.RAWP.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWP.XD.WB:TM.QTY.RAWP.XD.WB} - Import volume index, primary goods}}
+{synopt:{bf:{help wbopendata_sourceid##TM.QTY.RAWP.XD.WB:TM.QTY.RAWP.XD.WB} - Import volume index, intermediate goods}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Primary goods imports  volume index with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Intermediate goods imports  volume index with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -12693,14 +12654,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Binding coverage is the percentage of product lines with an agreed bound rate. Bound rates result from trade negotiations incorporated into a country's schedule of concessions and are thus enforceable. Manufactured products are commodities cla{p_end}
+{synopt:{opt Source Notes}}This indicator reflects the total share of lines in the country’s tariff schedule bound subject to WTO Negotiation Agreements. Expressed as a percentage of total lines.  As calculated by the World Bank Institute WTI 2008 team.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from World Trade Organization.{p_end}
+{synopt:{opt Source Organization}}UNCTAD TRAINS database through WITS until 2006, then ITC database.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.TAX.MANF.BR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS} - Bound rate, simple mean, manufactured products (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MANF.BR.ZS:TM.TAX.MANF.BR.ZS} - Tariff barriers, dispersion around the mean, manufactured products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12731,7 +12692,7 @@
 
 {synopt:{opt Source Notes}}This indicator reflects the total share of lines in the country’s MFN tariff schedule with the value above 3 times the simple average tariff.  Expressed as a percentage of total lines.  These shares are also reported disaggregated for agricu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development (UNCTD) and the World Trade Organization.{p_end}
 
 
 {synoptline}
@@ -12777,7 +12738,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This indicator reflects the total share of lines in the country’s MFN tariff schedule with the value above 3 times the simple average tariff.  Expressed as a percentage of total lines.  These shares are also reported disaggregated for agricu{p_end}
+{synopt:{opt Source Notes}}This indicator is calculated as the coefficient of variation of the applied tariff rates including preferential rates that a country applies to its trading partners available at HS 6-digit product level in a country’s customs schedule.  As c{p_end}
 
 {synopt:{opt Source Organization}}United Nations Conference on Trade and Development (UNCTD) and the World Trade Organization.{p_end}
 
@@ -12789,14 +12750,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied.{p_end}
+{synopt:{opt Source Notes}}This indicator reflects the total share of lines in the country’s MFN tariff schedule with the value above 3 times the simple average tariff.  Expressed as a percentage of total lines.  These shares are also reported disaggregated for agricu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development (UNCTD) and the World Trade Organization.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.TAX.MRCH.WM.FN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS} - Tariff barriers, share of lines bound, primary products (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.MRCH.WM.FN.ZS:TM.TAX.MRCH.WM.FN.ZS} - Tariff rate, most favored nation, weighted mean, all products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12820,7 +12781,7 @@
 
 {synoptline}
 {marker sourceid_TM.TAX.TCOM.BR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS} - Bound rate, simple mean, primary products (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.TAX.TCOM.BR.ZS:TM.TAX.TCOM.BR.ZS} - Tariff barriers, dispersion around the mean, primary products (%)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12849,14 +12810,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Share of tariff lines with international peaks is the share of lines in the tariff schedule with tariff rates that exceed 15 percent. It provides an indication of how selectively tariffs are applied. Primary products are commodities classified{p_end}
+{synopt:{opt Source Notes}}This indicator reflects the total share of lines in the country’s MFN tariff schedule with the value above 3 times the simple average tariff.  Expressed as a percentage of total lines.  These shares are also reported disaggregated for agricu{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Integrated Trade Solution system, based on data from United Nations Conference on Trade and Development's Trade Analysis and Information System (TRAINS) database.{p_end}
+{synopt:{opt Source Organization}}United Nations Conference on Trade and Development (UNCTD) and the World Trade Organization.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - POL and other energy imports (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.AGRI.ZS.UN:TM.VAL.AGRI.ZS.UN} - Agricultural raw materials imports (% of merchandise imports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12868,12 +12829,12 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.ENGY.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ENGY.CD.WB:TM.VAL.ENGY.CD.WB} - POL and other energy imports (constant US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.ENGY.CD.WB:TM.VAL.ENGY.CD.WB} - POL and other energy imports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Petroleum and energy products imports, cif (includes freight and insurance costs) in 1987 constant US dollars.{p_end}
+{synopt:{opt Source Notes}}Petroleum and energy products imports in current US dollars. Values are on cif (includes freight and insurance costs).{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -12885,7 +12846,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Petroleum and energy products imports, cif (includes freight and insurance costs) in 1987 constant US dollars.{p_end}
+{synopt:{opt Source Notes}}Food imports, cif (includes freight and insurance costs) in current US dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -12909,9 +12870,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Food imports, cif (includes freight and insurance costs) in 1987 constant US dollars.{p_end}
+{synopt:{opt Source Notes}}Food comprises the commodities in SITC sections 0 (food and live animals), 1 (beverages and tobacco), and 4 (animal and vegetable oils and fats) and SITC division 22 (oil seeds, oil nuts, and oil kernels).{p_end}
 
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
 
 
 {synoptline}
@@ -12952,7 +12913,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.MRCH.CD.UN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.UN.ZG:TM.VAL.MRCH.CD.UN.ZG} - Merchandise imports, WB (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.UN.ZG:TM.VAL.MRCH.CD.UN.ZG} - Import growth, value (annual %)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -12969,14 +12930,14 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Merchandise imports show the c.i.f. value of goods received from the rest of the world valued in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Total merchandise imports, cif (includes freight and insurance costs) in current US dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Trade Organization.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_TM.VAL.MRCH.KD.UN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.KD.UN.ZG:TM.VAL.MRCH.KD.UN.ZG} - Import growth, volume (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.KD.UN.ZG:TM.VAL.MRCH.KD.UN.ZG} - Merchandise imports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13000,7 +12961,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Other consumer goods imports (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.XD.WD:TM.VAL.MRCH.XD.WD} - Import value index (2000 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13012,7 +12973,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.NFCG.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.CD.WB:TM.VAL.NFCG.CD.WB} - Other consumer goods imports (constant US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.CD.WB:TM.VAL.NFCG.CD.WB} - Other consumer goods imports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13036,7 +12997,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.OTHR.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT} - Intermediate goods imports, manufactures (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.OTHR.ZS.WT:TM.VAL.OTHR.ZS.WT} - Computer, communications and other services (% of commercial service imports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13077,7 +13038,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Primary goods imports, cif (includes freight and insurance costs) in 1987 constant US dollars.{p_end}
+{synopt:{opt Source Notes}}Primary goods imports, cif (includes freight and insurance costs) in current US dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -13120,7 +13081,7 @@
 
 {synoptline}
 {marker sourceid_TT.PRI.MRCH.XD.UN}
-{synopt:{bf:{help wbopendata_sourceid##TT.PRI.MRCH.XD.UN:TT.PRI.MRCH.XD.UN} - Net barter terms of trade (1987 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##TT.PRI.MRCH.XD.UN:TT.PRI.MRCH.XD.UN} - Merchandise Terms of Trade (1987 = 100)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13137,9 +13098,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Net barter terms of trade index is calculated as the percentage ratio of the export unit value indexes to the import unit value indexes, measured relative to the base year 2000. Unit value indexes are based on data reported by countries that d{p_end}
+{synopt:{opt Source Notes}}Net barter (merchandise) terms of trade (1987 = 100) are the ratio of the export price index to the corresponding import price index measured relative to the base year of 1987.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Handbook of Statistics and data files, and International Monetary Fund, International Financial Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -13187,7 +13148,7 @@
 
 {synopt:{opt Source Notes}}The diversification index signals whether the structure of exports by product of a given country or group of countries differ from the structure of product of the world.  Diversification index is computed by measuring absolute deviation of the{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization (UNIDO), Competitive Industrial Performance (CIP) database{p_end}
+{synopt:{opt Source Organization}}UNCTAD Statistical Office, also reported in the UNCTAD Handbook of Statistics, various issues ({browse "http://unctadstat.unctad.org/"}).{p_end}
 
 
 {synoptline}
@@ -13216,7 +13177,7 @@
 
 {synoptline}
 {marker sourceid_TX.PRI.NFPR.ID}
-{synopt:{bf:{help wbopendata_sourceid##TX.PRI.NFPR.ID:TX.PRI.NFPR.ID} - Export price index, (nonfactor) services}}
+{synopt:{bf:{help wbopendata_sourceid##TX.PRI.NFPR.ID:TX.PRI.NFPR.ID} - Nonfuel Prim.Prod.Exp.Price Index (1980=100,US$-based)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13233,7 +13194,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}This item is a price index measuring changes in the aggregate price level of a country's non-factor services exports over time with 1987 price index=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of commodity 1 with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
@@ -13245,7 +13206,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Export volume index of commodity 2 with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of commodity 1 with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
@@ -13257,7 +13218,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Export volume index of commodity 3 with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of commodity 2 with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
@@ -13269,7 +13230,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Export volume index of commodity 4 with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of commodity 3 with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
@@ -13281,7 +13242,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Export volume index of commodity 4 with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of manufactures with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
@@ -13293,7 +13254,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Merchandise exports volume index with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of manufactures with 1987=100.{p_end}
 
 {synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
@@ -13324,14 +13285,14 @@
 
 {synoptline}
 {marker sourceid_TX.QTY.NFSV.XD}
-{synopt:{bf:{help wbopendata_sourceid##TX.QTY.NFSV.XD:TX.QTY.NFSV.XD} - Export volume index, (nonfactor) services}}
+{synopt:{bf:{help wbopendata_sourceid##TX.QTY.NFSV.XD:TX.QTY.NFSV.XD} - Export volume index, other primary commodities}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Exports of (non-factor) services. Data; Volume index with 1987=100.{p_end}
+{synopt:{opt Source Notes}}Export volume index of other primary commodities with 1987=100.{p_end}
 
-{synopt:{opt Source Organization}}World Bank  country economists.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
@@ -13348,7 +13309,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.AGRI.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - Exports of commodity 1 (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.AGRI.ZS.UN:TX.VAL.AGRI.ZS.UN} - Agricultural raw materials exports (% of merchandise exports)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13377,7 +13338,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Exports of commodity 1 in 1987 constant US dollars and fob basis.{p_end}
+{synopt:{opt Source Notes}}Exports of commodity 2 in current US dollars and fob basis.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -13425,7 +13386,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Exports of commodity 4 in current US dollars and fob basis.{p_end}
+{synopt:{opt Source Notes}}Exports of commodity 3 in 1987 constant US dollars and fob basis.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -13437,7 +13398,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Exports of commodity 4 in current US dollars and fob basis.{p_end}
+{synopt:{opt Source Notes}}Exports of commodity 4 in 1987 constant US dollars and fob basis.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -13451,12 +13412,12 @@
 
 {synopt:{opt Source Notes}}Exports of commodity 4 in 1987 constant US dollars and fob basis.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}
 {marker sourceid_TX.VAL.MANF.CD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.CD:TX.VAL.MANF.CD} - CP Exports of Manufactures (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.CD:TX.VAL.MANF.CD} - Manufactures exports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13473,9 +13434,9 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total number of female students successfully completing programmes on the masters or equivalent (ISCED 7) level during the reference academic year in public and private tertiary education institutions.{p_end}
+{synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals).{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from the COMTRADE database maintained by the United Nations Statistics Division.{p_end}
 
 
 {synoptline}
@@ -13487,7 +13448,7 @@
 
 {synopt:{opt Source Notes}}Manufactures comprise the commodities in SITC sections 5 (chemicals), 6 (basic manufactures), 7 (machinery and transport equipment), and 8 (miscellaneous manufactured goods), excluding division 68 (nonferrous metals) in 1987 constant US dollar{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates through the WITS platform from the Comtrade database maintained by the United Nations Statistics Division.{p_end}
+{synopt:{opt Source Organization}}World Bank  country economists.{p_end}
 
 
 {synoptline}
@@ -13516,7 +13477,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.KD.UN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD.UN.ZG:TX.VAL.MRCH.KD.UN.ZG} - Export growth, volume (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD.UN.ZG:TX.VAL.MRCH.KD.UN.ZG} - Merchandise exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13540,7 +13501,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.NFPR.CD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.NFPR.CD:TX.VAL.NFPR.CD} - CP Exports of Nonfuel Primary Products (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.NFPR.CD:TX.VAL.NFPR.CD} - Other primary commodities exports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13576,7 +13537,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.SERV.MT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.SERV.MT.ZS:TX.VAL.SERV.MT.ZS} - Ratio of commercial service exports to merchandise exports (%)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.SERV.MT.ZS:TX.VAL.SERV.MT.ZS} - Primary commodities exports (current US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13588,12 +13549,12 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.TCOM.CD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TCOM.CD.WB:TX.VAL.TCOM.CD.WB} - Primary commodities exports (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.TCOM.CD.WB:TX.VAL.TCOM.CD.WB} - Primary commodities exports (constant US$)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Total Primary Commodities exports in current US dollars. Values are in fob basis.{p_end}
+{synopt:{opt Source Notes}}Total Primary Commodities exports in 1987 constant US dollars. Values are in fob basis.{p_end}
 
 {synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
@@ -13636,7 +13597,7 @@
 
 {synoptline}
 {marker sourceid_UNEMPSA_}
-{synopt:{bf:{help wbopendata_sourceid##UNEMPSA_:UNEMPSA_} - Combined polity score}}
+{synopt:{bf:{help wbopendata_sourceid##UNEMPSA_:UNEMPSA_} - Unemployment rate,Percent,,,}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13653,7 +13614,7 @@
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The Combined Polity score is computed by subtracting the AUTOCRACY score (UPP.INS.AUTO.XQ) from the DEMOCRACY score (UPP.INS.DEMO.XQ); the resulting unified polity scale ranges from +10 (strongly democratic) to -10 (strongly autocratic). Note:{p_end}
+{synopt:{opt Source Notes}}Democracy is conceived as three essential, interdependent elements. One is the presence of institutions and procedures through which citizens can express effective preferences about alternative policies and leaders. Second is the existence of{p_end}
 
 {synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
 
@@ -13679,7 +13640,7 @@
 
 {synopt:{opt Source Notes}}Democracy is conceived as three essential, interdependent elements. One is the presence of institutions and procedures through which citizens can express effective preferences about alternative policies and leaders. Second is the existence of{p_end}
 
-{synopt:{opt Source Organization}}Authoritarian regime in Western political discourse is a pejorative term for some very diverse kinds of political systems whose common properties are a lack of regularized political competition and concern for political freedoms. The term Auto{p_end}
+{synopt:{opt Source Organization}}Center for Systemic Peace, {browse "www.systemicpeace.org/polity/polity4.htm"}{p_end}
 
 
 {synoptline}
@@ -13696,7 +13657,7 @@
 
 {synoptline}
 {marker sourceid_VC.IDP.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL:VC.IDP.TOTL} - Internally displaced persons (number, high estimate)}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL:VC.IDP.TOTL} - Internally displaced persons (number)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13708,7 +13669,7 @@
 
 {synoptline}
 {marker sourceid_VC.IDP.TOTL.HE}
-{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - Internally displaced persons (number, high estimate)}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IDP.TOTL.HE:VC.IDP.TOTL.HE} - Internally displaced persons (number, low estimate)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13724,7 +13685,6 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Internally displaced persons are people or groups of people who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of armed conflict, or to avoid the effects of armed conflict{p_end}
 
@@ -13733,7 +13693,7 @@
 
 {synoptline}
 {marker sourceid_fing2p.t.d.9}
-{synopt:{bf:{help wbopendata_sourceid##fing2p.t.d.9:fing2p.t.d.9} - Received government payments in the past year, rural  (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fing2p.t.d.9:fing2p.t.d.9} - Claims on private sector, flow (current LCU)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -13768,4 +13728,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
