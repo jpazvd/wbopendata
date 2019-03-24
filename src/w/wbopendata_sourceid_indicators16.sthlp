@@ -141,7 +141,7 @@
 
 {synopt:{opt Source Notes}}Condom use at last high-risk sex, male is the percentage of the male population ages 15-49 who used a condom at last intercourse with a non-marital and non-cohabiting sexual partner in the last 12 months.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys, and UNAIDS.{p_end}
+{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia, Village Census (PODES){p_end}
 
 
 {synoptline}
@@ -163,7 +163,7 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Adults living with HIV refers to the number of people ages 15-49 who are infected with HIV.{p_end}
+{synopt:{opt Source Notes}}AIDS deaths are the estimated number of adults and children who died due to AIDS-related causes.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
 
@@ -201,7 +201,7 @@
 
 {synopt:{opt Source Notes}}Demand for family planning satisfied by any methods refers to the percentage of married women ages 15-49 whose need for family planning is satisfied.{p_end}
 
-{synopt:{opt Source Organization}}Demographic and Health Surveys.{p_end}
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS).{p_end}
 
 
 {synoptline}
@@ -235,9 +235,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The percent of male respondents ages 15-24 who correctly identify the two major ways of preventing the sexual transmission of HIV (using condoms and limiting sex to one faithful, uninfected partner), who reject the two most common local miscon{p_end}
+{synopt:{opt Source Notes}}Prevalence of HIV, male refers to the percentage of females ages 15-24 who are infected with HIV based the high estimate.{p_end}
 
-{synopt:{opt Source Organization}}Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF.{p_end}
+{synopt:{opt Source Organization}}UNAIDS and the WHO's Report on the Global AIDS Epidemic.{p_end}
 
 
 {synoptline}
@@ -266,7 +266,7 @@
 
 {synoptline}
 {marker sourceid_SH.HIV.ORP.NUM}
-{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.NUM:SH.HIV.ORP.NUM} - Children orphaned by HIV/AIDS}}
+{synopt:{bf:{help wbopendata_sourceid##SH.HIV.ORP.NUM:SH.HIV.ORP.NUM} - Orphans 0-17 years currently living}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -331,7 +331,7 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Child immunization measures the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against Hib3 after receiving three doses of Haemop{p_end}
+{synopt:{opt Source Notes}}Child immunization rate, BCG is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey for BCG. A child is considered adequately immunized after one dose.{p_end}
 
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization_monitoring/routine/en/"}).{p_end}
 
@@ -345,7 +345,7 @@
 
 {synopt:{opt Source Notes}}Child immunization rate, BCG is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey for BCG. A child is considered adequately immunized after one dose.{p_end}
 
-{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization_monitoring/routine/en/"}).{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
@@ -355,14 +355,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Hospital beds include inpatient beds available in public, private, general, and specialized hospitals and rehabilitation centers. In most cases beds for both acute and chronic care are included.{p_end}
+{synopt:{opt Source Notes}}Child immunization rate, Polio is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.{p_end}
 
-{synopt:{opt Source Organization}}Data are from the World Health Organization, supplemented by country data.{p_end}
+{synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization_monitoring/routine/en/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.MLR.PREG.2IPT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.MLR.PREG.2IPT.ZS:SH.MLR.PREG.2IPT.ZS} - Use of Intermittent Preventive Treatment of malaria, 2+ doses of SP/Fansidar (% of pregnant women)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MLR.PREG.2IPT.ZS:SH.MLR.PREG.2IPT.ZS} - Pregnant women who took at least 2 doses of intermittent preventative treatment (%)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -381,12 +381,12 @@
 
 {synopt:{opt Source Notes}}Percentage of women with a live birth in the recent years preceding the survey who received 2+ doses of sulfadoxine-pyrimethamine (SP/Fansidar), at least one during an antenatal care visit. Intermittent Preventive Treatment (IPT) is preventive{p_end}
 
-{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
+{synopt:{opt Source Organization}}UNICEF Childinfo, Multiple Indicator Cluster Surveys, Demographic and Health Surveys.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.PRG.ANEM}
-{synopt:{bf:{help wbopendata_sourceid##SH.PRG.ANEM:SH.PRG.ANEM} - Prevalence of syphilis (% of women attending antenatal care)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.PRG.ANEM:SH.PRG.ANEM} - Prevalence of anemia among pregnant women (%)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -403,9 +403,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of women attending antenatal care seropositive for syphilis{p_end}
+{synopt:{opt Source Notes}}Prevalence of smoking is the percentage of men and women ages 15 and over who currently smoke any tobacco product on a daily or non-daily basis. It excludes smokeless tobacco use. The rates are age-standardized.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
@@ -427,9 +427,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Pregnant women receiving prenatal care, at least four times, are the percentage of women attended at least four times during pregnancy by skilled health personnel for reasons related to pregnancy.{p_end}
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
 
-{synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
+{synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
@@ -482,7 +482,7 @@
 
 {synoptline}
 {marker sourceid_SH.STA.ORTH}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ORTH:SH.STA.ORTH} - Prevalence of overweight, female (% of female adults)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.ORTH:SH.STA.ORTH} - Diarrhea treatment (% of children under 5 who received ORS packet)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -530,7 +530,7 @@
 
 {synoptline}
 {marker sourceid_SH.STA.OWGH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - Prevalence of overweight, weight for height (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - Postnatal care coverage (% mothers)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -571,14 +571,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}The estimated number of deaths attributable to tuberculosis (TB) in a given time period.{p_end}
+{synopt:{opt Source Notes}}Tuberculosis death rate is the estimated number of deaths from tuberculosis among HIV-negative people, expressed as the rate per 100,000 population. Estimates for all years are recalculated as new information becomes available and techniques a{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Control Report.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.XPD.EHEX.CH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS} - External health expenditure (% of current health expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS} - External health expenditure channeled through government (% of external health expenditure)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -619,14 +619,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Share of out-of-pocket payments of total current health expenditures.  Out-of-pocket payments are spending on health directly out-of-pocket by households.{p_end}
+{synopt:{opt Source Notes}}Level of capital investments on health expressed as a percentage of GDP.  Capital health investments include health infrastructure (buildings, machinery, IT) and stocks of vaccines for emergency or outbreaks.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.XPD.PCAP.GX}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP.GX:SH.XPD.PCAP.GX} - Government health expenditure per capita (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PCAP.GX:SH.XPD.PCAP.GX} - Female population 65-69}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -679,14 +679,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Mean age at marriage, male shows the average length of single life expressed in years among those males who marry before age 50. It is a synthetic indicator calculated from marital status categories of men and women aged 15 to 54 at the census{p_end}
+{synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}United Nations, Department of Economic and Social Affairs, Population Division. World Marriage Data.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.MTR.1519.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.MTR.1519.ZS:SP.MTR.1519.ZS} - Female population 00-04}}
+{synopt:{bf:{help wbopendata_sourceid##SP.MTR.1519.ZS:SP.MTR.1519.ZS} - Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -703,9 +703,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 0 to 4 as a percentage of the total female population.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 0 to 4.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -729,7 +729,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 4.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -751,9 +751,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 5 to 9.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 5 to 9 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -782,7 +782,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.0713.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.0713.TO.UN:SP.POP.0713.TO.UN} - Population, ages 7-13, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.0713.TO.UN:SP.POP.0713.TO.UN} - Female population 10-14}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -799,9 +799,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 10 to 14 as a percentage of the total female population.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 10 to 14.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -825,7 +825,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 10 to 14.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -849,7 +849,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 15-19.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -871,7 +871,7 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Male population between the ages 15-19.{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 15 to 19 as a percentage of the total male population.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
@@ -895,14 +895,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 20 to 24 as a percentage of the total female population.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 20-24.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.2024.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y} - Male population 20-24}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y} - Population ages 20-24, female (% of female population)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -921,12 +921,12 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 20-24.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.2024.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - Female population 25-29}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - Population ages 20-24, male (% of male population)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -950,7 +950,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.2529.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - Population ages 25-29, female (% of female population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - Male population 25-29}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -967,14 +967,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Male population between the ages 25-29.{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 25 to 29 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.2529.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - Population ages 25-29, male (% of male population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - Female population 30-34}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -991,9 +991,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 30-34.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 30 to 34 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -1015,14 +1015,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Male population between the ages 30-34.{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 30 to 34 as a percentage of the total male population.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.3034.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - Population ages 30-34, male (% of male population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - Female population 35-39}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1046,7 +1046,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.3539.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Population ages 35-39, female (% of female population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Male population 35-39}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1070,7 +1070,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.3539.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - Population ages 35-39, male (% of male population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - Female population 40-44}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1094,7 +1094,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.4044.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - Male population 40-44}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - Population ages 40-44, female (% of female population)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1111,7 +1111,7 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Male population between the ages 40 to 44 as a percentage of the total male population.{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 40-44.{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
@@ -1135,9 +1135,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 45-49.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 45 to 49 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -1166,7 +1166,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.4549.MA.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - Population ages 45-49, male (% of male population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - Female population 50-54}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1185,12 +1185,12 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 50-54.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.5054.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - Male population 50-54}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - Population ages 50-54, female (% of female population)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1238,7 +1238,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.5559.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Population ages 55-59, female (% of female population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Male population 55-59}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1286,7 +1286,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.6064.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Male population 60-64}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Population ages 60-64, female (% of female population)}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1303,9 +1303,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Male population between the ages 60-64.{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -1413,7 +1413,7 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 75-79.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -1435,9 +1435,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Male population between the ages 75-79.{p_end}
+{synopt:{opt Source Notes}}Male population between the ages 75 to 79 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
@@ -1459,14 +1459,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Female population between the ages 80 and above.{p_end}
+{synopt:{opt Source Notes}}Female population between the ages 80 and above as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on United Nations Population Division, World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.80UP.FE.5Y}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y} - Population ages 80 and above, female (% of female population)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y} - Male population 80+}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1485,7 +1485,7 @@
 
 {synopt:{opt Source Notes}}Male population between the ages 80+ .{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age distributions of the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -1555,14 +1555,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
 
-{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG01.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG01.FE.UN:SP.POP.AG01.FE.UN} - Age population, age 01, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG01.FE.UN:SP.POP.AG01.FE.UN} - Population, age 1, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1581,12 +1581,12 @@
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
 
-{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG01.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG01.TO.UN:SP.POP.AG01.TO.UN} - Age population, age 02, female, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG01.TO.UN:SP.POP.AG01.TO.UN} - Population, age 1, total}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1605,7 +1605,7 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -1626,15 +1626,16 @@
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG02.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG02.TO.UN:SP.POP.AG02.TO.UN} - Population, age 2, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG02.TO.UN:SP.POP.AG02.TO.UN} - Age population, age 03, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1658,7 +1659,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG03.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG03.FE.UN:SP.POP.AG03.FE.UN} - Population, age 3, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG03.FE.UN:SP.POP.AG03.FE.UN} - Age population, age 03, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1682,7 +1683,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG03.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG03.TO.UN:SP.POP.AG03.TO.UN} - Population, age 3, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG03.TO.UN:SP.POP.AG03.TO.UN} - Age population, age 04, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1699,14 +1700,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG04.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG04.FE.UN:SP.POP.AG04.FE.UN} - Population, age 4, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG04.FE.UN:SP.POP.AG04.FE.UN} - Age population, age 04, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1723,14 +1724,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 4, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG04.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG04.TO.UN:SP.POP.AG04.TO.UN} - Population, age 4, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG04.TO.UN:SP.POP.AG04.TO.UN} - Age population, age 05, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1771,9 +1772,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 5, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level. The geographical areas included in the data are the same as the data source.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}The United Nations Population Division’s World Population Prospects.{p_end}
 
 
 {synoptline}
@@ -1802,7 +1803,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG06.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG06.FE.UN:SP.POP.AG06.FE.UN} - Age population, age 06, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG06.FE.UN:SP.POP.AG06.FE.UN} - Population, age 6, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1850,7 +1851,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG07.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG07.FE.UN:SP.POP.AG07.FE.UN} - Age population, age 07, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG07.FE.UN:SP.POP.AG07.FE.UN} - Population, age 7, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1867,7 +1868,7 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 7, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
@@ -1898,7 +1899,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG08.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG08.FE.UN:SP.POP.AG08.FE.UN} - Population, age 8, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG08.FE.UN:SP.POP.AG08.FE.UN} - Age population, age 08, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1915,14 +1916,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 8, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG08.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG08.TO.UN:SP.POP.AG08.TO.UN} - Population, age 8, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG08.TO.UN:SP.POP.AG08.TO.UN} - Age population, age 09, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1941,7 +1942,7 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -1970,7 +1971,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG09.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG09.TO.UN:SP.POP.AG09.TO.UN} - Age population, age 10, female, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG09.TO.UN:SP.POP.AG09.TO.UN} - Population, age 9, total}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -1987,9 +1988,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -2011,9 +2012,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
+{synopt:{opt Source Notes}}Population, age 10, male refers to the male population at the specified age.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
@@ -2037,7 +2038,7 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2059,9 +2060,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 11, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2131,14 +2132,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG13.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG13.FE.UN:SP.POP.AG13.FE.UN} - Age population, age 13, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG13.FE.UN:SP.POP.AG13.FE.UN} - Population, age 13, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2179,14 +2180,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG14.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG14.FE.UN:SP.POP.AG14.FE.UN} - Population, age 14, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG14.FE.UN:SP.POP.AG14.FE.UN} - Age population, age 14, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2205,12 +2206,12 @@
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG14.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG14.TO.UN:SP.POP.AG14.TO.UN} - Population, age 14, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG14.TO.UN:SP.POP.AG14.TO.UN} - Age population, age 15, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2234,7 +2235,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG15.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG15.FE.UN:SP.POP.AG15.FE.UN} - Age population, age 15, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG15.FE.UN:SP.POP.AG15.FE.UN} - Population, age 15, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2253,7 +2254,7 @@
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2282,7 +2283,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG16.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG16.FE.UN:SP.POP.AG16.FE.UN} - Population, age 16, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG16.FE.UN:SP.POP.AG16.FE.UN} - Age population, age 16, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2299,14 +2300,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
+{synopt:{opt Source Notes}}Average number of Grade 6 pupils per mathematics textbook in public primary schools. The data reported includes textbooks in all languages of instruction which are owned by schools and have been distributed to pupils on loan or kept in schools{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG16.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG16.TO.UN:SP.POP.AG16.TO.UN} - Population, age 16, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG16.TO.UN:SP.POP.AG16.TO.UN} - Age population, age 17, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2325,12 +2326,12 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG17.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG17.FE.UN:SP.POP.AG17.FE.UN} - Population, age 17, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG17.FE.UN:SP.POP.AG17.FE.UN} - Age population, age 17, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2347,9 +2348,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 17, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2371,9 +2372,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
@@ -2397,12 +2398,12 @@
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG18.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG18.TO.UN:SP.POP.AG18.TO.UN} - Age population, age 19, female, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG18.TO.UN:SP.POP.AG18.TO.UN} - Population, age 18, total}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2426,7 +2427,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG19.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG19.FE.UN:SP.POP.AG19.FE.UN} - Population, age 19, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG19.FE.UN:SP.POP.AG19.FE.UN} - Age population, age 19, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2450,7 +2451,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.AG19.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG19.TO.UN:SP.POP.AG19.TO.UN} - Population, age 19, total}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG19.TO.UN:SP.POP.AG19.TO.UN} - Age population, age 20, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2469,12 +2470,12 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG20.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG20.FE.UN:SP.POP.AG20.FE.UN} - Age population, age 20, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG20.FE.UN:SP.POP.AG20.FE.UN} - Population, age 20, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2491,9 +2492,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 20, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2517,12 +2518,12 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG21.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG21.FE.UN:SP.POP.AG21.FE.UN} - Population, age 21, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG21.FE.UN:SP.POP.AG21.FE.UN} - Age population, age 21, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2539,9 +2540,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Population, age 21, male refers to the male population at the specified age.{p_end}
+{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2589,7 +2590,7 @@
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
@@ -2613,12 +2614,12 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG23.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG23.FE.UN:SP.POP.AG23.FE.UN} - Population, age 23, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG23.FE.UN:SP.POP.AG23.FE.UN} - Age population, age 23, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2661,12 +2662,12 @@
 
 {synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG24.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG24.FE.UN:SP.POP.AG24.FE.UN} - Population, age 24, female}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG24.FE.UN:SP.POP.AG24.FE.UN} - Age population, age 24, male, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2685,12 +2686,12 @@
 
 {synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG24.TO.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Population, age 24, tota}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG24.TO.UN:SP.POP.AG24.TO.UN} - Age population, age 25, female, interpolated}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2707,14 +2708,14 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by the UNESCO Institute for Statistics.{p_end}
+{synopt:{opt Source Notes}}Age population, female refers to female population at the specified age level, as estimated by World Bank staff.{p_end}
 
 {synopt:{opt Source Organization}}UNESCO Institute for Statistics.{p_end}
 
 
 {synoptline}
 {marker sourceid_SP.POP.AG25.FE.UN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG25.FE.UN:SP.POP.AG25.FE.UN} - Age population, age 25, male, interpolated}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.AG25.FE.UN:SP.POP.AG25.FE.UN} - Population, age 25, female}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
@@ -2731,9 +2732,9 @@
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
 
 
-{synopt:{opt Source Notes}}Age population, male refers to male population at the specified age level, as estimated by World Bank staff.{p_end}
+{synopt:{opt Source Notes}}Population, age 25, male refers to the male population at the specified age.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates from various sources including census reports, the United Nations Population Division's World Population Prospects, national statistical offices, household surveys conducted by national agencies, and Macro Internatio{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
 
 
 

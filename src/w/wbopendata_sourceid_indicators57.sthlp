@@ -61,20 +61,8 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:57 WDI Database Archives}}}
 {synoptline}
-{marker sourceid_5.1.6_ETH.TOTA.AID.FIN}
-{synopt:{bf:{help wbopendata_sourceid##5.1.6_ETH.TOTA.AID.FIN:5.1.6_ETH.TOTA.AID.FIN} - International aid disbursed to total education, Finland to Ethiopia (USD million)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.{p_end}
-
-{synopt:{opt Source Organization}}World Bank country economists.{p_end}
-
-
-{synoptline}
 {marker sourceid_AG.AID.NCREL.MT}
-{synopt:{bf:{help wbopendata_sourceid##AG.AID.NCREL.MT:AG.AID.NCREL.MT} - Non-cereal food aid deliveries (FAO, tonnes)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.AID.NCREL.MT:AG.AID.NCREL.MT} - Fertilizer consumption (metric tons)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -98,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_AG.CON.FERT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##AG.CON.FERT.ZS:AG.CON.FERT.ZS} - Pesticide consumption (metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.CON.FERT.ZS:AG.CON.FERT.ZS} - Fertilizer consumption (kilograms per hectare of arable land)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -122,7 +110,7 @@
 
 {synoptline}
 {marker sourceid_AG.FRST.PROD.WOOD}
-{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.WOOD:AG.FRST.PROD.WOOD} - Wood fuel production quantity (CUM, solid volume units)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.FRST.PROD.WOOD:AG.FRST.PROD.WOOD} - Cereal imports (metric tons)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -146,7 +134,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.IRIG.AG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.AG.ZS:AG.LND.IRIG.AG.ZS} - Agricultural irrigated land (% of total agricultural land)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.AG.ZS:AG.LND.IRIG.AG.ZS} - Land use, irrigated land (hectares)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -170,7 +158,7 @@
 
 {synoptline}
 {marker sourceid_AG.LND.IRIG.PO.HA}
-{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.PO.HA:AG.LND.IRIG.PO.HA} - Land area equipped for irrigation (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.IRIG.PO.HA:AG.LND.IRIG.PO.HA} - Irrigated land (% of cropland)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -302,7 +290,7 @@
 
 {synoptline}
 {marker sourceid_AG.YLD.WHT.KG}
-{synopt:{bf:{help wbopendata_sourceid##AG.YLD.WHT.KG:AG.YLD.WHT.KG} - Wheat yield (kg per hectare)}}
+{synopt:{bf:{help wbopendata_sourceid##AG.YLD.WHT.KG:AG.YLD.WHT.KG} - Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -350,7 +338,7 @@
 
 {synoptline}
 {marker sourceid_BG.KLT.DINV.GD.PP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BG.KLT.DINV.GD.PP.ZS:BG.KLT.DINV.GD.PP.ZS} - Gross foreign direct investment (% of GDP, PPP)}}
+{synopt:{bf:{help wbopendata_sourceid##BG.KLT.DINV.GD.PP.ZS:BG.KLT.DINV.GD.PP.ZS} - Gross foreign direct investment (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -398,7 +386,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.FCTY.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.FCTY.CD:BM.GSR.FCTY.CD} - Primary income payments (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.FCTY.CD:BM.GSR.FCTY.CD} - Financial services, imports (BoP, current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -422,7 +410,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.INSF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.INSF.ZS:BM.GSR.INSF.ZS} - Insurance services, imports (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.INSF.ZS:BM.GSR.INSF.ZS} - Insurance and financial services (% of service imports, BoP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -470,7 +458,7 @@
 
 {synoptline}
 {marker sourceid_BM.GSR.NFSV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BM.GSR.NFSV.CD:BM.GSR.NFSV.CD} - Service imports (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.GSR.NFSV.CD:BM.GSR.NFSV.CD} - Other services, imports (BoP, US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -566,7 +554,7 @@
 
 {synoptline}
 {marker sourceid_BM.KLT.DINV.WD.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BM.KLT.DINV.WD.GD.ZS:BM.KLT.DINV.WD.GD.ZS} - Factor Service Payments (US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BM.KLT.DINV.WD.GD.ZS:BM.KLT.DINV.WD.GD.ZS} - Foreign direct investment, net outflows (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -674,7 +662,7 @@
 
 {synoptline}
 {marker sourceid_BN.CAB.XOKA.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BN.CAB.XOKA.GN.ZS:BN.CAB.XOKA.GN.ZS} - Current Acc. Bal. before Off. Transf.(US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.CAB.XOKA.GN.ZS:BN.CAB.XOKA.GN.ZS} - Current account balance (% of GNP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -758,7 +746,7 @@
 
 {synoptline}
 {marker sourceid_BN.KAC.OTHR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KAC.OTHR.CD:BN.KAC.OTHR.CD} - Other Capital Inflows (net) (US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KAC.OTHR.CD:BN.KAC.OTHR.CD} - Other capital flows, net (BoP, current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -926,7 +914,7 @@
 
 {synoptline}
 {marker sourceid_BN.KLT.TOTX.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.KLT.TOTX.CD:BN.KLT.TOTX.CD} - Long-Term Capital Inflow, net (US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.KLT.TOTX.CD:BN.KLT.TOTX.CD} - Long-Term Capital Inflow (net) (US$, BoP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -974,7 +962,7 @@
 
 {synoptline}
 {marker sourceid_BN.RES.INCL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.RES.INCL.CD:BN.RES.INCL.CD} - Change in Reserves (- = increase) (US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.RES.INCL.CD:BN.RES.INCL.CD} - Reserves and related items (BoP, current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1022,7 +1010,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRF.OFFN.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.OFFN.CD:BN.TRF.OFFN.CD} - Official Transfers, net (US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.OFFN.CD:BN.TRF.OFFN.CD} - Official Transfers (net) (US$, BoP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1046,7 +1034,7 @@
 
 {synoptline}
 {marker sourceid_BN.TRF.PWKR.CD}
-{synopt:{bf:{help wbopendata_sourceid##BN.TRF.PWKR.CD:BN.TRF.PWKR.CD} - Workers' remittances, net (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BN.TRF.PWKR.CD:BN.TRF.PWKR.CD} - Personal remittances, net (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1082,7 +1070,7 @@
 
 {synoptline}
 {marker sourceid_BX.GSR.CMCP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BX.GSR.CMCP.ZS:BX.GSR.CMCP.ZS} - Communications services, exports (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GSR.CMCP.ZS:BX.GSR.CMCP.ZS} - Communications, computer, etc. (% of service exports, BoP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1178,7 +1166,7 @@
 
 {synoptline}
 {marker sourceid_BX.GSR.NFSV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.GSR.NFSV.CD:BX.GSR.NFSV.CD} - Service exports (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GSR.NFSV.CD:BX.GSR.NFSV.CD} - Other services, exports (BoP, US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1202,7 +1190,7 @@
 
 {synoptline}
 {marker sourceid_BX.GSR.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.GSR.TOTL.CD:BX.GSR.TOTL.CD} - Transport services, exports (BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.GSR.TOTL.CD:BX.GSR.TOTL.CD} - Exports of goods, services and primary income (BoP, current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1262,7 +1250,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DINV.DT.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.DT.GD.ZS:BX.KLT.DINV.DT.GD.ZS} - Foreign direct investment, net inflows (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.DT.GD.ZS:BX.KLT.DINV.DT.GD.ZS} - Foreign direct investment, net inflows (% of gross capital formation)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1322,7 +1310,7 @@
 
 {synoptline}
 {marker sourceid_BX.SVF.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.SVF.TOTL.CD:BX.SVF.TOTL.CD} - Factor Service Receipts (US$, BoP)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.SVF.TOTL.CD:BX.SVF.TOTL.CD} - Non-Factor Services Receipts (US$, BoP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1346,7 +1334,7 @@
 
 {synoptline}
 {marker sourceid_BX.TRF.PWKR.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PWKR.GD.ZS:BX.TRF.PWKR.GD.ZS} - Workers' remittances, receipts (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.TRF.PWKR.GD.ZS:BX.TRF.PWKR.GD.ZS} - Private current transfers, receipts (BoP, US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1382,7 +1370,7 @@
 
 {synoptline}
 {marker sourceid_DAK.VILG.CR}
-{synopt:{bf:{help wbopendata_sourceid##DAK.VILG.CR:DAK.VILG.CR} - Total Specific Allocation Grant for Village (in IDR Billion)}}
+{synopt:{bf:{help wbopendata_sourceid##DAK.VILG.CR:DAK.VILG.CR} - Central Government External Debt (US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1418,7 +1406,7 @@
 
 {synoptline}
 {marker sourceid_DC.ODA.UNTD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.ZS:DC.ODA.UNTD.ZS} - Bilateral ODA commitments that is untied (% of bilateral ODA commitments)}}
+{synopt:{bf:{help wbopendata_sourceid##DC.ODA.UNTD.ZS:DC.ODA.UNTD.ZS} - Non-financial Pub. Enterprises Ext. Debt (US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1490,7 +1478,7 @@
 
 {synoptline}
 {marker sourceid_DI.DOD.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##DI.DOD.TOTL.CD:DI.DOD.TOTL.CD} - Repay on Long-Term Loans (US$, as per IBRD DRS)}}
+{synopt:{bf:{help wbopendata_sourceid##DI.DOD.TOTL.CD:DI.DOD.TOTL.CD} - Use of Fund Credit (US$, end of year)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1526,7 +1514,7 @@
 
 {synoptline}
 {marker sourceid_DL.DOD.CBNK.CD}
-{synopt:{bf:{help wbopendata_sourceid##DL.DOD.CBNK.CD:DL.DOD.CBNK.CD} - Central Government}}
+{synopt:{bf:{help wbopendata_sourceid##DL.DOD.CBNK.CD:DL.DOD.CBNK.CD} - Central Bank, incl. IMF credit}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1658,7 +1646,7 @@
 
 {synoptline}
 {marker sourceid_DP.DOD.DLTC.CR.PS.CD}
-{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.PS.CD:DP.DOD.DLTC.CR.PS.CD} - Priv. Sector Ext. Debt, incl. non-guarant.(US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DP.DOD.DLTC.CR.PS.CD:DP.DOD.DLTC.CR.PS.CD} - 168.Long-term, by original maturity (PSDT, LT) US$}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1682,7 +1670,7 @@
 
 {synoptline}
 {marker sourceid_DPANUSSPF}
-{synopt:{bf:{help wbopendata_sourceid##DPANUSSPF:DPANUSSPF} - Exchange rate, old LCU per USD extended forward, period average}}
+{synopt:{bf:{help wbopendata_sourceid##DPANUSSPF:DPANUSSPF} - Rest of General Government External Debt (US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1706,7 +1694,7 @@
 
 {synoptline}
 {marker sourceid_DS.DOD.STRM.CD}
-{synopt:{bf:{help wbopendata_sourceid##DS.DOD.STRM.CD:DS.DOD.STRM.CD} - Identified Short-Term Debt (US$, end of year)}}
+{synopt:{bf:{help wbopendata_sourceid##DS.DOD.STRM.CD:DS.DOD.STRM.CD} - Short-Term Debt}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1862,7 +1850,7 @@
 
 {synoptline}
 {marker sourceid_DT.DOD.LOST.CD.PU.AR.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.DOD.LOST.CD.PU.AR.US:DT.DOD.LOST.CD.PU.AR.US} - External Debt, total}}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.LOST.CD.PU.AR.US:DT.DOD.LOST.CD.PU.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Loans, USD}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1934,7 +1922,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GN.ZS:DT.ODA.ALLD.GN.ZS} - Aid (% of GNP)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.GN.ZS:DT.ODA.ALLD.GN.ZS} - Net ODA received (% of GNP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1982,7 +1970,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.PC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.PC.ZS:DT.ODA.ALLD.PC.ZS} - Aid per capita (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.PC.ZS:DT.ODA.ALLD.PC.ZS} - Net official development assistance received per capita (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2006,7 +1994,7 @@
 
 {synoptline}
 {marker sourceid_DT.ODA.ALLD.XP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.XP.ZS:DT.ODA.ALLD.XP.ZS} - Net ODA received (% of central government expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ALLD.XP.ZS:DT.ODA.ALLD.XP.ZS} - Aid (% of central government expenditures)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2030,7 +2018,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DEAE.CD.IL.IQ.US}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.IQ.US:DT.TDS.DEAE.CD.IL.IQ.US} - Debt service (PPG and IMF only, % of exports of goods and services)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DEAE.CD.IL.IQ.US:DT.TDS.DEAE.CD.IL.IQ.US} - Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. of dir. investors to DI ent., Prin. and Int., USD}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2066,7 +2054,7 @@
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.GNP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.GNP.ZS:DT.TDS.DECT.GNP.ZS} - Total debt service ( % of exports of goods and services)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.GNP.ZS:DT.TDS.DECT.GNP.ZS} - Total debt service (% of GNP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2126,7 +2114,7 @@
 
 {synoptline}
 {marker sourceid_E6iii}
-{synopt:{bf:{help wbopendata_sourceid##E6iii:E6iii} - Agricultural land per worker (hectares)}}
+{synopt:{bf:{help wbopendata_sourceid##E6iii:E6iii} - 098.Destination Survival Rate of 2-year Incumbents: StDev.}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2178,7 +2166,6 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agriculture value added per worker is a measure of agricultural productivity. Value added in agriculture measures the output of the agricultural sector (ISIC divisions 1-5) less the value of intermediate inputs. Agriculture comprises value add{p_end}
 
@@ -2199,7 +2186,7 @@
 
 {synoptline}
 {marker sourceid_EC.XPD.TOTL.CR}
-{synopt:{bf:{help wbopendata_sourceid##EC.XPD.TOTL.CR:EC.XPD.TOTL.CR} - Total Expenditure (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##EC.XPD.TOTL.CR:EC.XPD.TOTL.CR} - Water pollution, clay and glass industry (% of total BOD emissions)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2247,7 +2234,7 @@
 
 {synoptline}
 {marker sourceid_EE.BOD.MTAL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EE.BOD.MTAL.ZS:EE.BOD.MTAL.ZS} - Water pollution, other industry (% of total BOD emissions)}}
+{synopt:{bf:{help wbopendata_sourceid##EE.BOD.MTAL.ZS:EE.BOD.MTAL.ZS} - Water pollution, metal industry (% of total BOD emissions)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2355,7 +2342,7 @@
 
 {synoptline}
 {marker sourceid_EG.ELC.ACCS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - Electricity production from coal sources (kWh)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - Access to electricity (% of population)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2451,7 +2438,7 @@
 
 {synoptline}
 {marker sourceid_EG.ELC.NGAS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS} - Electricity production from natural gas sources (% of total)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS} - Electricity production from nuclear sources (kWh)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2535,7 +2522,7 @@
 
 {synoptline}
 {marker sourceid_EG.FEC.RNEW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - GDP per unit of energy use (1987 US$ per kg of oil equivalent)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - Renewable energy consumption (% of total final energy consumption)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2588,7 +2575,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
+{synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Sustainable Energy for all (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
@@ -2655,7 +2642,7 @@
 
 {synoptline}
 {marker sourceid_EG.USE.CRNW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.USE.CRNW.ZS:EG.USE.CRNW.ZS} - Electric power consumption (kWh)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.USE.CRNW.ZS:EG.USE.CRNW.ZS} - Combustible renewables and waste (% of total energy)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2679,7 +2666,7 @@
 
 {synoptline}
 {marker sourceid_EN.ANM.THRD.NO}
-{synopt:{bf:{help wbopendata_sourceid##EN.ANM.THRD.NO:EN.ANM.THRD.NO} - Arable land area (% of total land area)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ANM.THRD.NO:EN.ANM.THRD.NO} - Animal species, threatened}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2787,7 +2774,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.NOXE.EI.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.EI.ZS:EN.ATM.NOXE.EI.ZS} - Industrial nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.EI.ZS:EN.ATM.NOXE.EI.ZS} - Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2847,7 +2834,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.PFCG.KT.CE}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PFC gas emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PM10, country level (micrograms per cubic meter)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2871,7 +2858,7 @@
 
 {synoptline}
 {marker sourceid_EN.BIR.THRD.NO}
-{synopt:{bf:{help wbopendata_sourceid##EN.BIR.THRD.NO:EN.BIR.THRD.NO} - Bird species, total known}}
+{synopt:{bf:{help wbopendata_sourceid##EN.BIR.THRD.NO:EN.BIR.THRD.NO} - Bird species, threatened}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2895,7 +2882,7 @@
 
 {synoptline}
 {marker sourceid_EN.CLC.MDAT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS} - Droughts, floods, extreme temperatures (% of population, average 1990-2009)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS} - CO2 emissions from residential buildings and commercial and public services (million metric tons)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2919,7 +2906,7 @@
 
 {synoptline}
 {marker sourceid_EN.CO2.BLDG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS} - CO2 emissions from electricity and heat production, total (million metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS} - CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2967,7 +2954,7 @@
 
 {synoptline}
 {marker sourceid_EN.CO2.MANF.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.CO2.MANF.ZS:EN.CO2.MANF.ZS} - CO2 emissions from manufacturing industries and construction (% of total fuel combustion)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.MANF.ZS:EN.CO2.MANF.ZS} - CO2 emissions from other sectors, excluding residential buildings and commercial and public services (million metric tons)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2991,7 +2978,7 @@
 
 {synoptline}
 {marker sourceid_EN.CO2.OTHX.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS} - CO2 emissions from transport (million metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS} - CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3135,7 +3122,7 @@
 
 {synoptline}
 {marker sourceid_EN.LAND.PPS}
-{synopt:{bf:{help wbopendata_sourceid##EN.LAND.PPS:EN.LAND.PPS} - Land use, permanent pasture (sq km)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.LAND.PPS:EN.LAND.PPS} - Land use, permanent pasture (% of land area)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3159,7 +3146,7 @@
 
 {synoptline}
 {marker sourceid_EN.LAND.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##EN.LAND.TOTL:EN.LAND.TOTL} - Irrigated land (% of arable land)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.LAND.TOTL:EN.LAND.TOTL} - Land area (sq km)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3255,7 +3242,7 @@
 
 {synoptline}
 {marker sourceid_EN.TDF.COMP}
-{synopt:{bf:{help wbopendata_sourceid##EN.TDF.COMP:EN.TDF.COMP} - Traditional fuel use (% of total energy use)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.TDF.COMP:EN.TDF.COMP} - Traditional fuel use (kt of oil equivalent)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3315,7 +3302,7 @@
 
 {synoptline}
 {marker sourceid_EP.PPR.MEAT.XD}
-{synopt:{bf:{help wbopendata_sourceid##EP.PPR.MEAT.XD:EP.PPR.MEAT.XD} - Meat price in PPP terms (U.S. price = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##EP.PPR.MEAT.XD:EP.PPR.MEAT.XD} - Agricultural producer price, wheat ($ per metric ton)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3351,7 +3338,7 @@
 
 {synoptline}
 {marker sourceid_ER.LND.PTLD.K2}
-{synopt:{bf:{help wbopendata_sourceid##ER.LND.PTLD.K2:ER.LND.PTLD.K2} - Terrestrial protected areas  (sq. km)}}
+{synopt:{bf:{help wbopendata_sourceid##ER.LND.PTLD.K2:ER.LND.PTLD.K2} - Terrestrial protected areas (number)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3423,7 +3410,7 @@
 
 {synoptline}
 {marker sourceid_EU.EGY.IMPT.CO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EU.EGY.IMPT.CO.ZS:EU.EGY.IMPT.CO.ZS} - GDP per unit of energy use (1987 US$ per kg of oil equivalent)}}
+{synopt:{bf:{help wbopendata_sourceid##EU.EGY.IMPT.CO.ZS:EU.EGY.IMPT.CO.ZS} - Energy imports, net (% of commercial energy use)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3519,14 +3506,14 @@
 
 {synoptline}
 {marker sourceid_FB.AST.LOAN.MF.P3}
-{synopt:{bf:{help wbopendata_sourceid##FB.AST.LOAN.MF.P3:FB.AST.LOAN.MF.P3} - Loan accounts, microfinance institutions (per 1,000 adults)}}
+{synopt:{bf:{help wbopendata_sourceid##FB.AST.LOAN.MF.P3:FB.AST.LOAN.MF.P3} - Loan accounts, specialized state financial institutions (per 1,000 adults)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Microfinance institutions are institutions whose primary business model is to lend to (and possibly take deposits from) the poor, often using specialized methodologies such as group lending. The data collected using this institutional classifi{p_end}
+{synopt:{opt Source Notes}}Bank nonperforming loans to total gross loans are the value of nonperforming loans divided by the total value of the loan portfolio (including nonperforming loans before the deduction of specific loan-loss provisions). The loan amount recorded{p_end}
 
-{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Global Financial Stability Report.{p_end}
 
 
 {synoptline}
@@ -3543,7 +3530,7 @@
 
 {synoptline}
 {marker sourceid_FB.AST.NPER.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FB.AST.NPER.ZS:FB.AST.NPER.ZS} - Bank nonperforming loans to total gross loans (%)}}
+{synopt:{bf:{help wbopendata_sourceid##FB.AST.NPER.ZS:FB.AST.NPER.ZS} - Banking assets held by government-owned banks (% of total banking assets)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3567,7 +3554,7 @@
 
 {synoptline}
 {marker sourceid_FB.ATM.TOTL.P5}
-{synopt:{bf:{help wbopendata_sourceid##FB.ATM.TOTL.P5:FB.ATM.TOTL.P5} - Automated teller machines (ATMs) (per 100,000 adults)}}
+{synopt:{bf:{help wbopendata_sourceid##FB.ATM.TOTL.P5:FB.ATM.TOTL.P5} - Branches, commercial banks (per 100,000 adults)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3699,7 +3686,7 @@
 
 {synoptline}
 {marker sourceid_FB.LBL.DDPT.MF.P3}
-{synopt:{bf:{help wbopendata_sourceid##FB.LBL.DDPT.MF.P3:FB.LBL.DDPT.MF.P3} - Bank deposit accounts (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##FB.LBL.DDPT.MF.P3:FB.LBL.DDPT.MF.P3} - Deposit accounts, microfinance institutions (per 1,000 adults)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3711,7 +3698,7 @@
 
 {synoptline}
 {marker sourceid_FB.LBL.DDPT.P3}
-{synopt:{bf:{help wbopendata_sourceid##FB.LBL.DDPT.P3:FB.LBL.DDPT.P3} - Deposit accounts, specialized state financial institutions (per 1,000 adults)}}
+{synopt:{bf:{help wbopendata_sourceid##FB.LBL.DDPT.P3:FB.LBL.DDPT.P3} - Bank deposit accounts (per 1,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3740,14 +3727,14 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
+{synopt:{opt Source Notes}}Point-of-sale terminals are the equipment used to manage the selling process by a salesperson-accessible interface in the location where a transaction takes place.{p_end}
 
-{synopt:{opt Source Organization}}Ministry of Finance, SIKD (Information System for Sub-National Budget){p_end}
+{synopt:{opt Source Organization}}Consultative Group to Assist the Poor and the World Bank Group’s Financial Access 2010.{p_end}
 
 
 {synoptline}
 {marker sourceid_FD.RES.LIQU.AS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##FD.RES.LIQU.AS.ZS:FD.RES.LIQU.AS.ZS} - Bank liquid reserves to bank assets ratio (%)}}
+{synopt:{bf:{help wbopendata_sourceid##FD.RES.LIQU.AS.ZS:FD.RES.LIQU.AS.ZS} - Gold Holdings at London market price (US$ end period)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3795,7 +3782,7 @@
 
 {synoptline}
 {marker sourceid_FM.ASC.GOVT.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.ASC.GOVT.CN:FM.ASC.GOVT.CN} - Net domestic credit to government, flow (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.ASC.GOVT.CN:FM.ASC.GOVT.CN} - Claims on governments, etc. as % of M2 (annual % change)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3951,7 +3938,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBL.MONY.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBL.MONY.CN:FM.LBL.MONY.CN} - Money (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBL.MONY.CN:FM.LBL.MONY.CN} - Money and quasi money (M2) (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -3963,7 +3950,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBL.MQMY.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBL.MQMY.CN:FM.LBL.MQMY.CN} - Money and quasi money (M2) (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBL.MQMY.CN:FM.LBL.MQMY.CN} - Money Supply, Broadly Defined (local)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4023,7 +4010,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBL.MQMY.XD}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBL.MQMY.XD:FM.LBL.MQMY.XD} - Income velocity of money (GDP/M2)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBL.MQMY.XD:FM.LBL.MQMY.XD} - Money and quasi money growth (annual %)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4059,7 +4046,7 @@
 
 {synoptline}
 {marker sourceid_FM.LBL.QMNY.CN}
-{synopt:{bf:{help wbopendata_sourceid##FM.LBL.QMNY.CN:FM.LBL.QMNY.CN} - Quasi-Monetary Liabilities (local)}}
+{synopt:{bf:{help wbopendata_sourceid##FM.LBL.QMNY.CN:FM.LBL.QMNY.CN} - Quasi money (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4203,7 +4190,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.LNDP}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.LNDP:FR.INR.LNDP} - Interest rate spread (lending rate minus LIBOR, %)}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.LNDP:FR.INR.LNDP} - Interest rate spread (lending rate minus deposit rate, %)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4227,7 +4214,7 @@
 
 {synoptline}
 {marker sourceid_FR.INR.TDPT.RL}
-{synopt:{bf:{help wbopendata_sourceid##FR.INR.TDPT.RL:FR.INR.TDPT.RL} - LIBOR rate (%)}}
+{synopt:{bf:{help wbopendata_sourceid##FR.INR.TDPT.RL:FR.INR.TDPT.RL} - Real interest on time deposit (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4551,7 +4538,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.CTOT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.CTOT.CN:GB.REV.CTOT.CN} - Current revenue, excluding grants (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.CTOT.CN:GB.REV.CTOT.CN} - Current revenue, excluding grants (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4575,7 +4562,7 @@
 
 {synoptline}
 {marker sourceid_GB.REV.IGRT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.REV.IGRT.CN:GB.REV.IGRT.CN} - Total revenue including current grants (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.REV.IGRT.CN:GB.REV.IGRT.CN} - Current revenue (local currency)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4635,7 +4622,7 @@
 
 {synoptline}
 {marker sourceid_GB.RVK.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.RVK.TOTL.CN:GB.RVK.TOTL.CN} - SOE external debt (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.RVK.TOTL.CN:GB.RVK.TOTL.CN} - Capital revenue (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4743,7 +4730,7 @@
 
 {synoptline}
 {marker sourceid_GB.SOE.OVRL.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.SOE.OVRL.GD.ZS:GB.SOE.OVRL.GD.ZS} - State-owned enterprises, overall balance before transfers (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.SOE.OVRL.GD.ZS:GB.SOE.OVRL.GD.ZS} - SOE overall balance before transfers (% of total)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4755,7 +4742,7 @@
 
 {synoptline}
 {marker sourceid_GB.SOE.OVRL.GDP.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.SOE.OVRL.GDP.ZS:GB.SOE.OVRL.GDP.ZS} - Privatization proceeds (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.SOE.OVRL.GDP.ZS:GB.SOE.OVRL.GDP.ZS} - SOE overall balance before transfers (% of total)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4875,7 +4862,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.IDRT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.IDRT.CN:GB.TAX.IDRT.CN} - Indirect taxes less subsidies (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.IDRT.CN:GB.TAX.IDRT.CN} - Highest marginal tax rate, individual (on income exceeding, US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4911,7 +4898,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.IMPT.BM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.IMPT.BM.ZS:GB.TAX.IMPT.BM.ZS} - Import duties (% of tax revenue)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.IMPT.BM.ZS:GB.TAX.IMPT.BM.ZS} - Import duties (% of imports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4947,7 +4934,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.INTT.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.INTT.CN:GB.TAX.INTT.CN} - Taxes on international trade, GB (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.INTT.CN:GB.TAX.INTT.CN} - Taxes on international trade (% of current revenue)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5031,7 +5018,7 @@
 
 {synoptline}
 {marker sourceid_GB.TAX.TOTL.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.TAX.TOTL.CN:GB.TAX.TOTL.CN} - Tax revenue (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.TAX.TOTL.CN:GB.TAX.TOTL.CN} - Tax revenue (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5115,7 +5102,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.INTE.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTE.CN:GB.XPC.INTE.CN} - Interest payment (% of current revenue)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.INTE.CN:GB.XPC.INTE.CN} - Interest on external debt (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5151,7 +5138,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.TRFO.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.TRFO.CN:GB.XPC.TRFO.CN} - Other current transfers (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.TRFO.CN:GB.XPC.TRFO.CN} - Subsidies and other current transfers (% of total expenditure)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5175,7 +5162,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPC.WAGE.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPC.WAGE.CN:GB.XPC.WAGE.CN} - Wages and salaries (% of total expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPC.WAGE.CN:GB.XPC.WAGE.CN} - Wages and salaries (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5223,7 +5210,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPD.INLD.CN}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPD.INLD.CN:GB.XPD.INLD.CN} - Total expenditure and net lending (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPD.INLD.CN:GB.XPD.INLD.CN} - Expenditures for research and development (% of GNP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5259,7 +5246,7 @@
 
 {synoptline}
 {marker sourceid_GB.XPD.RSDV.GN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GB.XPD.RSDV.GN.ZS:GB.XPD.RSDV.GN.ZS} - Research and development expenditure (% of GNI)}}
+{synopt:{bf:{help wbopendata_sourceid##GB.XPD.RSDV.GN.ZS:GB.XPD.RSDV.GN.ZS} - Expenditure, total (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5379,7 +5366,7 @@
 
 {synoptline}
 {marker sourceid_GC.BAL.CIGR.CN}
-{synopt:{bf:{help wbopendata_sourceid##GC.BAL.CIGR.CN:GC.BAL.CIGR.CN} - Gov. Current Budget Balance (+C&amp;K Grants)(Local)}}
+{synopt:{bf:{help wbopendata_sourceid##GC.BAL.CIGR.CN:GC.BAL.CIGR.CN} - Government Current Budget Balance (local)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5523,7 +5510,7 @@
 
 {synoptline}
 {marker sourceid_GC.REV.GOTR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##GC.REV.GOTR.ZS:GC.REV.GOTR.ZS} - Grants and other revenue (% of revenue)}}
+{synopt:{bf:{help wbopendata_sourceid##GC.REV.GOTR.ZS:GC.REV.GOTR.ZS} - Government Capital Receipts (local)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5655,7 +5642,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.NREG}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.NREG:IC.BUS.NREG} - Business entry rate (new registrations as % of total)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.NREG:IC.BUS.NREG} - New businesses registered (number)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5679,7 +5666,7 @@
 
 {synoptline}
 {marker sourceid_IC.BUS.SHR.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.BUS.SHR.XQ:IC.BUS.SHR.XQ} - Total businesses registered (number)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.SHR.XQ:IC.BUS.SHR.XQ} - Protecting investors, shareholder suits index}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5703,7 +5690,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRD.LGL.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRD.LGL.XQ:IC.CRD.LGL.XQ} - Getting credit, legal rights index}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.LGL.XQ:IC.CRD.LGL.XQ} - Private credit bureau coverage (borrowers per 1,000 adults)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5727,7 +5714,7 @@
 
 {synoptline}
 {marker sourceid_IC.CRD.PRVT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - Public credit registry coverage (borrowers per 1,000 adults)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - Private credit bureau coverage (% of adults)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5751,7 +5738,7 @@
 
 {synoptline}
 {marker sourceid_IC.ELC.OUTG}
-{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG:IC.ELC.OUTG} - Electrical outages (days)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG:IC.ELC.OUTG} - Power outages in firms in a typical month (number)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5840,7 +5827,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
+{synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -5851,8 +5838,9 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
+{synopt:{opt Source Notes}}Time to export is the time necessary to comply with all procedures required to export goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
 
@@ -5875,6 +5863,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -5883,7 +5872,7 @@
 
 {synoptline}
 {marker sourceid_IC.IMP.CSDC.CD}
-{synopt:{bf:{help wbopendata_sourceid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - Cost to import, documentary compliance (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - Documents to import (number)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5895,7 +5884,7 @@
 
 {synoptline}
 {marker sourceid_IC.IMP.DOCS}
-{synopt:{bf:{help wbopendata_sourceid##IC.IMP.DOCS:IC.IMP.DOCS} - Documents to import (number)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.DOCS:IC.IMP.DOCS} - Time to import (days)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5911,7 +5900,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
@@ -5920,7 +5909,7 @@
 
 {synoptline}
 {marker sourceid_IC.LGL.DURS}
-{synopt:{bf:{help wbopendata_sourceid##IC.LGL.DURS:IC.LGL.DURS} - Time required to enforce a contract (days)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.LGL.DURS:IC.LGL.DURS} - Rigidity of employment index (0=less rigid to 100=more rigid)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -5961,14 +5950,14 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of loans that require collateral.{p_end}
+{synopt:{opt Source Notes}}This indicator measures the number of procedures required to resolve a sale of goods dispute in local courts. It includes steps to file the case, to go through the trial and judgment, and to enforce the judgment. The data are collected through{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business Project ({browse "http://www.doingbusiness.org/ExploreTopics/EnforcingContracts/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IC.SALE.DOM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IC.SALE.DOM.ZS:IC.SALE.DOM.ZS} - MSME employment (% of total employment)}}
+{synopt:{bf:{help wbopendata_sourceid##IC.SALE.DOM.ZS:IC.SALE.DOM.ZS} - Domestic Sales (% sales)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6040,7 +6029,7 @@
 
 {synoptline}
 {marker sourceid_IE.PPI.ICTI.CD}
-{synopt:{bf:{help wbopendata_sourceid##IE.PPI.ICTI.CD:IE.PPI.ICTI.CD} - Investment in telecoms with private participation (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IE.PPI.ICTI.CD:IE.PPI.ICTI.CD} - Investment in ICT with private participation (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6069,14 +6058,14 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Public Private Partnerships in transport (current US$) refers to commitments to  infrastructure projects in transport that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are exclud{p_end}
+{synopt:{opt Source Notes}}Public Private Partnerships in telecom (current US$) refers to commitments to infrastructure projects in telecommunications that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_IP.PAT.RESD}
-{synopt:{bf:{help wbopendata_sourceid##IP.PAT.RESD:IP.PAT.RESD} - Trademark applications, aggregate direct}}
+{synopt:{bf:{help wbopendata_sourceid##IP.PAT.RESD:IP.PAT.RESD} - Patent applications, residents}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6112,7 +6101,7 @@
 
 {synoptline}
 {marker sourceid_IQ.CPA.TRAN.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IQ.CPA.TRAN.XQ:IQ.CPA.TRAN.XQ} - ICRG composite risk rating (0=highest risk to 100=lowest)}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.CPA.TRAN.XQ:IQ.CPA.TRAN.XQ} - CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6160,7 +6149,7 @@
 
 {synoptline}
 {marker sourceid_IS.AIR.PSGR}
-{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR:IS.AIR.PSGR} - Air transport, passengers carried (thousands)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR:IS.AIR.PSGR} - Air transport, passengers carried}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6268,7 +6257,7 @@
 
 {synoptline}
 {marker sourceid_IS.ROD.PSGR.K6}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.PSGR.K6:IS.ROD.PSGR.K6} - Roads, passengers carried (million passenger-km)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.ROD.PSGR.K6:IS.ROD.PSGR.K6} - Road sector gasoline fuel consumption (kt of oil equivalent)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6328,7 +6317,7 @@
 
 {synoptline}
 {marker sourceid_IS.RRS.DNST}
-{synopt:{bf:{help wbopendata_sourceid##IS.RRS.DNST:IS.RRS.DNST} - Rail lines, electric (km)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.RRS.DNST:IS.RRS.DNST} - Rail traffic density (passengers and freight/km)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6364,7 +6353,7 @@
 
 {synoptline}
 {marker sourceid_IS.RRS.GOOD.KM}
-{synopt:{bf:{help wbopendata_sourceid##IS.RRS.GOOD.KM:IS.RRS.GOOD.KM} - Railways, good hauled (ton-km)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.RRS.GOOD.KM:IS.RRS.GOOD.KM} - Railways, goods transported (ton-km per PPP $ million of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6388,7 +6377,7 @@
 
 {synoptline}
 {marker sourceid_IS.RRS.GOOD.MT.K6}
-{synopt:{bf:{help wbopendata_sourceid##IS.RRS.GOOD.MT.K6:IS.RRS.GOOD.MT.K6} - Railways, goods transported (million ton-km)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.RRS.GOOD.MT.K6:IS.RRS.GOOD.MT.K6} - Railways, passenger-km (per PPP $ million of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6412,7 +6401,7 @@
 
 {synoptline}
 {marker sourceid_IS.RRS.TOTL.KM}
-{synopt:{bf:{help wbopendata_sourceid##IS.RRS.TOTL.KM:IS.RRS.TOTL.KM} - Rail lines (total route-km)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.RRS.TOTL.KM:IS.RRS.TOTL.KM} - Ratio of rail passenger tariffs to freight tariffs}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6436,7 +6425,7 @@
 
 {synoptline}
 {marker sourceid_IS.VEH.ROAD.K1}
-{synopt:{bf:{help wbopendata_sourceid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - Vehicles (per km of road)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - Fixed broadband Internet access tariff (US$ per month)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6532,7 +6521,7 @@
 
 {synoptline}
 {marker sourceid_IT.CMP.PCMP.P2}
-{synopt:{bf:{help wbopendata_sourceid##IT.CMP.PCMP.P2:IT.CMP.PCMP.P2} - Personal computers (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.CMP.PCMP.P2:IT.CMP.PCMP.P2} - Personal computers (per 100 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6592,7 +6581,7 @@
 
 {synoptline}
 {marker sourceid_IT.INT.TTRF.MN}
-{synopt:{bf:{help wbopendata_sourceid##IT.INT.TTRF.MN:IT.INT.TTRF.MN} - International voice traffic, total fixed and mobile (out and in, minutes)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.INT.TTRF.MN:IT.INT.TTRF.MN} - International voice traffic, total fixed and mobile (minutes per person)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6604,7 +6593,7 @@
 
 {synoptline}
 {marker sourceid_IT.INT.TTRF.MN.PC}
-{synopt:{bf:{help wbopendata_sourceid##IT.INT.TTRF.MN.PC:IT.INT.TTRF.MN.PC} - Mobile cellular prepaid tariff (US$ per month)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.INT.TTRF.MN.PC:IT.INT.TTRF.MN.PC} - International voice traffic, total fixed and mobile (minutes per person)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6700,7 +6689,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.REVN.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.REVN.CN:IT.MLT.REVN.CN} - Telephone revenue per mainline (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.REVN.CN:IT.MLT.REVN.CN} - Revenue from fixed telephone service (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6724,7 +6713,7 @@
 
 {synoptline}
 {marker sourceid_IT.MLT.RSUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.MLT.RSUB.CN:IT.MLT.RSUB.CN} - Price basket for residential fixed line (US$ per month)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.MLT.RSUB.CN:IT.MLT.RSUB.CN} - Residential monthly telephone subscription (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6796,7 +6785,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.EDUC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.EDUC.ZS:IT.NET.EDUC.ZS} - Schools connected to the Internet (%)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.EDUC.ZS:IT.NET.EDUC.ZS} - Internet hosts (per 10,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6832,7 +6821,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.SUB.CN}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.SUB.CN:IT.NET.SUB.CN} - Internet telephone access charges ($ per 30 off-peak hours)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.SUB.CN:IT.NET.SUB.CN} - Fixed broadband Internet monthly subscription (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6880,7 +6869,7 @@
 
 {synoptline}
 {marker sourceid_IT.NET.USER}
-{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER:IT.NET.USER} - Internet users}}
+{synopt:{bf:{help wbopendata_sourceid##IT.NET.USER:IT.NET.USER} - Internet users (per 100 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -6896,10 +6885,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Please cite the International Telecommunication Union for third-party use of these data.  Internet users are people with access to the worldwide network.{p_end}
+{synopt:{opt Source Notes}}Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication Development Report and database, and World Bank estimates.{p_end}
+{synopt:{opt Source Organization}}International Telecommunication Union, World Telecommunication/ICT Development Report and database.{p_end}
 
 
 {synoptline}
@@ -6920,6 +6910,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Daily newspapers refer to those published at least four times a week and calculated as average circulation (or copies printed) per 1,000 people.{p_end}
 
@@ -6964,7 +6955,7 @@
 
 {synoptline}
 {marker sourceid_IT.TEL.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL:IT.TEL.TOTL} - Fixed line and mobile cellular subscriptions per employee}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TEL.TOTL:IT.TEL.TOTL} - Mobile and fixed-line telephone subscribers}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7012,7 +7003,7 @@
 
 {synoptline}
 {marker sourceid_IT.TVS.HOUS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##IT.TVS.HOUS.ZS:IT.TVS.HOUS.ZS} - Television sets (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##IT.TVS.HOUS.ZS:IT.TVS.HOUS.ZS} - Households with television (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7048,7 +7039,7 @@
 
 {synoptline}
 {marker sourceid_LO.TIMSS.SCI4.BL.MA}
-{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI4.BL.MA:LO.TIMSS.SCI4.BL.MA} - TIMSS: Male 4th grade students who did not reach the low international benchmark of science achievement (%)}}
+{synopt:{bf:{help wbopendata_sourceid##LO.TIMSS.SCI4.BL.MA:LO.TIMSS.SCI4.BL.MA} - Services, etc., value added (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7060,7 +7051,7 @@
 
 {synoptline}
 {marker sourceid_MS.MIL.MPRT.KD}
-{synopt:{bf:{help wbopendata_sourceid##MS.MIL.MPRT.KD:MS.MIL.MPRT.KD} - Arms imports (% of total imports)}}
+{synopt:{bf:{help wbopendata_sourceid##MS.MIL.MPRT.KD:MS.MIL.MPRT.KD} - Arms imports (SIPRI trend indicator values)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7084,7 +7075,7 @@
 
 {synoptline}
 {marker sourceid_MS.MIL.XPND.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##MS.MIL.XPND.GD.ZS:MS.MIL.XPND.GD.ZS} - Military expenditure (% of GNI)}}
+{synopt:{bf:{help wbopendata_sourceid##MS.MIL.XPND.GD.ZS:MS.MIL.XPND.GD.ZS} - Military expenditure (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7108,7 +7099,7 @@
 
 {synoptline}
 {marker sourceid_MS.MIL.XPRT.KD}
-{synopt:{bf:{help wbopendata_sourceid##MS.MIL.XPRT.KD:MS.MIL.XPRT.KD} - Arms exports (% of total exports)}}
+{synopt:{bf:{help wbopendata_sourceid##MS.MIL.XPRT.KD:MS.MIL.XPRT.KD} - Arms exports (SIPRI trend indicator values)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7132,7 +7123,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.GOVT.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.GOVT.KD:NE.CON.GOVT.KD} - General government final consumption expenditure (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.GOVT.KD:NE.CON.GOVT.KD} - General government consumption (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7156,7 +7147,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.GOVT.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.GOVT.KN:NE.CON.GOVT.KN} - General government consumption (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.GOVT.KN:NE.CON.GOVT.KN} - General government final consumption expenditure (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7204,7 +7195,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PEPC.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PEPC.KD:NE.CON.PEPC.KD} - Household final consumption expenditure, etc. (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PEPC.KD:NE.CON.PEPC.KD} - Private consumption per capita (1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7216,11 +7207,10 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PETC.CD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PETC.CD:NE.CON.PETC.CD} - Household final consumption expenditure, etc. (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PETC.CD:NE.CON.PETC.CD} - Household final consumption expenditure, etc. (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
 
@@ -7241,12 +7231,13 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PETC.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PETC.KD:NE.CON.PETC.KD} - Private consumption, etc. (constant 1987 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PETC.KD:NE.CON.PETC.KD} - Household final consumption expenditure, etc. (constant 2010 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth of household final consumption expenditure is based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Household final consumption expenditure (formerly private consumption) is the market v{p_end}
+{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -7325,7 +7316,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PRVT.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.KD:NE.CON.PRVT.KD} - Households and NPISHs Final consumption expenditure (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.KD:NE.CON.PRVT.KD} - Private consumption (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7433,7 +7424,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PVPC.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PVPC.KD:NE.CON.PVPC.KD} - Private consumption per capita (1987 USD)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PVPC.KD:NE.CON.PVPC.KD} - Final consumption expenditure, etc. (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7450,7 +7441,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (formerly private consumption) and general government final consumption expenditure (formerly general government consumption). Thi{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (private consumption) and general government final consumption expenditure (general government consumption). This estimate include{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -7473,7 +7464,6 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (formerly private consumption) and general government final consumption expenditure (formerly general government consumption). Thi{p_end}
 
@@ -7498,6 +7488,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Average annual growth of final consumption expenditure based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Final consumption expenditure (formerly total consumption) is the sum of household final consumption e{p_end}
 
@@ -7506,19 +7497,19 @@
 
 {synoptline}
 {marker sourceid_NE.CON.TETC.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.TETC.KN:NE.CON.TETC.KN} - Total consumption, etc. (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.TETC.KN:NE.CON.TETC.KN} - Final consumption expenditure, etc. (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (private consumption) and general government final consumption expenditure (general government consumption). This estimate include{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (formerly private consumption) and general government final consumption expenditure (formerly general government consumption). Thi{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NE.CON.TETC.KN.87}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.TETC.KN.87:NE.CON.TETC.KN.87} - Total consumption, etc. (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.TETC.KN.87:NE.CON.TETC.KN.87} - Total consumption, etc. (annual % growth)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7546,6 +7537,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (private consumption) and general government final consumption expenditure (general government consumption). This estimate include{p_end}
 
@@ -7638,7 +7630,7 @@
 
 {synoptline}
 {marker sourceid_NE.DAB.TOTL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.DAB.TOTL.KD:NE.DAB.TOTL.KD} - Gross national expenditure (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.DAB.TOTL.KD:NE.DAB.TOTL.KD} - Domestic absorption (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7698,7 +7690,7 @@
 
 {synoptline}
 {marker sourceid_NE.DAB.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NE.DAB.TOTL.ZS:NE.DAB.TOTL.ZS} - Gross national expenditure (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.DAB.TOTL.ZS:NE.DAB.TOTL.ZS} - KP Capacity to Import (Local)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7722,7 +7714,7 @@
 
 {synoptline}
 {marker sourceid_NE.EXP.GNFS.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.EXP.GNFS.KD:NE.EXP.GNFS.KD} - Exports of goods and services (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.EXP.GNFS.KD:NE.EXP.GNFS.KD} - Exports of goods and services (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7806,7 +7798,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FGOV.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.KN:NE.GDI.FGOV.KN} - CP Fixed Investment (Local)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FGOV.KN:NE.GDI.FGOV.KN} - GDFI - general government (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7926,7 +7918,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.FTOT.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FTOT.KN:NE.GDI.FTOT.KN} - Gross fixed capital formation (constant LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.FTOT.KN:NE.GDI.FTOT.KN} - Gross domestic fixed investment (constant 1987 LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7962,7 +7954,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.IMPT.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.IMPT.CR:NE.GDI.IMPT.CR} - Gross domestic investment per capita (1987 USD)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.IMPT.CR:NE.GDI.IMPT.CR} - GDP expenditure on imports (in IDR Million)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7998,7 +7990,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STKB.CR}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.CR:NE.GDI.STKB.CR} - Change in inventories (constant 1987 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.CR:NE.GDI.STKB.CR} - GDP expenditure on changes in stock (in IDR Million)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8022,7 +8014,7 @@
 
 {synoptline}
 {marker sourceid_NE.GDI.STKB.KN}
-{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.KN:NE.GDI.STKB.KN} - Change in inventories (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.GDI.STKB.KN:NE.GDI.STKB.KN} - Changes in inventories (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8154,7 +8146,7 @@
 
 {synoptline}
 {marker sourceid_NE.IMP.GNFS.KN.87}
-{synopt:{bf:{help wbopendata_sourceid##NE.IMP.GNFS.KN.87:NE.IMP.GNFS.KN.87} - Imports of goods and services (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.IMP.GNFS.KN.87:NE.IMP.GNFS.KN.87} - Imports of goods and services (annual % growth)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8298,7 +8290,7 @@
 
 {synoptline}
 {marker sourceid_NP.AGR.TOTL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NP.AGR.TOTL.KN:NP.AGR.TOTL.KN} - Agriculture, value added (local) (Const. Price)}}
+{synopt:{bf:{help wbopendata_sourceid##NP.AGR.TOTL.KN:NP.AGR.TOTL.KN} - Agriculture: contribution to growth of GDP (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8442,7 +8434,7 @@
 
 {synoptline}
 {marker sourceid_NV.AGR.TOTL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.KD:NV.AGR.TOTL.KD} - Agriculture, value added (constant 1987 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.KD:NV.AGR.TOTL.KD} - Agriculture, forestry, and fishing, value added (constant 2010 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8550,7 +8542,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MANF.KN.87}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.87:NV.IND.MANF.KN.87} - Manufacturing, value added (annual % growth)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.87:NV.IND.MANF.KN.87} - Manufacturing, value added (constant 1987 LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8574,7 +8566,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.MANF.KN.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.ZG:NV.IND.MANF.KN.ZG} - Value added, manufacturing growth rate (%)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.MANF.KN.ZG:NV.IND.MANF.KN.ZG} - Manufacturing, val. added defl.(1987=100,Index)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8598,7 +8590,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.TOTL.KD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.KD:NV.IND.TOTL.KD} - Industry (including construction), value added (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.KD:NV.IND.TOTL.KD} - Industry, value added (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8646,7 +8638,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.TOTL.KN.87.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.KN.87.ZG:NV.IND.TOTL.KN.87.ZG} - Industry, val. added defl. (1987=100,Index)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.KN.87.ZG:NV.IND.TOTL.KN.87.ZG} - Industry, value added (annual % growth)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8658,7 +8650,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.TOTL.XD}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.XD:NV.IND.TOTL.XD} - Industry: contribution to growth of GDP (%)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.XD:NV.IND.TOTL.XD} - Industry, val. added defl. (1987=100,Index)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8682,7 +8674,7 @@
 
 {synoptline}
 {marker sourceid_NV.IND.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.ZS:NV.IND.TOTL.ZS} - Chemicals (% of value added in manufacturing)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.IND.TOTL.ZS:NV.IND.TOTL.ZS} - Industry (including construction), value added (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8730,7 +8722,7 @@
 
 {synoptline}
 {marker sourceid_NV.MNF.FBTO.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##NV.MNF.FBTO.ZS.UN:NV.MNF.FBTO.ZS.UN} - Machinery and transport equipment (% of value added in mfg)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.MNF.FBTO.ZS.UN:NV.MNF.FBTO.ZS.UN} - Food, beverages and tobacco (% of value added in manufacturing)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8778,7 +8770,7 @@
 
 {synoptline}
 {marker sourceid_NV.MNF.TECH.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##NV.MNF.TECH.ZS.UN:NV.MNF.TECH.ZS.UN} - Medium and high-tech Industry (including construction) (% manufacturing value added)}}
+{synopt:{bf:{help wbopendata_sourceid##NV.MNF.TECH.ZS.UN:NV.MNF.TECH.ZS.UN} - Textiles and clothing (% of value added in mfg)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -8830,6 +8822,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
 
@@ -8843,9 +8836,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -8867,7 +8860,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Annual growth rate for value added in services based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including{p_end}
+{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
@@ -8939,14 +8932,14 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99 and they include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care{p_end}
+{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
 
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_NY.AGR.SUBS.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS} - Agricultural support estimate (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.AGR.SUBS.GD.ZS:NY.AGR.SUBS.GD.ZS} - Exports as a capacity to import (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9138,7 +9131,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.KN:NY.GDP.MKTP.KN} - GDP at market prices (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.KN:NY.GDP.MKTP.KN} - GDP (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9174,7 +9167,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 1987 international $)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9186,7 +9179,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.PP.KD.87}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.PP.KD.87:NY.GDP.MKTP.PP.KD.87} - GDP deflator (1987=100,Index)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.PP.KD.87:NY.GDP.MKTP.PP.KD.87} - GDP, PPP (constant 1987 international $)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9210,7 +9203,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.XU.E}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.XU.E:NY.GDP.MKTP.XU.E} - Gross domestic product (Av. annual growth, %)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.XU.E:NY.GDP.MKTP.XU.E} - GDP deflator, end period (base year varies by country)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9234,7 +9227,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 1987 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2011 international $)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9390,7 +9383,7 @@
 
 {synoptline}
 {marker sourceid_NY.GEN.DFOR.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NY.GEN.DFOR.GD.ZS:NY.GEN.DFOR.GD.ZS} - Genuine savings: consumption of fixed capital (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GEN.DFOR.GD.ZS:NY.GEN.DFOR.GD.ZS} - Genuine savings: net forest depletion (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9402,7 +9395,7 @@
 
 {synoptline}
 {marker sourceid_NY.GEN.DKAP.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NY.GEN.DKAP.GD.ZS:NY.GEN.DKAP.GD.ZS} - Genuine savings: mineral depletion (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GEN.DKAP.GD.ZS:NY.GEN.DKAP.GD.ZS} - Genuine savings: consumption of fixed capital (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9426,7 +9419,7 @@
 
 {synoptline}
 {marker sourceid_NY.GEN.DNGY.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##NY.GEN.DNGY.GD.ZS:NY.GEN.DNGY.GD.ZS} - Genuine savings: energy depletion (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GEN.DNGY.GD.ZS:NY.GEN.DNGY.GD.ZS} - Genuine savings: net domestic savings (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9462,7 +9455,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.MKTP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.KD:NY.GNP.MKTP.KD} - GNI (constant 2010 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.KD:NY.GNP.MKTP.KD} - GNP at market prices (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9522,7 +9515,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNP, PPP (constant 1987 international $)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9546,7 +9539,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.PCAP.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.CD:NY.GNP.PCAP.CD} - GNP per capita (Atlas method) (US$,curr. pr.)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.CD:NY.GNP.PCAP.CD} - GNI per capita, Atlas method (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9594,7 +9587,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.PCAP.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.KN:NY.GNP.PCAP.KN} - GNP per capita (constant 1987 LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.KN:NY.GNP.PCAP.KN} - GNI per capita (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9618,7 +9611,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNP per capita, PPP (constant 1987 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2011 international $)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9738,7 +9731,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNY.TOTL.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KN:NY.GNY.TOTL.KN} - Gross national income (constant LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNY.TOTL.KN:NY.GNY.TOTL.KN} - Gross national income (constant 1987 LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9774,7 +9767,7 @@
 
 {synoptline}
 {marker sourceid_NY.GSR.NFCY.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.GSR.NFCY.CN:NY.GSR.NFCY.CN} - Net primary income (Net income from abroad) (current LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GSR.NFCY.CN:NY.GSR.NFCY.CN} - Net income from abroad (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9834,7 +9827,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.NIND.CN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.NIND.CN:NY.TAX.NIND.CN} - Net indirect taxes (constant 1987 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.NIND.CN:NY.TAX.NIND.CN} - Taxes less subsidies on products (current LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9858,7 +9851,7 @@
 
 {synoptline}
 {marker sourceid_NY.TAX.NIND.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TAX.NIND.KN:NY.TAX.NIND.KN} - Taxes less subsidies on products (constant LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TAX.NIND.KN:NY.TAX.NIND.KN} - Net indirect taxes (constant 1987 LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9882,7 +9875,7 @@
 
 {synoptline}
 {marker sourceid_NY.TRF.NCTR.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TRF.NCTR.KN:NY.TRF.NCTR.KN} - Terms of trade adjustment (constant 1987 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TRF.NCTR.KN:NY.TRF.NCTR.KN} - Net secondary income (Net current transfers from abroad) (constant LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -9906,7 +9899,7 @@
 
 {synoptline}
 {marker sourceid_NY.TTF.GNFS.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TTF.GNFS.KN:NY.TTF.GNFS.KN} - Terms of trade adjustment (constant LCU)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TTF.GNFS.KN:NY.TTF.GNFS.KN} - Terms of trade adjustment (constant 1987 LCU)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10026,7 +10019,7 @@
 
 {synoptline}
 {marker sourceid_PE.NUS.FCAE}
-{synopt:{bf:{help wbopendata_sourceid##PE.NUS.FCAE:PE.NUS.FCAE} - London gold price (US$ per ounce)}}
+{synopt:{bf:{help wbopendata_sourceid##PE.NUS.FCAE:PE.NUS.FCAE} - Official exchange rate (LCU per US$, end period)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10098,7 +10091,7 @@
 
 {synoptline}
 {marker sourceid_SE.ADT.1524.LT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.1524.LT.ZS:SE.ADT.1524.LT.ZS} - Literacy rate, youth total (% of people ages 15-24)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.ADT.1524.LT.ZS:SE.ADT.1524.LT.ZS} - Illiteracy rate, adult female (% of females ages 15 and above)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10122,7 +10115,7 @@
 
 {synoptline}
 {marker sourceid_SE.ADT.ILIT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.ILIT.MA.ZS:SE.ADT.ILIT.MA.ZS} - Illiteracy rate, adult male (% of males ages 15 and above)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.ADT.ILIT.MA.ZS:SE.ADT.ILIT.MA.ZS} - Illiteracy rate, adult total (% of people ages 15 and above)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10146,7 +10139,7 @@
 
 {synoptline}
 {marker sourceid_SE.ENR.PRIM.FM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS} - School Enroll. Ratio, primary school (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS} - School enrollment, primary (gross), gender parity index (GPI)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10242,7 +10235,7 @@
 
 {synoptline}
 {marker sourceid_SE.PRM.ENRR.MA}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.ENRR.MA:SE.PRM.ENRR.MA} - School Enroll. Ratio, primary (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.ENRR.MA:SE.PRM.ENRR.MA} - School enrollment, primary, male (% gross)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10266,7 +10259,7 @@
 
 {synoptline}
 {marker sourceid_SE.PRM.PRIV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.PRIV.ZS:SE.PRM.PRIV.ZS} - Persistence to grade 4, female (% of cohort)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.PRIV.ZS:SE.PRM.PRIV.ZS} - School enrollment, primary, private (% of total primary)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10338,7 +10331,7 @@
 
 {synoptline}
 {marker sourceid_SE.PRM.UNER.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.UNER.ZS:SE.PRM.UNER.ZS} - Children out of school (% of primary school age)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.PRM.UNER.ZS:SE.PRM.UNER.ZS} - Education coefficient of efficiency (ideal years to graduate as % of actual)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10362,7 +10355,7 @@
 
 {synoptline}
 {marker sourceid_SE.SCHL.SRSEC}
-{synopt:{bf:{help wbopendata_sourceid##SE.SCHL.SRSEC:SE.SCHL.SRSEC} - Age efficiency, secondary (net enrollment as % of gross)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SCHL.SRSEC:SE.SCHL.SRSEC} - Number of schools at Senior Secondary level}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10410,7 +10403,7 @@
 
 {synoptline}
 {marker sourceid_SE.SEC.PROG.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.PROG.ZS:SE.SEC.PROG.ZS} - Progression to secondary school (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.PROG.ZS:SE.SEC.PROG.ZS} - Repeaters, secondary, female (% of female enrollment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10434,7 +10427,7 @@
 
 {synoptline}
 {marker sourceid_SE.SEC.REPT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.REPT.MA.ZS:SE.SEC.REPT.MA.ZS} - Repeaters, secondary, male (% of male enrollment)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.REPT.MA.ZS:SE.SEC.REPT.MA.ZS} - Repeaters, secondary, total (% of total enrollment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10458,7 +10451,7 @@
 
 {synoptline}
 {marker sourceid_SE.SEC.TCHR.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS} - Secondary education, teachers (% female)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS} - Secondary education, general teachers}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10506,7 +10499,7 @@
 
 {synoptline}
 {marker sourceid_SE.SEC.TCHR.VO.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.VO.FE.ZS:SE.SEC.TCHR.VO.FE.ZS} - Children out of school, secondary}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.VO.FE.ZS:SE.SEC.TCHR.VO.FE.ZS} - Secondary education, vocational teachers (% female)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10554,7 +10547,7 @@
 
 {synoptline}
 {marker sourceid_SE.SEC.UNER.LO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS} - Children out of school, secondary, male}}
+{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS} - Adolescents out of school (% of lower secondary school age)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10602,7 +10595,7 @@
 
 {synoptline}
 {marker sourceid_SE.TER.PRIV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.PRIV.ZS:SE.TER.PRIV.ZS} - Science and engineering students (% of total tertiary students)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.TER.PRIV.ZS:SE.TER.PRIV.ZS} - Percentage of enrolment in tertiary education in private institutions (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10710,7 +10703,7 @@
 
 {synoptline}
 {marker sourceid_SE.XPD.PTCH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PTCH.ZS:SE.XPD.PTCH.ZS} - Spending on teaching materials, primary (% of primary expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##SE.XPD.PTCH.ZS:SE.XPD.PTCH.ZS} - Public spending on education, secondary (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10794,7 +10787,7 @@
 
 {synoptline}
 {marker sourceid_SF.CMN.ICALL.3MN.CD}
-{synopt:{bf:{help wbopendata_sourceid##SF.CMN.ICALL.3MN.CD:SF.CMN.ICALL.3MN.CD} - International telecom, outgoing traffic (minutes per subscriber)}}
+{synopt:{bf:{help wbopendata_sourceid##SF.CMN.ICALL.3MN.CD:SF.CMN.ICALL.3MN.CD} - International telecom, average price call to USA (US$ per 3 min.)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10830,7 +10823,7 @@
 
 {synoptline}
 {marker sourceid_SF.CMN.MNLN.TH}
-{synopt:{bf:{help wbopendata_sourceid##SF.CMN.MNLN.TH:SF.CMN.MNLN.TH} - Daily newspapers (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##SF.CMN.MNLN.TH:SF.CMN.MNLN.TH} - Telephone mainlines (per 1,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10854,7 +10847,7 @@
 
 {synoptline}
 {marker sourceid_SF.CMN.PC.TH}
-{synopt:{bf:{help wbopendata_sourceid##SF.CMN.PC.TH:SF.CMN.PC.TH} - Personal computers (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##SF.CMN.PC.TH:SF.CMN.PC.TH} - Mobile phones (per 1,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10866,7 +10859,7 @@
 
 {synoptline}
 {marker sourceid_SF.CMN.PHON.CELL.TH}
-{synopt:{bf:{help wbopendata_sourceid##SF.CMN.PHON.CELL.TH:SF.CMN.PHON.CELL.TH} - Mobile phones (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##SF.CMN.PHON.CELL.TH:SF.CMN.PHON.CELL.TH} - Telephone mainlines in largest city (% of total)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10926,7 +10919,7 @@
 
 {synoptline}
 {marker sourceid_SF.TRN.AIR.DPRT}
-{synopt:{bf:{help wbopendata_sourceid##SF.TRN.AIR.DPRT:SF.TRN.AIR.DPRT} - Aircraft departures (thousands)}}
+{synopt:{bf:{help wbopendata_sourceid##SF.TRN.AIR.DPRT:SF.TRN.AIR.DPRT} - Air transport, freight (ton-km)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -10938,7 +10931,7 @@
 
 {synoptline}
 {marker sourceid_SF.TRN.AIR.GDS}
-{synopt:{bf:{help wbopendata_sourceid##SF.TRN.AIR.GDS:SF.TRN.AIR.GDS} - Air transport, freight (ton-km)}}
+{synopt:{bf:{help wbopendata_sourceid##SF.TRN.AIR.GDS:SF.TRN.AIR.GDS} - Air transport, passengers carried (thousands)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11010,7 +11003,7 @@
 
 {synoptline}
 {marker sourceid_SG.VAW.GOES.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.ZS:SG.VAW.GOES.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SG.VAW.GOES.ZS:SG.VAW.GOES.ZS} - Spousal physical or sexual violence in last 12 months (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11034,7 +11027,7 @@
 
 {synoptline}
 {marker sourceid_SH.ACS.WHER.Q5.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.ACS.WHER.Q5.ZS:SH.ACS.WHER.Q5.ZS} - Problems in accessing health care (knowing where to go for treatment) (% of women): Q5 (highest)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.ACS.WHER.Q5.ZS:SH.ACS.WHER.Q5.ZS} - Inpatient admission rate (% of population )}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11058,7 +11051,7 @@
 
 {synoptline}
 {marker sourceid_SH.FPL.ACPT.Q2.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - Health expenditure per capita, PPP (constant 2011 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - Acceptability of media messages on family planning (% of women): Q2}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11070,7 +11063,7 @@
 
 {synoptline}
 {marker sourceid_SH.H2O.BASW.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - People using at least basic drinking water services (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - Improved water source, rural (% of rural population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11086,7 +11079,6 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
 
@@ -11111,6 +11103,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
 
@@ -11119,7 +11112,7 @@
 
 {synoptline}
 {marker sourceid_SH.MED.NUMW.P3}
-{synopt:{bf:{help wbopendata_sourceid##SH.MED.NUMW.P3:SH.MED.NUMW.P3} - Nurses and midwives (per 1,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.MED.NUMW.P3:SH.MED.NUMW.P3} - Population per nurse}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11162,12 +11155,12 @@
 
 {synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sec{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository/World Health Statistics ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.SGR.PROC.P5}
-{synopt:{bf:{help wbopendata_sourceid##SH.SGR.PROC.P5:SH.SGR.PROC.P5} - Number of surgical procedures (per 100,000 population)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.SGR.PROC.P5:SH.SGR.PROC.P5} - Health care (% of population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11179,7 +11172,7 @@
 
 {synoptline}
 {marker sourceid_SH.STA.ACCH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.STA.ACCH.ZS:SH.STA.ACCH.ZS} - Improved sanitation facilities (% of population with access)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.STA.ACCH.ZS:SH.STA.ACCH.ZS} - Health care (% of population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11196,7 +11189,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -11208,7 +11201,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
@@ -11219,10 +11212,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
+{synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
@@ -11299,7 +11293,7 @@
 
 {synoptline}
 {marker sourceid_SH.TBS.PREV.LW}
-{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV.LW:SH.TBS.PREV.LW} - Tuberculosis prevalence rate, low uncertainty bound (per 1000,000 population, WHO)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.TBS.PREV.LW:SH.TBS.PREV.LW} - Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11352,11 +11346,10 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Outpatient visits per capita are the number of visits to health care facilities per capita, including repeat visits.{p_end}
 
-{synopt:{opt Source Organization}}WHO, OECD and supplemented by country data.{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
@@ -11433,12 +11426,12 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.OOPC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.OOPC.ZS:SH.XPD.OOPC.ZS} - Health expenditure per capita (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.OOPC.ZS:SH.XPD.OOPC.ZS} - Out-of-pocket health expenditure (% of private expenditure on health)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
@@ -11493,23 +11486,22 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.PRIV.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PRIV.ZS:SH.XPD.PRIV.ZS} - Health expenditure, private (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PRIV.ZS:SH.XPD.PRIV.ZS} - Health expenditure, public (% of total health expenditure)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Private health expenditure includes direct household (out-of-pocket) spending, private insurance, charitable donations, and direct service payments by private corporations.{p_end}
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 
 {synoptline}
 {marker sourceid_SH.XPD.PUBL}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PUBL:SH.XPD.PUBL} - Health expenditure, public (% of total health expenditure)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.PUBL:SH.XPD.PUBL} - Health expenditure, public (% of government expenditure)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
 
@@ -11542,7 +11534,7 @@
 
 {synoptline}
 {marker sourceid_SH.XPD.TOTL.CD}
-{synopt:{bf:{help wbopendata_sourceid##SH.XPD.TOTL.CD:SH.XPD.TOTL.CD} - Health expenditure, total (% of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##SH.XPD.TOTL.CD:SH.XPD.TOTL.CD} - Health expenditure (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11561,12 +11553,12 @@
 
 {synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but d{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 
 {synoptline}
 {marker sourceid_SI.DST.FRST.20}
-{synopt:{bf:{help wbopendata_sourceid##SI.DST.FRST.20:SI.DST.FRST.20} - Income share held by lowest 20%}}
+{synopt:{bf:{help wbopendata_sourceid##SI.DST.FRST.20:SI.DST.FRST.20} - Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11583,9 +11575,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty headcount ratio at $1.90 a day is the percentage of the population living on less than $1.90 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
+{synopt:{opt Source Notes}}Poverty headcount ratio at $3.10 a day is the percentage of the population living on less than $3.10 a day at 2011 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared{p_end}
 
-{synopt:{opt Source Organization}}BADAN PUSAT STATISTIK - Statistics Indonesia{p_end}
+{synopt:{opt Source Organization}}World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study datab{p_end}
 
 
 {synoptline}
@@ -11614,7 +11606,7 @@
 
 {synoptline}
 {marker sourceid_SI.POV.DDAY.RE}
-{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.POV.DDAY.RE:SI.POV.DDAY.RE} - Share of total poor population (at $1.90 a day, 2011 PPP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11650,7 +11642,7 @@
 
 {synoptline}
 {marker sourceid_SI.RMT.COST.OB.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SI.RMT.COST.OB.ZS:SI.RMT.COST.OB.ZS} - Average transaction cost of remittances (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SI.RMT.COST.OB.ZS:SI.RMT.COST.OB.ZS} - Average transaction cost of sending remittances from a specific country (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11717,7 +11709,7 @@
 
 {synopt:{opt Source Notes}}Mean consumption or income per capita (2005 PPP $ per day) used in calculating the growth rate in the welfare aggregate of total population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2008 - 2013 ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
+{synopt:{opt Source Organization}}World Bank, Global Database of Shared Prosperity (GDSP) circa 2010-2015  ({browse "http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity"}).{p_end}
 
 
 {synoptline}
@@ -11746,7 +11738,7 @@
 
 {synoptline}
 {marker sourceid_SL.AGR.EMPL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS} - Labor force in agriculture (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.AGR.EMPL.ZS:SL.AGR.EMPL.ZS} - Employment in agriculture (% of total employment) (modeled ILO estimate)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11770,7 +11762,7 @@
 
 {synoptline}
 {marker sourceid_SL.AGR.TOTL.MF}
-{synopt:{bf:{help wbopendata_sourceid##SL.AGR.TOTL.MF:SL.AGR.TOTL.MF} - Labor Force, Agriculture (%)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.AGR.TOTL.MF:SL.AGR.TOTL.MF} - Labor force in agriculture (% of total)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11794,7 +11786,7 @@
 
 {synoptline}
 {marker sourceid_SL.EMP.IND}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.IND:SL.EMP.IND} - Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.IND:SL.EMP.IND} - Number of people employed in industrial sector}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11810,6 +11802,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Share of women in wage employment in the nonagricultural sector is the share of female workers in wage employment in the nonagricultural sector (industry and services), expressed as a percentage of total employment in the nonagricultural secto{p_end}
 
@@ -11818,7 +11811,7 @@
 
 {synoptline}
 {marker sourceid_SL.GDP.PCAP.EM.KD.ZG}
-{synopt:{bf:{help wbopendata_sourceid##SL.GDP.PCAP.EM.KD.ZG:SL.GDP.PCAP.EM.KD.ZG} - GDP per person employed (annual % growth)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.GDP.PCAP.EM.KD.ZG:SL.GDP.PCAP.EM.KD.ZG} - GDP per person employed, index (1980 = 100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11842,7 +11835,7 @@
 
 {synoptline}
 {marker sourceid_SL.MNF.0714.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.MNF.0714.ZS:SL.MNF.0714.ZS} - Child employment in manufacturing (% of economically active children ages 7-14)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.MNF.0714.ZS:SL.MNF.0714.ZS} - Ratio of female to male wages in manufacturing (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11858,7 +11851,6 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Ratio of female to male wages in manufacturing refers to female to male wages and salaries in manufacturing.{p_end}
 
@@ -11903,7 +11895,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.PART.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS} - Part time employment, male (% of total male employment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PART.MA.ZS:SL.TLF.PART.MA.ZS} - Part time employment, female (% of total part time employment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11919,6 +11911,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.{p_end}
 
@@ -11951,7 +11944,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.PRIM.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS} - Labor force with primary education (% of total)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.PRIM.MA.ZS:SL.TLF.PRIM.MA.ZS} - Labor force with primary education, male (% of male labor force)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -11968,7 +11961,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Labor force with primary education is the share of the total labor force that attained or completed primary education as the highest level of education.{p_end}
+{synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -11979,6 +11972,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with secondary education is the share of the female labor force that attained or completed secondary education as the highest level of education.{p_end}
 
@@ -11992,7 +11986,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
+{synopt:{opt Source Notes}}Male labor force with secondary education is the share of the male labor force that attained or completed secondary education as the highest level of education.{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12004,7 +11998,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
+{synopt:{opt Source Notes}}Labor force with secondary education is the share of the total labor force that attained or completed secondary education as the highest level of education.{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12015,7 +12009,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Female labor force with tertiary education is the share of the female labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -12028,6 +12022,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Male labor force with tertiary education is the share of the male labor force that attained or completed tertiary education as the highest level of education.{p_end}
 
@@ -12048,7 +12043,7 @@
 
 {synoptline}
 {marker sourceid_SL.TLF.TOTL.FE.IN}
-{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.FE.IN:SL.TLF.TOTL.FE.IN} - Labor force, female}}
+{synopt:{bf:{help wbopendata_sourceid##SL.TLF.TOTL.FE.IN:SL.TLF.TOTL.FE.IN} - Labor Force, Female (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12096,7 +12091,7 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.INTM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.INTM.ZS:SL.UEM.INTM.ZS} - Unemployment with intermediate education (% of total labor force with intermediate education)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.INTM.ZS:SL.UEM.INTM.ZS} - Long-term unemployment, female (% of female unemployment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12108,7 +12103,7 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.LTRM.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.LTRM.FE.ZS:SL.UEM.LTRM.FE.ZS} - Long-term unemployment, female (% of female unemployment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.LTRM.FE.ZS:SL.UEM.LTRM.FE.ZS} - Long-term unemployment, male (% of male unemployment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12139,7 +12134,7 @@
 
 {synopt:{opt Source Notes}}Long-term unemployment refers to the number of people with continuous periods of unemployment extending for a year or longer, expressed as a percentage of the total unemployed.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
 
 {synoptline}
@@ -12160,8 +12155,9 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Male unemployment with primary education is the share of the male unemployed who attained or completed primary education as the highest level.{p_end}
+{synopt:{opt Source Notes}}Female unemployment with primary education is the share of the female unemployed who attained or completed primary education as the highest level.{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12180,12 +12176,13 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.PRIM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.PRIM.ZS:SL.UEM.PRIM.ZS} - Unemployment with secondary education, female (% of female unemployment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.PRIM.ZS:SL.UEM.PRIM.ZS} - Unemployment with primary education (% of total unemployment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Female unemployment with secondary education is the share of the female unemployed who attained or completed secondary education as the highest level.{p_end}
+{synopt:{opt Source Notes}}Unemployment with primary education is the share of the total unemployed who attained or completed primary education as the highest level.{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12197,7 +12194,7 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Male unemployment with secondary education is the share of the male unemployed who attained or completed secondary education as the highest level.{p_end}
+{synopt:{opt Source Notes}}Female unemployment with secondary education is the share of the female unemployed who attained or completed secondary education as the highest level.{p_end}
 
 {synopt:{opt Source Organization}}International Labour Organization, Key Indicators of the Labour Market database.{p_end}
 
@@ -12208,6 +12205,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with secondary education is the share of the male unemployed who attained or completed secondary education as the highest level.{p_end}
 
@@ -12232,7 +12230,6 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Female unemployment with tertiary education is the share of the female unemployed who attained or completed tertiary education as the highest level.{p_end}
 
@@ -12241,7 +12238,7 @@
 
 {synoptline}
 {marker sourceid_SL.UEM.TERT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS} - Unemployment with tertiary education, male (% of male unemployment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.UEM.TERT.MA.ZS:SL.UEM.TERT.MA.ZS} - Unemployment with tertiary education (% of total unemployment)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12281,7 +12278,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
 
@@ -12290,7 +12287,7 @@
 
 {synoptline}
 {marker sourceid_SM.MMR.DTHS}
-{synopt:{bf:{help wbopendata_sourceid##SM.MMR.DTHS:SM.MMR.DTHS} - Number of maternal mortality deaths}}
+{synopt:{bf:{help wbopendata_sourceid##SM.MMR.DTHS:SM.MMR.DTHS} - Foreign population}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12350,7 +12347,7 @@
 
 {synoptline}
 {marker sourceid_SM.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - Foreign labor force (% of total labor force)}}
+{synopt:{bf:{help wbopendata_sourceid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - International migrant stock (% of population)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12422,7 +12419,7 @@
 
 {synoptline}
 {marker sourceid_SN.SH.SVR.WAST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.SVR.WAST.ZS:SN.SH.SVR.WAST.ZS} - Sub-National Prevalence of severe wasting, weight for height (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.SVR.WAST.ZS:SN.SH.SVR.WAST.ZS} - Food Production per capita (1987=100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12446,7 +12443,7 @@
 
 {synoptline}
 {marker sourceid_SP.ADO.TFRT}
-{synopt:{bf:{help wbopendata_sourceid##SP.ADO.TFRT:SP.ADO.TFRT} - Adolescent fertility rate (births per 1,000 women ages 15-19)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.ADO.TFRT:SP.ADO.TFRT} - Crude Birth Rate (per 1000 population)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12494,7 +12491,7 @@
 
 {synoptline}
 {marker sourceid_SP.DYN.CONU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - Contraceptive prevalence, any methods (% of women ages 15-49)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - Infant Mortality Rate (per thousand live births)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12542,7 +12539,7 @@
 
 {synoptline}
 {marker sourceid_SP.DYN.WFRT.Q5}
-{synopt:{bf:{help wbopendata_sourceid##SP.DYN.WFRT.Q5:SP.DYN.WFRT.Q5} - Total Fertility Rate}}
+{synopt:{bf:{help wbopendata_sourceid##SP.DYN.WFRT.Q5:SP.DYN.WFRT.Q5} - Total wanted fertility rate (births per woman): Q5 (highest)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12602,7 +12599,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.1564.IN}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.IN:SP.POP.1564.IN} - Population ages 15-64 (% of total)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.1564.IN:SP.POP.1564.IN} - Population aged 15-64, total}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12626,7 +12623,7 @@
 
 {synoptline}
 {marker sourceid_SP.POP.65UP.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - Women ages 65 and above (per 100 men)}}
+{synopt:{bf:{help wbopendata_sourceid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - Population ages 65 and above, male (% of total)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12710,7 +12707,7 @@
 
 {synoptline}
 {marker sourceid_SP.URB.GROW}
-{synopt:{bf:{help wbopendata_sourceid##SP.URB.GROW:SP.URB.GROW} - Population in largest city}}
+{synopt:{bf:{help wbopendata_sourceid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12782,7 +12779,7 @@
 
 {synoptline}
 {marker sourceid_SR.ARE.ARBL.K2}
-{synopt:{bf:{help wbopendata_sourceid##SR.ARE.ARBL.K2:SR.ARE.ARBL.K2} - Surface area (sq km)}}
+{synopt:{bf:{help wbopendata_sourceid##SR.ARE.ARBL.K2:SR.ARE.ARBL.K2} - Arable land area (sq km)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12830,7 +12827,7 @@
 
 {synoptline}
 {marker sourceid_TG.VAL.TOTL.GD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS} - Trade in goods (% of goods GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##TG.VAL.TOTL.GD.ZS:TG.VAL.TOTL.GD.ZS} - Merchandise trade (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12902,7 +12899,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.FOOD.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.KD.WB:TM.VAL.FOOD.KD.WB} - Food imports (constant US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.FOOD.KD.WB:TM.VAL.FOOD.KD.WB} - Food (% of merchandise imports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -12986,7 +12983,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.MANF.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN} - Manufactures imports (% of merchandise imports)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MANF.ZS.UN:TM.VAL.MANF.ZS.UN} - Machinery and transport equipment (% of merchandise imports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13046,7 +13043,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.MRCH.CD.UN}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.UN:TM.VAL.MRCH.CD.UN} - Merchandise imports (UN, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.MRCH.CD.UN:TM.VAL.MRCH.CD.UN} - Import growth, value (annual %)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13118,7 +13115,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.NFCG.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.KD.WB:TM.VAL.NFCG.KD.WB} - Non-food primary commodities (% of merchandise imports)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFCG.KD.WB:TM.VAL.NFCG.KD.WB} - Other consumer goods imports (constant US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13154,7 +13151,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.NFPR.CD}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFPR.CD:TM.VAL.NFPR.CD} - Other manufactures (% of merchandise imports)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.NFPR.CD:TM.VAL.NFPR.CD} - CP Imports of Nonfuel Primary Products (US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13166,7 +13163,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.OMFG.UN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.OMFG.UN.ZS:TM.VAL.OMFG.UN.ZS} - Other primary commodities (% of merchandise imports)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.OMFG.UN.ZS:TM.VAL.OMFG.UN.ZS} - Other manufactures (% of merchandise imports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13190,7 +13187,7 @@
 
 {synoptline}
 {marker sourceid_TM.VAL.TRVL.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT} - Growth of merch. imports (av. ann grwth %)}}
+{synopt:{bf:{help wbopendata_sourceid##TM.VAL.TRVL.ZS.WT:TM.VAL.TRVL.ZS.WT} - Travel services (% of commercial service imports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13226,7 +13223,7 @@
 
 {synoptline}
 {marker sourceid_TRD.ACRS.BRDR.RK.DB19}
-{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.RK.DB19:TRD.ACRS.BRDR.RK.DB19} - Rank: Trading across borders (1=most business-friendly regulations) (DB19 methodology)}}
+{synopt:{bf:{help wbopendata_sourceid##TRD.ACRS.BRDR.RK.DB19:TRD.ACRS.BRDR.RK.DB19} - Income terms of trade (1987 = 100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13238,7 +13235,7 @@
 
 {synoptline}
 {marker sourceid_TT.INC.MRCH.XD.UN}
-{synopt:{bf:{help wbopendata_sourceid##TT.INC.MRCH.XD.UN:TT.INC.MRCH.XD.UN} - Terms of Trade Index (1987=100,US$-based)}}
+{synopt:{bf:{help wbopendata_sourceid##TT.INC.MRCH.XD.UN:TT.INC.MRCH.XD.UN} - Income terms of trade (1987 = 100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13274,7 +13271,7 @@
 
 {synoptline}
 {marker sourceid_TX.MNF.TECH.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN} - Fuel Export Price Index (1980=100, US$-based)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.MNF.TECH.ZS.UN:TX.MNF.TECH.ZS.UN} - Medium and high-tech exports (% manufactured exports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13322,7 +13319,7 @@
 
 {synoptline}
 {marker sourceid_TX.PRI.MRCH.ID}
-{synopt:{bf:{help wbopendata_sourceid##TX.PRI.MRCH.ID:TX.PRI.MRCH.ID} - Export Price Index, fob (1980=100, US$-based)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.PRI.MRCH.ID:TX.PRI.MRCH.ID} - Export Price Index, fob (1987=100,US$-based)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13346,7 +13343,7 @@
 
 {synoptline}
 {marker sourceid_TX.PRI.MRCH.XD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.PRI.MRCH.XD.WB:TX.PRI.MRCH.XD.WB} - Merchandise export price index (1987 = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.PRI.MRCH.XD.WB:TX.PRI.MRCH.XD.WB} - Nonfuel Prim.Prod.Exp.Price Index (1980=100,US$-based)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13382,7 +13379,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.FMTL.UN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.FMTL.UN.ZS:TX.VAL.FMTL.UN.ZS} - Fuels, minerals, and metals (% of merchandise exports)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.FMTL.UN.ZS:TX.VAL.FMTL.UN.ZS} - Food (% of merchandise exports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13430,7 +13427,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.INSF.ZS.WT}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT} - CP Exports of Manufactures (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.INSF.ZS.WT:TX.VAL.INSF.ZS.WT} - Insurance and financial services (% of commercial service exports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13454,7 +13451,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MANF.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.KD.WB:TX.VAL.MANF.KD.WB} - Manufactures exports (constant US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MANF.KD.WB:TX.VAL.MANF.KD.WB} - Manufactures (% of merchandise exports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13514,7 +13511,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MMTL.ZS.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - Ores and metals exports (% of merchandise exports)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MMTL.ZS.UN:TX.VAL.MMTL.ZS.UN} - Minerals (% of merchandise exports)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13538,7 +13535,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.AL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS} - Merchandise exports to economies in the Arab World (% of total merchandise exports)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.AL.ZS:TX.VAL.MRCH.AL.ZS} - CP Value of Exports, fob (US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13562,7 +13559,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.CD.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.CD.UN:TX.VAL.MRCH.CD.UN} - Merchandise exports (UN, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.CD.UN:TX.VAL.MRCH.CD.UN} - Export growth, value (annual %)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13598,7 +13595,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.KD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD:TX.VAL.MRCH.KD} - Merchandise exports (constant 1987 US$)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD:TX.VAL.MRCH.KD} - Exports, fob (1980 US$) (Const. Price)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13610,7 +13607,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.KD.UN}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD.UN:TX.VAL.MRCH.KD.UN} - Export growth, volume (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.KD.UN:TX.VAL.MRCH.KD.UN} - Merchandise exports (constant 1987 US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13634,7 +13631,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.MRCH.XD.WD}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD} - Non-food primary commodities (% of merchandise exports)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.MRCH.XD.WD:TX.VAL.MRCH.XD.WD} - Export value index (2000 = 100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13646,7 +13643,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.NFOD.UN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.NFOD.UN.ZS:TX.VAL.NFOD.UN.ZS} - Non-food primary commodities (% of merchandise exports)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.NFOD.UN.ZS:TX.VAL.NFOD.UN.ZS} - Exports of Nonfuel Primary Prod.(US$,curr. pr.)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13682,7 +13679,7 @@
 
 {synoptline}
 {marker sourceid_TX.VAL.OCOM.KD.WB}
-{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OCOM.KD.WB:TX.VAL.OCOM.KD.WB} - Other primary commodities (% of merchandise exports)}}
+{synopt:{bf:{help wbopendata_sourceid##TX.VAL.OCOM.KD.WB:TX.VAL.OCOM.KD.WB} - Other primary commodities exports (constant US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13826,7 +13823,7 @@
 
 {synoptline}
 {marker sourceid_UM.EMP.ROUT.XD}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.ROUT.XD:UM.EMP.ROUT.XD} - Manufacturing Real Output per Empl. (1987=100)}}
+{synopt:{bf:{help wbopendata_sourceid##UM.EMP.ROUT.XD:UM.EMP.ROUT.XD} - Manufacturing Real Earnings per Empl. (1980=100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13838,7 +13835,7 @@
 
 {synoptline}
 {marker sourceid_UM.EMP.RWAG.IN}
-{synopt:{bf:{help wbopendata_sourceid##UM.EMP.RWAG.IN:UM.EMP.RWAG.IN} - Manufacturing Real Earnings per Empl. (1980=100)}}
+{synopt:{bf:{help wbopendata_sourceid##UM.EMP.RWAG.IN:UM.EMP.RWAG.IN} - Manufacturing Real Earnings per Empl.(1987=100)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13982,7 +13979,7 @@
 
 {synoptline}
 {marker sourceid_VC.IHR.ICTS.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.ICTS.P5:VC.IHR.ICTS.P5} - Intentional homicides, UN Crime Trends Survey (CTS) source (per 100,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IHR.ICTS.P5:VC.IHR.ICTS.P5} - Intentional homicides, international public health sources (per 100,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -13994,7 +13991,7 @@
 
 {synoptline}
 {marker sourceid_VC.IHR.IPBH.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.IPBH.P5:VC.IHR.IPBH.P5} - Intentional homicides, international public health sources (per 100,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IHR.IPBH.P5:VC.IHR.IPBH.P5} - Intentional homicides, international police sources (per 100,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14006,7 +14003,7 @@
 
 {synoptline}
 {marker sourceid_VC.IHR.IPOL.P5}
-{synopt:{bf:{help wbopendata_sourceid##VC.IHR.IPOL.P5:VC.IHR.IPOL.P5} - Intentional homicides, international police sources (per 100,000 people)}}
+{synopt:{bf:{help wbopendata_sourceid##VC.IHR.IPOL.P5:VC.IHR.IPOL.P5} - Intentional homicides, government police sources (per 100,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14030,7 +14027,7 @@
 
 {synoptline}
 {marker sourceid_VC.PKP.TOTL.UN}
-{synopt:{bf:{help wbopendata_sourceid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - Account at a financial institution (% age 15+) [ts]}}
+{synopt:{bf:{help wbopendata_sourceid##VC.PKP.TOTL.UN:VC.PKP.TOTL.UN} - Presence of peace keepers (number of troops, police, and military observers in mandate)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14082,6 +14079,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
 
@@ -14097,7 +14095,7 @@
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report personally using a mobile phone to pay bills or to send or receive money through a GSM Association (GSMA) Mobile Money for the Unbanked (MMU) service in the past 12 months; or receiving wages, g{p_end}
 
-{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
 
 
 {synoptline}
@@ -14106,6 +14104,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (% age 15+). [ts: data are availabl{p_end}
 
@@ -14119,19 +14118,19 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (female, % age 15+). [ts: data are{p_end}
+{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (male, % age 15+). [ts: data are av{p_end}
 
 {synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
 
 
 {synoptline}
 {marker sourceid_WP_time_01.3}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_01.3:WP_time_01.3} - Account at a financial institution, income, poorest 40% (% ages 15+) [ts]}}
+{synopt:{bf:{help wbopendata_sourceid##WP_time_01.3:WP_time_01.3} - Account at a financial institution, female (% age 15+) [ts]}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (income, poorest 40%, % age 15+). [{p_end}
+{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (female, % age 15+). [ts: data are{p_end}
 
 {synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
 
@@ -14155,9 +14154,9 @@
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 
-{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see year-specific definitions for details) (income, richest 60%, % age 15+). [{p_end}
+{synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
 
-{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015{p_end}
+{synopt:{opt Source Organization}}Demirguc-Kunt et al., 2015, Global Financial Inclusion Database, World Bank.{p_end}
 
 
 {synoptline}
@@ -14198,7 +14197,7 @@
 
 {synoptline}
 {marker sourceid_WP_time_10.4}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.4:WP_time_10.4} - Account, young adults (% ages 15-24)}}
+{synopt:{bf:{help wbopendata_sourceid##WP_time_10.4:WP_time_10.4} - Account, older adults (% ages 25+)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14214,7 +14213,6 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Denotes the percentage of respondents who report having an account (by themselves or together with someone else). For 2011, this can be an account at a bank or another type of financial institution, and for 2014 this can be a mobile account as{p_end}
 
@@ -14247,7 +14245,7 @@
 
 {synoptline}
 {marker sourceid_WP_time_10.8}
-{synopt:{bf:{help wbopendata_sourceid##WP_time_10.8:WP_time_10.8} - Account, income, poorest 40% (% ages 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##WP_time_10.8:WP_time_10.8} - Account, income, richest 60% (% ages 15+)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14295,7 +14293,7 @@
 
 {synoptline}
 {marker sourceid_allsa.gen_pop}
-{synopt:{bf:{help wbopendata_sourceid##allsa.gen_pop:allsa.gen_pop} - Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits)}}
+{synopt:{bf:{help wbopendata_sourceid##allsa.gen_pop:allsa.gen_pop} - Generosity of social safety net programs (% of total welfare of beneficiary households)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14355,7 +14353,7 @@
 
 {synoptline}
 {marker sourceid_allsp.cov_pop}
-{synopt:{bf:{help wbopendata_sourceid##allsp.cov_pop:allsp.cov_pop} - Coverage of social protection and labor programs (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##allsp.cov_pop:allsp.cov_pop} - Generosity of social protection and labor programs (% of total welfare of beneficiary households)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14379,7 +14377,7 @@
 
 {synoptline}
 {marker sourceid_ccx_you_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##ccx_you_pop_urb:ccx_you_pop_urb} - Share of youth (15-24) in total population  - urban}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_you_pop_urb:ccx_you_pop_urb} - Financing via international capital markets (gross inflows, % of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -14387,6 +14385,18 @@
 {synopt:{opt Source Notes}}S&amp;P Global Equity Indices measure the U.S. dollar price change in the stock markets covered by the S&amp;P/IFCI and S&amp;P/Frontier BMI country indices.{p_end}
 
 {synopt:{opt Source Organization}}Standard &amp; Poor's, Global Stock Markets Factbook and supplemental S&amp;P data.{p_end}
+
+
+{synoptline}
+{marker sourceid_fin22a.t.d.9}
+{synopt:{bf:{help wbopendata_sourceid##fin22a.t.d.9:fin22a.t.d.9} - Borrowed from a financial institution or used a credit card, rural (% age 15+)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+
+{synopt:{opt Source Notes}}Domestic financing, monetary system credit. Data are in current local currency.{p_end}
+
+{synopt:{opt Source Organization}}World Bank country economists.{p_end}
 
 
 {synoptline}

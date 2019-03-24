@@ -92,7 +92,6 @@ quietly {
 
 if ("`noindlist'" == "") {
 
-	noi di in smcl in g ""
 	noi di in smcl in g "{bf: Processing indicators list...}"
 
 	local indicator indicators.txt
@@ -455,7 +454,7 @@ if ("`nosthlp2'" == "") {
 		tab sourceid, m
 		
 		levelsof sourceid
-		return local sourceid = `"`r(levels)'"'
+		return local sourceid `"`r(levels)'"'
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
 			sum if sourceid == "`varvalue'" & sourceid != ""
@@ -481,7 +480,7 @@ if ("`nosthlp2'" == "") {
 		tab topicid, m
 	
 		levelsof topicid
-		return local topicid = `"`r(levels)'"'
+		return local topicid `"`r(levels)'"'
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
 			sum if topicid == "`varvalue'" & topicid != ""

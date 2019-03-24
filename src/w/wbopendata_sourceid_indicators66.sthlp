@@ -93,12 +93,12 @@
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Efficiency of the clearance process includes results from the survey question Rate the efficiency of the clearance{p_end}
 
-{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: {browse "http://www.worldbank.org/lpi"}{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
 {marker sourceid_LP.LPI.CUST.XQ}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.CUST.XQ:LP.LPI.CUST.XQ} - Logistics performance index: Efficiency of customs clearance process (1=low to 5=high)}}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.CUST.XQ:LP.LPI.CUST.XQ} - Quality- of trade and transport-related infrastructure, rank (1=highest performer)}}
 
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
@@ -139,14 +139,14 @@
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
-{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Ease of arranging competitively priced international shipments includes results from the survey question Assess the{p_end}
+{synopt:{opt Source Notes}}Data are from Logistics Performance Index surveys conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. 2009 round of surveys covered m{p_end}
 
-{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: {browse "http://www.worldbank.org/lpi"}{p_end}
+{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
 
 {synoptline}
 {marker sourceid_LP.LPI.ITRN.XQ}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.ITRN.XQ:LP.LPI.ITRN.XQ} - Competence and quality of logistics services, rank (1=highest performer)}}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.ITRN.XQ:LP.LPI.ITRN.XQ} - Logistics performance index: Ease of arranging competitively priced shipments (1=low to 5=high)}}
 
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
@@ -211,7 +211,7 @@
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
-{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced i{p_end}
+{synopt:{opt Source Notes}}Logistics Performance Index overall score reflects perceptions of a country's logistics based on efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced shipments,{p_end}
 
 {synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
 
@@ -230,7 +230,7 @@
 
 {synoptline}
 {marker sourceid_LP.LPI.OVRL.XQ.LB}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.XQ.LB:LP.LPI.OVRL.XQ.LB} - Logistics performance index: Overall score (1=low to 5=high), upper bound}}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.XQ.LB:LP.LPI.OVRL.XQ.LB} - Logistics performance index: Overall score (1=low to 5=high), lower bound}}
 
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
@@ -242,12 +242,12 @@
 
 {synoptline}
 {marker sourceid_LP.LPI.OVRL.XQ.UB}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.XQ.UB:LP.LPI.OVRL.XQ.UB} - Frequency with which shipments reach consignee within scheduled or expected time, rank (1=highest performer)}}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.OVRL.XQ.UB:LP.LPI.OVRL.XQ.UB} - Logistics performance index: Overall score (1=low to 5=high), upper bound}}
 
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 
 
-{synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Frequency with which shipments reach consignee within scheduled or expected time includes results from the survey q{p_end}
+{synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a countrys logistics performance based on the efficiency of the customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competit{p_end}
 
 {synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: {browse "http://www.worldbank.org/lpi"}{p_end}
 
@@ -261,12 +261,12 @@
 
 {synopt:{opt Source Notes}}The Logistics Performance Index reflects perceptions of a countrys logistics performance based on six components. The component Frequency with which shipments reach consignee within scheduled or expected time includes results from the survey q{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : http://www.worldbank.org/lpi. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}World Bank Logistics Performance Index Surveys. Data and methodology are available at: {browse "http://www.worldbank.org/lpi"}{p_end}
 
 
 {synoptline}
 {marker sourceid_LP.LPI.TIME.XQ}
-{synopt:{bf:{help wbopendata_sourceid##LP.LPI.TIME.XQ:LP.LPI.TIME.XQ} - Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high)}}
+{synopt:{bf:{help wbopendata_sourceid##LP.LPI.TIME.XQ:LP.LPI.TIME.XQ} - Ability to track and trace consignments, rank (1=highest performer)}}
 
 {synopt:{opt Source}}66 Logistics Performance Index{p_end}
 

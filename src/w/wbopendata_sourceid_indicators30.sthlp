@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_A10i}
-{synopt:{bf:{help wbopendata_sourceid##A10i:A10i} - 026.Export Value per Incumbent: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##A10i:A10i} - 027.Export Value per Incumbent: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -134,7 +134,7 @@
 
 {synoptline}
 {marker sourceid_A10v}
-{synopt:{bf:{help wbopendata_sourceid##A10v:A10v} - 031.Growth of Incumbents: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##A10v:A10v} - 030.Export Value per Incumbent: Third Quartile}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -158,7 +158,7 @@
 
 {synoptline}
 {marker sourceid_A11ii}
-{synopt:{bf:{help wbopendata_sourceid##A11ii:A11ii} - 033.Growth of Incumbents: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##A11ii:A11ii} - 032.Growth of Incumbents: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -254,7 +254,7 @@
 
 {synoptline}
 {marker sourceid_A12v}
-{synopt:{bf:{help wbopendata_sourceid##A12v:A12v} - 040.Growth of Surviving Entrants: Third Quartile}}
+{synopt:{bf:{help wbopendata_sourceid##A12v:A12v} - 002.Number of Entrants}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -290,7 +290,7 @@
 
 {synoptline}
 {marker sourceid_A4}
-{synopt:{bf:{help wbopendata_sourceid##A4:A4} - 005.Number of Incumbents}}
+{synopt:{bf:{help wbopendata_sourceid##A4:A4} - 004.Number of Surviving Entrants}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -326,7 +326,7 @@
 
 {synoptline}
 {marker sourceid_A6ii}
-{synopt:{bf:{help wbopendata_sourceid##A6ii:A6ii} - 007.Export Value per Exporter: Median}}
+{synopt:{bf:{help wbopendata_sourceid##A6ii:A6ii} - 008.Export Value per Exporter: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -386,7 +386,7 @@
 
 {synoptline}
 {marker sourceid_A7ii}
-{synopt:{bf:{help wbopendata_sourceid##A7ii:A7ii} - 013.Export Value per Entrant: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##A7ii:A7ii} - 012.Export Value per Entrant: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -398,7 +398,7 @@
 
 {synoptline}
 {marker sourceid_A7iii}
-{synopt:{bf:{help wbopendata_sourceid##A7iii:A7iii} - 013.Export Value per Entrant: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##A7iii:A7iii} - 014.Export Value per Entrant: First Quartile}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -470,7 +470,7 @@
 
 {synoptline}
 {marker sourceid_A8iv}
-{synopt:{bf:{help wbopendata_sourceid##A8iv:A8iv} - 020.Export Value per Exiter: Third Quartile}}
+{synopt:{bf:{help wbopendata_sourceid##A8iv:A8iv} - 019.Export Value per Exiter: First Quartile}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -482,7 +482,7 @@
 
 {synoptline}
 {marker sourceid_A8v}
-{synopt:{bf:{help wbopendata_sourceid##A8v:A8v} - 020.Export Value per Exiter: Third Quartile}}
+{synopt:{bf:{help wbopendata_sourceid##A8v:A8v} - 021.Export Value per Surviving Entrant: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -547,7 +547,7 @@
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
 
-{synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution (see definition for financial institution account) or report personally using a mobile{p_end}
+{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
 
 {synopt:{opt Source Organization}}Global Findex database{p_end}
 
@@ -566,7 +566,7 @@
 
 {synoptline}
 {marker sourceid_B2i}
-{synopt:{bf:{help wbopendata_sourceid##B2i:B2i} - 043.Share of top 5% Exporters in TEV (Total Export Value)}}
+{synopt:{bf:{help wbopendata_sourceid##B2i:B2i} - 042.Share of top 1% Exporters in TEV (Total Export Value)}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -722,7 +722,7 @@
 
 {synoptline}
 {marker sourceid_B6ii}
-{synopt:{bf:{help wbopendata_sourceid##B6ii:B6ii} - 056.Number of Exporters per Destination: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##B6ii:B6ii} - 055.Number of Exporters per Destination: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -739,7 +739,7 @@
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of female population age 15-19 with no education{p_end}
+{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
 
 {synopt:{opt Source Organization}}Robert J. Barro and Jong-Wha Lee: {browse "http://www.barrolee.com/"}{p_end}
 
@@ -854,7 +854,7 @@
 
 {synoptline}
 {marker sourceid_D1ii}
-{synopt:{bf:{help wbopendata_sourceid##D1ii:D1ii} - 064.Product Entry Rate of Incumbents: Median}}
+{synopt:{bf:{help wbopendata_sourceid##D1ii:D1ii} - 065.Product Entry Rate of Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -866,7 +866,7 @@
 
 {synoptline}
 {marker sourceid_D1iii}
-{synopt:{bf:{help wbopendata_sourceid##D1iii:D1iii} - 066.Product Entry Rate of Surviving Entrants: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##D1iii:D1iii} - 065.Product Entry Rate of Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -878,7 +878,7 @@
 
 {synoptline}
 {marker sourceid_D2i}
-{synopt:{bf:{help wbopendata_sourceid##D2i:D2i} - 067.Product Entry Rate of Surviving Entrants: Median}}
+{synopt:{bf:{help wbopendata_sourceid##D2i:D2i} - 066.Product Entry Rate of Surviving Entrants: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -950,7 +950,7 @@
 
 {synoptline}
 {marker sourceid_D4i}
-{synopt:{bf:{help wbopendata_sourceid##D4i:D4i} - 073.Share of New Products in TEV of Surviving Entrants: Median}}
+{synopt:{bf:{help wbopendata_sourceid##D4i:D4i} - 072.Share of New Products in TEV of Surviving Entrants: Mean}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -962,7 +962,7 @@
 
 {synoptline}
 {marker sourceid_D4ii}
-{synopt:{bf:{help wbopendata_sourceid##D4ii:D4ii} - 074.Share of New Products in TEV of Surviving Entrants: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##D4ii:D4ii} - 073.Share of New Products in TEV of Surviving Entrants: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -986,7 +986,7 @@
 
 {synoptline}
 {marker sourceid_D5i}
-{synopt:{bf:{help wbopendata_sourceid##D5i:D5i} - 075.Product Exit Rate of Incumbents: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##D5i:D5i} - 076.Product Exit Rate of Incumbents: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1051,14 +1051,14 @@
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
 
-{synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
+{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
 
 {synopt:{opt Source Organization}}Ministry of Finance, Ministry of Finance Regulation{p_end}
 
 
 {synoptline}
 {marker sourceid_DT.NFL.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DPPG.CD:DT.NFL.DPPG.CD} - Net flows on external debt, public and publicly guaranteed (PPG) (NFL, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.NFL.DPPG.CD:DT.NFL.DPPG.CD} - 083.Destination Entry Rate of Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1070,7 +1070,7 @@
 
 {synoptline}
 {marker sourceid_DXGSRMRCHSAXD}
-{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAXD:DXGSRMRCHSAXD} - 081.Destination Entry Rate of Incumbents: Mean}}
+{synopt:{bf:{help wbopendata_sourceid##DXGSRMRCHSAXD:DXGSRMRCHSAXD} - Exports Merchandise, Customs, Price, US$, seas. adj.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1166,7 +1166,7 @@
 
 {synoptline}
 {marker sourceid_E3ii}
-{synopt:{bf:{help wbopendata_sourceid##E3ii:E3ii} - 089.Share of New Destinations in TEV of Incumbents: StDev.}}
+{synopt:{bf:{help wbopendata_sourceid##E3ii:E3ii} - 088.Share of New Destinations in TEV of Incumbents: Median}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1238,7 +1238,7 @@
 
 {synoptline}
 {marker sourceid_E5ii}
-{synopt:{bf:{help wbopendata_sourceid##E5ii:E5ii} - 094.Destination Exit Rate of Incumbents: Median}}
+{synopt:{bf:{help wbopendata_sourceid##E5ii:E5ii} - 095.Destination Exit Rate of Incumbents: StDev.}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
@@ -1291,14 +1291,14 @@
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 
 
-{synopt:{opt Source Notes}}Exporter-level information on export transactions - Customs{p_end}
+{synopt:{opt Source Notes}}Agriculture value added per worker is a measure of agricultural productivity. Value added in agriculture measures the output of the agricultural sector (ISIC divisions 1-5) less the value of intermediate inputs. Agriculture comprises value add{p_end}
 
 {synopt:{opt Source Organization}}Derived from World Bank national accounts files and Food and Agriculture Organization, Production Yearbook and data files.{p_end}
 
 
 {synoptline}
 {marker sourceid_allsp.gen_pop}
-{synopt:{bf:{help wbopendata_sourceid##allsp.gen_pop:allsp.gen_pop} - 041.Herfindahl-Hirschman Index}}
+{synopt:{bf:{help wbopendata_sourceid##allsp.gen_pop:allsp.gen_pop} - Generosity of social protection and labor programs (% of total welfare of beneficiary households)}}
 
 {synopt:{opt Source}}30 Exporter Dynamics Database – Indicators at Country-Year Level{p_end}
 

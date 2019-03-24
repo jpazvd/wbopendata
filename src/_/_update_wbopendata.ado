@@ -366,7 +366,10 @@ syntax , 								///
 				noi di in g in smcl "	Current country update level:   " in w "{bf:`r(dt_ctryupdate)'}"
 				noi di in smcl ""
 			
-				qui if ("`detail'" != "") {
+				noi di in smcl ""
+				noi di in w in smcl in y "{bf:UPDATE IN PROGRESS...}"
+			
+				qui if ("`detail'" != "") | ("`force'" != "") {
 					
 					noi _update_indicators, `query' `check' `nohlp2'
 
@@ -419,11 +422,6 @@ syntax , 								///
 					noi di in smcl ""
 				
 				}
-
-				noi di in g in smcl "Possible actions"
-				noi di in smcl ""
-				noi di in w in smcl in y "{bf:UPDATE IN PROGRESS...}"
-				noi di in smcl ""
 
 			}
 		

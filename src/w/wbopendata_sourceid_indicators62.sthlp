@@ -62,7 +62,7 @@
 {syntab:{title:{bf:62 International Comparison Program (ICP) 2011}}}
 {synoptline}
 {marker sourceid_S01}
-{synopt:{bf:{help wbopendata_sourceid##S01:S01} - EXPENDITURES (National currency units, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S01:S01} - EXPENDITURE SHARES (GDP=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -98,7 +98,7 @@
 
 {synoptline}
 {marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -158,7 +158,7 @@
 
 {synoptline}
 {marker sourceid_S09}
-{synopt:{bf:{help wbopendata_sourceid##S09:S09} - NOMINAL EXPENDITURES (US$, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S09:S09} - NOMINAL EXPENDITURES PER CAPITA (US$)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker sourceid_S10}
-{synopt:{bf:{help wbopendata_sourceid##S10:S10} - NOMINAL EXPENDITURES PER CAPITA (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##S10:S10} - EXCHANGE RATE (US$ = 1.000)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -206,7 +206,7 @@
 
 {synoptline}
 {marker sourceid_s_policyholders_B2_nonlife}
-{synopt:{bf:{help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - Insurance policy holders per 1,000 adults (non-life)}}
+{synopt:{bf:{help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - EXPENDITURES (National currency units, billions)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 

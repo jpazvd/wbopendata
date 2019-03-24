@@ -79,7 +79,7 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data on reported portfolio investment assets (equity and debt securities) are sourced from the IMF’s Coordinated Portfolio Investment Survey (CPIS) database.{p_end}
+{synopt:{opt Source Notes}}The data on international reserve assets refer to entries published in the world tables of the IMF’s International Financial Statistics (IFS).{p_end}
 
 {synopt:{opt Source Organization}}IMF{p_end}
 
@@ -98,12 +98,12 @@
 
 {synoptline}
 {marker sourceid_Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA}
-{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA} - 13_Multilateral loans, IMF, short term}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA:Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA} - 07_Multilateral loans, IMF}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data cover total IMF credit and loan obligations (principal and interest) falling due in the next twelve months and the obligations that are in arrears as at the end of the reporting period. The data are denominated in Special Drawing Righ{p_end}
+{synopt:{opt Source Notes}}The data cover total outstanding loans and other liabilities to the IMF as at the end of the reference period. Outstanding IMF credit and loans outstanding—representing the sum of (1) the use of IMF credit within the General Resources Accoun{p_end}
 
 {synopt:{opt Source Organization}}IMF{p_end}
 
@@ -163,14 +163,14 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}Holdings of SDRs are international reserve assets created by the IMF to supplement existing reserves. They are valued on the basis of a basket of currencies of four key international currencies and can be used in a wide variety of transactions{p_end}
+{synopt:{opt Source Notes}}The data are sourced from the African Development Bank, Asian Development Bank, and Inter-American Development, and IBRD loans and IDA credits from the World Bank.{p_end}
 
-{synopt:{opt Source Organization}}IMF{p_end}
+{synopt:{opt Source Organization}}African Development Bank, Asian Development Bank, Inter-American Development, World Bank{p_end}
 
 
 {synoptline}
 {marker sourceid_Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL}
-{synopt:{bf:{help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL} - 08_Multilateral loans, other institutions}}
+{synopt:{bf:{help wbopendata_sourceid##Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL:Q.1E0.1E0.C.9B.IFI.LMOI.1.ALL.NV.TO1.ALL} - 06_Multilateral loans, total}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -211,7 +211,7 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data show the outstanding debt on loans, other than direct export credits, extended by governments which are members of the OECD’s Development Assistance Committee (DAC). In addition to straightforward loans, official bilateral loans inc{p_end}
+{synopt:{opt Source Notes}}Other loans cover official loans other than export credits that do not qualify as ODA, either as they are not for developmental purposes or are insufficiently concessional. Those DAC Members that provide loans, and so hold official debt, notif{p_end}
 
 {synopt:{opt Source Organization}}OECD{p_end}
 
@@ -223,9 +223,9 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data show the outstanding debt on loans, other than direct export credits, extended by governments which are members of the OECD’s Development Assistance Committee (DAC). In addition to straightforward loans, official bilateral loans inc{p_end}
+{synopt:{opt Source Notes}}The data provides total international liabilities (all instruments) to banks that report the BIS Consolidated Banking Statistics.{p_end}
 
-{synopt:{opt Source Organization}}OECD{p_end}
+{synopt:{opt Source Organization}}BIS{p_end}
 
 
 {synoptline}
@@ -247,7 +247,7 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data are derived from the BIS Consolidated Banking Statistics (CBS), which comprise data on gross consolidated claims of banks resident in the CBS reporting.{p_end}
+{synopt:{opt Source Notes}}The data provides total cross-border liabilities (all instruments) to banks that report the BIS Locational Banking Statistics.{p_end}
 
 {synopt:{opt Source Organization}}BIS{p_end}
 
@@ -259,7 +259,7 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data provides total cross-border liabilities (all instruments) to banks that report the BIS Locational Banking Statistics.{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) Locational Banking Statistics.{p_end}
 
 {synopt:{opt Source Organization}}BIS{p_end}
 
@@ -319,7 +319,7 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics.{p_end}
+{synopt:{opt Source Notes}}The data are derived from the Bank for International Settlements (BIS) International Debt Securities Statistics, excluding bank issuers.{p_end}
 
 {synopt:{opt Source Organization}}BIS{p_end}
 
@@ -362,7 +362,7 @@
 
 {synoptline}
 {marker sourceid_Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO}
-{synopt:{bf:{help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO} - 20_Paris Club claims (ODA)}}
+{synopt:{bf:{help wbopendata_sourceid##Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO:Q.6T0.5B0.C.3P.GGO.PCNO.1.ALL.NV.TO1.GGO} - 21_Paris Club claims (non ODA)}}
 
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
@@ -391,7 +391,7 @@
 {synopt:{opt Source}}54 Joint External Debt Hub{p_end}
 
 
-{synopt:{opt Source Notes}}ST refers to insured export credits with credit terms up to and including 12 months, except for transactions involving an insured manufacturing (pre-credit) risk with a risk period of more than 12 months, which are classified as medium/long-te{p_end}
+{synopt:{opt Source Notes}}Data refer to Berne Union members’ direct insurance or lending, i.e. amount reinsured by others are not deducted and amounts reinsured by members for others are not added. Countries are defined  based on ISO 3166-1. Amounts guaranteed by an{p_end}
 
 {synopt:{opt Source Organization}}BIS{p_end}
 
@@ -405,7 +405,7 @@
 
 {synopt:{opt Source Notes}}ST refers to insured export credits with credit terms up to and including 12 months, except for transactions involving an insured manufacturing (pre-credit) risk with a risk period of more than 12 months, which are classified as medium/long-te{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on Datastream and IMF International Finance Statistics data.{p_end}
+{synopt:{opt Source Organization}}BIS{p_end}
 
 
 
