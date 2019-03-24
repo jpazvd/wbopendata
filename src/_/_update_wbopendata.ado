@@ -22,6 +22,7 @@ syntax , 								///
 				ALL						///
 				SHORT					///
 				DETAIL					///
+				NOHLP					///
 		  ]
 
 	return add
@@ -31,8 +32,13 @@ syntax , 								///
 *		exit 198
 *    }
 
+	if ("`nohlp'" != "") {
+		local nohlp2 " nosthlp1 nosthlp2 "
+	}
+
 	_parameters
 
+	local total 			= r(total)
 	local number_indicators = r(number_indicators)
 	local datef 			= c(current_date)
 	local time 				= c(current_time)
@@ -48,7 +54,11 @@ syntax , 								///
 	foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 		local old`returnname'  = r(`returnname')
 	}
-
+				
+	local	oldsourcereturn "`r(sourcereturn)'" 
+	local	oldtopicreturn  "`r(topicreturn)'"
+	local	oldsourceid	 	`"`r(sourceid)'"'
+	local	oldtopicid		`"`r(topicid)'"'
 	
 	qui if ("`query'" != "") & ("`check'" == "") & ("`update'" != "") {
 	
@@ -81,10 +91,10 @@ syntax , 								///
 				qui foreach name in `r(sourcereturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
 					}
 
 					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
@@ -103,10 +113,10 @@ syntax , 								///
 				qui foreach name in `r(topicreturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
 					}
 
 					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
@@ -172,6 +182,14 @@ syntax , 								///
 			
 			qui if ("`detail'" != "") {
 				
+				noi _update_indicators, noindlist nosthlp1 nosthlp2 `query' `check'
+
+				noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+
+					local `returnname' = `r(`returnname')'  	
+					
+				}
+				
 				/* Source */
 				
 				noi di in g in smcl "{synoptset 15 tabbed} "
@@ -182,13 +200,13 @@ syntax , 								///
 				qui foreach name in `r(sourcereturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(SAME) {p_end}" "'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -204,13 +222,13 @@ syntax , 								///
 				qui foreach name in `r(topicreturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(SAME) {p_end}" "'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -236,6 +254,8 @@ syntax , 								///
 			noi di in g in smcl "{hline}"
 
 		}
+
+		/* Does not change _parameter values (only changes time stamps) */ 
 		
 		tempfile in out2
 		tempname in2 out
@@ -254,26 +274,25 @@ syntax , 								///
 		
 		/* begin: full indicators details always on */
 
-		noi _update_indicators, noindlist nosthlp1 nosthlp2
-
 		file write `out' `""' 																_n
-		file write `out' `"		return local total = `r(total)' "' 							_n 
+		file write `out' `"		return local total = `total' "' 							_n 
 		file write `out' `""' 																_n
 
 		noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 
-			file write `out' `"		return local `returnname' = `r(`returnname')' "' 		_n
+			file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
 					
 		}
+
 			
 		file write `out' `""' 																_n
-		file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 			_n
+		file write `out' `"		return local sourcereturn  "`oldsourcereturn'" "' 			_n
 		file write `out' `""' 																_n
-		file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 			_n
+		file write `out' `"		return local topicreturn  "`oldtopicreturn'" "' 			_n
 		file write `out' `""' 																_n
-		file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
+		file write `out' `"		return local sourceid  `"`oldsourceid'"' "' 					_n
 		file write `out' `""' 																_n
-		file write `out' `"		return local topicid  `r(topicid)' "' 						_n
+		file write `out' `"		return local topicid  `"`oldtopicid'"' "' 						_n
 		file write `out' `""' 																_n
 				
 		file write `out' `""' 																_n
@@ -295,7 +314,7 @@ syntax , 								///
 		
 		findfile _parameters.ado, `path'
 		copy `out2'  `r(fn)' , replace
-
+	
 	}
 	
 
@@ -348,6 +367,12 @@ syntax , 								///
 				noi di in smcl ""
 			
 				qui if ("`detail'" != "") {
+					
+					noi _update_indicators, `query' `check' `nohlp2'
+
+					noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+						local `returnname' = `r(`returnname')'  	
+					}
 					
 					/* Source */
 					
@@ -417,8 +442,6 @@ syntax , 								///
 			file write `out' `"		return add"' 											_n
 			file write `out' `""' 															_n
 			
-			noi _update_indicators
-
 			file write `out' `""' 															_n
 			file write `out' `"		return local total = `r(total)' "' 						_n 
 			file write `out' `""' 															_n
