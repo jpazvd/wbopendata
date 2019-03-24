@@ -62,7 +62,7 @@
 {syntab:{title:{bf:18 IDA Results Measurement System}}}
 {synoptline}
 {marker sourceid_EG.ELC.FOSL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EG.ELC.FOSL.ZS:EG.ELC.FOSL.ZS} - Electricity production from oil, gas and coal sources (% of total)Household electrification rate (% of households)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.ELC.FOSL.ZS:EG.ELC.FOSL.ZS} - Electricity production from oil, gas and coal sources (% of total)}}
 
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
@@ -79,14 +79,14 @@
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
-{synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provideSources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
+{synopt:{opt Source Notes}}Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide{p_end}
 
-{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys.IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to https://www.iea.org/t&amp;c/termsandconditions/{p_end}
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker sourceid_ER.FSH.PROD.MT}
-{synopt:{bf:{help wbopendata_sourceid##ER.FSH.PROD.MT:ER.FSH.PROD.MT} - Annual deforestation (% of change)Total fisheries production (metric tons)}}
+{synopt:{bf:{help wbopendata_sourceid##ER.FSH.PROD.MT:ER.FSH.PROD.MT} - Total fisheries production (metric tons)}}
 
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
@@ -103,14 +103,14 @@
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
-{synopt:{opt Source Notes}}Average annual deforestation refers to the permanent conversion of natural forest area to other uses, including shifting cultivation, permanent agriculture, ranching, settlements, and infrastructure development. Deforested areas do not includeWater productivity is calculated as GDP in constant prices divided by annual total water withdrawal.{p_end}
+{synopt:{opt Source Notes}}Average annual deforestation refers to the permanent conversion of natural forest area to other uses, including shifting cultivation, permanent agriculture, ranching, settlements, and infrastructure development. Deforested areas do not include{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data, and World Bank and OECD GDP estimates.Food and Agriculture Organization, Global Forest Resources Assessment.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization, Global Forest Resources Assessment.{p_end}
 
 
 {synoptline}
 {marker sourceid_IS.AIR.PSGR.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR.P3:IS.AIR.PSGR.P3} - Access to an all-season road (% of rural population)Air transport, passengers carried (thousands)}}
+{synopt:{bf:{help wbopendata_sourceid##IS.AIR.PSGR.P3:IS.AIR.PSGR.P3} - Air transport, passengers carried (thousands)}}
 
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
@@ -127,9 +127,9 @@
 {synopt:{opt Source}}18 IDA Results Measurement System{p_end}
 
 
-{synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailingRoad density is the ratio of the length of the country's total road network to the country's land area. The road network includes all roads in the country: motorways, highways, main or national roads, secondary or regional roads, and other urb{p_end}
+{synopt:{opt Source Notes}}Access to an all-season road is measured as the proportion of rural people who live within 2 kilometers (typically equivalent to a 20-minute walk) of an all-season road. An all-season road is a road that is motorable all year by the prevailing{p_end}
 
-{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys, specifically Living Standard Measurement Surveys (LSMS), Income/Expenditure Household Surveys (IES), Poverty Surveys (PS) and Core Welfare Indicators Questionnaires (CWIQ) carried out betweeInternational Road Federation, World Road Statistics and electronic files, except where noted.{p_end}
+{synopt:{opt Source Organization}}Compiled by World Bank staff from household surveys, specifically Living Standard Measurement Surveys (LSMS), Income/Expenditure Household Surveys (IES), Poverty Surveys (PS) and Core Welfare Indicators Questionnaires (CWIQ) carried out betwee{p_end}
 
 
 

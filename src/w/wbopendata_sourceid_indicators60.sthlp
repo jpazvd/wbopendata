@@ -62,7 +62,7 @@
 {syntab:{title:{bf:60 Economic Fitness}}}
 {synoptline}
 {marker sourceid_EE.BOD.WRKR.KG}
-{synopt:{bf:{help wbopendata_sourceid##EE.BOD.WRKR.KG:EE.BOD.WRKR.KG} - Economic Fitness MetricOrganic water pollutant (BOD) emissions (kg per day per worker)}}
+{synopt:{bf:{help wbopendata_sourceid##EE.BOD.WRKR.KG:EE.BOD.WRKR.KG} - Economic Fitness Metric}}
 
 {synopt:{opt Source}}60 Economic Fitness{p_end}
 
@@ -74,12 +74,12 @@
 
 {synoptline}
 {marker sourceid_EF.EFM.OVRL.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness MetricEconomic Fitness Ranking (1 = high, 149 = low)}}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness Metric}}
 
 {synopt:{opt Source}}60 Economic Fitness{p_end}
 
 
-{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
+{synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
 
@@ -93,7 +93,7 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growthWorld Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
+{synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from WHO Global Household Energy database.{p_end}
 
 
 

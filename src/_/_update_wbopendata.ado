@@ -22,6 +22,7 @@ syntax , 								///
 				ALL						///
 				SHORT					///
 				DETAIL					///
+				NOHLP					///
 		  ]
 
 	return add
@@ -31,8 +32,13 @@ syntax , 								///
 *		exit 198
 *    }
 
+	if ("`nohlp'" != "") {
+		local nohlp2 " nosthlp1 nosthlp2 "
+	}
+
 	_parameters
 
+	local total 			= r(total)
 	local number_indicators = r(number_indicators)
 	local datef 			= c(current_date)
 	local time 				= c(current_time)
@@ -48,7 +54,11 @@ syntax , 								///
 	foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 		local old`returnname'  = r(`returnname')
 	}
-
+				
+	local	oldsourcereturn "`r(sourcereturn)'" 
+	local	oldtopicreturn  "`r(topicreturn)'"
+	local	oldsourceid	 	`"`r(sourceid)'"'
+	local	oldtopicid		`"`r(topicid)'"'
 	
 	qui if ("`query'" != "") & ("`check'" == "") & ("`update'" != "") {
 	
@@ -81,10 +91,10 @@ syntax , 								///
 				qui foreach name in `r(sourcereturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
 					}
 
 					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
@@ -103,10 +113,10 @@ syntax , 								///
 				qui foreach name in `r(topicreturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
 					}
 
 					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
@@ -172,6 +182,14 @@ syntax , 								///
 			
 			qui if ("`detail'" != "") {
 				
+				noi _update_indicators, noindlist nosthlp1 nosthlp2 `query' `check'
+
+				noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+
+					local `returnname' = `r(`returnname')'  	
+					
+				}
+				
 				/* Source */
 				
 				noi di in g in smcl "{synoptset 15 tabbed} "
@@ -182,13 +200,13 @@ syntax , 								///
 				qui foreach name in `r(sourcereturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(SAME) {p_end}" "'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -204,13 +222,13 @@ syntax , 								///
 				qui foreach name in `r(topicreturn)' {
 				
 					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(SAME) {p_end}""'
+						local checkvalue `""  in y  "		(SAME) {p_end}" "'
 					}
 					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
+						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -236,6 +254,8 @@ syntax , 								///
 			noi di in g in smcl "{hline}"
 
 		}
+
+		/* Does not change _parameter values (only changes time stamps) */ 
 		
 		tempfile in out2
 		tempname in2 out
@@ -243,59 +263,58 @@ syntax , 								///
 		file open `out'    using 	`out2'   		, write text append 
 				
 		
-		file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"program define _parameters, rclass"' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"version 9"' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return add"' 					_n
-		file write `out' `""' 					_n
+		file write `out' `"*! _parameters <`datef' : `time'> 	João Pedro Azevedo "' 		_n
+		file write `out' `""' 																_n
+		file write `out' `"program define _parameters, rclass"' 							_n
+		file write `out' `""' 																_n
+		file write `out' `"version 9"' 														_n
+		file write `out' `""' 																_n
+		file write `out' `"		return add"' 												_n
+		file write `out' `""' 																_n
 		
 		/* begin: full indicators details always on */
 
-		noi _update_indicators, noindlist nosthlp1 nosthlp2
-
-		file write `out' `""' 					_n
-		file write `out' `"		return local total = `r(total)' "' 					_n 
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local total = `total' "' 							_n 
+		file write `out' `""' 																_n
 
 		noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 
-			file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+			file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
 					
 		}
+
 			
-		file write `out' `""' 					_n
-		file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
-		file write `out' `""' 					_n
-		file write `out' `"		return local topicid  `r(topicid)' "' 					_n
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local sourcereturn  "`oldsourcereturn'" "' 			_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local topicreturn  "`oldtopicreturn'" "' 			_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local sourceid  `"`oldsourceid'"' "' 					_n
+		file write `out' `""' 																_n
+		file write `out' `"		return local topicid  `"`oldtopicid'"' "' 						_n
+		file write `out' `""' 																_n
 				
-		file write `out' `""' 					_n
+		file write `out' `""' 																_n
 
 		/* end: full indicators details always on */
 				
-		file write `out' `""' 					_n
-		file write `out' `"		return local number_indicators = `number_indicators'"' 					_n 
+		file write `out' `""' 																_n
+		file write `out' `"		return local number_indicators = `number_indicators'"' 		_n 
 		file write `out' `"		return local dt_update "`dt_update'" "' 					_n
 		file write `out' `"		return local dt_lastcheck  "`dt_check'" "' 					_n  
-		file write `out' `""' 					_n
-		file write `out' `"		return local ctrymetadata = `ctrymetadata'"' 					_n 
-		file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 					_n
-		file write `out' `"		return local dt_ctryupdate  "`dt_ctryupdate'" "' 					_n  
-		file write `out' `""' 					_n
-		file write `out' `"end"' 					_n	
+		file write `out' `""' 																_n
+		file write `out' `"		return local ctrymetadata = `ctrymetadata'"' 				_n 
+		file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 		_n
+		file write `out' `"		return local dt_ctryupdate  "`dt_ctryupdate'" "' 			_n  
+		file write `out' `""' 																_n
+		file write `out' `"end"' 															_n
 			
 		file close `out'
 		
 		findfile _parameters.ado, `path'
 		copy `out2'  `r(fn)' , replace
-
+	
 	}
 	
 
@@ -348,6 +367,12 @@ syntax , 								///
 				noi di in smcl ""
 			
 				qui if ("`detail'" != "") {
+					
+					noi _update_indicators, `query' `check' `nohlp2'
+
+					noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
+						local `returnname' = `r(`returnname')'  	
+					}
 					
 					/* Source */
 					
@@ -408,38 +433,36 @@ syntax , 								///
 			
 			file open `out'    using 	`out2'   		, write text append 
 						
-			file write `out' `"*! _parameters <`datef' : `time'> 			João Pedro Azevedo "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"program define _parameters, rclass"' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"version 9"' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return add"' 					_n
-			file write `out' `""' 					_n
+			file write `out' `"*! _parameters <`datef' : `time'> 	João Pedro Azevedo "' 	_n
+			file write `out' `""' 															_n
+			file write `out' `"program define _parameters, rclass"' 						_n
+			file write `out' `""' 															_n
+			file write `out' `"version 9"' 													_n
+			file write `out' `""' 															_n
+			file write `out' `"		return add"' 											_n
+			file write `out' `""' 															_n
 			
-			noi _update_indicators
-
-			file write `out' `""' 					_n
-			file write `out' `"		return local total = `r(total)'dis "' 					_n 
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local total = `r(total)' "' 						_n 
+			file write `out' `""' 															_n
 
 			noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 
-				file write `out' `"		return local `returnname' = `r(`returnname')' "' 					_n
+				file write `out' `"		return local `returnname' = `r(`returnname')' "' 	_n
 				
 			}
 			
-			file write `out' `""' 					_n
-			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 					_n
-			file write `out' `""' 					_n
-			file write `out' `"		return local sourceid  `r(sourceid)' "' 					_n
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 		_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 		_n
+			file write `out' `""' 															_n
+			file write `out' `"		return local sourceid  `r(sourceid)' "' 				_n
+			file write `out' `""' 															_n
 			file write `out' `"		return local topicid  `r(topicid)' "' 					_n
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
 			
-			file write `out' `""' 					_n
+			file write `out' `""' 															_n
 
 			
 			noi di in smcl ""
@@ -450,17 +473,17 @@ syntax , 								///
 			local newctryupdate		= r(dt_ctryupdate)
 			
 			
-			file write `out' `""' 					_n
-			file write `out' `"		return local number_indicators = `newnumber'"' 					_n 
-			file write `out' `"		return local dt_update "`datef' `time'" "' 					_n
-			file write `out' `"		return local dt_lastcheck  "`datef' `time'" "' 					_n  
-			file write `out' `""' 					_n
-			file write `out' `"		return local ctrymetadata = `newctrymetadata'"' 					_n 
-			file write `out' `"		return local dt_ctrylastupdate  "`dt_ctryupdate'" "' 					_n 
-			file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 					_n
-			file write `out' `"		return local dt_ctryupdate  "`newctryupdate'" "' 					_n  
-			file write `out' `""' 					_n
-			file write `out' `"end"' 					_n	
+			file write `out' `""' 															_n
+			file write `out' `"		return local number_indicators = `newnumber'"' 			_n 
+			file write `out' `"		return local dt_update "`datef' `time'" "' 				_n
+			file write `out' `"		return local dt_lastcheck  "`datef' `time'" "' 			_n  
+			file write `out' `""' 															_n
+			file write `out' `"		return local ctrymetadata = `newctrymetadata'"' 		_n 
+			file write `out' `"		return local dt_ctrylastupdate  "`dt_ctryupdate'" "' 	_n 
+			file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 	_n
+			file write `out' `"		return local dt_ctryupdate  "`newctryupdate'" "' 		_n  
+			file write `out' `""' 															_n
+			file write `out' `"end"' 														_n
 
 			file close `out'
 
