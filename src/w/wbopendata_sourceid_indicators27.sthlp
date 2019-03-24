@@ -62,7 +62,7 @@
 {syntab:{title:{bf:27 Global Economic Prospects}}}
 {synoptline}
 {marker sourceid_NY.TTF.MRCH.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TTF.MRCH.KN:NY.TTF.MRCH.KN} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.Terms of Trade Adjustment (local) (Const. Price)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.TTF.MRCH.KN:NY.TTF.MRCH.KN} - Terms of Trade Adjustment (local) (Const. Price)}}
 
 {synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
@@ -79,9 +79,9 @@
 {synopt:{opt Source}}27 Global Economic Prospects{p_end}
 
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated asStarting salaries refer to the average scheduled gross salary per year for a full-time teacher with the minimum training necessary to be fully qualified at the beginning of the teaching career. Salaries are in equivalent USD converted using PP{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
-{synopt:{opt Source Organization}}Organisation for Economic Co-operation and Development (OECD)The World Bank{p_end}
+{synopt:{opt Source Organization}}The World Bank{p_end}
 
 
 

@@ -62,7 +62,7 @@
 {syntab:{title:{bf:05 Subnational Malnutrition Database}}}
 {synoptline}
 {marker sourceid_SN.PRD.FOOD.ZC}
-{synopt:{bf:{help wbopendata_sourceid##SN.PRD.FOOD.ZC:SN.PRD.FOOD.ZC} - Food Production, per capita (1980=100)Sub-National Malnutrition prevalence, weight for age (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.PRD.FOOD.ZC:SN.PRD.FOOD.ZC} - Food Production, per capita (1980=100)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
@@ -74,50 +74,50 @@
 
 {synoptline}
 {marker sourceid_SN.SH.STA.MALN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - Sub-National Malnutrition prevalence, weight for age (% of children under 5)Sub-National Prevalence of overweight (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - Sub-National Prevalence of overweight (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO'sPrevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
+{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at {browse "http://www.w"}{p_end}
 
 
 {synoptline}
 {marker sourceid_SN.SH.STA.OWGH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.OWGH.ZS:SN.SH.STA.OWGH.ZS} - Sub-National Malnutrition prevalence, height for age (% of children under 5)Sub-National Prevalence of overweight (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.OWGH.ZS:SN.SH.STA.OWGH.ZS} - Sub-National Prevalence of overweight (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose height for age (stunting) is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to twPrevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
+{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at {browse "http://www.w"}{p_end}
 
 
 {synoptline}
 {marker sourceid_SN.SH.STA.STNT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.STNT.ZS:SN.SH.STA.STNT.ZS} - Sub-National Malnutrition prevalence, height for age (% of children under 5)Sub-National Prevalence of wasting (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.STNT.ZS:SN.SH.STA.STNT.ZS} - Sub-National Malnutrition prevalence, height for age (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose height for age (stunting) is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to twWasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
+{synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose height for age (stunting) is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to tw{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at {browse "http://www.w"}{p_end}
 
 
 {synoptline}
 {marker sourceid_SN.SH.STA.WAST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - Sub-National Prevalence of severe wasting, weight for height (% of children under 5)Sub-National Prevalence of wasting (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.WAST.ZS:SN.SH.STA.WAST.ZS} - Sub-National Prevalence of wasting (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Wasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.Yet to receive metadata{p_end}
+{synopt:{opt Source Notes}}Wasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at http://www.wYet to receive metadata{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at {browse "http://www.w"}{p_end}
 
 
 {synoptline}
@@ -127,9 +127,9 @@
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Adolescent fertility rate is the number of births per 1,000 women ages 15-19.Yet to receive metadata{p_end}
+{synopt:{opt Source Notes}}Yet to receive metadata{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division, World Population Prospects.Yet to receive metadata{p_end}
+{synopt:{opt Source Organization}}Yet to receive metadata{p_end}
 
 
 

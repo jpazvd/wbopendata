@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.MKTP.KN.87.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.KN.87.ZG:NY.GNP.MKTP.KN.87.ZG} - GNI per capita (current US$)GNP growth (annual %)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.KN.87.ZG:NY.GNP.MKTP.KN.87.ZG} - GNI per capita (current US$)}}
 
 {synopt:{opt Source}}46 Sustainable Development Goals{p_end}
 
@@ -103,9 +103,9 @@
 {synopt:{opt Source}}46 Sustainable Development Goals{p_end}
 
 
-{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts ofPPP GNI (formerly PPP GNP) is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. dollar has in the United States. Gross n{p_end}
+{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.World Bank, International Comparison Program database.{p_end}
+{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
 
 
 

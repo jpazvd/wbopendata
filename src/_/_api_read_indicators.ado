@@ -12,6 +12,8 @@ discard
 
 _api_read_indicators, update preserveout
 
+return list
+
 
 *******************************************************************************/
 
@@ -28,6 +30,8 @@ program define _api_read_indicators, rclass
 							PRESERVEOUT 			///
 							FILE1(string)			///
 							FILE2(string)			///
+							CHECK					///
+							QUERY					///
 							]			   
                  
 
@@ -40,6 +44,13 @@ program define _api_read_indicators, rclass
 		/* Overall Parameters			  */
 		************************************
 
+		if ("`check'" == "") {
+			local what "update `query'"
+		}
+		if ("`check'" != "") {
+			local what "check"
+		}
+		
 		local date: disp %td date("`c(current_date)'", "DMY")
 	
 		tempfile indicator1 indicator2
@@ -56,7 +67,7 @@ program define _api_read_indicators, rclass
 
 		cap: copy "`query1'" "`indicator1'", text replace	
 		
-		noi di in smcl in g ""
+*		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Downloading indicators list 1/2...COMPLETED!}"
 		
 		noi di in smcl in g ""
@@ -64,11 +75,11 @@ program define _api_read_indicators, rclass
 		
 		cap: copy "`query2'" "`indicator2'", text replace
 
-		noi di in smcl in g ""
+*		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Downloading indicators list 2/2...COMPLETED!}"
 
 		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Executing update...}"
+		noi di in smcl in g "{bf: Preparing indicator data for `what'...}"
 
 		
 		************************************
@@ -218,6 +229,12 @@ program define _api_read_indicators, rclass
 	
 	}
 
+*	noi di in smcl in g ""
+	noi di in smcl in g "{bf: Preparing indicator data for `what'... COMPLETED!}"
+	noi di in smcl in g ""
+
+	
+	
 end
 
 
