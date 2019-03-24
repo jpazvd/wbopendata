@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -98,7 +98,7 @@
 
 {synoptline}
 {marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
 
 {synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
 
@@ -217,4 +217,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

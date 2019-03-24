@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_1.0.HCount.Mid10to50}
-{synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Mid10to50:1.0.HCount.Mid10to50} - Middle Class ($10-50 a day) Headcount}}
+{synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Mid10to50:1.0.HCount.Mid10to50} - Official Moderate Poverty Rate-National}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -103,7 +103,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income below the official poverty line developed by each country.{p_end}
+{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -114,7 +114,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
 
@@ -123,7 +122,7 @@
 
 {synoptline}
 {marker sourceid_1.0.HCount.Vul4to10}
-{synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Vul4to10:1.0.HCount.Vul4to10} - Vulnerable ($4-10 a day) Headcount}}
+{synopt:{bf:{help wbopendata_sourceid##1.0.HCount.Vul4to10:1.0.HCount.Vul4to10} - Poverty Gap ($1.90 a day)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -163,6 +162,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
@@ -200,7 +200,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.{p_end}
+{synopt:{opt Source Notes}}The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -219,7 +219,7 @@
 
 {synoptline}
 {marker sourceid_1.1.HCount.2.5usd}
-{synopt:{bf:{help wbopendata_sourceid##1.1.HCount.2.5usd:1.1.HCount.2.5usd} - Middle Class ($10-50 a day) Headcount-Rural}}
+{synopt:{bf:{help wbopendata_sourceid##1.1.HCount.2.5usd:1.1.HCount.2.5usd} - Poverty Headcount ($2.50 a day)-Rural}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -236,14 +236,14 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income below the official poverty line developed by each country.{p_end}
+{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of data from National Statistical Offices.{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_1.1.HCount.Ofcl}
-{synopt:{bf:{help wbopendata_sourceid##1.1.HCount.Ofcl:1.1.HCount.Ofcl} - Poverty Headcount ($4 a day)-Rural}}
+{synopt:{bf:{help wbopendata_sourceid##1.1.HCount.Ofcl:1.1.HCount.Ofcl} - Official Moderate Poverty Rate- Rural}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -259,7 +259,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
 
@@ -273,7 +272,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
+{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -292,7 +291,7 @@
 
 {synoptline}
 {marker sourceid_1.1.PGap.2.5usd}
-{synopt:{bf:{help wbopendata_sourceid##1.1.PGap.2.5usd:1.1.PGap.2.5usd} - Poverty Gap ($2.50 a day)-Rural}}
+{synopt:{bf:{help wbopendata_sourceid##1.1.PGap.2.5usd:1.1.PGap.2.5usd} - Poverty Gap ($4 a day)-Rural}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -332,7 +331,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line{p_end}
 
@@ -353,7 +351,7 @@
 
 {synoptline}
 {marker sourceid_1.1_YOUTH.LITERACY.RATE}
-{synopt:{bf:{help wbopendata_sourceid##1.1_YOUTH.LITERACY.RATE:1.1_YOUTH.LITERACY.RATE} - Poverty Headcount ($1.90 a day)-Urban}}
+{synopt:{bf:{help wbopendata_sourceid##1.1_YOUTH.LITERACY.RATE:1.1_YOUTH.LITERACY.RATE} - Literacy rate, youth total (% of people ages 15-24)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -397,7 +395,7 @@
 
 {synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of data from National Statistical Offices.{p_end}
 
 
 {synoptline}
@@ -409,7 +407,7 @@
 
 {synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income below the official poverty line developed by each country.{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of data from National Statistical Offices.{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -430,8 +428,9 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
+{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2005 PPP) below the poverty line.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -454,6 +453,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty gap captures the mean aggregate income or consumption shortfall relative to the poverty line across the entire population. It measures the total resources needed to bring all the poor to the level of the poverty line (averaged over{p_end}
 
@@ -474,7 +474,7 @@
 
 {synoptline}
 {marker sourceid_1.2.PSev.1.90usd}
-{synopt:{bf:{help wbopendata_sourceid##1.2.PSev.1.90usd:1.2.PSev.1.90usd} - Poverty Severity ($2.50 a day)-Urban}}
+{synopt:{bf:{help wbopendata_sourceid##1.2.PSev.1.90usd:1.2.PSev.1.90usd} - Poverty Severity ($1.90 a day)-Urban}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -490,6 +490,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The poverty severity index combines information on both poverty and inequality among the poor by averaging the squares of the poverty gaps relative the poverty line{p_end}
 
@@ -510,7 +511,7 @@
 
 {synoptline}
 {marker sourceid_1.3_ACCESS.ELECTRICITY.URBAN}
-{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Coverage: Mobile Phone}}
+{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Access to electricity (% of urban population)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -538,6 +539,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
@@ -558,7 +560,7 @@
 
 {synoptline}
 {marker sourceid_2.0.cov.Int}
-{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Int:2.0.cov.Int} - Coverage: Mathematics Proficiency Level 2}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Int:2.0.cov.Int} - Coverage: Internet}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -594,7 +596,7 @@
 
 {synoptline}
 {marker sourceid_2.0.cov.Math.pl_2.pub}
-{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_2.pub:2.0.cov.Math.pl_2.pub} - Coverage: Mathematics Proficiency Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_2.pub:2.0.cov.Math.pl_2.pub} - Coverage: Mathematics Proficiency Level 2, Public schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -606,7 +608,7 @@
 
 {synoptline}
 {marker sourceid_2.0.cov.Math.pl_3.all}
-{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.all:2.0.cov.Math.pl_3.all} - Coverage: Mathematics Proficiency Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.all:2.0.cov.Math.pl_3.all} - Coverage: Mathematics Proficiency Level 3, Private schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -630,10 +632,11 @@
 
 {synoptline}
 {marker sourceid_2.0.cov.Math.pl_3.pub}
-{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.pub:2.0.cov.Math.pl_3.pub} - Coverage: Reading Proficiency Level 2}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Math.pl_3.pub:2.0.cov.Math.pl_3.pub} - Coverage: Mathematics Proficiency Level 3, Public schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
@@ -709,7 +712,7 @@
 
 {synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -750,7 +753,7 @@
 
 {synoptline}
 {marker sourceid_2.0.cov.Scie.pl_2.prv}
-{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_2.prv:2.0.cov.Scie.pl_2.prv} - Coverage: Science Proficiency Level 2, Public schools}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.cov.Scie.pl_2.prv:2.0.cov.Scie.pl_2.prv} - Coverage: Science Proficiency Level 2, Private schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -778,6 +781,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
@@ -805,7 +809,7 @@
 
 {synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
 
 {synoptline}
@@ -815,7 +819,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
+{synopt:{opt Source Notes}}The coverage rate is the childhood access rate of a given opportunity used in calculating the Human Opportunities Index (HOI). The coverage rate does not take into account inequality of access between different circumstance groups.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -841,12 +845,12 @@
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_2.0.hoi.FPS}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.FPS:2.0.hoi.FPS} - HOI: Internet}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.FPS:2.0.hoi.FPS} - HOI: Finished Primary School}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -874,7 +878,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
@@ -883,7 +886,7 @@
 
 {synoptline}
 {marker sourceid_2.0.hoi.Math.pl_2.prv}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.prv:2.0.hoi.Math.pl_2.prv} - HOI: Mathematics Proficiency Level 2, Public schools}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.prv:2.0.hoi.Math.pl_2.prv} - HOI: Mathematics Proficiency Level 2, Private schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -895,7 +898,7 @@
 
 {synoptline}
 {marker sourceid_2.0.hoi.Math.pl_2.pub}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.pub:2.0.hoi.Math.pl_2.pub} - HOI: Mathematics Proficiency Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_2.pub:2.0.hoi.Math.pl_2.pub} - HOI: Mathematics Proficiency Level 2, Public schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -923,7 +926,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
@@ -932,7 +934,7 @@
 
 {synoptline}
 {marker sourceid_2.0.hoi.Math.pl_3.pub}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_3.pub:2.0.hoi.Math.pl_3.pub} - HOI: Mathematics Proficiency Level 3, Public schools}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Math.pl_3.pub:2.0.hoi.Math.pl_3.pub} - HOI: Reading Proficiency Level 2}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -948,6 +950,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
@@ -956,7 +959,7 @@
 
 {synoptline}
 {marker sourceid_2.0.hoi.Read.pl_2.prv}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.prv:2.0.hoi.Read.pl_2.prv} - HOI: Reading Proficiency Level 2, Public schools}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.prv:2.0.hoi.Read.pl_2.prv} - HOI: Reading Proficiency Level 2, Private schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -968,7 +971,7 @@
 
 {synoptline}
 {marker sourceid_2.0.hoi.Read.pl_2.pub}
-{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.pub:2.0.hoi.Read.pl_2.pub} - HOI: Reading Proficiency Level 3}}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Read.pl_2.pub:2.0.hoi.Read.pl_2.pub} - HOI: Reading Proficiency Level 2, Public schools}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -984,7 +987,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
@@ -997,6 +999,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
@@ -1009,10 +1012,11 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
 
 
 {synoptline}
@@ -1036,7 +1040,7 @@
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -1105,11 +1109,10 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations using PISA Data.{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -1118,10 +1121,11 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}National accounts base year is the year used as the base period for constant price calculations in the country's national accounts. It is recommended that he base year of constant price estimates be changed periodically to reflect changes in e{p_end}
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
 
-{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation){p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -1154,6 +1158,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive{p_end}
 
@@ -1162,12 +1167,12 @@
 
 {synoptline}
 {marker sourceid_3.0.Atkin.2}
-{synopt:{bf:{help wbopendata_sourceid##3.0.Atkin.2:3.0.Atkin.2} - Atkinson, A(2)}}
+{synopt:{bf:{help wbopendata_sourceid##3.0.Atkin.2:3.0.Atkin.2} - Generalized Entrophy, GE(-1)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Atkinson (1970) proposed this class of inequality measures with  a weighting parameter ε which measures aversion to inequality. As ε rises, the index becomes more sensitive to transfers at the lower end of the distribution and less sensitive{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1191,18 +1196,17 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_3.0.Gini}
-{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini CoefficientPoverty Headcount ($1.90 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini Coefficient}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
@@ -1216,14 +1220,14 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
+{synopt:{opt Source Notes}}Share of household income held by the bottom quintile (0-20 percent).{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_3.0.IncShr.q1}
-{synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q1:3.0.IncShr.q1} - Income Share of First Quintile}}
+{synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q1:3.0.IncShr.q1} - Income Share of Second Quintile}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -1239,21 +1243,21 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Share of household income held by the third quintile (40 - 60 percent).{p_end}
+{synopt:{opt Source Notes}}Share of household income held by the seocnd quintile (20 - 40 percent).{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_3.0.IncShr.q3}
-{synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q3:3.0.IncShr.q3} - Income Share of Third Quintile}}
+{synopt:{bf:{help wbopendata_sourceid##3.0.IncShr.q3:3.0.IncShr.q3} - Income Share of Fourth Quintile}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}Share of household income held by the third quintile (40 - 60 percent).{p_end}
+{synopt:{opt Source Notes}}Share of household income held by the fourth quintile (60 - 80 percent).{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1277,7 +1281,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of household income held by the top quintile (80 - 100 percent).{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1289,7 +1293,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 25 percent by that of the poorest 25 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ign{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1301,7 +1305,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 10 percent by that of the poorest 10 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ign{p_end}
+{synopt:{opt Source Notes}}The decile dispersion ratio presents the ratio of the average income of the richest 25 percent by that of the poorest 25 percent. This ratio expresses the income of the top quantile as multiples of that of the poorest quantile. However, it ign{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1325,9 +1329,9 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Agricultural censuses collect information on agricultural activities, such as agricultural land use, employment and production, and provide basic structural data and sampling frames for agricultural surveys. It is recommended that agricultural{p_end}
+{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have{p_end}
 
-{synopt:{opt Source Organization}}World Bank: Microdata library. Original source: Food and Agriculture Organisation (FAO){p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -1344,12 +1348,12 @@
 
 {synoptline}
 {marker sourceid_3.1.Gini}
-{synopt:{bf:{help wbopendata_sourceid##3.1.Gini:3.1.Gini} - Gini, Rural}}
+{synopt:{bf:{help wbopendata_sourceid##3.1.Gini:3.1.Gini} - Mean Log Deviation, GE(0), Rural}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
+{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1360,7 +1364,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
 
@@ -1393,7 +1396,7 @@
 
 {synoptline}
 {marker sourceid_3.2.Gini}
-{synopt:{bf:{help wbopendata_sourceid##3.2.Gini:3.2.Gini} - Gini, Urban}}
+{synopt:{bf:{help wbopendata_sourceid##3.2.Gini:3.2.Gini} - Mean Log Deviation, GE(0),Urban}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -1405,13 +1408,12 @@
 
 {synoptline}
 {marker sourceid_3.2.MLongDev0}
-{synopt:{bf:{help wbopendata_sourceid##3.2.MLongDev0:3.2.MLongDev0} - Mean Log Deviation, GE(0),Urban}}
+{synopt:{bf:{help wbopendata_sourceid##3.2.MLongDev0:3.2.MLongDev0} - Theil Index, GE(1),Urban}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
 
-{synopt:{opt Source Notes}}The parameter α in the GE class represents the weight given to distances between incomes at different parts of the income distribution, and can take any real value. For lower values of α, GE is more sensitive to changes in the lower tail of{p_end}
+{synopt:{opt Source Notes}}The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -1447,7 +1449,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population ages 15-18 that is neither employed nor in school.{p_end}
+{synopt:{opt Source Notes}}Share of the population ages 15-24 that is neither employed nor in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1459,7 +1461,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population ages 19-24 that is neither employed nor in school.{p_end}
+{synopt:{opt Source Notes}}Share of the population ages 15-24 that is neither employed nor in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1482,20 +1484,21 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of the population ages 15-24 that is in school and not employed.{p_end}
+{synopt:{opt Source Notes}}Share of the population ages 15-18 that is in school and not employed.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_4.0.stud.15a24}
-{synopt:{bf:{help wbopendata_sourceid##4.0.stud.15a24:4.0.stud.15a24} - Youth: In School (19-24)}}
+{synopt:{bf:{help wbopendata_sourceid##4.0.stud.15a24:4.0.stud.15a24} - Youth: In School (15-24)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population ages 19-24 that is in school and not employed.{p_end}
+{synopt:{opt Source Notes}}Share of the population ages 15-24 that is in school and not employed.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1507,7 +1510,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population ages 15-18 that is in school and employed.{p_end}
+{synopt:{opt Source Notes}}Share of the population ages 19-24 that is in school and not employed.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1543,7 +1546,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population ages 19-24 that is in school and employed.{p_end}
+{synopt:{opt Source Notes}}Share of the population ages 15-18 that is employed and not in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1598,24 +1601,24 @@
 
 {synoptline}
 {marker sourceid_4.1.nini.15a18}
-{synopt:{bf:{help wbopendata_sourceid##4.1.nini.15a18:4.1.nini.15a18} - Youth: Neither in School Nor Working  (15-18), Male}}
+{synopt:{bf:{help wbopendata_sourceid##4.1.nini.15a18:4.1.nini.15a18} - Youth: Neither in School Nor Working  (15-24), Male}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male population ages 15-18 that is neither employed nor in school.{p_end}
+{synopt:{opt Source Notes}}Share of the male population ages 15-24 that is neither employed nor in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_4.1.nini.15a24}
-{synopt:{bf:{help wbopendata_sourceid##4.1.nini.15a24:4.1.nini.15a24} - Youth: Neither in School Nor Working  (15-24), Male}}
+{synopt:{bf:{help wbopendata_sourceid##4.1.nini.15a24:4.1.nini.15a24} - Youth: Neither in School Nor Working  (19-24), Male}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male population ages 15-24 that is neither employed nor in school.{p_end}
+{synopt:{opt Source Notes}}Share of the male population ages 19-24 that is neither employed nor in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1639,7 +1642,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male population ages 15-24 that is in school and not employed.{p_end}
+{synopt:{opt Source Notes}}Share of the male population ages 15-18 that is in school and not employed.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1723,7 +1726,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male population ages 19-24 that is employed and not in school.{p_end}
+{synopt:{opt Source Notes}}Share of the male population ages 15-24 that is employed and not in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1737,19 +1740,7 @@
 
 {synopt:{opt Source Notes}}Share of the male population ages 19-24 that is employed and not in school.{p_end}
 
-{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_4.1_TOTAL.EDU.SPENDING}
-{synopt:{bf:{help wbopendata_sourceid##4.1_TOTAL.EDU.SPENDING:4.1_TOTAL.EDU.SPENDING} - HOI: Finished Primary SchoolPublic spending on total education (% of total public spending)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
 
 {synoptline}
@@ -1759,7 +1750,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
+{synopt:{opt Source Notes}}Share of the female population ages 15-24 that is neither employed nor in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1778,7 +1769,7 @@
 
 {synoptline}
 {marker sourceid_4.2.nini.19a24}
-{synopt:{bf:{help wbopendata_sourceid##4.2.nini.19a24:4.2.nini.19a24} - Youth: Neither in School Nor Working  (19-24), Female}}
+{synopt:{bf:{help wbopendata_sourceid##4.2.nini.19a24:4.2.nini.19a24} - Youth: In School (15-18), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -1814,12 +1805,12 @@
 
 {synoptline}
 {marker sourceid_4.2.stud.19a24}
-{synopt:{bf:{help wbopendata_sourceid##4.2.stud.19a24:4.2.stud.19a24} - Youth: In School (19-24), Female}}
+{synopt:{bf:{help wbopendata_sourceid##4.2.stud.19a24:4.2.stud.19a24} - Youth: In School and Employed (15-18), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female population ages 19-24 that is in school and not employed.{p_end}
+{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is in school and employed.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1854,8 +1845,9 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is employed and not in school.{p_end}
+{synopt:{opt Source Notes}}Share of the female population ages 19-24 that is in school and employed.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1867,7 +1859,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is employed and not in school.{p_end}
+{synopt:{opt Source Notes}}Share of the female population ages 15-24 that is employed and not in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1879,7 +1871,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female population ages 19-24 that is employed and not in school.{p_end}
+{synopt:{opt Source Notes}}Share of the female population ages 15-24 that is employed and not in school.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
 
@@ -1891,14 +1883,14 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female population ages 19-24 that is employed and not in school.{p_end}
+{synopt:{opt Source Notes}}Public expenses devoted to the basic education sector, including recurrent and capital expenditures and teacher salaries, expressed as a percentage of the public spending on total education. Country-specific definition, method and targets are{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
 
 
 {synoptline}
 {marker sourceid_4.4_BASIC.EDU.RECURRENT}
-{synopt:{bf:{help wbopendata_sourceid##4.4_BASIC.EDU.RECURRENT:4.4_BASIC.EDU.RECURRENT} - Public recurrent spending on basic education (% of public recurrent spending on total education)}}
+{synopt:{bf:{help wbopendata_sourceid##4.4_BASIC.EDU.RECURRENT:4.4_BASIC.EDU.RECURRENT} - Annualized Mean Income Growth (2004-2014)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -1915,7 +1907,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The official indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
+{synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators{p_end}
 
@@ -1930,54 +1922,6 @@
 {synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank) and World Development Indicators{p_end}
-
-
-{synoptline}
-{marker sourceid_5.1.11_MOZ.TOTA.AID.NLD}
-{synopt:{bf:{help wbopendata_sourceid##5.1.11_MOZ.TOTA.AID.NLD:5.1.11_MOZ.TOTA.AID.NLD} - Youth: Neither in School Nor Working  (15-18), Female}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
-{synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - Gini Coefficient (No Zero Income)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_5.1.11_MOZ.TOTA.AID.NLD}
-{synopt:{bf:{help wbopendata_sourceid##5.1.11_MOZ.TOTA.AID.NLD:5.1.11_MOZ.TOTA.AID.NLD} - International aid disbursed to total education, Netherlands to Mozambique (USD million)Youth: Neither in School Nor Working  (15-18), Female}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
-{synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - Gini Coefficient (No Zero Income)International aid disbursed to total education, UNICEF to Moldova (USD million)}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -2010,6 +1954,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}The indicator to monitor shared prosperity is the growth in real per capita income (or consumption) of the bottom 40 percent of the income (or consumption) distribution in a country.{p_end}
 
@@ -2017,8 +1962,20 @@
 
 
 {synoptline}
+{marker sourceid_5.2.5_DJI.BAS.AID.ISDB}
+{synopt:{bf:{help wbopendata_sourceid##5.2.5_DJI.BAS.AID.ISDB:5.2.5_DJI.BAS.AID.ISDB} - International aid disbursed to basic education, IsDB to Djibouti (USD million)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_5.2.9_TLS.TOT.AID.PRT}
-{synopt:{bf:{help wbopendata_sourceid##5.2.9_TLS.TOT.AID.PRT:5.2.9_TLS.TOT.AID.PRT} - Annualized Mean Income Growth (2009-2014)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.9_TLS.TOT.AID.PRT:5.2.9_TLS.TOT.AID.PRT} - International aid disbursed to total education, Portugal to Timor-Leste (USD million)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2030,7 +1987,7 @@
 
 {synoptline}
 {marker sourceid_5.2.AMeanIncGr.All}
-{synopt:{bf:{help wbopendata_sourceid##5.2.AMeanIncGr.All:5.2.AMeanIncGr.All} - Annualized Mean Income Growth Bottom 40 Percent (2009-2014)}}
+{synopt:{bf:{help wbopendata_sourceid##5.2.AMeanIncGr.All:5.2.AMeanIncGr.All} - Annualized Mean Income Growth (2009-2014)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2071,7 +2028,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Consumption per capita is the market value of all goods and services, including durable products and payments and fees to governments to obtain permits and licenses, purchased by households. It excludes purchases of dwellings but includes impu{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2083,7 +2040,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2011 U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2094,7 +2051,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2011 U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and{p_end}
 
@@ -2108,7 +2064,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar{p_end}
+{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
 
@@ -2119,11 +2075,10 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar{p_end}
+{synopt:{opt Source Notes}}GNI per capita is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product taxes (less subsidies) not in{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicators (World Bank){p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab Tablulations of the World Development Indicators (World Bank).{p_end}
 
 
 {synoptline}
@@ -2176,7 +2131,7 @@
 
 {synoptline}
 {marker sourceid_8.4_ORAL.READING.TEST}
-{synopt:{bf:{help wbopendata_sourceid##8.4_ORAL.READING.TEST:8.4_ORAL.READING.TEST} - Administration of oral reading fluency tests (yes=1, no=0, see notes if available)}}
+{synopt:{bf:{help wbopendata_sourceid##8.4_ORAL.READING.TEST:8.4_ORAL.READING.TEST} - Employees (%)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2193,7 +2148,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) that is a wage or salary worker{p_end}
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the bottom 40 percent that is a wage or salary worker{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2205,14 +2160,14 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the bottom 40 percent that is a wage or salary worker{p_end}
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the top 60 percent that is a wage or salary worker{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_9.0.Employee.T60}
-{synopt:{bf:{help wbopendata_sourceid##9.0.Employee.T60:9.0.Employee.T60} - Employers (%)}}
+{synopt:{bf:{help wbopendata_sourceid##9.0.Employee.T60:9.0.Employee.T60} - Employees-Top 60 Percent (%)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2237,7 +2192,7 @@
 
 {synoptline}
 {marker sourceid_9.0.Employer.B40}
-{synopt:{bf:{help wbopendata_sourceid##9.0.Employer.B40:9.0.Employer.B40} - Employers-Bottom 40 Percent (%)}}
+{synopt:{bf:{help wbopendata_sourceid##9.0.Employer.B40:9.0.Employer.B40} - Employers-Top 60 Percent (%)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2279,7 +2234,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
+{synopt:{opt Source Notes}}Share of the population (ages 18-65) in the Bottom 40 percent that is in the labor force{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2303,7 +2258,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the bottom 40 percent that is self-employed and not an employer{p_end}
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) that is self-employed and not an employer{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2314,6 +2269,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the bottom 40 percent that is self-employed and not an employer{p_end}
 
@@ -2327,7 +2283,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the top 60 percent that is a self-employed and not an employer{p_end}
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) that is unemployed{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2362,7 +2318,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the top 60 percent that is unemployed{p_end}
 
@@ -2388,7 +2343,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the bottom 40 percent that works without pay{p_end}
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the top 60 percent that works without pay{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2400,7 +2355,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is a wage or salary worker{p_end}
+{synopt:{opt Source Notes}}Share of the labor force (ages 18-65) in the top 60 percent that works without pay{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2412,31 +2367,31 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is a wage or salary worker{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_9.1.Employee.B40}
-{synopt:{bf:{help wbopendata_sourceid##9.1.Employee.B40:9.1.Employee.B40} - Employees-Bottom 40 Percent (%), Male}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the bottom 40 percent that is a wage or salary worker{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
-{marker sourceid_9.1.Employee.T60}
-{synopt:{bf:{help wbopendata_sourceid##9.1.Employee.T60:9.1.Employee.T60} - Employees-Top 60 Percent (%), Male}}
+{marker sourceid_9.1.Employee.B40}
+{synopt:{bf:{help wbopendata_sourceid##9.1.Employee.B40:9.1.Employee.B40} - Employees-Top 60 Percent (%), Male}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the top 60 percent that is a wage or salary worker{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_9.1.Employee.T60}
+{synopt:{bf:{help wbopendata_sourceid##9.1.Employee.T60:9.1.Employee.T60} - Employers (%), Male}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is an employer{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2448,7 +2403,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is an employer{p_end}
+{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the bottom 40 percent that is an employer{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2471,7 +2426,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the top 60 percent that is an employer{p_end}
 
@@ -2480,7 +2434,7 @@
 
 {synoptline}
 {marker sourceid_9.1.Labor.All}
-{synopt:{bf:{help wbopendata_sourceid##9.1.Labor.All:9.1.Labor.All} - Labor Force Participation Rate (%)-Bottom 40 Percent, Male}}
+{synopt:{bf:{help wbopendata_sourceid##9.1.Labor.All:9.1.Labor.All} - Labor Force Participation Rate (%), Male}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2497,7 +2451,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male population (ages 18-65) in the Bottom 40 percent that is in the labor force{p_end}
+{synopt:{opt Source Notes}}Share of the male population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2509,7 +2463,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is self-employed and not an employer{p_end}
+{synopt:{opt Source Notes}}Share of the male population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2520,8 +2474,9 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the bottom 40 percent that is self-employed and not an employer{p_end}
+{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is self-employed and not an employer{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2556,7 +2511,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that is unemployed{p_end}
 
@@ -2569,6 +2523,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the bottom 40 percent that is unemployed{p_end}
 
@@ -2582,7 +2537,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the top 60 percent that is unemployed{p_end}
+{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that works without pay{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2593,7 +2548,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) that works without pay{p_end}
 
@@ -2607,7 +2561,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the bottom 40 percent that works without pay{p_end}
+{synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the top 60 percent that works without pay{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2621,7 +2575,7 @@
 
 {synopt:{opt Source Notes}}Share of the male labor force (ages 18-65) in the top 60 percent that works without pay{p_end}
 
-{synopt:{opt Source Organization}}This indicator is part of the 2011 Monitoring Exercise on Development Effectiveness in the Education Sector. Data was collected in 2011 by the Global Partnership for Education (GPE) from Ministries of Education and development partners on sele{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
@@ -2643,26 +2597,26 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that is a wage or salary worker{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_9.2.Employee.B40}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Employee.B40:9.2.Employee.B40} - Employees-Bottom 40 Percent (%), Female}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
 {synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the bottom 40 percent that is a wage or salary worker{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
+{marker sourceid_9.2.Employee.B40}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Employee.B40:9.2.Employee.B40} - Employees-Top 60 Percent (%), Female}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the top 60 percent that is a wage or salary worker{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_9.2.Employee.T60}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Employee.T60:9.2.Employee.T60} - Employers (%), Female}}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Employee.T60:9.2.Employee.T60} - Employees-Top 60 Percent (%), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2679,7 +2633,7 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that is an employer{p_end}
+{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the bottom 40 percent that is an employer{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2698,19 +2652,7 @@
 
 {synoptline}
 {marker sourceid_9.2.Employer.T60}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Employer.T60:9.2.Employer.T60} - Employers-Top 60 Percent (%), Female}}
-
-{synopt:{opt Source}}37 LAC Equity Lab{p_end}
-
-
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the top 60 percent that is an employer{p_end}
-
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
-
-
-{synoptline}
-{marker sourceid_9.2.Labor.All}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Labor.All:9.2.Labor.All} - Labor Force Participation Rate (%), Female}}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Employer.T60:9.2.Employer.T60} - Labor Force Participation Rate (%), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2721,12 +2663,23 @@
 
 
 {synoptline}
+{marker sourceid_9.2.Labor.All}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Labor.All:9.2.Labor.All} - Labor Force Participation Rate (%)-Bottom 40 Percent, Female}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the female population (ages 18-65) in the Bottom 40 percent that is in the labor force{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_9.2.Labor.B40}
 {synopt:{bf:{help wbopendata_sourceid##9.2.Labor.B40:9.2.Labor.B40} - Labor Force Participation Rate (%)-Bottom 40 Percent, Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Share of the female population (ages 18-65) in the Bottom 40 percent that is in the labor force{p_end}
 
@@ -2740,14 +2693,14 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that is self-employed and not an employer{p_end}
+{synopt:{opt Source Notes}}Share of the female population (ages 18-65) in the Top 60 percent that is in the labor force{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_9.2.SelfEmp.All}
-{synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.All:9.2.SelfEmp.All} - Self-Employed-Bottom 40 Percent (%), Female}}
+{synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.All:9.2.SelfEmp.All} - Self-Employed (%), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2771,7 +2724,7 @@
 
 {synoptline}
 {marker sourceid_9.2.SelfEmp.T60}
-{synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.T60:9.2.SelfEmp.T60} - Self-Employed-Top 60 Percent (%), Female}}
+{synopt:{bf:{help wbopendata_sourceid##9.2.SelfEmp.T60:9.2.SelfEmp.T60} - Unemployed (%), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2787,6 +2740,7 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that is unemployed{p_end}
 
@@ -2799,7 +2753,6 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the bottom 40 percent that is unemployed{p_end}
 
@@ -2812,8 +2765,9 @@
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that works without pay{p_end}
+{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the top 60 percent that is unemployed{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
@@ -2825,14 +2779,14 @@
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) that works without pay{p_end}
+{synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the bottom 40 percent that works without pay{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
 {synoptline}
 {marker sourceid_9.2.Unpaid.B40}
-{synopt:{bf:{help wbopendata_sourceid##9.2.Unpaid.B40:9.2.Unpaid.B40} - Unpaid Workers-Top 60 Percent (%), Female}}
+{synopt:{bf:{help wbopendata_sourceid##9.2.Unpaid.B40:9.2.Unpaid.B40} - Unpaid Workers-Bottom 40 Percent (%), Female}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2851,12 +2805,12 @@
 
 {synopt:{opt Source Notes}}Share of the female labor force (ages 18-65) in the top 60 percent that works without pay{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+{synopt:{opt Source Organization}}This indicator is part of the 2011 Monitoring Exercise on Development Effectiveness in the Education Sector. Data was collected in 2011 by the Global Partnership for Education (GPE) from Ministries of Education and development partners on sele{p_end}
 
 
 {synoptline}
 {marker sourceid_OECD.TSAL.1.ETOP}
-{synopt:{bf:{help wbopendata_sourceid##OECD.TSAL.1.ETOP:OECD.TSAL.1.ETOP} - HOI: Finished Primary School}}
+{synopt:{bf:{help wbopendata_sourceid##OECD.TSAL.1.ETOP:OECD.TSAL.1.ETOP} - Annual statutory teacher salaries in public institutions in USD. Primary. Top of scale}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -2867,16 +2821,28 @@
 
 
 {synoptline}
-{marker sourceid_UIS.ROFST.H.1.Q3.M}
-{synopt:{bf:{help wbopendata_sourceid##UIS.ROFST.H.1.Q3.M:UIS.ROFST.H.1.Q3.M} - Poverty Headcount ($1.90 a day)}}
+{marker sourceid_UIS.SR.2.GPV.GLAST.CP.F}
+{synopt:{bf:{help wbopendata_sourceid##UIS.SR.2.GPV.GLAST.CP.F:UIS.SR.2.GPV.GLAST.CP.F} - Survival rate to the last grade of lower secondary general education, female (%)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
 
-{synopt:{opt Source Notes}}The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.{p_end}
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
 {synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
 
 
+{synoptline}
+{marker sourceid_per_lm_alllm.adq_q1_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.adq_q1_tot:per_lm_alllm.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - All Labor Market}}
 
-{right:(as of 23mar2019)}
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+
+
+
+{right:(as of 24mar2019)}

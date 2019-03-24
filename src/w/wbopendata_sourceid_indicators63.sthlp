@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -127,7 +127,7 @@
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
-{synopt:{opt Source Notes}}Expected Years of School is calculated as the sum of age-specific enrollment rates between ages 4 and 17. Age-specific enrollment rates are approximated using school enrollment rates at different levels: pre-primary enrollment rates approximat{p_end}
+{synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the{p_end}
 
 {synopt:{opt Source Organization}}Patrinos and Angrist (2018).  {browse "http://documents.worldbank.org/curated/en/390321538076747773/Global-Dataset-on-Education-Quality-A-Review-and-Update-2000-2019"}{p_end}
 
@@ -141,7 +141,7 @@
 
 {synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the{p_end}
 
-{synopt:{opt Source Organization}}Patrinos and Angrist (2018).  {browse "http://documents.worldbank.org/curated/en/390321538076747773/Global-Dataset-on-Education-Quality-A-Review-and-Update-2000-2019"}{p_end}
+{synopt:{opt Source Organization}}Patrinos and Angrist (2018).  {browse "http://documents.worldbank.org/curated/en/390321538076747773/Global-Dataset-on-Education-Quality-A-Review-and-Update-2000-2017"}{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Harmonized Test Scores from major international student achievement testing programs. They are measured in TIMMS-equivalent units, where 300 is minimal attainment and 625 is advanced attainment. Most recent estimates are used. The year of the{p_end}
 
-{synopt:{opt Source Organization}}Patrinos and Angrist (2018).  {browse "http://documents.worldbank.org/curated/en/390321538076747773/Global-Dataset-on-Education-Quality-A-Review-and-Update-2000-2017"}{p_end}
+{synopt:{opt Source Organization}}Patrinos and Angrist (2018).  {browse "http://documents.worldbank.org/curated/en/390321538076747773/Global-Dataset-on-Education-Quality-A-Review-and-Update-2000-2018"}{p_end}
 
 
 {synoptline}
@@ -199,7 +199,7 @@
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
-{synopt:{opt Source Notes}}Learning-Adjusted Years of School are calculated by multiplying the estimates of Expected Years of School by the ratio of most recent Harmonized Test Score to 625, where 625 corresponds to advancement attainment on the TIMSS (Trends in Interna{p_end}
+{synopt:{opt Source Notes}}Probability of Survival to Age 5 is calculated by subtracting the under-5 mortality rate from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
 
 {synopt:{opt Source Organization}}United Nations Inter-agency Group for Child Mortality Estimation (UN IGME), supplemented with data provided by World Bank staff.{p_end}
 
@@ -218,7 +218,7 @@
 
 {synoptline}
 {marker sourceid_HD.HCI.MORT.FE}
-{synopt:{bf:{help wbopendata_sourceid##HD.HCI.MORT.FE:HD.HCI.MORT.FE} - Probability of Survival to Age 5, Male}}
+{synopt:{bf:{help wbopendata_sourceid##HD.HCI.MORT.FE:HD.HCI.MORT.FE} - Probability of Survival to Age 5, Female}}
 
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
@@ -242,7 +242,7 @@
 
 {synoptline}
 {marker sourceid_HD.HCI.OVRL}
-{synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL:HD.HCI.OVRL} - Human Capital Index (HCI), Female (scale 0-1)}}
+{synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL:HD.HCI.OVRL} - Human Capital Index (HCI) (scale 0-1)}}
 
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
@@ -295,7 +295,7 @@
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
-{synopt:{opt Source Notes}}The HCI calculates the contributions of health and education to worker productivity. The final index score ranges from zero to one and measures the productivity as a future worker of child born today relative to the benchmark of full health an{p_end}
+{synopt:{opt Source Notes}}The HCI Lower Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the lower bounds of each of the components of the HCI. The range between the upper{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). {browse "https://openknowledge.worldbank.org/handle/10986/30498"}.{p_end}
 
@@ -314,7 +314,7 @@
 
 {synoptline}
 {marker sourceid_HD.HCI.OVRL.UB}
-{synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.UB:HD.HCI.OVRL.UB} - Human Capital Index (HCI), Upper Bound (scale 0-1)}}
+{synopt:{bf:{help wbopendata_sourceid##HD.HCI.OVRL.UB:HD.HCI.OVRL.UB} - Human Capital Index (HCI), Female, Upper Bound (scale 0-1)}}
 
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
@@ -343,9 +343,9 @@
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
 
-{synopt:{opt Source Notes}}The HCI Upper Bound reflects uncertainty in the measurement of the components and the overall index. It is obtained by recalculating the HCI using estimates of the upper bounds of each of the components of the HCI. The range between the upper{p_end}
+{synopt:{opt Source Notes}}Fraction of Children Under 5 Not Stunted is calculated by subtracting stunting rates from 1. Most recent estimates are used.  Year of most recent estimate shown in data notes.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff calculations based on the methodology described in World Bank (2018). {browse "https://openknowledge.worldbank.org/handle/10986/30498"}.{p_end}
+{synopt:{opt Source Organization}}UNICEF-WHO-World Bank Joint Malnutrition Estimates, supplemented with data provided by World Bank staff.{p_end}
 
 
 {synoptline}
@@ -385,8 +385,8 @@
 
 
 {synoptline}
-{marker sourceid_NV.SRV.TETC.KD}
-{synopt:{bf:{help wbopendata_sourceid##NV.SRV.TETC.KD:NV.SRV.TETC.KD} - Services, etc., value added (constant 2010 US$)}}
+{marker sourceid_fin42.t.a.4}
+{synopt:{bf:{help wbopendata_sourceid##fin42.t.a.4:fin42.t.a.4} - Received payments for agricultural products in the past year, older adults  (% age 25+)}}
 
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
@@ -398,7 +398,7 @@
 
 {synoptline}
 {marker sourceid_gwp2_n_7}
-{synopt:{bf:{help wbopendata_sourceid##gwp2_n_7:gwp2_n_7} - Access to internet (% age 60+)}}
+{synopt:{bf:{help wbopendata_sourceid##gwp2_n_7:gwp2_n_7} - Survival Rate from Age 15-60}}
 
 {synopt:{opt Source}}63 Human Capital Index{p_end}
 
@@ -409,4 +409,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

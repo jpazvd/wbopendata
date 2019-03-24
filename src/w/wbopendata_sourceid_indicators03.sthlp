@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -62,7 +62,7 @@
 {syntab:{title:{bf:03 Worldwide Governance Indicators}}}
 {synoptline}
 {marker sourceid_C6}
-{synopt:{bf:{help wbopendata_sourceid##C6:C6} - Control of Corruption: Estimate}}
+{synopt:{bf:{help wbopendata_sourceid##C6:C6} - 062.Entrant 3rd Year Survival Rate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -86,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_CC.NO.SRC}
-{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Number of Sources}}
+{synopt:{bf:{help wbopendata_sourceid##CC.NO.SRC:CC.NO.SRC} - Control of Corruption: Percentile Rank}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -139,7 +139,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -230,19 +230,7 @@
 
 {synoptline}
 {marker sourceid_PRJ.ATT.25UP.3.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.25UP.3.MA:PRJ.ATT.25UP.3.MA} - Wittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male}}
-
-{synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
-
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
-
-
-{synoptline}
-{marker sourceid_PRJ.ATT.25UP.3.MA}
-{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.25UP.3.MA:PRJ.ATT.25UP.3.MA} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence IntervalWittgenstein Projection: Percentage of the population age 25+ by highest level of educational attainment. Upper Secondary. Male}}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.25UP.3.MA:PRJ.ATT.25UP.3.MA} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -290,7 +278,7 @@
 
 {synoptline}
 {marker sourceid_PV.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank}}
+{synopt:{bf:{help wbopendata_sourceid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -319,7 +307,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
+{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism captures perceptions of the likelihood that the government will be destabilized or overthrown by unconstitutional or violent means, including politically-motivated violence and terrorism.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -338,7 +326,7 @@
 
 {synoptline}
 {marker sourceid_REV.TXRV.SHR.CR}
-{synopt:{bf:{help wbopendata_sourceid##REV.TXRV.SHR.CR:REV.TXRV.SHR.CR} - Total Tax Revenue Sharing/DBH Pajak (in IDR)}}
+{synopt:{bf:{help wbopendata_sourceid##REV.TXRV.SHR.CR:REV.TXRV.SHR.CR} - Rule of Law: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -386,7 +374,7 @@
 
 {synoptline}
 {marker sourceid_RL.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval}}
+{synopt:{bf:{help wbopendata_sourceid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -434,7 +422,7 @@
 
 {synoptline}
 {marker sourceid_RQ.EST}
-{synopt:{bf:{help wbopendata_sourceid##RQ.EST:RQ.EST} - Regulatory Quality: Number of Sources}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.EST:RQ.EST} - Regulatory Quality: Estimate}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -458,7 +446,7 @@
 
 {synoptline}
 {marker sourceid_RQ.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK:RQ.PER.RNK} - Regulatory Quality: Percentile Rank}}
+{synopt:{bf:{help wbopendata_sourceid##RQ.PER.RNK:RQ.PER.RNK} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
@@ -475,7 +463,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
+{synopt:{opt Source Notes}}Men who do not own land (% of men) is the percentage of men who don’t own any land, which legally registered with their name or cannot be sold without their signature, either solely or jointly with someone else or both.{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS){p_end}
 
@@ -499,9 +487,9 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.{p_end}
+{synopt:{opt Source Notes}}Denotes the total number of life insurance policy holders (resident) that are resident nonfinancial corporations (public and private) and households for every 1,000 adults in the reporting country. Calculated as (number of life insurance polic{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
+{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
 
 
 {synoptline}
@@ -542,12 +530,12 @@
 
 {synoptline}
 {marker sourceid_VA.PER.RNK}
-{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK:VA.PER.RNK} - Voice and Accountability: Percentile Rank}}
+{synopt:{bf:{help wbopendata_sourceid##VA.PER.RNK:VA.PER.RNK} - Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval}}
 
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.{p_end}
+{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -571,7 +559,7 @@
 {synopt:{opt Source}}03 Worldwide Governance Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media. Percentile rank indica{p_end}
+{synopt:{opt Source Notes}}Voice and Accountability captures perceptions of the extent to which a country's citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a free media.{p_end}
 
 {synopt:{opt Source Organization}}Worldwide Governance Indicators, The World Bank{p_end}
 
@@ -589,4 +577,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

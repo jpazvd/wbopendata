@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,6 +61,18 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:29 The Atlas of Social Protection: Indicators of Resilience and Equity}}}
 {synoptline}
+{marker sourceid_2.0.hoi.Ele}
+{synopt:{bf:{help wbopendata_sourceid##2.0.hoi.Ele:2.0.hoi.Ele} - Adequacy of benefits in richest quintile (%) - Active Labor Market -urban}}
+
+{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
+
+{synopt:{opt Source Organization}}ASPIRE{p_end}
+
+
+{synoptline}
 {marker sourceid_AG.CRP.FNO.CN}
 {synopt:{bf:{help wbopendata_sourceid##AG.CRP.FNO.CN:AG.CRP.FNO.CN} - Producer Price for Fonio (per tonne, current LCU)}}
 
@@ -74,7 +86,7 @@
 
 {synoptline}
 {marker sourceid_CC.STD.ERR}
-{synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - Control of Corruption: Standard Error}}
+{synopt:{bf:{help wbopendata_sourceid##CC.STD.ERR:CC.STD.ERR} - Share of employed in agriculture - elderly}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -94,18 +106,6 @@
 {synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
-
-
-{synoptline}
-{marker sourceid_NV.AGR.TOTL.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NV.AGR.TOTL.ZG:NV.AGR.TOTL.ZG} - Real agricultural GDP growth rates (%)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
-
-{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
-
-{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -150,6 +150,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -222,7 +223,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -327,7 +327,7 @@
 
 {synoptline}
 {marker sourceid_ccx_cores_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##ccx_cores_pop_tot:ccx_cores_pop_tot} - Elderly with non-elderly co-residence rate  - total population}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_cores_pop_tot:ccx_cores_pop_tot} - Elderly with non-elderly co-residence rate  - urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -459,11 +459,10 @@
 
 {synoptline}
 {marker sourceid_ccx_eld_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##ccx_eld_pop_urb:ccx_eld_pop_urb} - Share of elderly (60+) in total population  - urban}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_eld_pop_urb:ccx_eld_pop_urb} - Share of employed - elderly}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -488,6 +487,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -496,7 +496,7 @@
 
 {synoptline}
 {marker sourceid_ccx_empl_pop_mal}
-{synopt:{bf:{help wbopendata_sourceid##ccx_empl_pop_mal:ccx_empl_pop_mal} - Share of employed - male}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_empl_pop_mal:ccx_empl_pop_mal} - Share of employed - rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -508,7 +508,7 @@
 
 {synoptline}
 {marker sourceid_ccx_empl_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##ccx_empl_pop_rur:ccx_empl_pop_rur} - Share of employed - rural}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_empl_pop_rur:ccx_empl_pop_rur} - Share of employed in total population}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -544,7 +544,7 @@
 
 {synoptline}
 {marker sourceid_ccx_empl_pop_wrk}
-{synopt:{bf:{help wbopendata_sourceid##ccx_empl_pop_wrk:ccx_empl_pop_wrk} - Share of employed - youth}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_empl_pop_wrk:ccx_empl_pop_wrk} - Share of employed - working age}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -572,7 +572,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -593,7 +592,7 @@
 
 {synoptline}
 {marker sourceid_ccx_emps_pop_mal}
-{synopt:{bf:{help wbopendata_sourceid##ccx_emps_pop_mal:ccx_emps_pop_mal} - Share of employed workers who are employers - rural}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_emps_pop_mal:ccx_emps_pop_mal} - Share of employed workers who are employers - male}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -641,7 +640,7 @@
 
 {synoptline}
 {marker sourceid_ccx_emps_pop_wrk}
-{synopt:{bf:{help wbopendata_sourceid##ccx_emps_pop_wrk:ccx_emps_pop_wrk} - Share of employed workers who are employers - working age}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_emps_pop_wrk:ccx_emps_pop_wrk} - Share of employed workers who are employers - youth}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -789,7 +788,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -814,6 +812,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -882,7 +881,7 @@
 
 {synoptline}
 {marker sourceid_ccx_hhyou_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##ccx_hhyou_pop_tot:ccx_hhyou_pop_tot} - Share of households with youth - urban}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_hhyou_pop_tot:ccx_hhyou_pop_tot} - Share of households with youth in total population}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -942,7 +941,7 @@
 
 {synoptline}
 {marker sourceid_ccx_inact_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##ccx_inact_pop_rur:ccx_inact_pop_rur} - Share of inactive students in total population}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_inact_pop_rur:ccx_inact_pop_rur} - Share of inactive students - rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1002,7 +1001,7 @@
 
 {synoptline}
 {marker sourceid_ccx_inactns_pop_eld}
-{synopt:{bf:{help wbopendata_sourceid##ccx_inactns_pop_eld:ccx_inactns_pop_eld} - Share of inactive non-students - elderly}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_inactns_pop_eld:ccx_inactns_pop_eld} - Share of inactive non-students - female}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1042,6 +1041,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1098,7 +1098,7 @@
 
 {synoptline}
 {marker sourceid_ccx_ind_pop_eld}
-{synopt:{bf:{help wbopendata_sourceid##ccx_ind_pop_eld:ccx_ind_pop_eld} - Share of employed in industry - elderly}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_ind_pop_eld:ccx_ind_pop_eld} - Share of employed in industry - female}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1222,6 +1222,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1278,7 +1279,7 @@
 
 {synoptline}
 {marker sourceid_ccx_lf_pop_you}
-{synopt:{bf:{help wbopendata_sourceid##ccx_lf_pop_you:ccx_lf_pop_you} - Labor Force Participation rates - youth}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_lf_pop_you:ccx_lf_pop_you} - Poverty headcount of children (below bottom 40%) - female}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1362,7 +1363,7 @@
 
 {synoptline}
 {marker sourceid_ccx_poveld_40_mal}
-{synopt:{bf:{help wbopendata_sourceid##ccx_poveld_40_mal:ccx_poveld_40_mal} - Poverty headcount of the elderly (below bottom 40%) - male}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_poveld_40_mal:ccx_poveld_40_mal} - Poverty headcount of the elderly (below bottom 40%) - rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1386,7 +1387,7 @@
 
 {synoptline}
 {marker sourceid_ccx_poveld_40_tot}
-{synopt:{bf:{help wbopendata_sourceid##ccx_poveld_40_tot:ccx_poveld_40_tot} - Poverty headcount of the elderly (below bottom 40%)}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_poveld_40_tot:ccx_poveld_40_tot} - Poverty headcount of the elderly (below bottom 40%) - urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1410,7 +1411,7 @@
 
 {synoptline}
 {marker sourceid_ccx_povwka_40_fem}
-{synopt:{bf:{help wbopendata_sourceid##ccx_povwka_40_fem:ccx_povwka_40_fem} - Poverty headcount of working age adults (below bottom 40%) - male}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_povwka_40_fem:ccx_povwka_40_fem} - Poverty headcount of working age adults (below bottom 40%) - female}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1422,7 +1423,7 @@
 
 {synoptline}
 {marker sourceid_ccx_povwka_40_mal}
-{synopt:{bf:{help wbopendata_sourceid##ccx_povwka_40_mal:ccx_povwka_40_mal} - Poverty headcount of working age adults (below bottom 40%) - rural}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_povwka_40_mal:ccx_povwka_40_mal} - Poverty headcount of working age adults (below bottom 40%) - male}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1506,7 +1507,7 @@
 
 {synoptline}
 {marker sourceid_ccx_povyou_40_tot}
-{synopt:{bf:{help wbopendata_sourceid##ccx_povyou_40_tot:ccx_povyou_40_tot} - Poverty headcount of youth (below bottom 40%)}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_povyou_40_tot:ccx_povyou_40_tot} - Poverty headcount of youth (below bottom 40%) - urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1566,7 +1567,7 @@
 
 {synoptline}
 {marker sourceid_ccx_self_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##ccx_self_pop_rur:ccx_self_pop_rur} - Share of employed workers who are self-employed - rural}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_self_pop_rur:ccx_self_pop_rur} - Share of employed workers who are self-employed in total population}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1582,7 +1583,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1607,6 +1607,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1655,6 +1656,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1715,7 +1717,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1728,7 +1729,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1761,7 +1761,7 @@
 
 {synoptline}
 {marker sourceid_ccx_unempl_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##ccx_unempl_pop_rur:ccx_unempl_pop_rur} - Share of unemployed - rural}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_unempl_pop_rur:ccx_unempl_pop_rur} - Share of unemployed in total population}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1797,7 +1797,7 @@
 
 {synoptline}
 {marker sourceid_ccx_unempl_pop_wrk}
-{synopt:{bf:{help wbopendata_sourceid##ccx_unempl_pop_wrk:ccx_unempl_pop_wrk} - Share of unemployed - youth}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_unempl_pop_wrk:ccx_unempl_pop_wrk} - Share of unemployed - working age}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1825,7 +1825,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1898,7 +1897,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1919,7 +1917,7 @@
 
 {synoptline}
 {marker sourceid_ccx_unpaid_pop_eld}
-{synopt:{bf:{help wbopendata_sourceid##ccx_unpaid_pop_eld:ccx_unpaid_pop_eld} - Share of employed workers who are unpaid - female}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_unpaid_pop_eld:ccx_unpaid_pop_eld} - Share of employed workers who are unpaid - elderly}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -1935,7 +1933,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -1992,10 +1989,11 @@
 
 {synoptline}
 {marker sourceid_ccx_unpaid_pop_wrk}
-{synopt:{bf:{help wbopendata_sourceid##ccx_unpaid_pop_wrk:ccx_unpaid_pop_wrk} - Share of employed workers who are unpaid - youth}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_unpaid_pop_wrk:ccx_unpaid_pop_wrk} - Share of employed workers who are unpaid - working age}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2092,7 +2090,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2149,7 +2146,7 @@
 
 {synoptline}
 {marker sourceid_ccx_wka_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##ccx_wka_pop_tot:ccx_wka_pop_tot} - Share of working age (25-59) in total population}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_wka_pop_tot:ccx_wka_pop_tot} - Share of working age (25-59) in total population  - urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2197,11 +2194,10 @@
 
 {synoptline}
 {marker sourceid_ccx_yaurr_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##ccx_yaurr_pop_rur:ccx_yaurr_pop_rur} - Youth to adult unemployment rate - rural}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_yaurr_pop_rur:ccx_yaurr_pop_rur} - Youth to adult unemployment rate in total population}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2226,7 +2222,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2235,7 +2230,7 @@
 
 {synoptline}
 {marker sourceid_ccx_you_pop_fem}
-{synopt:{bf:{help wbopendata_sourceid##ccx_you_pop_fem:ccx_you_pop_fem} - Share of youth (15-24) in total population  - female}}
+{synopt:{bf:{help wbopendata_sourceid##ccx_you_pop_fem:ccx_you_pop_fem} - Share of youth (15-24) in total population  - male}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2290,7 +2285,7 @@
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}Standard &amp; Poor's, Global Stock Markets Factbook and supplemental S&amp;P data.{p_end}
 
 
 {synoptline}
@@ -2336,14 +2331,14 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Adequacy of social protection and labor programs (SPL) is measured by the total transfer amount received by the population participating in social insurance, social safety net, and unemployment benefits and active labor market programs as a sh{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
 
 {synoptline}
 {marker sourceid_per_allsp.adq_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_pop_tot:per_allsp.adq_pop_tot} - Adequacy of social protection and labor programs (% of total welfare of beneficiary households)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_pop_tot:per_allsp.adq_pop_tot} - Adequacy of benefits (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2355,7 +2350,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_pop_urb:per_allsp.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_pop_urb:per_allsp.adq_pop_urb} - Adequacy of benefits (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2371,7 +2366,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2392,7 +2386,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.adq_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q1_tot:per_allsp.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q1_tot:per_allsp.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2428,7 +2422,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q2_rur:per_allsp.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q2_rur:per_allsp.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2512,7 +2506,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.adq_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q4_preT_tot:per_allsp.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q4_preT_tot:per_allsp.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2548,7 +2542,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.adq_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q4_urb:per_allsp.adq_q4_urb} - Adequacy of benefits in richest quintile (%) -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q4_urb:per_allsp.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2560,7 +2554,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.adq_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q5_preT_tot:per_allsp.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.adq_q5_preT_tot:per_allsp.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) -All Social Protection and Labor -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2576,6 +2570,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2636,7 +2631,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2745,6 +2739,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2757,7 +2752,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2770,7 +2764,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2779,7 +2772,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.avt_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q3_preT_tot:per_allsp.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q3_preT_tot:per_allsp.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile -All Social Protection and Labor (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2791,7 +2784,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.avt_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q3_rur:per_allsp.avt_q3_rur} - Average per capita transfer held by 3rd quintile -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q3_rur:per_allsp.avt_q3_rur} - Average per capita transfer held by 3rd quintile -All Social Protection and Labor -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2803,7 +2796,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q3_tot:per_allsp.avt_q3_tot} - Average per capita transfer held by 3rd quintile -All Social Protection and Labor -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q3_tot:per_allsp.avt_q3_tot} - Average per capita transfer held by 3rd quintile -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2851,7 +2844,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q4_tot:per_allsp.avt_q4_tot} - Average per capita transfer held by 4th quintile -All Social Protection and Labor -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q4_tot:per_allsp.avt_q4_tot} - Average per capita transfer held by 4th quintile -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2863,7 +2856,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.avt_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q4_urb:per_allsp.avt_q4_urb} - Average per capita transfer held by richest quintile -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.avt_q4_urb:per_allsp.avt_q4_urb} - Average per capita transfer held by 4th quintile -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2903,6 +2896,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -2935,7 +2929,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_ep_tot:per_allsp.ben_ep_tot} - Benefits incidence in poorest quintile (%) -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_ep_tot:per_allsp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2947,7 +2941,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q1_preT_tot:per_allsp.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q1_preT_tot:per_allsp.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) -All Social Protection and Labor (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -2964,9 +2958,9 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Benefit incidence of social protection and labor programs (SPL) to poorest quintile shows the percentage of total social protection and labor programs benefits received by the poorest 20% of the population. Social protection and labor programs{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -2987,6 +2981,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3019,7 +3014,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.ben_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q2_tot:per_allsp.ben_q2_tot} - Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q2_tot:per_allsp.ben_q2_tot} - Benefits incidence in 2nd quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3107,6 +3102,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3151,7 +3147,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.ben_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q5_rur:per_allsp.ben_q5_rur} - Benefits incidence in richest quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q5_rur:per_allsp.ben_q5_rur} - Benefits incidence in richest quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3163,7 +3159,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.ben_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q5_tot:per_allsp.ben_q5_tot} - Benefits incidence in richest quintile (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.ben_q5_tot:per_allsp.ben_q5_tot} - Benefits incidence in richest quintile (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3211,7 +3207,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q1_preT_tot:per_allsp.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q1_preT_tot:per_allsp.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3235,10 +3231,11 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q1_tot:per_allsp.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q1_tot:per_allsp.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3271,7 +3268,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q2_rur:per_allsp.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q2_rur:per_allsp.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3283,7 +3280,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q2_tot:per_allsp.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q2_tot:per_allsp.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3319,7 +3316,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q3_rur:per_allsp.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q3_rur:per_allsp.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3359,6 +3356,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3407,6 +3405,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3419,7 +3418,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3428,7 +3426,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q5_tot:per_allsp.bry_q5_tot} - Beneficiary incidence in richest quintile (%) -All Social Protection and Labor}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q5_tot:per_allsp.bry_q5_tot} - Beneficiary incidence in richest quintile (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3440,7 +3438,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q5_urb:per_allsp.bry_q5_urb} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.bry_q5_urb:per_allsp.bry_q5_urb} - Beneficiary incidence in richest quintile (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3452,7 +3450,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cba_ep_preT_tot:per_allsp.cba_ep_preT_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cba_ep_preT_tot:per_allsp.cba_ep_preT_tot} - Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3500,7 +3498,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cba_q1_tot:per_allsp.cba_q1_tot} - Benefit-cost ratio - All Social Protection and Labor - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cba_q1_tot:per_allsp.cba_q1_tot} - Benefit-cost ratio - All Social Protection and Labor -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3552,6 +3550,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3564,7 +3563,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3573,7 +3571,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_pop_tot:per_allsp.cov_pop_tot} - Coverage of social protection and labor programs (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_pop_tot:per_allsp.cov_pop_tot} - Coverage (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3589,6 +3587,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3613,6 +3612,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3637,6 +3637,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3681,7 +3682,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cov_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q2_urb:per_allsp.cov_q2_urb} - Coverage in 3rd quintile (%) -All Social Protection and Labor (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q2_urb:per_allsp.cov_q2_urb} - Coverage in 2nd quintile (%) -All Social Protection and Labor -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3693,7 +3694,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cov_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q3_preT_tot:per_allsp.cov_q3_preT_tot} - Coverage in 3rd quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q3_preT_tot:per_allsp.cov_q3_preT_tot} - Coverage in 3rd quintile (%) -All Social Protection and Labor (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3705,11 +3706,10 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cov_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q3_rur:per_allsp.cov_q3_rur} - Coverage in 3rd quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q3_rur:per_allsp.cov_q3_rur} - Coverage in 3rd quintile (%) -All Social Protection and Labor}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3722,7 +3722,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3743,7 +3742,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp.cov_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q4_preT_tot:per_allsp.cov_q4_preT_tot} - Coverage in 4th quintile (%) -All Social Protection and Labor -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp.cov_q4_preT_tot:per_allsp.cov_q4_preT_tot} - Coverage in 4th quintile (%) -All Social Protection and Labor (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3851,7 +3850,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp_gini_rur:per_allsp_gini_rur} - Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp_gini_rur:per_allsp_gini_rur} - Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3879,7 +3878,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3904,6 +3902,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -3948,7 +3947,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp_p0_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp_p0_urb:per_allsp_p0_urb} - Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp_p0_urb:per_allsp_p0_urb} - Poverty Headcount reduction (%) - All Social Protection and Labor - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -3996,7 +3995,7 @@
 
 {synoptline}
 {marker sourceid_per_allsp_p1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_allsp_p1_rur:per_allsp_p1_rur} - Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_allsp_p1_rur:per_allsp_p1_rur} - Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4025,9 +4024,9 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -4056,7 +4055,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_pop_preT_tot:per_lm_ac.adq_pop_preT_tot} - Adequacy of benefits (%) - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_pop_preT_tot:per_lm_ac.adq_pop_preT_tot} - Adequacy of benefits (%) - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4152,7 +4151,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q2_preT_tot:per_lm_ac.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Active Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q2_preT_tot:per_lm_ac.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Active Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4252,6 +4251,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -4260,7 +4260,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q4_rur:per_lm_ac.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q4_rur:per_lm_ac.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Active Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4272,7 +4272,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.adq_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q4_tot:per_lm_ac.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.adq_q4_tot:per_lm_ac.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Active Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4300,7 +4300,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -4338,7 +4337,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
+{synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -4373,7 +4372,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -4382,7 +4380,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.avt_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_pop_rur:per_lm_ac.avt_pop_rur} - Average per capita transfer - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_pop_rur:per_lm_ac.avt_pop_rur} - Average per capita transfer - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4490,10 +4488,11 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q2_tot:per_lm_ac.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q2_tot:per_lm_ac.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -4543,7 +4542,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -4552,7 +4550,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.avt_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q3_urb:per_lm_ac.avt_q3_urb} - Average per capita transfer held by 3rd quintile - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q3_urb:per_lm_ac.avt_q3_urb} - Average per capita transfer held by 4th quintile - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4568,6 +4566,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -4592,6 +4591,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -4624,7 +4624,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.avt_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q5_rur:per_lm_ac.avt_q5_rur} - Average per capita transfer held by richest quintile - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q5_rur:per_lm_ac.avt_q5_rur} - Average per capita transfer held by richest quintile - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4636,7 +4636,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.avt_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q5_tot:per_lm_ac.avt_q5_tot} - Average per capita transfer held by richest quintile - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.avt_q5_tot:per_lm_ac.avt_q5_tot} - Average per capita transfer held by richest quintile - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4677,14 +4677,14 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
 {marker sourceid_per_lm_ac.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q1_preT_tot:per_lm_ac.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q1_preT_tot:per_lm_ac.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4720,7 +4720,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.ben_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q1_urb:per_lm_ac.ben_q1_urb} - Benefits incidence in 2nd quintile (%) - Active Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q1_urb:per_lm_ac.ben_q1_urb} - Benefits incidence in poorest quintile (%) - Active Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4773,6 +4773,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
@@ -4781,7 +4782,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q3_preT_tot:per_lm_ac.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q3_preT_tot:per_lm_ac.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4822,7 +4823,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -4853,10 +4854,11 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.ben_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q4_tot:per_lm_ac.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q4_tot:per_lm_ac.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
@@ -4865,7 +4867,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.ben_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q4_urb:per_lm_ac.ben_q4_urb} - Benefits incidence in richest quintile (%) - Active Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q4_urb:per_lm_ac.ben_q4_urb} - Benefits incidence in 4th quintile (%) - Active Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4893,7 +4895,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the richestquintile  relative to the total benefits going to the population{p_end}
 
@@ -4914,7 +4915,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.ben_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q5_urb:per_lm_ac.ben_q5_urb} - Benefits incidence in richest quintile (%) - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.ben_q5_urb:per_lm_ac.ben_q5_urb} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4926,7 +4927,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_ep_preT_tot:per_lm_ac.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4938,7 +4939,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.bry_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_ep_tot:per_lm_ac.bry_ep_tot} - Beneficiary incidence in poorest quintile (%) - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -4950,7 +4951,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.bry_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_q1_preT_tot:per_lm_ac.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_q1_preT_tot:per_lm_ac.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5046,7 +5047,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_q3_preT_tot:per_lm_ac.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Active Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_q3_preT_tot:per_lm_ac.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Active Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5082,10 +5083,11 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.bry_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_q3_urb:per_lm_ac.bry_q3_urb} - Beneficiary incidence in 4th quintile (%) - Active Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.bry_q3_urb:per_lm_ac.bry_q3_urb} - Beneficiary incidence in 3rd quintile (%) - Active Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -5190,7 +5192,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cba_ep_preT_tot:per_lm_ac.cba_ep_preT_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cba_ep_preT_tot:per_lm_ac.cba_ep_preT_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5202,7 +5204,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cba_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot} - Benefit-cost ratio -  Active Labor Market  -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cba_ep_tot:per_lm_ac.cba_ep_tot} - Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5226,7 +5228,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cba_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cba_q1_rur:per_lm_ac.cba_q1_rur} - Benefit-cost ratio -  Active Labor Market  -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cba_q1_rur:per_lm_ac.cba_q1_rur} - Benefit-cost ratio -  Active Labor Market  -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5255,7 +5257,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5266,6 +5268,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -5290,7 +5293,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -5311,7 +5313,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_pop_tot:per_lm_ac.cov_pop_tot} - Coverage (%) - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_pop_tot:per_lm_ac.cov_pop_tot} - Coverage (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5359,7 +5361,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cov_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_q1_tot:per_lm_ac.cov_q1_tot} - Coverage in poorest quintile (%) - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_q1_tot:per_lm_ac.cov_q1_tot} - Coverage in poorest quintile (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5419,11 +5421,10 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cov_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_q2_urb:per_lm_ac.cov_q2_urb} - Coverage in 2nd quintile (%) - Active Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_q2_urb:per_lm_ac.cov_q2_urb} - Coverage in 3rd quintile (%) - Active Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -5508,6 +5509,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -5520,6 +5522,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -5540,7 +5543,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac.cov_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_q5_rur:per_lm_ac.cov_q5_rur} - Coverage in richest quintile (%) - Active Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac.cov_q5_rur:per_lm_ac.cov_q5_rur} - Coverage in richest quintile (%) - Active Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5556,6 +5559,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -5569,7 +5573,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5588,7 +5592,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_ac_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_ac_gini_rur:per_lm_ac_gini_rur} - Gini inequality reduction (%) -  Active Labor Market  -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_ac_gini_rur:per_lm_ac_gini_rur} - Gini inequality reduction (%) -  Active Labor Market  -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5664,7 +5668,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
@@ -5690,7 +5693,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -5713,6 +5716,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
@@ -5749,7 +5753,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
@@ -5762,11 +5765,10 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -5787,7 +5789,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -5800,6 +5801,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -5813,7 +5815,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Adequacy of unemployment benefits and active labor market programs (ALMP) is measured by the total transfer amount received by the population participating in unemployment benefits and active labor market programs as a share of their total wel{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
@@ -5860,7 +5862,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -5905,7 +5906,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.adq_q2_rur:per_lm_alllm.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.adq_q2_rur:per_lm_alllm.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - All Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -5981,7 +5982,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6078,6 +6078,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6126,7 +6127,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6135,10 +6135,11 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_pop_tot:per_lm_alllm.avt_pop_tot} - Average per capita transfer - All Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_pop_tot:per_lm_alllm.avt_pop_tot} - Average per capita transfer - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6151,7 +6152,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6172,7 +6172,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.avt_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q1_rur:per_lm_alllm.avt_q1_rur} - Average per capita transfer held by poorest quintile - All Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q1_rur:per_lm_alllm.avt_q1_rur} - Average per capita transfer held by poorest quintile - All Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6201,6 +6201,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6225,7 +6226,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6234,7 +6234,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q2_tot:per_lm_alllm.avt_q2_tot} - Average per capita transfer held by 2nd quintile - All Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q2_tot:per_lm_alllm.avt_q2_tot} - Average per capita transfer held by 2nd quintile - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6294,10 +6294,11 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.avt_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q3_urb:per_lm_alllm.avt_q3_urb} - Average per capita transfer held by 4th quintile - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q3_urb:per_lm_alllm.avt_q3_urb} - Average per capita transfer held by 3rd quintile - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6306,7 +6307,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.avt_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q4_preT_tot:per_lm_alllm.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.avt_q4_preT_tot:per_lm_alllm.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - All Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6322,7 +6323,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6427,7 +6427,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q1_preT_tot:per_lm_alllm.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q1_preT_tot:per_lm_alllm.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - All Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6451,7 +6451,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q1_tot:per_lm_alllm.ben_q1_tot} - Benefits incidence in poorest quintile (%) - All Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q1_tot:per_lm_alllm.ben_q1_tot} - Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6467,6 +6467,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6551,7 +6552,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6560,7 +6560,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.ben_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q3_urb:per_lm_alllm.ben_q3_urb} - Benefits incidence in 4th quintile (%) - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q3_urb:per_lm_alllm.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6588,6 +6588,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6600,6 +6601,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6612,6 +6614,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6644,7 +6647,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.ben_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q5_tot:per_lm_alllm.ben_q5_tot} - Benefits incidence in richest quintile (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.ben_q5_tot:per_lm_alllm.ben_q5_tot} - Benefits incidence in richest quintile (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6716,7 +6719,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q1_tot:per_lm_alllm.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q1_tot:per_lm_alllm.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6740,7 +6743,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q2_preT_tot:per_lm_alllm.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - All Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q2_preT_tot:per_lm_alllm.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - All Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6776,7 +6779,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q2_urb:per_lm_alllm.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q2_urb:per_lm_alllm.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6800,7 +6803,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q3_rur:per_lm_alllm.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - All Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q3_rur:per_lm_alllm.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - All Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6816,6 +6819,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6828,6 +6832,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6836,7 +6841,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q4_preT_tot:per_lm_alllm.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - All Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q4_preT_tot:per_lm_alllm.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - All Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6872,7 +6877,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q4_urb:per_lm_alllm.bry_q4_urb} - Beneficiary incidence in richest quintile (%) - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q4_urb:per_lm_alllm.bry_q4_urb} - Beneficiary incidence in 4th quintile (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6896,7 +6901,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.bry_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q5_rur:per_lm_alllm.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - All Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.bry_q5_rur:per_lm_alllm.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - All Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -6912,6 +6917,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6948,6 +6954,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6960,6 +6967,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -6972,7 +6980,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7009,7 +7016,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7030,7 +7036,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_pop_preT_tot:per_lm_alllm.cov_pop_preT_tot} - Coverage (%) - All Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_pop_preT_tot:per_lm_alllm.cov_pop_preT_tot} - Coverage (%) - All Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7066,7 +7072,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.cov_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_pop_urb:per_lm_alllm.cov_pop_urb} - Coverage in poorest quintile (%) - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_pop_urb:per_lm_alllm.cov_pop_urb} - Coverage (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7142,7 +7148,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7151,7 +7156,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_q2_tot:per_lm_alllm.cov_q2_tot} - Coverage of unemployment benefits and ALMP in 2nd quintile (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_q2_tot:per_lm_alllm.cov_q2_tot} - Coverage in 2nd quintile (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7192,14 +7197,14 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Coverage of unemployment benefits and active labor market programs (ALMP) shows the percentage of population participating in unemployment compensation, severance pay, and early retirement due to labor market reasons, labor market services (in{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
 
 {synoptline}
 {marker sourceid_per_lm_alllm.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_q3_tot:per_lm_alllm.cov_q3_tot} - Coverage in 3rd quintile (%) - All Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_q3_tot:per_lm_alllm.cov_q3_tot} - Coverage of unemployment benefits and ALMP in 3rd quintile (% of population)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7211,10 +7216,11 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_q3_urb:per_lm_alllm.cov_q3_urb} - Coverage in 4th quintile (%) - All Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm.cov_q3_urb:per_lm_alllm.cov_q3_urb} - Coverage in 3rd quintile (%) - All Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7239,7 +7245,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7264,7 +7269,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7289,7 +7293,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7314,7 +7317,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7375,7 +7377,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7412,7 +7413,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7425,6 +7425,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7493,11 +7494,10 @@
 
 {synoptline}
 {marker sourceid_per_lm_alllm_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm_p1_tot:per_lm_alllm_p1_tot} - Poverty Gap reduction (%) -  All Labor Market  -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_alllm_p1_tot:per_lm_alllm_p1_tot} - Poverty Gap reduction (%) -  All Labor Market  - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -7554,7 +7554,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_pop_rur:per_lm_pa.adq_pop_rur} - Adequacy of benefits (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_pop_rur:per_lm_pa.adq_pop_rur} - Adequacy of benefits (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7650,7 +7650,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q2_rur:per_lm_pa.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q2_rur:per_lm_pa.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7722,7 +7722,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q3_urb:per_lm_pa.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q3_urb:per_lm_pa.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7746,7 +7746,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q4_rur:per_lm_pa.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.adq_q4_rur:per_lm_pa.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7830,7 +7830,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_ep_preT_tot:per_lm_pa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_ep_preT_tot:per_lm_pa.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -7854,7 +7854,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_pop_preT_tot:per_lm_pa.avt_pop_preT_tot} - Average per capita transfer - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_pop_preT_tot:per_lm_pa.avt_pop_preT_tot} - Average per capita transfer - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8034,7 +8034,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q3_urb:per_lm_pa.avt_q3_urb} - Average per capita transfer held by 3rd quintile - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q3_urb:per_lm_pa.avt_q3_urb} - Average per capita transfer held by 4th quintile - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8058,7 +8058,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q4_rur:per_lm_pa.avt_q4_rur} - Average per capita transfer held by 4th quintile - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q4_rur:per_lm_pa.avt_q4_rur} - Average per capita transfer held by 4th quintile - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8130,7 +8130,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.avt_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q5_urb:per_lm_pa.avt_q5_urb} - Average per capita transfer held by richest quintile - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.avt_q5_urb:per_lm_pa.avt_q5_urb} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8334,7 +8334,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.ben_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.ben_q4_tot:per_lm_pa.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.ben_q4_tot:per_lm_pa.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8586,7 +8586,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.bry_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.bry_q4_rur:per_lm_pa.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.bry_q4_rur:per_lm_pa.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8646,7 +8646,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.bry_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.bry_q5_tot:per_lm_pa.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.bry_q5_tot:per_lm_pa.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8754,7 +8754,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_ep_tot:per_lm_pa.cov_ep_tot} - Coverage (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_ep_tot:per_lm_pa.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8874,7 +8874,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_rur:per_lm_pa.cov_q2_rur} - Coverage in 2nd quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_rur:per_lm_pa.cov_q2_rur} - Coverage in 2nd quintile (%) - Passive Labor Market}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8898,7 +8898,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_urb:per_lm_pa.cov_q2_urb} - Coverage in 3rd quintile (%) - Passive Labor Market (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q2_urb:per_lm_pa.cov_q2_urb} - Coverage in 2nd quintile (%) - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8946,7 +8946,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q3_urb:per_lm_pa.cov_q3_urb} - Coverage in 3rd quintile (%) - Passive Labor Market -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q3_urb:per_lm_pa.cov_q3_urb} - Coverage in 4th quintile (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -8970,7 +8970,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q4_rur:per_lm_pa.cov_q4_rur} - Coverage in 4th quintile (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q4_rur:per_lm_pa.cov_q4_rur} - Coverage in 4th quintile (%) - Passive Labor Market -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9006,7 +9006,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_preT_tot:per_lm_pa.cov_q5_preT_tot} - Coverage in richest quintile (%) - Passive Labor Market -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_preT_tot:per_lm_pa.cov_q5_preT_tot} - Coverage in richest quintile (%) - Passive Labor Market (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9030,7 +9030,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_tot:per_lm_pa.cov_q5_tot} - Coverage in richest quintile (%) - Passive Labor Market}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_tot:per_lm_pa.cov_q5_tot} - Coverage in richest quintile (%) - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9042,7 +9042,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa.cov_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_urb:per_lm_pa.cov_q5_urb} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa.cov_q5_urb:per_lm_pa.cov_q5_urb} - Coverage in richest quintile (%) - Passive Labor Market -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9054,7 +9054,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa_gini_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_gini_preT_tot:per_lm_pa_gini_preT_tot} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_gini_preT_tot:per_lm_pa_gini_preT_tot} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9066,7 +9066,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_gini_rur:per_lm_pa_gini_rur} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_gini_rur:per_lm_pa_gini_rur} - Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9102,7 +9102,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p0_ep_preT_tot:per_lm_pa_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p0_ep_preT_tot:per_lm_pa_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9198,7 +9198,7 @@
 
 {synoptline}
 {marker sourceid_per_lm_pa_p1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p1_preT_tot:per_lm_pa_p1_preT_tot} - Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_lm_pa_p1_preT_tot:per_lm_pa_p1_preT_tot} - Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9294,7 +9294,7 @@
 
 {synoptline}
 {marker sourceid_per_lmonl.overlap_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_lmonl.overlap_pop_tot:per_lmonl.overlap_pop_tot} - Population only receiving Labor Market (%) -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_lmonl.overlap_pop_tot:per_lmonl.overlap_pop_tot} - Population only receiving Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9391,7 +9391,7 @@
 
 {synoptline}
 {marker sourceid_per_nprog.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_nprog.overlap_pop_preT_tot:per_nprog.overlap_pop_preT_tot} - Benefits incidence in 2nd quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_nprog.overlap_pop_preT_tot:per_nprog.overlap_pop_preT_tot} - Population not receiving Social Protection (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9407,7 +9407,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9428,7 +9427,7 @@
 
 {synoptline}
 {marker sourceid_per_nprog.overlap_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_nprog.overlap_pop_urb:per_nprog.overlap_pop_urb} - Population not receiving Social Protection (%) -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_nprog.overlap_pop_urb:per_nprog.overlap_pop_urb} - Population in the poorest quintile not receiving Social Protection (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9512,7 +9511,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog1_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog1_pop_preT_tot:per_numprog1_pop_preT_tot} - Population receiving only 1 program (%) -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog1_pop_preT_tot:per_numprog1_pop_preT_tot} - Population receiving only 1 program (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9564,6 +9563,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9596,11 +9596,10 @@
 
 {synoptline}
 {marker sourceid_per_numprog1_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog1_q1_urb:per_numprog1_q1_urb} - Population in the poorest quintile receiving 1 program (%) -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog1_q1_urb:per_numprog1_q1_urb} - Population in extreme poor (&lt;$1.25 a day) receiving 2 programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9661,7 +9660,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9670,7 +9668,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog2_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog2_pop_urb:per_numprog2_pop_urb} - Population in the poorest quintile receiving 2 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog2_pop_urb:per_numprog2_pop_urb} - Population receiving 2 programs (%) -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9686,7 +9684,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9695,7 +9692,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog2_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog2_q1_rur:per_numprog2_q1_rur} - Population in the poorest quintile receiving 2 programs (%)}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog2_q1_rur:per_numprog2_q1_rur} - Population in the poorest quintile receiving 2 programs (%) -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9743,7 +9740,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog3_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog3_ep_tot:per_numprog3_ep_tot} - Population receiving 3 programs (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog3_ep_tot:per_numprog3_ep_tot} - Population in extreme poor (&lt;$1.25 a day) receiving 3 programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9771,7 +9768,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9796,6 +9792,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9804,7 +9801,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog3_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog3_q1_preT_tot:per_numprog3_q1_preT_tot} - Population in the poorest quintile receiving 3 programs (%) -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog3_q1_preT_tot:per_numprog3_q1_preT_tot} - Population in the poorest quintile receiving 3 programs (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9820,7 +9817,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9845,6 +9841,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -9853,7 +9850,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog4_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) receiving 4 or more programs (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) receiving 4 or more programs (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -9949,7 +9946,7 @@
 
 {synoptline}
 {marker sourceid_per_numprog4_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_numprog4_q1_tot:per_numprog4_q1_tot} - Population in the poorest quintile receiving 4 or more programs (%)}}
+{synopt:{bf:{help wbopendata_sourceid##per_numprog4_q1_tot:per_numprog4_q1_tot} - Population in the poorest quintile receiving 4 or more programs (%) -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10045,7 +10042,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q1_preT_tot:per_pr_allpr.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q1_preT_tot:per_pr_allpr.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10165,7 +10162,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_tot:per_pr_allpr.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_tot:per_pr_allpr.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10177,7 +10174,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_urb:per_pr_allpr.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q3_urb:per_pr_allpr.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10225,7 +10222,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q4_urb:per_pr_allpr.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q4_urb:per_pr_allpr.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10249,7 +10246,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.adq_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q5_rur:per_pr_allpr.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.adq_q5_rur:per_pr_allpr.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10297,7 +10294,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_ep_tot:per_pr_allpr.avt_ep_tot} - Average per capita transfer - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_ep_tot:per_pr_allpr.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10357,7 +10354,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q1_preT_tot:per_pr_allpr.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q1_preT_tot:per_pr_allpr.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10393,7 +10390,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q1_urb:per_pr_allpr.avt_q1_urb} - Average per capita transfer held by 2nd quintile - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q1_urb:per_pr_allpr.avt_q1_urb} - Average per capita transfer held by poorest quintile - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10441,7 +10438,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q2_urb:per_pr_allpr.avt_q2_urb} - Average per capita transfer held by 2nd quintile - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q2_urb:per_pr_allpr.avt_q2_urb} - Average per capita transfer held by 3rd quintile - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10453,7 +10450,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q3_preT_tot:per_pr_allpr.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q3_preT_tot:per_pr_allpr.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10525,7 +10522,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q4_tot:per_pr_allpr.avt_q4_tot} - Average per capita transfer held by 4th quintile - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.avt_q4_tot:per_pr_allpr.avt_q4_tot} - Average per capita transfer held by 4th quintile - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10609,7 +10606,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_ep_tot:per_pr_allpr.ben_ep_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_ep_tot:per_pr_allpr.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10621,7 +10618,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q1_preT_tot:per_pr_allpr.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q1_preT_tot:per_pr_allpr.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10705,7 +10702,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q2_urb:per_pr_allpr.ben_q2_urb} - Benefits incidence in 3rd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q2_urb:per_pr_allpr.ben_q2_urb} - Benefits incidence in 2nd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10717,7 +10714,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q3_preT_tot:per_pr_allpr.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q3_preT_tot:per_pr_allpr.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10825,7 +10822,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q5_rur:per_pr_allpr.ben_q5_rur} - Benefits incidence in richest quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q5_rur:per_pr_allpr.ben_q5_rur} - Benefits incidence in richest quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10837,7 +10834,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.ben_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q5_tot:per_pr_allpr.ben_q5_tot} - Benefits incidence in richest quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.ben_q5_tot:per_pr_allpr.ben_q5_tot} - Benefits incidence in richest quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10897,7 +10894,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q1_rur:per_pr_allpr.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q1_rur:per_pr_allpr.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10909,7 +10906,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q1_tot:per_pr_allpr.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q1_tot:per_pr_allpr.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10945,7 +10942,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q2_rur:per_pr_allpr.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q2_rur:per_pr_allpr.bry_q2_rur} - Beneficiary incidence in 2nd quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10981,7 +10978,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q3_preT_tot:per_pr_allpr.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q3_preT_tot:per_pr_allpr.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -10993,7 +10990,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q3_rur:per_pr_allpr.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q3_rur:per_pr_allpr.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11017,7 +11014,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.bry_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q3_urb:per_pr_allpr.bry_q3_urb} - Beneficiary incidence in 4th quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.bry_q3_urb:per_pr_allpr.bry_q3_urb} - Beneficiary incidence in 3rd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11125,7 +11122,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cba_ep_preT_tot:per_pr_allpr.cba_ep_preT_tot} - Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cba_ep_preT_tot:per_pr_allpr.cba_ep_preT_tot} - Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11221,7 +11218,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_preT_tot:per_pr_allpr.cov_pop_preT_tot} - Coverage (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_preT_tot:per_pr_allpr.cov_pop_preT_tot} - Coverage (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11245,7 +11242,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_tot:per_pr_allpr.cov_pop_tot} - Coverage (%) - All Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_tot:per_pr_allpr.cov_pop_tot} - Coverage (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11257,7 +11254,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_urb:per_pr_allpr.cov_pop_urb} - Coverage (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_pop_urb:per_pr_allpr.cov_pop_urb} - Coverage in poorest quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11305,7 +11302,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q1_urb:per_pr_allpr.cov_q1_urb} - Coverage in poorest quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q1_urb:per_pr_allpr.cov_q1_urb} - Coverage in 2nd quintile (%) - All Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11341,7 +11338,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q2_tot:per_pr_allpr.cov_q2_tot} - Coverage in 2nd quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q2_tot:per_pr_allpr.cov_q2_tot} - Coverage in 2nd quintile (%) - All Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11365,7 +11362,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q3_preT_tot:per_pr_allpr.cov_q3_preT_tot} - Coverage in 3rd quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q3_preT_tot:per_pr_allpr.cov_q3_preT_tot} - Coverage in 3rd quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11401,7 +11398,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q3_urb:per_pr_allpr.cov_q3_urb} - Coverage in 4th quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q3_urb:per_pr_allpr.cov_q3_urb} - Coverage in 3rd quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11449,7 +11446,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_urb:per_pr_allpr.cov_q4_urb} - Coverage in richest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q4_urb:per_pr_allpr.cov_q4_urb} - Coverage in 4th quintile (%) - All Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11461,7 +11458,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q5_preT_tot:per_pr_allpr.cov_q5_preT_tot} - Coverage in richest quintile (%) - All Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q5_preT_tot:per_pr_allpr.cov_q5_preT_tot} - Coverage in richest quintile (%) - All Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11497,7 +11494,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr.cov_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q5_urb:per_pr_allpr.cov_q5_urb} - Coverage in richest quintile (%) - All Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr.cov_q5_urb:per_pr_allpr.cov_q5_urb} - Gini inequality reduction (%) -  All Private Transfers -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11557,7 +11554,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p0_ep_preT_tot:per_pr_allpr_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p0_ep_preT_tot:per_pr_allpr_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11641,7 +11638,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr_p1_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p1_ep_tot:per_pr_allpr_p1_ep_tot} - Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p1_ep_tot:per_pr_allpr_p1_ep_tot} - Poverty Gap reduction (%) -  All Private Transfers -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11665,7 +11662,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_allpr_p1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p1_rur:per_pr_allpr_p1_rur} - Poverty Gap reduction (%) -  All Private Transfers -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_allpr_p1_rur:per_pr_allpr_p1_rur} - Poverty Gap reduction (%) -  All Private Transfers -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11696,7 +11693,7 @@
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -11729,7 +11726,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -11766,7 +11762,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -11815,6 +11810,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -11883,7 +11879,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.adq_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.adq_q3_rur:per_pr_dp.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.adq_q3_rur:per_pr_dp.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Domestic Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -11911,7 +11907,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -11992,7 +11987,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.adq_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.adq_q5_tot:per_pr_dp.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Domestic Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.adq_q5_tot:per_pr_dp.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12016,7 +12011,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12056,6 +12051,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12064,7 +12060,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.avt_pop_tot:per_pr_dp.avt_pop_tot} - Average per capita transfer - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.avt_pop_tot:per_pr_dp.avt_pop_tot} - Average per capita transfer - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12088,7 +12084,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.avt_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.avt_q1_preT_tot:per_pr_dp.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Domestic Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.avt_q1_preT_tot:per_pr_dp.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12117,6 +12113,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12141,6 +12138,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12153,7 +12151,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12190,6 +12187,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12250,6 +12248,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12274,6 +12273,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12310,6 +12310,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12322,7 +12323,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -12355,7 +12355,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q1_preT_tot:per_pr_dp.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - Domestic Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q1_preT_tot:per_pr_dp.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12427,7 +12427,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.ben_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q2_tot:per_pr_dp.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q2_tot:per_pr_dp.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12455,7 +12455,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
@@ -12464,7 +12463,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.ben_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q3_rur:per_pr_dp.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q3_rur:per_pr_dp.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Domestic Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12476,7 +12475,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.ben_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q3_tot:per_pr_dp.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q3_tot:per_pr_dp.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12493,7 +12492,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12512,7 +12511,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.ben_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q4_rur:per_pr_dp.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Domestic Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.ben_q4_rur:per_pr_dp.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12540,6 +12539,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
@@ -12668,7 +12668,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.bry_q2_preT_tot:per_pr_dp.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.bry_q2_preT_tot:per_pr_dp.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12720,7 +12720,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -12745,6 +12744,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -12753,10 +12753,11 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.bry_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.bry_q3_urb:per_pr_dp.bry_q3_urb} - Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.bry_q3_urb:per_pr_dp.bry_q3_urb} - Beneficiary incidence in 3rd quintile (%) - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -12781,6 +12782,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -12829,7 +12831,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -12850,12 +12851,12 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.bry_q5_urb:per_pr_dp.bry_q5_urb} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.bry_q5_urb:per_pr_dp.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12874,7 +12875,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot} - Benefit-cost ratio -  Domestic Private Transfers -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cba_ep_tot:per_pr_dp.cba_ep_tot} - Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12886,7 +12887,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cba_q1_preT_tot:per_pr_dp.cba_q1_preT_tot} - Benefit-cost ratio -  Domestic Private Transfers -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cba_q1_preT_tot:per_pr_dp.cba_q1_preT_tot} - Benefit-cost ratio -  Domestic Private Transfers -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12922,12 +12923,12 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cba_q1_urb:per_pr_dp.cba_q1_urb} - Benefit-cost ratio -  Domestic Private Transfers - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cba_q1_urb:per_pr_dp.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -12958,7 +12959,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_pop_preT_tot:per_pr_dp.cov_pop_preT_tot} - Coverage (%) - Domestic Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_pop_preT_tot:per_pr_dp.cov_pop_preT_tot} - Coverage (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -12982,7 +12983,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_pop_tot:per_pr_dp.cov_pop_tot} - Coverage (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_pop_tot:per_pr_dp.cov_pop_tot} - Coverage (%) - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13006,7 +13007,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q1_preT_tot:per_pr_dp.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Domestic Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q1_preT_tot:per_pr_dp.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Domestic Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13046,7 +13047,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -13067,7 +13067,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q2_rur:per_pr_dp.cov_q2_rur} - Coverage in 2nd quintile (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q2_rur:per_pr_dp.cov_q2_rur} - Coverage in 2nd quintile (%) - Domestic Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13083,7 +13083,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -13128,7 +13127,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q3_tot:per_pr_dp.cov_q3_tot} - Coverage in 3rd quintile (%) - Domestic Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q3_tot:per_pr_dp.cov_q3_tot} - Coverage in 3rd quintile (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13164,7 +13163,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q4_rur:per_pr_dp.cov_q4_rur} - Coverage in 4th quintile (%) - Domestic Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q4_rur:per_pr_dp.cov_q4_rur} - Coverage in 4th quintile (%) - Domestic Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13176,7 +13175,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q4_tot:per_pr_dp.cov_q4_tot} - Coverage in 4th quintile (%) - Domestic Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q4_tot:per_pr_dp.cov_q4_tot} - Coverage in 4th quintile (%) - Domestic Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13188,7 +13187,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp.cov_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q4_urb:per_pr_dp.cov_q4_urb} - Coverage in 4th quintile (%) - Domestic Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp.cov_q4_urb:per_pr_dp.cov_q4_urb} - Coverage in richest quintile (%) - Domestic Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13260,7 +13259,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp_gini_rur:per_pr_dp_gini_rur} - Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp_gini_rur:per_pr_dp_gini_rur} - Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13320,7 +13319,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp_p0_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp_p0_preT_tot:per_pr_dp_p0_preT_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp_p0_preT_tot:per_pr_dp_p0_preT_tot} - Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13380,7 +13379,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_dp_p1_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_dp_p1_ep_tot:per_pr_dp_p1_ep_tot} - Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13440,7 +13439,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_ep_preT_tot:per_pr_ip.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13480,6 +13479,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -13512,7 +13512,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.adq_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q1_preT_tot:per_pr_ip.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - International Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q1_preT_tot:per_pr_ip.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13548,7 +13548,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.adq_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q1_urb:per_pr_ip.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - International Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q1_urb:per_pr_ip.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13656,7 +13656,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.adq_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q4_preT_tot:per_pr_ip.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - International Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q4_preT_tot:per_pr_ip.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13696,6 +13696,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -13708,7 +13709,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group{p_end}
 
@@ -13741,7 +13741,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.adq_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q5_urb:per_pr_ip.adq_q5_urb} - Adequacy of benefits in richest quintile (%) - International Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.adq_q5_urb:per_pr_ip.adq_q5_urb} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13777,7 +13777,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_pop_preT_tot:per_pr_ip.avt_pop_preT_tot} - Average per capita transfer - International Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_pop_preT_tot:per_pr_ip.avt_pop_preT_tot} - Average per capita transfer - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13801,7 +13801,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_pop_tot:per_pr_ip.avt_pop_tot} - Average per capita transfer - International Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_pop_tot:per_pr_ip.avt_pop_tot} - Average per capita transfer - International Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13813,7 +13813,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.avt_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_pop_urb:per_pr_ip.avt_pop_urb} - Average per capita transfer - International Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_pop_urb:per_pr_ip.avt_pop_urb} - Average per capita transfer held by poorest quintile - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13837,7 +13837,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.avt_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_q1_rur:per_pr_ip.avt_q1_rur} - Average per capita transfer held by poorest quintile - International Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_q1_rur:per_pr_ip.avt_q1_rur} - Average per capita transfer held by poorest quintile - International Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13865,6 +13865,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -13877,6 +13878,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -13885,7 +13887,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_q2_rur:per_pr_ip.avt_q2_rur} - Average per capita transfer held by 2nd quintile - International Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.avt_q2_rur:per_pr_ip.avt_q2_rur} - Average per capita transfer held by 2nd quintile - International Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -13913,7 +13915,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -13974,7 +13975,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -13999,7 +13999,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -14048,7 +14047,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Average transfer amount of  Social Protection and Labor programs among program beneficiaries (per capita, daily ){p_end}
 
@@ -14121,7 +14119,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
 
@@ -14135,7 +14132,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the poorest quintile  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14183,7 +14180,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
+{synopt:{opt Source Notes}}Percentage of benefits going to the second quintile  relative to the total benefits going to the population{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14194,6 +14191,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
@@ -14206,7 +14204,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the third quintile  relative to the total benefits going to the population{p_end}
 
@@ -14239,7 +14236,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.ben_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.ben_q4_preT_tot:per_pr_ip.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.ben_q4_preT_tot:per_pr_ip.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - International Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14255,6 +14252,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of benefits going to the fourth quintile  relative to the total benefits going to the population{p_end}
 
@@ -14423,6 +14421,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -14435,6 +14434,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -14471,6 +14471,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -14515,7 +14516,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.bry_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.bry_q4_rur:per_pr_ip.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - International Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.bry_q4_rur:per_pr_ip.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14531,6 +14532,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
@@ -14591,9 +14593,8 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
+{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14612,7 +14613,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cba_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot} - Benefit-cost ratio -  International Private Transfers -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cba_ep_tot:per_pr_ip.cba_ep_tot} - Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14660,12 +14661,12 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cba_q1_urb:per_pr_ip.cba_q1_urb} - Benefit-cost ratio -  International Private Transfers - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cba_q1_urb:per_pr_ip.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty gap reduction obtained for each $1 spent in SPL programs (%){p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -14700,6 +14701,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -14736,7 +14738,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -14745,7 +14746,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q1_preT_tot:per_pr_ip.cov_q1_preT_tot} - Coverage in poorest quintile (%) - International Private Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q1_preT_tot:per_pr_ip.cov_q1_preT_tot} - Coverage in poorest quintile (%) - International Private Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14761,6 +14762,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -14817,7 +14819,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q2_tot:per_pr_ip.cov_q2_tot} - Coverage in 2nd quintile (%) - International Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q2_tot:per_pr_ip.cov_q2_tot} - Coverage in 2nd quintile (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14865,7 +14867,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q3_tot:per_pr_ip.cov_q3_tot} - Coverage in 3rd quintile (%) - International Private Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q3_tot:per_pr_ip.cov_q3_tot} - Coverage in 3rd quintile (%) - International Private Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14877,7 +14879,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q3_urb:per_pr_ip.cov_q3_urb} - Coverage in 4th quintile (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q3_urb:per_pr_ip.cov_q3_urb} - Coverage in 3rd quintile (%) - International Private Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14889,7 +14891,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cov_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q4_preT_tot:per_pr_ip.cov_q4_preT_tot} - Coverage in 4th quintile (%) - International Private Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q4_preT_tot:per_pr_ip.cov_q4_preT_tot} - Coverage in 4th quintile (%) - International Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14917,6 +14919,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
@@ -14949,7 +14952,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip.cov_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q5_rur:per_pr_ip.cov_q5_rur} - Coverage in richest quintile (%) - International Private Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip.cov_q5_rur:per_pr_ip.cov_q5_rur} - Coverage in richest quintile (%) - International Private Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -14978,7 +14981,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
+{synopt:{opt Source Notes}}Percentage of population participating in Social Protection and Labor programs (includes direct and indirect beneficiaries){p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15026,7 +15029,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
+{synopt:{opt Source Notes}}Gini inequality index reduction due to SPL programs as % of pre-transfer Gini index{p_end}
 
 {synopt:{opt Source Organization}}ASPIRE{p_end}
 
@@ -15045,7 +15048,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot} - Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip_p0_ep_tot:per_pr_ip_p0_ep_tot} - Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15061,7 +15064,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
@@ -15074,7 +15076,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty headcount reduction due to SPL programs as % of pre-transfer poverty headcount{p_end}
 
@@ -15111,6 +15112,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
@@ -15119,7 +15121,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip_p1_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot} - Poverty Gap reduction (%) -  International Private Transfers -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip_p1_ep_tot:per_pr_ip_p1_ep_tot} - Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15131,7 +15133,7 @@
 
 {synoptline}
 {marker sourceid_per_pr_ip_p1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_pr_ip_p1_preT_tot:per_pr_ip_p1_preT_tot} - Poverty Gap reduction (%) -  International Private Transfers -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_pr_ip_p1_preT_tot:per_pr_ip_p1_preT_tot} - Poverty Gap reduction (%) -  International Private Transfers -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15171,6 +15173,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Poverty gap reduction due to SPL programs as % of pre-transfer poverty gap{p_end}
 
@@ -15195,6 +15198,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15203,7 +15207,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_pop_preT_tot:per_sa_allsa.adq_pop_preT_tot} - Adequacy of benefits (%) - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_pop_preT_tot:per_sa_allsa.adq_pop_preT_tot} - Adequacy of benefits (%) - All Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15222,7 +15226,7 @@
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -15239,7 +15243,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_pop_urb:per_sa_allsa.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_pop_urb:per_sa_allsa.adq_pop_urb} - Adequacy of benefits (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15279,7 +15283,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15288,7 +15291,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.adq_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q1_urb:per_sa_allsa.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q1_urb:per_sa_allsa.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15304,7 +15307,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15313,7 +15315,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q2_rur:per_sa_allsa.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q2_rur:per_sa_allsa.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15329,6 +15331,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15349,7 +15352,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.adq_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q3_preT_tot:per_sa_allsa.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q3_preT_tot:per_sa_allsa.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - All Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15421,7 +15424,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.adq_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q4_tot:per_sa_allsa.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.adq_q4_tot:per_sa_allsa.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15461,6 +15464,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15473,7 +15477,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15534,6 +15537,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15566,7 +15570,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q1_preT_tot:per_sa_allsa.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q1_preT_tot:per_sa_allsa.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - All Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15582,7 +15586,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15603,7 +15606,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q1_urb:per_sa_allsa.avt_q1_urb} - Average per capita transfer held by 2nd quintile - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q1_urb:per_sa_allsa.avt_q1_urb} - Average per capita transfer held by poorest quintile - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15627,7 +15630,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q2_rur:per_sa_allsa.avt_q2_rur} - Average per capita transfer held by 2nd quintile - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q2_rur:per_sa_allsa.avt_q2_rur} - Average per capita transfer held by 2nd quintile - All Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15639,7 +15642,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q2_tot:per_sa_allsa.avt_q2_tot} - Average per capita transfer held by 2nd quintile - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q2_tot:per_sa_allsa.avt_q2_tot} - Average per capita transfer held by 2nd quintile - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15663,7 +15666,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q3_preT_tot:per_sa_allsa.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q3_preT_tot:per_sa_allsa.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - All Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15687,7 +15690,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q3_tot:per_sa_allsa.avt_q3_tot} - Average per capita transfer held by 3rd quintile - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q3_tot:per_sa_allsa.avt_q3_tot} - Average per capita transfer held by 3rd quintile - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15723,7 +15726,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.avt_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q4_rur:per_sa_allsa.avt_q4_rur} - Average per capita transfer held by 4th quintile - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.avt_q4_rur:per_sa_allsa.avt_q4_rur} - Average per capita transfer held by 4th quintile - All Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15807,7 +15810,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_ep_preT_tot:per_sa_allsa.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15835,6 +15838,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15855,7 +15859,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q1_tot:per_sa_allsa.ben_q1_tot} - Benefits incidence in poorest quintile (%) - All Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q1_tot:per_sa_allsa.ben_q1_tot} - Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15879,7 +15883,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q2_preT_tot:per_sa_allsa.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q2_preT_tot:per_sa_allsa.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - All Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15891,7 +15895,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q2_rur:per_sa_allsa.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q2_rur:per_sa_allsa.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15943,7 +15947,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -15952,7 +15955,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q3_tot:per_sa_allsa.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q3_tot:per_sa_allsa.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -15980,6 +15983,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16012,7 +16016,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q4_urb:per_sa_allsa.ben_q4_urb} - Benefits incidence in richest quintile (%) - All Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q4_urb:per_sa_allsa.ben_q4_urb} - Benefits incidence in 4th quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16048,7 +16052,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q5_tot:per_sa_allsa.ben_q5_tot} - Benefits incidence in richest quintile (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q5_tot:per_sa_allsa.ben_q5_tot} - Benefits incidence in richest quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16060,7 +16064,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.ben_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q5_urb:per_sa_allsa.ben_q5_urb} - Benefits incidence in richest quintile (%) - All Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.ben_q5_urb:per_sa_allsa.ben_q5_urb} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16076,6 +16080,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16096,7 +16101,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.bry_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q1_preT_tot:per_sa_allsa.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q1_preT_tot:per_sa_allsa.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) - All Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16108,7 +16113,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.bry_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q1_rur:per_sa_allsa.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - All Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q1_rur:per_sa_allsa.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - All Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16120,7 +16125,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.bry_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q1_tot:per_sa_allsa.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q1_tot:per_sa_allsa.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16208,7 +16213,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16217,7 +16221,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.bry_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q3_tot:per_sa_allsa.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - All Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q3_tot:per_sa_allsa.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16301,7 +16305,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.bry_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q5_rur:per_sa_allsa.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.bry_q5_rur:per_sa_allsa.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - All Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16353,7 +16357,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16362,7 +16365,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.cba_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cba_q1_preT_tot:per_sa_allsa.cba_q1_preT_tot} - Benefit-cost ratio -  All Social Assistance -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cba_q1_preT_tot:per_sa_allsa.cba_q1_preT_tot} - Benefit-cost ratio -  All Social Assistance -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16438,6 +16441,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16506,7 +16510,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.cov_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q1_tot:per_sa_allsa.cov_q1_tot} - Coverage of social safety net programs in poorest quintile (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q1_tot:per_sa_allsa.cov_q1_tot} - Coverage in poorest quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16547,14 +16551,14 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_allsa.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q2_tot:per_sa_allsa.cov_q2_tot} - Coverage of social safety net programs in 2nd quintile (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q2_tot:per_sa_allsa.cov_q2_tot} - Coverage in 2nd quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16582,6 +16586,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16594,11 +16599,10 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Coverage of social safety net programs shows the percentage of population participating in cash transfers and last resort programs, noncontributory social pensions, other cash transfers programs (child, family and orphan allowances, birth and{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE: The Atlas of Social Protection - Indicators of Resilience and Equity, The World Bank. Data are based on national representative household surveys. (datatopics.worldbank.org/aspire/){p_end}
 
 
 {synoptline}
@@ -16619,7 +16623,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16628,7 +16631,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.cov_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q4_preT_tot:per_sa_allsa.cov_q4_preT_tot} - Coverage in 4th quintile (%) - All Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q4_preT_tot:per_sa_allsa.cov_q4_preT_tot} - Coverage in 4th quintile (%) - All Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16652,7 +16655,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q4_tot:per_sa_allsa.cov_q4_tot} - Coverage of social safety net programs in 4th quintile (% of population)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa.cov_q4_tot:per_sa_allsa.cov_q4_tot} - Coverage in 4th quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16760,7 +16763,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_gini_urb:per_sa_allsa_gini_urb} - Gini inequality reduction (%) -  All Social Assistance - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_gini_urb:per_sa_allsa_gini_urb} - Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16808,7 +16811,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa_p0_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_p0_rur:per_sa_allsa_p0_rur} - Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_p0_rur:per_sa_allsa_p0_rur} - Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16836,7 +16839,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16845,11 +16847,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa_p1_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_p1_ep_preT_tot:per_sa_allsa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_p1_ep_preT_tot:per_sa_allsa_p1_ep_preT_tot} - Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16862,6 +16863,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -16894,7 +16896,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_allsa_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_p1_tot:per_sa_allsa_p1_tot} - Poverty Gap reduction (%) -  All Social Assistance - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_allsa_p1_tot:per_sa_allsa_p1_tot} - Poverty Gap reduction (%) -  All Social Assistance -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16930,7 +16932,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_ep_tot:per_sa_cc.adq_ep_tot} - Adequacy of benefits (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_ep_tot:per_sa_cc.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -16966,7 +16968,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_pop_tot:per_sa_cc.adq_pop_tot} - Adequacy of benefits (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_pop_tot:per_sa_cc.adq_pop_tot} - Adequacy of benefits (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17050,7 +17052,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q2_rur:per_sa_cc.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q2_rur:per_sa_cc.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17062,7 +17064,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q2_tot:per_sa_cc.adq_q2_tot} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q2_tot:per_sa_cc.adq_q2_tot} - Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17098,7 +17100,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_rur:per_sa_cc.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q3_rur:per_sa_cc.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17158,7 +17160,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q4_tot:per_sa_cc.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q4_tot:per_sa_cc.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17182,7 +17184,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q5_preT_tot:per_sa_cc.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q5_preT_tot:per_sa_cc.adq_q5_preT_tot} - Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17206,7 +17208,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q5_tot:per_sa_cc.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q5_tot:per_sa_cc.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17218,7 +17220,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.adq_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q5_urb:per_sa_cc.adq_q5_urb} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.adq_q5_urb:per_sa_cc.adq_q5_urb} - Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17266,7 +17268,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_pop_rur:per_sa_cc.avt_pop_rur} - Average per capita transfer - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_pop_rur:per_sa_cc.avt_pop_rur} - Average per capita transfer - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17302,7 +17304,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q1_preT_tot:per_sa_cc.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q1_preT_tot:per_sa_cc.avt_q1_preT_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17326,7 +17328,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q1_tot:per_sa_cc.avt_q1_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q1_tot:per_sa_cc.avt_q1_tot} - Average per capita transfer held by poorest quintile - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17362,7 +17364,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -ruralCoverage in 2nd quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q2_rur:per_sa_cc.avt_q2_rur} - Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17410,7 +17412,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q3_rur:per_sa_cc.avt_q3_rur} - Average per capita transfer held by 3rd quintile - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q3_rur:per_sa_cc.avt_q3_rur} - Average per capita transfer held by 3rd quintile - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17458,7 +17460,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q4_rur:per_sa_cc.avt_q4_rur} - Average per capita transfer held by 4th quintile - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q4_rur:per_sa_cc.avt_q4_rur} - Average per capita transfer held by 4th quintile - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17470,7 +17472,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q4_tot:per_sa_cc.avt_q4_tot} - Average per capita transfer held by 4th quintile - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.avt_q4_tot:per_sa_cc.avt_q4_tot} - Average per capita transfer held by 4th quintile - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17554,7 +17556,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_ep_tot:per_sa_cc.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_ep_tot:per_sa_cc.ben_ep_tot} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17590,7 +17592,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q1_tot:per_sa_cc.ben_q1_tot} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q1_tot:per_sa_cc.ben_q1_tot} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17602,7 +17604,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q1_urb:per_sa_cc.ben_q1_urb} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q1_urb:per_sa_cc.ben_q1_urb} - Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17638,7 +17640,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q2_tot:per_sa_cc.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q2_tot:per_sa_cc.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17662,7 +17664,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_preT_tot:per_sa_cc.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_preT_tot:per_sa_cc.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17674,7 +17676,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_rur:per_sa_cc.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_rur:per_sa_cc.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17698,7 +17700,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.ben_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_urb:per_sa_cc.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.ben_q3_urb:per_sa_cc.ben_q3_urb} - Benefits incidence in 4th quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17842,7 +17844,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q1_rur:per_sa_cc.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q1_rur:per_sa_cc.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17914,7 +17916,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q2_urb:per_sa_cc.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q2_urb:per_sa_cc.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17926,7 +17928,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q3_preT_tot:per_sa_cc.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q3_preT_tot:per_sa_cc.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -17998,7 +18000,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.bry_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q4_tot:per_sa_cc.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.bry_q4_tot:per_sa_cc.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18130,7 +18132,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cba_q1_urb:per_sa_cc.cba_q1_urb} - Benefit-cost ratio -  Conditional Cash Transfer - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cba_q1_urb:per_sa_cc.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18142,7 +18144,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_ep_preT_tot:per_sa_cc.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_ep_preT_tot:per_sa_cc.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18178,7 +18180,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_pop_rur:per_sa_cc.cov_pop_rur} - Coverage (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_pop_rur:per_sa_cc.cov_pop_rur} - Coverage (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18190,7 +18192,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_pop_tot:per_sa_cc.cov_pop_tot} - Coverage (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_pop_tot:per_sa_cc.cov_pop_tot} - Coverage (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18214,7 +18216,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_preT_tot:per_sa_cc.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_preT_tot:per_sa_cc.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18226,7 +18228,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_rur:per_sa_cc.cov_q1_rur} - Coverage in poorest quintile (%) - Conditional Cash Transfers -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_rur:per_sa_cc.cov_q1_rur} - Coverage in poorest quintile (%) - Conditional Cash Transfers}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18250,7 +18252,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_urb:per_sa_cc.cov_q1_urb} - Coverage in poorest quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q1_urb:per_sa_cc.cov_q1_urb} - Coverage in 2nd quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18262,7 +18264,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q2_preT_tot:per_sa_cc.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Conditional Cash Transfers (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q2_preT_tot:per_sa_cc.cov_q2_preT_tot} - Coverage in 2nd quintile (%) - Conditional Cash Transfers -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18346,7 +18348,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q3_urb:per_sa_cc.cov_q3_urb} - Coverage in 3rd quintile (%) - Conditional Cash Transfers -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc.cov_q3_urb:per_sa_cc.cov_q3_urb} - Coverage in 4th quintile (%) - Conditional Cash Transfers (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18526,7 +18528,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_p0_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p0_preT_tot:per_sa_cc_p0_preT_tot} - Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p0_preT_tot:per_sa_cc_p0_preT_tot} - Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18562,7 +18564,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_p0_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p0_urb:per_sa_cc_p0_urb} - Poverty Headcount reduction (%) -  Conditional Cash Transfer - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p0_urb:per_sa_cc_p0_urb} - Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18634,7 +18636,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_cc_p1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p1_urb:per_sa_cc_p1_urb} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_cc_p1_urb:per_sa_cc_p1_urb} - Poverty Gap reduction (%) -  Conditional Cash Transfer - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18650,7 +18652,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18663,7 +18664,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18672,7 +18672,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_pop_preT_tot:per_sa_ct.adq_pop_preT_tot} - Adequacy of benefits (%) - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_pop_preT_tot:per_sa_ct.adq_pop_preT_tot} - Adequacy of benefits (%) - Cash Transfer (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18768,10 +18768,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q2_preT_tot:per_sa_ct.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q2_preT_tot:per_sa_ct.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Cash Transfer (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18780,7 +18781,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q2_rur:per_sa_ct.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q2_rur:per_sa_ct.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18840,7 +18841,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.adq_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q3_tot:per_sa_ct.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q3_tot:per_sa_ct.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - Cash Transfer -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18852,7 +18853,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.adq_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q3_urb:per_sa_ct.adq_q3_urb} - Adequacy of benefits in 4th quintile (%) - Cash Transfer (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q3_urb:per_sa_ct.adq_q3_urb} - Adequacy of benefits in 3rd quintile (%) - Cash Transfer -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18868,6 +18869,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18880,6 +18882,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18892,7 +18895,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18925,7 +18927,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.adq_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q5_rur:per_sa_ct.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.adq_q5_rur:per_sa_ct.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -18961,10 +18963,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18977,6 +18980,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -18985,7 +18989,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_pop_preT_tot:per_sa_ct.avt_pop_preT_tot} - Average per capita transfer - Cash Transfer (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_pop_preT_tot:per_sa_ct.avt_pop_preT_tot} - Average per capita transfer - Cash Transfer -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19057,7 +19061,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q1_tot:per_sa_ct.avt_q1_tot} - Average per capita transfer held by poorest quintile - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q1_tot:per_sa_ct.avt_q1_tot} - Average per capita transfer held by poorest quintile - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19069,7 +19073,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q1_urb:per_sa_ct.avt_q1_urb} - Average per capita transfer held by poorest quintile - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q1_urb:per_sa_ct.avt_q1_urb} - Average per capita transfer held by 2nd quintile - Cash Transfer (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19081,7 +19085,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q2_preT_tot:per_sa_ct.avt_q2_preT_tot} - Average per capita transfer held by 2nd quintile - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q2_preT_tot:per_sa_ct.avt_q2_preT_tot} - Average per capita transfer held by 2nd quintile - Cash Transfer (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19106,11 +19110,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q2_tot:per_sa_ct.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Cash Transfer}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q2_tot:per_sa_ct.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Cash Transfer -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19159,6 +19162,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19215,7 +19219,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q4_urb:per_sa_ct.avt_q4_urb} - Average per capita transfer held by 4th quintile - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q4_urb:per_sa_ct.avt_q4_urb} - Average per capita transfer held by richest quintile - Cash Transfer (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19231,7 +19235,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19244,7 +19247,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19253,7 +19255,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.avt_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q5_tot:per_sa_ct.avt_q5_tot} - Average per capita transfer held by richest quintile - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.avt_q5_tot:per_sa_ct.avt_q5_tot} - Average per capita transfer held by richest quintile - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19293,18 +19295,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-
-{synopt:{opt Source Notes}}NULL{p_end}
-
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
-
-
-{synoptline}
-{marker sourceid_per_sa_ct.ben_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q1_preT_tot:per_sa_ct.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - Cash Transfer (preT)}}
-
-{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
-
 {synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
@@ -19313,8 +19303,20 @@
 
 
 {synoptline}
+{marker sourceid_per_sa_ct.ben_q1_preT_tot}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q1_preT_tot:per_sa_ct.ben_q1_preT_tot} - Benefits incidence in poorest quintile (%) - Cash Transfer -rural}}
+
+{synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
+
+
+{synopt:{opt Source Notes}}NULL{p_end}
+
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+
+
+{synoptline}
 {marker sourceid_per_sa_ct.ben_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q1_rur:per_sa_ct.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q1_rur:per_sa_ct.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19330,6 +19332,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19398,7 +19401,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q3_preT_tot:per_sa_ct.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Cash Transfer (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q3_preT_tot:per_sa_ct.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Cash Transfer -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19530,11 +19533,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.ben_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q5_urb:per_sa_ct.ben_q5_urb} - Benefits incidence in richest quintile (%) - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.ben_q5_urb:per_sa_ct.ben_q5_urb} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19555,7 +19557,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.bry_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot} - Beneficiary incidence in poorest quintile (%) - Cash Transfer (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19591,7 +19593,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.bry_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.bry_q1_tot:per_sa_ct.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.bry_q1_tot:per_sa_ct.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - Cash Transfer -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19619,7 +19621,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19680,7 +19681,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19693,6 +19693,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19729,6 +19730,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -19761,7 +19763,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.bry_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.bry_q5_preT_tot:per_sa_ct.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Cash Transfer (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.bry_q5_preT_tot:per_sa_ct.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Cash Transfer -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -19989,7 +19991,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.cov_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q1_urb:per_sa_ct.cov_q1_urb} - Coverage in 2nd quintile (%) - Cash Transfer (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q1_urb:per_sa_ct.cov_q1_urb} - Coverage in poorest quintile (%) - Cash Transfer -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20073,7 +20075,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q3_tot:per_sa_ct.cov_q3_tot} - Coverage in 3rd quintile (%) - Cash Transfer}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q3_tot:per_sa_ct.cov_q3_tot} - Coverage in 3rd quintile (%) - Cash Transfer -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20089,6 +20091,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -20097,7 +20100,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.cov_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q4_preT_tot:per_sa_ct.cov_q4_preT_tot} - Coverage in 4th quintile (%) - Cash Transfer -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q4_preT_tot:per_sa_ct.cov_q4_preT_tot} - Coverage in 4th quintile (%) - Cash Transfer (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20137,6 +20140,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -20169,7 +20173,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.cov_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q5_tot:per_sa_ct.cov_q5_tot} - Coverage in richest quintile (%) - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q5_tot:per_sa_ct.cov_q5_tot} - Coverage in richest quintile (%) - Cash Transfer}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20181,7 +20185,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct.cov_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q5_urb:per_sa_ct.cov_q5_urb} - Coverage in richest quintile (%) - Cash Transfer -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct.cov_q5_urb:per_sa_ct.cov_q5_urb} - Gini inequality reduction (%) -  Cash Transfer -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20241,7 +20245,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct_p0_ep_preT_tot:per_sa_ct_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct_p0_ep_preT_tot:per_sa_ct_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20265,7 +20269,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct_p0_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct_p0_preT_tot:per_sa_ct_p0_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct_p0_preT_tot:per_sa_ct_p0_preT_tot} - Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -20337,11 +20341,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_ct_p1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ct_p1_preT_tot:per_sa_ct_p1_preT_tot} - Poverty Gap reduction (%) -  Cash Transfer -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ct_p1_preT_tot:per_sa_ct_p1_preT_tot} - Poverty Gap reduction (%) -  Cash Transfer -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -20354,6 +20357,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -20378,9 +20382,8 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}NULLShare of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20392,7 +20395,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20404,7 +20407,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20416,7 +20419,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20428,7 +20431,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20440,31 +20443,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_pop_urb:per_sa_fw.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_pop_urb:per_sa_fw.adq_pop_urb} - Adequacy of benefits (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_preT_tot:per_sa_fw.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q1_preT_tot:per_sa_fw.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Subsidies -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20476,7 +20479,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20488,7 +20491,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20500,7 +20503,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20512,7 +20515,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20524,7 +20527,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20536,31 +20539,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q2_urb:per_sa_fw.adq_q2_urb} - Adequacy of benefits in 2nd quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q2_urb:per_sa_fw.adq_q2_urb} - Adequacy of benefits in 3rd quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q3_preT_tot:per_sa_fw.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q3_preT_tot:per_sa_fw.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20572,7 +20575,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20584,7 +20587,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20596,7 +20599,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20608,7 +20611,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20620,7 +20623,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20632,7 +20635,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20644,7 +20647,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20656,31 +20659,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_rur:per_sa_fw.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_rur:per_sa_fw.adq_q5_rur} - Adequacy of benefits in richest quintile (%) - Subsidies -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.adq_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_tot:per_sa_fw.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.adq_q5_tot:per_sa_fw.adq_q5_tot} - Adequacy of benefits in richest quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20692,19 +20695,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_ep_preT_tot:per_sa_fw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_ep_preT_tot:per_sa_fw.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20716,7 +20719,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20728,7 +20731,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20740,7 +20743,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20752,19 +20755,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_pop_urb:per_sa_fw.avt_pop_urb} - Average per capita transfer held by poorest quintile - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_pop_urb:per_sa_fw.avt_pop_urb} - Average per capita transfer - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20776,7 +20779,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20788,7 +20791,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20800,7 +20803,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20812,7 +20815,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20824,7 +20827,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20836,7 +20839,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20848,7 +20851,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20860,7 +20863,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20872,7 +20875,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20884,7 +20887,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20896,19 +20899,19 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q3_urb:per_sa_fw.avt_q3_urb} - Average per capita transfer held by 3rd quintile - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q3_urb:per_sa_fw.avt_q3_urb} - Average per capita transfer held by 4th quintile - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20920,7 +20923,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20932,7 +20935,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20944,7 +20947,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20956,31 +20959,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q5_preT_tot:per_sa_fw.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q5_preT_tot:per_sa_fw.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - Subsidies -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q5_rur:per_sa_fw.avt_q5_rur} - Average per capita transfer held by richest quintile - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q5_rur:per_sa_fw.avt_q5_rur} - Average per capita transfer held by richest quintile - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -20992,31 +20995,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.avt_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q5_urb:per_sa_fw.avt_q5_urb} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.avt_q5_urb:per_sa_fw.avt_q5_urb} - Average per capita transfer held by richest quintile - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_ep_preT_tot:per_sa_fw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_ep_preT_tot:per_sa_fw.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21028,7 +21031,7 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21040,31 +21043,31 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q1_rur:per_sa_fw.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q1_rur:per_sa_fw.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q1_tot:per_sa_fw.ben_q1_tot} - Benefits incidence in poorest quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q1_tot:per_sa_fw.ben_q1_tot} - Benefits incidence in poorest quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
@@ -21076,21 +21079,21 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
 {synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_preT_tot:per_sa_fw.ben_q2_preT_tot} - Beneficiary incidence in richest quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_preT_tot:per_sa_fw.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)Wittgenstein Centre for Demography and Global Human Capital: http://www.oeaw.ac.at/vid/dataexplorer/{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -21107,7 +21110,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_tot:per_sa_fw.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q2_tot:per_sa_fw.ben_q2_tot} - Benefits incidence in 2nd quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21203,7 +21206,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q4_tot:per_sa_fw.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q4_tot:per_sa_fw.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21239,7 +21242,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.ben_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q5_rur:per_sa_fw.ben_q5_rur} - Benefits incidence in richest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.ben_q5_rur:per_sa_fw.ben_q5_rur} - Benefits incidence in richest quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21347,7 +21350,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q2_preT_tot:per_sa_fw.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Subsidies (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q2_preT_tot:per_sa_fw.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Subsidies -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21371,7 +21374,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.bry_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q2_tot:per_sa_fw.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q2_tot:per_sa_fw.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21419,7 +21422,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.bry_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q3_tot:per_sa_fw.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q3_tot:per_sa_fw.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Subsidies -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21443,7 +21446,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.bry_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q4_preT_tot:per_sa_fw.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q4_preT_tot:per_sa_fw.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21503,7 +21506,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.bry_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q5_rur:per_sa_fw.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.bry_q5_rur:per_sa_fw.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21539,7 +21542,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cba_ep_preT_tot:per_sa_fw.cba_ep_preT_tot} - Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cba_ep_preT_tot:per_sa_fw.cba_ep_preT_tot} - Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21587,7 +21590,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cba_q1_tot:per_sa_fw.cba_q1_tot} - Benefit-cost ratio -  Subsidies -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cba_q1_tot:per_sa_fw.cba_q1_tot} - Benefit-cost ratio -  Subsidies - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21611,7 +21614,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_ep_preT_tot:per_sa_fw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_ep_preT_tot:per_sa_fw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21647,7 +21650,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_pop_rur:per_sa_fw.cov_pop_rur} - Coverage (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_pop_rur:per_sa_fw.cov_pop_rur} - Coverage (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21683,7 +21686,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q1_preT_tot:per_sa_fw.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Subsidies -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q1_preT_tot:per_sa_fw.cov_q1_preT_tot} - Coverage in poorest quintile (%) - Subsidies (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21851,7 +21854,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q4_tot:per_sa_fw.cov_q4_tot} - Coverage in 4th quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q4_tot:per_sa_fw.cov_q4_tot} - Coverage in 4th quintile (%) - Subsidies}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -21911,7 +21914,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw.cov_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q5_urb:per_sa_fw.cov_q5_urb} - Coverage in richest quintile (%) - Subsidies -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw.cov_q5_urb:per_sa_fw.cov_q5_urb} - Gini inequality reduction (%) -  Subsidies -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22091,7 +22094,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_fw_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_p1_tot:per_sa_fw_p1_tot} - Poverty Gap reduction (%) -  Subsidies - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_fw_p1_tot:per_sa_fw_p1_tot} - Poverty Gap reduction (%) -  Subsidies -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22131,7 +22134,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22164,7 +22166,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.adq_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.adq_pop_tot:per_sa_ik.adq_pop_tot} - Adequacy of benefits (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.adq_pop_tot:per_sa_ik.adq_pop_tot} - Adequacy of benefits (%) - In-Kind -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22236,7 +22238,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.adq_q2_preT_tot:per_sa_ik.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.adq_q2_preT_tot:per_sa_ik.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22252,7 +22254,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22301,6 +22302,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22309,7 +22311,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.adq_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.adq_q3_tot:per_sa_ik.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.adq_q3_tot:per_sa_ik.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - In-Kind -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22373,6 +22375,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22397,7 +22400,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22422,6 +22424,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22442,7 +22445,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.avt_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot} - Average per capita transfer - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22470,7 +22473,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22531,7 +22533,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22684,7 +22685,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.avt_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.avt_q4_urb:per_sa_ik.avt_q4_urb} - Average per capita transfer held by 4th quintile - In-Kind -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.avt_q4_urb:per_sa_ik.avt_q4_urb} - Average per capita transfer held by richest quintile - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22756,7 +22757,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.ben_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot} - Benefits incidence in poorest quintile (%) - In-Kind (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_ep_tot:per_sa_ik.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22780,7 +22781,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.ben_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q1_rur:per_sa_ik.ben_q1_rur} - Benefits incidence in poorest quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q1_rur:per_sa_ik.ben_q1_rur} - Benefits incidence in poorest quintile (%) - In-Kind -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22792,7 +22793,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q1_tot:per_sa_ik.ben_q1_tot} - Benefits incidence in poorest quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q1_tot:per_sa_ik.ben_q1_tot} - Benefits incidence in poorest quintile (%) - In-Kind -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22816,10 +22817,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.ben_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q2_preT_tot:per_sa_ik.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q2_preT_tot:per_sa_ik.ben_q2_preT_tot} - Benefits incidence in 2nd quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22856,7 +22858,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22893,6 +22894,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22925,7 +22927,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.ben_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q4_rur:per_sa_ik.ben_q4_rur} - Benefits incidence in 4th quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q4_rur:per_sa_ik.ben_q4_rur} - Benefits incidence in 4th quintile (%) - In-Kind -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -22965,6 +22967,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -22985,7 +22988,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.ben_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q5_tot:per_sa_ik.ben_q5_tot} - Benefits incidence in richest quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.ben_q5_tot:per_sa_ik.ben_q5_tot} - Benefits incidence in richest quintile (%) - In-Kind -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23014,9 +23017,9 @@
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}Child immunization rate, Polio is the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized after three doses.NULL{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE)WHO and UNICEF (http://www.who.int/immunization_monitoring/routine/en/).{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 {synoptline}
@@ -23033,10 +23036,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q1_preT_tot:per_sa_ik.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q1_preT_tot:per_sa_ik.bry_q1_preT_tot} - Beneficiary incidence in poorest quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23045,10 +23049,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q1_rur:per_sa_ik.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q1_rur:per_sa_ik.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - In-Kind -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23121,6 +23126,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23129,7 +23135,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q3_preT_tot:per_sa_ik.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q3_preT_tot:per_sa_ik.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23169,6 +23175,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23177,7 +23184,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q4_preT_tot:per_sa_ik.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q4_preT_tot:per_sa_ik.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23225,7 +23232,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q5_preT_tot:per_sa_ik.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q5_preT_tot:per_sa_ik.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23249,7 +23256,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.bry_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q5_tot:per_sa_ik.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - In-Kind -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.bry_q5_tot:per_sa_ik.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23277,6 +23284,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23369,7 +23377,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_pop_preT_tot:per_sa_ik.cov_pop_preT_tot} - Coverage (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_pop_preT_tot:per_sa_ik.cov_pop_preT_tot} - Coverage (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23385,7 +23393,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23422,7 +23429,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23479,7 +23485,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q2_rur:per_sa_ik.cov_q2_rur} - Coverage in 2nd quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q2_rur:per_sa_ik.cov_q2_rur} - Coverage in 2nd quintile (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23491,7 +23497,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q2_tot:per_sa_ik.cov_q2_tot} - Coverage in 2nd quintile (%) - In-Kind -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q2_tot:per_sa_ik.cov_q2_tot} - Coverage in 2nd quintile (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23503,7 +23509,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q2_urb:per_sa_ik.cov_q2_urb} - Coverage in 2nd quintile (%) - In-Kind -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q2_urb:per_sa_ik.cov_q2_urb} - Coverage in 3rd quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23531,7 +23537,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23552,7 +23557,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q3_urb:per_sa_ik.cov_q3_urb} - Coverage in 3rd quintile (%) - In-Kind -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q3_urb:per_sa_ik.cov_q3_urb} - Coverage in 4th quintile (%) - In-Kind (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23576,7 +23581,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q4_rur:per_sa_ik.cov_q4_rur} - Coverage in 4th quintile (%) - In-Kind -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q4_rur:per_sa_ik.cov_q4_rur} - Coverage in 4th quintile (%) - In-Kind}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23588,11 +23593,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q4_tot:per_sa_ik.cov_q4_tot} - Coverage in 4th quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q4_tot:per_sa_ik.cov_q4_tot} - Coverage in 4th quintile (%) - In-Kind -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23625,7 +23629,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik.cov_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q5_rur:per_sa_ik.cov_q5_rur} - Coverage in richest quintile (%) - In-Kind}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik.cov_q5_rur:per_sa_ik.cov_q5_rur} - Coverage in richest quintile (%) - In-Kind -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23653,6 +23657,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23661,7 +23666,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik_gini_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_gini_preT_tot:per_sa_ik_gini_preT_tot} - Gini inequality reduction (%) -  In-Kind -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_gini_preT_tot:per_sa_ik_gini_preT_tot} - Gini inequality reduction (%) -  In-Kind -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23673,7 +23678,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik_gini_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_gini_rur:per_sa_ik_gini_rur} - Gini inequality reduction (%) -  In-Kind -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_gini_rur:per_sa_ik_gini_rur} - Gini inequality reduction (%) -  In-Kind -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23697,7 +23702,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_gini_urb:per_sa_ik_gini_urb} - Gini inequality reduction (%) -  In-Kind - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_gini_urb:per_sa_ik_gini_urb} - Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23725,6 +23730,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23773,7 +23779,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -23806,7 +23811,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik_p1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_p1_preT_tot:per_sa_ik_p1_preT_tot} - Poverty Gap reduction (%) -  In-Kind -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_p1_preT_tot:per_sa_ik_p1_preT_tot} - Poverty Gap reduction (%) -  In-Kind -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23830,7 +23835,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_ik_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_p1_tot:per_sa_ik_p1_tot} - Poverty Gap reduction (%) -  In-Kind - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_ik_p1_tot:per_sa_ik_p1_tot} - Poverty Gap reduction (%) -  In-Kind -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23854,7 +23859,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_ep_preT_tot:per_sa_os.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_ep_preT_tot:per_sa_os.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23878,7 +23883,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_pop_preT_tot:per_sa_os.adq_pop_preT_tot} - Adequacy of benefits (%) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_pop_preT_tot:per_sa_os.adq_pop_preT_tot} - Adequacy of benefits (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23890,7 +23895,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_pop_rur:per_sa_os.adq_pop_rur} - Adequacy of benefits (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_pop_rur:per_sa_os.adq_pop_rur} - Adequacy of benefits (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23950,7 +23955,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q1_tot:per_sa_os.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q1_tot:per_sa_os.adq_q1_tot} - Adequacy of benefits in poorest quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -23962,7 +23967,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q1_urb:per_sa_os.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q1_urb:per_sa_os.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24022,7 +24027,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q3_preT_tot:per_sa_os.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q3_preT_tot:per_sa_os.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24070,7 +24075,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q4_preT_tot:per_sa_os.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q4_preT_tot:per_sa_os.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24154,7 +24159,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.adq_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q5_urb:per_sa_os.adq_q5_urb} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.adq_q5_urb:per_sa_os.adq_q5_urb} - Adequacy of benefits in richest quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24358,7 +24363,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q3_tot:per_sa_os.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q3_tot:per_sa_os.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24394,7 +24399,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_rur:per_sa_os.avt_q4_rur} - Average per capita transfer held by 4th quintile - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_rur:per_sa_os.avt_q4_rur} - Average per capita transfer held by 4th quintile - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24418,7 +24423,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_urb:per_sa_os.avt_q4_urb} - Average per capita transfer held by richest quintile - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q4_urb:per_sa_os.avt_q4_urb} - Average per capita transfer held by 4th quintile - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24454,7 +24459,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.avt_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q5_tot:per_sa_os.avt_q5_tot} - Average per capita transfer held by richest quintile - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.avt_q5_tot:per_sa_os.avt_q5_tot} - Average per capita transfer held by richest quintile - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24514,7 +24519,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q1_rur:per_sa_os.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q1_rur:per_sa_os.ben_q1_rur} - Benefits incidence in poorest quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24694,7 +24699,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.ben_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q5_preT_tot:per_sa_os.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.ben_q5_preT_tot:per_sa_os.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24814,7 +24819,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_preT_tot:per_sa_os.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_preT_tot:per_sa_os.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24838,7 +24843,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_tot:per_sa_os.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q2_tot:per_sa_os.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24874,7 +24879,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q3_rur:per_sa_os.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q3_rur:per_sa_os.bry_q3_rur} - Beneficiary incidence in 3rd quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24922,7 +24927,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q4_rur:per_sa_os.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q4_rur:per_sa_os.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24934,7 +24939,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q4_tot:per_sa_os.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q4_tot:per_sa_os.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -24994,7 +24999,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q5_urb:per_sa_os.bry_q5_urb} - Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.bry_q5_urb:per_sa_os.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25006,7 +25011,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cba_ep_preT_tot:per_sa_os.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cba_ep_preT_tot:per_sa_os.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25054,7 +25059,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cba_q1_tot:per_sa_os.cba_q1_tot} - Benefit-cost ratio -  Other Social Assistance -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cba_q1_tot:per_sa_os.cba_q1_tot} - Benefit-cost ratio -  Other Social Assistance - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25078,7 +25083,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_ep_preT_tot:per_sa_os.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_ep_preT_tot:per_sa_os.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25126,7 +25131,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_pop_tot:per_sa_os.cov_pop_tot} - Coverage (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_pop_tot:per_sa_os.cov_pop_tot} - Coverage (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25186,7 +25191,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q1_urb:per_sa_os.cov_q1_urb} - Coverage in poorest quintile (%) - Other Social Assistance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q1_urb:per_sa_os.cov_q1_urb} - Coverage in 2nd quintile (%) - Other Social Assistance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25258,7 +25263,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q3_rur:per_sa_os.cov_q3_rur} - Coverage in 3rd quintile (%) - Other Social Assistance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q3_rur:per_sa_os.cov_q3_rur} - Coverage in 3rd quintile (%) - Other Social Assistance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25294,7 +25299,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q4_preT_tot:per_sa_os.cov_q4_preT_tot} - Coverage in 4th quintile (%) - Other Social Assistance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q4_preT_tot:per_sa_os.cov_q4_preT_tot} - Coverage in 4th quintile (%) - Other Social Assistance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25318,7 +25323,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q4_tot:per_sa_os.cov_q4_tot} - Coverage in 4th quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q4_tot:per_sa_os.cov_q4_tot} - Coverage in 4th quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25366,7 +25371,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os.cov_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q5_tot:per_sa_os.cov_q5_tot} - Coverage in richest quintile (%) - Other Social Assistance}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os.cov_q5_tot:per_sa_os.cov_q5_tot} - Coverage in richest quintile (%) - Other Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25390,7 +25395,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_gini_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_preT_tot:per_sa_os_gini_preT_tot} - Gini inequality reduction (%) -  Other Social Assistance -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_preT_tot:per_sa_os_gini_preT_tot} - Gini inequality reduction (%) -  Other Social Assistance -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25426,7 +25431,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_urb:per_sa_os_gini_urb} - Gini inequality reduction (%) -  Other Social Assistance - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_gini_urb:per_sa_os_gini_urb} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25438,7 +25443,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_p0_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p0_ep_preT_tot:per_sa_os_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p0_ep_preT_tot:per_sa_os_p0_ep_preT_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25450,7 +25455,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p0_ep_tot:per_sa_os_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p0_ep_tot:per_sa_os_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25462,7 +25467,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_p0_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p0_preT_tot:per_sa_os_p0_preT_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p0_preT_tot:per_sa_os_p0_preT_tot} - Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25558,7 +25563,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_p1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p1_tot:per_sa_os_p1_tot} - Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p1_tot:per_sa_os_p1_tot} - Poverty Gap reduction (%) -  Other Social Assistance - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25570,7 +25575,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_os_p1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p1_urb:per_sa_os_p1_urb} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_os_p1_urb:per_sa_os_p1_urb} - Poverty Gap reduction (%) -  Other Social Assistance - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25582,7 +25587,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_ep_preT_tot:per_sa_pw.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25642,7 +25647,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_pop_urb:per_sa_pw.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_pop_urb:per_sa_pw.adq_pop_urb} - Adequacy of benefits (%) - Public Works or Cash for Work -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25658,6 +25663,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -25750,7 +25756,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.adq_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_q3_preT_tot:per_sa_pw.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_q3_preT_tot:per_sa_pw.adq_q3_preT_tot} - Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25762,7 +25768,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.adq_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_q3_rur:per_sa_pw.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_q3_rur:per_sa_pw.adq_q3_rur} - Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25790,6 +25796,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -25822,7 +25829,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.adq_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_q4_tot:per_sa_pw.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.adq_q4_tot:per_sa_pw.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -25886,6 +25893,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -25898,6 +25906,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -25970,6 +25979,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -25978,7 +25988,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.avt_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q1_rur:per_sa_pw.avt_q1_rur} - Average per capita transfer held by poorest quintile - Public Works or Cash for Work}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q1_rur:per_sa_pw.avt_q1_rur} - Average per capita transfer held by poorest quintile - Public Works or Cash for Work -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26030,7 +26040,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26039,7 +26048,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.avt_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q2_tot:per_sa_pw.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Public Works or Cash for Work}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q2_tot:per_sa_pw.avt_q2_tot} - Average per capita transfer held by 2nd quintile - Public Works or Cash for Work -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26055,7 +26064,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26088,7 +26096,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q3_tot:per_sa_pw.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Public Works or Cash for Work}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q3_tot:per_sa_pw.avt_q3_tot} - Average per capita transfer held by 3rd quintile - Public Works or Cash for Work -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26104,6 +26112,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26172,7 +26181,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.avt_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q5_rur:per_sa_pw.avt_q5_rur} - Average per capita transfer held by richest quintile - Public Works or Cash for Work}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.avt_q5_rur:per_sa_pw.avt_q5_rur} - Average per capita transfer held by richest quintile - Public Works or Cash for Work -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26212,7 +26221,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26225,7 +26233,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26250,7 +26257,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26299,7 +26305,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26312,6 +26317,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26320,7 +26326,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.ben_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q2_urb:per_sa_pw.ben_q2_urb} - Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q2_urb:per_sa_pw.ben_q2_urb} - Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26332,7 +26338,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q3_preT_tot:per_sa_pw.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q3_preT_tot:per_sa_pw.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26356,7 +26362,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.ben_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q3_tot:per_sa_pw.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q3_tot:per_sa_pw.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26428,10 +26434,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.ben_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q5_preT_tot:per_sa_pw.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Public Works or Cash for Work -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.ben_q5_preT_tot:per_sa_pw.ben_q5_preT_tot} - Benefits incidence in richest quintile (%) - Public Works or Cash for Work (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26549,7 +26556,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q2_preT_tot:per_sa_pw.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q2_preT_tot:per_sa_pw.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26585,7 +26592,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.bry_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q2_urb:per_sa_pw.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q2_urb:per_sa_pw.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26661,7 +26668,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26694,7 +26700,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.bry_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_preT_tot:per_sa_pw.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_preT_tot:per_sa_pw.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26722,6 +26728,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26730,7 +26737,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_urb:per_sa_pw.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urbanPopulation not receiving Social Protection (%) -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.bry_q5_urb:per_sa_pw.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26778,7 +26785,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.cba_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.cba_q1_rur:per_sa_pw.cba_q1_rur} - Benefit-cost ratio -  Public Works -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.cba_q1_rur:per_sa_pw.cba_q1_rur} - Benefit-cost ratio -  Public Works -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26806,7 +26813,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26815,7 +26821,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw.cov_ep_preT_tot:per_sa_pw.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -26927,6 +26933,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -26987,6 +26994,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27059,7 +27067,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27084,7 +27091,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27097,7 +27103,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27166,7 +27171,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_gini_urb:per_sa_pw_gini_urb} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_gini_urb:per_sa_pw_gini_urb} - Gini inequality reduction (%) -  Public Works - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27182,6 +27187,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27190,7 +27196,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot} - Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p0_ep_tot:per_sa_pw_p0_ep_tot} - Poverty Headcount reduction (%) -  Public Works -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27214,7 +27220,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw_p0_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p0_rur:per_sa_pw_p0_rur} - Poverty Headcount reduction (%) -  Public Works -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p0_rur:per_sa_pw_p0_rur} - Poverty Headcount reduction (%) -  Public Works -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27230,6 +27236,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27254,6 +27261,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27266,7 +27274,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27275,7 +27282,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw_p1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p1_preT_tot:per_sa_pw_p1_preT_tot} - Poverty Gap reduction (%) -  Public Works -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p1_preT_tot:per_sa_pw_p1_preT_tot} - Poverty Gap reduction (%) -  Public Works -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27287,7 +27294,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_pw_p1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p1_rur:per_sa_pw_p1_rur} - Poverty Gap reduction (%) -  Public Works -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_pw_p1_rur:per_sa_pw_p1_rur} - Poverty Gap reduction (%) -  Public Works -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27315,7 +27322,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27328,6 +27334,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27340,6 +27347,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27352,6 +27360,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27364,6 +27373,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27376,6 +27386,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27384,7 +27395,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_pop_urb:per_sa_sf.adq_pop_urb} - Adequacy of benefits (%) - School Feeding -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_pop_urb:per_sa_sf.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27432,7 +27443,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.adq_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q1_urb:per_sa_sf.adq_q1_urb} - Adequacy of benefits in 2nd quintile (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q1_urb:per_sa_sf.adq_q1_urb} - Adequacy of benefits in poorest quintile (%) - School Feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27444,7 +27455,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q2_preT_tot:per_sa_sf.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - School Feeding -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q2_preT_tot:per_sa_sf.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27540,7 +27551,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.adq_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q4_preT_tot:per_sa_sf.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - School Feeding -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q4_preT_tot:per_sa_sf.adq_q4_preT_tot} - Adequacy of benefits in 4th quintile (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27552,7 +27563,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q4_rur:per_sa_sf.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q4_rur:per_sa_sf.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - School Feeding -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27568,6 +27579,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27576,7 +27588,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.adq_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q4_urb:per_sa_sf.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - School Feeding -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.adq_q4_urb:per_sa_sf.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27640,6 +27652,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27652,6 +27665,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27660,7 +27674,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.avt_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_pop_preT_tot:per_sa_sf.avt_pop_preT_tot} - Average per capita transfer - School Feeding -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_pop_preT_tot:per_sa_sf.avt_pop_preT_tot} - Average per capita transfer - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27768,11 +27782,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.avt_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q2_rur:per_sa_sf.avt_q2_rur} - Average per capita transfer held by 2nd quintile - School Feeding -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q2_rur:per_sa_sf.avt_q2_rur} - Average per capita transfer held by 2nd quintile - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27817,7 +27830,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.avt_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q3_rur:per_sa_sf.avt_q3_rur} - Average per capita transfer held by 3rd quintile - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q3_rur:per_sa_sf.avt_q3_rur} - Average per capita transfer held by 3rd quintile - School Feeding -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27829,7 +27842,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q3_tot:per_sa_sf.avt_q3_tot} - Average per capita transfer held by 3rd quintile - School Feeding -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q3_tot:per_sa_sf.avt_q3_tot} - Average per capita transfer held by 3rd quintile - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27857,7 +27870,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -27926,7 +27938,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.avt_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q5_tot:per_sa_sf.avt_q5_tot} - Average per capita transfer held by richest quintile - School Feeding -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.avt_q5_tot:per_sa_sf.avt_q5_tot} - Average per capita transfer held by richest quintile - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -27942,6 +27954,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28010,7 +28023,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.ben_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.ben_q1_urb:per_sa_sf.ben_q1_urb} - Benefits incidence in 2nd quintile (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.ben_q1_urb:per_sa_sf.ben_q1_urb} - Benefits incidence in poorest quintile (%) - School Feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28038,6 +28051,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28050,7 +28064,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28075,7 +28088,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28100,7 +28112,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28158,7 +28169,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.ben_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.ben_q4_urb:per_sa_sf.ben_q4_urb} - Benefits incidence in richest quintile (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.ben_q4_urb:per_sa_sf.ben_q4_urb} - Benefits incidence in 4th quintile (%) - School Feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28198,7 +28209,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28223,6 +28233,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28231,7 +28242,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.bry_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.bry_ep_tot:per_sa_sf.bry_ep_tot} - Beneficiary incidence in poorest quintile (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28247,7 +28258,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28296,6 +28306,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28308,6 +28319,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28320,7 +28332,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28329,11 +28340,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.bry_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.bry_q2_urb:per_sa_sf.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - School Feeding -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.bry_q2_urb:per_sa_sf.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - School Feeding (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28382,6 +28392,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28394,6 +28405,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28406,7 +28418,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28419,6 +28430,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28443,6 +28455,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28455,6 +28468,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28475,7 +28489,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.bry_q5_urb:per_sa_sf.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - School Feeding -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.bry_q5_urb:per_sa_sf.bry_q5_urb} - Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28491,6 +28505,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28547,7 +28562,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cba_q1_urb:per_sa_sf.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cba_q1_urb:per_sa_sf.cba_q1_urb} - Benefit-cost ratio -  School-feeding - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28571,7 +28586,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage (%) - All Private TransfersCoverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28635,7 +28650,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28644,7 +28658,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q1_rur:per_sa_sf.cov_q1_rur} - Coverage in poorest quintile (%) - School Feeding -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q1_rur:per_sa_sf.cov_q1_rur} - Coverage in poorest quintile (%) - School Feeding}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28720,7 +28734,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28729,7 +28742,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q3_preT_tot:per_sa_sf.cov_q3_preT_tot} - Coverage in 3rd quintile (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q3_preT_tot:per_sa_sf.cov_q3_preT_tot} - Coverage in 3rd quintile (%) - School Feeding -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28753,7 +28766,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q3_tot:per_sa_sf.cov_q3_tot} - Coverage in 3rd quintile (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q3_tot:per_sa_sf.cov_q3_tot} - Coverage in 3rd quintile (%) - School Feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28765,7 +28778,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q3_urb:per_sa_sf.cov_q3_urb} - Coverage in 4th quintile (%) - School Feeding (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q3_urb:per_sa_sf.cov_q3_urb} - Coverage in 3rd quintile (%) - School Feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28789,7 +28802,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q4_rur:per_sa_sf.cov_q4_rur} - Coverage in 4th quintile (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q4_rur:per_sa_sf.cov_q4_rur} - Coverage in 4th quintile (%) - School Feeding -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28801,11 +28814,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q4_tot:per_sa_sf.cov_q4_tot} - Coverage in 4th quintile (%) - School Feeding}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf.cov_q4_tot:per_sa_sf.cov_q4_tot} - Coverage in 4th quintile (%) - School Feeding -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28830,6 +28842,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28842,7 +28855,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28867,7 +28879,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28892,7 +28903,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -28901,7 +28911,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf_gini_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf_gini_tot:per_sa_sf_gini_tot} - Gini inequality reduction (%) -  School-feeding -poorest quintile}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf_gini_tot:per_sa_sf_gini_tot} - Gini inequality reduction (%) -  School-feeding - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -28937,10 +28947,11 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot} - Poverty Headcount reduction (%) -  School-feeding -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf_p0_ep_tot:per_sa_sf_p0_ep_tot} - Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29021,7 +29032,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sf_p1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sf_p1_preT_tot:per_sa_sf_p1_preT_tot} - Poverty Gap reduction (%) -  School-feeding -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sf_p1_preT_tot:per_sa_sf_p1_preT_tot} - Poverty Gap reduction (%) -  School-feeding -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29082,7 +29093,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.adq_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot} - Adequacy of benefits (%) - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29098,7 +29109,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29107,7 +29117,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.adq_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.adq_pop_rur:per_sa_sp.adq_pop_rur} - Adequacy of benefits (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.adq_pop_rur:per_sa_sp.adq_pop_rur} - Adequacy of benefits (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29119,7 +29129,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.adq_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.adq_pop_tot:per_sa_sp.adq_pop_tot} - Adequacy of benefits (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.adq_pop_tot:per_sa_sp.adq_pop_tot} - Adequacy of benefits (%) - Social Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29316,7 +29326,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29378,7 +29387,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29387,7 +29395,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_ep_preT_tot:per_sa_sp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29399,7 +29407,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.avt_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot} - Average per capita transfer - Social Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29440,7 +29448,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29453,6 +29460,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29501,6 +29509,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29525,6 +29534,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29537,7 +29547,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29558,11 +29567,10 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.avt_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_q3_preT_tot:per_sa_sp.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_q3_preT_tot:per_sa_sp.avt_q3_preT_tot} - Average per capita transfer held by 3rd quintile - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29596,7 +29604,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.avt_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_q3_urb:per_sa_sp.avt_q3_urb} - Average per capita transfer held by 4th quintile - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_q3_urb:per_sa_sp.avt_q3_urb} - Average per capita transfer held by 3rd quintile - Social Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29668,7 +29676,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.avt_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_q5_rur:per_sa_sp.avt_q5_rur} - Average per capita transfer held by richest quintile - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.avt_q5_rur:per_sa_sp.avt_q5_rur} - Average per capita transfer held by richest quintile - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29716,7 +29724,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot} - Benefits incidence in poorest quintile (%) - Social Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29756,7 +29764,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29769,7 +29776,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29790,7 +29796,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q2_rur:per_sa_sp.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q2_rur:per_sa_sp.ben_q2_rur} - Benefits incidence in 2nd quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29838,7 +29844,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q3_rur:per_sa_sp.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q3_rur:per_sa_sp.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29850,7 +29856,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q3_tot:per_sa_sp.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Social Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q3_tot:per_sa_sp.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29862,7 +29868,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q3_urb:per_sa_sp.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - Social Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q3_urb:per_sa_sp.ben_q3_urb} - Benefits incidence in 4th quintile (%) - Social Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29874,7 +29880,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q4_preT_tot:per_sa_sp.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q4_preT_tot:per_sa_sp.ben_q4_preT_tot} - Benefits incidence in 4th quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29938,7 +29944,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -29947,7 +29952,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.ben_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q5_tot:per_sa_sp.ben_q5_tot} - Benefits incidence in richest quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.ben_q5_tot:per_sa_sp.ben_q5_tot} - Benefits incidence in richest quintile (%) - Social Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -29963,7 +29968,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30000,6 +30004,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30093,7 +30098,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.bry_q3_preT_tot:per_sa_sp.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.bry_q3_preT_tot:per_sa_sp.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30121,6 +30126,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30157,7 +30163,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30178,7 +30183,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.bry_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.bry_q4_urb:per_sa_sp.bry_q4_urb} - Beneficiary incidence in richest quintile (%) - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.bry_q4_urb:per_sa_sp.bry_q4_urb} - Beneficiary incidence in 4th quintile (%) - Social Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30287,7 +30292,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cba_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cba_q1_tot:per_sa_sp.cba_q1_tot} - Benefit-cost ratio -  Social Pension - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cba_q1_tot:per_sa_sp.cba_q1_tot} - Benefit-cost ratio -  Social Pension -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30299,7 +30304,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cba_q1_urb:per_sa_sp.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cba_q1_urb:per_sa_sp.cba_q1_urb} - Benefit-cost ratio -  Social Pension - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30335,7 +30340,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_pop_preT_tot:per_sa_sp.cov_pop_preT_tot} - Coverage (%) - Social Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_pop_preT_tot:per_sa_sp.cov_pop_preT_tot} - Coverage (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30351,7 +30356,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30364,6 +30368,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30400,7 +30405,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30437,7 +30441,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30446,14 +30449,14 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q2_rur:per_sa_sp.cov_q2_rur} - Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -ruralCoverage in 2nd quintile (%) - Social Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q2_rur:per_sa_sp.cov_q2_rur} - Coverage in 2nd quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
 
-{synopt:{opt Source Notes}}NULL{p_end}
+{synopt:{opt Source Notes}}Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population{p_end}
 
-{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
+{synopt:{opt Source Organization}}ASPIRE{p_end}
 
 
 {synoptline}
@@ -30462,6 +30465,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30474,7 +30478,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30483,7 +30486,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q3_preT_tot:per_sa_sp.cov_q3_preT_tot} - Coverage in 3rd quintile (%) - Social Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q3_preT_tot:per_sa_sp.cov_q3_preT_tot} - Coverage in 3rd quintile (%) - Social Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30495,7 +30498,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q3_rur:per_sa_sp.cov_q3_rur} - Coverage in 3rd quintile (%) - Social Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q3_rur:per_sa_sp.cov_q3_rur} - Coverage in 3rd quintile (%) - Social Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30511,6 +30514,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30543,7 +30547,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q4_rur:per_sa_sp.cov_q4_rur} - Coverage in 4th quintile (%) - Social Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q4_rur:per_sa_sp.cov_q4_rur} - Coverage in 4th quintile (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30555,7 +30559,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q4_tot:per_sa_sp.cov_q4_tot} - Coverage in 4th quintile (%) - Social Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q4_tot:per_sa_sp.cov_q4_tot} - Coverage in 4th quintile (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30591,7 +30595,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp.cov_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q5_rur:per_sa_sp.cov_q5_rur} - Coverage in richest quintile (%) - Social Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp.cov_q5_rur:per_sa_sp.cov_q5_rur} - Coverage in richest quintile (%) - Social Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30723,7 +30727,7 @@
 
 {synoptline}
 {marker sourceid_per_sa_sp_p0_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sa_sp_p0_tot:per_sa_sp_p0_tot} - Poverty Headcount reduction (%) -  Social Pension - poorest quintile -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_sa_sp_p0_tot:per_sa_sp_p0_tot} - Poverty Headcount reduction (%) -  Social Pension -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30775,6 +30779,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30787,6 +30792,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -30819,7 +30825,7 @@
 
 {synoptline}
 {marker sourceid_per_saonl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) only receiving All Social Assistance (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) only receiving All Social Assistance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30843,7 +30849,7 @@
 
 {synoptline}
 {marker sourceid_per_saonl.overlap_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_saonl.overlap_pop_preT_tot:per_saonl.overlap_pop_preT_tot} - Population only receiving All Social Assistance (%) -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_saonl.overlap_pop_preT_tot:per_saonl.overlap_pop_preT_tot} - Population only receiving All Social Assistance (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -30907,6 +30913,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31039,7 +31046,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31052,6 +31058,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31060,7 +31067,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31088,7 +31095,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31109,7 +31115,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_pop_tot:per_si_allsi.adq_pop_tot} - Adequacy of benefits (%) - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_pop_tot:per_si_allsi.adq_pop_tot} - Adequacy of social insurance programs (% of total welfare of beneficiary households)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31145,7 +31151,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q1_rur:per_si_allsi.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - All Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q1_rur:per_si_allsi.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31173,6 +31179,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31193,7 +31200,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q2_rur:per_si_allsi.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q2_rur:per_si_allsi.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - All Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31257,6 +31264,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31281,6 +31289,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31289,7 +31298,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q4_rur:per_si_allsi.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - All Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q4_rur:per_si_allsi.adq_q4_rur} - Adequacy of benefits in 4th quintile (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31301,7 +31310,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q4_tot:per_si_allsi.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q4_tot:per_si_allsi.adq_q4_tot} - Adequacy of benefits in 4th quintile (%) - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31313,7 +31322,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.adq_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q4_urb:per_si_allsi.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - All Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.adq_q4_urb:per_si_allsi.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - All Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31389,6 +31398,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31421,10 +31431,11 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_pop_tot:per_si_allsi.avt_pop_tot} - Average per capita transfer - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_pop_tot:per_si_allsi.avt_pop_tot} - Average per capita transfer - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31473,7 +31484,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31510,6 +31520,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31534,6 +31545,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31567,10 +31579,11 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.avt_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q3_tot:per_si_allsi.avt_q3_tot} - Average per capita transfer held by 3rd quintile - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q3_tot:per_si_allsi.avt_q3_tot} - Average per capita transfer held by 3rd quintile - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31583,7 +31596,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31604,7 +31616,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.avt_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q4_rur:per_si_allsi.avt_q4_rur} - Average per capita transfer held by 4th quintile - All Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q4_rur:per_si_allsi.avt_q4_rur} - Average per capita transfer held by 4th quintile - All Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31616,7 +31628,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.avt_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q4_tot:per_si_allsi.avt_q4_tot} - Average per capita transfer held by 4th quintile - All Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q4_tot:per_si_allsi.avt_q4_tot} - Average per capita transfer held by 4th quintile - All Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31640,7 +31652,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.avt_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q5_preT_tot:per_si_allsi.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - All Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q5_preT_tot:per_si_allsi.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - All Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31652,7 +31664,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.avt_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q5_rur:per_si_allsi.avt_q5_rur} - Average per capita transfer held by richest quintile - All Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.avt_q5_rur:per_si_allsi.avt_q5_rur} - Average per capita transfer held by richest quintile - All Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31688,7 +31700,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.ben_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31717,7 +31729,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31739,7 +31750,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.ben_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_q1_tot:per_si_allsi.ben_q1_tot} - Benefits incidence in poorest quintile (%) - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_q1_tot:per_si_allsi.ben_q1_tot} - Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31811,7 +31822,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.ben_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_q3_preT_tot:per_si_allsi.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - All Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_q3_preT_tot:per_si_allsi.ben_q3_preT_tot} - Benefits incidence in 3rd quintile (%) - All Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31827,7 +31838,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31848,7 +31858,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.ben_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_q3_urb:per_si_allsi.ben_q3_urb} - Benefits incidence in 4th quintile (%) - All Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.ben_q3_urb:per_si_allsi.ben_q3_urb} - Benefits incidence in 3rd quintile (%) - All Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -31936,6 +31946,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31960,7 +31971,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -31973,7 +31983,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32006,7 +32015,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.bry_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q1_tot:per_si_allsi.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q1_tot:per_si_allsi.bry_q1_tot} - Beneficiary incidence in poorest quintile (%) - All Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32030,7 +32039,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.bry_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q2_preT_tot:per_si_allsi.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - All Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q2_preT_tot:per_si_allsi.bry_q2_preT_tot} - Beneficiary incidence in 2nd quintile (%) - All Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32078,7 +32087,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.bry_q3_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q3_preT_tot:per_si_allsi.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - All Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q3_preT_tot:per_si_allsi.bry_q3_preT_tot} - Beneficiary incidence in 3rd quintile (%) - All Social Insurance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32094,7 +32103,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32151,7 +32159,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.bry_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q4_tot:per_si_allsi.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - All Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.bry_q4_tot:per_si_allsi.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - All Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32191,6 +32199,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32223,7 +32232,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT)Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_preT_tot:per_si_allsi.cba_ep_preT_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32235,7 +32244,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cba_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot} - Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot} - Benefit-cost ratio -  All Social Insurance -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32299,7 +32308,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32312,7 +32320,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32321,7 +32328,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cov_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_pop_preT_tot:per_si_allsi.cov_pop_preT_tot} - Coverage (%) - All Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_pop_preT_tot:per_si_allsi.cov_pop_preT_tot} - Coverage (%) - All Social Insurance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32345,7 +32352,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_pop_tot:per_si_allsi.cov_pop_tot} - Coverage (%) - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_pop_tot:per_si_allsi.cov_pop_tot} - Coverage of social insurance programs (% of population)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32369,7 +32376,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cov_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_q1_preT_tot:per_si_allsi.cov_q1_preT_tot} - Coverage in poorest quintile (%) - All Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_q1_preT_tot:per_si_allsi.cov_q1_preT_tot} - Coverage in poorest quintile (%) - All Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32421,7 +32428,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32506,6 +32512,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32538,7 +32545,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi.cov_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_q4_tot:per_si_allsi.cov_q4_tot} - Coverage in 4th quintile (%) - All Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi.cov_q4_tot:per_si_allsi.cov_q4_tot} - Coverage of social insurance programs in 4th quintile (% of population)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32602,6 +32609,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32626,6 +32634,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32682,7 +32691,7 @@
 
 {synoptline}
 {marker sourceid_per_si_allsi_p0_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_allsi_p0_preT_tot:per_si_allsi_p0_preT_tot} - Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_allsi_p0_preT_tot:per_si_allsi_p0_preT_tot} - Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32795,7 +32804,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -32804,7 +32812,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_ep_preT_tot:per_si_cp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_ep_preT_tot:per_si_cp.adq_ep_preT_tot} - Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32828,7 +32836,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_pop_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_preT_tot:per_si_cp.adq_pop_preT_tot} - Adequacy of benefits (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_preT_tot:per_si_cp.adq_pop_preT_tot} - Adequacy of benefits (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32864,7 +32872,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_pop_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_urb:per_si_cp.adq_pop_urb} - Adequacy of benefits (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_pop_urb:per_si_cp.adq_pop_urb} - Adequacy of benefits in poorest quintile (%) - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32888,7 +32896,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q1_rur:per_si_cp.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q1_rur:per_si_cp.adq_q1_rur} - Adequacy of benefits in poorest quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -32924,7 +32932,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q2_preT_tot:per_si_cp.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q2_preT_tot:per_si_cp.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33056,7 +33064,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.adq_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q4_urb:per_si_cp.adq_q4_urb} - Adequacy of benefits in richest quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.adq_q4_urb:per_si_cp.adq_q4_urb} - Adequacy of benefits in 4th quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33116,7 +33124,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_ep_preT_tot:per_si_cp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_ep_preT_tot:per_si_cp.avt_ep_preT_tot} - Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33164,7 +33172,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_pop_tot:per_si_cp.avt_pop_tot} - Average per capita transfer - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_pop_tot:per_si_cp.avt_pop_tot} - Average per capita transfer - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33272,7 +33280,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_urb:per_si_cp.avt_q2_urb} - Average per capita transfer held by 3rd quintile - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q2_urb:per_si_cp.avt_q2_urb} - Average per capita transfer held by 2nd quintile - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33332,7 +33340,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q4_preT_tot:per_si_cp.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q4_preT_tot:per_si_cp.avt_q4_preT_tot} - Average per capita transfer held by 4th quintile - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33380,7 +33388,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q5_preT_tot:per_si_cp.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q5_preT_tot:per_si_cp.avt_q5_preT_tot} - Average per capita transfer held by richest quintile - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33392,7 +33400,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q5_rur:per_si_cp.avt_q5_rur} - Average per capita transfer held by richest quintile - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q5_rur:per_si_cp.avt_q5_rur} - Average per capita transfer held by richest quintile - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33416,7 +33424,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.avt_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q5_urb:per_si_cp.avt_q5_urb} - Average per capita transfer held by richest quintile - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.avt_q5_urb:per_si_cp.avt_q5_urb} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33560,7 +33568,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.ben_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q3_rur:per_si_cp.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q3_rur:per_si_cp.ben_q3_rur} - Benefits incidence in 3rd quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33608,7 +33616,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.ben_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q4_rur:per_si_cp.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q4_rur:per_si_cp.ben_q4_rur} - Benefits incidence in 4th quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33620,7 +33628,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.ben_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q4_tot:per_si_cp.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.ben_q4_tot:per_si_cp.ben_q4_tot} - Benefits incidence in 4th quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33692,7 +33700,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_ep_preT_tot:per_si_cp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_ep_preT_tot:per_si_cp.bry_ep_preT_tot} - Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33752,7 +33760,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q1_urb:per_si_cp.bry_q1_urb} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q1_urb:per_si_cp.bry_q1_urb} - Beneficiary incidence in poorest quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33788,7 +33796,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q2_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_tot:per_si_cp.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_tot:per_si_cp.bry_q2_tot} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33800,7 +33808,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q2_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_urb:per_si_cp.bry_q2_urb} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q2_urb:per_si_cp.bry_q2_urb} - Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33836,7 +33844,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q3_tot:per_si_cp.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q3_tot:per_si_cp.bry_q3_tot} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33848,7 +33856,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q3_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q3_urb:per_si_cp.bry_q3_urb} - Beneficiary incidence in 3rd quintile (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q3_urb:per_si_cp.bry_q3_urb} - Beneficiary incidence in 4th quintile (%) - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33860,7 +33868,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q4_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q4_preT_tot:per_si_cp.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q4_preT_tot:per_si_cp.bry_q4_preT_tot} - Beneficiary incidence in 4th quintile (%) - Contributory Pensions (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33884,7 +33892,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q4_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q4_tot:per_si_cp.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q4_tot:per_si_cp.bry_q4_tot} - Beneficiary incidence in 4th quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33908,7 +33916,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q5_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_preT_tot:per_si_cp.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Contributory Pensions (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_preT_tot:per_si_cp.bry_q5_preT_tot} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33920,7 +33928,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q5_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_rur:per_si_cp.bry_q5_rur} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_rur:per_si_cp.bry_q5_rur} - Benefits incidence in 2nd quintile (%) - All Social Assistance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33932,7 +33940,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_tot:per_si_cp.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_tot:per_si_cp.bry_q5_tot} - Beneficiary incidence in richest quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33944,7 +33952,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_urb:per_si_cp.bry_q5_urb} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.bry_q5_urb:per_si_cp.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Contributory Pensions -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33956,7 +33964,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_ep_preT_tot:per_si_cp.cba_ep_preT_tot} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_ep_preT_tot:per_si_cp.cba_ep_preT_tot} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -33968,7 +33976,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cba_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_ep_tot:per_si_cp.cba_ep_tot} - Benefit-cost ratio -  Contributory Pensions -poorest quintile (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cba_ep_tot:per_si_cp.cba_ep_tot} - Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34124,7 +34132,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q1_tot:per_si_cp.cov_q1_tot} - Coverage in poorest quintile (%) - Contributory Pensions -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q1_tot:per_si_cp.cov_q1_tot} - Coverage in poorest quintile (%) - Contributory Pensions}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34160,7 +34168,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q2_rur:per_si_cp.cov_q2_rur} - Coverage in 2nd quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q2_rur:per_si_cp.cov_q2_rur} - Coverage in 2nd quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34208,7 +34216,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp.cov_q3_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q3_rur:per_si_cp.cov_q3_rur} - Coverage in 3rd quintile (%) - Contributory Pensions}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp.cov_q3_rur:per_si_cp.cov_q3_rur} - Coverage in 3rd quintile (%) - Contributory Pensions -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34376,7 +34384,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_gini_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_gini_urb:per_si_cp_gini_urb} - Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_gini_urb:per_si_cp_gini_urb} - Gini inequality reduction (%) -  Contributory Pensions - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34448,7 +34456,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_p0_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p0_urb:per_si_cp_p0_urb} - Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p0_urb:per_si_cp_p0_urb} - Poverty Headcount reduction (%) -  Contributory Pensions - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34496,7 +34504,7 @@
 
 {synoptline}
 {marker sourceid_per_si_cp_p1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p1_rur:per_si_cp_p1_rur} - Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_cp_p1_rur:per_si_cp_p1_rur} - Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34536,7 +34544,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34585,7 +34592,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34606,7 +34612,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.adq_q1_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q1_preT_tot:per_si_ss.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Other Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q1_preT_tot:per_si_ss.adq_q1_preT_tot} - Adequacy of benefits in poorest quintile (%) - Other Social Insurance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34654,7 +34660,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.adq_q2_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q2_preT_tot:per_si_ss.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q2_preT_tot:per_si_ss.adq_q2_preT_tot} - Adequacy of benefits in 2nd quintile (%) - Other Social Insurance (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34666,11 +34672,10 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.adq_q2_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q2_rur:per_si_ss.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q2_rur:per_si_ss.adq_q2_rur} - Adequacy of benefits in 2nd quintile (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34695,6 +34700,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34719,7 +34725,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34728,11 +34733,10 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.adq_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q3_tot:per_si_ss.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.adq_q3_tot:per_si_ss.adq_q3_tot} - Adequacy of benefits in 3rd quintile (%) - Other Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34781,6 +34785,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34829,7 +34834,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -34886,7 +34890,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.avt_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_pop_rur:per_si_ss.avt_pop_rur} - Average per capita transfer - Other Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_pop_rur:per_si_ss.avt_pop_rur} - Average per capita transfer - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -34946,7 +34950,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.avt_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q1_tot:per_si_ss.avt_q1_tot} - Average per capita transfer held by poorest quintile - Other Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q1_tot:per_si_ss.avt_q1_tot} - Average per capita transfer held by poorest quintile - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35035,7 +35039,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35084,6 +35087,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35104,7 +35108,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.avt_q4_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q4_urb:per_si_ss.avt_q4_urb} - Average per capita transfer held by richest quintile - Other Social Insurance (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q4_urb:per_si_ss.avt_q4_urb} - Average per capita transfer held by 4th quintile - Other Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35132,7 +35136,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35141,11 +35144,10 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.avt_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q5_tot:per_si_ss.avt_q5_tot} - Average per capita transfer held by richest quintile - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q5_tot:per_si_ss.avt_q5_tot} - Average per capita transfer held by richest quintile - Other Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35154,7 +35156,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.avt_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q5_urb:per_si_ss.avt_q5_urb} - Average per capita transfer held by richest quintile - Other Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.avt_q5_urb:per_si_ss.avt_q5_urb} - Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35243,7 +35245,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35256,7 +35257,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35269,7 +35269,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35282,7 +35281,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35295,7 +35293,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35308,6 +35305,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35316,7 +35314,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.ben_q3_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.ben_q3_tot:per_si_ss.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.ben_q3_tot:per_si_ss.ben_q3_tot} - Benefits incidence in 3rd quintile (%) - Other Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35356,6 +35354,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35380,6 +35379,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35440,7 +35440,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35473,7 +35472,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.bry_q1_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.bry_q1_rur:per_si_ss.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.bry_q1_rur:per_si_ss.bry_q1_rur} - Beneficiary incidence in poorest quintile (%) - Other Social Insurance -rural}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35489,7 +35488,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35618,7 +35616,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.bry_q4_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.bry_q4_rur:per_si_ss.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Other Social Insurance -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.bry_q4_rur:per_si_ss.bry_q4_rur} - Beneficiary incidence in 4th quintile (%) - Other Social Insurance}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35634,7 +35632,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35671,7 +35668,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35693,7 +35689,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.bry_q5_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.bry_q5_urb:per_si_ss.bry_q5_urb} - Beneficiary incidence in richest quintile (%) - Other Social Insurance -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.bry_q5_urb:per_si_ss.bry_q5_urb} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35705,7 +35701,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.cba_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cba_ep_preT_tot:per_si_ss.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cba_ep_preT_tot:per_si_ss.cba_ep_preT_tot} - Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35765,7 +35761,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.cba_q1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cba_q1_urb:per_si_ss.cba_q1_urb} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cba_q1_urb:per_si_ss.cba_q1_urb} - Benefit-cost ratio -  Other Social Insurance - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -35777,10 +35773,11 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.cov_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot} - Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -35825,7 +35822,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.cov_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_pop_tot:per_si_ss.cov_pop_tot} - Coverage (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_pop_tot:per_si_ss.cov_pop_tot} - Coverage (%) - Other Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36045,7 +36042,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36066,7 +36062,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss.cov_q5_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_q5_tot:per_si_ss.cov_q5_tot} - Coverage in richest quintile (%) - Other Social Insurance}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss.cov_q5_tot:per_si_ss.cov_q5_tot} - Coverage in richest quintile (%) - Other Social Insurance -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36150,7 +36146,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss_p0_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36162,7 +36158,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss_p0_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss_p0_preT_tot:per_si_ss_p0_preT_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss_p0_preT_tot:per_si_ss_p0_preT_tot} - Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile (preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36202,6 +36198,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36226,6 +36223,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36238,6 +36236,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36270,7 +36269,7 @@
 
 {synoptline}
 {marker sourceid_per_si_ss_p1_urb}
-{synopt:{bf:{help wbopendata_sourceid##per_si_ss_p1_urb:per_si_ss_p1_urb} - Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_si_ss_p1_urb:per_si_ss_p1_urb} - Poverty Gap reduction (%) -  Other Social Insurance - poorest quintile -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36282,7 +36281,7 @@
 
 {synoptline}
 {marker sourceid_per_silm.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%)}}
+{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%, preT)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36294,7 +36293,7 @@
 
 {synoptline}
 {marker sourceid_per_silm.overlap_ep_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_ep_tot:per_silm.overlap_ep_tot} - Population receiving All Social Insurance and Labor Market (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_ep_tot:per_silm.overlap_ep_tot} - Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36322,7 +36321,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36331,11 +36329,10 @@
 
 {synoptline}
 {marker sourceid_per_silm.overlap_pop_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_pop_tot:per_silm.overlap_pop_tot} - Population receiving All Social Insurance and Labor Market (%)}}
+{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_pop_tot:per_silm.overlap_pop_tot} - Population receiving All Social Insurance and Labor Market (%) -urban}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36380,10 +36377,11 @@
 
 {synoptline}
 {marker sourceid_per_silm.overlap_q1_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_q1_tot:per_silm.overlap_q1_tot} - Population in the poorest quintile receiving All Social Insurance and Labor Market (%) -urban}}
+{synopt:{bf:{help wbopendata_sourceid##per_silm.overlap_q1_tot:per_silm.overlap_q1_tot} - Population in the poorest quintile receiving All Social Insurance and Labor Market (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36396,7 +36394,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36405,7 +36402,7 @@
 
 {synoptline}
 {marker sourceid_per_sionl.overlap_ep_preT_tot}
-{synopt:{bf:{help wbopendata_sourceid##per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) only receiving All Social Insurance (%, preT)}}
+{synopt:{bf:{help wbopendata_sourceid##per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot} - Population in extreme poor (&lt;$1.25 a day) only receiving All Social Insurance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36441,7 +36438,7 @@
 
 {synoptline}
 {marker sourceid_per_sionl.overlap_pop_rur}
-{synopt:{bf:{help wbopendata_sourceid##per_sionl.overlap_pop_rur:per_sionl.overlap_pop_rur} - Population only receiving All Social Insurance (%) -rural}}
+{synopt:{bf:{help wbopendata_sourceid##per_sionl.overlap_pop_rur:per_sionl.overlap_pop_rur} - Population only receiving All Social Insurance (%)}}
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
@@ -36457,6 +36454,7 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36481,7 +36479,6 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
-{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}NULL{p_end}
 
@@ -36519,11 +36516,12 @@
 
 {synopt:{opt Source}}29 The Atlas of Social Protection: Indicators of Resilience and Equity{p_end}
 
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
-{synopt:{opt Source Notes}}Share of the population of the stated age group that has completed primary education or incomplete lower secondary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base{p_end}
+{synopt:{opt Source Notes}}NULL{p_end}
 
-{synopt:{opt Source Organization}}Wittgenstein Centre for Demography and Global Human Capital: {browse "http://www.oeaw.ac.at/vid/dataexplorer/"}{p_end}
+{synopt:{opt Source Organization}}The Atlas of Social Protection: Indicators of Resilience and Equity (ASPIRE){p_end}
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

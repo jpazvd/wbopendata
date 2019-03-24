@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -74,12 +74,12 @@
 
 {synoptline}
 {marker sourceid_SN.SH.STA.MALN.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - Sub-National Prevalence of overweight (% of children under 5)}}
+{synopt:{bf:{help wbopendata_sourceid##SN.SH.STA.MALN.ZS:SN.SH.STA.MALN.ZS} - Sub-National Malnutrition prevalence, weight for age (% of children under 5)}}
 
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
+{synopt:{opt Source Notes}}Prevalence of child malnutrition is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at {browse "http://www.w"}{p_end}
 
@@ -115,9 +115,9 @@
 {synopt:{opt Source}}05 Subnational Malnutrition Database{p_end}
 
 
-{synopt:{opt Source Notes}}Wasting prevalence is the proportion of children under five whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59.{p_end}
+{synopt:{opt Source Notes}}Yet to receive metadata{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries. Adjusted, comparable data are available at {browse "http://www.w"}{p_end}
+{synopt:{opt Source Organization}}Yet to receive metadata{p_end}
 
 
 {synoptline}
@@ -133,4 +133,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

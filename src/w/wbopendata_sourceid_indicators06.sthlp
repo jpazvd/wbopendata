@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -110,7 +110,7 @@
 
 {synoptline}
 {marker sourceid_BX.KLT.DINV.CD}
-{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (IMF-BoP, current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##BX.KLT.DINV.CD:BX.KLT.DINV.CD} - Foreign direct investment, net inflows in reporting economy (DRS, current US$)}}
 
 {synopt:{opt Source}}06 International Debt Statistics{p_end}
 
@@ -157,4 +157,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}

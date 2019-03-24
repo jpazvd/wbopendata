@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -105,7 +105,7 @@
 
 {synopt:{opt Source Notes}}The Balance of Payments Manual serves as an international standard for the compilation of balance of payments statistics. The manual has evolved to meet changing economic and financial environment and analytic requirements. The first edition w{p_end}
 
-{synopt:{opt Source Organization}}IMF: Balance of Payment Statistics yearbook (BPS){p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
 
 
 {synoptline}
@@ -170,7 +170,7 @@
 
 {synoptline}
 {marker sourceid_3.1_RE.CONSUMPTION}
-{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - Population census}}
+{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - Renewable energy consumption (TJ)}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -182,7 +182,7 @@
 
 {synoptline}
 {marker sourceid_5.0.AMeanIncGr.B40}
-{synopt:{bf:{help wbopendata_sourceid##5.0.AMeanIncGr.B40:5.0.AMeanIncGr.B40} - Industrial production index}}
+{synopt:{bf:{help wbopendata_sourceid##5.0.AMeanIncGr.B40:5.0.AMeanIncGr.B40} - Annualized Mean Income Growth Bottom 40 Percent (2004-2014)}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
@@ -213,7 +213,7 @@
 
 {synopt:{opt Source Notes}}The principal sources of external debt statistics are reports submitted to the World Bank through its Debtor Reporting System by reporting countries. Data quality and coverage vary among countries and from year to year. The reporting status sh{p_end}
 
-{synopt:{opt Source Organization}}IMF: International Financial Statistics (IFS). Series 74, 75, or/and 76.{p_end}
+{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation): Original source: International Debt Statistics (for low and middle income countries).{p_end}
 
 
 {synoptline}
@@ -225,7 +225,7 @@
 
 {synopt:{opt Source Notes}}Import and export price indexes measure changes in the price of goods and services in international trade. They are used to deflate the value of imports and exports. Import price index is also used as an indicator of future domestic inflation.{p_end}
 
-{synopt:{opt Source Organization}}IMF: International Financial Statistics (IFS). Series 74, 75, or/and 76.{p_end}
+{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -235,9 +235,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Health surveys collect information on various aspects of health of populations, such as health expenditure, access, utilization, and outcomes. They typically include Demographic and Health Surveys, Core Welfare Indicator Questionnaire surveys,{p_end}
+{synopt:{opt Source Notes}}UNESCO Institute of Statistics compiles data on education based on official responses to surveys and from reports provided by education authorities in each country. As the recommended periodicity of these data is annual, annual reporting from{p_end}
 
-{synopt:{opt Source Organization}}Microdata library. Original source: Measure DHS - Demographic and Health Surveys{p_end}
+{synopt:{opt Source Organization}}World Bank EdStats. Original source: UNESCO Institute for Statistics (UIS){p_end}
 
 
 {synoptline}
@@ -249,7 +249,7 @@
 
 {synopt:{opt Source Notes}}Health surveys collect information on various aspects of health of populations, such as health expenditure, access, utilization, and outcomes. They typically include Demographic and Health Surveys, Core Welfare Indicator Questionnaire surveys,{p_end}
 
-{synopt:{opt Source Organization}}WHO / UNICEF{p_end}
+{synopt:{opt Source Organization}}Microdata library. Original source: Measure DHS - Demographic and Health Surveys{p_end}
 
 
 {synoptline}
@@ -259,9 +259,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}WHO and UNICEF collect and review data available on national immunization coverage. Then estimates on the level of immunization coverage are made by using officially reported data, survey results, scientific literature, and by taking account o{p_end}
+{synopt:{opt Source Notes}}Poverty surveys collect data on household income, consumption and expenditure, including income in kind. They typically include income, expenditure, and consumption surveys, household budget surveys, Integrated Surveys, Living Standard Measuri{p_end}
 
-{synopt:{opt Source Organization}}WHO / UNICEF{p_end}
+{synopt:{opt Source Organization}}World Bank Microdata library{p_end}
 
 
 {synoptline}
@@ -295,9 +295,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The Special Data Dissemination Standard (SDDS) was established by the IMF for member countries that have or that might seek access to international capital markets, to guide them in providing their economic and financial data to the public. Al{p_end}
+{synopt:{opt Source Notes}}Proportion of population below US$1.25 a day is the percentage of the population living on less than $1.25 a day at 2005 international prices. The US$1.25 poverty line is compared to consumption or income per person and includes consumption fr{p_end}
 
-{synopt:{opt Source Organization}}World Bank: World Development Indicator (Primary Data Documentation).  Original Source: IMF SDDS website{p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Bank, Development Research Group, PovcalNet{p_end}
 
 
 {synoptline}
@@ -326,12 +326,12 @@
 
 {synoptline}
 {marker sourceid_5.51.01.02.malnut}
-{synopt:{bf:{help wbopendata_sourceid##5.51.01.02.malnut:5.51.01.02.malnut} - Child malnutrition}}
+{synopt:{bf:{help wbopendata_sourceid##5.51.01.02.malnut:5.51.01.02.malnut} - Child mortality}}
 
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Prevalence of underweight children under-five years of age, also known as prevalence of child malnutrition (weight for age), is the percentage of children under-five whose weight for age is less than minus two standard deviations from the medi{p_end}
+{synopt:{opt Source Notes}}Under-five mortality rate is the probability that a newborn baby will die before reaching age five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000. The indicator measures child survival. Su{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNICEF, WHO, World Bank, UN DESA, UNPD{p_end}
 
@@ -343,7 +343,7 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Under-five mortality rate is the probability that a newborn baby will die before reaching age five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000. The indicator measures child survival. Su{p_end}
+{synopt:{opt Source Notes}}The proportion of one-year-old children immunized against measles is the proportion of children aged one who received one dose of measles vaccine. A child is considered adequately immunized against measles after receiving one dose of vaccine.{p_end}
 
 {synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: WHO and UNICEF{p_end}
 
@@ -355,9 +355,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}The proportion of one-year-old children immunized against measles is the proportion of children aged one who received one dose of measles vaccine. A child is considered adequately immunized against measles after receiving one dose of vaccine.{p_end}
+{synopt:{opt Source Notes}}HIV prevalence at any given age is the difference between the cumulative numbers of people who have become affected with HIV up to this age and the number who died, expressed as a percentage of the total number alive at this age. The basis of{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: WHO and UNICEF{p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNAIDS{p_end}
 
 
 {synoptline}
@@ -393,7 +393,7 @@
 
 {synopt:{opt Source Notes}}The indicator is defined as the ratio of the gross enrollment rate of girls to boys in primary and secondary education levels in both public and private schools. Women have an enormous impact on the well-being of their families and societies,{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNESCO Institute for Statistics: Table 5: Enrolment ratios by ISCED level{p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNESCO Institute for Statistics: Table 12: Measures of progression and completion in primary education (ISCED 1){p_end}
 
 
 {synoptline}
@@ -403,9 +403,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Access to an improved water source is currently defined as the percentage of the population that can obtain at least 20 liters per person per day from an “improved” source that is within one kilometer of the user’s dwelling. Improved wat{p_end}
+{synopt:{opt Source Notes}}Primary completion rate (PCR) is the number of students successfully completing the last year of (or graduating from) primary school in a given year, divided by the number of children of official graduation age in the population. Because of di{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Health Organization and United Nations Children's Fund, Joint Measurement Programme (JMP){p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: UNESCO Institute for Statistics: Table 12: Measures of progression and completion in primary education (ISCED 1){p_end}
 
 
 {synoptline}
@@ -415,9 +415,9 @@
 {synopt:{opt Source}}36 Statistical Capacity Indicators{p_end}
 
 
-{synopt:{opt Source Notes}}Access to an improved water source is currently defined as the percentage of the population that can obtain at least 20 liters per person per day from an “improved” source that is within one kilometer of the user’s dwelling. Improved wat{p_end}
+{synopt:{opt Source Notes}}GDP per capita is the sum of gross value added by all resident producers in the economy plus any product taxes (less subsidies) not included in the valuation of output, divided by mid-year population. Growth is calculated from constant price G{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Health Organization and United Nations Children's Fund, Joint Measurement Programme (JMP){p_end}
+{synopt:{opt Source Organization}}World Development Indicator (WDI) databank. Original source: World Bank national accounts data, and OECD National Accounts data files{p_end}
 
 
 {synoptline}
@@ -433,4 +433,4 @@
 
 
 
-{right:(as of 23mar2019)}
+{right:(as of 24mar2019)}
