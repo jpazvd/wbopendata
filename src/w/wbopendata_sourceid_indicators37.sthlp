@@ -1198,7 +1198,7 @@
 
 {synoptline}
 {marker sourceid_3.0.Gini}
-{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini Coefficient}}
+{synopt:{bf:{help wbopendata_sourceid##3.0.Gini:3.0.Gini} - Gini CoefficientPoverty Headcount ($1.90 a day)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 
@@ -1741,6 +1741,18 @@
 
 
 {synoptline}
+{marker sourceid_4.1_TOTAL.EDU.SPENDING}
+{synopt:{bf:{help wbopendata_sourceid##4.1_TOTAL.EDU.SPENDING:4.1_TOTAL.EDU.SPENDING} - HOI: Finished Primary SchoolPublic spending on total education (% of total public spending)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The Human Opportunities Index (HOI) is an economic indicator that captures the degree of inequality of access to an essential service by different circumstance groups. This index takes into account the average access rate (the coverage) of a g{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
 {marker sourceid_4.2.nini.15a18}
 {synopt:{bf:{help wbopendata_sourceid##4.2.nini.15a18:4.2.nini.15a18} - Youth: Neither in School Nor Working  (15-18), Female}}
 
@@ -1935,6 +1947,30 @@
 {synoptline}
 {marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
 {synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - Gini Coefficient (No Zero Income)}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}The Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_5.1.11_MOZ.TOTA.AID.NLD}
+{synopt:{bf:{help wbopendata_sourceid##5.1.11_MOZ.TOTA.AID.NLD:5.1.11_MOZ.TOTA.AID.NLD} - International aid disbursed to total education, Netherlands to Mozambique (USD million)Youth: Neither in School Nor Working  (15-18), Female}}
+
+{synopt:{opt Source}}37 LAC Equity Lab{p_end}
+
+
+{synopt:{opt Source Notes}}Share of the female population ages 15-18 that is neither employed nor in school.{p_end}
+
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+
+
+{synoptline}
+{marker sourceid_5.1.1_MDA.TOTA.AID.UNICEF}
+{synopt:{bf:{help wbopendata_sourceid##5.1.1_MDA.TOTA.AID.UNICEF:5.1.1_MDA.TOTA.AID.UNICEF} - Gini Coefficient (No Zero Income)International aid disbursed to total education, UNICEF to Moldova (USD million)}}
 
 {synopt:{opt Source}}37 LAC Equity Lab{p_end}
 

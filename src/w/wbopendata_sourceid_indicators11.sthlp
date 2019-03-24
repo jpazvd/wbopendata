@@ -2377,6 +2377,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.DSTM.CD.MA.AR.BE.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTM.CD.MA.AR.BE.US:DT.DOD.DSTM.CD.MA.AR.BE.US} - Gross Ext. Debt Pos., Central Bank, Short-term, Debt securities, Beginning of period, USDODA aid disbursements for Malaria control, all donors (current US$)}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Official development assistance (ODA) disbursements for malaria control are spending on prevention and control of malaria.  Data are in current U.S. dollars.{p_end}
+
+{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.MLTC.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.MLTC.CD:DT.DOD.MLTC.CD} - PPG, multilateral concessional (DOD, current US$)}}
 
@@ -6089,6 +6101,18 @@
 {synoptline}
 {marker sourceid_HF.STA.OB18.FE.ZS}
 {synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Labor regulations (% of firms identifying this as a major constraint)}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}Percentage of firms identifying labor regulations as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.STA.OB18.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##HF.STA.OB18.FE.ZS:HF.STA.OB18.FE.ZS} - Labor regulations (% of firms identifying this as a major constraint)Prevalence of obesity, female, BMI &gt; 30 (% of population 18+)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
@@ -10731,6 +10755,18 @@
 {synoptline}
 {marker sourceid_PRJ.ATT.2064.4.MF}
 {synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2064.4.MF:PRJ.ATT.2064.4.MF} - Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total}}
+
+{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+
+
+{synopt:{opt Source Notes}}The objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
+
+{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_PRJ.ATT.2064.4.MF}
+{synopt:{bf:{help wbopendata_sourceid##PRJ.ATT.2064.4.MF:PRJ.ATT.2064.4.MF} - PDI-3 Government budget estimates comprehensive and realistic (percent)Wittgenstein Projection: Percentage of the population age 20-64 by highest level of educational attainment. Post Secondary. Total}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 

@@ -381,7 +381,7 @@
 
 {synopt:{opt Source Notes}}The percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution,out of labor force (% age 15+).{p_end}
 
-{synopt:{opt Source Organization}}Global Findex database{p_end}
+{synopt:{opt Source Organization}}Early Grade Reading Assessment (EGRA): https://www.eddataglobal.org/reading/Global Findex database{p_end}
 
 
 {synoptline}
@@ -1802,7 +1802,7 @@
 
 {synoptline}
 {marker sourceid_fin17c.14.a}
-{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Saved for education or school fees (% age 15+)}}
+{synopt:{bf:{help wbopendata_sourceid##fin17c.14.a:fin17c.14.a} - Received government payments in the past year, out of labor force (% age 15+)Saved for education or school fees (% age 15+)}}
 
 {synopt:{opt Source}}28 Global Financial Inclusion{p_end}
 

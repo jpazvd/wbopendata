@@ -691,9 +691,9 @@
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalShare of the female population ages 15-18 that is neither employed nor in school.{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -1075,9 +1075,9 @@
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technicalThe Gini coefficient is most common measure of inequality. It is based on the Lorenz curve, a cumulative frequency curve that compares the distribution of a specific variable (in this case, income) with the uniform distribution that represents{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -1586,7 +1586,7 @@
 
 {synoptline}
 {marker sourceid_5.1.3_DJI.TOTA.AID.AFD}
-{synopt:{bf:{help wbopendata_sourceid##5.1.3_DJI.TOTA.AID.AFD:5.1.3_DJI.TOTA.AID.AFD} - International aid disbursed to total education, AFD to Djibouti (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.3_DJI.TOTA.AID.AFD:5.1.3_DJI.TOTA.AID.AFD} - International aid disbursed to basic education, World Bank to Cambodia (USD million)International aid disbursed to total education, AFD to Djibouti (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -2738,7 +2738,7 @@
 
 {synoptline}
 {marker sourceid_5.1.7_MDG.TOTA.AID.UNESCO}
-{synopt:{bf:{help wbopendata_sourceid##5.1.7_MDG.TOTA.AID.UNESCO:5.1.7_MDG.TOTA.AID.UNESCO} - International aid to total education executed by UNESCO in Madagascar (USD million)}}
+{synopt:{bf:{help wbopendata_sourceid##5.1.7_MDG.TOTA.AID.UNESCO:5.1.7_MDG.TOTA.AID.UNESCO} - International aid disbursed to basic education, European Commission to Ethiopia (USD million)International aid to total education executed by UNESCO in Madagascar (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
@@ -3883,9 +3883,9 @@
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
 
-{synopt:{opt Source Notes}}International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
+{synopt:{opt Source Notes}}Date of most recent Joint Sector Review (JSR) carried out by the Local Education Group (LEG). A JSR is a monitoring and review mechanism where LEG members get together to assess progress, challenges and funding of the education sector. They prInternational concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical{p_end}
 
-{synopt:{opt Source Organization}}The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
+{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was preThe 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating don{p_end}
 
 
 {synoptline}
@@ -5762,7 +5762,7 @@
 
 {synoptline}
 {marker sourceid_6.3_LEG.CSO}
-{synopt:{bf:{help wbopendata_sourceid##6.3_LEG.CSO:6.3_LEG.CSO} - Civil society organizations in Local Education Group (1=text in notes)}}
+{synopt:{bf:{help wbopendata_sourceid##6.3_LEG.CSO:6.3_LEG.CSO} - Civil society organizations in Local Education Group (1=text in notes)International aid disbursed to total education, WFP to Laos (USD million)}}
 
 {synopt:{opt Source}}34 Global Partnership for Education{p_end}
 
