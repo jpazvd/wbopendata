@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,22 +61,10 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:27 Global Economic Prospects}}}
 {synoptline}
-{marker sourceid_NY.TTF.MRCH.KN}
-{synopt:{bf:{help wbopendata_sourceid##NY.TTF.MRCH.KN:NY.TTF.MRCH.KN} - Terms of Trade Adjustment (local) (Const. Price)}}
-
-{synopt:{opt Source}}27 Global Economic Prospects{p_end}
-
-
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
-
-{synopt:{opt Source Organization}}The World Bank{p_end}
-
-
-{synoptline}
 {marker sourceid_NYGDPMKTPKDZ}
-{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.}}
+{synopt:{bf:{help wbopendata_sourceid##NYGDPMKTPKDZ:NYGDPMKTPKDZ} - `"Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars."'}}
 
-{synopt:{opt Source}}27 Global Economic Prospects{p_end}
+{synopt:{opt Source}}`"27 Global Economic Prospects"'{p_end}
 
 
 {synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
@@ -85,4 +73,4 @@
 
 
 
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}

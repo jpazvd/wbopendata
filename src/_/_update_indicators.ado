@@ -16,6 +16,8 @@ _update_indicators, file(file2.txt) nosthlp1 nosthlp2
 
 return list
 
+	insheet using file1.txt, delimiter("#") clear name
+
 *******************************************************************************/
 
 program define _update_indicators, rclass
@@ -63,8 +65,24 @@ quietly {
 
 	insheet using `file2', delimiter("#") clear name
 
-	bysort indicatorcode topicid : gen double dups = _n
-	bysort indicatorcode  : gen double tot = _N
+	gen seq = _n
+
+	replace indicatorcode = indicatorcode[_n-1] if indicatorcode == "" & indicatorcode[_n-1] != ""
+
+	foreach var in indicatorname sourceid sourceorganization sourcenote topicid {
+		gsort indicatorcode -`var'
+		bysort indicatorcode: replace `var' = `var'[1] if `var'[1] != "" & `var'== "" 
+	}
+
+	bysort indicatorcode indicatorname sourceid sourceorganization sourcenote topicid : gen dups = _n
+
+	keep if dups == 1
+
+	drop dups
+	
+	drop seq
+
+	bysort indicatorcode indicatorname sourceid sourceorganization sourcenote : gen tot = _N
 
 	foreach var in topicid sourceid {
 		replace `var' = subinstr(`var',"&amp;","and",.) 
@@ -83,6 +101,9 @@ quietly {
 	label var topicid "Topics"
 	
 	compress
+	
+noi gen length = length(sourcenote)
+noi sum
 
 	save `tmp', replace
 		
@@ -118,6 +139,9 @@ if ("`noindlist'" == "") {
 	else {
 		copy `tmp1tmp' `indicator'
 	}
+	
+noi gen length = length(sourcenote)
+noi sum
 	
 	noi di in smcl in g "{bf: Processing indicators list... COMPLETED!}"
 
@@ -155,6 +179,9 @@ if ("`nosthlp1'" == "") {
 		
 		local title : variable label `variable' 
 		local title = subinstr("`title'","Code","",.)
+				
+noi gen length = length(sourcenote)
+noi sum
 				
 	**************** header ********************
 				
@@ -280,7 +307,10 @@ if ("`nosthlp2'" == "") {
 
 		local title : variable label `variable' 
 		local title = subinstr("`title'","Code","",.)
-				
+
+noi gen length = length(sourcenote)
+noi sum
+		
 	/**************** header ********************/
 
 		levelsof `variable'
@@ -307,7 +337,11 @@ if ("`nosthlp2'" == "") {
 		
 			tempname hlp`variable'`tc0'
 			tempfile help`variable'`tc0'
-				
+
+noi gen length = length(sourcenote)
+noi sum
+			
+			
 			file open `hlp`variable'`tc0''		using 	`help`variable'`tc0'' , write text replace
 
 				file write `hlp`variable'`tc0'' "{smcl}" 					_n
@@ -361,22 +395,22 @@ if ("`nosthlp2'" == "") {
 					
 						`noi' di "`variable' : `topic1' :  `indicator'"
 
-						local indicatorcode 		`indicator'
+						local indicatorcode 		"`indicator'"
 						levelsof indicatorname if indicatorcode == "`indicator'"
-						local indicatorname 		`r(levels)'
+						local indicatorname 		"`r(levels)'"
 						levelsof sourceid if indicatorcode == "`indicator'"
-						local sourceid 				`r(levels)'
+						local sourceid 				"`r(levels)'"
 						levelsof sourceorganization if indicatorcode == "`indicator'"
-						local sourceorganization	`r(levels)'
+						local sourceorganization	"`r(levels)'"
 						levelsof sourcenote if indicatorcode == "`indicator'"
-						local sourcenote			`r(levels)'
+						local sourcenote			"`r(levels)'"
 						
-						cap: _website, text("`sourceorganization'")
+						cap: _website, text(`sourceorganization')
 						if _rc == 0 {
 							local sourceorganization = r(text)
 						}
 
-						cap: _website, text("`sourcenote'")
+						cap: _website, text(`sourcenote')
 						if _rc == 0 {
 							local sourcenote = r(text)
 						}
@@ -454,7 +488,8 @@ if ("`nosthlp2'" == "") {
 		tab sourceid, m
 		
 		levelsof sourceid
-		return local sourceid `"`r(levels)'"'
+		return local sourceid  " `"`r(levels)'"' "
+		
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
 			sum if sourceid == "`varvalue'" & sourceid != ""
@@ -480,7 +515,7 @@ if ("`nosthlp2'" == "") {
 		tab topicid, m
 	
 		levelsof topicid
-		return local topicid `"`r(levels)'"'
+		return local topicid " `"`r(levels)'"' "
 		foreach varvalue in `r(levels)' {
 			di `"`varvalue'"'
 			sum if topicid == "`varvalue'" & topicid != ""

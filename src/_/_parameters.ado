@@ -1,4 +1,4 @@
-*! _parameters <24 Mar 2019 : 07:17:22>    João Pedro Azevedo 
+*! _parameters <25 Mar 2019 : 06:18:32>    João Pedro Azevedo 
 
 program define _parameters, rclass
 
@@ -9,49 +9,49 @@ version 9
 
              return local total = 16638 
 
-             return local sourceid01 = 224 
-             return local sourceid02 = 2211 
-             return local sourceid03 = 43 
-             return local sourceid05 = 6 
-             return local sourceid06 = 8 
-             return local sourceid11 = 1138 
-             return local sourceid12 = 3751 
-             return local sourceid13 = 100 
-             return local sourceid14 = 276 
-             return local sourceid15 = 53 
-             return local sourceid16 = 223 
-             return local sourceid18 = 6 
-             return local sourceid19 = 28 
-             return local sourceid20 = 569 
-             return local sourceid22 = 1874 
-             return local sourceid23 = 310 
-             return local sourceid24 = 30 
-             return local sourceid25 = 2 
-             return local sourceid27 = 2 
-             return local sourceid28 = 798 
-             return local sourceid29 = 3024 
-             return local sourceid30 = 104 
-             return local sourceid32 = 114 
-             return local sourceid33 = 148 
-             return local sourceid34 = 702 
-             return local sourceid35 = 19 
-             return local sourceid36 = 31 
-             return local sourceid37 = 230 
-             return local sourceid39 = 470 
-             return local sourceid41 = 187 
-             return local sourceid45 = 254 
-             return local sourceid46 = 4 
-             return local sourceid50 = 2 
-             return local sourceid54 = 29 
-             return local sourceid57 = 1196 
-             return local sourceid59 = 56 
-             return local sourceid60 = 3 
-             return local sourceid61 = 5 
-             return local sourceid62 = 13 
-             return local sourceid63 = 29 
-             return local sourceid64 = 88 
-             return local sourceid65 = 289 
-             return local sourceid66 = 19 
+             return local sourceid01 = 201 
+             return local sourceid02 = 1590 
+             return local sourceid03 = 36 
+             return local sourceid05 = 5 
+             return local sourceid06 = 4 
+             return local sourceid11 = 838 
+             return local sourceid12 = 3635 
+             return local sourceid13 = 89 
+             return local sourceid14 = 243 
+             return local sourceid15 = 38 
+             return local sourceid16 = 114 
+             return local sourceid18 = 3 
+             return local sourceid19 = 20 
+             return local sourceid20 = 564 
+             return local sourceid22 = 1800 
+             return local sourceid23 = 256 
+             return local sourceid24 = 19 
+             return local sourceid25 = 1 
+             return local sourceid27 = 1 
+             return local sourceid28 = 776 
+             return local sourceid29 = 2988 
+             return local sourceid30 = 98 
+             return local sourceid32 = 111 
+             return local sourceid33 = 131 
+             return local sourceid34 = 678 
+             return local sourceid35 = 11 
+             return local sourceid36 = 25 
+             return local sourceid37 = 211 
+             return local sourceid39 = 420 
+             return local sourceid41 = 185 
+             return local sourceid45 = 213 
+             return local sourceid46 = 2 
+             return local sourceid50 = 1 
+             return local sourceid54 = 28 
+             return local sourceid57 = 819 
+             return local sourceid59 = 54 
+             return local sourceid60 = 2 
+             return local sourceid61 = 4 
+             return local sourceid62 = 12 
+             return local sourceid63 = 27 
+             return local sourceid64 = 87 
+             return local sourceid65 = 286 
+             return local sourceid66 = 12 
              return local topicid01 = 49 
              return local topicid02 = 73 
              return local topicid03 = 297 
@@ -78,19 +78,19 @@ version 9
 
              return local topicreturn  "topicid01 topicid02 topicid03 topicid04 topicid05 topicid06 topicid07 topicid08 topicid09 topicid10 topicid11 topicid12 topicid13 topicid14 topicid15 topicid16 topicid17 topicid18 topicid19 topicid20 topicid21" 
 
-             return local sourceid  `"01 Doing Business"' `"02 World Development Indicators"' `"03 Worldwide Governance Indicators"' `"05 Subnational Malnutrition Database"' `"06 International Debt Statistics"' `"11 Africa Development Indicators"' `"12 Education Statistics"' `"13 Enterprise Surveys"' `"14 Gender Statistics"' `"15 Global Economic Monitor"' `"16 Health Nutrition and Population Statistics"' `"18 IDA Results Measurement System"' `"19 Millennium Development Goals"' `"20 Quarterly Public Sector Debt"' `"22 Quarterly External Debt Statistics SDDS"' `"23 Quarterly External Debt Statistics GDDS"' `"24 Poverty and Equity"' `"25 Jobs"' `"27 Global Economic Prospects"' `"28 Global Financial Inclusion"' `"29 The Atlas of Social Protection: Indicators of Resilience and Equity"' `"30 Exporter Dynamics Database – Indicators at Country-Year Level"' `"32 Global Financial Development"' `"33 G20 Financial Inclusion Indicators"' `"34 Global Partnership for Education"' `"35 Sustainable Energy for All"' `"36 Statistical Capacity Indicators"' `"37 LAC Equity Lab"' `"39 Health Nutrition and Population Statistics by Wealth Quintile"' `"41 Country Partnership Strategy for India (FY2013 - 17)"' `"45 Indonesia Database for Policy and Economic Research"' `"46 Sustainable Development Goals"' `"50 Subnational Population"' `"54 Joint External Debt Hub"' `"57 WDI Database Archives"' `"59 Wealth Accounts"' `"60 Economic Fitness"' `"61 PPPs Regulatory Quality"' `"62 International Comparison Program (ICP) 2011"' `"63 Human Capital Index"' `"64 Worldwide Bureaucracy Indicators"' `"65 Health Equity and Financial Protection Indicators"' `"66 Logistics Performance Index"' 
+             return local sourceid   `"`"01 Doing Business"' `"02 World Development Indicators"' `"03 Worldwide Governance Indicators"' `"05 Subnational Malnutrition Database"' `"06 International Debt Statistics"' `"11 Africa Development Indicators"' `"12 Education Statistics"' `"13 Enterprise Surveys"' `"14 Gender Statistics"' `"15 Global Economic Monitor"' `"16 Health Nutrition and Population Statistics"' `"18 IDA Results Measurement System"' `"19 Millennium Development Goals"' `"20 Quarterly Public Sector Debt"' `"22 Quarterly External Debt Statistics SDDS"' `"23 Quarterly External Debt Statistics GDDS"' `"24 Poverty and Equity"' `"25 Jobs"' `"27 Global Economic Prospects"' `"28 Global Financial Inclusion"' `"29 The Atlas of Social Protection: Indicators of Resilience and Equity"' `"30 Exporter Dynamics Database – Indicators at Country-Year Level"' `"32 Global Financial Development"' `"33 G20 Financial Inclusion Indicators"' `"34 Global Partnership for Education"' `"35 Sustainable Energy for All"' `"36 Statistical Capacity Indicators"' `"37 LAC Equity Lab"' `"39 Health Nutrition and Population Statistics by Wealth Quintile"' `"41 Country Partnership Strategy for India (FY2013 - 17)"' `"45 Indonesia Database for Policy and Economic Research"' `"46 Sustainable Development Goals"' `"50 Subnational Population"' `"54 Joint External Debt Hub"' `"57 WDI Database Archives"' `"59 Wealth Accounts"' `"60 Economic Fitness"' `"61 PPPs Regulatory Quality"' `"62 International Comparison Program (ICP) 2011"' `"63 Human Capital Index"' `"64 Worldwide Bureaucracy Indicators"' `"65 Health Equity and Financial Protection Indicators"' `"66 Logistics Performance Index"'"'  
 
-             return local topicid  `"01 Agriculture and Rural Development"' `"02 Aid Effectiveness"' `"03 Economy and Growth"' `"04 Education"' `"05 Energy and Mining"' `"06 Environment"' `"07 Financial Sector"' `"08 Health"' `"09 Infrastructure"' `"10 Social Protection and Labor"' `"11 Poverty"' `"12 Private Sector"' `"13 Public Sector"' `"14 Science and Technology"' `"15 Social Development"' `"16 Urban Development"' `"17 Gender"' `"18 Millenium development goals"' `"19 Climate Change"' `"20 External Debt"' `"21 Trade"' 
+             return local topicid   `"`"01 Agriculture and Rural Development"' `"02 Aid Effectiveness"' `"03 Economy and Growth"' `"04 Education"' `"05 Energy and Mining"' `"06 Environment"' `"07 Financial Sector"' `"08 Health"' `"09 Infrastructure"' `"10 Social Protection and Labor"' `"11 Poverty"' `"12 Private Sector"' `"13 Public Sector"' `"14 Science and Technology"' `"15 Social Development"' `"16 Urban Development"' `"17 Gender"' `"18 Millenium development goals"' `"19 Climate Change"' `"20 External Debt"' `"21 Trade"'"'  
 
 
 
              return local number_indicators = 16638
-             return local dt_update "24 Mar 2019 07:17:22" 
-             return local dt_lastcheck  "24 Mar 2019 07:17:22" 
+             return local dt_update "25 Mar 2019 06:18:32" 
+             return local dt_lastcheck  "25 Mar 2019 06:18:32" 
 
              return local ctrymetadata = 304
-             return local dt_ctrylastupdate  "24 Mar 2019 06:59:06" 
-             return local dt_ctrylastcheck   "24 Mar 2019 07:17:22" 
-             return local dt_ctryupdate  "24 Mar 2019 07:20:03" 
+             return local dt_ctrylastupdate  "24 Mar 2019 14:41:53" 
+             return local dt_ctrylastcheck   "25 Mar 2019 06:18:32" 
+             return local dt_ctryupdate  "25 Mar 2019 06:21:34" 
 
 end
