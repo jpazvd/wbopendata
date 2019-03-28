@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -62,159 +62,147 @@
 {syntab:{title:{bf:62 International Comparison Program (ICP) 2011}}}
 {synoptline}
 {marker sourceid_S01}
-{synopt:{bf:{help wbopendata_sourceid##S01:S01} - EXPENDITURE SHARES (GDP=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S01:S01} - `"EXPENDITURES (National currency units, billions)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S02}
-{synopt:{bf:{help wbopendata_sourceid##S02:S02} - EXPENDITURE SHARES (GDP=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S02:S02} - `"EXPENDITURE SHARES (GDP=100)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S03}
-{synopt:{bf:{help wbopendata_sourceid##S03:S03} - PPPs (US$=1)}}
+{synopt:{bf:{help wbopendata_sourceid##S03:S03} - `"PPPs (US$=1)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S04}
-{synopt:{bf:{help wbopendata_sourceid##S04:S04} - REAL EXPENDITURES (US$, billions)}}
+{synopt:{bf:{help wbopendata_sourceid##S04:S04} - `"REAL EXPENDITURES (US$, billions)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S05}
-{synopt:{bf:{help wbopendata_sourceid##S05:S05} - REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S05:S05} - `"REAL EXPENDITURES: COUNTRY AND REGIONAL SHARES (World=100)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S06}
-{synopt:{bf:{help wbopendata_sourceid##S06:S06} - REAL EXPENDITURES PER CAPITA (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##S06:S06} - `"REAL EXPENDITURES PER CAPITA (US$)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S07}
-{synopt:{bf:{help wbopendata_sourceid##S07:S07} - INDEX OF REAL EXPENDITURES PER CAPITA (World=100)}}
+{synopt:{bf:{help wbopendata_sourceid##S07:S07} - `"INDEX OF REAL EXPENDITURES PER CAPITA (World=100)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S08}
-{synopt:{bf:{help wbopendata_sourceid##S08:S08} - PRICE LEVEL INDEX (World = 100)}}
+{synopt:{bf:{help wbopendata_sourceid##S08:S08} - `"PRICE LEVEL INDEX (World = 100)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S09}
-{synopt:{bf:{help wbopendata_sourceid##S09:S09} - NOMINAL EXPENDITURES PER CAPITA (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##S09:S09} - `"NOMINAL EXPENDITURES (US$, billions)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S10}
-{synopt:{bf:{help wbopendata_sourceid##S10:S10} - EXCHANGE RATE (US$ = 1.000)}}
+{synopt:{bf:{help wbopendata_sourceid##S10:S10} - `"NOMINAL EXPENDITURES PER CAPITA (US$)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S11}
-{synopt:{bf:{help wbopendata_sourceid##S11:S11} - EXCHANGE RATE (US$ = 1.000)}}
+{synopt:{bf:{help wbopendata_sourceid##S11:S11} - `"EXCHANGE RATE (US$ = 1.000)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_S12}
-{synopt:{bf:{help wbopendata_sourceid##S12:S12} - POPULATION (millions)}}
+{synopt:{bf:{help wbopendata_sourceid##S12:S12} - `"POPULATION (millions)"'}}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
-
-
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
-
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source}}`"62 International Comparison Program (ICP) 2011"'{p_end}
 
 
-{synoptline}
-{marker sourceid_s_policyholders_B2_nonlife}
-{synopt:{bf:{help wbopendata_sourceid##s_policyholders_B2_nonlife:s_policyholders_B2_nonlife} - EXPENDITURES (National currency units, billions)}}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source}}62 International Comparison Program (ICP) 2011{p_end}
-
-
-{synopt:{opt Source Notes}}Data Read: 1=Latent; 2=Emerging; 3Established; 4=Advanced{p_end}
-
-{synopt:{opt Source Organization}}The Systems Approach for Better Education Results (SABER), World Bank{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}

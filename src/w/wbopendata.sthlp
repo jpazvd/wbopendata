@@ -1,6 +1,6 @@
 {smcl}
 {hline}
-{* 10Mar2019 }{...}
+{* 24Mar2019 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right: {bf:version 15.2}}

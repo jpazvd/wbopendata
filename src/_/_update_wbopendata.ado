@@ -1,8 +1,9 @@
 **********************************************************
-*! version 15.2 			<13Mar2019>		JPAzevedo
+*! version 15.2 			<24Mar2019>		JPAzevedo
 *
 *	change indicators update; function _update_indicators.ado replaced by 
-*   _indicators.ado increase the return list stored under parameterre
+*   _indicators.ado increase the return list stored under parameter 
+*	add report tables with SOURCE adn TOPIC labels
 *
 **********************************************************
 
@@ -54,6 +55,34 @@ syntax , 								///
 	foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 		local old`returnname'  = r(`returnname')
 	}
+	
+	local tmp1 `"`r(sourceid)'"'
+	local tmp2 `"`r(topicid)'"'
+
+	foreach name in `tmp1'  {
+		local t1 = substr("`name'",1,2)
+		local name = subinstr("`name'","(","[",.)
+		local name = subinstr("`name'",")","]",.)
+		local name = subinstr("`name'",":"," -",.)
+		local lgt = length("`name'")
+		if (`lgt'>38) {
+			local name = substr("`name'",1,38)
+			local name "`name'..."
+		}
+		local label_sourceid`t1' "`name'"
+	}
+	
+	foreach name in `tmp2' {
+		local t1 = substr("`name'",1,2)
+		local name = subinstr("`name'","(","[",.)
+		local name = subinstr("`name'",")","]",.)
+		local name = subinstr("`name'",":"," -",.)
+		if (`lgt'>38) {
+			local name = substr("`name'",1,38)
+			local name "`name'..."
+		}
+		local label_topicid`t1' "`name'"
+	}
 				
 	local	oldsourcereturn "`r(sourcereturn)'" 
 	local	oldtopicreturn  "`r(topicreturn)'"
@@ -83,7 +112,7 @@ syntax , 								///
 				
 				/* Source */
 				
-				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptset 45 tabbed} "
 				noi di in g in smcl "{synoptline}"
 				noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
@@ -97,7 +126,7 @@ syntax , 								///
 						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -105,7 +134,7 @@ syntax , 								///
 			
 				/* Topic */
 				
-				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptset 45 tabbed} "
 				noi di in g in smcl "{synoptline}"
 				noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
@@ -119,7 +148,7 @@ syntax , 								///
 						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -192,7 +221,7 @@ syntax , 								///
 				
 				/* Source */
 				
-				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptset 45 tabbed} "
 				noi di in g in smcl "{synoptline}"
 				noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
@@ -206,7 +235,7 @@ syntax , 								///
 						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')' `checkvalue' "
+					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -214,7 +243,7 @@ syntax , 								///
 			
 				/* Topic */
 				
-				noi di in g in smcl "{synoptset 15 tabbed} "
+				noi di in g in smcl "{synoptset 45 tabbed} "
 				noi di in g in smcl "{synoptline}"
 				noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
 				noi di in g in smcl "{synoptline}"
@@ -228,7 +257,7 @@ syntax , 								///
 						local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}" "'
 					}
 
-					noi di in g in smcl "{synopt:{opt `name'}}`r(`name')' `checkvalue' "
+					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')' `checkvalue' "
 				}
 				
 				noi di in g in smcl "{synoptline}"
@@ -379,7 +408,7 @@ syntax , 								///
 					
 					/* Source */
 					
-					noi di in g in smcl "{synoptset 15 tabbed} "
+					noi di in g in smcl "{synoptset 45 tabbed} "
 					noi di in g in smcl "{synoptline}"
 					noi di in g in smcl "{synopt:{opt Source}}  Number of indicators {p_end}"
 					noi di in g in smcl "{synoptline}"
@@ -393,7 +422,7 @@ syntax , 								///
 							local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
 						}
 
-						noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+						noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
 					}
 					
 					noi di in g in smcl "{synoptline}"
@@ -401,7 +430,7 @@ syntax , 								///
 				
 					/* Topic */
 					
-					noi di in g in smcl "{synoptset 15 tabbed} "
+					noi di in g in smcl "{synoptset 45 tabbed} "
 					noi di in g in smcl "{synoptline}"
 					noi di in g in smcl "{synopt:{opt Topics}}  Number of indicators {p_end}"
 					noi di in g in smcl "{synoptline}"
@@ -415,7 +444,7 @@ syntax , 								///
 							local checkvalue `""  in r  "		(CHANGED)	old value: `old`name'' {p_end}""'
 						}
 
-						noi di in g in smcl "{synopt:{opt `name'}}`r(`name')'`checkvalue'"
+						noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
 					}
 					
 					noi di in g in smcl "{synoptline}"

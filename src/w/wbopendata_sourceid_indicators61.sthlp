@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,22 +61,10 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:61 PPPs Regulatory Quality}}}
 {synoptline}
-{marker sourceid_IQ.ICR.RISK.XQ}
-{synopt:{bf:{help wbopendata_sourceid##IQ.ICR.RISK.XQ:IQ.ICR.RISK.XQ} - Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)}}
-
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
-
-
-{synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the period and activities that inform the decision of whether to launch a PPP procurement process. It{p_end}
-
-{synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/"}){p_end}
-
-
-{synoptline}
 {marker sourceid_IQ.PPN.REGQ.S0}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S0:IQ.PPN.REGQ.S0} - `"Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)"'}}
 
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
+{synopt:{opt Source}}`"61 PPPs Regulatory Quality"'{p_end}
 
 
 {synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the period and activities that inform the decision of whether to launch a PPP procurement process. It{p_end}
@@ -86,21 +74,21 @@
 
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S1}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S1:IQ.PPN.REGQ.S1} - Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S1:IQ.PPN.REGQ.S1} - `"Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100)"'}}
 
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
+{synopt:{opt Source}}`"61 PPPs Regulatory Quality"'{p_end}
 
 
-{synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions{p_end}
+{synopt:{opt Source Notes}}This indicator provides an assessment of a country's adherence to the best regulatory practices (scored from 1 to 100 (best practice)) during the selection of a private partner who takes on the responsibility of developing the PPP project. It{p_end}
 
 {synopt:{opt Source Organization}}Procuring Infrastructure PPPs 2018 ({browse "http://bpp.worldbank.org/"}){p_end}
 
 
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S2}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S2:IQ.PPN.REGQ.S2} - Assessment of country’s adherence to the best regulatory practices at the management stage of PPP project (scale 1-100)}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S2:IQ.PPN.REGQ.S2} - `"Assessment of country’s adherence to the best regulatory practices at the management stage of PPP project (scale 1-100)"'}}
 
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
+{synopt:{opt Source}}`"61 PPPs Regulatory Quality"'{p_end}
 
 
 {synopt:{opt Source Notes}}The indicator provides assessment of whether the contract management framework is in place to facilitate the implementation of PPP projects, as well as the existing monitoring and evaluation systems. It also examines the regulatory provisions{p_end}
@@ -110,9 +98,9 @@
 
 {synoptline}
 {marker sourceid_IQ.PPN.REGQ.S3}
-{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S3:IQ.PPN.REGQ.S3} - Assessment of country’s adherence to the best regulatory practices, procurement of unsolicited proposals (scale 1-100)}}
+{synopt:{bf:{help wbopendata_sourceid##IQ.PPN.REGQ.S3:IQ.PPN.REGQ.S3} - `"Assessment of country’s adherence to the best regulatory practices, procurement of unsolicited proposals (scale 1-100)"'}}
 
-{synopt:{opt Source}}61 PPPs Regulatory Quality{p_end}
+{synopt:{opt Source}}`"61 PPPs Regulatory Quality"'{p_end}
 
 
 {synopt:{opt Source Notes}}The indicator provides assessment of whether a specific process is in place to evaluate the feasibility of the unsolicited proposals (USPs). It evaluates USPs alignment with other government priorities; whether specific compensation mechanisms{p_end}
@@ -121,4 +109,4 @@
 
 
 
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}

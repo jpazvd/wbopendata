@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,10 +61,10 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:35 Sustainable Energy for All}}}
 {synoptline}
-{marker sourceid_1.1.PSev.Poor4uds}
-{synopt:{bf:{help wbopendata_sourceid##1.1.PSev.Poor4uds:1.1.PSev.Poor4uds} - Access to electricity (% of total population)}}
+{marker sourceid_1.1_ACCESS.ELECTRICITY.TOT}
+{synopt:{bf:{help wbopendata_sourceid##1.1_ACCESS.ELECTRICITY.TOT:1.1_ACCESS.ELECTRICITY.TOT} - `"Access to electricity (% of total population)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity.{p_end}
@@ -73,22 +73,10 @@
 
 
 {synoptline}
-{marker sourceid_1.1_ACCESS.ELECTRICITY.TOT}
-{synopt:{bf:{help wbopendata_sourceid##1.1_ACCESS.ELECTRICITY.TOT:1.1_ACCESS.ELECTRICITY.TOT} - Access to electricity (% of total population)}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Total final energy consumption (TFEC): This indicator is derived form energy balances statistics and is equivalent to total final consumption excluding non-energy use.{p_end}
-
-{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
-
-
-{synoptline}
 {marker sourceid_1.1_TOTAL.FINAL.ENERGY.CONSUM}
-{synopt:{bf:{help wbopendata_sourceid##1.1_TOTAL.FINAL.ENERGY.CONSUM:1.1_TOTAL.FINAL.ENERGY.CONSUM} - Total final energy consumption (TFEC)}}
+{synopt:{bf:{help wbopendata_sourceid##1.1_TOTAL.FINAL.ENERGY.CONSUM:1.1_TOTAL.FINAL.ENERGY.CONSUM} - `"Total final energy consumption (TFEC)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Total final energy consumption (TFEC): This indicator is derived form energy balances statistics and is equivalent to total final consumption excluding non-energy use.{p_end}
@@ -97,10 +85,10 @@
 
 
 {synoptline}
-{marker sourceid_1.2.PSev.Poor4uds}
-{synopt:{bf:{help wbopendata_sourceid##1.2.PSev.Poor4uds:1.2.PSev.Poor4uds} - Poverty Severity ($4 a day)-Urban}}
+{marker sourceid_1.2_ACCESS.ELECTRICITY.RURAL}
+{synopt:{bf:{help wbopendata_sourceid##1.2_ACCESS.ELECTRICITY.RURAL:1.2_ACCESS.ELECTRICITY.RURAL} - `"Access to electricity (% of rural population)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of rural population with access to electricity.{p_end}
@@ -109,118 +97,58 @@
 
 
 {synoptline}
-{marker sourceid_1.2_ACCESS.ELECTRICITY.RURAL}
-{synopt:{bf:{help wbopendata_sourceid##1.2_ACCESS.ELECTRICITY.RURAL:1.2_ACCESS.ELECTRICITY.RURAL} - Access to electricity (% of rural population)}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Access to electricity is the percentage of total population with access to electricity.{p_end}
-
-{synopt:{opt Source Organization}}World Bank Global Electrification Database 2014{p_end}
-
-
-{synoptline}
 {marker sourceid_1.3_ACCESS.ELECTRICITY.URBAN}
-{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - Access to electricity (% of urban population)}}
+{synopt:{bf:{help wbopendata_sourceid##1.3_ACCESS.ELECTRICITY.URBAN:1.3_ACCESS.ELECTRICITY.URBAN} - `"Access to electricity (% of urban population)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of total population with access to electricity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank Global Electrification Database 2014{p_end}
-
-
-{synoptline}
-{marker sourceid_2.04.01.01.excncpt}
-{synopt:{bf:{help wbopendata_sourceid##2.04.01.01.excncpt:2.04.01.01.excncpt} - Balance of payments manual in use}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Pre-Primary Gross Enrolment Rate (GER): The number of pupils enrolled in pre-primary school, regardless of age, expressed as a percentage of the population in the theoretical age group in pre-primary school. The purpose of this indicator is to{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
 
 
 {synoptline}
 {marker sourceid_2.1_ACCESS.CFT.TOT}
-{synopt:{bf:{help wbopendata_sourceid##2.1_ACCESS.CFT.TOT:2.1_ACCESS.CFT.TOT} - Access to Clean Fuels and Technologies for cooking (% of total population)}}
+{synopt:{bf:{help wbopendata_sourceid##2.1_ACCESS.CFT.TOT:2.1_ACCESS.CFT.TOT} - `"Access to Clean Fuels and Technologies for cooking (% of total population)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Pre-Primary Gross Enrolment Rate (GER): The number of pupils enrolled in pre-primary school, regardless of age, expressed as a percentage of the population in the theoretical age group in pre-primary school. The purpose of this indicator is to{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
-{synoptline}
-{marker sourceid_2.1_PRE.PRIMARY.GER}
-{synopt:{bf:{help wbopendata_sourceid##2.1_PRE.PRIMARY.GER:2.1_PRE.PRIMARY.GER} - Renewable energy consumption(% in TFEC)}}
+{synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Renewable energy consumption(% in TFEC): Share of renewables energy in total final energy consumption{p_end}
-
-{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
 {marker sourceid_2.1_SHARE.TOTAL.RE.IN.TFEC}
-{synopt:{bf:{help wbopendata_sourceid##2.1_SHARE.TOTAL.RE.IN.TFEC:2.1_SHARE.TOTAL.RE.IN.TFEC} - Renewable energy consumption(% in TFEC)}}
+{synopt:{bf:{help wbopendata_sourceid##2.1_SHARE.TOTAL.RE.IN.TFEC:2.1_SHARE.TOTAL.RE.IN.TFEC} - `"Renewable energy consumption(% in TFEC)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Renewable energy consumption(% in TFEC): Share of renewables energy in total final energy consumption{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
-
-
-{synoptline}
-{marker sourceid_3.1_PRI.NEW.ENTRANTS}
-{synopt:{bf:{help wbopendata_sourceid##3.1_PRI.NEW.ENTRANTS:3.1_PRI.NEW.ENTRANTS} - Renewable energy consumption (TJ)}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Renewable energy consumption (TJ): This indicator includes renewable energy consumption of all technologies: hydro, modern and traditional biomass, wind, solar, liquid biofuels, biogas, geothermal, marine and waste{p_end}
 
 {synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_3.1_RE.CONSUMPTION}
-{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - Renewable energy consumption (TJ)}}
+{synopt:{bf:{help wbopendata_sourceid##3.1_RE.CONSUMPTION:3.1_RE.CONSUMPTION} - `"Renewable energy consumption (TJ)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Renewable energy consumption (TJ): This indicator includes renewable energy consumption of all technologies: hydro, modern and traditional biomass, wind, solar, liquid biofuels, biogas, geothermal, marine and waste{p_end}
-
-{synopt:{opt Source Organization}}World Bank Microdata library. Original source: United Nations Statistical Division (UNSD), 2010 World Population and Housing Censuses Programme{p_end}
-
-
-{synoptline}
-{marker sourceid_4.0.work.19a24}
-{synopt:{bf:{help wbopendata_sourceid##4.0.work.19a24:4.0.work.19a24} - Total electricity output (GWh)}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Total electricity output (GWh): Total number of GWh generated by all power plants{p_end}
 
 {synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
 {marker sourceid_4.1.1_TOTAL.ELECTRICITY.OUTPUT}
-{synopt:{bf:{help wbopendata_sourceid##4.1.1_TOTAL.ELECTRICITY.OUTPUT:4.1.1_TOTAL.ELECTRICITY.OUTPUT} - Total electricity output (GWh)}}
+{synopt:{bf:{help wbopendata_sourceid##4.1.1_TOTAL.ELECTRICITY.OUTPUT:4.1.1_TOTAL.ELECTRICITY.OUTPUT} - `"Total electricity output (GWh)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Total electricity output (GWh): Total number of GWh generated by all power plants{p_end}
@@ -230,21 +158,21 @@
 
 {synoptline}
 {marker sourceid_4.1.2_REN.ELECTRICITY.OUTPUT}
-{synopt:{bf:{help wbopendata_sourceid##4.1.2_REN.ELECTRICITY.OUTPUT:4.1.2_REN.ELECTRICITY.OUTPUT} - Renewable energy electricity output (GWh)}}
+{synopt:{bf:{help wbopendata_sourceid##4.1.2_REN.ELECTRICITY.OUTPUT:4.1.2_REN.ELECTRICITY.OUTPUT} - `"Renewable energy electricity output (GWh)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Renewable energy electricity output (GWh): Total number of GWh generated by renewable power plants, including wind, solar PV, solar thermal, hydro, marine, geothermal, biomass, renewable municipal waste, liquid biofuels and biogas. Electricity{p_end}
 
-{synopt:{opt Source Organization}}LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank), based on Out of School and Out of Work: A Diagnostic of Ninis in Latin America by De Hoyos, Popova, and Rogers (2014, World Bank).{p_end}
+{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
 
 
 {synoptline}
-{marker sourceid_4.1.work.19a24}
-{synopt:{bf:{help wbopendata_sourceid##4.1.work.19a24:4.1.work.19a24} - Renewable electricity (% in total electricity output)}}
+{marker sourceid_4.1_SHARE.RE.IN.ELECTRICITY}
+{synopt:{bf:{help wbopendata_sourceid##4.1_SHARE.RE.IN.ELECTRICITY:4.1_SHARE.RE.IN.ELECTRICITY} - `"Renewable electricity (% in total electricity output)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Renewable electricity (% in total electricity output): Share of electrity generated by renewable power plants in total electricity generated by all types of plants{p_end}
@@ -253,34 +181,10 @@
 
 
 {synoptline}
-{marker sourceid_4.1_SHARE.RE.IN.ELECTRICITY}
-{synopt:{bf:{help wbopendata_sourceid##4.1_SHARE.RE.IN.ELECTRICITY:4.1_SHARE.RE.IN.ELECTRICITY} - Renewable electricity (% in total electricity output)}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Public expenses devoted to the education sector, including recurrent and capital expenditures and teacher salaries, expressed as a percentage of the total general government expenses. Country-specific definition, method and targets are determi{p_end}
-
-{synopt:{opt Source Organization}}Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education{p_end}
-
-
-{synoptline}
-{marker sourceid_6.1_LEG.CA}
-{synopt:{bf:{help wbopendata_sourceid##6.1_LEG.CA:6.1_LEG.CA} - Coordinating agency of Local Education Group (1=text in notes)}}
-
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
-
-
-{synopt:{opt Source Notes}}Energy intensity level of primary energy (MJ/$2005 PPP): A ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic{p_end}
-
-{synopt:{opt Source Organization}}World Bank and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
-
-
-{synoptline}
 {marker sourceid_6.1_PRIMARY.ENERGY.INTENSITY}
-{synopt:{bf:{help wbopendata_sourceid##6.1_PRIMARY.ENERGY.INTENSITY:6.1_PRIMARY.ENERGY.INTENSITY} - Energy intensity level of primary energy (MJ/$2005 PPP)}}
+{synopt:{bf:{help wbopendata_sourceid##6.1_PRIMARY.ENERGY.INTENSITY:6.1_PRIMARY.ENERGY.INTENSITY} - `"Energy intensity level of primary energy (MJ/$2005 PPP)"'}}
 
-{synopt:{opt Source}}35 Sustainable Energy for All{p_end}
+{synopt:{opt Source}}`"35 Sustainable Energy for All"'{p_end}
 
 
 {synopt:{opt Source Notes}}Energy intensity level of primary energy (MJ/$2005 PPP): A ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic{p_end}
@@ -289,4 +193,4 @@
 
 
 
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}

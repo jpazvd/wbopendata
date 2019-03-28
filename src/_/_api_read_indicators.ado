@@ -14,6 +14,9 @@ _api_read_indicators, update preserveout
 
 return list
 
+_api_read_indicators, update preserveout file1(file1.txt) file2(file2.txt)
+
+
 
 *******************************************************************************/
 
@@ -186,7 +189,16 @@ program define _api_read_indicators, rclass
 							if (strmatch("`line'", "*<wb:topic id=*")!=1) {
 								file write `source4' "`namevar2' # `labvar' # `sourceID' # `sourceOrganization' # `sourceNote' # topicID #   " _n
 							}
+
+							local namevar2				""
+							local labvar				""
+							local topicID 				""
+							local sourceID				""
+							local sourceOrganization	""
+							local sourceNote			""
+							
 						}
+						
 					  }
 				}
 		}

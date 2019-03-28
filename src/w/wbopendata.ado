@@ -1,6 +1,6 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.2	    22Mar2019               by Joao Pedro Azevedo 
+*!  v 15.2	    24Mar2019               by Joao Pedro Azevedo 
 * created and tested new functions, namely:
   * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
   * _indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:

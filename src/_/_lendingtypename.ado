@@ -1,4 +1,4 @@
-*! _lendingtypename <24 Mar 2019 : 07:19:56>                 by João Pedro Azevedo
+*! _lendingtypename <25 Mar 2019 : 06:21:27>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _lendingtypename 

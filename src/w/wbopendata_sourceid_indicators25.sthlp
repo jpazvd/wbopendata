@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,28 +61,16 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:25 Jobs}}}
 {synoptline}
-{marker sourceid_SL.EMP.OWAC.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.MA.ZS:SL.EMP.OWAC.MA.ZS} - Own-account workers, total (% of total employment)}}
-
-{synopt:{opt Source}}25 Jobs{p_end}
-
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
-
-
-{synoptline}
 {marker sourceid_SL.EMP.OWAC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - Own-account workers, total (% of total employment)}}
+{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - `"Own-account workers, total (% of total employment)"'}}
 
-{synopt:{opt Source}}25 Jobs{p_end}
-
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source}}`"25 Jobs"'{p_end}
 
 
+{synopt:{opt Source Notes}}{p_end}
 
-{right:(as of 24mar2019)}
+{synopt:{opt Source Organization}}{p_end}
+
+
+
+{right:(as of 25mar2019)}

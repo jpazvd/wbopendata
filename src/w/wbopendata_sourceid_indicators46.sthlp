@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -61,22 +61,10 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:46 Sustainable Development Goals}}}
 {synoptline}
-{marker sourceid_DT.ODA.ODAT.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.CD:DT.ODA.ODAT.CD} - Net official development assistance received (current US$)}}
-
-{synopt:{opt Source}}46 Sustainable Development Goals{p_end}
-
-
-{synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
-
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
-
-
-{synoptline}
 {marker sourceid_DT.ODA.ODAT.CD1}
-{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.CD1:DT.ODA.ODAT.CD1} - Net official development assistance received (current US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.ODA.ODAT.CD1:DT.ODA.ODAT.CD1} - `"Net official development assistance received (current US$)"'}}
 
-{synopt:{opt Source}}46 Sustainable Development Goals{p_end}
+{synopt:{opt Source}}`"46 Sustainable Development Goals"'{p_end}
 
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
@@ -85,10 +73,10 @@
 
 
 {synoptline}
-{marker sourceid_NY.GNP.MKTP.KN.87.ZG}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.KN.87.ZG:NY.GNP.MKTP.KN.87.ZG} - GNP growth (annual %)}}
+{marker sourceid_NY.GNP.MKTP.PC.CD}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PC.CD:NY.GNP.MKTP.PC.CD} - `"GNI per capita (current US$)"'}}
 
-{synopt:{opt Source}}46 Sustainable Development Goals{p_end}
+{synopt:{opt Source}}`"46 Sustainable Development Goals"'{p_end}
 
 
 {synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
@@ -96,17 +84,5 @@
 {synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
 
 
-{synoptline}
-{marker sourceid_NY.GNP.MKTP.PC.CD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PC.CD:NY.GNP.MKTP.PC.CD} - GNI per capita (current US$)}}
 
-{synopt:{opt Source}}46 Sustainable Development Goals{p_end}
-
-
-{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
-
-{synopt:{opt Source Organization}}World Bank, International Comparison Program database.{p_end}
-
-
-
-{right:(as of 24mar2019)}
+{right:(as of 25mar2019)}
