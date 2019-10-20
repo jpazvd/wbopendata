@@ -105,11 +105,6 @@ quietly {
 	label var topicid "Topics"
 	
 	compress
-	
-*noi gen length = length(sourcenote)
-*noi sum
-
-save tmp, replace
 
 	* save files with all INDICATORS + SOURCEID + TOPICID
 	save `tmp', replace
@@ -186,9 +181,6 @@ if ("`nosthlp1'" == "") {
 		
 		local title : variable label `variable' 
 		local title = subinstr("`title'","Code","",.)
-				
-*noi gen length = length(sourcenote)
-*noi sum
 				
 	**************** header ********************
 				
@@ -315,9 +307,7 @@ if ("`nosthlp2'" == "") {
 		local title : variable label `variable' 
 		local title = subinstr("`title'","Code","",.)
 
-*noi gen length = length(sourcenote)
-*noi sum
-		
+	
 	/**************** header ********************/
 
 		levelsof `variable'
@@ -345,9 +335,6 @@ if ("`nosthlp2'" == "") {
 			tempname hlp`variable'`tc0'
 			tempfile help`variable'`tc0'
 
-*noi gen length = length(sourcenote)
-*noi sum
-			
 			
 			file open `hlp`variable'`tc0''		using 	`help`variable'`tc0'' , write text replace
 

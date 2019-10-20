@@ -89,7 +89,7 @@ syntax , 								///
 	* Topic IDs	
 	local tmp2 `"`r(topicid)'"'
 	* Extract Labels for Topic IDs
-	foreach name in `"'`tmp2'"' {
+	foreach name in `"`tmp2'"' {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -251,7 +251,7 @@ syntax , 								///
 				* Topic IDs	
 				local tmp2 `"`r(topicid)'"'
 				* Extract Labels for Topic IDs
-				foreach name in `"'`tmp2'"' {
+				foreach name in `"`tmp2'"' {
 					local t1 = substr("`name'",1,2)
 					local name = subinstr("`name'","(","[",.)
 					local name = subinstr("`name'",")","]",.)
@@ -359,6 +359,7 @@ syntax , 								///
 
 		}
 
+		* Write PARAMETERS.ADO
 		/* Does not change _parameter values (only changes time stamps) */ 
 		
 		tempfile in out2
@@ -505,7 +506,7 @@ syntax , 								///
 					* Topic IDs	
 					local tmp2 `"`r(topicid)'"'
 					* Extract Labels for Topic IDs
-					foreach name in `"'`tmp2'"' {
+					foreach name in `"`tmp2'"' {
 						local t1 = substr("`name'",1,2)
 						local name = subinstr("`name'","(","[",.)
 						local name = subinstr("`name'",")","]",.)
@@ -590,6 +591,9 @@ syntax , 								///
 			}
 		
 		
+			* Write PARAMETERS.ADO
+			/* Does not change _parameter values (only changes time stamps) */ 
+
 			tempfile in out2
 			tempname in2 out
 			
