@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Indicators List (as of 03mar2019)}
+{title:Indicators List (as of 19oct2019)}
 
 {synoptset 33 tabbed}{...}
 {synopthdr: Indicators List}
@@ -1452,6 +1452,7 @@
 {synopt:{opt BAR.TER.SCHL.7074}} Barro-Lee: Average years of tertiary schooling, age 70-74, total{p_end}
 {synopt:{opt BAR.TER.SCHL.75UP.FE}} Barro-Lee: Average years of tertiary schooling, age 75+, female{p_end}
 {synopt:{opt BAR.TER.SCHL.75UP}} Barro-Lee: Average years of tertiary schooling, age 75+, total{p_end}
+{synopt:{opt BFCAFFFDICD__EXT}} Net Foreign Direct Investment, % GDP{p_end}
 {synopt:{opt BG.GSR.NFSV.GD.ZS}} Trade in services (% of GDP){p_end}
 {synopt:{opt BG.KAC.FNEI.GD.PP.ZS}} Gross private capital flows (% of GDP, PPP){p_end}
 {synopt:{opt BG.KAC.FNEI.GD.ZS}} Gross private capital flows (% of GDP){p_end}
@@ -1640,6 +1641,7 @@
 {synopt:{opt BN.TRF.PWKR.CD}} Workers' remittances, net (BoP, current US$){p_end}
 {synopt:{opt BN.TRF.XOKA.CD}} Private current transfers, net (BoP, US$){p_end}
 {synopt:{opt BN.TRN.KOGT.CD}} Grants (disbursements) from new commitments (BoP, current US$){p_end}
+{synopt:{opt BNCABFUNDCD__EXT}} Current Account Balance, % GDP{p_end}
 {synopt:{opt BPK.AUD.SUBN}} BPK Audit Report on Sub-National Budget{p_end}
 {synopt:{opt BX.AG.AGR.TRAC.CD}} Agricultural tractors, imports (FAO, current US$){p_end}
 {synopt:{opt BX.AG.AGR.TRAC.NO}} Agricultural tractors, imports{p_end}
@@ -1709,6 +1711,7 @@
 {synopt:{opt CC.PER.RNK.UPPER}} Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
 {synopt:{opt CC.PER.RNK}} Control of Corruption: Percentile Rank{p_end}
 {synopt:{opt CC.STD.ERR}} Control of Corruption: Standard Error{p_end}
+{synopt:{opt CD}} Expenditures (current US$, XR term){p_end}
 {synopt:{opt CM.FIN.INTL.GD.ZS}} Financing via international capital markets (gross inflows, % of GDP){p_end}
 {synopt:{opt CM.MKT.INDX.ZG}} S&amp;P Global Equity Indices (annual % change){p_end}
 {synopt:{opt CM.MKT.LCAP.CD}} Market capitalization of listed domestic companies (current US$){p_end}
@@ -1723,6 +1726,13 @@
 {synopt:{opt CPTOTSAXMZGY}} CPI Price, % y-o-y, median weighted, seas. adj.{p_end}
 {synopt:{opt CPTOTSAXNZGY}} CPI Price, % y-o-y, nominal, seas. adj.{p_end}
 {synopt:{opt CPTOTSAXN}} CPI Price, nominal, seas. adj.{p_end}
+{synopt:{opt D-1.1}} (i) Annual deviation of actual budget support from the forecast provided by the donor agencies at least six weeks prior to the government submitting its budget proposals to the legislature (or equival{p_end}
+{synopt:{opt D-1.2}} (ii) In-year timeliness of donor disbursements (compliance with aggregate quarterly estimates){p_end}
+{synopt:{opt D-1}} Predictability of Direct Budget Support{p_end}
+{synopt:{opt D-2.1}} (i) Completeness and timeliness of budget estimates by donors for project support{p_end}
+{synopt:{opt D-2.2}} (ii) Frequency and coverage of reporting by donors on actual donor flows for project support{p_end}
+{synopt:{opt D-2}} Financial information provided by donors for budgeting and reporting on project and program aid{p_end}
+{synopt:{opt D-3}} Proportion of aid that is managed by use of national procedures{p_end}
 {synopt:{opt D1iii}} 065.Product Entry Rate of Incumbents: StDev.{p_end}
 {synopt:{opt D1ii}} 064.Product Entry Rate of Incumbents: Median{p_end}
 {synopt:{opt D1i}} 063.Product Entry Rate of Incumbents: Mean{p_end}
@@ -2399,7 +2409,15 @@
 {synopt:{opt DSTKMKTXN}} Stock Markets, LCU{p_end}
 {synopt:{opt DT.AMD.DLXF.CD}} LT Principal due per balance of payments account (BoP, current US$){p_end}
 {synopt:{opt DT.AMT.BLAT.CD}} PPG, bilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLAT.GG.CD}} GG, bilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLAT.OPS.CD}} OPS, bilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLAT.PRVG.CD}} PRVG, bilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLAT.PS.CD}} PS, bilateral (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.BLTC.CD}} PPG, bilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLTC.GG.CD}} GG, bilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLTC.OPS.CD}} OPS, bilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLTC.PRVG.CD}} PRVG, bilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.BLTC.PS.CD}} PS, bilateral concessional (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.DEAE.CD.IL.03.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of dir. investors to DI ent., Principal, USD{p_end}
 {synopt:{opt DT.AMT.DEAE.CD.IL.0912.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of dir. investors to DI ent., Principal, USD{p_end}
 {synopt:{opt DT.AMT.DEAE.CD.IL.1218.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of dir. investors to DI ent., Principal, USD{p_end}
@@ -2492,6 +2510,8 @@
 {synopt:{opt DT.AMT.DEFE.CD.IL.36.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Principal, USD{p_end}
 {synopt:{opt DT.AMT.DEFE.CD.IL.69.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. to fellow ent., Principal, USD{p_end}
 {synopt:{opt DT.AMT.DEFE.CD.IL.IQ.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. to fellow ent., Principal, USD{p_end}
+{synopt:{opt DT.AMT.DEGG.CD}} Principal repayments on external debt, general government sector (PPG) (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.DEPS.CD}} Principal repayments on external debt, public sector (PPG) (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.DILD.CD.IL.03.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Principal, USD{p_end}
 {synopt:{opt DT.AMT.DILD.CD.IL.0912.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Principal, USD{p_end}
 {synopt:{opt DT.AMT.DILD.CD.IL.1218.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Principal, USD{p_end}
@@ -2679,19 +2699,45 @@
 {synopt:{opt DT.AMT.DLTT.CD.OT.AR.69.US}} Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Trade credit and advances, Principal, USD{p_end}
 {synopt:{opt DT.AMT.DLTT.CD.OT.AR.IQ.US}} Gross Ext. Debt Pmt, Other Sectors, Immediate, Trade credit and advances, Principal, USD{p_end}
 {synopt:{opt DT.AMT.DLXF.CD}} Principal repayments on external debt, long-term (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.DOPS.CD}} Principal repayments on external debt, other public sector (PPG) (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.DPNG.CD}} Principal repayments on external debt, private nonguaranteed (PNG) (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.DPPG.CD}} Principal repayments on external debt, public and publicly guaranteed (PPG) (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.MIBR.CD}} PPG, IBRD (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.MIDA.CD}} PPG, IDA (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.MLAT.CD}} PPG, multilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLAT.GG.CD}} GG, multilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLAT.OPS.CD}} OPS, multilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLAT.PRVG.CD}} PRVG, multilateral (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLAT.PS.CD}} PS, multilateral (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.MLTC.CD}} PPG, multilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLTC.GG.CD}} GG, multilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLTC.OPS.CD}} OPS, multilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLTC.PRVG.CD}} PRVG, multilateral concessional (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.MLTC.PS.CD}} PS, multilateral concessional (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.OFFT.CD}} PPG, official creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.OFFT.GG.CD}} GG, official creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.OFFT.OPS.CD}} OPS, official creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.OFFT.PRVG.CD}} PRVG, official creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.OFFT.PS.CD}} PS, official creditors (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PBND.CD}} PPG, bonds (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PBND.GG.CD}} GG, bonds (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PBND.OPS.CD}} OPS, bonds (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PBND.PRVG.CD}} PRVG, bonds (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PBND.PS.CD}} PS, bonds (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PCBK.CD}} PPG, commercial banks (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PCBK.GG.CD}} GG, commercial banks (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PCBK.OPS.CD}} OPS, commercial banks (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PCBK.PRVG.CD}} PRVG, commercial banks (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PCBK.PS.CD}} PS, commercial banks (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PGNG.CD}} Principal repayments, PPG and PNG private creditors (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PNGB.CD}} PNG, bonds (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PNGC.CD}} PNG, commercial banks and other creditors (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PROP.CD}} PPG, other private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PROP.GG.CD}} GG, other private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PROP.OPS.CD}} OPS, other private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PROP.PRVG.CD}} PRVG, other private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PROP.PS.CD}} PS, other private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PRPG.CD}} Principal repayments on external debt, private guaranteed by public sector (PPG) (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PRVS.CD.00.03.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD{p_end}
 {synopt:{opt DT.AMT.PRVS.CD.03.YR.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD{p_end}
 {synopt:{opt DT.AMT.PRVS.CD.04.06.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD{p_end}
@@ -2706,6 +2752,10 @@
 {synopt:{opt DT.AMT.PRVS.CD.19.24.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD{p_end}
 {synopt:{opt DT.AMT.PRVS.CD.IQ.00.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Principal, USD{p_end}
 {synopt:{opt DT.AMT.PRVT.CD}} PPG, private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PRVT.GG.CD}} GG, private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PRVT.OPS.CD}} OPS, private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PRVT.PRVG.CD}} PRVG, private creditors (AMT, current US$){p_end}
+{synopt:{opt DT.AMT.PRVT.PS.CD}} PS, private creditors (AMT, current US$){p_end}
 {synopt:{opt DT.AMT.PUBS.CD.00.03.MO.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD{p_end}
 {synopt:{opt DT.AMT.PUBS.CD.03.YR.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Principal, USD{p_end}
 {synopt:{opt DT.AMT.PUBS.CD.04.06.MO.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD{p_end}
@@ -2736,9 +2786,11 @@
 {synopt:{opt DT.AXR.DPPG.CD}} Principal rescheduled (current US$){p_end}
 {synopt:{opt DT.AXR.OFFT.CD}} Principal rescheduled, official (current US$){p_end}
 {synopt:{opt DT.AXR.PRVT.CD}} Principal rescheduled, private (current US$){p_end}
+{synopt:{opt DT.COM.BLAT.CD}} Commitments, bilateral creditors (COM, current US$){p_end}
 {synopt:{opt DT.COM.DPPG.CD}} Commitments, public and publicly guaranteed (COM, current US$){p_end}
 {synopt:{opt DT.COM.MIBR.CD}} Commitments, IBRD (COM, current US$){p_end}
 {synopt:{opt DT.COM.MIDA.CD}} Commitments, IDA (COM, current US$){p_end}
+{synopt:{opt DT.COM.MLAT.CD}} Commitments, multilateral creditors (COM, current US$){p_end}
 {synopt:{opt DT.COM.OFFT.CD}} Commitments, official creditors (COM, current US$){p_end}
 {synopt:{opt DT.COM.PRVT.CD}} Commitments, private creditors (COM, current US$){p_end}
 {synopt:{opt DT.CUR.CCVL.CD}} Cross-currency valuation (current US$){p_end}
@@ -2754,12 +2806,23 @@
 {synopt:{opt DT.CUR.USDL.ZS}} Currency composition of PPG debt, U.S. dollars (%){p_end}
 {synopt:{opt DT.DFR.DPPG.CD}} Debt forgiveness or reduction (current US$){p_end}
 {synopt:{opt DT.DIS.BLAT.CD}} PPG, bilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLAT.GG.CD}} GG, bilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLAT.OPS.CD}} OPS, bilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLAT.PRVG.CD}} PRVG, bilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLAT.PS.CD}} PS, bilateral (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.BLCT.CD}} Disbursements, Bilateral on nonconcessional terms (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.BLTC.CD}} PPG, bilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLTC.GG.CD}} GG, bilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLTC.OPS.CD}} OPS, bilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLTC.PRVG.CD}} PRVG, bilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.BLTC.PS.CD}} PS, bilateral concessional (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DECT.CD}} Disbursements, Total (current US$){p_end}
+{synopt:{opt DT.DIS.DEGG.CD}} Disbursements on external debt, general government sector (PPG) (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.DEPS.CD}} Disbursements on external debt, public sector (PPG) (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DIMF.CD}} IMF purchases (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DLTF.CD}} Disbursements on external debt, long-term + IMF (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DLXF.CD}} Disbursements on external debt, long-term (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.DOPS.CD}} Disbursements on external debt, other public sector (PPG) (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DPNG.CD}} Disbursements on external debt, private nonguaranteed (PNG) (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DPPG.CD}} Disbursements on external debt, public and publicly guaranteed (PPG) (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.DSTC.CD}} Disbursements, Short-term (DIS, current US$){p_end}
@@ -2767,16 +2830,45 @@
 {synopt:{opt DT.DIS.MIBR.CD}} PPG, IBRD (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.MIDA.CD}} PPG, IDA (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.MLAT.CD}} PPG, multilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLAT.GG.CD}} GG, multilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLAT.OPS.CD}} OPS, multilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLAT.PRVG.CD}} PRVG, multilateral (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLAT.PS.CD}} PS, multilateral (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.MLCT.CD}} Disbursements, PPG Multilateral creditors nonconcessional (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.MLTC.CD}} PPG, multilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLTC.GG.CD}} GG, multilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLTC.OPS.CD}} OPS, multilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLTC.PRVG.CD}} PRVG, multilateral concessional (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.MLTC.PS.CD}} PS, multilateral concessional (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.OFFT.CD}} PPG, official creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.OFFT.GG.CD}} GG, official creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.OFFT.OPS.CD}} OPS, official creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.OFFT.PRVG.CD}} PRVG, official creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.OFFT.PS.CD}} PS, official creditors (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.PBND.CD}} PPG, bonds (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PBND.GG.CD}} GG, bonds (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PBND.OPS.CD}} OPS, bonds (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PBND.PRVG.CD}} PRVG, bonds (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PBND.PS.CD}} PS, bonds (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.PCBK.CD}} PPG, commercial banks (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PCBK.GG.CD}} GG, commercial banks (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PCBK.OPS.CD}} OPS, commercial banks (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PCBK.PRVG.CD}} PRVG, commercial banks (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PCBK.PS.CD}} PS, commercial banks (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.PGNG.CD}} Disbursements, PPG and PNG private creditors (current US$){p_end}
 {synopt:{opt DT.DIS.PNGB.CD}} PNG, bonds (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.PNGC.CD}} PNG, commercial banks and other creditors (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.PROP.CD}} PPG, other private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PROP.GG.CD}} GG, other private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PROP.OPS.CD}} OPS, other private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PROP.PRVG.CD}} PRVG, other private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PROP.PS.CD}} PS, other private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PRPG.CD}} Disbursements on external debt, private guaranteed by public sector (PPG) (DIS, current US$){p_end}
 {synopt:{opt DT.DIS.PRVT.CD}} PPG, private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PRVT.GG.CD}} GG, private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PRVT.OPS.CD}} OPS, private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PRVT.PRVG.CD}} PRVG, private creditors (DIS, current US$){p_end}
+{synopt:{opt DT.DIS.PRVT.PS.CD}} PS, private creditors (DIS, current US$){p_end}
 {synopt:{opt DT.DOD.ALLC.CD}} External debt stocks, concessional (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.ALLC.ZSG}} Debt on Concessional terms to GDP (% of GDP){p_end}
 {synopt:{opt DT.DOD.ALLC.ZSX}} Debt on Concessional terms to export ratio (% of exports){p_end}
@@ -2785,7 +2877,15 @@
 {synopt:{opt DT.DOD.ALLN.ZSG}} Debt on Non-concessional terms to GDP (% of GDP){p_end}
 {synopt:{opt DT.DOD.ALLN.ZSX}} Debt on Non-concessional terms to export ratio (% of exports){p_end}
 {synopt:{opt DT.DOD.BLAT.CD}} PPG, bilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLAT.GG.CD}} GG, bilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLAT.OPS.CD}} OPS, bilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLAT.PRVG.CD}} PRVG, bilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLAT.PS.CD}} PS, bilateral (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.BLTC.CD}} PPG, bilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLTC.GG.CD}} GG, bilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLTC.OPS.CD}} OPS, bilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLTC.PRVG.CD}} PRVG, bilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.BLTC.PS.CD}} PS, bilateral concessional (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.BLTN.CD}} Debt outstanding and disbursed, PPG Bilateral on nonconcessional terms (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.BNLT.CD.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, Debt securities, USD{p_end}
 {synopt:{opt DT.DOD.BNLT.CD.PU.AR.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Debt securities, USD{p_end}
@@ -2939,6 +3039,8 @@
 {synopt:{opt DT.DOD.DECT.OT.AR.US}} Gross Ext. Debt Pos., Other Sectors, All maturities, All instruments, Arrears, USD{p_end}
 {synopt:{opt DT.DOD.DECT.OT.DS.US}} Gross Ext. Debt Pos., Other Sectors, All maturities, Debt Securities, Memo item, USD{p_end}
 {synopt:{opt DT.DOD.DECT.T4.AR.US}} Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, USD{p_end}
+{synopt:{opt DT.DOD.DEGG.CD}} External debt stocks, general government sector (PPG) (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.DEPS.CD}} External debt stocks, public sector (PPG) (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.DIDI.CD.FC.IL.EU.US}} Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, Euro, USD{p_end}
 {synopt:{opt DT.DOD.DIDI.CD.FC.IL.JY.US}} Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, Yen, USD{p_end}
 {synopt:{opt DT.DOD.DIDI.CD.FC.IL.OT.US}} Gross Ext. F. Curr Debt Pos., DI: Intercom Lending, All maturities, Debt liab. of DI ent. to dir. investors, Other curr., USD{p_end}
@@ -3315,6 +3417,7 @@
 {synopt:{opt DT.DOD.DLXF.PU.DS.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, Debt securities, Memo item, USD{p_end}
 {synopt:{opt DT.DOD.DLXF.PV.GNP.ZS}} Present value of debt (% of GNP){p_end}
 {synopt:{opt DT.DOD.DLXF.PV.XGS.ZS}} Present value of debt (% of exports of goods and services){p_end}
+{synopt:{opt DT.DOD.DOPS.CD}} External debt stocks, other public sector (PPG) (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.DPNG.CD.AR.US}} Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., All maturities, Arrears, USD{p_end}
 {synopt:{opt DT.DOD.DPNG.CD.LT.US}} Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Long-term, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.DPNG.CD.ST.US}} Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Short-term, All instruments, USD{p_end}
@@ -3370,6 +3473,7 @@
 {synopt:{opt DT.DOD.DSCD.CD.OT.AR.PX.US}} Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Other price chg, USD{p_end}
 {synopt:{opt DT.DOD.DSCD.CD.OT.AR.TR.US}} Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, Transactions, USD{p_end}
 {synopt:{opt DT.DOD.DSCD.CD.OT.AR.US}} Gross Ext. Debt Pos., Other Sectors, Short-term, Currency and deposits, USD{p_end}
+{synopt:{opt DT.DOD.DSDR.CD}} Use of IMF credit, SDR allocations (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.DSOO.CD.CB.AR.BE.US}} Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, Beginning of period, USD{p_end}
 {synopt:{opt DT.DOD.DSOO.CD.CB.AR.EA.US}} Ext. Assets in Debt Instruments, Deposit-Taking Corp., exc. CB, Short-term, Other debt instruments, USD{p_end}
 {synopt:{opt DT.DOD.DSOO.CD.CB.AR.EN.US}} Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, Short-term, Other debt liabilities, end of period, USD{p_end}
@@ -3644,8 +3748,16 @@
 {synopt:{opt DT.DOD.MIBR.CD}} PPG, IBRD (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.MIDA.CD}} PPG, IDA (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.MLAT.CD}} PPG, multilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLAT.GG.CD}} GG, multilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLAT.OPS.CD}} OPS, multilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLAT.PRVG.CD}} PRVG, multilateral (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLAT.PS.CD}} PS, multilateral (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.MLAT.ZS}} Multilateral debt (% of total external debt){p_end}
 {synopt:{opt DT.DOD.MLTC.CD}} PPG, multilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLTC.GG.CD}} GG, multilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLTC.OPS.CD}} OPS, multilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLTC.PRVG.CD}} PRVG, multilateral concessional (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.MLTC.PS.CD}} PS, multilateral concessional (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.MLTN.CD}} Debt outstanding and disbursed, PPG Multilateral on nonconcessional terms (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.MMST.CD.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Debt securities, USD{p_end}
 {synopt:{opt DT.DOD.MMST.CD.PU.AR.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Debt securities, USD{p_end}
@@ -3653,10 +3765,14 @@
 {synopt:{opt DT.DOD.OFFT.CD.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.OFFT.CD.PU.AR.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.OFFT.CD}} PPG, official creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.OFFT.GG.CD}} GG, official creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.OFFT.OPS.CD}} OPS, official creditors (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.OFFT.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD{p_end}
 {synopt:{opt DT.DOD.OFFT.PR.DS.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Debt securities, Memo item, USD{p_end}
 {synopt:{opt DT.DOD.OFFT.PR.IN.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Interest, USD{p_end}
 {synopt:{opt DT.DOD.OFFT.PR.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, Principal, USD{p_end}
+{synopt:{opt DT.DOD.OFFT.PRVG.CD}} PRVG, official creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.OFFT.PS.CD}} PS, official creditors (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.OFFT.PU.AR.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, Prin. and Int., USD{p_end}
 {synopt:{opt DT.DOD.OFFT.PU.DS.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Debt securities, Memo item, USD{p_end}
 {synopt:{opt DT.DOD.OFFT.PU.IN.AR.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, Interest, USD{p_end}
@@ -3666,7 +3782,15 @@
 {synopt:{opt DT.DOD.OOST.CD.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, Other debt liabilities, USD{p_end}
 {synopt:{opt DT.DOD.OOST.CD.PU.AR.US}} Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, Other debt liabilities, USD{p_end}
 {synopt:{opt DT.DOD.PBND.CD}} PPG, bonds (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PBND.GG.CD}} GG, bonds (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PBND.OPS.CD}} OPS, bonds (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PBND.PRVG.CD}} PRVG, bonds (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PBND.PS.CD}} PS, bonds (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.PCBK.CD}} PPG, commercial banks (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PCBK.GG.CD}} GG, commercial banks (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PCBK.OPS.CD}} OPS, commercial banks (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PCBK.PRVG.CD}} PRVG, commercial banks (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PCBK.PS.CD}} PS, commercial banks (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.PCCR.US}} Public and Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PCPR.LT.US}} Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Long-term, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PCPR.ST.US}} Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Short-term, All instruments, USD{p_end}
@@ -3699,9 +3823,14 @@
 {synopt:{opt DT.DOD.PROD.LT.AR.US}} Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Other debt liabilities, USD{p_end}
 {synopt:{opt DT.DOD.PROD.ST.AR.US}} Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Other debt liabilities, USD{p_end}
 {synopt:{opt DT.DOD.PROP.CD}} PPG, other private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PROP.GG.CD}} GG, other private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PROP.OPS.CD}} OPS, other private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PROP.PRVG.CD}} PRVG, other private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PROP.PS.CD}} PS, other private creditors (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.PROT.CD.LT.US}} Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, Long-term, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PROT.CD.ST.US}} Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, Short-term, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PROT.CD.US}} Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, All maturities, All instruments, USD{p_end}
+{synopt:{opt DT.DOD.PRPG.CD}} External debt stocks, private guaranteed by public sector (PPG) (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.PRST.CD.PR.AR.US}} Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PRTC.LT.AR.US}} Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Trade credit and advances, USD{p_end}
 {synopt:{opt DT.DOD.PRTC.ST.AR.US}} Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Trade credit and advances, USD{p_end}
@@ -3725,6 +3854,10 @@
 {synopt:{opt DT.DOD.PRVS.ST.AR.US}} Publicly Guar. Private Sector Ext. Debt Pos., Short-term, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PRVS.TO.T4.US}} Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, USD{p_end}
 {synopt:{opt DT.DOD.PRVT.CD}} PPG, private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PRVT.GG.CD}} GG, private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PRVT.OPS.CD}} OPS, private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PRVT.PRVG.CD}} PRVG, private creditors (DOD, current US$){p_end}
+{synopt:{opt DT.DOD.PRVT.PS.CD}} PS, private creditors (DOD, current US$){p_end}
 {synopt:{opt DT.DOD.PSDR.LT.AR.US}} Public Sector Ext. Debt Pos., Long-term, Special drawing rights (allocations), USD{p_end}
 {synopt:{opt DT.DOD.PUAE.IL.US}} Public Sector Ext. Debt Pos., All maturities, Debt liab. of dir. investors to DI ent., USD{p_end}
 {synopt:{opt DT.DOD.PUBA.CD.LT.US}} Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD{p_end}
@@ -3931,7 +4064,15 @@
 {synopt:{opt DT.INR.OFFT}} Average interest on new external debt commitments, official (%){p_end}
 {synopt:{opt DT.INR.PRVT}} Average interest on new external debt commitments, private (%){p_end}
 {synopt:{opt DT.INT.BLAT.CD}} PPG, bilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLAT.GG.CD}} GG, bilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLAT.OPS.CD}} OPS, bilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLAT.PRVG.CD}} PRVG, bilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLAT.PS.CD}} PS, bilateral (INT, current US$){p_end}
 {synopt:{opt DT.INT.BLTC.CD}} PPG, bilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLTC.GG.CD}} GG, bilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLTC.OPS.CD}} OPS, bilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLTC.PRVG.CD}} PRVG, bilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.BLTC.PS.CD}} PS, bilateral concessional (INT, current US$){p_end}
 {synopt:{opt DT.INT.DEAE.CD.IL.03.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of dir. investors to DI ent., Interest, USD{p_end}
 {synopt:{opt DT.INT.DEAE.CD.IL.0912.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of dir. investors to DI ent., Interest, USD{p_end}
 {synopt:{opt DT.INT.DEAE.CD.IL.1218.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of dir. investors to DI ent., Interest, USD{p_end}
@@ -4026,6 +4167,8 @@
 {synopt:{opt DT.INT.DEFE.CD.IL.36.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Interest, USD{p_end}
 {synopt:{opt DT.INT.DEFE.CD.IL.69.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. to fellow ent., Interest, USD{p_end}
 {synopt:{opt DT.INT.DEFE.CD.IL.IQ.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. to fellow ent., Interest, USD{p_end}
+{synopt:{opt DT.INT.DEGG.CD}} Interest payments on external debt, general government sector (PPG) (INT, current US$){p_end}
+{synopt:{opt DT.INT.DEPS.CD}} Interest payments on external debt, public sector (PPG) (INT, current US$){p_end}
 {synopt:{opt DT.INT.DILD.CD.IL.03.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Interest, USD{p_end}
 {synopt:{opt DT.INT.DILD.CD.IL.0912.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Interest, USD{p_end}
 {synopt:{opt DT.INT.DILD.CD.IL.1218.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Interest, USD{p_end}
@@ -4197,20 +4340,46 @@
 {synopt:{opt DT.INT.DLTT.CD.MA.AR.69.US}} Gross Ext. Debt Pmt, Central Bank, More than 6 to 9, Trade credit and advances, Interest, USD{p_end}
 {synopt:{opt DT.INT.DLTT.CD.MA.AR.IQ.US}} Gross Ext. Debt Pmt, Central Bank, Immediate, Trade credit and advances, Interest, USD{p_end}
 {synopt:{opt DT.INT.DLXF.CD}} Interest payments on external debt, long-term (INT, current US$){p_end}
+{synopt:{opt DT.INT.DOPS.CD}} Interest payments on external debt, other public sector (PPG) (INT, current US$){p_end}
 {synopt:{opt DT.INT.DPNG.CD}} Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$){p_end}
 {synopt:{opt DT.INT.DPPG.CD}} Interest payments on external debt, public and publicly guaranteed (PPG) (INT, current US$){p_end}
 {synopt:{opt DT.INT.DSTC.CD}} Interest payments on external debt, short-term (INT, current US$){p_end}
 {synopt:{opt DT.INT.MIBR.CD}} PPG, IBRD (INT, current US$){p_end}
 {synopt:{opt DT.INT.MIDA.CD}} PPG, IDA (INT, current US$){p_end}
 {synopt:{opt DT.INT.MLAT.CD}} PPG, multilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLAT.GG.CD}} GG, multilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLAT.OPS.CD}} OPS, multilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLAT.PRVG.CD}} PRVG, multilateral (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLAT.PS.CD}} PS, multilateral (INT, current US$){p_end}
 {synopt:{opt DT.INT.MLTC.CD}} PPG, multilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLTC.GG.CD}} GG, multilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLTC.OPS.CD}} OPS, multilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLTC.PRVG.CD}} PRVG, multilateral concessional (INT, current US$){p_end}
+{synopt:{opt DT.INT.MLTC.PS.CD}} PS, multilateral concessional (INT, current US$){p_end}
 {synopt:{opt DT.INT.OFFT.CD}} PPG, official creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.OFFT.GG.CD}} GG, official creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.OFFT.OPS.CD}} OPS, official creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.OFFT.PRVG.CD}} PRVG, official creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.OFFT.PS.CD}} PS, official creditors (INT, current US$){p_end}
 {synopt:{opt DT.INT.PBND.CD}} PPG, bonds (INT, current US$){p_end}
+{synopt:{opt DT.INT.PBND.GG.CD}} GG, bonds (INT, current US$){p_end}
+{synopt:{opt DT.INT.PBND.OPS.CD}} OPS, bonds (INT, current US$){p_end}
+{synopt:{opt DT.INT.PBND.PRVG.CD}} PRVG, bonds (INT, current US$){p_end}
+{synopt:{opt DT.INT.PBND.PS.CD}} PS, bonds (INT, current US$){p_end}
 {synopt:{opt DT.INT.PCBK.CD}} PPG, commercial banks (INT, current US$){p_end}
+{synopt:{opt DT.INT.PCBK.GG.CD}} GG, commercial banks (INT, current US$){p_end}
+{synopt:{opt DT.INT.PCBK.OPS.CD}} OPS, commercial banks (INT, current US$){p_end}
+{synopt:{opt DT.INT.PCBK.PRVG.CD}} PRVG, commercial banks (INT, current US$){p_end}
+{synopt:{opt DT.INT.PCBK.PS.CD}} PS, commercial banks (INT, current US$){p_end}
 {synopt:{opt DT.INT.PGNG.CD}} Interest payments, PPG and PNG Private creditors (current US$){p_end}
 {synopt:{opt DT.INT.PNGB.CD}} PNG, bonds (INT, current US$){p_end}
 {synopt:{opt DT.INT.PNGC.CD}} PNG, commercial banks and other creditors (INT, current US$){p_end}
 {synopt:{opt DT.INT.PROP.CD}} PPG, other private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PROP.GG.CD}} GG, other private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PROP.OPS.CD}} OPS, other private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PROP.PRVG.CD}} PRVG, other private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PROP.PS.CD}} PS, other private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PRPG.CD}} Interest payments on external debt, private guaranteed by public sector (PPG) (INT, current US$){p_end}
 {synopt:{opt DT.INT.PRVS.CD.00.03.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD{p_end}
 {synopt:{opt DT.INT.PRVS.CD.03.YR.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Interest, USD{p_end}
 {synopt:{opt DT.INT.PRVS.CD.04.06.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD{p_end}
@@ -4225,6 +4394,10 @@
 {synopt:{opt DT.INT.PRVS.CD.19.24.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD{p_end}
 {synopt:{opt DT.INT.PRVS.CD.IQ.00.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD{p_end}
 {synopt:{opt DT.INT.PRVT.CD}} PPG, private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PRVT.GG.CD}} GG, private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PRVT.OPS.CD}} OPS, private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PRVT.PRVG.CD}} PRVG, private creditors (INT, current US$){p_end}
+{synopt:{opt DT.INT.PRVT.PS.CD}} PS, private creditors (INT, current US$){p_end}
 {synopt:{opt DT.INT.PUBS.CD.00.03.MO.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD{p_end}
 {synopt:{opt DT.INT.PUBS.CD.03.YR.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Interest, USD{p_end}
 {synopt:{opt DT.INT.PUBS.CD.04.06.MO.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD{p_end}
@@ -4276,10 +4449,21 @@
 {synopt:{opt DT.MAT.OFFT}} Average maturity on new external debt commitments, official (years){p_end}
 {synopt:{opt DT.MAT.PRVT}} Average maturity on new external debt commitments, private (years){p_end}
 {synopt:{opt DT.NFL.BLAT.CD}} Net financial flows, bilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLAT.GG.CD}} GG, bilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLAT.OPS.CD}} OPS, bilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLAT.PRVG.CD}} PRVG, bilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLAT.PS.CD}} PS, bilateral (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.BLTC.CD}} PPG, bilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLTC.GG.CD}} GG, bilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLTC.OPS.CD}} OPS, bilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLTC.PRVG.CD}} PRVG, bilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.BLTC.PS.CD}} PS, bilateral concessional (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.BOND.CD}} Portfolio investment, bonds (PPG + PNG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.DECT.CD}} Net flows on external debt, total (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.DEGG.CD}} Net flows on external debt, general government sector (PPG) (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.DEPS.CD}} Net flows on external debt, public sector (PPG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.DLXF.CD}} Net flows on external debt, long-term (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.DOPS.CD}} Net flows on external debt, other public sector (PPG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.DPNG.CD}} Net flows on external debt, private nonguaranteed (PNG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.DPPG.CD}} Net flows on external debt, public and publicly guaranteed (PPG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.DSTC.CD}} Net flows on external debt, short-term (NFL, current US$){p_end}
@@ -4292,18 +4476,47 @@
 {synopt:{opt DT.NFL.MIBR.CD}} Net financial flows, IBRD (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.MIDA.CD}} Net financial flows, IDA (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.MLAT.CD}} Net financial flows, multilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLAT.GG.CD}} GG, multilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLAT.OPS.CD}} OPS, multilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLAT.PRVG.CD}} PRVG, multilateral (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLAT.PS.CD}} PS, multilateral (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.MLTC.CD}} PPG, multilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLTC.GG.CD}} GG, multilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLTC.OPS.CD}} OPS, multilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLTC.PRVG.CD}} PRVG, multilateral concessional (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.MLTC.PS.CD}} PS, multilateral concessional (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.MOTH.CD}} Net financial flows, others (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.NEBR.CD}} EBRD, private nonguaranteed (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.NIFC.CD}} IFC, private nonguaranteed (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.OFFT.CD}} PPG, official creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.OFFT.GG.CD}} GG, official creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.OFFT.OPS.CD}} OPS, official creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.OFFT.PRVG.CD}} PRVG, official creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.OFFT.PS.CD}} PS, official creditors (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PBND.CD}} PPG, bonds (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PBND.GG.CD}} GG, bonds (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PBND.OPS.CD}} OPS, bonds (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PBND.PRVG.CD}} PRVG, bonds (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PBND.PS.CD}} PS, bonds (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PCBK.CD}} PPG, commercial banks (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PCBK.GG.CD}} GG, commercial banks (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PCBK.OPS.CD}} OPS, commercial banks (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PCBK.PRVG.CD}} PRVG, commercial banks (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PCBK.PS.CD}} PS, commercial banks (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PCBO.CD}} Commercial banks and other lending (PPG + PNG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PNGB.CD}} PNG, bonds (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PNGC.CD}} PNG, commercial banks and other creditors (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PROP.CD}} PPG, other private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PROP.GG.CD}} GG, other private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PROP.OPS.CD}} OPS, other private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PROP.PRVG.CD}} PRVG, other private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PROP.PS.CD}} PS, other private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PRPG.CD}} Net flows on external debt, private guaranteed by public sector (PPG) (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.PRVT.CD}} PPG, private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PRVT.GG.CD}} GG, private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PRVT.OPS.CD}} OPS, private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PRVT.PRVG.CD}} PRVG, private creditors (NFL, current US$){p_end}
+{synopt:{opt DT.NFL.PRVT.PS.CD}} PS, private creditors (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.RDBC.CD}} Net financial flows, RDB concessional (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.RDBN.CD}} Net financial flows, RDB nonconcessional (NFL, current US$){p_end}
 {synopt:{opt DT.NFL.UNAI.CD}} Net official flows from UN agencies, UNAIDS (current US$){p_end}
@@ -4319,22 +4532,62 @@
 {synopt:{opt DT.NFL.WFPG.CD}} Net official flows from UN agencies, WFP (current US$){p_end}
 {synopt:{opt DT.NFL.WHOL.CD}} Net official flows from UN agencies, WHO (current US$){p_end}
 {synopt:{opt DT.NTR.BLAT.CD}} PPG, bilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLAT.GG.CD}} GG, bilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLAT.OPS.CD}} OPS, bilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLAT.PRVG.CD}} PRVG, bilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLAT.PS.CD}} PS, bilateral (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.BLTC.CD}} PPG, bilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLTC.GG.CD}} GG, bilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLTC.OPS.CD}} OPS, bilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLTC.PRVG.CD}} PRVG, bilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.BLTC.PS.CD}} PS, bilateral concessional (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.DECT.CD}} Net transfers on external debt, total (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.DEGG.CD}} Net transfers on external debt, general government sector (PPG) (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.DEPS.CD}} Net transfers on external debt, public sector (PPG) (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.DLXF.CD}} Net transfers on external debt, long-term (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.DOPS.CD}} Net transfers on external debt, other public sector (PPG) (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.DPNG.CD}} Net transfers on external debt, private nonguaranteed (PNG) (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.DPPG.CD}} Net transfers on external debt, public and publicly guaranteed (PPG) (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.MIBR.CD}} PPG, IBRD (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.MIDA.CD}} PPG, IDA (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.MLAT.CD}} PPG, multilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLAT.GG.CD}} GG, multilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLAT.OPS.CD}} OPS, multilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLAT.PRVG.CD}} PRVG, multilateral (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLAT.PS.CD}} PS, multilateral (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.MLTC.CD}} PPG, multilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLTC.GG.CD}} GG, multilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLTC.OPS.CD}} OPS, multilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLTC.PRVG.CD}} PRVG, multilateral concessional (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.MLTC.PS.CD}} PS, multilateral concessional (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.OFFT.CD}} PPG, official creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.OFFT.GG.CD}} GG, official creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.OFFT.OPS.CD}} OPS, official creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.OFFT.PRVG.CD}} PRVG, official creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.OFFT.PS.CD}} PS, official creditors (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.PBND.CD}} PPG, bonds (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PBND.GG.CD}} GG, bonds (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PBND.OPS.CD}} OPS, bonds (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PBND.PRVG.CD}} PRVG, bonds (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PBND.PS.CD}} PS, bonds (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.PCBK.CD}} PPG, commercial banks (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PCBK.GG.CD}} GG, commercial banks (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PCBK.OPS.CD}} OPS, commercial banks (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PCBK.PRVG.CD}} PRVG, commercial banks (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PCBK.PS.CD}} PS, commercial banks (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.PNGB.CD}} PNG, bonds (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.PNGC.CD}} PNG, commercial banks and other creditors (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.PROP.CD}} PPG, other private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PROP.GG.CD}} GG, other private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PROP.OPS.CD}} OPS, other private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PROP.PRVG.CD}} PRVG, other private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PROP.PS.CD}} PS, other private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PRPG.CD}} Net transfers on external debt, private guaranteed by public sector (PPG) (NTR, current US$){p_end}
 {synopt:{opt DT.NTR.PRVT.CD}} PPG, private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PRVT.GG.CD}} GG, private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PRVT.OPS.CD}} OPS, private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PRVT.PRVG.CD}} PRVG, private creditors (NTR, current US$){p_end}
+{synopt:{opt DT.NTR.PRVT.PS.CD}} PS, private creditors (NTR, current US$){p_end}
 {synopt:{opt DT.ODA.ALLD.CD}} Net official development assistance and official aid received (current US$){p_end}
 {synopt:{opt DT.ODA.ALLD.GD.ZS}} Net ODA received (% of GDP){p_end}
 {synopt:{opt DT.ODA.ALLD.GDI.ZS}} Aid (% of GDI){p_end}
@@ -4436,7 +4689,15 @@
 {synopt:{opt DT.SRV.POST.ZS}} Debt service to export ratio, ex-post (%){p_end}
 {synopt:{opt DT.TDA.DECT.CD}} Adjustments to scheduled debt service (current US$){p_end}
 {synopt:{opt DT.TDS.BLAT.CD}} PPG, bilateral (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLAT.GG.CD}} GG, bilateral (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLAT.OPS.CD}} OPS, bilateral (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLAT.PRVG.CD}} PRVG, bilateral (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLAT.PS.CD}} PS, bilateral (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.BLTC.CD}} PPG, bilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLTC.GG.CD}} GG, bilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLTC.OPS.CD}} OPS, bilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLTC.PRVG.CD}} PRVG, bilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.BLTC.PS.CD}} PS, bilateral concessional (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.DEAE.CD.IL.03.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of dir. investors to DI ent., Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DEAE.CD.IL.0912.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of dir. investors to DI ent., Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DEAE.CD.IL.1218.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of dir. investors to DI ent., Prin. and Int., USD{p_end}
@@ -4577,6 +4838,8 @@
 {synopt:{opt DT.TDS.DEFE.CD.IL.36.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 3 to 6, Debt liab. to fellow ent., Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DEFE.CD.IL.69.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 6 to 9, Debt liab. to fellow ent., Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DEFE.CD.IL.IQ.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, Immediate, Debt liab. to fellow ent., Prin. and Int., USD{p_end}
+{synopt:{opt DT.TDS.DEGG.CD}} Debt service on external debt, general government sector (PPG) (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.DEPS.CD}} Debt service on external debt, public sector (PPG) (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.DILD.CD.IL.03.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 0 to 3, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DILD.CD.IL.0912.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 9 to 12, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DILD.CD.IL.1218.US}} Gross Ext. Debt Pmt, DI: Intercom Lending, More than 12 to 18, Debt liab. of DI ent. to dir. investors, Prin. and Int., USD{p_end}
@@ -4763,6 +5026,7 @@
 {synopt:{opt DT.TDS.DLTT.CD.OT.AR.69.US}} Gross Ext. Debt Pmt, Other Sectors, More than 6 to 9, Trade credit and advances, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DLTT.CD.OT.AR.IQ.US}} Gross Ext. Debt Pmt, Other Sectors, Immediate, Trade credit and advances, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.DLXF.CD}} Debt service on external debt, long-term (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.DOPS.CD}} Debt service on external debt, other public sector (PPG) (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.DPNG.CD}} Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.DPPF.XP.ZS}} Debt service (PPG and IMF only, % of exports of goods, services and primary income){p_end}
 {synopt:{opt DT.TDS.DPPG.CD}} Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$){p_end}
@@ -4773,15 +5037,40 @@
 {synopt:{opt DT.TDS.MIBR.CD}} PPG, IBRD (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.MIDA.CD}} PPG, IDA (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.MLAT.CD}} Multilateral debt service (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLAT.GG.CD}} GG, multilateral (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLAT.OPS.CD}} OPS, multilateral (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.MLAT.PG.ZS}} Multilateral debt service (% of public and publicly guaranteed debt service){p_end}
+{synopt:{opt DT.TDS.MLAT.PRVG.CD}} PRVG, multilateral (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLAT.PS.CD}} PS, multilateral (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.MLTC.CD}} PPG, multilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLTC.GG.CD}} GG, multilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLTC.OPS.CD}} OPS, multilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLTC.PRVG.CD}} PRVG, multilateral concessional (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.MLTC.PS.CD}} PS, multilateral concessional (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.OFFT.CD}} PPG, official creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.OFFT.GG.CD}} GG, official creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.OFFT.OPS.CD}} OPS, official creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.OFFT.PRVG.CD}} PRVG, official creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.OFFT.PS.CD}} PS, official creditors (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PBND.CD}} PPG, bonds (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PBND.GG.CD}} GG, bonds (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PBND.OPS.CD}} OPS, bonds (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PBND.PRVG.CD}} PRVG, bonds (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PBND.PS.CD}} PS, bonds (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PCBK.CD}} PPG, commercial banks (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PCBK.GG.CD}} GG, commercial banks (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PCBK.OPS.CD}} OPS, commercial banks (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PCBK.PRVG.CD}} PRVG, commercial banks (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PCBK.PS.CD}} PS, commercial banks (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PGNG.CD}} Debt service, PPG and PNG private creditors (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PNGB.CD}} PNG, bonds (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PNGC.CD}} PNG, commercial banks and other creditors (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PROP.CD}} PPG, other private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PROP.GG.CD}} GG, other private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PROP.OPS.CD}} OPS, other private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PROP.PRVG.CD}} PRVG, other private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PROP.PS.CD}} PS, other private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PRPG.CD}} Debt service on external debt, private guaranteed by public sector (PPG) (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PRVS.CD.00.03.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.PRVS.CD.03.YR.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.PRVS.CD.04.06.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD{p_end}
@@ -4796,6 +5085,10 @@
 {synopt:{opt DT.TDS.PRVS.CD.19.24.MO.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.PRVS.CD.IQ.00.US}} Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.PRVT.CD}} PPG, private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PRVT.GG.CD}} GG, private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PRVT.OPS.CD}} OPS, private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PRVT.PRVG.CD}} PRVG, private creditors (TDS, current US$){p_end}
+{synopt:{opt DT.TDS.PRVT.PS.CD}} PS, private creditors (TDS, current US$){p_end}
 {synopt:{opt DT.TDS.PUBS.CD.00.03.MO.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.PUBS.CD.03.YR.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD{p_end}
 {synopt:{opt DT.TDS.PUBS.CD.04.06.MO.US}} Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD{p_end}
@@ -4873,7 +5166,9 @@
 {synopt:{opt EE.BOD.WOOD.ZS}} Water pollution, wood industry (% of total BOD emissions){p_end}
 {synopt:{opt EE.BOD.WRKR.KG}} Organic water pollutant (BOD) emissions (kg per day per worker){p_end}
 {synopt:{opt EF.EFM.OVRL.XD}} Economic Fitness Metric{p_end}
+{synopt:{opt EF.EFM.PROD.XD}} Economic Fitness Metric{p_end}
 {synopt:{opt EF.EFM.RANK.XD}} Economic Fitness Ranking (1 = high, 149 = low){p_end}
+{synopt:{opt EF.EFM.UNIV.XD}} Universal Economic Fitness Metric{p_end}
 {synopt:{opt EG.CFT.ACCS.ZS}} Access to clean fuels and technologies for cooking (% of population){p_end}
 {synopt:{opt EG.EGY.PRIM.PP.KD}} Energy intensity level of primary energy (MJ/$2011 PPP GDP){p_end}
 {synopt:{opt EG.EGY.PROD.KT.OE}} Energy production (kt of oil equivalent){p_end}
@@ -4978,9 +5273,13 @@
 {synopt:{opt EN.ATM.SF6G.KT.CE}} SF6 gas emissions (thousand metric tons of CO2 equivalent){p_end}
 {synopt:{opt EN.BIR.THRD.NO}} Bird species, threatened{p_end}
 {synopt:{opt EN.BIR.TOTL.NO}} Bird species, total known{p_end}
+{synopt:{opt EN.CLC.CDDY.XD}} Cooling Degree Days{p_end}
 {synopt:{opt EN.CLC.DRSK.XQ}} Disaster risk reduction progress score (1-5 scale; 5=best){p_end}
 {synopt:{opt EN.CLC.GHGR.MT.CE}} GHG net emissions/removals by LUCF (Mt of CO2 equivalent){p_end}
+{synopt:{opt EN.CLC.HEAT.XD}} Health Index 35{p_end}
 {synopt:{opt EN.CLC.MDAT.ZS}} Droughts, floods, extreme temperatures (% of population, average 1990-2009){p_end}
+{synopt:{opt EN.CLC.PRCP.XD}} Maximum 5-day Rainfall (25-yr RL){p_end}
+{synopt:{opt EN.CLC.SPEI.XD}} Mean Drought Index (SPEI){p_end}
 {synopt:{opt EN.CO2.BLDG.MT}} CO2 emissions from residential buildings and commercial and public services (million metric tons){p_end}
 {synopt:{opt EN.CO2.BLDG.ZS}} CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion){p_end}
 {synopt:{opt EN.CO2.ETOT.MT}} CO2 emissions from electricity and heat production, total (million metric tons){p_end}
@@ -5015,10 +5314,14 @@
 {synopt:{opt EN.PRD.ELEC.POP.ZS}} Electricity production (kwh per capita){p_end}
 {synopt:{opt EN.PRD.ELEC}} Electricity production (million kwh){p_end}
 {synopt:{opt EN.ROD.ACCT}} Traffic accidents{p_end}
+{synopt:{opt EN.ROD.TRAF}} Road traffic (vehicles per km){p_end}
 {synopt:{opt EN.RUR.DNST.TOTL}} Population density, rural (people per sq km){p_end}
 {synopt:{opt EN.RUR.DNST}} Rural population density (rural population per sq. km of arable land){p_end}
 {synopt:{opt EN.TDF.COMP.ZS}} Traditional fuel use (% of total energy use){p_end}
 {synopt:{opt EN.TDF.COMP}} Traditional fuel use (kt of oil equivalent){p_end}
+{synopt:{opt EN.TRN.ACCT.VEH.ZS}} Traffic accidents (injured or killed per 1,000 vehicles){p_end}
+{synopt:{opt EN.TRN.NVEH.1K}} Vehicles (per 1,000 people){p_end}
+{synopt:{opt EN.TRN.NVEH.KM}} Vehicles (per km of road){p_end}
 {synopt:{opt EN.URB.LCTY.UR.ZS}} Population in the largest city (% of urban population){p_end}
 {synopt:{opt EN.URB.LCTY}} Population in largest city{p_end}
 {synopt:{opt EN.URB.MCTY.TL.ZS}} Population in urban agglomerations of more than 1 million (% of total population){p_end}
@@ -5098,11 +5401,377 @@
 {synopt:{opt FB.BNK.BRCH.P5}} Bank branches (per 100,000 people){p_end}
 {synopt:{opt FB.BNK.BRCH.SF.P5}} Branches, specialized state financial institutions (per 100,000 adults){p_end}
 {synopt:{opt FB.BNK.CAPA.ZS}} Bank capital to assets ratio (%){p_end}
+{synopt:{opt FB.CAP.INST.ST.DM}} 656_Does a dedicated, national, multi-stakeholder structure exist to promote and coordinate provision of financial education?_#VHQB_00{p_end}
+{synopt:{opt FB.CAP.INST.ST.MS.AL}} 660_Does government, industry, and NGOs participate in the multi-stakeholder structure to promote and coordinate financial education?{p_end}
+{synopt:{opt FB.CAP.INST.ST.MS.GI}} 659_Does government and industry only participate in the multi-stakeholder structure to promote and coordinate financial education?{p_end}
+{synopt:{opt FB.CAP.INST.ST.MS.GP}} 657_Does government participate in the multi-stakeholder structure to promote and coordinate financial education?{p_end}
+{synopt:{opt FB.CAP.INST.ST.MS.IO}} 658_Does industry only participate in the multi-stakeholder structure to promote and coordinate financial education?{p_end}
+{synopt:{opt FB.CAP.INST.ST.MS.WB}} 661_Does government, industry, or NGOs participate in the multi-stakeholder structure to promote and coordinate financial education?_#VHQC_00{p_end}
+{synopt:{opt FB.CAP.INST.ST.MU}} 655_Are there multiple agencies responsible for financial education policy and programs?_#VHQA_01{p_end}
+{synopt:{opt FB.CAP.INST.ST.SG}} 654_Is there a single agency responsible for financial education policy and programs?_#VHQA_00{p_end}
+{synopt:{opt FB.CAP.LEGL.DF.FE}} 653_Does this country have a formal definition for financial education or financial literacy or financial capability? _#VHPA_00{p_end}
+{synopt:{opt FB.CAP.POLI.FE.CTR.WS}} 685_Does the government itself or with partners maintain a website with educational content, tools, and resources for broader financial education?_#VHXA_01{p_end}
+{synopt:{opt FB.CAP.POLI.G2P.FE}} 674_Is financial education integrated into any government-provided social assistance programs? _#VHVA_00{p_end}
+{synopt:{opt FB.CAP.POLI.GL.AP}} 669_Has the government issued written guidelines directed to all providers of financial education on content and/or methodology?{p_end}
+{synopt:{opt FB.CAP.POLI.GL.SP}} 668_Has the government issued written guidelines directed to a limited set of providers of financial education on content and/or methodology?{p_end}
+{synopt:{opt FB.CAP.POLI.GL.WP}} 670_Has the government issued written guidelines directed to all, some, or none of the providers of financial education on content and/or methodology?_#VHUA_00{p_end}
+{synopt:{opt FB.CAP.POLI.NM.5Y}} 662_Has the government, either by itself or with partners, undertaken a national mapping of financial education activities in the past five years? _#VHRA_00{p_end}
+{synopt:{opt FB.CAP.POLI.NS.BF.5Y}} 667_Has a nationally representative broader survey with a component on financial capability of individuals or households been conducted in the past five years?_#VHTA_01{p_end}
+{synopt:{opt FB.CAP.POLI.NS.FC.5Y}} 666_Has a nationally representative dedicated survey of financial capability of individuals or households been conducted in the past five years?_#VHTA_00{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.CD.2Y}} 678_Is financial education at the stage of curriculum development planned within the next 1-2 years within public school curriculums?_#VHWA_03{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.DT.FE}} 675_Is financial education included in public school curriculums as a distinct topic or subject?_#VHWA_00{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.IP.2Y}} 677_Is financial education at the stage of implementation planned within the next 1-2 years within public school curriculums?_#VHWA_02{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.JS.FE}} 681_Is financial education currently or soon to be included as a topic in public school curriculums at junior secondary level?_#VHWB_01{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.NI}} 679_Is financial education at the stage of not being included in public school curriculums?_#VHWA_04{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.PR.FE}} 680_Is financial education currently or soon to be included as a topic in public school curriculums at primary level?_#VHWB_00{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.SS.FE}} 682_Is financial education currently or soon to be included as a topic in public school curriculums at senior secondary level?_#VHWB_02{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.ST.FE}} 676_Is financial education included in public school curriculums as a subtopic integrated into one or multiple other topics or subjects?_#VHWA_01{p_end}
+{synopt:{opt FB.CAP.POLI.PSC.UN.FE}} 683_Is financial education currently or soon to be included as a topic in public school curriculums at university level?_#VHWB_03{p_end}
+{synopt:{opt FB.CAP.POLI.PTC.INF.WS}} 684_Does the government itself or with partners maintain a website to disclose pricing and terms and conditions information?_#VHXA_00{p_end}
+{synopt:{opt FB.CAP.POLI.RE.AP}} 672_Does the government explicitly require all financial service providers to offer financial education?{p_end}
+{synopt:{opt FB.CAP.POLI.RE.SP}} 671_Does the government explicitly require a limited set of financial service providers to offer financial education?{p_end}
+{synopt:{opt FB.CAP.POLI.RE.WP}} 673_Does the government explicitly require all, some, or none of the financial service providers to offer financial education?_#VHUB_00{p_end}
+{synopt:{opt FB.CAP.POLI.RG.DC.AP}} 664_Does the government regularly collect data from all known providers of financial education on the reach of their programs?{p_end}
+{synopt:{opt FB.CAP.POLI.RG.DC.SP}} 663_Does the government regularly collect data from a limited set of providers of financial education on the reach of their programs?{p_end}
+{synopt:{opt FB.CAP.POLI.RG.DC.WP}} 665_Does the government regularly collect data from all, some, or none of the known providers of financial education on the reach of their programs?_#VHSA_00{p_end}
 {synopt:{opt FB.CBK.BRCH.P5}} Commercial bank branches (per 100,000 adults){p_end}
 {synopt:{opt FB.CBK.BRWR.P3}} Borrowers from commercial banks (per 1,000 adults){p_end}
 {synopt:{opt FB.CBK.DPTR.P3}} Depositors with commercial banks (per 1,000 adults){p_end}
 {synopt:{opt FB.DPT.INSU.PC.ZS}} Deposit insurance coverage (% of GDP per capita){p_end}
+{synopt:{opt FB.FCP.BREG.AL.CO.NP}} 593_Do laws and regulations allow consumers a cooling-off period during which they can withdraw from a product or service without a penalty?_#VHHA_02{p_end}
+{synopt:{opt FB.FCP.BREG.EB.AR}} 583_Do laws and regulations require assessment of borrower's ability to repay, without specific borrowing limits?_#VHFA_01{p_end}
+{synopt:{opt FB.FCP.BREG.EB.EL}} 582_Do laws and regulations set explicit limits on excessive borrowing?_#VHFA_00{p_end}
+{synopt:{opt FB.FCP.BREG.EB.NP}} 585_Do laws and regulations contain no provisions to restrict excessive borrowing?_#VHFA_03{p_end}
+{synopt:{opt FB.FCP.BREG.EB.OR}} 584_Do laws and regulations set other restrictions on excessive borrowing?_#VHFA_02{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.AG}} 600_Are financial institutions required to have a minimum level of professional competence/training for agents and intermediaries?_#VHIB_04{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.AP}} 595_Are financial institutions required to have a minimum level of professional competence/training for all relevant personnel dealing with consumers?_#VHIA_00{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.CO}} 599_Are financial institutions required to have a minimum level of professional competence/training for complaints officers?_#VHIB_03{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.CR}} 596_Are financial institutions required to have a minimum level of professional competence/training for credit officers?_#VHIB_00{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.CS}} 601_Are financial institutions required to have a minimum level of professional competence/training for customer service representatives?_#VHIB_05{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.MS}} 598_Are financial institutions required to have a minimum level of professional competence/training for marketing staff?_#VHIB_02{p_end}
+{synopt:{opt FB.FCP.BREG.ML.PC.RO}} 597_Are financial institutions required to have a minimum level of professional competence/training for recovery officers?_#VHIB_01{p_end}
+{synopt:{opt FB.FCP.BREG.MS.DC}} 602_Do laws or regulations require minimum standards for debt collection practices?_#VHJA_00{p_end}
+{synopt:{opt FB.FCP.BREG.PR.BU.ND}} 590_Do laws and regulations prohibit or restrict bundling and tying services and products in a manner that unduly restricts the choice of consumers?_#VHGA_04{p_end}
+{synopt:{opt FB.FCP.BREG.PR.DI.SC}} 589_Do laws and regulations prohibit or restrict discriminating consumers based on gender, ethnicity, faith, political affiliation, or appearance?  _#VHGA_03{p_end}
+{synopt:{opt FB.FCP.BREG.PR.EF.AC}} 591_Do laws and regulations limit fees and charges for account closure that impede customer mobility between financial institutions?_#VHHA_00{p_end}
+{synopt:{opt FB.FCP.BREG.PR.EF.RP}} 594_Do laws and regulations limit early repayment penalties that impede customer mobility between financial institutions?_#VHHA_03{p_end}
+{synopt:{opt FB.FCP.BREG.PR.EP.AC}} 592_Do laws and regulations prohibit extra burdening procedures for account closure that limit customer mobility between financial institutions?_#VHHA_01{p_end}
+{synopt:{opt FB.FCP.BREG.PR.TC.RC}} 588_Do laws and regulations prohibit or restrict the use in consumer agreements of any term or condition that excludes or restricts the right of the consumer?  _#VHGA_02{p_end}
+{synopt:{opt FB.FCP.BREG.PR.TC.RL}} 587_Do laws and regulations prohibit or restrict the use in consumer agreements of any term or condition that excludes or restricts the liability of the financial service provider?  _#VHGA_01{p_end}
+{synopt:{opt FB.FCP.BREG.PR.TC.UF}} 586_Do laws and regulations prohibit or restrict the use in consumer agreements of any term or condition that is unfair, excessively unbalanced or abusive?  _#VHGA_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.AD}} 629_Does the alternative dispute resolution (ADR) entity analyze the complaints data to identify trends?_#VHMF_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.AN}} 619_Does the alternative dispute resolution (ADR) entity also cover non-financial services? _#VHMB_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.BM}} 612_Is there an out-of-court alternative dispute resolution (ADR) scheme that provides both binding decisions and mediation services?_#VHLA_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.BO}} 613_Is there an out-of-court alternative dispute resolution (ADR) scheme that provides binding decisions only?_#VHLA_02{p_end}
+{synopt:{opt FB.FCP.DISR.AS.CI}} 627_Does the alternative dispute resolution (ADR) entity require that consumers first submit their complaints to the relevant financial institution?_#VHME_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.CT}} 630_Does the alternative dispute resolution (ADR) entity communicate complaint trends to the regulator?_#VHMF_02{p_end}
+{synopt:{opt FB.FCP.DISR.AS.DC}} 628_Does the alternative dispute resolution (ADR) entity maintain a database of registered/recorded complaints?_#VHMF_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.FA}} 623_Is the alternative dispute resolution (ADR) entity funded from the budget of a specific government agency?_#VHMD_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.FC}} 626_Is the alternative dispute resolution (ADR) entity funded by a combination of government and other sources?_#VHMD_04{p_end}
+{synopt:{opt FB.FCP.DISR.AS.FG}} 622_Is the alternative dispute resolution (ADR) entity funded from a budget allocated by the central government?_#VHMD_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.FI}} 624_Is the alternative dispute resolution (ADR) entity funded by a financial industry association?_#VHMD_02{p_end}
+{synopt:{opt FB.FCP.DISR.AS.FM}} 625_Is the alternative dispute resolution (ADR) entity funded by direct contributions of its members?_#VHMD_03{p_end}
+{synopt:{opt FB.FCP.DISR.AS.FO}} 618_Does the alternative dispute resolution (ADR) entity focus only on financial services?_#VHMB_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.AG}} 639_Are agents among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_06{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.AT}} 638_Are ATM transactions among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_05{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.BL}} 637_Is bundling or tying of products among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_04{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.CA}} 649_Are current accounts among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_06{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.CC}} 643_Are credit cards among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.CL}} 646_Are consumer loans among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_03{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.DA}} 648_Are deposit accounts among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_05{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.DC}} 644_Are debit cards among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.EC}} 634_Are excessive interest or fees among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.EM}} 652_Are e-money products among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_09{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.FD}} 635_Is fraud among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_02{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.HL}} 645_Are mortgage or housing loans among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_02{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.LI}} 650_Is life insurance among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_07{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.ML}} 647_Are micro loans among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_04{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.NI}} 651_Is non-life insurance among the top-three products complained about to the alternative dispute resolution (ADR) entity?_#VHOA_08{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.OT}} 642_Are other issues among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_09{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.PC}} 641_Is product switching or closure among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_08{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.UC}} 633_Are unclear interest or fees among the top three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.UI}} 640_Are unpaid insurance claims among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_07{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IC.UT}} 636_Are mistaken or unauthorized transactions among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_#VHNA_03{p_end}
+{synopt:{opt FB.FCP.DISR.AS.IR}} 621_Is the alternative dispute resolution (ADR) entity independent from the financial sector regulator?_#VHMC_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.MI}} 617_Is the alternative dispute resolution (ADR) entity a mandatory, industry-based entity?_#VHMA_02{p_end}
+{synopt:{opt FB.FCP.DISR.AS.MO}} 614_Is there an out-of-court alternative dispute resolution (ADR) scheme that provides mediation services only?_#VHLA_03{p_end}
+{synopt:{opt FB.FCP.DISR.AS.PS}} 631_Does the alternative dispute resolution (ADR) entity regularly publish complaint statistics?_#VHMF_03{p_end}
+{synopt:{opt FB.FCP.DISR.AS.RS}} 632_Does the alternative dispute resolution (ADR) entity report complaint statistics to the regulator?_#VHMF_04{p_end}
+{synopt:{opt FB.FCP.DISR.AS.RT}} 611_Is there an out-of-court alternative dispute resolution (ADR) entity that provides consumers of financial services affordable and efficient recourse with a third party?_#VHLA_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.SE}} 615_Is the alternative dispute resolution (ADR) entity a statutory entity?_#VHMA_00{p_end}
+{synopt:{opt FB.FCP.DISR.AS.VI}} 616_Is the alternative dispute resolution (ADR) entity a voluntary, industry-based entity?_#VHMA_01{p_end}
+{synopt:{opt FB.FCP.DISR.AS.WR}} 620_Is the alternative dispute resolution (ADR) entity established within the financial sector regulator?_#VHMC_00{p_end}
+{synopt:{opt FB.FCP.DISR.CH.AC}} 607_Do laws or regulations set standards for accessibility in resolving customer complaints? _#VHKB_03{p_end}
+{synopt:{opt FB.FCP.DISR.CH.DU}} 605_Do laws or regulations require financial institutions to have a designated office or unit for resolving customer complaints? _#VHKB_01{p_end}
+{synopt:{opt FB.FCP.DISR.CH.EM}} 610_Do laws or regulations set standards for providing consumers the details of a relevant external dispute resolution mechanism (if any)? _#VHKB_06{p_end}
+{synopt:{opt FB.FCP.DISR.CH.IP}} 604_Do laws or regulations require implementing procedures and processes to resolve customer complaints? _#VHKB_00{p_end}
+{synopt:{opt FB.FCP.DISR.CH.RG}} 609_Do laws or regulations set standards for reporting complaints data to a government agency? _#VHKB_05{p_end}
+{synopt:{opt FB.FCP.DISR.CH.RK}} 608_Do laws or regulations set standards for record-keeping of customer complaints? _#VHKB_04{p_end}
+{synopt:{opt FB.FCP.DISR.CH.ST}} 603_Do laws or regulations set standards for complaints resolution and handling by financial institutions? _#VHKA_00{p_end}
+{synopt:{opt FB.FCP.DISR.CH.TR}} 606_Do laws or regulations set standards for timeliness of response to customer complaints by financial institutions? _#VHKB_02{p_end}
+{synopt:{opt FB.FCP.INST.CB.DR.AF}} 407_Do disclosure requirements for commercial banks include any form requirements?_#VGYA_02{p_end}
+{synopt:{opt FB.FCP.INST.CB.DR.LL}} 406_Do disclosure requirements for commercial banks include a local language requirement?_#VGYA_01{p_end}
+{synopt:{opt FB.FCP.INST.CB.DR.PL}} 405_Do disclosure requirements for commercial banks include a plain language requirement?_#VGYA_00{p_end}
+{synopt:{opt FB.FCP.INST.CB.DR.RR}} 408_Do disclosure requirements for commercial banks include information on recourse rights and processes?_#VGYA_03{p_end}
+{synopt:{opt FB.FCP.INST.CB.DS.AS}} 338_Are commercial banks required to provide customers with specific types of product information at the advertisement stage?_#VGWA_00{p_end}
+{synopt:{opt FB.FCP.INST.CB.DS.CS}} 341_Are commercial banks required to provide customers with specific types of product information at the contractual stage?_#VGWA_03{p_end}
+{synopt:{opt FB.FCP.INST.CB.DS.PS}} 340_Are commercial banks required to provide customers with specific types of product information at the precontractual stage?_#VGWA_02{p_end}
+{synopt:{opt FB.FCP.INST.CB.DS.SS}} 339_Are commercial banks required to provide customers with specific types of product information at the shopping stage?_#VGWA_01{p_end}
+{synopt:{opt FB.FCP.INST.CB.DS.UR}} 342_Are commercial banks required to provide customers with specific types of product information upon request?_#VGWA_04{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.CF}} 432_Are commercial banks required to disclose account closure fees at the shopping and/or pre-contractual stage?_#VGZA_03{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.CM}} 461_Are commercial banks required to disclose computation method at the shopping and/or pre-contractual stage?_#VHAA_02{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.DI}} 433_Are commercial banks required to disclose deposit insurance coverage availability at the shopping and/or pre-contractual stage?_#VGZA_04{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.ER}} 459_Are commercial banks required to disclose effective interest rate at the shopping and/or pre-contractual stage?_#VHAA_00{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.FP}} 460_Are commercial banks required to disclose fees and penalties at the shopping and/or pre-contractual stage?_#VHAA_01{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.MB}} 429_Are commercial banks required to disclose minimum balance requirements at the shopping and/or pre-contractual stage?_#VGZA_00{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.MF}} 431_Are commercial banks required to disclose account maintenance fee at the shopping and/or pre-contractual stage?_#VGZA_02{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.OF}} 430_Are commercial banks required to disclose account opening fee at the shopping and/or pre-contractual stage?_#VGZA_01{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.RI}} 462_Are commercial banks required to disclose required insurance at the shopping and/or pre-contractual stage?_#VHAA_03{p_end}
+{synopt:{opt FB.FCP.INST.CB.PD.SW}} 463_Are commercial banks required to disclose specific warnings at the shopping and/or pre-contractual stage?_#VHAA_04{p_end}
+{synopt:{opt FB.FCP.INST.CB.SF.AS}} 398_Are commercial banks required to provide customers with specific types of product information in a standardized format at any stage?_#VGXG_00{p_end}
+{synopt:{opt FB.FCP.INST.EP.IF}} 334_Does the financial consumer protection (FCP) agency have enforcement powers to impose fines and penalties?_#VGVB_03{p_end}
+{synopt:{opt FB.FCP.INST.EP.IN}} 335_Does the financial consumer protection (FCP) agency have enforcement powers to issue public notice of violations?_#VGVB_04{p_end}
+{synopt:{opt FB.FCP.INST.EP.IS}} 337_Does the financial consumer protection (FCP) agency have enforcement powers to issue administrative sanctions to senior management?_#VGVB_06{p_end}
+{synopt:{opt FB.FCP.INST.EP.IW}} 331_Does the financial consumer protection (FCP) agency have enforcement powers to issue warnings to financial institutions?_#VGVB_00{p_end}
+{synopt:{opt FB.FCP.INST.EP.RF}} 332_Does the financial consumer protection (FCP) agency have enforcement powers to require providers to refund fees and charges?_#VGVB_01{p_end}
+{synopt:{opt FB.FCP.INST.EP.RL}} 336_Does the financial consumer protection (FCP) agency have enforcement powers to revoke or recommend to revoke license?_#VGVB_05{p_end}
+{synopt:{opt FB.FCP.INST.EP.WA}} 333_Does the financial consumer protection (FCP) agency have enforcement powers to require providers to withdraw misleading advertisements?_#VGVB_02{p_end}
+{synopt:{opt FB.FCP.INST.ES.AF.10}} 313_Was the financial consumer protection (FCP) unit in this country established after the year 2010?{p_end}
+{synopt:{opt FB.FCP.INST.ES.BF.2K}} 311_Was the financial consumer protection (FCP) unit in this country established before the year 2000?{p_end}
+{synopt:{opt FB.FCP.INST.ES.BW.01}} 312_Was the financial consumer protection (FCP) unit in this country established between the years 2000 and 2010?{p_end}
+{synopt:{opt FB.FCP.INST.ES.WH.EN}} 314_When was the financial consumer protection (FCP) unit in this country established?_#VGUF_00{p_end}
+{synopt:{opt FB.FCP.INST.FC.SF.AS}} 400_Are financial cooperatives required to provide customers with specific types of product information in a standardized format at any stage?_#VGXG_02{p_end}
+{synopt:{opt FB.FCP.INST.MC.SF.AS}} 402_Are microcredit institutions (MCIs) required to provide customers with specific types of product information in a standardized format at any stage?_#VGXG_04{p_end}
+{synopt:{opt FB.FCP.INST.NB.SF.AS}} 403_Are non-bank e-money issuers (NBEIs) required to provide customers with specific types of product information in a standardized format at any stage?_#VGXG_05{p_end}
+{synopt:{opt FB.FCP.INST.NS.BW.LC}} 317_Does the financial consumer protection (FCP) unit in this country have the staff of between 50 and 99 people?{p_end}
+{synopt:{opt FB.FCP.INST.NS.BW.XL}} 316_Does the financial consumer protection (FCP) unit in this country have the staff of between 10 and 49 people?{p_end}
+{synopt:{opt FB.FCP.INST.NS.HW.MY}} 319_How many staff work in the financial consumer protection (FCP) unit in this country?_#VGUG_00{p_end}
+{synopt:{opt FB.FCP.INST.NS.LS.XP}} 315_Does the financial consumer protection (FCP) unit in this country have the staff of less than 10 people?{p_end}
+{synopt:{opt FB.FCP.INST.NS.MT.CM}} 318_Does the financial consumer protection (FCP) unit in this country have the staff of 100 or more people?{p_end}
+{synopt:{opt FB.FCP.INST.OB.SF.AS}} 399_Are other banks required to provide customers with specific types of product information in a standardized format at any stage?_#VGXG_01{p_end}
+{synopt:{opt FB.FCP.INST.OD.SF.AS}} 401_Are other deposit taking institutions (ODTIs) required to provide customers with specific types of product information in a standardized format at any stage?_#VGXG_03{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.CH}} 321_Is complaints handling one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_01{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.EI}} 328_Are off-site inspection of financial institutions one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_08{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.FE}} 330_Is financial education one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_10{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.II}} 327_Are on-site inspection and investigation of financial institutions one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_07{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.IR}} 320_Is drafting or providing inputs into regulation one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_00{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.MM}} 325_Is market monitoring one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_05{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.MR}} 326_Is market research by studying consumer behavior one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_06{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.MS}} 324_Is mystery/incognito shopping one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_04{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.NC}} 322_Is collecting data from financial institutions on the number of complaints received one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_02{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.RF}} 323_Is collecting data from financial institutions on the rates and fees for financial services one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_03{p_end}
+{synopt:{opt FB.FCP.INST.SA.MA.TR}} 329_Are thematic reviews one of the main activities of the financial consumer protection (FCP) unit?_#VGVA_09{p_end}
+{synopt:{opt FB.FCP.INST.SI.SF.AS}} 404_Are at least some financial institutions required to provide customers with specific types of product information in a standardized format?_#VGXH_00{p_end}
+{synopt:{opt FB.FCP.INST.ST.RS.DP}} 302_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a dedicated financial consumer protection authority model?{p_end}
+{synopt:{opt FB.FCP.INST.ST.RS.GP}} 303_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a general consumer protection authority model?{p_end}
+{synopt:{opt FB.FCP.INST.ST.RS.IA}} 300_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated single financial sector authority model?{p_end}
+{synopt:{opt FB.FCP.INST.ST.RS.IS}} 301_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated sectoral financial sector authority model?{p_end}
+{synopt:{opt FB.FCP.INST.ST.RS.SH}} 304_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a shared financial and general consumer protection authority model?{p_end}
+{synopt:{opt FB.FCP.INST.ST.RS.WT}} 305_What type of institutional structure for financial consumer protection (FCP) regulation and supervision is implemented in this country?_#VGUC_00{p_end}
+{synopt:{opt FB.FCP.INST.ST.UA.DF}} 306_Under the agency overseeing financial consumer protection (FCP) in this country, is there a dedicated FCP unit?_#VGUD_00{p_end}
+{synopt:{opt FB.FCP.LEGL.FL.SA.EX}} 295_Is there a stand-alone financial consumer protection law in place?_#VGUA_02{p_end}
+{synopt:{opt FB.FCP.LEGL.FR.CP.EX}} 299_Are consumer protection provisions in place within broader financial sector regulations?_#VGUB_01{p_end}
+{synopt:{opt FB.FCP.LEGL.GL.EF.EX}} 294_Is there a general consumer protection law with explicit reference to financial services in place?_#VGUA_01{p_end}
+{synopt:{opt FB.FCP.LEGL.GL.NF.EX}} 293_Is there a general consumer protection law without explicit reference to financial services in place?_#VGUA_00{p_end}
+{synopt:{opt FB.FCP.LEGL.NP.NF.NE}} 297_Is there no legal framework for financial consumer protection in this country?_#VGUA_04{p_end}
+{synopt:{opt FB.FCP.LEGL.PR.SA.EX}} 298_Are stand-alone financial consumer protection (FCP) regulations in place?_#VGUB_00{p_end}
+{synopt:{opt FB.FCP.LEGL.SL.PP.EX}} 296_Are there consumer protection provisions in place within broader financial sector laws?_#VGUA_03{p_end}
 {synopt:{opt FB.FIN.INFO.XQ}} Financial information infrastructure index (0=less developed to 10=more developed){p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.MC}} 287_Is the ceiling on the minimum balance for savings/current accounts regulated in this country?_#VGTA_01{p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.MM}} 288_Are the maximum maintenance fees for savings/current accounts regulated in this country?_#VGTA_02{p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.MO}} 289_Are the maximum overdraft penalty or below minimum balance penalty regulated in this country?_#VGTA_03{p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.MX}} 286_Is the maximum cost to open a savings/current account regulated in this country?_#VGTA_00{p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.NC}} 292_Is there no cost for customers to open a savings/current account as per regulation in this country?_#VGTA_06{p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.NL}} 291_Is there no law or regulation regarding the cost of customer accounts in this country?_#VGTA_05{p_end}
+{synopt:{opt FB.INC.BNKG.AC.SC.OF}} 290_Are other factors in the cost of customer accounts regulated in this country?_#VGTA_04{p_end}
+{synopt:{opt FB.INC.EMNY.NB.IN.PM}} 231_Are non-bank e-money issuers (NBEIs) permitted to pay interest on customers' e-money accounts?_#VGOA_00{p_end}
+{synopt:{opt FB.INC.EMNY.NB.IP.NP}} 233_Are non-bank e-money issuers (NBEIs) not permitted to pay interest or share profits with their e-money customers?_#VGOA_02{p_end}
+{synopt:{opt FB.INC.EMNY.NB.PU.RR}} 230_Are non-bank e-money issuers (NBEIs) prohibited from using customer funds for purposes other than redeeming e-money and executing fund transfers?_#VGNA_00{p_end}
+{synopt:{opt FB.INC.EMNY.NB.SP.PM}} 232_Are non-bank e-money issuers (NBEIs) permitted to share profits with their e-money customers?_#VGOA_01{p_end}
+{synopt:{opt FB.INC.EMNY.SF.TA.CB}} 227_Is the use of accounts at the central bank required to safeguard e-money funds?_#VGMA_03{p_end}
+{synopt:{opt FB.INC.EMNY.SF.TA.EA}} 225_Is the use of escrow accounts required to safeguard e-money funds?_#VGMA_01{p_end}
+{synopt:{opt FB.INC.EMNY.SF.TA.ND}} 228_Is the type of accounts to safeguard e-money funds not defined?_#VGMA_04{p_end}
+{synopt:{opt FB.INC.EMNY.SF.TA.OT}} 229_Is some other type of accounts (not mentioned above) required to safeguard e-money funds?_#VGMA_05{p_end}
+{synopt:{opt FB.INC.EMNY.SF.TA.RA}} 226_Is the use of regular accounts required to safeguard e-money funds?_#VGMA_02{p_end}
+{synopt:{opt FB.INC.EMNY.SF.TA.TA}} 224_Is the use of trust accounts required to safeguard e-money funds?_#VGMA_00{p_end}
+{synopt:{opt FB.INC.EMNY.SP.IF.AM}} 220_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at more than one prudentially regulated financial institution, possibly the central bank and othe{p_end}
+{synopt:{opt FB.INC.EMNY.SP.IF.AO}} 219_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at a single prudentially regulated financial institution, possibly the central bank?{p_end}
+{synopt:{opt FB.INC.EMNY.SP.IF.NR}} 222_Is it not required that customers' e-money funds are separated from e-money issuer's funds?{p_end}
+{synopt:{opt FB.INC.EMNY.SP.IF.SM}} 221_Is only a fraction of customers' e-money funds required to be separated from e-money issuer's funds and kept at one or more prudentially regulated financial institutions, possibly the central bank{p_end}
+{synopt:{opt FB.INC.EMNY.SP.IF.WH}} 223_What fraction of customers' e-money funds is required to be separated from e-money issuer's funds and kept at how many prudentially regulated financial institutions?_#VGLA_00{p_end}
+{synopt:{opt FB.INC.INST.CB.AU.AR}} 192_For commercial banks, is authorization of new or modified financial products always explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.CB.AU.NR}} 194_For commercial banks, is authorization of new or modified financial products never explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.CB.AU.SR}} 193_For commercial banks, is authorization of new or modified financial products only in some cases explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.CB.AU.WR}} 195_For commercial banks, is authorization of new or modified financial products explicitly required?_#VGJA_00{p_end}
+{synopt:{opt FB.INC.INST.CB.CD.SE}} 266_For commercial banks, are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_#VGRA_00{p_end}
+{synopt:{opt FB.INC.INST.CB.CRB.CR}} 162_Are commercial banks required to check/report to credit bureau for some/all loans?_#VGHA_00{p_end}
+{synopt:{opt FB.INC.INST.CB.LN.AL}} 168_For commercial banks, is all lending subject to interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.CB.LN.NL}} 169_For commercial banks, are there no interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.CB.LN.SL}} 170_For commercial banks, are there some interest rate caps or pricing limits that apply to certain products or segments?{p_end}
+{synopt:{opt FB.INC.INST.CB.LN.WL}} 171_For commercial banks, is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_00{p_end}
+{synopt:{opt FB.INC.INST.CB.LT.NF}} 271_Are commercial banks allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_#VGSA_01{p_end}
+{synopt:{opt FB.INC.INST.CB.LT.NI}} 270_Are commercial banks allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_#VGSA_00{p_end}
+{synopt:{opt FB.INC.INST.CB.LT.OE}} 273_Are commercial banks allowed to implement other elements under the risk-based approach to AML/CFT regulation?_#VGSA_03{p_end}
+{synopt:{opt FB.INC.INST.CB.LT.SM}} 272_Are commercial banks allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_#VGSA_02{p_end}
+{synopt:{opt FB.INC.INST.CB.TP.LI}} 123_Are commercial banks liable for any actions or omissions of their agents?_#VGFA_00{p_end}
+{synopt:{opt FB.INC.INST.FC.AU.AR}} 200_For financial cooperatives, is authorization of new or modified financial products always explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.FC.AU.NR}} 202_For financial cooperatives, is authorization of new or modified financial products never explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.FC.AU.SR}} 201_For financial cooperatives, is authorization of new or modified financial products only in some cases explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.FC.AU.WR}} 203_For financial cooperatives, is authorization of new or modified financial products explicitly required?_#VGJA_02{p_end}
+{synopt:{opt FB.INC.INST.FC.CD.SE}} 268_For financial cooperatives, are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_#VGRA_02{p_end}
+{synopt:{opt FB.INC.INST.FC.CRB.CR}} 164_Are financial cooperatives required to check/report to credit bureau for some/all loans?_#VGHA_02{p_end}
+{synopt:{opt FB.INC.INST.FC.LN.AL}} 176_For financial cooperatives, is all lending subject to interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.FC.LN.NL}} 177_For financial cooperatives, are there no interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.FC.LN.SL}} 178_For financial cooperatives, are there some interest rate caps or pricing limits that apply to certain products or segments?{p_end}
+{synopt:{opt FB.INC.INST.FC.LN.WL}} 179_For financial cooperatives, is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_02{p_end}
+{synopt:{opt FB.INC.INST.FC.LT.NF}} 279_Are financial cooperatives allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_#VGSC_01{p_end}
+{synopt:{opt FB.INC.INST.FC.LT.NI}} 278_Are financial cooperatives allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_#VGSC_00{p_end}
+{synopt:{opt FB.INC.INST.FC.LT.OE}} 281_Are financial cooperatives allowed to implement other elements under the risk-based approach to AML/CFT regulation?_#VGSC_03{p_end}
+{synopt:{opt FB.INC.INST.FC.LT.SM}} 280_Are financial cooperatives allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_#VGSC_02{p_end}
+{synopt:{opt FB.INC.INST.FC.TP.LI}} 131_Are financial cooperatives liable for any actions or omissions of their agents?_#VGFC_00{p_end}
+{synopt:{opt FB.INC.INST.FP.AU.CR}} 218_Are consumer risks assessed during authorization process for modified or new financial products?_#VGKA_02{p_end}
+{synopt:{opt FB.INC.INST.FP.AU.LR}} 217_Are AML/CFT risks assessed during authorization process for modified or new financial products?_#VGKA_01{p_end}
+{synopt:{opt FB.INC.INST.FP.AU.OR}} 216_Are operational risks assessed during authorization process for modified or new financial products?_#VGKA_00{p_end}
+{synopt:{opt FB.INC.INST.FW.CB}} 001_Does a regulatory/supervisory framework exist for commercial banks?_#VGAA_00{p_end}
+{synopt:{opt FB.INC.INST.FW.FC}} 003_Does a regulatory/supervisory framework exist for financial cooperatives?_#VGAA_02{p_end}
+{synopt:{opt FB.INC.INST.FW.MC}} 005_Does a regulatory/supervisory framework exist for microcredit institutions (MCIs)?_#VGAA_04{p_end}
+{synopt:{opt FB.INC.INST.FW.NB}} 006_Does a regulatory/supervisory framework exist for non-bank e-money issuers (NBEIs)?_#VGAA_05{p_end}
+{synopt:{opt FB.INC.INST.FW.OB}} 002_Does a regulatory/supervisory framework exist for other banks?_#VGAA_01{p_end}
+{synopt:{opt FB.INC.INST.FW.OD}} 004_Does a regulatory/supervisory framework exist for other deposit taking institutions (ODTIs)?_#VGAA_03{p_end}
+{synopt:{opt FB.INC.INST.MC.AU.AR}} 208_For microcredit institutions (MCIs), is authorization of new or modified financial products always explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.MC.AU.NR}} 210_For microcredit institutions (MCIs), is authorization of new or modified financial products never explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.MC.AU.SR}} 209_For microcredit institutions (MCIs), is authorization of new or modified financial products only in some cases explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.MC.AU.WR}} 211_For microcredit institutions (MCIs), is authorization of new or modified financial products explicitly required?_#VGJA_04{p_end}
+{synopt:{opt FB.INC.INST.MC.CRB.CR}} 166_Are microcredit institutions (MCIs) required to check/report to credit bureau for some/all loans?_#VGHA_04{p_end}
+{synopt:{opt FB.INC.INST.MC.LN.AL}} 184_For microcredit institutions (MCIs), is all lending subject to interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.MC.LN.NL}} 185_For microcredit institutions (MCIs), are there no interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.MC.LN.SL}} 186_For microcredit institutions (MCIs), are there some interest rate caps or pricing limits that apply to certain products or segments?{p_end}
+{synopt:{opt FB.INC.INST.MC.LN.WL}} 187_For microcredit institutions (MCIs), is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_04{p_end}
+{synopt:{opt FB.INC.INST.MC.TP.LI}} 139_Are microcredit institutions (MCIs) liable for any actions or omissions of their agents?_#VGFE_00{p_end}
+{synopt:{opt FB.INC.INST.NB.AU.AR}} 212_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products always explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.NB.AU.NR}} 214_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products never explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.NB.AU.SR}} 213_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products only in some cases explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.NB.AU.WR}} 215_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products explicitly required?_#VGJA_05{p_end}
+{synopt:{opt FB.INC.INST.NB.CRB.CR}} 167_Are non-bank e-money issuers (NBEIs) required to check/report to credit bureau for some/all loans?_#VGHA_05{p_end}
+{synopt:{opt FB.INC.INST.NB.TP.LI}} 143_Are non-bank e-money issuers (NBEIs) liable for any actions or omissions of their agents?_#VGFF_00{p_end}
+{synopt:{opt FB.INC.INST.OB.AU.AR}} 196_For other banks, is authorization of new or modified financial products always explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.OB.AU.NR}} 198_For other banks, is authorization of new or modified financial products never explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.OB.AU.SR}} 197_For other banks, is authorization of new or modified financial products only in some cases explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.OB.AU.WR}} 199_For other banks, is authorization of new or modified financial products explicitly required?_#VGJA_01{p_end}
+{synopt:{opt FB.INC.INST.OB.CD.SE}} 267_For other banks, are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_#VGRA_01{p_end}
+{synopt:{opt FB.INC.INST.OB.CRB.CR}} 163_Are other banks required to check/report to credit bureau for some/all loans?_#VGHA_01{p_end}
+{synopt:{opt FB.INC.INST.OB.LN.AL}} 172_For other banks, is all lending subject to interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.OB.LN.NL}} 173_For other banks, are there no interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.OB.LN.SL}} 174_For other banks, are there some interest rate caps or pricing limits that apply to certain products or segments?{p_end}
+{synopt:{opt FB.INC.INST.OB.LN.WL}} 175_For other banks, is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_01{p_end}
+{synopt:{opt FB.INC.INST.OB.LT.NF}} 275_Are other banks allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_#VGSB_01{p_end}
+{synopt:{opt FB.INC.INST.OB.LT.NI}} 274_Are other banks allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_#VGSB_00{p_end}
+{synopt:{opt FB.INC.INST.OB.LT.OE}} 277_Are other banks allowed to implement other elements under the risk-based approach to AML/CFT regulation?_#VGSB_03{p_end}
+{synopt:{opt FB.INC.INST.OB.LT.SM}} 276_Are other banks allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_#VGSB_02{p_end}
+{synopt:{opt FB.INC.INST.OB.TP.LI}} 127_Are other banks liable for any actions or omissions of their agents?_#VGFB_00{p_end}
+{synopt:{opt FB.INC.INST.OD.AU.AR}} 204_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products always explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.OD.AU.NR}} 206_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products never explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.OD.AU.SR}} 205_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products only in some cases explicitly required?{p_end}
+{synopt:{opt FB.INC.INST.OD.AU.WR}} 207_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products explicitly required?_#VGJA_03{p_end}
+{synopt:{opt FB.INC.INST.OD.CD.SE}} 269_For other deposit taking institutions (ODTIs), are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_#VGRA_03{p_end}
+{synopt:{opt FB.INC.INST.OD.CRB.CR}} 165_Are other deposit taking institutions (ODTIs) required to check/report to credit bureau for some/all loans?_#VGHA_03{p_end}
+{synopt:{opt FB.INC.INST.OD.LN.AL}} 180_For other deposit taking institutions (ODTIs), is all lending subject to interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.OD.LN.NL}} 181_For other deposit taking institutions (ODTIs), are there no interest rate caps or pricing limits?{p_end}
+{synopt:{opt FB.INC.INST.OD.LN.SL}} 182_For other deposit taking institutions (ODTIs), are there some interest rate caps or pricing limits that apply to certain products or segments?{p_end}
+{synopt:{opt FB.INC.INST.OD.LN.WL}} 183_For other deposit taking institutions (ODTIs), is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_03{p_end}
+{synopt:{opt FB.INC.INST.OD.LT.NF}} 283_Are other deposit taking institutions (ODTIs) allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_#VGSD_01{p_end}
+{synopt:{opt FB.INC.INST.OD.LT.NI}} 282_Are other deposit taking institutions (ODTIs) allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_#VGSD_00{p_end}
+{synopt:{opt FB.INC.INST.OD.LT.OE}} 285_Are other deposit taking institutions (ODTIs) allowed to implement other elements under the risk-based approach to AML/CFT regulation?_#VGSD_03{p_end}
+{synopt:{opt FB.INC.INST.OD.LT.SM}} 284_Are other deposit taking institutions (ODTIs) allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_#VGSD_02{p_end}
+{synopt:{opt FB.INC.INST.OD.TP.LI}} 135_Are other deposit taking institutions (ODTIs) liable for any actions or omissions of their agents?_#VGFD_00{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.AG}} 028_Are commercial banks permitted to act as an agent of a financial provider?_#VGDA_02{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.CA}} 026_Are commercial banks permitted to provide checking or current accounts?_#VGDA_00{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.EM}} 032_Are commercial banks permitted to issue e-money (including prepaid e-money cards) ?_#VGDA_06{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.IN}} 033_Are commercial banks permitted to distribute insurance?_#VGDA_07{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.PC}} 031_Are commercial banks permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_#VGDA_05{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.PN}} 034_Are commercial banks permitted to distribute pension products?_#VGDA_08{p_end}
+{synopt:{opt FB.INC.INST.PA.CB.TP}} 027_Are commercial banks permitted to contract with retail agents as third-party delivery channels?_#VGDA_01{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.AG}} 046_Are financial cooperatives permitted to act as an agent of a financial provider?_#VGDC_02{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.CA}} 044_Are financial cooperatives permitted to provide checking or current accounts?_#VGDC_00{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.EM}} 050_Are financial cooperatives permitted to issue e-money (including prepaid e-money cards) ?_#VGDC_06{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.IN}} 051_Are financial cooperatives permitted to distribute insurance?_#VGDC_07{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.PC}} 049_Are financial cooperatives permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_#VGDC_05{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.PN}} 052_Are financial cooperatives permitted to distribute pension products?_#VGDC_08{p_end}
+{synopt:{opt FB.INC.INST.PA.FC.TP}} 045_Are financial cooperatives permitted to contract with retail agents as third-party delivery channels?_#VGDC_01{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.AG}} 064_Are microcredit institutions (MCIs) permitted to act as an agent of a financial provider?_#VGDE_02{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.CA}} 062_Are microcredit institutions (MCIs) permitted to provide checking or current accounts?_#VGDE_00{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.EM}} 068_Are microcredit institutions (MCIs) permitted to issue e-money (including prepaid e-money cards) ?_#VGDE_06{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.IN}} 069_Are microcredit institutions (MCIs) permitted to distribute insurance?_#VGDE_07{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.PC}} 067_Are microcredit institutions (MCIs) permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_#VGDE_05{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.PN}} 070_Are microcredit institutions (MCIs) permitted to distribute pension products?_#VGDE_08{p_end}
+{synopt:{opt FB.INC.INST.PA.MC.TP}} 063_Are microcredit institutions (MCIs) permitted to contract with retail agents as third-party delivery channels?_#VGDE_01{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.AG}} 073_Are non-bank e-money issuers (NBEIs) permitted to act as an agent of a financial provider?_#VGDF_02{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.CA}} 071_Are non-bank e-money issuers (NBEIs) permitted to provide checking or current accounts?_#VGDF_00{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.EM}} 077_Are non-bank e-money issuers (NBEIs) permitted to issue e-money (including prepaid e-money cards) ?_#VGDF_06{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.IN}} 078_Are non-bank e-money issuers (NBEIs) permitted to distribute insurance?_#VGDF_07{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.PC}} 076_Are non-bank e-money issuers (NBEIs) permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_#VGDF_05{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.PN}} 079_Are non-bank e-money issuers (NBEIs) permitted to distribute pension products?_#VGDF_08{p_end}
+{synopt:{opt FB.INC.INST.PA.NB.TP}} 072_Are non-bank e-money issuers (NBEIs) permitted to contract with retail agents as third-party delivery channels?_#VGDF_01{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.AG}} 037_Are other banks permitted to act as an agent of a financial provider?_#VGDB_02{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.CA}} 035_Are other banks permitted to provide checking or current accounts?_#VGDB_00{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.EM}} 041_Are other banks permitted to issue e-money (including prepaid e-money cards) ?_#VGDB_06{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.IN}} 042_Are other banks permitted to distribute insurance?_#VGDB_07{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.PC}} 040_Are other banks permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_#VGDB_05{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.PN}} 043_Are other banks permitted to distribute pension products?_#VGDB_08{p_end}
+{synopt:{opt FB.INC.INST.PA.OB.TP}} 036_Are other banks permitted to contract with retail agents as third-party delivery channels?_#VGDB_01{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.AG}} 055_Are other deposit taking institutions (ODTIs) permitted to act as an agent of a financial provider?_#VGDD_02{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.CA}} 053_Are other deposit taking institutions (ODTIs) permitted to provide checking or current accounts?_#VGDD_00{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.EM}} 059_Are other deposit taking institutions (ODTIs) permitted to issue e-money (including prepaid e-money cards) ?_#VGDD_06{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.IN}} 060_Are other deposit taking institutions (ODTIs) permitted to distribute insurance?_#VGDD_07{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.PC}} 058_Are other deposit taking institutions (ODTIs) permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_#VGDD_05{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.PN}} 061_Are other deposit taking institutions (ODTIs) permitted to distribute pension products?_#VGDD_08{p_end}
+{synopt:{opt FB.INC.INST.PA.OD.TP}} 054_Are other deposit taking institutions (ODTIs) permitted to contract with retail agents as third-party delivery channels?_#VGDD_01{p_end}
+{synopt:{opt FB.INC.INST.SU.MN.NB}} 007_Are any non-bank e-money issuers subsidiaries of mobile network operators?_#VGAB_00{p_end}
+{synopt:{opt FB.INC.INST.TP.CB.ID}} 081_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of commercial banks?_#VGEB_00{p_end}
+{synopt:{opt FB.INC.INST.TP.CB.LA}} 083_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of commercial banks?_#VGEB_02{p_end}
+{synopt:{opt FB.INC.INST.TP.CB.OA}} 084_Are third parties such as retail agents allowed to open a customer account on behalf of commercial banks?_#VGEB_03{p_end}
+{synopt:{opt FB.INC.INST.TP.CB.RD}} 086_Are third parties such as retail agents allowed to receive deposits on behalf of commercial banks?_#VGEB_05{p_end}
+{synopt:{opt FB.INC.INST.TP.FC.ID}} 095_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of financial cooperatives?_#VGED_00{p_end}
+{synopt:{opt FB.INC.INST.TP.FC.LA}} 097_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of financial cooperatives?_#VGED_02{p_end}
+{synopt:{opt FB.INC.INST.TP.FC.OA}} 098_Are third parties such as retail agents allowed to open a customer account on behalf of financial cooperatives?_#VGED_03{p_end}
+{synopt:{opt FB.INC.INST.TP.FC.RD}} 100_Are third parties such as retail agents allowed to receive deposits on behalf of financial cooperatives?_#VGED_05{p_end}
+{synopt:{opt FB.INC.INST.TP.MC.ID}} 109_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of microcredit institutions (MCIs)?_#VGEF_00{p_end}
+{synopt:{opt FB.INC.INST.TP.MC.LA}} 111_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of microcredit institutions (MCIs)?_#VGEF_02{p_end}
+{synopt:{opt FB.INC.INST.TP.MC.OA}} 112_Are third parties such as retail agents allowed to open a customer account on behalf of microcredit institutions (MCIs)?_#VGEF_03{p_end}
+{synopt:{opt FB.INC.INST.TP.MC.RD}} 114_Are third parties such as retail agents allowed to receive deposits on behalf of microcredit institutions (MCIs)?_#VGEF_05{p_end}
+{synopt:{opt FB.INC.INST.TP.NB.ID}} 116_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of non-bank e-money issuers (NBEIs)?_#VGEG_00{p_end}
+{synopt:{opt FB.INC.INST.TP.NB.LA}} 118_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of non-bank e-money issuers (NBEIs)?_#VGEG_02{p_end}
+{synopt:{opt FB.INC.INST.TP.NB.OA}} 119_Are third parties such as retail agents allowed to open a customer account on behalf of non-bank e-money issuers (NBEIs)?_#VGEG_03{p_end}
+{synopt:{opt FB.INC.INST.TP.NB.RD}} 121_Are third parties such as retail agents allowed to receive deposits on behalf of non-bank e-money issuers (NBEIs)?_#VGEG_05{p_end}
+{synopt:{opt FB.INC.INST.TP.OB.ID}} 088_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of other banks?_#VGEC_00{p_end}
+{synopt:{opt FB.INC.INST.TP.OB.LA}} 090_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of other banks?_#VGEC_02{p_end}
+{synopt:{opt FB.INC.INST.TP.OB.OA}} 091_Are third parties such as retail agents allowed to open a customer account on behalf of other banks?_#VGEC_03{p_end}
+{synopt:{opt FB.INC.INST.TP.OB.RD}} 093_Are third parties such as retail agents allowed to receive deposits on behalf of other banks?_#VGEC_05{p_end}
+{synopt:{opt FB.INC.INST.TP.OD.ID}} 102_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of other deposit taking institutions (ODTIs)?_#VGEE_00{p_end}
+{synopt:{opt FB.INC.INST.TP.OD.LA}} 104_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of other deposit taking institutions (ODTIs)?_#VGEE_02{p_end}
+{synopt:{opt FB.INC.INST.TP.OD.OA}} 105_Are third parties such as retail agents allowed to open a customer account on behalf of other deposit taking institutions (ODTIs)?_#VGEE_03{p_end}
+{synopt:{opt FB.INC.INST.TP.OD.RD}} 107_Are third parties such as retail agents allowed to receive deposits on behalf of other deposit taking institutions (ODTIs)?_#VGEE_05{p_end}
+{synopt:{opt FB.INC.INST.TP.RA}} 080_Are at least some financial service providers permitted to use retail agents as third-party delivery channels?_#VGEA_00{p_end}
+{synopt:{opt FB.INC.LEGL.DF.MC}} 148_Is the term of microcredit explicitly defined in law or regulation?_#VGGA_01{p_end}
+{synopt:{opt FB.INC.LEGL.DF.MF}} 147_Is the term of microfinance explicitly defined in law or regulation?_#VGGA_00{p_end}
+{synopt:{opt FB.INC.LEGL.DF.MS}} 149_Is the term of microsavings explicitly defined in law or regulation?_#VGGA_02{p_end}
+{synopt:{opt FB.INC.NSTR.FC.DV}} 018_Is a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) under development?_#VGAG_01{p_end}
+{synopt:{opt FB.INC.NSTR.FC.LN}} 017_Has a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) already been launched?_#VGAG_00{p_end}
+{synopt:{opt FB.INC.NSTR.FI.DV}} 009_Is a national financial inclusion strategy (NFIS) under development?_#VGAC_01{p_end}
+{synopt:{opt FB.INC.NSTR.FI.LN}} 008_Has a national financial inclusion strategy (NFIS) already been launched?_#VGAC_00{p_end}
+{synopt:{opt FB.INC.NSTR.GF.FI.DV}} 012_Is a general financial sector development strategy with a financial inclusion component (GFSDS/FI) under development?_#VGAD_01{p_end}
+{synopt:{opt FB.INC.NSTR.GF.FI.LN}} 011_Has a general financial sector development strategy with a financial inclusion component (GFSDS/FI) already been launched?_#VGAD_00{p_end}
+{synopt:{opt FB.INC.NSTR.MF.DV}} 016_Is a national microfinance strategy (NMS) under development?_#VGAF_01{p_end}
+{synopt:{opt FB.INC.NSTR.MF.LN}} 015_Has a national microfinance strategy (NMS) already been launched?_#VGAF_00{p_end}
+{synopt:{opt FB.INC.NSTR.ND.FI.DV}} 014_Is a national development strategy with a financial inclusion component (NDS/FI) under development?_#VGAE_01{p_end}
+{synopt:{opt FB.INC.NSTR.ND.FI.LN}} 013_Has a national development strategy with a financial inclusion component (NDS/FI) already been launched?_#VGAE_00{p_end}
+{synopt:{opt FB.INC.POLI.FI.DT.BP}} 022_Are deposit-taking institutions required to offer basic financial products to promote financial inclusion?_#VGBA_03{p_end}
+{synopt:{opt FB.INC.POLI.FI.GT.FA}} 023_Are recipients of government transfers encouraged or mandated to open an account to receive their funds?_#VGBA_04{p_end}
+{synopt:{opt FB.INC.POLI.FI.PL}} 020_Are priority lending policies in place to promote financial inclusion?_#VGBA_01{p_end}
+{synopt:{opt FB.INC.POLI.FI.RE}} 019_Are requirements, exceptions, tax incentives, or subsidies policies in place to promote financial inclusion?_#VGBA_00{p_end}
+{synopt:{opt FB.INC.POLI.FI.TI}} 021_Are tax incentive savings schemes in place to promote financial inclusion?_#VGBA_02{p_end}
+{synopt:{opt FB.INC.SURV.AF.FR}} 025_Has a survey of firms including questions on financial inclusion or access to finance been conducted in the last 3 years?_#VGCA_01{p_end}
+{synopt:{opt FB.INC.SURV.AF.HH}} 024_Has a survey of households or individuals including questions on financial inclusion or access to finance been conducted in the last 3 years?_#VGCA_00{p_end}
 {synopt:{opt FB.LBL.DDPT.CB.P3}} Deposit accounts, commercial banks (per 1,000 adults){p_end}
 {synopt:{opt FB.LBL.DDPT.CO.P3}} Deposit accounts, cooperatives (per 1,000 adults){p_end}
 {synopt:{opt FB.LBL.DDPT.MF.P3}} Deposit accounts, microfinance institutions (per 1,000 adults){p_end}
@@ -5207,6 +5876,7 @@
 {synopt:{opt FP.FPI.TOTL}} Food price index (2000 = 100){p_end}
 {synopt:{opt FP.WPI.TOTL.ZG}} Inflation, wholesale prices (annual %){p_end}
 {synopt:{opt FP.WPI.TOTL}} Wholesale price index (2010 = 100){p_end}
+{synopt:{opt FPCPITOTLXN__EXT}} Consumer Price Index, annual change (%){p_end}
 {synopt:{opt FR.INR.DPST.DP}} Real deposit interest rate (%){p_end}
 {synopt:{opt FR.INR.DPST}} Deposit interest rate (%){p_end}
 {synopt:{opt FR.INR.GBND}} Bond interest rate (%){p_end}
@@ -5437,12 +6107,14 @@
 {synopt:{opt GCI.PILLAR1TO4.XQ}} Basic requirements (weighted index 1st pillar to 4th pillar){p_end}
 {synopt:{opt GCI.PILLAR5TO10.XQ}} Efficiency enhancers (weighted index 5th to 10th pillar){p_end}
 {synopt:{opt GCI.RANK.XQ}} Global Competitive Index (GCI) rank{p_end}
+{synopt:{opt GD.ZS}} Expenditure shares of GDP (percentage share, GDP=100, XR term){p_end}
 {synopt:{opt GE.EST}} Government Effectiveness: Estimate{p_end}
 {synopt:{opt GE.NO.SRC}} Government Effectiveness: Number of Sources{p_end}
 {synopt:{opt GE.PER.RNK.LOWER}} Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
 {synopt:{opt GE.PER.RNK.UPPER}} Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
 {synopt:{opt GE.PER.RNK}} Government Effectiveness: Percentile Rank{p_end}
 {synopt:{opt GE.STD.ERR}} Government Effectiveness: Standard Error{p_end}
+{synopt:{opt GF.XPD.BUDG.ZS}} Primary government expenditures as a proportion of original approved budget (%){p_end}
 {synopt:{opt GFDD.AI.01}} Bank accounts per 1,000 adults{p_end}
 {synopt:{opt GFDD.AI.02}} Bank branches per 100,000 adults{p_end}
 {synopt:{opt GFDD.AI.03}} Firms with a bank loan or line of credit (%){p_end}
@@ -5554,6 +6226,9 @@
 {synopt:{opt GFDD.SI.06}} Liquid assets to deposits and short term funding (%){p_end}
 {synopt:{opt GFDD.SI.07}} Provisions to nonperforming loans (%){p_end}
 {synopt:{opt GFDD.SM.01}} Stock price volatility{p_end}
+{synopt:{opt GGBALOVRLCN__EXT}} Overall General Government Balance, LCU mn, % of GDP{p_end}
+{synopt:{opt GGBALPRIMCN__EXT}} General Government primary balance, LCU mn, %GDP{p_end}
+{synopt:{opt GGDBTTOTLCN__EXT}} General government gross debt, %GDP{p_end}
 {synopt:{opt GPFI1_TOTL}} Financial knowledge score (0-3){p_end}
 {synopt:{opt GPFI2}} Disclosure index (0-5){p_end}
 {synopt:{opt GPFI3}} Dispute resolution index (0-1){p_end}
@@ -5868,18 +6543,47 @@
 {synopt:{opt HF.UHC.CONS.ZS.Q4}} Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q4{p_end}
 {synopt:{opt HF.UHC.CONS.ZS.Q5}} Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%): Q5 (highest){p_end}
 {synopt:{opt HF.UHC.CONS.ZS}} Proportion of population pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt HF.UHC.NOP1.CG}} Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $1.90 poverty line{p_end}
 {synopt:{opt HF.UHC.NOP1.ZS.Q1}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest){p_end}
 {synopt:{opt HF.UHC.NOP1.ZS.Q2}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2{p_end}
 {synopt:{opt HF.UHC.NOP1.ZS.Q3}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3{p_end}
 {synopt:{opt HF.UHC.NOP1.ZS.Q4}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4{p_end}
 {synopt:{opt HF.UHC.NOP1.ZS.Q5}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q5 (highest){p_end}
 {synopt:{opt HF.UHC.NOP1.ZS}} Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt HF.UHC.NOP2.CG}} Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $3.20 poverty line{p_end}
 {synopt:{opt HF.UHC.NOP2.ZS.Q1}} Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest){p_end}
 {synopt:{opt HF.UHC.NOP2.ZS.Q2}} Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2{p_end}
 {synopt:{opt HF.UHC.NOP2.ZS.Q3}} Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3{p_end}
 {synopt:{opt HF.UHC.NOP2.ZS.Q4}} Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4{p_end}
 {synopt:{opt HF.UHC.NOP2.ZS.Q5}} Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q5 (highest){p_end}
 {synopt:{opt HF.UHC.NOP2.ZS}} Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt HF.UHC.NOP3.CG}} Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $5.50 poverty line{p_end}
+{synopt:{opt HF.UHC.NOP3.ZS.Q1}} Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest){p_end}
+{synopt:{opt HF.UHC.NOP3.ZS.Q2}} Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2{p_end}
+{synopt:{opt HF.UHC.NOP3.ZS.Q3}} Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3{p_end}
+{synopt:{opt HF.UHC.NOP3.ZS.Q4}} Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4{p_end}
+{synopt:{opt HF.UHC.NOP3.ZS.Q5}} Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q5 (highest){p_end}
+{synopt:{opt HF.UHC.NOP3.ZS}} Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt HF.UHC.NOP4.CG}} Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $21.70 poverty line{p_end}
+{synopt:{opt HF.UHC.NOP4.ZS.Q1}} Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest){p_end}
+{synopt:{opt HF.UHC.NOP4.ZS.Q2}} Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2{p_end}
+{synopt:{opt HF.UHC.NOP4.ZS.Q3}} Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3{p_end}
+{synopt:{opt HF.UHC.NOP4.ZS.Q4}} Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4{p_end}
+{synopt:{opt HF.UHC.NOP4.ZS.Q5}} Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q5 (highest){p_end}
+{synopt:{opt HF.UHC.NOP4.ZS}} Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%){p_end}
+{synopt:{opt HF.UHC.NOPX.ZS.Q1}} Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p{p_end}
+{synopt:{opt HF.UHC.NOPX.ZS.Q2}} Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p{p_end}
+{synopt:{opt HF.UHC.NOPX.ZS.Q3}} Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p{p_end}
+{synopt:{opt HF.UHC.NOPX.ZS.Q4}} Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p{p_end}
+{synopt:{opt HF.UHC.NOPX.ZS.Q5}} Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p{p_end}
+{synopt:{opt HF.UHC.NOPX.ZS}} Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p{p_end}
+{synopt:{opt HF.UHC.OOP.CG}} Mean household per capita out-of-pocket health spending ($ 2011 PPP){p_end}
+{synopt:{opt HF.UHC.OOP.ZS.Q1}} Mean share of household consumption or income used on out-of-pocket health spending (%): Q1 (lowest){p_end}
+{synopt:{opt HF.UHC.OOP.ZS.Q2}} Mean share of household consumption or income used on out-of-pocket health spending (%): Q2{p_end}
+{synopt:{opt HF.UHC.OOP.ZS.Q3}} Mean share of household consumption or income used on out-of-pocket health spending (%): Q3{p_end}
+{synopt:{opt HF.UHC.OOP.ZS.Q4}} Mean share of household consumption or income used on out-of-pocket health spending (%): Q4{p_end}
+{synopt:{opt HF.UHC.OOP.ZS.Q5}} Mean share of household consumption or income used on out-of-pocket health spending (%): Q5 (highest){p_end}
+{synopt:{opt HF.UHC.OOP.ZS}} Mean share of household consumption or income used on out-of-pocket health spending (%){p_end}
 {synopt:{opt HF.UHC.OOPC.10.ZS.Q1}} Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q1 (lowest){p_end}
 {synopt:{opt HF.UHC.OOPC.10.ZS.Q2}} Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q2{p_end}
 {synopt:{opt HF.UHC.OOPC.10.ZS.Q3}} Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%): Q3{p_end}
@@ -6148,6 +6852,10 @@
 {synopt:{opt HH.MICS.YRS.15UP.GIN.R}} MICS: Gini coefficient of average years of schooling. Age 15+. Rural{p_end}
 {synopt:{opt HH.MICS.YRS.15UP.GIN.U}} MICS: Gini coefficient of average years of schooling. Age 15+. Urban{p_end}
 {synopt:{opt HH.MICS.YRS.15UP.GIN}} MICS: Gini coefficient of average years of schooling. Age 15+{p_end}
+{synopt:{opt HLG-1.1}} (i) Annual deviation of actual total HLG transfers from the original total estimated amount provided by HLG to the SN entity for inclusion in the latter’s budget{p_end}
+{synopt:{opt HLG-1.2}} (ii) Annual variance between actual and estimated transfers of earmarked grants{p_end}
+{synopt:{opt HLG-1.3}} (iii) In-year timeliness of transfers from HLG (compliance with timetables for in-year distribution of disbursements agreed within one month of the start of the SN fiscal year){p_end}
+{synopt:{opt HLG-1}} Predictability of Transfers from Higher Level of Government{p_end}
 {synopt:{opt HOU.ELC.ACSN.ZS}} Household Access to Electricity: Total (in % of total household){p_end}
 {synopt:{opt HOU.H2O.ACSN.ZS}} Household Access to Safe Water (in % of total household){p_end}
 {synopt:{opt HOU.MLT.MAIN.ZS}} Household Access to Fixed Line Phone Connection (in % of total Household){p_end}
@@ -6245,7 +6953,7 @@
 {synopt:{opt IC.ELC.ACS.COST.DFRN}} Getting electricity: Cost to get electricity (% of income per capita) - Score{p_end}
 {synopt:{opt IC.ELC.ACS.COST}} Getting electricity: Cost to get electricity (% of income per capita){p_end}
 {synopt:{opt IC.ELC.COMM.TRFF.CG.01.DB1619}} Getting electricity: Communication of tariffs and tariff changes (0-1) (DB16-19 methodology){p_end}
-{synopt:{opt IC.ELC.DURS}} Delay in obtaining an electrical connection (days){p_end}
+{synopt:{opt IC.ELC.DURS}} Time to obtain an electrical connection (days){p_end}
 {synopt:{opt IC.ELC.GEN.ZS}} Electricity from Generator (%){p_end}
 {synopt:{opt IC.ELC.GIFT.ZS}} Expected to give gifts to get an electrical connection (% of firms){p_end}
 {synopt:{opt IC.ELC.LMTG.OUTG.01.DB1619}} Getting electricity: Financial deterrents aimed at limiting outages (0-1) (DB16-19 methodology){p_end}
@@ -6503,13 +7211,13 @@
 {synopt:{opt IC.TAX.GIFT.ZS}} Firms expected to give gifts in meetings with tax officials (% of firms){p_end}
 {synopt:{opt IC.TAX.LABR.CP.ZS}} Labor tax and contributions (% of commercial profits){p_end}
 {synopt:{opt IC.TAX.LBR.ZS}} Paying taxes, labor tax and contributions (%){p_end}
-{synopt:{opt IC.TAX.METG}} Number of visits or required meetings of affected firms with tax officials{p_end}
+{synopt:{opt IC.TAX.METG}} Average number of visits or required meetings with tax officials (for affected firms){p_end}
 {synopt:{opt IC.TAX.OTH.ZS}} Paying taxes, other taxes (%){p_end}
 {synopt:{opt IC.TAX.OTHR.CP.ZS}} Other taxes payable by businesses (% of commercial profits){p_end}
 {synopt:{opt IC.TAX.PAYM}} Tax payments (number){p_end}
 {synopt:{opt IC.TAX.PFT.ZS}} Paying taxes, profit tax (%){p_end}
 {synopt:{opt IC.TAX.PRFT.CP.ZS}} Profit tax (% of commercial profits){p_end}
-{synopt:{opt IC.TAX.TOTL.CP.ZS}} Total tax rate (% of commercial profits){p_end}
+{synopt:{opt IC.TAX.TOTL.CP.ZS}} Total tax and contribution rate (% of profit){p_end}
 {synopt:{opt IC.TAX.TOTL.GP.ZS}} Total tax payable by businesses (% of gross profit){p_end}
 {synopt:{opt IC.TAX.XQ}} Paying taxes (rank){p_end}
 {synopt:{opt IC.TEL.DURS}} Delay in obtaining a mainline telephone connection (days){p_end}
@@ -6548,7 +7256,7 @@
 {synopt:{opt IN.EC.GSDP.PERCAP.REAL.USD}} Real GSDP Per Capita (USD){p_end}
 {synopt:{opt IN.EC.POP.GRWTHRAT.RURL}} Decadal Growth of Population, Rural (%){p_end}
 {synopt:{opt IN.EC.POP.GRWTHRAT.URBN}} Decadal Growth of Population, Urban (%){p_end}
-{synopt:{opt IN.EC.POP.GRWTHRAT.}} Decadal Growth of Population (%){p_end}
+{synopt:{opt IN.EC.POP.GRWTHRAT}} Decadal Growth of Population (%){p_end}
 {synopt:{opt IN.EC.POP.RURL.PCT}} Population, Rural (%){p_end}
 {synopt:{opt IN.EC.POP.RURL}} Population, Rural (Thousands){p_end}
 {synopt:{opt IN.EC.POP.TOTL}} Population (Thousands){p_end}
@@ -6634,7 +7342,7 @@
 {synopt:{opt IN.IS.RRS.FRGT.RVENU.NET.TON.KM}} Freight Traffic (revenue earning) -Net Tonne Kilometers (millions){p_end}
 {synopt:{opt IN.IS.RRS.FRGT.SPEED}} Speed of Freight Trains (KMs/hour){p_end}
 {synopt:{opt IN.IS.RRS.FRGT.TONS.ORIG}} Freight Traffic - Tonnes originating (Millions){p_end}
-{synopt:{opt IN.IS.RRS.LOCO.NO.}} Locomotives - Number in service{p_end}
+{synopt:{opt IN.IS.RRS.LOCO.NO}} Locomotives - Number in service{p_end}
 {synopt:{opt IN.IS.RRS.LOCO.TRACT.KG3}} Locomotives -Total tractive effort ('000  Kgs){p_end}
 {synopt:{opt IN.IS.RRS.PASG.KM.NONSUB}} Passenger-Kilometers Traffic (Non-Suburban), in millions{p_end}
 {synopt:{opt IN.IS.RRS.PASG.KM.SUB}} Passenger-Kilometers Traffic (Suburban), in millions{p_end}
@@ -6780,11 +7488,13 @@
 {synopt:{opt IS.ROD.ENGY.PC}} Road sector energy consumption per capita (kg of oil equivalent){p_end}
 {synopt:{opt IS.ROD.ENGY.ZS}} Road sector energy consumption (% of total energy consumption){p_end}
 {synopt:{opt IS.ROD.GOOD.MT.K6}} Roads, goods transported (million ton-km){p_end}
+{synopt:{opt IS.ROD.NORM.XD}} Roads, normalized index (100 = expected total length){p_end}
 {synopt:{opt IS.ROD.PAVE.ZS}} Roads, paved (% of total roads){p_end}
 {synopt:{opt IS.ROD.PSGR.K6}} Roads, passengers carried (million passenger-km){p_end}
 {synopt:{opt IS.ROD.SGAS.KT}} Road sector gasoline fuel consumption (kt of oil equivalent){p_end}
 {synopt:{opt IS.ROD.SGAS.PC}} Road sector gasoline fuel consumption per capita (kg of oil equivalent){p_end}
 {synopt:{opt IS.ROD.TOTL.KM}} Roads, total network (km){p_end}
+{synopt:{opt IS.ROD.TRAF}} Road traffic (million vehicle-km){p_end}
 {synopt:{opt IS.RRS.DESL.ZS}} Diesel locomotives available (in service as % of total diesel locomotives){p_end}
 {synopt:{opt IS.RRS.DNST}} Rail traffic density (passengers and freight/km){p_end}
 {synopt:{opt IS.RRS.ELEC.KM}} Rail lines, electric (km){p_end}
@@ -6798,6 +7508,7 @@
 {synopt:{opt IS.RRS.TRFF.PF}} Ratio of rail passenger tariffs to freight tariffs{p_end}
 {synopt:{opt IS.SHP.GCNW.XQ}} Liner shipping connectivity index (maximum value in 2004 = 100){p_end}
 {synopt:{opt IS.SHP.GOOD.TU}} Container port traffic (TEU: 20 foot equivalent units){p_end}
+{synopt:{opt IS.VEH.2CYL.P3}} Two-wheelers (per 1,000 people){p_end}
 {synopt:{opt IS.VEH.NVEH.P3}} Motor vehicles (per 1,000 people){p_end}
 {synopt:{opt IS.VEH.PCAR.P3}} Passenger cars (per 1,000 people){p_end}
 {synopt:{opt IS.VEH.ROAD.K1}} Vehicles (per km of road){p_end}
@@ -8206,7 +8917,12 @@
 {synopt:{opt NE.TRD.GNFS.ZS}} Trade (% of GDP){p_end}
 {synopt:{opt NE.TRM.TRAD.XN}} Terms of trade index (2000=100){p_end}
 {synopt:{opt NE.TRM.TRAD.XU}} Terms of trade (goods and services, 2000 = 100){p_end}
+{synopt:{opt NECONGOVTKN__EXT}} Government Consumption, Real LCU mn, annual growth rate (%){p_end}
+{synopt:{opt NECONPRVTKN__EXT}} Private Consumption, annual growth rate (%){p_end}
 {synopt:{opt NEER}} Nominal Effecive Exchange Rate{p_end}
+{synopt:{opt NEEXPGNFSKN__EXT}} Exports, GNFS (NIA), annual growth rate %{p_end}
+{synopt:{opt NEGDIFTOTKN__EXT}} Fixed Domestic Investment, annual growth rate %{p_end}
+{synopt:{opt NEIMPGNFSKN__EXT}} Imports,  GNFS (NIA), Real LCU mn, annual growth rate %{p_end}
 {synopt:{opt NP.AGR.TOTL.CN}} Agriculture, value added (local)  (Curr. Price){p_end}
 {synopt:{opt NP.AGR.TOTL.IN}} Agricultural Value Added Deflator{p_end}
 {synopt:{opt NP.AGR.TOTL.KN}} Agriculture, value added (local) (Const. Price){p_end}
@@ -8325,6 +9041,9 @@
 {synopt:{opt NV.SRV.TRAN.CD}} Transportation, storage and communication, value added (current US$){p_end}
 {synopt:{opt NV.SRV.TRAN.CN}} Transportation, storage and communication, value added (current LCU){p_end}
 {synopt:{opt NV.SRV.TRAN.KN}} Transportation, storage and communication, value added (constant LCU){p_end}
+{synopt:{opt NVAGRTOTLKN__EXT}} Value Added Agriculture, LCU mn, annual growth rate %{p_end}
+{synopt:{opt NVINDTOTLKN__EXT}} Value Added Industry, Real LCU mn, annual growth rate %{p_end}
+{synopt:{opt NVSRVTOTLKN__EXT}} Value Added Services, Real LCU mn, annual growth rate %{p_end}
 {synopt:{opt NW.HCA.PC}} Human capital per capita (constant 2014 US$){p_end}
 {synopt:{opt NW.HCA.TO}} Human capital (constant 2014 US$){p_end}
 {synopt:{opt NW.NCA.AGRI.PC}} Natural capital per capita, agricultural land (constant 2014 US$){p_end}
@@ -8379,250 +9098,360 @@
 {synopt:{opt NW.PCA.TO}} Produced capital (constant 2014 US$){p_end}
 {synopt:{opt NW.TOW.PC}} Total wealth per capita (constant 2014 US$){p_end}
 {synopt:{opt NW.TOW.TO}} Total wealth (constant 2014 US$){p_end}
+{synopt:{opt NY.ADJ.AEDU.CD}} Adjusted savings: education expenditure (current US$) {p_end}
 {synopt:{opt NY.ADJ.AEDU.CD}} Adjusted savings: education expenditure (current US$){p_end}
-{synopt:{opt NY.ADJ.AEDU.GN.ZS}} Adjusted savings: education expenditure (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DCO2.CD}} Adjusted savings: carbon dioxide damage (current US$){p_end}
-{synopt:{opt NY.ADJ.DCO2.GN.ZS}} Adjusted savings: carbon dioxide damage (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DFOR.CD}} Adjusted savings: net forest depletion (current US$){p_end}
-{synopt:{opt NY.ADJ.DFOR.GN.ZS}} Adjusted savings: net forest depletion (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DKAP.CD}} Adjusted savings: consumption of fixed capital (current US$){p_end}
-{synopt:{opt NY.ADJ.DKAP.GN.ZS}} Adjusted savings: consumption of fixed capital (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DMIN.CD}} Adjusted savings: mineral depletion (current US$){p_end}
-{synopt:{opt NY.ADJ.DMIN.GN.ZS}} Adjusted savings: mineral depletion (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DNGY.CD}} Adjusted savings: energy depletion (current US$){p_end}
-{synopt:{opt NY.ADJ.DNGY.GN.ZS}} Adjusted savings: energy depletion (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DPEM.CD}} Adjusted savings: particulate emission damage (current US$){p_end}
-{synopt:{opt NY.ADJ.DPEM.GN.ZS}} Adjusted savings: particulate emission damage (% of GNI){p_end}
-{synopt:{opt NY.ADJ.DRES.GN.ZS}} Adjusted savings: natural resources depletion (% of GNI){p_end}
-{synopt:{opt NY.ADJ.ICTR.GN.ZS}} Adjusted savings: gross savings (% of GNI){p_end}
-{synopt:{opt NY.ADJ.NNAT.CD}} Adjusted savings: net national savings (current US$){p_end}
-{synopt:{opt NY.ADJ.NNAT.GN.ZS}} Adjusted savings: net national savings (% of GNI){p_end}
-{synopt:{opt NY.ADJ.NNTY.CD}} Adjusted net national income (current US$){p_end}
-{synopt:{opt NY.ADJ.NNTY.KD.ZG}} Adjusted net national income (annual % growth){p_end}
-{synopt:{opt NY.ADJ.NNTY.KD}} Adjusted net national income (constant 2010 US$){p_end}
-{synopt:{opt NY.ADJ.NNTY.PC.CD}} Adjusted net national income per capita (current US$){p_end}
-{synopt:{opt NY.ADJ.NNTY.PC.KD.ZG}} Adjusted net national income per capita (annual % growth){p_end}
-{synopt:{opt NY.ADJ.NNTY.PC.KD}} Adjusted net national income per capita (constant 2010 US$){p_end}
-{synopt:{opt NY.ADJ.SVNG.CD}} Adjusted net savings, including particulate emission damage (current US$){p_end}
-{synopt:{opt NY.ADJ.SVNG.GN.ZS}} Adjusted net savings, including particulate emission damage (% of GNI){p_end}
-{synopt:{opt NY.ADJ.SVNX.CD}} Adjusted net savings, excluding particulate emission damage (current US$){p_end}
-{synopt:{opt NY.ADJ.SVNX.GN.ZS}} Adjusted net savings, excluding particulate emission damage (% of GNI){p_end}
-{synopt:{opt NY.AGR.SUBS.GD.ZS}} Agricultural support estimate (% of GDP){p_end}
-{synopt:{opt NY.EXP.CAPM.KD.87}} Exports as a capacity to import (constant 1987 US$){p_end}
-{synopt:{opt NY.EXP.CAPM.KN.87}} Exports as a capacity to import (constant 1987 LCU){p_end}
-{synopt:{opt NY.EXP.CAPM.KN}} Exports as a capacity to import (constant LCU){p_end}
-{synopt:{opt NY.GDP.COAL.RT.ZS}} Coal rents (% of GDP){p_end}
-{synopt:{opt NY.GDP.DEFL.87.ZG}} Inflation, GDP deflator (annual %){p_end}
-{synopt:{opt NY.GDP.DEFL.KD.ZG.AD}} Inflation, GDP deflator: linked series (annual %){p_end}
-{synopt:{opt NY.GDP.DEFL.KD.ZG}} Inflation, GDP deflator (annual %){p_end}
-{synopt:{opt NY.GDP.DEFL.ZS.87}} GDP deflator (1987 = 100){p_end}
-{synopt:{opt NY.GDP.DEFL.ZS.AD}} GDP deflator: linked series (base year varies by country){p_end}
-{synopt:{opt NY.GDP.DEFL.ZS}} GDP deflator (base year varies by country){p_end}
-{synopt:{opt NY.GDP.DISC.CD}} Discrepancy in expenditure estimate of GDP (current US$){p_end}
-{synopt:{opt NY.GDP.DISC.CN}} Discrepancy in expenditure estimate of GDP (current LCU){p_end}
-{synopt:{opt NY.GDP.DISC.KN}} Discrepancy in expenditure estimate of GDP (constant LCU){p_end}
-{synopt:{opt NY.GDP.FCST.CD}} Gross value added at basic prices (GVA) (current US$){p_end}
-{synopt:{opt NY.GDP.FCST.CN}} Gross value added at basic prices (GVA) (current LCU){p_end}
-{synopt:{opt NY.GDP.FCST.KD.87}} GDP at factor cost (constant 1987 US$){p_end}
-{synopt:{opt NY.GDP.FCST.KD}} Gross value added at basic prices (GVA) (constant 2010 US$){p_end}
-{synopt:{opt NY.GDP.FCST.KN.87}} GDP at factor cost (constant 1987 LCU){p_end}
-{synopt:{opt NY.GDP.FCST.KN}} Gross value added at basic prices (GVA) (constant LCU){p_end}
-{synopt:{opt NY.GDP.FRST.RT.ZS}} Forest rents (% of GDP){p_end}
-{synopt:{opt NY.GDP.MINR.RT.ZS}} Mineral rents (% of GDP){p_end}
-{synopt:{opt NY.GDP.MKTP.CD.XD}} GDP deflator, index (2000=100; US$ series){p_end}
-{synopt:{opt NY.GDP.MKTP.CD}} GDP (current US$){p_end}
-{synopt:{opt NY.GDP.MKTP.CN.AD}} GDP: linked series (current LCU){p_end}
-{synopt:{opt NY.GDP.MKTP.CN.XD}} GDP deflator, period average (LCU index 2000=100){p_end}
-{synopt:{opt NY.GDP.MKTP.CN}} GDP (current LCU){p_end}
-{synopt:{opt NY.GDP.MKTP.IN}} GDP Deflator{p_end}
-{synopt:{opt NY.GDP.MKTP.KD.87}} GDP at market prices (constant 1987 US$){p_end}
-{synopt:{opt NY.GDP.MKTP.KD.ZG}} GDP growth (annual %){p_end}
-{synopt:{opt NY.GDP.MKTP.KD}} GDP (constant 2010 US$){p_end}
-{synopt:{opt NY.GDP.MKTP.KN.87.ZG}} GDP growth (annual %){p_end}
-{synopt:{opt NY.GDP.MKTP.KN.87}} GDP at market prices (constant 1987 LCU){p_end}
-{synopt:{opt NY.GDP.MKTP.KN}} GDP (constant LCU){p_end}
-{synopt:{opt NY.GDP.MKTP.PP.CD}} GDP, PPP (current international $){p_end}
-{synopt:{opt NY.GDP.MKTP.PP.KD.87}} GDP, PPP (constant 1987 international $){p_end}
-{synopt:{opt NY.GDP.MKTP.PP.KD}} GDP, PPP (constant 2011 international $){p_end}
-{synopt:{opt NY.GDP.MKTP.XD}} GDP deflator (1987=100,Index){p_end}
-{synopt:{opt NY.GDP.MKTP.XU.E}} GDP deflator, end period (base year varies by country){p_end}
-{synopt:{opt NY.GDP.MKTP.ZG}} Gross domestic product (Av. annual growth, %){p_end}
-{synopt:{opt NY.GDP.NGAS.RT.ZS}} Natural gas rents (% of GDP){p_end}
-{synopt:{opt NY.GDP.PCAP.CD}} GDP per capita (current US$){p_end}
-{synopt:{opt NY.GDP.PCAP.CN}} GDP per capita (current LCU){p_end}
-{synopt:{opt NY.GDP.PCAP.KD.ZG}} GDP per capita growth (annual %){p_end}
-{synopt:{opt NY.GDP.PCAP.KD}} GDP per capita (constant 2010 US$){p_end}
-{synopt:{opt NY.GDP.PCAP.KN}} GDP per capita (constant LCU){p_end}
-{synopt:{opt NY.GDP.PCAP.PP.CD}} GDP per capita, PPP (current international $){p_end}
-{synopt:{opt NY.GDP.PCAP.PP.KD.87}} GDP per capita, PPP (constant 1987 international $){p_end}
-{synopt:{opt NY.GDP.PCAP.PP.KD.ZG}} GDP per capita, PPP annual growth (%){p_end}
-{synopt:{opt NY.GDP.PCAP.PP.KD}} GDP per capita, PPP (constant 2011 international $){p_end}
-{synopt:{opt NY.GDP.PETR.RT.ZS}} Oil rents (% of GDP){p_end}
-{synopt:{opt NY.GDP.TOTL.RT.ZS}} Total natural resources rents (% of GDP){p_end}
-{synopt:{opt NY.GDS.PRVT.CD}} Gross domestic savings, private (current US$){p_end}
-{synopt:{opt NY.GDS.PRVT.CN}} Gross domestic savings, private (current LCU){p_end}
-{synopt:{opt NY.GDS.PRVT.KN}} Gross domestic savings, private (constant LCU){p_end}
-{synopt:{opt NY.GDS.PUBL.CD}} Gross domestic savings, public (current US$){p_end}
-{synopt:{opt NY.GDS.PUBL.CN}} Gross domestic savings, public (current LCU){p_end}
-{synopt:{opt NY.GDS.PUBL.KN}} Gross domestic savings, public (constant LCU){p_end}
-{synopt:{opt NY.GDS.TOTL.CD}} Gross domestic savings (current US$){p_end}
-{synopt:{opt NY.GDS.TOTL.CN}} Gross domestic savings (current LCU){p_end}
-{synopt:{opt NY.GDS.TOTL.KD.87}} Gross domestic savings (constant 1987 US$){p_end}
-{synopt:{opt NY.GDS.TOTL.KD}} Gross domestic savings, total (constant 2000 US$){p_end}
-{synopt:{opt NY.GDS.TOTL.KN.87}} Gross domestic savings (constant 1987 LCU){p_end}
-{synopt:{opt NY.GDS.TOTL.KN}} Gross domestic savings (constant LCU){p_end}
-{synopt:{opt NY.GDS.TOTL.ZS}} Gross domestic savings (% of GDP){p_end}
-{synopt:{opt NY.GDY.TOTL.KD.87}} Gross domestic income (constant 1987 US$){p_end}
-{synopt:{opt NY.GDY.TOTL.KD}} Gross domestic income (constant 2005 US$){p_end}
-{synopt:{opt NY.GDY.TOTL.KN.87}} Gross domestic income (constant 1987 LCU){p_end}
-{synopt:{opt NY.GDY.TOTL.KN}} Gross domestic income (constant LCU){p_end}
-{synopt:{opt NY.GEN.AEDU.GD.ZS}} Genuine savings: education expenditure (% of GDP){p_end}
-{synopt:{opt NY.GEN.DCO2.GD.ZS}} Genuine savings: carbon dioxide damage (% of GDP){p_end}
-{synopt:{opt NY.GEN.DFOR.GD.ZS}} Genuine savings: net forest depletion (% of GDP){p_end}
-{synopt:{opt NY.GEN.DKAP.GD.ZS}} Genuine savings: consumption of fixed capital (% of GDP){p_end}
-{synopt:{opt NY.GEN.DMIN.GD.ZS}} Genuine savings: mineral depletion (% of GDP){p_end}
-{synopt:{opt NY.GEN.DNGY.GD.ZS}} Genuine savings: energy depletion (% of GDP){p_end}
-{synopt:{opt NY.GEN.NDOM.GD.ZS}} Genuine savings: net domestic savings (% of GDP){p_end}
-{synopt:{opt NY.GEN.SVNG.GD.ZS}} Genuine domestic savings (% of GDP){p_end}
-{synopt:{opt NY.GNP.ATLS.CD}} GNI, Atlas method (current US$){p_end}
-{synopt:{opt NY.GNP.MKTP.CD}} GNI (current US$){p_end}
-{synopt:{opt NY.GNP.MKTP.CN}} GNI (current LCU){p_end}
-{synopt:{opt NY.GNP.MKTP.KD.87}} GNP at market prices (constant 1987 US$){p_end}
-{synopt:{opt NY.GNP.MKTP.KD.ZG}} GNI growth (annual %){p_end}
-{synopt:{opt NY.GNP.MKTP.KD}} GNI (constant 2010 US$){p_end}
-{synopt:{opt NY.GNP.MKTP.KN.87.ZG}} GNP growth (annual %){p_end}
-{synopt:{opt NY.GNP.MKTP.KN.87}} GNP at market prices (constant 1987 LCU){p_end}
-{synopt:{opt NY.GNP.MKTP.KN}} GNI (constant LCU){p_end}
-{synopt:{opt NY.GNP.MKTP.PC.CD}} GNI per capita (current US$){p_end}
-{synopt:{opt NY.GNP.MKTP.PP.CD}} GNI, PPP (current international $){p_end}
-{synopt:{opt NY.GNP.MKTP.PP.KD.87}} GNP, PPP (constant 1987 international $){p_end}
-{synopt:{opt NY.GNP.MKTP.PP.KD}} GNI, PPP (constant 2011 international $){p_end}
-{synopt:{opt NY.GNP.PCAP.CD.AT}} GNP per capita (Atlas method) (US$,curr. pr.){p_end}
-{synopt:{opt NY.GNP.PCAP.CD}} GNI per capita, Atlas method (current US$){p_end}
-{synopt:{opt NY.GNP.PCAP.CN}} GNI per capita (current LCU){p_end}
-{synopt:{opt NY.GNP.PCAP.KD.87}} GNP per capita (constant 1987 US$){p_end}
-{synopt:{opt NY.GNP.PCAP.KD.ZG}} GNI per capita growth (annual %){p_end}
-{synopt:{opt NY.GNP.PCAP.KD}} GNI per capita (constant 2010 US$){p_end}
-{synopt:{opt NY.GNP.PCAP.KN.87}} GNP per capita (constant 1987 LCU){p_end}
-{synopt:{opt NY.GNP.PCAP.KN}} GNI per capita (constant LCU){p_end}
-{synopt:{opt NY.GNP.PCAP.PP.CD}} GNI per capita, PPP (current international $){p_end}
-{synopt:{opt NY.GNP.PCAP.PP.KD.87}} GNP per capita, PPP (constant 1987 international $){p_end}
-{synopt:{opt NY.GNP.PCAP.PP.KD}} GNI per capita, PPP (constant 2011 international $){p_end}
-{synopt:{opt NY.GNP.PCAP.ZG}} GNP per capita growth (annual %){p_end}
-{synopt:{opt NY.GNP.PCAT.CD}} Gross national product per capita (USD, Atlas meth.){p_end}
-{synopt:{opt NY.GNS.ICTR.CD}} Gross savings (current US$){p_end}
-{synopt:{opt NY.GNS.ICTR.CN}} Gross savings (current LCU){p_end}
-{synopt:{opt NY.GNS.ICTR.GN.ZS}} Gross savings (% of GNI){p_end}
-{synopt:{opt NY.GNS.ICTR.KD}} Gross national savings, including net current transfers (constant 2000 US$){p_end}
-{synopt:{opt NY.GNS.ICTR.KN}} Gross national savings, including net current transfers (constant LCU){p_end}
-{synopt:{opt NY.GNS.ICTR.ZS}} Gross savings (% of GDP){p_end}
-{synopt:{opt NY.GNS.PRVT.CD}} Gross national savings, private (current US$){p_end}
-{synopt:{opt NY.GNS.PRVT.CN}} Gross national savings, private (current LCU){p_end}
-{synopt:{opt NY.GNS.PRVT.KN}} Gross national savings, private (constant LCU){p_end}
-{synopt:{opt NY.GNS.PUBL.CD}} Gross national savings, public (current US$){p_end}
-{synopt:{opt NY.GNS.PUBL.CN}} Gross national savings, public (current LCU){p_end}
-{synopt:{opt NY.GNS.PUBL.KN}} Gross national savings, public (constant LCU){p_end}
-{synopt:{opt NY.GNS.TOTL.CN}} CP Gross National Savings (Local){p_end}
-{synopt:{opt NY.GNY.PCAP.KD.87}} Gross national income per capita (1987 US$){p_end}
-{synopt:{opt NY.GNY.PCAP.KD}} Gross national income per capita (1987 USD){p_end}
-{synopt:{opt NY.GNY.TOTL.CN}} Gross national disposable income (current LCU){p_end}
-{synopt:{opt NY.GNY.TOTL.KD.87}} Gross national income (constant 1987 US$){p_end}
-{synopt:{opt NY.GNY.TOTL.KD}} Gross national income (constant 2000 US$){p_end}
-{synopt:{opt NY.GNY.TOTL.KN.87}} Gross national income (constant 1987 LCU){p_end}
-{synopt:{opt NY.GNY.TOTL.KN}} Gross national income (constant LCU){p_end}
-{synopt:{opt NY.GNY.TOTL.ZG}} Gross national income (Av. annual growth, %){p_end}
-{synopt:{opt NY.GSR.NFCY.CD}} Net primary income (Net income from abroad) (current US$){p_end}
-{synopt:{opt NY.GSR.NFCY.CN}} Net primary income (Net income from abroad) (current LCU){p_end}
-{synopt:{opt NY.GSR.NFCY.KD.87}} Net income from abroad (constant 1987 US$){p_end}
-{synopt:{opt NY.GSR.NFCY.KN.87}} Net income from abroad (constant 1987 LCU){p_end}
-{synopt:{opt NY.GSR.NFCY.KN}} Net primary income (Net income from abroad) (constant LCU){p_end}
-{synopt:{opt NY.SVF.NFSY.CN}} CP Net Factor Income (+) or Payments (Local){p_end}
-{synopt:{opt NY.TAX.IDRT.CD}} Indirect taxes (current US$){p_end}
-{synopt:{opt NY.TAX.IDRT.CN}} Indirect taxes (current LCU){p_end}
-{synopt:{opt NY.TAX.NIND.CD}} Taxes less subsidies on products (current US$){p_end}
-{synopt:{opt NY.TAX.NIND.CN}} Taxes less subsidies on products (current LCU){p_end}
-{synopt:{opt NY.TAX.NIND.KD.87}} Net indirect taxes (constant 1987 US$){p_end}
-{synopt:{opt NY.TAX.NIND.KN.87}} Net indirect taxes (constant 1987 LCU){p_end}
-{synopt:{opt NY.TAX.NIND.KN}} Taxes less subsidies on products (constant LCU){p_end}
-{synopt:{opt NY.TAX.SUBS.CD}} Subsidies (current US$){p_end}
-{synopt:{opt NY.TAX.SUBS.CN}} Subsidies (current LCU; from SNA){p_end}
-{synopt:{opt NY.TRF.NCTR.CD}} Net secondary income (Net current transfers from abroad) (current US$){p_end}
-{synopt:{opt NY.TRF.NCTR.CN}} Net secondary income (Net current transfers from abroad) (current LCU){p_end}
-{synopt:{opt NY.TRF.NCTR.KN}} Net secondary income (Net current transfers from abroad) (constant LCU){p_end}
-{synopt:{opt NY.TTF.GNFS.KD.87}} Terms of trade adjustment (constant 1987 US$){p_end}
-{synopt:{opt NY.TTF.GNFS.KN.87}} Terms of trade adjustment (constant 1987 LCU){p_end}
-{synopt:{opt NY.TTF.GNFS.KN}} Terms of trade adjustment (constant LCU){p_end}
-{synopt:{opt NY.TTF.MRCH.KN}} Terms of Trade Adjustment (local) (Const. Price){p_end}
-{synopt:{opt NYGDPMKTPKDZ}} Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars.{p_end}
-{synopt:{opt NYGDPMKTPSACD}} GDP,current US$,millions,seas. adj.,{p_end}
-{synopt:{opt NYGDPMKTPSACN}} GDP,current LCU,millions,seas. adj.,{p_end}
-{synopt:{opt NYGDPMKTPSAKD}} GDP,constant 2010 US$,millions,seas. adj.,{p_end}
-{synopt:{opt NYGDPMKTPSAKN}} GDP,constant 2010 LCU,millions,seas. adj.,{p_end}
-{synopt:{opt OECD.TSAL.0.E0}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. Starting salary{p_end}
-{synopt:{opt OECD.TSAL.0.E10}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. 10 years of experience{p_end}
-{synopt:{opt OECD.TSAL.0.E15}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. 15 years of experience{p_end}
-{synopt:{opt OECD.TSAL.0.ETOP}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. Top of scale{p_end}
-{synopt:{opt OECD.TSAL.1.E0}} Annual statutory teacher salaries in public institutions in USD. Primary. Starting salary{p_end}
-{synopt:{opt OECD.TSAL.1.E10}} Annual statutory teacher salaries in public institutions in USD. Primary. 10 years of experience{p_end}
-{synopt:{opt OECD.TSAL.1.E15}} Annual statutory teacher salaries in public institutions in USD. Primary. 15 years of experience{p_end}
-{synopt:{opt OECD.TSAL.1.ETOP}} Annual statutory teacher salaries in public institutions in USD. Primary. Top of scale{p_end}
-{synopt:{opt OECD.TSAL.2.E0}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Starting salary{p_end}
-{synopt:{opt OECD.TSAL.2.E10}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. 10 years of experience{p_end}
-{synopt:{opt OECD.TSAL.2.E15}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. 15 years of experience{p_end}
-{synopt:{opt OECD.TSAL.2.ETOP}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Top of scale{p_end}
-{synopt:{opt OECD.TSAL.3.E0}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Starting salary{p_end}
-{synopt:{opt OECD.TSAL.3.E10}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. 10 years of experience{p_end}
-{synopt:{opt OECD.TSAL.3.E15}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. 15 years of experience{p_end}
-{synopt:{opt OECD.TSAL.3.ETOP}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Top of scale{p_end}
-{synopt:{opt OTHR.TAX.PAID.ZS}} Other taxes (% of profits){p_end}
-{synopt:{opt PA.NUS.ATLS}} DEC alternative conversion factor (LCU per US$){p_end}
-{synopt:{opt PA.NUS.FCRF.XR}} Official exchange rate to parallel exchange rate ratio{p_end}
-{synopt:{opt PA.NUS.FCRF}} Official exchange rate (LCU per US$, period average){p_end}
-{synopt:{opt PA.NUS.PPP.05}} 2005 PPP conversion factor, GDP (LCU per international $){p_end}
-{synopt:{opt PA.NUS.PPPC.RF}} Price level ratio of PPP conversion factor (GDP) to market exchange rate{p_end}
-{synopt:{opt PA.NUS.PPP}} PPP conversion factor, GDP (LCU per international $){p_end}
-{synopt:{opt PA.NUS.PRVT.PP.05}} 2005 PPP conversion factor, private consumption (LCU per international $){p_end}
-{synopt:{opt PA.NUS.PRVT.PP}} PPP conversion factor, private consumption (LCU per international $){p_end}
-{synopt:{opt PA.PPR.MAIZ.CD}} Maize price (US$ per metric ton){p_end}
-{synopt:{opt PA.PPR.MAIZ.CN}} Maize price (local currency per metric ton){p_end}
-{synopt:{opt PA.PPR.WHEA.CD}} Wheat price (US$ per metric ton){p_end}
-{synopt:{opt PA.PPR.WHEA.CN}} Wheat price (local currency per metric ton){p_end}
-{synopt:{opt PALM.LND.DMG}} Palm Oil Land Area by type of condition: Damaged (in Hectares){p_end}
-{synopt:{opt PALM.LND.IMM}} Palm Oil Land Area by type of condition: Immature (in Hectares){p_end}
-{synopt:{opt PALM.LND.MTR}} Palm Oil Land Area by type of condition: Mature (in Hectares){p_end}
-{synopt:{opt PALM.LND.PRVT}} Palm Oil Land Area by type of ownership: Private (in Hectares){p_end}
-{synopt:{opt PALM.LND.SMHD}} Palm Oil Land Area by type of ownership: Smallholder (in Hectares){p_end}
-{synopt:{opt PALM.LND.SOE}} Palm Oil Land Area by type of ownership: State Owned Enterprise (in Hectares){p_end}
-{synopt:{opt PALM.LND.TOTL}} Palm Oil Land Area: Total (in Hectares){p_end}
-{synopt:{opt PALM.PRD.PRVT}} Palm Production by type of ownership: Private (in Tons){p_end}
-{synopt:{opt PALM.PRD.SMHD}} Palm Production by type of ownership: Smallholder (in Tons){p_end}
-{synopt:{opt PALM.PRD.SOE}} Palm Production by type of ownership: State Owned Enterprise (in Tons){p_end}
-{synopt:{opt PALM.PRD.TOTL}} Palm Production: Total (in Tons){p_end}
-{synopt:{opt PALM.YLD.PRVT}} Palm Oil Yield by type of ownership: Private (in Kg/Ha){p_end}
-{synopt:{opt PALM.YLD.SMHD}} Palm Oil Yield by type of ownership: Smallholder (in Kg/Ha){p_end}
-{synopt:{opt PALM.YLD.SOE}} Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha){p_end}
-{synopt:{opt PAY.TAX.COIT.AU.HRS.DB1719}} Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology){p_end}
-{synopt:{opt PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN}} Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.COIT.AU.WKS.DB1719}} Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology){p_end}
-{synopt:{opt PAY.TAX.COIT.WKS.TM.DB1719.DFRN}} Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.DB0616.DFRN}} Paying taxes (DB06-16 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.DB1719.DRFN}} Paying taxes (DB17-19 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.LABR.TAX.CONTR.ZS}} Paying taxes: Labor tax and contributions (% of commercial profits){p_end}
-{synopt:{opt PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN}} Paying taxes: Postfiling index (0-100) (DB17-19 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.PRFT.CP.ZS}} Paying taxes: Profit tax (% of profits){p_end}
-{synopt:{opt PAY.TAX.PYMT.FREQ.NO}} Paying taxes: Payments (number per year){p_end}
-{synopt:{opt PAY.TAX.PYMT.NO.DFRN}} Paying taxes: Tax payments per year (number) - Score{p_end}
-{synopt:{opt PAY.TAX.RK.DB19}} Rank: Paying taxes (1=most business-friendly regulations) (DB19 methodology){p_end}
-{synopt:{opt PAY.TAX.TM.DFRN}} Paying taxes: Time (hours per year) - Score{p_end}
-{synopt:{opt PAY.TAX.TM}} Paying taxes: Time (hours per year){p_end}
-{synopt:{opt PAY.TAX.TOT.TAX.RT.ZS.DRFRN}} Paying taxes: Total tax rate (% of profit) - Score{p_end}
-{synopt:{opt PAY.TAX.TOT.TAX.RT.ZS}} Paying taxes: Total tax rate (% of profit){p_end}
-{synopt:{opt PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN}} Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719}} Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology){p_end}
-{synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) - Score{p_end}
-{synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology){p_end}
-{synopt:{opt PE.NUS.FCAE}} Official exchange rate (LCU per US$, end period){p_end}
-{synopt:{opt PE.USG.LNDN}} London gold price (US$ per ounce){p_end}
+{synopt:{opt NY.ADJ.AEDU.GN.ZS}} Adjusted savings: education expenditure (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DCO2.CD}} Adjusted savings: carbon dioxide damage (current US$) {p_end}
+{synopt:{opt NY.ADJ.DCO2.GN.ZS}} Adjusted savings: carbon dioxide damage (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DFOR.CD}} Adjusted savings: net forest depletion (current US$) {p_end}
+{synopt:{opt NY.ADJ.DFOR.GN.ZS}} Adjusted savings: net forest depletion (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DKAP.CD}} Adjusted savings: consumption of fixed capital (current US$) {p_end}
+{synopt:{opt NY.ADJ.DKAP.GN.ZS}} Adjusted savings: consumption of fixed capital (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DMIN.CD}} Adjusted savings: mineral depletion (current US$) {p_end}
+{synopt:{opt NY.ADJ.DMIN.GN.ZS}} Adjusted savings: mineral depletion (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DNGY.CD}} Adjusted savings: energy depletion (current US$) {p_end}
+{synopt:{opt NY.ADJ.DNGY.GN.ZS}} Adjusted savings: energy depletion (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DPEM.CD}} Adjusted savings: particulate emission damage (current US$) {p_end}
+{synopt:{opt NY.ADJ.DPEM.GN.ZS}} Adjusted savings: particulate emission damage (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.DRES.GN.ZS}} Adjusted savings: natural resources depletion (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.ICTR.GN.ZS}} Adjusted savings: gross savings (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.NNAT.CD}} Adjusted savings: net national savings (current US$) {p_end}
+{synopt:{opt NY.ADJ.NNAT.GN.ZS}} Adjusted savings: net national savings (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.NNTY.CD}} Adjusted net national income (current US$) {p_end}
+{synopt:{opt NY.ADJ.NNTY.KD.ZG}} Adjusted net national income (annual % growth) {p_end}
+{synopt:{opt NY.ADJ.NNTY.KD}} Adjusted net national income (constant 2010 US$) {p_end}
+{synopt:{opt NY.ADJ.NNTY.PC.CD}} Adjusted net national income per capita (current US$) {p_end}
+{synopt:{opt NY.ADJ.NNTY.PC.KD.ZG}} Adjusted net national income per capita (annual % growth) {p_end}
+{synopt:{opt NY.ADJ.NNTY.PC.KD}} Adjusted net national income per capita (constant 2010 US$) {p_end}
+{synopt:{opt NY.ADJ.SVNG.CD}} Adjusted net savings, including particulate emission damage (current US$) {p_end}
+{synopt:{opt NY.ADJ.SVNG.GN.ZS}} Adjusted net savings, including particulate emission damage (% of GNI) {p_end}
+{synopt:{opt NY.ADJ.SVNX.CD}} Adjusted net savings, excluding particulate emission damage (current US$) {p_end}
+{synopt:{opt NY.ADJ.SVNX.GN.ZS}} Adjusted net savings, excluding particulate emission damage (% of GNI) {p_end}
+{synopt:{opt NY.AGR.SUBS.GD.ZS}} Agricultural support estimate (% of GDP) {p_end}
+{synopt:{opt NY.EXP.CAPM.KD.87}} Exports as a capacity to import (constant 1987 US$) {p_end}
+{synopt:{opt NY.EXP.CAPM.KN.87}} Exports as a capacity to import (constant 1987 LCU) {p_end}
+{synopt:{opt NY.EXP.CAPM.KN}} Exports as a capacity to import (constant LCU) {p_end}
+{synopt:{opt NY.GDP.COAL.RT.ZS}} Coal rents (% of GDP) {p_end}
+{synopt:{opt NY.GDP.DEFL.87.ZG}} Inflation, GDP deflator (annual %) {p_end}
+{synopt:{opt NY.GDP.DEFL.KD.ZG.AD}} Inflation, GDP deflator: linked series (annual %) {p_end}
+{synopt:{opt NY.GDP.DEFL.KD.ZG}} Inflation, GDP deflator (annual %) {p_end}
+{synopt:{opt NY.GDP.DEFL.ZS.87}} GDP deflator (1987 = 100) {p_end}
+{synopt:{opt NY.GDP.DEFL.ZS.AD}} GDP deflator: linked series (base year varies by country) {p_end}
+{synopt:{opt NY.GDP.DEFL.ZS}} GDP deflator (base year varies by country) {p_end}
+{synopt:{opt NY.GDP.DISC.CD}} Discrepancy in expenditure estimate of GDP (current US$) {p_end}
+{synopt:{opt NY.GDP.DISC.CN}} Discrepancy in expenditure estimate of GDP (current LCU) {p_end}
+{synopt:{opt NY.GDP.DISC.KN}} Discrepancy in expenditure estimate of GDP (constant LCU) {p_end}
+{synopt:{opt NY.GDP.FCST.CD}} Gross value added at basic prices (GVA) (current US$) {p_end}
+{synopt:{opt NY.GDP.FCST.CN}} Gross value added at basic prices (GVA) (current LCU) {p_end}
+{synopt:{opt NY.GDP.FCST.KD.87}} GDP at factor cost (constant 1987 US$) {p_end}
+{synopt:{opt NY.GDP.FCST.KD}} Gross value added at basic prices (GVA) (constant 2010 US$) {p_end}
+{synopt:{opt NY.GDP.FCST.KN.87}} GDP at factor cost (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GDP.FCST.KN}} Gross value added at basic prices (GVA) (constant LCU) {p_end}
+{synopt:{opt NY.GDP.FRST.RT.ZS}} Forest rents (% of GDP) {p_end}
+{synopt:{opt NY.GDP.MINR.RT.ZS}} Mineral rents (% of GDP) {p_end}
+{synopt:{opt NY.GDP.MKTP.CD.XD}} GDP deflator, index (2000=100; US$ series) {p_end}
+{synopt:{opt NY.GDP.MKTP.CD}} GDP (current US$) {p_end}
+{synopt:{opt NY.GDP.MKTP.CN.AD}} GDP: linked series (current LCU) {p_end}
+{synopt:{opt NY.GDP.MKTP.CN.XD}} GDP deflator, period average (LCU index 2000=100) {p_end}
+{synopt:{opt NY.GDP.MKTP.CN}} GDP (current LCU) {p_end}
+{synopt:{opt NY.GDP.MKTP.IN}} GDP Deflator {p_end}
+{synopt:{opt NY.GDP.MKTP.KD.87}} GDP at market prices (constant 1987 US$) {p_end}
+{synopt:{opt NY.GDP.MKTP.KD.ZG}} GDP growth (annual %) {p_end}
+{synopt:{opt NY.GDP.MKTP.KD}} GDP (constant 2010 US$) {p_end}
+{synopt:{opt NY.GDP.MKTP.KN.87.ZG}} GDP growth (annual %) {p_end}
+{synopt:{opt NY.GDP.MKTP.KN.87}} GDP at market prices (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GDP.MKTP.KN}} GDP (constant LCU) {p_end}
+{synopt:{opt NY.GDP.MKTP.PP.CD}} GDP, PPP (current international $) {p_end}
+{synopt:{opt NY.GDP.MKTP.PP.KD.87}} GDP, PPP (constant 1987 international $) {p_end}
+{synopt:{opt NY.GDP.MKTP.PP.KD}} GDP, PPP (constant 2011 international $) {p_end}
+{synopt:{opt NY.GDP.MKTP.XD}} GDP deflator (1987=100,Index) {p_end}
+{synopt:{opt NY.GDP.MKTP.XU.E}} GDP deflator, end period (base year varies by country) {p_end}
+{synopt:{opt NY.GDP.MKTP.ZG}} Gross domestic product (Av. annual growth, %) {p_end}
+{synopt:{opt NY.GDP.NGAS.RT.ZS}} Natural gas rents (% of GDP) {p_end}
+{synopt:{opt NY.GDP.PCAP.CD}} GDP per capita (current US$) {p_end}
+{synopt:{opt NY.GDP.PCAP.CN}} GDP per capita (current LCU) {p_end}
+{synopt:{opt NY.GDP.PCAP.KD.ZG}} GDP per capita growth (annual %) {p_end}
+{synopt:{opt NY.GDP.PCAP.KD}} GDP per capita (constant 2010 US$) {p_end}
+{synopt:{opt NY.GDP.PCAP.KN}} GDP per capita (constant LCU) {p_end}
+{synopt:{opt NY.GDP.PCAP.PP.CD}} GDP per capita, PPP (current international $) {p_end}
+{synopt:{opt NY.GDP.PCAP.PP.KD.87}} GDP per capita, PPP (constant 1987 international $) {p_end}
+{synopt:{opt NY.GDP.PCAP.PP.KD.ZG}} GDP per capita, PPP annual growth (%) {p_end}
+{synopt:{opt NY.GDP.PCAP.PP.KD}} GDP per capita, PPP (constant 2011 international $) {p_end}
+{synopt:{opt NY.GDP.PETR.RT.ZS}} Oil rents (% of GDP) {p_end}
+{synopt:{opt NY.GDP.TOTL.RT.ZS}} Total natural resources rents (% of GDP) {p_end}
+{synopt:{opt NY.GDS.PRVT.CD}} Gross domestic savings, private (current US$) {p_end}
+{synopt:{opt NY.GDS.PRVT.CN}} Gross domestic savings, private (current LCU) {p_end}
+{synopt:{opt NY.GDS.PRVT.KN}} Gross domestic savings, private (constant LCU) {p_end}
+{synopt:{opt NY.GDS.PUBL.CD}} Gross domestic savings, public (current US$) {p_end}
+{synopt:{opt NY.GDS.PUBL.CN}} Gross domestic savings, public (current LCU) {p_end}
+{synopt:{opt NY.GDS.PUBL.KN}} Gross domestic savings, public (constant LCU) {p_end}
+{synopt:{opt NY.GDS.TOTL.CD}} Gross domestic savings (current US$) {p_end}
+{synopt:{opt NY.GDS.TOTL.CN}} Gross domestic savings (current LCU) {p_end}
+{synopt:{opt NY.GDS.TOTL.KD.87}} Gross domestic savings (constant 1987 US$) {p_end}
+{synopt:{opt NY.GDS.TOTL.KD}} Gross domestic savings, total (constant 2000 US$) {p_end}
+{synopt:{opt NY.GDS.TOTL.KN.87}} Gross domestic savings (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GDS.TOTL.KN}} Gross domestic savings (constant LCU) {p_end}
+{synopt:{opt NY.GDS.TOTL.ZS}} Gross domestic savings (% of GDP) {p_end}
+{synopt:{opt NY.GDY.TOTL.KD.87}} Gross domestic income (constant 1987 US$) {p_end}
+{synopt:{opt NY.GDY.TOTL.KD}} Gross domestic income (constant 2005 US$) {p_end}
+{synopt:{opt NY.GDY.TOTL.KN.87}} Gross domestic income (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GDY.TOTL.KN}} Gross domestic income (constant LCU) {p_end}
+{synopt:{opt NY.GEN.AEDU.GD.ZS}} Genuine savings: education expenditure (% of GDP) {p_end}
+{synopt:{opt NY.GEN.DCO2.GD.ZS}} Genuine savings: carbon dioxide damage (% of GDP) {p_end}
+{synopt:{opt NY.GEN.DFOR.GD.ZS}} Genuine savings: net forest depletion (% of GDP) {p_end}
+{synopt:{opt NY.GEN.DKAP.GD.ZS}} Genuine savings: consumption of fixed capital (% of GDP) {p_end}
+{synopt:{opt NY.GEN.DMIN.GD.ZS}} Genuine savings: mineral depletion (% of GDP) {p_end}
+{synopt:{opt NY.GEN.DNGY.GD.ZS}} Genuine savings: energy depletion (% of GDP) {p_end}
+{synopt:{opt NY.GEN.NDOM.GD.ZS}} Genuine savings: net domestic savings (% of GDP) {p_end}
+{synopt:{opt NY.GEN.SVNG.GD.ZS}} Genuine domestic savings (% of GDP) {p_end}
+{synopt:{opt NY.GNP.ATLS.CD}} GNI, Atlas method (current US$) {p_end}
+{synopt:{opt NY.GNP.MKTP.CD}} GNI (current US$) {p_end}
+{synopt:{opt NY.GNP.MKTP.CN}} GNI (current LCU) {p_end}
+{synopt:{opt NY.GNP.MKTP.KD.87}} GNP at market prices (constant 1987 US$) {p_end}
+{synopt:{opt NY.GNP.MKTP.KD.ZG}} GNI growth (annual %) {p_end}
+{synopt:{opt NY.GNP.MKTP.KD}} GNI (constant 2010 US$) {p_end}
+{synopt:{opt NY.GNP.MKTP.KN.87.ZG}} GNP growth (annual %) {p_end}
+{synopt:{opt NY.GNP.MKTP.KN.87}} GNP at market prices (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GNP.MKTP.KN}} GNI (constant LCU) {p_end}
+{synopt:{opt NY.GNP.MKTP.PC.CD}} GNI per capita (current US$) {p_end}
+{synopt:{opt NY.GNP.MKTP.PP.CD}} GNI, PPP (current international $) {p_end}
+{synopt:{opt NY.GNP.MKTP.PP.KD.87}} GNP, PPP (constant 1987 international $) {p_end}
+{synopt:{opt NY.GNP.MKTP.PP.KD}} GNI, PPP (constant 2011 international $) {p_end}
+{synopt:{opt NY.GNP.PCAP.CD.AT}} GNP per capita (Atlas method) (US$,curr. pr.) {p_end}
+{synopt:{opt NY.GNP.PCAP.CD}} GNI per capita, Atlas method (current US$) {p_end}
+{synopt:{opt NY.GNP.PCAP.CN}} GNI per capita (current LCU) {p_end}
+{synopt:{opt NY.GNP.PCAP.KD.87}} GNP per capita (constant 1987 US$) {p_end}
+{synopt:{opt NY.GNP.PCAP.KD.ZG}} GNI per capita growth (annual %) {p_end}
+{synopt:{opt NY.GNP.PCAP.KD}} GNI per capita (constant 2010 US$) {p_end}
+{synopt:{opt NY.GNP.PCAP.KN.87}} GNP per capita (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GNP.PCAP.KN}} GNI per capita (constant LCU) {p_end}
+{synopt:{opt NY.GNP.PCAP.PP.CD}} GNI per capita, PPP (current international $) {p_end}
+{synopt:{opt NY.GNP.PCAP.PP.KD.87}} GNP per capita, PPP (constant 1987 international $) {p_end}
+{synopt:{opt NY.GNP.PCAP.PP.KD}} GNI per capita, PPP (constant 2011 international $) {p_end}
+{synopt:{opt NY.GNP.PCAP.ZG}} GNP per capita growth (annual %) {p_end}
+{synopt:{opt NY.GNP.PCAT.CD}} Gross national product per capita (USD, Atlas meth.) {p_end}
+{synopt:{opt NY.GNS.ICTR.CD}} Gross savings (current US$) {p_end}
+{synopt:{opt NY.GNS.ICTR.CN}} Gross savings (current LCU) {p_end}
+{synopt:{opt NY.GNS.ICTR.GN.ZS}} Gross savings (% of GNI) {p_end}
+{synopt:{opt NY.GNS.ICTR.KD}} Gross national savings, including net current transfers (constant 2000 US$) {p_end}
+{synopt:{opt NY.GNS.ICTR.KN}} Gross national savings, including net current transfers (constant LCU) {p_end}
+{synopt:{opt NY.GNS.ICTR.ZS}} Gross savings (% of GDP) {p_end}
+{synopt:{opt NY.GNS.PRVT.CD}} Gross national savings, private (current US$) {p_end}
+{synopt:{opt NY.GNS.PRVT.CN}} Gross national savings, private (current LCU) {p_end}
+{synopt:{opt NY.GNS.PRVT.KN}} Gross national savings, private (constant LCU) {p_end}
+{synopt:{opt NY.GNS.PUBL.CD}} Gross national savings, public (current US$) {p_end}
+{synopt:{opt NY.GNS.PUBL.CN}} Gross national savings, public (current LCU) {p_end}
+{synopt:{opt NY.GNS.PUBL.KN}} Gross national savings, public (constant LCU) {p_end}
+{synopt:{opt NY.GNS.TOTL.CN}} CP Gross National Savings (Local) {p_end}
+{synopt:{opt NY.GNY.PCAP.KD.87}} Gross national income per capita (1987 US$) {p_end}
+{synopt:{opt NY.GNY.PCAP.KD}} Gross national income per capita (1987 USD) {p_end}
+{synopt:{opt NY.GNY.TOTL.CN}} Gross national disposable income (current LCU) {p_end}
+{synopt:{opt NY.GNY.TOTL.KD.87}} Gross national income (constant 1987 US$) {p_end}
+{synopt:{opt NY.GNY.TOTL.KD}} Gross national income (constant 2000 US$) {p_end}
+{synopt:{opt NY.GNY.TOTL.KN.87}} Gross national income (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GNY.TOTL.KN}} Gross national income (constant LCU) {p_end}
+{synopt:{opt NY.GNY.TOTL.ZG}} Gross national income (Av. annual growth, %) {p_end}
+{synopt:{opt NY.GSR.NFCY.CD}} Net primary income (Net income from abroad) (current US$) {p_end}
+{synopt:{opt NY.GSR.NFCY.CN}} Net primary income (Net income from abroad) (current LCU) {p_end}
+{synopt:{opt NY.GSR.NFCY.KD.87}} Net income from abroad (constant 1987 US$) {p_end}
+{synopt:{opt NY.GSR.NFCY.KN.87}} Net income from abroad (constant 1987 LCU) {p_end}
+{synopt:{opt NY.GSR.NFCY.KN}} Net primary income (Net income from abroad) (constant LCU) {p_end}
+{synopt:{opt NY.SVF.NFSY.CN}} CP Net Factor Income (+) or Payments (Local) {p_end}
+{synopt:{opt NY.TAX.IDRT.CD}} Indirect taxes (current US$) {p_end}
+{synopt:{opt NY.TAX.IDRT.CN}} Indirect taxes (current LCU) {p_end}
+{synopt:{opt NY.TAX.NIND.CD}} Taxes less subsidies on products (current US$) {p_end}
+{synopt:{opt NY.TAX.NIND.CN}} Taxes less subsidies on products (current LCU) {p_end}
+{synopt:{opt NY.TAX.NIND.KD.87}} Net indirect taxes (constant 1987 US$) {p_end}
+{synopt:{opt NY.TAX.NIND.KN.87}} Net indirect taxes (constant 1987 LCU) {p_end}
+{synopt:{opt NY.TAX.NIND.KN}} Taxes less subsidies on products (constant LCU) {p_end}
+{synopt:{opt NY.TAX.SUBS.CD}} Subsidies (current US$) {p_end}
+{synopt:{opt NY.TAX.SUBS.CN}} Subsidies (current LCU; from SNA) {p_end}
+{synopt:{opt NY.TRF.NCTR.CD}} Net secondary income (Net current transfers from abroad) (current US$) {p_end}
+{synopt:{opt NY.TRF.NCTR.CN}} Net secondary income (Net current transfers from abroad) (current LCU) {p_end}
+{synopt:{opt NY.TRF.NCTR.KN}} Net secondary income (Net current transfers from abroad) (constant LCU) {p_end}
+{synopt:{opt NY.TTF.GNFS.KD.87}} Terms of trade adjustment (constant 1987 US$) {p_end}
+{synopt:{opt NY.TTF.GNFS.KN.87}} Terms of trade adjustment (constant 1987 LCU) {p_end}
+{synopt:{opt NY.TTF.GNFS.KN}} Terms of trade adjustment (constant LCU) {p_end}
+{synopt:{opt NY.TTF.MRCH.KN}} Terms of Trade Adjustment (local) (Const. Price) {p_end}
+{synopt:{opt NYGDPFCSTKN__EXT}} GDP Factor Cost, Real LCU mn , annual change % {p_end}
+{synopt:{opt NYGDPMKTPKDZ}} Annual percentage growth rate of GDP at market prices based on constant 2010 US Dollars. {p_end}
+{synopt:{opt NYGDPMKTPKN__EXT}} GDP, Market Prices, Real LCU mn, annual growth rate (%) {p_end}
+{synopt:{opt NYGDPMKTPSACD}} GDP,current US$,millions,seas. adj., {p_end}
+{synopt:{opt NYGDPMKTPSACN}} GDP,current LCU,millions,seas. adj., {p_end}
+{synopt:{opt NYGDPMKTPSAKD}} GDP,constant 2010 US$,millions,seas. adj., {p_end}
+{synopt:{opt NYGDPMKTPSAKN}} GDP,constant 2010 LCU,millions,seas. adj., {p_end}
+{synopt:{opt OECD.TSAL.0.E0}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. Starting salary {p_end}
+{synopt:{opt OECD.TSAL.0.E10}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. 10 years of experience {p_end}
+{synopt:{opt OECD.TSAL.0.E15}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. 15 years of experience {p_end}
+{synopt:{opt OECD.TSAL.0.ETOP}} Annual statutory teacher salaries in public institutions in USD. Pre-Primary. Top of scale {p_end}
+{synopt:{opt OECD.TSAL.1.E0}} Annual statutory teacher salaries in public institutions in USD. Primary. Starting salary {p_end}
+{synopt:{opt OECD.TSAL.1.E10}} Annual statutory teacher salaries in public institutions in USD. Primary. 10 years of experience {p_end}
+{synopt:{opt OECD.TSAL.1.E15}} Annual statutory teacher salaries in public institutions in USD. Primary. 15 years of experience {p_end}
+{synopt:{opt OECD.TSAL.1.ETOP}} Annual statutory teacher salaries in public institutions in USD. Primary. Top of scale {p_end}
+{synopt:{opt OECD.TSAL.2.E0}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Starting salary {p_end}
+{synopt:{opt OECD.TSAL.2.E10}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. 10 years of experience {p_end}
+{synopt:{opt OECD.TSAL.2.E15}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. 15 years of experience {p_end}
+{synopt:{opt OECD.TSAL.2.ETOP}} Annual statutory teacher salaries in public institutions in USD. Lower Secondary. Top of scale {p_end}
+{synopt:{opt OECD.TSAL.3.E0}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Starting salary {p_end}
+{synopt:{opt OECD.TSAL.3.E10}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. 10 years of experience {p_end}
+{synopt:{opt OECD.TSAL.3.E15}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. 15 years of experience {p_end}
+{synopt:{opt OECD.TSAL.3.ETOP}} Annual statutory teacher salaries in public institutions in USD. Upper Secondary. Top of scale {p_end}
+{synopt:{opt OTHR.TAX.PAID.ZS}} Other taxes (% of profits) {p_end}
+{synopt:{opt PA.NPP}} PPP (LCU per international $) {p_end}
+{synopt:{opt PA.NUS.ATLS}} DEC alternative conversion factor (LCU per US$) {p_end}
+{synopt:{opt PA.NUS.FCRF.XR}} Official exchange rate to parallel exchange rate ratio {p_end}
+{synopt:{opt PA.NUS.FCRF}} Official exchange rate (LCU per US$, period average) {p_end}
+{synopt:{opt PA.NUS.PPP.05}} 2005 PPP conversion factor, GDP (LCU per international $) {p_end}
+{synopt:{opt PA.NUS.PPPC.RF}} Price level ratio of PPP conversion factor (GDP) to market exchange rate {p_end}
+{synopt:{opt PA.NUS.PPP}} PPP conversion factor, GDP (LCU per international $) {p_end}
+{synopt:{opt PA.NUS.PRVT.PP.05}} 2005 PPP conversion factor, private consumption (LCU per international $) {p_end}
+{synopt:{opt PA.NUS.PRVT.PP}} PPP conversion factor, private consumption (LCU per international $) {p_end}
+{synopt:{opt PA.NUS}} Exchange rate (LCU per US$, period average) {p_end}
+{synopt:{opt PA.PPR.MAIZ.CD}} Maize price (US$ per metric ton) {p_end}
+{synopt:{opt PA.PPR.MAIZ.CN}} Maize price (local currency per metric ton) {p_end}
+{synopt:{opt PA.PPR.WHEA.CD}} Wheat price (US$ per metric ton) {p_end}
+{synopt:{opt PA.PPR.WHEA.CN}} Wheat price (local currency per metric ton) {p_end}
+{synopt:{opt PALM.LND.DMG}} Palm Oil Land Area by type of condition: Damaged (in Hectares) {p_end}
+{synopt:{opt PALM.LND.IMM}} Palm Oil Land Area by type of condition: Immature (in Hectares) {p_end}
+{synopt:{opt PALM.LND.MTR}} Palm Oil Land Area by type of condition: Mature (in Hectares) {p_end}
+{synopt:{opt PALM.LND.PRVT}} Palm Oil Land Area by type of ownership: Private (in Hectares) {p_end}
+{synopt:{opt PALM.LND.SMHD}} Palm Oil Land Area by type of ownership: Smallholder (in Hectares) {p_end}
+{synopt:{opt PALM.LND.SOE}} Palm Oil Land Area by type of ownership: State Owned Enterprise (in Hectares) {p_end}
+{synopt:{opt PALM.LND.TOTL}} Palm Oil Land Area: Total (in Hectares) {p_end}
+{synopt:{opt PALM.PRD.PRVT}} Palm Production by type of ownership: Private (in Tons) {p_end}
+{synopt:{opt PALM.PRD.SMHD}} Palm Production by type of ownership: Smallholder (in Tons) {p_end}
+{synopt:{opt PALM.PRD.SOE}} Palm Production by type of ownership: State Owned Enterprise (in Tons) {p_end}
+{synopt:{opt PALM.PRD.TOTL}} Palm Production: Total (in Tons) {p_end}
+{synopt:{opt PALM.YLD.PRVT}} Palm Oil Yield by type of ownership: Private (in Kg/Ha) {p_end}
+{synopt:{opt PALM.YLD.SMHD}} Palm Oil Yield by type of ownership: Smallholder (in Kg/Ha) {p_end}
+{synopt:{opt PALM.YLD.SOE}} Palm Oil Yield by type of ownership: State Owned Enterprise (in Kg/Ha) {p_end}
+{synopt:{opt PAY.TAX.COIT.AU.HRS.DB1719}} Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology) {p_end}
+{synopt:{opt PAY.TAX.COIT.AU.HRS.TM.DB1719.DFRN}} Paying taxes: Time to comply with corporate income tax correction (hours) (DB17-19 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.COIT.AU.WKS.DB1719}} Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology) {p_end}
+{synopt:{opt PAY.TAX.COIT.WKS.TM.DB1719.DFRN}} Paying taxes: Time to complete a corporate income tax correction (weeks) (DB17-19 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.DB0616.DFRN}} Paying taxes (DB06-16 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.DB1719.DRFN}} Paying taxes (DB17-19 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.LABR.TAX.CONTR.ZS}} Paying taxes: Labor tax and contributions (% of commercial profits) {p_end}
+{synopt:{opt PAY.TAX.POST.FIL.XD.0100.DB1719.DFRN}} Paying taxes: Postfiling index (0-100) (DB17-19 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.PRFT.CP.ZS}} Paying taxes: Profit tax (% of profits) {p_end}
+{synopt:{opt PAY.TAX.PYMT.FREQ.NO}} Paying taxes: Payments (number per year) {p_end}
+{synopt:{opt PAY.TAX.PYMT.NO.DFRN}} Paying taxes: Tax payments per year (number) - Score {p_end}
+{synopt:{opt PAY.TAX.RK.DB19}} Rank: Paying taxes (1=most business-friendly regulations) (DB19 methodology) {p_end}
+{synopt:{opt PAY.TAX.TM.DFRN}} Paying taxes: Time (hours per year) - Score {p_end}
+{synopt:{opt PAY.TAX.TM}} Paying taxes: Time (hours per year) {p_end}
+{synopt:{opt PAY.TAX.TOT.TAX.RT.ZS.DRFRN}} Paying taxes: Total tax rate (% of profit) - Score {p_end}
+{synopt:{opt PAY.TAX.TOT.TAX.RT.ZS}} Paying taxes: Total tax rate (% of profit) {p_end}
+{synopt:{opt PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719.DFRN}} Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.VAT.REF.OBT.WKS.TM.DB1719}} Paying taxes: Time to obtain VAT refund (weeks) (DB17-19 methodology) {p_end}
+{synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719.DFRN}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) - Score {p_end}
+{synopt:{opt PAY.TAX.VAT.REFU.COMP.HRS.TM.DB1719}} Paying taxes: Time to comply with VAT refund (hours) (DB17-19 methodology) {p_end}
+{synopt:{opt PC.CD}} Expenditures per capita (current US$, XR term) {p_end}
+{synopt:{opt PC.PP.CD}} Expenditures per capita (current international $, PPP term) {p_end}
+{synopt:{opt PC.US.PP.ZX}} Expenditures per capita (index, US=100, PPP term) {p_end}
+{synopt:{opt PC.US.ZX}} Expenditures per capita (index, US=100, XR term) {p_end}
+{synopt:{opt PC.WL.PP.ZX}} Expenditures per capita (index, World=100, PPP term) {p_end}
+{synopt:{opt PC.WL.ZX}} Expenditures per capita (index, World=100, XR term) {p_end}
+{synopt:{opt PE.NUS.FCAE}} Official exchange rate (LCU per US$, end period) {p_end}
+{synopt:{opt PE.USG.LNDN}} London gold price (US$ per ounce) {p_end}
+{synopt:{opt PI-10}} Public access to key fiscal information {p_end}
+{synopt:{opt PI-11.1}} (i) Existence of and adherence to a fixed budget calendar; {p_end}
+{synopt:{opt PI-11.2}} (ii) Clarity/comprehensiveness of and political involvement in the guidance on the preparation of budget submissions (budget circular or equivalent); {p_end}
+{synopt:{opt PI-11.3}} (iii) Timely budget approval by the legislature or similarly mandated body (within the last three years); {p_end}
+{synopt:{opt PI-11}} Orderliness and participation in the annual budget process {p_end}
+{synopt:{opt PI-12.1}} (i) Preparation of multi -year fiscal forecasts and functional allocations {p_end}
+{synopt:{opt PI-12.2}} (ii) Scope and frequency of debt sustainability analysis {p_end}
+{synopt:{opt PI-12.3}} (iii) Existence of sector strategies with multi-year costing of recurrent and investment expenditure; {p_end}
+{synopt:{opt PI-12.4}} (iv)  Linkages between investment budgets and forward expenditure estimates {p_end}
+{synopt:{opt PI-12}} Multi-year perspective in fiscal planning, expenditure policy and budgeting {p_end}
+{synopt:{opt PI-13.1}} (i) Clarity and comprehensiveness of tax liabilities {p_end}
+{synopt:{opt PI-13.2}} (ii) Taxpayer access to information on tax liabilities and administrative procedures {p_end}
+{synopt:{opt PI-13.3}} (iii) Existence and functioning of a tax appeals mechanism {p_end}
+{synopt:{opt PI-13}} Transparency of taxpayer obligations and liabilities {p_end}
+{synopt:{opt PI-14.1}} (i) Controls in the taxpayer registration system {p_end}
+{synopt:{opt PI-14.2}} (ii)  Effectiveness of penalties for non-compliance with registration and declaration obligations {p_end}
+{synopt:{opt PI-14.3}} (iii) Planning and monitoring of tax audit and fraud investigation programs {p_end}
+{synopt:{opt PI-14}} Effectiveness of measures for taxpayer registration and tax assessment {p_end}
+{synopt:{opt PI-15.1}} (i) Collection ratio for gross tax arrears, being the percentage of tax arrears at the beginning of a fiscal year, which was collected during that fiscal year (average of the last two fiscal years) {p_end}
+{synopt:{opt PI-15.2}} (ii) Effectiveness of transfer of tax collections to the Treasury by the revenue administration {p_end}
+{synopt:{opt PI-15.3}} (iii) Frequency of complete accounts reconciliation between tax assessments, collections, arrears records and receipts by the Treasury {p_end}
+{synopt:{opt PI-15}} Effectiveness in collection of tax payments {p_end}
+{synopt:{opt PI-16.1}} (i)  Extent to which cash flows are forecast and monitored {p_end}
+{synopt:{opt PI-16.2}} (ii) Reliability and horizon of periodic in-year information to MDAs on ceilings for expenditure commitmentc {p_end}
+{synopt:{opt PI-16.3}} (iii) Frequency and transparency of adjustments to budget allocations, which are decided above the level of management of MDAs {p_end}
+{synopt:{opt PI-16}} Predictability in the availability of funds for commitment of expenditures {p_end}
+{synopt:{opt PI-17.1}} (i) Quality of debt data recording and reporting {p_end}
+{synopt:{opt PI-17.2}} (ii) Extent of consolidation of the government’s cash balances {p_end}
+{synopt:{opt PI-17.3}} (iii) Systems for contracting loans and issuance of guarantees {p_end}
+{synopt:{opt PI-17}} Recording and management of cash balances, debt and guarantees {p_end}
+{synopt:{opt PI-18.1}} (i) Degree of integration and reconciliation between personnel records and payroll data {p_end}
+{synopt:{opt PI-18.2}} (ii) Timeliness of changes to personnel records and the payroll {p_end}
+{synopt:{opt PI-18.3}} (iii) Internal controls of changes to personnel records and the payroll {p_end}
+{synopt:{opt PI-18.4}} (iv) Existence of payroll audits to identify control weaknesses and/or ghost workers {p_end}
+{synopt:{opt PI-18}} Effectiveness of payroll controls {p_end}
+{synopt:{opt PI-19.1}} (i) Transparency, comprehensiveness and competition in the legal and regulatory framework {p_end}
+{synopt:{opt PI-19.2}} (ii) Use of competitive procurement methods {p_end}
+{synopt:{opt PI-19.3}} (iii) Public access to complete, reliable and timely procurement information {p_end}
+{synopt:{opt PI-19.4}} (iv) Existence of an independent administrative procurement complaints system {p_end}
+{synopt:{opt PI-19.5}} (i) Evidence on the use of open competition for award of contracts {p_end}
+{synopt:{opt PI-19.6}} (ii) Extent of justification for use of less competitive procurement methods {p_end}
+{synopt:{opt PI-19.7}} (iii) Existence and operation of a procurement complaints mechanism {p_end}
+{synopt:{opt PI-19}} Competition, value for money and controls in procurement {p_end}
+{synopt:{opt PI-1}} Aggregate expenditure out-turn compared to original approved budget {p_end}
+{synopt:{opt PI-2.1}} (i) Extent of the variance in expenditure composition during the last three years, excluding contingency items {p_end}
+{synopt:{opt PI-2.2}} (ii) The average amount of expenditure actually charged to the contingency vote over the last three years {p_end}
+{synopt:{opt PI-20.1}} (i) Effectiveness of expenditure commitment controls {p_end}
+{synopt:{opt PI-20.2}} (ii) Comprehensiveness, relevance and understanding of other internal control rules/ procedures {p_end}
+{synopt:{opt PI-20.3}} (iii) Degreeof compliance with rules for processing and recording transactions {p_end}
+{synopt:{opt PI-20}} Effectiveness of internal controls for non-salary expenditure {p_end}
+{synopt:{opt PI-21.1}} (i) Coverage and quality of the internal audit function {p_end}
+{synopt:{opt PI-21.2}} (ii) Frequency and distribution of reports {p_end}
+{synopt:{opt PI-21.3}} (iii) Extent of management response to internal audit findings {p_end}
+{synopt:{opt PI-21}} Effectiveness of internal audit {p_end}
+{synopt:{opt PI-22.1}} (i) Regularity of bank reconciliations {p_end}
+{synopt:{opt PI-22.2}} (ii) Regularity of reconciliation and clearance of suspense accounts and advances {p_end}
+{synopt:{opt PI-22}} Timeliness and regularity of  accounts reconciliation {p_end}
+{synopt:{opt PI-23}} Availability of information on resources received by service delivery units {p_end}
+{synopt:{opt PI-24.1}} (i) Scope of reports in terms of coverage and compatibility with budget estimates {p_end}
+{synopt:{opt PI-24.2}} (ii) Timeliness of the issue of reports {p_end}
+{synopt:{opt PI-24.3}} (iii) Quality of information {p_end}
+{synopt:{opt PI-24}} Quality and timeliness of in-year budget reports {p_end}
+{synopt:{opt PI-25.1}} (i) Completeness of the financial statements {p_end}
+{synopt:{opt PI-25.2}} (ii) Timeliness of submission of the financial statements {p_end}
+{synopt:{opt PI-25.3}} (iii) Accounting standards used {p_end}
+{synopt:{opt PI-25}} Quality and timeliness of annual financial statements {p_end}
+{synopt:{opt PI-26.1}} (i) Scope/nature of audit performed (incl. adherence to auditing standards) {p_end}
+{synopt:{opt PI-26.2}} (ii) Timeliness of submission of audit reports to legislature {p_end}
+{synopt:{opt PI-26.3}} (iii) Evidence of follow up on audit recommendations {p_end}
+{synopt:{opt PI-26}} Scope, nature and follow-up of external audit {p_end}
+{synopt:{opt PI-27.1}} (i) Scope of the legislature’s scrutiny {p_end}
+{synopt:{opt PI-27.2}} (ii) Extent to which the legislature’s procedures are well-established and respected {p_end}
+{synopt:{opt PI-27.3}} (iii) Adequacy of time for the legislature to provide a response to budget proposals {p_end}
+{synopt:{opt PI-27.4}} (iv) Rules for in-year amendments to the budget without ex-ante approval by the legislature {p_end}
+{synopt:{opt PI-27}} Legislative scrutiny of the annual budget law {p_end}
+{synopt:{opt PI-28.1}} (i) Timeliness of examination of audit reports by the legislature (for reports received within the last three years) {p_end}
+{synopt:{opt PI-28.2}} (ii) Extent of hearings on key findings undertaken by the legislature {p_end}
+{synopt:{opt PI-28.3}} (iii) Issuance of recommended actions by the legislature and implementation by the executive {p_end}
+{synopt:{opt PI-28}} Legislative scrutiny of external audit reports {p_end}
+{synopt:{opt PI-2}} Composition of expenditure out-turn compared to original approved budget {p_end}
+{synopt:{opt PI-3}} Aggregate revenue out-turn compared to original approved budget {p_end}
+{synopt:{opt PI-4.1}} (i) Stock of expenditure payment arrears (as a % of actual total expenditure for the corresponding fiscal year) &amp; any recent change in the stock {p_end}
+{synopt:{opt PI-4.2}} (ii) Availability of data for monitoring the stock of expenditure payment arrears {p_end}
+{synopt:{opt PI-4}} Stock and monitoring of expenditure payment arrears {p_end}
+{synopt:{opt PI-5}} Classification of the budget {p_end}
+{synopt:{opt PI-6}} Comprehensiveness of information included in budget documentation {p_end}
+{synopt:{opt PI-7.1}} (i) The level of extra-budgetary expenditure (other than donor funded projects) which is unreported i.e. not included in fiscal reports {p_end}
+{synopt:{opt PI-7.2}} (ii) Income/expenditure information on donor-funded projects which is included in fiscal reports {p_end}
+{synopt:{opt PI-7}} Extent of unreported government operations {p_end}
+{synopt:{opt PI-8.1}} (i) Transparent and rules based systems in the horizontal allocation among SN governments of unconditional and conditional transfers from central government (both budgeted and actual allocations); {p_end}
+{synopt:{opt PI-8.2}} (ii) Timeliness of reliable information to SN governments on their allocations from central government for the coming year; {p_end}
+{synopt:{opt PI-8.3}} (iii) Extent to which consolidated fiscal data (at least on revenue and expenditure) is collected and reported for general government according to sectoral categories {p_end}
+{synopt:{opt PI-8}} Transparency of inter-governmental fiscal relations {p_end}
+{synopt:{opt PI-9.1}} (i) Extent of central government monitoring of AGAs and Pes {p_end}
+{synopt:{opt PI-9.2}} (ii)  Extent of central government monitoring of SN government's fiscal position {p_end}
+{synopt:{opt PI-9}} Oversight of aggregate fiscal risk from other public sector entities {p_end}
+{synopt:{opt POP.ZS}} Population (percentage share, World=100) {p_end}
+{synopt:{opt POP}} Population {p_end}
+{synopt:{opt PP.CD}} Expenditures (current international $, PPP term) {p_end}
 {synopt:{opt PRJ.ATT.1519.1.FE}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Female {p_end}
 {synopt:{opt PRJ.ATT.1519.1.MA}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Male {p_end}
 {synopt:{opt PRJ.ATT.1519.1.MF}} Wittgenstein Projection: Percentage of the population age 15-19 by highest level of educational attainment. Primary. Total {p_end}
@@ -8977,6 +9806,8 @@
 {synopt:{opt PX.MUV.TOTL}} Manufactures value index {p_end}
 {synopt:{opt PX.REC.REER}} Real effective exchange rate index (line rec, 2005 = 100) {p_end}
 {synopt:{opt PX.REX.REER}} Real effective exchange rate index (2010 = 100) {p_end}
+{synopt:{opt PX.US}} Price level index (US=100) {p_end}
+{synopt:{opt PX.WL}} Price level index (World=100) {p_end}
 {synopt:{opt Q.1C0.1C0.C.9A.ALL.PITT.1.ALL.MV.TO1.ALL}} 26_Portfolio investment assets {p_end}
 {synopt:{opt Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL}} 24_International reserves (excluding gold) {p_end}
 {synopt:{opt Q.1C0.1C0.C.9B.IFI.LMIM.1.ALL.NV.SDR.MOA}} 07_Multilateral loans, IMF {p_end}
@@ -9325,6 +10156,14 @@
 {synopt:{opt SE.ENR.TERT.FM.ZS}} School enrollment, tertiary (gross), gender parity index (GPI) {p_end}
 {synopt:{opt SE.JRSEC.NENR.ZS}} Net Enrollment Ratio: Junior Secondary (in %) {p_end}
 {synopt:{opt SE.LITR.15UP.ZS}} Literacy Rate for Population age 15 and over (in % of total population) {p_end}
+{synopt:{opt SE.LPV.PRIM.BMP.FE}} Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold {p_end}
+{synopt:{opt SE.LPV.PRIM.BMP.MA}} Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold {p_end}
+{synopt:{opt SE.LPV.PRIM.FE}} Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%) {p_end}
+{synopt:{opt SE.LPV.PRIM.MA}} Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%) {p_end}
+{synopt:{opt SE.LPV.PRIM.OOS.FE}} Female primary school age children out-of-school (%) {p_end}
+{synopt:{opt SE.LPV.PRIM.OOS.MA}} Male primary school age children out-of-school (%) {p_end}
+{synopt:{opt SE.LPV.PRIM.OOS}} Primary school age children out-of-school (%) {p_end}
+{synopt:{opt SE.LPV.PRIM}} Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%) {p_end}
 {synopt:{opt SE.NEXM.SCR.JRSEC}} Average National Exam Score: Junior Secondary Level (out of 100, available only in district level for 2009) {p_end}
 {synopt:{opt SE.NEXM.SCR.PRM}} Average National Exam Score: Primary Level (out of 100, available only in district level for 2009) {p_end}
 {synopt:{opt SE.NEXM.SCR.SRSEC}} Average National Exam Score: Senior Secondary Level (out of 100, available only in district level for 2009) {p_end}
@@ -9538,6 +10377,7 @@
 {synopt:{opt SE.TER.GRAD.FE.HU.ZS}} Percentage of graduates from Arts and Humanities programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE.OT.ZS}} Percentage of graduates from programmes in unspecified fields in tertiary education who are female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE.SC.ZS}} Percentage of graduates from Natural Sciences, Mathematics and Statistics programmes in tertiary education who are female (%) {p_end}
+{synopt:{opt SE.TER.GRAD.FE.SI.ZS}} Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE.SS.ZS}} Percentage of graduates from Social Sciences, Journalism and Information programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE.SV.ZS}} Percentage of graduates from Services programmes in tertiary education who are female (%) {p_end}
 {synopt:{opt SE.TER.GRAD.FE.ZS}} Percentage of graduates from tertiary education who are female (%) {p_end}
@@ -9603,6 +10443,9 @@
 {synopt:{opt SF.TRN.AIR.PSGR}} Air transport, passengers carried (thousands) {p_end}
 {synopt:{opt SF.TRN.RAIL.GDS}} Railways, goods transported (million ton-km) {p_end}
 {synopt:{opt SF.TRN.RAIL.KM.ZS}} Rail traffic (km per million US$ GDP) {p_end}
+{synopt:{opt SF.TRN.ROAD.GDS}} Roads, goods transported (million ton-km) {p_end}
+{synopt:{opt SF.TRN.ROAD.NORM}} Roads, normalized index (100 = expected total length) {p_end}
+{synopt:{opt SF.TRN.ROAD.PV.ZS}} Roads, paved (%) {p_end}
 {synopt:{opt SG.COK.CHCO.ZS}} Main cooking fuel: charcoal (% of households) {p_end}
 {synopt:{opt SG.COK.CROP.ZS}} Main cooking fuel: agricultural crop (% of households) {p_end}
 {synopt:{opt SG.COK.DUNG.ZS}} Main cooking fuel: dung (% of households) {p_end}
@@ -9645,6 +10488,7 @@
 {synopt:{opt SG.H2O.PRMS.HH.ZS}} Households with water on the premises (%) {p_end}
 {synopt:{opt SG.H2O.TL30.HH.ZS}} Households with water less than 30 minutes away round trip (%) {p_end}
 {synopt:{opt SG.H2O.TM30.HH.ZS}} Households with water 30 minutes or longer away round trip (%) {p_end}
+{synopt:{opt SG.IND.WORK.EQ}} Women are able to work in the same industries as men (1=yes; 0=no) {p_end}
 {synopt:{opt SG.JOB.NOPN.EQ}} Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no) {p_end}
 {synopt:{opt SG.LAW.CHMR}} Law prohibits or invalidates child or early marriage (1=yes; 0=no) {p_end}
 {synopt:{opt SG.LAW.EQRM.WK}} Law mandates equal remuneration for females and males for work of equal value (1=yes; 0=no) {p_end}
@@ -9653,6 +10497,7 @@
 {synopt:{opt SG.LAW.OBHB.MR}} Married women are required by law to obey their husbands (1=yes; 0=no) {p_end}
 {synopt:{opt SG.LEG.DVAW}} Legislation exists on domestic violence (1=yes; 0=no) {p_end}
 {synopt:{opt SG.LEG.MRRP}} Legislation explicitly criminalizes marital rape (1=yes; 0=no) {p_end}
+{synopt:{opt SG.LEG.SXHR.EM}} Legislation exists on sexual harassment in employment (1=yes; 0=no) {p_end}
 {synopt:{opt SG.LEG.SXHR}} Legislation specifically addresses sexual harassment (1=yes; 0=no) {p_end}
 {synopt:{opt SG.MMR.LEVE.EP}} Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no) {p_end}
 {synopt:{opt SG.NOD.CONS}} Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no) {p_end}
@@ -10036,7 +10881,7 @@
 {synopt:{opt SH.HIV.DTS.NUM}} AIDS deaths in adults and children {p_end}
 {synopt:{opt SH.HIV.INCD.14}} Children (ages 0-14) newly infected with HIV {p_end}
 {synopt:{opt SH.HIV.INCD.TL}} Adults (ages 15+) and children (ages 0-14) newly infected with HIV {p_end}
-{synopt:{opt SH.HIV.INCD.ZS}} Incidence of HIV (% of uninfected population ages 15-49) {p_end}
+{synopt:{opt SH.HIV.INCD.ZS}} Incidence of HIV (per 1,000 uninfected population ages 15-49) {p_end}
 {synopt:{opt SH.HIV.INCD}} Adults (ages 15+) newly infected with HIV {p_end}
 {synopt:{opt SH.HIV.KNOW.FE.ZS}} % of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions) {p_end}
 {synopt:{opt SH.HIV.KNOW.MA.ZS}} Comprehensive correct knowledge of HIV/AIDS, ages 15-49, male (2 prevent ways and reject 3 misconceptions) {p_end}
@@ -10137,7 +10982,6 @@
 {synopt:{opt SH.MLR.NTPI.Q4.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q4 {p_end}
 {synopt:{opt SH.MLR.NTPI.Q5.ZS}} Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q5 (highest) {p_end}
 {synopt:{opt SH.MLR.PREG.2IPT.ZS}} Pregnant women who took at least 2 doses of intermittent preventative treatment (%) {p_end}
-{synopt:{opt SH.MLR.SPF2.ZS}} Use of Intermittent Preventive Treatment of malaria, 2+ doses of SP/Fansidar (% of pregnant women) {p_end}
 {synopt:{opt SH.MLR.SPFN.Q1.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q1 (lowest) {p_end}
 {synopt:{opt SH.MLR.SPFN.Q2.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q2 {p_end}
 {synopt:{opt SH.MLR.SPFN.Q3.ZS}} Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q3 {p_end}
@@ -10283,7 +11127,6 @@
 {synopt:{opt SH.STA.HYGN.UR.Q5.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population): Q5 (highest) {p_end}
 {synopt:{opt SH.STA.HYGN.UR.ZS}} People with basic handwashing facilities including soap and water, urban (% of urban population) {p_end}
 {synopt:{opt SH.STA.HYGN.ZS}} People with basic handwashing facilities including soap and water (% of population) {p_end}
-{synopt:{opt SH.STA.IYCF.ZS}} Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months) {p_end}
 {synopt:{opt SH.STA.LBMI.Q1.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest) {p_end}
 {synopt:{opt SH.STA.LBMI.Q2.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q2 {p_end}
 {synopt:{opt SH.STA.LBMI.Q3.ZS}} Malnourished women (BMI is less than 18.5) (% of women): Q3 {p_end}
@@ -10467,15 +11310,31 @@
 {synopt:{opt SI.DST.FRST.10}} Income share held by lowest 10% {p_end}
 {synopt:{opt SI.DST.FRST.20}} Income share held by lowest 20% {p_end}
 {synopt:{opt SI.POV.2DAY}} Poverty headcount ratio at $3.10 a day (2011 PPP) (% of population) {p_end}
+{synopt:{opt SI.POV.ATTM.MI}} Multidimensional poverty, Educational attainment (% of population deprived) {p_end}
 {synopt:{opt SI.POV.BPL}} Number of people live below the poverty line (in number of people) {p_end}
+{synopt:{opt SI.POV.DDAY.14}} Poverty headcount ratio at $1.90 a day, age 0-14  (2011 PPP) (% of population age 0-14) {p_end}
+{synopt:{opt SI.POV.DDAY.1564}} Poverty headcount ratio at $1.90 a day, age 15-64 (2011 PPP) (% of population age 15-64) {p_end}
+{synopt:{opt SI.POV.DDAY.16.PL}} Poverty headcount ratio at $1.90 a day, without education (2011 PPP) (% of population age 16+ without education) {p_end}
+{synopt:{opt SI.POV.DDAY.16.PR}} Poverty headcount ratio at $1.90 a day, with primary education (2011 PPP) (% of population age 16+ with primary education) {p_end}
+{synopt:{opt SI.POV.DDAY.16.SG}} Poverty headcount ratio at $1.90 a day, with secondary education (2011 PPP) (% of population age 16+ with secondary education) {p_end}
+{synopt:{opt SI.POV.DDAY.16.ST}} Poverty headcount ratio at $1.90 a day,  with Tertiary/post-secondary education (2011 PPP) (% of population age 16+ with Tertiary/post-secondary education) {p_end}
+{synopt:{opt SI.POV.DDAY.65}} Poverty headcount ratio at $1.90 a day, age 65+ (2011 PPP) (% of population age 65+) {p_end}
 {synopt:{opt SI.POV.DDAY.CV}} Survey coverage for poverty headcount ratio (at $1.90 a day, 2011 PPP) {p_end}
+{synopt:{opt SI.POV.DDAY.FE}} Poverty headcount ratio at $1.90 a day, Female (2011 PPP) (% of female population) {p_end}
 {synopt:{opt SI.POV.DDAY.GR}} Growth component of change in poverty at $1.90 a day (2011 PPP) (% of change) {p_end}
+{synopt:{opt SI.POV.DDAY.MA}} Poverty headcount ratio at $1.90 a day, Male  (2011 PPP) (% of male population) {p_end}
+{synopt:{opt SI.POV.DDAY.MI}} Multidimensional poverty, Monetary poverty (% of population deprived) {p_end}
 {synopt:{opt SI.POV.DDAY.RE}} Redistribution component of change in poverty at $1.90 a day (2011 PPP) (% of change) {p_end}
+{synopt:{opt SI.POV.DDAY.RU}} Poverty headcount ratio at $1.90 a day, rural (2011 PPP) (% of rural population) {p_end}
 {synopt:{opt SI.POV.DDAY.SH}} Share of total poor population (at $1.90 a day, 2011 PPP) {p_end}
+{synopt:{opt SI.POV.DDAY.UR}} Poverty headcount ratio at $1.90 a day, urban (2011 PPP) (% of urban population) {p_end}
 {synopt:{opt SI.POV.DDAY}} Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population) {p_end}
+{synopt:{opt SI.POV.ELEC.MI}} Multidimensional poverty, Electricity (% of population deprived) {p_end}
+{synopt:{opt SI.POV.ENRL.MI}} Multidimensional poverty, Educational enrollment (% of population deprived) {p_end}
 {synopt:{opt SI.POV.GAP2}} Poverty gap at $3.10 a day (2011 PPP) (%) {p_end}
 {synopt:{opt SI.POV.GAPS}} Poverty gap at $1.90 a day (2011 PPP) (%) {p_end}
 {synopt:{opt SI.POV.GINI}} GINI index (World Bank estimate) {p_end}
+{synopt:{opt SI.POV.HCRT.MI}} Multidimensional poverty, Headcount ratio (% of population) {p_end}
 {synopt:{opt SI.POV.LMIC.GP}} Poverty gap at $3.20 a day (2011 PPP) (%) {p_end}
 {synopt:{opt SI.POV.LMIC.GR}} Growth component of change in poverty at $3.20 a day (2011 PPP) (% of change) {p_end}
 {synopt:{opt SI.POV.LMIC.NO}} Number of poor at $3.20 a day (2011 PPP) (millions) {p_end}
@@ -10493,6 +11352,7 @@
 {synopt:{opt SI.POV.RUGP}} Rural poverty gap at national poverty lines (%) {p_end}
 {synopt:{opt SI.POV.RUHC.NC}} Rural poverty headcount ratio at national poverty lines (% of rural population), including noncomparable values {p_end}
 {synopt:{opt SI.POV.RUHC}} Rural poverty headcount ratio at national poverty lines (% of rural population) {p_end}
+{synopt:{opt SI.POV.SANI.MI}} Multidimensional poverty, Sanitation (% of population deprived) {p_end}
 {synopt:{opt SI.POV.UMIC.GP}} Poverty gap at $5.50 a day (2011 PPP) (%) {p_end}
 {synopt:{opt SI.POV.UMIC.GR}} Growth component of change in poverty at $5.50 a day (2011 PPP) (% of change) {p_end}
 {synopt:{opt SI.POV.UMIC.NO}} Number of poor at $5.50 a day (2011 PPP) (millions) {p_end}
@@ -10502,10 +11362,13 @@
 {synopt:{opt SI.POV.URGP}} Urban poverty gap at national poverty lines (%) {p_end}
 {synopt:{opt SI.POV.URHC.NC}} Urban poverty headcount ratio at national poverty lines (% of urban population), including noncomparable values {p_end}
 {synopt:{opt SI.POV.URHC}} Urban poverty headcount ratio at national poverty lines (% of urban population) {p_end}
+{synopt:{opt SI.POV.WATR.MI}} Multidimensional poverty, Drinking water (% of population deprived) {p_end}
+{synopt:{opt SI.POV.XPND.MD.ZG}} Annualized growth in per capita real survey median income or consumption expenditure (%) {p_end}
+{synopt:{opt SI.POV.XPND.MD}} Median daily per capita income or consumption expenditure (2011 PPP) {p_end}
 {synopt:{opt SI.RMT.COST.IB.ZS}} Average transaction cost of sending remittances to a specific country (%) {p_end}
 {synopt:{opt SI.RMT.COST.OB.ZS}} Average transaction cost of sending remittances from a specific country (%) {p_end}
 {synopt:{opt SI.RMT.COST.ZS}} Average transaction cost of remittances (%) {p_end}
-{synopt:{opt SI.SPR.PC40.05}} Survey mean consumption or income per capita, bottom 40% of population (2005 PPP $ per day) {p_end}
+{synopt:{opt SI.SPR.PC40.05}} Survey mean consumption or income per capita, bottom 40% (2005 PPP $ per day) {p_end}
 {synopt:{opt SI.SPR.PC40.ZG}} Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%) {p_end}
 {synopt:{opt SI.SPR.PC40}} Survey mean consumption or income per capita, bottom 40% of population (2011 PPP $ per day) {p_end}
 {synopt:{opt SI.SPR.PCAP.05}} Survey mean consumption or income per capita, total population (2005 PPP $ per day) {p_end}
@@ -10525,6 +11388,7 @@
 {synopt:{opt SL.AGR.TOTL.IN.ZS}} Labor force in agriculture (%) {p_end}
 {synopt:{opt SL.AGR.TOTL.MF}} Labor Force, Agriculture (%) {p_end}
 {synopt:{opt SL.AGR.TOTL.ZS}} Labor force in agriculture (% of total) {p_end}
+{synopt:{opt SL.ALL.SIZE.FE}} Labor Force, Female (%) {p_end}
 {synopt:{opt SL.EMP.1524.SP.FE.NE.ZS}} Employment to population ratio, ages 15-24, female (%) (national estimate) {p_end}
 {synopt:{opt SL.EMP.1524.SP.FE.ZS}} Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate) {p_end}
 {synopt:{opt SL.EMP.1524.SP.MA.NE.ZS}} Employment to population ratio, ages 15-24, male (%) (national estimate) {p_end}
@@ -10810,6 +11674,7 @@
 {synopt:{opt SP.DYN.LE00.MA.IN}} Life expectancy at birth, male (years) {p_end}
 {synopt:{opt SP.DYN.LE60.FE.IN}} Life expectancy at age 60, female (years) {p_end}
 {synopt:{opt SP.DYN.LE60.MA.IN}} Life expectancy at age 60, male (years) {p_end}
+{synopt:{opt SP.DYN.LIFE.MF}} Life Expectancy at Birth(years) {p_end}
 {synopt:{opt SP.DYN.SMAM.FE}} Age at first marriage, female {p_end}
 {synopt:{opt SP.DYN.SMAM.MA}} Age at first marriage, male {p_end}
 {synopt:{opt SP.DYN.TFRT.IN}} Fertility rate, total (births per woman) {p_end}
@@ -10838,15 +11703,15 @@
 {synopt:{opt SP.MTR.1519.Q4.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q4 {p_end}
 {synopt:{opt SP.MTR.1519.Q5.ZS}} Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q5 (highest) {p_end}
 {synopt:{opt SP.MTR.1519.ZS}} Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant) {p_end}
-{synopt:{opt SP.POP.0004.FE.5Y}} Population ages 0-4, female (% of female population) {p_end}
-{synopt:{opt SP.POP.0004.FE}} Female population 00-04 {p_end}
-{synopt:{opt SP.POP.0004.MA.5Y}} Population ages 0-4, male (% of male population) {p_end}
-{synopt:{opt SP.POP.0004.MA}} Male population 00-04 {p_end}
+{synopt:{opt SP.POP.0004.FE.5Y}} Population ages 00-04, female (% of female population) {p_end}
+{synopt:{opt SP.POP.0004.FE}} Population ages 00-04, female {p_end}
+{synopt:{opt SP.POP.0004.MA.5Y}} Population ages 00-04, male (% of male population) {p_end}
+{synopt:{opt SP.POP.0004.MA}} Population ages 00-04, male {p_end}
 {synopt:{opt SP.POP.0014.FE.IN}} Population ages 0-14, female {p_end}
-{synopt:{opt SP.POP.0014.FE.ZS}} Population ages 0-14, female (% of total) {p_end}
+{synopt:{opt SP.POP.0014.FE.ZS}} Population ages 0-14, female (% of female population) {p_end}
 {synopt:{opt SP.POP.0014.MA.IN}} Population ages 0-14, male {p_end}
-{synopt:{opt SP.POP.0014.MA.ZS}} Population ages 0-14, male (% of total) {p_end}
-{synopt:{opt SP.POP.0014.TO.ZS}} Population ages 0-14 (% of total) {p_end}
+{synopt:{opt SP.POP.0014.MA.ZS}} Population ages 0-14, male (% of male population) {p_end}
+{synopt:{opt SP.POP.0014.TO.ZS}} Population ages 0-14 (% of total population) {p_end}
 {synopt:{opt SP.POP.0014.TO}} Population ages 0-14, total {p_end}
 {synopt:{opt SP.POP.0024.TO.ZS}} Population 0-24 (% of total population) {p_end}
 {synopt:{opt SP.POP.0305.FE.UN}} Population, ages 3-5, female {p_end}
@@ -10855,12 +11720,12 @@
 {synopt:{opt SP.POP.0406.FE.UN}} Population, ages 4-6, female {p_end}
 {synopt:{opt SP.POP.0406.MA.UN}} Population, ages 4-6, male {p_end}
 {synopt:{opt SP.POP.0406.TO.UN}} Population, ages 4-6, total {p_end}
-{synopt:{opt SP.POP.0509.FE.5Y}} Population ages 5-9, female (% of female population) {p_end}
+{synopt:{opt SP.POP.0509.FE.5Y}} Population ages 05-09, female (% of female population) {p_end}
 {synopt:{opt SP.POP.0509.FE.UN}} Population, ages 5-9, female {p_end}
-{synopt:{opt SP.POP.0509.FE}} Female population 05-09 {p_end}
-{synopt:{opt SP.POP.0509.MA.5Y}} Population ages 5-9, male (% of male population) {p_end}
+{synopt:{opt SP.POP.0509.FE}} Population ages 05-09, female {p_end}
+{synopt:{opt SP.POP.0509.MA.5Y}} Population ages 05-09, male (% of male population) {p_end}
 {synopt:{opt SP.POP.0509.MA.UN}} Population, ages 5-9, male {p_end}
-{synopt:{opt SP.POP.0509.MA}} Male population 05-09 {p_end}
+{synopt:{opt SP.POP.0509.MA}} Population ages 05-09, male {p_end}
 {synopt:{opt SP.POP.0509.TO.UN}} Population, ages 5-9, total {p_end}
 {synopt:{opt SP.POP.0510.FE.UN}} Population, ages 5-10, female {p_end}
 {synopt:{opt SP.POP.0510.MA.UN}} Population, ages 5-10, male {p_end}
@@ -10964,12 +11829,12 @@
 {synopt:{opt SP.POP.1524.MA.UN}} Population, ages 15-24, male {p_end}
 {synopt:{opt SP.POP.1524.TO.UN}} Population, ages 15-24, total {p_end}
 {synopt:{opt SP.POP.1564.FE.IN}} Population ages 15-64, female {p_end}
-{synopt:{opt SP.POP.1564.FE.ZS}} Population ages 15-64, female (% of total) {p_end}
+{synopt:{opt SP.POP.1564.FE.ZS}} Population ages 15-64, female (% of female population) {p_end}
 {synopt:{opt SP.POP.1564.IN.ZS}} Population ages 15-64 (% of total) {p_end}
 {synopt:{opt SP.POP.1564.IN}} Population aged 15-64, total {p_end}
 {synopt:{opt SP.POP.1564.MA.IN}} Population ages 15-64, male {p_end}
-{synopt:{opt SP.POP.1564.MA.ZS}} Population ages 15-64, male (% of total) {p_end}
-{synopt:{opt SP.POP.1564.TO.ZS}} Population ages 15-64 (% of total) {p_end}
+{synopt:{opt SP.POP.1564.MA.ZS}} Population ages 15-64, male (% of male population) {p_end}
+{synopt:{opt SP.POP.1564.TO.ZS}} Population ages 15-64 (% of total population) {p_end}
 {synopt:{opt SP.POP.1564.TO}} Population ages 15-64, total {p_end}
 {synopt:{opt SP.POP.2024.FE.5Y}} Population ages 20-24, female (% of female population) {p_end}
 {synopt:{opt SP.POP.2024.FE}} Female population 20-24 {p_end}
@@ -11012,11 +11877,11 @@
 {synopt:{opt SP.POP.6569.MA.5Y}} Population ages 65-69, male (% of male population) {p_end}
 {synopt:{opt SP.POP.6569.MA}} Male population 65-69 {p_end}
 {synopt:{opt SP.POP.65UP.FE.IN}} Population ages 65 and above, female {p_end}
-{synopt:{opt SP.POP.65UP.FE.ZS}} Population ages 65 and above, female (% of total) {p_end}
+{synopt:{opt SP.POP.65UP.FE.ZS}} Population ages 65 and above, female (% of female population) {p_end}
 {synopt:{opt SP.POP.65UP.MA.IN}} Population ages 65 and above, male {p_end}
-{synopt:{opt SP.POP.65UP.MA.ZS}} Population ages 65 and above, male (% of total) {p_end}
+{synopt:{opt SP.POP.65UP.MA.ZS}} Population ages 65 and above, male (% of male population) {p_end}
 {synopt:{opt SP.POP.65UP.MF.ZS}} Women ages 65 and above (per 100 men) {p_end}
-{synopt:{opt SP.POP.65UP.TO.ZS}} Population ages 65 and above (% of total) {p_end}
+{synopt:{opt SP.POP.65UP.TO.ZS}} Population ages 65 and above (% of total population) {p_end}
 {synopt:{opt SP.POP.65UP.TO}} Population ages 65 and above, total {p_end}
 {synopt:{opt SP.POP.7074.FE.5Y}} Population ages 70-74, female (% of female population) {p_end}
 {synopt:{opt SP.POP.7074.FE}} Female population 70-74 {p_end}
@@ -11030,9 +11895,9 @@
 {synopt:{opt SP.POP.80UP.FE}} Female population 80+ {p_end}
 {synopt:{opt SP.POP.80UP.MA.5Y}} Population ages 80 and above, male (% of male population) {p_end}
 {synopt:{opt SP.POP.80UP.MA}} Male population 80+ {p_end}
-{synopt:{opt SP.POP.AG00.FE.IN}} Age population, age 0, female, interpolated {p_end}
+{synopt:{opt SP.POP.AG00.FE.IN}} Age population, age 00, female, interpolated {p_end}
 {synopt:{opt SP.POP.AG00.FE.UN}} Population, age 0, female {p_end}
-{synopt:{opt SP.POP.AG00.MA.IN}} Age population, age 0, male, interpolated {p_end}
+{synopt:{opt SP.POP.AG00.MA.IN}} Age population, age 00, male, interpolated {p_end}
 {synopt:{opt SP.POP.AG00.MA.UN}} Population, age 0, male {p_end}
 {synopt:{opt SP.POP.AG00.TO.UN}} Population, age 0, total {p_end}
 {synopt:{opt SP.POP.AG01.FE.IN}} Age population, age 01, female, interpolated {p_end}
@@ -11171,9 +12036,9 @@
 {synopt:{opt SP.POP.TECH.RD.P6}} Technicians in R&amp;D (per million people) {p_end}
 {synopt:{opt SP.POP.TECH.RD}} Technicians in research and development  (per million people) {p_end}
 {synopt:{opt SP.POP.TOTL.FE.IN}} Population, female {p_end}
-{synopt:{opt SP.POP.TOTL.FE.ZS}} Population, female (% of total) {p_end}
+{synopt:{opt SP.POP.TOTL.FE.ZS}} Population, female (% of total population) {p_end}
 {synopt:{opt SP.POP.TOTL.MA.IN}} Population, male {p_end}
-{synopt:{opt SP.POP.TOTL.MA.ZS}} Population, male (% of total) {p_end}
+{synopt:{opt SP.POP.TOTL.MA.ZS}} Population, male (% of total population) {p_end}
 {synopt:{opt SP.POP.TOTL.ZS}} Population (% of total) {p_end}
 {synopt:{opt SP.POP.TOTL}} Population, total {p_end}
 {synopt:{opt SP.PRE.TOTL.FE.IN}} School age population, pre-primary education, female (number) {p_end}
@@ -11219,7 +12084,7 @@
 {synopt:{opt SP.URB.MCTY.UR.ZS}} Population in urban agglomerations &gt; 1 million (% of total pop) {p_end}
 {synopt:{opt SP.URB.MCTY}} Population in urban agglomerations &gt; 1 million {p_end}
 {synopt:{opt SP.URB.TOTL.FE.ZS}} Urban population, female (% of total) {p_end}
-{synopt:{opt SP.URB.TOTL.IN.ZS}} Urban population (% of total) {p_end}
+{synopt:{opt SP.URB.TOTL.IN.ZS}} Urban population (% of total population) {p_end}
 {synopt:{opt SP.URB.TOTL.MA.ZS}} Urban population, male (% of total) {p_end}
 {synopt:{opt SP.URB.TOTL.ZS}} Percentage of Population in Urban Areas (only 2005 and 2010) (in % of Total Population) {p_end}
 {synopt:{opt SP.URB.TOTL}} Urban population {p_end}
@@ -12700,25 +13565,27 @@
 {synopt:{opt VC.IHR.PSRC.MA.P5}} Intentional homicides, male (per 100,000 male) {p_end}
 {synopt:{opt VC.IHR.PSRC.P5}} Intentional homicides (per 100,000 people) {p_end}
 {synopt:{opt VC.PKP.TOTL.UN}} Presence of peace keepers (number of troops, police, and military observers in mandate) {p_end}
-{synopt:{opt WP15163_4.1}} Mobile account (% age 15+) [w2] {p_end}
-{synopt:{opt WP15163_4.2}} Mobile account, male (% age 15+) [w2] {p_end}
-{synopt:{opt WP15163_4.3}} Mobile account, female (% age 15+) [w2] {p_end}
-{synopt:{opt WP15163_4.8}} Mobile account, income, poorest 40% (% ages 15+) [w2] {p_end}
-{synopt:{opt WP15163_4.9}} Mobile account, income, richest 60% (% ages 15+) [w2] {p_end}
-{synopt:{opt WP_time_01.1}} Account at a financial institution (% age 15+) [ts] {p_end}
-{synopt:{opt WP_time_01.2}} Account at a financial institution, male (% age 15+) [ts] {p_end}
-{synopt:{opt WP_time_01.3}} Account at a financial institution, female (% age 15+) [ts] {p_end}
-{synopt:{opt WP_time_01.8}} Account at a financial institution, income, poorest 40% (% ages 15+) [ts] {p_end}
-{synopt:{opt WP_time_01.9}} Account at a financial institution, income, richest 60% (% ages 15+) [ts] {p_end}
-{synopt:{opt WP_time_10.1}} Account (% age 15+) {p_end}
-{synopt:{opt WP_time_10.2}} Account, male (% age 15+) {p_end}
-{synopt:{opt WP_time_10.3}} Account, female (% age 15+) {p_end}
-{synopt:{opt WP_time_10.4}} Account, young adults (% ages 15-24) {p_end}
-{synopt:{opt WP_time_10.5}} Account, older adults (% ages 25+) {p_end}
-{synopt:{opt WP_time_10.6}} Account, primary education or less (% ages 15+) {p_end}
-{synopt:{opt WP_time_10.7}} Account, secondary education or more (% ages 15+) {p_end}
-{synopt:{opt WP_time_10.8}} Account, income, poorest 40% (% ages 15+) {p_end}
-{synopt:{opt WP_time_10.9}} Account, income, richest 60% (% ages 15+) {p_end}
+{synopt:{opt WL.PP.ZS}} Expenditures (percentage share, World=100, PPP term) {p_end}
+{synopt:{opt WL.ZS}} Expenditures (percentage share, World=100, XR term) {p_end}
+{synopt:{opt WP15163_4.1}} Mobile account (% age 15+) {p_end}
+{synopt:{opt WP15163_4.2}} Mobile account, male (% age 15+) {p_end}
+{synopt:{opt WP15163_4.3}} Mobile account, female (% age 15+) {p_end}
+{synopt:{opt WP15163_4.8}} Mobile account, income, poorest 40% (% ages 15+) {p_end}
+{synopt:{opt WP15163_4.9}} Mobile account, income, richest 60% (% ages 15+) {p_end}
+{synopt:{opt WP_time_01.1}} Account at a financial institution (% age 15+) {p_end}
+{synopt:{opt WP_time_01.2}} Account at a financial institution, male (% age 15+) {p_end}
+{synopt:{opt WP_time_01.3}} Account at a financial institution, female (% age 15+) {p_end}
+{synopt:{opt WP_time_01.8}} Account at a financial institution, income, poorest 40% (% ages 15+) {p_end}
+{synopt:{opt WP_time_01.9}} Account at a financial institution, income, richest 60% (% ages 15+) {p_end}
+{synopt:{opt WP_time_10.1}} Account (% age 15+) [ts] {p_end}
+{synopt:{opt WP_time_10.2}} Account, male (% age 15+) [ts] {p_end}
+{synopt:{opt WP_time_10.3}} Account, female (% age 15+) [ts] {p_end}
+{synopt:{opt WP_time_10.4}} Account, young adults (% ages 15-24) [ts] {p_end}
+{synopt:{opt WP_time_10.5}} Account, older adults (% ages 25+) [ts] {p_end}
+{synopt:{opt WP_time_10.6}} Account, primary education or less (% ages 15+) [ts] {p_end}
+{synopt:{opt WP_time_10.7}} Account, secondary education or more (% ages 15+) [ts] {p_end}
+{synopt:{opt WP_time_10.8}} Account, income, poorest 40% (% ages 15+) [ts] {p_end}
+{synopt:{opt WP_time_10.9}} Account, income, richest 60% (% ages 15+) [ts] {p_end}
 {synopt:{opt account.t.d.10}} Account, in labor force (% age 15+){p_end}
 {synopt:{opt account.t.d.11}} Account, out of labor force (% age 15+){p_end}
 {synopt:{opt account.t.d.1}} Account, male (% age 15+){p_end}
@@ -12748,185 +13615,6 @@
 {synopt:{opt allsp.bi_q1}} Benefit incidence of social protection and labor programs to poorest quintile (% of total SPL benefits){p_end}
 {synopt:{opt allsp.cov_pop}} Coverage of social protection and labor programs (% of population){p_end}
 {synopt:{opt allsp.gen_pop}} Generosity of social protection and labor programs (% of total welfare of beneficiary households){p_end}
-{synopt:{opt ccx_agr_pop_eld}} Share of employed in agriculture - elderly{p_end}
-{synopt:{opt ccx_agr_pop_fem}} Share of employed in agriculture - female{p_end}
-{synopt:{opt ccx_agr_pop_mal}} Share of employed in agriculture - male{p_end}
-{synopt:{opt ccx_agr_pop_rur}} Share of employed in agriculture - rural{p_end}
-{synopt:{opt ccx_agr_pop_tot}} Share of employed in agriculture -total population{p_end}
-{synopt:{opt ccx_agr_pop_urb}} Share of employed in agriculture - urban{p_end}
-{synopt:{opt ccx_agr_pop_wrk}} Share of employed in agriculture - working age{p_end}
-{synopt:{opt ccx_agr_pop_you}} Share of employed in agriculture - youth{p_end}
-{synopt:{opt ccx_chi_pop_fem}} Share of children (0-14) in total population  - female{p_end}
-{synopt:{opt ccx_chi_pop_mal}} Share of children (0-14) in total population   - male{p_end}
-{synopt:{opt ccx_chi_pop_rur}} Share of children (0-14) in total population  - rural{p_end}
-{synopt:{opt ccx_chi_pop_tot}} Share of children (0-14) in total population{p_end}
-{synopt:{opt ccx_chi_pop_urb}} Share of children (0-14) in total population  - urban{p_end}
-{synopt:{opt ccx_cores_pop_fem}} Elderly with non-elderly co-residence rate  - female{p_end}
-{synopt:{opt ccx_cores_pop_mal}} Elderly with non-elderly co-residence rate  - male{p_end}
-{synopt:{opt ccx_cores_pop_rur}} Elderly with non-elderly co-residence rate  - rural{p_end}
-{synopt:{opt ccx_cores_pop_tot}} Elderly with non-elderly co-residence rate  - total population{p_end}
-{synopt:{opt ccx_cores_pop_urb}} Elderly with non-elderly co-residence rate  - urban{p_end}
-{synopt:{opt ccx_dep_pop_fem}} Dependency rate - female{p_end}
-{synopt:{opt ccx_dep_pop_mal}} Dependency rate - male{p_end}
-{synopt:{opt ccx_dep_pop_rur}} Dependency rate - rural{p_end}
-{synopt:{opt ccx_dep_pop_tot}} Dependency rate - total population{p_end}
-{synopt:{opt ccx_dep_pop_urb}} Dependency rate - urban{p_end}
-{synopt:{opt ccx_eld_pop_fem}} Share of elderly (60+) in total population  - female{p_end}
-{synopt:{opt ccx_eld_pop_mal}} Share of elderly (60+) in total population  - male{p_end}
-{synopt:{opt ccx_eld_pop_rur}} Share of elderly (60+) in total population  - rural{p_end}
-{synopt:{opt ccx_eld_pop_tot}} Share of elderly (60+) in total population{p_end}
-{synopt:{opt ccx_eld_pop_urb}} Share of elderly (60+) in total population  - urban{p_end}
-{synopt:{opt ccx_empl_pop_eld}} Share of employed - elderly{p_end}
-{synopt:{opt ccx_empl_pop_fem}} Share of employed - female{p_end}
-{synopt:{opt ccx_empl_pop_mal}} Share of employed - male{p_end}
-{synopt:{opt ccx_empl_pop_rur}} Share of employed - rural{p_end}
-{synopt:{opt ccx_empl_pop_tot}} Share of employed in total population{p_end}
-{synopt:{opt ccx_empl_pop_urb}} Share of employed - urban{p_end}
-{synopt:{opt ccx_empl_pop_wrk}} Share of employed - working age{p_end}
-{synopt:{opt ccx_empl_pop_you}} Share of employed - youth{p_end}
-{synopt:{opt ccx_emps_pop_eld}} Share of employed workers who are employers - elderly{p_end}
-{synopt:{opt ccx_emps_pop_fem}} Share of employed workers who are employers - female{p_end}
-{synopt:{opt ccx_emps_pop_mal}} Share of employed workers who are employers - male{p_end}
-{synopt:{opt ccx_emps_pop_rur}} Share of employed workers who are employers - rural{p_end}
-{synopt:{opt ccx_emps_pop_tot}} Share of employed workers who are employers in total population{p_end}
-{synopt:{opt ccx_emps_pop_urb}} Share of employed workers who are employers - urban{p_end}
-{synopt:{opt ccx_emps_pop_wrk}} Share of employed workers who are employers - working age{p_end}
-{synopt:{opt ccx_emps_pop_you}} Share of employed workers who are employers - youth{p_end}
-{synopt:{opt ccx_hhchi_pop_fem}} Share of households with children - female{p_end}
-{synopt:{opt ccx_hhchi_pop_mal}} Share of households with children - male{p_end}
-{synopt:{opt ccx_hhchi_pop_rur}} Share of households with children - rural{p_end}
-{synopt:{opt ccx_hhchi_pop_tot}} Share of households with children in total population{p_end}
-{synopt:{opt ccx_hhchi_pop_urb}} Share of households with children - urban{p_end}
-{synopt:{opt ccx_hheld_pop_fem}} Share of households with elderly - female{p_end}
-{synopt:{opt ccx_hheld_pop_mal}} Share of households with elderly - male{p_end}
-{synopt:{opt ccx_hheld_pop_rur}} Share of households with elderly - rural{p_end}
-{synopt:{opt ccx_hheld_pop_tot}} Share of households with elderly in total population{p_end}
-{synopt:{opt ccx_hheld_pop_urb}} Share of households with elderly - urban{p_end}
-{synopt:{opt ccx_hhwka_pop_fem}} Share of households with working age adults - female{p_end}
-{synopt:{opt ccx_hhwka_pop_mal}} Share of households with working age adults - male{p_end}
-{synopt:{opt ccx_hhwka_pop_rur}} Share of households with working age adults - rural{p_end}
-{synopt:{opt ccx_hhwka_pop_tot}} Share of households with working age adults in total population{p_end}
-{synopt:{opt ccx_hhwka_pop_urb}} Share of households with working age adults - urban{p_end}
-{synopt:{opt ccx_hhyou_pop_fem}} Share of households with youth - female{p_end}
-{synopt:{opt ccx_hhyou_pop_mal}} Share of households with youth - male{p_end}
-{synopt:{opt ccx_hhyou_pop_rur}} Share of households with youth - rural{p_end}
-{synopt:{opt ccx_hhyou_pop_tot}} Share of households with youth in total population{p_end}
-{synopt:{opt ccx_hhyou_pop_urb}} Share of households with youth - urban{p_end}
-{synopt:{opt ccx_inact_pop_eld}} Share of inactive students - elderly{p_end}
-{synopt:{opt ccx_inact_pop_fem}} Share of inactive students - female{p_end}
-{synopt:{opt ccx_inact_pop_mal}} Share of inactive students - male{p_end}
-{synopt:{opt ccx_inact_pop_rur}} Share of inactive students - rural{p_end}
-{synopt:{opt ccx_inact_pop_tot}} Share of inactive students in total population{p_end}
-{synopt:{opt ccx_inact_pop_urb}} Share of inactive students - urban{p_end}
-{synopt:{opt ccx_inact_pop_wrk}} Share of inactive students - working age{p_end}
-{synopt:{opt ccx_inact_pop_you}} Share of inactive students - youth{p_end}
-{synopt:{opt ccx_inactns_pop_eld}} Share of inactive non-students - elderly{p_end}
-{synopt:{opt ccx_inactns_pop_fem}} Share of inactive non-students - female{p_end}
-{synopt:{opt ccx_inactns_pop_mal}} Share of inactive non-students - male{p_end}
-{synopt:{opt ccx_inactns_pop_rur}} Share of inactive non-students - rural{p_end}
-{synopt:{opt ccx_inactns_pop_tot}} Share of inactive non-students in total population{p_end}
-{synopt:{opt ccx_inactns_pop_urb}} Share of inactive non-students - urban{p_end}
-{synopt:{opt ccx_inactns_pop_wrk}} Share of inactive non-students - working age{p_end}
-{synopt:{opt ccx_inactns_pop_you}} Share of inactive non-students - youth{p_end}
-{synopt:{opt ccx_ind_pop_eld}} Share of employed in industry - elderly{p_end}
-{synopt:{opt ccx_ind_pop_fem}} Share of employed in industry - female{p_end}
-{synopt:{opt ccx_ind_pop_mal}} Share of employed in industry - male{p_end}
-{synopt:{opt ccx_ind_pop_rur}} Share of employed in industry - rural{p_end}
-{synopt:{opt ccx_ind_pop_tot}} Share of employed in industry -total population{p_end}
-{synopt:{opt ccx_ind_pop_urb}} Share of employed in industry - urban{p_end}
-{synopt:{opt ccx_ind_pop_wrk}} Share of employed in industry - working age{p_end}
-{synopt:{opt ccx_ind_pop_you}} Share of employed in industry - youth{p_end}
-{synopt:{opt ccx_lf_pop_eld}} Labor Force Participation rates - elderly{p_end}
-{synopt:{opt ccx_lf_pop_fem}} Labor Force Participation rates - female{p_end}
-{synopt:{opt ccx_lf_pop_mal}} Labor Force Participation rates - male{p_end}
-{synopt:{opt ccx_lf_pop_rur}} Labor Force Participation rates - rural{p_end}
-{synopt:{opt ccx_lf_pop_tot}} Labor Force Participation rates in total population{p_end}
-{synopt:{opt ccx_lf_pop_urb}} Labor Force Participation rates - urban{p_end}
-{synopt:{opt ccx_lf_pop_wrk}} Labor Force Participation rates - working age{p_end}
-{synopt:{opt ccx_lf_pop_you}} Labor Force Participation rates - youth{p_end}
-{synopt:{opt ccx_povchi_40_fem}} Poverty headcount of children (below bottom 40%) - female{p_end}
-{synopt:{opt ccx_povchi_40_mal}} Poverty headcount of children (below bottom 40%) - male{p_end}
-{synopt:{opt ccx_povchi_40_rur}} Poverty headcount of children (below bottom 40%) - rural{p_end}
-{synopt:{opt ccx_povchi_40_tot}} Poverty headcount of children (below bottom 40%){p_end}
-{synopt:{opt ccx_povchi_40_urb}} Poverty headcount of children (below bottom 40%) - urban{p_end}
-{synopt:{opt ccx_poveld_40_fem}} Poverty headcount of the elderly (below bottom 40%) - female{p_end}
-{synopt:{opt ccx_poveld_40_mal}} Poverty headcount of the elderly (below bottom 40%) - male{p_end}
-{synopt:{opt ccx_poveld_40_rur}} Poverty headcount of the elderly (below bottom 40%) - rural{p_end}
-{synopt:{opt ccx_poveld_40_tot}} Poverty headcount of the elderly (below bottom 40%){p_end}
-{synopt:{opt ccx_poveld_40_urb}} Poverty headcount of the elderly (below bottom 40%) - urban{p_end}
-{synopt:{opt ccx_povwka_40_fem}} Poverty headcount of working age adults (below bottom 40%) - female{p_end}
-{synopt:{opt ccx_povwka_40_mal}} Poverty headcount of working age adults (below bottom 40%) - male{p_end}
-{synopt:{opt ccx_povwka_40_rur}} Poverty headcount of working age adults (below bottom 40%) - rural{p_end}
-{synopt:{opt ccx_povwka_40_tot}} Poverty headcount of working age adults (below bottom 40%){p_end}
-{synopt:{opt ccx_povwka_40_urb}} Poverty headcount of working age adults (below bottom 40%) - urban{p_end}
-{synopt:{opt ccx_povyou_40_fem}} Poverty headcount of youth (below bottom 40%) - female{p_end}
-{synopt:{opt ccx_povyou_40_mal}} Poverty headcount of youth (below bottom 40%) - male{p_end}
-{synopt:{opt ccx_povyou_40_rur}} Poverty headcount of youth (below bottom 40%) - rural{p_end}
-{synopt:{opt ccx_povyou_40_tot}} Poverty headcount of youth (below bottom 40%){p_end}
-{synopt:{opt ccx_povyou_40_urb}} Poverty headcount of youth (below bottom 40%) - urban{p_end}
-{synopt:{opt ccx_self_pop_eld}} Share of employed workers who are self-employed - elderly{p_end}
-{synopt:{opt ccx_self_pop_fem}} Share of employed workers who are self-employed - female{p_end}
-{synopt:{opt ccx_self_pop_mal}} Share of employed workers who are self-employed - male{p_end}
-{synopt:{opt ccx_self_pop_rur}} Share of employed workers who are self-employed - rural{p_end}
-{synopt:{opt ccx_self_pop_tot}} Share of employed workers who are self-employed in total population{p_end}
-{synopt:{opt ccx_self_pop_urb}} Share of employed workers who are self-employed - urban{p_end}
-{synopt:{opt ccx_self_pop_wrk}} Share of employed workers who are self-employed - working age{p_end}
-{synopt:{opt ccx_self_pop_you}} Share of employed workers who are self-employed - youth{p_end}
-{synopt:{opt ccx_serv_pop_eld}} Share of employed in services - elderly{p_end}
-{synopt:{opt ccx_serv_pop_fem}} Share of employed in services - female{p_end}
-{synopt:{opt ccx_serv_pop_mal}} Share of employed in services - male{p_end}
-{synopt:{opt ccx_serv_pop_rur}} Share of employed in services - rural{p_end}
-{synopt:{opt ccx_serv_pop_tot}} Share of employed in services -total population{p_end}
-{synopt:{opt ccx_serv_pop_urb}} Share of employed in services - urban{p_end}
-{synopt:{opt ccx_serv_pop_wrk}} Share of employed in services - working age{p_end}
-{synopt:{opt ccx_serv_pop_you}} Share of employed in services - youth{p_end}
-{synopt:{opt ccx_unempl_pop_eld}} Share of unemployed - elderly{p_end}
-{synopt:{opt ccx_unempl_pop_fem}} Share of unemployed - female{p_end}
-{synopt:{opt ccx_unempl_pop_mal}} Share of unemployed - male{p_end}
-{synopt:{opt ccx_unempl_pop_rur}} Share of unemployed - rural{p_end}
-{synopt:{opt ccx_unempl_pop_tot}} Share of unemployed in total population{p_end}
-{synopt:{opt ccx_unempl_pop_urb}} Share of unemployed - urban{p_end}
-{synopt:{opt ccx_unempl_pop_wrk}} Share of unemployed - working age{p_end}
-{synopt:{opt ccx_unempl_pop_you}} Share of unemployed - youth{p_end}
-{synopt:{opt ccx_unempr_pop_eld}} Unemployment rate - elderly{p_end}
-{synopt:{opt ccx_unempr_pop_fem}} Unemployment rate - female{p_end}
-{synopt:{opt ccx_unempr_pop_mal}} Unemployment rate - male{p_end}
-{synopt:{opt ccx_unempr_pop_rur}} Unemployment rate - rural{p_end}
-{synopt:{opt ccx_unempr_pop_tot}} Unemployment rate in total population{p_end}
-{synopt:{opt ccx_unempr_pop_urb}} Unemployment rate - urban{p_end}
-{synopt:{opt ccx_unempr_pop_wrk}} Unemployment rate - working age{p_end}
-{synopt:{opt ccx_unempr_pop_you}} Unemployment rate - youth{p_end}
-{synopt:{opt ccx_unpaid_pop_eld}} Share of employed workers who are unpaid - elderly{p_end}
-{synopt:{opt ccx_unpaid_pop_fem}} Share of employed workers who are unpaid - female{p_end}
-{synopt:{opt ccx_unpaid_pop_mal}} Share of employed workers who are unpaid - male{p_end}
-{synopt:{opt ccx_unpaid_pop_rur}} Share of employed workers who are unpaid - rural{p_end}
-{synopt:{opt ccx_unpaid_pop_tot}} Share of employed workers who are unpaid in total population{p_end}
-{synopt:{opt ccx_unpaid_pop_urb}} Share of employed workers who are unpaid - urban{p_end}
-{synopt:{opt ccx_unpaid_pop_wrk}} Share of employed workers who are unpaid - working age{p_end}
-{synopt:{opt ccx_unpaid_pop_you}} Share of employed workers who are unpaid - youth{p_end}
-{synopt:{opt ccx_wage_pop_eld}} Share of employed workers who are wage employees - elderly{p_end}
-{synopt:{opt ccx_wage_pop_fem}} Share of employed workers who are wage employees - female{p_end}
-{synopt:{opt ccx_wage_pop_mal}} Share of employed workers who are wage employees - male{p_end}
-{synopt:{opt ccx_wage_pop_rur}} Share of employed workers who are wage employees - rural{p_end}
-{synopt:{opt ccx_wage_pop_tot}} Share of employed workers who are wage employees in total population{p_end}
-{synopt:{opt ccx_wage_pop_urb}} Share of employed workers who are wage employees - urban{p_end}
-{synopt:{opt ccx_wage_pop_wrk}} Share of employed workers who are wage employees - working age{p_end}
-{synopt:{opt ccx_wage_pop_you}} Share of employed workers who are wage employees - youth{p_end}
-{synopt:{opt ccx_wka_pop_fem}} Share of working age (25-59) in total population  - female{p_end}
-{synopt:{opt ccx_wka_pop_mal}} Share of working age (25-59) in total population  - male{p_end}
-{synopt:{opt ccx_wka_pop_rur}} Share of working age (25-59) in total population  - rural{p_end}
-{synopt:{opt ccx_wka_pop_tot}} Share of working age (25-59) in total population{p_end}
-{synopt:{opt ccx_wka_pop_urb}} Share of working age (25-59) in total population  - urban{p_end}
-{synopt:{opt ccx_yaurr_pop_fem}} Youth to adult unemployment rate - female{p_end}
-{synopt:{opt ccx_yaurr_pop_mal}} Youth to adult unemployment rate - male{p_end}
-{synopt:{opt ccx_yaurr_pop_rur}} Youth to adult unemployment rate - rural{p_end}
-{synopt:{opt ccx_yaurr_pop_tot}} Youth to adult unemployment rate in total population{p_end}
-{synopt:{opt ccx_yaurr_pop_urb}} Youth to adult unemployment rate - urban{p_end}
-{synopt:{opt ccx_you_pop_fem}} Share of youth (15-24) in total population  - female{p_end}
-{synopt:{opt ccx_you_pop_mal}} Share of youth (15-24) in total population  - male{p_end}
-{synopt:{opt ccx_you_pop_rur}} Share of youth (15-24) in total population  - rural{p_end}
-{synopt:{opt ccx_you_pop_tot}} Share of youth (15-24) in total population{p_end}
-{synopt:{opt ccx_you_pop_urb}} Share of youth (15-24) in total population  - urban{p_end}
 {synopt:{opt fin1.t.a.10}} Financial institution account, in labor force(% age 15+){p_end}
 {synopt:{opt fin1.t.a.11}} Financial institution account, out of labor force (% age 15+){p_end}
 {synopt:{opt fin1.t.a.1}} Financial institution account,male(% age 15+){p_end}
@@ -13186,14 +13874,14 @@
 {synopt:{opt fin22a.t.d.8}} Borrowed from a financial institution or used a credit card, income, richest 60% (% age 15+){p_end}
 {synopt:{opt fin22a.t.d.9}} Borrowed from a financial institution or used a credit card, rural (% age 15+){p_end}
 {synopt:{opt fin22a.t.d}} Borrowed from a financial institution or used a credit card (% age 15+){p_end}
-{synopt:{opt fin22a_t_d_1}} Borrowed from a financial institution in the past year, female (% age 15+){p_end}
-{synopt:{opt fin22a_t_d_2}} Borrowed from a financial institution in the past year, male (% age 15+){p_end}
-{synopt:{opt fin22a_t_d_3}} Borrowed from a financial institution in the past year, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt fin22a_t_d_4}} Borrowed from a financial institution in the past year, income, richest 60% (% age 15+){p_end}
-{synopt:{opt fin22a_t_d_5}} Borrowed from a financial institution in the past year (% ages 15-34){p_end}
+{synopt:{opt fin22a_t_d_1}} Borrowed from a financial institution or used a credit card, female (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_2}} Borrowed from a financial institution or used a credit card, male (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_3}} Borrowed from a financial institution or used a credit card, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_4}} Borrowed from a financial institution or used a credit card, income, richest 60% (% age 15+){p_end}
+{synopt:{opt fin22a_t_d_5}} Borrowed from a financial institution or used a credit card (% ages 15-34){p_end}
 {synopt:{opt fin22a_t_d_6}} Borrowed from a financial institution or used a credit card (% ages 35-59){p_end}
 {synopt:{opt fin22a_t_d_7}} Borrowed from a financial institution or used a credit card (% age 60+){p_end}
-{synopt:{opt fin22a_t_d}} Borrowed from a financial institution in the past year (% age 15+){p_end}
+{synopt:{opt fin22a_t_d}} Borrowed from a financial institution or used a credit card (% age 15+){p_end}
 {synopt:{opt fin22b.t.a.10}} Borrowed from family or friends, in labor force  (% age 15+){p_end}
 {synopt:{opt fin22b.t.a.11}} Borrowed from family or friends, out of labor force (% age 15+){p_end}
 {synopt:{opt fin22b.t.a.1}} Borrowed from family or friends, male  (% age 15+){p_end}
@@ -13734,14 +14422,14 @@
 {synopt:{opt g20.t.receive.9}} Received digital payments in the past year, rural (% age 15+){p_end}
 {synopt:{opt g20.t.receive}} Received digital payments in the past year (% age 15+){p_end}
 {synopt:{opt g20.t}} Made or received digital payments in the past year (% age 15+){p_end}
-{synopt:{opt g20_t_1}} Made or received digital payments, female (% age 15+){p_end}
-{synopt:{opt g20_t_2}} Made or received digital payments, male (% age 15+){p_end}
-{synopt:{opt g20_t_3}} Made or received digital payments, income, poorest 40% (% age 15+){p_end}
-{synopt:{opt g20_t_4}} Made or received digital payments, income, richest 60% (% age 15+){p_end}
-{synopt:{opt g20_t_5}} Made or received digital payments, (% ages 15-34){p_end}
+{synopt:{opt g20_t_1}} Made or received digital payments in the past year, female (% age 15+){p_end}
+{synopt:{opt g20_t_2}} Made or received digital payments in the past year, male (% age 15+){p_end}
+{synopt:{opt g20_t_3}} Made or received digital payments in the past year, income, poorest 40% (% age 15+){p_end}
+{synopt:{opt g20_t_4}} Made or received digital payments in the past year, income, richest 60% (% age 15+){p_end}
+{synopt:{opt g20_t_5}} Made or received digital payments in the past year (% ages 15-34){p_end}
 {synopt:{opt g20_t_6}} Made or received digital payments in the past year (% ages 35-59){p_end}
 {synopt:{opt g20_t_7}} Made or received digital payments in the past year (% age 60+){p_end}
-{synopt:{opt g20_t}} Made or received digital payments (% age 15+){p_end}
+{synopt:{opt g20_t}} Made or received digital payments in the past year (% age 15+){p_end}
 {synopt:{opt gf10_n_1}} Received wages or government transfers into an account, female (% age 15+){p_end}
 {synopt:{opt gf10_n_2}} Received wages or government transfers into an account, male (% age 15+){p_end}
 {synopt:{opt gf10_n_3}} Received wages or government transfers into an account, income, poorest 40% (% age 15+){p_end}
@@ -13804,304 +14492,304 @@
 {synopt:{opt mobileaccount.t.d.8}} Mobile money account, income, richest 60%  (% age 15+){p_end}
 {synopt:{opt mobileaccount.t.d.9}} Mobile money account, rural  (% age 15+){p_end}
 {synopt:{opt mobileaccount.t.d}} Mobile money account (% age 15+){p_end}
-{synopt:{opt per_allsp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
-{synopt:{opt per_allsp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.adq_pop_preT_tot}} Adequacy of benefits (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.adq_pop_rur}} Adequacy of benefits (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.adq_pop_tot}} Adequacy of social protection and labor programs (% of total welfare of beneficiary households){p_end}
-{synopt:{opt per_allsp.adq_pop_urb}} Adequacy of benefits (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) -All Social Protection and Labor  (preT){p_end}
-{synopt:{opt per_allsp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_pop_preT_tot}} Average per capita transfer -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.avt_pop_rur}} Average per capita transfer -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.avt_pop_tot}} Average per capita transfer -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_pop_urb}} Average per capita transfer -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.avt_q1_rur}} Average per capita transfer held by poorest quintile -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.avt_q1_tot}} Average per capita transfer held by poorest quintile -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_q1_urb}} Average per capita transfer held by poorest quintile -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.avt_q2_rur}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.avt_q2_tot}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_q2_urb}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.avt_q3_rur}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.avt_q3_tot}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_q3_urb}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.avt_q4_rur}} Average per capita transfer held by 4th quintile -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.avt_q4_tot}} Average per capita transfer held by 4th quintile -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_q4_urb}} Average per capita transfer held by 4th quintile -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.avt_q5_rur}} Average per capita transfer held by richest quintile -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.avt_q5_tot}} Average per capita transfer held by richest quintile -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.avt_q5_urb}} Average per capita transfer held by richest quintile -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
-{synopt:{opt per_allsp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.ben_q1_rur}} Benefits incidence in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.ben_q1_tot}} Benefit incidence of social protection and labor programs to poorest quintile (% of total SPL benefits){p_end}
-{synopt:{opt per_allsp.ben_q1_urb}} Benefits incidence in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.ben_q2_urb}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.ben_q3_rur}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.ben_q3_tot}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.ben_q3_urb}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.ben_q4_rur}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.ben_q4_tot}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.ben_q4_urb}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.ben_q5_rur}} Benefits incidence in richest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.ben_q5_tot}} Benefits incidence in richest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.ben_q5_urb}} Benefits incidence in richest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
-{synopt:{opt per_allsp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.cba_ep_preT_tot}} Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT){p_end}
-{synopt:{opt per_allsp.cba_ep_tot}} Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.25 a day){p_end}
-{synopt:{opt per_allsp.cba_q1_preT_tot}} Benefit-cost ratio - All Social Protection and Labor -poorest quintile (preT){p_end}
-{synopt:{opt per_allsp.cba_q1_rur}} Benefit-cost ratio - All Social Protection and Labor -poorest quintile -rural{p_end}
-{synopt:{opt per_allsp.cba_q1_tot}} Benefit-cost ratio - All Social Protection and Labor -poorest quintile{p_end}
-{synopt:{opt per_allsp.cba_q1_urb}} Benefit-cost ratio - All Social Protection and Labor - poorest quintile -urban{p_end}
-{synopt:{opt per_allsp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor  (preT){p_end}
-{synopt:{opt per_allsp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.cov_pop_preT_tot}} Coverage (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.cov_pop_rur}} Coverage (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.cov_pop_tot}} Coverage of social protection and labor programs (% of population){p_end}
-{synopt:{opt per_allsp.cov_pop_urb}} Coverage (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.cov_q1_preT_tot}} Coverage in poorest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.cov_q1_rur}} Coverage in poorest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.cov_q1_tot}} Coverage in poorest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.cov_q1_urb}} Coverage in poorest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.cov_q2_rur}} Coverage in 2nd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.cov_q2_tot}} Coverage in 2nd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.cov_q2_urb}} Coverage in 2nd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.cov_q3_preT_tot}} Coverage in 3rd quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.cov_q3_rur}} Coverage in 3rd quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.cov_q3_tot}} Coverage in 3rd quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.cov_q3_urb}} Coverage in 3rd quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.cov_q4_preT_tot}} Coverage in 4th quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.cov_q4_rur}} Coverage in 4th quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.cov_q4_tot}} Coverage in 4th quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.cov_q4_urb}} Coverage in 4th quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp.cov_q5_preT_tot}} Coverage in richest quintile (%) -All Social Protection and Labor (preT){p_end}
-{synopt:{opt per_allsp.cov_q5_rur}} Coverage in richest quintile (%) -All Social Protection and Labor -rural{p_end}
-{synopt:{opt per_allsp.cov_q5_tot}} Coverage in richest quintile (%) -All Social Protection and Labor{p_end}
-{synopt:{opt per_allsp.cov_q5_urb}} Coverage in richest quintile (%) -All Social Protection and Labor -urban{p_end}
-{synopt:{opt per_allsp_gini_preT_tot}} Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile (preT){p_end}
-{synopt:{opt per_allsp_gini_rur}} Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile -rural{p_end}
-{synopt:{opt per_allsp_gini_tot}} Gini inequality reduction (%) - All Social Protection and Labor -poorest quintile{p_end}
-{synopt:{opt per_allsp_gini_urb}} Gini inequality reduction (%) - All Social Protection and Labor - poorest quintile -urban{p_end}
-{synopt:{opt per_allsp_p0_ep_preT_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT){p_end}
-{synopt:{opt per_allsp_p0_ep_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day){p_end}
-{synopt:{opt per_allsp_p0_preT_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -poorest quintile (preT){p_end}
-{synopt:{opt per_allsp_p0_rur}} Poverty Headcount reduction (%) - All Social Protection and Labor -poorest quintile -rural{p_end}
-{synopt:{opt per_allsp_p0_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -poorest quintile{p_end}
-{synopt:{opt per_allsp_p0_urb}} Poverty Headcount reduction (%) - All Social Protection and Labor - poorest quintile -urban{p_end}
-{synopt:{opt per_allsp_p1_ep_preT_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day) (preT){p_end}
-{synopt:{opt per_allsp_p1_ep_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.25 a day){p_end}
-{synopt:{opt per_allsp_p1_preT_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile (preT){p_end}
-{synopt:{opt per_allsp_p1_rur}} Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile -rural{p_end}
-{synopt:{opt per_allsp_p1_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -poorest quintile{p_end}
-{synopt:{opt per_allsp_p1_urb}} Poverty Gap reduction (%) - All Social Protection and Labor - poorest quintile -urban{p_end}
-{synopt:{opt per_lm_ac.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
-{synopt:{opt per_lm_ac.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_pop_preT_tot}} Adequacy of benefits (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.adq_pop_rur}} Adequacy of benefits (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.adq_pop_tot}} Adequacy of benefits (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_pop_urb}} Adequacy of benefits (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Active Labor Market  (preT){p_end}
-{synopt:{opt per_lm_ac.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_pop_preT_tot}} Average per capita transfer - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.avt_pop_rur}} Average per capita transfer - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.avt_pop_tot}} Average per capita transfer - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_pop_urb}} Average per capita transfer - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.avt_q1_rur}} Average per capita transfer held by poorest quintile - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.avt_q1_tot}} Average per capita transfer held by poorest quintile - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_q1_urb}} Average per capita transfer held by poorest quintile - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.avt_q4_rur}} Average per capita transfer held by 4th quintile - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.avt_q4_tot}} Average per capita transfer held by 4th quintile - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_q4_urb}} Average per capita transfer held by 4th quintile - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.avt_q5_rur}} Average per capita transfer held by richest quintile - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.avt_q5_tot}} Average per capita transfer held by richest quintile - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.avt_q5_urb}} Average per capita transfer held by richest quintile - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
-{synopt:{opt per_lm_ac.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.ben_q5_rur}} Benefits incidence in richest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.ben_q5_tot}} Benefits incidence in richest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.ben_q5_urb}} Benefits incidence in richest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
-{synopt:{opt per_lm_ac.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.cba_ep_preT_tot}} Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
-{synopt:{opt per_lm_ac.cba_ep_tot}} Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
-{synopt:{opt per_lm_ac.cba_q1_preT_tot}} Benefit-cost ratio -  Active Labor Market  -poorest quintile (preT){p_end}
-{synopt:{opt per_lm_ac.cba_q1_rur}} Benefit-cost ratio -  Active Labor Market  -poorest quintile -rural{p_end}
-{synopt:{opt per_lm_ac.cba_q1_tot}} Benefit-cost ratio -  Active Labor Market  -poorest quintile{p_end}
-{synopt:{opt per_lm_ac.cba_q1_urb}} Benefit-cost ratio -  Active Labor Market  - poorest quintile -urban{p_end}
-{synopt:{opt per_lm_ac.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market  (preT){p_end}
-{synopt:{opt per_lm_ac.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_pop_preT_tot}} Coverage (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.cov_pop_rur}} Coverage (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.cov_pop_tot}} Coverage (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_pop_urb}} Coverage (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.cov_q1_rur}} Coverage in poorest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.cov_q1_tot}} Coverage in poorest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_q1_urb}} Coverage in poorest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.cov_q2_rur}} Coverage in 2nd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.cov_q2_tot}} Coverage in 2nd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_q2_urb}} Coverage in 2nd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.cov_q3_rur}} Coverage in 3rd quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.cov_q3_tot}} Coverage in 3rd quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_q3_urb}} Coverage in 3rd quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.cov_q4_rur}} Coverage in 4th quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.cov_q4_tot}} Coverage in 4th quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_q4_urb}} Coverage in 4th quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac.cov_q5_preT_tot}} Coverage in richest quintile (%) - Active Labor Market (preT){p_end}
-{synopt:{opt per_lm_ac.cov_q5_rur}} Coverage in richest quintile (%) - Active Labor Market -rural{p_end}
-{synopt:{opt per_lm_ac.cov_q5_tot}} Coverage in richest quintile (%) - Active Labor Market{p_end}
-{synopt:{opt per_lm_ac.cov_q5_urb}} Coverage in richest quintile (%) - Active Labor Market -urban{p_end}
-{synopt:{opt per_lm_ac_gini_preT_tot}} Gini inequality reduction (%) -  Active Labor Market  -poorest quintile (preT){p_end}
-{synopt:{opt per_lm_ac_gini_rur}} Gini inequality reduction (%) -  Active Labor Market  -poorest quintile -rural{p_end}
-{synopt:{opt per_lm_ac_gini_tot}} Gini inequality reduction (%) -  Active Labor Market  -poorest quintile{p_end}
-{synopt:{opt per_lm_ac_gini_urb}} Gini inequality reduction (%) -  Active Labor Market  - poorest quintile -urban{p_end}
-{synopt:{opt per_lm_ac_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
-{synopt:{opt per_lm_ac_p0_ep_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
-{synopt:{opt per_lm_ac_p0_preT_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -poorest quintile (preT){p_end}
-{synopt:{opt per_lm_ac_p0_rur}} Poverty Headcount reduction (%) -  Active Labor Market  -poorest quintile -rural{p_end}
-{synopt:{opt per_lm_ac_p0_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -poorest quintile{p_end}
-{synopt:{opt per_lm_ac_p0_urb}} Poverty Headcount reduction (%) -  Active Labor Market  - poorest quintile -urban{p_end}
-{synopt:{opt per_lm_ac_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day) (preT){p_end}
-{synopt:{opt per_lm_ac_p1_ep_tot}} Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.25 a day){p_end}
-{synopt:{opt per_lm_ac_p1_preT_tot}} Poverty Gap reduction (%) -  Active Labor Market  -poorest quintile (preT){p_end}
-{synopt:{opt per_lm_ac_p1_rur}} Poverty Gap reduction (%) -  Active Labor Market  -poorest quintile -rural{p_end}
-{synopt:{opt per_lm_ac_p1_tot}} Poverty Gap reduction (%) -  Active Labor Market  -poorest quintile{p_end}
-{synopt:{opt per_lm_ac_p1_urb}} Poverty Gap reduction (%) -  Active Labor Market  - poorest quintile -urban{p_end}
-{synopt:{opt per_lm_alllm.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_pop_preT_tot}} Adequacy of benefits (%) - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_pop_rur}} Adequacy of benefits (%) - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.adq_pop_tot}} Adequacy of unemployment benefits and ALMP (% of total welfare of beneficiary households){p_end}
-{synopt:{opt per_lm_alllm.adq_pop_urb}} Adequacy of benefits (%) - All Labor Market -urban{p_end}
-{synopt:{opt per_lm_alllm.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Labor Market (preT){p_end}
-{synopt:{opt per_lm_alllm.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Labor Market -rural{p_end}
-{synopt:{opt per_lm_alllm.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Labor Market{p_end}
-{synopt:{opt per_lm_alllm.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_allsp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT) {p_end}
+{synopt:{opt per_allsp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.adq_pop_preT_tot}} Adequacy of benefits (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.adq_pop_rur}} Adequacy of benefits (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.adq_pop_tot}} Adequacy of social protection and labor programs (% of total welfare of beneficiary households) {p_end}
+{synopt:{opt per_allsp.adq_pop_urb}} Adequacy of benefits (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) -All Social Protection and Labor  (preT) {p_end}
+{synopt:{opt per_allsp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_pop_preT_tot}} Average per capita transfer -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.avt_pop_rur}} Average per capita transfer -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.avt_pop_tot}} Average per capita transfer -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_pop_urb}} Average per capita transfer -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.avt_q2_rur}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.avt_q2_tot}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_q2_urb}} Average per capita transfer held by 2nd quintile -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.avt_q3_rur}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.avt_q3_tot}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_q3_urb}} Average per capita transfer held by 3rd quintile -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.avt_q4_rur}} Average per capita transfer held by 4th quintile -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.avt_q4_tot}} Average per capita transfer held by 4th quintile -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_q4_urb}} Average per capita transfer held by 4th quintile -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT) {p_end}
+{synopt:{opt per_allsp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.ben_q1_tot}} Benefit incidence of social protection and labor programs to poorest quintile (% of total SPL benefits) {p_end}
+{synopt:{opt per_allsp.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.ben_q2_urb}} Benefits incidence in 2nd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.ben_q3_rur}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.ben_q3_tot}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.ben_q3_urb}} Benefits incidence in 3rd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.ben_q4_rur}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.ben_q4_tot}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.ben_q4_urb}} Benefits incidence in 4th quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT) {p_end}
+{synopt:{opt per_allsp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.cba_ep_preT_tot}} Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_allsp.cba_ep_tot}} Benefit-cost ratio - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_allsp.cba_q1_preT_tot}} Benefit-cost ratio - All Social Protection and Labor -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_allsp.cba_q1_rur}} Benefit-cost ratio - All Social Protection and Labor -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_allsp.cba_q1_tot}} Benefit-cost ratio - All Social Protection and Labor -1st quintile (poorest) {p_end}
+{synopt:{opt per_allsp.cba_q1_urb}} Benefit-cost ratio - All Social Protection and Labor - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_allsp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor  (preT) {p_end}
+{synopt:{opt per_allsp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.cov_pop_preT_tot}} Coverage (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.cov_pop_rur}} Coverage (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.cov_pop_tot}} Coverage of social protection and labor programs (% of population) {p_end}
+{synopt:{opt per_allsp.cov_pop_urb}} Coverage (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.cov_q2_rur}} Coverage in 2nd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.cov_q2_tot}} Coverage in 2nd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.cov_q2_urb}} Coverage in 2nd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.cov_q3_preT_tot}} Coverage in 3rd quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.cov_q3_rur}} Coverage in 3rd quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.cov_q3_tot}} Coverage in 3rd quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.cov_q3_urb}} Coverage in 3rd quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.cov_q4_preT_tot}} Coverage in 4th quintile (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.cov_q4_rur}} Coverage in 4th quintile (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.cov_q4_tot}} Coverage in 4th quintile (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.cov_q4_urb}} Coverage in 4th quintile (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) -All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp.cov_q5_rur}} Coverage in 5th quintile (richest) (%) -All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp.cov_q5_tot}} Coverage in 5th quintile (richest) (%) -All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp.cov_q5_urb}} Coverage in 5th quintile (richest) (%) -All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp_gini_preT_tot}} Gini inequality index reduction (%) - All Social Protection and Labor (preT) {p_end}
+{synopt:{opt per_allsp_gini_rur}} Gini inequality index reduction (%) - All Social Protection and Labor -rural {p_end}
+{synopt:{opt per_allsp_gini_tot}} Gini inequality index reduction (%) - All Social Protection and Labor {p_end}
+{synopt:{opt per_allsp_gini_urb}} Gini inequality index reduction (%) - All Social Protection and Labor -urban {p_end}
+{synopt:{opt per_allsp_p0_ep_preT_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_allsp_p0_ep_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_allsp_p0_preT_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_allsp_p0_rur}} Poverty Headcount reduction (%) - All Social Protection and Labor -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_allsp_p0_tot}} Poverty Headcount reduction (%) - All Social Protection and Labor -1st quintile (poorest) {p_end}
+{synopt:{opt per_allsp_p0_urb}} Poverty Headcount reduction (%) - All Social Protection and Labor - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_allsp_p1_ep_preT_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_allsp_p1_ep_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_allsp_p1_preT_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_allsp_p1_rur}} Poverty Gap reduction (%) - All Social Protection and Labor -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_allsp_p1_tot}} Poverty Gap reduction (%) - All Social Protection and Labor -1st quintile (poorest) {p_end}
+{synopt:{opt per_allsp_p1_urb}} Poverty Gap reduction (%) - All Social Protection and Labor - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_ac.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_pop_preT_tot}} Adequacy of benefits (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_pop_rur}} Adequacy of benefits (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.adq_pop_tot}} Adequacy of benefits (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_pop_urb}} Adequacy of benefits (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Active Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_pop_preT_tot}} Average per capita transfer - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_pop_rur}} Average per capita transfer - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.avt_pop_tot}} Average per capita transfer - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_pop_urb}} Average per capita transfer - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_q4_rur}} Average per capita transfer held by 4th quintile - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.avt_q4_tot}} Average per capita transfer held by 4th quintile - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_q4_urb}} Average per capita transfer held by 4th quintile - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_ac.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_ac.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.cba_ep_preT_tot}} Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_ac.cba_ep_tot}} Benefit-cost ratio -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_ac.cba_q1_preT_tot}} Benefit-cost ratio -  Active Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_ac.cba_q1_rur}} Benefit-cost ratio -  Active Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_ac.cba_q1_tot}} Benefit-cost ratio -  Active Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_ac.cba_q1_urb}} Benefit-cost ratio -  Active Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_ac.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_pop_preT_tot}} Coverage (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_pop_rur}} Coverage (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.cov_pop_tot}} Coverage (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_pop_urb}} Coverage (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_q2_rur}} Coverage in 2nd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.cov_q2_tot}} Coverage in 2nd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_q2_urb}} Coverage in 2nd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_q3_rur}} Coverage in 3rd quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.cov_q3_tot}} Coverage in 3rd quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_q3_urb}} Coverage in 3rd quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_q4_rur}} Coverage in 4th quintile (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.cov_q4_tot}} Coverage in 4th quintile (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_q4_urb}} Coverage in 4th quintile (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Active Labor Market {p_end}
+{synopt:{opt per_lm_ac.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac_gini_preT_tot}} Gini inequality index reduction (%) -  Active Labor Market (preT) {p_end}
+{synopt:{opt per_lm_ac_gini_rur}} Gini inequality index reduction (%) -  Active Labor Market -rural {p_end}
+{synopt:{opt per_lm_ac_gini_tot}} Gini inequality index reduction (%) -  Active Labor Market {p_end}
+{synopt:{opt per_lm_ac_gini_urb}} Gini inequality index reduction (%) -  Active Labor Market -urban {p_end}
+{synopt:{opt per_lm_ac_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_ac_p0_ep_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_ac_p0_preT_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_ac_p0_rur}} Poverty Headcount reduction (%) -  Active Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_ac_p0_tot}} Poverty Headcount reduction (%) -  Active Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_ac_p0_urb}} Poverty Headcount reduction (%) -  Active Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_ac_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_ac_p1_ep_tot}} Poverty Gap reduction (%) -  Active Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_ac_p1_preT_tot}} Poverty Gap reduction (%) -  Active Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_ac_p1_rur}} Poverty Gap reduction (%) -  Active Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_ac_p1_tot}} Poverty Gap reduction (%) -  Active Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_ac_p1_urb}} Poverty Gap reduction (%) -  Active Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_alllm.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_pop_preT_tot}} Adequacy of benefits (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_pop_rur}} Adequacy of benefits (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_pop_tot}} Adequacy of unemployment benefits and ALMP (% of total welfare of beneficiary households) {p_end}
+{synopt:{opt per_lm_alllm.adq_pop_urb}} Adequacy of benefits (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Labor Market {p_end}
@@ -14114,20 +14802,20 @@
 {synopt:{opt per_lm_alllm.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Labor Market -rural {p_end}
-{synopt:{opt per_lm_alllm.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_alllm.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_alllm.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.avt_pop_preT_tot}} Average per capita transfer - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.avt_pop_rur}} Average per capita transfer - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.avt_pop_tot}} Average per capita transfer - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.avt_pop_urb}} Average per capita transfer - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Labor Market -rural {p_end}
-{synopt:{opt per_lm_alllm.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Labor Market {p_end}
@@ -14140,16 +14828,16 @@
 {synopt:{opt per_lm_alllm.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.avt_q5_rur}} Average per capita transfer held by richest quintile - All Labor Market -rural {p_end}
-{synopt:{opt per_lm_alllm.avt_q5_tot}} Average per capita transfer held by richest quintile - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.avt_q5_urb}} Average per capita transfer held by richest quintile - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_alllm.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_alllm.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.ben_q1_tot}} Benefit incidence of unemployment benefits and ALMP to poorest quintile (% of total U/ALMP benefits) {p_end}
-{synopt:{opt per_lm_alllm.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Labor Market {p_end}
@@ -14162,16 +14850,16 @@
 {synopt:{opt per_lm_alllm.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Labor Market -rural {p_end}
-{synopt:{opt per_lm_alllm.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_alllm.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Labor Market -rural {p_end}
-{synopt:{opt per_lm_alllm.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_alllm.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Labor Market {p_end}
@@ -14184,26 +14872,26 @@
 {synopt:{opt per_lm_alllm.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Labor Market -rural {p_end}
-{synopt:{opt per_lm_alllm.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Labor Market {p_end}
-{synopt:{opt per_lm_alllm.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.cba_ep_preT_tot}} Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_lm_alllm.cba_ep_tot}} Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_lm_alllm.cba_q1_preT_tot}} Benefit-cost ratio -  All Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_alllm.cba_q1_rur}} Benefit-cost ratio -  All Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_alllm.cba_q1_tot}} Benefit-cost ratio -  All Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_alllm.cba_q1_urb}} Benefit-cost ratio -  All Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_alllm.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_alllm.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Labor Market {p_end}
+{synopt:{opt per_lm_alllm.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.cba_ep_preT_tot}} Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_alllm.cba_ep_tot}} Benefit-cost ratio -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_alllm.cba_q1_preT_tot}} Benefit-cost ratio -  All Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_alllm.cba_q1_rur}} Benefit-cost ratio -  All Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_alllm.cba_q1_tot}} Benefit-cost ratio -  All Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_alllm.cba_q1_urb}} Benefit-cost ratio -  All Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_alllm.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_alllm.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Labor Market {p_end}
 {synopt:{opt per_lm_alllm.cov_pop_preT_tot}} Coverage (%) - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.cov_pop_rur}} Coverage (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.cov_pop_tot}} Coverage of unemployment benefits and ALMP (% of population) {p_end}
 {synopt:{opt per_lm_alllm.cov_pop_urb}} Coverage (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.cov_q1_rur}} Coverage in poorest quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.cov_q1_tot}} Coverage of unemployment benefits and ALMP in poorest quintile (% of population) {p_end}
-{synopt:{opt per_lm_alllm.cov_q1_urb}} Coverage in poorest quintile (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - All Labor Market -urban {p_end}
 {synopt:{opt per_lm_alllm.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Labor Market (preT) {p_end}
 {synopt:{opt per_lm_alllm.cov_q2_rur}} Coverage in 2nd quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.cov_q2_tot}} Coverage of unemployment benefits and ALMP in 2nd quintile (% of population) {p_end}
@@ -14216,36 +14904,36 @@
 {synopt:{opt per_lm_alllm.cov_q4_rur}} Coverage in 4th quintile (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.cov_q4_tot}} Coverage of unemployment benefits and ALMP in 4th quintile (% of population) {p_end}
 {synopt:{opt per_lm_alllm.cov_q4_urb}} Coverage in 4th quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Labor Market (preT) {p_end}
-{synopt:{opt per_lm_alllm.cov_q5_rur}} Coverage in richest quintile (%) - All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - All Labor Market -rural {p_end}
 {synopt:{opt per_lm_alllm.cov_q5_tot}} Coverage of unemployment benefits and ALMP in richest quintile (% of population) {p_end}
-{synopt:{opt per_lm_alllm.cov_q5_urb}} Coverage in richest quintile (%) - All Labor Market -urban {p_end}
-{synopt:{opt per_lm_alllm_gini_preT_tot}} Gini inequality reduction (%) -  All Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_alllm_gini_rur}} Gini inequality reduction (%) -  All Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_alllm_gini_tot}} Gini inequality reduction (%) -  All Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_alllm_gini_urb}} Gini inequality reduction (%) -  All Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_alllm_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_lm_alllm_p0_ep_tot}} Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_lm_alllm_p0_preT_tot}} Poverty Headcount reduction (%) -  All Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_alllm_p0_rur}} Poverty Headcount reduction (%) -  All Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_alllm_p0_tot}} Poverty Headcount reduction (%) -  All Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_alllm_p0_urb}} Poverty Headcount reduction (%) -  All Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_alllm_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_lm_alllm_p1_ep_tot}} Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_lm_alllm_p1_preT_tot}} Poverty Gap reduction (%) -  All Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_alllm_p1_rur}} Poverty Gap reduction (%) -  All Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_alllm_p1_tot}} Poverty Gap reduction (%) -  All Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_alllm_p1_urb}} Poverty Gap reduction (%) -  All Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_pa.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_pa.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_alllm.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm_gini_preT_tot}} Gini inequality index reduction (%) -  All Labor Market (preT) {p_end}
+{synopt:{opt per_lm_alllm_gini_rur}} Gini inequality index reduction (%) -  All Labor Market -rural {p_end}
+{synopt:{opt per_lm_alllm_gini_tot}} Gini inequality index reduction (%) -  All Labor Market {p_end}
+{synopt:{opt per_lm_alllm_gini_urb}} Gini inequality index reduction (%) -  All Labor Market -urban {p_end}
+{synopt:{opt per_lm_alllm_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_alllm_p0_ep_tot}} Poverty Headcount reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_alllm_p0_preT_tot}} Poverty Headcount reduction (%) -  All Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_alllm_p0_rur}} Poverty Headcount reduction (%) -  All Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_alllm_p0_tot}} Poverty Headcount reduction (%) -  All Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_alllm_p0_urb}} Poverty Headcount reduction (%) -  All Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_alllm_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_alllm_p1_ep_tot}} Poverty Gap reduction (%) -  All Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_alllm_p1_preT_tot}} Poverty Gap reduction (%) -  All Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_alllm_p1_rur}} Poverty Gap reduction (%) -  All Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_alllm_p1_tot}} Poverty Gap reduction (%) -  All Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_alllm_p1_urb}} Poverty Gap reduction (%) -  All Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_pa.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_pa.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.adq_pop_preT_tot}} Adequacy of benefits (%) - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.adq_pop_rur}} Adequacy of benefits (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.adq_pop_tot}} Adequacy of benefits (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.adq_pop_urb}} Adequacy of benefits (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Passive Labor Market -urban {p_end}
 {synopt:{opt per_lm_pa.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Passive Labor Market {p_end}
@@ -14258,20 +14946,20 @@
 {synopt:{opt per_lm_pa.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_pa.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Passive Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_pa.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.avt_pop_preT_tot}} Average per capita transfer - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.avt_pop_rur}} Average per capita transfer - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.avt_pop_tot}} Average per capita transfer - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.avt_pop_urb}} Average per capita transfer - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.avt_q1_rur}} Average per capita transfer held by poorest quintile - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.avt_q1_tot}} Average per capita transfer held by poorest quintile - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.avt_q1_urb}} Average per capita transfer held by poorest quintile - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Passive Labor Market -urban {p_end}
 {synopt:{opt per_lm_pa.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Passive Labor Market {p_end}
@@ -14284,16 +14972,16 @@
 {synopt:{opt per_lm_pa.avt_q4_rur}} Average per capita transfer held by 4th quintile - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.avt_q4_tot}} Average per capita transfer held by 4th quintile - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.avt_q4_urb}} Average per capita transfer held by 4th quintile - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.avt_q5_rur}} Average per capita transfer held by richest quintile - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.avt_q5_tot}} Average per capita transfer held by richest quintile - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.avt_q5_urb}} Average per capita transfer held by richest quintile - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_pa.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_pa.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Passive Labor Market -urban {p_end}
 {synopt:{opt per_lm_pa.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Passive Labor Market {p_end}
@@ -14306,16 +14994,16 @@
 {synopt:{opt per_lm_pa.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.ben_q5_rur}} Benefits incidence in richest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.ben_q5_tot}} Benefits incidence in richest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.ben_q5_urb}} Benefits incidence in richest quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_pa.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_pa.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Passive Labor Market -urban {p_end}
 {synopt:{opt per_lm_pa.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Passive Labor Market {p_end}
@@ -14328,26 +15016,26 @@
 {synopt:{opt per_lm_pa.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.cba_ep_preT_tot}} Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_lm_pa.cba_ep_tot}} Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_lm_pa.cba_q1_preT_tot}} Benefit-cost ratio -  Passive Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_pa.cba_q1_rur}} Benefit-cost ratio -  Passive Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_pa.cba_q1_tot}} Benefit-cost ratio -  Passive Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_pa.cba_q1_urb}} Benefit-cost ratio -  Passive Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_pa.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market  (preT) {p_end}
-{synopt:{opt per_lm_pa.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.cba_ep_preT_tot}} Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_pa.cba_ep_tot}} Benefit-cost ratio -  Passive Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_pa.cba_q1_preT_tot}} Benefit-cost ratio -  Passive Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_pa.cba_q1_rur}} Benefit-cost ratio -  Passive Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_pa.cba_q1_tot}} Benefit-cost ratio -  Passive Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_pa.cba_q1_urb}} Benefit-cost ratio -  Passive Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_pa.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market  (preT) {p_end}
+{synopt:{opt per_lm_pa.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.cov_pop_preT_tot}} Coverage (%) - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.cov_pop_rur}} Coverage (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.cov_pop_tot}} Coverage (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.cov_pop_urb}} Coverage (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.cov_q1_rur}} Coverage in poorest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.cov_q1_tot}} Coverage in poorest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.cov_q1_urb}} Coverage in poorest quintile (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Passive Labor Market -urban {p_end}
 {synopt:{opt per_lm_pa.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Passive Labor Market (preT) {p_end}
 {synopt:{opt per_lm_pa.cov_q2_rur}} Coverage in 2nd quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.cov_q2_tot}} Coverage in 2nd quintile (%) - Passive Labor Market {p_end}
@@ -14360,96 +15048,96 @@
 {synopt:{opt per_lm_pa.cov_q4_rur}} Coverage in 4th quintile (%) - Passive Labor Market -rural {p_end}
 {synopt:{opt per_lm_pa.cov_q4_tot}} Coverage in 4th quintile (%) - Passive Labor Market {p_end}
 {synopt:{opt per_lm_pa.cov_q4_urb}} Coverage in 4th quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa.cov_q5_preT_tot}} Coverage in richest quintile (%) - Passive Labor Market (preT) {p_end}
-{synopt:{opt per_lm_pa.cov_q5_rur}} Coverage in richest quintile (%) - Passive Labor Market -rural {p_end}
-{synopt:{opt per_lm_pa.cov_q5_tot}} Coverage in richest quintile (%) - Passive Labor Market {p_end}
-{synopt:{opt per_lm_pa.cov_q5_urb}} Coverage in richest quintile (%) - Passive Labor Market -urban {p_end}
-{synopt:{opt per_lm_pa_gini_preT_tot}} Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_pa_gini_rur}} Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_pa_gini_tot}} Gini inequality reduction (%) -  Passive Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_pa_gini_urb}} Gini inequality reduction (%) -  Passive Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_pa_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_lm_pa_p0_ep_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_lm_pa_p0_preT_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_pa_p0_rur}} Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_pa_p0_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_pa_p0_urb}} Poverty Headcount reduction (%) -  Passive Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lm_pa_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_lm_pa_p1_ep_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_lm_pa_p1_preT_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile (preT) {p_end}
-{synopt:{opt per_lm_pa_p1_rur}} Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile -rural {p_end}
-{synopt:{opt per_lm_pa_p1_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -poorest quintile {p_end}
-{synopt:{opt per_lm_pa_p1_urb}} Poverty Gap reduction (%) -  Passive Labor Market  - poorest quintile -urban {p_end}
-{synopt:{opt per_lmonl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving Labor Market (%, preT) {p_end}
-{synopt:{opt per_lmonl.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving Labor Market (%) {p_end}
+{synopt:{opt per_lm_pa.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa_gini_preT_tot}} Gini inequality index reduction (%) -  Passive Labor Market (preT) {p_end}
+{synopt:{opt per_lm_pa_gini_rur}} Gini inequality index reduction (%) -  Passive Labor Market -rural {p_end}
+{synopt:{opt per_lm_pa_gini_tot}} Gini inequality index reduction (%) -  Passive Labor Market {p_end}
+{synopt:{opt per_lm_pa_gini_urb}} Gini inequality index reduction (%) -  Passive Labor Market -urban {p_end}
+{synopt:{opt per_lm_pa_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_pa_p0_ep_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_pa_p0_preT_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_pa_p0_rur}} Poverty Headcount reduction (%) -  Passive Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_pa_p0_tot}} Poverty Headcount reduction (%) -  Passive Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_pa_p0_urb}} Poverty Headcount reduction (%) -  Passive Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lm_pa_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_lm_pa_p1_ep_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_lm_pa_p1_preT_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_lm_pa_p1_rur}} Poverty Gap reduction (%) -  Passive Labor Market  -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_lm_pa_p1_tot}} Poverty Gap reduction (%) -  Passive Labor Market  -1st quintile (poorest) {p_end}
+{synopt:{opt per_lm_pa_p1_urb}} Poverty Gap reduction (%) -  Passive Labor Market  - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_lmonl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) only receiving Labor Market (%, preT) {p_end}
+{synopt:{opt per_lmonl.overlap_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) only receiving Labor Market (%) {p_end}
 {synopt:{opt per_lmonl.overlap_pop_preT_tot}} Population only receiving Labor Market (%, preT) {p_end}
 {synopt:{opt per_lmonl.overlap_pop_rur}} Population only receiving Labor Market (%) -rural {p_end}
 {synopt:{opt per_lmonl.overlap_pop_tot}} Population only receiving Labor Market (%) {p_end}
 {synopt:{opt per_lmonl.overlap_pop_urb}} Population only receiving Labor Market (%) -urban {p_end}
-{synopt:{opt per_lmonl.overlap_q1_preT_tot}} Population in the poorest quintile only receiving Labor Market (%, preT) {p_end}
-{synopt:{opt per_lmonl.overlap_q1_rur}} Population in the poorest quintile only receiving Labor Market (%) -rural {p_end}
-{synopt:{opt per_lmonl.overlap_q1_tot}} Population in the poorest quintile only receiving Labor Market (%) {p_end}
-{synopt:{opt per_lmonl.overlap_q1_urb}} Population in the poorest quintile only receiving Labor Market (%) -urban {p_end}
-{synopt:{opt per_nprog.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) not receiving Social Protection (%, preT) {p_end}
-{synopt:{opt per_nprog.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) not receiving Social Protection (%) {p_end}
+{synopt:{opt per_lmonl.overlap_q1_preT_tot}} Population in the 1st quintile (poorest) only receiving Labor Market (%, preT) {p_end}
+{synopt:{opt per_lmonl.overlap_q1_rur}} Population in the 1st quintile (poorest) only receiving Labor Market (%) -rural {p_end}
+{synopt:{opt per_lmonl.overlap_q1_tot}} Population in the 1st quintile (poorest) only receiving Labor Market (%) {p_end}
+{synopt:{opt per_lmonl.overlap_q1_urb}} Population in the 1st quintile (poorest) only receiving Labor Market (%) -urban {p_end}
+{synopt:{opt per_nprog.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) not receiving Social Protection (%, preT) {p_end}
+{synopt:{opt per_nprog.overlap_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) not receiving Social Protection (%) {p_end}
 {synopt:{opt per_nprog.overlap_pop_preT_tot}} Population not receiving Social Protection (%, preT) {p_end}
 {synopt:{opt per_nprog.overlap_pop_rur}} Population not receiving Social Protection (%) -rural {p_end}
 {synopt:{opt per_nprog.overlap_pop_tot}} Population not receiving Social Protection (%) {p_end}
 {synopt:{opt per_nprog.overlap_pop_urb}} Population not receiving Social Protection (%) -urban {p_end}
-{synopt:{opt per_nprog.overlap_q1_preT_tot}} Population in the poorest quintile not receiving Social Protection (%, preT) {p_end}
-{synopt:{opt per_nprog.overlap_q1_rur}} Population in the poorest quintile not receiving Social Protection (%) -rural {p_end}
-{synopt:{opt per_nprog.overlap_q1_tot}} Population in the poorest quintile not receiving Social Protection (%) {p_end}
-{synopt:{opt per_nprog.overlap_q1_urb}} Population in the poorest quintile not receiving Social Protection (%) -urban {p_end}
-{synopt:{opt per_numprog1_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving only 1 program (%, preT) {p_end}
-{synopt:{opt per_numprog1_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving only 1 program (%) {p_end}
+{synopt:{opt per_nprog.overlap_q1_preT_tot}} Population in the 1st quintile (poorest) not receiving Social Protection (%, preT) {p_end}
+{synopt:{opt per_nprog.overlap_q1_rur}} Population in the 1st quintile (poorest) not receiving Social Protection (%) -rural {p_end}
+{synopt:{opt per_nprog.overlap_q1_tot}} Population in the 1st quintile (poorest) not receiving Social Protection (%) {p_end}
+{synopt:{opt per_nprog.overlap_q1_urb}} Population in the 1st quintile (poorest) not receiving Social Protection (%) -urban {p_end}
+{synopt:{opt per_numprog1_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving only 1 program (%, preT) {p_end}
+{synopt:{opt per_numprog1_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving only 1 program (%) {p_end}
 {synopt:{opt per_numprog1_pop_preT_tot}} Population receiving only 1 program (%, preT) {p_end}
 {synopt:{opt per_numprog1_pop_rur}} Population receiving only 1 program (%) -rural {p_end}
 {synopt:{opt per_numprog1_pop_tot}} Population receiving only 1 program (%) {p_end}
 {synopt:{opt per_numprog1_pop_urb}} Population receiving only 1 program (%) -urban {p_end}
-{synopt:{opt per_numprog1_q1_preT_tot}} Population in the poorest quintile receiving 1 program (%, preT) {p_end}
-{synopt:{opt per_numprog1_q1_rur}} Population in the poorest quintile receiving 1 program (%) -rural {p_end}
-{synopt:{opt per_numprog1_q1_tot}} Population in the poorest quintile receiving 1 program (%) {p_end}
-{synopt:{opt per_numprog1_q1_urb}} Population in the poorest quintile receiving 1 program (%) -urban {p_end}
-{synopt:{opt per_numprog2_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 2 programs (%, preT) {p_end}
-{synopt:{opt per_numprog2_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 2 programs (%) {p_end}
+{synopt:{opt per_numprog1_q1_preT_tot}} Population in the 1st quintile (poorest) receiving 1 program (%, preT) {p_end}
+{synopt:{opt per_numprog1_q1_rur}} Population in the 1st quintile (poorest) receiving 1 program (%) -rural {p_end}
+{synopt:{opt per_numprog1_q1_tot}} Population in the 1st quintile (poorest) receiving 1 program (%) {p_end}
+{synopt:{opt per_numprog1_q1_urb}} Population in the 1st quintile (poorest) receiving 1 program (%) -urban {p_end}
+{synopt:{opt per_numprog2_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving 2 programs (%, preT) {p_end}
+{synopt:{opt per_numprog2_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving 2 programs (%) {p_end}
 {synopt:{opt per_numprog2_pop_preT_tot}} Population receiving 2 programs (%, preT) {p_end}
 {synopt:{opt per_numprog2_pop_rur}} Population receiving 2 programs (%) -rural {p_end}
 {synopt:{opt per_numprog2_pop_tot}} Population receiving 2 programs (%) {p_end}
 {synopt:{opt per_numprog2_pop_urb}} Population receiving 2 programs (%) -urban {p_end}
-{synopt:{opt per_numprog2_q1_preT_tot}} Population in the poorest quintile receiving 2 programs (%, preT) {p_end}
-{synopt:{opt per_numprog2_q1_rur}} Population in the poorest quintile receiving 2 programs (%) -rural {p_end}
-{synopt:{opt per_numprog2_q1_tot}} Population in the poorest quintile receiving 2 programs (%) {p_end}
-{synopt:{opt per_numprog2_q1_urb}} Population in the poorest quintile receiving 2 programs (%) -urban {p_end}
-{synopt:{opt per_numprog3_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 3 programs (%, preT) {p_end}
-{synopt:{opt per_numprog3_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 3 programs (%) {p_end}
+{synopt:{opt per_numprog2_q1_preT_tot}} Population in the 1st quintile (poorest) receiving 2 programs (%, preT) {p_end}
+{synopt:{opt per_numprog2_q1_rur}} Population in the 1st quintile (poorest) receiving 2 programs (%) -rural {p_end}
+{synopt:{opt per_numprog2_q1_tot}} Population in the 1st quintile (poorest) receiving 2 programs (%) {p_end}
+{synopt:{opt per_numprog2_q1_urb}} Population in the 1st quintile (poorest) receiving 2 programs (%) -urban {p_end}
+{synopt:{opt per_numprog3_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving 3 programs (%, preT) {p_end}
+{synopt:{opt per_numprog3_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving 3 programs (%) {p_end}
 {synopt:{opt per_numprog3_pop_preT_tot}} Population receiving 3 programs (%, preT) {p_end}
 {synopt:{opt per_numprog3_pop_rur}} Population receiving 3 programs (%) -rural {p_end}
 {synopt:{opt per_numprog3_pop_tot}} Population receiving 3 programs (%) {p_end}
 {synopt:{opt per_numprog3_pop_urb}} Population receiving 3 programs (%) -urban {p_end}
-{synopt:{opt per_numprog3_q1_preT_tot}} Population in the poorest quintile receiving 3 programs (%, preT) {p_end}
-{synopt:{opt per_numprog3_q1_rur}} Population in the poorest quintile receiving 3 programs (%) -rural {p_end}
-{synopt:{opt per_numprog3_q1_tot}} Population in the poorest quintile receiving 3 programs (%) {p_end}
-{synopt:{opt per_numprog3_q1_urb}} Population in the poorest quintile receiving 3 programs (%) -urban {p_end}
-{synopt:{opt per_numprog4_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 4 or more programs (%, preT) {p_end}
-{synopt:{opt per_numprog4_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving 4 or more programs (%) {p_end}
+{synopt:{opt per_numprog3_q1_preT_tot}} Population in the 1st quintile (poorest) receiving 3 programs (%, preT) {p_end}
+{synopt:{opt per_numprog3_q1_rur}} Population in the 1st quintile (poorest) receiving 3 programs (%) -rural {p_end}
+{synopt:{opt per_numprog3_q1_tot}} Population in the 1st quintile (poorest) receiving 3 programs (%) {p_end}
+{synopt:{opt per_numprog3_q1_urb}} Population in the 1st quintile (poorest) receiving 3 programs (%) -urban {p_end}
+{synopt:{opt per_numprog4_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving 4 or more programs (%, preT) {p_end}
+{synopt:{opt per_numprog4_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving 4 or more programs (%) {p_end}
 {synopt:{opt per_numprog4_pop_preT_tot}} Population receiving 4 or more programs (%, preT) {p_end}
 {synopt:{opt per_numprog4_pop_rur}} Population receiving 4 or more programs (%) -rural {p_end}
 {synopt:{opt per_numprog4_pop_tot}} Population receiving 4 or more programs (%) {p_end}
 {synopt:{opt per_numprog4_pop_urb}} Population receiving 4 or more programs (%) -urban {p_end}
-{synopt:{opt per_numprog4_q1_preT_tot}} Population in the poorest quintile receiving 4 or more programs (%, preT) {p_end}
-{synopt:{opt per_numprog4_q1_rur}} Population in the poorest quintile receiving 4 or more programs (%) -rural {p_end}
-{synopt:{opt per_numprog4_q1_tot}} Population in the poorest quintile receiving 4 or more programs (%) {p_end}
-{synopt:{opt per_numprog4_q1_urb}} Population in the poorest quintile receiving 4 or more programs (%) -urban {p_end}
-{synopt:{opt per_pr_allpr.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers {p_end}
+{synopt:{opt per_numprog4_q1_preT_tot}} Population in the 1st quintile (poorest) receiving 4 or more programs (%, preT) {p_end}
+{synopt:{opt per_numprog4_q1_rur}} Population in the 1st quintile (poorest) receiving 4 or more programs (%) -rural {p_end}
+{synopt:{opt per_numprog4_q1_tot}} Population in the 1st quintile (poorest) receiving 4 or more programs (%) {p_end}
+{synopt:{opt per_numprog4_q1_urb}} Population in the 1st quintile (poorest) receiving 4 or more programs (%) -urban {p_end}
+{synopt:{opt per_pr_allpr.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.adq_pop_preT_tot}} Adequacy of benefits (%) - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.adq_pop_rur}} Adequacy of benefits (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.adq_pop_tot}} Adequacy of benefits (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.adq_pop_urb}} Adequacy of benefits (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - All Private Transfers -urban {p_end}
 {synopt:{opt per_pr_allpr.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Private Transfers {p_end}
@@ -14462,20 +15150,20 @@
 {synopt:{opt per_pr_allpr.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.avt_pop_preT_tot}} Average per capita transfer - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.avt_pop_rur}} Average per capita transfer - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.avt_pop_tot}} Average per capita transfer - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.avt_pop_urb}} Average per capita transfer - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - All Private Transfers -urban {p_end}
 {synopt:{opt per_pr_allpr.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Private Transfers {p_end}
@@ -14488,16 +15176,16 @@
 {synopt:{opt per_pr_allpr.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.avt_q5_rur}} Average per capita transfer held by richest quintile - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.avt_q5_tot}} Average per capita transfer held by richest quintile - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.avt_q5_urb}} Average per capita transfer held by richest quintile - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.ben_q1_tot}} Benefits incidence in poorest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - All Private Transfers -urban {p_end}
 {synopt:{opt per_pr_allpr.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Private Transfers {p_end}
@@ -14510,16 +15198,16 @@
 {synopt:{opt per_pr_allpr.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - All Private Transfers -urban {p_end}
 {synopt:{opt per_pr_allpr.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Private Transfers {p_end}
@@ -14532,26 +15220,26 @@
 {synopt:{opt per_pr_allpr.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.cba_ep_preT_tot}} Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_allpr.cba_ep_tot}} Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_allpr.cba_q1_preT_tot}} Benefit-cost ratio -  All Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_allpr.cba_q1_rur}} Benefit-cost ratio -  All Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_allpr.cba_q1_tot}} Benefit-cost ratio -  All Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_allpr.cba_q1_urb}} Benefit-cost ratio -  All Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_allpr.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.cba_ep_preT_tot}} Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_allpr.cba_ep_tot}} Benefit-cost ratio -  All Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_allpr.cba_q1_preT_tot}} Benefit-cost ratio -  All Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_allpr.cba_q1_rur}} Benefit-cost ratio -  All Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_allpr.cba_q1_tot}} Benefit-cost ratio -  All Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_allpr.cba_q1_urb}} Benefit-cost ratio -  All Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_allpr.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.cov_pop_preT_tot}} Coverage (%) - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.cov_pop_rur}} Coverage (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.cov_pop_tot}} Coverage (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.cov_pop_urb}} Coverage (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.cov_q1_rur}} Coverage in poorest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.cov_q1_tot}} Coverage in poorest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.cov_q1_urb}} Coverage in poorest quintile (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - All Private Transfers -urban {p_end}
 {synopt:{opt per_pr_allpr.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_allpr.cov_q2_rur}} Coverage in 2nd quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.cov_q2_tot}} Coverage in 2nd quintile (%) - All Private Transfers {p_end}
@@ -14564,36 +15252,36 @@
 {synopt:{opt per_pr_allpr.cov_q4_rur}} Coverage in 4th quintile (%) - All Private Transfers -rural {p_end}
 {synopt:{opt per_pr_allpr.cov_q4_tot}} Coverage in 4th quintile (%) - All Private Transfers {p_end}
 {synopt:{opt per_pr_allpr.cov_q4_urb}} Coverage in 4th quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_allpr.cov_q5_rur}} Coverage in richest quintile (%) - All Private Transfers -rural {p_end}
-{synopt:{opt per_pr_allpr.cov_q5_tot}} Coverage in richest quintile (%) - All Private Transfers {p_end}
-{synopt:{opt per_pr_allpr.cov_q5_urb}} Coverage in richest quintile (%) - All Private Transfers -urban {p_end}
-{synopt:{opt per_pr_allpr_gini_preT_tot}} Gini inequality reduction (%) -  All Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_allpr_gini_rur}} Gini inequality reduction (%) -  All Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_allpr_gini_tot}} Gini inequality reduction (%) -  All Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_allpr_gini_urb}} Gini inequality reduction (%) -  All Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_allpr_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_allpr_p0_ep_tot}} Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_allpr_p0_preT_tot}} Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_allpr_p0_rur}} Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_allpr_p0_tot}} Poverty Headcount reduction (%) -  All Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_allpr_p0_urb}} Poverty Headcount reduction (%) -  All Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_allpr_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_allpr_p1_ep_tot}} Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_allpr_p1_preT_tot}} Poverty Gap reduction (%) -  All Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_allpr_p1_rur}} Poverty Gap reduction (%) -  All Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_allpr_p1_tot}} Poverty Gap reduction (%) -  All Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_allpr_p1_urb}} Poverty Gap reduction (%) -  All Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_dp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr_gini_preT_tot}} Gini inequality index reduction (%) -  All Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_allpr_gini_rur}} Gini inequality index reduction (%) -  All Private Transfers -rural {p_end}
+{synopt:{opt per_pr_allpr_gini_tot}} Gini inequality index reduction (%) -  All Private Transfers {p_end}
+{synopt:{opt per_pr_allpr_gini_urb}} Gini inequality index reduction (%) -  All Private Transfers -urban {p_end}
+{synopt:{opt per_pr_allpr_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_allpr_p0_ep_tot}} Poverty Headcount reduction (%) -  All Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_allpr_p0_preT_tot}} Poverty Headcount reduction (%) -  All Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_allpr_p0_rur}} Poverty Headcount reduction (%) -  All Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_allpr_p0_tot}} Poverty Headcount reduction (%) -  All Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_allpr_p0_urb}} Poverty Headcount reduction (%) -  All Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_allpr_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_allpr_p1_ep_tot}} Poverty Gap reduction (%) -  All Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_allpr_p1_preT_tot}} Poverty Gap reduction (%) -  All Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_allpr_p1_rur}} Poverty Gap reduction (%) -  All Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_allpr_p1_tot}} Poverty Gap reduction (%) -  All Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_allpr_p1_urb}} Poverty Gap reduction (%) -  All Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_dp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.adq_pop_preT_tot}} Adequacy of benefits (%) - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.adq_pop_rur}} Adequacy of benefits (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.adq_pop_tot}} Adequacy of benefits (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.adq_pop_urb}} Adequacy of benefits (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Domestic Private Transfers -urban {p_end}
 {synopt:{opt per_pr_dp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers {p_end}
@@ -14606,20 +15294,20 @@
 {synopt:{opt per_pr_dp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.avt_pop_preT_tot}} Average per capita transfer - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.avt_pop_rur}} Average per capita transfer - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.avt_pop_tot}} Average per capita transfer - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.avt_pop_urb}} Average per capita transfer - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.avt_q1_rur}} Average per capita transfer held by poorest quintile - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.avt_q1_tot}} Average per capita transfer held by poorest quintile - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.avt_q1_urb}} Average per capita transfer held by poorest quintile - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Domestic Private Transfers -urban {p_end}
 {synopt:{opt per_pr_dp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Domestic Private Transfers {p_end}
@@ -14632,16 +15320,16 @@
 {synopt:{opt per_pr_dp.avt_q4_rur}} Average per capita transfer held by 4th quintile - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.avt_q4_tot}} Average per capita transfer held by 4th quintile - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.avt_q4_urb}} Average per capita transfer held by 4th quintile - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.avt_q5_rur}} Average per capita transfer held by richest quintile - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.avt_q5_tot}} Average per capita transfer held by richest quintile - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.avt_q5_urb}} Average per capita transfer held by richest quintile - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Domestic Private Transfers -urban {p_end}
 {synopt:{opt per_pr_dp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Domestic Private Transfers {p_end}
@@ -14654,16 +15342,16 @@
 {synopt:{opt per_pr_dp.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.ben_q5_rur}} Benefits incidence in richest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.ben_q5_tot}} Benefits incidence in richest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.ben_q5_urb}} Benefits incidence in richest quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Domestic Private Transfers -urban {p_end}
 {synopt:{opt per_pr_dp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Domestic Private Transfers {p_end}
@@ -14676,26 +15364,26 @@
 {synopt:{opt per_pr_dp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.cba_ep_preT_tot}} Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_dp.cba_ep_tot}} Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_dp.cba_q1_preT_tot}} Benefit-cost ratio -  Domestic Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_dp.cba_q1_rur}} Benefit-cost ratio -  Domestic Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_dp.cba_q1_tot}} Benefit-cost ratio -  Domestic Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_dp.cba_q1_urb}} Benefit-cost ratio -  Domestic Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_dp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.cba_ep_preT_tot}} Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_dp.cba_ep_tot}} Benefit-cost ratio -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_dp.cba_q1_preT_tot}} Benefit-cost ratio -  Domestic Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_dp.cba_q1_rur}} Benefit-cost ratio -  Domestic Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_dp.cba_q1_tot}} Benefit-cost ratio -  Domestic Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_dp.cba_q1_urb}} Benefit-cost ratio -  Domestic Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_dp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.cov_pop_preT_tot}} Coverage (%) - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.cov_pop_rur}} Coverage (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.cov_pop_tot}} Coverage (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.cov_pop_urb}} Coverage (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.cov_q1_rur}} Coverage in poorest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.cov_q1_tot}} Coverage in poorest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.cov_q1_urb}} Coverage in poorest quintile (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Domestic Private Transfers -urban {p_end}
 {synopt:{opt per_pr_dp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Domestic Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_dp.cov_q2_rur}} Coverage in 2nd quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.cov_q2_tot}} Coverage in 2nd quintile (%) - Domestic Private Transfers {p_end}
@@ -14708,36 +15396,36 @@
 {synopt:{opt per_pr_dp.cov_q4_rur}} Coverage in 4th quintile (%) - Domestic Private Transfers -rural {p_end}
 {synopt:{opt per_pr_dp.cov_q4_tot}} Coverage in 4th quintile (%) - Domestic Private Transfers {p_end}
 {synopt:{opt per_pr_dp.cov_q4_urb}} Coverage in 4th quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp.cov_q5_preT_tot}} Coverage in richest quintile (%) - Domestic Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_dp.cov_q5_rur}} Coverage in richest quintile (%) - Domestic Private Transfers -rural {p_end}
-{synopt:{opt per_pr_dp.cov_q5_tot}} Coverage in richest quintile (%) - Domestic Private Transfers {p_end}
-{synopt:{opt per_pr_dp.cov_q5_urb}} Coverage in richest quintile (%) - Domestic Private Transfers -urban {p_end}
-{synopt:{opt per_pr_dp_gini_preT_tot}} Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_dp_gini_rur}} Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_dp_gini_tot}} Gini inequality reduction (%) -  Domestic Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_dp_gini_urb}} Gini inequality reduction (%) -  Domestic Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_dp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_dp_p0_ep_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_dp_p0_preT_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_dp_p0_rur}} Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_dp_p0_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_dp_p0_urb}} Poverty Headcount reduction (%) -  Domestic Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_dp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_dp_p1_ep_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_dp_p1_preT_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_dp_p1_rur}} Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_dp_p1_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_dp_p1_urb}} Poverty Gap reduction (%) -  Domestic Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_ip.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_dp.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp_gini_preT_tot}} Gini inequality index reduction (%) -  Domestic Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_dp_gini_rur}} Gini inequality index reduction (%) -  Domestic Private Transfers -rural {p_end}
+{synopt:{opt per_pr_dp_gini_tot}} Gini inequality index reduction (%) -  Domestic Private Transfers {p_end}
+{synopt:{opt per_pr_dp_gini_urb}} Gini inequality index reduction (%) -  Domestic Private Transfers -urban {p_end}
+{synopt:{opt per_pr_dp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_dp_p0_ep_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_dp_p0_preT_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_dp_p0_rur}} Poverty Headcount reduction (%) -  Domestic Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_dp_p0_tot}} Poverty Headcount reduction (%) -  Domestic Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_dp_p0_urb}} Poverty Headcount reduction (%) -  Domestic Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_dp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_dp_p1_ep_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_dp_p1_preT_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_dp_p1_rur}} Poverty Gap reduction (%) -  Domestic Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_dp_p1_tot}} Poverty Gap reduction (%) -  Domestic Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_dp_p1_urb}} Poverty Gap reduction (%) -  Domestic Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_ip.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.adq_pop_preT_tot}} Adequacy of benefits (%) - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.adq_pop_rur}} Adequacy of benefits (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.adq_pop_tot}} Adequacy of benefits (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.adq_pop_urb}} Adequacy of benefits (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - International Private Transfers -urban {p_end}
 {synopt:{opt per_pr_ip.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - International Private Transfers {p_end}
@@ -14750,20 +15438,20 @@
 {synopt:{opt per_pr_ip.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.avt_pop_preT_tot}} Average per capita transfer - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.avt_pop_rur}} Average per capita transfer - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.avt_pop_tot}} Average per capita transfer - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.avt_pop_urb}} Average per capita transfer - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.avt_q1_rur}} Average per capita transfer held by poorest quintile - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.avt_q1_tot}} Average per capita transfer held by poorest quintile - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.avt_q1_urb}} Average per capita transfer held by poorest quintile - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - International Private Transfers -urban {p_end}
 {synopt:{opt per_pr_ip.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.avt_q2_rur}} Average per capita transfer held by 2nd quintile - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.avt_q2_tot}} Average per capita transfer held by 2nd quintile - International Private Transfers {p_end}
@@ -14776,16 +15464,16 @@
 {synopt:{opt per_pr_ip.avt_q4_rur}} Average per capita transfer held by 4th quintile - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.avt_q4_tot}} Average per capita transfer held by 4th quintile - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.avt_q4_urb}} Average per capita transfer held by 4th quintile - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.avt_q5_rur}} Average per capita transfer held by richest quintile - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.avt_q5_tot}} Average per capita transfer held by richest quintile - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.avt_q5_urb}} Average per capita transfer held by richest quintile - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.ben_q1_rur}} Benefits incidence in poorest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.ben_q1_tot}} Benefits incidence in poorest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.ben_q1_urb}} Benefits incidence in poorest quintile (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - International Private Transfers -urban {p_end}
 {synopt:{opt per_pr_ip.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - International Private Transfers {p_end}
@@ -14798,16 +15486,16 @@
 {synopt:{opt per_pr_ip.ben_q4_rur}} Benefits incidence in 4th quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.ben_q4_tot}} Benefits incidence in 4th quintile (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.ben_q4_urb}} Benefits incidence in 4th quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.ben_q5_rur}} Benefits incidence in richest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.ben_q5_tot}} Benefits incidence in richest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.ben_q5_urb}} Benefits incidence in richest quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - International Private Transfers -urban {p_end}
 {synopt:{opt per_pr_ip.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - International Private Transfers {p_end}
@@ -14820,26 +15508,26 @@
 {synopt:{opt per_pr_ip.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.cba_ep_preT_tot}} Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_ip.cba_ep_tot}} Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_ip.cba_q1_preT_tot}} Benefit-cost ratio -  International Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_ip.cba_q1_rur}} Benefit-cost ratio -  International Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_ip.cba_q1_tot}} Benefit-cost ratio -  International Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_ip.cba_q1_urb}} Benefit-cost ratio -  International Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_ip.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.cba_ep_preT_tot}} Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_ip.cba_ep_tot}} Benefit-cost ratio -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_ip.cba_q1_preT_tot}} Benefit-cost ratio -  International Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_ip.cba_q1_rur}} Benefit-cost ratio -  International Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_ip.cba_q1_tot}} Benefit-cost ratio -  International Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_ip.cba_q1_urb}} Benefit-cost ratio -  International Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_ip.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.cov_pop_preT_tot}} Coverage (%) - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.cov_pop_rur}} Coverage (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.cov_pop_tot}} Coverage (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.cov_pop_urb}} Coverage (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.cov_q1_preT_tot}} Coverage in poorest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.cov_q1_rur}} Coverage in poorest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.cov_q1_tot}} Coverage in poorest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.cov_q1_urb}} Coverage in poorest quintile (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - International Private Transfers -urban {p_end}
 {synopt:{opt per_pr_ip.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - International Private Transfers (preT) {p_end}
 {synopt:{opt per_pr_ip.cov_q2_rur}} Coverage in 2nd quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.cov_q2_tot}} Coverage in 2nd quintile (%) - International Private Transfers {p_end}
@@ -14852,36 +15540,36 @@
 {synopt:{opt per_pr_ip.cov_q4_rur}} Coverage in 4th quintile (%) - International Private Transfers -rural {p_end}
 {synopt:{opt per_pr_ip.cov_q4_tot}} Coverage in 4th quintile (%) - International Private Transfers {p_end}
 {synopt:{opt per_pr_ip.cov_q4_urb}} Coverage in 4th quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip.cov_q5_preT_tot}} Coverage in richest quintile (%) - International Private Transfers (preT) {p_end}
-{synopt:{opt per_pr_ip.cov_q5_rur}} Coverage in richest quintile (%) - International Private Transfers -rural {p_end}
-{synopt:{opt per_pr_ip.cov_q5_tot}} Coverage in richest quintile (%) - International Private Transfers {p_end}
-{synopt:{opt per_pr_ip.cov_q5_urb}} Coverage in richest quintile (%) - International Private Transfers -urban {p_end}
-{synopt:{opt per_pr_ip_gini_preT_tot}} Gini inequality reduction (%) -  International Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_ip_gini_rur}} Gini inequality reduction (%) -  International Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_ip_gini_tot}} Gini inequality reduction (%) -  International Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_ip_gini_urb}} Gini inequality reduction (%) -  International Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_ip_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_ip_p0_ep_tot}} Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_ip_p0_preT_tot}} Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_ip_p0_rur}} Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_ip_p0_tot}} Poverty Headcount reduction (%) -  International Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_ip_p0_urb}} Poverty Headcount reduction (%) -  International Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_pr_ip_p1_ep_preT_tot}} Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_pr_ip_p1_ep_tot}} Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_pr_ip_p1_preT_tot}} Poverty Gap reduction (%) -  International Private Transfers -poorest quintile (preT) {p_end}
-{synopt:{opt per_pr_ip_p1_rur}} Poverty Gap reduction (%) -  International Private Transfers -poorest quintile -rural {p_end}
-{synopt:{opt per_pr_ip_p1_tot}} Poverty Gap reduction (%) -  International Private Transfers -poorest quintile {p_end}
-{synopt:{opt per_pr_ip_p1_urb}} Poverty Gap reduction (%) -  International Private Transfers - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_allsa.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT) {p_end}
-{synopt:{opt per_sa_allsa.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance {p_end}
+{synopt:{opt per_pr_ip.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - International Private Transfers {p_end}
+{synopt:{opt per_pr_ip.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip_gini_preT_tot}} Gini inequality index reduction (%) -  International Private Transfers (preT) {p_end}
+{synopt:{opt per_pr_ip_gini_rur}} Gini inequality index reduction (%) -  International Private Transfers -rural {p_end}
+{synopt:{opt per_pr_ip_gini_tot}} Gini inequality index reduction (%) -  International Private Transfers {p_end}
+{synopt:{opt per_pr_ip_gini_urb}} Gini inequality index reduction (%) -  International Private Transfers -urban {p_end}
+{synopt:{opt per_pr_ip_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_ip_p0_ep_tot}} Poverty Headcount reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_ip_p0_preT_tot}} Poverty Headcount reduction (%) -  International Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_ip_p0_rur}} Poverty Headcount reduction (%) -  International Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_ip_p0_tot}} Poverty Headcount reduction (%) -  International Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_ip_p0_urb}} Poverty Headcount reduction (%) -  International Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_pr_ip_p1_ep_preT_tot}} Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_pr_ip_p1_ep_tot}} Poverty Gap reduction (%) -  International Private Transfers -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_pr_ip_p1_preT_tot}} Poverty Gap reduction (%) -  International Private Transfers -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_pr_ip_p1_rur}} Poverty Gap reduction (%) -  International Private Transfers -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_pr_ip_p1_tot}} Poverty Gap reduction (%) -  International Private Transfers -1st quintile (poorest) {p_end}
+{synopt:{opt per_pr_ip_p1_urb}} Poverty Gap reduction (%) -  International Private Transfers - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_allsa.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT) {p_end}
+{synopt:{opt per_sa_allsa.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.adq_pop_preT_tot}} Adequacy of benefits (%) - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.adq_pop_rur}} Adequacy of benefits (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.adq_pop_tot}} Adequacy of social safety net programs (% of total welfare of beneficiary households) {p_end}
 {synopt:{opt per_sa_allsa.adq_pop_urb}} Adequacy of benefits (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Assistance -urban {p_end}
 {synopt:{opt per_sa_allsa.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Assistance {p_end}
@@ -14894,20 +15582,20 @@
 {synopt:{opt per_sa_allsa.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Assistance  (preT) {p_end}
-{synopt:{opt per_sa_allsa.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Assistance  (preT) {p_end}
+{synopt:{opt per_sa_allsa.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.avt_pop_preT_tot}} Average per capita transfer - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.avt_pop_rur}} Average per capita transfer - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.avt_pop_tot}} Average per capita transfer - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.avt_pop_urb}} Average per capita transfer - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - All Social Assistance -urban {p_end}
 {synopt:{opt per_sa_allsa.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Social Assistance {p_end}
@@ -14920,16 +15608,16 @@
 {synopt:{opt per_sa_allsa.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.avt_q5_rur}} Average per capita transfer held by richest quintile - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.avt_q5_tot}} Average per capita transfer held by richest quintile - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.avt_q5_urb}} Average per capita transfer held by richest quintile - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT) {p_end}
-{synopt:{opt per_sa_allsa.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT) {p_end}
+{synopt:{opt per_sa_allsa.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.ben_q1_tot}} Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits) {p_end}
-{synopt:{opt per_sa_allsa.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - All Social Assistance -urban {p_end}
 {synopt:{opt per_sa_allsa.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Social Assistance {p_end}
@@ -14942,16 +15630,16 @@
 {synopt:{opt per_sa_allsa.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT) {p_end}
-{synopt:{opt per_sa_allsa.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT) {p_end}
+{synopt:{opt per_sa_allsa.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Assistance -urban {p_end}
 {synopt:{opt per_sa_allsa.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Assistance {p_end}
@@ -14964,26 +15652,26 @@
 {synopt:{opt per_sa_allsa.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Social Assistance -rural {p_end}
-{synopt:{opt per_sa_allsa.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Social Assistance {p_end}
-{synopt:{opt per_sa_allsa.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.cba_ep_preT_tot}} Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_allsa.cba_ep_tot}} Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_allsa.cba_q1_preT_tot}} Benefit-cost ratio -  All Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_allsa.cba_q1_rur}} Benefit-cost ratio -  All Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_allsa.cba_q1_tot}} Benefit-cost ratio -  All Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_allsa.cba_q1_urb}} Benefit-cost ratio -  All Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_allsa.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance  (preT) {p_end}
-{synopt:{opt per_sa_allsa.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.cba_ep_preT_tot}} Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_allsa.cba_ep_tot}} Benefit-cost ratio -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_allsa.cba_q1_preT_tot}} Benefit-cost ratio -  All Social Assistance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_allsa.cba_q1_rur}} Benefit-cost ratio -  All Social Assistance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_allsa.cba_q1_tot}} Benefit-cost ratio -  All Social Assistance -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_allsa.cba_q1_urb}} Benefit-cost ratio -  All Social Assistance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_allsa.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance  (preT) {p_end}
+{synopt:{opt per_sa_allsa.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Assistance {p_end}
 {synopt:{opt per_sa_allsa.cov_pop_preT_tot}} Coverage (%) - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.cov_pop_rur}} Coverage (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.cov_pop_tot}} Coverage of social safety net programs (% of population) {p_end}
 {synopt:{opt per_sa_allsa.cov_pop_urb}} Coverage (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.cov_q1_rur}} Coverage in poorest quintile (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.cov_q1_tot}} Coverage of social safety net programs in poorest quintile (% of population) {p_end}
-{synopt:{opt per_sa_allsa.cov_q1_urb}} Coverage in poorest quintile (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - All Social Assistance -urban {p_end}
 {synopt:{opt per_sa_allsa.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_allsa.cov_q2_rur}} Coverage in 2nd quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.cov_q2_tot}} Coverage of social safety net programs in 2nd quintile (% of population) {p_end}
@@ -14996,36 +15684,36 @@
 {synopt:{opt per_sa_allsa.cov_q4_rur}} Coverage in 4th quintile (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.cov_q4_tot}} Coverage of social safety net programs in 4th quintile (% of population) {p_end}
 {synopt:{opt per_sa_allsa.cov_q4_urb}} Coverage in 4th quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_allsa.cov_q5_rur}} Coverage in richest quintile (%) - All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - All Social Assistance -rural {p_end}
 {synopt:{opt per_sa_allsa.cov_q5_tot}} Coverage of social safety net programs in richest quintile (% of population) {p_end}
-{synopt:{opt per_sa_allsa.cov_q5_urb}} Coverage in richest quintile (%) - All Social Assistance -urban {p_end}
-{synopt:{opt per_sa_allsa_gini_preT_tot}} Gini inequality reduction (%) -  All Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_allsa_gini_rur}} Gini inequality reduction (%) -  All Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_allsa_gini_tot}} Gini inequality reduction (%) -  All Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_allsa_gini_urb}} Gini inequality reduction (%) -  All Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_allsa_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_allsa_p0_ep_tot}} Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_allsa_p0_preT_tot}} Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_allsa_p0_rur}} Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_allsa_p0_tot}} Poverty Headcount reduction (%) -  All Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_allsa_p0_urb}} Poverty Headcount reduction (%) -  All Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_allsa_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_allsa_p1_ep_tot}} Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_allsa_p1_preT_tot}} Poverty Gap reduction (%) -  All Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_allsa_p1_rur}} Poverty Gap reduction (%) -  All Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_allsa_p1_tot}} Poverty Gap reduction (%) -  All Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_allsa_p1_urb}} Poverty Gap reduction (%) -  All Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_cc.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_allsa.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa_gini_preT_tot}} Gini inequality index reduction (%) -  All Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_allsa_gini_rur}} Gini inequality index reduction (%) -  All Social Assistance -rural {p_end}
+{synopt:{opt per_sa_allsa_gini_tot}} Gini inequality index reduction (%) -  All Social Assistance {p_end}
+{synopt:{opt per_sa_allsa_gini_urb}} Gini inequality index reduction (%) -  All Social Assistance -urban {p_end}
+{synopt:{opt per_sa_allsa_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_allsa_p0_ep_tot}} Poverty Headcount reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_allsa_p0_preT_tot}} Poverty Headcount reduction (%) -  All Social Assistance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_allsa_p0_rur}} Poverty Headcount reduction (%) -  All Social Assistance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_allsa_p0_tot}} Poverty Headcount reduction (%) -  All Social Assistance -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_allsa_p0_urb}} Poverty Headcount reduction (%) -  All Social Assistance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_allsa_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_allsa_p1_ep_tot}} Poverty Gap reduction (%) -  All Social Assistance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_allsa_p1_preT_tot}} Poverty Gap reduction (%) -  All Social Assistance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_allsa_p1_rur}} Poverty Gap reduction (%) -  All Social Assistance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_allsa_p1_tot}} Poverty Gap reduction (%) -  All Social Assistance -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_allsa_p1_urb}} Poverty Gap reduction (%) -  All Social Assistance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_cc.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.adq_pop_preT_tot}} Adequacy of benefits (%) - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.adq_pop_rur}} Adequacy of benefits (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.adq_pop_tot}} Adequacy of benefits (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.adq_pop_urb}} Adequacy of benefits (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Conditional Cash Transfers -urban {p_end}
 {synopt:{opt per_sa_cc.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Conditional Cash Transfers {p_end}
@@ -15038,20 +15726,20 @@
 {synopt:{opt per_sa_cc.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.avt_pop_preT_tot}} Average per capita transfer - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.avt_pop_rur}} Average per capita transfer - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.avt_pop_tot}} Average per capita transfer - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.avt_pop_urb}} Average per capita transfer - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.avt_q1_rur}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.avt_q1_tot}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.avt_q1_urb}} Average per capita transfer held by poorest quintile - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Conditional Cash Transfers -urban {p_end}
 {synopt:{opt per_sa_cc.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Conditional Cash Transfers {p_end}
@@ -15064,16 +15752,16 @@
 {synopt:{opt per_sa_cc.avt_q4_rur}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.avt_q4_tot}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.avt_q4_urb}} Average per capita transfer held by 4th quintile - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.avt_q5_rur}} Average per capita transfer held by richest quintile - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.avt_q5_tot}} Average per capita transfer held by richest quintile - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.avt_q5_urb}} Average per capita transfer held by richest quintile - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers -urban {p_end}
 {synopt:{opt per_sa_cc.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Conditional Cash Transfers {p_end}
@@ -15086,16 +15774,16 @@
 {synopt:{opt per_sa_cc.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.ben_q5_rur}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.ben_q5_tot}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.ben_q5_urb}} Benefits incidence in richest quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Conditional Cash Transfers -urban {p_end}
 {synopt:{opt per_sa_cc.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Conditional Cash Transfers {p_end}
@@ -15108,26 +15796,26 @@
 {synopt:{opt per_sa_cc.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.cba_ep_preT_tot}} Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_cc.cba_ep_tot}} Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_cc.cba_q1_preT_tot}} Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_cc.cba_q1_rur}} Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_cc.cba_q1_tot}} Benefit-cost ratio -  Conditional Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_cc.cba_q1_urb}} Benefit-cost ratio -  Conditional Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_cc.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.cba_ep_preT_tot}} Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_cc.cba_ep_tot}} Benefit-cost ratio -  Conditional Cash Transfer -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_cc.cba_q1_preT_tot}} Benefit-cost ratio -  Conditional Cash Transfer -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_cc.cba_q1_rur}} Benefit-cost ratio -  Conditional Cash Transfer -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_cc.cba_q1_tot}} Benefit-cost ratio -  Conditional Cash Transfer -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_cc.cba_q1_urb}} Benefit-cost ratio -  Conditional Cash Transfer - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_cc.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.cov_pop_preT_tot}} Coverage (%) - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.cov_pop_rur}} Coverage (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.cov_pop_tot}} Coverage (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.cov_pop_urb}} Coverage (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.cov_q1_rur}} Coverage in poorest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.cov_q1_tot}} Coverage in poorest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.cov_q1_urb}} Coverage in poorest quintile (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Conditional Cash Transfers -urban {p_end}
 {synopt:{opt per_sa_cc.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Conditional Cash Transfers (preT) {p_end}
 {synopt:{opt per_sa_cc.cov_q2_rur}} Coverage in 2nd quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.cov_q2_tot}} Coverage in 2nd quintile (%) - Conditional Cash Transfers {p_end}
@@ -15140,36 +15828,36 @@
 {synopt:{opt per_sa_cc.cov_q4_rur}} Coverage in 4th quintile (%) - Conditional Cash Transfers -rural {p_end}
 {synopt:{opt per_sa_cc.cov_q4_tot}} Coverage in 4th quintile (%) - Conditional Cash Transfers {p_end}
 {synopt:{opt per_sa_cc.cov_q4_urb}} Coverage in 4th quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc.cov_q5_preT_tot}} Coverage in richest quintile (%) - Conditional Cash Transfers (preT) {p_end}
-{synopt:{opt per_sa_cc.cov_q5_rur}} Coverage in richest quintile (%) - Conditional Cash Transfers -rural {p_end}
-{synopt:{opt per_sa_cc.cov_q5_tot}} Coverage in richest quintile (%) - Conditional Cash Transfers {p_end}
-{synopt:{opt per_sa_cc.cov_q5_urb}} Coverage in richest quintile (%) - Conditional Cash Transfers -urban {p_end}
-{synopt:{opt per_sa_cc_gini_preT_tot}} Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_cc_gini_rur}} Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_cc_gini_tot}} Gini inequality reduction (%) -  Conditional Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_cc_gini_urb}} Gini inequality reduction (%) -  Conditional Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_cc_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_cc_p0_ep_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_cc_p0_preT_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_cc_p0_rur}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_cc_p0_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_cc_p0_urb}} Poverty Headcount reduction (%) -  Conditional Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_cc_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_cc_p1_ep_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_cc_p1_preT_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_cc_p1_rur}} Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_cc_p1_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_cc_p1_urb}} Poverty Gap reduction (%) -  Conditional Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ct.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT) {p_end}
-{synopt:{opt per_sa_ct.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_cc.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Conditional Cash Transfers (preT) {p_end}
+{synopt:{opt per_sa_cc.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Conditional Cash Transfers -rural {p_end}
+{synopt:{opt per_sa_cc.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Conditional Cash Transfers {p_end}
+{synopt:{opt per_sa_cc.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Conditional Cash Transfers -urban {p_end}
+{synopt:{opt per_sa_cc_gini_preT_tot}} Gini inequality index reduction (%) -  Conditional Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_cc_gini_rur}} Gini inequality index reduction (%) -  Conditional Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_cc_gini_tot}} Gini inequality index reduction (%) -  Conditional Cash Transfer {p_end}
+{synopt:{opt per_sa_cc_gini_urb}} Gini inequality index reduction (%) -  Conditional Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_cc_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_cc_p0_ep_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_cc_p0_preT_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_cc_p0_rur}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_cc_p0_tot}} Poverty Headcount reduction (%) -  Conditional Cash Transfer -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_cc_p0_urb}} Poverty Headcount reduction (%) -  Conditional Cash Transfer - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_cc_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_cc_p1_ep_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_cc_p1_preT_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_cc_p1_rur}} Poverty Gap reduction (%) -  Conditional Cash Transfer -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_cc_p1_tot}} Poverty Gap reduction (%) -  Conditional Cash Transfer -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_cc_p1_urb}} Poverty Gap reduction (%) -  Conditional Cash Transfer - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_ct.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT) {p_end}
+{synopt:{opt per_sa_ct.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.adq_pop_preT_tot}} Adequacy of benefits (%) - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.adq_pop_rur}} Adequacy of benefits (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.adq_pop_tot}} Adequacy of benefits (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.adq_pop_urb}} Adequacy of benefits (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer -urban {p_end}
 {synopt:{opt per_sa_ct.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Cash Transfer {p_end}
@@ -15182,20 +15870,20 @@
 {synopt:{opt per_sa_ct.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Cash Transfer  (preT) {p_end}
-{synopt:{opt per_sa_ct.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Cash Transfer  (preT) {p_end}
+{synopt:{opt per_sa_ct.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.avt_pop_preT_tot}} Average per capita transfer - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.avt_pop_rur}} Average per capita transfer - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.avt_pop_tot}} Average per capita transfer - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.avt_pop_urb}} Average per capita transfer - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.avt_q1_rur}} Average per capita transfer held by poorest quintile - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.avt_q1_tot}} Average per capita transfer held by poorest quintile - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.avt_q1_urb}} Average per capita transfer held by poorest quintile - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Cash Transfer -urban {p_end}
 {synopt:{opt per_sa_ct.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Cash Transfer {p_end}
@@ -15208,16 +15896,16 @@
 {synopt:{opt per_sa_ct.avt_q4_rur}} Average per capita transfer held by 4th quintile - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.avt_q4_tot}} Average per capita transfer held by 4th quintile - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.avt_q4_urb}} Average per capita transfer held by 4th quintile - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.avt_q5_rur}} Average per capita transfer held by richest quintile - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.avt_q5_tot}} Average per capita transfer held by richest quintile - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.avt_q5_urb}} Average per capita transfer held by richest quintile - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT) {p_end}
-{synopt:{opt per_sa_ct.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT) {p_end}
+{synopt:{opt per_sa_ct.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer -urban {p_end}
 {synopt:{opt per_sa_ct.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Cash Transfer {p_end}
@@ -15230,16 +15918,16 @@
 {synopt:{opt per_sa_ct.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.ben_q5_rur}} Benefits incidence in richest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.ben_q5_tot}} Benefits incidence in richest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.ben_q5_urb}} Benefits incidence in richest quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT) {p_end}
-{synopt:{opt per_sa_ct.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT) {p_end}
+{synopt:{opt per_sa_ct.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer -urban {p_end}
 {synopt:{opt per_sa_ct.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Cash Transfer {p_end}
@@ -15252,26 +15940,26 @@
 {synopt:{opt per_sa_ct.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.cba_ep_preT_tot}} Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_ct.cba_ep_tot}} Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_ct.cba_q1_preT_tot}} Benefit-cost ratio -  Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ct.cba_q1_rur}} Benefit-cost ratio -  Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ct.cba_q1_tot}} Benefit-cost ratio -  Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_ct.cba_q1_urb}} Benefit-cost ratio -  Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ct.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer  (preT) {p_end}
-{synopt:{opt per_sa_ct.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.cba_ep_preT_tot}} Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_ct.cba_ep_tot}} Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_ct.cba_q1_preT_tot}} Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_ct.cba_q1_rur}} Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_ct.cba_q1_tot}} Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_ct.cba_q1_urb}} Benefit-cost ratio -  Cash Transfer - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_ct.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer  (preT) {p_end}
+{synopt:{opt per_sa_ct.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.cov_pop_preT_tot}} Coverage (%) - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.cov_pop_rur}} Coverage (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.cov_pop_tot}} Coverage (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.cov_pop_urb}} Coverage (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.cov_q1_rur}} Coverage in poorest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.cov_q1_tot}} Coverage in poorest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.cov_q1_urb}} Coverage in poorest quintile (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Cash Transfer -urban {p_end}
 {synopt:{opt per_sa_ct.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Cash Transfer (preT) {p_end}
 {synopt:{opt per_sa_ct.cov_q2_rur}} Coverage in 2nd quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.cov_q2_tot}} Coverage in 2nd quintile (%) - Cash Transfer {p_end}
@@ -15284,36 +15972,36 @@
 {synopt:{opt per_sa_ct.cov_q4_rur}} Coverage in 4th quintile (%) - Cash Transfer -rural {p_end}
 {synopt:{opt per_sa_ct.cov_q4_tot}} Coverage in 4th quintile (%) - Cash Transfer {p_end}
 {synopt:{opt per_sa_ct.cov_q4_urb}} Coverage in 4th quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct.cov_q5_preT_tot}} Coverage in richest quintile (%) - Cash Transfer (preT) {p_end}
-{synopt:{opt per_sa_ct.cov_q5_rur}} Coverage in richest quintile (%) - Cash Transfer -rural {p_end}
-{synopt:{opt per_sa_ct.cov_q5_tot}} Coverage in richest quintile (%) - Cash Transfer {p_end}
-{synopt:{opt per_sa_ct.cov_q5_urb}} Coverage in richest quintile (%) - Cash Transfer -urban {p_end}
-{synopt:{opt per_sa_ct_gini_preT_tot}} Gini inequality reduction (%) -  Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ct_gini_rur}} Gini inequality reduction (%) -  Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ct_gini_tot}} Gini inequality reduction (%) -  Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_ct_gini_urb}} Gini inequality reduction (%) -  Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ct_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_ct_p0_ep_tot}} Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_ct_p0_preT_tot}} Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ct_p0_rur}} Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ct_p0_tot}} Poverty Headcount reduction (%) -  Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_ct_p0_urb}} Poverty Headcount reduction (%) -  Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ct_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_ct_p1_ep_tot}} Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_ct_p1_preT_tot}} Poverty Gap reduction (%) -  Cash Transfer -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ct_p1_rur}} Poverty Gap reduction (%) -  Cash Transfer -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ct_p1_tot}} Poverty Gap reduction (%) -  Cash Transfer -poorest quintile {p_end}
-{synopt:{opt per_sa_ct_p1_urb}} Poverty Gap reduction (%) -  Cash Transfer - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_fw.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_ct.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Cash Transfer {p_end}
+{synopt:{opt per_sa_ct.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct_gini_preT_tot}} Gini inequality index reduction (%) -  Cash Transfer (preT) {p_end}
+{synopt:{opt per_sa_ct_gini_rur}} Gini inequality index reduction (%) -  Cash Transfer -rural {p_end}
+{synopt:{opt per_sa_ct_gini_tot}} Gini inequality index reduction (%) -  Cash Transfer {p_end}
+{synopt:{opt per_sa_ct_gini_urb}} Gini inequality index reduction (%) -  Cash Transfer -urban {p_end}
+{synopt:{opt per_sa_ct_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_ct_p0_ep_tot}} Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_ct_p0_preT_tot}} Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_ct_p0_rur}} Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_ct_p0_tot}} Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_ct_p0_urb}} Poverty Headcount reduction (%) -  Cash Transfer - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_ct_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_ct_p1_ep_tot}} Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_ct_p1_preT_tot}} Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_ct_p1_rur}} Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_ct_p1_tot}} Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_ct_p1_urb}} Poverty Gap reduction (%) -  Cash Transfer - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_fw.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.adq_pop_preT_tot}} Adequacy of benefits (%) - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.adq_pop_rur}} Adequacy of benefits (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.adq_pop_tot}} Adequacy of benefits (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.adq_pop_urb}} Adequacy of benefits (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Subsidies -urban {p_end}
 {synopt:{opt per_sa_fw.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Subsidies {p_end}
@@ -15326,20 +16014,20 @@
 {synopt:{opt per_sa_fw.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.avt_pop_preT_tot}} Average per capita transfer - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.avt_pop_rur}} Average per capita transfer - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.avt_pop_tot}} Average per capita transfer - Subsidies {p_end}
 {synopt:{opt per_sa_fw.avt_pop_urb}} Average per capita transfer - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.avt_q1_rur}} Average per capita transfer held by poorest quintile - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.avt_q1_tot}} Average per capita transfer held by poorest quintile - Subsidies {p_end}
-{synopt:{opt per_sa_fw.avt_q1_urb}} Average per capita transfer held by poorest quintile - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Subsidies -urban {p_end}
 {synopt:{opt per_sa_fw.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Subsidies {p_end}
@@ -15352,16 +16040,16 @@
 {synopt:{opt per_sa_fw.avt_q4_rur}} Average per capita transfer held by 4th quintile - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.avt_q4_tot}} Average per capita transfer held by 4th quintile - Subsidies {p_end}
 {synopt:{opt per_sa_fw.avt_q4_urb}} Average per capita transfer held by 4th quintile - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.avt_q5_rur}} Average per capita transfer held by richest quintile - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.avt_q5_tot}} Average per capita transfer held by richest quintile - Subsidies {p_end}
-{synopt:{opt per_sa_fw.avt_q5_urb}} Average per capita transfer held by richest quintile - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Subsidies -urban {p_end}
 {synopt:{opt per_sa_fw.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Subsidies {p_end}
@@ -15374,16 +16062,16 @@
 {synopt:{opt per_sa_fw.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.ben_q5_rur}} Benefits incidence in richest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.ben_q5_tot}} Benefits incidence in richest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.ben_q5_urb}} Benefits incidence in richest quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Subsidies -urban {p_end}
 {synopt:{opt per_sa_fw.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Subsidies {p_end}
@@ -15396,26 +16084,26 @@
 {synopt:{opt per_sa_fw.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.cba_ep_preT_tot}} Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_fw.cba_ep_tot}} Benefit-cost ratio -  Subsidies -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_fw.cba_q1_preT_tot}} Benefit-cost ratio -  Subsidies -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_fw.cba_q1_rur}} Benefit-cost ratio -  Subsidies -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_fw.cba_q1_tot}} Benefit-cost ratio -  Subsidies -poorest quintile {p_end}
-{synopt:{opt per_sa_fw.cba_q1_urb}} Benefit-cost ratio -  Subsidies - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_fw.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.cba_ep_preT_tot}} Benefit-cost ratio - Subsidies -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_fw.cba_ep_tot}} Benefit-cost ratio - Subsidies -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_fw.cba_q1_preT_tot}} Benefit-cost ratio - Subsidies -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_fw.cba_q1_rur}} Benefit-cost ratio - Subsidies -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_fw.cba_q1_tot}} Benefit-cost ratio - Subsidies -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_fw.cba_q1_urb}} Benefit-cost ratio - Subsidies - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_fw.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.cov_pop_preT_tot}} Coverage (%) - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.cov_pop_rur}} Coverage (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.cov_pop_tot}} Coverage (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.cov_pop_urb}} Coverage (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.cov_q1_rur}} Coverage in poorest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.cov_q1_tot}} Coverage in poorest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.cov_q1_urb}} Coverage in poorest quintile (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Subsidies -urban {p_end}
 {synopt:{opt per_sa_fw.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Subsidies (preT) {p_end}
 {synopt:{opt per_sa_fw.cov_q2_rur}} Coverage in 2nd quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.cov_q2_tot}} Coverage in 2nd quintile (%) - Subsidies {p_end}
@@ -15428,36 +16116,36 @@
 {synopt:{opt per_sa_fw.cov_q4_rur}} Coverage in 4th quintile (%) - Subsidies -rural {p_end}
 {synopt:{opt per_sa_fw.cov_q4_tot}} Coverage in 4th quintile (%) - Subsidies {p_end}
 {synopt:{opt per_sa_fw.cov_q4_urb}} Coverage in 4th quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw.cov_q5_preT_tot}} Coverage in richest quintile (%) - Subsidies (preT) {p_end}
-{synopt:{opt per_sa_fw.cov_q5_rur}} Coverage in richest quintile (%) - Subsidies -rural {p_end}
-{synopt:{opt per_sa_fw.cov_q5_tot}} Coverage in richest quintile (%) - Subsidies {p_end}
-{synopt:{opt per_sa_fw.cov_q5_urb}} Coverage in richest quintile (%) - Subsidies -urban {p_end}
-{synopt:{opt per_sa_fw_gini_preT_tot}} Gini inequality reduction (%) -  Subsidies -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_fw_gini_rur}} Gini inequality reduction (%) -  Subsidies -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_fw_gini_tot}} Gini inequality reduction (%) -  Subsidies -poorest quintile {p_end}
-{synopt:{opt per_sa_fw_gini_urb}} Gini inequality reduction (%) -  Subsidies - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_fw_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_fw_p0_ep_tot}} Poverty Headcount reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_fw_p0_preT_tot}} Poverty Headcount reduction (%) -  Subsidies -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_fw_p0_rur}} Poverty Headcount reduction (%) -  Subsidies -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_fw_p0_tot}} Poverty Headcount reduction (%) -  Subsidies -poorest quintile {p_end}
-{synopt:{opt per_sa_fw_p0_urb}} Poverty Headcount reduction (%) -  Subsidies - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_fw_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_fw_p1_ep_tot}} Poverty Gap reduction (%) -  Subsidies -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_fw_p1_preT_tot}} Poverty Gap reduction (%) -  Subsidies -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_fw_p1_rur}} Poverty Gap reduction (%) -  Subsidies -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_fw_p1_tot}} Poverty Gap reduction (%) -  Subsidies -poorest quintile {p_end}
-{synopt:{opt per_sa_fw_p1_urb}} Poverty Gap reduction (%) -  Subsidies - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ik.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_fw.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw_gini_preT_tot}} Gini inequality index reduction (%) - Subsidies (preT) {p_end}
+{synopt:{opt per_sa_fw_gini_rur}} Gini inequality index reduction (%) - Subsidies -rural {p_end}
+{synopt:{opt per_sa_fw_gini_tot}} Gini inequality index reduction (%) - Subsidies {p_end}
+{synopt:{opt per_sa_fw_gini_urb}} Gini inequality index reduction (%) - Subsidies -urban {p_end}
+{synopt:{opt per_sa_fw_p0_ep_preT_tot}} Poverty Headcount reduction (%) - Subsidies -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_fw_p0_ep_tot}} Poverty Headcount reduction (%) - Subsidies -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_fw_p0_preT_tot}} Poverty Headcount reduction (%) - Subsidies -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_fw_p0_rur}} Poverty Headcount reduction (%) - Subsidies -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_fw_p0_tot}} Poverty Headcount reduction (%) - Subsidies -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_fw_p0_urb}} Poverty Headcount reduction (%) - Subsidies - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_fw_p1_ep_preT_tot}} Poverty Gap reduction (%) - Subsidies -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_fw_p1_ep_tot}} Poverty Gap reduction (%) - Subsidies -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_fw_p1_preT_tot}} Poverty Gap reduction (%) - Subsidies -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_fw_p1_rur}} Poverty Gap reduction (%) - Subsidies -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_fw_p1_tot}} Poverty Gap reduction (%) - Subsidies -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_fw_p1_urb}} Poverty Gap reduction (%) - Subsidies - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_ik.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.adq_pop_preT_tot}} Adequacy of benefits (%) - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.adq_pop_rur}} Adequacy of benefits (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.adq_pop_tot}} Adequacy of benefits (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.adq_pop_urb}} Adequacy of benefits (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - In-Kind -urban {p_end}
 {synopt:{opt per_sa_ik.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - In-Kind {p_end}
@@ -15470,20 +16158,20 @@
 {synopt:{opt per_sa_ik.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.avt_pop_preT_tot}} Average per capita transfer - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.avt_pop_rur}} Average per capita transfer - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.avt_pop_tot}} Average per capita transfer - In-Kind {p_end}
 {synopt:{opt per_sa_ik.avt_pop_urb}} Average per capita transfer - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.avt_q1_rur}} Average per capita transfer held by poorest quintile - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.avt_q1_tot}} Average per capita transfer held by poorest quintile - In-Kind {p_end}
-{synopt:{opt per_sa_ik.avt_q1_urb}} Average per capita transfer held by poorest quintile - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - In-Kind -urban {p_end}
 {synopt:{opt per_sa_ik.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.avt_q2_rur}} Average per capita transfer held by 2nd quintile - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.avt_q2_tot}} Average per capita transfer held by 2nd quintile - In-Kind {p_end}
@@ -15496,16 +16184,16 @@
 {synopt:{opt per_sa_ik.avt_q4_rur}} Average per capita transfer held by 4th quintile - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.avt_q4_tot}} Average per capita transfer held by 4th quintile - In-Kind {p_end}
 {synopt:{opt per_sa_ik.avt_q4_urb}} Average per capita transfer held by 4th quintile - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.avt_q5_rur}} Average per capita transfer held by richest quintile - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.avt_q5_tot}} Average per capita transfer held by richest quintile - In-Kind {p_end}
-{synopt:{opt per_sa_ik.avt_q5_urb}} Average per capita transfer held by richest quintile - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.ben_q1_rur}} Benefits incidence in poorest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.ben_q1_tot}} Benefits incidence in poorest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.ben_q1_urb}} Benefits incidence in poorest quintile (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - In-Kind -urban {p_end}
 {synopt:{opt per_sa_ik.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - In-Kind {p_end}
@@ -15518,16 +16206,16 @@
 {synopt:{opt per_sa_ik.ben_q4_rur}} Benefits incidence in 4th quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.ben_q4_tot}} Benefits incidence in 4th quintile (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.ben_q4_urb}} Benefits incidence in 4th quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.ben_q5_rur}} Benefits incidence in richest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.ben_q5_tot}} Benefits incidence in richest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.ben_q5_urb}} Benefits incidence in richest quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - In-Kind -urban {p_end}
 {synopt:{opt per_sa_ik.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - In-Kind {p_end}
@@ -15540,26 +16228,26 @@
 {synopt:{opt per_sa_ik.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.cba_ep_preT_tot}} Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_ik.cba_ep_tot}} Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_ik.cba_q1_preT_tot}} Benefit-cost ratio -  In-Kind -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ik.cba_q1_rur}} Benefit-cost ratio -  In-Kind -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ik.cba_q1_tot}} Benefit-cost ratio -  In-Kind -poorest quintile {p_end}
-{synopt:{opt per_sa_ik.cba_q1_urb}} Benefit-cost ratio -  In-Kind - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ik.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.cba_ep_preT_tot}} Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_ik.cba_ep_tot}} Benefit-cost ratio -  In-Kind -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_ik.cba_q1_preT_tot}} Benefit-cost ratio -  In-Kind -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_ik.cba_q1_rur}} Benefit-cost ratio -  In-Kind -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_ik.cba_q1_tot}} Benefit-cost ratio -  In-Kind -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_ik.cba_q1_urb}} Benefit-cost ratio -  In-Kind - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_ik.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.cov_pop_preT_tot}} Coverage (%) - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.cov_pop_rur}} Coverage (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.cov_pop_tot}} Coverage (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.cov_pop_urb}} Coverage (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.cov_q1_preT_tot}} Coverage in poorest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.cov_q1_rur}} Coverage in poorest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.cov_q1_tot}} Coverage in poorest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.cov_q1_urb}} Coverage in poorest quintile (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - In-Kind -urban {p_end}
 {synopt:{opt per_sa_ik.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - In-Kind (preT) {p_end}
 {synopt:{opt per_sa_ik.cov_q2_rur}} Coverage in 2nd quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.cov_q2_tot}} Coverage in 2nd quintile (%) - In-Kind {p_end}
@@ -15572,36 +16260,36 @@
 {synopt:{opt per_sa_ik.cov_q4_rur}} Coverage in 4th quintile (%) - In-Kind -rural {p_end}
 {synopt:{opt per_sa_ik.cov_q4_tot}} Coverage in 4th quintile (%) - In-Kind {p_end}
 {synopt:{opt per_sa_ik.cov_q4_urb}} Coverage in 4th quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik.cov_q5_preT_tot}} Coverage in richest quintile (%) - In-Kind (preT) {p_end}
-{synopt:{opt per_sa_ik.cov_q5_rur}} Coverage in richest quintile (%) - In-Kind -rural {p_end}
-{synopt:{opt per_sa_ik.cov_q5_tot}} Coverage in richest quintile (%) - In-Kind {p_end}
-{synopt:{opt per_sa_ik.cov_q5_urb}} Coverage in richest quintile (%) - In-Kind -urban {p_end}
-{synopt:{opt per_sa_ik_gini_preT_tot}} Gini inequality reduction (%) -  In-Kind -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ik_gini_rur}} Gini inequality reduction (%) -  In-Kind -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ik_gini_tot}} Gini inequality reduction (%) -  In-Kind -poorest quintile {p_end}
-{synopt:{opt per_sa_ik_gini_urb}} Gini inequality reduction (%) -  In-Kind - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ik_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_ik_p0_ep_tot}} Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_ik_p0_preT_tot}} Poverty Headcount reduction (%) -  In-Kind -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ik_p0_rur}} Poverty Headcount reduction (%) -  In-Kind -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ik_p0_tot}} Poverty Headcount reduction (%) -  In-Kind -poorest quintile {p_end}
-{synopt:{opt per_sa_ik_p0_urb}} Poverty Headcount reduction (%) -  In-Kind - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_ik_p1_ep_preT_tot}} Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_ik_p1_ep_tot}} Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_ik_p1_preT_tot}} Poverty Gap reduction (%) -  In-Kind -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_ik_p1_rur}} Poverty Gap reduction (%) -  In-Kind -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_ik_p1_tot}} Poverty Gap reduction (%) -  In-Kind -poorest quintile {p_end}
-{synopt:{opt per_sa_ik_p1_urb}} Poverty Gap reduction (%) -  In-Kind - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_os.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_ik.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - In-Kind {p_end}
+{synopt:{opt per_sa_ik.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik_gini_preT_tot}} Gini inequality index reduction (%) -  In-Kind (preT) {p_end}
+{synopt:{opt per_sa_ik_gini_rur}} Gini inequality index reduction (%) -  In-Kind -rural {p_end}
+{synopt:{opt per_sa_ik_gini_tot}} Gini inequality index reduction (%) -  In-Kind {p_end}
+{synopt:{opt per_sa_ik_gini_urb}} Gini inequality index reduction (%) -  In-Kind -urban {p_end}
+{synopt:{opt per_sa_ik_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_ik_p0_ep_tot}} Poverty Headcount reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_ik_p0_preT_tot}} Poverty Headcount reduction (%) -  In-Kind -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_ik_p0_rur}} Poverty Headcount reduction (%) -  In-Kind -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_ik_p0_tot}} Poverty Headcount reduction (%) -  In-Kind -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_ik_p0_urb}} Poverty Headcount reduction (%) -  In-Kind - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_ik_p1_ep_preT_tot}} Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_ik_p1_ep_tot}} Poverty Gap reduction (%) -  In-Kind -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_ik_p1_preT_tot}} Poverty Gap reduction (%) -  In-Kind -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_ik_p1_rur}} Poverty Gap reduction (%) -  In-Kind -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_ik_p1_tot}} Poverty Gap reduction (%) -  In-Kind -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_ik_p1_urb}} Poverty Gap reduction (%) -  In-Kind - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_os.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.adq_pop_preT_tot}} Adequacy of benefits (%) - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.adq_pop_rur}} Adequacy of benefits (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.adq_pop_tot}} Adequacy of benefits (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.adq_pop_urb}} Adequacy of benefits (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Assistance -urban {p_end}
 {synopt:{opt per_sa_os.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Assistance {p_end}
@@ -15614,20 +16302,20 @@
 {synopt:{opt per_sa_os.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.avt_pop_preT_tot}} Average per capita transfer - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.avt_pop_rur}} Average per capita transfer - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.avt_pop_tot}} Average per capita transfer - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.avt_pop_urb}} Average per capita transfer - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.avt_q1_rur}} Average per capita transfer held by poorest quintile - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.avt_q1_tot}} Average per capita transfer held by poorest quintile - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.avt_q1_urb}} Average per capita transfer held by poorest quintile - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Other Social Assistance -urban {p_end}
 {synopt:{opt per_sa_os.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Other Social Assistance {p_end}
@@ -15640,16 +16328,16 @@
 {synopt:{opt per_sa_os.avt_q4_rur}} Average per capita transfer held by 4th quintile - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.avt_q4_tot}} Average per capita transfer held by 4th quintile - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.avt_q4_urb}} Average per capita transfer held by 4th quintile - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.avt_q5_rur}} Average per capita transfer held by richest quintile - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.avt_q5_tot}} Average per capita transfer held by richest quintile - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.avt_q5_urb}} Average per capita transfer held by richest quintile - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Assistance -urban {p_end}
 {synopt:{opt per_sa_os.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Other Social Assistance {p_end}
@@ -15662,16 +16350,16 @@
 {synopt:{opt per_sa_os.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.ben_q5_rur}} Benefits incidence in richest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.ben_q5_tot}} Benefits incidence in richest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.ben_q5_urb}} Benefits incidence in richest quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Assistance -urban {p_end}
 {synopt:{opt per_sa_os.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Assistance {p_end}
@@ -15684,26 +16372,26 @@
 {synopt:{opt per_sa_os.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.cba_ep_preT_tot}} Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_os.cba_ep_tot}} Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_os.cba_q1_preT_tot}} Benefit-cost ratio -  Other Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_os.cba_q1_rur}} Benefit-cost ratio -  Other Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_os.cba_q1_tot}} Benefit-cost ratio -  Other Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_os.cba_q1_urb}} Benefit-cost ratio -  Other Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_os.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.cba_ep_preT_tot}} Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_os.cba_ep_tot}} Benefit-cost ratio -  Other Social Assistance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_os.cba_q1_preT_tot}} Benefit-cost ratio -  Other Social Assistance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_os.cba_q1_rur}} Benefit-cost ratio -  Other Social Assistance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_os.cba_q1_tot}} Benefit-cost ratio -  Other Social Assistance -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_os.cba_q1_urb}} Benefit-cost ratio -  Other Social Assistance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_os.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.cov_pop_preT_tot}} Coverage (%) - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.cov_pop_rur}} Coverage (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.cov_pop_tot}} Coverage (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.cov_pop_urb}} Coverage (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.cov_q1_rur}} Coverage in poorest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.cov_q1_tot}} Coverage in poorest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.cov_q1_urb}} Coverage in poorest quintile (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Other Social Assistance -urban {p_end}
 {synopt:{opt per_sa_os.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Other Social Assistance (preT) {p_end}
 {synopt:{opt per_sa_os.cov_q2_rur}} Coverage in 2nd quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.cov_q2_tot}} Coverage in 2nd quintile (%) - Other Social Assistance {p_end}
@@ -15716,180 +16404,180 @@
 {synopt:{opt per_sa_os.cov_q4_rur}} Coverage in 4th quintile (%) - Other Social Assistance -rural {p_end}
 {synopt:{opt per_sa_os.cov_q4_tot}} Coverage in 4th quintile (%) - Other Social Assistance {p_end}
 {synopt:{opt per_sa_os.cov_q4_urb}} Coverage in 4th quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os.cov_q5_preT_tot}} Coverage in richest quintile (%) - Other Social Assistance (preT) {p_end}
-{synopt:{opt per_sa_os.cov_q5_rur}} Coverage in richest quintile (%) - Other Social Assistance -rural {p_end}
-{synopt:{opt per_sa_os.cov_q5_tot}} Coverage in richest quintile (%) - Other Social Assistance {p_end}
-{synopt:{opt per_sa_os.cov_q5_urb}} Coverage in richest quintile (%) - Other Social Assistance -urban {p_end}
-{synopt:{opt per_sa_os_gini_preT_tot}} Gini inequality reduction (%) -  Other Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_os_gini_rur}} Gini inequality reduction (%) -  Other Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_os_gini_tot}} Gini inequality reduction (%) -  Other Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_os_gini_urb}} Gini inequality reduction (%) -  Other Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_os_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_os_p0_ep_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_os_p0_preT_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_os_p0_rur}} Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_os_p0_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_os_p0_urb}} Poverty Headcount reduction (%) -  Other Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_os_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_os_p1_ep_tot}} Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_os_p1_preT_tot}} Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_os_p1_rur}} Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_os_p1_tot}} Poverty Gap reduction (%) -  Other Social Assistance -poorest quintile {p_end}
-{synopt:{opt per_sa_os_p1_urb}} Poverty Gap reduction (%) -  Other Social Assistance - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_pw.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_pop_preT_tot}} Adequacy of benefits (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_pop_rur}} Adequacy of benefits (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.adq_pop_tot}} Adequacy of benefits (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_pop_urb}} Adequacy of benefits (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_pop_preT_tot}} Average per capita transfer - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_pop_rur}} Average per capita transfer - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.avt_pop_tot}} Average per capita transfer - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_pop_urb}} Average per capita transfer - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_q1_rur}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.avt_q1_tot}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_q1_urb}} Average per capita transfer held by poorest quintile - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_q4_rur}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.avt_q4_tot}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_q4_urb}} Average per capita transfer held by 4th quintile - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.avt_q5_rur}} Average per capita transfer held by richest quintile - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.avt_q5_tot}} Average per capita transfer held by richest quintile - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.avt_q5_urb}} Average per capita transfer held by richest quintile - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.ben_q5_rur}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.ben_q5_tot}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.ben_q5_urb}} Benefits incidence in richest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.cba_ep_preT_tot}} Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_pw.cba_ep_tot}} Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_pw.cba_q1_preT_tot}} Benefit-cost ratio -  Public Works -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_pw.cba_q1_rur}} Benefit-cost ratio -  Public Works -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_pw.cba_q1_tot}} Benefit-cost ratio -  Public Works -poorest quintile {p_end}
-{synopt:{opt per_sa_pw.cba_q1_urb}} Benefit-cost ratio -  Public Works - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_pw.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_pop_preT_tot}} Coverage (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_pop_rur}} Coverage (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.cov_pop_tot}} Coverage (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_pop_urb}} Coverage (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_q1_rur}} Coverage in poorest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.cov_q1_tot}} Coverage in poorest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_q1_urb}} Coverage in poorest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_q2_rur}} Coverage in 2nd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.cov_q2_tot}} Coverage in 2nd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_q2_urb}} Coverage in 2nd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_q3_rur}} Coverage in 3rd quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.cov_q3_tot}} Coverage in 3rd quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_q3_urb}} Coverage in 3rd quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_q4_rur}} Coverage in 4th quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.cov_q4_tot}} Coverage in 4th quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_q4_urb}} Coverage in 4th quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw.cov_q5_preT_tot}} Coverage in richest quintile (%) - Public Works or Cash for Work (preT) {p_end}
-{synopt:{opt per_sa_pw.cov_q5_rur}} Coverage in richest quintile (%) - Public Works or Cash for Work -rural {p_end}
-{synopt:{opt per_sa_pw.cov_q5_tot}} Coverage in richest quintile (%) - Public Works or Cash for Work {p_end}
-{synopt:{opt per_sa_pw.cov_q5_urb}} Coverage in richest quintile (%) - Public Works or Cash for Work -urban {p_end}
-{synopt:{opt per_sa_pw_gini_preT_tot}} Gini inequality reduction (%) -  Public Works -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_pw_gini_rur}} Gini inequality reduction (%) -  Public Works -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_pw_gini_tot}} Gini inequality reduction (%) -  Public Works -poorest quintile {p_end}
-{synopt:{opt per_sa_pw_gini_urb}} Gini inequality reduction (%) -  Public Works - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_pw_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_pw_p0_ep_tot}} Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_pw_p0_preT_tot}} Poverty Headcount reduction (%) -  Public Works -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_pw_p0_rur}} Poverty Headcount reduction (%) -  Public Works -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_pw_p0_tot}} Poverty Headcount reduction (%) -  Public Works -poorest quintile {p_end}
-{synopt:{opt per_sa_pw_p0_urb}} Poverty Headcount reduction (%) -  Public Works - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_pw_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_pw_p1_ep_tot}} Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_pw_p1_preT_tot}} Poverty Gap reduction (%) -  Public Works -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_pw_p1_rur}} Poverty Gap reduction (%) -  Public Works -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_pw_p1_tot}} Poverty Gap reduction (%) -  Public Works -poorest quintile {p_end}
-{synopt:{opt per_sa_pw_p1_urb}} Poverty Gap reduction (%) -  Public Works - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sf.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - School Feeding {p_end}
+{synopt:{opt per_sa_os.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Other Social Assistance {p_end}
+{synopt:{opt per_sa_os.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os_gini_preT_tot}} Gini inequality index reduction (%) -  Other Social Assistance (preT) {p_end}
+{synopt:{opt per_sa_os_gini_rur}} Gini inequality index reduction (%) -  Other Social Assistance -rural {p_end}
+{synopt:{opt per_sa_os_gini_tot}} Gini inequality index reduction (%) -  Other Social Assistance {p_end}
+{synopt:{opt per_sa_os_gini_urb}} Gini inequality index reduction (%) -  Other Social Assistance -urban {p_end}
+{synopt:{opt per_sa_os_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_os_p0_ep_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_os_p0_preT_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_os_p0_rur}} Poverty Headcount reduction (%) -  Other Social Assistance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_os_p0_tot}} Poverty Headcount reduction (%) -  Other Social Assistance -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_os_p0_urb}} Poverty Headcount reduction (%) -  Other Social Assistance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_os_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_os_p1_ep_tot}} Poverty Gap reduction (%) -  Other Social Assistance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_os_p1_preT_tot}} Poverty Gap reduction (%) -  Other Social Assistance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_os_p1_rur}} Poverty Gap reduction (%) -  Other Social Assistance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_os_p1_tot}} Poverty Gap reduction (%) -  Other Social Assistance -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_os_p1_urb}} Poverty Gap reduction (%) -  Other Social Assistance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_pw.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_pop_preT_tot}} Adequacy of benefits (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_pop_rur}} Adequacy of benefits (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.adq_pop_tot}} Adequacy of benefits (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_pop_urb}} Adequacy of benefits (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_q2_urb}} Adequacy of benefits in 2nd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.adq_q3_preT_tot}} Adequacy of benefits in 3rd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_q3_rur}} Adequacy of benefits in 3rd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.adq_q3_tot}} Adequacy of benefits in 3rd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_q3_urb}} Adequacy of benefits in 3rd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.adq_q4_preT_tot}} Adequacy of benefits in 4th quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_pop_preT_tot}} Average per capita transfer - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_pop_rur}} Average per capita transfer - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.avt_pop_tot}} Average per capita transfer - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_pop_urb}} Average per capita transfer - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_q2_urb}} Average per capita transfer held by 2nd quintile - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.avt_q3_preT_tot}} Average per capita transfer held by 3rd quintile - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_q3_rur}} Average per capita transfer held by 3rd quintile - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.avt_q3_tot}} Average per capita transfer held by 3rd quintile - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_q3_urb}} Average per capita transfer held by 3rd quintile - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.avt_q4_preT_tot}} Average per capita transfer held by 4th quintile - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_q4_rur}} Average per capita transfer held by 4th quintile - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.avt_q4_tot}} Average per capita transfer held by 4th quintile - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_q4_urb}} Average per capita transfer held by 4th quintile - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Public Works {p_end}
+{synopt:{opt per_sa_pw.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.ben_q2_urb}} Benefits incidence in 2nd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.ben_q3_preT_tot}} Benefits incidence in 3rd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.ben_q3_rur}} Benefits incidence in 3rd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.ben_q3_tot}} Benefits incidence in 3rd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.ben_q3_urb}} Benefits incidence in 3rd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.ben_q4_preT_tot}} Benefits incidence in 4th quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.bry_q2_urb}} Beneficiary incidence in 2nd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.bry_q3_preT_tot}} Beneficiary incidence in 3rd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.bry_q3_rur}} Beneficiary incidence in 3rd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.bry_q3_tot}} Beneficiary incidence in 3rd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.bry_q3_urb}} Beneficiary incidence in 3rd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.bry_q4_preT_tot}} Beneficiary incidence in 4th quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.cba_ep_preT_tot}} Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_pw.cba_ep_tot}} Benefit-cost ratio -  Public Works -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_pw.cba_q1_preT_tot}} Benefit-cost ratio -  Public Works -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_pw.cba_q1_rur}} Benefit-cost ratio -  Public Works -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_pw.cba_q1_tot}} Benefit-cost ratio -  Public Works -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_pw.cba_q1_urb}} Benefit-cost ratio -  Public Works - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_pw.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_pop_preT_tot}} Coverage (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_pop_rur}} Coverage (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.cov_pop_tot}} Coverage (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_pop_urb}} Coverage (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_q2_rur}} Coverage in 2nd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.cov_q2_tot}} Coverage in 2nd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_q2_urb}} Coverage in 2nd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.cov_q3_preT_tot}} Coverage in 3rd quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_q3_rur}} Coverage in 3rd quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.cov_q3_tot}} Coverage in 3rd quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_q3_urb}} Coverage in 3rd quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.cov_q4_preT_tot}} Coverage in 4th quintile (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_q4_rur}} Coverage in 4th quintile (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.cov_q4_tot}} Coverage in 4th quintile (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_q4_urb}} Coverage in 4th quintile (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Public Works -rural {p_end}
+{synopt:{opt per_sa_pw.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Public Works {p_end}
+{synopt:{opt per_sa_pw.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Public Works -urban {p_end}
+{synopt:{opt per_sa_pw_gini_preT_tot}} Gini inequality index reduction (%) -  Public Works (preT) {p_end}
+{synopt:{opt per_sa_pw_gini_rur}} Gini inequality index reduction (%) -  Public Works -rural {p_end}
+{synopt:{opt per_sa_pw_gini_tot}} Gini inequality index reduction (%) -  Public Works {p_end}
+{synopt:{opt per_sa_pw_gini_urb}} Gini inequality index reduction (%) -  Public Works -urban {p_end}
+{synopt:{opt per_sa_pw_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_pw_p0_ep_tot}} Poverty Headcount reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_pw_p0_preT_tot}} Poverty Headcount reduction (%) -  Public Works -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_pw_p0_rur}} Poverty Headcount reduction (%) -  Public Works -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_pw_p0_tot}} Poverty Headcount reduction (%) -  Public Works -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_pw_p0_urb}} Poverty Headcount reduction (%) -  Public Works - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_pw_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_pw_p1_ep_tot}} Poverty Gap reduction (%) -  Public Works -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_pw_p1_preT_tot}} Poverty Gap reduction (%) -  Public Works -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_pw_p1_rur}} Poverty Gap reduction (%) -  Public Works -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_pw_p1_tot}} Poverty Gap reduction (%) -  Public Works -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_pw_p1_urb}} Poverty Gap reduction (%) -  Public Works - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_sf.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding {p_end}
 {synopt:{opt per_sa_sf.adq_pop_preT_tot}} Adequacy of benefits (%) - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.adq_pop_rur}} Adequacy of benefits (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.adq_pop_tot}} Adequacy of benefits (%) - School Feeding {p_end}
 {synopt:{opt per_sa_sf.adq_pop_urb}} Adequacy of benefits (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - School Feeding -urban {p_end}
+{synopt:{opt per_sa_sf.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - School feeding -urban {p_end}
 {synopt:{opt per_sa_sf.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - School Feeding {p_end}
@@ -15902,20 +16590,20 @@
 {synopt:{opt per_sa_sf.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - School Feeding {p_end}
 {synopt:{opt per_sa_sf.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - School Feeding {p_end}
+{synopt:{opt per_sa_sf.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - School feeding -urban {p_end}
+{synopt:{opt per_sa_sf.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - School feeding {p_end}
 {synopt:{opt per_sa_sf.avt_pop_preT_tot}} Average per capita transfer - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.avt_pop_rur}} Average per capita transfer - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.avt_pop_tot}} Average per capita transfer - School Feeding {p_end}
 {synopt:{opt per_sa_sf.avt_pop_urb}} Average per capita transfer - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.avt_q1_rur}} Average per capita transfer held by poorest quintile - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.avt_q1_tot}} Average per capita transfer held by poorest quintile - School Feeding {p_end}
-{synopt:{opt per_sa_sf.avt_q1_urb}} Average per capita transfer held by poorest quintile - School Feeding -urban {p_end}
+{synopt:{opt per_sa_sf.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - School feeding {p_end}
+{synopt:{opt per_sa_sf.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - School feeding -urban {p_end}
 {synopt:{opt per_sa_sf.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.avt_q2_rur}} Average per capita transfer held by 2nd quintile - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.avt_q2_tot}} Average per capita transfer held by 2nd quintile - School Feeding {p_end}
@@ -15928,16 +16616,16 @@
 {synopt:{opt per_sa_sf.avt_q4_rur}} Average per capita transfer held by 4th quintile - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.avt_q4_tot}} Average per capita transfer held by 4th quintile - School Feeding {p_end}
 {synopt:{opt per_sa_sf.avt_q4_urb}} Average per capita transfer held by 4th quintile - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.avt_q5_rur}} Average per capita transfer held by richest quintile - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.avt_q5_tot}} Average per capita transfer held by richest quintile - School Feeding {p_end}
-{synopt:{opt per_sa_sf.avt_q5_urb}} Average per capita transfer held by richest quintile - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.ben_q1_rur}} Benefits incidence in poorest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.ben_q1_tot}} Benefits incidence in poorest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.ben_q1_urb}} Benefits incidence in poorest quintile (%) - School Feeding -urban {p_end}
+{synopt:{opt per_sa_sf.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - School feeding {p_end}
+{synopt:{opt per_sa_sf.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - School feeding -urban {p_end}
+{synopt:{opt per_sa_sf.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - School feeding -urban {p_end}
 {synopt:{opt per_sa_sf.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - School Feeding {p_end}
@@ -15950,16 +16638,16 @@
 {synopt:{opt per_sa_sf.ben_q4_rur}} Benefits incidence in 4th quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.ben_q4_tot}} Benefits incidence in 4th quintile (%) - School Feeding {p_end}
 {synopt:{opt per_sa_sf.ben_q4_urb}} Benefits incidence in 4th quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.ben_q5_rur}} Benefits incidence in richest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.ben_q5_tot}} Benefits incidence in richest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.ben_q5_urb}} Benefits incidence in richest quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - School Feeding -urban {p_end}
+{synopt:{opt per_sa_sf.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - School feeding -urban {p_end}
+{synopt:{opt per_sa_sf.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - School feeding -urban {p_end}
 {synopt:{opt per_sa_sf.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - School Feeding {p_end}
@@ -15972,26 +16660,26 @@
 {synopt:{opt per_sa_sf.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - School Feeding {p_end}
 {synopt:{opt per_sa_sf.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.cba_ep_preT_tot}} Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_sf.cba_ep_tot}} Benefit-cost ratio -  School-feeding -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_sf.cba_q1_preT_tot}} Benefit-cost ratio -  School-feeding -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sf.cba_q1_rur}} Benefit-cost ratio -  School-feeding -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sf.cba_q1_tot}} Benefit-cost ratio -  School-feeding -poorest quintile {p_end}
-{synopt:{opt per_sa_sf.cba_q1_urb}} Benefit-cost ratio -  School-feeding - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sf.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - School Feeding {p_end}
+{synopt:{opt per_sa_sf.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - School feeding -urban {p_end}
+{synopt:{opt per_sa_sf.cba_ep_preT_tot}} Benefit-cost ratio -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_sf.cba_ep_tot}} Benefit-cost ratio -  School feeding -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_sf.cba_q1_preT_tot}} Benefit-cost ratio -  School feeding -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_sf.cba_q1_rur}} Benefit-cost ratio -  School feeding -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_sf.cba_q1_tot}} Benefit-cost ratio -  School feeding -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_sf.cba_q1_urb}} Benefit-cost ratio -  School feeding - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_sf.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - School feeding {p_end}
 {synopt:{opt per_sa_sf.cov_pop_preT_tot}} Coverage (%) - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.cov_pop_rur}} Coverage (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.cov_pop_tot}} Coverage (%) - School Feeding {p_end}
 {synopt:{opt per_sa_sf.cov_pop_urb}} Coverage (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.cov_q1_preT_tot}} Coverage in poorest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.cov_q1_rur}} Coverage in poorest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.cov_q1_tot}} Coverage in poorest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.cov_q1_urb}} Coverage in poorest quintile (%) - School Feeding -urban {p_end}
+{synopt:{opt per_sa_sf.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - School feeding -urban {p_end}
 {synopt:{opt per_sa_sf.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - School Feeding (preT) {p_end}
 {synopt:{opt per_sa_sf.cov_q2_rur}} Coverage in 2nd quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.cov_q2_tot}} Coverage in 2nd quintile (%) - School Feeding {p_end}
@@ -16004,36 +16692,36 @@
 {synopt:{opt per_sa_sf.cov_q4_rur}} Coverage in 4th quintile (%) - School Feeding -rural {p_end}
 {synopt:{opt per_sa_sf.cov_q4_tot}} Coverage in 4th quintile (%) - School Feeding {p_end}
 {synopt:{opt per_sa_sf.cov_q4_urb}} Coverage in 4th quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf.cov_q5_preT_tot}} Coverage in richest quintile (%) - School Feeding (preT) {p_end}
-{synopt:{opt per_sa_sf.cov_q5_rur}} Coverage in richest quintile (%) - School Feeding -rural {p_end}
-{synopt:{opt per_sa_sf.cov_q5_tot}} Coverage in richest quintile (%) - School Feeding {p_end}
-{synopt:{opt per_sa_sf.cov_q5_urb}} Coverage in richest quintile (%) - School Feeding -urban {p_end}
-{synopt:{opt per_sa_sf_gini_preT_tot}} Gini inequality reduction (%) -  School-feeding -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sf_gini_rur}} Gini inequality reduction (%) -  School-feeding -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sf_gini_tot}} Gini inequality reduction (%) -  School-feeding -poorest quintile {p_end}
-{synopt:{opt per_sa_sf_gini_urb}} Gini inequality reduction (%) -  School-feeding - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sf_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_sf_p0_ep_tot}} Poverty Headcount reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_sf_p0_preT_tot}} Poverty Headcount reduction (%) -  School-feeding -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sf_p0_rur}} Poverty Headcount reduction (%) -  School-feeding -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sf_p0_tot}} Poverty Headcount reduction (%) -  School-feeding -poorest quintile {p_end}
-{synopt:{opt per_sa_sf_p0_urb}} Poverty Headcount reduction (%) -  School-feeding - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sf_p1_ep_preT_tot}} Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_sf_p1_ep_tot}} Poverty Gap reduction (%) -  School-feeding -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_sf_p1_preT_tot}} Poverty Gap reduction (%) -  School-feeding -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sf_p1_rur}} Poverty Gap reduction (%) -  School-feeding -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sf_p1_tot}} Poverty Gap reduction (%) -  School-feeding -poorest quintile {p_end}
-{synopt:{opt per_sa_sf_p1_urb}} Poverty Gap reduction (%) -  School-feeding - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT) {p_end}
-{synopt:{opt per_sa_sp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sf.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - School feeding -rural {p_end}
+{synopt:{opt per_sa_sf.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - School feeding {p_end}
+{synopt:{opt per_sa_sf.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - School feeding -urban {p_end}
+{synopt:{opt per_sa_sf_gini_preT_tot}} Gini inequality index reduction (%) -  School feeding (preT) {p_end}
+{synopt:{opt per_sa_sf_gini_rur}} Gini inequality index reduction (%) -  School feeding -rural {p_end}
+{synopt:{opt per_sa_sf_gini_tot}} Gini inequality index reduction (%) -  School feeding {p_end}
+{synopt:{opt per_sa_sf_gini_urb}} Gini inequality index reduction (%) -  School feeding -urban {p_end}
+{synopt:{opt per_sa_sf_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_sf_p0_ep_tot}} Poverty Headcount reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_sf_p0_preT_tot}} Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_sf_p0_rur}} Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_sf_p0_tot}} Poverty Headcount reduction (%) -  School feeding -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_sf_p0_urb}} Poverty Headcount reduction (%) -  School feeding - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_sf_p1_ep_preT_tot}} Poverty Gap reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_sf_p1_ep_tot}} Poverty Gap reduction (%) -  School feeding -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_sf_p1_preT_tot}} Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_sf_p1_rur}} Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_sf_p1_tot}} Poverty Gap reduction (%) -  School feeding -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_sf_p1_urb}} Poverty Gap reduction (%) -  School feeding - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_sp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT) {p_end}
+{synopt:{opt per_sa_sp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.adq_pop_preT_tot}} Adequacy of benefits (%) - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.adq_pop_rur}} Adequacy of benefits (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.adq_pop_tot}} Adequacy of benefits (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.adq_pop_urb}} Adequacy of benefits (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Social Pensions -urban {p_end}
 {synopt:{opt per_sa_sp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Social Pensions {p_end}
@@ -16046,20 +16734,20 @@
 {synopt:{opt per_sa_sp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions  (preT) {p_end}
-{synopt:{opt per_sa_sp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Social Pensions  (preT) {p_end}
+{synopt:{opt per_sa_sp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.avt_pop_preT_tot}} Average per capita transfer - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.avt_pop_rur}} Average per capita transfer - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.avt_pop_tot}} Average per capita transfer - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.avt_pop_urb}} Average per capita transfer - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.avt_q1_rur}} Average per capita transfer held by poorest quintile - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.avt_q1_tot}} Average per capita transfer held by poorest quintile - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.avt_q1_urb}} Average per capita transfer held by poorest quintile - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Social Pensions -urban {p_end}
 {synopt:{opt per_sa_sp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Social Pensions {p_end}
@@ -16072,16 +16760,16 @@
 {synopt:{opt per_sa_sp.avt_q4_rur}} Average per capita transfer held by 4th quintile - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.avt_q4_tot}} Average per capita transfer held by 4th quintile - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.avt_q4_urb}} Average per capita transfer held by 4th quintile - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.avt_q5_rur}} Average per capita transfer held by richest quintile - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.avt_q5_tot}} Average per capita transfer held by richest quintile - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.avt_q5_urb}} Average per capita transfer held by richest quintile - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT) {p_end}
-{synopt:{opt per_sa_sp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT) {p_end}
+{synopt:{opt per_sa_sp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Social Pensions -urban {p_end}
 {synopt:{opt per_sa_sp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Social Pensions {p_end}
@@ -16094,16 +16782,16 @@
 {synopt:{opt per_sa_sp.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.ben_q5_rur}} Benefits incidence in richest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.ben_q5_tot}} Benefits incidence in richest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.ben_q5_urb}} Benefits incidence in richest quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT) {p_end}
-{synopt:{opt per_sa_sp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT) {p_end}
+{synopt:{opt per_sa_sp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions -urban {p_end}
 {synopt:{opt per_sa_sp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Social Pensions {p_end}
@@ -16116,26 +16804,26 @@
 {synopt:{opt per_sa_sp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.cba_ep_preT_tot}} Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_sp.cba_ep_tot}} Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_sp.cba_q1_preT_tot}} Benefit-cost ratio -  Social Pension -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sp.cba_q1_rur}} Benefit-cost ratio -  Social Pension -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sp.cba_q1_tot}} Benefit-cost ratio -  Social Pension -poorest quintile {p_end}
-{synopt:{opt per_sa_sp.cba_q1_urb}} Benefit-cost ratio -  Social Pension - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Social Pensions  (preT) {p_end}
-{synopt:{opt per_sa_sp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.cba_ep_preT_tot}} Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_sp.cba_ep_tot}} Benefit-cost ratio -  Social Pension -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_sp.cba_q1_preT_tot}} Benefit-cost ratio -  Social Pension -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_sp.cba_q1_rur}} Benefit-cost ratio -  Social Pension -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_sp.cba_q1_tot}} Benefit-cost ratio -  Social Pension -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_sp.cba_q1_urb}} Benefit-cost ratio -  Social Pension - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_sp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions  (preT) {p_end}
+{synopt:{opt per_sa_sp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.cov_pop_preT_tot}} Coverage (%) - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.cov_pop_rur}} Coverage (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.cov_pop_tot}} Coverage (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.cov_pop_urb}} Coverage (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.cov_q1_rur}} Coverage in poorest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.cov_q1_tot}} Coverage in poorest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.cov_q1_urb}} Coverage in poorest quintile (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Social Pensions -urban {p_end}
 {synopt:{opt per_sa_sp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Social Pensions (preT) {p_end}
 {synopt:{opt per_sa_sp.cov_q2_rur}} Coverage in 2nd quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.cov_q2_tot}} Coverage in 2nd quintile (%) - Social Pensions {p_end}
@@ -16148,56 +16836,56 @@
 {synopt:{opt per_sa_sp.cov_q4_rur}} Coverage in 4th quintile (%) - Social Pensions -rural {p_end}
 {synopt:{opt per_sa_sp.cov_q4_tot}} Coverage in 4th quintile (%) - Social Pensions {p_end}
 {synopt:{opt per_sa_sp.cov_q4_urb}} Coverage in 4th quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp.cov_q5_preT_tot}} Coverage in richest quintile (%) - Social Pensions (preT) {p_end}
-{synopt:{opt per_sa_sp.cov_q5_rur}} Coverage in richest quintile (%) - Social Pensions -rural {p_end}
-{synopt:{opt per_sa_sp.cov_q5_tot}} Coverage in richest quintile (%) - Social Pensions {p_end}
-{synopt:{opt per_sa_sp.cov_q5_urb}} Coverage in richest quintile (%) - Social Pensions -urban {p_end}
-{synopt:{opt per_sa_sp_gini_preT_tot}} Gini inequality reduction (%) -  Social Pension -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sp_gini_rur}} Gini inequality reduction (%) -  Social Pension -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sp_gini_tot}} Gini inequality reduction (%) -  Social Pension -poorest quintile {p_end}
-{synopt:{opt per_sa_sp_gini_urb}} Gini inequality reduction (%) -  Social Pension - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_sp_p0_ep_tot}} Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_sp_p0_preT_tot}} Poverty Headcount reduction (%) -  Social Pension -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sp_p0_rur}} Poverty Headcount reduction (%) -  Social Pension -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sp_p0_tot}} Poverty Headcount reduction (%) -  Social Pension -poorest quintile {p_end}
-{synopt:{opt per_sa_sp_p0_urb}} Poverty Headcount reduction (%) -  Social Pension - poorest quintile -urban {p_end}
-{synopt:{opt per_sa_sp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_sa_sp_p1_ep_tot}} Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_sa_sp_p1_preT_tot}} Poverty Gap reduction (%) -  Social Pension -poorest quintile (preT) {p_end}
-{synopt:{opt per_sa_sp_p1_rur}} Poverty Gap reduction (%) -  Social Pension -poorest quintile -rural {p_end}
-{synopt:{opt per_sa_sp_p1_tot}} Poverty Gap reduction (%) -  Social Pension -poorest quintile {p_end}
-{synopt:{opt per_sa_sp_p1_urb}} Poverty Gap reduction (%) -  Social Pension - poorest quintile -urban {p_end}
-{synopt:{opt per_saonl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Assistance (%, preT) {p_end}
-{synopt:{opt per_saonl.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Assistance (%) {p_end}
+{synopt:{opt per_sa_sp.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Social Pensions (preT) {p_end}
+{synopt:{opt per_sa_sp.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Social Pensions -rural {p_end}
+{synopt:{opt per_sa_sp.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Social Pensions {p_end}
+{synopt:{opt per_sa_sp.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Social Pensions -urban {p_end}
+{synopt:{opt per_sa_sp_gini_preT_tot}} Gini inequality index reduction (%) -  Social Pension (preT) {p_end}
+{synopt:{opt per_sa_sp_gini_rur}} Gini inequality index reduction (%) -  Social Pension -rural {p_end}
+{synopt:{opt per_sa_sp_gini_tot}} Gini inequality index reduction (%) -  Social Pension {p_end}
+{synopt:{opt per_sa_sp_gini_urb}} Gini inequality index reduction (%) -  Social Pension -urban {p_end}
+{synopt:{opt per_sa_sp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_sp_p0_ep_tot}} Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_sp_p0_preT_tot}} Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_sp_p0_rur}} Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_sp_p0_tot}} Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_sp_p0_urb}} Poverty Headcount reduction (%) -  Social Pension - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_sa_sp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_sa_sp_p1_ep_tot}} Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_sa_sp_p1_preT_tot}} Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_sa_sp_p1_rur}} Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_sa_sp_p1_tot}} Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) {p_end}
+{synopt:{opt per_sa_sp_p1_urb}} Poverty Gap reduction (%) -  Social Pension - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_saonl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Assistance (%, preT) {p_end}
+{synopt:{opt per_saonl.overlap_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Assistance (%) {p_end}
 {synopt:{opt per_saonl.overlap_pop_preT_tot}} Population only receiving All Social Assistance (%, preT) {p_end}
 {synopt:{opt per_saonl.overlap_pop_rur}} Population only receiving All Social Assistance (%) -rural {p_end}
 {synopt:{opt per_saonl.overlap_pop_tot}} Population only receiving All Social Assistance (%) {p_end}
 {synopt:{opt per_saonl.overlap_pop_urb}} Population only receiving All Social Assistance (%) -urban {p_end}
-{synopt:{opt per_saonl.overlap_q1_preT_tot}} Population in the poorest quintile only receiving All Social Assistance (%, preT) {p_end}
-{synopt:{opt per_saonl.overlap_q1_rur}} Population in the poorest quintile only receiving All Social Assistance (%) -rural {p_end}
-{synopt:{opt per_saonl.overlap_q1_tot}} Population in the poorest quintile only receiving All Social Assistance (%) {p_end}
-{synopt:{opt per_saonl.overlap_q1_urb}} Population in the poorest quintile only receiving All Social Assistance (%) -urban {p_end}
-{synopt:{opt per_saoth.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving Social Assistance and Other (%, preT) {p_end}
-{synopt:{opt per_saoth.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving Social Assistance and Other (%) {p_end}
+{synopt:{opt per_saonl.overlap_q1_preT_tot}} Population in the 1st quintile (poorest) only receiving All Social Assistance (%, preT) {p_end}
+{synopt:{opt per_saonl.overlap_q1_rur}} Population in the 1st quintile (poorest) only receiving All Social Assistance (%) -rural {p_end}
+{synopt:{opt per_saonl.overlap_q1_tot}} Population in the 1st quintile (poorest) only receiving All Social Assistance (%) {p_end}
+{synopt:{opt per_saonl.overlap_q1_urb}} Population in the 1st quintile (poorest) only receiving All Social Assistance (%) -urban {p_end}
+{synopt:{opt per_saoth.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving Social Assistance and Other (%, preT) {p_end}
+{synopt:{opt per_saoth.overlap_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving Social Assistance and Other (%) {p_end}
 {synopt:{opt per_saoth.overlap_pop_preT_tot}} Population receiving Social Assistance and Other (%, preT) {p_end}
 {synopt:{opt per_saoth.overlap_pop_rur}} Population receiving Social Assistance and Other (%) -rural {p_end}
 {synopt:{opt per_saoth.overlap_pop_tot}} Population receiving Social Assistance and Other (%) {p_end}
 {synopt:{opt per_saoth.overlap_pop_urb}} Population receiving Social Assistance and Other (%) -urban {p_end}
-{synopt:{opt per_saoth.overlap_q1_preT_tot}} Population in the poorest quintile receiving Social Assistance and Other (%, preT) {p_end}
-{synopt:{opt per_saoth.overlap_q1_rur}} Population in the poorest quintile receiving Social Assistance and Other (%) -rural {p_end}
-{synopt:{opt per_saoth.overlap_q1_tot}} Population in the poorest quintile receiving Social Assistance and Other (%) {p_end}
-{synopt:{opt per_saoth.overlap_q1_urb}} Population in the poorest quintile receiving Social Assistance and Other (%) -urban {p_end}
-{synopt:{opt per_si_allsi.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_allsi.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance {p_end}
+{synopt:{opt per_saoth.overlap_q1_preT_tot}} Population in the 1st quintile (poorest) receiving Social Assistance and Other (%, preT) {p_end}
+{synopt:{opt per_saoth.overlap_q1_rur}} Population in the 1st quintile (poorest) receiving Social Assistance and Other (%) -rural {p_end}
+{synopt:{opt per_saoth.overlap_q1_tot}} Population in the 1st quintile (poorest) receiving Social Assistance and Other (%) {p_end}
+{synopt:{opt per_saoth.overlap_q1_urb}} Population in the 1st quintile (poorest) receiving Social Assistance and Other (%) -urban {p_end}
+{synopt:{opt per_si_allsi.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_allsi.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.adq_pop_preT_tot}} Adequacy of benefits (%) - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.adq_pop_rur}} Adequacy of benefits (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.adq_pop_tot}} Adequacy of social insurance programs (% of total welfare of beneficiary households) {p_end}
 {synopt:{opt per_si_allsi.adq_pop_urb}} Adequacy of benefits (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance -urban {p_end}
 {synopt:{opt per_si_allsi.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - All Social Insurance {p_end}
@@ -16210,20 +16898,20 @@
 {synopt:{opt per_si_allsi.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_allsi.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_allsi.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.avt_pop_preT_tot}} Average per capita transfer - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.avt_pop_rur}} Average per capita transfer - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.avt_pop_tot}} Average per capita transfer - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.avt_pop_urb}} Average per capita transfer - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.avt_q1_rur}} Average per capita transfer held by poorest quintile - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.avt_q1_tot}} Average per capita transfer held by poorest quintile - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.avt_q1_urb}} Average per capita transfer held by poorest quintile - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - All Social Insurance -urban {p_end}
 {synopt:{opt per_si_allsi.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.avt_q2_rur}} Average per capita transfer held by 2nd quintile - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.avt_q2_tot}} Average per capita transfer held by 2nd quintile - All Social Insurance {p_end}
@@ -16236,16 +16924,16 @@
 {synopt:{opt per_si_allsi.avt_q4_rur}} Average per capita transfer held by 4th quintile - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.avt_q4_tot}} Average per capita transfer held by 4th quintile - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.avt_q4_urb}} Average per capita transfer held by 4th quintile - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.avt_q5_rur}} Average per capita transfer held by richest quintile - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.avt_q5_tot}} Average per capita transfer held by richest quintile - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.avt_q5_urb}} Average per capita transfer held by richest quintile - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_allsi.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.ben_q1_rur}} Benefits incidence in poorest quintile (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_allsi.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.ben_q1_tot}} Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits) {p_end}
-{synopt:{opt per_si_allsi.ben_q1_urb}} Benefits incidence in poorest quintile (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance -urban {p_end}
 {synopt:{opt per_si_allsi.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - All Social Insurance {p_end}
@@ -16258,16 +16946,16 @@
 {synopt:{opt per_si_allsi.ben_q4_rur}} Benefits incidence in 4th quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.ben_q4_tot}} Benefits incidence in 4th quintile (%) - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.ben_q4_urb}} Benefits incidence in 4th quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.ben_q5_rur}} Benefits incidence in richest quintile (%) - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.ben_q5_tot}} Benefits incidence in richest quintile (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.ben_q5_urb}} Benefits incidence in richest quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_allsi.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_allsi.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance -urban {p_end}
 {synopt:{opt per_si_allsi.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - All Social Insurance {p_end}
@@ -16280,26 +16968,26 @@
 {synopt:{opt per_si_allsi.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - All Social Insurance -rural {p_end}
-{synopt:{opt per_si_allsi.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - All Social Insurance {p_end}
-{synopt:{opt per_si_allsi.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.cba_ep_preT_tot}} Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_allsi.cba_ep_tot}} Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_allsi.cba_q1_preT_tot}} Benefit-cost ratio -  All Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_allsi.cba_q1_rur}} Benefit-cost ratio -  All Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_allsi.cba_q1_tot}} Benefit-cost ratio -  All Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_allsi.cba_q1_urb}} Benefit-cost ratio -  All Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_allsi.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_allsi.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance {p_end}
+{synopt:{opt per_si_allsi.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.cba_ep_preT_tot}} Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_allsi.cba_ep_tot}} Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_allsi.cba_q1_preT_tot}} Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_allsi.cba_q1_rur}} Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_allsi.cba_q1_tot}} Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_allsi.cba_q1_urb}} Benefit-cost ratio -  All Social Insurance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_allsi.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_allsi.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - All Social Insurance {p_end}
 {synopt:{opt per_si_allsi.cov_pop_preT_tot}} Coverage (%) - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.cov_pop_rur}} Coverage (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.cov_pop_tot}} Coverage of social insurance programs (% of population) {p_end}
 {synopt:{opt per_si_allsi.cov_pop_urb}} Coverage (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.cov_q1_preT_tot}} Coverage in poorest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.cov_q1_rur}} Coverage in poorest quintile (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.cov_q1_tot}} Coverage of social insurance programs in poorest quintile (% of population) {p_end}
-{synopt:{opt per_si_allsi.cov_q1_urb}} Coverage in poorest quintile (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - All Social Insurance -urban {p_end}
 {synopt:{opt per_si_allsi.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - All Social Insurance (preT) {p_end}
 {synopt:{opt per_si_allsi.cov_q2_rur}} Coverage in 2nd quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.cov_q2_tot}} Coverage of social insurance programs in 2nd quintile (% of population) {p_end}
@@ -16312,36 +17000,36 @@
 {synopt:{opt per_si_allsi.cov_q4_rur}} Coverage in 4th quintile (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.cov_q4_tot}} Coverage of social insurance programs in 4th quintile (% of population) {p_end}
 {synopt:{opt per_si_allsi.cov_q4_urb}} Coverage in 4th quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi.cov_q5_preT_tot}} Coverage in richest quintile (%) - All Social Insurance (preT) {p_end}
-{synopt:{opt per_si_allsi.cov_q5_rur}} Coverage in richest quintile (%) - All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - All Social Insurance -rural {p_end}
 {synopt:{opt per_si_allsi.cov_q5_tot}} Coverage of social insurance programs in richest quintile (% of population) {p_end}
-{synopt:{opt per_si_allsi.cov_q5_urb}} Coverage in richest quintile (%) - All Social Insurance -urban {p_end}
-{synopt:{opt per_si_allsi_gini_preT_tot}} Gini inequality reduction (%) -  All Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_allsi_gini_rur}} Gini inequality reduction (%) -  All Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_allsi_gini_tot}} Gini inequality reduction (%) -  All Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_allsi_gini_urb}} Gini inequality reduction (%) -  All Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_allsi_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_allsi_p0_ep_tot}} Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_allsi_p0_preT_tot}} Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_allsi_p0_rur}} Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_allsi_p0_tot}} Poverty Headcount reduction (%) -  All Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_allsi_p0_urb}} Poverty Headcount reduction (%) -  All Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_allsi_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_allsi_p1_ep_tot}} Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_allsi_p1_preT_tot}} Poverty Gap reduction (%) -  All Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_allsi_p1_rur}} Poverty Gap reduction (%) -  All Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_allsi_p1_tot}} Poverty Gap reduction (%) -  All Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_allsi_p1_urb}} Poverty Gap reduction (%) -  All Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_cp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT) {p_end}
-{synopt:{opt per_si_cp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_allsi.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi_gini_preT_tot}} Gini inequality index reduction (%) -  All Social Insurance (preT) {p_end}
+{synopt:{opt per_si_allsi_gini_rur}} Gini inequality index reduction (%) -  All Social Insurance -rural {p_end}
+{synopt:{opt per_si_allsi_gini_tot}} Gini inequality index reduction (%) -  All Social Insurance {p_end}
+{synopt:{opt per_si_allsi_gini_urb}} Gini inequality index reduction (%) -  All Social Insurance -urban {p_end}
+{synopt:{opt per_si_allsi_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_allsi_p0_ep_tot}} Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_allsi_p0_preT_tot}} Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_allsi_p0_rur}} Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_allsi_p0_tot}} Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_allsi_p0_urb}} Poverty Headcount reduction (%) -  All Social Insurance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_allsi_p1_ep_preT_tot}} Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_allsi_p1_ep_tot}} Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_allsi_p1_preT_tot}} Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_allsi_p1_rur}} Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_allsi_p1_tot}} Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_allsi_p1_urb}} Poverty Gap reduction (%) -  All Social Insurance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_cp.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions  (preT) {p_end}
+{synopt:{opt per_si_cp.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.adq_pop_preT_tot}} Adequacy of benefits (%) - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.adq_pop_rur}} Adequacy of benefits (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.adq_pop_tot}} Adequacy of benefits (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.adq_pop_urb}} Adequacy of benefits (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Contributory Pensions -urban {p_end}
 {synopt:{opt per_si_cp.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Contributory Pensions {p_end}
@@ -16354,20 +17042,20 @@
 {synopt:{opt per_si_cp.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions  (preT) {p_end}
-{synopt:{opt per_si_cp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Contributory Pensions  (preT) {p_end}
+{synopt:{opt per_si_cp.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.avt_pop_preT_tot}} Average per capita transfer - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.avt_pop_rur}} Average per capita transfer - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.avt_pop_tot}} Average per capita transfer - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.avt_pop_urb}} Average per capita transfer - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.avt_q1_rur}} Average per capita transfer held by poorest quintile - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.avt_q1_tot}} Average per capita transfer held by poorest quintile - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.avt_q1_urb}} Average per capita transfer held by poorest quintile - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Contributory Pensions -urban {p_end}
 {synopt:{opt per_si_cp.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Contributory Pensions {p_end}
@@ -16380,16 +17068,16 @@
 {synopt:{opt per_si_cp.avt_q4_rur}} Average per capita transfer held by 4th quintile - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.avt_q4_tot}} Average per capita transfer held by 4th quintile - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.avt_q4_urb}} Average per capita transfer held by 4th quintile - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.avt_q5_rur}} Average per capita transfer held by richest quintile - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.avt_q5_tot}} Average per capita transfer held by richest quintile - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.avt_q5_urb}} Average per capita transfer held by richest quintile - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT) {p_end}
-{synopt:{opt per_si_cp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions  (preT) {p_end}
+{synopt:{opt per_si_cp.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Contributory Pensions -urban {p_end}
 {synopt:{opt per_si_cp.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Contributory Pensions {p_end}
@@ -16402,16 +17090,16 @@
 {synopt:{opt per_si_cp.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.ben_q5_rur}} Benefits incidence in richest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.ben_q5_tot}} Benefits incidence in richest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.ben_q5_urb}} Benefits incidence in richest quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT) {p_end}
-{synopt:{opt per_si_cp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions  (preT) {p_end}
+{synopt:{opt per_si_cp.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Contributory Pensions -urban {p_end}
 {synopt:{opt per_si_cp.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Contributory Pensions {p_end}
@@ -16424,26 +17112,26 @@
 {synopt:{opt per_si_cp.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.cba_ep_preT_tot}} Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_cp.cba_ep_tot}} Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_cp.cba_q1_preT_tot}} Benefit-cost ratio -  Contributory Pensions -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_cp.cba_q1_rur}} Benefit-cost ratio -  Contributory Pensions -poorest quintile -rural {p_end}
-{synopt:{opt per_si_cp.cba_q1_tot}} Benefit-cost ratio -  Contributory Pensions -poorest quintile {p_end}
-{synopt:{opt per_si_cp.cba_q1_urb}} Benefit-cost ratio -  Contributory Pensions - poorest quintile -urban {p_end}
-{synopt:{opt per_si_cp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions  (preT) {p_end}
-{synopt:{opt per_si_cp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.cba_ep_preT_tot}} Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_cp.cba_ep_tot}} Benefit-cost ratio -  Contributory Pensions -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_cp.cba_q1_preT_tot}} Benefit-cost ratio -  Contributory Pensions -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_cp.cba_q1_rur}} Benefit-cost ratio -  Contributory Pensions -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_cp.cba_q1_tot}} Benefit-cost ratio -  Contributory Pensions -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_cp.cba_q1_urb}} Benefit-cost ratio -  Contributory Pensions - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_cp.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions  (preT) {p_end}
+{synopt:{opt per_si_cp.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.cov_pop_preT_tot}} Coverage (%) - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.cov_pop_rur}} Coverage (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.cov_pop_tot}} Coverage (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.cov_pop_urb}} Coverage (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.cov_q1_rur}} Coverage in poorest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.cov_q1_tot}} Coverage in poorest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.cov_q1_urb}} Coverage in poorest quintile (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Contributory Pensions -urban {p_end}
 {synopt:{opt per_si_cp.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Contributory Pensions (preT) {p_end}
 {synopt:{opt per_si_cp.cov_q2_rur}} Coverage in 2nd quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.cov_q2_tot}} Coverage in 2nd quintile (%) - Contributory Pensions {p_end}
@@ -16456,36 +17144,36 @@
 {synopt:{opt per_si_cp.cov_q4_rur}} Coverage in 4th quintile (%) - Contributory Pensions -rural {p_end}
 {synopt:{opt per_si_cp.cov_q4_tot}} Coverage in 4th quintile (%) - Contributory Pensions {p_end}
 {synopt:{opt per_si_cp.cov_q4_urb}} Coverage in 4th quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp.cov_q5_preT_tot}} Coverage in richest quintile (%) - Contributory Pensions (preT) {p_end}
-{synopt:{opt per_si_cp.cov_q5_rur}} Coverage in richest quintile (%) - Contributory Pensions -rural {p_end}
-{synopt:{opt per_si_cp.cov_q5_tot}} Coverage in richest quintile (%) - Contributory Pensions {p_end}
-{synopt:{opt per_si_cp.cov_q5_urb}} Coverage in richest quintile (%) - Contributory Pensions -urban {p_end}
-{synopt:{opt per_si_cp_gini_preT_tot}} Gini inequality reduction (%) -  Contributory Pensions -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_cp_gini_rur}} Gini inequality reduction (%) -  Contributory Pensions -poorest quintile -rural {p_end}
-{synopt:{opt per_si_cp_gini_tot}} Gini inequality reduction (%) -  Contributory Pensions -poorest quintile {p_end}
-{synopt:{opt per_si_cp_gini_urb}} Gini inequality reduction (%) -  Contributory Pensions - poorest quintile -urban {p_end}
-{synopt:{opt per_si_cp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_cp_p0_ep_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_cp_p0_preT_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_cp_p0_rur}} Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile -rural {p_end}
-{synopt:{opt per_si_cp_p0_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -poorest quintile {p_end}
-{synopt:{opt per_si_cp_p0_urb}} Poverty Headcount reduction (%) -  Contributory Pensions - poorest quintile -urban {p_end}
-{synopt:{opt per_si_cp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_cp_p1_ep_tot}} Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_cp_p1_preT_tot}} Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_cp_p1_rur}} Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile -rural {p_end}
-{synopt:{opt per_si_cp_p1_tot}} Poverty Gap reduction (%) -  Contributory Pensions -poorest quintile {p_end}
-{synopt:{opt per_si_cp_p1_urb}} Poverty Gap reduction (%) -  Contributory Pensions - poorest quintile -urban {p_end}
-{synopt:{opt per_si_ss.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_ss.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_cp.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Contributory Pensions {p_end}
+{synopt:{opt per_si_cp.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp_gini_preT_tot}} Gini inequality index reduction (%) -  Contributory Pensions (preT) {p_end}
+{synopt:{opt per_si_cp_gini_rur}} Gini inequality index reduction (%) -  Contributory Pensions -rural {p_end}
+{synopt:{opt per_si_cp_gini_tot}} Gini inequality index reduction (%) -  Contributory Pensions {p_end}
+{synopt:{opt per_si_cp_gini_urb}} Gini inequality index reduction (%) -  Contributory Pensions -urban {p_end}
+{synopt:{opt per_si_cp_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_cp_p0_ep_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_cp_p0_preT_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_cp_p0_rur}} Poverty Headcount reduction (%) -  Contributory Pensions -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_cp_p0_tot}} Poverty Headcount reduction (%) -  Contributory Pensions -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_cp_p0_urb}} Poverty Headcount reduction (%) -  Contributory Pensions - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_cp_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_cp_p1_ep_tot}} Poverty Gap reduction (%) -  Contributory Pensions -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_cp_p1_preT_tot}} Poverty Gap reduction (%) -  Contributory Pensions -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_cp_p1_rur}} Poverty Gap reduction (%) -  Contributory Pensions -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_cp_p1_tot}} Poverty Gap reduction (%) -  Contributory Pensions -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_cp_p1_urb}} Poverty Gap reduction (%) -  Contributory Pensions - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_ss.adq_ep_preT_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_ss.adq_ep_tot}} Adequacy of benefits in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.adq_pop_preT_tot}} Adequacy of benefits (%) - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.adq_pop_rur}} Adequacy of benefits (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.adq_pop_tot}} Adequacy of benefits (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.adq_pop_urb}} Adequacy of benefits (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.adq_q1_preT_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.adq_q1_rur}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.adq_q1_tot}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.adq_q1_urb}} Adequacy of benefits in poorest quintile (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.adq_q1_preT_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.adq_q1_rur}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.adq_q1_tot}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.adq_q1_urb}} Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance -urban {p_end}
 {synopt:{opt per_si_ss.adq_q2_preT_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.adq_q2_rur}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.adq_q2_tot}} Adequacy of benefits in 2nd quintile (%) - Other Social Insurance {p_end}
@@ -16498,20 +17186,20 @@
 {synopt:{opt per_si_ss.adq_q4_rur}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.adq_q4_tot}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.adq_q4_urb}} Adequacy of benefits in 4th quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.adq_q5_preT_tot}} Adequacy of benefits in richest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.adq_q5_rur}} Adequacy of benefits in richest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.adq_q5_tot}} Adequacy of benefits in richest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.adq_q5_urb}} Adequacy of benefits in richest quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_ss.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.25 a day) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.adq_q5_preT_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.adq_q5_rur}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.adq_q5_tot}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.adq_q5_urb}} Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.avt_ep_preT_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_ss.avt_ep_tot}} Average per capita transfer held by extreme poor (&lt;$1.90 PPP a day) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.avt_pop_preT_tot}} Average per capita transfer - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.avt_pop_rur}} Average per capita transfer - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.avt_pop_tot}} Average per capita transfer - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.avt_pop_urb}} Average per capita transfer - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.avt_q1_preT_tot}} Average per capita transfer held by poorest quintile - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.avt_q1_rur}} Average per capita transfer held by poorest quintile - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.avt_q1_tot}} Average per capita transfer held by poorest quintile - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.avt_q1_urb}} Average per capita transfer held by poorest quintile - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.avt_q1_preT_tot}} Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.avt_q1_rur}} Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.avt_q1_tot}} Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.avt_q1_urb}} Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance -urban {p_end}
 {synopt:{opt per_si_ss.avt_q2_preT_tot}} Average per capita transfer held by 2nd quintile - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.avt_q2_rur}} Average per capita transfer held by 2nd quintile - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.avt_q2_tot}} Average per capita transfer held by 2nd quintile - Other Social Insurance {p_end}
@@ -16524,16 +17212,16 @@
 {synopt:{opt per_si_ss.avt_q4_rur}} Average per capita transfer held by 4th quintile - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.avt_q4_tot}} Average per capita transfer held by 4th quintile - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.avt_q4_urb}} Average per capita transfer held by 4th quintile - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.avt_q5_preT_tot}} Average per capita transfer held by richest quintile - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.avt_q5_rur}} Average per capita transfer held by richest quintile - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.avt_q5_tot}} Average per capita transfer held by richest quintile - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.avt_q5_urb}} Average per capita transfer held by richest quintile - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_ss.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.ben_q1_preT_tot}} Benefits incidence in poorest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.ben_q1_rur}} Benefits incidence in poorest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.ben_q1_tot}} Benefits incidence in poorest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.ben_q1_urb}} Benefits incidence in poorest quintile (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.avt_q5_preT_tot}} Average per capita transfer held by 5th quintile (richest) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.avt_q5_rur}} Average per capita transfer held by 5th quintile (richest) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.avt_q5_tot}} Average per capita transfer held by 5th quintile (richest) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.avt_q5_urb}} Average per capita transfer held by 5th quintile (richest) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.ben_ep_preT_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_ss.ben_ep_tot}} Benefits incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.ben_q1_preT_tot}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.ben_q1_rur}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.ben_q1_tot}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.ben_q1_urb}} Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance -urban {p_end}
 {synopt:{opt per_si_ss.ben_q2_preT_tot}} Benefits incidence in 2nd quintile (%) - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.ben_q2_rur}} Benefits incidence in 2nd quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.ben_q2_tot}} Benefits incidence in 2nd quintile (%) - Other Social Insurance {p_end}
@@ -16546,16 +17234,16 @@
 {synopt:{opt per_si_ss.ben_q4_rur}} Benefits incidence in 4th quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.ben_q4_tot}} Benefits incidence in 4th quintile (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.ben_q4_urb}} Benefits incidence in 4th quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.ben_q5_preT_tot}} Benefits incidence in richest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.ben_q5_rur}} Benefits incidence in richest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.ben_q5_tot}} Benefits incidence in richest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.ben_q5_urb}} Benefits incidence in richest quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_ss.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.bry_q1_preT_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.bry_q1_rur}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.bry_q1_tot}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.bry_q1_urb}} Beneficiary incidence in poorest quintile (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.ben_q5_preT_tot}} Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.ben_q5_rur}} Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.ben_q5_tot}} Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.ben_q5_urb}} Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.bry_ep_preT_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_ss.bry_ep_tot}} Beneficiary incidence in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.bry_q1_preT_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.bry_q1_rur}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.bry_q1_tot}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.bry_q1_urb}} Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance -urban {p_end}
 {synopt:{opt per_si_ss.bry_q2_preT_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.bry_q2_rur}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.bry_q2_tot}} Beneficiary incidence in 2nd quintile (%) - Other Social Insurance {p_end}
@@ -16568,26 +17256,26 @@
 {synopt:{opt per_si_ss.bry_q4_rur}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.bry_q4_tot}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.bry_q4_urb}} Beneficiary incidence in 4th quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.bry_q5_preT_tot}} Beneficiary incidence in richest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.bry_q5_rur}} Beneficiary incidence in richest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.bry_q5_tot}} Beneficiary incidence in richest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.bry_q5_urb}} Beneficiary incidence in richest quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.cba_ep_preT_tot}} Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_ss.cba_ep_tot}} Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_ss.cba_q1_preT_tot}} Benefit-cost ratio -  Other Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_ss.cba_q1_rur}} Benefit-cost ratio -  Other Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_ss.cba_q1_tot}} Benefit-cost ratio -  Other Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_ss.cba_q1_urb}} Benefit-cost ratio -  Other Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_ss.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance  (preT) {p_end}
-{synopt:{opt per_si_ss.cov_ep_tot}} Coverage in extreme poor (&lt;$1.25 a day) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.bry_q5_preT_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.bry_q5_rur}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.bry_q5_tot}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.bry_q5_urb}} Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.cba_ep_preT_tot}} Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_ss.cba_ep_tot}} Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_ss.cba_q1_preT_tot}} Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_ss.cba_q1_rur}} Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_ss.cba_q1_tot}} Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_ss.cba_q1_urb}} Benefit-cost ratio -  Other Social Insurance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_ss.cov_ep_preT_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance  (preT) {p_end}
+{synopt:{opt per_si_ss.cov_ep_tot}} Coverage in extreme poor (&lt;$1.90 PPP a day) (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.cov_pop_preT_tot}} Coverage (%) - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.cov_pop_rur}} Coverage (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.cov_pop_tot}} Coverage (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.cov_pop_urb}} Coverage (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.cov_q1_preT_tot}} Coverage in poorest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.cov_q1_rur}} Coverage in poorest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.cov_q1_tot}} Coverage in poorest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.cov_q1_urb}} Coverage in poorest quintile (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss.cov_q1_preT_tot}} Coverage in 1st quintile (poorest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.cov_q1_rur}} Coverage in 1st quintile (poorest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.cov_q1_tot}} Coverage in 1st quintile (poorest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.cov_q1_urb}} Coverage in 1st quintile (poorest) (%) - Other Social Insurance -urban {p_end}
 {synopt:{opt per_si_ss.cov_q2_preT_tot}} Coverage in 2nd quintile (%) - Other Social Insurance (preT) {p_end}
 {synopt:{opt per_si_ss.cov_q2_rur}} Coverage in 2nd quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.cov_q2_tot}} Coverage in 2nd quintile (%) - Other Social Insurance {p_end}
@@ -16600,46 +17288,46 @@
 {synopt:{opt per_si_ss.cov_q4_rur}} Coverage in 4th quintile (%) - Other Social Insurance -rural {p_end}
 {synopt:{opt per_si_ss.cov_q4_tot}} Coverage in 4th quintile (%) - Other Social Insurance {p_end}
 {synopt:{opt per_si_ss.cov_q4_urb}} Coverage in 4th quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss.cov_q5_preT_tot}} Coverage in richest quintile (%) - Other Social Insurance (preT) {p_end}
-{synopt:{opt per_si_ss.cov_q5_rur}} Coverage in richest quintile (%) - Other Social Insurance -rural {p_end}
-{synopt:{opt per_si_ss.cov_q5_tot}} Coverage in richest quintile (%) - Other Social Insurance {p_end}
-{synopt:{opt per_si_ss.cov_q5_urb}} Coverage in richest quintile (%) - Other Social Insurance -urban {p_end}
-{synopt:{opt per_si_ss_gini_preT_tot}} Gini inequality reduction (%) -  Other Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_ss_gini_rur}} Gini inequality reduction (%) -  Other Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_ss_gini_tot}} Gini inequality reduction (%) -  Other Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_ss_gini_urb}} Gini inequality reduction (%) -  Other Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_ss_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_ss_p0_ep_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_ss_p0_preT_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_ss_p0_rur}} Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_ss_p0_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_ss_p0_urb}} Poverty Headcount reduction (%) -  Other Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_si_ss_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day) (preT) {p_end}
-{synopt:{opt per_si_ss_p1_ep_tot}} Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.25 a day) {p_end}
-{synopt:{opt per_si_ss_p1_preT_tot}} Poverty Gap reduction (%) -  Other Social Insurance -poorest quintile (preT) {p_end}
-{synopt:{opt per_si_ss_p1_rur}} Poverty Gap reduction (%) -  Other Social Insurance -poorest quintile -rural {p_end}
-{synopt:{opt per_si_ss_p1_tot}} Poverty Gap reduction (%) -  Other Social Insurance -poorest quintile {p_end}
-{synopt:{opt per_si_ss_p1_urb}} Poverty Gap reduction (%) -  Other Social Insurance - poorest quintile -urban {p_end}
-{synopt:{opt per_silm.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%, preT) {p_end}
-{synopt:{opt per_silm.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) receiving All Social Insurance and Labor Market (%) {p_end}
+{synopt:{opt per_si_ss.cov_q5_preT_tot}} Coverage in 5th quintile (richest) (%) - Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss.cov_q5_rur}} Coverage in 5th quintile (richest) (%) - Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss.cov_q5_tot}} Coverage in 5th quintile (richest) (%) - Other Social Insurance {p_end}
+{synopt:{opt per_si_ss.cov_q5_urb}} Coverage in 5th quintile (richest) (%) - Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss_gini_preT_tot}} Gini inequality index reduction (%) -  Other Social Insurance (preT) {p_end}
+{synopt:{opt per_si_ss_gini_rur}} Gini inequality index reduction (%) -  Other Social Insurance -rural {p_end}
+{synopt:{opt per_si_ss_gini_tot}} Gini inequality index reduction (%) -  Other Social Insurance {p_end}
+{synopt:{opt per_si_ss_gini_urb}} Gini inequality index reduction (%) -  Other Social Insurance -urban {p_end}
+{synopt:{opt per_si_ss_p0_ep_preT_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_ss_p0_ep_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_ss_p0_preT_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_ss_p0_rur}} Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_ss_p0_tot}} Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_ss_p0_urb}} Poverty Headcount reduction (%) -  Other Social Insurance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_si_ss_p1_ep_preT_tot}} Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) (preT) {p_end}
+{synopt:{opt per_si_ss_p1_ep_tot}} Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$1.90 PPP a day) {p_end}
+{synopt:{opt per_si_ss_p1_preT_tot}} Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) (preT) {p_end}
+{synopt:{opt per_si_ss_p1_rur}} Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) -rural {p_end}
+{synopt:{opt per_si_ss_p1_tot}} Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) {p_end}
+{synopt:{opt per_si_ss_p1_urb}} Poverty Gap reduction (%) -  Other Social Insurance - 1st quintile (poorest) -urban {p_end}
+{synopt:{opt per_silm.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving All Social Insurance and Labor Market (%, preT) {p_end}
+{synopt:{opt per_silm.overlap_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) receiving All Social Insurance and Labor Market (%) {p_end}
 {synopt:{opt per_silm.overlap_pop_preT_tot}} Population receiving All Social Insurance and Labor Market (%, preT) {p_end}
 {synopt:{opt per_silm.overlap_pop_rur}} Population receiving All Social Insurance and Labor Market (%) -rural {p_end}
 {synopt:{opt per_silm.overlap_pop_tot}} Population receiving All Social Insurance and Labor Market (%) {p_end}
 {synopt:{opt per_silm.overlap_pop_urb}} Population receiving All Social Insurance and Labor Market (%) -urban {p_end}
-{synopt:{opt per_silm.overlap_q1_preT_tot}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%, preT) {p_end}
-{synopt:{opt per_silm.overlap_q1_rur}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%) -rural {p_end}
-{synopt:{opt per_silm.overlap_q1_tot}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%) {p_end}
-{synopt:{opt per_silm.overlap_q1_urb}} Population in the poorest quintile receiving All Social Insurance and Labor Market (%) -urban {p_end}
-{synopt:{opt per_sionl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Insurance (%, preT) {p_end}
-{synopt:{opt per_sionl.overlap_ep_tot}} Population in extreme poor (&lt;$1.25 a day) only receiving All Social Insurance (%) {p_end}
+{synopt:{opt per_silm.overlap_q1_preT_tot}} Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%, preT) {p_end}
+{synopt:{opt per_silm.overlap_q1_rur}} Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%) -rural {p_end}
+{synopt:{opt per_silm.overlap_q1_tot}} Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%) {p_end}
+{synopt:{opt per_silm.overlap_q1_urb}} Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%) -urban {p_end}
+{synopt:{opt per_sionl.overlap_ep_preT_tot}} Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Insurance (%, preT) {p_end}
+{synopt:{opt per_sionl.overlap_ep_tot}} Population in extreme poor (&lt;$1.90 PPP a day) only receiving All Social Insurance (%) {p_end}
 {synopt:{opt per_sionl.overlap_pop_preT_tot}} Population only receiving All Social Insurance (%, preT) {p_end}
 {synopt:{opt per_sionl.overlap_pop_rur}} Population only receiving All Social Insurance (%) -rural {p_end}
 {synopt:{opt per_sionl.overlap_pop_tot}} Population only receiving All Social Insurance (%) {p_end}
 {synopt:{opt per_sionl.overlap_pop_urb}} Population only receiving All Social Insurance (%) -urban {p_end}
-{synopt:{opt per_sionl.overlap_q1_preT_tot}} Population in the poorest quintile only receiving All Social Insurance (%, preT) {p_end}
-{synopt:{opt per_sionl.overlap_q1_rur}} Population in the poorest quintile only receiving All Social Insurance (%) -rural {p_end}
-{synopt:{opt per_sionl.overlap_q1_tot}} Population in the poorest quintile only receiving All Social Insurance (%) {p_end}
-{synopt:{opt per_sionl.overlap_q1_urb}} Population in the poorest quintile only receiving All Social Insurance (%) -urban {p_end}
+{synopt:{opt per_sionl.overlap_q1_preT_tot}} Population in the 1st quintile (poorest) only receiving All Social Insurance (%, preT) {p_end}
+{synopt:{opt per_sionl.overlap_q1_rur}} Population in the 1st quintile (poorest) only receiving All Social Insurance (%) -rural {p_end}
+{synopt:{opt per_sionl.overlap_q1_tot}} Population in the 1st quintile (poorest) only receiving All Social Insurance (%) {p_end}
+{synopt:{opt per_sionl.overlap_q1_urb}} Population in the 1st quintile (poorest) only receiving All Social Insurance (%) -urban {p_end}
 {synopt:{opt s_loans_A1}} Outstanding loans per 1,000 adults {p_end}
 {synopt:{opt s_policyholders_B2_life}} Insurance policy holders per 1,000 adults (life) {p_end}
 {synopt:{opt s_policyholders_B2_nonlife}} Insurance policy holders per 1,000 adults (non-life) {p_end}
