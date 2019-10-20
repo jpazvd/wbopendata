@@ -109,3 +109,17 @@ https://api.worldbank.org/v2/country/<country code>/indicator/<Indicator1>;<Indi
 *************************************************
 
 http://api.worldbank.org/v2/countries/
+
+
+
+
+https://api.worldbank.org/v2/country/afg/indicator/SP.POP.AG00.FE.IN;SP.POP.AG00.MA.IN?source=16&downloadformat=EXCEL
+
+
+https://api.worldbank.org/v2/country/afg/indicator/SP.POP.AG00.FE.IN;SP.POP.AG00.MA.IN?source=16&downloadformat=CSV
+
+https://api.worldbank.org/v2/country/afg/indicator/SP.POP.AG00.FE.IN;SP.POP.AG00.MA.IN?source=16&filetype=data
+
+https://api.worldbank.org/v2/indicator/SP.POP.AG00.FE.IN;SP.POP.AG00.MA.IN?source=16&filetype=data
+
+

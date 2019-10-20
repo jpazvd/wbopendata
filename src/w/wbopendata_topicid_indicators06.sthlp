@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 13mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,126 +40,126 @@
 {syntab:{title:{bf:06 Environment}}}
 {synoptline}
 {marker topicid_AG.LND.AGRI.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.AGRI.ZS:AG.LND.AGRI.ZS} - Agricultural land (% of land area)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.AGRI.ZS:AG.LND.AGRI.ZS} - `"Agricultural land (% of land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded. Land under permanent crops is land cultivated with crops that occupy the land for long periods and need not be replanted after each harvest, such as cocoa, coffee, and rubber. This category includes land under flowering shrubs, fruit trees, nut trees, and vines, but excludes land under trees grown for wood or timber. Permanent pasture is land used for five or more years for forage, including natural and cultivated crops.{p_end}
+{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.ARBL.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.ARBL.ZS:AG.LND.ARBL.ZS} - Arable land (% of land area)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.ARBL.ZS:AG.LND.ARBL.ZS} - `"Arable land (% of land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded.{p_end}
+{synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.RU.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.K2:AG.LND.EL5M.RU.K2} - Rural land area where elevation is below 5 meters (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.K2:AG.LND.EL5M.RU.K2} - `"Rural land area where elevation is below 5 meters (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.ZS:AG.LND.EL5M.RU.ZS} - Rural land area where elevation is below 5 meters (% of total land area)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.RU.ZS:AG.LND.EL5M.RU.ZS} - `"Rural land area where elevation is below 5 meters (% of total land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - Urban land area where elevation is below 5 meters (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - `"Urban land area where elevation is below 5 meters (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - Urban land area where elevation is below 5 meters (% of total land area)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - `"Urban land area where elevation is below 5 meters (% of total land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.ZS:AG.LND.EL5M.ZS} - Land area where elevation is below 5 meters (% of total land area)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.ZS:AG.LND.EL5M.ZS} - `"Land area where elevation is below 5 meters (% of total land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.FRST.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.K2:AG.LND.FRST.K2} - Forest area (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.K2:AG.LND.FRST.K2} - `"Forest area (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and trees in urban parks and gardens.{p_end}
+{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.FRST.ZS}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.ZS:AG.LND.FRST.ZS} - Forest area (% of land area)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.FRST.ZS:AG.LND.FRST.ZS} - `"Forest area (% of land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and trees in urban parks and gardens.{p_end}
+{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.PRCP.MM}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.PRCP.MM:AG.LND.PRCP.MM} - Average precipitation in depth (mm per year)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.PRCP.MM:AG.LND.PRCP.MM} - `"Average precipitation in depth (mm per year)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -170,9 +170,9 @@
 
 {synoptline}
 {marker topicid_AG.LND.TOTL.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.K2:AG.LND.TOTL.K2} - Land area (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.K2:AG.LND.TOTL.K2} - `"Land area (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -183,35 +183,35 @@
 
 {synoptline}
 {marker topicid_AG.LND.TOTL.RU.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.RU.K2:AG.LND.TOTL.RU.K2} - Rural land area (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.RU.K2:AG.LND.TOTL.RU.K2} - `"Rural land area (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approximated urban extents based on buffered settlement points for which the total population is greater than 5,000 persons.{p_end}
+{synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.TOTL.UR.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2} - Urban land area (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2} - `"Urban land area (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approximated urban extents based on buffered settlement points for which the total population is greater than 5,000 persons.{p_end}
+{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approx{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.SRF.TOTL.K2}
-{synopt:{bf:{help wbopendata_topicid##AG.SRF.TOTL.K2:AG.SRF.TOTL.K2} - Surface area (sq. km)}}
+{synopt:{bf:{help wbopendata_topicid##AG.SRF.TOTL.K2:AG.SRF.TOTL.K2} - `"Surface area (sq. km)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -222,22 +222,22 @@
 
 {synoptline}
 {marker topicid_EE.BOD.TOTL.KG}
-{synopt:{bf:{help wbopendata_topicid##EE.BOD.TOTL.KG:EE.BOD.TOTL.KG} - Organic water pollutant (BOD) emissions (kg per day)}}
+{synopt:{bf:{help wbopendata_topicid##EE.BOD.TOTL.KG:EE.BOD.TOTL.KG} - `"Organic water pollutant (BOD) emissions (kg per day)"'}}
 
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants.{p_end}
+{synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at www.worldbank.org/nipr). The data were updated by the World Bank's Development Research Group using the same methodology as the initial study.{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated by the World Bank's Development Research Group us{p_end}
 
 
 {synoptline}
 {marker topicid_EG.CFT.ACCS.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS} - Access to clean fuels and technologies for cooking (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS} - `"Access to clean fuels and technologies for cooking (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -248,22 +248,22 @@
 
 {synoptline}
 {marker topicid_EG.EGY.PRIM.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2011 PPP GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - `"Energy intensity level of primary energy (MJ/$2011 PPP GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lower ratio indicates that less energy is used to produce one unit of output.{p_end}
+{synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lo{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Sustainable Energy for All (SE4ALL) database from the SE4ALL Global Tracking Framework led jointly by the World Bank, International Energy Agency, and the Energy Sector Management Assistance Program.{p_end}
 
 
 {synoptline}
 {marker topicid_EG.ELC.ACCS.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - Access to electricity (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS} - `"Access to electricity (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -274,22 +274,22 @@
 
 {synoptline}
 {marker topicid_EG.ELC.FOSL.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.FOSL.ZS:EG.ELC.FOSL.ZS} - Electricity production from oil, gas and coal sources (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.FOSL.ZS:EG.ELC.FOSL.ZS} - `"Electricity production from oil, gas and coal sources (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke oven gas, and blast furnace gas). Peat is also included in this category.{p_end}
+{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (includin{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EG.ELC.RNEW.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNEW.ZS:EG.ELC.RNEW.ZS} - Renewable electricity output (% of total electricity output)}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNEW.ZS:EG.ELC.RNEW.ZS} - `"Renewable electricity output (% of total electricity output)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -300,9 +300,9 @@
 
 {synoptline}
 {marker topicid_EG.ELC.RNWX.KH}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.KH:EG.ELC.RNWX.KH} - Electricity production from renewable sources, excluding hydroelectric (kWh)}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.KH:EG.ELC.RNWX.KH} - `"Electricity production from renewable sources, excluding hydroelectric (kWh)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -313,9 +313,9 @@
 
 {synoptline}
 {marker topicid_EG.ELC.RNWX.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.ZS:EG.ELC.RNWX.ZS} - Electricity production from renewable sources, excluding hydroelectric (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.RNWX.ZS:EG.ELC.RNWX.ZS} - `"Electricity production from renewable sources, excluding hydroelectric (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -326,9 +326,9 @@
 
 {synoptline}
 {marker topicid_EG.FEC.RNEW.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - Renewable energy consumption (% of total final energy consumption)}}
+{synopt:{bf:{help wbopendata_topicid##EG.FEC.RNEW.ZS:EG.FEC.RNEW.ZS} - `"Renewable energy consumption (% of total final energy consumption)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -339,9 +339,9 @@
 
 {synoptline}
 {marker topicid_EG.NSF.ACCS.ZS}
-{synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.ZS:EG.NSF.ACCS.ZS} - Access to non-solid fuel (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.ZS:EG.NSF.ACCS.ZS} - `"Access to non-solid fuel (% of population)"'}}
 
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -352,9 +352,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.EG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 intensity (kg per kg of oil equivalent energy use)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - `"CO2 intensity (kg per kg of oil equivalent energy use)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -365,9 +365,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.GF.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - CO2 emissions from gaseous fuel consumption (kt)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - `"CO2 emissions from gaseous fuel consumption (kt)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -378,9 +378,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.GF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gaseous fuel consumption (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - `"CO2 emissions from gaseous fuel consumption (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -391,9 +391,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - `"CO2 emissions (kg per 2010 US$ of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -404,9 +404,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - CO2 emissions (kt)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - `"CO2 emissions (kt)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -417,9 +417,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.LF.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - CO2 emissions from liquid fuel consumption (kt)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - `"CO2 emissions from liquid fuel consumption (kt)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -430,9 +430,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.LF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - CO2 emissions from liquid fuel consumption (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - `"CO2 emissions from liquid fuel consumption (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -443,9 +443,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PC}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - `"CO2 emissions (metric tons per capita)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -456,9 +456,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - CO2 emissions (kg per PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - `"CO2 emissions (kg per PPP $ of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -469,9 +469,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - `"CO2 emissions (kg per 2011 PPP $ of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -482,9 +482,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.SF.KT}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - CO2 emissions from solid fuel consumption (kt)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - `"CO2 emissions from solid fuel consumption (kt)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -495,9 +495,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.SF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - CO2 emissions from solid fuel consumption (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - `"CO2 emissions from solid fuel consumption (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -508,9 +508,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGO.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - `"Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -521,9 +521,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGO.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - Other greenhouse gas emissions (% change from 1990)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - `"Other greenhouse gas emissions (% change from 1990)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -534,35 +534,35 @@
 
 {synoptline}
 {marker topicid_EN.ATM.GHGT.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - Total greenhouse gas emissions (kt of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - `"Total greenhouse gas emissions (kt of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and decay of drained peatlands), all anthropogenic CH4 sources, N2O sources and F-gases (HFCs, PFCs and SF6).{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-b{p_end}
 
 {synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR), EDGARv4.2 FT2012: {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.ATM.GHGT.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - Total greenhouse gas emissions (% change from 1990)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - `"Total greenhouse gas emissions (% change from 1990)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and decay of drained peatlands), all anthropogenic CH4 sources, N2O sources and F-gases (HFCs, PFCs and SF6). Each year of data shows the percentage change to that year from 1990.{p_end}
+{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and Savannah burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires an{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.ATM.HFCG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - HFC gas emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - `"HFC gas emissions (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -573,9 +573,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.AG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.KT.CE:EN.ATM.METH.AG.KT.CE} - Agricultural methane emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.KT.CE:EN.ATM.METH.AG.KT.CE} - `"Agricultural methane emissions (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -586,9 +586,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.AG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.ZS:EN.ATM.METH.AG.ZS} - Agricultural methane emissions (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.ZS:EN.ATM.METH.AG.ZS} - `"Agricultural methane emissions (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -599,9 +599,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.EG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.KT.CE:EN.ATM.METH.EG.KT.CE} - Methane emissions in energy sector (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.KT.CE:EN.ATM.METH.EG.KT.CE} - `"Methane emissions in energy sector (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -612,9 +612,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.EG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.ZS:EN.ATM.METH.EG.ZS} - Energy related methane emissions (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.ZS:EN.ATM.METH.EG.ZS} - `"Energy related methane emissions (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -625,9 +625,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.IN.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.IN.ZS:EN.ATM.METH.IN.ZS} - Energy related methane emissions (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.IN.ZS:EN.ATM.METH.IN.ZS} - `"Energy related methane emissions (% of total)"'}}
 
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -638,9 +638,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - Methane emissions (kt of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - `"Methane emissions (kt of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -651,9 +651,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.METH.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - Methane emissions (% change from 1990)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - `"Methane emissions (% change from 1990)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -664,9 +664,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.AG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.KT.CE:EN.ATM.NOXE.AG.KT.CE} - Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.KT.CE:EN.ATM.NOXE.AG.KT.CE} - `"Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -677,9 +677,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.AG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.ZS:EN.ATM.NOXE.AG.ZS} - Agricultural nitrous oxide emissions (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.ZS:EN.ATM.NOXE.AG.ZS} - `"Agricultural nitrous oxide emissions (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -690,9 +690,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.EG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.KT.CE:EN.ATM.NOXE.EG.KT.CE} - Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.KT.CE:EN.ATM.NOXE.EG.KT.CE} - `"Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -703,9 +703,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.EG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.ZS:EN.ATM.NOXE.EG.ZS} - Nitrous oxide emissions in energy sector (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.ZS:EN.ATM.NOXE.EG.ZS} - `"Nitrous oxide emissions in energy sector (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -716,9 +716,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.IN.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.IN.ZS:EN.ATM.NOXE.IN.ZS} - Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.IN.ZS:EN.ATM.NOXE.IN.ZS} - `"Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)"'}}
 
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -729,9 +729,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - Nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - `"Nitrous oxide emissions (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -742,9 +742,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.NOXE.ZG}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - Nitrous oxide emissions (% change from 1990)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - `"Nitrous oxide emissions (% change from 1990)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -755,9 +755,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.PFCG.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PFC gas emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - `"PFC gas emissions (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -768,35 +768,35 @@
 
 {synoptline}
 {marker topicid_EN.ATM.PM25.MC.M3}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3} - PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3} - `"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.{p_end}
+{synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016.{p_end}
+{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.ATM.PM25.MC.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS} - PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS} - `"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 micrograms per cubic meter, the guideline value recommended by the World Health Organization as the lower end of the range of concentrations over which adverse health effects due to PM2.5 exposure have been observed.{p_end}
+{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016.{p_end}
+{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.ATM.SF6G.KT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - SF6 gas emissions (thousand metric tons of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - `"SF6 gas emissions (thousand metric tons of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -807,9 +807,9 @@
 
 {synoptline}
 {marker topicid_EN.BIR.THRD.NO}
-{synopt:{bf:{help wbopendata_topicid##EN.BIR.THRD.NO:EN.BIR.THRD.NO} - Bird species, threatened}}
+{synopt:{bf:{help wbopendata_topicid##EN.BIR.THRD.NO:EN.BIR.THRD.NO} - `"Bird species, threatened"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -820,113 +820,113 @@
 
 {synoptline}
 {marker topicid_EN.CLC.DRSK.XQ}
-{synopt:{bf:{help wbopendata_topicid##EN.CLC.DRSK.XQ:EN.CLC.DRSK.XQ} - Disaster risk reduction progress score (1-5 scale; 5=best)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CLC.DRSK.XQ:EN.CLC.DRSK.XQ} - `"Disaster risk reduction progress score (1-5 scale; 5=best)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disaster risk reduction efforts that was adopted by 168 countries in 2005. Assessments of Priority 1 include four indicators that reflect the degree to which countries have prioritized disaster risk reduction and the strengthening of relevant institutions.{p_end}
+{synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disast{p_end}
 
 {synopt:{opt Source Organization}}(UNISDR, 2009-2011 Progress Reports, {browse "http://www.preventionweb.net/english/hyogo)"}.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CLC.GHGR.MT.CE}
-{synopt:{bf:{help wbopendata_topicid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - GHG net emissions/removals by LUCF (Mt of CO2 equivalent)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - `"GHG net emissions/removals by LUCF (Mt of CO2 equivalent)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increases in biomass stocks due to forest management, logging, fuelwood collection, etc.; (2) conversion of existing forests and natural grasslands to other land uses; (3) removal of CO2 from the abandonment of formerly managed lands (e.g. croplands and pastures); and (4) emissions and removals of CO2 in soil associated with land-use change and management. For Annex-I countries under the UNFCCC, these data are drawn from the annual GHG inventories submitted to the UNFCCC by each country; for non-Annex-I countries, data are drawn from the most recently submitted National Communication where available. Because of differences in reporting years and methodologies, these data are not generally considered comparable across countries. Data are in million metric tons.{p_end}
+{synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increase{p_end}
 
 {synopt:{opt Source Organization}}United Nations Framework Convention on Climate Change.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CLC.MDAT.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS} - Droughts, floods, extreme temperatures (% of population, average 1990-2009)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CLC.MDAT.ZS:EN.CLC.MDAT.ZS} - `"Droughts, floods, extreme temperatures (% of population, average 1990-2009)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time characterized by a deficiency in a region's water supply that is the result of constantly below average precipitation. A drought can lead to losses to agriculture, affect inland navigation and hydropower plants, and cause a lack of drinking water and famine. A flood is a significant rise of water level in a stream, lake, reservoir or coastal region. Extreme temperature events are either cold waves or heat waves. A cold wave can be both a prolonged period of excessively cold weather and the sudden invasion of very cold air over a large area. Along with frost it can cause damage to agriculture, infrastructure, and property. A heat wave is a prolonged period of excessively hot and sometimes also humid weather relative to normal climate patterns of a certain region. Population affected is the number of people injured, left homeless or requiring immediate assistance during a period of emergency resulting from a natural disaster; it can also include displaced or evacuated people. Average percentage of population affected is calculated by dividing the sum of total affected for the period stated by the sum of the annual population figures for the period stated.{p_end}
+{synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time ch{p_end}
 
-{synopt:{opt Source Organization}}EM-DAT: The OFDA/CRED International Disaster Database: www.emdat.be, Université Catholique de Louvain, Brussels (Belgium), World Bank.{p_end}
+{synopt:{opt Source Organization}}EM-DAT: The OFDA/CRED International Disaster Database: {browse "www.emdat.be,"} Université Catholique de Louvain, Brussels (Belgium), World Bank.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CO2.BLDG.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS} - CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS} - `"CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions from all activities of ISIC Divisions 41, 50-52, 55, 63-67, 70-75, 80, 85, 90-93 and 99.{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CO2.ETOT.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CO2.ETOT.ZS:EN.CO2.ETOT.ZS} - CO2 emissions from electricity and heat production, total (% of total fuel combustion)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CO2.ETOT.ZS:EN.CO2.ETOT.ZS} - `"CO2 emissions from electricity and heat production, total (% of total fuel combustion)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, combined heat and power generation and heat plants. Main activity producers (formerly known as public utilities) are defined as those undertakings whose primary activity is to supply the public. They may be publicly or privately owned. This corresponds to IPCC Source/Sink Category 1 A 1 a. For the CO2 emissions from fuel combustion (summary) file, emissions from own on-site use of fuel in power plants (EPOWERPLT) are also included. (2) Unallocated Autoproducers which contains the emissions from the generation of electricity and/or heat by autoproducers. Autoproducers are defined as undertakings that generate electricity and/or heat, wholly or partly for their own use as an activity which supports their primary activity. They may be privately or publicly owned. In the 1996 IPCC Guidelines, these emissions would normally be distributed between industry, transport and other sectors. (3) Other Energy Industries contains emissions from fuel combusted in petroleum refineries, for the manufacture of solid fuels, coal mining, oil and gas extraction and other energy-producing industries. This corresponds to the IPCC Source/Sink Categories 1 A 1 b and 1 A 1 c. According to the 1996 IPCC Guidelines, emissions from coke inputs to blast furnaces can either be counted here or in the Industrial Processes source/sink category. Within detailed sectoral calculations, certain non-energy processes can be distinguished. In the reduction of iron in a blast furnace through the combustion of coke, the primary purpose of the coke oxidation is to produce pig iron and the emissions can be considered as an industrial process. Care must be taken not to double count these emissions in both Energy and Industrial Processes. In the IEA estimations, these emissions have been included in this category.{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, com{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CO2.MANF.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CO2.MANF.ZS:EN.CO2.MANF.ZS} - CO2 emissions from manufacturing industries and construction (% of total fuel combustion)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CO2.MANF.ZS:EN.CO2.MANF.ZS} - `"CO2 emissions from manufacturing industries and construction (% of total fuel combustion)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category also includes emissions from industry autoproducers that generate electricity and/or heat. The IEA data are not collected in a way that allows the energy consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers). Manufacturing industries and construction also includes emissions from coke inputs into blast furnaces, which may be reported either in the transformation sector, the industry sector or the separate IPCC Source/Sink Category 2, Industrial Processes.{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CO2.OTHX.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS} - CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS} - `"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified elsewhere that are included in the IPCC Source/Sink Categories 1 A 4 and 1 A 5. In the 1996 IPCC Guidelines, the category also includes emissions from autoproducers in the commercial/residential/agricultural sectors that generate electricity and/or heat. The IEA data are not collected in a way that allows the energy consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers).{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified else{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CO2.TRAN.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.CO2.TRAN.ZS:EN.CO2.TRAN.ZS} - CO2 emissions from transport (% of total fuel combustion)}}
+{synopt:{bf:{help wbopendata_topicid##EN.CO2.TRAN.ZS:EN.CO2.TRAN.ZS} - `"CO2 emissions from transport (% of total fuel combustion)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic navigation, road, rail and pipeline transport, and corresponds to IPCC Source/Sink Category 1 A 3. In addition, the IEA data are not collected in a way that allows the autoproducer consumption to be split by specific end-use and therefore, autoproducers are shown as a separate item (Unallocated Autoproducers).{p_end}
+{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.FSH.THRD.NO}
-{synopt:{bf:{help wbopendata_topicid##EN.FSH.THRD.NO:EN.FSH.THRD.NO} - Fish species, threatened}}
+{synopt:{bf:{help wbopendata_topicid##EN.FSH.THRD.NO:EN.FSH.THRD.NO} - `"Fish species, threatened"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -937,9 +937,9 @@
 
 {synoptline}
 {marker topicid_EN.HPT.THRD.NO}
-{synopt:{bf:{help wbopendata_topicid##EN.HPT.THRD.NO:EN.HPT.THRD.NO} - Plant species (higher), threatened}}
+{synopt:{bf:{help wbopendata_topicid##EN.HPT.THRD.NO:EN.HPT.THRD.NO} - `"Plant species (higher), threatened"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -950,9 +950,9 @@
 
 {synoptline}
 {marker topicid_EN.MAM.THRD.NO}
-{synopt:{bf:{help wbopendata_topicid##EN.MAM.THRD.NO:EN.MAM.THRD.NO} - Mammal species, threatened}}
+{synopt:{bf:{help wbopendata_topicid##EN.MAM.THRD.NO:EN.MAM.THRD.NO} - `"Mammal species, threatened"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -963,74 +963,74 @@
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.RU.ZS:EN.POP.EL5M.RU.ZS} - Rural population living in areas where elevation is below 5 meters (% of total population)}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.RU.ZS:EN.POP.EL5M.RU.ZS} - `"Rural population living in areas where elevation is below 5 meters (% of total population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - Urban population living in areas where elevation is below 5 meters (% of total population)}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - `"Urban population living in areas where elevation is below 5 meters (% of total population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.ZS:EN.POP.EL5M.ZS} - Population living in areas where elevation is below 5 meters (% of total population)}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.ZS:EN.POP.EL5M.ZS} - `"Population living in areas where elevation is below 5 meters (% of total population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.POP.SLUM.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - Population living in slums (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - `"Population living in slums (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improved water, access to improved sanitation, sufficient living area, and durability of housing.{p_end}
+{synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
 {synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_ER.FSH.AQUA.MT}
-{synopt:{bf:{help wbopendata_topicid##ER.FSH.AQUA.MT:ER.FSH.AQUA.MT} - Aquaculture production (metric tons)}}
+{synopt:{bf:{help wbopendata_topicid##ER.FSH.AQUA.MT:ER.FSH.AQUA.MT} - `"Aquaculture production (metric tons)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Aquaculture is understood to mean the farming of aquatic organisms including fish, molluscs, crustaceans and aquatic plants. Aquaculture production specifically refers to output from aquaculture activities, which are designated for final harvest for consumption.{p_end}
+{synopt:{opt Source Notes}}Aquaculture is understood to mean the farming of aquatic organisms including fish, molluscs, crustaceans and aquatic plants. Aquaculture production specifically refers to output from aquaculture activities, which are designated for final harve{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.FSH.CAPT.MT}
-{synopt:{bf:{help wbopendata_topicid##ER.FSH.CAPT.MT:ER.FSH.CAPT.MT} - Capture fisheries production (metric tons)}}
+{synopt:{bf:{help wbopendata_topicid##ER.FSH.CAPT.MT:ER.FSH.CAPT.MT} - `"Capture fisheries production (metric tons)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1041,22 +1041,22 @@
 
 {synoptline}
 {marker topicid_ER.FSH.PROD.MT}
-{synopt:{bf:{help wbopendata_topicid##ER.FSH.PROD.MT:ER.FSH.PROD.MT} - Total fisheries production (metric tons)}}
+{synopt:{bf:{help wbopendata_topicid##ER.FSH.PROD.MT:ER.FSH.PROD.MT} - `"Total fisheries production (metric tons)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Total fisheries production measures the volume of aquatic species caught by a country for all commercial, industrial, recreational and subsistence purposes. The harvest from mariculture, aquaculture and other kinds of fish farming is also included.{p_end}
+{synopt:{opt Source Notes}}Total fisheries production measures the volume of aquatic species caught by a country for all commercial, industrial, recreational and subsistence purposes. The harvest from mariculture, aquaculture and other kinds of fish farming is also incl{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.GDP.FWTL.M3.KD}
-{synopt:{bf:{help wbopendata_topicid##ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD} - Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal)}}
+{synopt:{bf:{help wbopendata_topicid##ER.GDP.FWTL.M3.KD:ER.GDP.FWTL.M3.KD} - `"Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1067,74 +1067,74 @@
 
 {synoptline}
 {marker topicid_ER.H2O.FWAG.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWAG.ZS:ER.H2O.FWAG.ZS} - Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWAG.ZS:ER.H2O.FWAG.ZS} - `"Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture are total withdrawals for irrigation and livestock production. Data are for the most recent year available for 1987-2002.{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.H2O.FWDM.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWDM.ZS:ER.H2O.FWDM.ZS} - Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWDM.ZS:ER.H2O.FWDM.ZS} - `"Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.H2O.FWIN.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWIN.ZS:ER.H2O.FWIN.ZS} - Annual freshwater withdrawals, industry (% of total freshwater withdrawal)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWIN.ZS:ER.H2O.FWIN.ZS} - `"Annual freshwater withdrawals, industry (% of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for industry are total withdrawals for direct industrial use (including withdrawals for cooling thermoelectric plants). Data are for the most recent year available for 1987-2002.{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.H2O.FWTL.K3}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.K3:ER.H2O.FWTL.K3} - Annual freshwater withdrawals, total (billion cubic meters)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.K3:ER.H2O.FWTL.K3} - `"Annual freshwater withdrawals, total (billion cubic meters)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.H2O.FWTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.ZS:ER.H2O.FWTL.ZS} - Annual freshwater withdrawals, total (% of internal resources)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.ZS:ER.H2O.FWTL.ZS} - `"Annual freshwater withdrawals, total (% of internal resources)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.{p_end}
+{synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.H2O.INTR.K3}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.INTR.K3:ER.H2O.INTR.K3} - Renewable internal freshwater resources, total (billion cubic meters)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.INTR.K3:ER.H2O.INTR.K3} - `"Renewable internal freshwater resources, total (billion cubic meters)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1145,61 +1145,61 @@
 
 {synoptline}
 {marker topicid_ER.H2O.INTR.PC}
-{synopt:{bf:{help wbopendata_topicid##ER.H2O.INTR.PC:ER.H2O.INTR.PC} - Renewable internal freshwater resources per capita (cubic meters)}}
+{synopt:{bf:{help wbopendata_topicid##ER.H2O.INTR.PC:ER.H2O.INTR.PC} - `"Renewable internal freshwater resources per capita (cubic meters)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's population estimates.{p_end}
+{synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's p{p_end}
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
 
 
 {synoptline}
 {marker topicid_ER.LND.PTLD.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.LND.PTLD.ZS:ER.LND.PTLD.ZS} - Terrestrial protected areas (% of total land area)}}
+{synopt:{bf:{help wbopendata_topicid##ER.LND.PTLD.ZS:ER.LND.PTLD.ZS} - `"Terrestrial protected areas (% of total land area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, protected landscapes, and areas managed mainly for sustainable use. Marine areas, unclassified areas, littoral (intertidal) areas, and sites protected under local or provincial law are excluded.{p_end}
+{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website ({browse "https://www.protectedplanet.net/"}).{p_end}
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
 
 
 {synoptline}
 {marker topicid_ER.MRN.PTMR.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.MRN.PTMR.ZS:ER.MRN.PTMR.ZS} - Marine protected areas (% of territorial waters)}}
+{synopt:{bf:{help wbopendata_topicid##ER.MRN.PTMR.ZS:ER.MRN.PTMR.ZS} - `"Marine protected areas (% of territorial waters)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.{p_end}
+{synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website ({browse "https://www.protectedplanet.net/"}).{p_end}
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
 
 
 {synoptline}
 {marker topicid_ER.PTD.TOTL.ZS}
-{synopt:{bf:{help wbopendata_topicid##ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS} - Terrestrial and marine protected areas (% of total territorial area)}}
+{synopt:{bf:{help wbopendata_topicid##ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS} - `"Terrestrial and marine protected areas (% of total territorial area)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, protected landscapes, and areas managed mainly for sustainable use. Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment. Sites protected under local or provincial law are excluded.{p_end}
+{synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, academia and industry. The data is available online through the Protected Planet website ({browse "https://www.protectedplanet.net/"}).{p_end}
+{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
 
 
 {synoptline}
 {marker topicid_NY.ADJ.AEDU.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.AEDU.CD:NY.ADJ.AEDU.CD} - Adjusted savings: education expenditure (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.AEDU.CD:NY.ADJ.AEDU.CD} - `"Adjusted savings: education expenditure (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1210,9 +1210,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.AEDU.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.AEDU.GN.ZS:NY.ADJ.AEDU.GN.ZS} - Adjusted savings: education expenditure (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.AEDU.GN.ZS:NY.ADJ.AEDU.GN.ZS} - `"Adjusted savings: education expenditure (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1223,9 +1223,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DCO2.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DCO2.CD:NY.ADJ.DCO2.CD} - Adjusted savings: carbon dioxide damage (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DCO2.CD:NY.ADJ.DCO2.CD} - `"Adjusted savings: carbon dioxide damage (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1236,9 +1236,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DCO2.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DCO2.GN.ZS:NY.ADJ.DCO2.GN.ZS} - Adjusted savings: carbon dioxide damage (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DCO2.GN.ZS:NY.ADJ.DCO2.GN.ZS} - `"Adjusted savings: carbon dioxide damage (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1249,9 +1249,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DFOR.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DFOR.CD:NY.ADJ.DFOR.CD} - Adjusted savings: net forest depletion (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DFOR.CD:NY.ADJ.DFOR.CD} - `"Adjusted savings: net forest depletion (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1262,9 +1262,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DFOR.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DFOR.GN.ZS:NY.ADJ.DFOR.GN.ZS} - Adjusted savings: net forest depletion (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DFOR.GN.ZS:NY.ADJ.DFOR.GN.ZS} - `"Adjusted savings: net forest depletion (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1275,9 +1275,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DKAP.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DKAP.CD:NY.ADJ.DKAP.CD} - Adjusted savings: consumption of fixed capital (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DKAP.CD:NY.ADJ.DKAP.CD} - `"Adjusted savings: consumption of fixed capital (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1288,9 +1288,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DKAP.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DKAP.GN.ZS:NY.ADJ.DKAP.GN.ZS} - Adjusted savings: consumption of fixed capital (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DKAP.GN.ZS:NY.ADJ.DKAP.GN.ZS} - `"Adjusted savings: consumption of fixed capital (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1301,9 +1301,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DMIN.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DMIN.CD:NY.ADJ.DMIN.CD} - Adjusted savings: mineral depletion (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DMIN.CD:NY.ADJ.DMIN.CD} - `"Adjusted savings: mineral depletion (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1314,9 +1314,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DMIN.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DMIN.GN.ZS:NY.ADJ.DMIN.GN.ZS} - Adjusted savings: mineral depletion (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DMIN.GN.ZS:NY.ADJ.DMIN.GN.ZS} - `"Adjusted savings: mineral depletion (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1327,9 +1327,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DNGY.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DNGY.CD:NY.ADJ.DNGY.CD} - Adjusted savings: energy depletion (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DNGY.CD:NY.ADJ.DNGY.CD} - `"Adjusted savings: energy depletion (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1340,9 +1340,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DNGY.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DNGY.GN.ZS:NY.ADJ.DNGY.GN.ZS} - Adjusted savings: energy depletion (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DNGY.GN.ZS:NY.ADJ.DNGY.GN.ZS} - `"Adjusted savings: energy depletion (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1353,35 +1353,35 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.DPEM.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DPEM.CD:NY.ADJ.DPEM.CD} - Adjusted savings: particulate emission damage (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DPEM.CD:NY.ADJ.DPEM.CD} - `"Adjusted savings: particulate emission damage (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in households cooking with solid fuels. Damages are calculated as foregone labor income due to premature death. Estimates of health impacts from the Global Burden of Disease Study 2016. Data for other years have been extrapolated from trends in mortality rates.{p_end}
+{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.ADJ.DPEM.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DPEM.GN.ZS:NY.ADJ.DPEM.GN.ZS} - Adjusted savings: particulate emission damage (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.DPEM.GN.ZS:NY.ADJ.DPEM.GN.ZS} - `"Adjusted savings: particulate emission damage (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in households cooking with solid fuels. Damages are calculated as foregone labor income due to premature death. Estimates of health impacts from the Global Burden of Disease Study 2016. Data for other years have been extrapolated from trends in mortality rates.{p_end}
+{synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.ADJ.ICTR.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.ICTR.GN.ZS:NY.ADJ.ICTR.GN.ZS} - Adjusted savings: gross savings (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.ICTR.GN.ZS:NY.ADJ.ICTR.GN.ZS} - `"Adjusted savings: gross savings (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1392,9 +1392,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.NNAT.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.NNAT.CD:NY.ADJ.NNAT.CD} - Adjusted savings: net national savings (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.NNAT.CD:NY.ADJ.NNAT.CD} - `"Adjusted savings: net national savings (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1405,9 +1405,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.NNAT.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.NNAT.GN.ZS:NY.ADJ.NNAT.GN.ZS} - Adjusted savings: net national savings (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.NNAT.GN.ZS:NY.ADJ.NNAT.GN.ZS} - `"Adjusted savings: net national savings (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1418,9 +1418,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.SVNG.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNG.CD:NY.ADJ.SVNG.CD} - Adjusted net savings, including particulate emission damage (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNG.CD:NY.ADJ.SVNG.CD} - `"Adjusted net savings, including particulate emission damage (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1431,9 +1431,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.SVNG.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNG.GN.ZS:NY.ADJ.SVNG.GN.ZS} - Adjusted net savings, including particulate emission damage (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNG.GN.ZS:NY.ADJ.SVNG.GN.ZS} - `"Adjusted net savings, including particulate emission damage (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1444,9 +1444,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.SVNX.CD}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNX.CD:NY.ADJ.SVNX.CD} - Adjusted net savings, excluding particulate emission damage (current US$)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNX.CD:NY.ADJ.SVNX.CD} - `"Adjusted net savings, excluding particulate emission damage (current US$)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1457,9 +1457,9 @@
 
 {synoptline}
 {marker topicid_NY.ADJ.SVNX.GN.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNX.GN.ZS:NY.ADJ.SVNX.GN.ZS} - Adjusted net savings, excluding particulate emission damage (% of GNI)}}
+{synopt:{bf:{help wbopendata_topicid##NY.ADJ.SVNX.GN.ZS:NY.ADJ.SVNX.GN.ZS} - `"Adjusted net savings, excluding particulate emission damage (% of GNI)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1470,256 +1470,256 @@
 
 {synoptline}
 {marker topicid_NY.GDP.COAL.RT.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.COAL.RT.ZS:NY.GDP.COAL.RT.ZS} - Coal rents (% of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.COAL.RT.ZS:NY.GDP.COAL.RT.ZS} - `"Coal rents (% of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Coal rents are the difference between the value of both hard and soft coal production at world prices and their total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.FRST.RT.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.FRST.RT.ZS:NY.GDP.FRST.RT.ZS} - Forest rents (% of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.FRST.RT.ZS:NY.GDP.FRST.RT.ZS} - `"Forest rents (% of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of regional prices and a regional rental rate.{p_end}
+{synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of average prices and a region-specific rental rate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.MINR.RT.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.MINR.RT.ZS:NY.GDP.MINR.RT.ZS} - Mineral rents (% of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.MINR.RT.ZS:NY.GDP.MINR.RT.ZS} - `"Mineral rents (% of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.NGAS.RT.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.NGAS.RT.ZS:NY.GDP.NGAS.RT.ZS} - Natural gas rents (% of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.NGAS.RT.ZS:NY.GDP.NGAS.RT.ZS} - `"Natural gas rents (% of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at world prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.PETR.RT.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS} - Oil rents (% of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS} - `"Oil rents (% of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
+{synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at world prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
 
 
 {synoptline}
 {marker topicid_NY.GDP.TOTL.RT.ZS}
-{synopt:{bf:{help wbopendata_topicid##NY.GDP.TOTL.RT.ZS:NY.GDP.TOTL.RT.ZS} - Total natural resources rents (% of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##NY.GDP.TOTL.RT.ZS:NY.GDP.TOTL.RT.ZS} - `"Total natural resources rents (% of GDP)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in The Changing Wealth of Nations 2018: Building a Sustainable Future (Lange et al 2018).{p_end}
+{synopt:{opt Source Organization}}Estimates based on sources and methods described in The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (World Bank, 2011).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - People using at least basic drinking water services, rural (% of rural population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - `"People using at least basic drinking water services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - People using at least basic drinking water services, urban (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - `"People using at least basic drinking water services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - People using at least basic drinking water services (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - `"People using at least basic drinking water services (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SMDW.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - People using safely managed drinking water services, rural (% of rural population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - `"People using safely managed drinking water services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SMDW.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - People using safely managed drinking water services, urban (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - `"People using safely managed drinking water services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SMDW.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - People using safely managed drinking water services (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - `"People using safely managed drinking water services (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.AIRP.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BASS.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - People using at least basic sanitation services, rural (% of rural population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - `"People using at least basic sanitation services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BASS.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - People using at least basic sanitation services, urban (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - `"People using at least basic sanitation services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BASS.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - People using at least basic sanitation services (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - `"People using at least basic sanitation services (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.HYGN.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - People with basic handwashing facilities including soap and water, rural (% of rural population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - `"People with basic handwashing facilities including soap and water, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.HYGN.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - `"People with basic handwashing facilities including soap and water, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.HYGN.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - People with basic handwashing facilities including soap and water (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - `"People with basic handwashing facilities including soap and water (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ODFC.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - People practicing open defecation, rural (% of rural population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - `"People practicing open defecation, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1730,9 +1730,9 @@
 
 {synoptline}
 {marker topicid_SH.STA.ODFC.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - People practicing open defecation, urban (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - `"People practicing open defecation, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1743,9 +1743,9 @@
 
 {synoptline}
 {marker topicid_SH.STA.ODFC.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - People practicing open defecation (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - `"People practicing open defecation (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -1756,94 +1756,94 @@
 
 {synoptline}
 {marker topicid_SH.STA.POIS.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5:SH.STA.POIS.P5} - Mortality rate attributed to unintentional poisoning (per 100,000 population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5:SH.STA.POIS.P5} - `"Mortality rate attributed to unintentional poisoning (per 100,000 population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.POIS.P5.FE}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - `"Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.POIS.P5.MA}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - `"Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SMSS.RU.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - People using safely managed sanitation services, rural (% of rural population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - `"People using safely managed sanitation services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SMSS.UR.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - People using safely managed sanitation services, urban (% of urban population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - `"People using safely managed sanitation services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SMSS.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - People using safely managed sanitation services (% of population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - `"People using safely managed sanitation services (% of population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WASH.P5}
-{synopt:{bf:{help wbopendata_topicid##SH.STA.WASH.P5:SH.STA.WASH.P5} - Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)}}
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WASH.P5:SH.STA.WASH.P5} - `"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)"'}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing the number of deaths by the total population. In this estimate, only the impact of diarrhoeal diseases, intestinal nematode infections, and protein-energy malnutrition are taken into account.{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 
-{right:(as of 13mar2019)}
+{right:(as of 20oct2019)}
