@@ -1,4 +1,4 @@
-*! _adminregion_iso2 <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _adminregion_iso2 <19 Oct 2019 : 22:56:00>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _adminregion_iso2 
@@ -11,6 +11,7 @@
          replace adminregion_iso2 = "8S"  if `match' == "AFG"  
          replace adminregion_iso2 = "ZF"  if `match' == "AGO"  
          replace adminregion_iso2 = "7E"  if `match' == "ALB"  
+         replace adminregion_iso2 = "XJ"  if `match' == "ARG"  
          replace adminregion_iso2 = "7E"  if `match' == "ARM"  
          replace adminregion_iso2 = "4E"  if `match' == "ASM"  
          replace adminregion_iso2 = "7E"  if `match' == "AZE"  
@@ -144,7 +145,6 @@
          replace adminregion_iso2 = "XQ"  if `match' == "YEM"  
          replace adminregion_iso2 = "ZF"  if `match' == "ZAF"  
          replace adminregion_iso2 = "ZF"  if `match' == "ZMB"  
-         replace adminregion_iso2 = "ZF"  if `match' == "ZWE"  
   
 *********************
   
