@@ -58,6 +58,8 @@
 # csv files in selected input folders
 !qa/*.csv
 
+# txt files in selected input folders
+!qa/*.txt
 
 #######################
 # Include all the files with passwords or tokens here. All files named
