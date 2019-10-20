@@ -1,4 +1,4 @@
-*! _lendingtype_iso2 <25 Mar 2019 : 06:21:27>                 by João Pedro Azevedo
+*! _lendingtype_iso2 <19 Oct 2019 : 23:14:03>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _lendingtype_iso2 
@@ -107,7 +107,7 @@
          replace lendingtype_iso2 = "Aggregates"  if `match' == "EUU"  
          replace lendingtype_iso2 = "Aggregates"  if `match' == "FCS"  
          replace lendingtype_iso2 = "XX"  if `match' == "FIN"  
-         replace lendingtype_iso2 = "XF"  if `match' == "FJI"  
+         replace lendingtype_iso2 = "XH"  if `match' == "FJI"  
          replace lendingtype_iso2 = "XX"  if `match' == "FRA"  
          replace lendingtype_iso2 = "XX"  if `match' == "FRO"  
          replace lendingtype_iso2 = "XI"  if `match' == "FSM"  

@@ -1,4 +1,4 @@
-*! _lendingtype <25 Mar 2019 : 06:21:27>                 by João Pedro Azevedo
+*! _lendingtype <19 Oct 2019 : 23:14:03>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _lendingtype 
@@ -71,7 +71,7 @@
          replace lendingtype = "LNX"  if `match' == "EST"  
          replace lendingtype = "IDX"  if `match' == "ETH"  
          replace lendingtype = "LNX"  if `match' == "FIN"  
-         replace lendingtype = "IBD"  if `match' == "FJI"  
+         replace lendingtype = "IDB"  if `match' == "FJI"  
          replace lendingtype = "LNX"  if `match' == "FRA"  
          replace lendingtype = "LNX"  if `match' == "FRO"  
          replace lendingtype = "IDX"  if `match' == "FSM"  

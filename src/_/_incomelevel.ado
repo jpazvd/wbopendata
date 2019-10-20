@@ -1,4 +1,4 @@
-*! _incomelevel <25 Mar 2019 : 06:21:27>                 by João Pedro Azevedo
+*! _incomelevel <19 Oct 2019 : 23:14:03>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _incomelevel 
@@ -17,7 +17,7 @@
          replace incomelevel = "NA"  if `match' == "ANR"  
          replace incomelevel = "NA"  if `match' == "ARB"  
          replace incomelevel = "HIC"  if `match' == "ARE"  
-         replace incomelevel = "HIC"  if `match' == "ARG"  
+         replace incomelevel = "UMC"  if `match' == "ARG"  
          replace incomelevel = "UMC"  if `match' == "ARM"  
          replace incomelevel = "UMC"  if `match' == "ASM"  
          replace incomelevel = "HIC"  if `match' == "ATG"  
@@ -65,7 +65,7 @@
          replace incomelevel = "LIC"  if `match' == "COD"  
          replace incomelevel = "LMC"  if `match' == "COG"  
          replace incomelevel = "UMC"  if `match' == "COL"  
-         replace incomelevel = "LIC"  if `match' == "COM"  
+         replace incomelevel = "LMC"  if `match' == "COM"  
          replace incomelevel = "LMC"  if `match' == "CPV"  
          replace incomelevel = "UMC"  if `match' == "CRI"  
          replace incomelevel = "NA"  if `match' == "CSA"  
@@ -114,7 +114,7 @@
          replace incomelevel = "NA"  if `match' == "FXS"  
          replace incomelevel = "UMC"  if `match' == "GAB"  
          replace incomelevel = "HIC"  if `match' == "GBR"  
-         replace incomelevel = "LMC"  if `match' == "GEO"  
+         replace incomelevel = "UMC"  if `match' == "GEO"  
          replace incomelevel = "LMC"  if `match' == "GHA"  
          replace incomelevel = "HIC"  if `match' == "GIB"  
          replace incomelevel = "LIC"  if `match' == "GIN"  
@@ -172,7 +172,7 @@
          replace incomelevel = "NA"  if `match' == "LDC"  
          replace incomelevel = "NA"  if `match' == "LIC"  
          replace incomelevel = "HIC"  if `match' == "LIE"  
-         replace incomelevel = "LMC"  if `match' == "LKA"  
+         replace incomelevel = "UMC"  if `match' == "LKA"  
          replace incomelevel = "NA"  if `match' == "LMC"  
          replace incomelevel = "NA"  if `match' == "LMY"  
          replace incomelevel = "LMC"  if `match' == "LSO"  
@@ -250,7 +250,7 @@
          replace incomelevel = "HIC"  if `match' == "SAU"  
          replace incomelevel = "NA"  if `match' == "SCE"  
          replace incomelevel = "LMC"  if `match' == "SDN"  
-         replace incomelevel = "LIC"  if `match' == "SEN"  
+         replace incomelevel = "LMC"  if `match' == "SEN"  
          replace incomelevel = "HIC"  if `match' == "SGP"  
          replace incomelevel = "LMC"  if `match' == "SLB"  
          replace incomelevel = "LIC"  if `match' == "SLE"  
@@ -306,12 +306,11 @@
          replace incomelevel = "LMC"  if `match' == "VUT"  
          replace incomelevel = "NA"  if `match' == "WLD"  
          replace incomelevel = "UMC"  if `match' == "WSM"  
-         replace incomelevel = "LMC"  if `match' == "XKX"  
+         replace incomelevel = "UMC"  if `match' == "XKX"  
          replace incomelevel = "NA"  if `match' == "XZN"  
          replace incomelevel = "LIC"  if `match' == "YEM"  
          replace incomelevel = "UMC"  if `match' == "ZAF"  
          replace incomelevel = "LMC"  if `match' == "ZMB"  
-         replace incomelevel = "LIC"  if `match' == "ZWE"  
   
 *********************
   

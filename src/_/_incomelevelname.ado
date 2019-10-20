@@ -1,4 +1,4 @@
-*! _incomelevelname <25 Mar 2019 : 06:21:27>                 by João Pedro Azevedo
+*! _incomelevelname <19 Oct 2019 : 23:14:03>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _incomelevelname 
@@ -17,7 +17,7 @@
          replace incomelevelname = "Aggregates"  if `match' == "ANR"  
          replace incomelevelname = "Aggregates"  if `match' == "ARB"  
          replace incomelevelname = "High income"  if `match' == "ARE"  
-         replace incomelevelname = "High income"  if `match' == "ARG"  
+         replace incomelevelname = "Upper middle income"  if `match' == "ARG"  
          replace incomelevelname = "Upper middle income"  if `match' == "ARM"  
          replace incomelevelname = "Upper middle income"  if `match' == "ASM"  
          replace incomelevelname = "High income"  if `match' == "ATG"  
@@ -65,7 +65,7 @@
          replace incomelevelname = "Low income"  if `match' == "COD"  
          replace incomelevelname = "Lower middle income"  if `match' == "COG"  
          replace incomelevelname = "Upper middle income"  if `match' == "COL"  
-         replace incomelevelname = "Low income"  if `match' == "COM"  
+         replace incomelevelname = "Lower middle income"  if `match' == "COM"  
          replace incomelevelname = "Lower middle income"  if `match' == "CPV"  
          replace incomelevelname = "Upper middle income"  if `match' == "CRI"  
          replace incomelevelname = "Aggregates"  if `match' == "CSA"  
@@ -114,7 +114,7 @@
          replace incomelevelname = "Aggregates"  if `match' == "FXS"  
          replace incomelevelname = "Upper middle income"  if `match' == "GAB"  
          replace incomelevelname = "High income"  if `match' == "GBR"  
-         replace incomelevelname = "Lower middle income"  if `match' == "GEO"  
+         replace incomelevelname = "Upper middle income"  if `match' == "GEO"  
          replace incomelevelname = "Lower middle income"  if `match' == "GHA"  
          replace incomelevelname = "High income"  if `match' == "GIB"  
          replace incomelevelname = "Low income"  if `match' == "GIN"  
@@ -172,7 +172,7 @@
          replace incomelevelname = "Aggregates"  if `match' == "LDC"  
          replace incomelevelname = "Aggregates"  if `match' == "LIC"  
          replace incomelevelname = "High income"  if `match' == "LIE"  
-         replace incomelevelname = "Lower middle income"  if `match' == "LKA"  
+         replace incomelevelname = "Upper middle income"  if `match' == "LKA"  
          replace incomelevelname = "Aggregates"  if `match' == "LMC"  
          replace incomelevelname = "Aggregates"  if `match' == "LMY"  
          replace incomelevelname = "Lower middle income"  if `match' == "LSO"  
@@ -250,7 +250,7 @@
          replace incomelevelname = "High income"  if `match' == "SAU"  
          replace incomelevelname = "Aggregates"  if `match' == "SCE"  
          replace incomelevelname = "Lower middle income"  if `match' == "SDN"  
-         replace incomelevelname = "Low income"  if `match' == "SEN"  
+         replace incomelevelname = "Lower middle income"  if `match' == "SEN"  
          replace incomelevelname = "High income"  if `match' == "SGP"  
          replace incomelevelname = "Lower middle income"  if `match' == "SLB"  
          replace incomelevelname = "Low income"  if `match' == "SLE"  
@@ -306,12 +306,11 @@
          replace incomelevelname = "Lower middle income"  if `match' == "VUT"  
          replace incomelevelname = "Aggregates"  if `match' == "WLD"  
          replace incomelevelname = "Upper middle income"  if `match' == "WSM"  
-         replace incomelevelname = "Lower middle income"  if `match' == "XKX"  
+         replace incomelevelname = "Upper middle income"  if `match' == "XKX"  
          replace incomelevelname = "Aggregates"  if `match' == "XZN"  
          replace incomelevelname = "Low income"  if `match' == "YEM"  
          replace incomelevelname = "Upper middle income"  if `match' == "ZAF"  
          replace incomelevelname = "Lower middle income"  if `match' == "ZMB"  
-         replace incomelevelname = "Low income"  if `match' == "ZWE"  
   
 *********************
   

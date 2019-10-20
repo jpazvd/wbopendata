@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 25mar2019)}
+{title:Administrative Region  (as of 19oct2019)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -66,6 +66,7 @@
 {synoptset 33 tabbed}{...}
 {synopthdr:Latin America and Caribbean (excluding high income) (LAC)}
 {synoptline}
+{synopt:{opt ARG}}  Argentina {p_end}
 {synopt:{opt BLZ}}  Belize {p_end}
 {synopt:{opt BOL}}  Bolivia {p_end}
 {synopt:{opt BRA}}  Brazil {p_end}
@@ -175,5 +176,4 @@
 {synopt:{opt TGO}}  Togo {p_end}
 {synopt:{opt UGA}}  Uganda {p_end}
 {synopt:{opt ZMB}}  Zambia {p_end}
-{synopt:{opt ZWE}}  Zimbabwe {p_end}
 
