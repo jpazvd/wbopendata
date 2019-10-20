@@ -1,4 +1,4 @@
-*! _regionname <20 Oct 2019 : 14:03:53>                 by João Pedro Azevedo
+*! _regionname <20 Oct 2019 : 14:26:48>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _regionname 

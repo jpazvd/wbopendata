@@ -1,7 +1,7 @@
 **********************************************************
-*! version 15.2.1 			<20Oct2019>		JPAzevedo
+*! version 16.0 			<20Oct2019>		JPAzevedo
 *
-*	change indicators update; function _update_indicators.ado replaced by 
+*	change indicators update; function _update_indicators.ado replace  
 *   _indicators.ado increase the return list stored under parameter 
 *	add report tables with SOURCE adn TOPIC labels
 *
