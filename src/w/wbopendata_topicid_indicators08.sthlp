@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 13mar2019)}
+=======
+{right:(as of 20oct2019)}
+>>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,6 +44,7 @@
 {syntab:{title:{bf:08 Health}}}
 {synoptline}
 {marker topicid_SG.VAW.1549.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.1549.ZS:SG.VAW.1549.ZS} - Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -47,64 +52,114 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Proportion of women subjected to physical and/or sexual violence in the last 12 months is the percentage of ever partnered women age 15-49 who are subjected to physical violence, sexual violence or both by a current or former intimate partner in the last 12 months.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.1549.ZS:SG.VAW.1549.ZS} - `"Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Proportion of women subjected to physical and/or sexual violence in the last 12 months is the percentage of ever partnered women age 15-49 who are subjected to physical violence, sexual violence or both by a current or former intimate partner{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}United Nations Statistics Division (UNSD){p_end}
 
 
 {synoptline}
 {marker topicid_SG.VAW.ARGU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS} - Women who believe a husband is justified in beating his wife when she argues with him (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she argues with him.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SG.VAW.BURN.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.BURN.ZS:SG.VAW.BURN.ZS} - Women who believe a husband is justified in beating his wife when she burns the food (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.BURN.ZS:SG.VAW.BURN.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she burns the food.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SG.VAW.GOES.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.GOES.ZS:SG.VAW.GOES.ZS} - Women who believe a husband is justified in beating his wife when she goes out without telling him (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.GOES.ZS:SG.VAW.GOES.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she goes out without telling him.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SG.VAW.NEGL.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS} - Women who believe a husband is justified in beating his wife when she neglects the children (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she neglects the children.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SG.VAW.REAS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.REAS.ZS:SG.VAW.REAS.ZS} - Women who believe a husband is justified in beating his wife (any of five reasons) (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -114,23 +169,45 @@
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when she neglects the children.{p_end}
 
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.REAS.ZS:SG.VAW.REAS.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner for any of the following five reasons: argues with him; refuses to have sex; burns the food; goes out without telling him; or when{p_end}
+
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SG.VAW.REFU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.REFU.ZS:SG.VAW.REFU.ZS} - Women who believe a husband is justified in beating his wife when she refuses sex with him (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SG.VAW.REFU.ZS:SG.VAW.REFU.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percentage of women ages 15-49 who believe a husband/partner is justified in hitting or beating his wife/partner when she refuses sex with him.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler (http://www.statcompiler.com/) as of November 22, 2016, UNICEF global databases (http://www.data.unicef.org/) as of November 2015. MICS Compiler (http://www.micscompiler.org/) as of June 12, 2016.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS), and other surveys: STATcompiler ({browse "http://www.statcompiler.com/"}) as of November 22, 2016, UNICEF global databases ({browse "http://www.data.unicef.org/"}) as of November 2015.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.ACS.ALON.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q1.ZS:SH.ACS.ALON.Q1.ZS} - Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -138,12 +215,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q1.ZS:SH.ACS.ALON.Q1.ZS} - `"Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.ALON.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q2.ZS:SH.ACS.ALON.Q2.ZS} - Problems in accessing health care (not wanting to go alone) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -151,12 +238,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q2.ZS:SH.ACS.ALON.Q2.ZS} - `"Problems in accessing health care (not wanting to go alone) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.ALON.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q3.ZS:SH.ACS.ALON.Q3.ZS} - Problems in accessing health care (not wanting to go alone) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -164,12 +261,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q3.ZS:SH.ACS.ALON.Q3.ZS} - `"Problems in accessing health care (not wanting to go alone) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.ALON.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q4.ZS:SH.ACS.ALON.Q4.ZS} - Problems in accessing health care (not wanting to go alone) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -177,12 +284,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q4.ZS:SH.ACS.ALON.Q4.ZS} - `"Problems in accessing health care (not wanting to go alone) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.ALON.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q5.ZS:SH.ACS.ALON.Q5.ZS} - Problems in accessing health care (not wanting to go alone) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -190,12 +307,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.ALON.Q5.ZS:SH.ACS.ALON.Q5.ZS} - `"Problems in accessing health care (not wanting to go alone) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.DIST.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q1.ZS:SH.ACS.DIST.Q1.ZS} - Problems in accessing health care (distance to health facility) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -203,12 +330,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q1.ZS:SH.ACS.DIST.Q1.ZS} - `"Problems in accessing health care (distance to health facility) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.DIST.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q2.ZS:SH.ACS.DIST.Q2.ZS} - Problems in accessing health care (distance to health facility) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -216,12 +353,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q2.ZS:SH.ACS.DIST.Q2.ZS} - `"Problems in accessing health care (distance to health facility) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.DIST.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q3.ZS:SH.ACS.DIST.Q3.ZS} - Problems in accessing health care (distance to health facility) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -229,12 +376,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q3.ZS:SH.ACS.DIST.Q3.ZS} - `"Problems in accessing health care (distance to health facility) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.DIST.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q4.ZS:SH.ACS.DIST.Q4.ZS} - Problems in accessing health care (distance to health facility) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -242,12 +399,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q4.ZS:SH.ACS.DIST.Q4.ZS} - `"Problems in accessing health care (distance to health facility) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.DIST.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q5.ZS:SH.ACS.DIST.Q5.ZS} - Problems in accessing health care (distance to health facility) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -255,12 +422,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.DIST.Q5.ZS:SH.ACS.DIST.Q5.ZS} - `"Problems in accessing health care (distance to health facility) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.MONY.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q1.ZS:SH.ACS.MONY.Q1.ZS} - Problems in accessing health care (getting money for treatment) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -268,12 +445,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q1.ZS:SH.ACS.MONY.Q1.ZS} - `"Problems in accessing health care (getting money for treatment) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.MONY.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q2.ZS:SH.ACS.MONY.Q2.ZS} - Problems in accessing health care (getting money for treatment) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -281,12 +468,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q2.ZS:SH.ACS.MONY.Q2.ZS} - `"Problems in accessing health care (getting money for treatment) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.MONY.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q3.ZS:SH.ACS.MONY.Q3.ZS} - Problems in accessing health care (getting money for treatment) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -294,12 +491,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q3.ZS:SH.ACS.MONY.Q3.ZS} - `"Problems in accessing health care (getting money for treatment) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.MONY.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q4.ZS:SH.ACS.MONY.Q4.ZS} - Problems in accessing health care (getting money for treatment) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -307,12 +514,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q4.ZS:SH.ACS.MONY.Q4.ZS} - `"Problems in accessing health care (getting money for treatment) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.MONY.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q5.ZS:SH.ACS.MONY.Q5.ZS} - Problems in accessing health care (getting money for treatment) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -320,12 +537,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.MONY.Q5.ZS:SH.ACS.MONY.Q5.ZS} - `"Problems in accessing health care (getting money for treatment) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.NOFP.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q1.ZS:SH.ACS.NOFP.Q1.ZS} - Problems in accessing health care (concern there may not be a female provider) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -333,12 +560,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q1.ZS:SH.ACS.NOFP.Q1.ZS} - `"Problems in accessing health care (concern there may not be a female provider) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.NOFP.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q2.ZS:SH.ACS.NOFP.Q2.ZS} - Problems in accessing health care (concern there may not be a female provider) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -346,12 +583,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q2.ZS:SH.ACS.NOFP.Q2.ZS} - `"Problems in accessing health care (concern there may not be a female provider) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.NOFP.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q3.ZS:SH.ACS.NOFP.Q3.ZS} - Problems in accessing health care (concern there may not be a female provider) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -359,12 +606,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q3.ZS:SH.ACS.NOFP.Q3.ZS} - `"Problems in accessing health care (concern there may not be a female provider) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.NOFP.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q4.ZS:SH.ACS.NOFP.Q4.ZS} - Problems in accessing health care (concern there may not be a female provider) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -372,12 +629,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q4.ZS:SH.ACS.NOFP.Q4.ZS} - `"Problems in accessing health care (concern there may not be a female provider) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.NOFP.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q5.ZS:SH.ACS.NOFP.Q5.ZS} - Problems in accessing health care (concern there may not be a female provider) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -385,12 +652,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.NOFP.Q5.ZS:SH.ACS.NOFP.Q5.ZS} - `"Problems in accessing health care (concern there may not be a female provider) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PERM.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q1.ZS:SH.ACS.PERM.Q1.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -398,12 +675,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q1.ZS:SH.ACS.PERM.Q1.ZS} - `"Problems in accessing health care (getting permission to go for treatment) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PERM.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q2.ZS:SH.ACS.PERM.Q2.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -411,12 +698,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q2.ZS:SH.ACS.PERM.Q2.ZS} - `"Problems in accessing health care (getting permission to go for treatment) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PERM.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -424,12 +721,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q3.ZS:SH.ACS.PERM.Q3.ZS} - `"Problems in accessing health care (getting permission to go for treatment) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PERM.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q4.ZS:SH.ACS.PERM.Q4.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -437,12 +744,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q4.ZS:SH.ACS.PERM.Q4.ZS} - `"Problems in accessing health care (getting permission to go for treatment) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PERM.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q5.ZS:SH.ACS.PERM.Q5.ZS} - Problems in accessing health care (getting permission to go for treatment) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -450,12 +767,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PERM.Q5.ZS:SH.ACS.PERM.Q5.ZS} - `"Problems in accessing health care (getting permission to go for treatment) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PROB.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q1.ZS:SH.ACS.PROB.Q1.ZS} - Problems in accessing health care (any of the specified problems) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -463,12 +790,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q1.ZS:SH.ACS.PROB.Q1.ZS} - `"Problems in accessing health care (any of the specified problems) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PROB.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q2.ZS:SH.ACS.PROB.Q2.ZS} - Problems in accessing health care (any of the specified problems) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -476,12 +813,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q2.ZS:SH.ACS.PROB.Q2.ZS} - `"Problems in accessing health care (any of the specified problems) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PROB.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q3.ZS:SH.ACS.PROB.Q3.ZS} - Problems in accessing health care (any of the specified problems) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -489,12 +836,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q3.ZS:SH.ACS.PROB.Q3.ZS} - `"Problems in accessing health care (any of the specified problems) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PROB.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q4.ZS:SH.ACS.PROB.Q4.ZS} - Problems in accessing health care (any of the specified problems) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -502,12 +859,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q4.ZS:SH.ACS.PROB.Q4.ZS} - `"Problems in accessing health care (any of the specified problems) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.PROB.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q5.ZS:SH.ACS.PROB.Q5.ZS} - Problems in accessing health care (any of the specified problems) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -515,12 +882,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.PROB.Q5.ZS:SH.ACS.PROB.Q5.ZS} - `"Problems in accessing health care (any of the specified problems) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.TRAN.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q1.ZS:SH.ACS.TRAN.Q1.ZS} - Problems in accessing health care (having to take transport) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -528,12 +905,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q1.ZS:SH.ACS.TRAN.Q1.ZS} - `"Problems in accessing health care (having to take transport) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.TRAN.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q2.ZS:SH.ACS.TRAN.Q2.ZS} - Problems in accessing health care (having to take transport) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -541,12 +928,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q2.ZS:SH.ACS.TRAN.Q2.ZS} - `"Problems in accessing health care (having to take transport) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.TRAN.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q3.ZS:SH.ACS.TRAN.Q3.ZS} - Problems in accessing health care (having to take transport) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -554,12 +951,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q3.ZS:SH.ACS.TRAN.Q3.ZS} - `"Problems in accessing health care (having to take transport) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.TRAN.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q4.ZS:SH.ACS.TRAN.Q4.ZS} - Problems in accessing health care (having to take transport) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -567,12 +974,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q4.ZS:SH.ACS.TRAN.Q4.ZS} - `"Problems in accessing health care (having to take transport) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.TRAN.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q5.ZS:SH.ACS.TRAN.Q5.ZS} - Problems in accessing health care (having to take transport) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -580,12 +997,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.TRAN.Q5.ZS:SH.ACS.TRAN.Q5.ZS} - `"Problems in accessing health care (having to take transport) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.WHER.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q1.ZS:SH.ACS.WHER.Q1.ZS} - Problems in accessing health care (knowing where to go for treatment) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -593,12 +1020,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q1.ZS:SH.ACS.WHER.Q1.ZS} - `"Problems in accessing health care (knowing where to go for treatment) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.WHER.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q2.ZS:SH.ACS.WHER.Q2.ZS} - Problems in accessing health care (knowing where to go for treatment) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -606,12 +1043,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q2.ZS:SH.ACS.WHER.Q2.ZS} - `"Problems in accessing health care (knowing where to go for treatment) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.WHER.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q3.ZS:SH.ACS.WHER.Q3.ZS} - Problems in accessing health care (knowing where to go for treatment) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -619,12 +1066,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q3.ZS:SH.ACS.WHER.Q3.ZS} - `"Problems in accessing health care (knowing where to go for treatment) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.WHER.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q4.ZS:SH.ACS.WHER.Q4.ZS} - Problems in accessing health care (knowing where to go for treatment) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -632,12 +1089,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q4.ZS:SH.ACS.WHER.Q4.ZS} - `"Problems in accessing health care (knowing where to go for treatment) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ACS.WHER.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q5.ZS:SH.ACS.WHER.Q5.ZS} - Problems in accessing health care (knowing where to go for treatment) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -645,12 +1112,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting permission to go for treatment, getting money for treatment, distance to health facility, having to take transport, not wanting to go alone, and concern there may not be a female provider.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ACS.WHER.Q5.ZS:SH.ACS.WHER.Q5.ZS} - `"Problems in accessing health care (knowing where to go for treatment) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, get{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.ALC.PCAP.FE.LI}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.FE.LI:SH.ALC.PCAP.FE.LI} - Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -658,12 +1135,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.FE.LI:SH.ALC.PCAP.FE.LI} - `"Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.ALC.PCAP.LI}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.LI:SH.ALC.PCAP.LI} - Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -671,12 +1158,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.LI:SH.ALC.PCAP.LI} - `"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.ALC.PCAP.MA.LI}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.MA.LI:SH.ALC.PCAP.MA.LI} - Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -684,15 +1181,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consumption.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.MA.LI:SH.ALC.PCAP.MA.LI} - `"Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total alcohol per capita consumption is defined as the total (sum of recorded and unrecorded alcohol) amount of alcohol consumed per person (15 years of age or older) over a calendar year, in litres of pure alcohol, adjusted for tourist consum{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.ANM.ALLW.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ANM.ALLW.ZS:SH.ANM.ALLW.ZS} - Prevalence of anemia among women of reproductive age (% of women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ANM.ALLW.ZS:SH.ANM.ALLW.ZS} - `"Prevalence of anemia among women of reproductive age (% of women ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -703,9 +1215,15 @@
 
 {synoptline}
 {marker topicid_SH.ANM.CHLD.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS} - Prevalence of anemia among children (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS} - `"Prevalence of anemia among children (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -716,9 +1234,15 @@
 
 {synoptline}
 {marker topicid_SH.ANM.NPRG.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.ANM.NPRG.ZS:SH.ANM.NPRG.ZS} - Prevalence of anemia among non-pregnant women (% of women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.ANM.NPRG.ZS:SH.ANM.NPRG.ZS} - `"Prevalence of anemia among non-pregnant women (% of women ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -729,9 +1253,15 @@
 
 {synoptline}
 {marker topicid_SH.CON.1524.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS} - Condom use, population ages 15-24, female (% of females ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS} - `"Condom use, population ages 15-24, female (% of females ages 15-24)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -742,9 +1272,15 @@
 
 {synoptline}
 {marker topicid_SH.CON.1524.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS} - Condom use, population ages 15-24, male (% of males ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS} - `"Condom use, population ages 15-24, male (% of males ages 15-24)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -755,9 +1291,15 @@
 
 {synoptline}
 {marker topicid_SH.DTH.0514}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.0514:SH.DTH.0514} - Number of deaths ages 5-14 years}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.0514:SH.DTH.0514} - `"Number of deaths ages 5-14 years"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -768,6 +1310,7 @@
 
 {synoptline}
 {marker topicid_SH.DTH.COMM.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.ZS:SH.DTH.COMM.ZS} - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -775,15 +1318,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritional deficiencies such as underweight and stunting.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.ZS:SH.DTH.COMM.ZS} - `"Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Communicable diseases and maternal, prenatal and nutrition conditions include infectious and parasitic diseases, respiratory infections, and nutritional defici{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.IMRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT:SH.DTH.IMRT} - Number of infant deaths}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT:SH.DTH.IMRT} - `"Number of infant deaths"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -794,9 +1352,15 @@
 
 {synoptline}
 {marker topicid_SH.DTH.INJR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.ZS:SH.DTH.INJR.ZS} - Cause of death, by injury (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.ZS:SH.DTH.INJR.ZS} - `"Cause of death, by injury (% of total)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -807,9 +1371,15 @@
 
 {synoptline}
 {marker topicid_SH.DTH.MORT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT:SH.DTH.MORT} - Number of under-five deaths}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT:SH.DTH.MORT} - `"Number of under-five deaths"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -820,6 +1390,7 @@
 
 {synoptline}
 {marker topicid_SH.DTH.NCOM.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.ZS:SH.DTH.NCOM.ZS} - Cause of death, by non-communicable diseases (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -827,15 +1398,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and congenital anomalies.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.ZS:SH.DTH.NCOM.ZS} - `"Cause of death, by non-communicable diseases (% of total)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Cause of death refers to the share of all deaths for all ages by underlying causes. Non-communicable diseases include cancer, diabetes mellitus, cardiovascular diseases, digestive diseases, skin diseases, musculoskeletal diseases, and congenit{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Derived based on the data from WHO's Global Health Estimates.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DTH.NMRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.NMRT:SH.DTH.NMRT} - Number of neonatal deaths}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DTH.NMRT:SH.DTH.NMRT} - `"Number of neonatal deaths"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -846,9 +1432,15 @@
 
 {synoptline}
 {marker topicid_SH.DYN.0514}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.0514:SH.DYN.0514} - Probability of dying at age 5-14 years (per 1,000 children age 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.0514:SH.DYN.0514} - `"Probability of dying at age 5-14 years (per 1,000 children age 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -859,9 +1451,15 @@
 
 {synoptline}
 {marker topicid_SH.DYN.AIDS.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS} - Women's share of population ages 15+ living with HIV (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS} - `"Women's share of population ages 15+ living with HIV (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -872,9 +1470,15 @@
 
 {synoptline}
 {marker topicid_SH.DYN.AIDS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS} - Prevalence of HIV, total (% of population ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS} - `"Prevalence of HIV, total (% of population ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -885,35 +1489,61 @@
 
 {synoptline}
 {marker topicid_SH.DYN.CHLD.FE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.CHLD.FE:SH.DYN.CHLD.FE} - Mortality rate, female child (per 1,000 female children age one)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.CHLD.FE:SH.DYN.CHLD.FE} - `"Mortality rate, female child (per 1,000 female children age one)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes for a source.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.DYN.CHLD.MA}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.CHLD.MA:SH.DYN.CHLD.MA} - Mortality rate, male child (per 1,000 male children age one)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.CHLD.MA:SH.DYN.CHLD.MA} - `"Mortality rate, male child (per 1,000 male children age one)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child mortality rate is the probability of dying between the exact ages of one and five, if subject to current age-specific mortality rates. The probability is expressed as a rate per 1,000.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes for a source.{p_end}
+=======
+{synopt:{opt Source Organization}}Demographic and Health Surveys by ICF International, Multiple Indicators Cluster Surveys by UNICEF, Reproductive Health Surveys by U.S. Center for Disease Control, and Family Health Surveys by Pan Arab Project for Family Health. See footnotes{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.DYN.MORT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - Mortality rate, under-5 (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - `"Mortality rate, under-5 (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -924,9 +1554,15 @@
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.FE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.FE:SH.DYN.MORT.FE} - Mortality rate, under-5, female (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.FE:SH.DYN.MORT.FE} - `"Mortality rate, under-5, female (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -937,9 +1573,15 @@
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.MA}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.MA:SH.DYN.MORT.MA} - Mortality rate, under-5, male (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.MA:SH.DYN.MORT.MA} - `"Mortality rate, under-5, male (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -950,6 +1592,7 @@
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q1:SH.DYN.MORT.Q1} - Under-5 mortality rate (per 1,000 live births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -957,12 +1600,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q1:SH.DYN.MORT.Q1} - `"Under-5 mortality rate (per 1,000 live births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q2:SH.DYN.MORT.Q2} - Under-5 mortality rate (per 1,000 live births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -970,12 +1623,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q2:SH.DYN.MORT.Q2} - `"Under-5 mortality rate (per 1,000 live births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q3:SH.DYN.MORT.Q3} - Under-5 mortality rate (per 1,000 live births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -983,12 +1646,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q3:SH.DYN.MORT.Q3} - `"Under-5 mortality rate (per 1,000 live births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q4:SH.DYN.MORT.Q4} - Under-5 mortality rate (per 1,000 live births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -996,12 +1669,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q4:SH.DYN.MORT.Q4} - `"Under-5 mortality rate (per 1,000 live births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.MORT.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q5:SH.DYN.MORT.Q5} - Under-5 mortality rate (per 1,000 live births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -1009,12 +1692,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.Q5:SH.DYN.MORT.Q5} - `"Under-5 mortality rate (per 1,000 live births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Under-5 mortality rate: Number of deaths to children under age five years per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.NCOM.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.FE.ZS:SH.DYN.NCOM.FE.ZS} - Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -1022,12 +1715,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death (e.g., injuries or HIV/AIDS).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.FE.ZS:SH.DYN.NCOM.FE.ZS} - `"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.NCOM.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.MA.ZS:SH.DYN.NCOM.MA.ZS} - Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -1035,12 +1738,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death (e.g., injuries or HIV/AIDS).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.MA.ZS:SH.DYN.NCOM.MA.ZS} - `"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.NCOM.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.ZS:SH.DYN.NCOM.ZS} - Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -1048,15 +1761,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death (e.g., injuries or HIV/AIDS).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.ZS:SH.DYN.NCOM.ZS} - `"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes,  or chronic respiratory disease, assuming that s/he would experienc{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.DYN.NMRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NMRT:SH.DYN.NMRT} - Mortality rate, neonatal (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.DYN.NMRT:SH.DYN.NMRT} - `"Mortality rate, neonatal (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1067,9 +1795,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.ACPT.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q1.ZS:SH.FPL.ACPT.Q1.ZS} - Acceptability of media messages on family planning (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q1.ZS:SH.FPL.ACPT.Q1.ZS} - `"Acceptability of media messages on family planning (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1080,9 +1814,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.ACPT.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - Acceptability of media messages on family planning (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q2.ZS:SH.FPL.ACPT.Q2.ZS} - `"Acceptability of media messages on family planning (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1093,9 +1833,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.ACPT.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q3.ZS:SH.FPL.ACPT.Q3.ZS} - Acceptability of media messages on family planning (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q3.ZS:SH.FPL.ACPT.Q3.ZS} - `"Acceptability of media messages on family planning (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1106,9 +1852,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.ACPT.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q4.ZS:SH.FPL.ACPT.Q4.ZS} - Acceptability of media messages on family planning (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q4.ZS:SH.FPL.ACPT.Q4.ZS} - `"Acceptability of media messages on family planning (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1119,9 +1871,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.ACPT.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q5.ZS:SH.FPL.ACPT.Q5.ZS} - Acceptability of media messages on family planning (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.ACPT.Q5.ZS:SH.FPL.ACPT.Q5.ZS} - `"Acceptability of media messages on family planning (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1132,9 +1890,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FBRT.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q1.ZS:SH.FPL.FBRT.Q1.ZS} - Median age at first birth (women ages 25-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q1.ZS:SH.FPL.FBRT.Q1.ZS} - `"Median age at first birth (women ages 25-49): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1145,9 +1909,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FBRT.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q2.ZS:SH.FPL.FBRT.Q2.ZS} - Median age at first birth (women ages 25-49): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q2.ZS:SH.FPL.FBRT.Q2.ZS} - `"Median age at first birth (women ages 25-49): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1158,9 +1928,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FBRT.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q3.ZS:SH.FPL.FBRT.Q3.ZS} - Median age at first birth (women ages 25-49): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q3.ZS:SH.FPL.FBRT.Q3.ZS} - `"Median age at first birth (women ages 25-49): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1171,9 +1947,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FBRT.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q4.ZS:SH.FPL.FBRT.Q4.ZS} - Median age at first birth (women ages 25-49): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q4.ZS:SH.FPL.FBRT.Q4.ZS} - `"Median age at first birth (women ages 25-49): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1184,9 +1966,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FBRT.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q5.ZS:SH.FPL.FBRT.Q5.ZS} - Median age at first birth (women ages 25-49): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FBRT.Q5.ZS:SH.FPL.FBRT.Q5.ZS} - `"Median age at first birth (women ages 25-49): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1197,9 +1985,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FMAR.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q1.ZS:SH.FPL.FMAR.Q1.ZS} - Median age at first marriage (women ages 25-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q1.ZS:SH.FPL.FMAR.Q1.ZS} - `"Median age at first marriage (women ages 25-49): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1210,9 +2004,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FMAR.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q2.ZS:SH.FPL.FMAR.Q2.ZS} - Median age at first marriage (women ages 25-49): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q2.ZS:SH.FPL.FMAR.Q2.ZS} - `"Median age at first marriage (women ages 25-49): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1223,9 +2023,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FMAR.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q3.ZS:SH.FPL.FMAR.Q3.ZS} - Median age at first marriage (women ages 25-49): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q3.ZS:SH.FPL.FMAR.Q3.ZS} - `"Median age at first marriage (women ages 25-49): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1236,9 +2042,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FMAR.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q4.ZS:SH.FPL.FMAR.Q4.ZS} - Median age at first marriage (women ages 25-49): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q4.ZS:SH.FPL.FMAR.Q4.ZS} - `"Median age at first marriage (women ages 25-49): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1249,9 +2061,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FMAR.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q5.ZS:SH.FPL.FMAR.Q5.ZS} - Median age at first marriage (women ages 25-49): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FMAR.Q5.ZS:SH.FPL.FMAR.Q5.ZS} - `"Median age at first marriage (women ages 25-49): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1262,9 +2080,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FSEX.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q1.ZS:SH.FPL.FSEX.Q1.ZS} - Median age at first sexual intercourse (women ages 25-49): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q1.ZS:SH.FPL.FSEX.Q1.ZS} - `"Median age at first sexual intercourse (women ages 25-49): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1275,9 +2099,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FSEX.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q2.ZS:SH.FPL.FSEX.Q2.ZS} - Median age at first sexual intercourse (women ages 25-49): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q2.ZS:SH.FPL.FSEX.Q2.ZS} - `"Median age at first sexual intercourse (women ages 25-49): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1288,9 +2118,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FSEX.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q3.ZS:SH.FPL.FSEX.Q3.ZS} - Median age at first sexual intercourse (women ages 25-49): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q3.ZS:SH.FPL.FSEX.Q3.ZS} - `"Median age at first sexual intercourse (women ages 25-49): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1301,9 +2137,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FSEX.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q4.ZS:SH.FPL.FSEX.Q4.ZS} - Median age at first sexual intercourse (women ages 25-49): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q4.ZS:SH.FPL.FSEX.Q4.ZS} - `"Median age at first sexual intercourse (women ages 25-49): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1314,9 +2156,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.FSEX.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q5.ZS:SH.FPL.FSEX.Q5.ZS} - Median age at first sexual intercourse (women ages 25-49): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.FSEX.Q5.ZS:SH.FPL.FSEX.Q5.ZS} - `"Median age at first sexual intercourse (women ages 25-49): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1327,9 +2175,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.HEAR.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q1.ZS:SH.FPL.HEAR.Q1.ZS} - Heard family planning on radio and television (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q1.ZS:SH.FPL.HEAR.Q1.ZS} - `"Heard family planning on radio and television (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1340,9 +2194,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.HEAR.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q2.ZS:SH.FPL.HEAR.Q2.ZS} - Heard family planning on radio and television (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q2.ZS:SH.FPL.HEAR.Q2.ZS} - `"Heard family planning on radio and television (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1353,9 +2213,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.HEAR.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q3.ZS:SH.FPL.HEAR.Q3.ZS} - Heard family planning on radio and television (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q3.ZS:SH.FPL.HEAR.Q3.ZS} - `"Heard family planning on radio and television (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1366,9 +2232,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.HEAR.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q4.ZS:SH.FPL.HEAR.Q4.ZS} - Heard family planning on radio and television (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q4.ZS:SH.FPL.HEAR.Q4.ZS} - `"Heard family planning on radio and television (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1379,9 +2251,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.HEAR.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q5.ZS:SH.FPL.HEAR.Q5.ZS} - Heard family planning on radio and television (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.HEAR.Q5.ZS:SH.FPL.HEAR.Q5.ZS} - `"Heard family planning on radio and television (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1392,9 +2270,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.IDLC.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q1:SH.FPL.IDLC.Q1} - Mean ideal number of children (per woman): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q1:SH.FPL.IDLC.Q1} - `"Mean ideal number of children (per woman): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1405,9 +2289,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.IDLC.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q2:SH.FPL.IDLC.Q2} - Mean ideal number of children (per woman): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q2:SH.FPL.IDLC.Q2} - `"Mean ideal number of children (per woman): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1418,9 +2308,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.IDLC.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q3:SH.FPL.IDLC.Q3} - Mean ideal number of children (per woman): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q3:SH.FPL.IDLC.Q3} - `"Mean ideal number of children (per woman): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1431,9 +2327,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.IDLC.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q4:SH.FPL.IDLC.Q4} - Mean ideal number of children (per woman): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q4:SH.FPL.IDLC.Q4} - `"Mean ideal number of children (per woman): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1444,9 +2346,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.IDLC.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q5:SH.FPL.IDLC.Q5} - Mean ideal number of children (per woman): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.IDLC.Q5:SH.FPL.IDLC.Q5} - `"Mean ideal number of children (per woman): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1457,9 +2365,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KNOW.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q1.ZS:SH.FPL.KNOW.Q1.ZS} - Knowledge of contraception (any method) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q1.ZS:SH.FPL.KNOW.Q1.ZS} - `"Knowledge of contraception (any method) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1470,9 +2384,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KNOW.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q2.ZS:SH.FPL.KNOW.Q2.ZS} - Knowledge of contraception (any method) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q2.ZS:SH.FPL.KNOW.Q2.ZS} - `"Knowledge of contraception (any method) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1483,9 +2403,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KNOW.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q3.ZS:SH.FPL.KNOW.Q3.ZS} - Knowledge of contraception (any method) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q3.ZS:SH.FPL.KNOW.Q3.ZS} - `"Knowledge of contraception (any method) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1496,9 +2422,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KNOW.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q4.ZS:SH.FPL.KNOW.Q4.ZS} - Knowledge of contraception (any method) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q4.ZS:SH.FPL.KNOW.Q4.ZS} - `"Knowledge of contraception (any method) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1509,9 +2441,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KNOW.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q5.ZS:SH.FPL.KNOW.Q5.ZS} - Knowledge of contraception (any method) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KNOW.Q5.ZS:SH.FPL.KNOW.Q5.ZS} - `"Knowledge of contraception (any method) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1522,9 +2460,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KWMD.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q1.ZS:SH.FPL.KWMD.Q1.ZS} - Knowledge of contraception (modern method) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q1.ZS:SH.FPL.KWMD.Q1.ZS} - `"Knowledge of contraception (modern method) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1535,9 +2479,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KWMD.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q2.ZS:SH.FPL.KWMD.Q2.ZS} - Knowledge of contraception (modern method) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q2.ZS:SH.FPL.KWMD.Q2.ZS} - `"Knowledge of contraception (modern method) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1548,9 +2498,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KWMD.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q3.ZS:SH.FPL.KWMD.Q3.ZS} - Knowledge of contraception (modern method) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q3.ZS:SH.FPL.KWMD.Q3.ZS} - `"Knowledge of contraception (modern method) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1561,9 +2517,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KWMD.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q4.ZS:SH.FPL.KWMD.Q4.ZS} - Knowledge of contraception (modern method) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q4.ZS:SH.FPL.KWMD.Q4.ZS} - `"Knowledge of contraception (modern method) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1574,9 +2536,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.KWMD.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q5.ZS:SH.FPL.KWMD.Q5.ZS} - Knowledge of contraception (modern method) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.KWMD.Q5.ZS:SH.FPL.KWMD.Q5.ZS} - `"Knowledge of contraception (modern method) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1587,9 +2555,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.LIMT.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q1.ZS:SH.FPL.LIMT.Q1.ZS} - Desire to stop (limit) childbearing (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q1.ZS:SH.FPL.LIMT.Q1.ZS} - `"Desire to stop (limit) childbearing (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1600,9 +2574,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.LIMT.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q2.ZS:SH.FPL.LIMT.Q2.ZS} - Desire to stop (limit) childbearing (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q2.ZS:SH.FPL.LIMT.Q2.ZS} - `"Desire to stop (limit) childbearing (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1613,9 +2593,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.LIMT.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q3.ZS:SH.FPL.LIMT.Q3.ZS} - Desire to stop (limit) childbearing (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q3.ZS:SH.FPL.LIMT.Q3.ZS} - `"Desire to stop (limit) childbearing (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1626,9 +2612,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.LIMT.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q4.ZS:SH.FPL.LIMT.Q4.ZS} - Desire to stop (limit) childbearing (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q4.ZS:SH.FPL.LIMT.Q4.ZS} - `"Desire to stop (limit) childbearing (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1639,9 +2631,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.LIMT.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q5.ZS:SH.FPL.LIMT.Q5.ZS} - Desire to stop (limit) childbearing (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.LIMT.Q5.ZS:SH.FPL.LIMT.Q5.ZS} - `"Desire to stop (limit) childbearing (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1652,9 +2650,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MBRI.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q1:SH.FPL.MBRI.Q1} - Median birth interval (months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q1:SH.FPL.MBRI.Q1} - `"Median birth interval (months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1665,9 +2669,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MBRI.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q2:SH.FPL.MBRI.Q2} - Median birth interval (months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q2:SH.FPL.MBRI.Q2} - `"Median birth interval (months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1678,9 +2688,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MBRI.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q3:SH.FPL.MBRI.Q3} - Median birth interval (months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q3:SH.FPL.MBRI.Q3} - `"Median birth interval (months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1691,9 +2707,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MBRI.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q4:SH.FPL.MBRI.Q4} - Median birth interval (months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q4:SH.FPL.MBRI.Q4} - `"Median birth interval (months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1704,9 +2726,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MBRI.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q5:SH.FPL.MBRI.Q5} - Median birth interval (months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MBRI.Q5:SH.FPL.MBRI.Q5} - `"Median birth interval (months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1717,9 +2745,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MSTM.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q1.ZS:SH.FPL.MSTM.Q1.ZS} - Fertility planning status (wanted later) (% of births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q1.ZS:SH.FPL.MSTM.Q1.ZS} - `"Fertility planning status (wanted later) (% of births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1730,9 +2764,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MSTM.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q2.ZS:SH.FPL.MSTM.Q2.ZS} - Fertility planning status (wanted later) (% of births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q2.ZS:SH.FPL.MSTM.Q2.ZS} - `"Fertility planning status (wanted later) (% of births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1743,9 +2783,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MSTM.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q3.ZS:SH.FPL.MSTM.Q3.ZS} - Fertility planning status (wanted later) (% of births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q3.ZS:SH.FPL.MSTM.Q3.ZS} - `"Fertility planning status (wanted later) (% of births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1756,9 +2802,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MSTM.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q4.ZS:SH.FPL.MSTM.Q4.ZS} - Fertility planning status (wanted later) (% of births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q4.ZS:SH.FPL.MSTM.Q4.ZS} - `"Fertility planning status (wanted later) (% of births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1769,9 +2821,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.MSTM.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q5.ZS:SH.FPL.MSTM.Q5.ZS} - Fertility planning status (wanted later) (% of births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.MSTM.Q5.ZS:SH.FPL.MSTM.Q5.ZS} - `"Fertility planning status (wanted later) (% of births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1782,9 +2840,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.READ.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q1.ZS:SH.FPL.READ.Q1.ZS} - Family planning messages in print (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q1.ZS:SH.FPL.READ.Q1.ZS} - `"Family planning messages in print (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1795,9 +2859,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.READ.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q2.ZS:SH.FPL.READ.Q2.ZS} - Family planning messages in print (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q2.ZS:SH.FPL.READ.Q2.ZS} - `"Family planning messages in print (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1808,9 +2878,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.READ.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q3.ZS:SH.FPL.READ.Q3.ZS} - Family planning messages in print (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q3.ZS:SH.FPL.READ.Q3.ZS} - `"Family planning messages in print (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1821,9 +2897,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.READ.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q4.ZS:SH.FPL.READ.Q4.ZS} - Family planning messages in print (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q4.ZS:SH.FPL.READ.Q4.ZS} - `"Family planning messages in print (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1834,9 +2916,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.READ.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q5.ZS:SH.FPL.READ.Q5.ZS} - Family planning messages in print (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.READ.Q5.ZS:SH.FPL.READ.Q5.ZS} - `"Family planning messages in print (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1847,9 +2935,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.SATM.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.SATM.ZS:SH.FPL.SATM.ZS} - Demand for family planning satisfied by modern methods (% of married women with demand for family planning)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.SATM.ZS:SH.FPL.SATM.ZS} - `"Demand for family planning satisfied by modern methods (% of married women with demand for family planning)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1860,9 +2954,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.UWTD.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q1.ZS:SH.FPL.UWTD.Q1.ZS} - Fertility planning status (wanted no more) (% of births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q1.ZS:SH.FPL.UWTD.Q1.ZS} - `"Fertility planning status (wanted no more) (% of births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1873,9 +2973,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.UWTD.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q2.ZS:SH.FPL.UWTD.Q2.ZS} - Fertility planning status (wanted no more) (% of births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q2.ZS:SH.FPL.UWTD.Q2.ZS} - `"Fertility planning status (wanted no more) (% of births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1886,9 +2992,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.UWTD.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q3.ZS:SH.FPL.UWTD.Q3.ZS} - Fertility planning status (wanted no more) (% of births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q3.ZS:SH.FPL.UWTD.Q3.ZS} - `"Fertility planning status (wanted no more) (% of births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1899,9 +3011,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.UWTD.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q4.ZS:SH.FPL.UWTD.Q4.ZS} - Fertility planning status (wanted no more) (% of births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q4.ZS:SH.FPL.UWTD.Q4.ZS} - `"Fertility planning status (wanted no more) (% of births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1912,9 +3030,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.UWTD.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q5.ZS:SH.FPL.UWTD.Q5.ZS} - Fertility planning status (wanted no more) (% of births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.UWTD.Q5.ZS:SH.FPL.UWTD.Q5.ZS} - `"Fertility planning status (wanted no more) (% of births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1925,9 +3049,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.WNTD.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q1.ZS:SH.FPL.WNTD.Q1.ZS} - Fertility planning status (wanted then) (% of births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q1.ZS:SH.FPL.WNTD.Q1.ZS} - `"Fertility planning status (wanted then) (% of births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1938,9 +3068,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.WNTD.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q2.ZS:SH.FPL.WNTD.Q2.ZS} - Fertility planning status (wanted then) (% of births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q2.ZS:SH.FPL.WNTD.Q2.ZS} - `"Fertility planning status (wanted then) (% of births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1951,9 +3087,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.WNTD.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q3.ZS:SH.FPL.WNTD.Q3.ZS} - Fertility planning status (wanted then) (% of births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q3.ZS:SH.FPL.WNTD.Q3.ZS} - `"Fertility planning status (wanted then) (% of births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1964,9 +3106,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.WNTD.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q4.ZS:SH.FPL.WNTD.Q4.ZS} - Fertility planning status (wanted then) (% of births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q4.ZS:SH.FPL.WNTD.Q4.ZS} - `"Fertility planning status (wanted then) (% of births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1977,9 +3125,15 @@
 
 {synoptline}
 {marker topicid_SH.FPL.WNTD.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q5.ZS:SH.FPL.WNTD.Q5.ZS} - Fertility planning status (wanted then) (% of births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.FPL.WNTD.Q5.ZS:SH.FPL.WNTD.Q5.ZS} - `"Fertility planning status (wanted then) (% of births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1990,6 +3144,7 @@
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.Q1.ZS:SH.H2O.BASW.Q1.ZS} - People using at least basic drinking water services (% of population): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -1997,12 +3152,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.Q1.ZS:SH.H2O.BASW.Q1.ZS} - `"People using at least basic drinking water services (% of population): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.RU.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.Q2.ZS:SH.H2O.BASW.RU.Q2.ZS} - People using at least basic drinking water services, rural (% of rural population): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2010,12 +3175,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.Q2.ZS:SH.H2O.BASW.RU.Q2.ZS} - `"People using at least basic drinking water services, rural (% of rural population): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - People using at least basic drinking water services, rural (% of rural population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2023,12 +3198,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - `"People using at least basic drinking water services, rural (% of rural population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - People using at least basic drinking water services, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2036,12 +3221,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - `"People using at least basic drinking water services, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.BASW.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - People using at least basic drinking water services (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2049,12 +3244,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - `"People using at least basic drinking water services (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using at least basic water services.  This indicator encompasses both people using basic water services as well as those using safely managed water services.  Basic drinking water services is defined as drinking water{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - Improved water source, rural (% of rural population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -2062,12 +3267,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.RU.ZS:SH.H2O.SAFE.RU.ZS} - `"Improved water source, rural (% of rural population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Access to an improved water source, rural, refers to the percentage of the rural population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - Improved water source, urban (% of urban population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -2075,12 +3290,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - `"Improved water source, urban (% of urban population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS} - Improved water source (% of population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -2088,12 +3313,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.ZS:SH.H2O.SAFE.ZS} - `"Improved water source (% of population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the use{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SMDW.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - People using safely managed drinking water services, rural (% of rural population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2101,12 +3336,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - `"People using safely managed drinking water services, rural (% of rural population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SMDW.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - People using safely managed drinking water services, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2114,12 +3359,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - `"People using safely managed drinking water services, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SMDW.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - People using safely managed drinking water services (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2127,15 +3382,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - `"People using safely managed drinking water services (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using drinking water from an improved source that is accessible on premises, available when needed and free from faecal and priority chemical contamination. Improved water sources include piped water, boreholes or tube{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.HIV.0014}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.0014:SH.HIV.0014} - Children (0-14) living with HIV}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.0014:SH.HIV.0014} - `"Children (0-14) living with HIV"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2146,9 +3416,15 @@
 
 {synoptline}
 {marker topicid_SH.HIV.1524.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS} - Prevalence of HIV, female (% ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS} - `"Prevalence of HIV, female (% ages 15-24)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2159,9 +3435,15 @@
 
 {synoptline}
 {marker topicid_SH.HIV.1524.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS} - Prevalence of HIV, male (% ages 15-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS} - `"Prevalence of HIV, male (% ages 15-24)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2172,9 +3454,15 @@
 
 {synoptline}
 {marker topicid_SH.HIV.ARTC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS} - Antiretroviral therapy coverage (% of people living with HIV)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS} - `"Antiretroviral therapy coverage (% of people living with HIV)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2185,9 +3473,15 @@
 
 {synoptline}
 {marker topicid_SH.HIV.INCD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD:SH.HIV.INCD} - Adults (ages 15+) newly infected with HIV}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD:SH.HIV.INCD} - `"Adults (ages 15+) newly infected with HIV"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2198,9 +3492,15 @@
 
 {synoptline}
 {marker topicid_SH.HIV.INCD.14}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.14:SH.HIV.INCD.14} - Children (ages 0-14) newly infected with HIV}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.14:SH.HIV.INCD.14} - `"Children (ages 0-14) newly infected with HIV"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2211,9 +3511,15 @@
 
 {synoptline}
 {marker topicid_SH.HIV.INCD.TL}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.TL:SH.HIV.INCD.TL} - Adults (ages 15+) and children (ages 0-14) newly infected with HIV}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.TL:SH.HIV.INCD.TL} - `"Adults (ages 15+) and children (ages 0-14) newly infected with HIV"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2224,6 +3530,7 @@
 
 {synoptline}
 {marker topicid_SH.HIV.INCD.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - Incidence of HIV (% of uninfected population ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2231,15 +3538,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-49 expressed per 100 uninfected population in the year before the period.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - `"Incidence of HIV (per 1,000 uninfected population ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-49 expressed per 1,000 uninfected population in the year before the period.{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.HIV.PMTC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.PMTC.ZS:SH.HIV.PMTC.ZS} - Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.PMTC.ZS:SH.HIV.PMTC.ZS} - `"Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2250,6 +3572,7 @@
 
 {synoptline}
 {marker topicid_SH.IMM.ALLV.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q1.ZS:SH.IMM.ALLV.Q1.ZS} - Vaccinations (all vaccinations) (% of children ages 12-23 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2257,12 +3580,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q1.ZS:SH.IMM.ALLV.Q1.ZS} - `"Vaccinations (all vaccinations) (% of children ages 12-23 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.ALLV.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q2.ZS:SH.IMM.ALLV.Q2.ZS} - Vaccinations (all vaccinations) (% of children ages 12-23 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2270,12 +3603,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q2.ZS:SH.IMM.ALLV.Q2.ZS} - `"Vaccinations (all vaccinations) (% of children ages 12-23 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.ALLV.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q3.ZS:SH.IMM.ALLV.Q3.ZS} - Vaccinations (all vaccinations) (% of children ages 12-23 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2283,12 +3626,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q3.ZS:SH.IMM.ALLV.Q3.ZS} - `"Vaccinations (all vaccinations) (% of children ages 12-23 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.ALLV.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q4.ZS:SH.IMM.ALLV.Q4.ZS} - Vaccinations (all vaccinations) (% of children ages 12-23 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2296,12 +3649,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q4.ZS:SH.IMM.ALLV.Q4.ZS} - `"Vaccinations (all vaccinations) (% of children ages 12-23 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.ALLV.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q5.ZS:SH.IMM.ALLV.Q5.ZS} - Vaccinations (all vaccinations) (% of children ages 12-23 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2309,15 +3672,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.ALLV.Q5.ZS:SH.IMM.ALLV.Q5.ZS} - `"Vaccinations (all vaccinations) (% of children ages 12-23 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.HEPB}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.HEPB:SH.IMM.HEPB} - Immunization, HepB3 (% of one-year-old children)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.HEPB:SH.IMM.HEPB} - `"Immunization, HepB3 (% of one-year-old children)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2328,6 +3706,7 @@
 
 {synoptline}
 {marker topicid_SH.IMM.IBCG.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q1.ZS:SH.IMM.IBCG.Q1.ZS} - Vaccinations (BCG) (% of children ages 12-23 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2335,12 +3714,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q1.ZS:SH.IMM.IBCG.Q1.ZS} - `"Vaccinations (BCG) (% of children ages 12-23 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IBCG.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q2.ZS:SH.IMM.IBCG.Q2.ZS} - Vaccinations (BCG) (% of children ages 12-23 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2348,12 +3737,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q2.ZS:SH.IMM.IBCG.Q2.ZS} - `"Vaccinations (BCG) (% of children ages 12-23 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IBCG.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q3.ZS:SH.IMM.IBCG.Q3.ZS} - Vaccinations (BCG) (% of children ages 12-23 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2361,12 +3760,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q3.ZS:SH.IMM.IBCG.Q3.ZS} - `"Vaccinations (BCG) (% of children ages 12-23 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IBCG.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q4.ZS:SH.IMM.IBCG.Q4.ZS} - Vaccinations (BCG) (% of children ages 12-23 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2374,12 +3783,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q4.ZS:SH.IMM.IBCG.Q4.ZS} - `"Vaccinations (BCG) (% of children ages 12-23 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IBCG.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q5.ZS:SH.IMM.IBCG.Q5.ZS} - Vaccinations (BCG) (% of children ages 12-23 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2387,12 +3806,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IBCG.Q5.ZS:SH.IMM.IBCG.Q5.ZS} - `"Vaccinations (BCG) (% of children ages 12-23 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IDPT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT:SH.IMM.IDPT} - Immunization, DPT (% of children ages 12-23 months)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2400,12 +3829,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child immunization, DPT, measures the percentage of children ages 12-23 months who received DPT vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against diphtheria, pertussis (or whooping cough), and tetanus (DPT) after receiving three doses of vaccine.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT:SH.IMM.IDPT} - `"Immunization, DPT (% of children ages 12-23 months)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Child immunization, DPT, measures the percentage of children ages 12-23 months who received DPT vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against diphtheria, pertussis (or whoopi{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IDPT.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q1.ZS:SH.IMM.IDPT.Q1.ZS} - Vaccinations (DPT 3) (% of children ages 12-23 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2413,12 +3852,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q1.ZS:SH.IMM.IDPT.Q1.ZS} - `"Vaccinations (DPT 3) (% of children ages 12-23 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IDPT.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q2.ZS:SH.IMM.IDPT.Q2.ZS} - Vaccinations (DPT 3) (% of children ages 12-23 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2426,12 +3875,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q2.ZS:SH.IMM.IDPT.Q2.ZS} - `"Vaccinations (DPT 3) (% of children ages 12-23 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IDPT.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q3.ZS:SH.IMM.IDPT.Q3.ZS} - Vaccinations (DPT 3) (% of children ages 12-23 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2439,12 +3898,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q3.ZS:SH.IMM.IDPT.Q3.ZS} - `"Vaccinations (DPT 3) (% of children ages 12-23 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IDPT.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q4.ZS:SH.IMM.IDPT.Q4.ZS} - Vaccinations (DPT 3) (% of children ages 12-23 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2452,12 +3921,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q4.ZS:SH.IMM.IDPT.Q4.ZS} - `"Vaccinations (DPT 3) (% of children ages 12-23 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.IDPT.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q5.ZS:SH.IMM.IDPT.Q5.ZS} - Vaccinations (DPT 3) (% of children ages 12-23 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2465,12 +3944,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT.Q5.ZS:SH.IMM.IDPT.Q5.ZS} - `"Vaccinations (DPT 3) (% of children ages 12-23 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.MEAS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS:SH.IMM.MEAS} - Immunization, measles (% of children ages 12-23 months)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2478,12 +3967,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Child immunization, measles, measures the percentage of children ages 12-23 months who received the measles vaccination before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receiving one dose of vaccine.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS:SH.IMM.MEAS} - `"Immunization, measles (% of children ages 12-23 months)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Child immunization, measles, measures the percentage of children ages 12-23 months who received the measles vaccination before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receivi{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.MEAS.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q1.ZS:SH.IMM.MEAS.Q1.ZS} - Vaccinations (Measles) (% of children ages 12-23 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2491,12 +3990,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q1.ZS:SH.IMM.MEAS.Q1.ZS} - `"Vaccinations (Measles) (% of children ages 12-23 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.MEAS.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q2.ZS:SH.IMM.MEAS.Q2.ZS} - Vaccinations (Measles) (% of children ages 12-23 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2504,12 +4013,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q2.ZS:SH.IMM.MEAS.Q2.ZS} - `"Vaccinations (Measles) (% of children ages 12-23 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.MEAS.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q3.ZS:SH.IMM.MEAS.Q3.ZS} - Vaccinations (Measles) (% of children ages 12-23 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2517,12 +4036,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q3.ZS:SH.IMM.MEAS.Q3.ZS} - `"Vaccinations (Measles) (% of children ages 12-23 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.MEAS.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q4.ZS:SH.IMM.MEAS.Q4.ZS} - Vaccinations (Measles) (% of children ages 12-23 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2530,12 +4059,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q4.ZS:SH.IMM.MEAS.Q4.ZS} - `"Vaccinations (Measles) (% of children ages 12-23 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.MEAS.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q5.ZS:SH.IMM.MEAS.Q5.ZS} - Vaccinations (Measles) (% of children ages 12-23 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2543,12 +4082,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS.Q5.ZS:SH.IMM.MEAS.Q5.ZS} - `"Vaccinations (Measles) (% of children ages 12-23 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.NONE.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q1.ZS:SH.IMM.NONE.Q1.ZS} - Vaccinations (no vaccinations) (% of children ages 12-23 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2556,12 +4105,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q1.ZS:SH.IMM.NONE.Q1.ZS} - `"Vaccinations (no vaccinations) (% of children ages 12-23 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.NONE.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q2.ZS:SH.IMM.NONE.Q2.ZS} - Vaccinations (no vaccinations) (% of children ages 12-23 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2569,12 +4128,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q2.ZS:SH.IMM.NONE.Q2.ZS} - `"Vaccinations (no vaccinations) (% of children ages 12-23 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.NONE.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q3.ZS:SH.IMM.NONE.Q3.ZS} - Vaccinations (no vaccinations) (% of children ages 12-23 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2582,12 +4151,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q3.ZS:SH.IMM.NONE.Q3.ZS} - `"Vaccinations (no vaccinations) (% of children ages 12-23 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.NONE.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q4.ZS:SH.IMM.NONE.Q4.ZS} - Vaccinations (no vaccinations) (% of children ages 12-23 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2595,12 +4174,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q4.ZS:SH.IMM.NONE.Q4.ZS} - `"Vaccinations (no vaccinations) (% of children ages 12-23 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.IMM.NONE.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q5.ZS:SH.IMM.NONE.Q5.ZS} - Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -2608,15 +4197,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, measles, and three doses each of DPT and polio vaccine (excluding polio 0). Some MICS surveys refer children in different age groups (e.g. 18-29 months, or 15-26 months).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.IMM.NONE.Q5.ZS:SH.IMM.NONE.Q5.ZS} - `"Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vaccinations: Percentage of children 12-23 months who have received specific vaccines by the time of the survey (according to the vaccination card or the mother's report). Children with all vaccinations refer children who have received BCG, me{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.MED.BEDS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MED.BEDS.ZS:SH.MED.BEDS.ZS} - Hospital beds (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MED.BEDS.ZS:SH.MED.BEDS.ZS} - `"Hospital beds (per 1,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2627,6 +4231,7 @@
 
 {synoptline}
 {marker topicid_SH.MED.CMHW.P3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - Community health workers (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -2634,15 +4239,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and health extension package workers.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - `"Community health workers (per 1,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and hea{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization's Global Health Workforce Statistics, OECD, supplemented by country data.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.MED.NUMW.P3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MED.NUMW.P3:SH.MED.NUMW.P3} - Nurses and midwives (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MED.NUMW.P3:SH.MED.NUMW.P3} - `"Nurses and midwives (per 1,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2653,9 +4273,15 @@
 
 {synoptline}
 {marker topicid_SH.MED.PHYS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MED.PHYS.ZS:SH.MED.PHYS.ZS} - Physicians (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MED.PHYS.ZS:SH.MED.PHYS.ZS} - `"Physicians (per 1,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2666,9 +4292,15 @@
 
 {synoptline}
 {marker topicid_SH.MED.SAOP.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MED.SAOP.P5:SH.MED.SAOP.P5} - Specialist surgical workforce (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MED.SAOP.P5:SH.MED.SAOP.P5} - `"Specialist surgical workforce (per 100,000 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2679,6 +4311,7 @@
 
 {synoptline}
 {marker topicid_SH.MLR.INCD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD:SH.MLR.INCD} - Notified cases of malaria (per 100,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -2686,15 +4319,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sector, self-medicating or not seeking treatment at all, and potential over-diagnosis through the lack of laboratory confirmation of cases.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD:SH.MLR.INCD} - `"Notified cases of malaria (per 100,000 people)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malaria incidence is expressed as the number of new cases of malaria per 100,000 people each year. The number of cases reported is adjusted to take into account incompleteness in reporting systems, patients seeking treatment in the private sec{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.MLR.INCD.P3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD.P3:SH.MLR.INCD.P3} - Incidence of malaria (per 1,000 population at risk)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD.P3:SH.MLR.INCD.P3} - `"Incidence of malaria (per 1,000 population at risk)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2705,9 +4353,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETA.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q1.ZS:SH.MLR.NETA.Q1.ZS} - Mosquito net use by children (any mosquito net) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q1.ZS:SH.MLR.NETA.Q1.ZS} - `"Mosquito net use by children (any mosquito net) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2718,9 +4372,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETA.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q2.ZS:SH.MLR.NETA.Q2.ZS} - Mosquito net use by children (any mosquito net) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q2.ZS:SH.MLR.NETA.Q2.ZS} - `"Mosquito net use by children (any mosquito net) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2731,9 +4391,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETA.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q3.ZS:SH.MLR.NETA.Q3.ZS} - Mosquito net use by children (any mosquito net) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q3.ZS:SH.MLR.NETA.Q3.ZS} - `"Mosquito net use by children (any mosquito net) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2744,9 +4410,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETA.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q4.ZS:SH.MLR.NETA.Q4.ZS} - Mosquito net use by children (any mosquito net) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q4.ZS:SH.MLR.NETA.Q4.ZS} - `"Mosquito net use by children (any mosquito net) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2757,9 +4429,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETA.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q5.ZS:SH.MLR.NETA.Q5.ZS} - Mosquito net use by children (any mosquito net) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETA.Q5.ZS:SH.MLR.NETA.Q5.ZS} - `"Mosquito net use by children (any mosquito net) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2770,9 +4448,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETH.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q1.ZS:SH.MLR.NETH.Q1.ZS} - Household posession of mosquito nets (any type of mosquito net) (% of households): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q1.ZS:SH.MLR.NETH.Q1.ZS} - `"Household posession of mosquito nets (any type of mosquito net) (% of households): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2783,9 +4467,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETH.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q2.ZS:SH.MLR.NETH.Q2.ZS} - Household posession of mosquito nets (any type of mosquito net) (% of households): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q2.ZS:SH.MLR.NETH.Q2.ZS} - `"Household posession of mosquito nets (any type of mosquito net) (% of households): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2796,9 +4486,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETH.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q3.ZS:SH.MLR.NETH.Q3.ZS} - Household posession of mosquito nets (any type of mosquito net) (% of households): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q3.ZS:SH.MLR.NETH.Q3.ZS} - `"Household posession of mosquito nets (any type of mosquito net) (% of households): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2809,9 +4505,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETH.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q4.ZS:SH.MLR.NETH.Q4.ZS} - Household posession of mosquito nets (any type of mosquito net) (% of households): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q4.ZS:SH.MLR.NETH.Q4.ZS} - `"Household posession of mosquito nets (any type of mosquito net) (% of households): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2822,9 +4524,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETH.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q5.ZS:SH.MLR.NETH.Q5.ZS} - Household posession of mosquito nets (any type of mosquito net) (% of households): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETH.Q5.ZS:SH.MLR.NETH.Q5.ZS} - `"Household posession of mosquito nets (any type of mosquito net) (% of households): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2835,9 +4543,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETP.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q1.ZS:SH.MLR.NETP.Q1.ZS} - Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q1.ZS:SH.MLR.NETP.Q1.ZS} - `"Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2848,9 +4562,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETP.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q2.ZS:SH.MLR.NETP.Q2.ZS} - Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q2.ZS:SH.MLR.NETP.Q2.ZS} - `"Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2861,9 +4581,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETP.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q3.ZS:SH.MLR.NETP.Q3.ZS} - Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q3.ZS:SH.MLR.NETP.Q3.ZS} - `"Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2874,9 +4600,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETP.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q4.ZS:SH.MLR.NETP.Q4.ZS} - Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q4.ZS:SH.MLR.NETP.Q4.ZS} - `"Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2887,9 +4619,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETP.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q5.ZS:SH.MLR.NETP.Q5.ZS} - Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETP.Q5.ZS:SH.MLR.NETP.Q5.ZS} - `"Mosquito net use by pregnant women (any mosquito net) (% of pregnant women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2900,9 +4638,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETS.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q2.ZS:SH.MLR.NETS.Q2.ZS} - Mosquito net use by children (insecticide-treated net) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q2.ZS:SH.MLR.NETS.Q2.ZS} - `"Mosquito net use by children (insecticide-treated net) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2913,9 +4657,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETS.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q3.ZS:SH.MLR.NETS.Q3.ZS} - Mosquito net use by children (insecticide-treated net) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q3.ZS:SH.MLR.NETS.Q3.ZS} - `"Mosquito net use by children (insecticide-treated net) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2926,9 +4676,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETS.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q4.ZS:SH.MLR.NETS.Q4.ZS} - Mosquito net use by children (insecticide-treated net) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.Q4.ZS:SH.MLR.NETS.Q4.ZS} - `"Mosquito net use by children (insecticide-treated net) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2939,9 +4695,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NETS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.ZS:SH.MLR.NETS.ZS} - Use of insecticide-treated bed nets (% of under-5 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.ZS:SH.MLR.NETS.ZS} - `"Use of insecticide-treated bed nets (% of under-5 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2952,9 +4714,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTHI.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q1.ZS:SH.MLR.NTHI.Q1.ZS} - Household posession of mosquito nets (insecticide-treated net) (% of households): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q1.ZS:SH.MLR.NTHI.Q1.ZS} - `"Household posession of mosquito nets (insecticide-treated net) (% of households): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2965,9 +4733,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTHI.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q2.ZS:SH.MLR.NTHI.Q2.ZS} - Household posession of mosquito nets (insecticide-treated net) (% of households): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q2.ZS:SH.MLR.NTHI.Q2.ZS} - `"Household posession of mosquito nets (insecticide-treated net) (% of households): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2978,9 +4752,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTHI.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q3.ZS:SH.MLR.NTHI.Q3.ZS} - Household posession of mosquito nets (insecticide-treated net) (% of households): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q3.ZS:SH.MLR.NTHI.Q3.ZS} - `"Household posession of mosquito nets (insecticide-treated net) (% of households): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2991,9 +4771,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTHI.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q4.ZS:SH.MLR.NTHI.Q4.ZS} - Household posession of mosquito nets (insecticide-treated net) (% of households): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q4.ZS:SH.MLR.NTHI.Q4.ZS} - `"Household posession of mosquito nets (insecticide-treated net) (% of households): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3004,9 +4790,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTHI.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q5.ZS:SH.MLR.NTHI.Q5.ZS} - Household posession of mosquito nets (insecticide-treated net) (% of households): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTHI.Q5.ZS:SH.MLR.NTHI.Q5.ZS} - `"Household posession of mosquito nets (insecticide-treated net) (% of households): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3017,9 +4809,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTPI.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q1.ZS:SH.MLR.NTPI.Q1.ZS} - Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q1.ZS:SH.MLR.NTPI.Q1.ZS} - `"Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3030,9 +4828,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTPI.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q2.ZS:SH.MLR.NTPI.Q2.ZS} - Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q2.ZS:SH.MLR.NTPI.Q2.ZS} - `"Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3043,9 +4847,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTPI.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q3.ZS:SH.MLR.NTPI.Q3.ZS} - Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q3.ZS:SH.MLR.NTPI.Q3.ZS} - `"Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3056,9 +4866,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTPI.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q4.ZS:SH.MLR.NTPI.Q4.ZS} - Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q4.ZS:SH.MLR.NTPI.Q4.ZS} - `"Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3069,9 +4885,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.NTPI.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q5.ZS:SH.MLR.NTPI.Q5.ZS} - Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.NTPI.Q5.ZS:SH.MLR.NTPI.Q5.ZS} - `"Mosquito net use by pregnant women (insecticide-treated net) (% of pregnant women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3082,9 +4904,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.SPFN.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q1.ZS:SH.MLR.SPFN.Q1.ZS} - Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q1.ZS:SH.MLR.SPFN.Q1.ZS} - `"Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3095,9 +4923,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.SPFN.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q2.ZS:SH.MLR.SPFN.Q2.ZS} - Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q2.ZS:SH.MLR.SPFN.Q2.ZS} - `"Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3108,9 +4942,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.SPFN.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q3.ZS:SH.MLR.SPFN.Q3.ZS} - Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q3.ZS:SH.MLR.SPFN.Q3.ZS} - `"Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3121,9 +4961,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.SPFN.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q4.ZS:SH.MLR.SPFN.Q4.ZS} - Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q4.ZS:SH.MLR.SPFN.Q4.ZS} - `"Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3134,9 +4980,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.SPFN.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q5.ZS:SH.MLR.SPFN.Q5.ZS} - Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.SPFN.Q5.ZS:SH.MLR.SPFN.Q5.ZS} - `"Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3147,9 +4999,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.TRET.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q1.ZS:SH.MLR.TRET.Q1.ZS} - Treatment of fever (% of children under 5 with fever): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q1.ZS:SH.MLR.TRET.Q1.ZS} - `"Treatment of fever (% of children under 5 with fever): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3160,9 +5018,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.TRET.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q2.ZS:SH.MLR.TRET.Q2.ZS} - Treatment of fever (% of children under 5 with fever): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q2.ZS:SH.MLR.TRET.Q2.ZS} - `"Treatment of fever (% of children under 5 with fever): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3173,9 +5037,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.TRET.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q3.ZS:SH.MLR.TRET.Q3.ZS} - Treatment of fever (% of children under 5 with fever): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q3.ZS:SH.MLR.TRET.Q3.ZS} - `"Treatment of fever (% of children under 5 with fever): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3186,9 +5056,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.TRET.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q4.ZS:SH.MLR.TRET.Q4.ZS} - Treatment of fever (% of children under 5 with fever): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q4.ZS:SH.MLR.TRET.Q4.ZS} - `"Treatment of fever (% of children under 5 with fever): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3199,9 +5075,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.TRET.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q5.ZS:SH.MLR.TRET.Q5.ZS} - Treatment of fever (% of children under 5 with fever): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.Q5.ZS:SH.MLR.TRET.Q5.ZS} - `"Treatment of fever (% of children under 5 with fever): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3212,9 +5094,15 @@
 
 {synoptline}
 {marker topicid_SH.MLR.TRET.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.ZS:SH.MLR.TRET.ZS} - Children with fever receiving antimalarial drugs (% of children under age 5 with fever)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.ZS:SH.MLR.TRET.ZS} - `"Children with fever receiving antimalarial drugs (% of children under age 5 with fever)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3225,6 +5113,7 @@
 
 {synoptline}
 {marker topicid_SH.MMR.DTHS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MMR.DTHS:SH.MMR.DTHS} - Number of maternal deaths}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3234,10 +5123,22 @@
 {synopt:{opt Source Notes}}A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MMR.DTHS:SH.MMR.DTHS} - `"Number of maternal deaths"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management bu{p_end}
+
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.MMR.RISK}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MMR.RISK:SH.MMR.RISK} - Lifetime risk of maternal death (1 in: rate varies by country)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3247,10 +5148,22 @@
 {synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking into account competing causes of death.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MMR.RISK:SH.MMR.RISK} - `"Lifetime risk of maternal death (1 in: rate varies by country)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
+
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.MMR.RISK.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.MMR.RISK.ZS:SH.MMR.RISK.ZS} - Lifetime risk of maternal death (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3260,13 +5173,30 @@
 {synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking into account competing causes of death.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.MMR.RISK.ZS:SH.MMR.RISK.ZS} - `"Lifetime risk of maternal death (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
+
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.PRG.ANEM}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRG.ANEM:SH.PRG.ANEM} - Prevalence of anemia among pregnant women (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRG.ANEM:SH.PRG.ANEM} - `"Prevalence of anemia among pregnant women (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3277,9 +5207,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK:SH.PRV.SMOK} - Smoking prevalence, total (ages 15+)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK:SH.PRV.SMOK} - `"Smoking prevalence, total (ages 15+)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3290,9 +5226,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - Smoking prevalence, females (% of adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - `"Smoking prevalence, females (% of adults)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3303,9 +5245,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q1.ZS:SH.PRV.SMOK.FE.Q1.ZS} - Smoking (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q1.ZS:SH.PRV.SMOK.FE.Q1.ZS} - `"Smoking (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3316,9 +5264,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q2.ZS:SH.PRV.SMOK.FE.Q2.ZS} - Smoking (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q2.ZS:SH.PRV.SMOK.FE.Q2.ZS} - `"Smoking (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3329,9 +5283,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q3.ZS:SH.PRV.SMOK.FE.Q3.ZS} - Smoking (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q3.ZS:SH.PRV.SMOK.FE.Q3.ZS} - `"Smoking (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3342,9 +5302,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q4.ZS:SH.PRV.SMOK.FE.Q4.ZS} - Smoking (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q4.ZS:SH.PRV.SMOK.FE.Q4.ZS} - `"Smoking (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3355,9 +5321,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.FE.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q5.ZS:SH.PRV.SMOK.FE.Q5.ZS} - Smoking (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE.Q5.ZS:SH.PRV.SMOK.FE.Q5.ZS} - `"Smoking (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3368,9 +5340,15 @@
 
 {synoptline}
 {marker topicid_SH.PRV.SMOK.MA}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - Smoking prevalence, males (% of adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - `"Smoking prevalence, males (% of adults)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3381,9 +5359,15 @@
 
 {synoptline}
 {marker topicid_SH.SGR.CRSK.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.SGR.CRSK.ZS:SH.SGR.CRSK.ZS} - Risk of catastrophic expenditure for surgical care (% of people at risk)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.SGR.CRSK.ZS:SH.SGR.CRSK.ZS} - `"Risk of catastrophic expenditure for surgical care (% of people at risk)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3394,6 +5378,7 @@
 
 {synoptline}
 {marker topicid_SH.SGR.IRSK.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.SGR.IRSK.ZS:SH.SGR.IRSK.ZS} - Risk of impoverishing expenditure for surgical care (% of people at risk)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3401,12 +5386,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The proportion of population at risk of impoverishing expenditure when surgical care is required. Impoverishing expenditure is defined as direct out of pocket payments for surgical and anaesthesia care which drive people below a poverty threshold (using a threshold of $1.25 PPP/day).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.SGR.IRSK.ZS:SH.SGR.IRSK.ZS} - `"Risk of impoverishing expenditure for surgical care (% of people at risk)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The proportion of population at risk of impoverishing expenditure when surgical care is required. Impoverishing expenditure is defined as direct out of pocket payments for surgical and anaesthesia care which drive people below a poverty thresh{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}The Program in Global Surgery and Social Change (PGSSC) at Harvard Medical School ({browse "https://www.pgssc.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SH.SGR.PROC.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.SGR.PROC.P5:SH.SGR.PROC.P5} - Number of surgical procedures (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3414,12 +5409,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The number of procedures undertaken in an operating theatre per 100,000 population per year in each country. A procedure is defined as the incision, excision, or manipulation of tissue that needs regional or general anaesthesia, or profound sedation to control pain.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.SGR.PROC.P5:SH.SGR.PROC.P5} - `"Number of surgical procedures (per 100,000 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The number of procedures undertaken in an operating theatre per 100,000 population per year in each country. A procedure is defined as the incision, excision, or manipulation of tissue that needs regional or general anaesthesia, or profound se{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}The Lancet Commission on Global Surgery ({browse "www.lancetglobalsurgery.org"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ACSN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN:SH.STA.ACSN} - Improved sanitation facilities (% of population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -3427,12 +5432,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN:SH.STA.ACSN} - `"Improved sanitation facilities (% of population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ACSN.RU}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.RU:SH.STA.ACSN.RU} - Improved sanitation facilities, rural (% of rural population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -3440,12 +5455,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.RU:SH.STA.ACSN.RU} - `"Improved sanitation facilities, rural (% of rural population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, rural, refers to the percentage of the rural population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ACSN.UR}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.UR:SH.STA.ACSN.UR} - Improved sanitation facilities, urban (% of urban population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -3453,12 +5478,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.UR:SH.STA.ACSN.UR} - `"Improved sanitation facilities, urban (% of urban population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.AIRP.FE.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.FE.P5:SH.STA.AIRP.FE.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3466,12 +5501,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.FE.P5:SH.STA.AIRP.FE.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.AIRP.MA.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.MA.P5:SH.STA.AIRP.MA.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3479,12 +5524,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.MA.P5:SH.STA.AIRP.MA.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.AIRP.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3492,15 +5547,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following diseases are taken into account: acute respiratory infections (estimated for all ages); cerebrovascular diseases in adults (estimated above 25 years); ischaemic heart diseases in adults (estimated above 25 years); chronic obstructive pulmonary disease in adults (estimated above 25 years); and lung cancer in adults (estimated above 25 years).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to household and ambient air pollution is the number of deaths attributable to the joint effects of household and ambient air pollution in a year per 100,000 population. The rates are age-standardized.  Following dise{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANCP.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q1.ZS:SH.STA.ANCP.Q1.ZS} - Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q1.ZS:SH.STA.ANCP.Q1.ZS} - `"Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3511,9 +5581,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ANCP.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q2.ZS:SH.STA.ANCP.Q2.ZS} - Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q2.ZS:SH.STA.ANCP.Q2.ZS} - `"Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3524,9 +5600,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ANCP.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q3.ZS:SH.STA.ANCP.Q3.ZS} - Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q3.ZS:SH.STA.ANCP.Q3.ZS} - `"Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3537,9 +5619,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ANCP.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q4.ZS:SH.STA.ANCP.Q4.ZS} - Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q4.ZS:SH.STA.ANCP.Q4.ZS} - `"Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3550,9 +5638,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ANCP.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q5.ZS:SH.STA.ANCP.Q5.ZS} - Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANCP.Q5.ZS:SH.STA.ANCP.Q5.ZS} - `"Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3563,6 +5657,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.ANVC.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q1.ZS:SH.STA.ANVC.Q1.ZS} - Antenatal care (any skilled personnel) (% of women with a birth): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3570,12 +5665,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q1.ZS:SH.STA.ANVC.Q1.ZS} - `"Antenatal care (any skilled personnel) (% of women with a birth): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVC.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q2.ZS:SH.STA.ANVC.Q2.ZS} - Antenatal care (any skilled personnel) (% of women with a birth): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3583,12 +5688,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q2.ZS:SH.STA.ANVC.Q2.ZS} - `"Antenatal care (any skilled personnel) (% of women with a birth): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVC.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q3.ZS:SH.STA.ANVC.Q3.ZS} - Antenatal care (any skilled personnel) (% of women with a birth): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3596,12 +5711,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q3.ZS:SH.STA.ANVC.Q3.ZS} - `"Antenatal care (any skilled personnel) (% of women with a birth): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVC.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q4.ZS:SH.STA.ANVC.Q4.ZS} - Antenatal care (any skilled personnel) (% of women with a birth): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3609,12 +5734,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q4.ZS:SH.STA.ANVC.Q4.ZS} - `"Antenatal care (any skilled personnel) (% of women with a birth): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVC.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q5.ZS:SH.STA.ANVC.Q5.ZS} - Antenatal care (any skilled personnel) (% of women with a birth): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3622,15 +5757,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.Q5.ZS:SH.STA.ANVC.Q5.ZS} - `"Antenatal care (any skilled personnel) (% of women with a birth): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.ZS:SH.STA.ANVC.ZS} - Pregnant women receiving prenatal care (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.ZS:SH.STA.ANVC.ZS} - `"Pregnant women receiving prenatal care (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3641,6 +5791,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.ANVP.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q1.ZS:SH.STA.ANVP.Q1.ZS} - Antenatal care (doctor) (% of women with a birth): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3648,12 +5799,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q1.ZS:SH.STA.ANVP.Q1.ZS} - `"Antenatal care (doctor) (% of women with a birth): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVP.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q2.ZS:SH.STA.ANVP.Q2.ZS} - Antenatal care (doctor) (% of women with a birth): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3661,12 +5822,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q2.ZS:SH.STA.ANVP.Q2.ZS} - `"Antenatal care (doctor) (% of women with a birth): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVP.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q3.ZS:SH.STA.ANVP.Q3.ZS} - Antenatal care (doctor) (% of women with a birth): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3674,12 +5845,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q3.ZS:SH.STA.ANVP.Q3.ZS} - `"Antenatal care (doctor) (% of women with a birth): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVP.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q4.ZS:SH.STA.ANVP.Q4.ZS} - Antenatal care (doctor) (% of women with a birth): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3687,12 +5868,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q4.ZS:SH.STA.ANVP.Q4.ZS} - `"Antenatal care (doctor) (% of women with a birth): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ANVP.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q5.ZS:SH.STA.ANVP.Q5.ZS} - Antenatal care (doctor) (% of women with a birth): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3700,15 +5891,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from a doctor. If the respondent mentioned more than one provider, only the most qualified provider is considered. The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ANVP.Q5.ZS:SH.STA.ANVP.Q5.ZS} - `"Antenatal care (doctor) (% of women with a birth): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Antenatal care: Percentage of women with one or more live births in the three (one, two) years preceding the survey who have received at least one antenatal care during pregnancy before the most recent birth from any skilled personnel and from{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ARIC.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q1.ZS:SH.STA.ARIC.Q1.ZS} - Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q1.ZS:SH.STA.ARIC.Q1.ZS} - `"Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3719,9 +5925,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIC.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q2.ZS:SH.STA.ARIC.Q2.ZS} - Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q2.ZS:SH.STA.ARIC.Q2.ZS} - `"Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3732,9 +5944,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIC.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q3.ZS:SH.STA.ARIC.Q3.ZS} - Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q3.ZS:SH.STA.ARIC.Q3.ZS} - `"Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3745,9 +5963,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIC.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q4.ZS:SH.STA.ARIC.Q4.ZS} - Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q4.ZS:SH.STA.ARIC.Q4.ZS} - `"Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3758,9 +5982,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIC.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q5.ZS:SH.STA.ARIC.Q5.ZS} - Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.Q5.ZS:SH.STA.ARIC.Q5.ZS} - `"Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3771,6 +6001,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.ZS:SH.STA.ARIC.ZS} - ARI treatment (% of children under 5 taken to a health provider)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3778,15 +6009,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Children with acute respiratory infection (ARI) who are taken to a health provider refers to the percentage of children under age five with ARI in the last two weeks who were taken to an appropriate health provider, including hospital, health center, dispensary, village health worker, clinic, and private physician.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.ZS:SH.STA.ARIC.ZS} - `"ARI treatment (% of children under 5 taken to a health provider)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Children with acute respiratory infection (ARI) who are taken to a health provider refers to the percentage of children under age five with ARI in the last two weeks who were taken to an appropriate health provider, including hospital, health{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ARIF.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q1.ZS:SH.STA.ARIF.Q1.ZS} - Prevalence of acute respiratory infection (ARI) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q1.ZS:SH.STA.ARIF.Q1.ZS} - `"Prevalence of acute respiratory infection (ARI) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3797,9 +6043,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIF.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q2.ZS:SH.STA.ARIF.Q2.ZS} - Prevalence of acute respiratory infection (ARI) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q2.ZS:SH.STA.ARIF.Q2.ZS} - `"Prevalence of acute respiratory infection (ARI) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3810,9 +6062,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIF.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q3.ZS:SH.STA.ARIF.Q3.ZS} - Prevalence of acute respiratory infection (ARI) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q3.ZS:SH.STA.ARIF.Q3.ZS} - `"Prevalence of acute respiratory infection (ARI) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3823,9 +6081,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIF.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q4.ZS:SH.STA.ARIF.Q4.ZS} - Prevalence of acute respiratory infection (ARI) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q4.ZS:SH.STA.ARIF.Q4.ZS} - `"Prevalence of acute respiratory infection (ARI) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3836,9 +6100,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ARIF.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q5.ZS:SH.STA.ARIF.Q5.ZS} - Prevalence of acute respiratory infection (ARI) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ARIF.Q5.ZS:SH.STA.ARIF.Q5.ZS} - `"Prevalence of acute respiratory infection (ARI) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3849,6 +6119,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.BASS.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - People using at least basic sanitation services, rural (% of rural population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3856,12 +6127,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - `"People using at least basic sanitation services, rural (% of rural population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BASS.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - People using at least basic sanitation services, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3869,12 +6150,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - `"People using at least basic sanitation services, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BASS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - People using at least basic sanitation services (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -3882,15 +6173,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those using safely managed sanitation services.   Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines; ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - `"People using at least basic sanitation services (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.  This indicator encompasses both people using basic sanitation services as well as those usin{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BFED.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q1.ZS:SH.STA.BFED.Q1.ZS} - Breastfeeding (% of children under 6 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q1.ZS:SH.STA.BFED.Q1.ZS} - `"Breastfeeding (% of children under 6 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3901,9 +6207,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BFED.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q2.ZS:SH.STA.BFED.Q2.ZS} - Breastfeeding (% of children under 6 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q2.ZS:SH.STA.BFED.Q2.ZS} - `"Breastfeeding (% of children under 6 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3914,9 +6226,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BFED.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q3.ZS:SH.STA.BFED.Q3.ZS} - Breastfeeding (% of children under 6 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q3.ZS:SH.STA.BFED.Q3.ZS} - `"Breastfeeding (% of children under 6 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3927,9 +6245,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BFED.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q4.ZS:SH.STA.BFED.Q4.ZS} - Breastfeeding (% of children under 6 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q4.ZS:SH.STA.BFED.Q4.ZS} - `"Breastfeeding (% of children under 6 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3940,9 +6264,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BFED.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q5.ZS:SH.STA.BFED.Q5.ZS} - Breastfeeding (% of children under 6 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.Q5.ZS:SH.STA.BFED.Q5.ZS} - `"Breastfeeding (% of children under 6 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3953,9 +6283,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BFED.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.ZS:SH.STA.BFED.ZS} - Exclusive breastfeeding (% of children under 6 months)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.ZS:SH.STA.BFED.ZS} - `"Exclusive breastfeeding (% of children under 6 months)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3966,6 +6302,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.BRTC.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q1.ZS:SH.STA.BRTC.Q1.ZS} - Assistance during delivery (any skilled personnel) (% of births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3973,12 +6310,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q1.ZS:SH.STA.BRTC.Q1.ZS} - `"Assistance during delivery (any skilled personnel) (% of births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTC.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q2.ZS:SH.STA.BRTC.Q2.ZS} - Assistance during delivery (any skilled personnel) (% of births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3986,12 +6333,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q2.ZS:SH.STA.BRTC.Q2.ZS} - `"Assistance during delivery (any skilled personnel) (% of births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTC.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q3.ZS:SH.STA.BRTC.Q3.ZS} - Assistance during delivery (any skilled personnel) (% of births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -3999,12 +6356,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q3.ZS:SH.STA.BRTC.Q3.ZS} - `"Assistance during delivery (any skilled personnel) (% of births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTC.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q4.ZS:SH.STA.BRTC.Q4.ZS} - Assistance during delivery (any skilled personnel) (% of births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4012,12 +6379,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q4.ZS:SH.STA.BRTC.Q4.ZS} - `"Assistance during delivery (any skilled personnel) (% of births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTC.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q5.ZS:SH.STA.BRTC.Q5.ZS} - Assistance during delivery (any skilled personnel) (% of births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4025,12 +6402,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.Q5.ZS:SH.STA.BRTC.Q5.ZS} - `"Assistance during delivery (any skilled personnel) (% of births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.ZS:SH.STA.BRTC.ZS} - Births attended by skilled health staff (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4038,15 +6425,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Births attended by skilled health staff are the percentage of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on their own; and to care for newborns.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.ZS:SH.STA.BRTC.ZS} - `"Births attended by skilled health staff (% of total)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Births attended by skilled health staff are the percentage of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on th{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTF.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q1.ZS:SH.STA.BRTF.Q1.ZS} - Place of delivery (births at health facility) (% of births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q1.ZS:SH.STA.BRTF.Q1.ZS} - `"Place of delivery (births at health facility) (% of births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4057,9 +6459,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BRTF.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q2.ZS:SH.STA.BRTF.Q2.ZS} - Place of delivery (births at health facility) (% of births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q2.ZS:SH.STA.BRTF.Q2.ZS} - `"Place of delivery (births at health facility) (% of births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4070,9 +6478,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BRTF.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q3.ZS:SH.STA.BRTF.Q3.ZS} - Place of delivery (births at health facility) (% of births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q3.ZS:SH.STA.BRTF.Q3.ZS} - `"Place of delivery (births at health facility) (% of births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4083,9 +6497,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BRTF.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q4.ZS:SH.STA.BRTF.Q4.ZS} - Place of delivery (births at health facility) (% of births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q4.ZS:SH.STA.BRTF.Q4.ZS} - `"Place of delivery (births at health facility) (% of births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4096,9 +6516,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.BRTF.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q5.ZS:SH.STA.BRTF.Q5.ZS} - Place of delivery (births at health facility) (% of births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTF.Q5.ZS:SH.STA.BRTF.Q5.ZS} - `"Place of delivery (births at health facility) (% of births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4109,6 +6535,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.BRTP.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q1.ZS:SH.STA.BRTP.Q1.ZS} - Assistance during delivery (doctor) (% of births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4116,12 +6543,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q1.ZS:SH.STA.BRTP.Q1.ZS} - `"Assistance during delivery (doctor) (% of births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTP.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q2.ZS:SH.STA.BRTP.Q2.ZS} - Assistance during delivery (doctor) (% of births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4129,12 +6566,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q2.ZS:SH.STA.BRTP.Q2.ZS} - `"Assistance during delivery (doctor) (% of births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTP.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q3.ZS:SH.STA.BRTP.Q3.ZS} - Assistance during delivery (doctor) (% of births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4142,12 +6589,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q3.ZS:SH.STA.BRTP.Q3.ZS} - `"Assistance during delivery (doctor) (% of births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTP.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q4.ZS:SH.STA.BRTP.Q4.ZS} - Assistance during delivery (doctor) (% of births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4155,12 +6612,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q4.ZS:SH.STA.BRTP.Q4.ZS} - `"Assistance during delivery (doctor) (% of births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTP.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q5.ZS:SH.STA.BRTP.Q5.ZS} - Assistance during delivery (doctor) (% of births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4168,15 +6635,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey, the MICS2 surveys refer births in the one year preceding the survey, and the MICS3 surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTP.Q5.ZS:SH.STA.BRTP.Q5.ZS} - `"Assistance during delivery (doctor) (% of births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Assistance during delivery (Assisted births): Percentage of live births in the three (one, two) years preceding the survey attended by any skilled personnel and by a doctor.  The DHS surveys refer births in the three years preceding the survey{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.BRTW.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTW.ZS:SH.STA.BRTW.ZS} - Low-birthweight babies (% of births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.BRTW.ZS:SH.STA.BRTW.ZS} - `"Low-birthweight babies (% of births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4187,9 +6669,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.DIAB.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIAB.ZS:SH.STA.DIAB.ZS} - Diabetes prevalence (% of population ages 20 to 79)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.DIAB.ZS:SH.STA.DIAB.ZS} - `"Diabetes prevalence (% of population ages 20 to 79)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4200,9 +6688,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.DIRH.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q1.ZS:SH.STA.DIRH.Q1.ZS} - Prevalence of diarrhea (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q1.ZS:SH.STA.DIRH.Q1.ZS} - `"Prevalence of diarrhea (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4213,9 +6707,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.DIRH.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q2.ZS:SH.STA.DIRH.Q2.ZS} - Prevalence of diarrhea (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q2.ZS:SH.STA.DIRH.Q2.ZS} - `"Prevalence of diarrhea (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4226,9 +6726,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.DIRH.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q3.ZS:SH.STA.DIRH.Q3.ZS} - Prevalence of diarrhea (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q3.ZS:SH.STA.DIRH.Q3.ZS} - `"Prevalence of diarrhea (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4239,9 +6745,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.DIRH.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q4.ZS:SH.STA.DIRH.Q4.ZS} - Prevalence of diarrhea (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q4.ZS:SH.STA.DIRH.Q4.ZS} - `"Prevalence of diarrhea (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4252,9 +6764,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.DIRH.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q5.ZS:SH.STA.DIRH.Q5.ZS} - Prevalence of diarrhea (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.DIRH.Q5.ZS:SH.STA.DIRH.Q5.ZS} - `"Prevalence of diarrhea (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4265,9 +6783,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.FEVR.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q1.ZS:SH.STA.FEVR.Q1.ZS} - Prevalence of children with fever (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q1.ZS:SH.STA.FEVR.Q1.ZS} - `"Prevalence of children with fever (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4278,9 +6802,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.FEVR.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS} - Prevalence of children with fever (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q2.ZS:SH.STA.FEVR.Q2.ZS} - `"Prevalence of children with fever (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4291,9 +6821,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.FEVR.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q3.ZS:SH.STA.FEVR.Q3.ZS} - Prevalence of children with fever (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q3.ZS:SH.STA.FEVR.Q3.ZS} - `"Prevalence of children with fever (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4304,9 +6840,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.FEVR.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q4.ZS:SH.STA.FEVR.Q4.ZS} - Prevalence of children with fever (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q4.ZS:SH.STA.FEVR.Q4.ZS} - `"Prevalence of children with fever (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4317,9 +6859,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.FEVR.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q5.ZS:SH.STA.FEVR.Q5.ZS} - Prevalence of children with fever (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.FEVR.Q5.ZS:SH.STA.FEVR.Q5.ZS} - `"Prevalence of children with fever (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4330,9 +6878,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.FGMS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FGMS.ZS:SH.STA.FGMS.ZS} - Female genital mutilation prevalence (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.FGMS.ZS:SH.STA.FGMS.ZS} - `"Female genital mutilation prevalence (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4343,6 +6897,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.HYGN.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - People with basic handwashing facilities including soap and water, rural (% of rural population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4350,12 +6905,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - `"People with basic handwashing facilities including soap and water, rural (% of rural population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.HYGN.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - People with basic handwashing facilities including soap and water, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4363,12 +6928,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - `"People with basic handwashing facilities including soap and water, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.HYGN.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - People with basic handwashing facilities including soap and water (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4376,12 +6951,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and jugs or basins designated for handwashing. Soap includes bar soap, liquid soap, powder detergent, and soapy water but does not include ash, soil, sand or other handwashing agents.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - `"People with basic handwashing facilities including soap and water (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people living in households that have a handwashing facility with soap and water available on the premises. Handwashing facilities may be fixed or mobile and include a sink with tap water, buckets with taps, tippy-taps, and j{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.LBMI.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q1.ZS:SH.STA.LBMI.Q1.ZS} - Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4389,12 +6974,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q1.ZS:SH.STA.LBMI.Q1.ZS} - `"Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.LBMI.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q2.ZS:SH.STA.LBMI.Q2.ZS} - Malnourished women (BMI is less than 18.5) (% of women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4402,12 +6997,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q2.ZS:SH.STA.LBMI.Q2.ZS} - `"Malnourished women (BMI is less than 18.5) (% of women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.LBMI.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q3.ZS:SH.STA.LBMI.Q3.ZS} - Malnourished women (BMI is less than 18.5) (% of women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4415,12 +7020,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q3.ZS:SH.STA.LBMI.Q3.ZS} - `"Malnourished women (BMI is less than 18.5) (% of women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.LBMI.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q4.ZS:SH.STA.LBMI.Q4.ZS} - Malnourished women (BMI is less than 18.5) (% of women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4428,12 +7043,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q4.ZS:SH.STA.LBMI.Q4.ZS} - `"Malnourished women (BMI is less than 18.5) (% of women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.LBMI.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q5.ZS:SH.STA.LBMI.Q5.ZS} - Malnourished women (BMI is less than 18.5) (% of women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4441,12 +7066,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the height in meters (kg/m2). The BMI excludes pregnant women and those who are less than three months postpartum.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.LBMI.Q5.ZS:SH.STA.LBMI.Q5.ZS} - `"Malnourished women (BMI is less than 18.5) (% of women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished women (BMI is less than 18.5): Percentage of women whose body mass index (BMI) is less than 18.5 for women with births in the three years preceding the survey. The BMI is the ratio of the weight in kilograms to the square of the h{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS} - Prevalence of underweight, weight for age, female (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4454,12 +7089,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS} - `"Prevalence of underweight, weight for age, female (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of underweight, female, is the percentage of girls under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's n{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS} - Prevalence of underweight, weight for age, male (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4467,12 +7112,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS} - `"Prevalence of underweight, weight for age, male (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of underweight, male, is the percentage of boys under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's new{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q1.ZS:SH.STA.MALN.Q1.ZS} - Malnourished children (underweight, -2SD) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4480,12 +7135,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q1.ZS:SH.STA.MALN.Q1.ZS} - `"Malnourished children (underweight, -2SD) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q2.ZS:SH.STA.MALN.Q2.ZS} - Malnourished children (underweight, -2SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4493,12 +7158,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q2.ZS:SH.STA.MALN.Q2.ZS} - `"Malnourished children (underweight, -2SD) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q3.ZS:SH.STA.MALN.Q3.ZS} - Malnourished children (underweight, -2SD) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4506,12 +7181,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q3.ZS:SH.STA.MALN.Q3.ZS} - `"Malnourished children (underweight, -2SD) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q4.ZS:SH.STA.MALN.Q4.ZS} - Malnourished children (underweight, -2SD) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4519,12 +7204,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q4.ZS:SH.STA.MALN.Q4.ZS} - `"Malnourished children (underweight, -2SD) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q5.ZS:SH.STA.MALN.Q5.ZS} - Malnourished children (underweight, -2SD) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4532,12 +7227,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.Q5.ZS:SH.STA.MALN.Q5.ZS} - `"Malnourished children (underweight, -2SD) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MALN.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - Prevalence of underweight, weight for age (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4545,12 +7250,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of underweight children is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO's child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - `"Prevalence of underweight, weight for age (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of underweight children is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0-59 months. The data are based on the WHO'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MLN3.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q1.ZS:SH.STA.MLN3.Q1.ZS} - Malnourished children (underweight, -3SD) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4558,12 +7273,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q1.ZS:SH.STA.MLN3.Q1.ZS} - `"Malnourished children (underweight, -3SD) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MLN3.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q2.ZS:SH.STA.MLN3.Q2.ZS} - Malnourished children (underweight, -3SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4571,12 +7296,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q2.ZS:SH.STA.MLN3.Q2.ZS} - `"Malnourished children (underweight, -3SD) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MLN3.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q3.ZS:SH.STA.MLN3.Q3.ZS} - Malnourished children (underweight, -3SD) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4584,12 +7319,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q3.ZS:SH.STA.MLN3.Q3.ZS} - `"Malnourished children (underweight, -3SD) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MLN3.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q4.ZS:SH.STA.MLN3.Q4.ZS} - Malnourished children (underweight, -3SD) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4597,12 +7342,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q4.ZS:SH.STA.MLN3.Q4.ZS} - `"Malnourished children (underweight, -3SD) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MLN3.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q5.ZS:SH.STA.MLN3.Q5.ZS} - Malnourished children (underweight, -3SD) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4610,12 +7365,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MLN3.Q5.ZS:SH.STA.MLN3.Q5.ZS} - `"Malnourished children (underweight, -3SD) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MMRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MMRT:SH.STA.MMRT} - Maternal mortality ratio (modeled estimate, per 100,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4625,13 +7390,30 @@
 {synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the proportion of maternal deaths among non-AIDS deaths in women ages 15-49, fertility, birth attendants, and GDP.{p_end}
 
 {synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MMRT:SH.STA.MMRT} - `"Maternal mortality ratio (modeled estimate, per 100,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the pr{p_end}
+
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.STA.MMRT.NE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - Maternal mortality ratio (national estimate, per 100,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - `"Maternal mortality ratio (national estimate, per 100,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4642,9 +7424,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ODFC.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - People practicing open defecation, rural (% of rural population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - `"People practicing open defecation, rural (% of rural population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4655,9 +7443,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ODFC.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - People practicing open defecation, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - `"People practicing open defecation, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4668,9 +7462,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ODFC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - People practicing open defecation (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - `"People practicing open defecation (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4681,6 +7481,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORCF.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORCF.ZS:SH.STA.ORCF.ZS} - Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4688,12 +7489,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Children with diarrhea who received oral rehydration and continued feeding refer to the percentage of children under age five with diarrhea in the two weeks prior to the survey who received either oral rehydration therapy or increased fluids, with continued feeding.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORCF.ZS:SH.STA.ORCF.ZS} - `"Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Children with diarrhea who received oral rehydration and continued feeding refer to the percentage of children under age five with diarrhea in the two weeks prior to the survey who received either oral rehydration therapy or increased fluids,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF, State of the World's Children, Childinfo, and Demographic and Health Surveys.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ORHF.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q1.ZS:SH.STA.ORHF.Q1.ZS} - Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4701,12 +7512,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q1.ZS:SH.STA.ORHF.Q1.ZS} - `"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ORHF.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q2.ZS:SH.STA.ORHF.Q2.ZS} - Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4714,12 +7535,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q2.ZS:SH.STA.ORHF.Q2.ZS} - `"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ORHF.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q3.ZS:SH.STA.ORHF.Q3.ZS} - Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4727,12 +7558,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q3.ZS:SH.STA.ORHF.Q3.ZS} - `"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ORHF.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q4.ZS:SH.STA.ORHF.Q4.ZS} - Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4740,12 +7581,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q4.ZS:SH.STA.ORHF.Q4.ZS} - `"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ORHF.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q5.ZS:SH.STA.ORHF.Q5.ZS} - Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -4753,15 +7604,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fluids.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHF.Q5.ZS:SH.STA.ORHF.Q5.ZS} - `"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Treatment of diarrhea (ORS, RHS or increased fluids): Percentage of children under age five years with diarrhea in the two weeks preceding the survey who received oral rehydration solution (ORS), recommended home solution (RHS) or increased fl{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ORHK.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q1.ZS:SH.STA.ORHK.Q1.ZS} - Knowledge of diarrhea care (% of mothers): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q1.ZS:SH.STA.ORHK.Q1.ZS} - `"Knowledge of diarrhea care (% of mothers): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4772,9 +7638,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHK.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q2.ZS:SH.STA.ORHK.Q2.ZS} - Knowledge of diarrhea care (% of mothers): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q2.ZS:SH.STA.ORHK.Q2.ZS} - `"Knowledge of diarrhea care (% of mothers): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4785,9 +7657,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHK.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q3.ZS:SH.STA.ORHK.Q3.ZS} - Knowledge of diarrhea care (% of mothers): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q3.ZS:SH.STA.ORHK.Q3.ZS} - `"Knowledge of diarrhea care (% of mothers): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4798,9 +7676,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHK.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q4.ZS:SH.STA.ORHK.Q4.ZS} - Knowledge of diarrhea care (% of mothers): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q4.ZS:SH.STA.ORHK.Q4.ZS} - `"Knowledge of diarrhea care (% of mothers): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4811,9 +7695,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHK.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q5.ZS:SH.STA.ORHK.Q5.ZS} - Knowledge of diarrhea care (% of mothers): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHK.Q5.ZS:SH.STA.ORHK.Q5.ZS} - `"Knowledge of diarrhea care (% of mothers): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4824,9 +7714,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHS.Q1ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q1ZS:SH.STA.ORHS.Q1ZS} - Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q1ZS:SH.STA.ORHS.Q1ZS} - `"Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4837,9 +7733,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHS.Q2ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q2ZS:SH.STA.ORHS.Q2ZS} - Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q2ZS:SH.STA.ORHS.Q2ZS} - `"Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4850,9 +7752,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHS.Q3ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q3ZS:SH.STA.ORHS.Q3ZS} - Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q3ZS:SH.STA.ORHS.Q3ZS} - `"Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4863,9 +7771,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHS.Q4ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q4ZS:SH.STA.ORHS.Q4ZS} - Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q4ZS:SH.STA.ORHS.Q4ZS} - `"Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4876,9 +7790,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORHS.Q5ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q5ZS:SH.STA.ORHS.Q5ZS} - Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORHS.Q5ZS:SH.STA.ORHS.Q5ZS} - `"Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4889,9 +7809,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.ORTH}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORTH:SH.STA.ORTH} - Diarrhea treatment (% of children under 5 who received ORS packet)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ORTH:SH.STA.ORTH} - `"Diarrhea treatment (% of children under 5 who received ORS packet)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4902,6 +7828,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.OWGH.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.FE.ZS:SH.STA.OWGH.FE.ZS} - Prevalence of overweight, weight for height, female (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4909,12 +7836,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.FE.ZS:SH.STA.OWGH.FE.ZS} - `"Prevalence of overweight, weight for height, female (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of overweight, female, is the percentage of girls under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WH{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.OWGH.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS} - Prevalence of overweight, weight for height, male (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4922,12 +7859,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS} - `"Prevalence of overweight, weight for height, male (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of overweight, male, is the percentage of boys under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.OWGH.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - Prevalence of overweight, weight for height (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4935,12 +7882,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - `"Prevalence of overweight, weight for height (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of overweight children is the percentage of children under age 5 whose weight for height is more than two standard deviations above the median for the international reference population of the corresponding age as established by the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.POIS.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5:SH.STA.POIS.P5} - Mortality rate attributed to unintentional poisoning (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4948,12 +7905,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5:SH.STA.POIS.P5} - `"Mortality rate attributed to unintentional poisoning (per 100,000 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.POIS.P5.FE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4961,12 +7928,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - `"Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of female deaths from unintentional poisonings in a year per 100,000 female population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, ca{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.POIS.P5.MA}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4974,12 +7951,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide and medicines, or can be the result of environmental contamination or occupational chemical exposure.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - `"Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SMSS.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - People using safely managed sanitation services, rural (% of rural population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -4987,12 +7974,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - `"People using safely managed sanitation services, rural (% of rural population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SMSS.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - People using safely managed sanitation services, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5000,12 +7997,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - `"People using safely managed sanitation services, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SMSS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - People using safely managed sanitation services (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5013,12 +8020,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flush to piped sewer systems, septic tanks or pit latrines: ventilated improved pit latrines, compositing toilets or pit latrines with slabs.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - `"People using safely managed sanitation services (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The percentage of people using improved sanitation facilities that are not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite. Improved sanitation facilities include flush/pour flus{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STN3.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q1.ZS:SH.STA.STN3.Q1.ZS} - Malnourished children (stunting, -3SD) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5026,12 +8043,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q1.ZS:SH.STA.STN3.Q1.ZS} - `"Malnourished children (stunting, -3SD) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STN3.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q2.ZS:SH.STA.STN3.Q2.ZS} - Malnourished children (stunting, -3SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5039,12 +8066,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q2.ZS:SH.STA.STN3.Q2.ZS} - `"Malnourished children (stunting, -3SD) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STN3.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q3.ZS:SH.STA.STN3.Q3.ZS} - Malnourished children (stunting, -3SD) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5052,12 +8089,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q3.ZS:SH.STA.STN3.Q3.ZS} - `"Malnourished children (stunting, -3SD) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STN3.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q4.ZS:SH.STA.STN3.Q4.ZS} - Malnourished children (stunting, -3SD) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5065,12 +8112,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q4.ZS:SH.STA.STN3.Q4.ZS} - `"Malnourished children (stunting, -3SD) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STN3.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q5.ZS:SH.STA.STN3.Q5.ZS} - Malnourished children (stunting, -3SD) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5078,12 +8135,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STN3.Q5.ZS:SH.STA.STN3.Q5.ZS} - `"Malnourished children (stunting, -3SD) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS} - Prevalence of stunting, height for age, female (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5091,12 +8158,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS} - `"Prevalence of stunting, height for age, female (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of stunting, female, is the percentage of girls under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS} - Prevalence of stunting, height for age, male (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5104,12 +8181,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS} - `"Prevalence of stunting, height for age, male (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of stunting, male, is the percentage of boys under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Database on Child Growth and Malnutrition. Country-level data are unadjusted data from national surveys, and thus may not be comparable across countries.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q1.ZS:SH.STA.STNT.Q1.ZS} - Malnourished children (stunting, -2SD) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5117,12 +8204,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q1.ZS:SH.STA.STNT.Q1.ZS} - `"Malnourished children (stunting, -2SD) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q2.ZS:SH.STA.STNT.Q2.ZS} - Malnourished children (stunting, -2SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5130,12 +8227,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q2.ZS:SH.STA.STNT.Q2.ZS} - `"Malnourished children (stunting, -2SD) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q3.ZS:SH.STA.STNT.Q3.ZS} - Malnourished children (stunting, -2SD) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5143,12 +8250,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q3.ZS:SH.STA.STNT.Q3.ZS} - `"Malnourished children (stunting, -2SD) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q4.ZS:SH.STA.STNT.Q4.ZS} - Malnourished children (stunting, -2SD) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5156,12 +8273,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q4.ZS:SH.STA.STNT.Q4.ZS} - `"Malnourished children (stunting, -2SD) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q5.ZS:SH.STA.STNT.Q5.ZS} - Malnourished children (stunting, -2SD) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5169,12 +8296,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.Q5.ZS:SH.STA.STNT.Q5.ZS} - `"Malnourished children (stunting, -2SD) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.STNT.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.ZS:SH.STA.STNT.ZS} - Prevalence of stunting, height for age (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5182,15 +8319,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is measured by recumbent length. For older children height is measured by stature while standing. The data are based on the WHO's new child growth standards released in 2006.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.ZS:SH.STA.STNT.ZS} - `"Prevalence of stunting, height for age (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months. For children up to two years old height is{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.SUIC.FE.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.FE.P5:SH.STA.SUIC.FE.P5} - Suicide mortality rate, female (per 100,000 female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.FE.P5:SH.STA.SUIC.FE.P5} - `"Suicide mortality rate, female (per 100,000 female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5201,9 +8353,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.SUIC.MA.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.MA.P5:SH.STA.SUIC.MA.P5} - Suicide mortality rate, male (per 100,000 male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.MA.P5:SH.STA.SUIC.MA.P5} - `"Suicide mortality rate, male (per 100,000 male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5214,9 +8372,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.SUIC.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.P5:SH.STA.SUIC.P5} - Suicide mortality rate (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.P5:SH.STA.SUIC.P5} - `"Suicide mortality rate (per 100,000 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5227,19 +8391,30 @@
 
 {synoptline}
 {marker topicid_SH.STA.TRAF.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - `"Mortality caused by road traffic injury (per 100,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety.{p_end}
+=======
+{synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety 2018 through Global Health Observatory data repository.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.STA.WASH.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WASH.P5:SH.STA.WASH.P5} - Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5247,15 +8422,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing the number of deaths by the total population. In this estimate, only the impact of diarrhoeal diseases, intestinal nematode infections, and protein-energy malnutrition are taken into account.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WASH.P5:SH.STA.WASH.P5} - `"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene is deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services per 100,000 population. Death rates are calculated by dividing{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WAST.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.FE.ZS:SH.STA.WAST.FE.ZS} - Prevalence of wasting, weight for height, female (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.FE.ZS:SH.STA.WAST.FE.ZS} - `"Prevalence of wasting, weight for height, female (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5266,9 +8456,15 @@
 
 {synoptline}
 {marker topicid_SH.STA.WAST.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.MA.ZS:SH.STA.WAST.MA.ZS} - Prevalence of wasting, weight for height, male (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.MA.ZS:SH.STA.WAST.MA.ZS} - `"Prevalence of wasting, weight for height, male (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5279,6 +8475,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.WAST.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q1.ZS:SH.STA.WAST.Q1.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5286,12 +8483,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q1.ZS:SH.STA.WAST.Q1.ZS} - `"Malnourished children (wasting, -2SD) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WAST.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q2.ZS:SH.STA.WAST.Q2.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5299,12 +8506,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q2.ZS:SH.STA.WAST.Q2.ZS} - `"Malnourished children (wasting, -2SD) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WAST.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q3.ZS:SH.STA.WAST.Q3.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5312,12 +8529,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q3.ZS:SH.STA.WAST.Q3.ZS} - `"Malnourished children (wasting, -2SD) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WAST.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q4.ZS:SH.STA.WAST.Q4.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5325,12 +8552,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q4.ZS:SH.STA.WAST.Q4.ZS} - `"Malnourished children (wasting, -2SD) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WAST.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q5.ZS:SH.STA.WAST.Q5.ZS} - Malnourished children (wasting, -2SD) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5338,15 +8575,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.Q5.ZS:SH.STA.WAST.Q5.ZS} - `"Malnourished children (wasting, -2SD) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WAST.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.ZS:SH.STA.WAST.ZS} - Prevalence of wasting, weight for height (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.ZS:SH.STA.WAST.ZS} - `"Prevalence of wasting, weight for height (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5357,6 +8609,7 @@
 
 {synoptline}
 {marker topicid_SH.STA.WST3.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q1.ZS:SH.STA.WST3.Q1.ZS} - Malnourished children (wasting, -3SD) (% of children under 5): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5364,12 +8617,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q1.ZS:SH.STA.WST3.Q1.ZS} - `"Malnourished children (wasting, -3SD) (% of children under 5): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WST3.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q2.ZS:SH.STA.WST3.Q2.ZS} - Malnourished children (wasting, -3SD) (% of children under 5): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5377,12 +8640,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q2.ZS:SH.STA.WST3.Q2.ZS} - `"Malnourished children (wasting, -3SD) (% of children under 5): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WST3.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q3.ZS:SH.STA.WST3.Q3.ZS} - Malnourished children (wasting, -3SD) (% of children under 5): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5390,12 +8663,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q3.ZS:SH.STA.WST3.Q3.ZS} - `"Malnourished children (wasting, -3SD) (% of children under 5): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WST3.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q4.ZS:SH.STA.WST3.Q4.ZS} - Malnourished children (wasting, -3SD) (% of children under 5): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5403,12 +8686,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q4.ZS:SH.STA.WST3.Q4.ZS} - `"Malnourished children (wasting, -3SD) (% of children under 5): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WST3.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q5.ZS:SH.STA.WST3.Q5.ZS} - Malnourished children (wasting, -3SD) (% of children under 5): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -5416,15 +8709,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wasting). Each index is expressed in terms of the number of standard deviation (SD) units from the median of the WHO Child Growth Standards. Children are classified as malnourished if their z-scores are below minus two or minus three standard deviations (-2 SD or -3 SD) from the median of the WHO Child Growth Standards. The percentage below -2 SD includes children who are below -3 SD.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.WST3.Q5.ZS:SH.STA.WST3.Q5.ZS} - `"Malnourished children (wasting, -3SD) (% of children under 5): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-hei{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SH.SVR.WAST.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.FE.ZS:SH.SVR.WAST.FE.ZS} - Prevalence of severe wasting, weight for height, female (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.FE.ZS:SH.SVR.WAST.FE.ZS} - `"Prevalence of severe wasting, weight for height, female (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5435,9 +8743,15 @@
 
 {synoptline}
 {marker topicid_SH.SVR.WAST.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.MA.ZS:SH.SVR.WAST.MA.ZS} - Prevalence of severe wasting, weight for height, male (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.MA.ZS:SH.SVR.WAST.MA.ZS} - `"Prevalence of severe wasting, weight for height, male (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5448,9 +8762,15 @@
 
 {synoptline}
 {marker topicid_SH.SVR.WAST.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.ZS:SH.SVR.WAST.ZS} - Prevalence of severe wasting, weight for height (% of children under 5)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.ZS:SH.SVR.WAST.ZS} - `"Prevalence of severe wasting, weight for height (% of children under 5)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5461,6 +8781,7 @@
 
 {synoptline}
 {marker topicid_SH.TBS.CURE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.TBS.CURE.ZS:SH.TBS.CURE.ZS} - Tuberculosis treatment success rate (% of new cases)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5468,12 +8789,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Tuberculosis treatment success rate is the percentage of all new tuberculosis cases (or new and relapse cases for some countries) registered under a national tuberculosis control programme in a given year that successfully completed treatment, with or without bacteriological evidence of success (cured and treatment completed respectively).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.TBS.CURE.ZS:SH.TBS.CURE.ZS} - `"Tuberculosis treatment success rate (% of new cases)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Tuberculosis treatment success rate is the percentage of all new tuberculosis cases (or new and relapse cases for some countries) registered under a national tuberculosis control programme in a given year that successfully completed treatment,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.TBS.DTEC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.TBS.DTEC.ZS:SH.TBS.DTEC.ZS} - Tuberculosis case detection rate (%, all forms)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5481,12 +8812,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Tuberculosis case detection rate (all forms) is the number of new and relapse tuberculosis cases notified to WHO in a given year, divided by WHO's estimate of the number of incident tuberculosis cases for the same year, expressed as a percentage. Estimates for all years are recalculated as new information becomes available and techniques are refined, so they may differ from those published previously.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.TBS.DTEC.ZS:SH.TBS.DTEC.ZS} - `"Tuberculosis case detection rate (%, all forms)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Tuberculosis case detection rate (all forms) is the number of new and relapse tuberculosis cases notified to WHO in a given year, divided by WHO's estimate of the number of incident tuberculosis cases for the same year, expressed as a percenta{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.TBS.INCD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.TBS.INCD:SH.TBS.INCD} - Incidence of tuberculosis (per 100,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5494,15 +8835,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Incidence of tuberculosis is the estimated number of new and relapse tuberculosis cases arising in a given year, expressed as the rate per 100,000 population. All forms of TB are included, including cases in people living with HIV. Estimates for all years are recalculated as new information becomes available and techniques are refined, so they may differ from those published previously.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.TBS.INCD:SH.TBS.INCD} - `"Incidence of tuberculosis (per 100,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Incidence of tuberculosis is the estimated number of new and relapse tuberculosis cases arising in a given year, expressed as the rate per 100,000 population. All forms of TB are included, including cases in people living with HIV. Estimates f{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization, Global Tuberculosis Report.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.UHC.CONS.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.CONS.TO:SH.UHC.CONS.TO} - Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.CONS.TO:SH.UHC.CONS.TO} - `"Number of people pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5513,9 +8869,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.CONS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.CONS.ZS:SH.UHC.CONS.ZS} - Proportion of population pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.CONS.ZS:SH.UHC.CONS.ZS} - `"Proportion of population pushed below the 50% median consumption poverty line by out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5526,9 +8888,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP1.CG}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.CG:SH.UHC.NOP1.CG} - Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.CG:SH.UHC.NOP1.CG} - `"Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5539,9 +8907,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP1.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.TO:SH.UHC.NOP1.TO} - Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.TO:SH.UHC.NOP1.TO} - `"Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5552,9 +8926,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP1.ZG}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.ZG:SH.UHC.NOP1.ZG} - Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.ZG:SH.UHC.NOP1.ZG} - `"Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5565,9 +8945,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS} - Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS} - `"Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5578,9 +8964,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.CG}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - `"Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5591,9 +8983,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - `"Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5604,9 +9002,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.ZG}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - `"Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5617,9 +9021,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.NOP2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - `"Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5630,9 +9040,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.OOPC.10.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO} - Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO} - `"Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5643,9 +9059,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.OOPC.10.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.10.ZS:SH.UHC.OOPC.10.ZS} - Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.10.ZS:SH.UHC.OOPC.10.ZS} - `"Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5656,9 +9078,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.OOPC.25.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.25.TO:SH.UHC.OOPC.25.TO} - Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.25.TO:SH.UHC.OOPC.25.TO} - `"Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5669,9 +9097,15 @@
 
 {synoptline}
 {marker topicid_SH.UHC.OOPC.25.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.25.ZS:SH.UHC.OOPC.25.ZS} - Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.25.ZS:SH.UHC.OOPC.25.ZS} - `"Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5682,6 +9116,7 @@
 
 {synoptline}
 {marker topicid_SH.UHC.SRVS.CV.XD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.SRVS.CV.XD:SH.UHC.SRVS.CV.XD} - UHC service coverage index}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5689,80 +9124,145 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a scale of 0 to 100. Values greater than or equal to 80 are presented as 80 as the index does not provide fine resolution at high values.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.UHC.SRVS.CV.XD:SH.UHC.SRVS.CV.XD} - `"UHC service coverage index"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Coverage index for essential health services (based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, noncommunicable diseases and service capacity and access). It is presented on a sca{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Hogan et al. An index of the coverage of essential health services for monitoring UHC within the SDGs, Lancet Global Health 2017.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.VAC.TTNS.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q1.ZS:SH.VAC.TTNS.Q1.ZS} - Tetanus toxoid vaccination (% of live births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q1.ZS:SH.VAC.TTNS.Q1.ZS} - `"Tetanus toxoid vaccination (% of live births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percent distribution of last live births in the last three years preceding the survey for tetanus toxoid injections (two doses or more) given to the mother during pregnancy.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
+=======
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.VAC.TTNS.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q2.ZS:SH.VAC.TTNS.Q2.ZS} - Tetanus toxoid vaccination (% of live births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q2.ZS:SH.VAC.TTNS.Q2.ZS} - `"Tetanus toxoid vaccination (% of live births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percent distribution of last live births in the last three years preceding the survey for tetanus toxoid injections (two doses or more) given to the mother during pregnancy.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
+=======
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.VAC.TTNS.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q3.ZS:SH.VAC.TTNS.Q3.ZS} - Tetanus toxoid vaccination (% of live births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q3.ZS:SH.VAC.TTNS.Q3.ZS} - `"Tetanus toxoid vaccination (% of live births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percent distribution of last live births in the last three years preceding the survey for tetanus toxoid injections (two doses or more) given to the mother during pregnancy.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
+=======
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.VAC.TTNS.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q4.ZS:SH.VAC.TTNS.Q4.ZS} - Tetanus toxoid vaccination (% of live births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q4.ZS:SH.VAC.TTNS.Q4.ZS} - `"Tetanus toxoid vaccination (% of live births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percent distribution of last live births in the last three years preceding the survey for tetanus toxoid injections (two doses or more) given to the mother during pregnancy.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
+=======
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.VAC.TTNS.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q5.ZS:SH.VAC.TTNS.Q5.ZS} - Tetanus toxoid vaccination (% of live births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.Q5.ZS:SH.VAC.TTNS.Q5.ZS} - `"Tetanus toxoid vaccination (% of live births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Percent distribution of last live births in the last three years preceding the survey for tetanus toxoid injections (two doses or more) given to the mother during pregnancy.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}WHO and UNICEF ({browse "http://www.who.int/immunization/monitoring_surveillance/en/"}).{p_end}
+=======
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.VAC.TTNS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.ZS:SH.VAC.TTNS.ZS} - Newborns protected against tetanus (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.ZS:SH.VAC.TTNS.ZS} - `"Newborns protected against tetanus (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5773,9 +9273,15 @@
 
 {synoptline}
 {marker topicid_SH.VST.OUTP}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.VST.OUTP:SH.VST.OUTP} - Outpatient visits per capita}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.VST.OUTP:SH.VST.OUTP} - `"Outpatient visits per capita"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5786,6 +9292,7 @@
 
 {synoptline}
 {marker topicid_SH.XPD.CHEX.GD.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.GD.ZS:SH.XPD.CHEX.GD.ZS} - Current health expenditure (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5793,15 +9300,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such as buildings, machinery, IT and stocks of vaccines for emergency or outbreaks.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.GD.ZS:SH.XPD.CHEX.GD.ZS} - `"Current health expenditure (% of GDP)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such a{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.CHEX.PC.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.PC.CD:SH.XPD.CHEX.PC.CD} - Current health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.PC.CD:SH.XPD.CHEX.PC.CD} - `"Current health expenditure per capita (current US$)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5812,9 +9334,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.CHEX.PP.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.PP.CD:SH.XPD.CHEX.PP.CD} - Current health expenditure per capita, PPP (current international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.PP.CD:SH.XPD.CHEX.PP.CD} - `"Current health expenditure per capita, PPP (current international $)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5825,6 +9353,7 @@
 
 {synoptline}
 {marker topicid_SH.XPD.EHEX.CH.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS} - External health expenditure (% of current health expenditure)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5832,12 +9361,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Share of current health expenditures funded from external sources. External sources compose of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from outside the country. External sources either flow through the government scheme or are channeled through non-governmental organizations or other schemes.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS} - `"External health expenditure (% of current health expenditure)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Share of current health expenditures funded from external sources. External sources compose of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from out{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.EHEX.PC.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.PC.CD:SH.XPD.EHEX.PC.CD} - External health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5845,12 +9384,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in current US dollars. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from outside the country.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.PC.CD:SH.XPD.EHEX.PC.CD} - `"External health expenditure per capita (current US$)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in current US dollars. External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.EHEX.PP.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.PP.CD:SH.XPD.EHEX.PP.CD} - External health expenditure per capita, PPP (current international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5858,12 +9407,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity (PPP). External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all financial inflows into the national health system from outside the country.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.PP.CD:SH.XPD.EHEX.PP.CD} - `"External health expenditure per capita, PPP (current international $)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current external expenditures on health per capita expressed in international dollars at purchasing power parity (PPP). External sources are composed of direct foreign transfers and foreign transfers distributed by government encompassing all{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.EXTR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EXTR.ZS:SH.XPD.EXTR.ZS} - External resources for health (% of total expenditure on health)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -5873,10 +9432,22 @@
 {synopt:{opt Source Notes}}External resources for health are funds or services in kind that are provided by entities not part of the country in question. The resources may come from international organizations, other countries through bilateral arrangements, or foreign nongovernmental organizations. These resources are part of total health expenditure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.EXTR.ZS:SH.XPD.EXTR.ZS} - `"External resources for health (% of total expenditure on health)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}External resources for health are funds or services in kind that are provided by entities not part of the country in question. The resources may come from international organizations, other countries through bilateral arrangements, or foreign{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.GHED.CH.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.CH.ZS:SH.XPD.GHED.CH.ZS} - Domestic general government health expenditure (% of current health expenditure)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -5884,15 +9455,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Share of current health expenditures funded from domestic public sources for health.  Domestic public sources include domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, non-profit institutions serving households (NPISH) or enterprise financing schemes as well as compulsory prepayment and social health insurance contributions. They do not include external resources spent by governments on health.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.CH.ZS:SH.XPD.GHED.CH.ZS} - `"Domestic general government health expenditure (% of current health expenditure)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic public sources for health.  Domestic public sources include domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, non-prof{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.GHED.GD.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.GD.ZS:SH.XPD.GHED.GD.ZS} - Domestic general government health expenditure (% of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.GD.ZS:SH.XPD.GHED.GD.ZS} - `"Domestic general government health expenditure (% of GDP)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5903,9 +9489,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.GHED.GE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.GE.ZS:SH.XPD.GHED.GE.ZS} - Domestic general government health expenditure (% of general government expenditure)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.GE.ZS:SH.XPD.GHED.GE.ZS} - `"Domestic general government health expenditure (% of general government expenditure)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5916,9 +9508,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.GHED.PC.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.PC.CD:SH.XPD.GHED.PC.CD} - Domestic general government health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.PC.CD:SH.XPD.GHED.PC.CD} - `"Domestic general government health expenditure per capita (current US$)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5929,9 +9527,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.GHED.PP.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.PP.CD:SH.XPD.GHED.PP.CD} - Domestic general government health expenditure per capita, PPP (current international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.PP.CD:SH.XPD.GHED.PP.CD} - `"Domestic general government health expenditure per capita, PPP (current international $)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5942,9 +9546,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.OOPC.CH.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.CH.ZS:SH.XPD.OOPC.CH.ZS} - Out-of-pocket expenditure (% of current health expenditure)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.CH.ZS:SH.XPD.OOPC.CH.ZS} - `"Out-of-pocket expenditure (% of current health expenditure)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5955,9 +9565,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.OOPC.PC.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.PC.CD:SH.XPD.OOPC.PC.CD} - Out-of-pocket expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.PC.CD:SH.XPD.OOPC.PC.CD} - `"Out-of-pocket expenditure per capita (current US$)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5968,9 +9584,15 @@
 
 {synoptline}
 {marker topicid_SH.XPD.OOPC.PP.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.PP.CD:SH.XPD.OOPC.PP.CD} - Out-of-pocket expenditure per capita, PPP (current international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.PP.CD:SH.XPD.OOPC.PP.CD} - `"Out-of-pocket expenditure per capita, PPP (current international $)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5981,6 +9603,7 @@
 
 {synoptline}
 {marker topicid_SH.XPD.OOPC.TO.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.TO.ZS:SH.XPD.OOPC.TO.ZS} - Out-of-pocket health expenditure (% of total expenditure on health)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -5990,10 +9613,22 @@
 {synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to contribute to the restoration or enhancement of the health status of individuals or population groups. It is a part of private health expenditure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.TO.ZS:SH.XPD.OOPC.TO.ZS} - `"Out-of-pocket health expenditure (% of total expenditure on health)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.OOPC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.ZS:SH.XPD.OOPC.ZS} - Out-of-pocket health expenditure (% of private expenditure on health)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6003,10 +9638,22 @@
 {synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to contribute to the restoration or enhancement of the health status of individuals or population groups. It is a part of private health expenditure.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.ZS:SH.XPD.OOPC.ZS} - `"Out-of-pocket health expenditure (% of private expenditure on health)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Out of pocket expenditure is any direct outlay by households, including gratuities and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliances, and other goods and services whose primary intent is to{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PCAP}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PCAP:SH.XPD.PCAP} - Health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6016,10 +9663,22 @@
 {synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PCAP:SH.XPD.PCAP} - `"Health expenditure per capita (current US$)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PCAP.PP.KD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PCAP.PP.KD:SH.XPD.PCAP.PP.KD} - Health expenditure per capita, PPP (constant 2011 international $)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6029,10 +9688,22 @@
 {synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation. Data are in international dollars converted using 2011 purchasing power parity (PPP) rates.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PCAP.PP.KD:SH.XPD.PCAP.PP.KD} - `"Health expenditure per capita, PPP (constant 2011 international $)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PRIV}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PRIV:SH.XPD.PRIV} - Health expenditure, private (% of total health expenditure)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
@@ -6042,23 +9713,45 @@
 {synopt:{opt Source Notes}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PRIV:SH.XPD.PRIV} - `"Health expenditure, private (% of total health expenditure)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PRIV.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PRIV.ZS:SH.XPD.PRIV.ZS} - Health expenditure, private (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PRIV.ZS:SH.XPD.PRIV.ZS} - `"Health expenditure, private (% of GDP)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Private health expenditure includes direct household (out-of-pocket) spending, private insurance, charitable donations, and direct service payments by private corporations.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PUBL}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PUBL:SH.XPD.PUBL} - Health expenditure, public (% of total health expenditure)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6068,10 +9761,22 @@
 {synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds. Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PUBL:SH.XPD.PUBL} - `"Health expenditure, public (% of total health expenditure)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PUBL.GX.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PUBL.GX.ZS:SH.XPD.PUBL.GX.ZS} - Health expenditure, public (% of government expenditure)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6081,10 +9786,22 @@
 {synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PUBL.GX.ZS:SH.XPD.PUBL.GX.ZS} - `"Health expenditure, public (% of government expenditure)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PUBL.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PUBL.ZS:SH.XPD.PUBL.ZS} - Health expenditure, public (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6094,10 +9811,22 @@
 {synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PUBL.ZS:SH.XPD.PUBL.ZS} - `"Health expenditure, public (% of GDP)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (o{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SH.XPD.PVTD.CH.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.CH.ZS:SH.XPD.PVTD.CH.ZS} - Domestic private health expenditure (% of current health expenditure)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6105,12 +9834,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Share of current health expenditures funded from domestic private sources.  Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insurance or paid directly to healthcare providers.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.CH.ZS:SH.XPD.PVTD.CH.ZS} - `"Domestic private health expenditure (% of current health expenditure)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Share of current health expenditures funded from domestic private sources.  Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insuranc{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.PVTD.PC.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.PC.CD:SH.XPD.PVTD.PC.CD} - Domestic private health expenditure per capita (current US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6118,15 +9857,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in current US dollars. Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health insurance or paid directly to healthcare providers.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.PC.CD:SH.XPD.PVTD.PC.CD} - `"Domestic private health expenditure per capita (current US$)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current private expenditures on health per capita expressed in current US dollars. Domestic private sources include funds from households, corporations and non-profit organizations. Such expenditures can be either prepaid to voluntary health i{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database ({browse "http://apps.who.int/nha/database"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.XPD.PVTD.PP.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD} - Domestic private health expenditure per capita, PPP (current international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD} - `"Domestic private health expenditure per capita, PPP (current international $)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6137,6 +9891,7 @@
 
 {synoptline}
 {marker topicid_SH.XPD.TOTL.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.TOTL.ZS:SH.XPD.TOTL.ZS} - Health expenditure, total (% of GDP)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6146,10 +9901,22 @@
 {synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation.{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see http://apps.who.int/nha/database for the most recent updates).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.XPD.TOTL.ZS:SH.XPD.TOTL.ZS} - `"Health expenditure, total (% of GDP)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but d{p_end}
+
+{synopt:{opt Source Organization}}World Health Organization Global Health Expenditure database (see {browse "http://apps.who.int/nha/database"} for the most recent updates).{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SM.EMI.TERT.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SM.EMI.TERT.ZS:SM.EMI.TERT.ZS} - Emigration rate of tertiary educated (% of total tertiary educated population)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -6157,25 +9924,45 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and older with tertiary education.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SM.EMI.TERT.ZS:SM.EMI.TERT.ZS} - `"Emigration rate of tertiary educated (% of total tertiary educated population)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Emigration rate of tertiary educated shows the stock of emigrants ages 25 and older, residing in an OECD country other than that in which they were born, with at least one year of tertiary education as a percentage of the population age 25 and{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Frédéric Docquier, B. Lindsay Lowell, and Abdeslam Marfouk's , A Gendered Assessment of Highly Skilled Emigration (2009).{p_end}
 
 
 {synoptline}
 {marker topicid_SM.POP.NETM}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - Net migration}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - `"Net migration"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SM.POP.REFG}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SM.POP.REFG:SM.POP.REFG} - Refugee population by country or territory of asylum}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6185,10 +9972,22 @@
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of asylum is the country where an asylum claim was filed and granted.{p_end}
 
 {synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are available online at: {browse "www.unhcr.org/en-us/figures-at-a-glance.html"}.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SM.POP.REFG:SM.POP.REFG} - `"Refugee population by country or territory of asylum"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
+
+{synopt:{opt Source Organization}}Data before 2018 are from United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its we{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SM.POP.REFG.OR}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SM.POP.REFG.OR:SM.POP.REFG.OR} - Refugee population by country or territory of origin}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6198,10 +9997,22 @@
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, people recognized as refugees in accordance with the UNHCR statute, people granted refugee-like humanitarian status, and people provided temporary protection. Asylum seekers--people who have applied for asylum or refugee status and who have not yet received a decision or who are registered as asylum seekers--are excluded. Palestinian refugees are people (and their descendants) whose residence was Palestine between June 1946 and May 1948 and who lost their homes and means of livelihood as a result of the 1948 Arab-Israeli conflict. Country of origin generally refers to the nationality or country of citizenship of a claimant.{p_end}
 
 {synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are available online at: {browse "www.unhcr.org/en-us/figures-at-a-glance.html"}.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SM.POP.REFG.OR:SM.POP.REFG.OR} - `"Refugee population by country or territory of origin"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
+
+{synopt:{opt Source Organization}}Data before 2018 are from United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its we{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SM.POP.TOTL}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - International migrant stock, total}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6209,12 +10020,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from population censuses. The estimates are derived from the data on foreign-born population--people who have residence in one country but were born in another country. When data on the foreign-born population are not available, data on foreign population--that is, people who are citizens of a country other than the country in which they reside--are used as estimates. After the breakup of the Soviet Union in 1991 people living in one of the newly independent countries who were born in another were classified as international migrants. Estimates of migrant stock in the newly independent states from 1990 on are based on the 1989 census of the Soviet Union. For countries with information on the international migrant stock for at least two points in time, interpolation or extrapolation was used to estimate the international migrant stock on July 1 of the reference years. For countries with only one observation, estimates for the reference years were derived using rates of change in the migrant stock in the years preceding or following the single observation available. A model was used to estimate migrants for countries that had no data.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - `"International migrant stock, total"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2012 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SM.POP.TOTL.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - International migrant stock (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6222,12 +10043,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from population censuses. The estimates are derived from the data on foreign-born population--people who have residence in one country but were born in another country. When data on the foreign-born population are not available, data on foreign population--that is, people who are citizens of a country other than the country in which they reside--are used as estimates. After the breakup of the Soviet Union in 1991 people living in one of the newly independent countries who were born in another were classified as international migrants. Estimates of migrant stock in the newly independent states from 1990 on are based on the 1989 census of the Soviet Union. For countries with information on the international migrant stock for at least two points in time, interpolation or extrapolation was used to estimate the international migrant stock on July 1 of the reference years. For countries with only one observation, estimates for the reference years were derived using rates of change in the migrant stock in the years preceding or following the single observation available. A model was used to estimate migrants for countries that had no data.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - `"International migrant stock (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}International migrant stock is the number of people born in a country other than that in which they live. It also includes refugees. The data used to estimate the international migrant stock at a particular time are obtained mainly from popula{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}United Nations Population Division, Trends in Total Migrant Stock: 2008 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.DEFC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS} - Prevalence of undernourishment (% of population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6235,12 +10066,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population below minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. Data showing as 5 may signify a prevalence of undernourishment below 5%.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS} - `"Prevalence of undernourishment (% of population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Population below minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. Data s{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization ({browse "http://www.fao.org/publications/en/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.DFCT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.DFCT:SN.ITK.DFCT} - Depth of the food deficit (kilocalories per person per day)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6248,12 +10089,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}The depth of the food deficit indicates how many calories would be needed to lift the undernourished from their status, everything else being constant. The average intensity of food deprivation of the undernourished, estimated as the difference between the average dietary energy requirement and the average dietary energy consumption of the undernourished population (food-deprived), is multiplied by the number of undernourished to provide an estimate of the total food deficit in the country, which is then normalized by the total population.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.DFCT:SN.ITK.DFCT} - `"Depth of the food deficit (kilocalories per person per day)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}The depth of the food deficit indicates how many calories would be needed to lift the undernourished from their status, everything else being constant. The average intensity of food deprivation of the undernourished, estimated as the differenc{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, Food Security Statistics.{p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.DPTH}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.DPTH:SN.ITK.DPTH} - Depth of hunger (kilocalories per person per day)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
@@ -6261,15 +10112,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Depth of hunger or the intensity of food deprivation, indicates how much food-deprived people fall short of minimum food needs in terms of dietary energy. The food deficit, in kilocalories per person per day, is measured by comparing the average amount of dietary energy that undernourished people get from the foods they eat with the minimum amount of dietary energy they need to maintain body weight and undertake light activity. The depth of hunger is low when it is less than 200 kilocalories per person per day, and high when it is higher than 300 kilocalories per person per day.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.DPTH:SN.ITK.DPTH} - `"Depth of hunger (kilocalories per person per day)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Depth of hunger or the intensity of food deprivation, indicates how much food-deprived people fall short of minimum food needs in terms of dietary energy. The food deficit, in kilocalories per person per day, is measured by comparing the avera{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization, Food Security Statistics ({browse "http://www.fao.org/economic/ess/food-security-statistics/en/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.SALT.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.SALT.ZS:SN.ITK.SALT.ZS} - Consumption of iodized salt (% of households)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.SALT.ZS:SN.ITK.SALT.ZS} - `"Consumption of iodized salt (% of households)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6280,6 +10146,7 @@
 
 {synoptline}
 {marker topicid_SN.ITK.VAPP.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q1.ZS:SN.ITK.VAPP.Q1.ZS} - Vitamin A supplements for postpartum women (% of women with a birth): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6287,12 +10154,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q1.ZS:SN.ITK.VAPP.Q1.ZS} - `"Vitamin A supplements for postpartum women (% of women with a birth): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.VAPP.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q2.ZS:SN.ITK.VAPP.Q2.ZS} - Vitamin A supplements for postpartum women (% of women with a birth): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6300,12 +10177,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q2.ZS:SN.ITK.VAPP.Q2.ZS} - `"Vitamin A supplements for postpartum women (% of women with a birth): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.VAPP.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q3.ZS:SN.ITK.VAPP.Q3.ZS} - Vitamin A supplements for postpartum women (% of women with a birth): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6313,12 +10200,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q3.ZS:SN.ITK.VAPP.Q3.ZS} - `"Vitamin A supplements for postpartum women (% of women with a birth): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.VAPP.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q4.ZS:SN.ITK.VAPP.Q4.ZS} - Vitamin A supplements for postpartum women (% of women with a birth): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6326,12 +10223,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q4.ZS:SN.ITK.VAPP.Q4.ZS} - `"Vitamin A supplements for postpartum women (% of women with a birth): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.VAPP.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q5.ZS:SN.ITK.VAPP.Q5.ZS} - Vitamin A supplements for postpartum women (% of women with a birth): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6339,15 +10246,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years preceding the survey, and the MICS surveys refer births in the two years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VAPP.Q5.ZS:SN.ITK.VAPP.Q5.ZS} - `"Vitamin A supplements for postpartum women (% of women with a birth): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Vitamin A supplements for postpartum women: Percentage of women with a birth in the five (two) years preceding the survey who received a vitamin A dose in the first two months after delivery. The DHS surveys refer births in the five years prec{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SN.ITK.VITA.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q1.ZS:SN.ITK.VITA.Q1.ZS} - Vitamin A supplements for children (% of children ages 6-59 months): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q1.ZS:SN.ITK.VITA.Q1.ZS} - `"Vitamin A supplements for children (% of children ages 6-59 months): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6358,9 +10280,15 @@
 
 {synoptline}
 {marker topicid_SN.ITK.VITA.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q2.ZS:SN.ITK.VITA.Q2.ZS} - Vitamin A supplements for children (% of children ages 6-59 months): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q2.ZS:SN.ITK.VITA.Q2.ZS} - `"Vitamin A supplements for children (% of children ages 6-59 months): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6371,9 +10299,15 @@
 
 {synoptline}
 {marker topicid_SN.ITK.VITA.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q3.ZS:SN.ITK.VITA.Q3.ZS} - Vitamin A supplements for children (% of children ages 6-59 months): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q3.ZS:SN.ITK.VITA.Q3.ZS} - `"Vitamin A supplements for children (% of children ages 6-59 months): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6384,9 +10318,15 @@
 
 {synoptline}
 {marker topicid_SN.ITK.VITA.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q4.ZS:SN.ITK.VITA.Q4.ZS} - Vitamin A supplements for children (% of children ages 6-59 months): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q4.ZS:SN.ITK.VITA.Q4.ZS} - `"Vitamin A supplements for children (% of children ages 6-59 months): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6397,9 +10337,15 @@
 
 {synoptline}
 {marker topicid_SN.ITK.VITA.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q5.ZS:SN.ITK.VITA.Q5.ZS} - Vitamin A supplements for children (% of children ages 6-59 months): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.Q5.ZS:SN.ITK.VITA.Q5.ZS} - `"Vitamin A supplements for children (% of children ages 6-59 months): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6410,9 +10356,15 @@
 
 {synoptline}
 {marker topicid_SN.ITK.VITA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.ZS:SN.ITK.VITA.ZS} - Vitamin A supplementation coverage rate (% of children ages 6-59 months)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.ZS:SN.ITK.VITA.ZS} - `"Vitamin A supplementation coverage rate (% of children ages 6-59 months)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6423,9 +10375,15 @@
 
 {synoptline}
 {marker topicid_SP.ADO.TFRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.ADO.TFRT:SP.ADO.TFRT} - Adolescent fertility rate (births per 1,000 women ages 15-19)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.ADO.TFRT:SP.ADO.TFRT} - `"Adolescent fertility rate (births per 1,000 women ages 15-19)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6436,6 +10394,7 @@
 
 {synoptline}
 {marker topicid_SP.DTH.INFR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DTH.INFR.ZS:SP.DTH.INFR.ZS} - Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6443,12 +10402,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of infant death reporting is the number of infant deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of infant deaths estimated by the United Nations Population Division.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DTH.INFR.ZS:SP.DTH.INFR.ZS} - `"Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of infant death reporting is the number of infant deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of infant deaths estimated by the United Na{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DTH.REPT.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DTH.REPT.ZS:SP.DTH.REPT.ZS} - Completeness of total death reporting (% of reported total deaths to estimated total deaths)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6456,12 +10425,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of total death reporting is the number of total deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of total deaths estimated by the United Nations Population Division.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DTH.REPT.ZS:SP.DTH.REPT.ZS} - `"Completeness of total death reporting (% of reported total deaths to estimated total deaths)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of total death reporting is the number of total deaths reported by national statistics authorities to the United Nations Statistics Division's Demography Yearbook divided by the number of total deaths estimated by the United Natio{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}The United Nations Statistics Division's Population and Vital Statistics Report and the United Nations Population Division's World Population Prospects.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.AMRT.FE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.FE:SP.DYN.AMRT.FE} - Mortality rate, adult, female (per 1,000 female adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6471,10 +10450,22 @@
 {synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those ages.{p_end}
 
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.FE:SP.DYN.AMRT.FE} - `"Mortality rate, adult, female (per 1,000 female adults)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between th{p_end}
+
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.AMRT.MA}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.MA:SP.DYN.AMRT.MA} - Mortality rate, adult, male (per 1,000 male adults)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6484,10 +10475,22 @@
 {synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those ages.{p_end}
 
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.MA:SP.DYN.AMRT.MA} - `"Mortality rate, adult, male (per 1,000 male adults)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
+
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.CBRT.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CBRT.IN:SP.DYN.CBRT.IN} - Birth rate, crude (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6497,10 +10500,22 @@
 {synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.{p_end}
 
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CBRT.IN:SP.DYN.CBRT.IN} - `"Birth rate, crude (per 1,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the{p_end}
+
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.CDRT.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CDRT.IN:SP.DYN.CDRT.IN} - Death rate, crude (per 1,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6510,13 +10525,30 @@
 {synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.{p_end}
 
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CDRT.IN:SP.DYN.CDRT.IN} - `"Death rate, crude (per 1,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate{p_end}
+
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.CEBN.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q1:SP.DYN.CEBN.Q1} - Mean number of children ever born to women aged 40-49: Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q1:SP.DYN.CEBN.Q1} - `"Mean number of children ever born to women aged 40-49: Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6527,9 +10559,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CEBN.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q2:SP.DYN.CEBN.Q2} - Mean number of children ever born to women aged 40-49: Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q2:SP.DYN.CEBN.Q2} - `"Mean number of children ever born to women aged 40-49: Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6540,9 +10578,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CEBN.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q3:SP.DYN.CEBN.Q3} - Mean number of children ever born to women aged 40-49: Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q3:SP.DYN.CEBN.Q3} - `"Mean number of children ever born to women aged 40-49: Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6553,9 +10597,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CEBN.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q4:SP.DYN.CEBN.Q4} - Mean number of children ever born to women aged 40-49: Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q4:SP.DYN.CEBN.Q4} - `"Mean number of children ever born to women aged 40-49: Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6566,9 +10616,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CEBN.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q5:SP.DYN.CEBN.Q5} - Mean number of children ever born to women aged 40-49: Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CEBN.Q5:SP.DYN.CEBN.Q5} - `"Mean number of children ever born to women aged 40-49: Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6579,6 +10635,7 @@
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q1.ZS:SP.DYN.CONM.Q1.ZS} - Current use of contraception (modern method) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6586,12 +10643,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q1.ZS:SP.DYN.CONM.Q1.ZS} - `"Current use of contraception (modern method) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q2.ZS:SP.DYN.CONM.Q2.ZS} - Current use of contraception (modern method) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6599,12 +10666,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q2.ZS:SP.DYN.CONM.Q2.ZS} - `"Current use of contraception (modern method) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q3.ZS:SP.DYN.CONM.Q3.ZS} - Current use of contraception (modern method) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6612,12 +10689,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q3.ZS:SP.DYN.CONM.Q3.ZS} - `"Current use of contraception (modern method) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q4.ZS:SP.DYN.CONM.Q4.ZS} - Current use of contraception (modern method) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6625,12 +10712,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q4.ZS:SP.DYN.CONM.Q4.ZS} - `"Current use of contraception (modern method) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q5.ZS:SP.DYN.CONM.Q5.ZS} - Current use of contraception (modern method) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6638,12 +10735,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.Q5.ZS:SP.DYN.CONM.Q5.ZS} - `"Current use of contraception (modern method) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONM.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.ZS:SP.DYN.CONM.ZS} - Contraceptive prevalence, modern methods (% of women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -6651,12 +10758,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, at least one modern method of contraception. It is usually measured for women ages 15-49 who are married or in union. Modern methods of contraception include female and male sterilization, oral hormonal pills, the intra-uterine device (IUD), the male condom, injectables, the implant (including Norplant), vaginal barrier methods, the female condom and emergency contraception.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.ZS:SP.DYN.CONM.ZS} - `"Contraceptive prevalence, modern methods (% of women ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, at least one modern method of contraception. It is usually measured for women ages 15-49 who are married or in union. Modern{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household surveys, including Demographic and Health Surveys and Multiple Indicator Cluster Surveys. Largely compiled by United Nations Population Division.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q1.ZS:SP.DYN.CONU.Q1.ZS} - Current use of contraception (any method) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6664,12 +10781,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q1.ZS:SP.DYN.CONU.Q1.ZS} - `"Current use of contraception (any method) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q2.ZS:SP.DYN.CONU.Q2.ZS} - Current use of contraception (any method) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6677,12 +10804,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q2.ZS:SP.DYN.CONU.Q2.ZS} - `"Current use of contraception (any method) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q3.ZS:SP.DYN.CONU.Q3.ZS} - Current use of contraception (any method) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6690,12 +10827,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q3.ZS:SP.DYN.CONU.Q3.ZS} - `"Current use of contraception (any method) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q4.ZS:SP.DYN.CONU.Q4.ZS} - Current use of contraception (any method) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6703,12 +10850,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q4.ZS:SP.DYN.CONU.Q4.ZS} - `"Current use of contraception (any method) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q5.ZS:SP.DYN.CONU.Q5.ZS} - Current use of contraception (any method) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6716,15 +10873,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill, IUD, injections, implants, male condom, female condom, diaphragm, foam, and jelly. Traditional method includes periodic abstinence, withdrawal, long term abstinence, folk method, and others.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.Q5.ZS:SP.DYN.CONU.Q5.ZS} - `"Current use of contraception (any method) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Current use of contraception: Percentage of currently married women who are using or whose partners are using any method of contraception and modern method of contraception. Modern method includes female sterilization, male sterilization, pill{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CONU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - Contraceptive prevalence, any methods (% of women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - `"Contraceptive prevalence, any methods (% of women ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6735,9 +10907,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.FE.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN} - Mortality rate, infant, female (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN} - `"Mortality rate, infant, female (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6748,9 +10926,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.IN:SP.DYN.IMRT.IN} - Mortality rate, infant (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.IN:SP.DYN.IMRT.IN} - `"Mortality rate, infant (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6761,9 +10945,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.MA.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN} - Mortality rate, infant, male (per 1,000 live births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN} - `"Mortality rate, infant, male (per 1,000 live births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6774,6 +10964,7 @@
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q1:SP.DYN.IMRT.Q1} - Infant mortality rate (per 1,000 live births): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6781,12 +10972,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q1:SP.DYN.IMRT.Q1} - `"Infant mortality rate (per 1,000 live births): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q2:SP.DYN.IMRT.Q2} - Infant mortality rate (per 1,000 live births): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6794,12 +10995,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q2:SP.DYN.IMRT.Q2} - `"Infant mortality rate (per 1,000 live births): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q3:SP.DYN.IMRT.Q3} - Infant mortality rate (per 1,000 live births): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6807,12 +11018,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q3:SP.DYN.IMRT.Q3} - `"Infant mortality rate (per 1,000 live births): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q4:SP.DYN.IMRT.Q4} - Infant mortality rate (per 1,000 live births): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6820,12 +11041,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q4:SP.DYN.IMRT.Q4} - `"Infant mortality rate (per 1,000 live births): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.IMRT.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q5:SP.DYN.IMRT.Q5} - Infant mortality rate (per 1,000 live births): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6833,64 +11064,114 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and the reference period varies for MICS surveys (often three to five years preceding the survey).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.Q5:SP.DYN.IMRT.Q5} - `"Infant mortality rate (per 1,000 live births): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Infant mortality rate: Number of deaths to children under age twelve months per 1000 live births, based on experience during the reference period before the survey. The reference period is ten years preceding the survey for DHS surveys, and th{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.FE.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - Life expectancy at birth, female (years)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - `"Life expectancy at birth, female (years)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.IN:SP.DYN.LE00.IN} - Life expectancy at birth, total (years)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.IN:SP.DYN.LE00.IN} - `"Life expectancy at birth, total (years)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.MA.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - Life expectancy at birth, male (years)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - `"Life expectancy at birth, male (years)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.IN:SP.DYN.TFRT.IN} - Fertility rate, total (births per woman)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.IN:SP.DYN.TFRT.IN} - `"Fertility rate, total (births per woman)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q1:SP.DYN.TFRT.Q1} - Total fertility rate (TFR) (births per woman): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6898,12 +11179,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q1:SP.DYN.TFRT.Q1} - `"Total fertility rate (TFR) (births per woman): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q2:SP.DYN.TFRT.Q2} - Total fertility rate (TFR) (births per woman): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6911,12 +11202,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q2:SP.DYN.TFRT.Q2} - `"Total fertility rate (TFR) (births per woman): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q3:SP.DYN.TFRT.Q3} - Total fertility rate (TFR) (births per woman): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6924,12 +11225,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q3:SP.DYN.TFRT.Q3} - `"Total fertility rate (TFR) (births per woman): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q4:SP.DYN.TFRT.Q4} - Total fertility rate (TFR) (births per woman): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6937,12 +11248,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q4:SP.DYN.TFRT.Q4} - `"Total fertility rate (TFR) (births per woman): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q5:SP.DYN.TFRT.Q5} - Total fertility rate (TFR) (births per woman): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -6950,41 +11271,76 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference period is three years preceding the survey.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.Q5:SP.DYN.TFRT.Q5} - `"Total fertility rate (TFR) (births per woman): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Total fertility rate (TFR): The number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates currently observed. The reference perio{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TO65.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS} - Survival to age 65, female (% of cohort)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS} - `"Survival to age 65, female (% of cohort)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.TO65.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS} - Survival to age 65, male (% of cohort)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS} - `"Survival to age 65, male (% of cohort)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT:SP.DYN.WFRT} - Wanted fertility rate (births per woman)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT:SP.DYN.WFRT} - `"Wanted fertility rate (births per woman)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6995,9 +11351,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT.Q1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q1:SP.DYN.WFRT.Q1} - Total wanted fertility rate (births per woman): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q1:SP.DYN.WFRT.Q1} - `"Total wanted fertility rate (births per woman): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7008,9 +11370,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT.Q2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q2:SP.DYN.WFRT.Q2} - Total wanted fertility rate (births per woman): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q2:SP.DYN.WFRT.Q2} - `"Total wanted fertility rate (births per woman): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7021,9 +11389,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT.Q3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q3:SP.DYN.WFRT.Q3} - Total wanted fertility rate (births per woman): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q3:SP.DYN.WFRT.Q3} - `"Total wanted fertility rate (births per woman): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7034,9 +11408,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT.Q4}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q4:SP.DYN.WFRT.Q4} - Total wanted fertility rate (births per woman): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q4:SP.DYN.WFRT.Q4} - `"Total wanted fertility rate (births per woman): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7047,9 +11427,15 @@
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT.Q5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q5:SP.DYN.WFRT.Q5} - Total wanted fertility rate (births per woman): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT.Q5:SP.DYN.WFRT.Q5} - `"Total wanted fertility rate (births per woman): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7060,9 +11446,15 @@
 
 {synoptline}
 {marker topicid_SP.HOU.FEMA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS} - Female headed households (% of households with a female head)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS} - `"Female headed households (% of households with a female head)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7073,9 +11465,15 @@
 
 {synoptline}
 {marker topicid_SP.M15.2024.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS} - Women who were first married by age 15 (% of women ages 20-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS} - `"Women who were first married by age 15 (% of women ages 20-24)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7086,9 +11484,15 @@
 
 {synoptline}
 {marker topicid_SP.M18.2024.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS} - Women who were first married by age 18 (% of women ages 20-24)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS} - `"Women who were first married by age 18 (% of women ages 20-24)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7099,9 +11503,15 @@
 
 {synoptline}
 {marker topicid_SP.MTR.1519.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q1.ZS:SP.MTR.1519.Q1.ZS} - Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q1.ZS:SP.MTR.1519.Q1.ZS} - `"Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7112,9 +11522,15 @@
 
 {synoptline}
 {marker topicid_SP.MTR.1519.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q2.ZS:SP.MTR.1519.Q2.ZS} - Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q2.ZS:SP.MTR.1519.Q2.ZS} - `"Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7125,9 +11541,15 @@
 
 {synoptline}
 {marker topicid_SP.MTR.1519.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q3.ZS:SP.MTR.1519.Q3.ZS} - Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q3.ZS:SP.MTR.1519.Q3.ZS} - `"Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7138,9 +11560,15 @@
 
 {synoptline}
 {marker topicid_SP.MTR.1519.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q4.ZS:SP.MTR.1519.Q4.ZS} - Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q4.ZS:SP.MTR.1519.Q4.ZS} - `"Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7151,9 +11579,15 @@
 
 {synoptline}
 {marker topicid_SP.MTR.1519.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q5.ZS:SP.MTR.1519.Q5.ZS} - Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.Q5.ZS:SP.MTR.1519.Q5.ZS} - `"Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7164,9 +11598,15 @@
 
 {synoptline}
 {marker topicid_SP.MTR.1519.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.ZS:SP.MTR.1519.ZS} - Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.ZS:SP.MTR.1519.ZS} - `"Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7177,747 +11617,1318 @@
 
 {synoptline}
 {marker topicid_SP.POP.0004.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y} - Population ages 0-4, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y} - `"Population ages 00-04, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 4 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0004.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - Population ages 0-4, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - `"Population ages 00-04, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 4 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.FE.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.IN:SP.POP.0014.FE.IN} - Population ages 0-14, female}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.IN:SP.POP.0014.FE.IN} - `"Population ages 0-14, female"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - Population ages 0-14, female (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - `"Population ages 0-14, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14 as a percentage of the total female population. Population is based on the de facto definition of population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.MA.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.IN:SP.POP.0014.MA.IN} - Population ages 0-14, male}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.IN:SP.POP.0014.MA.IN} - `"Population ages 0-14, male"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - Population ages 0-14, male (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - `"Population ages 0-14, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14 as a percentage of the total male population. Population is based on the de facto definition of population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO:SP.POP.0014.TO} - Population ages 0-14, total}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO:SP.POP.0014.TO} - `"Population ages 0-14, total"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.TO.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - Population ages 0-14 (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - `"Population ages 0-14 (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0509.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y} - Population ages 5-9, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y} - `"Population ages 05-09, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 5 to 9 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.0509.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - Population ages 5-9, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - `"Population ages 05-09, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 5 to 9 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1014.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y} - Population ages 10-14, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y} - `"Population ages 10-14, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 10 to 14 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1014.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - Population ages 10-14, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - `"Population ages 10-14, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 10 to 14 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1519.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y} - Population ages 15-19, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y} - `"Population ages 15-19, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 19 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1519.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y} - Population ages 15-19, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y} - `"Population ages 15-19, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 19 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.FE.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.IN:SP.POP.1564.FE.IN} - Population ages 15-64, female}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.IN:SP.POP.1564.FE.IN} - `"Population ages 15-64, female"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - Population ages 15-64, female (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - `"Population ages 15-64, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64 as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.MA.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.IN:SP.POP.1564.MA.IN} - Population ages 15-64, male}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.IN:SP.POP.1564.MA.IN} - `"Population ages 15-64, male"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS} - Population ages 15-64, male (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS} - `"Population ages 15-64, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64 as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO:SP.POP.1564.TO} - Population ages 15-64, total}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO:SP.POP.1564.TO} - `"Population ages 15-64, total"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - Population ages 15-64 (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - `"Population ages 15-64 (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64 as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.2024.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y} - Population ages 20-24, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y} - `"Population ages 20-24, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 20 to 24 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.2024.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - Population ages 20-24, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - `"Population ages 20-24, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 20 to 24 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.2529.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - Population ages 25-29, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - `"Population ages 25-29, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 25 to 29 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.2529.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - Population ages 25-29, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - `"Population ages 25-29, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 25 to 29 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.3034.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y} - Population ages 30-34, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y} - `"Population ages 30-34, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 30 to 34 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.3034.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - Population ages 30-34, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - `"Population ages 30-34, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 30 to 34 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.3539.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - Population ages 35-39, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - `"Population ages 35-39, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 35 to 39 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.3539.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - Population ages 35-39, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - `"Population ages 35-39, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 35 to 39 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.4044.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - Population ages 40-44, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - `"Population ages 40-44, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 40 to 44 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.4044.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - Population ages 40-44, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - `"Population ages 40-44, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 40 to 44 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.4549.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y} - Population ages 45-49, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y} - `"Population ages 45-49, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 45 to 49 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.4549.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - Population ages 45-49, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - `"Population ages 45-49, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 45 to 49 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.5054.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - Population ages 50-54, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - `"Population ages 50-54, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 50 to 54 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.5054.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y} - Population ages 50-54, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y} - `"Population ages 50-54, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 50 to 54 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.5559.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - Population ages 55-59, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - `"Population ages 55-59, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 55 to 59 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.5559.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y} - Population ages 55-59, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y} - `"Population ages 55-59, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 55 to 59 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.6064.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - Population ages 60-64, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - `"Population ages 60-64, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 60 to 64 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.6064.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - Population ages 60-64, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - `"Population ages 60-64, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.6569.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y} - Population ages 65-69, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y} - `"Population ages 65-69, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 65 to 69 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.6569.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y} - Population ages 65-69, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y} - `"Population ages 65-69, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 65 to 69 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.FE.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN} - Population ages 65 and above, female}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN} - `"Population ages 65 and above, female"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - Population ages 65 and above, female (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - `"Population ages 65 and above, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.MA.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN} - Population ages 65 and above, male}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN} - `"Population ages 65 and above, male"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - Population ages 65 and above, male (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - `"Population ages 65 and above, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.TO}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO:SP.POP.65UP.TO} - Population ages 65 and above, total}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO:SP.POP.65UP.TO} - `"Population ages 65 and above, total"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.TO.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS} - Population ages 65 and above (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS} - `"Population ages 65 and above (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.7074.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y} - Population ages 70-74, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y} - `"Population ages 70-74, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 70 to 74 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.7074.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y} - Population ages 70-74, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y} - `"Population ages 70-74, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 70 to 74 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.7579.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y} - Population ages 75-79, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y} - `"Population ages 75-79, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 75 to 79 as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.7579.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y} - Population ages 75-79, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y} - `"Population ages 75-79, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 75 to 79 as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.FE}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE:SP.POP.80UP.FE} - Female population 80+}}
 
 {synopt:{opt Source}}16 Health Nutrition and Population Statistics{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE:SP.POP.80UP.FE} - `"Female population 80+"'}}
+
+{synopt:{opt Source}}`"16 Health Nutrition and Population Statistics"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 80 and above.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on United Nations Population Division, World Population Prospects.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.FE.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y} - Population ages 80 and above, female (% of female population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y} - `"Population ages 80 and above, female (% of female population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 80 and above as a percentage of the total female population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.MA.5Y}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - Population ages 80 and above, male (% of male population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - `"Population ages 80 and above, male (% of male population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 80 and above as a percentage of the total male population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.BRTH.MF}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.BRTH.MF:SP.POP.BRTH.MF} - Sex ratio at birth (male births per female births)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.BRTH.MF:SP.POP.BRTH.MF} - `"Sex ratio at birth (male births per female births)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Sex ratio at birth refers to male births per female births. The data are 5 year averages.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND:SP.POP.DPND} - Age dependency ratio (% of working-age population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.DPND:SP.POP.DPND} - `"Age dependency ratio (% of working-age population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND.OL}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.OL:SP.POP.DPND.OL} - Age dependency ratio, old (% of working-age population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.OL:SP.POP.DPND.OL} - `"Age dependency ratio, old (% of working-age population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND.YG}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.YG:SP.POP.DPND.YG} - Age dependency ratio, young (% of working-age population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.YG:SP.POP.DPND.YG} - `"Age dependency ratio, young (% of working-age population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio, young, is the ratio of younger dependents--people younger than 15--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.GROW}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - Population growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -7927,75 +12938,137 @@
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
 {synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2017 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - `"Population growth (annual %)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
+
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2019 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - Population, total}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - `"Population, total"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Reprot (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme.{p_end}
+=======
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.FE.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN} - Population, female}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN} - `"Population, female"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population is based on the de facto definition of population, which counts all female residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - Population, female (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - `"Population, female (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population is the percentage of the population that is female. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.MA.IN}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN} - Population, male}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN} - `"Population, male"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population is based on the de facto definition of population, which counts all male residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS} - Population, male (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS} - `"Population, male (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population is the percentage of the population that is male. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+=======
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SP.REG.BRTH.FE.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.FE.ZS:SP.REG.BRTH.FE.ZS} - Completeness of birth registration, female (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -8003,12 +13076,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.FE.ZS:SP.REG.BRTH.FE.ZS} - `"Completeness of birth registration, female (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.REG.BRTH.MA.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.MA.ZS:SP.REG.BRTH.MA.ZS} - Completeness of birth registration, male (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -8016,12 +13099,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.MA.ZS:SP.REG.BRTH.MA.ZS} - `"Completeness of birth registration, male (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.REG.BRTH.RU.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.RU.ZS:SP.REG.BRTH.RU.ZS} - Completeness of birth registration, rural (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -8029,12 +13122,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.RU.ZS:SP.REG.BRTH.RU.ZS} - `"Completeness of birth registration, rural (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.REG.BRTH.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.UR.ZS:SP.REG.BRTH.UR.ZS} - Completeness of birth registration, urban (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -8042,12 +13145,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.UR.ZS:SP.REG.BRTH.UR.ZS} - `"Completeness of birth registration, urban (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.REG.BRTH.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.ZS:SP.REG.BRTH.ZS} - Completeness of birth registration (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -8055,15 +13168,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.ZS:SP.REG.BRTH.ZS} - `"Completeness of birth registration (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UNICEF's State of the World's Children based mostly on household surveys and ministry of health data.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.REG.DTHS.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.REG.DTHS.ZS:SP.REG.DTHS.ZS} - Completeness of death registration with cause-of-death information (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.REG.DTHS.ZS:SP.REG.DTHS.ZS} - `"Completeness of death registration with cause-of-death information (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8074,6 +13202,7 @@
 
 {synoptline}
 {marker topicid_SP.UWT.LMTG.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q1.ZS:SP.UWT.LMTG.Q1.ZS} - Unmet need for family planning (for limiting) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8081,12 +13210,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q1.ZS:SP.UWT.LMTG.Q1.ZS} - `"Unmet need for family planning (for limiting) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.LMTG.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q2.ZS:SP.UWT.LMTG.Q2.ZS} - Unmet need for family planning (for limiting) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8094,12 +13233,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q2.ZS:SP.UWT.LMTG.Q2.ZS} - `"Unmet need for family planning (for limiting) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.LMTG.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q3.ZS:SP.UWT.LMTG.Q3.ZS} - Unmet need for family planning (for limiting) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8107,12 +13256,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q3.ZS:SP.UWT.LMTG.Q3.ZS} - `"Unmet need for family planning (for limiting) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.LMTG.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q4.ZS:SP.UWT.LMTG.Q4.ZS} - Unmet need for family planning (for limiting) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8120,12 +13279,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q4.ZS:SP.UWT.LMTG.Q4.ZS} - `"Unmet need for family planning (for limiting) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.LMTG.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q5.ZS:SP.UWT.LMTG.Q5.ZS} - Unmet need for family planning (for limiting) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8133,12 +13302,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.LMTG.Q5.ZS:SP.UWT.LMTG.Q5.ZS} - `"Unmet need for family planning (for limiting) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.SPCG.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q1.ZS:SP.UWT.SPCG.Q1.ZS} - Unmet need for family planning (for spacing) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8146,12 +13325,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q1.ZS:SP.UWT.SPCG.Q1.ZS} - `"Unmet need for family planning (for spacing) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.SPCG.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q2.ZS:SP.UWT.SPCG.Q2.ZS} - Unmet need for family planning (for spacing) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8159,12 +13348,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q2.ZS:SP.UWT.SPCG.Q2.ZS} - `"Unmet need for family planning (for spacing) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.SPCG.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q3.ZS:SP.UWT.SPCG.Q3.ZS} - Unmet need for family planning (for spacing) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8172,12 +13371,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q3.ZS:SP.UWT.SPCG.Q3.ZS} - `"Unmet need for family planning (for spacing) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.SPCG.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q4.ZS:SP.UWT.SPCG.Q4.ZS} - Unmet need for family planning (for spacing) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8185,12 +13394,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q4.ZS:SP.UWT.SPCG.Q4.ZS} - `"Unmet need for family planning (for spacing) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.SPCG.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q5.ZS:SP.UWT.SPCG.Q5.ZS} - Unmet need for family planning (for spacing) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8198,15 +13417,30 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.SPCG.Q5.ZS:SP.UWT.SPCG.Q5.ZS} - `"Unmet need for family planning (for spacing) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.TFRT}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT:SP.UWT.TFRT} - Unmet need for contraception (% of married women ages 15-49)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT:SP.UWT.TFRT} - `"Unmet need for contraception (% of married women ages 15-49)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8217,6 +13451,7 @@
 
 {synoptline}
 {marker topicid_SP.UWT.TFRT.Q1.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q1.ZS:SP.UWT.TFRT.Q1.ZS} - Unmet need for family planning (total) (% of married women): Q1 (lowest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8224,12 +13459,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q1.ZS:SP.UWT.TFRT.Q1.ZS} - `"Unmet need for family planning (total) (% of married women): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.TFRT.Q2.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q2.ZS:SP.UWT.TFRT.Q2.ZS} - Unmet need for family planning (total) (% of married women): Q2}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8237,12 +13482,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q2.ZS:SP.UWT.TFRT.Q2.ZS} - `"Unmet need for family planning (total) (% of married women): Q2"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.TFRT.Q3.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q3.ZS:SP.UWT.TFRT.Q3.ZS} - Unmet need for family planning (total) (% of married women): Q3}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8250,12 +13505,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q3.ZS:SP.UWT.TFRT.Q3.ZS} - `"Unmet need for family planning (total) (% of married women): Q3"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.TFRT.Q4.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q4.ZS:SP.UWT.TFRT.Q4.ZS} - Unmet need for family planning (total) (% of married women): Q4}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8263,12 +13528,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q4.ZS:SP.UWT.TFRT.Q4.ZS} - `"Unmet need for family planning (total) (% of married women): Q4"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 {synoptline}
 {marker topicid_SP.UWT.TFRT.Q5.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q5.ZS:SP.UWT.TFRT.Q5.ZS} - Unmet need for family planning (total) (% of married women): Q5 (highest)}}
 
 {synopt:{opt Source}}39 Health Nutrition and Population Statistics by Wealth Quintile{p_end}
@@ -8276,9 +13551,22 @@
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed, amenorrheic women who are not using family planning and whose last birth was mistimed, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and say they want to wait 2 or more years for their next birth. Also included in unmet need for spacing are fecund women who are not using any method of family planning and say they are unsure whether they want another child or who want another child but are unsure when to have the birth unless they say it would not be a problem if they discovered they were pregnant in the next few weeks. Unmet need for limiting refers to pregnant women whose pregnancy was unwanted, amenorrheic women whose last child was unwanted, and fecund women who are neither pregnant nor amenorrheic and who are not using any method of family planning and who want no more children. Excluded from the unmet need category are pregnant and amenorrheic women who became pregnant while using a method (these women are in need of a better method of contraception).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT.Q5.ZS:SP.UWT.TFRT.Q5.ZS} - `"Unmet need for family planning (total) (% of married women): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"39 Health Nutrition and Population Statistics by Wealth Quintile"'{p_end}
+
+{synopt:{opt Topics}}08 Health{p_end}
+
+{synopt:{opt Source Notes}}Unmet need for family planning: Percentage of currently married women with unmet need for family planning for spacing, for limiting, and the sum of these two (total). Unmet need for spacing includes pregnant women whose pregnancy was mistimed,{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Household Surveys (DHS, MICS){p_end}
 
 
 
+<<<<<<< HEAD
 {right:(as of 13mar2019)}
+=======
+{right:(as of 20oct2019)}
+>>>>>>> _parameter.ado

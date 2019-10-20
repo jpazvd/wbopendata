@@ -1,6 +1,6 @@
 *******************************************************************************
 * wbopendata                                                                  *
-*!  v 15.2	    11Mar2019               by Joao Pedro Azevedo 
+*!  v 15.2	    24Mar2019               by Joao Pedro Azevedo 
 * created and tested new functions, namely:
   * _api_read_indicators.ado : download indicator list from API, for formats output in a Stata readable form
   * _indicators.ado: calls _api_read_indicators.ado, and uses its output to generate several documentation outputs for wbopendata:
@@ -8,6 +8,10 @@
     * sthlp indicator list by Source and Topic
     * sthlp indicator metadata by Source and Topic
  * _website.ado : screens a text file and converts and http or www "word" to a SMCL web compatible code.
+ * _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
+ * _wbopendata.ado: renamned _update_wbopendata
+ * _indicator: renamed _update_indicators
+ * _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
  * updated help file to allow for the search of indicators by Source and Topics
 *******************************************************************************
 
@@ -35,7 +39,10 @@ version 9.0
 						 ISO						///
 						 COUNTRYMETADATA			///
 						 ALL						///
-						 BREAKNOMETADATA						///
+						 BREAKNOMETADATA			///
+						 FORCE						///
+						 SHORT						///
+						 DETAIL						///
                  ]
 
 
@@ -58,7 +65,7 @@ version 9.0
 			
 		if ("`update'" != "") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
-			noi _wbopendata, update `query' `check'	`countrymetadata' `all'
+			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' 
 			break
 					
 		}

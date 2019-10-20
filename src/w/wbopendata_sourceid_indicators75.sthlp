@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 13mar2019)}
-=======
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,14 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-<<<<<<< HEAD
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
-=======
->>>>>>> _parameter.ado
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -60,8 +48,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-<<<<<<< HEAD
-=======
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
@@ -69,39 +55,60 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
->>>>>>> _parameter.ado
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_75}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators75##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:75 Environment, Social and Governance (ESG) Data}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-<<<<<<< HEAD
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
+{marker sourceid_EN.CLC.CDDY.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.CDDY.XD:EN.CLC.CDDY.XD} - `"Cooling Degree Days"'}}
 
-{synopt:{opt Source}}50 Subnational Population{p_end}
-=======
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - `"Population (% of total)"'}}
-
-{synopt:{opt Source}}`"50 Subnational Population"'{p_end}
->>>>>>> _parameter.ado
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
 
 
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
+{synopt:{opt Source Notes}}A cooling degree day (CDD) is a measurement designed to quantify the demand for energy needed to cool buildings. It is the number of degrees that a day's average temperature is above 18°C.{p_end}
 
-<<<<<<< HEAD
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
 
 
-{right:(as of 13mar2019)}
-=======
-{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
+{synoptline}
+{marker sourceid_EN.CLC.HEAT.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.HEAT.XD:EN.CLC.HEAT.XD} - `"Health Index 35"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}Total count of days per year where the daily mean Heat Index rose above 35°C. The Heat Index is a measure of how hot it really feels when relative humidity is factored in with the actual air temperature.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.PRCP.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.PRCP.XD:EN.CLC.PRCP.XD} - `"Maximum 5-day Rainfall (25-yr RL)"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}A 25-year return level of the 5-day cumulative precipitation is the maximum precipitation sum over any 5-day period that can be expected once in an average 25-year period.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.SPEI.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.SPEI.XD:EN.CLC.SPEI.XD} - `"Mean Drought Index (SPEI)"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}The Standardized Precipitation Evapotranspiration Index (SPEI), or Mean Drought Index, calculated for a 12-month period, has been found to be closely related to drought impacts on ecosystems, crop, and water resources. The SPEI is designed to{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
 
 
 
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado

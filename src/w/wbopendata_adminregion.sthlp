@@ -2,7 +2,11 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+<<<<<<< HEAD
 {title:Administrative Region  (as of 19oct2019)}
+=======
+{title:Administrative Region  (as of 20oct2019)}
+>>>>>>> _parameter.ado
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}

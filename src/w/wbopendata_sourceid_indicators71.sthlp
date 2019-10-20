@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 13mar2019)}
-=======
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,14 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-<<<<<<< HEAD
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
-=======
->>>>>>> _parameter.ado
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -60,8 +48,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-<<<<<<< HEAD
-=======
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
@@ -69,39 +55,216 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
->>>>>>> _parameter.ado
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_71}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators71##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:71 International Comparison Program (ICP) 2005}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-<<<<<<< HEAD
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - Population (% of total)}}
+{marker sourceid_CD}
+{synopt:{bf:{help wbopendata_sourceid##CD:CD} - `"Expenditures (current US$, XR term)"'}}
 
-{synopt:{opt Source}}50 Subnational Population{p_end}
-=======
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - `"Population (% of total)"'}}
-
-{synopt:{opt Source}}`"50 Subnational Population"'{p_end}
->>>>>>> _parameter.ado
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
 
 
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
+{synopt:{opt Source Notes}}{p_end}
 
-<<<<<<< HEAD
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
-
+{synopt:{opt Source Organization}}{p_end}
 
 
-{right:(as of 13mar2019)}
-=======
-{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
+{synoptline}
+{marker sourceid_GD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##GD.ZS:GD.ZS} - `"Expenditure shares of GDP (percentage share, GDP=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PA.NPP}
+{synopt:{bf:{help wbopendata_sourceid##PA.NPP:PA.NPP} - `"PPP (LCU per international $)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PA.NUS}
+{synopt:{bf:{help wbopendata_sourceid##PA.NUS:PA.NUS} - `"Exchange rate (LCU per US$, period average)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.CD}
+{synopt:{bf:{help wbopendata_sourceid##PC.CD:PC.CD} - `"Expenditures per capita (current US$, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.PP.CD}
+{synopt:{bf:{help wbopendata_sourceid##PC.PP.CD:PC.PP.CD} - `"Expenditures per capita (current international $, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.US.PP.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.US.PP.ZX:PC.US.PP.ZX} - `"Expenditures per capita (index, US=100, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.US.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.US.ZX:PC.US.ZX} - `"Expenditures per capita (index, US=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.WL.PP.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.WL.PP.ZX:PC.WL.PP.ZX} - `"Expenditures per capita (index, World=100, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.WL.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.WL.ZX:PC.WL.ZX} - `"Expenditures per capita (index, World=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_POP}
+{synopt:{bf:{help wbopendata_sourceid##POP:POP} - `"Population"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_POP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##POP.ZS:POP.ZS} - `"Population (percentage share, World=100)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PP.CD}
+{synopt:{bf:{help wbopendata_sourceid##PP.CD:PP.CD} - `"Expenditures (current international $, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PX.US}
+{synopt:{bf:{help wbopendata_sourceid##PX.US:PX.US} - `"Price level index (US=100)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PX.WL}
+{synopt:{bf:{help wbopendata_sourceid##PX.WL:PX.WL} - `"Price level index (World=100)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_WL.PP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##WL.PP.ZS:WL.PP.ZS} - `"Expenditures (percentage share, World=100, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_WL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##WL.ZS:WL.ZS} - `"Expenditures (percentage share, World=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
