@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 13mar2019)}
-=======
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,14 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-<<<<<<< HEAD
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
-=======
->>>>>>> _parameter.ado
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -34,10 +22,7 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-<<<<<<< HEAD
-=======
 {synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
->>>>>>> _parameter.ado
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -52,10 +37,7 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-<<<<<<< HEAD
-=======
 {synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
->>>>>>> _parameter.ado
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -66,8 +48,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-<<<<<<< HEAD
-=======
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
@@ -75,7 +55,6 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
->>>>>>> _parameter.ado
 
 
 {marker sourceid_60}
@@ -85,16 +64,6 @@
 {syntab:{title:{bf:60 Economic Fitness}}}
 {synoptline}
 {marker sourceid_EF.EFM.OVRL.XD}
-<<<<<<< HEAD
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - Economic Fitness Ranking (1 = high, 149 = low)}}
-
-{synopt:{opt Source}}60 Economic Fitness{p_end}
-
-
-{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
-=======
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - `"Economic Fitness Metric"'}}
 
 {synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
@@ -103,25 +72,10 @@
 {synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
->>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_EF.EFM.RANK.XD}
-<<<<<<< HEAD
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - Economic Fitness Ranking (1 = high, 149 = low)}}
-
-{synopt:{opt Source}}60 Economic Fitness{p_end}
-
-
-{synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit https://www.nature.com/articles/srep00723 and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
-
-
-
-{right:(as of 13mar2019)}
-=======
 {synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - `"Economic Fitness Ranking (1 = high, 149 = low)"'}}
 
 {synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
@@ -134,4 +88,3 @@
 
 
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
