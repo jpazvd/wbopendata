@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -42,7 +42,7 @@
 {marker topicid_BX.GSR.CCIS.CD}
 {synopt:{bf:{help wbopendata_topicid##BX.GSR.CCIS.CD:BX.GSR.CCIS.CD} - `"ICT service exports (BoP, current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_BX.GSR.CCIS.ZS}
 {synopt:{bf:{help wbopendata_topicid##BX.GSR.CCIS.ZS:BX.GSR.CCIS.ZS} - `"ICT service exports (% of service exports, BoP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_EG.ELC.COAL.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.COAL.ZS:EG.ELC.COAL.ZS} - `"Electricity production from coal sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_EG.ELC.HYRO.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.HYRO.ZS:EG.ELC.HYRO.ZS} - `"Electricity production from hydroelectric sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_EG.ELC.LOSS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.LOSS.ZS:EG.ELC.LOSS.ZS} - `"Electric power transmission and distribution losses (% of output)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_EG.ELC.NGAS.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.NGAS.ZS:EG.ELC.NGAS.ZS} - `"Electricity production from natural gas sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_EG.ELC.NUCL.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.NUCL.ZS:EG.ELC.NUCL.ZS} - `"Electricity production from nuclear sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -133,7 +133,7 @@
 {marker topicid_EG.ELC.PETR.ZS}
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.PETR.ZS:EG.ELC.PETR.ZS} - `"Electricity production from oil sources (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -146,7 +146,7 @@
 {marker topicid_EG.USE.ELEC.KH.PC}
 {synopt:{bf:{help wbopendata_topicid##EG.USE.ELEC.KH.PC:EG.USE.ELEC.KH.PC} - `"Electric power consumption (kWh per capita)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -159,7 +159,7 @@
 {marker topicid_ER.H2O.FWAG.ZS}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.FWAG.ZS:ER.H2O.FWAG.ZS} - `"Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -172,7 +172,7 @@
 {marker topicid_ER.H2O.FWDM.ZS}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.FWDM.ZS:ER.H2O.FWDM.ZS} - `"Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -185,7 +185,7 @@
 {marker topicid_ER.H2O.FWIN.ZS}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.FWIN.ZS:ER.H2O.FWIN.ZS} - `"Annual freshwater withdrawals, industry (% of total freshwater withdrawal)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -198,7 +198,7 @@
 {marker topicid_ER.H2O.FWTL.K3}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.K3:ER.H2O.FWTL.K3} - `"Annual freshwater withdrawals, total (billion cubic meters)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -211,7 +211,7 @@
 {marker topicid_ER.H2O.FWTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.FWTL.ZS:ER.H2O.FWTL.ZS} - `"Annual freshwater withdrawals, total (% of internal resources)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -224,7 +224,7 @@
 {marker topicid_ER.H2O.INTR.K3}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.INTR.K3:ER.H2O.INTR.K3} - `"Renewable internal freshwater resources, total (billion cubic meters)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -237,7 +237,7 @@
 {marker topicid_ER.H2O.INTR.PC}
 {synopt:{bf:{help wbopendata_topicid##ER.H2O.INTR.PC:ER.H2O.INTR.PC} - `"Renewable internal freshwater resources per capita (cubic meters)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -289,7 +289,7 @@
 {marker topicid_IE.PPI.ENGY.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPI.ENGY.CD:IE.PPI.ENGY.CD} - `"Investment in energy with private participation (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -302,7 +302,7 @@
 {marker topicid_IE.PPI.ICTI.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPI.ICTI.CD:IE.PPI.ICTI.CD} - `"Investment in ICT with private participation (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -328,7 +328,7 @@
 {marker topicid_IE.PPI.TRAN.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPI.TRAN.CD:IE.PPI.TRAN.CD} - `"Investment in transport with private participation (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -341,7 +341,7 @@
 {marker topicid_IE.PPI.WATR.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPI.WATR.CD:IE.PPI.WATR.CD} - `"Investment in water and sanitation with private participation (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -354,7 +354,7 @@
 {marker topicid_IE.PPN.ENGY.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPN.ENGY.CD:IE.PPN.ENGY.CD} - `"Public private partnerships investment in energy (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -380,7 +380,7 @@
 {marker topicid_IE.PPN.TRAN.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPN.TRAN.CD:IE.PPN.TRAN.CD} - `"Public private partnerships investment in transport (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -393,7 +393,7 @@
 {marker topicid_IE.PPN.WATR.CD}
 {synopt:{bf:{help wbopendata_topicid##IE.PPN.WATR.CD:IE.PPN.WATR.CD} - `"Public private partnerships investment in water and sanitation (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -406,7 +406,7 @@
 {marker topicid_IP.IDS.NRCT}
 {synopt:{bf:{help wbopendata_topicid##IP.IDS.NRCT:IP.IDS.NRCT} - `"Industrial design applications, nonresident, by count"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -419,7 +419,7 @@
 {marker topicid_IP.IDS.RSCT}
 {synopt:{bf:{help wbopendata_topicid##IP.IDS.RSCT:IP.IDS.RSCT} - `"Industrial design applications, resident, by count"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -432,7 +432,7 @@
 {marker topicid_IP.TMK.NRCT}
 {synopt:{bf:{help wbopendata_topicid##IP.TMK.NRCT:IP.TMK.NRCT} - `"Trademark applications, nonresident, by count"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -445,7 +445,7 @@
 {marker topicid_IP.TMK.RSCT}
 {synopt:{bf:{help wbopendata_topicid##IP.TMK.RSCT:IP.TMK.RSCT} - `"Trademark applications, resident, by count"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -458,7 +458,7 @@
 {marker topicid_IQ.WEF.PORT.XQ}
 {synopt:{bf:{help wbopendata_topicid##IQ.WEF.PORT.XQ:IQ.WEF.PORT.XQ} - `"Quality of port infrastructure, WEF (1=extremely underdeveloped to 7=well developed and efficient by international standards)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -471,7 +471,7 @@
 {marker topicid_IS.AIR.DPRT}
 {synopt:{bf:{help wbopendata_topicid##IS.AIR.DPRT:IS.AIR.DPRT} - `"Air transport, registered carrier departures worldwide"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -484,7 +484,7 @@
 {marker topicid_IS.AIR.GOOD.MT.K1}
 {synopt:{bf:{help wbopendata_topicid##IS.AIR.GOOD.MT.K1:IS.AIR.GOOD.MT.K1} - `"Air transport, freight (million ton-km)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -497,7 +497,7 @@
 {marker topicid_IS.AIR.PSGR}
 {synopt:{bf:{help wbopendata_topicid##IS.AIR.PSGR:IS.AIR.PSGR} - `"Air transport, passengers carried"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -575,7 +575,7 @@
 {marker topicid_IS.RRS.GOOD.MT.K6}
 {synopt:{bf:{help wbopendata_topicid##IS.RRS.GOOD.MT.K6:IS.RRS.GOOD.MT.K6} - `"Railways, goods transported (million ton-km)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -588,7 +588,7 @@
 {marker topicid_IS.RRS.PASG.KM}
 {synopt:{bf:{help wbopendata_topicid##IS.RRS.PASG.KM:IS.RRS.PASG.KM} - `"Railways, passengers carried (million passenger-km)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -601,7 +601,7 @@
 {marker topicid_IS.RRS.TOTL.KM}
 {synopt:{bf:{help wbopendata_topicid##IS.RRS.TOTL.KM:IS.RRS.TOTL.KM} - `"Rail lines (total route-km)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -614,7 +614,7 @@
 {marker topicid_IS.SHP.GCNW.XQ}
 {synopt:{bf:{help wbopendata_topicid##IS.SHP.GCNW.XQ:IS.SHP.GCNW.XQ} - `"Liner shipping connectivity index (maximum value in 2004 = 100)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -627,7 +627,7 @@
 {marker topicid_IS.SHP.GOOD.TU}
 {synopt:{bf:{help wbopendata_topicid##IS.SHP.GOOD.TU:IS.SHP.GOOD.TU} - `"Container port traffic (TEU: 20 foot equivalent units)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -679,7 +679,7 @@
 {marker topicid_IT.CEL.SETS}
 {synopt:{bf:{help wbopendata_topicid##IT.CEL.SETS:IT.CEL.SETS} - `"Mobile cellular subscriptions"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -692,7 +692,7 @@
 {marker topicid_IT.CEL.SETS.P2}
 {synopt:{bf:{help wbopendata_topicid##IT.CEL.SETS.P2:IT.CEL.SETS.P2} - `"Mobile cellular subscriptions (per 100 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -718,7 +718,7 @@
 {marker topicid_IT.MLT.MAIN}
 {synopt:{bf:{help wbopendata_topicid##IT.MLT.MAIN:IT.MLT.MAIN} - `"Fixed telephone subscriptions"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -731,7 +731,7 @@
 {marker topicid_IT.MLT.MAIN.P2}
 {synopt:{bf:{help wbopendata_topicid##IT.MLT.MAIN.P2:IT.MLT.MAIN.P2} - `"Fixed telephone subscriptions (per 100 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -744,7 +744,7 @@
 {marker topicid_IT.NET.BBND}
 {synopt:{bf:{help wbopendata_topicid##IT.NET.BBND:IT.NET.BBND} - `"Fixed broadband subscriptions"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -757,7 +757,7 @@
 {marker topicid_IT.NET.BBND.P2}
 {synopt:{bf:{help wbopendata_topicid##IT.NET.BBND.P2:IT.NET.BBND.P2} - `"Fixed broadband subscriptions (per 100 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -796,7 +796,7 @@
 {marker topicid_IT.NET.SECR}
 {synopt:{bf:{help wbopendata_topicid##IT.NET.SECR:IT.NET.SECR} - `"Secure Internet servers"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -809,7 +809,7 @@
 {marker topicid_IT.NET.SECR.P6}
 {synopt:{bf:{help wbopendata_topicid##IT.NET.SECR.P6:IT.NET.SECR.P6} - `"Secure Internet servers (per 1 million people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -835,7 +835,7 @@
 {marker topicid_IT.NET.USER.ZS}
 {synopt:{bf:{help wbopendata_topicid##IT.NET.USER.ZS:IT.NET.USER.ZS} - `"Individuals using the Internet (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -991,7 +991,7 @@
 {marker topicid_TM.VAL.ICTG.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TM.VAL.ICTG.ZS.UN:TM.VAL.ICTG.ZS.UN} - `"ICT goods imports (% total goods imports)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -1004,7 +1004,7 @@
 {marker topicid_TX.VAL.ICTG.ZS.UN}
 {synopt:{bf:{help wbopendata_topicid##TX.VAL.ICTG.ZS.UN:TX.VAL.ICTG.ZS.UN} - `"ICT goods exports (% of total goods exports)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
@@ -1014,4 +1014,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}

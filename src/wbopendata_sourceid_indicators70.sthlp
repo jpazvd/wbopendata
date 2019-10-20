@@ -57,21 +57,33 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_70}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators70##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:70 Economic Fitness 2}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - `"Population (% of total)"'}}
+{marker sourceid_EF.EFM.PROD.XD}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.PROD.XD:EF.EFM.PROD.XD} - `"Economic Fitness Metric"'}}
 
-{synopt:{opt Source}}`"50 Subnational Population"'{p_end}
+{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
 
 
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
+{synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis. Countries with the highest levels of EF have capabilities to produce a diverse portfolio of products{p_end}
 
-{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/s41567-018-0204-y/"} and {browse "http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth"} and https://www.nature.com{p_end}
+
+
+{synoptline}
+{marker sourceid_EF.EFM.UNIV.XD}
+{synopt:{bf:{help wbopendata_sourceid##EF.EFM.UNIV.XD:EF.EFM.UNIV.XD} - `"Universal Economic Fitness Metric"'}}
+
+{synopt:{opt Source}}`"70 Economic Fitness 2"'{p_end}
+
+
+{synopt:{opt Source Notes}}	The Universal Economic Fitness (UEF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse port{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details please visit the following links. The Fitness and Complexity algorithm has been introduced in: {browse "https://www.nature.com/articles/srep00723"} For a detailed discussion of the data preprocessing{p_end}
 
 
 

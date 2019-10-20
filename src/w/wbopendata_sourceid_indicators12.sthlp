@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,11 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -53,6 +48,13 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
 {marker sourceid_12}
@@ -27329,6 +27331,102 @@
 
 
 {synoptline}
+{marker sourceid_SE.LPV.PRIM}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM:SE.LPV.PRIM} - `"Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of  children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to calculate Learn{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.BMP.FE}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.BMP.FE:SE.LPV.PRIM.BMP.FE} - `"Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.BMP.MA}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.BMP.MA:SE.LPV.PRIM.BMP.MA} - `"Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}This indicator uses on Minimum Proficiency Levels (MPLs) defined by the Global Alliance to Monitor Learning led by the UNESCO Institute for Statistics (UIS) in the context of the SDG 4.1.1 monitoring, which established learning benchmarks acro{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.FE}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.FE:SE.LPV.PRIM.FE} - `"Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of  children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to calculate Learn{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.MA}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.MA:SE.LPV.PRIM.MA} - `"Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}This indicator brings together schooling and learning. It starts with the share of  children who haven't achieved minimum reading proficiency and adjusts it by the proportion of children who are out of school. The data used to calculate Learn{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.OOS}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.OOS:SE.LPV.PRIM.OOS} - `"Primary school age children out-of-school (%)"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS. For more information please see Azevedo, Joao Pedro, and others. 2019{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.OOS.FE}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.OOS.FE:SE.LPV.PRIM.OOS.FE} - `"Female primary school age children out-of-school (%)"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS. For more information please see Azevedo, Joao Pedro, and others. 2019{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
+{marker sourceid_SE.LPV.PRIM.OOS.MA}
+{synopt:{bf:{help wbopendata_sourceid##SE.LPV.PRIM.OOS.MA:SE.LPV.PRIM.OOS.MA} - `"Male primary school age children out-of-school (%)"'}}
+
+{synopt:{opt Source}}`"12 Education Statistics"'{p_end}
+
+
+{synopt:{opt Source Notes}}The Out-of-School adjustment in our Learning Poverty indicator relies on enrollment data. Our preferred definition is the adjusted net primary enrollment as reported by UIS. For more information please see Azevedo, Joao Pedro, and others. 2019{p_end}
+
+{synopt:{opt Source Organization}}Word Bank and UIS{p_end}
+
+
+{synoptline}
 {marker sourceid_SE.PRE.ENRL}
 {synopt:{bf:{help wbopendata_sourceid##SE.PRE.ENRL:SE.PRE.ENRL} - `"Enrolment in pre-primary education, both sexes (number)"'}}
 
@@ -44991,4 +45089,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}

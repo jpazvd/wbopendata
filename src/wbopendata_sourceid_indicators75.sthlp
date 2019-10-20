@@ -57,21 +57,57 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_50}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators50##:TOC}}){p_end}
+{marker sourceid_75}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators75##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:50 Subnational Population}}}
+{syntab:{title:{bf:75 Environment, Social and Governance (ESG) Data}}}
 {synoptline}
-{marker sourceid_SP.POP.TOTL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SP.POP.TOTL.ZS:SP.POP.TOTL.ZS} - `"Population (% of total)"'}}
+{marker sourceid_EN.CLC.CDDY.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.CDDY.XD:EN.CLC.CDDY.XD} - `"Cooling Degree Days"'}}
 
-{synopt:{opt Source}}`"50 Subnational Population"'{p_end}
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
 
 
-{synopt:{opt Source Notes}}Population Percentage of total is the share of first level administrative division (Admin 1 level) de facto mid-year population to total population.{p_end}
+{synopt:{opt Source Notes}}A cooling degree day (CDD) is a measurement designed to quantify the demand for energy needed to cool buildings. It is the number of degrees that a day's average temperature is above 18°C.{p_end}
 
-{synopt:{opt Source Organization}}1. Census reports and statistical databases from national statistical offices 2. Estimates from the Center for International Earth Science Information Network (CIESIN), The Earth Institute at Columbia University{p_end}
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.HEAT.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.HEAT.XD:EN.CLC.HEAT.XD} - `"Health Index 35"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}Total count of days per year where the daily mean Heat Index rose above 35°C. The Heat Index is a measure of how hot it really feels when relative humidity is factored in with the actual air temperature.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.PRCP.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.PRCP.XD:EN.CLC.PRCP.XD} - `"Maximum 5-day Rainfall (25-yr RL)"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}A 25-year return level of the 5-day cumulative precipitation is the maximum precipitation sum over any 5-day period that can be expected once in an average 25-year period.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CLC.SPEI.XD}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.SPEI.XD:EN.CLC.SPEI.XD} - `"Mean Drought Index (SPEI)"'}}
+
+{synopt:{opt Source}}`"75 Environment, Social and Governance (ESG) Data"'{p_end}
+
+
+{synopt:{opt Source Notes}}The Standardized Precipitation Evapotranspiration Index (SPEI), or Mean Drought Index, calculated for a 12-month period, has been found to be closely related to drought impacts on ecosystems, crop, and water resources. The SPEI is designed to{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Climate Change Knowledge Portal ({browse "https://climateknowledgeportal.worldbank.org"}){p_end}
 
 
 

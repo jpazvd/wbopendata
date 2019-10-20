@@ -5394,377 +5394,377 @@ FB.BNK.BRCH.MF.P5 - Branches, microfinance institutions (per 100,000 adults)
 FB.BNK.BRCH.P5 - Bank branches (per 100,000 people)
 FB.BNK.BRCH.SF.P5 - Branches, specialized state financial institutions (per 100,000 adults)
 FB.BNK.CAPA.ZS - Bank capital to assets ratio (%)
-FB.CAP.INST.ST.DM - 656_Does a dedicated, national, multi-stakeholder structure exist to promote and coordinate provision of financial education?_
+FB.CAP.INST.ST.DM - 
 FB.CAP.INST.ST.MS.AL - 660_Does government, industry, and NGOs participate in the multi-stakeholder structure to promote and coordinate financial education?
 FB.CAP.INST.ST.MS.GI - 659_Does government and industry only participate in the multi-stakeholder structure to promote and coordinate financial education?
 FB.CAP.INST.ST.MS.GP - 657_Does government participate in the multi-stakeholder structure to promote and coordinate financial education?
 FB.CAP.INST.ST.MS.IO - 658_Does industry only participate in the multi-stakeholder structure to promote and coordinate financial education?
-FB.CAP.INST.ST.MS.WB - 661_Does government, industry, or NGOs participate in the multi-stakeholder structure to promote and coordinate financial education?_
-FB.CAP.INST.ST.MU - 655_Are there multiple agencies responsible for financial education policy and programs?_
-FB.CAP.INST.ST.SG - 654_Is there a single agency responsible for financial education policy and programs?_
-FB.CAP.LEGL.DF.FE - 653_Does this country have a formal definition for financial education or financial literacy or financial capability? _
-FB.CAP.POLI.FE.CTR.WS - 685_Does the government itself or with partners maintain a website with educational content, tools, and resources for broader financial education?_
-FB.CAP.POLI.G2P.FE - 674_Is financial education integrated into any government-provided social assistance programs? _
+FB.CAP.INST.ST.MS.WB - 
+FB.CAP.INST.ST.MU - 
+FB.CAP.INST.ST.SG - 
+FB.CAP.LEGL.DF.FE - 
+FB.CAP.POLI.FE.CTR.WS - 
+FB.CAP.POLI.G2P.FE - 
 FB.CAP.POLI.GL.AP - 669_Has the government issued written guidelines directed to all providers of financial education on content and/or methodology?
 FB.CAP.POLI.GL.SP - 668_Has the government issued written guidelines directed to a limited set of providers of financial education on content and/or methodology?
-FB.CAP.POLI.GL.WP - 670_Has the government issued written guidelines directed to all, some, or none of the providers of financial education on content and/or methodology?_
-FB.CAP.POLI.NM.5Y - 662_Has the government, either by itself or with partners, undertaken a national mapping of financial education activities in the past five years? _
-FB.CAP.POLI.NS.BF.5Y - 667_Has a nationally representative broader survey with a component on financial capability of individuals or households been conducted in the past five years?_
-FB.CAP.POLI.NS.FC.5Y - 666_Has a nationally representative dedicated survey of financial capability of individuals or households been conducted in the past five years?_
-FB.CAP.POLI.PSC.CD.2Y - 678_Is financial education at the stage of curriculum development planned within the next 1-2 years within public school curriculums?_
-FB.CAP.POLI.PSC.DT.FE - 675_Is financial education included in public school curriculums as a distinct topic or subject?_
-FB.CAP.POLI.PSC.IP.2Y - 677_Is financial education at the stage of implementation planned within the next 1-2 years within public school curriculums?_
-FB.CAP.POLI.PSC.JS.FE - 681_Is financial education currently or soon to be included as a topic in public school curriculums at junior secondary level?_
-FB.CAP.POLI.PSC.NI - 679_Is financial education at the stage of not being included in public school curriculums?_
-FB.CAP.POLI.PSC.PR.FE - 680_Is financial education currently or soon to be included as a topic in public school curriculums at primary level?_
-FB.CAP.POLI.PSC.SS.FE - 682_Is financial education currently or soon to be included as a topic in public school curriculums at senior secondary level?_
-FB.CAP.POLI.PSC.ST.FE - 676_Is financial education included in public school curriculums as a subtopic integrated into one or multiple other topics or subjects?_
-FB.CAP.POLI.PSC.UN.FE - 683_Is financial education currently or soon to be included as a topic in public school curriculums at university level?_
-FB.CAP.POLI.PTC.INF.WS - 684_Does the government itself or with partners maintain a website to disclose pricing and terms and conditions information?_
+FB.CAP.POLI.GL.WP - 
+FB.CAP.POLI.NM.5Y - 
+FB.CAP.POLI.NS.BF.5Y - 
+FB.CAP.POLI.NS.FC.5Y - 
+FB.CAP.POLI.PSC.CD.2Y - 
+FB.CAP.POLI.PSC.DT.FE - 
+FB.CAP.POLI.PSC.IP.2Y - 
+FB.CAP.POLI.PSC.JS.FE - 
+FB.CAP.POLI.PSC.NI - 
+FB.CAP.POLI.PSC.PR.FE - 
+FB.CAP.POLI.PSC.SS.FE - 
+FB.CAP.POLI.PSC.ST.FE - 
+FB.CAP.POLI.PSC.UN.FE - 
+FB.CAP.POLI.PTC.INF.WS - 
 FB.CAP.POLI.RE.AP - 672_Does the government explicitly require all financial service providers to offer financial education?
 FB.CAP.POLI.RE.SP - 671_Does the government explicitly require a limited set of financial service providers to offer financial education?
-FB.CAP.POLI.RE.WP - 673_Does the government explicitly require all, some, or none of the financial service providers to offer financial education?_
+FB.CAP.POLI.RE.WP - 
 FB.CAP.POLI.RG.DC.AP - 664_Does the government regularly collect data from all known providers of financial education on the reach of their programs?
 FB.CAP.POLI.RG.DC.SP - 663_Does the government regularly collect data from a limited set of providers of financial education on the reach of their programs?
-FB.CAP.POLI.RG.DC.WP - 665_Does the government regularly collect data from all, some, or none of the known providers of financial education on the reach of their programs?_
+FB.CAP.POLI.RG.DC.WP - 
 FB.CBK.BRCH.P5 - Commercial bank branches (per 100,000 adults)
 FB.CBK.BRWR.P3 - Borrowers from commercial banks (per 1,000 adults)
 FB.CBK.DPTR.P3 - Depositors with commercial banks (per 1,000 adults)
 FB.DPT.INSU.PC.ZS - Deposit insurance coverage (% of GDP per capita)
-FB.FCP.BREG.AL.CO.NP - 593_Do laws and regulations allow consumers a cooling-off period during which they can withdraw from a product or service without a penalty?_
-FB.FCP.BREG.EB.AR - 583_Do laws and regulations require assessment of borrower's ability to repay, without specific borrowing limits?_
-FB.FCP.BREG.EB.EL - 582_Do laws and regulations set explicit limits on excessive borrowing?_
-FB.FCP.BREG.EB.NP - 585_Do laws and regulations contain no provisions to restrict excessive borrowing?_
-FB.FCP.BREG.EB.OR - 584_Do laws and regulations set other restrictions on excessive borrowing?_
-FB.FCP.BREG.ML.PC.AG - 600_Are financial institutions required to have a minimum level of professional competence/training for agents and intermediaries?_
-FB.FCP.BREG.ML.PC.AP - 595_Are financial institutions required to have a minimum level of professional competence/training for all relevant personnel dealing with consumers?_
-FB.FCP.BREG.ML.PC.CO - 599_Are financial institutions required to have a minimum level of professional competence/training for complaints officers?_
-FB.FCP.BREG.ML.PC.CR - 596_Are financial institutions required to have a minimum level of professional competence/training for credit officers?_
-FB.FCP.BREG.ML.PC.CS - 601_Are financial institutions required to have a minimum level of professional competence/training for customer service representatives?_
-FB.FCP.BREG.ML.PC.MS - 598_Are financial institutions required to have a minimum level of professional competence/training for marketing staff?_
-FB.FCP.BREG.ML.PC.RO - 597_Are financial institutions required to have a minimum level of professional competence/training for recovery officers?_
-FB.FCP.BREG.MS.DC - 602_Do laws or regulations require minimum standards for debt collection practices?_
-FB.FCP.BREG.PR.BU.ND - 590_Do laws and regulations prohibit or restrict bundling and tying services and products in a manner that unduly restricts the choice of consumers?_
-FB.FCP.BREG.PR.DI.SC - 589_Do laws and regulations prohibit or restrict discriminating consumers based on gender, ethnicity, faith, political affiliation, or appearance?  _
-FB.FCP.BREG.PR.EF.AC - 591_Do laws and regulations limit fees and charges for account closure that impede customer mobility between financial institutions?_
-FB.FCP.BREG.PR.EF.RP - 594_Do laws and regulations limit early repayment penalties that impede customer mobility between financial institutions?_
-FB.FCP.BREG.PR.EP.AC - 592_Do laws and regulations prohibit extra burdening procedures for account closure that limit customer mobility between financial institutions?_
-FB.FCP.BREG.PR.TC.RC - 588_Do laws and regulations prohibit or restrict the use in consumer agreements of any term or condition that excludes or restricts the right of the consumer?  _
-FB.FCP.BREG.PR.TC.RL - 587_Do laws and regulations prohibit or restrict the use in consumer agreements of any term or condition that excludes or restricts the liability of the financial service provider?  _
-FB.FCP.BREG.PR.TC.UF - 586_Do laws and regulations prohibit or restrict the use in consumer agreements of any term or condition that is unfair, excessively unbalanced or abusive?  _
-FB.FCP.DISR.AS.AD - 629_Does the alternative dispute resolution (ADR) entity analyze the complaints data to identify trends?_
-FB.FCP.DISR.AS.AN - 619_Does the alternative dispute resolution (ADR) entity also cover non-financial services? _
-FB.FCP.DISR.AS.BM - 612_Is there an out-of-court alternative dispute resolution (ADR) scheme that provides both binding decisions and mediation services?_
-FB.FCP.DISR.AS.BO - 613_Is there an out-of-court alternative dispute resolution (ADR) scheme that provides binding decisions only?_
-FB.FCP.DISR.AS.CI - 627_Does the alternative dispute resolution (ADR) entity require that consumers first submit their complaints to the relevant financial institution?_
-FB.FCP.DISR.AS.CT - 630_Does the alternative dispute resolution (ADR) entity communicate complaint trends to the regulator?_
-FB.FCP.DISR.AS.DC - 628_Does the alternative dispute resolution (ADR) entity maintain a database of registered/recorded complaints?_
-FB.FCP.DISR.AS.FA - 623_Is the alternative dispute resolution (ADR) entity funded from the budget of a specific government agency?_
-FB.FCP.DISR.AS.FC - 626_Is the alternative dispute resolution (ADR) entity funded by a combination of government and other sources?_
-FB.FCP.DISR.AS.FG - 622_Is the alternative dispute resolution (ADR) entity funded from a budget allocated by the central government?_
-FB.FCP.DISR.AS.FI - 624_Is the alternative dispute resolution (ADR) entity funded by a financial industry association?_
-FB.FCP.DISR.AS.FM - 625_Is the alternative dispute resolution (ADR) entity funded by direct contributions of its members?_
-FB.FCP.DISR.AS.FO - 618_Does the alternative dispute resolution (ADR) entity focus only on financial services?_
-FB.FCP.DISR.AS.IC.AG - 639_Are agents among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.AT - 638_Are ATM transactions among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.BL - 637_Is bundling or tying of products among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.CA - 649_Are current accounts among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.CC - 643_Are credit cards among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.CL - 646_Are consumer loans among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.DA - 648_Are deposit accounts among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.DC - 644_Are debit cards among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.EC - 634_Are excessive interest or fees among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.EM - 652_Are e-money products among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.FD - 635_Is fraud among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.HL - 645_Are mortgage or housing loans among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.LI - 650_Is life insurance among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.ML - 647_Are micro loans among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.NI - 651_Is non-life insurance among the top-three products complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.OT - 642_Are other issues among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.PC - 641_Is product switching or closure among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.UC - 633_Are unclear interest or fees among the top three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.UI - 640_Are unpaid insurance claims among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IC.UT - 636_Are mistaken or unauthorized transactions among the top-three issues complained about to the alternative dispute resolution (ADR) entity?_
-FB.FCP.DISR.AS.IR - 621_Is the alternative dispute resolution (ADR) entity independent from the financial sector regulator?_
-FB.FCP.DISR.AS.MI - 617_Is the alternative dispute resolution (ADR) entity a mandatory, industry-based entity?_
-FB.FCP.DISR.AS.MO - 614_Is there an out-of-court alternative dispute resolution (ADR) scheme that provides mediation services only?_
-FB.FCP.DISR.AS.PS - 631_Does the alternative dispute resolution (ADR) entity regularly publish complaint statistics?_
-FB.FCP.DISR.AS.RS - 632_Does the alternative dispute resolution (ADR) entity report complaint statistics to the regulator?_
-FB.FCP.DISR.AS.RT - 611_Is there an out-of-court alternative dispute resolution (ADR) entity that provides consumers of financial services affordable and efficient recourse with a third party?_
-FB.FCP.DISR.AS.SE - 615_Is the alternative dispute resolution (ADR) entity a statutory entity?_
-FB.FCP.DISR.AS.VI - 616_Is the alternative dispute resolution (ADR) entity a voluntary, industry-based entity?_
-FB.FCP.DISR.AS.WR - 620_Is the alternative dispute resolution (ADR) entity established within the financial sector regulator?_
-FB.FCP.DISR.CH.AC - 607_Do laws or regulations set standards for accessibility in resolving customer complaints? _
-FB.FCP.DISR.CH.DU - 605_Do laws or regulations require financial institutions to have a designated office or unit for resolving customer complaints? _
-FB.FCP.DISR.CH.EM - 610_Do laws or regulations set standards for providing consumers the details of a relevant external dispute resolution mechanism (if any)? _
-FB.FCP.DISR.CH.IP - 604_Do laws or regulations require implementing procedures and processes to resolve customer complaints? _
-FB.FCP.DISR.CH.RG - 609_Do laws or regulations set standards for reporting complaints data to a government agency? _
-FB.FCP.DISR.CH.RK - 608_Do laws or regulations set standards for record-keeping of customer complaints? _
-FB.FCP.DISR.CH.ST - 603_Do laws or regulations set standards for complaints resolution and handling by financial institutions? _
-FB.FCP.DISR.CH.TR - 606_Do laws or regulations set standards for timeliness of response to customer complaints by financial institutions? _
-FB.FCP.INST.CB.DR.AF - 407_Do disclosure requirements for commercial banks include any form requirements?_
-FB.FCP.INST.CB.DR.LL - 406_Do disclosure requirements for commercial banks include a local language requirement?_
-FB.FCP.INST.CB.DR.PL - 405_Do disclosure requirements for commercial banks include a plain language requirement?_
-FB.FCP.INST.CB.DR.RR - 408_Do disclosure requirements for commercial banks include information on recourse rights and processes?_
-FB.FCP.INST.CB.DS.AS - 338_Are commercial banks required to provide customers with specific types of product information at the advertisement stage?_
-FB.FCP.INST.CB.DS.CS - 341_Are commercial banks required to provide customers with specific types of product information at the contractual stage?_
-FB.FCP.INST.CB.DS.PS - 340_Are commercial banks required to provide customers with specific types of product information at the precontractual stage?_
-FB.FCP.INST.CB.DS.SS - 339_Are commercial banks required to provide customers with specific types of product information at the shopping stage?_
-FB.FCP.INST.CB.DS.UR - 342_Are commercial banks required to provide customers with specific types of product information upon request?_
-FB.FCP.INST.CB.PD.CF - 432_Are commercial banks required to disclose account closure fees at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.CM - 461_Are commercial banks required to disclose computation method at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.DI - 433_Are commercial banks required to disclose deposit insurance coverage availability at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.ER - 459_Are commercial banks required to disclose effective interest rate at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.FP - 460_Are commercial banks required to disclose fees and penalties at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.MB - 429_Are commercial banks required to disclose minimum balance requirements at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.MF - 431_Are commercial banks required to disclose account maintenance fee at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.OF - 430_Are commercial banks required to disclose account opening fee at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.RI - 462_Are commercial banks required to disclose required insurance at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.PD.SW - 463_Are commercial banks required to disclose specific warnings at the shopping and/or pre-contractual stage?_
-FB.FCP.INST.CB.SF.AS - 398_Are commercial banks required to provide customers with specific types of product information in a standardized format at any stage?_
-FB.FCP.INST.EP.IF - 334_Does the financial consumer protection (FCP) agency have enforcement powers to impose fines and penalties?_
-FB.FCP.INST.EP.IN - 335_Does the financial consumer protection (FCP) agency have enforcement powers to issue public notice of violations?_
-FB.FCP.INST.EP.IS - 337_Does the financial consumer protection (FCP) agency have enforcement powers to issue administrative sanctions to senior management?_
-FB.FCP.INST.EP.IW - 331_Does the financial consumer protection (FCP) agency have enforcement powers to issue warnings to financial institutions?_
-FB.FCP.INST.EP.RF - 332_Does the financial consumer protection (FCP) agency have enforcement powers to require providers to refund fees and charges?_
-FB.FCP.INST.EP.RL - 336_Does the financial consumer protection (FCP) agency have enforcement powers to revoke or recommend to revoke license?_
-FB.FCP.INST.EP.WA - 333_Does the financial consumer protection (FCP) agency have enforcement powers to require providers to withdraw misleading advertisements?_
+FB.FCP.BREG.AL.CO.NP - 
+FB.FCP.BREG.EB.AR - 
+FB.FCP.BREG.EB.EL - 
+FB.FCP.BREG.EB.NP - 
+FB.FCP.BREG.EB.OR - 
+FB.FCP.BREG.ML.PC.AG - 
+FB.FCP.BREG.ML.PC.AP - 
+FB.FCP.BREG.ML.PC.CO - 
+FB.FCP.BREG.ML.PC.CR - 
+FB.FCP.BREG.ML.PC.CS - 
+FB.FCP.BREG.ML.PC.MS - 
+FB.FCP.BREG.ML.PC.RO - 
+FB.FCP.BREG.MS.DC - 
+FB.FCP.BREG.PR.BU.ND - 
+FB.FCP.BREG.PR.DI.SC - 
+FB.FCP.BREG.PR.EF.AC - 
+FB.FCP.BREG.PR.EF.RP - 
+FB.FCP.BREG.PR.EP.AC - 
+FB.FCP.BREG.PR.TC.RC - 
+FB.FCP.BREG.PR.TC.RL - 
+FB.FCP.BREG.PR.TC.UF - 
+FB.FCP.DISR.AS.AD - 
+FB.FCP.DISR.AS.AN - 
+FB.FCP.DISR.AS.BM - 
+FB.FCP.DISR.AS.BO - 
+FB.FCP.DISR.AS.CI - 
+FB.FCP.DISR.AS.CT - 
+FB.FCP.DISR.AS.DC - 
+FB.FCP.DISR.AS.FA - 
+FB.FCP.DISR.AS.FC - 
+FB.FCP.DISR.AS.FG - 
+FB.FCP.DISR.AS.FI - 
+FB.FCP.DISR.AS.FM - 
+FB.FCP.DISR.AS.FO - 
+FB.FCP.DISR.AS.IC.AG - 
+FB.FCP.DISR.AS.IC.AT - 
+FB.FCP.DISR.AS.IC.BL - 
+FB.FCP.DISR.AS.IC.CA - 
+FB.FCP.DISR.AS.IC.CC - 
+FB.FCP.DISR.AS.IC.CL - 
+FB.FCP.DISR.AS.IC.DA - 
+FB.FCP.DISR.AS.IC.DC - 
+FB.FCP.DISR.AS.IC.EC - 
+FB.FCP.DISR.AS.IC.EM - 
+FB.FCP.DISR.AS.IC.FD - 
+FB.FCP.DISR.AS.IC.HL - 
+FB.FCP.DISR.AS.IC.LI - 
+FB.FCP.DISR.AS.IC.ML - 
+FB.FCP.DISR.AS.IC.NI - 
+FB.FCP.DISR.AS.IC.OT - 
+FB.FCP.DISR.AS.IC.PC - 
+FB.FCP.DISR.AS.IC.UC - 
+FB.FCP.DISR.AS.IC.UI - 
+FB.FCP.DISR.AS.IC.UT - 
+FB.FCP.DISR.AS.IR - 
+FB.FCP.DISR.AS.MI - 
+FB.FCP.DISR.AS.MO - 
+FB.FCP.DISR.AS.PS - 
+FB.FCP.DISR.AS.RS - 
+FB.FCP.DISR.AS.RT - 
+FB.FCP.DISR.AS.SE - 
+FB.FCP.DISR.AS.VI - 
+FB.FCP.DISR.AS.WR - 
+FB.FCP.DISR.CH.AC - 
+FB.FCP.DISR.CH.DU - 
+FB.FCP.DISR.CH.EM - 
+FB.FCP.DISR.CH.IP - 
+FB.FCP.DISR.CH.RG - 
+FB.FCP.DISR.CH.RK - 
+FB.FCP.DISR.CH.ST - 
+FB.FCP.DISR.CH.TR - 
+FB.FCP.INST.CB.DR.AF - 
+FB.FCP.INST.CB.DR.LL - 
+FB.FCP.INST.CB.DR.PL - 
+FB.FCP.INST.CB.DR.RR - 
+FB.FCP.INST.CB.DS.AS - 
+FB.FCP.INST.CB.DS.CS - 
+FB.FCP.INST.CB.DS.PS - 
+FB.FCP.INST.CB.DS.SS - 
+FB.FCP.INST.CB.DS.UR - 
+FB.FCP.INST.CB.PD.CF - 
+FB.FCP.INST.CB.PD.CM - 
+FB.FCP.INST.CB.PD.DI - 
+FB.FCP.INST.CB.PD.ER - 
+FB.FCP.INST.CB.PD.FP - 
+FB.FCP.INST.CB.PD.MB - 
+FB.FCP.INST.CB.PD.MF - 
+FB.FCP.INST.CB.PD.OF - 
+FB.FCP.INST.CB.PD.RI - 
+FB.FCP.INST.CB.PD.SW - 
+FB.FCP.INST.CB.SF.AS - 
+FB.FCP.INST.EP.IF - 
+FB.FCP.INST.EP.IN - 
+FB.FCP.INST.EP.IS - 
+FB.FCP.INST.EP.IW - 
+FB.FCP.INST.EP.RF - 
+FB.FCP.INST.EP.RL - 
+FB.FCP.INST.EP.WA - 
 FB.FCP.INST.ES.AF.10 - 313_Was the financial consumer protection (FCP) unit in this country established after the year 2010?
 FB.FCP.INST.ES.BF.2K - 311_Was the financial consumer protection (FCP) unit in this country established before the year 2000?
 FB.FCP.INST.ES.BW.01 - 312_Was the financial consumer protection (FCP) unit in this country established between the years 2000 and 2010?
-FB.FCP.INST.ES.WH.EN - 314_When was the financial consumer protection (FCP) unit in this country established?_
-FB.FCP.INST.FC.SF.AS - 400_Are financial cooperatives required to provide customers with specific types of product information in a standardized format at any stage?_
-FB.FCP.INST.MC.SF.AS - 402_Are microcredit institutions (MCIs) required to provide customers with specific types of product information in a standardized format at any stage?_
-FB.FCP.INST.NB.SF.AS - 403_Are non-bank e-money issuers (NBEIs) required to provide customers with specific types of product information in a standardized format at any stage?_
+FB.FCP.INST.ES.WH.EN - 
+FB.FCP.INST.FC.SF.AS - 
+FB.FCP.INST.MC.SF.AS - 
+FB.FCP.INST.NB.SF.AS - 
 FB.FCP.INST.NS.BW.LC - 317_Does the financial consumer protection (FCP) unit in this country have the staff of between 50 and 99 people?
 FB.FCP.INST.NS.BW.XL - 316_Does the financial consumer protection (FCP) unit in this country have the staff of between 10 and 49 people?
-FB.FCP.INST.NS.HW.MY - 319_How many staff work in the financial consumer protection (FCP) unit in this country?_
+FB.FCP.INST.NS.HW.MY - 
 FB.FCP.INST.NS.LS.XP - 315_Does the financial consumer protection (FCP) unit in this country have the staff of less than 10 people?
 FB.FCP.INST.NS.MT.CM - 318_Does the financial consumer protection (FCP) unit in this country have the staff of 100 or more people?
-FB.FCP.INST.OB.SF.AS - 399_Are other banks required to provide customers with specific types of product information in a standardized format at any stage?_
-FB.FCP.INST.OD.SF.AS - 401_Are other deposit taking institutions (ODTIs) required to provide customers with specific types of product information in a standardized format at any stage?_
-FB.FCP.INST.SA.MA.CH - 321_Is complaints handling one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.EI - 328_Are off-site inspection of financial institutions one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.FE - 330_Is financial education one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.II - 327_Are on-site inspection and investigation of financial institutions one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.IR - 320_Is drafting or providing inputs into regulation one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.MM - 325_Is market monitoring one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.MR - 326_Is market research by studying consumer behavior one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.MS - 324_Is mystery/incognito shopping one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.NC - 322_Is collecting data from financial institutions on the number of complaints received one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.RF - 323_Is collecting data from financial institutions on the rates and fees for financial services one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SA.MA.TR - 329_Are thematic reviews one of the main activities of the financial consumer protection (FCP) unit?_
-FB.FCP.INST.SI.SF.AS - 404_Are at least some financial institutions required to provide customers with specific types of product information in a standardized format?_
+FB.FCP.INST.OB.SF.AS - 
+FB.FCP.INST.OD.SF.AS - 
+FB.FCP.INST.SA.MA.CH - 
+FB.FCP.INST.SA.MA.EI - 
+FB.FCP.INST.SA.MA.FE - 
+FB.FCP.INST.SA.MA.II - 
+FB.FCP.INST.SA.MA.IR - 
+FB.FCP.INST.SA.MA.MM - 
+FB.FCP.INST.SA.MA.MR - 
+FB.FCP.INST.SA.MA.MS - 
+FB.FCP.INST.SA.MA.NC - 
+FB.FCP.INST.SA.MA.RF - 
+FB.FCP.INST.SA.MA.TR - 
+FB.FCP.INST.SI.SF.AS - 
 FB.FCP.INST.ST.RS.DP - 302_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a dedicated financial consumer protection authority model?
 FB.FCP.INST.ST.RS.GP - 303_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a general consumer protection authority model?
 FB.FCP.INST.ST.RS.IA - 300_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated single financial sector authority model?
 FB.FCP.INST.ST.RS.IS - 301_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have an integrated sectoral financial sector authority model?
 FB.FCP.INST.ST.RS.SH - 304_In terms of institutional structure for financial consumer protection (FCP) regulation and supervision, does this country have a shared financial and general consumer protection authority model?
-FB.FCP.INST.ST.RS.WT - 305_What type of institutional structure for financial consumer protection (FCP) regulation and supervision is implemented in this country?_
-FB.FCP.INST.ST.UA.DF - 306_Under the agency overseeing financial consumer protection (FCP) in this country, is there a dedicated FCP unit?_
-FB.FCP.LEGL.FL.SA.EX - 295_Is there a stand-alone financial consumer protection law in place?_
-FB.FCP.LEGL.FR.CP.EX - 299_Are consumer protection provisions in place within broader financial sector regulations?_
-FB.FCP.LEGL.GL.EF.EX - 294_Is there a general consumer protection law with explicit reference to financial services in place?_
-FB.FCP.LEGL.GL.NF.EX - 293_Is there a general consumer protection law without explicit reference to financial services in place?_
-FB.FCP.LEGL.NP.NF.NE - 297_Is there no legal framework for financial consumer protection in this country?_
-FB.FCP.LEGL.PR.SA.EX - 298_Are stand-alone financial consumer protection (FCP) regulations in place?_
-FB.FCP.LEGL.SL.PP.EX - 296_Are there consumer protection provisions in place within broader financial sector laws?_
+FB.FCP.INST.ST.RS.WT - 
+FB.FCP.INST.ST.UA.DF - 
+FB.FCP.LEGL.FL.SA.EX - 
+FB.FCP.LEGL.FR.CP.EX - 
+FB.FCP.LEGL.GL.EF.EX - 
+FB.FCP.LEGL.GL.NF.EX - 
+FB.FCP.LEGL.NP.NF.NE - 
+FB.FCP.LEGL.PR.SA.EX - 
+FB.FCP.LEGL.SL.PP.EX - 
 FB.FIN.INFO.XQ - Financial information infrastructure index (0=less developed to 10=more developed)
-FB.INC.BNKG.AC.SC.MC - 287_Is the ceiling on the minimum balance for savings/current accounts regulated in this country?_
-FB.INC.BNKG.AC.SC.MM - 288_Are the maximum maintenance fees for savings/current accounts regulated in this country?_
-FB.INC.BNKG.AC.SC.MO - 289_Are the maximum overdraft penalty or below minimum balance penalty regulated in this country?_
-FB.INC.BNKG.AC.SC.MX - 286_Is the maximum cost to open a savings/current account regulated in this country?_
-FB.INC.BNKG.AC.SC.NC - 292_Is there no cost for customers to open a savings/current account as per regulation in this country?_
-FB.INC.BNKG.AC.SC.NL - 291_Is there no law or regulation regarding the cost of customer accounts in this country?_
-FB.INC.BNKG.AC.SC.OF - 290_Are other factors in the cost of customer accounts regulated in this country?_
-FB.INC.EMNY.NB.IN.PM - 231_Are non-bank e-money issuers (NBEIs) permitted to pay interest on customers' e-money accounts?_
-FB.INC.EMNY.NB.IP.NP - 233_Are non-bank e-money issuers (NBEIs) not permitted to pay interest or share profits with their e-money customers?_
-FB.INC.EMNY.NB.PU.RR - 230_Are non-bank e-money issuers (NBEIs) prohibited from using customer funds for purposes other than redeeming e-money and executing fund transfers?_
-FB.INC.EMNY.NB.SP.PM - 232_Are non-bank e-money issuers (NBEIs) permitted to share profits with their e-money customers?_
-FB.INC.EMNY.SF.TA.CB - 227_Is the use of accounts at the central bank required to safeguard e-money funds?_
-FB.INC.EMNY.SF.TA.EA - 225_Is the use of escrow accounts required to safeguard e-money funds?_
-FB.INC.EMNY.SF.TA.ND - 228_Is the type of accounts to safeguard e-money funds not defined?_
-FB.INC.EMNY.SF.TA.OT - 229_Is some other type of accounts (not mentioned above) required to safeguard e-money funds?_
-FB.INC.EMNY.SF.TA.RA - 226_Is the use of regular accounts required to safeguard e-money funds?_
-FB.INC.EMNY.SF.TA.TA - 224_Is the use of trust accounts required to safeguard e-money funds?_
+FB.INC.BNKG.AC.SC.MC - 
+FB.INC.BNKG.AC.SC.MM - 
+FB.INC.BNKG.AC.SC.MO - 
+FB.INC.BNKG.AC.SC.MX - 
+FB.INC.BNKG.AC.SC.NC - 
+FB.INC.BNKG.AC.SC.NL - 
+FB.INC.BNKG.AC.SC.OF - 
+FB.INC.EMNY.NB.IN.PM - 
+FB.INC.EMNY.NB.IP.NP - 
+FB.INC.EMNY.NB.PU.RR - 
+FB.INC.EMNY.NB.SP.PM - 
+FB.INC.EMNY.SF.TA.CB - 
+FB.INC.EMNY.SF.TA.EA - 
+FB.INC.EMNY.SF.TA.ND - 
+FB.INC.EMNY.SF.TA.OT - 
+FB.INC.EMNY.SF.TA.RA - 
+FB.INC.EMNY.SF.TA.TA - 
 FB.INC.EMNY.SP.IF.AM - 220_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at more than one prudentially regulated financial institution, possibly the central bank and othe
 FB.INC.EMNY.SP.IF.AO - 219_Are 100% of customers' e-money funds required to be separated from e-money issuer's funds and kept at a single prudentially regulated financial institution, possibly the central bank?
 FB.INC.EMNY.SP.IF.NR - 222_Is it not required that customers' e-money funds are separated from e-money issuer's funds?
 FB.INC.EMNY.SP.IF.SM - 221_Is only a fraction of customers' e-money funds required to be separated from e-money issuer's funds and kept at one or more prudentially regulated financial institutions, possibly the central bank
-FB.INC.EMNY.SP.IF.WH - 223_What fraction of customers' e-money funds is required to be separated from e-money issuer's funds and kept at how many prudentially regulated financial institutions?_
+FB.INC.EMNY.SP.IF.WH - 
 FB.INC.INST.CB.AU.AR - 192_For commercial banks, is authorization of new or modified financial products always explicitly required?
 FB.INC.INST.CB.AU.NR - 194_For commercial banks, is authorization of new or modified financial products never explicitly required?
 FB.INC.INST.CB.AU.SR - 193_For commercial banks, is authorization of new or modified financial products only in some cases explicitly required?
-FB.INC.INST.CB.AU.WR - 195_For commercial banks, is authorization of new or modified financial products explicitly required?_
-FB.INC.INST.CB.CD.SE - 266_For commercial banks, are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_
-FB.INC.INST.CB.CRB.CR - 162_Are commercial banks required to check/report to credit bureau for some/all loans?_
+FB.INC.INST.CB.AU.WR - 
+FB.INC.INST.CB.CD.SE - 
+FB.INC.INST.CB.CRB.CR - 
 FB.INC.INST.CB.LN.AL - 168_For commercial banks, is all lending subject to interest rate caps or pricing limits?
 FB.INC.INST.CB.LN.NL - 169_For commercial banks, are there no interest rate caps or pricing limits?
 FB.INC.INST.CB.LN.SL - 170_For commercial banks, are there some interest rate caps or pricing limits that apply to certain products or segments?
-FB.INC.INST.CB.LN.WL - 171_For commercial banks, is all, some, or no lending subject to interest rate caps or pricing limits?_
-FB.INC.INST.CB.LT.NF - 271_Are commercial banks allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.CB.LT.NI - 270_Are commercial banks allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.CB.LT.OE - 273_Are commercial banks allowed to implement other elements under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.CB.LT.SM - 272_Are commercial banks allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.CB.TP.LI - 123_Are commercial banks liable for any actions or omissions of their agents?_
+FB.INC.INST.CB.LN.WL - 
+FB.INC.INST.CB.LT.NF - 
+FB.INC.INST.CB.LT.NI - 
+FB.INC.INST.CB.LT.OE - 
+FB.INC.INST.CB.LT.SM - 
+FB.INC.INST.CB.TP.LI - 
 FB.INC.INST.FC.AU.AR - 200_For financial cooperatives, is authorization of new or modified financial products always explicitly required?
 FB.INC.INST.FC.AU.NR - 202_For financial cooperatives, is authorization of new or modified financial products never explicitly required?
 FB.INC.INST.FC.AU.SR - 201_For financial cooperatives, is authorization of new or modified financial products only in some cases explicitly required?
-FB.INC.INST.FC.AU.WR - 203_For financial cooperatives, is authorization of new or modified financial products explicitly required?_
-FB.INC.INST.FC.CD.SE - 268_For financial cooperatives, are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_
-FB.INC.INST.FC.CRB.CR - 164_Are financial cooperatives required to check/report to credit bureau for some/all loans?_
+FB.INC.INST.FC.AU.WR - 
+FB.INC.INST.FC.CD.SE - 
+FB.INC.INST.FC.CRB.CR - 
 FB.INC.INST.FC.LN.AL - 176_For financial cooperatives, is all lending subject to interest rate caps or pricing limits?
 FB.INC.INST.FC.LN.NL - 177_For financial cooperatives, are there no interest rate caps or pricing limits?
 FB.INC.INST.FC.LN.SL - 178_For financial cooperatives, are there some interest rate caps or pricing limits that apply to certain products or segments?
-FB.INC.INST.FC.LN.WL - 179_For financial cooperatives, is all, some, or no lending subject to interest rate caps or pricing limits?_
-FB.INC.INST.FC.LT.NF - 279_Are financial cooperatives allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.FC.LT.NI - 278_Are financial cooperatives allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.FC.LT.OE - 281_Are financial cooperatives allowed to implement other elements under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.FC.LT.SM - 280_Are financial cooperatives allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.FC.TP.LI - 131_Are financial cooperatives liable for any actions or omissions of their agents?_
-FB.INC.INST.FP.AU.CR - 218_Are consumer risks assessed during authorization process for modified or new financial products?_
-FB.INC.INST.FP.AU.LR - 217_Are AML/CFT risks assessed during authorization process for modified or new financial products?_
-FB.INC.INST.FP.AU.OR - 216_Are operational risks assessed during authorization process for modified or new financial products?_
-FB.INC.INST.FW.CB - 001_Does a regulatory/supervisory framework exist for commercial banks?_
-FB.INC.INST.FW.FC - 003_Does a regulatory/supervisory framework exist for financial cooperatives?_
-FB.INC.INST.FW.MC - 005_Does a regulatory/supervisory framework exist for microcredit institutions (MCIs)?_
-FB.INC.INST.FW.NB - 006_Does a regulatory/supervisory framework exist for non-bank e-money issuers (NBEIs)?_
-FB.INC.INST.FW.OB - 002_Does a regulatory/supervisory framework exist for other banks?_
-FB.INC.INST.FW.OD - 004_Does a regulatory/supervisory framework exist for other deposit taking institutions (ODTIs)?_
+FB.INC.INST.FC.LN.WL - 
+FB.INC.INST.FC.LT.NF - 
+FB.INC.INST.FC.LT.NI - 
+FB.INC.INST.FC.LT.OE - 
+FB.INC.INST.FC.LT.SM - 
+FB.INC.INST.FC.TP.LI - 
+FB.INC.INST.FP.AU.CR - 
+FB.INC.INST.FP.AU.LR - 
+FB.INC.INST.FP.AU.OR - 
+FB.INC.INST.FW.CB - 
+FB.INC.INST.FW.FC - 
+FB.INC.INST.FW.MC - 
+FB.INC.INST.FW.NB - 
+FB.INC.INST.FW.OB - 
+FB.INC.INST.FW.OD - 
 FB.INC.INST.MC.AU.AR - 208_For microcredit institutions (MCIs), is authorization of new or modified financial products always explicitly required?
 FB.INC.INST.MC.AU.NR - 210_For microcredit institutions (MCIs), is authorization of new or modified financial products never explicitly required?
 FB.INC.INST.MC.AU.SR - 209_For microcredit institutions (MCIs), is authorization of new or modified financial products only in some cases explicitly required?
-FB.INC.INST.MC.AU.WR - 211_For microcredit institutions (MCIs), is authorization of new or modified financial products explicitly required?_
-FB.INC.INST.MC.CRB.CR - 166_Are microcredit institutions (MCIs) required to check/report to credit bureau for some/all loans?_
+FB.INC.INST.MC.AU.WR - 
+FB.INC.INST.MC.CRB.CR - 
 FB.INC.INST.MC.LN.AL - 184_For microcredit institutions (MCIs), is all lending subject to interest rate caps or pricing limits?
 FB.INC.INST.MC.LN.NL - 185_For microcredit institutions (MCIs), are there no interest rate caps or pricing limits?
 FB.INC.INST.MC.LN.SL - 186_For microcredit institutions (MCIs), are there some interest rate caps or pricing limits that apply to certain products or segments?
-FB.INC.INST.MC.LN.WL - 187_For microcredit institutions (MCIs), is all, some, or no lending subject to interest rate caps or pricing limits?_
-FB.INC.INST.MC.TP.LI - 139_Are microcredit institutions (MCIs) liable for any actions or omissions of their agents?_
+FB.INC.INST.MC.LN.WL - 
+FB.INC.INST.MC.TP.LI - 
 FB.INC.INST.NB.AU.AR - 212_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products always explicitly required?
 FB.INC.INST.NB.AU.NR - 214_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products never explicitly required?
 FB.INC.INST.NB.AU.SR - 213_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products only in some cases explicitly required?
-FB.INC.INST.NB.AU.WR - 215_For non-bank e-money issuers (NBEIs), is authorization of new or modified financial products explicitly required?_
-FB.INC.INST.NB.CRB.CR - 167_Are non-bank e-money issuers (NBEIs) required to check/report to credit bureau for some/all loans?_
-FB.INC.INST.NB.TP.LI - 143_Are non-bank e-money issuers (NBEIs) liable for any actions or omissions of their agents?_
+FB.INC.INST.NB.AU.WR - 
+FB.INC.INST.NB.CRB.CR - 
+FB.INC.INST.NB.TP.LI - 
 FB.INC.INST.OB.AU.AR - 196_For other banks, is authorization of new or modified financial products always explicitly required?
 FB.INC.INST.OB.AU.NR - 198_For other banks, is authorization of new or modified financial products never explicitly required?
 FB.INC.INST.OB.AU.SR - 197_For other banks, is authorization of new or modified financial products only in some cases explicitly required?
-FB.INC.INST.OB.AU.WR - 199_For other banks, is authorization of new or modified financial products explicitly required?_
-FB.INC.INST.OB.CD.SE - 267_For other banks, are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_
-FB.INC.INST.OB.CRB.CR - 163_Are other banks required to check/report to credit bureau for some/all loans?_
+FB.INC.INST.OB.AU.WR - 
+FB.INC.INST.OB.CD.SE - 
+FB.INC.INST.OB.CRB.CR - 
 FB.INC.INST.OB.LN.AL - 172_For other banks, is all lending subject to interest rate caps or pricing limits?
 FB.INC.INST.OB.LN.NL - 173_For other banks, are there no interest rate caps or pricing limits?
 FB.INC.INST.OB.LN.SL - 174_For other banks, are there some interest rate caps or pricing limits that apply to certain products or segments?
-FB.INC.INST.OB.LN.WL - 175_For other banks, is all, some, or no lending subject to interest rate caps or pricing limits?_
-FB.INC.INST.OB.LT.NF - 275_Are other banks allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OB.LT.NI - 274_Are other banks allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OB.LT.OE - 277_Are other banks allowed to implement other elements under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OB.LT.SM - 276_Are other banks allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OB.TP.LI - 127_Are other banks liable for any actions or omissions of their agents?_
+FB.INC.INST.OB.LN.WL - 
+FB.INC.INST.OB.LT.NF - 
+FB.INC.INST.OB.LT.NI - 
+FB.INC.INST.OB.LT.OE - 
+FB.INC.INST.OB.LT.SM - 
+FB.INC.INST.OB.TP.LI - 
 FB.INC.INST.OD.AU.AR - 204_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products always explicitly required?
 FB.INC.INST.OD.AU.NR - 206_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products never explicitly required?
 FB.INC.INST.OD.AU.SR - 205_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products only in some cases explicitly required?
-FB.INC.INST.OD.AU.WR - 207_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products explicitly required?_
-FB.INC.INST.OD.CD.SE - 269_For other deposit taking institutions (ODTIs), are there simplifications or exceptions to the documentation requirements for some types of applicants or deposit account products?_
-FB.INC.INST.OD.CRB.CR - 165_Are other deposit taking institutions (ODTIs) required to check/report to credit bureau for some/all loans?_
+FB.INC.INST.OD.AU.WR - 
+FB.INC.INST.OD.CD.SE - 
+FB.INC.INST.OD.CRB.CR - 
 FB.INC.INST.OD.LN.AL - 180_For other deposit taking institutions (ODTIs), is all lending subject to interest rate caps or pricing limits?
 FB.INC.INST.OD.LN.NL - 181_For other deposit taking institutions (ODTIs), are there no interest rate caps or pricing limits?
 FB.INC.INST.OD.LN.SL - 182_For other deposit taking institutions (ODTIs), are there some interest rate caps or pricing limits that apply to certain products or segments?
-FB.INC.INST.OD.LN.WL - 183_For other deposit taking institutions (ODTIs), is all, some, or no lending subject to interest rate caps or pricing limits?_
-FB.INC.INST.OD.LT.NF - 283_Are other deposit taking institutions (ODTIs) allowed to implement non-face-to-face customer due diligence (CDD) under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OD.LT.NI - 282_Are other deposit taking institutions (ODTIs) allowed to accept non-standard id documents under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OD.LT.OE - 285_Are other deposit taking institutions (ODTIs) allowed to implement other elements under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OD.LT.SM - 284_Are other deposit taking institutions (ODTIs) allowed to implement simplified transaction monitoring under the risk-based approach to AML/CFT regulation?_
-FB.INC.INST.OD.TP.LI - 135_Are other deposit taking institutions (ODTIs) liable for any actions or omissions of their agents?_
-FB.INC.INST.PA.CB.AG - 028_Are commercial banks permitted to act as an agent of a financial provider?_
-FB.INC.INST.PA.CB.CA - 026_Are commercial banks permitted to provide checking or current accounts?_
-FB.INC.INST.PA.CB.EM - 032_Are commercial banks permitted to issue e-money (including prepaid e-money cards) ?_
-FB.INC.INST.PA.CB.IN - 033_Are commercial banks permitted to distribute insurance?_
-FB.INC.INST.PA.CB.PC - 031_Are commercial banks permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_
-FB.INC.INST.PA.CB.PN - 034_Are commercial banks permitted to distribute pension products?_
-FB.INC.INST.PA.CB.TP - 027_Are commercial banks permitted to contract with retail agents as third-party delivery channels?_
-FB.INC.INST.PA.FC.AG - 046_Are financial cooperatives permitted to act as an agent of a financial provider?_
-FB.INC.INST.PA.FC.CA - 044_Are financial cooperatives permitted to provide checking or current accounts?_
-FB.INC.INST.PA.FC.EM - 050_Are financial cooperatives permitted to issue e-money (including prepaid e-money cards) ?_
-FB.INC.INST.PA.FC.IN - 051_Are financial cooperatives permitted to distribute insurance?_
-FB.INC.INST.PA.FC.PC - 049_Are financial cooperatives permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_
-FB.INC.INST.PA.FC.PN - 052_Are financial cooperatives permitted to distribute pension products?_
-FB.INC.INST.PA.FC.TP - 045_Are financial cooperatives permitted to contract with retail agents as third-party delivery channels?_
-FB.INC.INST.PA.MC.AG - 064_Are microcredit institutions (MCIs) permitted to act as an agent of a financial provider?_
-FB.INC.INST.PA.MC.CA - 062_Are microcredit institutions (MCIs) permitted to provide checking or current accounts?_
-FB.INC.INST.PA.MC.EM - 068_Are microcredit institutions (MCIs) permitted to issue e-money (including prepaid e-money cards) ?_
-FB.INC.INST.PA.MC.IN - 069_Are microcredit institutions (MCIs) permitted to distribute insurance?_
-FB.INC.INST.PA.MC.PC - 067_Are microcredit institutions (MCIs) permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_
-FB.INC.INST.PA.MC.PN - 070_Are microcredit institutions (MCIs) permitted to distribute pension products?_
-FB.INC.INST.PA.MC.TP - 063_Are microcredit institutions (MCIs) permitted to contract with retail agents as third-party delivery channels?_
-FB.INC.INST.PA.NB.AG - 073_Are non-bank e-money issuers (NBEIs) permitted to act as an agent of a financial provider?_
-FB.INC.INST.PA.NB.CA - 071_Are non-bank e-money issuers (NBEIs) permitted to provide checking or current accounts?_
-FB.INC.INST.PA.NB.EM - 077_Are non-bank e-money issuers (NBEIs) permitted to issue e-money (including prepaid e-money cards) ?_
-FB.INC.INST.PA.NB.IN - 078_Are non-bank e-money issuers (NBEIs) permitted to distribute insurance?_
-FB.INC.INST.PA.NB.PC - 076_Are non-bank e-money issuers (NBEIs) permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_
-FB.INC.INST.PA.NB.PN - 079_Are non-bank e-money issuers (NBEIs) permitted to distribute pension products?_
-FB.INC.INST.PA.NB.TP - 072_Are non-bank e-money issuers (NBEIs) permitted to contract with retail agents as third-party delivery channels?_
-FB.INC.INST.PA.OB.AG - 037_Are other banks permitted to act as an agent of a financial provider?_
-FB.INC.INST.PA.OB.CA - 035_Are other banks permitted to provide checking or current accounts?_
-FB.INC.INST.PA.OB.EM - 041_Are other banks permitted to issue e-money (including prepaid e-money cards) ?_
-FB.INC.INST.PA.OB.IN - 042_Are other banks permitted to distribute insurance?_
-FB.INC.INST.PA.OB.PC - 040_Are other banks permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_
-FB.INC.INST.PA.OB.PN - 043_Are other banks permitted to distribute pension products?_
-FB.INC.INST.PA.OB.TP - 036_Are other banks permitted to contract with retail agents as third-party delivery channels?_
-FB.INC.INST.PA.OD.AG - 055_Are other deposit taking institutions (ODTIs) permitted to act as an agent of a financial provider?_
-FB.INC.INST.PA.OD.CA - 053_Are other deposit taking institutions (ODTIs) permitted to provide checking or current accounts?_
-FB.INC.INST.PA.OD.EM - 059_Are other deposit taking institutions (ODTIs) permitted to issue e-money (including prepaid e-money cards) ?_
-FB.INC.INST.PA.OD.IN - 060_Are other deposit taking institutions (ODTIs) permitted to distribute insurance?_
-FB.INC.INST.PA.OD.PC - 058_Are other deposit taking institutions (ODTIs) permitted to issue payment cards (credit, debit, and other non-prepaid cards) ?_
-FB.INC.INST.PA.OD.PN - 061_Are other deposit taking institutions (ODTIs) permitted to distribute pension products?_
-FB.INC.INST.PA.OD.TP - 054_Are other deposit taking institutions (ODTIs) permitted to contract with retail agents as third-party delivery channels?_
-FB.INC.INST.SU.MN.NB - 007_Are any non-bank e-money issuers subsidiaries of mobile network operators?_
-FB.INC.INST.TP.CB.ID - 081_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of commercial banks?_
-FB.INC.INST.TP.CB.LA - 083_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of commercial banks?_
-FB.INC.INST.TP.CB.OA - 084_Are third parties such as retail agents allowed to open a customer account on behalf of commercial banks?_
-FB.INC.INST.TP.CB.RD - 086_Are third parties such as retail agents allowed to receive deposits on behalf of commercial banks?_
-FB.INC.INST.TP.FC.ID - 095_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of financial cooperatives?_
-FB.INC.INST.TP.FC.LA - 097_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of financial cooperatives?_
-FB.INC.INST.TP.FC.OA - 098_Are third parties such as retail agents allowed to open a customer account on behalf of financial cooperatives?_
-FB.INC.INST.TP.FC.RD - 100_Are third parties such as retail agents allowed to receive deposits on behalf of financial cooperatives?_
-FB.INC.INST.TP.MC.ID - 109_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of microcredit institutions (MCIs)?_
-FB.INC.INST.TP.MC.LA - 111_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of microcredit institutions (MCIs)?_
-FB.INC.INST.TP.MC.OA - 112_Are third parties such as retail agents allowed to open a customer account on behalf of microcredit institutions (MCIs)?_
-FB.INC.INST.TP.MC.RD - 114_Are third parties such as retail agents allowed to receive deposits on behalf of microcredit institutions (MCIs)?_
-FB.INC.INST.TP.NB.ID - 116_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of non-bank e-money issuers (NBEIs)?_
-FB.INC.INST.TP.NB.LA - 118_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of non-bank e-money issuers (NBEIs)?_
-FB.INC.INST.TP.NB.OA - 119_Are third parties such as retail agents allowed to open a customer account on behalf of non-bank e-money issuers (NBEIs)?_
-FB.INC.INST.TP.NB.RD - 121_Are third parties such as retail agents allowed to receive deposits on behalf of non-bank e-money issuers (NBEIs)?_
-FB.INC.INST.TP.OB.ID - 088_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of other banks?_
-FB.INC.INST.TP.OB.LA - 090_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of other banks?_
-FB.INC.INST.TP.OB.OA - 091_Are third parties such as retail agents allowed to open a customer account on behalf of other banks?_
-FB.INC.INST.TP.OB.RD - 093_Are third parties such as retail agents allowed to receive deposits on behalf of other banks?_
-FB.INC.INST.TP.OD.ID - 102_Are third parties such as retail agents allowed to identify and/or verify the identity of the customer on behalf of other deposit taking institutions (ODTIs)?_
-FB.INC.INST.TP.OD.LA - 104_Are third parties such as retail agents allowed to receive and submit to the institution a loan application on behalf of other deposit taking institutions (ODTIs)?_
-FB.INC.INST.TP.OD.OA - 105_Are third parties such as retail agents allowed to open a customer account on behalf of other deposit taking institutions (ODTIs)?_
-FB.INC.INST.TP.OD.RD - 107_Are third parties such as retail agents allowed to receive deposits on behalf of other deposit taking institutions (ODTIs)?_
-FB.INC.INST.TP.RA - 080_Are at least some financial service providers permitted to use retail agents as third-party delivery channels?_
-FB.INC.LEGL.DF.MC - 148_Is the term of microcredit explicitly defined in law or regulation?_
-FB.INC.LEGL.DF.MF - 147_Is the term of microfinance explicitly defined in law or regulation?_
-FB.INC.LEGL.DF.MS - 149_Is the term of microsavings explicitly defined in law or regulation?_
-FB.INC.NSTR.FC.DV - 018_Is a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) under development?_
-FB.INC.NSTR.FC.LN - 017_Has a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) already been launched?_
-FB.INC.NSTR.FI.DV - 009_Is a national financial inclusion strategy (NFIS) under development?_
-FB.INC.NSTR.FI.LN - 008_Has a national financial inclusion strategy (NFIS) already been launched?_
-FB.INC.NSTR.GF.FI.DV - 012_Is a general financial sector development strategy with a financial inclusion component (GFSDS/FI) under development?_
-FB.INC.NSTR.GF.FI.LN - 011_Has a general financial sector development strategy with a financial inclusion component (GFSDS/FI) already been launched?_
-FB.INC.NSTR.MF.DV - 016_Is a national microfinance strategy (NMS) under development?_
-FB.INC.NSTR.MF.LN - 015_Has a national microfinance strategy (NMS) already been launched?_
-FB.INC.NSTR.ND.FI.DV - 014_Is a national development strategy with a financial inclusion component (NDS/FI) under development?_
-FB.INC.NSTR.ND.FI.LN - 013_Has a national development strategy with a financial inclusion component (NDS/FI) already been launched?_
-FB.INC.POLI.FI.DT.BP - 022_Are deposit-taking institutions required to offer basic financial products to promote financial inclusion?_
-FB.INC.POLI.FI.GT.FA - 023_Are recipients of government transfers encouraged or mandated to open an account to receive their funds?_
-FB.INC.POLI.FI.PL - 020_Are priority lending policies in place to promote financial inclusion?_
-FB.INC.POLI.FI.RE - 019_Are requirements, exceptions, tax incentives, or subsidies policies in place to promote financial inclusion?_
-FB.INC.POLI.FI.TI - 021_Are tax incentive savings schemes in place to promote financial inclusion?_
-FB.INC.SURV.AF.FR - 025_Has a survey of firms including questions on financial inclusion or access to finance been conducted in the last 3 years?_
-FB.INC.SURV.AF.HH - 024_Has a survey of households or individuals including questions on financial inclusion or access to finance been conducted in the last 3 years?_
+FB.INC.INST.OD.LN.WL - 
+FB.INC.INST.OD.LT.NF - 
+FB.INC.INST.OD.LT.NI - 
+FB.INC.INST.OD.LT.OE - 
+FB.INC.INST.OD.LT.SM - 
+FB.INC.INST.OD.TP.LI - 
+FB.INC.INST.PA.CB.AG - 
+FB.INC.INST.PA.CB.CA - 
+FB.INC.INST.PA.CB.EM - 
+FB.INC.INST.PA.CB.IN - 
+FB.INC.INST.PA.CB.PC - 
+FB.INC.INST.PA.CB.PN - 
+FB.INC.INST.PA.CB.TP - 
+FB.INC.INST.PA.FC.AG - 
+FB.INC.INST.PA.FC.CA - 
+FB.INC.INST.PA.FC.EM - 
+FB.INC.INST.PA.FC.IN - 
+FB.INC.INST.PA.FC.PC - 
+FB.INC.INST.PA.FC.PN - 
+FB.INC.INST.PA.FC.TP - 
+FB.INC.INST.PA.MC.AG - 
+FB.INC.INST.PA.MC.CA - 
+FB.INC.INST.PA.MC.EM - 
+FB.INC.INST.PA.MC.IN - 
+FB.INC.INST.PA.MC.PC - 
+FB.INC.INST.PA.MC.PN - 
+FB.INC.INST.PA.MC.TP - 
+FB.INC.INST.PA.NB.AG - 
+FB.INC.INST.PA.NB.CA - 
+FB.INC.INST.PA.NB.EM - 
+FB.INC.INST.PA.NB.IN - 
+FB.INC.INST.PA.NB.PC - 
+FB.INC.INST.PA.NB.PN - 
+FB.INC.INST.PA.NB.TP - 
+FB.INC.INST.PA.OB.AG - 
+FB.INC.INST.PA.OB.CA - 
+FB.INC.INST.PA.OB.EM - 
+FB.INC.INST.PA.OB.IN - 
+FB.INC.INST.PA.OB.PC - 
+FB.INC.INST.PA.OB.PN - 
+FB.INC.INST.PA.OB.TP - 
+FB.INC.INST.PA.OD.AG - 
+FB.INC.INST.PA.OD.CA - 
+FB.INC.INST.PA.OD.EM - 
+FB.INC.INST.PA.OD.IN - 
+FB.INC.INST.PA.OD.PC - 
+FB.INC.INST.PA.OD.PN - 
+FB.INC.INST.PA.OD.TP - 
+FB.INC.INST.SU.MN.NB - 
+FB.INC.INST.TP.CB.ID - 
+FB.INC.INST.TP.CB.LA - 
+FB.INC.INST.TP.CB.OA - 
+FB.INC.INST.TP.CB.RD - 
+FB.INC.INST.TP.FC.ID - 
+FB.INC.INST.TP.FC.LA - 
+FB.INC.INST.TP.FC.OA - 
+FB.INC.INST.TP.FC.RD - 
+FB.INC.INST.TP.MC.ID - 
+FB.INC.INST.TP.MC.LA - 
+FB.INC.INST.TP.MC.OA - 
+FB.INC.INST.TP.MC.RD - 
+FB.INC.INST.TP.NB.ID - 
+FB.INC.INST.TP.NB.LA - 
+FB.INC.INST.TP.NB.OA - 
+FB.INC.INST.TP.NB.RD - 
+FB.INC.INST.TP.OB.ID - 
+FB.INC.INST.TP.OB.LA - 
+FB.INC.INST.TP.OB.OA - 
+FB.INC.INST.TP.OB.RD - 
+FB.INC.INST.TP.OD.ID - 
+FB.INC.INST.TP.OD.LA - 
+FB.INC.INST.TP.OD.OA - 
+FB.INC.INST.TP.OD.RD - 
+FB.INC.INST.TP.RA - 
+FB.INC.LEGL.DF.MC - 
+FB.INC.LEGL.DF.MF - 
+FB.INC.LEGL.DF.MS - 
+FB.INC.NSTR.FC.DV - 
+FB.INC.NSTR.FC.LN - 
+FB.INC.NSTR.FI.DV - 
+FB.INC.NSTR.FI.LN - 
+FB.INC.NSTR.GF.FI.DV - 
+FB.INC.NSTR.GF.FI.LN - 
+FB.INC.NSTR.MF.DV - 
+FB.INC.NSTR.MF.LN - 
+FB.INC.NSTR.ND.FI.DV - 
+FB.INC.NSTR.ND.FI.LN - 
+FB.INC.POLI.FI.DT.BP - 
+FB.INC.POLI.FI.GT.FA - 
+FB.INC.POLI.FI.PL - 
+FB.INC.POLI.FI.RE - 
+FB.INC.POLI.FI.TI - 
+FB.INC.SURV.AF.FR - 
+FB.INC.SURV.AF.HH - 
 FB.LBL.DDPT.CB.P3 - Deposit accounts, commercial banks (per 1,000 adults)
 FB.LBL.DDPT.CO.P3 - Deposit accounts, cooperatives (per 1,000 adults)
 FB.LBL.DDPT.MF.P3 - Deposit accounts, microfinance institutions (per 1,000 adults)

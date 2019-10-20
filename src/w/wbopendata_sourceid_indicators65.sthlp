@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,11 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -53,6 +48,13 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
 {marker sourceid_65}
@@ -3133,6 +3135,18 @@
 
 
 {synoptline}
+{marker sourceid_HF.UHC.NOP1.CG}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.CG:HF.UHC.NOP1.CG} - `"Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $1.90 poverty line"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_HF.UHC.NOP1.ZS}
 {synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP1.ZS:HF.UHC.NOP1.ZS} - `"Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
 
@@ -3205,6 +3219,18 @@
 
 
 {synoptline}
+{marker sourceid_HF.UHC.NOP2.CG}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP2.CG:HF.UHC.NOP2.CG} - `"Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $3.20 poverty line"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_HF.UHC.NOP2.ZS}
 {synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP2.ZS:HF.UHC.NOP2.ZS} - `"Proportion of population pushed below the $3.20 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
 
@@ -3274,6 +3300,330 @@
 {synopt:{opt Source Notes}}Percentage of population pushed below 3.20 international $ per day consumption poverty line by out-of-pocket health spending{p_end}
 
 {synopt:{opt Source Organization}}Health Equity and Financial Protection Indicators (HEFPI) database, World Bank{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.CG}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.CG:HF.UHC.NOP3.CG} - `"Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $5.50 poverty line"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.ZS}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.ZS:HF.UHC.NOP3.ZS} - `"Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.ZS.Q1}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.ZS.Q1:HF.UHC.NOP3.ZS.Q1} - `"Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.ZS.Q2}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.ZS.Q2:HF.UHC.NOP3.ZS.Q2} - `"Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.ZS.Q3}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.ZS.Q3:HF.UHC.NOP3.ZS.Q3} - `"Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.ZS.Q4}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.ZS.Q4:HF.UHC.NOP3.ZS.Q4} - `"Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP3.ZS.Q5}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP3.ZS.Q5:HF.UHC.NOP3.ZS.Q5} - `"Proportion of population pushed below the $5.50 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.CG}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.CG:HF.UHC.NOP4.CG} - `"Change in poverty gap due to out-of-pocket health spending ($ 2011 PPP), $21.70 poverty line"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.ZS}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.ZS:HF.UHC.NOP4.ZS} - `"Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.ZS.Q1}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.ZS.Q1:HF.UHC.NOP4.ZS.Q1} - `"Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.ZS.Q2}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.ZS.Q2:HF.UHC.NOP4.ZS.Q2} - `"Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q2"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.ZS.Q3}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.ZS.Q3:HF.UHC.NOP4.ZS.Q3} - `"Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q3"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.ZS.Q4}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.ZS.Q4:HF.UHC.NOP4.ZS.Q4} - `"Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q4"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOP4.ZS.Q5}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOP4.ZS.Q5:HF.UHC.NOP4.ZS.Q5} - `"Proportion of population pushed below the $21.70 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOPX.ZS}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOPX.ZS:HF.UHC.NOPX.ZS} - `"Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOPX.ZS.Q1}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOPX.ZS.Q1:HF.UHC.NOPX.ZS.Q1} - `"Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOPX.ZS.Q2}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOPX.ZS.Q2:HF.UHC.NOPX.ZS.Q2} - `"Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOPX.ZS.Q3}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOPX.ZS.Q3:HF.UHC.NOPX.ZS.Q3} - `"Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOPX.ZS.Q4}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOPX.ZS.Q4:HF.UHC.NOPX.ZS.Q4} - `"Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.NOPX.ZS.Q5}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.NOPX.ZS.Q5:HF.UHC.NOPX.ZS.Q5} - `"Proportion of population pushed by out-of-pocket health care expenditure below the societal poverty line, defined as the higher of the $1.90 ($ 2011 PPP) poverty line and a 50% of median consumption p"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.CG}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.CG:HF.UHC.OOP.CG} - `"Mean household per capita out-of-pocket health spending ($ 2011 PPP)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.ZS:HF.UHC.OOP.ZS} - `"Mean share of household consumption or income used on out-of-pocket health spending (%)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.ZS.Q1}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.ZS.Q1:HF.UHC.OOP.ZS.Q1} - `"Mean share of household consumption or income used on out-of-pocket health spending (%): Q1 (lowest)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.ZS.Q2}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.ZS.Q2:HF.UHC.OOP.ZS.Q2} - `"Mean share of household consumption or income used on out-of-pocket health spending (%): Q2"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.ZS.Q3}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.ZS.Q3:HF.UHC.OOP.ZS.Q3} - `"Mean share of household consumption or income used on out-of-pocket health spending (%): Q3"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.ZS.Q4}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.ZS.Q4:HF.UHC.OOP.ZS.Q4} - `"Mean share of household consumption or income used on out-of-pocket health spending (%): Q4"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_HF.UHC.OOP.ZS.Q5}
+{synopt:{bf:{help wbopendata_sourceid##HF.UHC.OOP.ZS.Q5:HF.UHC.OOP.ZS.Q5} - `"Mean share of household consumption or income used on out-of-pocket health spending (%): Q5 (highest)"'}}
+
+{synopt:{opt Source}}`"65 Health Equity and Financial Protection Indicators"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3493,4 +3843,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}

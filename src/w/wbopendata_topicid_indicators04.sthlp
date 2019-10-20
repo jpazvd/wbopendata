@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -8687,169 +8687,169 @@
 {marker topicid_SE.ADT.1524.LT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.FE.ZS:SE.ADT.1524.LT.FE.ZS} - `"Literacy rate, youth female (% of females ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ADT.1524.LT.FM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS} - `"Literacy rate, youth (ages 15-24), gender parity index (GPI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ADT.1524.LT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.MA.ZS:SE.ADT.1524.LT.MA.ZS} - `"Literacy rate, youth male (% of males ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ADT.1524.LT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.ZS:SE.ADT.1524.LT.ZS} - `"Literacy rate, youth total (% of people ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ADT.LITR.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.LITR.FE.ZS:SE.ADT.LITR.FE.ZS} - `"Literacy rate, adult female (% of females ages 15 and above)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ADT.LITR.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.LITR.MA.ZS:SE.ADT.LITR.MA.ZS} - `"Literacy rate, adult male (% of males ages 15 and above)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ADT.LITR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ADT.LITR.ZS:SE.ADT.LITR.ZS} - `"Literacy rate, adult total (% of people ages 15 and above)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.COM.DURS}
 {synopt:{bf:{help wbopendata_topicid##SE.COM.DURS:SE.COM.DURS} - `"Compulsory education, duration (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Duration of compulsory education is the number of years that children are legally obliged to attend school.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ENR.PRIM.FM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS} - `"School enrollment, primary (gross), gender parity index (GPI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ENR.PRSC.FM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - `"School enrollment, primary and secondary (gross), gender parity index (GPI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ENR.SECO.FM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS} - `"School enrollment, secondary (gross), gender parity index (GPI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in secondary education is the ratio of girls to boys enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.ENR.TERT.FM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS} - `"School enrollment, tertiary (gross), gender parity index (GPI)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRE.DURS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.DURS:SE.PRE.DURS} - `"Preprimary education, duration (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -8895,52 +8895,52 @@
 {marker topicid_SE.PRE.ENRL.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.ENRL.TC.ZS:SE.PRE.ENRL.TC.ZS} - `"Pupil-teacher ratio, preprimary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Preprimary school pupil-teacher ratio is the average number of pupils per teacher in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRE.ENRR}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.ENRR:SE.PRE.ENRR} - `"School enrollment, preprimary (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRE.ENRR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.ENRR.FE:SE.PRE.ENRR.FE} - `"School enrollment, preprimary, female (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRE.ENRR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.ENRR.MA:SE.PRE.ENRR.MA} - `"School enrollment, preprimary, male (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Preprimary education refers to programs at the initial stage of organiz{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -8999,39 +8999,39 @@
 {marker topicid_SE.PRE.TCAQ.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.TCAQ.FE.ZS:SE.PRE.TCAQ.FE.ZS} - `"Trained teachers in preprimary education, female (% of female teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRE.TCAQ.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.TCAQ.MA.ZS:SE.PRE.TCAQ.MA.ZS} - `"Trained teachers in preprimary education, male (% of male teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRE.TCAQ.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRE.TCAQ.ZS:SE.PRE.TCAQ.ZS} - `"Trained teachers in preprimary education (% of total teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -9077,13 +9077,13 @@
 {marker topicid_SE.PRM.AGES}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.AGES:SE.PRM.AGES} - `"Primary school starting age (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary school starting age is the age at which students would enter primary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the s{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -9129,78 +9129,78 @@
 {marker topicid_SE.PRM.CMPT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.FE.ZS:SE.PRM.CMPT.FE.ZS} - `"Primary completion rate, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.CMPT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.MA.ZS:SE.PRM.CMPT.MA.ZS} - `"Primary completion rate, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.CMPT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS} - `"Primary completion rate, total (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.CUAT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.CUAT.FE.ZS:SE.PRM.CUAT.FE.ZS} - `"Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.CUAT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.CUAT.MA.ZS:SE.PRM.CUAT.MA.ZS} - `"Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.CUAT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.CUAT.ZS:SE.PRM.CUAT.ZS} - `"Educational attainment, at least completed primary, population 25+ years, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -9246,26 +9246,26 @@
 {marker topicid_SE.PRM.DURS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.DURS:SE.PRM.DURS} - `"Primary education, duration (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary duration refers to the number of grades (years) in primary school.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.ENRL}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.ENRL:SE.PRM.ENRL} - `"Primary education, pupils"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary education pupils is the total number of pupils enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -9285,403 +9285,403 @@
 {marker topicid_SE.PRM.ENRL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.ENRL.FE.ZS:SE.PRM.ENRL.FE.ZS} - `"Primary education, pupils (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at primary level include enrollments in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.ENRL.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.ENRL.TC.ZS:SE.PRM.ENRL.TC.ZS} - `"Pupil-teacher ratio, primary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary school pupil-teacher ratio is the average number of pupils per teacher in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.ENRR}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.ENRR:SE.PRM.ENRR} - `"School enrollment, primary (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.ENRR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.ENRR.FE:SE.PRM.ENRR.FE} - `"School enrollment, primary, female (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.ENRR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.ENRR.MA:SE.PRM.ENRR.MA} - `"School enrollment, primary, male (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.GINT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.GINT.FE.ZS:SE.PRM.GINT.FE.ZS} - `"Gross intake ratio in first grade of primary education, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.GINT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.GINT.MA.ZS:SE.PRM.GINT.MA.ZS} - `"Gross intake ratio in first grade of primary education, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.GINT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.GINT.ZS:SE.PRM.GINT.ZS} - `"Gross intake ratio in first grade of primary education, total (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.NENR}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.NENR:SE.PRM.NENR} - `"School enrollment, primary (% net)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.NENR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.NENR.FE:SE.PRM.NENR.FE} - `"School enrollment, primary, female (% net)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.NENR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.NENR.MA:SE.PRM.NENR.MA} - `"School enrollment, primary, male (% net)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.NINT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.NINT.FE.ZS:SE.PRM.NINT.FE.ZS} - `"Net intake rate in grade 1, female (% of official school-age population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.NINT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.NINT.MA.ZS:SE.PRM.NINT.MA.ZS} - `"Net intake rate in grade 1, male (% of official school-age population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.NINT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.NINT.ZS:SE.PRM.NINT.ZS} - `"Net intake rate in grade 1 (% of official school-age population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net intake rate in grade 1 is the number of new entrants in the first grade of primary education who are of official primary school entrance age, expressed as a percentage of the population of the corresponding age.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.OENR.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.OENR.FE.ZS:SE.PRM.OENR.FE.ZS} - `"Over-age students, primary, female (% of female enrollment)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Over-age students are the percentage of those enrolled who are older than the official school-age range for primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.OENR.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.OENR.MA.ZS:SE.PRM.OENR.MA.ZS} - `"Over-age students, primary, male (% of male enrollment)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Over-age students are the percentage of those enrolled who are older than the official school-age range for primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.OENR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.OENR.ZS:SE.PRM.OENR.ZS} - `"Over-age students, primary (% of enrollment)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Over-age students are the percentage of those enrolled who are older than the official school-age range for primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRIV.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRIV.ZS:SE.PRM.PRIV.ZS} - `"School enrollment, primary, private (% of total primary)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRS5.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRS5.FE.ZS:SE.PRM.PRS5.FE.ZS} - `"Persistence to grade 5, female (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRS5.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRS5.MA.ZS:SE.PRM.PRS5.MA.ZS} - `"Persistence to grade 5, male (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRS5.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRS5.ZS:SE.PRM.PRS5.ZS} - `"Persistence to grade 5, total (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRSL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRSL.FE.ZS:SE.PRM.PRSL.FE.ZS} - `"Persistence to last grade of primary, female (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRSL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRSL.MA.ZS:SE.PRM.PRSL.MA.ZS} - `"Persistence to last grade of primary, male (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.PRSL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.PRSL.ZS:SE.PRM.PRSL.ZS} - `"Persistence to last grade of primary, total (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.REPT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.REPT.FE.ZS:SE.PRM.REPT.FE.ZS} - `"Repeaters, primary, female (% of female enrollment)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.REPT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.REPT.MA.ZS:SE.PRM.REPT.MA.ZS} - `"Repeaters, primary, male (% of male enrollment)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.REPT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.REPT.ZS:SE.PRM.REPT.ZS} - `"Repeaters, primary, total (% of total enrollment)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Repeaters in primary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TCAQ.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TCAQ.FE.ZS:SE.PRM.TCAQ.FE.ZS} - `"Trained teachers in primary education, female (% of female teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TCAQ.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TCAQ.MA.ZS:SE.PRM.TCAQ.MA.ZS} - `"Trained teachers in primary education, male (% of male teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TCAQ.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TCAQ.ZS:SE.PRM.TCAQ.ZS} - `"Trained teachers in primary education (% of total teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TCHR}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TCHR:SE.PRM.TCHR} - `"Primary education, teachers"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -9701,312 +9701,312 @@
 {marker topicid_SE.PRM.TCHR.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TCHR.FE.ZS:SE.PRM.TCHR.FE.ZS} - `"Primary education, teachers (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TENR}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TENR:SE.PRM.TENR} - `"Adjusted net enrollment rate, primary (% of primary school age children)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TENR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TENR.FE:SE.PRM.TENR.FE} - `"Adjusted net enrollment rate, primary, female (% of primary school age children)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.TENR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.TENR.MA:SE.PRM.TENR.MA} - `"Adjusted net enrollment rate, primary, male (% of primary school age children)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.UNER}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.UNER:SE.PRM.UNER} - `"Children out of school, primary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.UNER.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.UNER.FE:SE.PRM.UNER.FE} - `"Children out of school, primary, female"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.UNER.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.UNER.FE.ZS:SE.PRM.UNER.FE.ZS} - `"Children out of school, female (% of female primary school age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.UNER.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.UNER.MA:SE.PRM.UNER.MA} - `"Children out of school, primary, male"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.UNER.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.UNER.MA.ZS:SE.PRM.UNER.MA.ZS} - `"Children out of school, male (% of male primary school age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.PRM.UNER.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.PRM.UNER.ZS:SE.PRM.UNER.ZS} - `"Children out of school (% of primary school age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.AGES}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.AGES:SE.SEC.AGES} - `"Lower secondary school starting age (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CMPT.LO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CMPT.LO.FE.ZS:SE.SEC.CMPT.LO.FE.ZS} - `"Lower secondary completion rate, female (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CMPT.LO.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CMPT.LO.MA.ZS:SE.SEC.CMPT.LO.MA.ZS} - `"Lower secondary completion rate, male (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CMPT.LO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CMPT.LO.ZS:SE.SEC.CMPT.LO.ZS} - `"Lower secondary completion rate, total (% of relevant age group)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.LO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.LO.FE.ZS:SE.SEC.CUAT.LO.FE.ZS} - `"Educational attainment, at least completed lower secondary, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.LO.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.LO.MA.ZS:SE.SEC.CUAT.LO.MA.ZS} - `"Educational attainment, at least completed lower secondary, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.LO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.LO.ZS:SE.SEC.CUAT.LO.ZS} - `"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.PO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.PO.FE.ZS:SE.SEC.CUAT.PO.FE.ZS} - `"Educational attainment, at least completed post-secondary, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.PO.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.PO.MA.ZS:SE.SEC.CUAT.PO.MA.ZS} - `"Educational attainment, at least completed post-secondary, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.PO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.PO.ZS:SE.SEC.CUAT.PO.ZS} - `"Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.UP.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.UP.FE.ZS:SE.SEC.CUAT.UP.FE.ZS} - `"Educational attainment, at least completed upper secondary, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.UP.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.UP.MA.ZS:SE.SEC.CUAT.UP.MA.ZS} - `"Educational attainment, at least completed upper secondary, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.CUAT.UP.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.CUAT.UP.ZS:SE.SEC.CUAT.UP.ZS} - `"Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.DURS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.DURS:SE.SEC.DURS} - `"Secondary education, duration (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary duration refers to the number of grades (years) in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10039,13 +10039,13 @@
 {marker topicid_SE.SEC.ENRL}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL:SE.SEC.ENRL} - `"Secondary education, pupils"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary education pupils is the total number of pupils enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10078,26 +10078,26 @@
 {marker topicid_SE.SEC.ENRL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS} - `"Secondary education, pupils (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at secondary level includes enrollments in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.ENRL.GC}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.GC:SE.SEC.ENRL.GC} - `"Secondary education, general pupils"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary general pupils are the number of secondary students enrolled in general education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10117,26 +10117,26 @@
 {marker topicid_SE.SEC.ENRL.GC.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.GC.FE.ZS:SE.SEC.ENRL.GC.FE.ZS} - `"Secondary education, general pupils (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary general pupils are the number of secondary students enrolled in general education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.ENRL.LO.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.LO.TC.ZS:SE.SEC.ENRL.LO.TC.ZS} - `"Pupil-teacher ratio, lower secondary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Lower secondary school pupil-teacher ratio is the average number of pupils per teacher in lower secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10156,39 +10156,39 @@
 {marker topicid_SE.SEC.ENRL.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.TC.ZS:SE.SEC.ENRL.TC.ZS} - `"Pupil-teacher ratio, secondary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary school pupil-teacher ratio is the average number of pupils per teacher in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.ENRL.UP.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.UP.TC.ZS:SE.SEC.ENRL.UP.TC.ZS} - `"Pupil-teacher ratio, upper secondary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Upper secondary school pupil-teacher ratio is the average number of pupils per teacher in upper secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.ENRL.VO}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.VO:SE.SEC.ENRL.VO} - `"Secondary education, vocational pupils"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary vocational pupils are the number of secondary students enrolled in technical and vocational education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10208,13 +10208,13 @@
 {marker topicid_SE.SEC.ENRL.VO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRL.VO.FE.ZS:SE.SEC.ENRL.VO.FE.ZS} - `"Secondary education, vocational pupils (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary vocational pupils are the number of secondary students enrolled in technical and vocational education programs, including teacher training.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10234,26 +10234,26 @@
 {marker topicid_SE.SEC.ENRR}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRR:SE.SEC.ENRR} - `"School enrollment, secondary (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.ENRR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRR.FE:SE.SEC.ENRR.FE} - `"School enrollment, secondary, female (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10299,13 +10299,13 @@
 {marker topicid_SE.SEC.ENRR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.ENRR.MA:SE.SEC.ENRR.MA} - `"School enrollment, secondary, male (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10351,286 +10351,286 @@
 {marker topicid_SE.SEC.NENR}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.NENR:SE.SEC.NENR} - `"School enrollment, secondary (% net)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.NENR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.NENR.FE:SE.SEC.NENR.FE} - `"School enrollment, secondary, female (% net)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.NENR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.NENR.MA:SE.SEC.NENR.MA} - `"School enrollment, secondary, male (% net)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.PRIV.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.PRIV.ZS:SE.SEC.PRIV.ZS} - `"School enrollment, secondary, private (% of total secondary)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.PROG.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.PROG.FE.ZS:SE.SEC.PROG.FE.ZS} - `"Progression to secondary school, female (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.PROG.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.PROG.MA.ZS:SE.SEC.PROG.MA.ZS} - `"Progression to secondary school, male (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.PROG.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.PROG.ZS:SE.SEC.PROG.ZS} - `"Progression to secondary school (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.FE.ZS:SE.SEC.TCAQ.FE.ZS} - `"Trained teachers in secondary education, female (% of female teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.LO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.LO.FE.ZS:SE.SEC.TCAQ.LO.FE.ZS} - `"Trained teachers in lower secondary education, female (% of female teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.LO.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.LO.MA.ZS:SE.SEC.TCAQ.LO.MA.ZS} - `"Trained teachers in lower secondary education, male (% of male teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.LO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.LO.ZS:SE.SEC.TCAQ.LO.ZS} - `"Trained teachers in lower secondary education (% of total teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.MA.ZS:SE.SEC.TCAQ.MA.ZS} - `"Trained teachers in secondary education, male (% of male teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.UP.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.UP.FE.ZS:SE.SEC.TCAQ.UP.FE.ZS} - `"Trained teachers in upper secondary education, female (% of female teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.UP.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.UP.MA.ZS:SE.SEC.TCAQ.UP.MA.ZS} - `"Trained teachers in upper secondary education, male (% of male teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.UP.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.UP.ZS:SE.SEC.TCAQ.UP.ZS} - `"Trained teachers in upper secondary education (% of total teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCAQ.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCAQ.ZS:SE.SEC.TCAQ.ZS} - `"Trained teachers in secondary education (% of total teachers)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCHR}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCHR:SE.SEC.TCHR} - `"Secondary education, teachers"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCHR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCHR.FE:SE.SEC.TCHR.FE} - `"Secondary education, teachers, female"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.TCHR.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS} - `"Secondary education, teachers (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.UNER.LO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.UNER.LO.FE.ZS:SE.SEC.UNER.LO.FE.ZS} - `"Adolescents out of school, female (% of female lower secondary school age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.UNER.LO.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.UNER.LO.MA.ZS:SE.SEC.UNER.LO.MA.ZS} - `"Adolescents out of school, male (% of male lower secondary school age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.SEC.UNER.LO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS} - `"Adolescents out of school (% of lower secondary school age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10676,156 +10676,156 @@
 {marker topicid_SE.TER.CUAT.BA.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.BA.FE.ZS:SE.TER.CUAT.BA.FE.ZS} - `"Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.BA.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.BA.MA.ZS:SE.TER.CUAT.BA.MA.ZS} - `"Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.BA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.BA.ZS:SE.TER.CUAT.BA.ZS} - `"Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.DO.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.DO.FE.ZS:SE.TER.CUAT.DO.FE.ZS} - `"Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.DO.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.DO.MA.ZS:SE.TER.CUAT.DO.MA.ZS} - `"Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.DO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.DO.ZS:SE.TER.CUAT.DO.ZS} - `"Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.MS.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.MS.FE.ZS:SE.TER.CUAT.MS.FE.ZS} - `"Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.MS.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.MS.MA.ZS:SE.TER.CUAT.MS.MA.ZS} - `"Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.MS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.MS.ZS:SE.TER.CUAT.MS.ZS} - `"Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.ST.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.ST.FE.ZS:SE.TER.CUAT.ST.FE.ZS} - `"Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.ST.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.ST.MA.ZS:SE.TER.CUAT.ST.MA.ZS} - `"Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.CUAT.ST.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.CUAT.ST.ZS:SE.TER.CUAT.ST.ZS} - `"Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -10871,52 +10871,52 @@
 {marker topicid_SE.TER.ENRL.TC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.ENRL.TC.ZS:SE.TER.ENRL.TC.ZS} - `"Pupil-teacher ratio, tertiary"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Tertiary school pupil-teacher ratio is the average number of pupils per teacher in tertiary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.ENRR}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.ENRR:SE.TER.ENRR} - `"School enrollment, tertiary (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.ENRR.FE}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.ENRR.FE:SE.TER.ENRR.FE} - `"School enrollment, tertiary, female (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.TER.ENRR.MA}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.ENRR.MA:SE.TER.ENRR.MA} - `"School enrollment, tertiary, male (% gross)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11352,13 +11352,13 @@
 {marker topicid_SE.TER.TCHR.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.TER.TCHR.FE.ZS:SE.TER.TCHR.FE.ZS} - `"Tertiary education, academic staff (% female)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Tertiary education, academic staff (% female) is the share of female academic staff in tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11378,52 +11378,52 @@
 {marker topicid_SE.XPD.CPRM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.CPRM.ZS:SE.XPD.CPRM.ZS} - `"Current education expenditure, primary (% of total expenditure in primary public institutions)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.CSEC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.CSEC.ZS:SE.XPD.CSEC.ZS} - `"Current education expenditure, secondary (% of total expenditure in secondary public institutions)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.CTER.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.CTER.ZS:SE.XPD.CTER.ZS} - `"Current education expenditure, tertiary (% of total expenditure in tertiary public institutions)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.CTOT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.CTOT.ZS:SE.XPD.CTOT.ZS} - `"Current education expenditure, total (% of total expenditure in public institutions)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Current expenditure is expressed as a percentage of direct expenditure in public educational institutions (instructional and non-instructional) of the specified level of education. Financial aid to students and other transfers are excluded fro{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11495,26 +11495,26 @@
 {marker topicid_SE.XPD.PRIM.PC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.PRIM.PC.ZS:SE.XPD.PRIM.PC.ZS} - `"Government expenditure per student, primary (% of GDP per capita)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.PRIM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.PRIM.ZS:SE.XPD.PRIM.ZS} - `"Expenditure on primary education (% of government expenditure on education)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Expenditure on primary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11534,26 +11534,26 @@
 {marker topicid_SE.XPD.SECO.PC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.SECO.PC.ZS:SE.XPD.SECO.PC.ZS} - `"Government expenditure per student, secondary (% of GDP per capita)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.SECO.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.SECO.ZS:SE.XPD.SECO.ZS} - `"Expenditure on secondary education (% of government expenditure on education)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Expenditure on secondary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11586,52 +11586,52 @@
 {marker topicid_SE.XPD.TERT.PC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.TERT.PC.ZS:SE.XPD.TERT.PC.ZS} - `"Government expenditure per student, tertiary (% of GDP per capita)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Government expenditure per student is the average general government expenditure (current, capital, and transfers) per student in the given level of education, expressed as a percentage of GDP per capita.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.TERT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.TERT.ZS:SE.XPD.TERT.ZS} - `"Expenditure on tertiary education (% of government expenditure on education)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Expenditure on tertiary education is expressed as a percentage of total general government expenditure on education. General government usually refers to local, regional and central governments.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.TOTL.GB.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.TOTL.GB.ZS:SE.XPD.TOTL.GB.ZS} - `"Government expenditure on education, total (% of government expenditure)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of total general government expenditure on all sectors (including health, education, social services, etc.). It includes expenditure fun{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
 {marker topicid_SE.XPD.TOTL.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##SE.XPD.TOTL.GD.ZS:SE.XPD.TOTL.GD.ZS} - `"Government expenditure on education, total (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}General government expenditure on education (current, capital, and transfers) is expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. General government usually refers to local{p_end}
 
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}){p_end}
 
 
 {synoptline}
@@ -11755,65 +11755,65 @@
 {marker topicid_SL.TLF.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.FE.ZS:SL.TLF.TOTL.FE.ZS} - `"Labor force, female (% of total labor force)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.TLF.TOTL.IN}
 {synopt:{bf:{help wbopendata_topicid##SL.TLF.TOTL.IN:SL.TLF.TOTL.IN} - `"Labor force, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period. It includes people who are currently employed and people who are unemployed but seeking work as well as first-t{p_end}
 
-{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}Derived using data from International Labour Organization, ILOSTAT database and World Bank population estimates. Labor data retrieved in September 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.UEM.TOTL.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.FE.ZS:SL.UEM.TOTL.FE.ZS} - `"Unemployment, female (% of female labor force) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.UEM.TOTL.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.MA.ZS:SL.UEM.TOTL.MA.ZS} - `"Unemployment, male (% of male labor force) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
 
 
 {synoptline}
 {marker topicid_SL.UEM.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SL.UEM.TOTL.ZS:SL.UEM.TOTL.ZS} - `"Unemployment, total (% of total labor force) (modeled ILO estimate)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Unemployment refers to the share of the labor force that is without work but available for and seeking employment.{p_end}
 
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
+{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2019.{p_end}
 
 
 {synoptline}
@@ -11831,15 +11831,15 @@
 
 {synoptline}
 {marker topicid_SP.POP.0014.TO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - `"Population ages 0-14 (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - `"Population ages 0-14 (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
@@ -13170,15 +13170,15 @@
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - `"Population ages 15-64 (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - `"Population ages 15-64 (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64 as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
@@ -19279,4 +19279,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
