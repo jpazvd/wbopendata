@@ -1,29 +1,29 @@
 Header
-Date: 20oct2019  14:08:41
+Date: 20oct2019  15:28:19
 Name: Joao Pedro Azevedo
 
 
 type, seq , ctry, indicator, topic, rc, date, time
-3, 1 , all, i/indicators.txt , all, 601 , 20 Oct 2019, 14:08:42
-3, 1001 , all, AG.LND.CRPA.HA , all, 0 , 20 Oct 2019, 14:08:42
-3, 2001 , all, DP.DOD.DLDS.CR.L1.CG.CD , all, 0 , 20 Oct 2019, 14:08:43
-3, 3001 , all, DT.DOD.DECT.CD.OT.AR.NE.US , all, 0 , 20 Oct 2019, 14:08:44
-3, 4001 , all, DT.INA.DECT.CD , all, 0 , 20 Oct 2019, 14:08:46
-3, 5001 , all, DT.TDS.DLTT.CD.GG.AR.36.US , all, 0 , 20 Oct 2019, 14:08:48
-3, 6001 , all, GB.XPC.TRFT.ZS , all, 23 , 20 Oct 2019, 14:08:48
-3, 7001 , all, IC.FRM.CORR.CORR9 , all, 0 , 20 Oct 2019, 14:08:49
-3, 8001 , all, LO.EGRA.READ.KII.ADV.2GRD , all, 0 , 20 Oct 2019, 14:08:50
-3, 9001 , all, NV.SRV.BNKG.CN , all, 0 , 20 Oct 2019, 14:08:51
-3, 10001 , all, SABER.PRVT.GOAL4.LVL1 , all, 0 , 20 Oct 2019, 14:08:52
-3, 11001 , all, SH.PRV.SMOK.FE.Q4.ZS , all, 0 , 20 Oct 2019, 14:08:53
-3, 12001 , all, SP.POP.AG22.MA.IN , all, 0 , 20 Oct 2019, 14:08:54
-3, 13001 , all, UIS.NERT.2.M , all, 0 , 20 Oct 2019, 14:08:55
-3, 14001 , all, fin25e.a.s.7 , all, 0 , 20 Oct 2019, 14:08:56
-3, 15001 , all, per_lm_pa.bry_q2_urb , all, 0 , 20 Oct 2019, 14:08:58
-3, 16001 , all, per_sa_fw.adq_q3_rur , all, 0 , 20 Oct 2019, 14:08:59
-3, 17001 , all, per_si_allsi_gini_urb , all, 0 , 20 Oct 2019, 14:09:00
-4, -9 , -9, query , update , 0 , 20 Oct 2019, 14:09:00
-4, -9 , -9, check , update , 0 , 20 Oct 2019, 14:09:01
-4, -9 , -9, query_detail, update , 0 , 20 Oct 2019, 14:09:01
-4, -9 , -9, check_detail , update , 0 , 20 Oct 2019, 14:09:32
-4, -9 , -9, force, update , 608 , 20 Oct 2019, 14:10:02
+3, 1 , all, i/indicators.txt , all, 601 , 20 Oct 2019, 15:28:20
+3, 1001 , all, AG.LND.CRPA.HA , all, 0 , 20 Oct 2019, 15:28:21
+3, 2001 , all, DP.DOD.DLDS.CR.L1.CG.CD , all, 0 , 20 Oct 2019, 15:28:22
+3, 3001 , all, DT.DOD.DECT.CD.OT.AR.NE.US , all, 0 , 20 Oct 2019, 15:28:23
+3, 4001 , all, DT.INA.DECT.CD , all, 0 , 20 Oct 2019, 15:28:24
+3, 5001 , all, DT.TDS.DLTT.CD.GG.AR.36.US , all, 0 , 20 Oct 2019, 15:28:25
+3, 6001 , all, GB.XPC.TRFT.ZS , all, 23 , 20 Oct 2019, 15:28:25
+3, 7001 , all, IC.FRM.CORR.CORR9 , all, 0 , 20 Oct 2019, 15:28:26
+3, 8001 , all, LO.EGRA.READ.KII.ADV.2GRD , all, 0 , 20 Oct 2019, 15:28:28
+3, 9001 , all, NV.SRV.BNKG.CN , all, 0 , 20 Oct 2019, 15:28:28
+3, 10001 , all, SABER.PRVT.GOAL4.LVL1 , all, 0 , 20 Oct 2019, 15:28:30
+3, 11001 , all, SH.PRV.SMOK.FE.Q4.ZS , all, 0 , 20 Oct 2019, 15:28:31
+3, 12001 , all, SP.POP.AG22.MA.IN , all, 0 , 20 Oct 2019, 15:28:32
+3, 13001 , all, UIS.NERT.2.M , all, 0 , 20 Oct 2019, 15:28:33
+3, 14001 , all, fin25e.a.s.7 , all, 0 , 20 Oct 2019, 15:28:34
+3, 15001 , all, per_lm_pa.bry_q2_urb , all, 0 , 20 Oct 2019, 15:28:34
+3, 16001 , all, per_sa_fw.adq_q3_rur , all, 0 , 20 Oct 2019, 15:28:35
+3, 17001 , all, per_si_allsi_gini_urb , all, 0 , 20 Oct 2019, 15:28:36
+4, -9 , -9, query , update , 0 , 20 Oct 2019, 15:28:36
+4, -9 , -9, check , update , 0 , 20 Oct 2019, 15:28:37
+4, -9 , -9, query_detail, update , 0 , 20 Oct 2019, 15:28:37
+4, -9 , -9, check_detail , update , 0 , 20 Oct 2019, 15:29:06
+4, -9 , -9, force, update , 608 , 20 Oct 2019, 15:29:38
