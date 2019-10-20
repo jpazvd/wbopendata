@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 13mar2019)}
+=======
+{right:(as of 20oct2019)}
+>>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,32 +44,53 @@
 {syntab:{title:{bf:16 Urban Development}}}
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.K2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - Urban land area where elevation is below 5 meters (sq. km)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.K2:AG.LND.EL5M.UR.K2} - `"Urban land area where elevation is below 5 meters (sq. km)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+=======
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_AG.LND.EL5M.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - Urban land area where elevation is below 5 meters (% of total land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##AG.LND.EL5M.UR.ZS:AG.LND.EL5M.UR.ZS} - `"Urban land area where elevation is below 5 meters (% of total land area)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+=======
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_AG.LND.TOTL.UR.K2}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2} - Urban land area (sq. km)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -75,13 +100,30 @@
 {synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approximated urban extents based on buffered settlement points for which the total population is greater than 5,000 persons.{p_end}
 
 {synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##AG.LND.TOTL.UR.K2:AG.LND.TOTL.UR.K2} - `"Urban land area (sq. km)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approx{p_end}
+
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_EG.ELC.ACCS.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.UR.ZS:EG.ELC.ACCS.UR.ZS} - Access to electricity, urban (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EG.ELC.ACCS.UR.ZS:EG.ELC.ACCS.UR.ZS} - `"Access to electricity, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -92,9 +134,15 @@
 
 {synoptline}
 {marker topicid_EG.NSF.ACCS.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.UR.ZS:EG.NSF.ACCS.UR.ZS} - Access to non-solid fuel, urban (% of urban population)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EG.NSF.ACCS.UR.ZS:EG.NSF.ACCS.UR.ZS} - `"Access to non-solid fuel, urban (% of urban population)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -105,6 +153,7 @@
 
 {synoptline}
 {marker topicid_EN.ATM.PM25.MC.M3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3} - PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -114,10 +163,22 @@
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.{p_end}
 
 {synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.M3:EN.ATM.PM25.MC.M3} - `"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
+
+{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_EN.ATM.PM25.MC.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS} - PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -127,10 +188,22 @@
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 micrograms per cubic meter, the guideline value recommended by the World Health Organization as the lower end of the range of concentrations over which adverse health effects due to PM2.5 exposure have been observed.{p_end}
 
 {synopt:{opt Source Organization}}Brauer, M. et al. 2016, for the Global Burden of Disease Study 2016.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.PM25.MC.ZS:EN.ATM.PM25.MC.ZS} - `"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
+
+{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_EN.POP.DNST}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.POP.DNST:EN.POP.DNST} - Population density (people per sq. km of land area)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -138,25 +211,45 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Population density is midyear population divided by land area in square kilometers. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of their country of origin. Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.POP.DNST:EN.POP.DNST} - `"Population density (people per sq. km of land area)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Population density is midyear population divided by land area in square kilometers. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not per{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}Food and Agriculture Organization and World Bank population estimates.{p_end}
 
 
 {synoptline}
 {marker topicid_EN.POP.EL5M.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - Urban population living in areas where elevation is below 5 meters (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.POP.EL5M.UR.ZS:EN.POP.EL5M.UR.ZS} - `"Urban population living in areas where elevation is below 5 meters (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesin.columbia.edu/data/set/lecz-urban-rural-population-land-area-estimates-v2"}.{p_end}
+=======
+{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_EN.POP.SLUM.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - Population living in slums (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -164,15 +257,30 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improved water, access to improved sanitation, sufficient living area, and durability of housing.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.POP.SLUM.UR.ZS:EN.POP.SLUM.UR.ZS} - `"Population living in slums (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}UN HABITAT, retrieved from the United Nation's Millennium Development Goals database. Data are available at : {browse "http://mdgs.un.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.URB.LCTY}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY:EN.URB.LCTY} - Population in largest city}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY:EN.URB.LCTY} - `"Population in largest city"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -183,9 +291,15 @@
 
 {synoptline}
 {marker topicid_EN.URB.LCTY.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY.UR.ZS:EN.URB.LCTY.UR.ZS} - Population in the largest city (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.URB.LCTY.UR.ZS:EN.URB.LCTY.UR.ZS} - `"Population in the largest city (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -196,9 +310,15 @@
 
 {synoptline}
 {marker topicid_EN.URB.MCTY}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY:EN.URB.MCTY} - Population in urban agglomerations of more than 1 million}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY:EN.URB.MCTY} - `"Population in urban agglomerations of more than 1 million"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -209,9 +329,15 @@
 
 {synoptline}
 {marker topicid_EN.URB.MCTY.TL.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS} - Population in urban agglomerations of more than 1 million (% of total population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EN.URB.MCTY.TL.ZS:EN.URB.MCTY.TL.ZS} - `"Population in urban agglomerations of more than 1 million (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -222,9 +348,15 @@
 
 {synoptline}
 {marker topicid_EP.PMP.DESL.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - Pump price for diesel fuel (US$ per liter)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - `"Pump price for diesel fuel (US$ per liter)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -235,9 +367,15 @@
 
 {synoptline}
 {marker topicid_EP.PMP.SGAS.CD}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - Pump price for gasoline (US$ per liter)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - `"Pump price for gasoline (US$ per liter)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -248,9 +386,15 @@
 
 {synoptline}
 {marker topicid_IS.VEH.NVEH.P3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##IS.VEH.NVEH.P3:IS.VEH.NVEH.P3} - Motor vehicles (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##IS.VEH.NVEH.P3:IS.VEH.NVEH.P3} - `"Motor vehicles (per 1,000 people)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -261,9 +405,15 @@
 
 {synoptline}
 {marker topicid_IS.VEH.PCAR.P3}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - Passenger cars (per 1,000 people)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##IS.VEH.PCAR.P3:IS.VEH.PCAR.P3} - `"Passenger cars (per 1,000 people)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -274,6 +424,7 @@
 
 {synoptline}
 {marker topicid_IS.VEH.ROAD.K1}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - Vehicles (per km of road)}}
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
@@ -281,12 +432,22 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially designed and built for motor traffic that separates the traffic flowing in opposite directions.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##IS.VEH.ROAD.K1:IS.VEH.ROAD.K1} - `"Vehicles (per km of road)"'}}
+
+{synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}International Road Federation, World Road Statistics and data files.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.H2O.SAFE.UR.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - Improved water source, urban (% of urban population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -294,12 +455,22 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection).{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.H2O.SAFE.UR.ZS:SH.H2O.SAFE.UR.ZS} - `"Improved water source, urban (% of urban population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Access to an improved water source, urban, refers to the percentage of the urban population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.ACSN.UR}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.UR:SH.STA.ACSN.UR} - Improved sanitation facilities, urban (% of urban population with access)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
@@ -307,25 +478,45 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.ACSN.UR:SH.STA.ACSN.UR} - `"Improved sanitation facilities, urban (% of urban population with access)"'}}
+
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Access to improved sanitation facilities, urban, refers to the percentage of the urban population using improved sanitation facilities. Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation ({browse "http://www.wssinfo.org/"}).{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.TRAF.P5}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - Mortality caused by road traffic injury (per 100,000 people)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - `"Mortality caused by road traffic injury (per 100,000 people)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
+<<<<<<< HEAD
 {synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety.{p_end}
+=======
+{synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety 2018 through Global Health Observatory data repository.{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker topicid_SI.POV.URGP}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - Urban poverty gap at national poverty lines (%)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -333,15 +524,30 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as well as its incidence.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SI.POV.URGP:SI.POV.URGP} - `"Urban poverty gap at national poverty lines (%)"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Urban poverty gap at national poverty lines is the urban population's mean shortfall from the poverty lines (counting the nonpoor as having zero shortfall) as a percentage of the poverty lines. This measure reflects the depth of poverty as wel{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Bank, Global Poverty Working Group. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.{p_end}
 
 
 {synoptline}
 {marker topicid_SI.POV.URHC}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SI.POV.URHC:SI.POV.URHC} - Urban poverty headcount ratio at national poverty lines (% of urban population)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SI.POV.URHC:SI.POV.URHC} - `"Urban poverty headcount ratio at national poverty lines (% of urban population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -352,9 +558,15 @@
 
 {synoptline}
 {marker topicid_SP.URB.GROW}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - Urban population growth (annual %)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.URB.GROW:SP.URB.GROW} - `"Urban population growth (annual %)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -365,6 +577,7 @@
 
 {synoptline}
 {marker topicid_SP.URB.TOTL}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - Urban population}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
@@ -372,15 +585,30 @@
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of urban and rural population may not add up to total population because of different country coverages.{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL:SP.URB.TOTL} - `"Urban population"'}}
+
+{synopt:{opt Source}}{p_end}
+
+{synopt:{opt Topics}}16 Urban Development{p_end}
+
+{synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.URB.TOTL.IN.ZS}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - Urban population (% of total)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
+=======
+{synopt:{bf:{help wbopendata_topicid##SP.URB.TOTL.IN.ZS:SP.URB.TOTL.IN.ZS} - `"Urban population (% of total population)"'}}
+
+{synopt:{opt Source}}{p_end}
+>>>>>>> _parameter.ado
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -390,4 +618,8 @@
 
 
 
+<<<<<<< HEAD
 {right:(as of 13mar2019)}
+=======
+{right:(as of 20oct2019)}
+>>>>>>> _parameter.ado

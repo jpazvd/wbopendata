@@ -1,5 +1,9 @@
 {smcl}
+<<<<<<< HEAD
 {right:(as of 13mar2019)}
+=======
+{right:(as of 20oct2019)}
+>>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,11 +14,14 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
+<<<<<<< HEAD
 {synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
 {synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
 {synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
 {synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
 {synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
+=======
+>>>>>>> _parameter.ado
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -27,6 +34,10 @@
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
+<<<<<<< HEAD
+=======
+{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
+>>>>>>> _parameter.ado
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
 {synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
@@ -41,6 +52,10 @@
 {synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
+<<<<<<< HEAD
+=======
+{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
+>>>>>>> _parameter.ado
 {synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
@@ -51,6 +66,16 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+<<<<<<< HEAD
+=======
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
+>>>>>>> _parameter.ado
 
 
 {marker sourceid_23}
@@ -59,6 +84,7 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:23 Quarterly External Debt Statistics GDDS}}}
 {synoptline}
+<<<<<<< HEAD
 {marker sourceid_DT.AMT.DECT.CD.03.US}
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.03.US:DT.AMT.DECT.CD.03.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD}}
 
@@ -68,10 +94,22 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{marker sourceid_DT.AMT.DECT.CD.00.03.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.00.03.MO.US:DT.AMT.DECT.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.03.YR.US:DT.AMT.DECT.CD.03.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -80,10 +118,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.03.YR.US:DT.AMT.DECT.CD.03.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.04.06.MO.US:DT.AMT.DECT.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -92,10 +141,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.04.06.MO.US:DT.AMT.DECT.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.04.YR.US:DT.AMT.DECT.CD.04.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -104,10 +164,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.04.YR.US:DT.AMT.DECT.CD.04.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.05.10.YR.US:DT.AMT.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -116,10 +187,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.05.10.YR.US:DT.AMT.DECT.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.05.YR.US:DT.AMT.DECT.CD.05.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -128,10 +210,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.05.YR.US:DT.AMT.DECT.CD.05.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.07.09.MO.US:DT.AMT.DECT.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -140,10 +233,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.07.09.MO.US:DT.AMT.DECT.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.12.MO.US:DT.AMT.DECT.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -152,10 +256,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.12.MO.US:DT.AMT.DECT.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.15.YR.US:DT.AMT.DECT.CD.10.15.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -164,10 +279,21 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.10.15.YR.US:DT.AMT.DECT.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.13.18.MO.US:DT.AMT.DECT.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -176,10 +302,33 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.13.18.MO.US:DT.AMT.DECT.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.DECT.CD.15.UP.YR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.15.UP.YR.US:DT.AMT.DECT.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.DECT.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.19.24.MO.US:DT.AMT.DECT.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -188,10 +337,33 @@
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.19.24.MO.US:DT.AMT.DECT.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.DECT.CD.IQ.00.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.DECT.CD.IQ.00.US:DT.AMT.DECT.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.00.03.MO.US:DT.AMT.PRVS.CD.00.03.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -200,10 +372,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.00.03.MO.US:DT.AMT.PRVS.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.03.YR.US:DT.AMT.PRVS.CD.03.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -212,10 +395,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.03.YR.US:DT.AMT.PRVS.CD.03.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.04.06.MO.US:DT.AMT.PRVS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -224,10 +418,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.04.06.MO.US:DT.AMT.PRVS.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.04.YR.US:DT.AMT.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -236,10 +441,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.04.YR.US:DT.AMT.PRVS.CD.04.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.05.10.YR.US:DT.AMT.PRVS.CD.05.10.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -248,10 +464,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.05.10.YR.US:DT.AMT.PRVS.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.05.YR.US:DT.AMT.PRVS.CD.05.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -260,10 +487,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.05.YR.US:DT.AMT.PRVS.CD.05.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.07.09.MO.US:DT.AMT.PRVS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -272,10 +510,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.07.09.MO.US:DT.AMT.PRVS.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.10.12.MO.US:DT.AMT.PRVS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -284,10 +533,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.10.12.MO.US:DT.AMT.PRVS.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.10.15.YR.US:DT.AMT.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -296,10 +556,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.10.15.YR.US:DT.AMT.PRVS.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.13.18.MO.US:DT.AMT.PRVS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -308,10 +579,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.13.18.MO.US:DT.AMT.PRVS.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.15.UP.YR.US:DT.AMT.PRVS.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -320,10 +602,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.15.UP.YR.US:DT.AMT.PRVS.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PRVS.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.19.24.MO.US:DT.AMT.PRVS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -332,10 +625,33 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.19.24.MO.US:DT.AMT.PRVS.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.PRVS.CD.IQ.00.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PRVS.CD.IQ.00.US:DT.AMT.PRVS.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.00.03.MO.US:DT.AMT.PUBS.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -344,10 +660,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.00.03.MO.US:DT.AMT.PUBS.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.03.YR.US:DT.AMT.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -356,10 +683,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.03.YR.US:DT.AMT.PUBS.CD.03.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.04.06.MO.US:DT.AMT.PUBS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -368,10 +706,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.04.06.MO.US:DT.AMT.PUBS.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.04.YR.US:DT.AMT.PUBS.CD.04.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -380,10 +729,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.04.YR.US:DT.AMT.PUBS.CD.04.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.05.10.YR.US:DT.AMT.PUBS.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -392,10 +752,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.05.10.YR.US:DT.AMT.PUBS.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.05.YR.US:DT.AMT.PUBS.CD.05.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -404,10 +775,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.05.YR.US:DT.AMT.PUBS.CD.05.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.07.09.MO.US:DT.AMT.PUBS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -416,10 +798,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.07.09.MO.US:DT.AMT.PUBS.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.10.12.MO.US:DT.AMT.PUBS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -428,10 +821,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.10.12.MO.US:DT.AMT.PUBS.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.10.15.YR.US:DT.AMT.PUBS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -440,10 +844,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.10.15.YR.US:DT.AMT.PUBS.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.13.18.MO.US:DT.AMT.PUBS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -452,10 +867,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.13.18.MO.US:DT.AMT.PUBS.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.15.UP.YR.US:DT.AMT.PUBS.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -464,10 +890,21 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.15.UP.YR.US:DT.AMT.PUBS.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.AMT.PUBS.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.19.24.MO.US:DT.AMT.PUBS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -476,10 +913,33 @@
 {synopt:{opt Source Notes}}Principal in arrears on long-term debt is defined as principal repayment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.19.24.MO.US:DT.AMT.PUBS.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.AMT.PUBS.CD.IQ.00.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.AMT.PUBS.CD.IQ.00.US:DT.AMT.PUBS.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, Immediately, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.AR.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.AR.T4.US:DT.DOD.DECT.AR.T4.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -488,10 +948,33 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.AR.T4.US:DT.DOD.DECT.AR.T4.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DECT.CD.AR.TL.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.AR.TL.US:DT.DOD.DECT.CD.AR.TL.US} - `"Gross Ext. Debt Pos., All Sectors, All maturities, Arrears, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.DC.T5.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.DC.T5.US:DT.DOD.DECT.CD.DC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Domestic currency, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -500,10 +983,21 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt.  Data are in current U.S. dollars per inhabitant of the country.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.DC.T5.US:DT.DOD.DECT.CD.DC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Domestic currency, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.FC.T5.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.T5.US:DT.DOD.DECT.CD.FC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -512,10 +1006,21 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt.  Data are in current U.S. dollars per inhabitant of the country.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.FC.T5.US:DT.DOD.DECT.CD.FC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Foreign currency, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.US:DT.DOD.DECT.CD.LT.US} - Gross Ext. Debt Pos., All Sectors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -524,10 +1029,21 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt.  Data are in current U.S. dollars per inhabitant of the country.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.LT.US:DT.DOD.DECT.CD.LT.US} - `"Gross Ext. Debt Pos., All Sectors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ST.US:DT.DOD.DECT.CD.ST.US} - Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -536,10 +1052,33 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data expressed as a percentage of GDP at market prices.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.ST.US:DT.DOD.DECT.CD.ST.US} - `"Gross Ext. Debt Pos., All Sectors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DECT.CD.TL.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.TL.US:DT.DOD.DECT.CD.TL.US} - `"Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.CD.UC.T5.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.UC.T5.US:DT.DOD.DECT.CD.UC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Unallocated, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -548,10 +1087,21 @@
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data expressed as a percentage of GDP at market prices.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.CD.UC.T5.US:DT.DOD.DECT.CD.UC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, Unallocated, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.DS.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.DS.T4.US:DT.DOD.DECT.DS.T4.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -560,10 +1110,21 @@
 {synopt:{opt Source Notes}}Total external debt stocks to exports of goods, services and primary income.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.DS.T4.US:DT.DOD.DECT.DS.T4.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DECT.T4.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.T4.AR.US:DT.DOD.DECT.T4.AR.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -572,10 +1133,21 @@
 {synopt:{opt Source Notes}}Use of IMF Credit: Data related to the operations of the IMF are provided by the IMF Treasurer’s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-period exchange rates for flows. IMF trust fund operations under the Enhanced Structural Adjustment Facility, Extended Fund Facility, Poverty Reduction and Growth Facility, and Structural Adjustment Facility (Enhanced Structural Adjustment Facility in 1999) are presented together with all of the IMF’s special facilities (buffer stock, supplemental reserve, compensatory and contingency facilities, oil facilities, and other facilities). SDR allocations are also included in this category. According to the BPM6, SDR allocations are recorded as the incurrence of a debt liability of the member receiving them (because of a requirement to repay the allocation in certain circumstances, and also because interest accrues). This debt item is introduced for the first time this year with historical data starting in 1999.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DECT.T4.AR.US:DT.DOD.DECT.T4.AR.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DLXF.CD.DC.T5.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.DC.T5.US:DT.DOD.DLXF.CD.DC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Long-term, All instruments, Domestic currency, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -680,10 +1252,117 @@
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.DC.T5.US:DT.DOD.DLXF.CD.DC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Long-term, All instruments, Domestic currency, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DLXF.CD.FC.T5.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DLXF.CD.FC.T5.US:DT.DOD.DLXF.CD.FC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Long-term, All instruments, Foreign currency, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DPNG.CD.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.AR.US:DT.DOD.DPNG.CD.AR.US} - `"Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., All maturities, Arrears, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DPNG.CD.LT.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.LT.US:DT.DOD.DPNG.CD.LT.US} - `"Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DPNG.CD.ST.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.ST.US:DT.DOD.DPNG.CD.ST.US} - `"Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DPNG.CD.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPNG.CD.US:DT.DOD.DPNG.CD.US} - `"Gross Ext. Debt Pos., Private Sector Ext. Debt Not Publicly Guar., All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DPPC.CD.DT.T5.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPPC.CD.DT.T5.US:DT.DOD.DPPC.CD.DT.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instruments, All currencies, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DPPC.CD.TO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DPPC.CD.TO.US:DT.DOD.DPPC.CD.TO.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.DSTC.CD.DC.T5.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.DC.T5.US:DT.DOD.DSTC.CD.DC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Short-term, All instruments, Domestic currency, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.DSTC.CD.FC.T5.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.T5.US:DT.DOD.DSTC.CD.FC.T5.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Short-term, All instruments, Foreign currency, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -692,10 +1371,21 @@
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.DSTC.CD.FC.T5.US:DT.DOD.DSTC.CD.FC.T5.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, Short-term, All instruments, Foreign currency, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCCR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCCR.US:DT.DOD.PCCR.US} - Public and Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -704,10 +1394,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCCR.US:DT.DOD.PCCR.US} - `"Public and Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCPR.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPR.LT.US:DT.DOD.PCPR.LT.US} - Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -716,10 +1417,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPR.LT.US:DT.DOD.PCPR.LT.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCPR.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPR.ST.US:DT.DOD.PCPR.ST.US} - Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -728,10 +1440,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPR.ST.US:DT.DOD.PCPR.ST.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCPR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPR.US:DT.DOD.PCPR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -740,10 +1463,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPR.US:DT.DOD.PCPR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCPU.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPU.LT.US:DT.DOD.PCPU.LT.US} - Public Sector Ext. Debt Pos., Paris Club member creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -752,10 +1486,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPU.LT.US:DT.DOD.PCPU.LT.US} - `"Public Sector Ext. Debt Pos., Paris Club member creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCPU.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPU.ST.US:DT.DOD.PCPU.ST.US} - Public Sector Ext. Debt Pos., Paris Club member creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -764,10 +1509,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPU.ST.US:DT.DOD.PCPU.ST.US} - `"Public Sector Ext. Debt Pos., Paris Club member creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PCPU.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPU.US:DT.DOD.PCPU.US} - Public Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -776,10 +1532,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end.  Private nonguaranteed long-term debt outstanding and disbursed (LDOD) is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Long-term debt outstanding and disbursed (LDOD) is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in currency, goods, or services.  {p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PCPU.US:DT.DOD.PCPU.US} - `"Public Sector Ext. Debt Pos., Paris Club member creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRAE.IL.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRAE.IL.US:DT.DOD.PRAE.IL.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt liab. of dir. investors to DI ent., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -788,10 +1555,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRAE.IL.US:DT.DOD.PRAE.IL.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt liab. of dir. investors to DI ent., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBA.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.LT.US:DT.DOD.PRBA.CD.LT.US} - Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -800,10 +1578,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.LT.US:DT.DOD.PRBA.CD.LT.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBA.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.ST.US:DT.DOD.PRBA.CD.ST.US} - Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -812,10 +1601,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.ST.US:DT.DOD.PRBA.CD.ST.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBA.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.US:DT.DOD.PRBA.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -824,10 +1624,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBA.CD.US:DT.DOD.PRBA.CD.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBL.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBL.CD.LT.US:DT.DOD.PRBL.CD.LT.US} - Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -836,10 +1647,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBL.CD.LT.US:DT.DOD.PRBL.CD.LT.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBL.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBL.CD.ST.US:DT.DOD.PRBL.CD.ST.US} - Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -848,10 +1670,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBL.CD.ST.US:DT.DOD.PRBL.CD.ST.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBL.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBL.CD.US:DT.DOD.PRBL.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -860,10 +1693,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBL.CD.US:DT.DOD.PRBL.CD.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Official bilateral creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRBN.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBN.LT.AR.US:DT.DOD.PRBN.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -872,10 +1716,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRBN.LT.AR.US:DT.DOD.PRBN.LT.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Debt securities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRCD.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRCD.LT.AR.US:DT.DOD.PRCD.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Currency and deposits , USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -884,10 +1739,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRCD.LT.AR.US:DT.DOD.PRCD.LT.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Currency and deposits , USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRCD.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRCD.ST.AR.US:DT.DOD.PRCD.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Currency and deposits , USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -896,10 +1762,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRCD.ST.AR.US:DT.DOD.PRCD.ST.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Currency and deposits , USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRDI.IL.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRDI.IL.US:DT.DOD.PRDI.IL.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt liab. of DI ent. to dir. investors, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -908,10 +1785,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRDI.IL.US:DT.DOD.PRDI.IL.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt liab. of DI ent. to dir. investors, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRFE.IL.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRFE.IL.US:DT.DOD.PRFE.IL.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt liab. to fellow ent., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -920,10 +1808,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRFE.IL.US:DT.DOD.PRFE.IL.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt liab. to fellow ent., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRLO.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.LT.AR.US:DT.DOD.PRLO.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Loans, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -932,10 +1831,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.LT.AR.US:DT.DOD.PRLO.LT.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Loans, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRLO.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.ST.AR.US:DT.DOD.PRLO.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Loans, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -944,10 +1854,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRLO.ST.AR.US:DT.DOD.PRLO.ST.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Loans, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRMM.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMM.ST.AR.US:DT.DOD.PRMM.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Debt securities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -956,10 +1877,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMM.ST.AR.US:DT.DOD.PRMM.ST.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Debt securities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRMU.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMU.CD.LT.US:DT.DOD.PRMU.CD.LT.US} - Publicly Guar. Private Sector Ext. Debt Pos., Multilateral creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -968,10 +1900,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMU.CD.LT.US:DT.DOD.PRMU.CD.LT.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Multilateral creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRMU.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMU.CD.ST.US:DT.DOD.PRMU.CD.ST.US} - Publicly Guar. Private Sector Ext. Debt Pos., Multilateral creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -980,10 +1923,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMU.CD.ST.US:DT.DOD.PRMU.CD.ST.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Multilateral creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRMU.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMU.CD.US:DT.DOD.PRMU.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., Multilateral creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -992,10 +1946,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRMU.CD.US:DT.DOD.PRMU.CD.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Multilateral creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PROD.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROD.LT.AR.US:DT.DOD.PROD.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1004,10 +1969,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROD.LT.AR.US:DT.DOD.PROD.LT.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Other debt liabilities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PROD.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROD.ST.AR.US:DT.DOD.PROD.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1016,10 +1992,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROD.ST.AR.US:DT.DOD.PROD.ST.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Other debt liabilities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PROT.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROT.CD.LT.US:DT.DOD.PROT.CD.LT.US} - Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1028,10 +2015,21 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROT.CD.LT.US:DT.DOD.PROT.CD.LT.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PROT.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROT.CD.ST.US:DT.DOD.PROT.CD.ST.US} - Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1040,10 +2038,33 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROT.CD.ST.US:DT.DOD.PROT.CD.ST.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PROT.CD.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PROT.CD.US:DT.DOD.PROT.CD.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Other creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRTC.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTC.LT.AR.US:DT.DOD.PRTC.LT.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1052,10 +2073,21 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTC.LT.AR.US:DT.DOD.PRTC.LT.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Trade credit and advances, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRTC.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTC.ST.AR.US:DT.DOD.PRTC.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1064,10 +2096,21 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTC.ST.AR.US:DT.DOD.PRTC.ST.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Trade credit and advances, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRTD.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.LT.US:DT.DOD.PRTD.CD.LT.US} - Publicly Guar. Private Sector Ext. Debt Pos., Debt securities' holders, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1076,10 +2119,21 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.LT.US:DT.DOD.PRTD.CD.LT.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Debt securities' holders, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRTD.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.ST.US:DT.DOD.PRTD.CD.ST.US} - Publicly Guar. Private Sector Ext. Debt Pos., Debt securities' holders, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1088,10 +2142,21 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.ST.US:DT.DOD.PRTD.CD.ST.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Debt securities' holders, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRTD.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.US:DT.DOD.PRTD.CD.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1100,10 +2165,33 @@
 {synopt:{opt Source Notes}}Long-term private sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (private banks and private entities). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRTD.CD.US:DT.DOD.PRTD.CD.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Debt securities' holders, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PRVS.AR.T4.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.AR.T4.US:DT.DOD.PRVS.AR.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.CD.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.AR.US:DT.DOD.PRVS.CD.AR.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1112,10 +2200,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.AR.US:DT.DOD.PRVS.CD.AR.US} - `"Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, Arrears, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.LT.US:DT.DOD.PRVS.CD.LT.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1124,10 +2223,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.LT.US:DT.DOD.PRVS.CD.LT.US} - `"Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.ST.US:DT.DOD.PRVS.CD.ST.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1136,10 +2246,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.ST.US:DT.DOD.PRVS.CD.ST.US} - `"Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.CD.T3.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.T3.US:DT.DOD.PRVS.CD.T3.US} - Publicly Guar. Private Sector Ext. Debt Pos., All Creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1148,10 +2269,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.T3.US:DT.DOD.PRVS.CD.T3.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All Creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.US:DT.DOD.PRVS.CD.US} - Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1160,10 +2292,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.CD.US:DT.DOD.PRVS.CD.US} - `"Gross Ext. Debt Pos., Publicly Guar. Private Sector Ext. Debt, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.DI.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DI.US:DT.DOD.PRVS.DI.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, DI: Intercom. Lending, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1172,10 +2315,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DI.US:DT.DOD.PRVS.DI.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, DI: Intercom. Lending, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.DS.LT.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DS.LT.T4.US:DT.DOD.PRVS.DS.LT.T4.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1184,10 +2338,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DS.LT.T4.US:DT.DOD.PRVS.DS.LT.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.DS.ST.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DS.ST.T4.US:DT.DOD.PRVS.DS.ST.T4.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1196,10 +2361,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DS.ST.T4.US:DT.DOD.PRVS.DS.ST.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.DS.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DS.T4.US:DT.DOD.PRVS.DS.T4.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1208,10 +2384,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.DS.T4.US:DT.DOD.PRVS.DS.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.IR.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.IR.T4.US:DT.DOD.PRVS.IR.T4.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1220,10 +2407,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.IR.T4.US:DT.DOD.PRVS.IR.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.LT.TO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.LT.TO.US:DT.DOD.PRVS.LT.TO.US} - Publicly Guar. Private Sector Ext. Debt Pos., Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1232,10 +2430,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.LT.TO.US:DT.DOD.PRVS.LT.TO.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.PR.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.PR.T4.US:DT.DOD.PRVS.PR.T4.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1244,10 +2453,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.PR.T4.US:DT.DOD.PRVS.PR.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, Arrears, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.ST.AR.US:DT.DOD.PRVS.ST.AR.US} - Publicly Guar. Private Sector Ext. Debt Pos., Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1256,10 +2476,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.ST.AR.US:DT.DOD.PRVS.ST.AR.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PRVS.TO.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.TO.T4.US:DT.DOD.PRVS.TO.T4.US} - Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1268,10 +2499,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PRVS.TO.T4.US:DT.DOD.PRVS.TO.T4.US} - `"Publicly Guar. Private Sector Ext. Debt Pos., All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PSDR.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PSDR.LT.AR.US:DT.DOD.PSDR.LT.AR.US} - Public Sector Ext. Debt Pos., Long-term, Special drawing rights (allocations), USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1280,10 +2522,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PSDR.LT.AR.US:DT.DOD.PSDR.LT.AR.US} - `"Public Sector Ext. Debt Pos., Long-term, Special drawing rights (allocations), USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUAE.IL.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUAE.IL.US:DT.DOD.PUAE.IL.US} - Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1292,10 +2545,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUAE.IL.US:DT.DOD.PUAE.IL.US} - `"Public Sector Ext. Debt Pos., All maturities, Debt liab. of dir. investors to DI ent., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBA.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBA.CD.LT.US:DT.DOD.PUBA.CD.LT.US} - Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1304,10 +2568,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBA.CD.LT.US:DT.DOD.PUBA.CD.LT.US} - `"Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBA.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBA.CD.ST.US:DT.DOD.PUBA.CD.ST.US} - Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1316,10 +2591,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBA.CD.ST.US:DT.DOD.PUBA.CD.ST.US} - `"Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBA.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBA.CD.US:DT.DOD.PUBA.CD.US} - Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1328,10 +2614,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBA.CD.US:DT.DOD.PUBA.CD.US} - `"Public Sector Ext. Debt Pos., Deposit-Taking Corp., exc. CB, creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBL.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBL.CD.LT.US:DT.DOD.PUBL.CD.LT.US} - Public Sector Ext. Debt Pos., Official bilateral creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1340,10 +2637,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBL.CD.LT.US:DT.DOD.PUBL.CD.LT.US} - `"Public Sector Ext. Debt Pos., Official bilateral creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBL.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBL.CD.ST.US:DT.DOD.PUBL.CD.ST.US} - Public Sector Ext. Debt Pos., Official bilateral creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1352,10 +2660,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBL.CD.ST.US:DT.DOD.PUBL.CD.ST.US} - `"Public Sector Ext. Debt Pos., Official bilateral creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBL.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBL.CD.US:DT.DOD.PUBL.CD.US} - Public Sector Ext. Debt Pos., Official bilateral creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1364,10 +2683,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBL.CD.US:DT.DOD.PUBL.CD.US} - `"Public Sector Ext. Debt Pos., Official bilateral creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBN.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBN.LT.AR.US:DT.DOD.PUBN.LT.AR.US} - Public Sector Ext. Debt Pos., Long-term, Debt securities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1376,10 +2706,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBN.LT.AR.US:DT.DOD.PUBN.LT.AR.US} - `"Public Sector Ext. Debt Pos., Long-term, Debt securities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.AR.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.AR.T4.US:DT.DOD.PUBS.AR.T4.US} - Public Sector Ext. Debt Pos., All maturities, Arrears, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1388,10 +2729,21 @@
 {synopt:{opt Source Notes}}Long-term public sector external debt conveys information about the distribution of long-term debt for DRS countries by type of debtor (central government, state and local government, central bank, public and mixed enterprises, and official development banks). Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.AR.T4.US:DT.DOD.PUBS.AR.T4.US} - `"Public Sector Ext. Debt Pos., All maturities, Arrears, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.AR.US:DT.DOD.PUBS.CD.AR.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1400,10 +2752,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.AR.US:DT.DOD.PUBS.CD.AR.US} - `"Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, Arrears, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.LT.US:DT.DOD.PUBS.CD.LT.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1412,10 +2775,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.LT.US:DT.DOD.PUBS.CD.LT.US} - `"Gross Ext. Debt Pos., Public Sector Ext. Debt, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.ST.US:DT.DOD.PUBS.CD.ST.US} - Public Sector Ext. Debt Pos., All Creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1424,10 +2798,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.ST.US:DT.DOD.PUBS.CD.ST.US} - `"Gross Ext. Debt Pos., Public Sector Ext. Debt, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD.T3.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.T3.US:DT.DOD.PUBS.CD.T3.US} - Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1436,10 +2821,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.T3.US:DT.DOD.PUBS.CD.T3.US} - `"Public Sector Ext. Debt Pos., All Creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.US:DT.DOD.PUBS.CD.US} - Public Sector Ext. Debt Pos., All maturities, DI: Intercom. Lending, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1448,10 +2844,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.CD.US:DT.DOD.PUBS.CD.US} - `"Gross Ext. Debt Pos., Public Sector Ext. Debt, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.DI.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DI.US:DT.DOD.PUBS.DI.US} - Public Sector Ext. Debt Pos., All maturities, DI: Intercom. Lending, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1460,10 +2867,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DI.US:DT.DOD.PUBS.DI.US} - `"Public Sector Ext. Debt Pos., All maturities, DI: Intercom. Lending, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.DS.LT.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DS.LT.T4.US:DT.DOD.PUBS.DS.LT.T4.US} - Public Sector Ext. Debt Pos., Long-term, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1472,10 +2890,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DS.LT.T4.US:DT.DOD.PUBS.DS.LT.T4.US} - `"Public Sector Ext. Debt Pos., Long-term, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.DS.ST.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DS.ST.T4.US:DT.DOD.PUBS.DS.ST.T4.US} - Public Sector Ext. Debt Pos., Short-term, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1484,10 +2913,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DS.ST.T4.US:DT.DOD.PUBS.DS.ST.T4.US} - `"Public Sector Ext. Debt Pos., Short-term, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.DS.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DS.T4.US:DT.DOD.PUBS.DS.T4.US} - Public Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1496,10 +2936,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.DS.T4.US:DT.DOD.PUBS.DS.T4.US} - `"Public Sector Ext. Debt Pos., All maturities, Debt securities, Memo item, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.IR.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.IR.T4.US:DT.DOD.PUBS.IR.T4.US} - Public Sector Ext. Debt Pos., All maturities, Arrears, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1508,10 +2959,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.IR.T4.US:DT.DOD.PUBS.IR.T4.US} - `"Public Sector Ext. Debt Pos., All maturities, Arrears, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.LT.TO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.LT.TO.US:DT.DOD.PUBS.LT.TO.US} - Public Sector Ext. Debt Pos., Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1520,10 +2982,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.LT.TO.US:DT.DOD.PUBS.LT.TO.US} - `"Public Sector Ext. Debt Pos., Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.PR.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.PR.T4.US:DT.DOD.PUBS.PR.T4.US} - Public Sector Ext. Debt Pos., Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1532,10 +3005,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.PR.T4.US:DT.DOD.PUBS.PR.T4.US} - `"Public Sector Ext. Debt Pos., All maturities, Arrears, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.ST.AR.US:DT.DOD.PUBS.ST.AR.US} - Public Sector Ext. Debt Pos., Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1544,10 +3028,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.ST.AR.US:DT.DOD.PUBS.ST.AR.US} - `"Public Sector Ext. Debt Pos., Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUBS.TO.T4.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.TO.T4.US:DT.DOD.PUBS.TO.T4.US} - Public Sector Ext. Debt Pos., All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1556,10 +3051,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUBS.TO.T4.US:DT.DOD.PUBS.TO.T4.US} - `"Public Sector Ext. Debt Pos., All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUCD.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUCD.LT.AR.US:DT.DOD.PUCD.LT.AR.US} - Public Sector Ext. Debt Pos., Long-term, Currency and deposits , USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1568,10 +3074,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUCD.LT.AR.US:DT.DOD.PUCD.LT.AR.US} - `"Public Sector Ext. Debt Pos., Long-term, Currency and deposits , USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUCD.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUCD.ST.AR.US:DT.DOD.PUCD.ST.AR.US} - Public Sector Ext. Debt Pos., Short-term, Currency and deposits , USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1580,10 +3097,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUCD.ST.AR.US:DT.DOD.PUCD.ST.AR.US} - `"Public Sector Ext. Debt Pos., Short-term, Currency and deposits , USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUDI.IL.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUDI.IL.US:DT.DOD.PUDI.IL.US} - Public Sector Ext. Debt Pos., All maturities, Debt liab. of DI ent. to dir. investors, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1592,10 +3120,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUDI.IL.US:DT.DOD.PUDI.IL.US} - `"Public Sector Ext. Debt Pos., All maturities, Debt liab. of DI ent. to dir. investors, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUFE.IL.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUFE.IL.US:DT.DOD.PUFE.IL.US} - Public Sector Ext. Debt Pos., Long-term, Loans, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1604,10 +3143,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUFE.IL.US:DT.DOD.PUFE.IL.US} - `"Public Sector Ext. Debt Pos., All maturities, Debt liab. to fellow ent., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PULO.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PULO.LT.AR.US:DT.DOD.PULO.LT.AR.US} - Public Sector Ext. Debt Pos., Long-term, Loans, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1616,10 +3166,33 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PULO.LT.AR.US:DT.DOD.PULO.LT.AR.US} - `"Public Sector Ext. Debt Pos., Long-term, Loans, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.DOD.PULO.ST.AR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PULO.ST.AR.US:DT.DOD.PULO.ST.AR.US} - `"Public Sector Ext. Debt Pos., Short-term, Loans, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUMM.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMM.ST.AR.US:DT.DOD.PUMM.ST.AR.US} - Public Sector Ext. Debt Pos., Short-term, Debt securities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1628,10 +3201,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMM.ST.AR.US:DT.DOD.PUMM.ST.AR.US} - `"Public Sector Ext. Debt Pos., Short-term, Debt securities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUMU.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMU.CD.LT.US:DT.DOD.PUMU.CD.LT.US} - Public Sector Ext. Debt Pos., Multilateral creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1640,10 +3224,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMU.CD.LT.US:DT.DOD.PUMU.CD.LT.US} - `"Public Sector Ext. Debt Pos., Multilateral creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUMU.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMU.CD.ST.US:DT.DOD.PUMU.CD.ST.US} - Public Sector Ext. Debt Pos., Multilateral creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1652,10 +3247,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMU.CD.ST.US:DT.DOD.PUMU.CD.ST.US} - `"Public Sector Ext. Debt Pos., Multilateral creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUMU.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMU.CD.US:DT.DOD.PUMU.CD.US} - Public Sector Ext. Debt Pos., Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1664,10 +3270,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUMU.CD.US:DT.DOD.PUMU.CD.US} - `"Public Sector Ext. Debt Pos., Multilateral creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUOD.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOD.LT.AR.US:DT.DOD.PUOD.LT.AR.US} - Public Sector Ext. Debt Pos., Long-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1676,10 +3293,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOD.LT.AR.US:DT.DOD.PUOD.LT.AR.US} - `"Public Sector Ext. Debt Pos., Long-term, Other debt liabilities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUOO.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOO.ST.AR.US:DT.DOD.PUOO.ST.AR.US} - Public Sector Ext. Debt Pos., Short-term, Other debt liabilities, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1688,10 +3316,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOO.ST.AR.US:DT.DOD.PUOO.ST.AR.US} - `"Public Sector Ext. Debt Pos., Short-term, Other debt liabilities, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUOT.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.LT.US:DT.DOD.PUOT.CD.LT.US} - Public Sector Ext. Debt Pos., Other creditors, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1700,10 +3339,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.LT.US:DT.DOD.PUOT.CD.LT.US} - `"Public Sector Ext. Debt Pos., Other creditors, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUOT.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.ST.US:DT.DOD.PUOT.CD.ST.US} - Public Sector Ext. Debt Pos., Other creditors, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1712,10 +3362,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.ST.US:DT.DOD.PUOT.CD.ST.US} - `"Public Sector Ext. Debt Pos., Other creditors, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUOT.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.US:DT.DOD.PUOT.CD.US} - Public Sector Ext. Debt Pos., Other creditors, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1724,10 +3385,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUOT.CD.US:DT.DOD.PUOT.CD.US} - `"Public Sector Ext. Debt Pos., Other creditors, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUTC.LT.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTC.LT.AR.US:DT.DOD.PUTC.LT.AR.US} - Public Sector Ext. Debt Pos., Long-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1736,10 +3408,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTC.LT.AR.US:DT.DOD.PUTC.LT.AR.US} - `"Public Sector Ext. Debt Pos., Long-term, Trade credit and advances, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUTC.ST.AR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTC.ST.AR.US:DT.DOD.PUTC.ST.AR.US} - Public Sector Ext. Debt Pos., Short-term, Trade credit and advances, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1748,10 +3431,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTC.ST.AR.US:DT.DOD.PUTC.ST.AR.US} - `"Public Sector Ext. Debt Pos., Short-term, Trade credit and advances, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUTD.CD.LT.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.LT.US:DT.DOD.PUTD.CD.LT.US} - Public Sector Ext. Debt Pos., Debt securities' holders, Long-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1760,10 +3454,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.LT.US:DT.DOD.PUTD.CD.LT.US} - `"Public Sector Ext. Debt Pos., Debt securities' holders, Long-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUTD.CD.ST.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.ST.US:DT.DOD.PUTD.CD.ST.US} - Public Sector Ext. Debt Pos., Debt securities' holders, Short-term, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1772,10 +3477,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.ST.US:DT.DOD.PUTD.CD.ST.US} - `"Public Sector Ext. Debt Pos., Debt securities' holders, Short-term, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.DOD.PUTD.CD.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.US:DT.DOD.PUTD.CD.US} - Public Sector Ext. Debt Pos., Debt securities' holders, All maturities, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1784,10 +3500,21 @@
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.PUTD.CD.US:DT.DOD.PUTD.CD.US} - `"Public Sector Ext. Debt Pos., Debt securities' holders, All maturities, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.00.03.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.00.03.MO.SA.US:DT.INP.DECT.00.03.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 0 to 3 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1796,10 +3523,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.00.03.MO.SA.US:DT.INP.DECT.00.03.MO.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 0 to 3 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.03.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.03.YR.SA.US:DT.INP.DECT.03.YR.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 3yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1808,10 +3546,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.03.YR.SA.US:DT.INP.DECT.03.YR.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 3yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.04.06.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.04.06.MO.SA.US:DT.INP.DECT.04.06.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 3 to 6 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1820,10 +3569,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.04.06.MO.SA.US:DT.INP.DECT.04.06.MO.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 3 to 6 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.04.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.04.YR.SA.US:DT.INP.DECT.04.YR.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 4yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1832,10 +3592,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.04.YR.SA.US:DT.INP.DECT.04.YR.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 4yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.05.10.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.05.10.YR.SA.US:DT.INP.DECT.05.10.YR.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 5 to 10 yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1844,10 +3615,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.05.10.YR.SA.US:DT.INP.DECT.05.10.YR.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 5 to 10 yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.05.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.05.YR.SA.US:DT.INP.DECT.05.YR.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 5yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1856,10 +3638,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.05.YR.SA.US:DT.INP.DECT.05.YR.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 5yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.07.09.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.07.09.MO.SA.US:DT.INP.DECT.07.09.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 6 to 9 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1868,10 +3661,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.07.09.MO.SA.US:DT.INP.DECT.07.09.MO.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 6 to 9 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.10.12.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.10.12.MO.SA.US:DT.INP.DECT.10.12.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 9 to 12 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1880,10 +3684,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.10.12.MO.SA.US:DT.INP.DECT.10.12.MO.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 9 to 12 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.10.15.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.10.15.YR.SA.US:DT.INP.DECT.10.15.YR.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 10 to 15 yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1892,10 +3707,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.10.15.YR.SA.US:DT.INP.DECT.10.15.YR.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 10 to 15 yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.13.18.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.13.18.MO.SA.US:DT.INP.DECT.13.18.MO.SA.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, 18 to 24 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1916,10 +3742,33 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.13.18.MO.SA.US:DT.INP.DECT.13.18.MO.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 12 to 18 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INP.DECT.19.24.MO.SA.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.19.24.MO.SA.US:DT.INP.DECT.19.24.MO.SA.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, 18 to 24 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INP.DECT.IQ.SA.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.IQ.SA.00.US:DT.INP.DECT.IQ.SA.00.US} - Ext. Debt Service Pmt, Interest payments on SDR allocations, Immediately, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1928,10 +3777,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INP.DECT.IQ.SA.00.US:DT.INP.DECT.IQ.SA.00.US} - `"Ext. Debt Service Pmt, Interest payments on SDR allocations, Immediately, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.00.03.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.00.03.MO.SA.US:DT.INR.DECT.00.03.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 0 to 3 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1940,10 +3800,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.00.03.MO.SA.US:DT.INR.DECT.00.03.MO.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 0 to 3 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.03.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.03.YR.SA.US:DT.INR.DECT.03.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 3 to 6 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1952,10 +3823,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.03.YR.SA.US:DT.INR.DECT.03.YR.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 3yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.04.06.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.04.06.MO.SA.US:DT.INR.DECT.04.06.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 3 to 6 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1964,10 +3846,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.04.06.MO.SA.US:DT.INR.DECT.04.06.MO.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 3 to 6 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.04.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.04.YR.SA.US:DT.INR.DECT.04.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 4yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1976,10 +3869,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.04.YR.SA.US:DT.INR.DECT.04.YR.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 4yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.05.10.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.05.10.YR.SA.US:DT.INR.DECT.05.10.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 5 to 10 yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -1988,10 +3892,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.05.10.YR.SA.US:DT.INR.DECT.05.10.YR.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 5 to 10 yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.05.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.05.YR.SA.US:DT.INR.DECT.05.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 5yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2000,10 +3915,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.05.YR.SA.US:DT.INR.DECT.05.YR.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 5yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.07.09.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.07.09.MO.SA.US:DT.INR.DECT.07.09.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 6 to 9 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2012,10 +3938,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.07.09.MO.SA.US:DT.INR.DECT.07.09.MO.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 6 to 9 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.10.12.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.10.12.MO.SA.US:DT.INR.DECT.10.12.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 9 to 12 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2024,10 +3961,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.10.12.MO.SA.US:DT.INR.DECT.10.12.MO.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 9 to 12 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.10.15.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.10.15.YR.SA.US:DT.INR.DECT.10.15.YR.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 10 to 15 yrs, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2036,10 +3984,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.10.15.YR.SA.US:DT.INR.DECT.10.15.YR.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 10 to 15 yrs, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.13.18.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.13.18.MO.SA.US:DT.INR.DECT.13.18.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 12 to 18 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2048,10 +4007,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.13.18.MO.SA.US:DT.INR.DECT.13.18.MO.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 12 to 18 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.19.24.MO.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.19.24.MO.SA.US:DT.INR.DECT.19.24.MO.SA.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, 18 to 24 mo., All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2060,10 +4030,21 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.19.24.MO.SA.US:DT.INR.DECT.19.24.MO.SA.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, 18 to 24 mo., All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INR.DECT.IQ.SA.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.IQ.SA.00.US:DT.INR.DECT.IQ.SA.00.US} - Ext. Debt Service Pmt, Interest receipts on SDR holdings, Immediately, All instruments, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2072,10 +4053,33 @@
 {synopt:{opt Source Notes}}Interest represents the average interest rate on all new public and publicly guaranteed loans contracted during the year. To obtain the average, the interest rates for all public and publicly guaranteed loans have been weighted by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INR.DECT.IQ.SA.00.US:DT.INR.DECT.IQ.SA.00.US} - `"Ext. Debt Service Pmt, Interest receipts on SDR holdings, Immediately, All instruments, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.00.03.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.00.03.MO.US:DT.INT.DECT.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.03.YR.US:DT.INT.DECT.CD.03.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2084,10 +4088,21 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.03.YR.US:DT.INT.DECT.CD.03.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.04.06.MO.US:DT.INT.DECT.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2096,10 +4111,21 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.04.06.MO.US:DT.INT.DECT.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.04.YR.US:DT.INT.DECT.CD.04.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2108,10 +4134,21 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.04.YR.US:DT.INT.DECT.CD.04.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.05.10.YR.US:DT.INT.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2120,10 +4157,21 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.05.10.YR.US:DT.INT.DECT.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.05.YR.US:DT.INT.DECT.CD.05.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2168,10 +4216,57 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.05.YR.US:DT.INT.DECT.CD.05.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.07.09.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.07.09.MO.US:DT.INT.DECT.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.10.12.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.10.12.MO.US:DT.INT.DECT.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.10.15.YR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.10.15.YR.US:DT.INT.DECT.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.13.18.MO.US:DT.INT.DECT.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2192,10 +4287,33 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.13.18.MO.US:DT.INT.DECT.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DECT.CD.15.UP.YR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.15.UP.YR.US:DT.INT.DECT.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.19.24.MO.US:DT.INT.DECT.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2204,10 +4322,21 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.19.24.MO.US:DT.INT.DECT.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.DECT.CD.IQ.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IQ.00.US:DT.INT.DECT.CD.IQ.00.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2216,10 +4345,21 @@
 {synopt:{opt Source Notes}}Total interest payments to exports of goods, services and primary income. Total interest payment is the sum of interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and charges to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DECT.CD.IQ.00.US:DT.INT.DECT.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.00.03.MO.US:DT.INT.PRVS.CD.00.03.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2228,10 +4368,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.00.03.MO.US:DT.INT.PRVS.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.03.YR.US:DT.INT.PRVS.CD.03.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2240,10 +4391,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.03.YR.US:DT.INT.PRVS.CD.03.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.04.06.MO.US:DT.INT.PRVS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2252,10 +4414,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.04.06.MO.US:DT.INT.PRVS.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.04.YR.US:DT.INT.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2264,10 +4437,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.04.YR.US:DT.INT.PRVS.CD.04.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.05.10.YR.US:DT.INT.PRVS.CD.05.10.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2276,10 +4460,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.05.10.YR.US:DT.INT.PRVS.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.05.YR.US:DT.INT.PRVS.CD.05.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2288,10 +4483,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.05.YR.US:DT.INT.PRVS.CD.05.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.07.09.MO.US:DT.INT.PRVS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2300,10 +4506,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.07.09.MO.US:DT.INT.PRVS.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.10.12.MO.US:DT.INT.PRVS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2312,10 +4529,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.10.12.MO.US:DT.INT.PRVS.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.10.15.YR.US:DT.INT.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2324,10 +4552,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.10.15.YR.US:DT.INT.PRVS.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.13.18.MO.US:DT.INT.PRVS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2336,10 +4575,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.13.18.MO.US:DT.INT.PRVS.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.15.UP.YR.US:DT.INT.PRVS.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2348,10 +4598,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.15.UP.YR.US:DT.INT.PRVS.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.19.24.MO.US:DT.INT.PRVS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2360,10 +4621,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.19.24.MO.US:DT.INT.PRVS.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PRVS.CD.IQ.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.IQ.00.US:DT.INT.PRVS.CD.IQ.00.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2372,10 +4644,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PRVS.CD.IQ.00.US:DT.INT.PRVS.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.00.03.MO.US:DT.INT.PUBS.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2384,10 +4667,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.00.03.MO.US:DT.INT.PUBS.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.03.YR.US:DT.INT.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2396,10 +4690,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.03.YR.US:DT.INT.PUBS.CD.03.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.04.06.MO.US:DT.INT.PUBS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2408,10 +4713,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.04.06.MO.US:DT.INT.PUBS.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.04.YR.US:DT.INT.PUBS.CD.04.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2420,10 +4736,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.04.YR.US:DT.INT.PUBS.CD.04.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.05.10.YR.US:DT.INT.PUBS.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2432,10 +4759,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.05.10.YR.US:DT.INT.PUBS.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 5 to 10 yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.05.YR.US:DT.INT.PUBS.CD.05.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2444,10 +4782,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.05.YR.US:DT.INT.PUBS.CD.05.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.07.09.MO.US:DT.INT.PUBS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2456,10 +4805,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.07.09.MO.US:DT.INT.PUBS.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.10.12.MO.US:DT.INT.PUBS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2468,10 +4828,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.10.12.MO.US:DT.INT.PUBS.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.10.15.YR.US:DT.INT.PUBS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2480,10 +4851,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.10.15.YR.US:DT.INT.PUBS.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.13.18.MO.US:DT.INT.PUBS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2492,10 +4874,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.13.18.MO.US:DT.INT.PUBS.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.15.UP.YR.US:DT.INT.PUBS.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2504,10 +4897,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.15.UP.YR.US:DT.INT.PUBS.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.19.24.MO.US:DT.INT.PUBS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2516,10 +4920,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.19.24.MO.US:DT.INT.PUBS.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 18 to 24 mo., All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.INT.PUBS.CD.IQ.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.IQ.00.US:DT.INT.PUBS.CD.IQ.00.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, Immediately, All instruments, Interest, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2528,10 +4943,21 @@
 {synopt:{opt Source Notes}}Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.PUBS.CD.IQ.00.US:DT.INT.PUBS.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, Immediately, All instruments, Interest, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.15.UP.YR.SA.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.15.UP.YR.SA.US:DT.TDS.DECT.15.UP.YR.SA.US} - Ext. Debt Service Pmt, SDR allocations, More than15yrs, All instruments, Principal, USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2540,10 +4966,21 @@
 {synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.15.UP.YR.SA.US:DT.TDS.DECT.15.UP.YR.SA.US} - `"Ext. Debt Service Pmt, SDR allocations, More than15yrs, All instruments, Principal, USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.00.03.MO.US:DT.TDS.DECT.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2564,10 +5001,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.00.03.MO.US:DT.TDS.DECT.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.03.YR.US:DT.TDS.DECT.CD.03.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2576,10 +5024,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.03.YR.US:DT.TDS.DECT.CD.03.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.04.06.MO.US:DT.TDS.DECT.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2588,10 +5047,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.04.06.MO.US:DT.TDS.DECT.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.04.YR.US:DT.TDS.DECT.CD.04.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2600,10 +5070,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.04.YR.US:DT.TDS.DECT.CD.04.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.05.10.YR.US:DT.TDS.DECT.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2612,10 +5093,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.05.10.YR.US:DT.TDS.DECT.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.05.YR.US:DT.TDS.DECT.CD.05.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2660,10 +5152,57 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.05.YR.US:DT.TDS.DECT.CD.05.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECT.CD.07.09.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.07.09.MO.US:DT.TDS.DECT.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECT.CD.10.12.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.10.12.MO.US:DT.TDS.DECT.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECT.CD.10.15.YR.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.10.15.YR.US:DT.TDS.DECT.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.13.18.MO.US:DT.TDS.DECT.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2672,10 +5211,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.13.18.MO.US:DT.TDS.DECT.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.15.UP.YR.US:DT.TDS.DECT.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2696,10 +5246,33 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.15.UP.YR.US:DT.TDS.DECT.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.DECT.CD.19.24.MO.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.19.24.MO.US:DT.TDS.DECT.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.DECT.CD.IQ.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IQ.00.US:DT.TDS.DECT.CD.IQ.00.US} - Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2708,10 +5281,21 @@
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.DECT.CD.IQ.00.US:DT.TDS.DECT.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.00.03.MO.US:DT.TDS.PRVS.CD.00.03.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2720,10 +5304,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.00.03.MO.US:DT.TDS.PRVS.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.03.YR.US:DT.TDS.PRVS.CD.03.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2732,10 +5327,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.03.YR.US:DT.TDS.PRVS.CD.03.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.04.06.MO.US:DT.TDS.PRVS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2744,10 +5350,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.04.06.MO.US:DT.TDS.PRVS.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.04.YR.US:DT.TDS.PRVS.CD.04.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2756,10 +5373,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.04.YR.US:DT.TDS.PRVS.CD.04.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.05.10.YR.US:DT.TDS.PRVS.CD.05.10.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2768,10 +5396,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.05.10.YR.US:DT.TDS.PRVS.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.05.YR.US:DT.TDS.PRVS.CD.05.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2780,10 +5419,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.05.YR.US:DT.TDS.PRVS.CD.05.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.07.09.MO.US:DT.TDS.PRVS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2792,10 +5442,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.07.09.MO.US:DT.TDS.PRVS.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.10.12.MO.US:DT.TDS.PRVS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2804,10 +5465,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.10.12.MO.US:DT.TDS.PRVS.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.10.15.YR.US:DT.TDS.PRVS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2816,10 +5488,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.10.15.YR.US:DT.TDS.PRVS.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.13.18.MO.US:DT.TDS.PRVS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2828,10 +5511,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.13.18.MO.US:DT.TDS.PRVS.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.15.UP.YR.US:DT.TDS.PRVS.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2840,10 +5534,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.15.UP.YR.US:DT.TDS.PRVS.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.19.24.MO.US:DT.TDS.PRVS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2852,10 +5557,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.19.24.MO.US:DT.TDS.PRVS.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PRVS.CD.IQ.00.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.IQ.00.US:DT.TDS.PRVS.CD.IQ.00.US} - Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2864,10 +5580,21 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Debt service payments are the sum of principal repayments and interest payments actually made in the year specified. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PRVS.CD.IQ.00.US:DT.TDS.PRVS.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.00.03.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.00.03.MO.US:DT.TDS.PUBS.CD.00.03.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2876,10 +5603,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.00.03.MO.US:DT.TDS.PUBS.CD.00.03.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 0 to 3 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.03.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.03.YR.US:DT.TDS.PUBS.CD.03.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2888,10 +5626,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.03.YR.US:DT.TDS.PUBS.CD.03.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 3yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.04.06.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.04.06.MO.US:DT.TDS.PUBS.CD.04.06.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2900,10 +5649,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.04.06.MO.US:DT.TDS.PUBS.CD.04.06.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 3 to 6 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.04.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.04.YR.US:DT.TDS.PUBS.CD.04.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2912,10 +5672,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.04.YR.US:DT.TDS.PUBS.CD.04.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 4yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.05.10.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.05.10.YR.US:DT.TDS.PUBS.CD.05.10.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2924,10 +5695,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.05.10.YR.US:DT.TDS.PUBS.CD.05.10.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 5 to 10 yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.05.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.05.YR.US:DT.TDS.PUBS.CD.05.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2936,10 +5718,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.05.YR.US:DT.TDS.PUBS.CD.05.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 5yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.07.09.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.07.09.MO.US:DT.TDS.PUBS.CD.07.09.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2948,10 +5741,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.07.09.MO.US:DT.TDS.PUBS.CD.07.09.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 6 to 9 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.10.12.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.10.12.MO.US:DT.TDS.PUBS.CD.10.12.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2960,10 +5764,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.10.12.MO.US:DT.TDS.PUBS.CD.10.12.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 9 to 12 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.10.15.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.10.15.YR.US:DT.TDS.PUBS.CD.10.15.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2972,10 +5787,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.10.15.YR.US:DT.TDS.PUBS.CD.10.15.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 10 to 15 yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.13.18.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.13.18.MO.US:DT.TDS.PUBS.CD.13.18.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2984,10 +5810,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.13.18.MO.US:DT.TDS.PUBS.CD.13.18.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 12 to 18 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.15.UP.YR.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.15.UP.YR.US:DT.TDS.PUBS.CD.15.UP.YR.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -2996,10 +5833,21 @@
 {synopt:{opt Source Notes}}Adjustment - debt service arrears reductions/prepayments (-), equals principal arrears reductions/prepayments plus interest arrears reductions. Data are denominated in U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Global Development Finance.{p_end}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.15.UP.YR.US:DT.TDS.PUBS.CD.15.UP.YR.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, More than15yrs, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+>>>>>>> _parameter.ado
 
 
 {synoptline}
 {marker sourceid_DT.TDS.PUBS.CD.19.24.MO.US}
+<<<<<<< HEAD
 {synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.19.24.MO.US:DT.TDS.PUBS.CD.19.24.MO.US} - Ext. Debt Service Pmt, Public Sector Ext. Debt, 18 to 24 mo., All instruments, Prin. and Int., USD}}
 
 {synopt:{opt Source}}23 Quarterly External Debt Statistics GDDS{p_end}
@@ -3012,3 +5860,29 @@
 
 
 {right:(as of 13mar2019)}
+=======
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.19.24.MO.US:DT.TDS.PUBS.CD.19.24.MO.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, 18 to 24 mo., All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.TDS.PUBS.CD.IQ.00.US}
+{synopt:{bf:{help wbopendata_sourceid##DT.TDS.PUBS.CD.IQ.00.US:DT.TDS.PUBS.CD.IQ.00.US} - `"Ext. Debt Service Pmt, Public Sector Ext. Debt, Immediately, All instruments, Prin. and Int., USD"'}}
+
+{synopt:{opt Source}}`"23 Quarterly External Debt Statistics GDDS"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+
+{right:(as of 20oct2019)}
+>>>>>>> _parameter.ado

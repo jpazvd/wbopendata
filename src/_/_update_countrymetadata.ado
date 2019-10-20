@@ -1,4 +1,6 @@
 *******************************************************************************
+*! v 15.2  	3Mar2019               by Joao Pedro Azevedo   
+*
 * _update_countrymetadata 
 *! v 15.3  	28Sept2019					by Joao Pedro Azevedo   
 *
@@ -174,7 +176,7 @@ quietly {
 		}
 
 		*******************************************************************************
-		* create ado files
+		* create countrymetadata ado files
 		*******************************************************************************
 		
 		insheet using `tmpcountrylist' , delimiter("#") names clear 
@@ -371,8 +373,14 @@ quietly {
 		noi di in smcl in g "{bf: Processing country documentation...}"
 		noi di in smcl in g ""
 
+		******************************************************************************
+		* create country txt files
 		*******************************************************************************
-		* create sthlp files
+
+		
+		
+		*******************************************************************************
+		* create country sthlp files
 		*******************************************************************************
 
 		tempfile tmp
@@ -493,29 +501,8 @@ end
 
 
 *******************************************************************************
-*! v 15.2  	3Mar2019               by Joao Pedro Azevedo   
-*
-*	query to country attributes using API (requires _api_read.ado)
-*	generate country attributes tables
-*	update country attribute tables
-*	atrributes currently supported:
-*		adminregion
-*		adminregion_iso2
-*		adminregionname
-*		countrycode_iso2
-*		countryname
-*		incomelevel
-*		incomelevel_iso2
-*		incomelevelname
-*		lendingtype
-*		lendingtype_iso2
-*		lendingtypename
-*		regioncode
-*		regioncode_iso2
-*		regionname
-*		capital
-*		latitude
-*		longitude
+* v 15.1  	3Mar2019               by Joao Pedro Azevedo   
+*	initial commit
 *******************************************************************************
 *! v 15.1  	3Mar2019               by Joao Pedro Azevedo   
 *
