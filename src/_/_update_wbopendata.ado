@@ -1,5 +1,5 @@
 **********************************************************
-*! version 15.2 			<19Oct2019>		JPAzevedo
+*! version 15.2.1 			<20Oct2019>		JPAzevedo
 *
 *	change indicators update; function _update_indicators.ado replaced by 
 *   _indicators.ado increase the return list stored under parameter 
@@ -73,7 +73,7 @@ syntax , 								///
 	* Source IDs
 	local tmp1 `"`r(sourceid)'"'
 	* Extract Labels for SourceIDs
-	foreach name in `'"`tmp1'"'  {
+	foreach name in `tmp1'  {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -89,7 +89,7 @@ syntax , 								///
 	* Topic IDs	
 	local tmp2 `"`r(topicid)'"'
 	* Extract Labels for Topic IDs
-	foreach name in `"`tmp2'"' {
+	foreach name in `tmp2' {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -233,9 +233,9 @@ syntax , 								///
 				
 			*** Update TOPIC and SOURCE Labels ******
 				* Source IDs
-				local tmp1 `"`r(sourceid)'"'
+				local tmp1 "`r(sourceid)'"
 				* Extract Labels for SourceIDs
-				foreach name in `'"`tmp1'"'  {
+				foreach name in `"`tmp1'"'  {
 					local t1 = substr("`name'",1,2)
 					local name = subinstr("`name'","(","[",.)
 					local name = subinstr("`name'",")","]",.)
@@ -249,9 +249,9 @@ syntax , 								///
 				}
 				
 				* Topic IDs	
-				local tmp2 `"`r(topicid)'"'
+				local tmp2 "`r(topicid)'"
 				* Extract Labels for Topic IDs
-				foreach name in `"`tmp2'"' {
+				foreach name in `"`tmp1'"' {
 					local t1 = substr("`name'",1,2)
 					local name = subinstr("`name'","(","[",.)
 					local name = subinstr("`name'",")","]",.)
@@ -264,13 +264,7 @@ syntax , 								///
 				}
 
 			*************************************
-				
-				
-				noi di "`r(sourcereturn)'"
-				noi di "`r(sourceid)'"
 
-				noi di "`r(topicreturn)'"
-				noi di "`r(topicid)'"
 				
 				/* Source */
 				
@@ -490,7 +484,7 @@ syntax , 								///
 					* Source IDs
 					local tmp1 `"`r(sourceid)'"'
 					* Extract Labels for SourceIDs
-					foreach name in `'"`tmp1'"'  {
+					foreach name in `"`tmp1'"'  {
 						local t1 = substr("`name'",1,2)
 						local name = subinstr("`name'","(","[",.)
 						local name = subinstr("`name'",")","]",.)
