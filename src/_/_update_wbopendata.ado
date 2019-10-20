@@ -1,5 +1,5 @@
 **********************************************************
-*! version 15.2 			<24Mar2019>		JPAzevedo
+*! version 15.2 			<19Oct2019>		JPAzevedo
 *
 *	change indicators update; function _update_indicators.ado replaced by 
 *   _indicators.ado increase the return list stored under parameter 
@@ -39,6 +39,8 @@ syntax , 								///
 
 	_parameters
 
+	
+	* basic parameters
 	local total 			= r(total)
 	local number_indicators = r(number_indicators)
 	local datef 			= c(current_date)
@@ -56,10 +58,10 @@ syntax , 								///
 		local old`returnname'  = r(`returnname')
 	}
 	
+	* Source IDs
 	local tmp1 `"`r(sourceid)'"'
-	local tmp2 `"`r(topicid)'"'
-
-	foreach name in `tmp1'  {
+	* Extract Labels for SourceIDs
+	foreach name in `'"`tmp1'"'  {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -72,7 +74,10 @@ syntax , 								///
 		local label_sourceid`t1' "`name'"
 	}
 	
-	foreach name in `tmp2' {
+	* Topic IDs	
+	local tmp2 `"`r(topicid)'"'
+	* Extract Labels for Topic IDs
+	foreach name in `"'`tmp2'"' {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -83,7 +88,9 @@ syntax , 								///
 		}
 		local label_topicid`t1' "`name'"
 	}
-				
+	
+	
+	* Display parameter results on screen
 	local	oldsourcereturn "`r(sourcereturn)'" 
 	local	oldtopicreturn  "`r(topicreturn)'"
 	local	oldsourceid	 	`"`r(sourceid)'"'
@@ -110,6 +117,7 @@ syntax , 								///
 
 			qui if ("`detail'" != "") {
 				
+				* Display SOURCE results on screen
 				/* Source */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
@@ -132,6 +140,7 @@ syntax , 								///
 				noi di in g in smcl "{synoptline}"
 				noi di in smcl ""
 			
+				* Display TOPIC results on screen
 				/* Topic */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
