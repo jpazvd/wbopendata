@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-*! _countrycode_iso2 <19 Oct 2019 : 22:56:00>                 by João Pedro Azevedo
-=======
-*! _countrycode_iso2 <20 Oct 2019 : 13:30:26>                 by João Pedro Azevedo
->>>>>>> _parameter.ado
+*! _countrycode_iso2 <20 Oct 2019 : 14:03:53>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _countrycode_iso2 

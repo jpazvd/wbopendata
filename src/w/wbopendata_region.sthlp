@@ -2,11 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-<<<<<<< HEAD
-{title:Region  (as of 19oct2019)}
-=======
 {title:Region  (as of 20oct2019)}
->>>>>>> _parameter.ado
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}

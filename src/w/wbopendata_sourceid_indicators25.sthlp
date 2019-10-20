@@ -1,9 +1,5 @@
 {smcl}
-<<<<<<< HEAD
-{right:(as of 13mar2019)}
-=======
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -14,14 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-<<<<<<< HEAD
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
-=======
->>>>>>> _parameter.ado
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -60,8 +48,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-<<<<<<< HEAD
-=======
 {synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
@@ -69,7 +55,6 @@
 {synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
 {synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
->>>>>>> _parameter.ado
 
 
 {marker sourceid_25}
@@ -79,20 +64,6 @@
 {syntab:{title:{bf:25 Jobs}}}
 {synoptline}
 {marker sourceid_SL.EMP.OWAC.ZS}
-<<<<<<< HEAD
-{synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - Own-account workers, total (% of total employment)}}
-
-{synopt:{opt Source}}25 Jobs{p_end}
-
-
-{synopt:{opt Source Notes}}Self-employed workers are those workers who, working on their own account or with one or a few partners or in cooperative, hold the type of jobs defined as a self-employment jobs. i.e. jobs where the remuneration is directly dependent upon the profits derived from the goods and services produced. Self-employed workers include four sub-categories of employers, own-account workers, members of producers' cooperatives, and contributing family workers.{p_end}
-
-{synopt:{opt Source Organization}}International Labour Organization, ILOSTAT database. Data retrieved in September 2018.{p_end}
-
-
-
-{right:(as of 13mar2019)}
-=======
 {synopt:{bf:{help wbopendata_sourceid##SL.EMP.OWAC.ZS:SL.EMP.OWAC.ZS} - `"Own-account workers, total (% of total employment)"'}}
 
 {synopt:{opt Source}}`"25 Jobs"'{p_end}
@@ -105,4 +76,3 @@
 
 
 {right:(as of 20oct2019)}
->>>>>>> _parameter.ado
