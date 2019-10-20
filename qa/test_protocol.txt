@@ -1,0 +1,29 @@
+Header
+Date: 20oct2019  12:34:46
+Name: Joao Pedro Azevedo
+
+
+type, seq , ctry, indicator, topic, rc, date, time
+3, 1 , all, i/indicators.txt , all, 601 , 20 Oct 2019, 12:34:47
+3, 1001 , all, AG.LND.CRPA.HA , all, 0 , 20 Oct 2019, 12:34:47
+3, 2001 , all, DP.DOD.DLDS.CR.L1.CG.CD , all, 0 , 20 Oct 2019, 12:34:49
+3, 3001 , all, DT.DOD.DECT.CD.OT.AR.NE.US , all, 0 , 20 Oct 2019, 12:34:50
+3, 4001 , all, DT.INA.DECT.CD , all, 0 , 20 Oct 2019, 12:34:51
+3, 5001 , all, DT.TDS.DLTT.CD.GG.AR.36.US , all, 0 , 20 Oct 2019, 12:34:52
+3, 6001 , all, GB.XPC.TRFT.ZS , all, 23 , 20 Oct 2019, 12:34:52
+3, 7001 , all, IC.FRM.CORR.CORR9 , all, 0 , 20 Oct 2019, 12:34:53
+3, 8001 , all, LO.EGRA.READ.KII.ADV.2GRD , all, 0 , 20 Oct 2019, 12:34:54
+3, 9001 , all, NV.SRV.BNKG.CN , all, 0 , 20 Oct 2019, 12:34:55
+3, 10001 , all, SABER.PRVT.GOAL4.LVL1 , all, 0 , 20 Oct 2019, 12:34:56
+3, 11001 , all, SH.PRV.SMOK.FE.Q4.ZS , all, 0 , 20 Oct 2019, 12:34:57
+3, 12001 , all, SP.POP.AG22.MA.IN , all, 0 , 20 Oct 2019, 12:34:58
+3, 13001 , all, UIS.NERT.2.M , all, 0 , 20 Oct 2019, 12:34:59
+3, 14001 , all, fin25e.a.s.7 , all, 0 , 20 Oct 2019, 12:35:00
+3, 15001 , all, per_lm_pa.bry_q2_urb , all, 0 , 20 Oct 2019, 12:35:01
+3, 16001 , all, per_sa_fw.adq_q3_rur , all, 0 , 20 Oct 2019, 12:35:03
+3, 17001 , all, per_si_allsi_gini_urb , all, 0 , 20 Oct 2019, 12:35:04
+4, -9 , -9, query , update , 132 , 20 Oct 2019, 12:35:04
+4, -9 , -9, check , update , 132 , 20 Oct 2019, 12:35:04
+4, -9 , -9, query_detail, update , 132 , 20 Oct 2019, 12:35:04
+4, -9 , -9, check_detail , update , 132 , 20 Oct 2019, 12:35:04
+4, -9 , -9, force, update , 132 , 20 Oct 2019, 12:35:04
