@@ -1,6 +1,6 @@
 *******************************************************************************
 * _indicators                                                                   
-*! v 15.2   23Mar2019				by João Pedro Azevedo
+*! v 15.2   20Oct2019				by João Pedro Azevedo
 *		initial commit
 /*******************************************************************************
 
@@ -65,6 +65,9 @@ quietly {
 
 	insheet using `file2', delimiter("#") clear name
 
+	* drop cases in which SOURCEID does not stata with a numeric CODE
+	drop if real(substr(sourceid,1,2))==. & !missing(sourceid)
+	
 	gen seq = _n
 
 	replace indicatorcode = indicatorcode[_n-1] if indicatorcode == "" & indicatorcode[_n-1] != ""
@@ -90,6 +93,7 @@ quietly {
 		replace `var' = string(0)+`var' if length(word(`var',1))==1
 	}
 
+	* Indentify multiple entries for the same indicator	
 	bysort indicatorcode : gen seq = _n
 
 	order indicatorcode indicatorname
@@ -102,9 +106,12 @@ quietly {
 	
 	compress
 	
-noi gen length = length(sourcenote)
-noi sum
+*noi gen length = length(sourcenote)
+*noi sum
 
+save tmp, replace
+
+	* save files with all INDICATORS + SOURCEID + TOPICID
 	save `tmp', replace
 		
 ********************************************
@@ -140,8 +147,8 @@ if ("`noindlist'" == "") {
 		copy `tmp1tmp' `indicator'
 	}
 	
-noi gen length = length(sourcenote)
-noi sum
+*noi gen length = length(sourcenote)
+*noi sum
 	
 	noi di in smcl in g "{bf: Processing indicators list... COMPLETED!}"
 
@@ -180,8 +187,8 @@ if ("`nosthlp1'" == "") {
 		local title : variable label `variable' 
 		local title = subinstr("`title'","Code","",.)
 				
-noi gen length = length(sourcenote)
-noi sum
+*noi gen length = length(sourcenote)
+*noi sum
 				
 	**************** header ********************
 				
@@ -308,8 +315,8 @@ if ("`nosthlp2'" == "") {
 		local title : variable label `variable' 
 		local title = subinstr("`title'","Code","",.)
 
-noi gen length = length(sourcenote)
-noi sum
+*noi gen length = length(sourcenote)
+*noi sum
 		
 	/**************** header ********************/
 
@@ -338,8 +345,8 @@ noi sum
 			tempname hlp`variable'`tc0'
 			tempfile help`variable'`tc0'
 
-noi gen length = length(sourcenote)
-noi sum
+*noi gen length = length(sourcenote)
+*noi sum
 			
 			
 			file open `hlp`variable'`tc0''		using 	`help`variable'`tc0'' , write text replace
@@ -475,10 +482,10 @@ noi sum
 
 	use `tmp' , clear
 
-	sum if seq == 1
+	sum tot if seq == 1
 	return local total = r(N)
 	
-	
+	* Loop to create SOURCEID locals
 	preserve
 	
 		keep sourceid indicatorcode
@@ -506,6 +513,7 @@ noi sum
 	restore
 	
 	
+	* Loop to create TOPICID locals
 	preserve
 	
 		keep topicid indicatorcode
