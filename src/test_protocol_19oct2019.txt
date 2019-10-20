@@ -44,3 +44,26 @@ type, seq , ctry, indicator, topic, rc, date, time
 4, -9 , -9, query_detail, update , 132 , 19 Oct 2019, 23:21:21
 4, -9 , -9, check_detail , update , 132 , 19 Oct 2019, 23:21:21
 4, -9 , -9, force, update , 132 , 19 Oct 2019, 23:21:21
+type, seq , ctry, indicator, topic, rc, date, time
+3, 1 , all, i/indicators.txt , all, 601 , 19 Oct 2019, 23:30:11
+3, 1001 , all, AG.LND.CRPA.HA , all, 0 , 19 Oct 2019, 23:30:12
+3, 2001 , all, DP.DOD.DLDS.CR.L1.NF.Z1 , all, 0 , 19 Oct 2019, 23:30:13
+3, 3001 , all, DT.DOD.DLBN.CD.GG.AR.EX.US , all, 0 , 19 Oct 2019, 23:30:14
+3, 4001 , all, DT.INT.DECT.CD.OS.03.US , all, 0 , 19 Oct 2019, 23:30:15
+3, 5001 , all, EN.NAGR.EMPL.IN , all, 0 , 19 Oct 2019, 23:30:16
+3, 6001 , all, HH.DHS.TR.12.R , all, 0 , 19 Oct 2019, 23:30:17
+3, 7001 , all, LO.EGRA.CWPM.ZERO.CIN.2GRD , all, 0 , 19 Oct 2019, 23:30:18
+3, 8001 , all, MS.MIL.XPND.CD , all, 0 , 19 Oct 2019, 23:30:19
+3, 9001 , all, RES.DPST.CBK , all, 0 , 19 Oct 2019, 23:30:20
+3, 10001 , all, SH.H2O.BASW.UR.Q1.ZS , all, 0 , 19 Oct 2019, 23:30:21
+3, 11001 , all, SP.POP.6064.MA.5Y , all, 0 , 19 Oct 2019, 23:30:23
+3, 12001 , all, UIS.NAR.1.RUR , all, 0 , 19 Oct 2019, 23:30:24
+3, 13001 , all, fin15.t.a.4 , all, 0 , 19 Oct 2019, 23:30:25
+3, 14001 , all, per_lm_ac.ben_q2_preT_tot , all, 0 , 19 Oct 2019, 23:30:26
+3, 15001 , all, per_sa_allsa_p0_preT_tot , all, 0 , 19 Oct 2019, 23:30:27
+3, 16001 , all, per_sa_sf.cov_q5_tot , all, 0 , 19 Oct 2019, 23:30:28
+4, -9 , -9, query , update , 132 , 19 Oct 2019, 23:30:28
+4, -9 , -9, check , update , 132 , 19 Oct 2019, 23:30:28
+4, -9 , -9, query_detail, update , 132 , 19 Oct 2019, 23:30:28
+4, -9 , -9, check_detail , update , 132 , 19 Oct 2019, 23:30:28
+4, -9 , -9, force, update , 132 , 19 Oct 2019, 23:30:28
