@@ -1,4 +1,4 @@
-*! _adminregionname <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _adminregionname <20 Oct 2019 : 15:43:51>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _adminregionname 
@@ -11,6 +11,7 @@
          replace adminregionname = "South Asia (excluding high income)"  if `match' == "AFG"  
          replace adminregionname = "Sub-Saharan Africa (excluding high income)"  if `match' == "AGO"  
          replace adminregionname = "Europe and Central Asia (excluding high income)"  if `match' == "ALB"  
+         replace adminregionname = "Latin America and Caribbean (excluding high income)"  if `match' == "ARG"  
          replace adminregionname = "Europe and Central Asia (excluding high income)"  if `match' == "ARM"  
          replace adminregionname = "East Asia and Pacific (excluding high income)"  if `match' == "ASM"  
          replace adminregionname = "Europe and Central Asia (excluding high income)"  if `match' == "AZE"  
@@ -144,7 +145,6 @@
          replace adminregionname = "Middle East and North Africa (excluding high income)"  if `match' == "YEM"  
          replace adminregionname = "Sub-Saharan Africa (excluding high income)"  if `match' == "ZAF"  
          replace adminregionname = "Sub-Saharan Africa (excluding high income)"  if `match' == "ZMB"  
-         replace adminregionname = "Sub-Saharan Africa (excluding high income)"  if `match' == "ZWE"  
   
 *********************
   
