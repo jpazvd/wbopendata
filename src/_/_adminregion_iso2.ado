@@ -1,4 +1,4 @@
-*! _adminregion_iso2 <20 Oct 2019 : 11:59:38>                 by João Pedro Azevedo
+*! _adminregion_iso2 <20 Oct 2019 : 13:30:26>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _adminregion_iso2 
