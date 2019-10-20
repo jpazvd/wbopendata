@@ -1,5 +1,5 @@
 **********************************************************
-*! version 15.2 			<24Mar2019>		JPAzevedo
+*! version 15.2 			<19Oct2019>		JPAzevedo
 *
 *	change indicators update; function _update_indicators.ado replaced by 
 *   _indicators.ado increase the return list stored under parameter 
@@ -37,8 +37,15 @@ syntax , 								///
 		local nohlp2 " nosthlp1 nosthlp2 "
 	}
 
+	**********************************************
+	* LOAD previoius PARAMETERS
+	**********************************************
+
+	
 	_parameters
 
+	
+	* basic parameters
 	local total 			= r(total)
 	local number_indicators = r(number_indicators)
 	local datef 			= c(current_date)
@@ -51,15 +58,22 @@ syntax , 								///
 	local dt_ctrycheck 		"`ctrydatef' `ctrytime'"
 	local dt_ctryupdate 	= r(dt_ctryupdate)
 	local dt_ctrylastcheck 	= r(dt_ctrycheck)
+
+		
+	local	oldsourcereturn "`r(sourcereturn)'" 
+	local	oldtopicreturn  "`r(topicreturn)'"
+	local	oldsourceid	 	`"`r(sourceid)'"'
+	local	oldtopicid		`"`r(topicid)'"'
 	
 	foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 		local old`returnname'  = r(`returnname')
 	}
 	
+	*** Generate TOPIC and SOURCE Labels ******
+	* Source IDs
 	local tmp1 `"`r(sourceid)'"'
-	local tmp2 `"`r(topicid)'"'
-
-	foreach name in `tmp1'  {
+	* Extract Labels for SourceIDs
+	foreach name in `'"`tmp1'"'  {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -72,7 +86,10 @@ syntax , 								///
 		local label_sourceid`t1' "`name'"
 	}
 	
-	foreach name in `tmp2' {
+	* Topic IDs	
+	local tmp2 `"`r(topicid)'"'
+	* Extract Labels for Topic IDs
+	foreach name in `"`tmp2'"' {
 		local t1 = substr("`name'",1,2)
 		local name = subinstr("`name'","(","[",.)
 		local name = subinstr("`name'",")","]",.)
@@ -83,11 +100,11 @@ syntax , 								///
 		}
 		local label_topicid`t1' "`name'"
 	}
-				
-	local	oldsourcereturn "`r(sourcereturn)'" 
-	local	oldtopicreturn  "`r(topicreturn)'"
-	local	oldsourceid	 	`"`r(sourceid)'"'
-	local	oldtopicid		`"`r(topicid)'"'
+		
+	**********************************************
+	* QUERY DETAIL
+	**********************************************
+
 	
 	qui if ("`query'" != "") & ("`check'" == "") & ("`update'" != "") {
 	
@@ -110,6 +127,7 @@ syntax , 								///
 
 			qui if ("`detail'" != "") {
 				
+				* Display SOURCE results on screen
 				/* Source */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
@@ -119,12 +137,7 @@ syntax , 								///
 				
 				qui foreach name in `r(sourcereturn)' {
 				
-					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
-					}
-					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
-					}
+					local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 
 					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
 				}
@@ -132,6 +145,7 @@ syntax , 								///
 				noi di in g in smcl "{synoptline}"
 				noi di in smcl ""
 			
+				* Display TOPIC results on screen
 				/* Topic */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
@@ -141,12 +155,7 @@ syntax , 								///
 				
 				qui foreach name in `r(topicreturn)' {
 				
-					if (`r(`name')' == `old`name'') {
-						local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
-					}
-					if (`r(`name')' != `old`name'') {
-						local checkvalue `""  in r  "		(NOCHECK)	old value: `old`name'' {p_end}""'
-					}
+					local checkvalue `""  in y  "		(NOCHECK) {p_end}""'
 
 					noi di in g in smcl "{synopt:{opt `label_`name''}}`r(`name')'`checkvalue'"
 				}
@@ -158,7 +167,7 @@ syntax , 								///
 			
 			noi di in g in smcl "Possible actions"
 			noi di in smcl ""
-			noi di in g in smcl 	`" {stata wbopendata, update check : {bf: Check for available updates}} "'         "  (or type -wbopendata, update check-)"
+			noi di in g in smcl 	`" {stata wbopendata, update check detail: {bf: Check for available updates}} "'         "  (or type -wbopendata, update check detail -)"
 			noi di in smcl ""
 			noi di in g in smcl "	See current documentation on {bf:{help wbopendata_indicators##indicators:indicators list}}, {bf:{help wbopendata##region:Regions}}, " 
 			noi di in g in smcl "	{bf:{help wbopendata##adminregion:Administrative Regions}}, {bf:{help wbopendata##incomelevel:Income Levels}}, and {bf:{help wbopendata##lendingtype:Lending Types}}"" 
@@ -168,7 +177,10 @@ syntax , 								///
 		}
 	}
 	
-	
+	**********************************************
+	* QUERY DETAIL with CHECK and UPDATE
+	**********************************************
+
 	qui if ("`query'" == "") & ("`check'" != "") & ("`update'" != "") {
 
 		_api_read,  parameter(total)
@@ -219,6 +231,47 @@ syntax , 								///
 					
 				}
 				
+			*** Update TOPIC and SOURCE Labels ******
+				* Source IDs
+				local tmp1 `"`r(sourceid)'"'
+				* Extract Labels for SourceIDs
+				foreach name in `'"`tmp1'"'  {
+					local t1 = substr("`name'",1,2)
+					local name = subinstr("`name'","(","[",.)
+					local name = subinstr("`name'",")","]",.)
+					local name = subinstr("`name'",":"," -",.)
+					local lgt = length("`name'")
+					if (`lgt'>38) {
+						local name = substr("`name'",1,38)
+						local name "`name'..."
+					}
+					local label_sourceid`t1' "`name'"
+				}
+				
+				* Topic IDs	
+				local tmp2 `"`r(topicid)'"'
+				* Extract Labels for Topic IDs
+				foreach name in `"`tmp2'"' {
+					local t1 = substr("`name'",1,2)
+					local name = subinstr("`name'","(","[",.)
+					local name = subinstr("`name'",")","]",.)
+					local name = subinstr("`name'",":"," -",.)
+					if (`lgt'>38) {
+						local name = substr("`name'",1,38)
+						local name "`name'..."
+					}
+					local label_topicid`t1' "`name'"
+				}
+
+			*************************************
+				
+				
+				noi di "`r(sourcereturn)'"
+				noi di "`r(sourceid)'"
+
+				noi di "`r(topicreturn)'"
+				noi di "`r(topicid)'"
+				
 				/* Source */
 				
 				noi di in g in smcl "{synoptset 45 tabbed} "
@@ -227,7 +280,18 @@ syntax , 								///
 				noi di in g in smcl "{synoptline}"
 				
 				qui foreach name in `r(sourcereturn)' {
+
+					*check if sourceID alreayd existed
+					if strmatch("`oldsourcereturn'","*`name'*") == 1 {
+						* SOURCEID alreayd existed 
+						* No need to do anything
+					}
+					else {
+						* SOURCEID is new
+						local old`name' = 0
+					}
 				
+					* check new and old values 				
 					if (`r(`name')' == `old`name'') {
 						local checkvalue `""  in y  "		(SAME) {p_end}" "'
 					}
@@ -250,6 +314,17 @@ syntax , 								///
 				
 				qui foreach name in `r(topicreturn)' {
 				
+					*check if topicID alreayd existed
+					if strmatch("`oldtopicreturn'","*`name'*") == 1 {
+						* topicID  alreayd existed 
+						* No need to do anything
+					}
+					else {
+						* topicID  is new
+						local old`name' = 0
+					}
+				
+					* check new and old values 				
 					if (`r(`name')' == `old`name'') {
 						local checkvalue `""  in y  "		(SAME) {p_end}" "'
 					}
@@ -284,6 +359,7 @@ syntax , 								///
 
 		}
 
+		* Write PARAMETERS.ADO
 		/* Does not change _parameter values (only changes time stamps) */ 
 		
 		tempfile in out2
@@ -348,8 +424,10 @@ syntax , 								///
 	
 
 	
-	
-	
+	**********************************************
+	* QUERY DETAIL with UPDATE + ALL or FORCE
+	**********************************************
+
 	qui if ("`query'" == "") & ("`check'" == "") & ("`update'" != "") & ("`all'" != "") | ("`force'" != "") {
 
 		_api_read,  parameter(total)
@@ -400,12 +478,48 @@ syntax , 								///
 			
 				qui if ("`detail'" != "") | ("`force'" != "") {
 					
+					* call _update_indicators.ado
 					noi _update_indicators, `query' `check' `nohlp2'
 
 					noi foreach returnname in `r(sourcereturn)' `r(topicreturn)' {
 						local `returnname' = `r(`returnname')'  	
 					}
+									
+
+					*** Update TOPIC and SOURCE Labels ******
+					* Source IDs
+					local tmp1 `"`r(sourceid)'"'
+					* Extract Labels for SourceIDs
+					foreach name in `'"`tmp1'"'  {
+						local t1 = substr("`name'",1,2)
+						local name = subinstr("`name'","(","[",.)
+						local name = subinstr("`name'",")","]",.)
+						local name = subinstr("`name'",":"," -",.)
+						local lgt = length("`name'")
+						if (`lgt'>38) {
+							local name = substr("`name'",1,38)
+							local name "`name'..."
+						}
+						local label_sourceid`t1' "`name'"
+					}
 					
+					* Topic IDs	
+					local tmp2 `"`r(topicid)'"'
+					* Extract Labels for Topic IDs
+					foreach name in `"`tmp2'"' {
+						local t1 = substr("`name'",1,2)
+						local name = subinstr("`name'","(","[",.)
+						local name = subinstr("`name'",")","]",.)
+						local name = subinstr("`name'",":"," -",.)
+						if (`lgt'>38) {
+							local name = substr("`name'",1,38)
+							local name "`name'..."
+						}
+						local label_topicid`t1' "`name'"
+					}
+					
+					*************************************
+						
 					/* Source */
 					
 					noi di in g in smcl "{synoptset 45 tabbed} "
@@ -414,6 +528,16 @@ syntax , 								///
 					noi di in g in smcl "{synoptline}"
 					
 					qui foreach name in `r(sourcereturn)' {
+					
+						*check if sourceID alreayd existed
+						if strmatch("`oldsourcereturn'","*`name'*") == 1 {
+							* SOURCEID alreayd existed 
+							* No need to do anything
+						}
+						else {
+							* SOURCEID is new
+							local old`name' = 0
+						}
 					
 						if (`r(`name')' == `old`name'') {
 							local checkvalue `""  in y  "		(SAME) {p_end}""'
@@ -436,7 +560,19 @@ syntax , 								///
 					noi di in g in smcl "{synoptline}"
 					
 					qui foreach name in `r(topicreturn)' {
+						
+						*check if topicID alreayd existed
+						if strmatch("`oldtopicreturn'","*`name'*") == 1 {
+							* topicID  alreayd existed 
+							* No need to do anything
+						}
+						else {
+							* topicID  is new
+							local old`name' = 0
+						}
 					
+						* check new and old values 				
+
 						if (`r(`name')' == `old`name'') {
 							local checkvalue `""  in y  "		(SAME) {p_end}""'
 						}
@@ -455,6 +591,9 @@ syntax , 								///
 			}
 		
 		
+			* Write PARAMETERS.ADO
+			/* Does not change _parameter values (only changes time stamps) */ 
+
 			tempfile in out2
 			tempname in2 out
 			

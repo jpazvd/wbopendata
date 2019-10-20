@@ -1,0 +1,23 @@
+type, seq , ctry, indicator, topic, rc, date, time
+3, 1 , all, i/indicators.txt , all, 601 , 20 Oct 2019, 00:06:24
+3, 1001 , all, AG.LND.CRPA.HA , all, 0 , 20 Oct 2019, 00:06:25
+3, 2001 , all, DP.DOD.DLDS.CR.L1.NF.Z1 , all, 0 , 20 Oct 2019, 00:06:26
+3, 3001 , all, DT.DOD.DLBN.CD.GG.AR.EX.US , all, 0 , 20 Oct 2019, 00:06:27
+3, 4001 , all, DT.INT.DECT.CD.OS.03.US , all, 0 , 20 Oct 2019, 00:06:28
+3, 5001 , all, EN.NAGR.EMPL.IN , all, 0 , 20 Oct 2019, 00:06:29
+3, 6001 , all, HH.DHS.TR.12.R , all, 0 , 20 Oct 2019, 00:06:30
+3, 7001 , all, LO.EGRA.CWPM.ZERO.CIN.2GRD , all, 0 , 20 Oct 2019, 00:06:31
+3, 8001 , all, MS.MIL.XPND.CD , all, 0 , 20 Oct 2019, 00:06:32
+3, 9001 , all, RES.DPST.CBK , all, 0 , 20 Oct 2019, 00:06:33
+3, 10001 , all, SH.H2O.BASW.UR.Q1.ZS , all, 0 , 20 Oct 2019, 00:06:34
+3, 11001 , all, SP.POP.6064.MA.5Y , all, 0 , 20 Oct 2019, 00:06:36
+3, 12001 , all, UIS.NAR.1.RUR , all, 0 , 20 Oct 2019, 00:06:37
+3, 13001 , all, fin15.t.a.4 , all, 0 , 20 Oct 2019, 00:06:38
+3, 14001 , all, per_lm_ac.ben_q2_preT_tot , all, 0 , 20 Oct 2019, 00:06:39
+3, 15001 , all, per_sa_allsa_p0_preT_tot , all, 0 , 20 Oct 2019, 00:06:40
+3, 16001 , all, per_sa_sf.cov_q5_tot , all, 0 , 20 Oct 2019, 00:06:41
+4, -9 , -9, query , update , 0 , 20 Oct 2019, 00:06:41
+4, -9 , -9, check , update , 0 , 20 Oct 2019, 00:06:42
+4, -9 , -9, query_detail, update , 0 , 20 Oct 2019, 00:06:42
+4, -9 , -9, check_detail , update , 198 , 20 Oct 2019, 00:07:22
+4, -9 , -9, force, update , 608 , 20 Oct 2019, 00:08:02
