@@ -5856,7 +5856,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Paved roads are those surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country's roads, measured in length.{p_end}
 
@@ -5921,7 +5921,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
 
@@ -9148,7 +9148,7 @@
 
 {synopt:{opt Source}}`"11 Africa Development Indicators"'{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}10 Social Protection and Labor{p_end}
 
 {synopt:{opt Source Notes}}Male unemployment with tertiary education is the share of the male unemployed who attained or completed tertiary education as the highest level.{p_end}
 
