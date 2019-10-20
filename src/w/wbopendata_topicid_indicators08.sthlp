@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -42,7 +42,7 @@
 {marker topicid_SG.VAW.1549.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.1549.ZS:SG.VAW.1549.ZS} - `"Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of women age 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -55,7 +55,7 @@
 {marker topicid_SG.VAW.ARGU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.ARGU.ZS:SG.VAW.ARGU.ZS} - `"Women who believe a husband is justified in beating his wife when she argues with him (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -68,7 +68,7 @@
 {marker topicid_SG.VAW.BURN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.BURN.ZS:SG.VAW.BURN.ZS} - `"Women who believe a husband is justified in beating his wife when she burns the food (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -81,7 +81,7 @@
 {marker topicid_SG.VAW.GOES.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.GOES.ZS:SG.VAW.GOES.ZS} - `"Women who believe a husband is justified in beating his wife when she goes out without telling him (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -94,7 +94,7 @@
 {marker topicid_SG.VAW.NEGL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.NEGL.ZS:SG.VAW.NEGL.ZS} - `"Women who believe a husband is justified in beating his wife when she neglects the children (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -107,7 +107,7 @@
 {marker topicid_SG.VAW.REAS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.REAS.ZS:SG.VAW.REAS.ZS} - `"Women who believe a husband is justified in beating his wife (any of five reasons) (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -120,7 +120,7 @@
 {marker topicid_SG.VAW.REFU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SG.VAW.REFU.ZS:SG.VAW.REFU.ZS} - `"Women who believe a husband is justified in beating his wife when she refuses sex with him (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -653,7 +653,7 @@
 {marker topicid_SH.ALC.PCAP.FE.LI}
 {synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.FE.LI:SH.ALC.PCAP.FE.LI} - `"Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -666,7 +666,7 @@
 {marker topicid_SH.ALC.PCAP.LI}
 {synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.LI:SH.ALC.PCAP.LI} - `"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -679,7 +679,7 @@
 {marker topicid_SH.ALC.PCAP.MA.LI}
 {synopt:{bf:{help wbopendata_topicid##SH.ALC.PCAP.MA.LI:SH.ALC.PCAP.MA.LI} - `"Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -692,7 +692,7 @@
 {marker topicid_SH.ANM.ALLW.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.ANM.ALLW.ZS:SH.ANM.ALLW.ZS} - `"Prevalence of anemia among women of reproductive age (% of women ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -705,7 +705,7 @@
 {marker topicid_SH.ANM.CHLD.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.ANM.CHLD.ZS:SH.ANM.CHLD.ZS} - `"Prevalence of anemia among children (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -718,7 +718,7 @@
 {marker topicid_SH.ANM.NPRG.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.ANM.NPRG.ZS:SH.ANM.NPRG.ZS} - `"Prevalence of anemia among non-pregnant women (% of women ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -731,7 +731,7 @@
 {marker topicid_SH.CON.1524.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.CON.1524.FE.ZS:SH.CON.1524.FE.ZS} - `"Condom use, population ages 15-24, female (% of females ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -744,7 +744,7 @@
 {marker topicid_SH.CON.1524.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.CON.1524.MA.ZS:SH.CON.1524.MA.ZS} - `"Condom use, population ages 15-24, male (% of males ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -757,7 +757,7 @@
 {marker topicid_SH.DTH.0514}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.0514:SH.DTH.0514} - `"Number of deaths ages 5-14 years"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -770,7 +770,7 @@
 {marker topicid_SH.DTH.COMM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.COMM.ZS:SH.DTH.COMM.ZS} - `"Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -783,7 +783,7 @@
 {marker topicid_SH.DTH.IMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.IMRT:SH.DTH.IMRT} - `"Number of infant deaths"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -796,7 +796,7 @@
 {marker topicid_SH.DTH.INJR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.INJR.ZS:SH.DTH.INJR.ZS} - `"Cause of death, by injury (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -809,7 +809,7 @@
 {marker topicid_SH.DTH.MORT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.MORT:SH.DTH.MORT} - `"Number of under-five deaths"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -822,7 +822,7 @@
 {marker topicid_SH.DTH.NCOM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.NCOM.ZS:SH.DTH.NCOM.ZS} - `"Cause of death, by non-communicable diseases (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -835,7 +835,7 @@
 {marker topicid_SH.DTH.NMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DTH.NMRT:SH.DTH.NMRT} - `"Number of neonatal deaths"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -848,7 +848,7 @@
 {marker topicid_SH.DYN.0514}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.0514:SH.DYN.0514} - `"Probability of dying at age 5-14 years (per 1,000 children age 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -861,7 +861,7 @@
 {marker topicid_SH.DYN.AIDS.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.AIDS.FE.ZS:SH.DYN.AIDS.FE.ZS} - `"Women's share of population ages 15+ living with HIV (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -874,7 +874,7 @@
 {marker topicid_SH.DYN.AIDS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.AIDS.ZS:SH.DYN.AIDS.ZS} - `"Prevalence of HIV, total (% of population ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -913,7 +913,7 @@
 {marker topicid_SH.DYN.MORT}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT:SH.DYN.MORT} - `"Mortality rate, under-5 (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -926,7 +926,7 @@
 {marker topicid_SH.DYN.MORT.FE}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.FE:SH.DYN.MORT.FE} - `"Mortality rate, under-5, female (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -939,7 +939,7 @@
 {marker topicid_SH.DYN.MORT.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.MORT.MA:SH.DYN.MORT.MA} - `"Mortality rate, under-5, male (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1017,7 +1017,7 @@
 {marker topicid_SH.DYN.NCOM.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.FE.ZS:SH.DYN.NCOM.FE.ZS} - `"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, female (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1030,7 +1030,7 @@
 {marker topicid_SH.DYN.NCOM.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.MA.ZS:SH.DYN.NCOM.MA.ZS} - `"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70, male (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1043,7 +1043,7 @@
 {marker topicid_SH.DYN.NCOM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NCOM.ZS:SH.DYN.NCOM.ZS} - `"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1056,7 +1056,7 @@
 {marker topicid_SH.DYN.NMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.DYN.NMRT:SH.DYN.NMRT} - `"Mortality rate, neonatal (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -1849,7 +1849,7 @@
 {marker topicid_SH.FPL.SATM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.FPL.SATM.ZS:SH.FPL.SATM.ZS} - `"Demand for family planning satisfied by modern methods (% of married women with demand for family planning)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2018,7 +2018,7 @@
 {marker topicid_SH.H2O.BASW.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.RU.ZS:SH.H2O.BASW.RU.ZS} - `"People using at least basic drinking water services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2031,7 +2031,7 @@
 {marker topicid_SH.H2O.BASW.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.UR.ZS:SH.H2O.BASW.UR.ZS} - `"People using at least basic drinking water services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2044,7 +2044,7 @@
 {marker topicid_SH.H2O.BASW.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.BASW.ZS:SH.H2O.BASW.ZS} - `"People using at least basic drinking water services (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2096,7 +2096,7 @@
 {marker topicid_SH.H2O.SMDW.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.RU.ZS:SH.H2O.SMDW.RU.ZS} - `"People using safely managed drinking water services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2109,7 +2109,7 @@
 {marker topicid_SH.H2O.SMDW.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.UR.ZS:SH.H2O.SMDW.UR.ZS} - `"People using safely managed drinking water services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2122,7 +2122,7 @@
 {marker topicid_SH.H2O.SMDW.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.H2O.SMDW.ZS:SH.H2O.SMDW.ZS} - `"People using safely managed drinking water services (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2135,7 +2135,7 @@
 {marker topicid_SH.HIV.0014}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.0014:SH.HIV.0014} - `"Children (0-14) living with HIV"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2148,7 +2148,7 @@
 {marker topicid_SH.HIV.1524.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.FE.ZS:SH.HIV.1524.FE.ZS} - `"Prevalence of HIV, female (% ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2161,7 +2161,7 @@
 {marker topicid_SH.HIV.1524.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.1524.MA.ZS:SH.HIV.1524.MA.ZS} - `"Prevalence of HIV, male (% ages 15-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2174,7 +2174,7 @@
 {marker topicid_SH.HIV.ARTC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.ARTC.ZS:SH.HIV.ARTC.ZS} - `"Antiretroviral therapy coverage (% of people living with HIV)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2187,7 +2187,7 @@
 {marker topicid_SH.HIV.INCD}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD:SH.HIV.INCD} - `"Adults (ages 15+) newly infected with HIV"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2200,7 +2200,7 @@
 {marker topicid_SH.HIV.INCD.14}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.14:SH.HIV.INCD.14} - `"Children (ages 0-14) newly infected with HIV"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2213,7 +2213,7 @@
 {marker topicid_SH.HIV.INCD.TL}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.TL:SH.HIV.INCD.TL} - `"Adults (ages 15+) and children (ages 0-14) newly infected with HIV"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2224,13 +2224,13 @@
 
 {synoptline}
 {marker topicid_SH.HIV.INCD.ZS}
-{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - `"Incidence of HIV (% of uninfected population ages 15-49)"'}}
+{synopt:{bf:{help wbopendata_topicid##SH.HIV.INCD.ZS:SH.HIV.INCD.ZS} - `"Incidence of HIV (per 1,000 uninfected population ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-49 expressed per 100 uninfected population in the year before the period.{p_end}
+{synopt:{opt Source Notes}}Number of new HIV infections among uninfected populations ages 15-49 expressed per 1,000 uninfected population in the year before the period.{p_end}
 
 {synopt:{opt Source Organization}}UNAIDS estimates.{p_end}
 
@@ -2239,7 +2239,7 @@
 {marker topicid_SH.HIV.PMTC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.HIV.PMTC.ZS:SH.HIV.PMTC.ZS} - `"Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2317,7 +2317,7 @@
 {marker topicid_SH.IMM.HEPB}
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.HEPB:SH.IMM.HEPB} - `"Immunization, HepB3 (% of one-year-old children)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2395,7 +2395,7 @@
 {marker topicid_SH.IMM.IDPT}
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.IDPT:SH.IMM.IDPT} - `"Immunization, DPT (% of children ages 12-23 months)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2473,7 +2473,7 @@
 {marker topicid_SH.IMM.MEAS}
 {synopt:{bf:{help wbopendata_topicid##SH.IMM.MEAS:SH.IMM.MEAS} - `"Immunization, measles (% of children ages 12-23 months)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2616,7 +2616,7 @@
 {marker topicid_SH.MED.BEDS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.MED.BEDS.ZS:SH.MED.BEDS.ZS} - `"Hospital beds (per 1,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2629,7 +2629,7 @@
 {marker topicid_SH.MED.CMHW.P3}
 {synopt:{bf:{help wbopendata_topicid##SH.MED.CMHW.P3:SH.MED.CMHW.P3} - `"Community health workers (per 1,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2642,7 +2642,7 @@
 {marker topicid_SH.MED.NUMW.P3}
 {synopt:{bf:{help wbopendata_topicid##SH.MED.NUMW.P3:SH.MED.NUMW.P3} - `"Nurses and midwives (per 1,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2655,7 +2655,7 @@
 {marker topicid_SH.MED.PHYS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.MED.PHYS.ZS:SH.MED.PHYS.ZS} - `"Physicians (per 1,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2668,7 +2668,7 @@
 {marker topicid_SH.MED.SAOP.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.MED.SAOP.P5:SH.MED.SAOP.P5} - `"Specialist surgical workforce (per 100,000 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2694,7 +2694,7 @@
 {marker topicid_SH.MLR.INCD.P3}
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.INCD.P3:SH.MLR.INCD.P3} - `"Incidence of malaria (per 1,000 population at risk)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -2941,7 +2941,7 @@
 {marker topicid_SH.MLR.NETS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.NETS.ZS:SH.MLR.NETS.ZS} - `"Use of insecticide-treated bed nets (% of under-5 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3214,7 +3214,7 @@
 {marker topicid_SH.MLR.TRET.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.MLR.TRET.ZS:SH.MLR.TRET.ZS} - `"Children with fever receiving antimalarial drugs (% of children under age 5 with fever)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3227,46 +3227,46 @@
 {marker topicid_SH.MMR.DTHS}
 {synopt:{bf:{help wbopendata_topicid##SH.MMR.DTHS:SH.MMR.DTHS} - `"Number of maternal deaths"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management bu{p_end}
 
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
 
 
 {synoptline}
 {marker topicid_SH.MMR.RISK}
 {synopt:{bf:{help wbopendata_topicid##SH.MMR.RISK:SH.MMR.RISK} - `"Lifetime risk of maternal death (1 in: rate varies by country)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
 
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
 
 
 {synoptline}
 {marker topicid_SH.MMR.RISK.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.MMR.RISK.ZS:SH.MMR.RISK.ZS} - `"Lifetime risk of maternal death (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking{p_end}
 
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
 
 
 {synoptline}
 {marker topicid_SH.PRG.ANEM}
 {synopt:{bf:{help wbopendata_topicid##SH.PRG.ANEM:SH.PRG.ANEM} - `"Prevalence of anemia among pregnant women (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3279,7 +3279,7 @@
 {marker topicid_SH.PRV.SMOK}
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK:SH.PRV.SMOK} - `"Smoking prevalence, total (ages 15+)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3292,7 +3292,7 @@
 {marker topicid_SH.PRV.SMOK.FE}
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.FE:SH.PRV.SMOK.FE} - `"Smoking prevalence, females (% of adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3370,7 +3370,7 @@
 {marker topicid_SH.PRV.SMOK.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.PRV.SMOK.MA:SH.PRV.SMOK.MA} - `"Smoking prevalence, males (% of adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3383,7 +3383,7 @@
 {marker topicid_SH.SGR.CRSK.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.SGR.CRSK.ZS:SH.SGR.CRSK.ZS} - `"Risk of catastrophic expenditure for surgical care (% of people at risk)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3396,7 +3396,7 @@
 {marker topicid_SH.SGR.IRSK.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.SGR.IRSK.ZS:SH.SGR.IRSK.ZS} - `"Risk of impoverishing expenditure for surgical care (% of people at risk)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3409,7 +3409,7 @@
 {marker topicid_SH.SGR.PROC.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.SGR.PROC.P5:SH.SGR.PROC.P5} - `"Number of surgical procedures (per 100,000 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3461,7 +3461,7 @@
 {marker topicid_SH.STA.AIRP.FE.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.FE.P5:SH.STA.AIRP.FE.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized, female (per 100,000 female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3474,7 +3474,7 @@
 {marker topicid_SH.STA.AIRP.MA.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.MA.P5:SH.STA.AIRP.MA.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized, male (per 100,000 male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3487,7 +3487,7 @@
 {marker topicid_SH.STA.AIRP.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.AIRP.P5:SH.STA.AIRP.P5} - `"Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3630,7 +3630,7 @@
 {marker topicid_SH.STA.ANVC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ANVC.ZS:SH.STA.ANVC.ZS} - `"Pregnant women receiving prenatal care (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3773,7 +3773,7 @@
 {marker topicid_SH.STA.ARIC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ARIC.ZS:SH.STA.ARIC.ZS} - `"ARI treatment (% of children under 5 taken to a health provider)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3851,7 +3851,7 @@
 {marker topicid_SH.STA.BASS.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.RU.ZS:SH.STA.BASS.RU.ZS} - `"People using at least basic sanitation services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3864,7 +3864,7 @@
 {marker topicid_SH.STA.BASS.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.UR.ZS:SH.STA.BASS.UR.ZS} - `"People using at least basic sanitation services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3877,7 +3877,7 @@
 {marker topicid_SH.STA.BASS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BASS.ZS:SH.STA.BASS.ZS} - `"People using at least basic sanitation services (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -3955,7 +3955,7 @@
 {marker topicid_SH.STA.BFED.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BFED.ZS:SH.STA.BFED.ZS} - `"Exclusive breastfeeding (% of children under 6 months)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4033,7 +4033,7 @@
 {marker topicid_SH.STA.BRTC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTC.ZS:SH.STA.BRTC.ZS} - `"Births attended by skilled health staff (% of total)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4176,7 +4176,7 @@
 {marker topicid_SH.STA.BRTW.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.BRTW.ZS:SH.STA.BRTW.ZS} - `"Low-birthweight babies (% of births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4189,7 +4189,7 @@
 {marker topicid_SH.STA.DIAB.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.DIAB.ZS:SH.STA.DIAB.ZS} - `"Diabetes prevalence (% of population ages 20 to 79)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4332,7 +4332,7 @@
 {marker topicid_SH.STA.FGMS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.FGMS.ZS:SH.STA.FGMS.ZS} - `"Female genital mutilation prevalence (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4345,7 +4345,7 @@
 {marker topicid_SH.STA.HYGN.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.RU.ZS:SH.STA.HYGN.RU.ZS} - `"People with basic handwashing facilities including soap and water, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4358,7 +4358,7 @@
 {marker topicid_SH.STA.HYGN.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.UR.ZS:SH.STA.HYGN.UR.ZS} - `"People with basic handwashing facilities including soap and water, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4371,7 +4371,7 @@
 {marker topicid_SH.STA.HYGN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.HYGN.ZS:SH.STA.HYGN.ZS} - `"People with basic handwashing facilities including soap and water (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4449,7 +4449,7 @@
 {marker topicid_SH.STA.MALN.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.FE.ZS:SH.STA.MALN.FE.ZS} - `"Prevalence of underweight, weight for age, female (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4462,7 +4462,7 @@
 {marker topicid_SH.STA.MALN.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.MA.ZS:SH.STA.MALN.MA.ZS} - `"Prevalence of underweight, weight for age, male (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4540,7 +4540,7 @@
 {marker topicid_SH.STA.MALN.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MALN.ZS:SH.STA.MALN.ZS} - `"Prevalence of underweight, weight for age (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4618,20 +4618,20 @@
 {marker topicid_SH.STA.MMRT}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MMRT:SH.STA.MMRT} - `"Maternal mortality ratio (modeled estimate, per 100,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the pr{p_end}
 
-{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015. Geneva, World Health Organization, 2015{p_end}
+{synopt:{opt Source Organization}}WHO, UNICEF, UNFPA, World Bank Group, and the United Nations Population Division. Trends in Maternal Mortality: 2000 to 2017. Geneva, World Health Organization, 2019{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.MMRT.NE}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.MMRT.NE:SH.STA.MMRT.NE} - `"Maternal mortality ratio (national estimate, per 100,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4644,7 +4644,7 @@
 {marker topicid_SH.STA.ODFC.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.RU.ZS:SH.STA.ODFC.RU.ZS} - `"People practicing open defecation, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4657,7 +4657,7 @@
 {marker topicid_SH.STA.ODFC.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.UR.ZS:SH.STA.ODFC.UR.ZS} - `"People practicing open defecation, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4670,7 +4670,7 @@
 {marker topicid_SH.STA.ODFC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ODFC.ZS:SH.STA.ODFC.ZS} - `"People practicing open defecation (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4683,7 +4683,7 @@
 {marker topicid_SH.STA.ORCF.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORCF.ZS:SH.STA.ORCF.ZS} - `"Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4891,7 +4891,7 @@
 {marker topicid_SH.STA.ORTH}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.ORTH:SH.STA.ORTH} - `"Diarrhea treatment (% of children under 5 who received ORS packet)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4904,7 +4904,7 @@
 {marker topicid_SH.STA.OWGH.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.FE.ZS:SH.STA.OWGH.FE.ZS} - `"Prevalence of overweight, weight for height, female (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4917,7 +4917,7 @@
 {marker topicid_SH.STA.OWGH.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.MA.ZS:SH.STA.OWGH.MA.ZS} - `"Prevalence of overweight, weight for height, male (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4930,7 +4930,7 @@
 {marker topicid_SH.STA.OWGH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.OWGH.ZS:SH.STA.OWGH.ZS} - `"Prevalence of overweight, weight for height (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4943,11 +4943,11 @@
 {marker topicid_SH.STA.POIS.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5:SH.STA.POIS.P5} - `"Mortality rate attributed to unintentional poisoning (per 100,000 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon monoxide{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of deaths from unintentional poisonings in a year per 100,000 population.  Unintentional poisoning can{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4956,7 +4956,7 @@
 {marker topicid_SH.STA.POIS.P5.FE}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.FE:SH.STA.POIS.P5.FE} - `"Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4969,11 +4969,11 @@
 {marker topicid_SH.STA.POIS.P5.MA}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.POIS.P5.MA:SH.STA.POIS.P5.MA} - `"Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
-{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can be caused by household chemicals, pesticides, kerosene, carbon{p_end}
+{synopt:{opt Source Notes}}Mortality rate attributed to unintentional poisonings is the number of male deaths from unintentional poisonings in a year per 100,000 male population. Unintentional poisoning can{p_end}
 
 {synopt:{opt Source Organization}}World Health Organization, Global Health Observatory Data Repository ({browse "http://apps.who.int/ghodata/"}).{p_end}
 
@@ -4982,7 +4982,7 @@
 {marker topicid_SH.STA.SMSS.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.RU.ZS:SH.STA.SMSS.RU.ZS} - `"People using safely managed sanitation services, rural (% of rural population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -4995,7 +4995,7 @@
 {marker topicid_SH.STA.SMSS.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.UR.ZS:SH.STA.SMSS.UR.ZS} - `"People using safely managed sanitation services, urban (% of urban population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5008,7 +5008,7 @@
 {marker topicid_SH.STA.SMSS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SMSS.ZS:SH.STA.SMSS.ZS} - `"People using safely managed sanitation services (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5086,7 +5086,7 @@
 {marker topicid_SH.STA.STNT.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.FE.ZS:SH.STA.STNT.FE.ZS} - `"Prevalence of stunting, height for age, female (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5099,7 +5099,7 @@
 {marker topicid_SH.STA.STNT.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.MA.ZS:SH.STA.STNT.MA.ZS} - `"Prevalence of stunting, height for age, male (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5177,7 +5177,7 @@
 {marker topicid_SH.STA.STNT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.STNT.ZS:SH.STA.STNT.ZS} - `"Prevalence of stunting, height for age (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5190,7 +5190,7 @@
 {marker topicid_SH.STA.SUIC.FE.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.FE.P5:SH.STA.SUIC.FE.P5} - `"Suicide mortality rate, female (per 100,000 female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5203,7 +5203,7 @@
 {marker topicid_SH.STA.SUIC.MA.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.MA.P5:SH.STA.SUIC.MA.P5} - `"Suicide mortality rate, male (per 100,000 male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5216,7 +5216,7 @@
 {marker topicid_SH.STA.SUIC.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.SUIC.P5:SH.STA.SUIC.P5} - `"Suicide mortality rate (per 100,000 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5229,20 +5229,20 @@
 {marker topicid_SH.STA.TRAF.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.TRAF.P5:SH.STA.TRAF.P5} - `"Mortality caused by road traffic injury (per 100,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Mortality caused by road traffic injury is estimated road traffic fatal injury deaths per 100,000 population.{p_end}
 
-{synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety.{p_end}
+{synopt:{opt Source Organization}}World Health Organization, Global Status Report on Road Safety 2018 through Global Health Observatory data repository.{p_end}
 
 
 {synoptline}
 {marker topicid_SH.STA.WASH.P5}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WASH.P5:SH.STA.WASH.P5} - `"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5255,7 +5255,7 @@
 {marker topicid_SH.STA.WAST.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.FE.ZS:SH.STA.WAST.FE.ZS} - `"Prevalence of wasting, weight for height, female (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5268,7 +5268,7 @@
 {marker topicid_SH.STA.WAST.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.MA.ZS:SH.STA.WAST.MA.ZS} - `"Prevalence of wasting, weight for height, male (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5346,7 +5346,7 @@
 {marker topicid_SH.STA.WAST.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.STA.WAST.ZS:SH.STA.WAST.ZS} - `"Prevalence of wasting, weight for height (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5424,7 +5424,7 @@
 {marker topicid_SH.SVR.WAST.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.FE.ZS:SH.SVR.WAST.FE.ZS} - `"Prevalence of severe wasting, weight for height, female (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5437,7 +5437,7 @@
 {marker topicid_SH.SVR.WAST.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.MA.ZS:SH.SVR.WAST.MA.ZS} - `"Prevalence of severe wasting, weight for height, male (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5450,7 +5450,7 @@
 {marker topicid_SH.SVR.WAST.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.SVR.WAST.ZS:SH.SVR.WAST.ZS} - `"Prevalence of severe wasting, weight for height (% of children under 5)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5463,7 +5463,7 @@
 {marker topicid_SH.TBS.CURE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.TBS.CURE.ZS:SH.TBS.CURE.ZS} - `"Tuberculosis treatment success rate (% of new cases)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5476,7 +5476,7 @@
 {marker topicid_SH.TBS.DTEC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.TBS.DTEC.ZS:SH.TBS.DTEC.ZS} - `"Tuberculosis case detection rate (%, all forms)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5489,7 +5489,7 @@
 {marker topicid_SH.TBS.INCD}
 {synopt:{bf:{help wbopendata_topicid##SH.TBS.INCD:SH.TBS.INCD} - `"Incidence of tuberculosis (per 100,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5528,7 +5528,7 @@
 {marker topicid_SH.UHC.NOP1.CG}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.CG:SH.UHC.NOP1.CG} - `"Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5541,7 +5541,7 @@
 {marker topicid_SH.UHC.NOP1.TO}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.TO:SH.UHC.NOP1.TO} - `"Number of people pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5554,7 +5554,7 @@
 {marker topicid_SH.UHC.NOP1.ZG}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.ZG:SH.UHC.NOP1.ZG} - `"Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5567,7 +5567,7 @@
 {marker topicid_SH.UHC.NOP1.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP1.ZS:SH.UHC.NOP1.ZS} - `"Proportion of population pushed below the $1.90 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5580,7 +5580,7 @@
 {marker topicid_SH.UHC.NOP2.CG}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.CG:SH.UHC.NOP2.CG} - `"Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5593,7 +5593,7 @@
 {marker topicid_SH.UHC.NOP2.TO}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.TO:SH.UHC.NOP2.TO} - `"Number of people pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5606,7 +5606,7 @@
 {marker topicid_SH.UHC.NOP2.ZG}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZG:SH.UHC.NOP2.ZG} - `"Increase in poverty gap at $3.10 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5619,7 +5619,7 @@
 {marker topicid_SH.UHC.NOP2.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.NOP2.ZS:SH.UHC.NOP2.ZS} - `"Proportion of population pushed below the $3.10 ($ 2011 PPP) poverty line by out-of-pocket health care expenditure (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5632,7 +5632,7 @@
 {marker topicid_SH.UHC.OOPC.10.TO}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.10.TO:SH.UHC.OOPC.10.TO} - `"Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5645,7 +5645,7 @@
 {marker topicid_SH.UHC.OOPC.10.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.10.ZS:SH.UHC.OOPC.10.ZS} - `"Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5658,7 +5658,7 @@
 {marker topicid_SH.UHC.OOPC.25.TO}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.25.TO:SH.UHC.OOPC.25.TO} - `"Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5671,7 +5671,7 @@
 {marker topicid_SH.UHC.OOPC.25.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.OOPC.25.ZS:SH.UHC.OOPC.25.ZS} - `"Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5684,7 +5684,7 @@
 {marker topicid_SH.UHC.SRVS.CV.XD}
 {synopt:{bf:{help wbopendata_topicid##SH.UHC.SRVS.CV.XD:SH.UHC.SRVS.CV.XD} - `"UHC service coverage index"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5762,7 +5762,7 @@
 {marker topicid_SH.VAC.TTNS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.VAC.TTNS.ZS:SH.VAC.TTNS.ZS} - `"Newborns protected against tetanus (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5788,7 +5788,7 @@
 {marker topicid_SH.XPD.CHEX.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.GD.ZS:SH.XPD.CHEX.GD.ZS} - `"Current health expenditure (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5801,7 +5801,7 @@
 {marker topicid_SH.XPD.CHEX.PC.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.PC.CD:SH.XPD.CHEX.PC.CD} - `"Current health expenditure per capita (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5814,7 +5814,7 @@
 {marker topicid_SH.XPD.CHEX.PP.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.CHEX.PP.CD:SH.XPD.CHEX.PP.CD} - `"Current health expenditure per capita, PPP (current international $)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5827,7 +5827,7 @@
 {marker topicid_SH.XPD.EHEX.CH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.CH.ZS:SH.XPD.EHEX.CH.ZS} - `"External health expenditure (% of current health expenditure)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5840,7 +5840,7 @@
 {marker topicid_SH.XPD.EHEX.PC.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.PC.CD:SH.XPD.EHEX.PC.CD} - `"External health expenditure per capita (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5853,7 +5853,7 @@
 {marker topicid_SH.XPD.EHEX.PP.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.EHEX.PP.CD:SH.XPD.EHEX.PP.CD} - `"External health expenditure per capita, PPP (current international $)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5879,7 +5879,7 @@
 {marker topicid_SH.XPD.GHED.CH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.CH.ZS:SH.XPD.GHED.CH.ZS} - `"Domestic general government health expenditure (% of current health expenditure)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5892,7 +5892,7 @@
 {marker topicid_SH.XPD.GHED.GD.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.GD.ZS:SH.XPD.GHED.GD.ZS} - `"Domestic general government health expenditure (% of GDP)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5905,7 +5905,7 @@
 {marker topicid_SH.XPD.GHED.GE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.GE.ZS:SH.XPD.GHED.GE.ZS} - `"Domestic general government health expenditure (% of general government expenditure)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5918,7 +5918,7 @@
 {marker topicid_SH.XPD.GHED.PC.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.PC.CD:SH.XPD.GHED.PC.CD} - `"Domestic general government health expenditure per capita (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5931,7 +5931,7 @@
 {marker topicid_SH.XPD.GHED.PP.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.GHED.PP.CD:SH.XPD.GHED.PP.CD} - `"Domestic general government health expenditure per capita, PPP (current international $)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5944,7 +5944,7 @@
 {marker topicid_SH.XPD.OOPC.CH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.CH.ZS:SH.XPD.OOPC.CH.ZS} - `"Out-of-pocket expenditure (% of current health expenditure)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5957,7 +5957,7 @@
 {marker topicid_SH.XPD.OOPC.PC.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.PC.CD:SH.XPD.OOPC.PC.CD} - `"Out-of-pocket expenditure per capita (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -5970,7 +5970,7 @@
 {marker topicid_SH.XPD.OOPC.PP.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.OOPC.PP.CD:SH.XPD.OOPC.PP.CD} - `"Out-of-pocket expenditure per capita, PPP (current international $)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6100,7 +6100,7 @@
 {marker topicid_SH.XPD.PVTD.CH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.CH.ZS:SH.XPD.PVTD.CH.ZS} - `"Domestic private health expenditure (% of current health expenditure)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6113,7 +6113,7 @@
 {marker topicid_SH.XPD.PVTD.PC.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.PC.CD:SH.XPD.PVTD.PC.CD} - `"Domestic private health expenditure per capita (current US$)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6126,7 +6126,7 @@
 {marker topicid_SH.XPD.PVTD.PP.CD}
 {synopt:{bf:{help wbopendata_topicid##SH.XPD.PVTD.PP.CD:SH.XPD.PVTD.PP.CD} - `"Domestic private health expenditure per capita, PPP (current international $)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6165,46 +6165,46 @@
 {marker topicid_SM.POP.NETM}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.NETM:SM.POP.NETM} - `"Net migration"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SM.POP.REFG}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.REFG:SM.POP.REFG} - `"Refugee population by country or territory of asylum"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are{p_end}
+{synopt:{opt Source Organization}}Data before 2018 are from United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its we{p_end}
 
 
 {synoptline}
 {marker topicid_SM.POP.REFG.OR}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.REFG.OR:SM.POP.REFG.OR} - `"Refugee population by country or territory of origin"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Refugees are people who are recognized as refugees under the 1951 Convention Relating to the Status of Refugees or its 1967 Protocol, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Afric{p_end}
 
-{synopt:{opt Source Organization}}United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its website. Data from UNHCR are{p_end}
+{synopt:{opt Source Organization}}Data before 2018 are from United Nations High Commissioner for Refugees (UNHCR), Statistics Database, Statistical Yearbook and data files, complemented by statistics on Palestinian refugees under the mandate of the UNRWA as published on its we{p_end}
 
 
 {synoptline}
 {marker topicid_SM.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL:SM.POP.TOTL} - `"International migrant stock, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6217,7 +6217,7 @@
 {marker topicid_SM.POP.TOTL.ZS}
 {synopt:{bf:{help wbopendata_topicid##SM.POP.TOTL.ZS:SM.POP.TOTL.ZS} - `"International migrant stock (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6230,7 +6230,7 @@
 {marker topicid_SN.ITK.DEFC.ZS}
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.DEFC.ZS:SN.ITK.DEFC.ZS} - `"Prevalence of undernourishment (% of population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6243,7 +6243,7 @@
 {marker topicid_SN.ITK.DFCT}
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.DFCT:SN.ITK.DFCT} - `"Depth of the food deficit (kilocalories per person per day)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}`"57 WDI Database Archives"'{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6269,7 +6269,7 @@
 {marker topicid_SN.ITK.SALT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.SALT.ZS:SN.ITK.SALT.ZS} - `"Consumption of iodized salt (% of households)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6412,7 +6412,7 @@
 {marker topicid_SN.ITK.VITA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SN.ITK.VITA.ZS:SN.ITK.VITA.ZS} - `"Vitamin A supplementation coverage rate (% of children ages 6-59 months)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6425,7 +6425,7 @@
 {marker topicid_SP.ADO.TFRT}
 {synopt:{bf:{help wbopendata_topicid##SP.ADO.TFRT:SP.ADO.TFRT} - `"Adolescent fertility rate (births per 1,000 women ages 15-19)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6438,7 +6438,7 @@
 {marker topicid_SP.DTH.INFR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DTH.INFR.ZS:SP.DTH.INFR.ZS} - `"Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6451,7 +6451,7 @@
 {marker topicid_SP.DTH.REPT.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DTH.REPT.ZS:SP.DTH.REPT.ZS} - `"Completeness of total death reporting (% of reported total deaths to estimated total deaths)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6464,52 +6464,52 @@
 {marker topicid_SP.DYN.AMRT.FE}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.FE:SP.DYN.AMRT.FE} - `"Mortality rate, adult, female (per 1,000 female adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Adult mortality rate, female, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old female dying before reaching age 60, if subject to age-specific mortality rates of the specified year between th{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.AMRT.MA}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.AMRT.MA:SP.DYN.AMRT.MA} - `"Mortality rate, adult, male (per 1,000 male adults)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) University of California, Berkeley, and Max Planck Institute for Demographic Research. The Human Mortality Database.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CBRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CBRT.IN:SP.DYN.CBRT.IN} - `"Birth rate, crude (per 1,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.CDRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CDRT.IN:SP.DYN.CDRT.IN} - `"Death rate, crude (per 1,000 people)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -6646,7 +6646,7 @@
 {marker topicid_SP.DYN.CONM.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONM.ZS:SP.DYN.CONM.ZS} - `"Contraceptive prevalence, modern methods (% of women ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6724,7 +6724,7 @@
 {marker topicid_SP.DYN.CONU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.CONU.ZS:SP.DYN.CONU.ZS} - `"Contraceptive prevalence, any methods (% of women ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6737,7 +6737,7 @@
 {marker topicid_SP.DYN.IMRT.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.FE.IN:SP.DYN.IMRT.FE.IN} - `"Mortality rate, infant, female (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6750,7 +6750,7 @@
 {marker topicid_SP.DYN.IMRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.IN:SP.DYN.IMRT.IN} - `"Mortality rate, infant (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6763,7 +6763,7 @@
 {marker topicid_SP.DYN.IMRT.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.IMRT.MA.IN:SP.DYN.IMRT.MA.IN} - `"Mortality rate, infant, male (per 1,000 live births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -6841,52 +6841,52 @@
 {marker topicid_SP.DYN.LE00.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - `"Life expectancy at birth, female (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.IN:SP.DYN.LE00.IN} - `"Life expectancy at birth, total (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision, or derived from male and female life expectancy at birth from sources such as: (2) Census reports and other statistical publications from national statistical o{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.LE00.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.MA.IN:SP.DYN.LE00.MA.IN} - `"Life expectancy at birth, male (years)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TFRT.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TFRT.IN:SP.DYN.TFRT.IN} - `"Fertility rate, total (births per woman)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
@@ -6958,33 +6958,33 @@
 {marker topicid_SP.DYN.TO65.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TO65.FE.ZS:SP.DYN.TO65.FE.ZS} - `"Survival to age 65, female (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.TO65.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.TO65.MA.ZS:SP.DYN.TO65.MA.ZS} - `"Survival to age 65, male (% of cohort)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Survival to age 65 refers to the percentage of a cohort of newborn infants that would survive to age 65, if subject to age specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.DYN.WFRT}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.WFRT:SP.DYN.WFRT} - `"Wanted fertility rate (births per woman)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7062,7 +7062,7 @@
 {marker topicid_SP.HOU.FEMA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.HOU.FEMA.ZS:SP.HOU.FEMA.ZS} - `"Female headed households (% of households with a female head)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7075,7 +7075,7 @@
 {marker topicid_SP.M15.2024.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.M15.2024.FE.ZS:SP.M15.2024.FE.ZS} - `"Women who were first married by age 15 (% of women ages 20-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7088,7 +7088,7 @@
 {marker topicid_SP.M18.2024.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.M18.2024.FE.ZS:SP.M18.2024.FE.ZS} - `"Women who were first married by age 18 (% of women ages 20-24)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7166,7 +7166,7 @@
 {marker topicid_SP.MTR.1519.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.MTR.1519.ZS:SP.MTR.1519.ZS} - `"Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -7177,652 +7177,652 @@
 
 {synoptline}
 {marker topicid_SP.POP.0004.FE.5Y}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y} - `"Population ages 0-4, female (% of female population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0004.FE.5Y:SP.POP.0004.FE.5Y} - `"Population ages 00-04, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 4 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0004.MA.5Y}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - `"Population ages 0-4, male (% of male population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0004.MA.5Y:SP.POP.0004.MA.5Y} - `"Population ages 00-04, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 4 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.IN:SP.POP.0014.FE.IN} - `"Population ages 0-14, female"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - `"Population ages 0-14, female (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.FE.ZS:SP.POP.0014.FE.ZS} - `"Population ages 0-14, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 0 to 14 as a percentage of the total female population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.IN:SP.POP.0014.MA.IN} - `"Population ages 0-14, male"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - `"Population ages 0-14, male (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.MA.ZS:SP.POP.0014.MA.ZS} - `"Population ages 0-14, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 0 to 14 as a percentage of the total male population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO:SP.POP.0014.TO} - `"Population ages 0-14, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0014.TO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - `"Population ages 0-14 (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0014.TO.ZS:SP.POP.0014.TO.ZS} - `"Population ages 0-14 (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0509.FE.5Y}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y} - `"Population ages 5-9, female (% of female population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.FE.5Y:SP.POP.0509.FE.5Y} - `"Population ages 05-09, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 5 to 9 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.0509.MA.5Y}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - `"Population ages 5-9, male (% of male population)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.0509.MA.5Y:SP.POP.0509.MA.5Y} - `"Population ages 05-09, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 5 to 9 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1014.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.FE.5Y:SP.POP.1014.FE.5Y} - `"Population ages 10-14, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 10 to 14 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1014.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1014.MA.5Y:SP.POP.1014.MA.5Y} - `"Population ages 10-14, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 10 to 14 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1519.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.FE.5Y:SP.POP.1519.FE.5Y} - `"Population ages 15-19, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 19 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1519.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1519.MA.5Y:SP.POP.1519.MA.5Y} - `"Population ages 15-19, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 19 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.IN:SP.POP.1564.FE.IN} - `"Population ages 15-64, female"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - `"Population ages 15-64, female (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.FE.ZS:SP.POP.1564.FE.ZS} - `"Population ages 15-64, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 15 to 64 as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.IN:SP.POP.1564.MA.IN} - `"Population ages 15-64, male"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS} - `"Population ages 15-64, male (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.MA.ZS:SP.POP.1564.MA.ZS} - `"Population ages 15-64, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 15 to 64 as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO:SP.POP.1564.TO} - `"Population ages 15-64, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.1564.TO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - `"Population ages 15-64 (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.1564.TO.ZS:SP.POP.1564.TO.ZS} - `"Population ages 15-64 (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population between the ages 15 to 64 as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.2024.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2024.FE.5Y:SP.POP.2024.FE.5Y} - `"Population ages 20-24, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 20 to 24 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.2024.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2024.MA.5Y:SP.POP.2024.MA.5Y} - `"Population ages 20-24, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 20 to 24 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.2529.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2529.FE.5Y:SP.POP.2529.FE.5Y} - `"Population ages 25-29, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 25 to 29 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.2529.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.2529.MA.5Y:SP.POP.2529.MA.5Y} - `"Population ages 25-29, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 25 to 29 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.3034.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.FE.5Y:SP.POP.3034.FE.5Y} - `"Population ages 30-34, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 30 to 34 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.3034.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3034.MA.5Y:SP.POP.3034.MA.5Y} - `"Population ages 30-34, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 30 to 34 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.3539.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.FE.5Y:SP.POP.3539.FE.5Y} - `"Population ages 35-39, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 35 to 39 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.3539.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.3539.MA.5Y:SP.POP.3539.MA.5Y} - `"Population ages 35-39, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 35 to 39 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4044.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.FE.5Y:SP.POP.4044.FE.5Y} - `"Population ages 40-44, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 40 to 44 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4044.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4044.MA.5Y:SP.POP.4044.MA.5Y} - `"Population ages 40-44, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 40 to 44 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4549.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.FE.5Y:SP.POP.4549.FE.5Y} - `"Population ages 45-49, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 45 to 49 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.4549.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.4549.MA.5Y:SP.POP.4549.MA.5Y} - `"Population ages 45-49, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 45 to 49 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5054.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.FE.5Y:SP.POP.5054.FE.5Y} - `"Population ages 50-54, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 50 to 54 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5054.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5054.MA.5Y:SP.POP.5054.MA.5Y} - `"Population ages 50-54, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 50 to 54 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5559.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.FE.5Y:SP.POP.5559.FE.5Y} - `"Population ages 55-59, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 55 to 59 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.5559.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.5559.MA.5Y:SP.POP.5559.MA.5Y} - `"Population ages 55-59, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 55 to 59 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.6064.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.FE.5Y:SP.POP.6064.FE.5Y} - `"Population ages 60-64, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 60 to 64 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.6064.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6064.MA.5Y:SP.POP.6064.MA.5Y} - `"Population ages 60-64, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 60 to 64 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.6569.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6569.FE.5Y:SP.POP.6569.FE.5Y} - `"Population ages 65-69, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 65 to 69 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.6569.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.6569.MA.5Y:SP.POP.6569.MA.5Y} - `"Population ages 65-69, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 65 to 69 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.IN:SP.POP.65UP.FE.IN} - `"Population ages 65 and above, female"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - `"Population ages 65 and above, female (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.FE.ZS:SP.POP.65UP.FE.ZS} - `"Population ages 65 and above, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population 65 years of age or older as a percentage of the total female population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.IN:SP.POP.65UP.MA.IN} - `"Population ages 65 and above, male"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - `"Population ages 65 and above, male (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.MA.ZS:SP.POP.65UP.MA.ZS} - `"Population ages 65 and above, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population 65 years of age or older as a percentage of the total male population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.TO}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO:SP.POP.65UP.TO} - `"Population ages 65 and above, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.65UP.TO.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS} - `"Population ages 65 and above (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.65UP.TO.ZS:SP.POP.65UP.TO.ZS} - `"Population ages 65 and above (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.7074.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7074.FE.5Y:SP.POP.7074.FE.5Y} - `"Population ages 70-74, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 70 to 74 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.7074.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7074.MA.5Y:SP.POP.7074.MA.5Y} - `"Population ages 70-74, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 70 to 74 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.7579.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.FE.5Y:SP.POP.7579.FE.5Y} - `"Population ages 75-79, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 75 to 79 as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.7579.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.7579.MA.5Y:SP.POP.7579.MA.5Y} - `"Population ages 75-79, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 75 to 79 as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
@@ -7835,170 +7835,170 @@
 
 {synopt:{opt Source Notes}}Female population between the ages 80 and above.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on United Nations Population Division, World Population Prospects.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.FE.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.FE.5Y:SP.POP.80UP.FE.5Y} - `"Population ages 80 and above, female (% of female population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population between the ages 80 and above as a percentage of the total female population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.80UP.MA.5Y}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.80UP.MA.5Y:SP.POP.80UP.MA.5Y} - `"Population ages 80 and above, male (% of male population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population between the ages 80 and above as a percentage of the total male population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.BRTH.MF}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.BRTH.MF:SP.POP.BRTH.MF} - `"Sex ratio at birth (male births per female births)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Sex ratio at birth refers to male births per female births. The data are 5 year averages.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND:SP.POP.DPND} - `"Age dependency ratio (% of working-age population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND.OL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.OL:SP.POP.DPND.OL} - `"Age dependency ratio, old (% of working-age population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.DPND.YG}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.DPND.YG:SP.POP.DPND.YG} - `"Age dependency ratio, young (% of working-age population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Age dependency ratio, young, is the ratio of younger dependents--people younger than 15--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.GROW}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.GROW:SP.POP.GROW} - `"Population growth (annual %)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2017 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
+{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2019 Revision, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demogra{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL:SP.POP.TOTL} - `"Population, total"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2017 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
+{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2019 Revision. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Di{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.IN:SP.POP.TOTL.FE.IN} - `"Population, female"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population is based on the de facto definition of population, which counts all female residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.FE.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - `"Population, female (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.FE.ZS:SP.POP.TOTL.FE.ZS} - `"Population, female (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Female population is the percentage of the population that is female. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.MA.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.IN:SP.POP.TOTL.MA.IN} - `"Population, male"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population is based on the de facto definition of population, which counts all male residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.POP.TOTL.MA.ZS}
-{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS} - `"Population, male (% of total)"'}}
+{synopt:{bf:{help wbopendata_topicid##SP.POP.TOTL.MA.ZS:SP.POP.TOTL.MA.ZS} - `"Population, male (% of total population)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Male population is the percentage of the population that is male. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2017 Revision.{p_end}
+{synopt:{opt Source Organization}}World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.{p_end}
 
 
 {synoptline}
 {marker topicid_SP.REG.BRTH.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.FE.ZS:SP.REG.BRTH.FE.ZS} - `"Completeness of birth registration, female (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8011,7 +8011,7 @@
 {marker topicid_SP.REG.BRTH.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.MA.ZS:SP.REG.BRTH.MA.ZS} - `"Completeness of birth registration, male (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8024,7 +8024,7 @@
 {marker topicid_SP.REG.BRTH.RU.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.RU.ZS:SP.REG.BRTH.RU.ZS} - `"Completeness of birth registration, rural (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8037,7 +8037,7 @@
 {marker topicid_SP.REG.BRTH.UR.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.UR.ZS:SP.REG.BRTH.UR.ZS} - `"Completeness of birth registration, urban (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8050,7 +8050,7 @@
 {marker topicid_SP.REG.BRTH.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.REG.BRTH.ZS:SP.REG.BRTH.ZS} - `"Completeness of birth registration (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8063,7 +8063,7 @@
 {marker topicid_SP.REG.DTHS.ZS}
 {synopt:{bf:{help wbopendata_topicid##SP.REG.DTHS.ZS:SP.REG.DTHS.ZS} - `"Completeness of death registration with cause-of-death information (%)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8206,7 +8206,7 @@
 {marker topicid_SP.UWT.TFRT}
 {synopt:{bf:{help wbopendata_topicid##SP.UWT.TFRT:SP.UWT.TFRT} - `"Unmet need for contraception (% of married women ages 15-49)"'}}
 
-{synopt:{opt Source}}`"02 World Development Indicators"'{p_end}
+{synopt:{opt Source}}{p_end}
 
 {synopt:{opt Topics}}08 Health{p_end}
 
@@ -8281,4 +8281,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -10,11 +10,6 @@
 {synoptset 25 tabbed}{...}
 {synopthdr:Source Code}
 {synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
 {synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
 {synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
@@ -53,6 +48,13 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
+{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
+{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
+{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
+{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
+{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
+{synopt:{opt 74}}  {help wbopendata_sourceid_indicators74##sourceid_74:Macro Poverty Outlook External}{p_end}
+{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
 {marker sourceid_33}
@@ -542,7 +544,7 @@
 
 {synoptline}
 {marker sourceid_fin22a_t_d}
-{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d:fin22a_t_d} - `"Borrowed from a financial institution in the past year (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d:fin22a_t_d} - `"Borrowed from a financial institution or used a credit card (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -554,7 +556,7 @@
 
 {synoptline}
 {marker sourceid_fin22a_t_d_1}
-{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_1:fin22a_t_d_1} - `"Borrowed from a financial institution in the past year, female (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_1:fin22a_t_d_1} - `"Borrowed from a financial institution or used a credit card, female (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -566,7 +568,7 @@
 
 {synoptline}
 {marker sourceid_fin22a_t_d_2}
-{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_2:fin22a_t_d_2} - `"Borrowed from a financial institution in the past year, male (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_2:fin22a_t_d_2} - `"Borrowed from a financial institution or used a credit card, male (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -578,7 +580,7 @@
 
 {synoptline}
 {marker sourceid_fin22a_t_d_3}
-{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_3:fin22a_t_d_3} - `"Borrowed from a financial institution in the past year, income, poorest 40% (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_3:fin22a_t_d_3} - `"Borrowed from a financial institution or used a credit card, income, poorest 40% (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -590,7 +592,7 @@
 
 {synoptline}
 {marker sourceid_fin22a_t_d_4}
-{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_4:fin22a_t_d_4} - `"Borrowed from a financial institution in the past year, income, richest 60% (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_4:fin22a_t_d_4} - `"Borrowed from a financial institution or used a credit card, income, richest 60% (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -602,7 +604,7 @@
 
 {synoptline}
 {marker sourceid_fin22a_t_d_5}
-{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_5:fin22a_t_d_5} - `"Borrowed from a financial institution in the past year (% ages 15-34)"'}}
+{synopt:{bf:{help wbopendata_sourceid##fin22a_t_d_5:fin22a_t_d_5} - `"Borrowed from a financial institution or used a credit card (% ages 15-34)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -938,7 +940,7 @@
 
 {synoptline}
 {marker sourceid_g20_t}
-{synopt:{bf:{help wbopendata_sourceid##g20_t:g20_t} - `"Made or received digital payments (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t:g20_t} - `"Made or received digital payments in the past year (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -950,7 +952,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_1}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_1:g20_t_1} - `"Made or received digital payments, female (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_1:g20_t_1} - `"Made or received digital payments in the past year, female (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -962,7 +964,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_2}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_2:g20_t_2} - `"Made or received digital payments, male (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_2:g20_t_2} - `"Made or received digital payments in the past year, male (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -974,7 +976,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_3}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_3:g20_t_3} - `"Made or received digital payments, income, poorest 40% (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_3:g20_t_3} - `"Made or received digital payments in the past year, income, poorest 40% (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -986,7 +988,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_4}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_4:g20_t_4} - `"Made or received digital payments, income, richest 60% (% age 15+)"'}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_4:g20_t_4} - `"Made or received digital payments in the past year, income, richest 60% (% age 15+)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -998,7 +1000,7 @@
 
 {synoptline}
 {marker sourceid_g20_t_5}
-{synopt:{bf:{help wbopendata_sourceid##g20_t_5:g20_t_5} - `"Made or received digital payments, (% ages 15-34)"'}}
+{synopt:{bf:{help wbopendata_sourceid##g20_t_5:g20_t_5} - `"Made or received digital payments in the past year (% ages 15-34)"'}}
 
 {synopt:{opt Source}}`"33 G20 Financial Inclusion Indicators"'{p_end}
 
@@ -1633,4 +1635,4 @@
 
 
 
-{right:(as of 25mar2019)}
+{right:(as of 20oct2019)}

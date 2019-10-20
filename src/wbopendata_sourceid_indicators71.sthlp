@@ -57,33 +57,213 @@
 {synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
 
 
-{marker sourceid_60}
-{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators60##:TOC}}){p_end}
+{marker sourceid_71}
+{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}} or {it:{help wbopendata_sourceid_indicators71##:TOC}}){p_end}
 
 {synoptset 25 tabbed}{...}
-{syntab:{title:{bf:60 Economic Fitness}}}
+{syntab:{title:{bf:71 International Comparison Program (ICP) 2005}}}
 {synoptline}
-{marker sourceid_EF.EFM.OVRL.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.OVRL.XD:EF.EFM.OVRL.XD} - `"Economic Fitness Metric"'}}
+{marker sourceid_CD}
+{synopt:{bf:{help wbopendata_sourceid##CD:CD} - `"Expenditures (current US$, XR term)"'}}
 
-{synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
-
-
-{synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
-
-
-{synoptline}
-{marker sourceid_EF.EFM.RANK.XD}
-{synopt:{bf:{help wbopendata_sourceid##EF.EFM.RANK.XD:EF.EFM.RANK.XD} - `"Economic Fitness Ranking (1 = high, 149 = low)"'}}
-
-{synopt:{opt Source}}`"60 Economic Fitness"'{p_end}
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
 
 
 {synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_GD.ZS}
+{synopt:{bf:{help wbopendata_sourceid##GD.ZS:GD.ZS} - `"Expenditure shares of GDP (percentage share, GDP=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PA.NPP}
+{synopt:{bf:{help wbopendata_sourceid##PA.NPP:PA.NPP} - `"PPP (LCU per international $)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PA.NUS}
+{synopt:{bf:{help wbopendata_sourceid##PA.NUS:PA.NUS} - `"Exchange rate (LCU per US$, period average)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.CD}
+{synopt:{bf:{help wbopendata_sourceid##PC.CD:PC.CD} - `"Expenditures per capita (current US$, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.PP.CD}
+{synopt:{bf:{help wbopendata_sourceid##PC.PP.CD:PC.PP.CD} - `"Expenditures per capita (current international $, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.US.PP.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.US.PP.ZX:PC.US.PP.ZX} - `"Expenditures per capita (index, US=100, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.US.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.US.ZX:PC.US.ZX} - `"Expenditures per capita (index, US=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.WL.PP.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.WL.PP.ZX:PC.WL.PP.ZX} - `"Expenditures per capita (index, World=100, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PC.WL.ZX}
+{synopt:{bf:{help wbopendata_sourceid##PC.WL.ZX:PC.WL.ZX} - `"Expenditures per capita (index, World=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_POP}
+{synopt:{bf:{help wbopendata_sourceid##POP:POP} - `"Population"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_POP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##POP.ZS:POP.ZS} - `"Population (percentage share, World=100)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PP.CD}
+{synopt:{bf:{help wbopendata_sourceid##PP.CD:PP.CD} - `"Expenditures (current international $, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PX.US}
+{synopt:{bf:{help wbopendata_sourceid##PX.US:PX.US} - `"Price level index (US=100)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_PX.WL}
+{synopt:{bf:{help wbopendata_sourceid##PX.WL:PX.WL} - `"Price level index (World=100)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_WL.PP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##WL.PP.ZS:WL.PP.ZS} - `"Expenditures (percentage share, World=100, PPP term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_WL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##WL.ZS:WL.ZS} - `"Expenditures (percentage share, World=100, XR term)"'}}
+
+{synopt:{opt Source}}`"71 International Comparison Program (ICP) 2005"'{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 
