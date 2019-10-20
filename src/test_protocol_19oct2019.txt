@@ -194,3 +194,4 @@ type, seq , ctry, indicator, topic, rc, date, time
 4, -9 , -9, query_detail, update , 198 , 19 Oct 2019, 22:32:36
 4, -9 , -9, check_detail , update , 198 , 19 Oct 2019, 22:32:36
 4, -9 , -9, force, update , 198 , 19 Oct 2019, 22:32:36
+

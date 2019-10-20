@@ -1,4 +1,4 @@
-*! _longitude <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _longitude <19 Oct 2019 : 22:56:00>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _longitude 
@@ -42,7 +42,7 @@
          replace longitude = real("21.6407")    if `match' == "CAF"  
          replace longitude = real("-75.6919")    if `match' == "CAN"  
          replace longitude = real("7.44821")    if `match' == "CHE"  
-         replace longitude = real(".")    if `match' == "CHI"  
+         replace longitude = real("<wb:longitude")    if `match' == "CHI"  
          replace longitude = real("-70.6475")    if `match' == "CHL"  
          replace longitude = real("116.286")    if `match' == "CHN"  
          replace longitude = real("-4.0305")    if `match' == "CIV"  
@@ -54,7 +54,7 @@
          replace longitude = real("-23.5087")    if `match' == "CPV"  
          replace longitude = real("-84.0089")    if `match' == "CRI"  
          replace longitude = real("-82.3667")    if `match' == "CUB"  
-         replace longitude = real(".")    if `match' == "CUW"  
+         replace longitude = real("<wb:longitude")    if `match' == "CUW"  
          replace longitude = real("-81.3857")    if `match' == "CYM"  
          replace longitude = real("33.3736")    if `match' == "CYP"  
          replace longitude = real("14.4205")    if `match' == "CZE"  
@@ -79,7 +79,7 @@
          replace longitude = real("-0.126236")    if `match' == "GBR"  
          replace longitude = real("44.793")    if `match' == "GEO"  
          replace longitude = real("-0.20795")    if `match' == "GHA"  
-         replace longitude = real(".")    if `match' == "GIB"  
+         replace longitude = real("<wb:longitude")    if `match' == "GIB"  
          replace longitude = real("-13.7")    if `match' == "GIN"  
          replace longitude = real("-16.5885")    if `match' == "GMB"  
          replace longitude = real("-15.1804")    if `match' == "GNB"  
@@ -127,7 +127,7 @@
          replace longitude = real("6.1296")    if `match' == "LUX"  
          replace longitude = real("24.1048")    if `match' == "LVA"  
          replace longitude = real("113.55")    if `match' == "MAC"  
-         replace longitude = real(".")    if `match' == "MAF"  
+         replace longitude = real("<wb:longitude")    if `match' == "MAF"  
          replace longitude = real("-6.8704")    if `match' == "MAR"  
          replace longitude = real("7.41891")    if `match' == "MCO"  
          replace longitude = real("28.8497")    if `match' == "MDA"  
@@ -169,7 +169,7 @@
          replace longitude = real("125.754")    if `match' == "PRK"  
          replace longitude = real("-9.13552")    if `match' == "PRT"  
          replace longitude = real("-57.6362")    if `match' == "PRY"  
-         replace longitude = real(".")    if `match' == "PSE"  
+         replace longitude = real("<wb:longitude")    if `match' == "PSE"  
          replace longitude = real("-149.57")    if `match' == "PYF"  
          replace longitude = real("51.5082")    if `match' == "QAT"  
          replace longitude = real("26.0979")    if `match' == "ROU"  
@@ -192,7 +192,7 @@
          replace longitude = real("14.5044")    if `match' == "SVN"  
          replace longitude = real("18.0645")    if `match' == "SWE"  
          replace longitude = real("31.4659")    if `match' == "SWZ"  
-         replace longitude = real(".")    if `match' == "SXM"  
+         replace longitude = real("<wb:longitude")    if `match' == "SXM"  
          replace longitude = real("55.4466")    if `match' == "SYC"  
          replace longitude = real("36.3119")    if `match' == "SYR"  
          replace longitude = real("-71.141389")    if `match' == "TCA"  
@@ -207,7 +207,7 @@
          replace longitude = real("10.21")    if `match' == "TUN"  
          replace longitude = real("32.3606")    if `match' == "TUR"  
          replace longitude = real("179.089567")    if `match' == "TUV"  
-         replace longitude = real(".")    if `match' == "TWN"  
+         replace longitude = real("<wb:longitude")    if `match' == "TWN"  
          replace longitude = real("35.7382")    if `match' == "TZA"  
          replace longitude = real("32.5729")    if `match' == "UGA"  
          replace longitude = real("30.5038")    if `match' == "UKR"  
@@ -225,7 +225,6 @@
          replace longitude = real("44.2075")    if `match' == "YEM"  
          replace longitude = real("28.1871")    if `match' == "ZAF"  
          replace longitude = real("28.2937")    if `match' == "ZMB"  
-         replace longitude = real("31.0672")    if `match' == "ZWE"  
   
 *********************
   

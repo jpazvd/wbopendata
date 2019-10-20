@@ -1,4 +1,4 @@
-*! _incomelevel_iso2 <3 Mar 2019 : 20:52:10>                 by João Pedro Azevedo
+*! _incomelevel_iso2 <19 Oct 2019 : 22:56:00>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _incomelevel_iso2 
@@ -17,7 +17,7 @@
          replace incomelevel_iso2 = "NA"  if `match' == "ANR"  
          replace incomelevel_iso2 = "NA"  if `match' == "ARB"  
          replace incomelevel_iso2 = "XD"  if `match' == "ARE"  
-         replace incomelevel_iso2 = "XD"  if `match' == "ARG"  
+         replace incomelevel_iso2 = "XT"  if `match' == "ARG"  
          replace incomelevel_iso2 = "XT"  if `match' == "ARM"  
          replace incomelevel_iso2 = "XT"  if `match' == "ASM"  
          replace incomelevel_iso2 = "XD"  if `match' == "ATG"  
@@ -65,7 +65,7 @@
          replace incomelevel_iso2 = "XM"  if `match' == "COD"  
          replace incomelevel_iso2 = "XN"  if `match' == "COG"  
          replace incomelevel_iso2 = "XT"  if `match' == "COL"  
-         replace incomelevel_iso2 = "XM"  if `match' == "COM"  
+         replace incomelevel_iso2 = "XN"  if `match' == "COM"  
          replace incomelevel_iso2 = "XN"  if `match' == "CPV"  
          replace incomelevel_iso2 = "XT"  if `match' == "CRI"  
          replace incomelevel_iso2 = "NA"  if `match' == "CSA"  
@@ -114,7 +114,7 @@
          replace incomelevel_iso2 = "NA"  if `match' == "FXS"  
          replace incomelevel_iso2 = "XT"  if `match' == "GAB"  
          replace incomelevel_iso2 = "XD"  if `match' == "GBR"  
-         replace incomelevel_iso2 = "XN"  if `match' == "GEO"  
+         replace incomelevel_iso2 = "XT"  if `match' == "GEO"  
          replace incomelevel_iso2 = "XN"  if `match' == "GHA"  
          replace incomelevel_iso2 = "XD"  if `match' == "GIB"  
          replace incomelevel_iso2 = "XM"  if `match' == "GIN"  
@@ -172,7 +172,7 @@
          replace incomelevel_iso2 = "NA"  if `match' == "LDC"  
          replace incomelevel_iso2 = "NA"  if `match' == "LIC"  
          replace incomelevel_iso2 = "XD"  if `match' == "LIE"  
-         replace incomelevel_iso2 = "XN"  if `match' == "LKA"  
+         replace incomelevel_iso2 = "XT"  if `match' == "LKA"  
          replace incomelevel_iso2 = "NA"  if `match' == "LMC"  
          replace incomelevel_iso2 = "NA"  if `match' == "LMY"  
          replace incomelevel_iso2 = "XN"  if `match' == "LSO"  
@@ -250,7 +250,7 @@
          replace incomelevel_iso2 = "XD"  if `match' == "SAU"  
          replace incomelevel_iso2 = "NA"  if `match' == "SCE"  
          replace incomelevel_iso2 = "XN"  if `match' == "SDN"  
-         replace incomelevel_iso2 = "XM"  if `match' == "SEN"  
+         replace incomelevel_iso2 = "XN"  if `match' == "SEN"  
          replace incomelevel_iso2 = "XD"  if `match' == "SGP"  
          replace incomelevel_iso2 = "XN"  if `match' == "SLB"  
          replace incomelevel_iso2 = "XM"  if `match' == "SLE"  
@@ -306,12 +306,11 @@
          replace incomelevel_iso2 = "XN"  if `match' == "VUT"  
          replace incomelevel_iso2 = "NA"  if `match' == "WLD"  
          replace incomelevel_iso2 = "XT"  if `match' == "WSM"  
-         replace incomelevel_iso2 = "XN"  if `match' == "XKX"  
+         replace incomelevel_iso2 = "XT"  if `match' == "XKX"  
          replace incomelevel_iso2 = "NA"  if `match' == "XZN"  
          replace incomelevel_iso2 = "XM"  if `match' == "YEM"  
          replace incomelevel_iso2 = "XT"  if `match' == "ZAF"  
          replace incomelevel_iso2 = "XN"  if `match' == "ZMB"  
-         replace incomelevel_iso2 = "XM"  if `match' == "ZWE"  
   
 *********************
   
